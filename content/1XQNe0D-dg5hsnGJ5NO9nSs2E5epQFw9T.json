@@ -1,0 +1,310 @@
+[
+  {
+    "q": "1. Velocity of flow through porous medium is directly proportional to hydraulic gradient is ...........",
+    "options": [
+      "Newton's law",
+      "Stoke's law",
+      "Darcy's law",
+      "Reynold's law"
+    ],
+    "correct": 2,
+    "explain": "Darcy’s Law (v = ki) states that the discharge velocity is proportional to the hydraulic gradient in laminar flow."
+  },
+  {
+    "q": "2. Coefficient of percolation and coefficient of permeability are related by ...........",
+    "options": [
+      "K = Kp/n",
+      "K = Kpn",
+      "Kp = K/n",
+      "None of these"
+    ],
+    "correct": 2,
+    "explain": "Since seepage velocity (vs) = v / n, the coefficient of percolation (Kp) = k / n, where n is porosity."
+  },
+  {
+    "q": "3. Constant of proportionality between seepage velocity and hydraulic gradient is ...........",
+    "options": [
+      "coefficient of permeability",
+      "coefficient of percolation",
+      "coefficient of transmissibility",
+      "seepage coefficient"
+    ],
+    "correct": 1,
+    "explain": "The coefficient of percolation (Kp) is specifically associated with the actual seepage velocity through the pores, not the superficial discharge velocity."
+  },
+  {
+    "q": "4. Capillary water is held in the interstices of soil due to capillarity forces. The capillary forces depends upon ............",
+    "options": [
+      "surface tension of water",
+      "pressure in water",
+      "size of soil pores",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Capillary rise is governed by the formula $h = 4\\sigma\\cos\theta / (\\gamma_w d)$. Thus, it depends on surface tension ($\\sigma$), pore size (diameter $d$), and the resulting pressure differences."
+  },
+  {
+    "q": "5. Out of the following, which will have the maximum value of surface tension forces ............",
+    "options": [
+      "mercury",
+      "petrol",
+      "water",
+      "acetone"
+    ],
+    "correct": 0,
+    "explain": "Mercury has a significantly higher surface tension (approximately 480 mN/m) compared to water (72 mN/m) and other common liquids due to strong metallic bonding."
+  },
+  {
+    "q": "6. The permeability is ............",
+    "options": [
+      "Directly proportional to unit weight, inversely proportional to viscosity",
+      "Directly proportional to viscosity, inversely proportional to unit weight",
+      "Directly proportional to both unit weight and viscosity",
+      "Inversely proportional to both unit weight and viscosity"
+    ],
+    "correct": 0,
+    "explain": "As per the fundamental permeability equation, higher unit weight increases flow due to gravity, while higher viscosity resists flow, creating an inverse relationship with viscosity."
+  },
+  {
+    "q": "7. Due to rise in temperature, the unit weight and viscosity of the permeant fluid are reduced to 90% and 60% respectively. If other things remain constant, the coefficient of permeability ............",
+    "options": [
+      "increases by 33.3%",
+      "decreases by 33.3%",
+      "increases by 50%",
+      "increases by 25%"
+    ],
+    "correct": 2,
+    "explain": "Since $k \\propto \\gamma / \\mu$, the new permeability $k' = k \\cdot (0.9 / 0.6) = 1.5k$. This represents a 50% increase."
+  },
+  {
+    "q": "8. Units of co-efficient of permeability ............",
+    "options": [
+      "cm/s",
+      "s/cm",
+      "cm/s²",
+      "s²/cm"
+    ],
+    "correct": 0,
+    "explain": "Coefficient of permeability has the dimensions of velocity ($L/T$), commonly expressed in cm/sec or m/day."
+  },
+  {
+    "q": "9. In the case of stratified soils, the permeability's Kx and Kz along and across stratification are related as ............",
+    "options": [
+      "Kx < Kz",
+      "Kx = Kz",
+      "Kx > Kz",
+      "no relation between Kx and Kz"
+    ],
+    "correct": 2,
+    "explain": "In stratified deposits, the equivalent permeability parallel to the layers ($K_x$) is always greater than the equivalent permeability perpendicular to the layers ($K_z$)."
+  },
+  {
+    "q": "10. The range of coefficient of permeability of clay is about ............",
+    "options": [
+      "< 10⁻⁶",
+      "10⁻⁴ to 10⁻⁶",
+      "10⁻² to 10⁻⁴",
+      "10⁻² to 1"
+    ],
+    "correct": 0,
+    "explain": "Clay is considered practically impervious, with a coefficient of permeability typically less than $10^{-6}$ cm/sec (often reaching $10^{-9}$ cm/sec)."
+  },
+  {
+    "q": "11. The value of coefficient of permeability of sand is ............",
+    "options": [
+      "< 10⁻⁶",
+      "10⁻⁴ to 10⁻⁶",
+      "10⁻² to 10⁻⁴",
+      "10⁻² to 1"
+    ],
+    "correct": 3,
+    "explain": "Clean sand generally falls within the permeability range of $1$ to $10^{-2}$ cm/sec."
+  },
+  {
+    "q": "12. Soils with a value for coefficient of permeability ranging between 10⁻⁴ to 10⁻⁶ are classified as ............",
+    "options": [
+      "pervious soils",
+      "semi-pervious soils",
+      "impervious soils",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Soils with $k$ values between $10^{-4}$ and $10^{-6}$ cm/sec are termed semi-pervious (typical for silts and silty sands)."
+  },
+  {
+    "q": "13. Electrical analogy method is used to ............",
+    "options": [
+      "find electrical conductivity of soil",
+      "draw flownet",
+      "find the depth to water table",
+      "find the water content in a soil"
+    ],
+    "correct": 1,
+    "explain": "Electrical analogy uses the similarity between Darcy's law and Ohm's law to model seepage and construct flow nets for complex boundary conditions."
+  },
+  {
+    "q": "14. The shape factor of a flownet is defined as ............",
+    "options": [
+      "Nd / Nf",
+      "Nf / Nd",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Shape factor ($N_f / N_d$) is the ratio of the number of flow channels to the number of equipotential drops, which is a constant for a given boundary geometry."
+  },
+  {
+    "q": "15. The u/s face of an earth dam is ............",
+    "options": [
+      "an equipotential line",
+      "phreatic line",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The upstream face of a dam is submerged and in contact with water of the same potential, making it the first equipotential line ($100\\%$ head)."
+  },
+  {
+    "q": "16. Flow through an earth dam is a case of ............",
+    "options": [
+      "unconfined flow",
+      "confined flow",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "It is unconfined flow because the top boundary of the flow (the phreatic line) is at atmospheric pressure and is not fixed by an impermeable boundary."
+  },
+  {
+    "q": "17. The phreatic line is ............",
+    "options": [
+      "the u/s face of the earth dam",
+      "d/s face of the earth dam",
+      "the top flow line",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The phreatic line is the seepage line that marks the upper boundary of the saturated zone; it is the top flow line where pressure is atmospheric."
+  },
+  {
+    "q": "18. The hydrostatic pressure on the phreatic line with in a dam section is ............",
+    "options": [
+      "greater than atmospheric pressure",
+      "less than atmospheric pressure",
+      "equal to the atmospheric pressure",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "By definition, the phreatic line is the locus of points where the pore water pressure is zero (equal to atmospheric pressure)."
+  },
+  {
+    "q": "19. If h is the head of water stored, Nf is the number of flow lines and Nd is the number of equipotential drops in a flow net, then the seepage flow rate is given by ............",
+    "options": [
+      "q = k · h · (Nf / Nd)",
+      "q = k · h · (Nd / Nf)",
+      "q = k · h · (Nf / Nd)²",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The standard discharge formula from a flow net is $q = k \\cdot H \\cdot (N_f / N_d)$, where $H$ is the total head causing flow."
+  },
+  {
+    "q": "20. A flow net may be used for the determination of ............",
+    "options": [
+      "exit gradient",
+      "seepage flow rate",
+      "seepage pressure",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Flow nets are a graphical representation used to calculate all hydraulic parameters including discharge ($q$), uplift pressure at any point, and the gradient at the exit."
+  },
+  {
+    "q": "21. The seepage velocity vs and the Darcy's velocity v are related as ............",
+    "options": [
+      "v = vs / n",
+      "vs = v / n",
+      "vs = v · n",
+      "vs = n / v"
+    ],
+    "correct": 1,
+    "explain": "Since water only flows through the voids, the actual velocity ($v_s$) is higher than the discharge velocity ($v$). It is related by porosity ($n$) as $v_s = v/n$."
+  },
+  {
+    "q": "22. An isobar is ............",
+    "options": [
+      "a curve connecting points of equal vertical pressure",
+      "a point at which the net pressure is zero",
+      "a curve connecting points of equal horizontal pressure",
+      "a curve connecting points of equal pore water pressure"
+    ],
+    "correct": 0,
+    "explain": "An isobar (or 'pressure bulb') is a contour line that joins points of equal vertical stress increment in the soil mass below a loaded area."
+  },
+  {
+    "q": "23. Consolidation theory was enunciated by ............",
+    "options": [
+      "Rankine",
+      "Westergaard's",
+      "Skempton",
+      "Terzaghi"
+    ],
+    "correct": 3,
+    "explain": "Karl Terzaghi, the father of soil mechanics, developed the one-dimensional consolidation theory in 1923 to explain how saturated clays settle over time."
+  },
+  {
+    "q": "24. The unit of the coefficient of consolidation is ............",
+    "options": [
+      "cm²/cm",
+      "cm/sec",
+      "cm²/sec",
+      "gm-cm²/sec"
+    ],
+    "correct": 2,
+    "explain": "The coefficient of consolidation ($C_v$) is defined by the units of Area/Time ($L^2/T$), typically $cm^2/sec$ or $m^2/year$."
+  },
+  {
+    "q": "25. Direct measurement of permeability of the soil specimen can be made at any stage of loading in ............",
+    "options": [
+      "fixed ring type consolidometer",
+      "floating ring type consolidometer",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In a floating ring consolidometer, the ring is free to move, reducing friction and allowing for better drainage setups that facilitate direct permeability measurements during the test."
+  },
+  {
+    "q": "26. The expression for vertical stress at a point below the corner of a rectangular loaded area was derived by ............",
+    "options": [
+      "Boussinesq's",
+      "Westergaard's",
+      "Newmark",
+      "Fenske"
+    ],
+    "correct": 2,
+    "explain": "Newmark derived the integration of Boussinesq's equation specifically for a point under the corner of a rectangular area, leading to the use of 'Influence Charts'."
+  },
+  {
+    "q": "27. Newmark's chart is based on the concept of vertical stress under ............",
+    "options": [
+      "concentrated load",
+      "a line load",
+      "a strip load",
+      "a uniformly loaded circular area"
+    ],
+    "correct": 3,
+    "explain": "Newmark’s Influence Chart is constructed using the equation for vertical stress at the center of a uniformly loaded circular area."
+  },
+  {
+    "q": "28. Effective stress is ...............",
+    "options": [
+      "the stress at the particles contact",
+      "governing factor for the engineering properties of the soil",
+      "a physical parameter",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Effective stress represents the actual pressure transmitted through soil grain contacts. It is a fundamental physical parameter that controls soil strength and deformation."
+  }
+]

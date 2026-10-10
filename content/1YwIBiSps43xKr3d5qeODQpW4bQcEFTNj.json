@@ -1,0 +1,552 @@
+[
+  {
+    "q": "401. For a submerged body, if the centre of buoyancy is below the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "For a submerged body, stability is determined by the relative positions of G (Center of Gravity) and B (Center of Buoyancy). If G is above B, a small displacement creates a couple that increases the tilt, leading to unstable equilibrium."
+  },
+  {
+    "q": "402. For a submerged body, if the centre of buoyancy coincides with the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "When the center of gravity (G) and the center of buoyancy (B) coincide, the body remains in its new position after being disturbed, which defines neutral equilibrium."
+  },
+  {
+    "q": "403. For a submerged body, if the meta-centre is below the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "The concept of 'metacentre' is primarily used for floating bodies. For a fully submerged body, stability depends on the B and G relationship. Since the answer key specifies 'none of the above', it indicates that metacentric height rules for floating bodies don't apply here in the same way."
+  },
+  {
+    "q": "404. The necessary condition for the flow to be steady is that",
+    "options": [
+      "the velocity does not change from place to place",
+      "the velocity is constant at a point with respect to time",
+      "the velocity changes at a point with respect to time",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Steady flow is defined as the type of flow in which fluid characteristics like velocity, pressure, and density at a point do not change with time (dv/dt = 0)."
+  },
+  {
+    "q": "405. The necessary condition for the flow to be uniform is that",
+    "options": [
+      "the velocity is constant at a point with respect to time",
+      "the velocity is constant in the flow field with respect to space",
+      "the velocity changes at a point with respect to time",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Uniform flow occurs when the velocity of flow does not change with respect to space (distance) at any given time (dv/ds = 0)."
+  },
+  {
+    "q": "406. The flow in the pipe is laminar if",
+    "options": [
+      "Reynold number is equal to 2500",
+      "Reynold number is equal to 4000",
+      "Reynold number is more than 2500",
+      "None of the above"
+    ],
+    "correct": 3,
+    "explain": "For pipe flow, the flow is laminar if the Reynolds Number (Re) is less than 2000. Since all given options are 2500 or higher, they represent transition or turbulent flow, making 'None of the above' the correct choice."
+  },
+  {
+    "q": "407. A stream line is a line",
+    "options": [
+      "which is along the path of a particle",
+      "which is always parallel to the main direction of flow",
+      "across which there is no flow",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "By definition, the velocity vector is tangent to the streamline at every point; therefore, there is no component of velocity perpendicular to the streamline, meaning no flow crosses it."
+  },
+  {
+    "q": "408. Pitot-tube is used for measurement of",
+    "options": [
+      "pressure",
+      "flow",
+      "velocity at a point",
+      "discharge"
+    ],
+    "correct": 2,
+    "explain": "A Pitot tube measures the stagnation pressure to determine the local velocity of the fluid at the specific point where the tube is placed."
+  },
+  {
+    "q": "409. Bernoulli's theorem deals with the law of conservation of",
+    "options": [
+      "mass",
+      "momentum",
+      "energy",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Bernoulli's theorem states that for an incompressible, non-viscous fluid in steady flow, the sum of pressure energy, kinetic energy, and potential energy per unit mass remains constant, following the law of conservation of energy."
+  },
+  {
+    "q": "410. Continuity equation deals with the law of conservation of",
+    "options": [
+      "mass",
+      "momentum",
+      "energy",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The continuity equation (A1V1 = A2V2) is based on the principle that mass can neither be created nor destroyed in a flow system, representing the conservation of mass."
+  },
+  {
+    "q": "411. Irrotational flow means",
+    "options": [
+      "the fluid does not rotate while moving",
+      "the fluid moves in straight lines",
+      "the net rotation of fluid-particles about their mass centres is zero",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Irrotational flow is a flow in which the fluid particles do not rotate about their own axes, meaning the curl of the velocity vector is zero."
+  },
+  {
+    "q": "412. Bernoulli's equation is derived making assumptions that",
+    "options": [
+      "the flow is uniform, steady and incompressible",
+      "the flow is non-viscous, uniform and steady",
+      "the flow is steady, non-viscous, incompressible and irrotational",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The standard derivation of Bernoulli's equation assumes the fluid is ideal (non-viscous), the flow is steady, incompressible, and occurs along a streamline (irrotational)."
+  },
+  {
+    "q": "413. If the velocity, pressure, density etc, do not change at a point with respect to time, the flow is called",
+    "options": [
+      "uniform",
+      "incompressible",
+      "non-uniform",
+      "steady"
+    ],
+    "correct": 3,
+    "explain": "When fluid properties at a specific point remain constant regardless of time, the flow is categorized as steady flow."
+  },
+  {
+    "q": "414. If the velocity, pressure, density etc., change at a point with respect to time, the flow is called",
+    "options": [
+      "uniform",
+      "compressible",
+      "unsteady",
+      "incompressible"
+    ],
+    "correct": 2,
+    "explain": "If fluid parameters at any point vary as time progresses, the flow is known as unsteady flow."
+  },
+  {
+    "q": "415. If the velocity in a fluid flow does not change with respect to length of direction of flow, it is called",
+    "options": [
+      "steady flow",
+      "uniform flow",
+      "incompressible flow",
+      "rotational flow"
+    ],
+    "correct": 1,
+    "explain": "Uniform flow is characterized by the velocity remaining constant in magnitude and direction at all points in the flow field at any given instant."
+  },
+  {
+    "q": "416. If the velocity in a fluid flow changes with respect to length of direction of flow, it is called",
+    "options": [
+      "unsteady flow",
+      "compressible flow",
+      "irrotational flow",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "When velocity changes with respect to distance along the flow path, it is called non-uniform flow. Since non-uniform is not in the options, 'none of the above' is correct."
+  },
+  {
+    "q": "417. If the density of a fluid is constant from point to point in a flow region, it is called",
+    "options": [
+      "steady flow",
+      "incompressible flow",
+      "uniform flow",
+      "rotational flow"
+    ],
+    "correct": 1,
+    "explain": "Incompressible flow is a flow where the density of the fluid remains constant throughout the flow process."
+  },
+  {
+    "q": "418. If the density of a fluid changes from point to point in a flow region, it is called",
+    "options": [
+      "steady flow",
+      "unsteady flow",
+      "non-uniform flow",
+      "compressible flow"
+    ],
+    "correct": 3,
+    "explain": "Compressible flow is a flow where the density of the fluid changes from point to point, usually due to changes in pressure."
+  },
+  {
+    "q": "419. If the fluid particles move in straight lines and all the lines are parallel to the surface, the flow is called",
+    "options": [
+      "steady",
+      "uniform",
+      "compressible",
+      "laminar"
+    ],
+    "correct": 3,
+    "explain": "Laminar flow (also known as streamline flow) is characterized by fluid particles moving in smooth, parallel layers or 'laminae'."
+  },
+  {
+    "q": "420. If the fluid particles move in a zig-zag way, the flow is called",
+    "options": [
+      "unsteady",
+      "non-uniform",
+      "turbulent",
+      "incompressible"
+    ],
+    "correct": 2,
+    "explain": "Turbulent flow is characterized by chaotic, irregular, and zig-zag movement of fluid particles, causing rapid mixing."
+  },
+  {
+    "q": "421. Vorticity is given by",
+    "options": [
+      "two times the rotation",
+      "1.5 times the rotation",
+      "three times the rotation",
+      "equal to the rotation"
+    ],
+    "correct": 0,
+    "explain": "Vorticity is defined mathematically as the curl of the velocity vector, which is exactly equal to twice the angular velocity (rotation)."
+  },
+  {
+    "q": "422. Study of fluid motion with the forces causing the flow is known as",
+    "options": [
+      "kinematics of fluid flow",
+      "dynamics of fluid flow",
+      "statics of fluid flow",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Fluid Dynamics is the branch of fluid mechanics that studies the relationship between fluid motion and the forces causing that motion."
+  },
+  {
+    "q": "423. Study of fluid motion without considering the forces causing the flow is known as",
+    "options": [
+      "kinematics of fluid flow",
+      "dynamics of fluid flow",
+      "statics of fluid flow",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Fluid Kinematics focuses on describing the motion of fluids (velocity, acceleration) without reference to the forces involved."
+  },
+  {
+    "q": "424. Study of fluid at rest, is known as",
+    "options": [
+      "kinematics",
+      "dynamics",
+      "statics",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Fluid Statics (Hydrostatics) is the study of fluids that are not in motion."
+  },
+  {
+    "q": "425. The term V²/2g is known as",
+    "options": [
+      "kinetic energy",
+      "pressure energy",
+      "kinetic energy per unit weight",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In the Bernoulli equation, the term V²/2g represents the Kinetic Head, which is the kinetic energy of the fluid per unit weight."
+  },
+  {
+    "q": "426. The term p/ρg is known as",
+    "options": [
+      "kinetic energy per unit weight",
+      "pressure energy",
+      "pressure energy per unit weight",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The term p/ρg represents the 'Pressure Head', which is the pressure energy of the fluid per unit weight of the fluid."
+  },
+  {
+    "q": "427. The term Z is known as",
+    "options": [
+      "potential energy",
+      "pressure energy",
+      "potential energy per unit weight",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In Bernoulli's equation, Z represents the 'Datum Head' or 'Elevation Head', which is the potential energy per unit weight of the fluid."
+  },
+  {
+    "q": "428. The difference of pressure head (h) measured by a mercury-oil differential manometer is given as",
+    "options": [
+      "h = x [1 - Sg/So]",
+      "h = x [Sg - So]",
+      "x [So - Sg]",
+      "h = x [Sg/So - 1]"
+    ],
+    "correct": 3,
+    "explain": "When the manometric liquid (Sg) is heavier than the flowing liquid (So), the pressure head difference is h = x[(Sg/So) - 1], where x is the difference in mercury levels."
+  },
+  {
+    "q": "429. Pitot-tube is used to measure",
+    "options": [
+      "discharge",
+      "average velocity",
+      "velocity at a point",
+      "pressure at a point"
+    ],
+    "correct": 2,
+    "explain": "A Pitot tube is a primary instrument used to measure the local or point velocity of flow by converting kinetic energy into pressure energy at the stagnation point."
+  },
+  {
+    "q": "430. Venturimeter is used to measure",
+    "options": [
+      "discharge",
+      "average velocity",
+      "velocity at a point",
+      "pressure at a point"
+    ],
+    "correct": 0,
+    "explain": "A venturimeter is a device based on Bernoulli's principle used specifically for measuring the rate of flow (discharge) through a pipeline."
+  },
+  {
+    "q": "431. Orifice-meter is used to measure",
+    "options": [
+      "discharge",
+      "average velocity",
+      "velocity at a point",
+      "pressure at a point"
+    ],
+    "correct": 0,
+    "explain": "Similar to a venturimeter, an orifice-meter is a cheaper alternative used to measure the discharge or rate of flow in a pipe by creating a pressure drop."
+  },
+  {
+    "q": "432. For a sub-merged curved surface, the horizontal component of force due to static liquid is equal to",
+    "options": [
+      "weight to liquid supported by the curved surface",
+      "force on a projection of the curved surface on a vertical plane",
+      "area of curved surface × pressure at the centroid",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The horizontal component of hydrostatic force on a curved surface is equal to the force exerted on the vertical projection of that curved surface."
+  },
+  {
+    "q": "433. For a sub-merged curved surface, the component of force due to static liquid is equal to",
+    "options": [
+      "weight of the liquid supported by curved surface",
+      "force on a projection of the curved surface on a vertical plane",
+      "area of curved surface × pressure at the centroid",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The vertical component of hydrostatic force on a curved surface is equal to the weight of the liquid vertically above the curved surface up to the free surface."
+  },
+  {
+    "q": "434. An oil of specific gravity 0.7 and pressure 0.14 kgf/cm² will have the height of oil as",
+    "options": [
+      "70 cm of oil",
+      "2 m of oil",
+      "20 cm of oil",
+      "10 cm of oil"
+    ],
+    "correct": 1,
+    "explain": "Pressure P = ρgh. Converting 0.14 kgf/cm² to kgf/m² gives 1400. Density of oil = 0.7 × 1000 = 700 kg/m³. Height h = 1400 / 700 = 2 meters."
+  },
+  {
+    "q": "435. The rate of flow through a venturimeter varies as",
+    "options": [
+      "H",
+      "√H",
+      "H³/²",
+      "H⁵/²"
+    ],
+    "correct": 1,
+    "explain": "The discharge formula for a venturimeter is Q = [Cd × A1 × A2 × √(2gh)] / √(A1² - A2²). Thus, Q is proportional to the square root of the head (√H)."
+  },
+  {
+    "q": "436. The rate of flow through a V-notch varies as",
+    "options": [
+      "H",
+      "√H",
+      "H³/²",
+      "H⁵/²"
+    ],
+    "correct": 3,
+    "explain": "For a triangular notch (V-notch), the discharge Q is proportional to H^(5/2), where H is the head over the notch."
+  },
+  {
+    "q": "437. The range for co-efficient of discharge (Cd) for a venturimeter is",
+    "options": [
+      "0.6 to 0.7",
+      "0.7 to 0.8",
+      "0.8 to 0.9",
+      "0.95 to 0.99"
+    ],
+    "correct": 3,
+    "explain": "Venturimeters are highly efficient with streamlined flow, leading to a very high coefficient of discharge, typically between 0.95 and 0.99."
+  },
+  {
+    "q": "438. An orifice is known as large orifice when the head of liquid from the centre of orifice is",
+    "options": [
+      "more than 10 times the depth of orifice",
+      "less than 10 times the depth of orifice",
+      "less than 5 times the depth of orifice",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "If the head of liquid (H) is less than 5 to 10 times the depth of the orifice (d), the velocity varies significantly across the orifice, classifying it as a large orifice."
+  },
+  {
+    "q": "439. Which mouthpiece is having maximum co-efficient of discharge?",
+    "options": [
+      "external mouthpiece",
+      "convergent divergent mouthpiece",
+      "internal mouthpiece",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A convergent-divergent mouthpiece minimizes energy loss and prevents flow separation, resulting in a coefficient of discharge that can reach 1.0."
+  },
+  {
+    "q": "440. The co-efficient of discharge (Cd)",
+    "options": [
+      "for an orifice is more than that for a mouthpiece",
+      "for internal mouthpiece is more than that external",
+      "for a mouthpiece is more than that for an orifice",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Mouthpieces generally have a higher Cd (around 0.82 for external) compared to a sharp-edged orifice (around 0.62) because they reduce the contraction of the jet."
+  },
+  {
+    "q": "441. Orifices are used to measure",
+    "options": [
+      "velocity",
+      "pressure",
+      "rate of flow",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "An orifice is an opening in a vessel used primarily to control or measure the rate of flow (discharge) of a fluid."
+  },
+  {
+    "q": "442. Mouthpieces are used to measure",
+    "options": [
+      "velocity",
+      "pressure",
+      "viscosity",
+      "rate of flow"
+    ],
+    "correct": 3,
+    "explain": "A mouthpiece is a short tube attached to an orifice, also used for measuring the rate of flow or discharge from a tank."
+  },
+  {
+    "q": "443. The ratio of actual discharge of a jet of water to its theoretical discharge is known as",
+    "options": [
+      "co-efficient of discharge",
+      "co-efficient of velocity",
+      "co-efficient of contraction",
+      "co-efficient of viscosity"
+    ],
+    "correct": 0,
+    "explain": "The Coefficient of Discharge (Cd) is defined as the ratio of Actual Discharge (Qact) to Theoretical Discharge (Qth)."
+  },
+  {
+    "q": "444. The ratio of the area of the jet of water at veena-contracta to the area of orifice is known as",
+    "options": [
+      "co-efficient of discharge",
+      "co-efficient of velocity",
+      "co-efficient of contraction",
+      "coefficient of viscosity"
+    ],
+    "correct": 2,
+    "explain": "The Coefficient of Contraction (Cc) is the ratio of the area of the jet at the vena contracta to the area of the orifice."
+  },
+  {
+    "q": "445. Notch is a device used for measuring",
+    "options": [
+      "rate of flow through pipes",
+      "rate of flow through a small channel",
+      "velocity through a pipe",
+      "velocity through a small channel"
+    ],
+    "correct": 1,
+    "explain": "Notches are used to measure the discharge in open channels or small streams, whereas meters like the venturimeter are used for closed pipes."
+  },
+  {
+    "q": "446. The velocity with which the water approaches a notch is called",
+    "options": [
+      "velocity of flow",
+      "velocity of approach",
+      "velocity of whirl",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Velocity of approach is the average velocity of the liquid in the channel just upstream of the notch or weir."
+  },
+  {
+    "q": "447. Francis's formula for a rectangular weir with end contraction suppressed is given as",
+    "options": [
+      "Q = 1.84 L H⁵/²",
+      "Q = 2/3 L × H³/²",
+      "Q = 1.84 L H³/²",
+      "Q = 2/3 L × H⁵/²"
+    ],
+    "correct": 2,
+    "explain": "For a suppressed rectangular weir (where length L equals channel width), Francis's formula simplifies to Q = 1.84 L H^(3/2)."
+  },
+  {
+    "q": "448. Cipolletti weir is a trapezoidal weir having side slope of",
+    "options": [
+      "1 horizontal to 2 vertical",
+      "4 horizontal to 1 vertical",
+      "1 horizontal to 4 vertical",
+      "1 horizontal to 3 vertical"
+    ],
+    "correct": 2,
+    "explain": "A Cipolletti weir has side slopes of 1 horizontal to 4 vertical (1:4) to compensate for the discharge reduction caused by end contractions."
+  },
+  {
+    "q": "449. A flow is said to be laminar when",
+    "options": [
+      "the fluid particles move in a zig-zag way",
+      "the Reynold number is high",
+      "the fluid particles move in layers parallel to the boundary",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Laminar flow occurs when fluid particles move in smooth, well-defined paths or layers that do not cross each other."
+  },
+  {
+    "q": "450. For the laminar flow through a circular pipe",
+    "options": [
+      "the max velocity = 1.5 times the average velocity",
+      "the max velocity = 2.0 times the average velocity",
+      "the max velocity = 2.5 times the average velocity",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In fully developed laminar pipe flow (Hagen-Poiseuille flow), the maximum velocity at the center is exactly twice the average velocity across the section."
+  }
+]

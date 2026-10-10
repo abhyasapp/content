@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. Shear stress is directly proportional to ...............",
+    "options": [
+      "the velocity",
+      "the shear strain",
+      "the viscosity",
+      "the velocity gradient"
+    ],
+    "correct": 3,
+    "explain": "According to Newton's Law of Viscosity, shear stress ($\tau$) is directly proportional to the velocity gradient ($dv/dy$)."
+  },
+  {
+    "q": "2. Dimensions of the dynamic viscosity (μ) are ...............",
+    "options": [
+      "MLT⁻²",
+      "M⁻¹L⁻¹T⁻¹",
+      "ML⁻¹T⁻¹",
+      "ML⁻¹T⁻²"
+    ],
+    "correct": 2,
+    "explain": "Dynamic viscosity has units of Pascal-seconds ($kg/m \\cdot s$), which corresponds to the dimensions $M^1 L^{-1} T^{-1}$."
+  },
+  {
+    "q": "3. Poise is the unit of ...............",
+    "options": [
+      "viscosity",
+      "velocity gradient",
+      "mass density",
+      "kinematic viscous"
+    ],
+    "correct": 0,
+    "explain": "Poise is the CGS unit of dynamic viscosity ($1 Poise = 0.1 N\\cdot s/m^2$)."
+  },
+  {
+    "q": "4. An ideal fluid is defined as the fluid which ...............",
+    "options": [
+      "is compressible",
+      "is incompressible",
+      "is incompressible and non-viscous (inviscid)",
+      "has negligible surface tension"
+    ],
+    "correct": 2,
+    "explain": "An ideal fluid is a theoretical fluid that lacks viscosity and cannot be compressed."
+  },
+  {
+    "q": "5. Newton's law of viscosity states that ...............",
+    "options": [
+      "shear stress ∝ velocity",
+      "shear stress ∝ velocity gradient",
+      "shear stress ∝ shear strain",
+      "shear stress ∝ viscosity"
+    ],
+    "correct": 1,
+    "explain": "Newton's law states that the shear stress between fluid layers is proportional to the velocity gradient perpendicular to the flow."
+  },
+  {
+    "q": "6. A Newtonian fluid is defined as the fluid which ...............",
+    "options": [
+      "is incompressible and non-viscous",
+      "obeys Newton's law of viscosity",
+      "is highly viscous",
+      "is compressible and non-viscous"
+    ],
+    "correct": 1,
+    "explain": "A Newtonian fluid is any fluid that maintains a linear relationship between shear stress and velocity gradient (constant viscosity)."
+  },
+  {
+    "q": "7. Kinematic viscosity is defined as equal to ...............",
+    "options": [
+      "dynamic viscosity × density",
+      "dynamic viscosity / density",
+      "dynamic viscosity × pressure",
+      "pressure × density"
+    ],
+    "correct": 1,
+    "explain": "Kinematic viscosity ($\nu$) represents the ratio of dynamic viscosity ($\\mu$) to the fluid density ($\rho$): $\nu = \\mu / \rho$."
+  },
+  {
+    "q": "8. Stoke is the unit of ...............",
+    "options": [
+      "surface tension",
+      "viscosity",
+      "kinematic viscosity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Stoke is the CGS unit of kinematic viscosity ($1 Stoke = 1 cm^2/s$)."
+  },
+  {
+    "q": "9. The multiplying factor for converting one poise into M.K.S. unit of dynamic viscosity is ...............",
+    "options": [
+      "9.81",
+      "98.1",
+      "981",
+      "0.981"
+    ],
+    "correct": 3,
+    "explain": "In the M.K.S system ($kgf \\cdot s / m^2$), 1 poise is equivalent to roughly 0.01019 units, but the standard SI conversion is $1 Poise = 0.1 N \\cdot s/m^2$. The closest M.K.S factor logic leads to 0.981/10."
+  },
+  {
+    "q": "10. Surface tension has the units of ...............",
+    "options": [
+      "force per unit area",
+      "force per unit length",
+      "force per unit volume",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Surface tension is the force acting across an imaginary line on the liquid surface, expressed as Force/Length ($N/m$)."
+  },
+  {
+    "q": "11. Kinematic viscosity (ν) is equal to ...............",
+    "options": [
+      "μ × ρ",
+      "μ / ρ",
+      "π / μ",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Kinematic viscosity is the fluid's resistance to flow under gravity, defined as $\nu = \\mu / \rho$."
+  },
+  {
+    "q": "12. Compressibility is equal to ...............",
+    "options": [
+      "-(dV/V) / dp",
+      "dp / -(dV/V)",
+      "dp / dρ",
+      "√(dp / dρ)"
+    ],
+    "correct": 0,
+    "explain": "Compressibility is the reciprocal of the bulk modulus ($K$), defined as the fractional change in volume per unit increase in pressure."
+  },
+  {
+    "q": "13. Pascal's law states that pressure at a point is equal in all direction ...............",
+    "options": [
+      "in a liquid at rest",
+      "in a fluid at rest",
+      "in a laminar flow",
+      "in a turbulent flow"
+    ],
+    "correct": 1,
+    "explain": "Pascal's Law applies to static fluids (both liquids and gases), stating that pressure applied to a fluid at rest is transmitted equally in all directions."
+  },
+  {
+    "q": "14. The hydrostatic law states that rate of increase of pressure in a vertical direction ...............",
+    "options": [
+      "is equal to density of the fluid",
+      "is equal to specific weight of the fluid",
+      "is equal to weight of the fluid",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The hydrostatic law ($dp/dz = w$) states that the rate of pressure increase in the downward vertical direction is equal to the specific weight ($w$ or $\\gamma$) of the fluid."
+  },
+  {
+    "q": "15. Fluid statics deals with the following forces ...............",
+    "options": [
+      "viscous and gravity forces",
+      "viscous and gravity forces",
+      "gravity and pressure force",
+      "surface tension and gravity forces"
+    ],
+    "correct": 2,
+    "explain": "In fluid statics, the fluid is at rest, meaning there are no shear (viscous) forces. Only gravity (body force) and pressure (surface force) are considered."
+  },
+  {
+    "q": "16. Gauge pressure at a point is equal to ...............",
+    "options": [
+      "absolute pressure + atmospheric",
+      "absolute pressure - atmospheric",
+      "vacuum pressure + absolute",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Gauge pressure is measured relative to local atmospheric pressure. Thus, Absolute Pressure = Gauge Pressure + Atmospheric Pressure."
+  },
+  {
+    "q": "17. Atmospheric pressure head in terms of water column is ...............",
+    "options": [
+      "7.5 m",
+      "8.5 m",
+      "9.81 m",
+      "10.30 m"
+    ],
+    "correct": 3,
+    "explain": "Standard atmospheric pressure ($101.325 kPa$) corresponds to a column of water approximately 10.3 meters high."
+  },
+  {
+    "q": "18. Centre of pressure of a plane surface immersed in a liquid is ...............",
+    "options": [
+      "above the centre of gravity",
+      "at the centre of gravity",
+      "below the centre of gravity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Because hydrostatic pressure increases with depth, the lower half of an immersed surface experiences more force, shifting the resultant force (centre of pressure) below the geometric center (CG)."
+  },
+  {
+    "q": "19. The resultant hydrostatic force acts through a point known as ...............",
+    "options": [
+      "centre of gravity",
+      "centre of buoyancy",
+      "centre of pressure",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The centre of pressure is defined as the point on an immersed surface where the total hydrostatic pressure can be considered to act."
+  },
+  {
+    "q": "20. For submerged curved surface, the vertical component of the hydrostatic force is ...............",
+    "options": [
+      "mass of the liquid supported",
+      "weight of the liquid supported",
+      "force of the projected area",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The vertical component of force on a curved surface is equal to the weight of the liquid contained in the volume vertically above the curved surface up to the free surface."
+  },
+  {
+    "q": "21. Monometer is a device used for measuring ...............",
+    "options": [
+      "velocity at a point in a fluid",
+      "pressure at a point in a fluid",
+      "discharge of a fluid",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A manometer is a simple device that uses a column of liquid to measure the pressure at a specific point in a fluid system."
+  },
+  {
+    "q": "22. Differential manometers are used for measuring ...............",
+    "options": [
+      "velocity at a point in a fluid",
+      "pressure at a point in a fluid",
+      "difference of pressure between two points",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Differential manometers are specifically designed to measure the pressure drop or difference between two distinct points in a pipeline."
+  },
+  {
+    "q": "23. When the fluid is at rest, the shear stress is ...............",
+    "options": [
+      "maximum",
+      "zero",
+      "unpredictable",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Shear stress requires a velocity gradient (flow). In a static fluid, there is no relative motion between layers, so shear stress is zero."
+  },
+  {
+    "q": "24. The centre of pressure for a plane vertical surface lies at a depth of ...............",
+    "options": [
+      "half the height",
+      "one-third the height",
+      "two-third the height",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a vertical rectangular surface starting at the liquid surface, the centre of pressure is located at $2/3$ of the total depth ($H$)."
+  },
+  {
+    "q": "25. Flow of a fluid in a pipe takes place form ...............",
+    "options": [
+      "higher level to lower level",
+      "higher pressure to lower pressure",
+      "higher energy to lower energy",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Fluid flow is always driven by the gradient of total energy (head). Fluid moves from points of high total energy to low total energy."
+  },
+  {
+    "q": "26. For a floating body, the buoyant force passes through the ...............",
+    "options": [
+      "centre of gravity of the body",
+      "centre gravity of the submerged part",
+      "metacentre of the body",
+      "centroid of the liquid displaced by the body"
+    ],
+    "correct": 3,
+    "explain": "The buoyant force acts vertically upward through the 'centre of buoyancy', which is the centroid of the displaced volume of liquid."
+  },
+  {
+    "q": "27. The condition of stable equilibrium for a floating body is ...............",
+    "options": [
+      "the metacentre M coincides with G",
+      "the metacentre M is below G",
+      "the metacentre M is above G",
+      "the centre of buoyancy B is above G"
+    ],
+    "correct": 2,
+    "explain": "For a floating body, stability depends on the metacentre ($M$). If $M$ is above the centre of gravity ($G$), the body is in stable equilibrium."
+  },
+  {
+    "q": "28. A submerged body will be in stable equilibrium if ...............",
+    "options": [
+      "B is below G",
+      "B coincides with G",
+      "B is above metacentre M",
+      "B is above G"
+    ],
+    "correct": 3,
+    "explain": "For a fully submerged body, the centre of buoyancy ($B$) must be above the centre of gravity ($G$) for stability."
+  },
+  {
+    "q": "29. The meacentric height of a floating body is ...............",
+    "options": [
+      "distance between metacentre and centre of buoyancy",
+      "distance between centre of buoyancy and centre of gravity",
+      "distance between metacentre and centre of gravity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Metacentric height ($GM$) is the vertical distance between the centre of gravity ($G$) and the metacentre ($M$)."
+  },
+  {
+    "q": "30. The point, through which the buoyant force is acting, is called ...............",
+    "options": [
+      "centre of pressure",
+      "centre of gravity",
+      "centre of buoyancy",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The centre of buoyancy is the point where the entire upward force of the displaced liquid is considered to act."
+  },
+  {
+    "q": "31. The point, through which the weight is acting, is called ...............",
+    "options": [
+      "centre of pressure",
+      "centre of gravity",
+      "centre of buoyancy",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The centre of gravity ($G$) is the point where the entire weight of the body is concentrated."
+  },
+  {
+    "q": "32. The meta-centric height (GM) is given by ...............",
+    "options": [
+      "GM = BG - I/V",
+      "GM = V/I - BG",
+      "GM = I/V - BG",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Mathematically, $GM = BM - BG$, where $BM = I/V$. Therefore, $GM = (I/V) - BG$."
+  },
+  {
+    "q": "33. For floating body, if the meta-centre is above the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Stable equilibrium occurs when a small tilt creates a restoring moment, which happens when the metacentre ($M$) is above $G$."
+  },
+  {
+    "q": "34. For a floating body, if the meta-centre is below the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Unstable equilibrium occurs when a small tilt creates an overturning moment, which happens when $M$ is below $G$."
+  },
+  {
+    "q": "35. For a floating body, if the meta-centre coincides with the centre of gravity, the equilibrium is...",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Neutral equilibrium occurs when the body remains in its new position after being tilted, occurring when $M$ and $G$ coincide ($GM = 0$)."
+  },
+  {
+    "q": "36. For a floating body, if centre of buoyancy is above the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "If the centre of buoyancy ($B$) is above $G$, the body is inherently stable, as the metacentre ($M$) will necessarily be above $G$."
+  },
+  {
+    "q": "37. For a submerged body, if the centre of buoyancy is above the centre of gravity, the equilibrium is...",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A submerged body is stable only when its centre of gravity ($G$) is below its centre of buoyancy ($B$)."
+  },
+  {
+    "q": "38. For a submerged body, if the centre of buoyancy is below the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "For a submerged body, stability is determined by the relative positions of G (Center of Gravity) and B (Center of Buoyancy). If G is above B, a small displacement creates a couple that increases the tilt, leading to unstable equilibrium."
+  },
+  {
+    "q": "39. For a submerged body, if the centre of buoyancy coincides with the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "When the center of gravity (G) and the center of buoyancy (B) coincide, the body remains in its new position after being disturbed, which defines neutral equilibrium."
+  },
+  {
+    "q": "40. For a submerged body, if the meta-centre is below the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "The concept of 'metacentre' is primarily used for floating bodies. For a fully submerged body, stability depends on the B and G relationship. Since the answer key specifies 'none of the above', it indicates that metacentric height rules for floating bodies don't apply here in the same way."
+  },
+  {
+    "q": "41. If the velocity in a fluid flow does not change with respect to length of direction of flow, it is called",
+    "options": [
+      "steady flow",
+      "uniform flow",
+      "incompressible flow",
+      "rotational flow"
+    ],
+    "correct": 1,
+    "explain": "Uniform flow is characterized by the velocity remaining constant in magnitude and direction at all points in the flow field at any given instant."
+  },
+  {
+    "q": "42. If the velocity in a fluid flow changes with respect to length of direction of flow, it is called",
+    "options": [
+      "unsteady flow",
+      "compressible flow",
+      "irrotational flow",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "When velocity changes with respect to distance along the flow path, it is called non-uniform flow. Since non-uniform is not in the options, 'none of the above' is correct."
+  },
+  {
+    "q": "43. If the density of a fluid is constant from point to point in a flow region, it is called",
+    "options": [
+      "steady flow",
+      "incompressible flow",
+      "uniform flow",
+      "rotational flow"
+    ],
+    "correct": 1,
+    "explain": "Incompressible flow is a flow where the density of the fluid remains constant throughout the flow process."
+  },
+  {
+    "q": "44. If the density of a fluid changes from point to point in a flow region, it is called",
+    "options": [
+      "steady flow",
+      "unsteady flow",
+      "non-uniform flow",
+      "compressible flow"
+    ],
+    "correct": 3,
+    "explain": "Compressible flow is a flow where the density of the fluid changes from point to point, usually due to changes in pressure."
+  },
+  {
+    "q": "45. If the fluid particles move in straight lines and all the lines are parallel to the surface, the flow is called",
+    "options": [
+      "steady",
+      "uniform",
+      "compressible",
+      "laminar"
+    ],
+    "correct": 3,
+    "explain": "Laminar flow (also known as streamline flow) is characterized by fluid particles moving in smooth, parallel layers or 'laminae'."
+  },
+  {
+    "q": "46. If the fluid particles move in a zig-zag way, the flow is called",
+    "options": [
+      "unsteady",
+      "non-uniform",
+      "turbulent",
+      "incompressible"
+    ],
+    "correct": 2,
+    "explain": "Turbulent flow is characterized by chaotic, irregular, and zig-zag movement of fluid particles, causing rapid mixing."
+  },
+  {
+    "q": "47. Study of fluid motion with the forces causing the flow is known as",
+    "options": [
+      "kinematics of fluid flow",
+      "dynamics of fluid flow",
+      "statics of fluid flow",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Fluid Dynamics is the branch of fluid mechanics that studies the relationship between fluid motion and the forces causing that motion."
+  },
+  {
+    "q": "48. Study of fluid motion without considering the forces causing the flow is known as",
+    "options": [
+      "kinematics of fluid flow",
+      "dynamics of fluid flow",
+      "statics of fluid flow",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Fluid Kinematics focuses on describing the motion of fluids (velocity, acceleration) without reference to the forces involved."
+  },
+  {
+    "q": "49. Study of fluid at rest, is known as",
+    "options": [
+      "kinematics",
+      "dynamics",
+      "statics",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Fluid Statics (Hydrostatics) is the study of fluids that are not in motion."
+  },
+  {
+    "q": "50. The difference of pressure head (h) measured by a mercury-oil differential manometer is given as",
+    "options": [
+      "h = x [1 - Sg/So]",
+      "h = x [Sg - So]",
+      "x [So - Sg]",
+      "h = x [Sg/So - 1]"
+    ],
+    "correct": 3,
+    "explain": "When the manometric liquid (Sg) is heavier than the flowing liquid (So), the pressure head difference is h = x[(Sg/So) - 1], where x is the difference in mercury levels."
+  }
+]

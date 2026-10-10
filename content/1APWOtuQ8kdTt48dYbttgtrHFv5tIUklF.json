@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. For calculating the depth of an isolated sloped footing of width \"b\" for a column of size \"a\", the width of the footing is taken as ...........",
+    "options": [
+      "b + (b-a)/8",
+      "(a + 150) mm",
+      "\"a\" mm",
+      "(b-a)/8"
+    ],
+    "correct": 0,
+    "explain": "This is a simplified geometric approximation used for determining effective width in sloped footing calculations."
+  },
+  {
+    "q": "2. The zone in which transverse bending is likely to occur may be obtained by drawing a line from the faces to the column making an angle 'θ' with the horizontal where 'θ' may be ...........",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 1,
+    "explain": "A 45-degree dispersion is commonly assumed for the distribution of loads and stresses in thick concrete elements like footings."
+  },
+  {
+    "q": "3. A square column of side a is founded on a square footing is side b. The maximum bending moment on the footing corresponding to a net upward pressure p is given by ...........",
+    "options": [
+      "pb(b-a)^2/8",
+      "pb(b+a)^2/8",
+      "pb(b-a)/4",
+      "pb(b+a)/8"
+    ],
+    "correct": 0,
+    "explain": "Derived from treating the cantilever portion of the footing as a beam: $M = \frac{p \\cdot (\frac{b-a}{2})^2}{2}$ per unit width."
+  },
+  {
+    "q": "4. A compression member is termed as column or strut if the ratio of its effective length to the least lateral dimension is more than ...........",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "no limit"
+    ],
+    "correct": 2,
+    "explain": "If the slenderness ratio (Le/d) is less than 3, the member is considered a pedestal rather than a column."
+  },
+  {
+    "q": "5. All columns shall be designed for an eccentricity not less than ...........",
+    "options": [
+      "10 mm",
+      "20 mm",
+      "30 mm",
+      "40 mm"
+    ],
+    "correct": 1,
+    "explain": "Even if a column is nominally axially loaded, a minimum eccentricity of 20 mm must be considered to account for construction tolerances."
+  },
+  {
+    "q": "6. When a vertical member is carrying mainly axial loads, it is termed as a ...........",
+    "options": [
+      "strut",
+      "column",
+      "tie",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "While 'strut' is a general term for compression members, 'column' specifically refers to vertical compression members in buildings."
+  },
+  {
+    "q": "7. The shape of a column should be ...........",
+    "options": [
+      "circular",
+      "rectangular",
+      "square",
+      "any one of these"
+    ],
+    "correct": 3,
+    "explain": "Columns can be designed in any shape (square, rectangle, circle, L-shape, T-shape) depending on the architectural and structural needs."
+  },
+  {
+    "q": "8. When the ratio of effective length of the column to its least lateral dimension does not exceed 12, it is termed as a ...........",
+    "options": [
+      "long column",
+      "short-column",
+      "plain column",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A column is classified as short if its slenderness ratio (Le/d) is 12 or less (Note: some older texts used 15, but 12 is the standard)."
+  },
+  {
+    "q": "9. While designing a reinforced concrete pole as a column, it is considered as ...........",
+    "options": [
+      "fixed at both ends",
+      "hinged at both ends",
+      "fixed at one end and hinged at the other end",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "R.C.C. poles are generally embedded deep in the ground, providing a fixed-end condition at the base and continuity at the top."
+  },
+  {
+    "q": "10. The purpose of lateral ties in short reinforced concrete columns is to ...........",
+    "options": [
+      "facilitate construction",
+      "facilitate compaction of concrete",
+      "avoid buckling of longitudinal bars",
+      "increase the load carrying capacity of the column"
+    ],
+    "correct": 2,
+    "explain": "Lateral ties provide lateral support to the longitudinal bars to prevent them from buckling outward under high axial loads."
+  },
+  {
+    "q": "11. A long column is one whose ratio of effective length to its least lateral dimension exceeds ...........",
+    "options": [
+      "5",
+      "10",
+      "12",
+      "20"
+    ],
+    "correct": 2,
+    "explain": "If the ratio of effective length to least lateral dimension (Le/d) exceeds 12, it is classified as a long (slender) column."
+  },
+  {
+    "q": "12. In a column, with helical reinforcement, the permissible load is based on the core area. The least lateral dimension of such a column should be taken as ...........",
+    "options": [
+      "equal to the diameter of core",
+      "one-half the diameter of core",
+      "one-third the diameter of core",
+      "one-fourth the diameter of core"
+    ],
+    "correct": 0,
+    "explain": "In a helically reinforced column, the 'core' is the concrete area enclosed within the center-line of the helical reinforcement, and its diameter defines the least lateral dimension for specific calculations."
+  },
+  {
+    "q": "13. The area of longitudinal steel reinforcement in a column should not be ...........",
+    "options": [
+      "less than 0.8% of the area of concrete section required for direct load alone",
+      "more than 6% of the gross sectional are of column",
+      "either 'a' and 'b'",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "IS:456 mandates a minimum of 0.8% (to prevent buckling and shrinkage cracks) and a maximum of 6% (to avoid congestion, though 4% is preferred for practical casting)."
+  },
+  {
+    "q": "14. The diameter of the polygonal links or lateral ties should not be less than....... of the diameter of the largest longitudinal bar ...........",
+    "options": [
+      "one-half",
+      "one-third",
+      "one-fourth",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "To provide adequate lateral restraint, the tie diameter must be at least one-fourth (1/4) the diameter of the largest longitudinal bar."
+  },
+  {
+    "q": "15. The diameter of lateral ties, in no case, shall be less than ...........",
+    "options": [
+      "5 mm",
+      "10 mm",
+      "15 mm",
+      "20 mm"
+    ],
+    "correct": 0,
+    "explain": "Regardless of the longitudinal bar size, the minimum absolute diameter for lateral ties is 5 mm (often rounded to 6 mm or 8 mm in modern practice)."
+  },
+  {
+    "q": "16. For a longitudinal reinforcing bar in a column, the cover should not be less than ...........",
+    "options": [
+      "10 mm",
+      "20 mm",
+      "30 mm",
+      "40 mm"
+    ],
+    "correct": 3,
+    "explain": "A clear cover of 40 mm is required for columns to protect the steel from corrosion and fire, or the diameter of the bar if it is larger than 40 mm."
+  },
+  {
+    "q": "17. A compression member is considered as short when both the slenderness ratio lex/D and ley/b are less than ...........",
+    "options": [
+      "12",
+      "10",
+      "8",
+      "16"
+    ],
+    "correct": 0,
+    "explain": "A column is classified as short if the ratio of effective length to the corresponding lateral dimension is less than 12."
+  },
+  {
+    "q": "18. The effective length of column with one and effectively held in position and other restrained against rotation at both directions is ...........",
+    "options": [
+      "2l",
+      "1.2l",
+      "l",
+      "0.65l"
+    ],
+    "correct": 3,
+    "explain": "For a column with both ends fixed against rotation and position, the theoretical value is 0.5l, but the design (recommended) value is 0.65l."
+  },
+  {
+    "q": "19. The effective length of a column with both ends effectively held in position, but not restrained against rotation is ...........",
+    "options": [
+      "2l",
+      "1.2l",
+      "l",
+      "0.65l"
+    ],
+    "correct": 2,
+    "explain": "For a column with both ends hinged (held in position but free to rotate), the effective length is equal to the unsupported length 'l'."
+  },
+  {
+    "q": "20. A column is regarded as long column if the ration of its effective length to least lateral radius of gyration is more than ...........",
+    "options": [
+      "150",
+      "100",
+      "60",
+      "40"
+    ],
+    "correct": 2,
+    "explain": "A slenderness ratio (l/r) greater than 60 indicates a long column likely to fail by buckling before reaching its crushing strength."
+  },
+  {
+    "q": "21. The minimum eccentricity that should be used in the design of any R.C.C. column is given by ...........",
+    "options": [
+      "50 mm",
+      "unsupported length/500",
+      "lateral dimension/30",
+      "unsupported length/500 + lateral dimension/30"
+    ],
+    "correct": 3,
+    "explain": "IS:456 specifies emin = (L/500) + (D/30), but not less than 20 mm, to account for misalignments."
+  },
+  {
+    "q": "22. The minimum percentage of longitudinal reinforcement in R.C.C. columns is ...........",
+    "options": [
+      "0.6",
+      "0.8",
+      "1.2",
+      "4.0"
+    ],
+    "correct": 1,
+    "explain": "A minimum of 0.8% steel is necessary to help handle accidental eccentricity and shrinkage stresses in the concrete."
+  },
+  {
+    "q": "23. The maximum percentage of longitudinal reinforcement in R.C.C. columns is ...........",
+    "options": [
+      "0.8",
+      "2.0",
+      "4.0",
+      "6.0"
+    ],
+    "correct": 3,
+    "explain": "Though 4% is common in practice to allow for lapping, the maximum theoretical limit is 6.0% of the gross cross-sectional area."
+  },
+  {
+    "q": "24. The minimum diameter of longitudinal reinforcement in R.C.C. column should not be less than ...........",
+    "options": [
+      "6 mm",
+      "10 mm",
+      "8 mm",
+      "12 mm"
+    ],
+    "correct": 3,
+    "explain": "Main longitudinal bars in a column must have a minimum diameter of 12 mm to ensure sufficient stiffness for the cage."
+  },
+  {
+    "q": "25. The minimum accidental eccentricity in axially loaded columns may occur due to ...........",
+    "options": [
+      "end conditions",
+      "in accuracy during construction",
+      "variation in materials",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Accidental eccentricity accounts for construction defects, non-homogeneity of concrete, and uncertainty in end fixation."
+  },
+  {
+    "q": "26. Transverse reinforcement in columns ...........",
+    "options": [
+      "contributes the strength",
+      "does not contribute to strength",
+      "neither 'a' nor 'b'",
+      "both 'a' and 'b'"
+    ],
+    "correct": 1,
+    "explain": "Ties/links primarily prevent buckling of the main bars and confine the core; they are not directly accounted for in axial load capacity calculations."
+  },
+  {
+    "q": "27. A column is a structural element that supports axial compression load and has a height equal t at least ...........",
+    "options": [
+      "twice its lateral dimension",
+      "thrice its lateral dimension",
+      "five times its lateral dimension",
+      "four times its lateral dimension"
+    ],
+    "correct": 1,
+    "explain": "By definition, if the ratio of the effective length to the least lateral dimension is less than 3, it's a pedestal, not a column."
+  },
+  {
+    "q": "28. The effective length of column is taken as ...........",
+    "options": [
+      "the distance between the ends of column",
+      "twice the length between ends of column",
+      "the half length between the ends of column",
+      "the distance between the points of contra flexure"
+    ],
+    "correct": 3,
+    "explain": "The effective length (Le) is the distance between adjacent points of zero moment (points of contraflexure) in the buckling shape."
+  },
+  {
+    "q": "29. The ratio of minimum area of cross section of longitudinal bars and gross sectional area of column shall be ...........",
+    "options": [
+      "1:80",
+      "1:100",
+      "1:110",
+      "1:125"
+    ],
+    "correct": 3,
+    "explain": "Since the minimum percentage is 0.8%, this corresponds to 0.8/100, which simplifies to 1/125."
+  },
+  {
+    "q": "30. To provide sufficient rigidity in the column while fixing and concreting, the reinforced bars should not be less than ...........",
+    "options": [
+      "8 mm is diameter",
+      "10 mm in diameter",
+      "12 mm in diameter",
+      "16 mm in diameter"
+    ],
+    "correct": 2,
+    "explain": "Bars smaller than 12 mm lack the structural rigidity required to withstand the forces of concrete pouring and vibration without shifting."
+  },
+  {
+    "q": "31. The ratio of minimum number of longitudinal bars provided in rectangular columns to those in circular column is ...........",
+    "options": [
+      "1/3",
+      "2/3",
+      "3/2",
+      "4/3"
+    ],
+    "correct": 1,
+    "explain": "Rectangular columns require a minimum of 4 bars (one in each corner), while circular columns require a minimum of 6 bars. The ratio is 4/6, which simplifies to 2/3."
+  },
+  {
+    "q": "32. Spacing of longitudinal bars measured along the peripheral of the column should not exceed ...........",
+    "options": [
+      "100 mm",
+      "150 mm",
+      "200 mm",
+      "300 mm"
+    ],
+    "correct": 3,
+    "explain": "As per IS 456, the maximum spacing between longitudinal bars along the periphery of the column is limited to 300 mm to prevent local buckling of the concrete face."
+  },
+  {
+    "q": "33. The nominal longitudinal reinforcement in pedestals should not be less than ...........",
+    "options": [
+      "0.10% of cross section area",
+      "0.15% of cross section area",
+      "0.20% of cross section area",
+      "0.25% of cross section area"
+    ],
+    "correct": 1,
+    "explain": "For pedestals (where length is less than 3 times the least lateral dimension), the minimum longitudinal reinforcement is 0.15% of the gross cross-sectional area."
+  },
+  {
+    "q": "34. A pedestal is said to be a compression member when its effective length does not exceed ...........",
+    "options": [
+      "two times the least lateral dimension",
+      "three times the least lateral dimension",
+      "four times the least lateral dimension",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A vertical compression member is classified as a pedestal if its effective length is less than or equal to 3 times its least lateral dimension."
+  },
+  {
+    "q": "35. The internal angle of laterals ties in the form of polygonal links in columns shall not exceed ...........",
+    "options": [
+      "120°",
+      "125°",
+      "130°",
+      "135°"
+    ],
+    "correct": 3,
+    "explain": "To ensure effective lateral restraint and prevent the tie from 'opening' under pressure, the internal angle of a polygonal link should not exceed 135°."
+  },
+  {
+    "q": "36. The diameter of the helical reinforcement should not be less than X-times the diameter of the largest longitudinal bar subject to a minimum of 5 mm, where X is ...........",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5"
+    ],
+    "correct": 2,
+    "explain": "The diameter of transverse or helical reinforcement must be at least one-fourth (1/4) the diameter of the largest longitudinal bar, with a minimum of 5 mm (or 6mm in modern practice)."
+  },
+  {
+    "q": "37. All compression members are designed for minimum eccentricity equal to ...........",
+    "options": [
+      "unsupported length of column/500 plus lateral dimension/30 subject to a minimum of 20 mm",
+      "unsupported length of column/400 plus lateral dimension/30 subject to a minimum of 20 mm",
+      "supported length of column/500 plus lateral dimension/30 subject to a minimum of 20 mm",
+      "unsupported length of column/400 plus lateral dimension/30 subject to a minimum of 20 mm"
+    ],
+    "correct": 0,
+    "explain": "IS 456 defines minimum eccentricity as (L/500) + (D/30), where L is unsupported length and D is lateral dimension, but it cannot be less than 20 mm."
+  },
+  {
+    "q": "38. The minimum number of longitudinal steel bars in R.C.C. rectangular columns must be ...........",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 1,
+    "explain": "Every corner of a rectangular or square column must have a bar to provide symmetrical reinforcement and tie the cage, necessitating at least 4 bars."
+  },
+  {
+    "q": "39. The minimum number of longitudinal steel bars in R.C.C. circular columns must be ...........",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "explain": "For circular columns, 6 bars are required to properly maintain the circular shape of the reinforcement cage and provide uniform confinement."
+  },
+  {
+    "q": "40. The minimum number of longitudinal steel bars in helically reinforced R.C.C. columns must be ...........",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "explain": "Helical reinforcement is typically used in circular columns, which requires a minimum of 6 longitudinal bars for stability of the helix."
+  },
+  {
+    "q": "41. Spacing of longitudinal bars measured along the periphery of a circular R.C.C. column shall not exceed ...........",
+    "options": [
+      "150 mm",
+      "75 mm",
+      "250 mm",
+      "300 mm"
+    ],
+    "correct": 3,
+    "explain": "The 300 mm maximum spacing rule applies to all column shapes, including circular ones, to ensure the concrete surface is effectively reinforced."
+  },
+  {
+    "q": "42. The maximum spacing of longitudinal bars with a tie bent around alternate bars in R.C.C columns is ...........",
+    "options": [
+      "150 mm",
+      "75 mm",
+      "100 mm",
+      "48 phi_tr"
+    ],
+    "correct": 0,
+    "explain": "If bars are not effectively tied (i.e., the tie only wraps alternate bars), the maximum distance between a tied bar and an untied bar is 150 mm."
+  },
+  {
+    "q": "43. The spacing of the longitudinal bars effectively tied should not exceed the following if additional longitudinal bars provided in between are tied in one direction by open ties ...........",
+    "options": [
+      "50 mm",
+      "7.5 mm",
+      "180 mm",
+      "48 phi_tr"
+    ],
+    "correct": 3,
+    "explain": "Specific detailing requirements for secondary ties/links often relate spacing to the diameter of the transverse reinforcement (48 times the tie diameter)."
+  },
+  {
+    "q": "44. The diameter of transverse reinforcement of columns should be equal to one fourth of the diameter of the main rods but not less than ...........",
+    "options": [
+      "5 mm",
+      "6 mm",
+      "8 mm",
+      "10 mm"
+    ],
+    "correct": 1,
+    "explain": "While 5mm was the older standard, current practice (and many code versions) specifies a 6 mm minimum for transverse ties to ensure cage rigidity."
+  },
+  {
+    "q": "45. The spacing of transverse reinforcement of a column shall not be more than ...........",
+    "options": [
+      "the least lateral dimension of a column",
+      "sixteen times the smallest diameter of the longitudinal reinforcement bar to be tied",
+      "forty-eight times the diameter of the transverse reinforcement",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "IS 456 pitch requirements for ties: Spacing should be the least of: 1) Least lateral dimension, 2) 16x smallest longitudinal bar diameter, or 3) 48x tie diameter."
+  },
+  {
+    "q": "46. If the size of a column is reduced above the floor, the main bars of the column are ...........",
+    "options": [
+      "continued up",
+      "bent inward at the floor level",
+      "stopped just below the floor level and separate bars are provided",
+      "both 'b' and 'c'"
+    ],
+    "correct": 3,
+    "explain": "Bars can be cranked (bent) inward if the offset is small (slope 1 in 6); otherwise, they are terminated and new starter bars are lapped."
+  },
+  {
+    "q": "47. An additional longitudinal reinforcement in webs of beams should be placed if the depth of the web is more than 750 mm at",
+    "options": [
+      "top fibre",
+      "side fibres",
+      "bottom fibre",
+      "top and bottom fibres"
+    ],
+    "correct": 1,
+    "explain": "Side face reinforcement is required in deep beams (web > 750mm) to control cracking due to shrinkage and temperature."
+  },
+  {
+    "q": "48. The minimum number of torsional longitudinal reinforcement bars to be provided in R.C.C. beams is",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "6"
+    ],
+    "correct": 1,
+    "explain": "At least one longitudinal bar must be placed in each corner of the stirrups to resist torsion, total of 4 bars."
+  },
+  {
+    "q": "49. For bridge slabs, the amount of transverse reinforcement is taken as",
+    "options": [
+      "0.15 % of gross concrete area",
+      "0.3% of gross concrete area",
+      "0.45% of gross concrete area",
+      "0.6% of gross concrete area"
+    ],
+    "correct": 1,
+    "explain": "Specific codes for bridges often require higher distribution steel, typically 0.3% of the gross area."
+  },
+  {
+    "q": "50. The minimum lap length at the splice of compression reinforcement in a R.C.C member should be more than",
+    "options": [
+      "30 times the diameter of the bar",
+      "twice the development length or 30 times the diameter of the bar",
+      "48 times the diameter of the bar",
+      "24 times the diameter of the bar or development length"
+    ],
+    "correct": 3,
+    "explain": "In compression, the lap length is equal to the development length in compression but not less than 24φ."
+  }
+]

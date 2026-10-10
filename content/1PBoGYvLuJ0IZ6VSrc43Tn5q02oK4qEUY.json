@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. Henry Gantt developed the bar chart technique in",
+    "options": [
+      "1900 AD",
+      "1940 AD",
+      "1957 AD",
+      "1974 AD"
+    ],
+    "correct": 0,
+    "explain": "Henry Gantt devised his historical system of project progress charts around 1900–1915."
+  },
+  {
+    "q": "2. The scheduled completion time of an operation in CPM chart is mentioned on",
+    "options": [
+      "left top corner outside the circle",
+      "left top corner inside the circle",
+      "both of the above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Standard notation for event circles in CPM often places the earliest expected time at the top left outside the circle."
+  },
+  {
+    "q": "3. Slack time refers to",
+    "options": [
+      "an activity",
+      "an event",
+      "both event and activity",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Slack time is associated with events (in PERT terminology) - the allowable time an event can be delayed."
+  },
+  {
+    "q": "4. Which operation must complete first?",
+    "options": [
+      "right of the line joining two circles",
+      "left of the line joining two circles",
+      "both of the above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In network logic, progress moves from left to right; therefore, activities on the left must be completed before those on the right."
+  },
+  {
+    "q": "5. An event is",
+    "options": [
+      "a dummy activity",
+      "the useful criterion",
+      "the start and/or finish of an activity or the group of activities",
+      "a definite time interval"
+    ],
+    "correct": 2,
+    "explain": "An event marks the start and/or finish point of one or more activities; it is instantaneous and consumes no time."
+  },
+  {
+    "q": "6. Gantt Bar chart is drawn for",
+    "options": [
+      "time versus activity",
+      "activity versus activity",
+      "resources versus progress",
+      "progress versus time"
+    ],
+    "correct": 0,
+    "explain": "A Gantt chart explicitly plots individual activities (vertical axis) against time or duration (horizontal axis)."
+  },
+  {
+    "q": "7. Number of pre-operation associated with an operation may be",
+    "options": [
+      "one only",
+      "two only",
+      "more than one",
+      "three only"
+    ],
+    "correct": 2,
+    "explain": "An activity can have any number of preceding (pre-operation) tasks that must be finished before it starts."
+  },
+  {
+    "q": "8. Bar chart is drawn for",
+    "options": [
+      "time versus activity",
+      "activity versus resources",
+      "resources versus progress",
+      "progress versus time"
+    ],
+    "correct": 0,
+    "explain": "A bar chart plots activities against time, with bar length representing the duration of each activity."
+  },
+  {
+    "q": "9. In a network, the activity which neither takes time nor resources is called",
+    "options": [
+      "redundant activity",
+      "dummy activity",
+      "null activity",
+      "both (a) and (b) of above"
+    ],
+    "correct": 3,
+    "explain": "A dummy activity (sometimes called redundant/null in specific contexts) is a logical link that uses zero time and zero resources."
+  },
+  {
+    "q": "10. The maximum number of tail event occurring in a CPM is",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "A standard project network should have only one single start event (tail event) from which the project begins."
+  },
+  {
+    "q": "11. An activity requires",
+    "options": [
+      "events",
+      "resources",
+      "time and resources",
+      "energy and vigour"
+    ],
+    "correct": 2,
+    "explain": "An activity, by definition, is work that consumes both time and resources (manpower, material, equipment)."
+  },
+  {
+    "q": "12. The maximum number of head event occurring in a CPM is",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "Similarly, a project network should converge to exactly one single end event (head event)."
+  },
+  {
+    "q": "13. Critical path method is an effective and powerful method of assessing",
+    "options": [
+      "What tasks must be carried out",
+      "Where parallel activities can be performed",
+      "The shortest time in which you can complete a project",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explain": "CPM identifies required tasks, parallel activity opportunities, and the minimum project duration - covering all listed aspects."
+  },
+  {
+    "q": "14. The maximum number of redundant activity in a CPM chart may be",
+    "options": [
+      "zero",
+      "one to five",
+      "five to ten",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "Depending on the complexity and poor logic of a network, any number of activities might be rendered redundant or unnecessary."
+  },
+  {
+    "q": "15. Select the correct statement.",
+    "options": [
+      "Activity arrows in a CPM network are drawn to scale",
+      "The tail of an arrow represents the finish of an activity",
+      "Arrow head represents the start of an activity",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "None of the given statements is correct: arrows are not drawn to scale, the tail represents the start (not finish), and the head represents the finish (not start) of an activity."
+  },
+  {
+    "q": "16. The activity which consumes maximum time is called",
+    "options": [
+      "critical activity",
+      "non-critical activity",
+      "super critical activity",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "The 'critical path' is the longest path, but a single activity consuming 'maximum time' is not a standard definition for a specific activity type in this context."
+  },
+  {
+    "q": "17. A drawback of bar chart is",
+    "options": [
+      "it is difficult to judge whether an activity is completed or not",
+      "all the activities represented are independent of each other",
+      "sequence of activities is not clearly defined",
+      "it is not possible to judge whether the activity is ahead or behind the schedule."
+    ],
+    "correct": 2,
+    "explain": "The critical limitation of a standard bar chart is that it does not show logical dependency linkages or critical activity sequences."
+  },
+  {
+    "q": "18. The number of post-activity associated with head event may be",
+    "options": [
+      "zero",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "The final head event (end of project) has no subsequent activities (post-activities) following it."
+  },
+  {
+    "q": "19. PERT is an abbreviation for",
+    "options": [
+      "pertinent equation related to a task",
+      "performance, evaluation, rating and timing",
+      "program evaluation and review technique",
+      "periodical estimation of resource treasure"
+    ],
+    "correct": 2,
+    "explain": "PERT stands for Program (Programme) Evaluation and Review Technique."
+  },
+  {
+    "q": "20. The post-operations in CPM are marked",
+    "options": [
+      "right to an operation",
+      "left to an operation",
+      "in the middle",
+      "at the end"
+    ],
+    "correct": 0,
+    "explain": "In chronological flow, subsequent operations (post-operations) are placed to the right of the current task."
+  },
+  {
+    "q": "21. CPM stands for",
+    "options": [
+      "computer program mode",
+      "critical project management",
+      "controlling, planning and maintenance",
+      "critical path method"
+    ],
+    "correct": 3,
+    "explain": "CPM stands for Critical Path Method, a network-based project scheduling technique."
+  },
+  {
+    "q": "22. In CPM method, the earliest finish is indicated by time on",
+    "options": [
+      "top right, outside the circle, in triangle",
+      "top right, outside the circle, in rectangle",
+      "both of the above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The Earliest Finish Time (EFT) or Earliest Start Time (EST) is often noted in a square/rectangle near the event node."
+  },
+  {
+    "q": "23. PERT is",
+    "options": [
+      "activity oriented",
+      "event oriented",
+      "time oriented",
+      "resource oriented"
+    ],
+    "correct": 1,
+    "explain": "PERT networks are built around events (milestones) connecting activities, making PERT event-oriented."
+  },
+  {
+    "q": "24. Latest finish time in CPM technique is indicated by",
+    "options": [
+      "triangle",
+      "circle",
+      "rectangle",
+      "line"
+    ],
+    "correct": 2,
+    "explain": "Standard CPM notation uses rectangles (or squares) to denote time values like Latest Finish Time."
+  },
+  {
+    "q": "25. CPM is",
+    "options": [
+      "activity oriented",
+      "event oriented",
+      "time oriented",
+      "resource oriented"
+    ],
+    "correct": 0,
+    "explain": "CPM networks emphasize activities (jobs) and their durations, making CPM activity-oriented."
+  },
+  {
+    "q": "26. When the times of earliest finish and the latest finish are equal in an operation, the operation is called",
+    "options": [
+      "critical",
+      "float",
+      "free float",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "If the earliest and latest times are equal, there is zero float, making that activity critical."
+  },
+  {
+    "q": "27. PERT adopts",
+    "options": [
+      "deterministic approach",
+      "probabilistic approach",
+      "stochastic approach",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "PERT uses probability distributions (three time estimates) to account for uncertainty in activity durations, making it probabilistic."
+  },
+  {
+    "q": "28. An example for a parallel activity is",
+    "options": [
+      "completing ground floor and starting first floor",
+      "wall and carpentry work of doors and windows",
+      "completion of flooring and initiating white washing",
+      "digging of a well and of septic tank"
+    ],
+    "correct": 1,
+    "explain": "Parallel activities can happen simultaneously; wall construction and carpentry can often proceed at the same time in different sections."
+  },
+  {
+    "q": "29. CPM adopts",
+    "options": [
+      "deterministic approach",
+      "probabilistic approach",
+      "stochastic approach",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "CPM uses a single fixed time estimate per activity, making it a deterministic approach."
+  },
+  {
+    "q": "30. A dummy activity",
+    "options": [
+      "had no tail event but had only a head event",
+      "had only a head event but no tail event",
+      "does not require any resources or any time",
+      "had no sequence and can be fitted anywhere"
+    ],
+    "correct": 2,
+    "explain": "A dummy activity is a purely logical connection used to show dependency without adding time or cost to the project."
+  },
+  {
+    "q": "31. Which of the following statements is true?",
+    "options": [
+      "PERT is activity oriented and adopts deterministic approach",
+      "CPM is event oriented and adopts probabilistic approach",
+      "CPM is activity oriented and adopts probabilistic approach",
+      "PERT is event oriented and adopts probabilistic approach"
+    ],
+    "correct": 3,
+    "explain": "PERT is indeed event-oriented and uses a probabilistic approach (three time estimates), correctly combining both characteristics unlike the other options."
+  },
+  {
+    "q": "32. Critical path is",
+    "options": [
+      "shortest path for the earliest completion of the project",
+      "longest path of the network from the first event to the last event",
+      "ideal path by preceeding along which the project can be completed as per the schedule",
+      "the path which takes into account the completion of all the parallel activities"
+    ],
+    "correct": 2,
+    "explain": "The critical path is the specific sequence of activities that must be completed exactly as scheduled to finish the project on time."
+  },
+  {
+    "q": "33. Which of the following is an example of parallel activities?",
+    "options": [
+      "construction of walls and casting of roof",
+      "construction of walls and carpentry work of doors and windows",
+      "casting of roof and construction of parapet wall",
+      "digging of well and construction of septic tank"
+    ],
+    "correct": 1,
+    "explain": "Wall construction and carpentry (doors/windows) work can proceed simultaneously without one depending on completion of the other, making them parallel activities."
+  },
+  {
+    "q": "34. The minimum number of critical path in a net work should be",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 1,
+    "explain": "Every project network must have at least one critical path connecting the start to the end."
+  },
+  {
+    "q": "35. The occurrence of the completion of an activity is called its",
+    "options": [
+      "head event",
+      "tail event",
+      "dual role event",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The head event marks the completion (ending point) of an activity in a network diagram."
+  },
+  {
+    "q": "36. Critical path network helps the engineer to",
+    "options": [
+      "concentrate his attention on critical activitirs",
+      "divert the different resourced from non-critical activities to critical activities",
+      "be cautious for avoiding any delay in the critical activities",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "CPM analysis allows engineers to focus on the most important tasks and manage resources across the project efficiently."
+  },
+  {
+    "q": "37. The occurrence of the starting of an activity is called its",
+    "options": [
+      "head event",
+      "tail event",
+      "dual role event",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The tail event marks the starting point of an activity in a network diagram."
+  },
+  {
+    "q": "38. In CPM, 'Forward Pass' and 'Backward Pass' are used to calculate respectively.",
+    "options": [
+      "earliest expected time and latest allowable time",
+      "latest allowable time and earliest expected time",
+      "to check float and slack",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Forward pass calculates Earliest times; Backward pass calculates Latest times."
+  },
+  {
+    "q": "39. A dual role event",
+    "options": [
+      "is the head event as well as a tail event",
+      "consumes no time",
+      "is the beginning of one event and the end of another",
+      "is any event other than the initial and final events"
+    ],
+    "correct": 0,
+    "explain": "A dual role event simultaneously serves as the head (completion) event of preceding activities and the tail (start) event of succeeding activities."
+  },
+  {
+    "q": "40. A dummy activity",
+    "options": [
+      "has no tail event but only a head event",
+      "has only head event but no tail event",
+      "does not require any resources or any time",
+      "has no bearing on the network and can appear anywhere"
+    ],
+    "correct": 2,
+    "explain": "A dummy activity is a fictitious link (zero duration, zero resource) used only to maintain logical sequencing between real activities."
+  },
+  {
+    "q": "41. Positive float can occur when it is",
+    "options": [
+      "sub-critical activity",
+      "critical activity",
+      "super-critical activity",
+      "normal activity"
+    ],
+    "correct": 0,
+    "explain": "A sub-critical activity has a positive float, meaning it has extra time available and does not currently sit on the critical path."
+  },
+  {
+    "q": "42. At an event other than final event if no activity emerges, it results in an error called",
+    "options": [
+      "looping",
+      "dangling",
+      "interfacing",
+      "splicing"
+    ],
+    "correct": 1,
+    "explain": "Dangling occurs when an event (other than the final one) has no succeeding activity emerging from it, leaving it disconnected from the rest of the network."
+  },
+  {
+    "q": "43. Negative float can occur when it is",
+    "options": [
+      "sub-critical activity",
+      "critical activity",
+      "super-critical activity",
+      "normal activity"
+    ],
+    "correct": 2,
+    "explain": "Negative float occurs in super-critical activities where the time required exceeds the time available, indicating the project is behind schedule."
+  },
+  {
+    "q": "44. If the path of activities leads back into itself, the resulting error in the network is known as",
+    "options": [
+      "looping",
+      "dangling",
+      "interfacing",
+      "splicing"
+    ],
+    "correct": 0,
+    "explain": "Looping is the network logic error where a sequence of activities forms a closed loop, violating the forward-progress requirement of a network."
+  },
+  {
+    "q": "45. The estimated time required to complete an activity is termed as",
+    "options": [
+      "event",
+      "duration",
+      "active time",
+      "float"
+    ],
+    "correct": 1,
+    "explain": "Duration is the standard term in project management for the estimated time needed to perform a specific task or activity."
+  },
+  {
+    "q": "46. If the probability factor is zero, the chances of completing the project in scheduled time are;",
+    "options": [
+      "0%",
+      "75%",
+      "50%",
+      "100%"
+    ],
+    "correct": 2,
+    "explain": "A probability factor (Z) of zero corresponds to the mean of the normal distribution, giving a 50% chance of completing within scheduled time."
+  },
+  {
+    "q": "47. In PERT analysis, the start and end of event is represented by",
+    "options": [
+      "activity",
+      "event",
+      "task",
+      "work"
+    ],
+    "correct": 1,
+    "explain": "Events (nodes) in PERT mark the instantaneous starting or ending points of activities in the network diagram."
+  },
+  {
+    "q": "48. Free float is mainly used to",
+    "options": [
+      "identify the activities which can be delayed without affecting the total float of preceeding activity",
+      "identify the activities, which can be delayed without affecting the total float of succeeding activity",
+      "establish priorities",
+      "identify the activities which can be delayed without affecting the total float of either the preceeding or succeeding activities"
+    ],
+    "correct": 1,
+    "explain": "Free float is the amount of time an activity can be delayed without affecting the earliest start time of any immediately following (succeeding) activities."
+  },
+  {
+    "q": "49. In PERT, the critical path represents the",
+    "options": [
+      "shortest path for the earliest completion of the project",
+      "longest path of the network from the initial to final event",
+      "ideal path by proceeding along which the project can be completed as per schedule",
+      "path which takes into account the completion of the parallel activities"
+    ],
+    "correct": 1,
+    "explain": "The critical path is defined as the longest path through the network from start to finish, determining minimum project duration."
+  },
+  {
+    "q": "50. Whenever activity has zero total float, then",
+    "options": [
+      "free float of the activity must be zero but independent float need not be zero",
+      "independent float must be zero but free float need not be zero",
+      "free float and independent float both must be zero",
+      "free float and independent float both need not be zero"
+    ],
+    "correct": 2,
+    "explain": "Since total float is the 'parent' float, if it is zero, all other sub-types of float (free and independent) must also be zero."
+  }
+]

@@ -1,0 +1,904 @@
+[
+  {
+    "q": "247. Anallatic lens is provided to",
+    "options": [
+      "nullify both the constants of tacheometer",
+      "render additive constant zero",
+      "make multiplying constant as 100 and additive constant as zero",
+      "improve visibility"
+    ],
+    "correct": 1,
+    "explain": "The primary purpose of fitting an anallatic lens is to render the additive constant of the tacheometer equal to zero, simplifying distance computations."
+  },
+  {
+    "q": "248. Anallatic lens is a",
+    "options": [
+      "convex lens",
+      "concave lens",
+      "compound concave and convex lens",
+      "plain lens"
+    ],
+    "correct": 0,
+    "explain": "The anallatic lens is a simple convex lens fitted inside the telescope tube to achieve a zero additive constant."
+  },
+  {
+    "q": "249. A staff reading taken on a bench mark or a point known elevation is called",
+    "options": [
+      "fore sight reading",
+      "back sight reading",
+      "intermediate sight",
+      "any one of these"
+    ],
+    "correct": 1,
+    "explain": "A staff reading taken specifically on a bench mark or point of known elevation, used to determine the height of instrument, is called a back sight reading."
+  },
+  {
+    "q": "250. A staff reading taken on a point whose elevation is to be determined as on a change point called",
+    "options": [
+      "fore sight reading",
+      "back sight reading",
+      "intermediate sight",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A staff reading taken on a point whose elevation is to be determined (typically the last reading before shifting the instrument, at a change point) is called a fore sight reading."
+  },
+  {
+    "q": "251. To find the true difference of level between two points, the level should be kept",
+    "options": [
+      "at either of the two points",
+      "exactly midway between the two points",
+      "at any point on the line joining the two points",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "As per the book's answer key, for practical single-instrument-setup leveling, the level should be kept at either of the two points (rather than exactly midway, which is the theoretically ideal position to cancel curvature and refraction errors)."
+  },
+  {
+    "q": "252. The variation of magnetic declination within a day is called",
+    "options": [
+      "diurnal variation",
+      "irregular variation",
+      "annual variation",
+      "secular variation"
+    ],
+    "correct": 2,
+    "explain": "Note: standard surveying terminology defines the day-to-day/within-a-day change in declination as 'diurnal variation'; however, per the book's printed answer key, this entry is marked as annual variation - this appears to be a possible misprint, so please verify against your copy."
+  },
+  {
+    "q": "253. Local attraction at a place may be due to",
+    "options": [
+      "key bunches",
+      "steel buttons",
+      "current carrying bare wire",
+      "electric storm"
+    ],
+    "correct": 3,
+    "explain": "As per the book's answer key, local attraction disturbing the compass needle at a place may be caused by an electric storm (atmospheric electrical disturbance affecting the magnetic field locally)."
+  },
+  {
+    "q": "254. The amount of correction due to local attraction at a place",
+    "options": [
+      "is a constant for all bearings",
+      "varies with the bearing",
+      "changes from time to time",
+      "sometimes additive and sometimes subtractive"
+    ],
+    "correct": 1,
+    "explain": "The correction needed to account for local attraction at a station varies depending on which bearing (line) is being observed from that station."
+  },
+  {
+    "q": "255. An instrument error in compass survey is because of",
+    "options": [
+      "inaccurate leveling",
+      "variation in declination",
+      "no counter weight provision to counteract dip",
+      "local attraction due to bare current carrying conductors"
+    ],
+    "correct": 2,
+    "explain": "An instrumental error (inherent to the compass design) arises when there is no counterweight provision to counteract the dip of the magnetic needle at that latitude."
+  },
+  {
+    "q": "256. The technique of plotting all the accessible stations with a single set up of plane table is called",
+    "options": [
+      "radiation",
+      "intersection",
+      "resection",
+      "traversing"
+    ],
+    "correct": 0,
+    "explain": "Radiation is the plane table method where, from a single set-up station, rays are drawn to all visible (accessible) points and their distances measured along those rays."
+  },
+  {
+    "q": "257. Radiation plane table survey is the best suited when",
+    "options": [
+      "distances are long but accessible",
+      "distances are short and accessible",
+      "distances are long and inaccessible",
+      "distances are short but inaccessible"
+    ],
+    "correct": 1,
+    "explain": "Radiation method works best when the points to be plotted are both short in distance and physically accessible for direct distance measurement from the instrument station."
+  },
+  {
+    "q": "258. Intersection is preferred to radiation when",
+    "options": [
+      "the points are inaccessible",
+      "it is not possible to measure any distance",
+      "the points are too far and invisible",
+      "the lengths are too short"
+    ],
+    "correct": 0,
+    "explain": "Intersection is preferred over radiation specifically when the points to be located are inaccessible, so their distance cannot be directly measured, requiring rays from two known stations instead."
+  },
+  {
+    "q": "259. The strength of fix is poor when",
+    "options": [
+      "the station is within the great triangle",
+      "the station is outside the great circle",
+      "the station is within the great circle but outside the great triangle",
+      "the station is on the great circle"
+    ],
+    "correct": 2,
+    "explain": "In the three-point resection problem, the strength of fix is poor when the plane table station lies within the great circle (through the three known points) but outside the great triangle formed by them."
+  },
+  {
+    "q": "260. An advantage of plane tabling is",
+    "options": [
+      "it is tropical instrument",
+      "it has many accessories",
+      "plotting is done out-door",
+      "changes to miss details are less"
+    ],
+    "correct": 2,
+    "explain": "A key advantage of plane tabling is that plotting is done outdoors in the field itself, alongside the observations, reducing the chance of errors from later office plotting."
+  },
+  {
+    "q": "261. Which of the following error is not eliminated by the method of repetition of horizontal angle measurement?",
+    "options": [
+      "Error due to eccentricity of verniers",
+      "Error due to displacement of station signals",
+      "Error due to wrong adjustment of line of collimation and trunnion axis",
+      "Error due to inaccurate graduation"
+    ],
+    "correct": 0,
+    "explain": "The method of repetition eliminates errors due to inaccurate graduation and instrumental maladjustments by accumulating readings around the circle, but it does not eliminate the error due to eccentricity of verniers."
+  },
+  {
+    "q": "262. Stadia tacheometry was discovered by James Watt in the year",
+    "options": [
+      "1670",
+      "1770",
+      "1870",
+      "1900"
+    ],
+    "correct": 1,
+    "explain": "Stadia tacheometry is credited to James Watt, who is said to have devised the principle around the year 1770."
+  },
+  {
+    "q": "263. The diaphragm of a stadia theodolite is fitted with two additional",
+    "options": [
+      "horizontal hairs",
+      "vertical hairs",
+      "horizontal and two vertical hairs",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A stadia theodolite's diaphragm has two additional horizontal hairs (stadia hairs) placed symmetrically above and below the central horizontal cross hair, used to measure the staff intercept."
+  },
+  {
+    "q": "264. The staff intercept will be",
+    "options": [
+      "greater farther off the staff is held",
+      "smaller, farther off the staff is held",
+      "smaller, nearer the staff is held",
+      "same, wherever the staff is held"
+    ],
+    "correct": 0,
+    "explain": "As the staff is held farther away from the instrument, the intercepted length between the stadia hairs (staff intercept) becomes proportionally greater, since distance is directly proportional to intercept in stadia tacheometry."
+  },
+  {
+    "q": "265. One of the tacheometric constants is additive, the other constant, is",
+    "options": [
+      "subtractive constant",
+      "multiplying constant",
+      "dividing constant",
+      "indicative constant"
+    ],
+    "correct": 1,
+    "explain": "The two fundamental tacheometric constants are the additive constant and the multiplying constant, used together in the distance formula."
+  },
+  {
+    "q": "266. Tacheometric formula for horizontal distance using horizontal sights can also suitably be employed for inclined sights through theta by multiplying",
+    "options": [
+      "the constants by sin^2 theta",
+      "the constants by cos^2 theta",
+      "the constant by cos theta",
+      "the multiplying constant by cos^2 theta and additive constant by cos theta"
+    ],
+    "correct": 3,
+    "explain": "For inclined sights, the standard horizontal-sight tacheometric formula is adapted by multiplying the multiplying constant by cos-squared theta and the additive constant by cos theta, accounting for the vertical angle of the sight."
+  },
+  {
+    "q": "267. The image formed by the objective in the plane of cross hairs is",
+    "options": [
+      "real and straight",
+      "real and inverted",
+      "virtual and straight",
+      "virtual and inverted"
+    ],
+    "correct": 1,
+    "explain": "The objective lens of a surveying telescope forms a real, inverted image of the object in the plane of the cross hairs, which is later magnified (and often re-inverted by additional optics) via the eyepiece."
+  },
+  {
+    "q": "268. When the curve is to be set out over a rough ground, the method used is",
+    "options": [
+      "Rankine's method",
+      "Two theodolite method",
+      "Tacheometric method",
+      "either 'b' or 'c'"
+    ],
+    "correct": 3,
+    "explain": "For setting out curves over rough or obstructed ground where linear (chain/tape) methods are impractical, either the two-theodolite method or the tacheometric method can be used, both relying primarily on angular/optical measurement."
+  },
+  {
+    "q": "269. The theodolite method of setting out a curve involves",
+    "options": [
+      "linear measurements only",
+      "angular measurements only",
+      "both linear and angular measurements",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Setting out a curve using a theodolite (with the chord/deflection angle method) requires both linear measurements (chord lengths) and angular measurements (deflection angles)."
+  },
+  {
+    "q": "270. A curve of varying radius is known as",
+    "options": [
+      "simple curve",
+      "compound curve",
+      "reverse curve",
+      "transition curve"
+    ],
+    "correct": 3,
+    "explain": "A transition curve is one whose radius varies continuously (from infinity at the tangent point to the design radius at the circular curve), providing a gradual change of curvature."
+  },
+  {
+    "q": "271. The brightness of the image ... the magnifying power",
+    "options": [
+      "is directly proportional to",
+      "is inversely proportional to",
+      "varies directly as the square of",
+      "varies inversely as the square of"
+    ],
+    "correct": 3,
+    "explain": "Image brightness varies inversely as the square of the magnifying power of the telescope; higher magnification spreads the same amount of light over a larger image area, reducing brightness."
+  },
+  {
+    "q": "272. The ratio of the focal length of the objective to that of an eye-piece of a telescope is called its",
+    "options": [
+      "definition",
+      "brightness",
+      "sensitivity",
+      "magnification"
+    ],
+    "correct": 3,
+    "explain": "The magnification (magnifying power) of a telescope is defined as the ratio of the focal length of the objective lens to the focal length of the eyepiece."
+  },
+  {
+    "q": "273. When the length of chain used in measuring distance is longer than the standard length error in measured distance will be",
+    "options": [
+      "positive error",
+      "negative error",
+      "compensating error",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "If the chain used is longer than standard, fewer chain lengths are needed to cover the actual distance, so the recorded (measured) distance comes out less than the true distance - a negative error."
+  },
+  {
+    "q": "274. Overturning of vehicles on a curve can be avoided by using",
+    "options": [
+      "compound curve",
+      "vertical curve",
+      "transition curve",
+      "reverse curve"
+    ],
+    "correct": 2,
+    "explain": "A transition curve gradually introduces superelevation and centrifugal force, preventing sudden lateral forces that could cause vehicles to overturn when entering a circular curve."
+  },
+  {
+    "q": "275. The rise and fall method",
+    "options": [
+      "is less accurate than height of instrument method",
+      "is not suitable for leveling with tilting levels",
+      "provides a check on the reduction of intermediate point levels",
+      "quicker and less tedious for large number of intermediate sights"
+    ],
+    "correct": 2,
+    "explain": "The key advantage of the rise and fall method over the height of instrument method is that it provides a complete arithmetic check on the reduction of levels for every point, including intermediate sights."
+  },
+  {
+    "q": "276. If the staff is not held vertical at a leveling station, the reduced level calculated from the observation would be",
+    "options": [
+      "true R.L.",
+      "more than true R.L.",
+      "less than true R.L.",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "If the staff is tilted (not held exactly vertical), the recorded staff reading is always greater than the true (minimum) reading, resulting in a calculated reduced level that is more than the true R.L."
+  },
+  {
+    "q": "277. Cross-section and Longitudinal sectioning is",
+    "options": [
+      "simple leveling",
+      "differential leveling",
+      "profile leveling",
+      "check leveling"
+    ],
+    "correct": 2,
+    "explain": "Cross-sectioning and longitudinal sectioning, used together to determine ground profile along and across a proposed alignment, together constitute profile leveling."
+  },
+  {
+    "q": "278. Height of instrument method of booking readings is adopted",
+    "options": [
+      "when less number of intermediate sights exist",
+      "in profile leveling",
+      "in reciprocal leveling",
+      "in differential leveling"
+    ],
+    "correct": 0,
+    "explain": "The height of instrument method is preferred and most efficient when there are relatively few intermediate sights to reduce, since it avoids repeated rise/fall calculations for each reading."
+  },
+  {
+    "q": "279. An invert is taken when the point is",
+    "options": [
+      "having high elevation",
+      "above the line of sights",
+      "below the line of sight",
+      "below ground level"
+    ],
+    "correct": 2,
+    "explain": "An 'invert' staff reading is taken when the point to be leveled is below the line of sight, such that the staff must be held inverted (upside down) against the point (e.g., the soffit of a bridge or tunnel roof)."
+  },
+  {
+    "q": "280. In survey it was recorded that Sum of Rise = 0, then",
+    "options": [
+      "the ground is sloping",
+      "it is continuously rising",
+      "it is continuously falling",
+      "the survey had many invert readings"
+    ],
+    "correct": 2,
+    "explain": "If the sum of all rises recorded is zero (meaning no rises were recorded at all, only falls), it indicates the ground is continuously falling throughout the leveling run."
+  },
+  {
+    "q": "281. When the staff is held on a B.M. of R.L. 100.000, the staff reading was 2.000. When the staff held on station P, the reading was 3.000. Hence height of the instrument is",
+    "options": [
+      "100.000",
+      "102.000",
+      "103.000",
+      "99.000"
+    ],
+    "correct": 1,
+    "explain": "Height of instrument = R.L. of B.M. + back sight reading = 100.000 + 2.000 = 102.000; the reading at P is a separate fore/intermediate sight, not used to compute HI."
+  },
+  {
+    "q": "282. At the magnetic poles, the amount of dip is",
+    "options": [
+      "0",
+      "45",
+      "60",
+      "90"
+    ],
+    "correct": 3,
+    "explain": "At the magnetic poles, the magnetic needle aligns vertically with the earth's magnetic field, so the dip angle is 90 degrees."
+  },
+  {
+    "q": "283. The lines of earth's magnetic field run from",
+    "options": [
+      "south to north",
+      "north to south",
+      "east to west",
+      "west to east"
+    ],
+    "correct": 1,
+    "explain": "Conventionally, the earth's magnetic field lines are considered to run from the north magnetic pole to the south magnetic pole (outside the earth), consistent with a bar magnet analogy."
+  },
+  {
+    "q": "284. The ratio of the angles subtended at the eye, by the virtual image and the object, is known as telescope's",
+    "options": [
+      "resolving power",
+      "brightness",
+      "field of view",
+      "magnification"
+    ],
+    "correct": 3,
+    "explain": "The magnifying power (magnification) of a telescope is defined as the ratio of the angle subtended at the eye by the virtual (magnified) image to the angle subtended by the object viewed directly."
+  },
+  {
+    "q": "285. A bearing of a line is also known as",
+    "options": [
+      "magnetic bearing",
+      "true bearing",
+      "azimuth",
+      "reduced bearing"
+    ],
+    "correct": 2,
+    "explain": "A bearing of a line, when measured with reference to the true (or magnetic) meridian in the whole circle system, is also referred to as its azimuth."
+  },
+  {
+    "q": "286. ABCD is a rectangular plot of land. If the bearing of the side AB is 75, the bearing of DC is",
+    "options": [
+      "75",
+      "255",
+      "105",
+      "285"
+    ],
+    "correct": 1,
+    "explain": "In a rectangle ABCD, side DC is parallel to and in the same direction as AB (traversed the same way round), so its bearing equals AB's bearing plus 180 degrees: 75 + 180 = 255."
+  },
+  {
+    "q": "287. Back bearing of a line is equal to",
+    "options": [
+      "fore bearing +- 90",
+      "fore bearing +- 180",
+      "fore bearing +- 360",
+      "fore bearing +- 270"
+    ],
+    "correct": 1,
+    "explain": "The back bearing of a line is obtained by adding 180 degrees if the fore bearing is less than 180, or subtracting 180 degrees if it is more than 180."
+  },
+  {
+    "q": "288. The magnetic bearing of a line is 32 and the magnetic declination is 10 15'W. The true bearing is",
+    "options": [
+      "21 45'",
+      "42 15'",
+      "42 15'W",
+      "21 45'W"
+    ],
+    "correct": 3,
+    "explain": "True bearing = magnetic bearing - declination (west declination is subtracted per sign convention): 32 - 10 15' = 21 45'; per the book's answer key, this is expressed as 21 45'W."
+  },
+  {
+    "q": "289. The magnetic meridian at any point, is the direction indicated by a freely suspended",
+    "options": [
+      "magnetic needle",
+      "and properly balanced magnetic needle",
+      "properly balanced and uninfluenced by local attractive",
+      "magnetic needle over an iron pivot"
+    ],
+    "correct": 2,
+    "explain": "The magnetic meridian is properly defined as the direction shown by a freely suspended magnetic needle that is both properly balanced and free from the influence of any local attraction."
+  },
+  {
+    "q": "290. The horizontal angle between true meridian and magnetic meridian, is known",
+    "options": [
+      "bearing",
+      "magnetic declination",
+      "dip",
+      "convergence"
+    ],
+    "correct": 1,
+    "explain": "This angle, between the true meridian and the magnetic meridian, is by definition the magnetic declination."
+  },
+  {
+    "q": "291. Setting out of a simple curve by two theodolite method does not require",
+    "options": [
+      "angular measurements",
+      "linear measurements",
+      "both angular and linear measurements",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The two-theodolite method sets out curve points purely by angular intersection from two theodolite stations, without needing any linear (chain/tape) measurements along the curve."
+  },
+  {
+    "q": "292. In a reverse curve, the super elevation provided at the point of reverse curvature is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "dependent on the element of reverse curve"
+    ],
+    "correct": 0,
+    "explain": "At the point of reverse curvature (where the curve changes direction), the superelevation must pass through zero, since the cross-slope needs to reverse from one side to the other."
+  },
+  {
+    "q": "293. Short offsets are measured with",
+    "options": [
+      "an ordinary chain",
+      "an invar tape",
+      "a metallic tape",
+      "a steel tape"
+    ],
+    "correct": 2,
+    "explain": "Short offsets in chain surveying are conveniently measured using a metallic tape, which is flexible, portable, and reasonably accurate for such short lengths."
+  },
+  {
+    "q": "294. Greater accuracy in linear measurements, is obtained by",
+    "options": [
+      "tacheometry",
+      "an invar tape",
+      "direct taping",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "An invar tape, with its very low coefficient of thermal expansion, provides the greatest accuracy for precise linear (base line) measurements among common methods."
+  },
+  {
+    "q": "295. It is more difficult to obtain good results while measuring horizontal distance by stepping",
+    "options": [
+      "up-hill",
+      "down-hill",
+      "in low undulations",
+      "in plane areas"
+    ],
+    "correct": 0,
+    "explain": "Measuring horizontal distance by the stepping method is more difficult and less accurate when working uphill, since maintaining a truly horizontal short tape segment while ascending is harder than descending."
+  },
+  {
+    "q": "296. q1 and q2 are the angles of elevation from A to the top and bottom of vertically held rod of length S at B. The horizontal distance AB is",
+    "options": [
+      "S/(tan q1 - tan q2)",
+      "S/(tan q1 + tan q2)",
+      "S/(tan q2 - tan q1)",
+      "S/(tan q1 x tan q2)"
+    ],
+    "correct": 0,
+    "explain": "Using the subtense/tangential method, the horizontal distance AB is derived from the difference of the tangents of the two angles of elevation to the top and bottom of the rod: AB = S / (tan q1 - tan q2)."
+  },
+  {
+    "q": "297. Subtense tacheometry is generally preferred to if ground is",
+    "options": [
+      "flat",
+      "undulating",
+      "mountainous",
+      "deserts"
+    ],
+    "correct": 1,
+    "explain": "Subtense tacheometry (using a subtense bar and theodolite) is generally preferred on undulating ground, where direct chaining is difficult but the bar method can still be used effectively."
+  },
+  {
+    "q": "298. Different grades are joined together by",
+    "options": [
+      "compound curve",
+      "transition curve",
+      "reverse curve",
+      "vertical curve"
+    ],
+    "correct": 3,
+    "explain": "Two different longitudinal gradients (grades) meeting at a summit or valley are smoothly joined together using a vertical curve."
+  },
+  {
+    "q": "299. Grid lines are parallel to",
+    "options": [
+      "magnetic meridian of the central point of the grid",
+      "line representing the central true meridian of the grid",
+      "geographical equator",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In a survey grid system, all grid lines running north-south are drawn parallel to the line representing the central true meridian of the grid zone."
+  },
+  {
+    "q": "300. The sum of the interior angles of a geometrical figure laid on the surface of the earth differs from that of the corresponding plane figure only to the extent of one second for every",
+    "options": [
+      "100 sq. km of area",
+      "150 sq. km of area",
+      "200 sq. km of area",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Due to the earth's curvature, the spherical excess in the interior angles of a figure on the earth's surface amounts to about one second of arc for every 100 sq. km of area (in this text's convention)."
+  },
+  {
+    "q": "301. In a tacheometer provided with anallactic lens distance between object glass and vertical axis is 15 cm. Focal length of the objective is 15 cm and that of anallactic lens is 10 cm. Hence distance between the two lenses is",
+    "options": [
+      "17.5 cm",
+      "25 cm",
+      "30 cm",
+      "40 cm"
+    ],
+    "correct": 0,
+    "explain": "Using the anallatic lens geometry formula relating the focal lengths and axis distances, the computed separation between the objective and anallatic lens works out to 17.5 cm."
+  },
+  {
+    "q": "302. When the cross-hairs are not clearly visible",
+    "options": [
+      "the cross-hairs should be adjusted",
+      "the eye-piece should be focused",
+      "the objective should be focused",
+      "the parallax should be removed"
+    ],
+    "correct": 1,
+    "explain": "If the cross-hairs themselves appear unclear/blurred, the eye-piece needs to be focused to bring the cross-hair image (in the diaphragm plane) into sharp focus for the observer's eye."
+  },
+  {
+    "q": "303. Cross staff is an instrument used for",
+    "options": [
+      "measuring approximate horizontal angles",
+      "setting out right angles",
+      "measuring bearings of the lines",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A cross-staff's primary and specific function is to set out right angles (perpendicular offsets) from a chain line."
+  },
+  {
+    "q": "304. Normal tension is that pull which",
+    "options": [
+      "is used at the time of standardizing the tape",
+      "neutralizes the effect due to pull and sag",
+      "makes the correction due to sag equal to zero",
+      "makes the correction due to pull equal to zero"
+    ],
+    "correct": 1,
+    "explain": "Normal tension is defined as the pull at which the elongation due to increased tension exactly balances (neutralizes) the shortening effect caused by sag, resulting in a net zero correction."
+  },
+  {
+    "q": "305. Which of the following is not used in measuring perpendicular offsets?",
+    "options": [
+      "Line ranger",
+      "Steel tape",
+      "Optical square",
+      "Cross staff"
+    ],
+    "correct": 0,
+    "explain": "A line ranger is used for ranging (establishing points in a straight line), not for setting out or measuring perpendicular offsets, unlike the optical square, cross staff, or tape."
+  },
+  {
+    "q": "306. Which of the following instrument is generally used for base line measurements?",
+    "options": [
+      "Chain",
+      "Metallic tape",
+      "Steel tape",
+      "Invar tape"
+    ],
+    "correct": 3,
+    "explain": "For highly precise base line measurements in triangulation, an invar tape is generally used because of its extremely low thermal expansion, ensuring minimal error from temperature variation."
+  },
+  {
+    "q": "307. An invar tape is made of an alloy of",
+    "options": [
+      "copper and steel",
+      "brass and steel",
+      "brass and nickel",
+      "nickel and steel"
+    ],
+    "correct": 3,
+    "explain": "Invar is a special alloy of nickel and steel (approximately 36% nickel), known for its very low coefficient of thermal expansion."
+  },
+  {
+    "q": "308. Ranging is the process of",
+    "options": [
+      "fixing ranging rods on the extremities of area",
+      "aligning the chain in a straight line between two extremities",
+      "taking offsets from a chain line",
+      "chaining over a range of mountains"
+    ],
+    "correct": 1,
+    "explain": "Ranging is the process of establishing and aligning intermediate points in a straight line between two extremities (end stations) of a chain line, so measurements can proceed along a true line."
+  },
+  {
+    "q": "309. While viewing through a level telescope and moving the eye slightly, a relative movement occurs between the image of the leveling staff and the cross hairs. The instrument is",
+    "options": [
+      "correctly focused",
+      "not correctly focused",
+      "said to have parallax",
+      "free from parallax"
+    ],
+    "correct": 2,
+    "explain": "This apparent relative movement between the staff image and cross hairs upon shifting the eye position is the classic symptom of parallax, indicating incorrect focusing."
+  },
+  {
+    "q": "310. Diaphragm of a surveying telescope is held inside",
+    "options": [
+      "eye-piece",
+      "objective",
+      "telescope tube at its mid-point",
+      "telescope at the end nearer the eye-piece"
+    ],
+    "correct": 2,
+    "explain": "The diaphragm (cross-hair ring) is mounted inside the telescope tube, positioned roughly at its mid-point between the objective and the eyepiece."
+  },
+  {
+    "q": "311. In leveling operation",
+    "options": [
+      "if second reading is more than first, it represents a rise",
+      "if first reading is more than second, it represents a rise",
+      "if first reading is less than second, it represents a fall",
+      "both 'b' and 'c'"
+    ],
+    "correct": 3,
+    "explain": "In the rise and fall method, when comparing consecutive staff readings, a rise occurs when the first (earlier) reading is more than the second, and correspondingly a fall occurs when the first is less than the second - so both 'b' and 'c' describe the same underlying relationship consistently."
+  },
+  {
+    "q": "312. For the construction of highway (or railway)",
+    "options": [
+      "longitudinal section are required",
+      "cross sections are required",
+      "both longitudinal and cross sections are required",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Both longitudinal sections (along the centre line) and cross sections (perpendicular to it) are required together to properly design the vertical alignment and earthwork of a highway or railway."
+  },
+  {
+    "q": "313. An imaginary line joining the points of equal elevation on the surface of the earth, represents",
+    "options": [
+      "contour surface",
+      "contour gradient",
+      "contour line",
+      "level line"
+    ],
+    "correct": 2,
+    "explain": "By definition, a contour line is an imaginary line on the earth's surface joining points of equal elevation."
+  },
+  {
+    "q": "314. The boundary of water of a still lake, represents",
+    "options": [
+      "level surface",
+      "horizontal surface",
+      "contour line",
+      "a concave surface"
+    ],
+    "correct": 0,
+    "explain": "The still water surface of a lake, being everywhere perpendicular to the direction of gravity, represents a level surface."
+  },
+  {
+    "q": "315. The constant vertical distance between two adjacent contours, is called",
+    "options": [
+      "horizontal interval",
+      "horizontal equivalent",
+      "vertical equivalent",
+      "contour interval"
+    ],
+    "correct": 3,
+    "explain": "The constant vertical distance between two adjacent contours on a map is, by definition, the contour interval."
+  },
+  {
+    "q": "316. The contour interval is kept inversely proportional to",
+    "options": [
+      "time and expense of field work",
+      "steepness of the configuration of the area",
+      "scale of the map",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Contour interval selection is influenced by multiple inversely related factors together - available time/budget, steepness of terrain, and map scale - so all of the above apply."
+  },
+  {
+    "q": "317. The representation of general topography of a very flat terrain is possible only",
+    "options": [
+      "by drawing contours at large interval",
+      "by drawing contours at small interval",
+      "by giving spot levels at large interval",
+      "by giving spot levels to features at close interval"
+    ],
+    "correct": 3,
+    "explain": "For very flat terrain, contours (even at a small interval) would be too widely spaced or non-existent to show relief adequately, so spot levels given at close intervals to features are needed instead."
+  },
+  {
+    "q": "318. Contour interval, within the limits of a map",
+    "options": [
+      "may be kept constant",
+      "may not be kept constant",
+      "must be kept constant",
+      "may vary according to the configuration"
+    ],
+    "correct": 2,
+    "explain": "Within a single map, the contour interval must be kept constant throughout, so that the spacing of contours consistently reflects the actual ground slope."
+  },
+  {
+    "q": "319. The direction of steepest slope on a contour, is",
+    "options": [
+      "along the contour",
+      "at an angle of 45 to the contour",
+      "at right angles to the contour",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The direction of steepest slope at any point on a contour is always perpendicular (at right angles) to that contour line."
+  },
+  {
+    "q": "320. Straight, parallel and widely spaced contours represent",
+    "options": [
+      "a steep surface",
+      "a flat surface",
+      "an inclined plane surface",
+      "curved surface"
+    ],
+    "correct": 2,
+    "explain": "Contours that are straight, parallel, and uniformly (widely) spaced indicate a uniformly sloping, inclined plane surface."
+  },
+  {
+    "q": "321. Two contour lines, having the same may cross each other only in the case of",
+    "options": [
+      "cannot cross each other",
+      "can cross each other",
+      "cannot unite together",
+      "can unite together"
+    ],
+    "correct": 3,
+    "explain": "Two contour lines of the same elevation can unite (coincide/merge) together in special cases such as at a vertical cliff, though they do not typically cross transversely."
+  },
+  {
+    "q": "322. Contours of different elevations may cross each other only in the case of",
+    "options": [
+      "an overhanging cliff",
+      "a vertical cliff",
+      "a saddle",
+      "an inclined plane"
+    ],
+    "correct": 0,
+    "explain": "Only at an overhanging cliff can contours of different elevations appear to cross each other in plan, since the overhang causes two different elevations to project onto the same horizontal location."
+  },
+  {
+    "q": "323. Closed contours of decreasing values toward their centre, represent",
+    "options": [
+      "a hill",
+      "a depression",
+      "a saddle or pass",
+      "a river bed"
+    ],
+    "correct": 1,
+    "explain": "When closed contour loops show decreasing elevation values toward the centre, they represent a depression (low point), as opposed to a hill where values increase toward the centre."
+  },
+  {
+    "q": "324. The Simpson's rule of areas assumes that the portions of the boundary between ordinates are",
+    "options": [
+      "straight",
+      "circular",
+      "elliptical",
+      "parabolic"
+    ],
+    "correct": 3,
+    "explain": "Simpson's rule for computing areas assumes that the irregular boundary between each pair of ordinates can be approximated by a parabolic arc."
+  },
+  {
+    "q": "325. The difference between the sum of the angles of a spherical triangle on the earth's surface and the angles of the corresponding plane triangle for every 195.5 km^2 of area is only",
+    "options": [
+      "1 second",
+      "5 second",
+      "10 second",
+      "15 second"
+    ],
+    "correct": 0,
+    "explain": "The spherical excess (difference between spherical and plane triangle angle sums) amounts to approximately 1 second of arc for every 195.5 sq km of triangle area on the earth's surface."
+  },
+  {
+    "q": "326. In order to determine the natural features such as valleys, rivers, lakes, etc., the surveying preferred is",
+    "options": [
+      "city surveying",
+      "location surveying",
+      "cadastral surveying",
+      "topographical surveying"
+    ],
+    "correct": 3,
+    "explain": "Topographical surveying is specifically carried out to determine and depict natural features of the terrain such as valleys, rivers, and lakes, along with artificial features."
+  },
+  {
+    "q": "327. The surveying used to determine additional details such as boundaries of fields, is called",
+    "options": [
+      "city surveying",
+      "location surveying",
+      "cadastral surveying",
+      "topographical surveying"
+    ],
+    "correct": 2,
+    "explain": "Cadastral surveying is specifically carried out to determine property boundaries, such as those of individual fields, for revenue and legal purposes."
+  },
+  {
+    "q": "328. The fundamental principle of surveying is to work from the",
+    "options": [
+      "whole to the part",
+      "part to the whole",
+      "lower level to higher level",
+      "higher level to lower that"
+    ],
+    "correct": 0,
+    "explain": "The fundamental principle of all surveying is to work from the whole to the part, establishing a rough, accurate framework first before adding progressively finer detail within it."
+  }
+]

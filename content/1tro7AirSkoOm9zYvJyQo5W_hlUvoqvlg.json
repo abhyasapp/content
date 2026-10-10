@@ -1,0 +1,827 @@
+[
+  {
+    "q": "151. If the completion time for a particular project is 6 weeks and its expected time is 8 weeks, then the slack time for the project is",
+    "options": [
+      "2 weeks",
+      "-2 weeks",
+      "0",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Slack time is calculated as (Scheduled Time - Expected Time). Here, 6 weeks - 8 weeks = -2 weeks. Negative slack indicates the project is behind schedule."
+  },
+  {
+    "q": "152. If D is the duration, ES and EF are the earliest start and earliest finish time, LS and LF are latest start and latest finish time, then following relation holds good",
+    "options": [
+      "EF = ES + D",
+      "LS = LF - D",
+      "LF = LS + D",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "In network analysis, finish times are the start times plus duration, and start times are finish times minus duration. All these formulas correctly represent the relationships between activity timings."
+  },
+  {
+    "q": "153. An activity is",
+    "options": [
+      "resources",
+      "a definite job",
+      "event",
+      "mid of event"
+    ],
+    "correct": 1,
+    "explain": "An activity in a project network is a specific portion of work that consumes time and resources to complete."
+  },
+  {
+    "q": "154. Total project time is the",
+    "options": [
+      "sum of duration of all activities",
+      "sum of duration of non-critical activities",
+      "sum of duration of critical activities",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The total project duration is determined by the length of the critical path, which is the sequence of activities with the longest total duration."
+  },
+  {
+    "q": "155. Higher standard deviations means",
+    "options": [
+      "lower uncertainty",
+      "medium uncertainty",
+      "higher uncertainty",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "In PERT, standard deviation measures the dispersion of possible completion times; a higher value indicates a wider range of possibilities and thus greater uncertainty."
+  },
+  {
+    "q": "156. Probability factor is",
+    "options": [
+      "(scheduled time - earliest expected time) / standard deviation",
+      "(scheduled time - latest allowable time) / standard deviation",
+      "(latest allowable time - scheduled time) / standard deviation",
+      "(latest allowable time - earliest expected time) / variance"
+    ],
+    "correct": 0,
+    "explain": "The probability factor (Z-score) is calculated as $Z = (T_s - T_e) / \\sigma$, where $T_s$ is scheduled time and $T_e$ is earliest expected time."
+  },
+  {
+    "q": "157. Find the variance if tp = 14 days, tm = 6 days and to = 2 days.",
+    "options": [
+      "2/3",
+      "2",
+      "4",
+      "4/9"
+    ],
+    "correct": 2,
+    "explain": "Standard deviation $\\sigma = (t_p - t_o) / 6 = (14 - 2) / 6 = 2$. Variance is $\\sigma^2$, so $2^2 = 4$."
+  },
+  {
+    "q": "158. The expected project duration in CPM follow",
+    "options": [
+      "normal distribution curve",
+      "beta distribution curve",
+      "posson's distribution curve",
+      "binomial distribution curve"
+    ],
+    "correct": 0,
+    "explain": "While individual activities in PERT follow a Beta distribution, the total project duration (due to the Central Limit Theorem) is assumed to follow a Normal Distribution."
+  },
+  {
+    "q": "159. The relation between jobs of a particular type and various durations they have consumed for completion is expressed by",
+    "options": [
+      "normal distribution curve",
+      "distribution curve",
+      "frequency distribution curve",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A frequency distribution curve shows how often different values (durations) occur within a data set of completed jobs."
+  },
+  {
+    "q": "160. The mean coincides with the node, if frequency distribution curve is",
+    "options": [
+      "symmetrical",
+      "unsymmetrical",
+      "normal",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In a perfectly symmetrical distribution, the mean, median, and mode all coincide at the center point."
+  },
+  {
+    "q": "161. If the height of the frequency-distribution underneath is equal to unity, then curve is known as",
+    "options": [
+      "distribution curve",
+      "skew curve",
+      "probability distribution curve",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "A standard distribution curve where the total area (or cumulative frequency normalized) represents the whole unit."
+  },
+  {
+    "q": "162. Restraint is a restriction having",
+    "options": [
+      "positive duration",
+      "negative duration",
+      "both (a) and (b) of above",
+      "zero duration"
+    ],
+    "correct": 2,
+    "explain": "Restraints in scheduling can impose requirements that effectively act as positive or negative time constraints depending on the logic."
+  },
+  {
+    "q": "163. According to \"Contract Act 2055\" the number of classes of contractor are",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 1,
+    "explain": "The Nepal Contract Act/Public Procurement regulations categorize contractors into four classes: A, B, C, and D."
+  },
+  {
+    "q": "164. Any event affecting the project should be claimed to client by the contractor within",
+    "options": [
+      "7 days",
+      "14 days",
+      "21 days",
+      "28 days"
+    ],
+    "correct": 3,
+    "explain": "Standard international and local contracts (like FIDIC or PPR) typically require a notice of claim within 28 days of the event."
+  },
+  {
+    "q": "165. If the path of activities leads back into itself, the resulting error in the network is known as",
+    "options": [
+      "looping",
+      "dangling",
+      "interfacing",
+      "splicing"
+    ],
+    "correct": 0,
+    "explain": "Looping is a logical error where a sequence of activities creates a cycle, making it impossible to calculate project duration."
+  },
+  {
+    "q": "166. Updating may result in",
+    "options": [
+      "change of critical path",
+      "decrease of project completion time",
+      "increase of project completion time",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "As a project progresses, updating the schedule with actual data can shorten or lengthen the timeline and shift the critical path."
+  },
+  {
+    "q": "167. If σ1, σ2, σ3, .........are the standard deviations of completion for the activities along the critical path, the standard deviations of the time of completion of the project is given by",
+    "options": [
+      "σtE = √(σ1² + σ2² + σ3² ...)",
+      "σtE = √((σ1 + σ2 + σ3 ...)/n)",
+      "σtE = (σ1 + σ2 + σ3 ...)/n",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The project standard deviation is the square root of the sum of the variances ($\\sigma^2$) of the activities on the critical path."
+  },
+  {
+    "q": "168. The technique for establishing and maintaining priorities among the various jobs of a project, is known as",
+    "options": [
+      "event flow scheduling technique",
+      "critical ratio scheduling",
+      "slotting technique for scheduling",
+      "short interval scheduling"
+    ],
+    "correct": 1,
+    "explain": "Critical Ratio is a priority index determined by dividing the time remaining until a job is due by the work time remaining."
+  },
+  {
+    "q": "169. Pre-tender stage requires",
+    "options": [
+      "selection of site and acquisition of land",
+      "finalisation of alignment of work",
+      "finalisation of designs and preparation of estimate",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Before a tender is called, the owner must secure the site, finalize the design, and prepare a cost estimate to ensure the project is ready for bidding."
+  },
+  {
+    "q": "170. Which types of tender generally prefer",
+    "options": [
+      "schedule of rate",
+      "cost change",
+      "basic charge",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Schedule of Rates (SOR) is preferred in civil engineering works as it allows for payments based on actual quantities measured at agreed rates."
+  },
+  {
+    "q": "171. While filling the tender for any work, the contractor considers quotation?",
+    "options": [
+      "site survey",
+      "availability of labour",
+      "study of specification",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A contractor must evaluate the site conditions, labor market, and technical requirements (specifications) to provide an accurate and competitive price."
+  },
+  {
+    "q": "172. Tender is awarded for",
+    "options": [
+      "technically justification",
+      "lowest cost",
+      "highest cost",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In competitive bidding, the contract is typically awarded to the lowest responsive and responsible bidder who meets all technical requirements."
+  },
+  {
+    "q": "173. Tender is called for i) to minimize the cost of an item ii) to find exact rate of item of unknown item iii) to take minimum rate from contractor",
+    "options": [
+      "both (i) and (ii)",
+      "both (i) and (iii)",
+      "both (ii) and (iii)",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Tendering promotes competition to ensure the owner receives the most economical price (minimum rate) for the work."
+  },
+  {
+    "q": "174. Local tender is not favorable due to following reasons:",
+    "options": [
+      "unknown about foreign material",
+      "most of the material used locally",
+      "engineer or site in charge pressurized",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Local tenders can sometimes lead to localized pressure or influence on the decision-making staff compared to international competitive bidding."
+  },
+  {
+    "q": "175. If a contractor is found corrupt for tender work then what should be done by the concerned office",
+    "options": [
+      "his tender is cancelled",
+      "way to legal court",
+      "fine is charged",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Corruption leads to administrative actions like cancellation, financial penalties, and potential legal prosecution."
+  },
+  {
+    "q": "176. Tender document does not contain",
+    "options": [
+      "tender form",
+      "BOQ",
+      "amount of earnest money",
+      "unit rate"
+    ],
+    "correct": 3,
+    "explain": "The unit rates are filled in by the contractor during the bidding process; the blank document itself does not provide them."
+  },
+  {
+    "q": "177. The amount of earnest money generally deposited at the time of submission of tender is",
+    "options": [
+      "2-3% of estimated amount",
+      "2-3% of quoted amount",
+      "3-4% of estimated amount",
+      "3-4% of quoted amount"
+    ],
+    "correct": 0,
+    "explain": "In Nepal's Public Procurement Act, bid security (earnest money) is usually 2% to 3% of the estimated amount."
+  },
+  {
+    "q": "178. A turn key contract is offered for",
+    "options": [
+      "planning",
+      "designing",
+      "construction",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A turnkey contract involves the contractor handling every stage from design to completion so the owner can 'turn the key' and start using the facility."
+  },
+  {
+    "q": "179. The earned value technique in construction management is also known as",
+    "options": [
+      "CPM",
+      "PERT",
+      "S-curve",
+      "Gnatt chart"
+    ],
+    "correct": 2,
+    "explain": "Earned Value Management (EVM) performance is typically plotted on an S-curve to show cumulative progress over time."
+  },
+  {
+    "q": "180. Amicable settlement means",
+    "options": [
+      "settled by court",
+      "settled by two parties",
+      "settled by dispute board",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Amicable settlement is a non-adversarial process where the parties resolve the dispute themselves through negotiation."
+  },
+  {
+    "q": "181. A contractor can start the construction works following the receipts of",
+    "options": [
+      "award of construct",
+      "contract agreement",
+      "notice to proceed",
+      "variation order"
+    ],
+    "correct": 2,
+    "explain": "The 'Notice to Proceed' is the formal authorization that marks the official start date of the project."
+  },
+  {
+    "q": "182. In the construction industry arbitration method is used for",
+    "options": [
+      "inviting the tender",
+      "opening the tender",
+      "awarding the tender",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "Arbitration is a dispute resolution method used after a contract is signed, not during the initial tendering phases."
+  },
+  {
+    "q": "183. The minimum number of parties for any types of dispute should be",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "A dispute requires at least two opposing sides (e.g., the employer and the contractor)."
+  },
+  {
+    "q": "184. While making the agreement of any contract, the legal authority is appointed by",
+    "options": [
+      "single party",
+      "both the party",
+      "by client",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A single entity (the owner/client) typically establishes the legal framework for the contract document."
+  },
+  {
+    "q": "185. Which is the tri-party dispute resolution procedure for the settlement of any dispute in construction industry?",
+    "options": [
+      "dispute adjudication board",
+      "arbitration procedure",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Both DAB and Arbitration involve a third-party neutral body to settle disputes between the two contract parties."
+  },
+  {
+    "q": "186. The number of members nominated in dispute adjudication board are",
+    "options": [
+      "one or two",
+      "two or three",
+      "one or three",
+      "two or four"
+    ],
+    "correct": 2,
+    "explain": "A DAB typically consists of either a single member or three members to avoid deadlocks."
+  },
+  {
+    "q": "187. The remuneration of members of dispute adjudication board is paid by",
+    "options": [
+      "contractor and client",
+      "client and consultant",
+      "contractor and consultant",
+      "consultant, contractor and client"
+    ],
+    "correct": 0,
+    "explain": "Costs for the DAB are traditionally shared equally (50/50) by the contractor and the employer to maintain neutrality."
+  },
+  {
+    "q": "188. The money of the contractor retained by the department during payments is called :",
+    "options": [
+      "tender money",
+      "retention money",
+      "earnest money",
+      "security deposit"
+    ],
+    "correct": 1,
+    "explain": "Retention money is a percentage withheld from progress payments to ensure the contractor completes the work and fixes defects."
+  },
+  {
+    "q": "189. Force majeure in contract is:",
+    "options": [
+      "occurrence of an act beyond the control of both the parties",
+      "preventing both parties to perform the respective obligation agreed",
+      "both of the above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Force majeure refers to 'Acts of God' or unforeseeable events that make contract fulfillment impossible through no fault of the parties."
+  },
+  {
+    "q": "190. Generally in GoN office, what is the main intention of Office Chief",
+    "options": [
+      "direct purchase",
+      "bidding",
+      "sealed quotation",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "While bidding is the legal standard, office chiefs often prefer direct purchase for smaller, urgent requirements due to speed."
+  },
+  {
+    "q": "191. The amount of VAT for the purchase of steel having an amount of NRs. 6000/- should be",
+    "options": [
+      "300/-",
+      "600/-",
+      "780/-",
+      "960/-"
+    ],
+    "correct": 2,
+    "explain": "VAT in Nepal is 13%. $6000 \\times 0.13 = 780$."
+  },
+  {
+    "q": "192. If damage occurred within specified time internal, it falls on the work of",
+    "options": [
+      "contractor",
+      "client",
+      "consultant",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "During the construction and defects liability period, the contractor is responsible for damage to the works."
+  },
+  {
+    "q": "193. For the construction of a project, a contractor is a",
+    "options": [
+      "a person",
+      "a firm",
+      "an agency",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A contractor can be a legally registered individual, a partnership firm, or a corporate agency."
+  },
+  {
+    "q": "194. The authority of Gazetted third officer for the approval of estimate is (Source:PPR 2064(14))",
+    "options": [
+      "< 50 million",
+      "< 100 million",
+      "< 200 million",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Based on the Public Procurement Rules of Nepal, a 3rd class gazetted officer has an approval limit under 50 million."
+  },
+  {
+    "q": "195. The maximum amount for approval of tender by Gazetted 3rd class officer is (Source:PPR 2064(67))",
+    "options": [
+      "< ten crore",
+      "< twenty crore",
+      "< fifty crore",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Standard delegation of authority limits a 3rd class officer to tenders below 10 Crore (100 million)."
+  },
+  {
+    "q": "196. The methods used for dispute resolution on any construction industry are",
+    "options": [
+      "dispute adjudication board",
+      "amicable settlement",
+      "arbitration",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All three methods are standard steps in the hierarchy of construction dispute resolution."
+  },
+  {
+    "q": "197. The minimum no. of parties for doing any contract/agreement should be",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 1,
+    "explain": "A contract requires a minimum of two parties: the promisor and the promisee."
+  },
+  {
+    "q": "198. *What are the essential components of a valid contract?",
+    "options": [
+      "offer and acceptance",
+      "free consent",
+      "legal relationship",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A valid contract requires mutual agreement, voluntary consent, and the intent to create legal obligations."
+  },
+  {
+    "q": "199. At present, in Nepal the types of contract normally followed in housing project to save the government taxes is",
+    "options": [
+      "material contract",
+      "item rate contract",
+      "labour contract",
+      "cost plus contract"
+    ],
+    "correct": 2,
+    "explain": "In small-scale housing, owners often provide materials themselves and contract only for labor to reduce tax liability."
+  },
+  {
+    "q": "200. The price of tender document for the bidding amount upto two crore is (Source:PPR2064(48))",
+    "options": [
+      "Rs. 1000.00",
+      "Rs. 3000.00",
+      "Rs. 5000.00",
+      "Rs. 10000.00"
+    ],
+    "correct": 1,
+    "explain": "According to Nepal's PPR, tender documents for projects up to 20 million (2 crore) cost 3,000 NRS."
+  },
+  {
+    "q": "201. During construction of governmental buildings the project became delayed due to delay in payment, unusual weather, civil disturbances etc. The reason, delay in payment will be considered for extra claim or not?",
+    "options": [
+      "considered",
+      "not considered",
+      "depends upon the client",
+      "depend upon the consultant"
+    ],
+    "correct": 0,
+    "explain": "A delay in payment by the employer is a breach of contract that allows the contractor to claim for time and/or cost."
+  },
+  {
+    "q": "202. *The first step for formulation of any contract is",
+    "options": [
+      "publishing the tender",
+      "submitting the tender",
+      "deposition of earnest money",
+      "deposition of security money"
+    ],
+    "correct": 0,
+    "explain": "The process begins with the invitation to bid (publishing the tender), which constitutes the 'invitation to treat'."
+  },
+  {
+    "q": "203. *The amount of money deposited while bidding a tender as a guarantee of the party's willingness of carry out the work is called",
+    "options": [
+      "earnest money",
+      "security money",
+      "retention money",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Earnest money (bid security) ensures the bidder is serious and will sign the contract if awarded."
+  },
+  {
+    "q": "204. *Earnest money is a ......towards the execution of a publicly tender government contract .",
+    "options": [
+      "withdrawal",
+      "deposit",
+      "loan",
+      "payment"
+    ],
+    "correct": 1,
+    "explain": "It is a temporary deposit held until the contract is awarded and performance security is provided."
+  },
+  {
+    "q": "205. *The amount of money deposited by successful bidder as a security for satisfactory performance is called",
+    "options": [
+      "earnest money",
+      "performance/security money",
+      "insurance",
+      "retention money"
+    ],
+    "correct": 1,
+    "explain": "Performance security is provided by the winning bidder to protect the owner against non-performance."
+  },
+  {
+    "q": "206. *The object of technical drawing is",
+    "options": [
+      "preparation of estimate",
+      "facilitating construction",
+      "initiating the procurement action resources",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Drawings are essential for estimating costs, guiding construction, and procuring the correct materials."
+  },
+  {
+    "q": "207. *The amount of money paid to the contractor by the client after the agreement and before the execution of work, is known as",
+    "options": [
+      "advance",
+      "mobilization",
+      "security money",
+      "1st bill payment"
+    ],
+    "correct": 1,
+    "explain": "Mobilization advance is provided to help the contractor set up site operations before work starts."
+  },
+  {
+    "q": "208. Contractor's prequalification is required for project cost above (Source:PPR2064(3))",
+    "options": [
+      "2 Million",
+      "6 Million",
+      "10 Million",
+      "20 Million"
+    ],
+    "correct": 3,
+    "explain": "Prequalification is mandatory for large-scale projects, typically those exceeding 20 million in value."
+  },
+  {
+    "q": "209. The various types of contract are",
+    "options": [
+      "turnkey contract",
+      "lump sum contract",
+      "unit price contract",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "These are all standard methods of contracting used in the construction industry."
+  },
+  {
+    "q": "210. Mediation shall include the individuals directly involved in the dispute except",
+    "options": [
+      "employer",
+      "contractor",
+      "attorneys",
+      "mediator"
+    ],
+    "correct": 2,
+    "explain": "Mediation focuses on direct party resolution; attorneys are often excluded or limited to allow for open dialogue."
+  },
+  {
+    "q": "211. The purpose of preparing job-layout for a construction project is :",
+    "options": [
+      "more economical method of working",
+      "reduction in wastage and deterioration of materials",
+      "higher productivity from labour and machinery",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Proper site layout optimizes material flow, safety, and efficiency."
+  },
+  {
+    "q": "212. *Systematic reporting of work progress is the main objective of",
+    "options": [
+      "operation process chart",
+      "man-machine chart",
+      "flow process chart",
+      "two hand process chart"
+    ],
+    "correct": 2,
+    "explain": "Flow process charts track the sequence of operations and progress through a system."
+  },
+  {
+    "q": "213. The increase in price of materials during the construction is called",
+    "options": [
+      "escalation",
+      "descalation",
+      "devaluation",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Price escalation clauses allow for cost adjustments if material/labor prices rise significantly during the project."
+  },
+  {
+    "q": "214. The main criteria for the selection of any contractor to perform any work are",
+    "options": [
+      "financial and technical",
+      "technical and equipment",
+      "equipment and experience",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Contractors are evaluated on their financial stability, technical skill, available machinery, and past performance."
+  },
+  {
+    "q": "215. *The report prepared at the end of finishing a construction job is called :",
+    "options": [
+      "audit repot",
+      "finalization report",
+      "approval report",
+      "completion report"
+    ],
+    "correct": 3,
+    "explain": "A completion report documents that the project was finished according to the required standards."
+  },
+  {
+    "q": "216. *Which of the following column is left blank in bidding documentary by the employing agency ?",
+    "options": [
+      "volume of works",
+      "unit of works",
+      "unit rate of items",
+      "description of items"
+    ],
+    "correct": 2,
+    "explain": "The agency provides the quantities (BOQ); the contractor must provide the unit rates to create their bid."
+  },
+  {
+    "q": "217. As per Public Procurement Act/Regulation minimum time required for tender notice is :",
+    "options": [
+      "60 days",
+      "45 days",
+      "30 days",
+      "15 days"
+    ],
+    "correct": 1,
+    "explain": "For national competitive bidding in Nepal, the standard notice period is 45 days."
+  },
+  {
+    "q": "218. *Which of the following is a primary process for procurement of goods and services from a competitive market?",
+    "options": [
+      "order placement",
+      "payment",
+      "bidding",
+      "deposit"
+    ],
+    "correct": 2,
+    "explain": "Bidding is the fundamental competitive process used to ensure fair market pricing."
+  },
+  {
+    "q": "219. *An agreement between two parties or more to do or not to do any work is known as :",
+    "options": [
+      "work to proceed",
+      "contract",
+      "specification",
+      "tender"
+    ],
+    "correct": 1,
+    "explain": "A contract is a legally binding agreement between parties to fulfill specific obligations."
+  },
+  {
+    "q": "220. *A written offer submitted by contractors to execute certain work at certain rates within a fixed time is called :",
+    "options": [
+      "measurement book",
+      "contract",
+      "specification",
+      "tender"
+    ],
+    "correct": 3,
+    "explain": "A tender (or bid) is the formal written offer provided by a contractor."
+  },
+  {
+    "q": "221. *The document announcing to prospective bidders that the owner is ready to receive the bids is called :",
+    "options": [
+      "notice to bidders",
+      "introduction to bidders",
+      "bill of quantities",
+      "intension to acceptance"
+    ],
+    "correct": 0,
+    "explain": "The 'Notice to Bidders' or 'Invitation to Bid' is the formal announcement for procurement."
+  },
+  {
+    "q": "222. *Acquisition of land for any construction should be performed :",
+    "options": [
+      "before tender",
+      "at the time of tender",
+      "after tender",
+      "at any time"
+    ],
+    "correct": 0,
+    "explain": "The owner must have possession of the land before inviting contractors to bid to avoid delays and legal issues."
+  },
+  {
+    "q": "223. *Which of the following is not bid document?",
+    "options": [
+      "condition of contract",
+      "specification",
+      "performance security form",
+      "letter of acceptance"
+    ],
+    "correct": 3,
+    "explain": "The Letter of Acceptance is issued after the bidding process is complete to award the contract."
+  },
+  {
+    "q": "224. A golden rule for the procurement of goods, suggests",
+    "options": [
+      "100% at site",
+      "67% at the site and 33% under procurement",
+      "50% at the site and 50% under procurement",
+      "33% at the site and 67% under procurement"
+    ],
+    "correct": 1,
+    "explain": "This ratio balances immediate availability with ongoing supply chain management to avoid storage issues."
+  },
+  {
+    "q": "225. Construction activities at site are associated with the management of",
+    "options": [
+      "manpower",
+      "machines and equipments",
+      "materials",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Site management (the 3 M's) involves coordinating labor, plant/machinery, and material resources."
+  }
+]

@@ -1,0 +1,354 @@
+[
+  {
+    "q": "1. Tacheometric formula for horizontal distance using horizontal sights can also suitable be employed for inclined sights through θ by multiplying ...............",
+    "options": [
+      "the constants by sin²θ",
+      "the constants by cos²θ",
+      "the constant by cos θ",
+      "the multiplying constant by cos²θ and additive constant by cos θ"
+    ],
+    "correct": 3,
+    "explain": "The standard horizontal distance formula for inclined sights is D = ks cos²θ + c cosθ."
+  },
+  {
+    "q": "2. Back bearing of a line is equal to ...............",
+    "options": [
+      "fore bearing ± 90°",
+      "fore bearing ± 180°",
+      "fore bearing ± 360°",
+      "fore bearing ± 270°"
+    ],
+    "correct": 1,
+    "explain": "Back Bearing = Fore Bearing ± 180° (use + if FB < 180°, and - if FB > 180°)."
+  },
+  {
+    "q": "3. The magnetic bearing of a line is 32° and the magnetic declination is 10°15'W. The true bearing is ...............",
+    "options": [
+      "21°45'",
+      "42°15'",
+      "42°15'W",
+      "21°45'W"
+    ],
+    "correct": 0,
+    "explain": "True Bearing = Magnetic Bearing - West Declination = 32°00' - 10°15' = 21°45'."
+  },
+  {
+    "q": "4. θ1 and θ2 are the angles of elevation from A to the top and bottom of vertically held rod of length S at B. The horizontal distance AB is ...............",
+    "options": [
+      "S/(tan θ1 - tan θ2)",
+      "S/(tan θ1 + tan θ2)",
+      "S tan(θ2 - θ1)",
+      "S/(tan θ1 x tan θ2)"
+    ],
+    "correct": 0,
+    "explain": "Using trigonometry: h1 = D tan θ1 and h2 = D tan θ2. The length S = h1 - h2 = D(tan θ1 - tan θ2), so D = S/(tan θ1 - tan θ2)."
+  },
+  {
+    "q": "5. In precision theodolite traverse... the angular error of closure should not exceed",
+    "options": [
+      "15\" sqrt(N)",
+      "30\" sqrt(N)",
+      "45\" sqrt(N)",
+      "1' sqrt(N)"
+    ],
+    "correct": 3,
+    "explain": "For standard/ordinary traversing, the error is often capped at $1' \\sqrt{N}$, where N is the number of stations."
+  },
+  {
+    "q": "6. The projection of a traverse line on a line parallel to the meridian is known as",
+    "options": [
+      "latitude",
+      "departure",
+      "bearing",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Latitude is the projection of a line on the North-South axis (parallel to the meridian)."
+  },
+  {
+    "q": "7. In measuring horizontal angles, the theodolite should be turned",
+    "options": [
+      "clockwise from the forward station to the back station",
+      "clockwise from the back station to the forward station",
+      "anticlockwise from the back station to the forward station",
+      "anticlockwise from the forward station to the back station"
+    ],
+    "correct": 1,
+    "explain": "Standard practice for measuring horizontal angles with a theodolite is to sight the back station, set the scale, and then turn the instrument clockwise to the forward station."
+  },
+  {
+    "q": "8. If the whole circle bearing of a line is 120°, its quadrant bearing is",
+    "options": [
+      "S 60° E",
+      "E 30° S",
+      "N 120° E",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "120° lies in the second quadrant (SE). Quadrant Bearing = $180 - 120 = 60°$. Thus, S 60° E."
+  },
+  {
+    "q": "9. In any closed traverse, if they survey work is correct, then .............",
+    "options": [
+      "the algebraic sum of latitudes should be equal to zero",
+      "the algebraic sum of departures should be equal to zero",
+      "the sum of northings should be equal to the sum of southings",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "For a closed traverse, the sum of latitudes (Northings - Southings) and departures (Eastings - Westings) must both equal zero."
+  },
+  {
+    "q": "10. Right face and left reading are taken to .............",
+    "options": [
+      "get the correct reading",
+      "eliminate error of trunnion axis not exactly horizontal",
+      "eliminate error in the line of collimation",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "Changing the face of the theodolite (Face Left and Face Right) eliminates errors due to the line of collimation not being perpendicular to the trunnion axis and the trunnion axis not being perpendicular to the vertical axis."
+  },
+  {
+    "q": "11. When the angular and linear measurements are equally precise in traversing, the balancing of a traverse is done by .............",
+    "options": [
+      "transit rule",
+      "empirical rule",
+      "bowditch's rule",
+      "any one of these"
+    ],
+    "correct": 2,
+    "explain": "Bowditch's rule (Compass Rule) is used when linear and angular measurements are of equal precision. It assumes errors in linear measurements are proportional to √L."
+  },
+  {
+    "q": "12. A deflection angle in a traverse is equal to the .............",
+    "options": [
+      "difference between the included angle and 180°",
+      "difference between 360° and the included angle and 180°",
+      "sum of the included angel and 180°",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In any traverse, the deflection angle at a station is 180° minus the internal included angle (or included angle - 180° for external)."
+  },
+  {
+    "q": "13. The branch of surveying in which both horizontal and vertical positions of a point, are determined by making in instrumental observations, is known .............",
+    "options": [
+      "tacheometry",
+      "tachemetry",
+      "telemetry",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Tacheometry is a branch of angular surveying in which horizontal and vertical distances are determined by optical observations on a staff, eliminating chaining."
+  },
+  {
+    "q": "14. If L is the specified length of a tape, L1 its actual length and S the measured distance, then the true distance is given by the formula .............",
+    "options": [
+      "L1/L x S",
+      "L/L1 x S",
+      "L-L1/L x S",
+      "(L1/L)^2 x S"
+    ],
+    "correct": 0,
+    "explain": "True Distance = (Actual Length / Nominal Length) x Measured Distance. If the tape is longer than specified, the recorded distance is too short, and vice versa."
+  },
+  {
+    "q": "15. In a quadrantal system, the bearing of a line is measured",
+    "options": [
+      "always clockwise...",
+      "clockwise or anticlockwise from East/West...",
+      "clockwise or anticlockwise from North/South whichever is nearer...",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In the Reduced Bearing (RB) or Quadrantal system, bearings are measured from either North or South towards East or West, whichever is closer, ranging from 0° to 90°."
+  },
+  {
+    "q": "16. In a whole circle bearing system N25°15'W corresponds to",
+    "options": [
+      "115°15'",
+      "154°45'",
+      "205°15'",
+      "334°45'"
+    ],
+    "correct": 3,
+    "explain": "To convert N 25°15' W to WCB: 360° - 25°15' = 334°45' (since the bearing is in the 4th quadrant)."
+  },
+  {
+    "q": "17. If the fore bearing of a line is 36°15', its back bearing will be",
+    "options": [
+      "36°15'",
+      "126°15'",
+      "143°45'",
+      "216°15'"
+    ],
+    "correct": 3,
+    "explain": "Back Bearing = Fore Bearing ± 180°. Since 36°15' is less than 180°, we add 180°: 36°15' + 180° = 216°15'."
+  },
+  {
+    "q": "18. If the fore bearing of a line is N26°35'W, its back bearing will be",
+    "options": [
+      "S26°35'E",
+      "S26°35'W",
+      "N26°35'E",
+      "N26°35'W"
+    ],
+    "correct": 0,
+    "explain": "In the Quadrantal system, the back bearing has the same numerical value but opposite cardinal directions (N becomes S, W becomes E)."
+  },
+  {
+    "q": "19. In tacheometrical observations, vertical staff holding is generally preferred to normal staffing, due to",
+    "options": [
+      "case of reduction of observations",
+      "facility of holding",
+      "minimum effect of careless holding on the result",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Holding the staff vertically is easier for the staff-man and results in smaller errors if the staff is slightly out of plumb compared to trying to hold it normal (perpendicular) to the line of sight."
+  },
+  {
+    "q": "20. In tangential tacheometry, an ordinary level staff is used",
+    "options": [
+      "leaning towards the instrument...",
+      "leaning away from the instrument...",
+      "vertical in all cases",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Tangential tacheometry calculations assume the staff is held perfectly vertical so that the tangent values of the observed vertical angles can be applied."
+  },
+  {
+    "q": "21. Horizontal distances obtained tacheometrically are corrected for",
+    "options": [
+      "slope correction",
+      "temperature correction",
+      "refraction and curvature correction",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "For very long sights, tacheometric readings must be corrected for the earth's curvature and atmospheric refraction, which affect the perceived staff intercept."
+  },
+  {
+    "q": "22. Magnetic bearing of a survey line at any place",
+    "options": [
+      "remains constant",
+      "changes systematically",
+      "varies differently in different months",
+      "is always greater than true bearing"
+    ],
+    "correct": 2,
+    "explain": "Because of annual and secular variations in magnetic declination, the magnetic bearing of a fixed line will change over the months and years."
+  },
+  {
+    "q": "23. The distance between terminal points computed from known, as",
+    "options": [
+      "traverse leg",
+      "a base",
+      "traverse base",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "A traverse base is a line whose length and direction are precisely known or calculated to serve as a reference for the rest of the survey network."
+  },
+  {
+    "q": "24. To avoid large centering error with very short legs, observations are generally made",
+    "options": [
+      "to chain pins",
+      "using optical system for centering",
+      "to a target fixed on theodolite tripod",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "When traverse legs are short, even a small displacement in centering causes a large angular error. Using high-precision optical plummet systems and fixed targets minimizes this risk."
+  },
+  {
+    "q": "25. The lines passing through points at which the magnetic declination is equal at a given time are called .............",
+    "options": [
+      "isogonic lines",
+      "agonic lines",
+      "isoclinic lines",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Isogonic lines connect points of equal magnetic declination. Agonic lines connect points of zero declination."
+  },
+  {
+    "q": "26. When internal angles are to be subtended by a theodolite survey for closed traverse .............",
+    "options": [
+      "traverse should run clockwise",
+      "traverse should go counter clockwise",
+      "traverse may go either way",
+      "exterior angles are measures when the traverse goes anti-clockwise"
+    ],
+    "correct": 1,
+    "explain": "In a closed traverse, running counter-clockwise results in the measurement of interior angles when observing angles to the right."
+  },
+  {
+    "q": "27. For a closed traverse the omitted measurements may be calculated .............",
+    "options": [
+      "length of one side only",
+      "bearing of one side only",
+      "length or bearing of adjacent side",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "In a closed traverse, if $\\sum Latitude = 0$ and $\\sum Departure = 0$, you can solve for up to two unknown quantities (like one length and one bearing, or two lengths)."
+  },
+  {
+    "q": "28. The length of a traverse line (L) may be obtained by .............",
+    "options": [
+      "L = √(Latitude² + Departure²)",
+      "L = Latitude × sec(reduced bearing)",
+      "L = Departure × csc(reduced bearing)",
+      "any one of the above"
+    ],
+    "correct": 3,
+    "explain": "All three formulas are mathematically valid based on the geometry of coordinates and bearings ($Lat = L \\cos \\theta$, $Dep = L \\sin \\theta$)."
+  },
+  {
+    "q": "29. While rotating the theodolite in the horizontal plane, the bubble of the bubble tube takes up the same position in its tube, it indicates .............",
+    "options": [
+      "the rotation axis is vertical",
+      "the trunnion axis is horizontal",
+      "the line of collimation is perpendicular to vertical axis",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "If the bubble remains centered throughout a 360-degree rotation, it confirms the vertical axis of the instrument is truly vertical."
+  },
+  {
+    "q": "30. The multiplying constant for the tacheometer is .............",
+    "options": [
+      "i/f",
+      "f/i",
+      "f/d",
+      "f+d"
+    ],
+    "correct": 1,
+    "explain": "The multiplying constant is denoted by $k = f/i$, where $f$ is focal length and $i$ is stadia interval."
+  },
+  {
+    "q": "31. The additive constant for the tacheometer is .............",
+    "options": [
+      "i/f",
+      "f/i",
+      "f/d",
+      "f+d"
+    ],
+    "correct": 3,
+    "explain": "The additive constant is denoted by $C = f + d$, where $d$ is the distance from the objective to the vertical axis."
+  },
+  {
+    "q": "32. The variation of magnetic declination within a day is called .............",
+    "options": [
+      "diurnal variation",
+      "regular variation",
+      "annual variation",
+      "secular variation"
+    ],
+    "correct": 0,
+    "explain": "Diurnal variation refers to the systematic changes in magnetic declination that occur over a 24-hour period, typically influenced by the sun's position."
+  }
+]

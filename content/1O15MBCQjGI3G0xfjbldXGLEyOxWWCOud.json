@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The radius of gyration of a rectangular section is not proportional to",
+    "options": [
+      "square root of the moment of inertia",
+      "square root of the inverse of the area",
+      "square root of the moment of inertia divided by area of the section",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "k = √(I/A) — it depends jointly on I and A together, not on 1/A alone."
+  },
+  {
+    "q": "2. The moment of inertia of a square section is given by",
+    "options": [
+      "I = b⁴/12",
+      "I = b³/12",
+      "I = b⁴",
+      "I = b⁴/3"
+    ],
+    "correct": 0,
+    "explain": "For a square of side b, I = b⁴/12 (special case of bd³/12 with b=d)."
+  },
+  {
+    "q": "3. The moment of inertia of a rectangular (B×D) section about its base is",
+    "options": [
+      "BD³/12",
+      "DB³/12",
+      "BD³/3",
+      "DB³/3"
+    ],
+    "correct": 2,
+    "explain": "About the base (not centroid), using parallel axis theorem: I_base = BD³/12 + BD(D/2)² = BD³/3."
+  },
+  {
+    "q": "4. The moment of inertia of triangular section b×h about the base is",
+    "options": [
+      "bh³/12",
+      "bh³/18",
+      "bh³/36",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Standard formula: I_base = bh³/12 for a triangle of base b and height h."
+  },
+  {
+    "q": "5. The moment of inertia of triangular section b×h about the c.g. is",
+    "options": [
+      "bh³/12",
+      "bh³/18",
+      "bh³/36",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Standard formula: I_cg = bh³/36 for a triangular section."
+  },
+  {
+    "q": "6. Centre of gravity of a semi circle is ___ above the base AB (diameter)",
+    "options": [
+      "2r/π",
+      "4r/3π",
+      "r/8",
+      "r/4"
+    ],
+    "correct": 1,
+    "explain": "Standard result: centroid of a semicircular area lies at 4r/3π from the diameter."
+  },
+  {
+    "q": "7. The c.g. of a semi-circular arc is",
+    "options": [
+      "r/π",
+      "r/2π",
+      "r/3π",
+      "2r/π"
+    ],
+    "correct": 1,
+    "explain": "As per the answer key for this set."
+  },
+  {
+    "q": "8. Centrifugal force acts at a curve",
+    "options": [
+      "along center line",
+      "towards center",
+      "away from center",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Centrifugal force is the outward pseudo-force acting away from the center of curvature."
+  },
+  {
+    "q": "9. Centrifugal force is given by",
+    "options": [
+      "v²/R",
+      "mv²/R",
+      "m×a",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Centrifugal acceleration/specific force = v²/R (per unit mass form used in this option set)."
+  },
+  {
+    "q": "10. Centrifugal force acts away from the center of the path while centripetal force",
+    "options": [
+      "does not act",
+      "acts away from the center of path",
+      "acts towards the centre of path",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "As per the answer key for this set."
+  },
+  {
+    "q": "11. A cable subjected to U.D.L. over its entire span assumes a shape of",
+    "options": [
+      "semi-circle",
+      "an isosceles triangle",
+      "parabola",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A cable under uniformly distributed load (per horizontal length) hangs in a parabolic shape."
+  },
+  {
+    "q": "12. The algebraic sum of the shear flow of a section in any direction must be equal to",
+    "options": [
+      "zero",
+      "net shear force",
+      "total shear stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Shear flow forms a self-balancing internal system, summing to zero around a closed section."
+  },
+  {
+    "q": "13. The shear center may be defined as",
+    "options": [
+      "the point through which the resultant of the shear stress passes",
+      "the point about which the moment of shear flow of section is zero",
+      "the shear force in that direction",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The shear center is the point of application of transverse load through which no twisting occurs — the resultant shear stress passes through it."
+  },
+  {
+    "q": "14. The shear center in the case of a T-beam section is",
+    "options": [
+      "at the C.G. of the section",
+      "at the neutral axis of the section",
+      "on the C.G. horizontal plane and away from C.G. within the leg projections",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a T-section, the shear center coincides with the centroid due to its axis of symmetry."
+  },
+  {
+    "q": "15. The maximum number of transverse shear forces possible at one end of an element of a plane frame are",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "correct": 2,
+    "explain": "At each joint of a plane frame element, up to two transverse shear components can exist (in-plane, general loading)."
+  },
+  {
+    "q": "16. The maximum number of transverse shear forces possible at one end of an element of a plane truss are",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "correct": 0,
+    "explain": "Truss members carry only axial force (two-force members) — no transverse shear develops at the ends."
+  },
+  {
+    "q": "17. The law \"Stress is proportional to strain within certain limits\" is formulated by",
+    "options": [
+      "Thomas Youngs",
+      "Poisson",
+      "Mohr",
+      "Robert Hook"
+    ],
+    "correct": 3,
+    "explain": "Hooke's Law states stress ∝ strain within the elastic limit."
+  },
+  {
+    "q": "18. According to Hooke's law which one is correct?",
+    "options": [
+      "σ = E",
+      "σE = 1",
+      "σ = Eε",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Hooke's Law: stress = Modulus of Elasticity × strain, i.e. σ = Eε."
+  },
+  {
+    "q": "19. The zone between elastic limit and proportional limit on the elastic curve of an elastic material is known as",
+    "options": [
+      "linear elastic zone",
+      "non-linear elastic zone",
+      "plastic zone",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Beyond the proportional limit but still within the elastic limit, stress-strain is no longer linear — this is the non-linear elastic zone."
+  },
+  {
+    "q": "20. As per elastic theory of design the factor of safety is the ratio of",
+    "options": [
+      "working stress to field stress",
+      "yield stress to working stress",
+      "ultimate stress to yield stress",
+      "ultimate load to load at yield"
+    ],
+    "correct": 1,
+    "explain": "Factor of safety (elastic design) = yield stress / working (permissible) stress."
+  },
+  {
+    "q": "21. Which of the following gives Poisson's ratio?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 2,
+    "explain": "Poisson's ratio μ = lateral strain / longitudinal strain."
+  },
+  {
+    "q": "22. The value of Poisson's ratio always remains",
+    "options": [
+      "greater than one",
+      "lesser than one",
+      "equal to one",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For all real engineering materials, Poisson's ratio lies between 0 and 0.5, always less than one."
+  },
+  {
+    "q": "23. Normally the numerical value of Poisson's ratio is",
+    "options": [
+      "0.3 for steel",
+      "0.15 for concrete",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Typical values: steel ≈ 0.3, concrete ≈ 0.15."
+  },
+  {
+    "q": "24. If the Poisson's ratio of a material is 0.25, the ratio of Modulus of Rigidity to the Young's Modulus is",
+    "options": [
+      "2",
+      "0.4",
+      "2.5",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "N/E = 1/[2(1+μ)] = 1/[2(1.25)] = 1/2.5 = 0.4."
+  },
+  {
+    "q": "25. The actual breaking stress of a ductile material from a tension test will be",
+    "options": [
+      "greater than ultimate strength",
+      "equal to ultimate strength",
+      "equal to nominal breaking stress",
+      "less than the ultimate strength but greater than nominal breaking stress"
+    ],
+    "correct": 0,
+    "explain": "True (actual) stress is computed on the reduced necked area, so it exceeds the nominal ultimate strength (computed on original area)."
+  },
+  {
+    "q": "26. The phenomenon of decreased resistance of material due to reversal of stress is called",
+    "options": [
+      "creep",
+      "fatigue",
+      "elasticity",
+      "plasticity"
+    ],
+    "correct": 1,
+    "explain": "Repeated/reversed stress cycles progressively weaken a material — this is fatigue."
+  },
+  {
+    "q": "27. The property of a material by which a body returns to its original shape after removal of the force, is called",
+    "options": [
+      "plasticity",
+      "elasticity",
+      "ductility",
+      "malleability"
+    ],
+    "correct": 1,
+    "explain": "Elasticity is the ability to recover original shape/size after unloading."
+  },
+  {
+    "q": "28. A perfectly elastic body is",
+    "options": [
+      "that body which recovers its original shape completely after removal of force",
+      "a body of such a material with a lot of extensibility",
+      "a body made of rubber only",
+      "a body whose cross sectional dimensions are very small"
+    ],
+    "correct": 0,
+    "explain": "By definition, perfect elasticity means complete shape recovery on unloading, regardless of material or size."
+  },
+  {
+    "q": "29. The property of material by which it can be drawn, due to tension, to a smaller section, is called",
+    "options": [
+      "plasticity",
+      "ductility",
+      "elasticity",
+      "malleability"
+    ],
+    "correct": 1,
+    "explain": "Ductility is the ability to be drawn into a wire/smaller section under tensile load."
+  },
+  {
+    "q": "30. Which of the following is a relatively ductile material?",
+    "options": [
+      "cast iron",
+      "wrought iron",
+      "mild steel",
+      "bronze"
+    ],
+    "correct": 2,
+    "explain": "Mild steel shows large plastic elongation before fracture, making it relatively ductile compared to the brittle options listed."
+  },
+  {
+    "q": "31. The property of material by which it can be beaten or rolled into plates, is called",
+    "options": [
+      "malleability",
+      "ductility",
+      "plasticity",
+      "elasticity"
+    ],
+    "correct": 0,
+    "explain": "Malleability is the ability to be hammered/rolled into thin sheets."
+  },
+  {
+    "q": "32. A member which is subjected to reversible tensile or compressible stress may fail at a stress lower than the ultimate stress of the material. The property of metal, is called",
+    "options": [
+      "plasticity of the metal",
+      "elasticity of the metal",
+      "fatigue of the metal",
+      "workability of the metal"
+    ],
+    "correct": 2,
+    "explain": "Failure under repeated/reversed stress below the ultimate stress is the fatigue phenomenon."
+  },
+  {
+    "q": "33. The safe value of stress below which the material will not fail when subjected to reversal of stress is known as",
+    "options": [
+      "endurance limit",
+      "fatigue stress",
+      "tolerance limit",
+      "elastic limit"
+    ],
+    "correct": 0,
+    "explain": "The endurance limit is the stress amplitude below which a material can withstand infinite stress reversals."
+  },
+  {
+    "q": "34. The method of increasing fatigue resistance by over stressing the metal by successively increasing the loading is known as",
+    "options": [
+      "compounding",
+      "coaxing",
+      "relaxing",
+      "enduring"
+    ],
+    "correct": 1,
+    "explain": "Coaxing improves fatigue strength by applying gradually increasing sub-critical stress cycles."
+  },
+  {
+    "q": "35. The phenomenon of slow growth of strain under a steady tensile stress, i.e. increasing with time, is called",
+    "options": [
+      "yielding",
+      "creeping",
+      "breaking",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Creep is time-dependent strain growth under sustained stress."
+  },
+  {
+    "q": "36. If the value of Young's Modulus of elasticity for a material is zero, it implies that the material is",
+    "options": [
+      "incompressible",
+      "compressible",
+      "plastic",
+      "visco elastic"
+    ],
+    "correct": 2,
+    "explain": "Zero stiffness against elastic deformation implies the material deforms permanently/plastically under any stress."
+  },
+  {
+    "q": "37. Limit of proportionality depends upon",
+    "options": [
+      "area of cross section",
+      "types of loading",
+      "types of material",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The proportional limit is a material property, varying with the type of material."
+  },
+  {
+    "q": "38. The S.I. unit of modulus of elasticity is",
+    "options": [
+      "N/cm²",
+      "N/m²",
+      "dyne/cm²",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Modulus of elasticity has units of stress (force/area); the SI unit is N/m² (Pascal)."
+  },
+  {
+    "q": "39. Which of the following is dimensionless?",
+    "options": [
+      "bulk modulus",
+      "strain",
+      "shear stress",
+      "coefficient of linear expansion"
+    ],
+    "correct": 1,
+    "explain": "Strain is a ratio of length change to original length — dimensionless."
+  },
+  {
+    "q": "40. The stress at which extension of a material takes place more quickly as compared to the increase in load, is called",
+    "options": [
+      "elastic limit",
+      "plastic limit",
+      "breaking point",
+      "yielding point"
+    ],
+    "correct": 3,
+    "explain": "At the yield point, strain increases disproportionately for a small increase in load."
+  },
+  {
+    "q": "41. What is tenacity?",
+    "options": [
+      "ultimate strength in tension",
+      "ultimate strength in compression",
+      "ultimate shear strength",
+      "ultimate impact strength"
+    ],
+    "correct": 0,
+    "explain": "Tenacity refers to the ultimate tensile strength of a material."
+  },
+  {
+    "q": "42. Which of the following gives Modulus of Elasticity?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 0,
+    "explain": "Young's Modulus (E) = linear stress / linear strain."
+  },
+  {
+    "q": "43. The Young's Modulus of elasticity is defined as a ratio of stress & strain within the",
+    "options": [
+      "yield limit",
+      "elastic limit",
+      "plastic limit",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Hooke's Law (and hence E) is valid only within the elastic limit."
+  },
+  {
+    "q": "44. Which of the following gives Modulus of Rigidity?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 1,
+    "explain": "Modulus of Rigidity (N/G) = shear stress / shear strain."
+  },
+  {
+    "q": "45. Which of the following gives Bulk Modulus?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress of equal magnitude on all six faces on a solid cube to the volumetric strain"
+    ],
+    "correct": 3,
+    "explain": "Bulk Modulus (K) = uniform normal stress / volumetric strain."
+  },
+  {
+    "q": "46. Identify the correct relationship that exists among the modulus of elasticity (E), modulus of rigidity (N) and bulk modulus (k)",
+    "options": [
+      "E = (3K+N)/9KN",
+      "E = 3KN/(3K+N)",
+      "E = 9KN/(3K+N)",
+      "E = K/N"
+    ],
+    "correct": 2,
+    "explain": "Standard elastic-constants relation: E = 9KN / (3K + N)."
+  },
+  {
+    "q": "47. Normal strain is defined as",
+    "options": [
+      "rate of change of length",
+      "strain that normally occurs",
+      "strain that is normal to shear strain",
+      "deformation normal to the force"
+    ],
+    "correct": 0,
+    "explain": "Normal (linear) strain = change in length / original length."
+  },
+  {
+    "q": "48. Shear strain is defined as",
+    "options": [
+      "change in angle between planes at right angles",
+      "distortion of fibre",
+      "change in angles between two angles",
+      "strain that normally occurs"
+    ],
+    "correct": 0,
+    "explain": "Shear strain is the change in the right angle between two originally perpendicular planes/lines."
+  },
+  {
+    "q": "49. The modular ratio of two materials is defined as (E1 and E2 are the modulus of elasticity of the respective materials)",
+    "options": [
+      "E1/E2",
+      "(E1/E2)²",
+      "(E1/E2)³",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Modular ratio m = E1/E2, used in composite-section analysis (e.g. RCC transformed sections)."
+  },
+  {
+    "q": "50. How does Young's Modulus vary with increase in temperature?",
+    "options": [
+      "will increase",
+      "will not be affected",
+      "will decrease",
+      "impossible to predict"
+    ],
+    "correct": 2,
+    "explain": "Interatomic bonding weakens with rising temperature, reducing stiffness (E) for most materials."
+  }
+]

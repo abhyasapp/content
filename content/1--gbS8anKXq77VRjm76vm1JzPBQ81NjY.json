@@ -1,0 +1,1102 @@
+[
+  {
+    "q": "201. The loss of head due to friction in a pipe of uniform diameter in which a viscous flow is taking place, is ............... where, Rn = Reynold number",
+    "options": [
+      "1/Rn",
+      "4/Rn",
+      "16/Rn",
+      "64/Rn"
+    ],
+    "correct": 3,
+    "explain": "For laminar (viscous) flow in a pipe, the friction factor 'f' is given by 64/Re. Therefore, the head loss is directly related to this coefficient."
+  },
+  {
+    "q": "202. The loss of pressure head in case of laminar flow is proportional to ...............",
+    "options": [
+      "velocity",
+      "(velocity)²",
+      "(velocity)³",
+      "(velocity)⁴"
+    ],
+    "correct": 0,
+    "explain": "According to the Hagen-Poiseuille equation for laminar flow, the pressure drop is directly proportional to the average velocity (v), unlike turbulent flow where it is proportional to v²."
+  },
+  {
+    "q": "203. A moving fluid mass may be brought to a static equilibrium position, by applying an imaginary inertia force of the same magnitude as that of the accelerating force but in the opposite direction. This statement is called ...............",
+    "options": [
+      "Pascal's law",
+      "Archimede's principle",
+      "D-Alembert's principle",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "D-Alembert's principle states that a system can be analyzed as if it were in equilibrium by adding an 'inertial force' to the external forces."
+  },
+  {
+    "q": "204. When a tank containing liquid moves with an acceleration in the horizontal direction, then the free surface of the liquid ...............",
+    "options": [
+      "remains horizontal",
+      "becomes curved",
+      "falls on the front end",
+      "falls on the back end"
+    ],
+    "correct": 2,
+    "explain": "Due to horizontal acceleration, the liquid surface tilts. The depth increases at the rear (back) end and decreases (falls) at the front end."
+  },
+  {
+    "q": "205. An open tank containing liquid is made to move from rest with a uniform acceleration. The angle θ which the free surface of liquid makes with the horizontal is such that ...............",
+    "options": [
+      "tan θ = a/g",
+      "tan θ = 2a/g",
+      "tan θ = a/2g",
+      "tan θ = a²/2g"
+    ],
+    "correct": 0,
+    "explain": "The slope of the free surface in a horizontally accelerated tank is given by the ratio of horizontal acceleration (a) to the acceleration due to gravity (g)."
+  },
+  {
+    "q": "206. In a footstep bearing, if the speed of the shaft is doubled, then the torque required to over-come the viscous resistance will be ...............",
+    "options": [
+      "double",
+      "four times",
+      "eight times",
+      "sixteen times"
+    ],
+    "correct": 0,
+    "explain": "In viscous lubrication, torque is proportional to the angular velocity (ω). If the speed doubles, the torque also doubles."
+  },
+  {
+    "q": "207. In a footstep bearing, if the radius of the shaft is doubled, then the torque required to over-come the viscous resistance will be ...............",
+    "options": [
+      "double",
+      "four times",
+      "eight times",
+      "sixteen times"
+    ],
+    "correct": 3,
+    "explain": "Torque in a footstep bearing is proportional to the fourth power of the radius (R⁴). Thus, doubling the radius increases torque by 2⁴ = 16 times."
+  },
+  {
+    "q": "208. The coefficient of viscosity may be determined by ...............",
+    "options": [
+      "capillary tube method",
+      "orifice type viscometer",
+      "rotating cylinder method",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "All the listed methods are standard laboratory procedures used to measure the dynamic or kinematic viscosity of various fluids."
+  },
+  {
+    "q": "209. Bulk modulus of a fluid is the ratio of ...............",
+    "options": [
+      "shear stress to shear strain",
+      "increase in volume to the viscosity of fluid",
+      "increase in pressure to the volumetric strain",
+      "critical velocity to the viscosity of fluid"
+    ],
+    "correct": 2,
+    "explain": "Bulk modulus (K) measures a fluid's resistance to compression and is defined as the ratio of compressive stress (pressure increase) to volumetric strain."
+  },
+  {
+    "q": "210. The celerity (velocity) of a pressure wave in a fluid is given by ...............",
+    "options": [
+      "√(K·ρ)",
+      "√(K/ρ)",
+      "√(ρ/K)",
+      "K·ρ"
+    ],
+    "correct": 1,
+    "explain": "The speed of sound (celerity) in a fluid depends on its elasticity (Bulk modulus K) and its inertia (Density ρ), calculated as √(K/ρ)."
+  },
+  {
+    "q": "211. When the Mach number is less than unity, the flow is called ...............",
+    "options": [
+      "sub-sonic flow",
+      "sonic flow",
+      "super-sonic flow",
+      "hyper-sonic flow"
+    ],
+    "correct": 0,
+    "explain": "Mach number (M) < 1 indicates the flow velocity is less than the local speed of sound, which is termed sub-sonic."
+  },
+  {
+    "q": "212. When the mach number is between ............... the flow is called super-sonic flow.",
+    "options": [
+      "1 and 2.5",
+      "2.5 and 4",
+      "4 and 6",
+      "1 and 6"
+    ],
+    "correct": 3,
+    "explain": "Supersonic flow occurs when 1 < Mach number < 6. Beyond M=6, the flow is typically classified as hypersonic."
+  },
+  {
+    "q": "213. When the Mach number is more than 6, the flow is called ...............",
+    "options": [
+      "sub-sonic flow",
+      "sonic flow",
+      "super-sonic flow",
+      "hyper-sonic flow"
+    ],
+    "correct": 3,
+    "explain": "Flows with a Mach number greater than 5 or 6 are characterized by high temperature and dissociation effects, known as hyper-sonic flow."
+  },
+  {
+    "q": "214. A flow is called sub-sonic, if the Mach number is ...............",
+    "options": [
+      "less than unity",
+      "unity",
+      "between 1 and 6",
+      "more than 6"
+    ],
+    "correct": 0,
+    "explain": "Sub-sonic flow is defined by a Mach number (M) less than 1 (unity)."
+  },
+  {
+    "q": "215. A flow is called super-sonic if the ...............",
+    "options": [
+      "velocity of flow is very high",
+      "discharge is difficult to measure",
+      "mach number is between 1 and 6",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Super-sonic flow is specifically defined by a Mach number greater than 1 but less than the hypersonic threshold (typically 6)."
+  },
+  {
+    "q": "216. A flow is called hyper-sonic, if the Mach number is ...............",
+    "options": [
+      "less than unity",
+      "unity",
+      "between 1 and 6",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "Since hyper-sonic flow requires a Mach number > 6, none of the specific ranges (M<1, M=1, or 1<M<6) apply."
+  },
+  {
+    "q": "217. A point, in a compressible flow where the velocity of fluid is zero, is called ...............",
+    "options": [
+      "critical point",
+      "vena contracta",
+      "stagnation point",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A stagnation point is a point in a flow field where the local velocity of the fluid is zero and all kinetic energy has been converted into pressure energy."
+  },
+  {
+    "q": "218. The force exerted by a moving fluid on an immersed body is directly proportional to the rate of change of momentum due to the presence of the body. This statement is called ...............",
+    "options": [
+      "Newton's law of motion",
+      "Newton's law of cooling",
+      "Newton's law of viscosity",
+      "Newton's law of resistance"
+    ],
+    "correct": 3,
+    "explain": "Newton's law of resistance states that the force (drag/resistance) is proportional to the rate of change of momentum of the fluid displaced or affected by the body."
+  },
+  {
+    "q": "219. Whenever a plate is held immersed at some angle with the direction of flow of the liquid, it is subjected to some pressure. The component of this pressure, in the direction of flow of the liquid, is known as ...............",
+    "options": [
+      "lift",
+      "drag",
+      "stagnation pressure",
+      "bulk modulus"
+    ],
+    "correct": 1,
+    "explain": "The force component acting parallel to the direction of motion is 'drag', while the component perpendicular to the motion is 'lift'."
+  },
+  {
+    "q": "220. The force present in a moving liquid is ...............",
+    "options": [
+      "inertia force",
+      "viscous force",
+      "gravity force",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Fluid dynamics involves several forces including inertia (resistance to change in motion), viscosity (internal friction), and gravity (weight)."
+  },
+  {
+    "q": "221. The product of mass and acceleration of flowing liquid is called ...............",
+    "options": [
+      "inertia force",
+      "viscous force",
+      "gravity force",
+      "pressure force"
+    ],
+    "correct": 0,
+    "explain": "In accordance with Newton's second law, F = ma, where the product of mass and acceleration represents the inertia force."
+  },
+  {
+    "q": "222. Viscous force is the ............... of shear stress due to viscosity and cross-sectional area of flow.",
+    "options": [
+      "sum",
+      "different",
+      "product",
+      "ratio"
+    ],
+    "correct": 2,
+    "explain": "Force is defined as Stress × Area. Therefore, viscous force is the product of viscous shear stress and the area over which it acts."
+  },
+  {
+    "q": "223. The ratio of the inertia force to the viscous force is called ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Weber's number",
+      "Euler's number"
+    ],
+    "correct": 0,
+    "explain": "The Reynolds number (Re) is a dimensionless value used to predict flow patterns by comparing inertial forces to viscous forces."
+  },
+  {
+    "q": "224. The ratio of the inertia force to the ............... is called Euler's number.",
+    "options": [
+      "pressure force",
+      "elastic force",
+      "surface tension force",
+      "viscous force"
+    ],
+    "correct": 0,
+    "explain": "Euler's number (Eu) is a dimensionless number representing the ratio between pressure forces and inertial forces."
+  },
+  {
+    "q": "225. The ratio of the inertia force to the elastic force is called ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Weber's number",
+      "Mach number"
+    ],
+    "correct": 3,
+    "explain": "The Mach number can also be defined as the square root of the ratio of inertia force to elastic force in a fluid."
+  },
+  {
+    "q": "226. Froude's number is the ratio of inertia force to ...............",
+    "options": [
+      "pressure force",
+      "elastic force",
+      "gravity force",
+      "surface tension force"
+    ],
+    "correct": 2,
+    "explain": "Froude number (Fr) is a dimensionless number representing the ratio of inertial forces to gravitational forces. It is critical in open channel flow analysis."
+  },
+  {
+    "q": "227. Reynold's number is the ratio of inertia force to ...............",
+    "options": [
+      "pressure force",
+      "elastic force",
+      "gravity force",
+      "viscous force"
+    ],
+    "correct": 3,
+    "explain": "Reynolds number (Re) quantifies the relative importance of these two types of forces for given flow conditions, guiding whether a flow is laminar or turbulent."
+  },
+  {
+    "q": "228. The value of bulk modulus of a fluid is required to determine ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Mach number",
+      "Euler's number"
+    ],
+    "correct": 2,
+    "explain": "The Mach number relates flow velocity to the speed of sound, which itself is calculated using the Bulk Modulus (K) and density (ρ)."
+  },
+  {
+    "q": "229. Hydrostatic pressure on a dam depends upon its ...............",
+    "options": [
+      "length",
+      "depth",
+      "shape",
+      "both 'b' and 'c'"
+    ],
+    "correct": 1,
+    "explain": "According to the hydrostatic law (P = ρgh), the pressure depends solely on the vertical depth below the free surface and the density of the liquid."
+  },
+  {
+    "q": "230. Piezometers are used to measure ...............",
+    "options": [
+      "pressure in water channels, pipes etc",
+      "difference in pressure at two points",
+      "atmospheric pressure",
+      "very low pressure"
+    ],
+    "correct": 0,
+    "explain": "A piezometer is the simplest form of manometer used for measuring moderate pressures of liquids in pipes or containers."
+  },
+  {
+    "q": "231. To measure very low pressure, we use ...............",
+    "options": [
+      "barometers",
+      "piezometers",
+      "manometers",
+      "differential manometers"
+    ],
+    "correct": 1,
+    "explain": "Piezometers are highly sensitive to small pressure changes because they use the height of the actual liquid column being measured."
+  },
+  {
+    "q": "232. Gauge pressure is ...............",
+    "options": [
+      "absolute pressure - atmospheric pressure",
+      "absolute pressure + atmospheric pressure",
+      "atmospheric pressure - absolute pressure",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Gauge pressure is measured relative to atmospheric pressure. Therefore, Absolute Pressure = Gauge Pressure + Atmospheric Pressure."
+  },
+  {
+    "q": "233. Atmospheric pressure varies with ...............",
+    "options": [
+      "altitude",
+      "temperature",
+      "weather conditions",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "As altitude increases, the weight of the air above decreases, leading to a decrease in atmospheric pressure."
+  },
+  {
+    "q": "234. Mercury is generally used in barometers because ...............",
+    "options": [
+      "its vapour pressure is practically zero",
+      "the height of the barometer will be les",
+      "it is a best liquid",
+      "both 'a' and 'b' above"
+    ],
+    "correct": 3,
+    "explain": "Mercury's high density allows for a manageable column height (~760mm), and its low vapor pressure prevents error in the vacuum space."
+  },
+  {
+    "q": "235. To avoid the force of surface tension in an inclined manometer, the minimum angle of inclination is ...............",
+    "options": [
+      "2°",
+      "3°",
+      "4°",
+      "5°"
+    ],
+    "correct": 2,
+    "explain": "Standard practice in fluid mechanics suggests a minimum angle of 4 degrees to minimize the inaccuracies caused by surface tension/capillarity."
+  },
+  {
+    "q": "236. The total pressure force on a plane area is equal to the area multiplied by the intensity of pressure at its centroid if ...............",
+    "options": [
+      "area is horizontal",
+      "area is vertical",
+      "area is inclined",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "The total force F = P_avg × A. For any submerged plane, the average pressure occurs at the depth of the centroid (h_bar), regardless of orientation."
+  },
+  {
+    "q": "237. The centre of pressure of a vertical plane immersed in a liquid is at ...............",
+    "options": [
+      "centre of higher edge",
+      "centre of lower edge",
+      "centroid of the area",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "The center of pressure (h_p) is always located below the centroid of the area because pressure increases with depth."
+  },
+  {
+    "q": "238. The depth of the centre of pressure on a vertical rectangular gate (4 m wide, 3 m high) with water upto top surface is ...............",
+    "options": [
+      "1.0 m",
+      "1.5 m",
+      "2.0 m",
+      "2.5 m"
+    ],
+    "correct": 2,
+    "explain": "For a rectangle of height 'h' with the top at the surface, the center of pressure is at (2/3)h. (2/3) * 3m = 2.0m."
+  },
+  {
+    "q": "239. On an inclined plane, centre of pressure is located ...............",
+    "options": [
+      "at the centroid",
+      "above the centroid",
+      "below the centroid",
+      "anywhere"
+    ],
+    "correct": 2,
+    "explain": "Similar to a vertical plane, the pressure distribution is deeper at the bottom, shifting the resultant force (center of pressure) below the centroid."
+  },
+  {
+    "q": "240. When a body is totally or partially immersed in a fluid it is buoyed up by a force equal to ...............",
+    "options": [
+      "weight of the body",
+      "weight of the fluid displaced by the body",
+      "weight of the body and fluid displaced by the body",
+      "difference of weights of the fluid displaced and that on the body"
+    ],
+    "correct": 1,
+    "explain": "This is Archimedes' Principle, which defines the buoyant force as the weight of the volume of fluid that the body displaces."
+  },
+  {
+    "q": "241. A floating body attains stable equilibrium if its metacentre is ...............",
+    "options": [
+      "at the centroid",
+      "above the centroid",
+      "below the centroid",
+      "anywhere"
+    ],
+    "correct": 1,
+    "explain": "Stability is achieved when the Metacentre (M) is above the Centre of Gravity (G). If M is above G, a restoring couple is formed."
+  },
+  {
+    "q": "242. Centre of buoyancy is ...............",
+    "options": [
+      "centroid of the floating body",
+      "centroid of the fluid displaced",
+      "centroid of pressure of the displaced liquid",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The center of buoyancy is the point through which the upward buoyant force acts, coinciding with the geometric center (centroid) of the displaced liquid volume."
+  },
+  {
+    "q": "243. A water tank partially filled with water is being carried on a truck moving with a constant horizontal acceleration. The level of the water ...............",
+    "options": [
+      "rises on the front side of the tank",
+      "falls on the back side of the tank",
+      "remains the same at both sides of the tank",
+      "rises on the back side and falls on the front side"
+    ],
+    "correct": 3,
+    "explain": "The inertia of the water causes it to move toward the rear of the tank, resulting in a higher water level at the back and a lower level at the front."
+  },
+  {
+    "q": "244. For mountaneous regions having steep slope, wagons for carrying liquid are made with bottom ...............",
+    "options": [
+      "parallel to the road surface",
+      "parallel to the horizontal surface",
+      "inclined upward while moving upwards",
+      "inclined downward while moving downwards"
+    ],
+    "correct": 1,
+    "explain": "Keeping the bottom horizontal ensures that the liquid remains stable relative to gravity and reduces the risk of spills or excessive pressure on the tank ends."
+  },
+  {
+    "q": "245. A cylindrical vessel 40 cm high is revolved about its vertical axis so that the water touches the bottom when it just spills out. If the radius of the cylinder if √5 cm, the angular velocity of rotation is ...............",
+    "options": [
+      "2 rad/sec",
+      "3 rad/sec",
+      "4 rad/sec",
+      "5 rad/sec"
+    ],
+    "correct": 0,
+    "explain": "Using the vortex formula h = (ω²r²)/(2g). Given h = 0.4m, r = √0.05m. Solving for ω gives approximately 2 rad/sec (assuming g is 10)."
+  },
+  {
+    "q": "246. The rise of the liquid along the walls of a revolving cylinder above the initial level, is ...............",
+    "options": [
+      "greater than the depression of the liquid at the axis of rotation",
+      "lesser than the depression of the liquid at the axis of rotation",
+      "the same as the depression of the liquid at the axis of rotation",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In a forced vortex (solid body rotation), the volume of the paraboloid of revolution is half the volume of the circumscribing cylinder, meaning rise = fall."
+  },
+  {
+    "q": "247. When a liquid rotates at constant angular velocity about a vertical axis of a rigid body, the pressure ...............",
+    "options": [
+      "increases linearly to its radial distance",
+      "varies inversely as the altitude along any vertical line",
+      "varies as the square of the radial distance",
+      "decreases as the square of the radial distance"
+    ],
+    "correct": 2,
+    "explain": "The pressure head in a forced vortex increases with the square of the radius (v²/2g = ω²r²/2g)."
+  },
+  {
+    "q": "248. The imaginary line drawn such that the tangents at its all points indicate the direction of the velocity of the fluid particles at each point, is called ...............",
+    "options": [
+      "path line",
+      "stream line",
+      "potential line",
+      "streak line"
+    ],
+    "correct": 1,
+    "explain": "A streamline is a curve that is everywhere tangent to the instantaneous local velocity vector."
+  },
+  {
+    "q": "249. In fluids, steady, flow occurs when ...............",
+    "options": [
+      "conditions of flow change steadily with time",
+      "conditions of flow do not change with time at a point",
+      "conditions of flow remain the same at adjacent point",
+      "velocity vector remains constant at a point"
+    ],
+    "correct": 1,
+    "explain": "Steady flow is defined as the type of flow in which the fluid properties (velocity, pressure, etc.) at any point do not change with time."
+  },
+  {
+    "q": "250. If velocities of fluid particles vary from point to point in magnitude and direction, as well as form instant to instant, the flow is said to be ...............",
+    "options": [
+      "laminar",
+      "turbulent flow",
+      "uniform flow",
+      "non-uniform flow"
+    ],
+    "correct": 1,
+    "explain": "Turbulent flow is characterized by chaotic changes in pressure and flow velocity, varying both in space and time."
+  },
+  {
+    "q": "251. A steady uniform flow is through ...............",
+    "options": [
+      "a long pipe at decreasing rate",
+      "a long pipe at constant rate",
+      "an expanding tube at constant rate",
+      "an expanding tube at increasing rate"
+    ],
+    "correct": 1,
+    "explain": "Uniform flow requires a constant cross-section (long pipe), and steady flow requires a constant discharge (constant rate)."
+  },
+  {
+    "q": "252. A non-uniform steady flow is through ...............",
+    "options": [
+      "a long tube at a decreasing rate",
+      "an expanding tube at constant rate",
+      "an expanding tube at increasing rate",
+      "a long pipe at increasing rate"
+    ],
+    "correct": 1,
+    "explain": "It is non-uniform because the cross-section changes (expanding tube) and steady because the discharge rate remains constant over time."
+  },
+  {
+    "q": "253. An ideal flow of a liquid obeys ...............",
+    "options": [
+      "Continuity equation",
+      "Newton's law of viscosity",
+      "Newton's second law of motion",
+      "dynamic viscosity law"
+    ],
+    "correct": 0,
+    "explain": "All fluid flows, including ideal (non-viscous, incompressible) flows, must satisfy the principle of conservation of mass, represented by the continuity equation."
+  },
+  {
+    "q": "254. The continuity equation ...............",
+    "options": [
+      "expresses the relationship between work and energy",
+      "relates the momentum per unit volume between two points on a stream line",
+      "relates mass rate of flow along a stream line",
+      "requires that Newton's second law of motion be satisfied at every point in fluid"
+    ],
+    "correct": 2,
+    "explain": "The continuity equation is a mathematical expression of the law of conservation of mass for a fluid system."
+  },
+  {
+    "q": "255. Equation of continuity of fluids is applicable only if ...............",
+    "options": [
+      "flow is steady and velocity is uniform",
+      "flow is compressive",
+      "flow is one dimensional",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "While general forms exist, the standard engineering version (A1V1 = A2V2) assumes steady, one-dimensional, and usually incompressible flow."
+  },
+  {
+    "q": "256. The acceleration f required to accelerate a rectangular tank containing water horizontally so that the slope of its free surface is 45°, is ...............",
+    "options": [
+      "g/2",
+      "g",
+      "2g",
+      "2.5g"
+    ],
+    "correct": 1,
+    "explain": "Since tan θ = a/g, and tan 45° = 1, then a/g = 1, which means the acceleration (f) must equal g."
+  },
+  {
+    "q": "257. For the two dimensional flow, the stream functions is given by Ψ = 2xy. The velocity at a point (3, 4) is ...............",
+    "options": [
+      "6 m/sec",
+      "8 m/sec",
+      "10 m/sec",
+      "12 m/sec"
+    ],
+    "correct": 2,
+    "explain": "u = -∂Ψ/∂y = -2x = -6; v = ∂Ψ/∂x = 2y = 8. Resultant velocity V = √(u² + v²) = √((-6)² + 8²) = 10 m/sec."
+  },
+  {
+    "q": "258. The flow in which each liquid particle has a definite path and the paths of adjacent particles do not cross each other, is called ...............",
+    "options": [
+      "stream line flow",
+      "uniform flow",
+      "steady flow",
+      "turbulent flow"
+    ],
+    "correct": 0,
+    "explain": "In streamline (or laminar) flow, fluid particles move in smooth layers or paths without macroscopic mixing."
+  },
+  {
+    "q": "259. Euler's equation for the motion of liquids assumes that ...............",
+    "options": [
+      "fluid is viscous",
+      "fluid is homogeneous and incompressible",
+      "velocity of flow is non-uniform over the section",
+      "flow is unsteady along the stream line"
+    ],
+    "correct": 1,
+    "explain": "Euler's equation is derived for an ideal fluid, which is assumed to be non-viscous, homogeneous, and incompressible."
+  },
+  {
+    "q": "260. In a venturimeter, the divergent cone is kept ...............",
+    "options": [
+      "shorter than convergent cone",
+      "equal to convergent cone",
+      "longer than convergent cone",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The divergent cone is made longer with a smaller angle (5°-7°) to prevent flow separation and minimize energy loss due to eddy formation."
+  },
+  {
+    "q": "261. To avoid the tendency of separation of liquid flow, the most suitable ratio of the diameters of the throat and the pipe, is ...............",
+    "options": [
+      "1/4 to 1/3",
+      "1/3 to 1/2",
+      "1/2 to 3/4",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A throat diameter ratio between 1/3 and 1/2 is standard to balance sensitivity of pressure measurement with the prevention of cavitation/separation."
+  },
+  {
+    "q": "262. The velocity of the fluid particle at the centre of the paper section, is ...............",
+    "options": [
+      "minimum",
+      "maximum",
+      "equal throughout",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In pipe flow, especially laminar, the velocity profile is parabolic with the maximum velocity occurring at the centerline."
+  },
+  {
+    "q": "263. For solving the problems is hydraulic engineering velocity used is ...............",
+    "options": [
+      "velocity at the centre of pipe section",
+      "average velocity of flow over a section",
+      "mean of the velocities at the centre and that along the pipe surface",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Engineers use average (mean) velocity (V = Q/A) for practical calculations involving discharge and energy equations."
+  },
+  {
+    "q": "264. The flow is called rotational if its velocity normal to the plane of area is equal to ...............",
+    "options": [
+      "angular velocity vector",
+      "twice the angular velocity vector",
+      "thrice the angular velocity vector",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Vorticity is defined as the curl of the velocity vector, which is equal to twice the angular velocity (ω)."
+  },
+  {
+    "q": "265. For an irrotational flow, the equation (δ²φ/δx²) + (δ²φ/δy²) = 0 given by ...............",
+    "options": [
+      "Cauchy-Riemann",
+      "Reynold",
+      "Laplaces",
+      "Bernoulli"
+    ],
+    "correct": 2,
+    "explain": "This is the Laplace equation. If a velocity potential (φ) satisfies this equation, the flow is irrotational and incompressible."
+  },
+  {
+    "q": "266. 'Flow net' can be drawn only if the flow is ...............",
+    "options": [
+      "turbulent",
+      "rotational",
+      "distortion",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "A flow net is applicable only for irrotational (potential) flow where both stream functions and velocity potentials exist."
+  },
+  {
+    "q": "267. A fluid particle may possess the displacement or ...............",
+    "options": [
+      "translation",
+      "rotation",
+      "distortion",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Fluid motion can involve translation (moving), rotation (spinning), and deformation/distortion (changing shape)."
+  },
+  {
+    "q": "268. If u, v, w are the components of the velocity v of moving particle, the equation u/dx = v/dy = w/dz represents ...............",
+    "options": [
+      "one dimensional flow",
+      "two dimensional flow",
+      "three dimensional flow",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "This is the general differential form for the path of a particle in three-dimensional space."
+  },
+  {
+    "q": "269. In two dimensional flow the components of velocity are given by u = ax, v = by. The stream lines will be ...............",
+    "options": [
+      "circular",
+      "parabolic",
+      "hyperbolic",
+      "elliptical"
+    ],
+    "correct": 2,
+    "explain": "By integrating dy/dx = v/u = (by)/(ax), we get a power relationship that represents a hyperbolic shape for the streamlines."
+  },
+  {
+    "q": "270. In a two dimensional flow if the components of the velocity are u = ax, v = by, the point where no motion occurs, is known as ...............",
+    "options": [
+      "critical point",
+      "neutral point",
+      "stagnation point",
+      "stationary point"
+    ],
+    "correct": 2,
+    "explain": "A stagnation point is defined as a point in the flow field where all velocity components (u, v, w) are zero."
+  },
+  {
+    "q": "271. An independent mass of a fluid does not posses ...............",
+    "options": [
+      "elevation energy",
+      "kinetic energy",
+      "pressure energy",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "A fluid in motion potentially possesses all three forms of energy: potential (elevation), kinetic (velocity), and pressure energy."
+  },
+  {
+    "q": "272. Frictional loss of head includes the loss of energy due to ...............",
+    "options": [
+      "viscosity",
+      "turbulence",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Head loss occurs due to internal friction between fluid layers (viscosity) and mixing/eddies in the flow (turbulence)."
+  },
+  {
+    "q": "273. Energy equation is usually applicable to ...............",
+    "options": [
+      "non-uniform flow",
+      "turbulent flow",
+      "laminar flow",
+      "steady flow"
+    ],
+    "correct": 3,
+    "explain": "Bernoulli's energy equation is derived assuming steady flow, meaning conditions at a point do not change with time."
+  },
+  {
+    "q": "274. The differential equation dp/ρ + gdz + vdv = 0 for a fluid motion is suggested by ...............",
+    "options": [
+      "Bernoulli",
+      "Cauchy-riemann",
+      "Laplace",
+      "Leonhard Euler"
+    ],
+    "correct": 3,
+    "explain": "This is Euler's equation of motion. When integrated along a streamline, it yields the Bernoulli equation."
+  },
+  {
+    "q": "275. Bernoulli's equation assumes that ...............",
+    "options": [
+      "fluid is non-viscous",
+      "fluid is homogeneous",
+      "flow is steady",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Bernoulli's principle relies on the assumptions of steady, irrotational, incompressible, and non-viscous (frictionless) flow."
+  },
+  {
+    "q": "276. The line joining the points to which the liquid rises in vertical piezometer tubes fitted at different cross-section of a conduit, is known as ...............",
+    "options": [
+      "hydraulic gradient",
+      "piezoemetric line",
+      "pressure grade line or hydraulic grade line",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "The Hydraulic Grade Line (HGL) represents the sum of the pressure head and datum head (P/w + z) along the pipeline."
+  },
+  {
+    "q": "277. Hydraulic grade line ...............",
+    "options": [
+      "remains above the centre line of conduit",
+      "remains below the centre line of conduit",
+      "remains parallel to the centre line of conduit",
+      "may be above or below the centre line of conduit"
+    ],
+    "correct": 3,
+    "explain": "While usually above the conduit, the HGL can fall below the pipe centerline if there is negative (vacuum) pressure in the system."
+  },
+  {
+    "q": "278. If the total head of the nozzle of a pipe is 37.5 m and discharge is 1 cumec, the power generated is ...............",
+    "options": [
+      "400 H.P.",
+      "450 H.P.",
+      "500 H.P.",
+      "550 H.P."
+    ],
+    "correct": 2,
+    "explain": "Power (P) = (wQH)/75 in metric HP. (1000 * 1 * 37.5) / 75 = 500 H.P."
+  },
+  {
+    "q": "279. From a nozzle exposed to atmosphere, the liquid jet traverses ...............",
+    "options": [
+      "a straight line",
+      "a circular path",
+      "an elliptical path",
+      "a parabolic path"
+    ],
+    "correct": 3,
+    "explain": "A free jet acts as a projectile; under the influence of gravity, its trajectory follows a parabolic path."
+  },
+  {
+    "q": "280. The ratio of the maximum height to which a jet inclined through θ rises to its total horizontal span is ...............",
+    "options": [
+      "1/4 sin θ",
+      "1/4 cos θ",
+      "1/4 tan θ",
+      "1/4 cot θ"
+    ],
+    "correct": 2,
+    "explain": "Maximum height H = (u² sin²θ)/2g and Range R = (u² sin2θ)/g. The ratio H/R simplifies to 1/4 tan θ."
+  },
+  {
+    "q": "281. A jet projected at an angle of 45°, 40 m from the foot of a vertical column, just reaches the top of the column. The height of the column is ...............",
+    "options": [
+      "15 m",
+      "20 m",
+      "30 m",
+      "40 m"
+    ],
+    "correct": 1,
+    "explain": "Using the trajectory equation y = x tanθ - [gx² / (2u² cos²θ)]. For a project reaching its max height at 40m distance at 45°, the height is 20m."
+  },
+  {
+    "q": "282. When the whole fluid mass rotates either due to fluid pressure or gravity or rotation previously imparted, the motion is known as ...............",
+    "options": [
+      "free vortex",
+      "forced vortex",
+      "non-potential vortex",
+      "rotational vortex"
+    ],
+    "correct": 0,
+    "explain": "In a free vortex, fluid rotates without external torque (like water draining from a bathtub). External energy is not continuously applied."
+  },
+  {
+    "q": "283. In a centriyugal pump casing, the flow of water leaving the impeller, is ...............",
+    "options": [
+      "rectilinear flow",
+      "radial flow",
+      "free vortex motion",
+      "forced vertex"
+    ],
+    "correct": 2,
+    "explain": "Once the water leaves the impeller and enters the volute casing, it follows a free vortex path to convert kinetic energy into pressure energy."
+  },
+  {
+    "q": "284. A pitot tube is used to measure ...............",
+    "options": [
+      "pressure",
+      "difference in pressure",
+      "velocity of flow",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A pitot tube converts kinetic energy into potential energy at the stagnation point to determine the local velocity of the fluid."
+  },
+  {
+    "q": "285. The dimensionless parameter not applicable to flowing liquids, is ...............",
+    "options": [
+      "Reynold number",
+      "Weber number",
+      "Pressure coefficient",
+      "Kinematic viscosity"
+    ],
+    "correct": 3,
+    "explain": "Kinematic viscosity (ν) has units of m²/s; it is a physical property, not a dimensionless parameter."
+  },
+  {
+    "q": "286. For the flow of liquid from an open ended tube (or nozzle) leading to the formation of spray of liquid drops, the number generally applied, is ...............",
+    "options": [
+      "Forude number",
+      "Weber number",
+      "Reynold number",
+      "Mach number"
+    ],
+    "correct": 1,
+    "explain": "Weber number (We) relates inertial force to surface tension, which is the dominant force in drop formation and atomization."
+  },
+  {
+    "q": "287. If the forces are due to inertia and gravity, and frictional resistance plays only a minor role, the design of the channels is made by comparing ...............",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Weber number",
+      "Mach number"
+    ],
+    "correct": 1,
+    "explain": "Froude number is used for open channel designs where gravity is the primary driving force (e.g., spillways, canals)."
+  },
+  {
+    "q": "288. The following is not a laminar flow ...............",
+    "options": [
+      "flow in beds in ground water",
+      "rise of water in plants through roots",
+      "flow of blood in the arteries of human body",
+      "flow in water pipe lines"
+    ],
+    "correct": 3,
+    "explain": "Flow in typical water supply pipe lines is usually turbulent due to high velocities and large diameters."
+  },
+  {
+    "q": "289. The value of kinetic energy correction factor (α) for a laminar flow through a circular pipe, is ...............",
+    "options": [
+      "0.5",
+      "1.0",
+      "1.5",
+      "2.0"
+    ],
+    "correct": 3,
+    "explain": "For laminar flow in a pipe, the velocity distribution is parabolic, leading to a kinetic energy correction factor (α) of exactly 2.0."
+  },
+  {
+    "q": "290. The value of momentum correction factor (β) for a laminar flow through a circular pipe, is ...............",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "4/3"
+    ],
+    "correct": 3,
+    "explain": "The momentum correction factor (β) for laminar flow in a pipe is calculated as 4/3 (~1.33)."
+  },
+  {
+    "q": "291. The ratio of frictional factor and coefficient of friction used in general equation for a equation for a head loss in a pipe, is ...............",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 3,
+    "explain": "Friction factor (f) is typically defined as 4 times the coefficient of friction (f'). f = 4f'."
+  },
+  {
+    "q": "292. The instrument used for measuring the velocity of flow is known as ...............",
+    "options": [
+      "venturimeter",
+      "orifice meter",
+      "pitot tube",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "While venturi and orifice meters measure discharge (Q), the pitot tube is specifically designed to measure point velocity (v)."
+  },
+  {
+    "q": "293. An orifice is an opening in a vessel with ...............",
+    "options": [
+      "closed perimeter of regular shape through which water flows",
+      "the water level of the liquid on the upstream side below the top of the orifice",
+      "partially full flow",
+      "prolonged sides having length of 2 to 3 diameters of the opening in thick wall."
+    ],
+    "correct": 0,
+    "explain": "An orifice is defined as a closed-perimeter opening through which fluid flows for measurement or discharge purposes."
+  },
+  {
+    "q": "294. Hydraulic coefficient of an orifice means the coefficient of ...............",
+    "options": [
+      "velocity",
+      "contraction",
+      "resistance",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Hydraulic coefficients include Cv (velocity), Cc (contraction), and Cd (discharge), along with Cr (resistance)."
+  },
+  {
+    "q": "295. In a short cylindrical external mouthpiece, the venacontracta occurs at a distance from the outlet of orifice equal to ...............",
+    "options": [
+      "diameter of the orifice",
+      "one-fourth the diameter of the orifice",
+      "one-third the diameter of the orifice",
+      "tow-third the diameter of the orifice"
+    ],
+    "correct": 3,
+    "explain": "In an external mouthpiece, the vena contracta typically forms at a distance of about 0.5 to 0.67 times the diameter from the entrance."
+  },
+  {
+    "q": "296. The shape of fire hose nozzle is generally kept ...............",
+    "options": [
+      "divergent",
+      "convergent",
+      "convergent divergent",
+      "cylindrical"
+    ],
+    "correct": 1,
+    "explain": "Convergent nozzles are used to increase the velocity of the liquid jet for fire fighting purposes."
+  },
+  {
+    "q": "297. Short tube mouthpiece will not run full at its outlet if the head under which the orifice works, is ...............",
+    "options": [
+      "less than 12.2 m of the water",
+      "more than 12.2 m of the water",
+      "equal of 12.2 m of the water",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "If the head exceeds a certain limit (~12m), the negative pressure at the vena contracta becomes too high, causing the jet to separate and not run full."
+  },
+  {
+    "q": "298. A piezometer opening in pipes measures ...............",
+    "options": [
+      "velocity head",
+      "static pressure",
+      "total pressure",
+      "negative static pressure"
+    ],
+    "correct": 1,
+    "explain": "A piezometer tube measures the static pressure (P/w) at the point of connection."
+  },
+  {
+    "q": "299. In an inclined position, a venturimeter records ...............",
+    "options": [
+      "more reading",
+      "less reading",
+      "same reading",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A venturimeter is independent of orientation (horizontal, vertical, or inclined) because it measures the differential head (h), which remains constant for the same flow."
+  },
+  {
+    "q": "300. If H is the difference of liquid levels on two sides of an orifice (width b, depth d), the discharge through the orifice will be ...............",
+    "options": [
+      "Cd b d² √(2gH)",
+      "Cd b² d √(2gH)",
+      "Cd b d √(2gH)",
+      "Cd b d · 2g H¹/²"
+    ],
+    "correct": 2,
+    "explain": "The standard discharge formula for a small orifice is Q = Cd * Area * √(2gH), where Area = b * d."
+  }
+]

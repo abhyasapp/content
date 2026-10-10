@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The assessed surface width of crack should not generally exceed ...........",
+    "options": [
+      "0.2 mm",
+      "0.1 mm",
+      "0.02 mm",
+      "0.01 mm"
+    ],
+    "correct": 0,
+    "explain": "While 0.3mm is allowed for mild exposure, many design specifications (especially in older or more stringent codes) target 0.2mm for better durability."
+  },
+  {
+    "q": "2. Working stress design assumes ...........",
+    "options": [
+      "elastic stress-strain relation",
+      "linear stress-strain relation",
+      "elastic and linear stress-strain relation",
+      "isotropic material"
+    ],
+    "correct": 2,
+    "explain": "The Working Stress Method is based on the elastic theory, assuming that both steel and concrete behave linearly and elastically under service loads."
+  },
+  {
+    "q": "3. Working stress design assumes ...........",
+    "options": [
+      "partial recovery of deflections caused during some load condition",
+      "full recovery of deflections caused during some load conditions",
+      "partial recovery of deflections caused in all types of load conditions",
+      "full recovery of deflections caused in all types of load conditions"
+    ],
+    "correct": 1,
+    "explain": "Because it assumes perfect elasticity, the WSM implies that when the load is removed, the structure returns to its original shape (full recovery)."
+  },
+  {
+    "q": "4. The stresses caused by different loads can be superimposed in ...........",
+    "options": [
+      "working stress design",
+      "ultimate strength design",
+      "limit state design",
+      "plastic design"
+    ],
+    "correct": 0,
+    "explain": "Superposition is only valid in linear-elastic systems. Working Stress Method is the only one listed that assumes linear elasticity."
+  },
+  {
+    "q": "5. The approximate allowable stress in bending compression in reinforced concrete is ...........",
+    "options": [
+      "0.256 fck",
+      "0.446 fck",
+      "0.336 fck",
+      "0.306 fck"
+    ],
+    "correct": 2,
+    "explain": "In WSM, the permissible stress in bending compression (sigma_cbc) is roughly $f_{ck}/3$, which is approximately $0.33 \\cdot f_{ck}$."
+  },
+  {
+    "q": "6. The approximate allowable stress in axial compression in reinforced concrete is ...........",
+    "options": [
+      "0.25 fck",
+      "0.44 fck",
+      "0.33 fck",
+      "0.30 fck"
+    ],
+    "correct": 0,
+    "explain": "In WSM, the permissible stress in direct (axial) compression (sigma_cc) is roughly $f_{ck}/4$, which is $0.25 \\cdot f_{ck}$."
+  },
+  {
+    "q": "7. The ultimate tensile stress in mild steel bars of grade I should be greater than (in N/mm2) ...........",
+    "options": [
+      "415",
+      "260",
+      "140",
+      "100"
+    ],
+    "correct": 0,
+    "explain": "Grade I mild steel typically has an ultimate tensile strength exceeding 415 N/mm², even if its yield stress is lower (around 250 N/mm²)."
+  },
+  {
+    "q": "8. The allowable tensile stress in mild steel stirrups in reinforced cement concrete is (in N/mm2) ...........",
+    "options": [
+      "140",
+      "190",
+      "230",
+      "260"
+    ],
+    "correct": 0,
+    "explain": "For mild steel (Fe 250) used as shear reinforcement in WSM, the permissible tensile stress is 140 N/mm²."
+  },
+  {
+    "q": "9. In the limit state method the over-reinforced sections ...........",
+    "options": [
+      "are not permitted",
+      "are permitted",
+      "are permitted only in extreme cases",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Limit State Design strictly prohibits over-reinforced sections to ensure that failure is always ductile (steel yields before concrete crushes)."
+  },
+  {
+    "q": "10. If the factored moment to be carried by a rectangular section is more than the limiting moment of the section ...........",
+    "options": [
+      "the section can be designed as a over-reinforced section",
+      "the section has to be redesigned increasing the dimensions or design the section as doubly reinforced",
+      "either 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Since over-reinforcement is forbidden, you must either increase the beam size or add compression steel (doubly reinforced) to carry the extra moment."
+  },
+  {
+    "q": "11. In the limit state method, the maximum compressive strain in axial compression in concrete is taken as ...........",
+    "options": [
+      "0.0035",
+      "0.035",
+      "0.002",
+      "0.02"
+    ],
+    "correct": 2,
+    "explain": "While 0.0035 is for flexure, in cases of pure axial compression, the failure strain across the entire section is taken as 0.002."
+  },
+  {
+    "q": "12. In a singly reinforced beam, the effective depth is measured from its compression edge to ...........",
+    "options": [
+      "tensile edge",
+      "tensile reinforcement",
+      "neutral axis of the beam",
+      "longitudinal central axis"
+    ],
+    "correct": 1,
+    "explain": "Effective depth 'd' is the distance from the extreme compression fiber to the center of gravity of the tensile reinforcement."
+  },
+  {
+    "q": "13. If the modular ratio is m, steel ratio is r = sigma_st / nbc and overall depth of a beam is d, the depth of the critical neutral axis of the beam is ...........",
+    "options": [
+      "m / (m-r) * d",
+      "m / (m+r) * d",
+      "m+r / m * d",
+      "r-m / m * d"
+    ],
+    "correct": 1,
+    "explain": "Derived from the properties of similar triangles in the stress diagram of a balanced section: $x_c = [m \\cdot \\sigma_{cbc} / (m \\cdot \\sigma_{cbc} + \\sigma_{st})] \\cdot d$."
+  },
+  {
+    "q": "14. If d and n are the effective depth and depth of the neutral axis respectively of a singly reinforced beam, the lever arm of the beam is ...........",
+    "options": [
+      "d",
+      "n",
+      "d + n/3",
+      "d - n/3"
+    ],
+    "correct": 3,
+    "explain": "Lever arm is the distance between the total compressive force (acting at n/3 from the top) and the tensile force: $z = d - n/3$."
+  },
+  {
+    "q": "15. The section of a reinforced beam where most distant concrete fibre in compression and tension in steel attains permissible stresses simultaneously, is called ...........",
+    "options": [
+      "balanced section",
+      "economic section",
+      "critical section",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "A balanced section is also known as a critical section (where neutral axis is at critical depth) and is often the most economical in terms of material usage."
+  },
+  {
+    "q": "16. In a singly reinforced beam, if the permissible stress in concrete reaches earlier than that in steel, the beam section is called ...........",
+    "options": [
+      "under-reinforced section",
+      "over reinforced section",
+      "economic section",
+      "critical section"
+    ],
+    "correct": 1,
+    "explain": "If concrete reaches its limit first, it means there is 'too much' steel for the concrete to handle, hence 'over-reinforced'."
+  },
+  {
+    "q": "17. As the percentage of steel increases ............",
+    "options": [
+      "depth of neutral axis decreases",
+      "depth of neutral axis increases",
+      "lever arm increases",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In a reinforced concrete beam, the depth of the neutral axis is directly proportional to the reinforcement ratio. Increasing the steel area requires a larger concrete compression area to maintain equilibrium, thus pushing the neutral axis deeper."
+  },
+  {
+    "q": "18. By over-reinforcing a beam, the moment resistance can be increased not more than ............",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "correct": 3,
+    "explain": "According to limit state design principles, over-reinforcing a section beyond the balanced condition provides diminishing returns in moment capacity, generally capped around 25% due to the brittle nature of concrete failure."
+  },
+  {
+    "q": "19. Distribution of shear intensity over a rectangular section of a beam, follows ............",
+    "options": [
+      "a circular curve",
+      "a straight line",
+      "a parabolic curve",
+      "an elliptical curve"
+    ],
+    "correct": 2,
+    "explain": "For a homogenous rectangular section, the shear stress distribution is parabolic, with the maximum stress occurring at the neutral axis and zero at the top and bottom fibers."
+  },
+  {
+    "q": "20. The compression force $C_u$ resisted by the concrete above neutral axis will be acting at a distance ............ from the extreme compression fibre.",
+    "options": [
+      "1/7 xu",
+      "2/7 xu",
+      "3/7 xu",
+      "4/7 xu"
+    ],
+    "correct": 2,
+    "explain": "In the Limit State Method parabolic stress block, the centroid of the compressive force is located at $0.416 x_u$ (approximately $3/7 x_u$) from the extreme compression fiber."
+  },
+  {
+    "q": "21. To determine the modulus of rupture, the size of test specimen used is ............",
+    "options": [
+      "150 x 150 x 500 mm",
+      "100 x 100 x 700 mm",
+      "150 x 150 x 700 mm",
+      "100 x 100 x 500 mm"
+    ],
+    "correct": 2,
+    "explain": "The standard beam specimen for the flexural strength (modulus of rupture) test is $150 \times 150 \times 700$ mm."
+  },
+  {
+    "q": "22. In singly reinforced beams, steel reinforcement is provided in ............",
+    "options": [
+      "tensile zone",
+      "compressive zone",
+      "both zones",
+      "neutral zone"
+    ],
+    "correct": 0,
+    "explain": "A singly reinforced beam is designed such that the steel is only placed in the tension zone to resist tensile stresses which concrete cannot."
+  },
+  {
+    "q": "23. In a simply supported reinforced concrete beam, the reinforcement is placed ............",
+    "options": [
+      "below the neutral axis",
+      "above the neutral axis",
+      "at the neutral axis",
+      "any one of these"
+    ],
+    "correct": 0,
+    "explain": "In a simply supported beam, sagging occurs, meaning the bottom fibers are in tension. Therefore, reinforcement is placed below the neutral axis."
+  },
+  {
+    "q": "24. In a singly reinforced beam, the effective depth is measured from the compression edge to the ............",
+    "options": [
+      "tensile edge",
+      "centre of tensile reinforcement",
+      "neutral axis",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Effective depth ($d$) is the distance from the extreme compression fiber to the centroid (center) of the tensile reinforcement."
+  },
+  {
+    "q": "25. In a singly reinforced concrete beam, if the load is very small ............",
+    "options": [
+      "only concrete will resist tension",
+      "only steel bars will resist tension",
+      "both concrete and steel will resist tension",
+      "both concrete and steel will resist compression"
+    ],
+    "correct": 2,
+    "explain": "At very low loads (uncracked stage), the concrete remains intact and both the concrete and steel contribute to resisting tensile stresses."
+  },
+  {
+    "q": "26. In a singly reinforced concrete beam, as the load increases ............",
+    "options": [
+      "only concrete will resist tension",
+      "only steel bars will resist tension",
+      "both concrete and steel will resist tension",
+      "both concrete and steel will resist compression"
+    ],
+    "correct": 1,
+    "explain": "Once the tensile stress exceeds the modulus of rupture of concrete, the concrete cracks. Beyond this point, only the steel bars are assumed to resist the total tensile force."
+  },
+  {
+    "q": "27. Normally, the tensile strength of concrete is about ............ of its compressive strength.",
+    "options": [
+      "10 to 15%",
+      "15 to 20%",
+      "20 to 25%",
+      "25 to 30%"
+    ],
+    "correct": 0,
+    "explain": "Concrete is very weak in tension; its tensile strength is usually estimated at about 1/10th or 10-15% of its compressive strength."
+  },
+  {
+    "q": "28. A reinforced concrete beam will crack if tensile stress set up in the concrete below the neutral axis is ............",
+    "options": [
+      "less than the permissible stress",
+      "more than the permissible stress",
+      "equal to the permissible stress",
+      "any one of these"
+    ],
+    "correct": 1,
+    "explain": "Cracking occurs as soon as the actual tensile stress in the concrete fibers exceeds its allowable tensile capacity (modulus of rupture)."
+  },
+  {
+    "q": "29. In a beam section, if the steel reinforcement is of such a magnitude that the permissible stresses in concrete and steel are developed simultaneously, the section is known as ............",
+    "options": [
+      "balanced section",
+      "critical section",
+      "economical section",
+      "any one of these"
+    ],
+    "correct": 3,
+    "explain": "A section where both materials reach their maximum allowable stresses at the same time is variously referred to as a balanced, critical, or economical section."
+  },
+  {
+    "q": "30. The section in which concrete is not fully stressed to its permissible value when stress in steel reaches its maximum value, is called ............",
+    "options": [
+      "under-reinforced section",
+      "over-reinforced section",
+      "critical section",
+      "balanced section"
+    ],
+    "correct": 0,
+    "explain": "In an under-reinforced section, the steel reaches its yield point first while the concrete stress remains below its ultimate capacity."
+  },
+  {
+    "q": "31. The neutral axis of a balanced section is called ............",
+    "options": [
+      "balanced neutral axis",
+      "critical neutral axis",
+      "equivalent neutral axis",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "The depth of the neutral axis corresponding to the balanced strain/stress condition is termed the Critical Neutral Axis."
+  },
+  {
+    "q": "32. The moment of resistance of an under-reinforced section is computed on the basis of ............",
+    "options": [
+      "compressive force in concrete",
+      "tensile force in steel",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Since steel reaches its permissible limit first in an under-reinforced section, the moment of resistance is governed by the steel capacity ($M = A_st \\cdot \\sigma_{st} \\cdot j \\cdot d$)."
+  },
+  {
+    "q": "33. In an over-reinforced section ............",
+    "options": [
+      "steel reinforcement is not fully stressed",
+      "concrete is not fully stressed",
+      "either 'a' or 'b'",
+      "both 'a' and 'b'"
+    ],
+    "correct": 0,
+    "explain": "In an over-reinforced section, concrete reaches its maximum permissible stress before the steel, meaning the steel remains under-stressed."
+  },
+  {
+    "q": "34. For an over reinforced (singly reinforced) rectangular reinforced concrete section ............",
+    "options": [
+      "lever arm is less than balanced section",
+      "max steel stress = allowable steel stress",
+      "max concrete stress = allowable concrete stress",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "By definition, an over-reinforced section fails by crushing of concrete, meaning the concrete reaches its allowable stress while the steel does not."
+  },
+  {
+    "q": "35. The moment of resistance of an over-reinforced section is determined on the basis of ............",
+    "options": [
+      "tensile force in steel",
+      "compressive force in concrete",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In over-reinforced sections, the concrete is the limiting factor, so the moment of resistance is calculated based on the compressive capacity of the concrete."
+  },
+  {
+    "q": "36. The neutral axis of an over-reinforced section falls ............",
+    "options": [
+      "on the critical neutral axis",
+      "below the critical neutral axis",
+      "above the critical neutral axis",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Because there is more steel than required for a balanced section, the neutral axis must shift downward (below the critical N.A.) to provide a larger compression area to balance the tension."
+  },
+  {
+    "q": "37. When the lever arm of a reinforced concrete beam is z and width of beam is b, then the maximum shear stress in a beam subjected to shear force F will be equal to ............",
+    "options": [
+      "Fb / z",
+      "F / (b * z)",
+      "Fz / b",
+      "F * z * b"
+    ],
+    "correct": 1,
+    "explain": "Maximum shear stress in Working Stress Method is calculated as Shear Force / (Width x Lever Arm)."
+  },
+  {
+    "q": "38. When a reinforced concrete structure is loaded, the resistance first broken is",
+    "options": [
+      "pure adhesive resistance",
+      "frictional resistance",
+      "mechanical resistance",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The bond between steel and concrete is composed of adhesion, friction, and mechanical interlock. Adhesive resistance (the chemical bond) is the first to fail as soon as there is any microscopic slip."
+  },
+  {
+    "q": "39. In a doubly reinforced beam, steel reinforcement is provided in a",
+    "options": [
+      "tensile zone",
+      "compression zone",
+      "either 'a' or 'b'",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "A doubly reinforced beam contains longitudinal reinforcement in both the tension and the compression zones to increase the moment capacity when dimensions are restricted."
+  },
+  {
+    "q": "40. A doubly reinforced section in used",
+    "options": [
+      "when the members are subjected to alternate external loads and the bending moment in the sections reverses",
+      "when the members are subjected to loading eccentric on either side of the axis",
+      "all of the above",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Doubly reinforced sections are ideal for situations where moments reverse (like in seismic loading) or where the concrete alone cannot handle the compression due to eccentricity or restricted size."
+  },
+  {
+    "q": "41. A doubly reinforced beam is considered less economical than a singly reinforced beam because",
+    "options": [
+      "shear reinforcement is more",
+      "compressive steel is under-stressed",
+      "tensile steel requires is more than that for balanced section",
+      "concrete is not stressed to its full value"
+    ],
+    "correct": 1,
+    "explain": "In a doubly reinforced beam, the stress in the compression steel is limited by the strain in the surrounding concrete. Often, it does not reach its full yield strength, making the use of steel less efficient than in the tension zone."
+  },
+  {
+    "q": "42. If the area of tensile steel reinforcement is doubled, the moment of resistance of the beam increases only by about",
+    "options": [
+      "12%",
+      "22%",
+      "32%",
+      "42%"
+    ],
+    "correct": 1,
+    "explain": "Doubling the steel area shifts the neutral axis downward, reducing the lever arm and causing the concrete to reach its capacity faster. This leads to a non-proportional increase in moment capacity, roughly around 22%."
+  },
+  {
+    "q": "43. In the steel beam theory of doubly reinforced concrete beams, it is assumed that",
+    "options": [
+      "compression steel resists the compression",
+      "stress in compression steel is equal to stress in tension steel",
+      "in tension and compression concrete, no stress in developed",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Steel beam theory is a simplified method that assumes concrete provides no resistance at all, and the tension/compression are handled entirely by the steel at equal stress levels."
+  },
+  {
+    "q": "44. The concrete below the neutral axis",
+    "options": [
+      "resists the bending moment",
+      "embeds the tensile steel",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In reinforced concrete design, concrete in the tension zone (below the neutral axis) is assumed to be cracked and contributes nothing to bending resistance; its primary role is to provide cover and bond (embedment) for the steel."
+  },
+  {
+    "q": "45. The section of the beam having greater width at the top in comparison to the width below neutral axis is known as",
+    "options": [
+      "critical section",
+      "T-section",
+      "L-section",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A T-beam consists of a wide top flange (which handles compression) and a narrow rib below (the web), resulting in a wider top than bottom."
+  },
+  {
+    "q": "46. The breadth of rib in a T-beam should at least be equal to... the depth of rib.",
+    "options": [
+      "one-half",
+      "one-third",
+      "one-fourth",
+      "one-sixth"
+    ],
+    "correct": 1,
+    "explain": "For structural stability and to avoid lateral buckling of the web, the breadth of the rib is generally recommended to be at least 1/3 of the depth of the rib."
+  },
+  {
+    "q": "47. In a T-beam, the vertical distance between the bottom of the flange and the centre of the tensile reinforcement is known as the",
+    "options": [
+      "breadth of flange",
+      "thickness of flange",
+      "breadth of slab",
+      "depth of rib"
+    ],
+    "correct": 3,
+    "explain": "The 'rib' or 'web' is the portion of the beam below the flange. The vertical distance from the underside of the flange to the reinforcement level is essentially the depth of the rib."
+  },
+  {
+    "q": "48. The assumed overall depth of the T-beam is taken as... of the span when it is supported t ends.",
+    "options": [
+      "1/10 to 1/12",
+      "1/12 to 1/15",
+      "1/15 to 1/12",
+      "1/20 to 1/25"
+    ],
+    "correct": 1,
+    "explain": "For initial trial sizing of a simply supported T-beam, the overall depth is generally assumed to be between 1/12 and 1/15 of the span."
+  },
+  {
+    "q": "49. When the T-beam is continuous, the assumed overall depth of the beam of heavy loads is taken as",
+    "options": [
+      "1/10 to 1/12 of span",
+      "1/12 to 1/15 of span",
+      "1/15 to 1/12 of span",
+      "1/20 to 1/25 of span"
+    ],
+    "correct": 0,
+    "explain": "Continuous beams under heavy loads require higher stiffness, leading to a depth assumption closer to 1/10 to 1/12 of the span."
+  },
+  {
+    "q": "50. The neutral axis in T-beam section falls",
+    "options": [
+      "within the flange",
+      "outside the flange",
+      "either 'a' or 'b'",
+      "both 'a' and 'b'"
+    ],
+    "correct": 2,
+    "explain": "Depending on the reinforcement area and flange dimensions, the neutral axis can either lie within the slab (flange) or extend down into the rib."
+  }
+]

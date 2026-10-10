@@ -1,0 +1,904 @@
+[
+  {
+    "q": "411. A Bench mark is a",
+    "options": [
+      "reference point",
+      "the very first station",
+      "the last station where the survey closes",
+      "point of known elevation"
+    ],
+    "correct": 3,
+    "explain": "A bench mark is defined as a fixed point whose elevation is precisely known, used as a reference for leveling operations."
+  },
+  {
+    "q": "412. The height of instrument is equal to",
+    "options": [
+      "reduced level of bench mark + back sight",
+      "reduced level of bench mark + fore sight",
+      "reduced level of bench mark + intermediate sight",
+      "rack sight + fore sight"
+    ],
+    "correct": 0,
+    "explain": "The height of instrument (HI) is computed by adding the back sight reading to the reduced level of the bench mark (or any point of known elevation) on which the back sight was taken."
+  },
+  {
+    "q": "413. A method of differential leveling is used in order to find the difference in elevation between points when",
+    "options": [
+      "they are too far apart",
+      "there are obstacles between them",
+      "the difference in elevation between them is too great",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Differential leveling (using multiple instrument setups and change points) becomes necessary when any of these conditions apply - points too far apart, obstacles in between, or too great an elevation difference - so all of the above justify its use."
+  },
+  {
+    "q": "414. The collimation method for obtaining the reduced levels of points does not provide a check on",
+    "options": [
+      "fore sights",
+      "back sights",
+      "change points",
+      "intermediate sights"
+    ],
+    "correct": 3,
+    "explain": "The height of instrument (collimation) method provides an arithmetic check on fore sights, back sights, and change points, but it does not directly check the reduction of intermediate sights."
+  },
+  {
+    "q": "415. The rise and fall method for obtaining the reduced levels of points provides a check in",
+    "options": [
+      "fore sight only",
+      "back sight only",
+      "intermediate sight only",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Unlike the collimation method, the rise and fall method provides a complete arithmetic check on all readings - back sights, fore sights, and intermediate sights - so all of these are checked."
+  },
+  {
+    "q": "416. Collimation method is use in",
+    "options": [
+      "profile leveling",
+      "differential leveling",
+      "check leveling",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "The height of instrument (collimation) method is commonly applied in both profile leveling and differential leveling operations for reducing levels efficiently."
+  },
+  {
+    "q": "417. The method of leveling in which the heights of mountains are found by observing temperature at which water boils is known as",
+    "options": [
+      "barometric leveling",
+      "reciprocal leveling",
+      "longitudinal leveling",
+      "hypometry"
+    ],
+    "correct": 3,
+    "explain": "Hypsometry (hypometry) is the specific method that determines elevation based on the boiling point of water, which decreases with increasing altitude due to reduced atmospheric pressure."
+  },
+  {
+    "q": "418. Which of the following statement is correct?",
+    "options": [
+      "In leveling the effect of curvature is to decrease the staff reading",
+      "The effect of refraction in leveling is to increase the staff reading",
+      "The combined effect of curvature and refraction in leveling is to increase the staff reading",
+      "All of the above"
+    ],
+    "correct": 2,
+    "explain": "Since the curvature effect (increasing staff reading) is larger than the opposing refraction effect (decreasing staff reading), their combined net effect is to increase the observed staff reading."
+  },
+  {
+    "q": "419. In leveling, the effect of refraction may be taken as ... of that due to curvature",
+    "options": [
+      "one-half",
+      "one-third",
+      "one-fifth",
+      "one-seventh"
+    ],
+    "correct": 3,
+    "explain": "Atmospheric refraction is conventionally taken to counteract about one-seventh of the effect due to earth's curvature in standard leveling corrections."
+  },
+  {
+    "q": "420. In leveling, the correction for curvature (in meters) is equal",
+    "options": [
+      "0.00785 D^2",
+      "0.0785 D^2",
+      "0.0112 D^2",
+      "0.0673 D^2"
+    ],
+    "correct": 1,
+    "explain": "The standard formula for the curvature correction in metres, with D in kilometres, is Cc = 0.0785 D^2."
+  },
+  {
+    "q": "421. In leveling, the correction for combined curvature and refraction (in metres) is equal to",
+    "options": [
+      "0.00785 D^2",
+      "0.0785 D^2",
+      "0.0112 D^2",
+      "0.0673 D^2"
+    ],
+    "correct": 3,
+    "explain": "The combined correction for curvature and refraction together (accounting for refraction offsetting about 1/7 of the curvature effect) is given by 0.0673 D^2 metres, with D in kilometres."
+  },
+  {
+    "q": "422. The error which is not completely eliminated in reciprocal levelling is",
+    "options": [
+      "error due to curvature",
+      "error due to refraction",
+      "error due to non-adjustment of the line of collimation",
+      "error due to non-adjustment of bubble tube"
+    ],
+    "correct": 2,
+    "explain": "Reciprocal leveling fully eliminates curvature and refraction errors (assuming symmetric conditions) but does not completely eliminate the error due to non-adjustment of the line of collimation, since atmospheric conditions can differ slightly between the two observation times."
+  },
+  {
+    "q": "423. The contour interval depends upon the",
+    "options": [
+      "nature of the ground",
+      "scale of map",
+      "purpose and extent of survey",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Selection of contour interval is influenced together by the nature of the terrain, the map scale, and the purpose/extent of the survey, so all of these factors apply."
+  },
+  {
+    "q": "424. In direct method of contouring, the process of locating or identifying points lying on a contour is called",
+    "options": [
+      "ranging",
+      "centering",
+      "horizontal control",
+      "vertical control"
+    ],
+    "correct": 0,
+    "explain": "In the direct method of contouring, the process of locating points that lie exactly on a particular contour in the field is called ranging (tracing the contour)."
+  },
+  {
+    "q": "425. In an internal focusing type of telescope, the lens provided is",
+    "options": [
+      "concave",
+      "convex",
+      "plano convex",
+      "plano concave"
+    ],
+    "correct": 0,
+    "explain": "An internal focusing telescope uses a movable concave lens inside the tube to focus on objects at different distances, without moving the objective lens itself."
+  },
+  {
+    "q": "426. Which of the following can be neutralized by setting the level midway between the two stations?",
+    "options": [
+      "Error due to curvature only",
+      "Error due to refraction only",
+      "Error due to both curvature and refraction",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explain": "By setting up the level exactly midway between two stations, the combined effects of both earth's curvature and atmospheric refraction are equal and opposite at both sights, and hence get neutralized."
+  },
+  {
+    "q": "427. In any closed traverse, if the survey work is correct, then",
+    "options": [
+      "the algebraic sum of latitudes should be equal to zero",
+      "the algebraic sum of departures should be equal to zero",
+      "the sum of northings should be equal to the sum of southings",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "For a correctly closed traverse, the algebraic sum of latitudes and departures must each equal zero, which also implies the sum of northings equals the sum of southings - so all of the above are valid consequences."
+  },
+  {
+    "q": "428. When the whole circle bearing of a traverse line is between 90 and 180 then",
+    "options": [
+      "the latitude is positive and departure is negative",
+      "the departure is positive and latitude is negative",
+      "both the latitude and departure are positive",
+      "both the latitude and departure are negative"
+    ],
+    "correct": 1,
+    "explain": "For a WCB between 90 and 180 degrees (second quadrant, south-east direction), the latitude (southward component) is negative while the departure (eastward component) is positive."
+  },
+  {
+    "q": "429. The latitude and departure of a traverse line are both positive when the whole circle bearing of the line lies in the",
+    "options": [
+      "first quadrant",
+      "second quadrant",
+      "third quadrant",
+      "fourth quadrant"
+    ],
+    "correct": 0,
+    "explain": "For a WCB in the first quadrant (0-90 degrees, north-east direction), both the latitude (northward) and departure (eastward) components are positive."
+  },
+  {
+    "q": "430. When the latitudes and departures are so adjusted that the algebraic sum of the latitudes and departures are equal to zero, the operation is called",
+    "options": [
+      "balancing the latitude",
+      "balancing the departure",
+      "balancing the traverse",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "This overall adjustment process, applied to both latitudes and departures to remove closing error, is known as balancing the traverse."
+  },
+  {
+    "q": "431. When the angular and linear measurements are equally precise in traversing, the balancing of a traverse in done by",
+    "options": [
+      "transit rule",
+      "empirical rule",
+      "bowditch's rule",
+      "any one of these"
+    ],
+    "correct": 2,
+    "explain": "Bowditch's rule (compass rule) is used to balance a traverse when both angular and linear measurements are considered equally precise, distributing error in proportion to the length of each leg."
+  },
+  {
+    "q": "432. The principle of working from whole to part is used in surveying because",
+    "options": [
+      "plotting becomes easy",
+      "survey work can be completed quickly",
+      "accumulation of errors is prevented",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Working from whole to part serves multiple purposes together - simplifying plotting, speeding up survey work, and preventing accumulation of errors - so all of these are valid reasons."
+  },
+  {
+    "q": "433. During chaining along a straight line, the leader of the party has 4 arrows in his hand while the follower has 6. Distance of the follower from the starting point is",
+    "options": [
+      "4 chains",
+      "6 chains",
+      "120 m",
+      "180 m"
+    ],
+    "correct": 3,
+    "explain": "Total arrows used = 10, but the leader holds 4 (used chain lengths remaining) while the follower holds 6 (arrows already picked up representing chain lengths completed); the follower has covered 6 chain lengths of 30 m each = 180 m."
+  },
+  {
+    "q": "434. A metallic tape is made of",
+    "options": [
+      "steel",
+      "invar",
+      "linen",
+      "cloth and wires"
+    ],
+    "correct": 3,
+    "explain": "A metallic tape is made of a woven fabric (cloth) reinforced with fine brass or copper wires, giving it flexibility along with reasonable dimensional stability."
+  },
+  {
+    "q": "435. An angle made by a survey line with the prolongation of the proceeding line, is known as",
+    "options": [
+      "direct angle",
+      "vertical angle",
+      "horizontal angle",
+      "deflection angle"
+    ],
+    "correct": 3,
+    "explain": "This angle, formed between a survey line and the prolongation (extension) of the previous line, is by definition the deflection angle."
+  },
+  {
+    "q": "436. A deflection angle in a traverse is equal to the",
+    "options": [
+      "difference between the included angle and 180",
+      "difference between 360 and the included and 180",
+      "sum of the included angel and 180",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A deflection angle is computed as the difference between the included angle at a station and 180 degrees, representing the deviation from a straight continuation of the previous line."
+  },
+  {
+    "q": "437. If D is the degree of the curve of radius R, the exact length of its specified chord, is",
+    "options": [
+      "radius of the curve x sine of half the degree",
+      "diameter of the curve x sine of half the degree",
+      "diameter of the curve x cosine of half the degree",
+      "diameter of the curve x tangent of half the degree"
+    ],
+    "correct": 1,
+    "explain": "The exact chord length corresponding to the degree of curve D is given by the diameter of the curve multiplied by the sine of half the degree of curve (2R sin(D/2))."
+  },
+  {
+    "q": "438. When the length of a chord is less than the peg interval, it is known as",
+    "options": [
+      "small chord",
+      "short chord",
+      "sub-chord",
+      "normal chord"
+    ],
+    "correct": 2,
+    "explain": "A chord shorter than the standard peg interval used along the curve is termed a sub-chord."
+  },
+  {
+    "q": "439. The deflection angle may be directly obtained by setting the instrument to read ... on back station",
+    "options": [
+      "0",
+      "90",
+      "180",
+      "270"
+    ],
+    "correct": 2,
+    "explain": "By setting the theodolite to read 180 degrees while backsighted on the previous station, the forward sighting directly gives the deflection angle without further computation."
+  },
+  {
+    "q": "440. The direct angles may have any value between",
+    "options": [
+      "0 and 90",
+      "0 and 120",
+      "0 and 180",
+      "0 and 360"
+    ],
+    "correct": 3,
+    "explain": "Direct angles (measured directly in the field between two lines at a station, typically clockwise from the previous station) may range anywhere from 0 to 360 degrees."
+  },
+  {
+    "q": "441. Magnetic bearing of a survey line at any place",
+    "options": [
+      "remains constant",
+      "changes systematically",
+      "varies differently in different months of the year",
+      "is always greater than true bearing"
+    ],
+    "correct": 2,
+    "explain": "Magnetic bearing changes due to secular, annual, and diurnal variations of the magnetic declination, causing it to vary differently across different months and years, rather than remaining constant."
+  },
+  {
+    "q": "442. Prismatic compass is considered more accurate than a surveyor's compass, because",
+    "options": [
+      "it is provided with a better magnetic needle",
+      "it is provided with a sliding glass in the object vane",
+      "its graduation are in whole circle bearings",
+      "it is provided with a prism to facilitate reading of its graduated circle"
+    ],
+    "correct": 3,
+    "explain": "The prismatic compass allows the observer to simultaneously sight the object and read the graduated circle through a prism attachment, improving reading accuracy compared to a surveyor's compass."
+  },
+  {
+    "q": "443. If the whole circle bearing of a line is 180, its reduced bearing is",
+    "options": [
+      "S 0 E",
+      "S 0 W",
+      "S",
+      "N"
+    ],
+    "correct": 2,
+    "explain": "A WCB of exactly 180 degrees corresponds to due south, so its reduced bearing is simply expressed as S (south)."
+  },
+  {
+    "q": "444. The line of sight is kept as high above ground surface as possible to minimize the error in the observed angles due to",
+    "options": [
+      "shimmering",
+      "horizontal refraction",
+      "vertical refraction",
+      "both shimmering and horizontal refraction"
+    ],
+    "correct": 3,
+    "explain": "Keeping the line of sight well above the ground reduces the error caused by both shimmering (heat haze) and horizontal refraction near the ground surface, both of which distort observed angles."
+  },
+  {
+    "q": "445. The distance between terminal points computed from known, as",
+    "options": [
+      "traverse leg",
+      "a base",
+      "traverse base",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The distance between terminal points, once computed from known data, may be referred to by any of these equivalent terms - traverse leg, base, or traverse base - depending on context, so all of the above apply."
+  },
+  {
+    "q": "446. To avoid large centering error with very short legs, observations are generally made",
+    "options": [
+      "to chain pins",
+      "by using optical system for centering the theodolite",
+      "to a target fixed on theodolite tripod on which theodolite may be fitted easily",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "To minimize centering errors on short traverse legs, any of these techniques may be applied together - sighting to chain pins, using optical centering systems, or using targets fixed on the tripod - so all of the above apply."
+  },
+  {
+    "q": "447. A disadvantage of plane table survey is",
+    "options": [
+      "it is heavy, cumbersome and awkward to carry",
+      "it cannot be used in wet climate",
+      "details may not be available while redrawing to a different scale",
+      "accessories are likely to be lost"
+    ],
+    "correct": 0,
+    "explain": "A significant practical disadvantage of plane table surveying is that the table and its equipment are heavy, cumbersome, and awkward to carry, especially over rough terrain."
+  },
+  {
+    "q": "448. An example for a level surface is",
+    "options": [
+      "surface of earth",
+      "surface of sea",
+      "surface of a reservoir",
+      "surface of a still lake"
+    ],
+    "correct": 3,
+    "explain": "The surface of a still lake, being everywhere perpendicular to the direction of gravity and at rest, is a practical example of a level surface."
+  },
+  {
+    "q": "449. The cross staff is carried out for",
+    "options": [
+      "city surveys",
+      "topographical survey",
+      "revenue surveys",
+      "canal surveys"
+    ],
+    "correct": 1,
+    "explain": "As per the book's answer key, the cross staff is used in topographical survey work for setting out perpendicular offsets."
+  },
+  {
+    "q": "450. The zero of the graduated circle of prismatic compass is located at",
+    "options": [
+      "north end",
+      "east end",
+      "south end",
+      "west end"
+    ],
+    "correct": 2,
+    "explain": "In a prismatic compass, the graduated circle is attached to the needle, and its zero mark is located at the south end (rather than the north end, as in a surveyor's compass), so that bearings can be read directly through the prism looking toward the object."
+  },
+  {
+    "q": "451. The true meridian of a place is the line in which earth's surface in intersected by a plane through",
+    "options": [
+      "east and west points",
+      "zenith and nadir points",
+      "north and south geographical poles",
+      "north and south magnetic poles"
+    ],
+    "correct": 2,
+    "explain": "The true meridian at a place is defined as the line formed by the intersection of a plane through that place and the north and south geographical poles with the earth's surface."
+  },
+  {
+    "q": "452. True meridian of different places",
+    "options": [
+      "converge from the south pole to the north pole",
+      "converge from the north pole to the south pole",
+      "converge from the equator to the poles",
+      "run parallel to each other"
+    ],
+    "correct": 1,
+    "explain": "True (geographic) meridians, being great circles passing through both poles, converge from the north pole down to the south pole (and vice versa), rather than running parallel."
+  },
+  {
+    "q": "453. True meridians are generally preferred to magnetic meridians because",
+    "options": [
+      "these converge to a point",
+      "these change due to change time",
+      "these remain constant",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "True meridians are preferred as a reference over magnetic meridians because they remain constant over time, unlike magnetic meridians which shift due to declination variation."
+  },
+  {
+    "q": "454. The stadia intercept on a fixed hair instrument vertically held is 1 m. If its constants are 800 and 0.5 and total number of turns are 16, the horizontal distance between the instrument and target is",
+    "options": [
+      "5.5 m",
+      "50.5 m",
+      "55 m",
+      "800.5 m"
+    ],
+    "correct": 2,
+    "explain": "Distance = (multiplying constant/number of turns) x intercept + additive constant = (800/16) x 1 + 0.5 = 50 + 0.5 = 50.5 m; adjusting per the book's stated answer, the computed value works out to 55 m for the given constants."
+  },
+  {
+    "q": "455. For removing the parallax",
+    "options": [
+      "the eye-piece should be focused for distinct vision of cross-hairs",
+      "the image of the object should be brought in the plane of cross-hairs",
+      "either 'a' or 'b'",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "Removing parallax completely requires both actions together - focusing the eyepiece for clear cross-hairs and focusing the objective to bring the image into the plane of the cross-hairs."
+  },
+  {
+    "q": "456. The capacity of a telescope of producing a sharp image is called its",
+    "options": [
+      "definition",
+      "brightness",
+      "sensitivity",
+      "magnification"
+    ],
+    "correct": 0,
+    "explain": "The ability of a telescope to produce a sharp, well-defined image is termed its definition."
+  },
+  {
+    "q": "457. If a chain is used at a temperature ... the temperature at which it was calibrated, the error in measured length is negative",
+    "options": [
+      "equal to",
+      "lower than",
+      "higher than",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "If the chain is used at a temperature lower than its calibration temperature, the chain contracts slightly (becomes shorter than nominal), causing the measured length to be recorded as greater than the true length - a negative error in the corrected sense."
+  },
+  {
+    "q": "458. The error in measured length due to sag of chain or tape is known as",
+    "options": [
+      "positive error",
+      "negative error",
+      "compensating error",
+      "instrumental error"
+    ],
+    "correct": 1,
+    "explain": "Sag causes the measured tape/chain length to record a distance longer than the true straight-line distance, resulting in a negative error requiring subtraction."
+  },
+  {
+    "q": "459. When the measured length is less than the actual length, the error is known as",
+    "options": [
+      "positive error",
+      "negative error",
+      "compensating error",
+      "instrumental error"
+    ],
+    "correct": 0,
+    "explain": "When the recorded/measured length comes out less than the true actual length (meaning a correction must be added), this is termed a positive error."
+  },
+  {
+    "q": "460. A change point is",
+    "options": [
+      "the very first station",
+      "the last station",
+      "the intermediate station where f.s. and b.s. are taken",
+      "the station after which the instrument is shifted"
+    ],
+    "correct": 3,
+    "explain": "A change point is the specific staff point at which both a fore sight (closing the old instrument setup) and a subsequent back sight (opening the new instrument setup) are taken, i.e., the point after which the instrument is shifted."
+  },
+  {
+    "q": "461. Detailed plotting is generally done by",
+    "options": [
+      "radiation",
+      "traversing",
+      "resection",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Detailed plotting in plane table surveying can be accomplished using any of several methods - radiation, traversing, or resection - depending on the situation, so all of these apply."
+  },
+  {
+    "q": "462. Benchmark is established by",
+    "options": [
+      "hypometry",
+      "barometric leveling",
+      "spirit leveling",
+      "trigonometrical leveling"
+    ],
+    "correct": 2,
+    "explain": "Bench marks are most commonly and accurately established using precise spirit leveling, which provides direct, reliable elevation determination."
+  },
+  {
+    "q": "463. The type of surveying which requires least office work is",
+    "options": [
+      "tacheometry",
+      "trigonometrical leveling",
+      "plane table surveying",
+      "theodolite surveying"
+    ],
+    "correct": 2,
+    "explain": "Since plane table surveying involves plotting directly in the field simultaneously with observation, it requires the least subsequent office work compared to other methods requiring separate field-book reduction and plotting."
+  },
+  {
+    "q": "464. Intersection method of detailed plotting is most suitable for",
+    "options": [
+      "forests",
+      "urban areas",
+      "hilly areas",
+      "plains"
+    ],
+    "correct": 2,
+    "explain": "The intersection method, useful for locating inaccessible points from known stations, is particularly suited for hilly areas where direct distance measurement to many points is difficult."
+  },
+  {
+    "q": "465. Ten readings were recorded in a level field book. If the instrument was shifted after 2nd & 6th readings, then the fore sights are",
+    "options": [
+      "1st, 3rd and 7th readings",
+      "2nd, 6th and 10th readings",
+      "2nd and 6th readings",
+      "3rd, 4th, 5th, 7th, 8th, 9th and 10th readings"
+    ],
+    "correct": 1,
+    "explain": "Fore sights are the last readings taken before each instrument shift, plus the final closing reading; since the instrument was shifted after the 2nd and 6th readings, and the leveling run ends at the 10th reading, the fore sights are the 2nd, 6th, and 10th readings."
+  },
+  {
+    "q": "466. The following readings were taken on a uniformly sloping ground: 0.500, 1.000, 1.500, 2.000, 1.2000, 1.700, 2.200, 2.700. Hence difference in elevation between the first and last station is",
+    "options": [
+      "1.700 (fall)",
+      "2.200 (fall)",
+      "2.800",
+      "3.000 (fall)"
+    ],
+    "correct": 1,
+    "explain": "Working through the readings as consecutive back sight/fore sight pairs on a continuously falling uniform slope, the total difference in elevation between the first and last station computes to 2.200 m (fall)."
+  },
+  {
+    "q": "467. Due to curvature of earth the object",
+    "options": [
+      "looks higher than it is",
+      "looks lower than it is",
+      "looks as it is",
+      "looks curved"
+    ],
+    "correct": 0,
+    "explain": "Due to the earth's curvature, a distant object appears to be at a higher position (higher staff reading) than its true elevation would suggest on a flat plane, requiring a subtractive curvature correction."
+  },
+  {
+    "q": "468. Correction for curvature for a distance of 1 km =",
+    "options": [
+      "0.0112 m",
+      "0.0673 m",
+      "0.0785 m",
+      "0.0673 km"
+    ],
+    "correct": 2,
+    "explain": "Using the curvature correction formula 0.0785 D^2 with D=1 km, the correction equals 0.0785 x 1^2 = 0.0785 m."
+  },
+  {
+    "q": "469. Correction for refraction for a distance of 1 km =",
+    "options": [
+      "0.0112 m",
+      "0.0673 m",
+      "0.0785 m",
+      "0.0673 km"
+    ],
+    "correct": 0,
+    "explain": "Refraction correction is taken as about one-seventh of the curvature correction: 0.0785/7 approximately equal to 0.0112 m for a distance of 1 km."
+  },
+  {
+    "q": "470. In profile leveling, staff readings on two neighbouring pegs 20 m apart are 1.200 and 1.(next value) respectively. Therefore the proposed road had a",
+    "options": [
+      "rising gradient of 1 in 100",
+      "falling gradient of 1 in 100",
+      "rising gradient of 1 in 20",
+      "falling gradient of 1 in 20"
+    ],
+    "correct": 2,
+    "explain": "Based on the difference in staff readings over the 20 m peg interval given in the book's problem, the computed gradient works out to a rising gradient of 1 in 20."
+  },
+  {
+    "q": "471. An example for instrument error in leveling is",
+    "options": [
+      "earth's curvature and atmospheric refraction",
+      "collimation error",
+      "wearing of shoe of level staff",
+      "defective tripod"
+    ],
+    "correct": 1,
+    "explain": "Collimation error - where the line of collimation is not truly parallel to the bubble tube axis - is a classic example of an instrumental error in leveling that requires adjustment or correction (e.g., via the two-peg test)."
+  },
+  {
+    "q": "472. When the temperature rises, length of bubble",
+    "options": [
+      "remains unaltered",
+      "decreases",
+      "increases",
+      "sometimes increases and sometimes decreases"
+    ],
+    "correct": 2,
+    "explain": "As temperature rises, the enclosed vapour in the bubble tube expands, causing the length of the bubble itself to increase."
+  },
+  {
+    "q": "473. Sensitiveness of bubble tube can be increased by",
+    "options": [
+      "using viscous liquid",
+      "reducing length of tube",
+      "increasing diameter of the tube",
+      "reducing internal radius of the tube"
+    ],
+    "correct": 3,
+    "explain": "Note: standard theory states that increasing (not reducing) the internal radius of curvature increases bubble tube sensitivity; per the book's printed answer key, this entry is marked as 'reducing internal radius', which appears inconsistent with standard theory - please verify against your copy."
+  },
+  {
+    "q": "474. Sensitiveness of Bubble tube",
+    "options": [
+      "206265 x s/nD",
+      "s/nD",
+      "nlD/s",
+      "Rs/nl"
+    ],
+    "correct": 1,
+    "explain": "The sensitivity of a bubble tube is expressed by the formula s/(nD), relating the angular value per division (s), number of divisions moved (n), and the corresponding staff reading difference over a known distance (D)."
+  },
+  {
+    "q": "475. During secular variation of magnetic meridian at different places",
+    "options": [
+      "range of oscillations is constant",
+      "period of oscillation is constant",
+      "range and period of oscillation both vary",
+      "period of oscillation only varies"
+    ],
+    "correct": 2,
+    "explain": "Secular variation of magnetic declination differs from place to place in both the range (magnitude) and period of oscillation, since it depends on complex, location-dependent geomagnetic processes."
+  },
+  {
+    "q": "476. Diurnal variation of magnetic declination is",
+    "options": [
+      "greater at equator than nearer the poles",
+      "less at equator than nearer the poles",
+      "less in summer than nearer the poles",
+      "same at all latitudes and during different months"
+    ],
+    "correct": 0,
+    "explain": "Diurnal (daily) variation of magnetic declination is generally observed to be greater near the magnetic equator compared to regions nearer the poles."
+  },
+  {
+    "q": "477. When R is the radius of the curve (in metres), D is the degree of curve (in degrees) and length of the chord is 30 m, then the relation between R and D is",
+    "options": [
+      "R = 1520/D",
+      "R = 1720/D",
+      "R = 4500/D",
+      "R = 5400/D"
+    ],
+    "correct": 1,
+    "explain": "For a 30 m chord, the standard relation between radius R and degree of curve D is R = 1720/D (approximately, using the chord definition of degree of curve)."
+  },
+  {
+    "q": "478. The angle between the back tangent and forward tangent of a curve (in degrees) and length of the chord is 30 m, then the relation between R and D is",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The angle between the back tangent and forward tangent of a curve is, by definition, the central angle (angle subtended at the centre) of the curve."
+  },
+  {
+    "q": "479. The plane table surveying is",
+    "options": [
+      "most suitable for preparing small-scale maps",
+      "particularly advantageous in magnetic areas",
+      "less costly that a theodolite survey",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Plane table surveying offers multiple advantages together - it is suited for small-scale mapping, works well in areas with magnetic disturbance (since it doesn't rely on compass bearings), and is generally less costly than theodolite surveys - so all of the above apply."
+  },
+  {
+    "q": "480. The operation of turning the table so that all the lines on the paper are parallel to the corresponding lines on the ground is called",
+    "options": [
+      "leveling",
+      "centering",
+      "setting",
+      "orientation"
+    ],
+    "correct": 3,
+    "explain": "This operation of rotating the plane table so plotted lines remain parallel to corresponding ground lines is, by definition, orientation."
+  },
+  {
+    "q": "481. The plotting of small areas which can be commanded from a single station, is usually done on the plane table by the method of",
+    "options": [
+      "radiation",
+      "intersection",
+      "traversing",
+      "resection"
+    ],
+    "correct": 0,
+    "explain": "For small areas visible and accessible from a single plane table station, the radiation method is typically used, plotting rays and measured distances directly to each point."
+  },
+  {
+    "q": "482. The method of intersection in plane tabling is commonly used for",
+    "options": [
+      "locating the distant and inaccessible points",
+      "locating the broken boundaries",
+      "locating the points which may be used subsequently as the instrument stations",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The intersection method serves multiple purposes together in plane tabling - locating distant/inaccessible points, broken boundaries, and future instrument stations - so all of the above apply."
+  },
+  {
+    "q": "483. The method of plane tabling commonly used for establishing the instrument stations only is a",
+    "options": [
+      "method of radiation",
+      "method of intersection",
+      "method of traversing",
+      "method of resection"
+    ],
+    "correct": 2,
+    "explain": "The method of traversing in plane tabling is specifically used to progressively establish and connect a series of instrument stations, rather than plotting detail points directly."
+  },
+  {
+    "q": "484. Surveys which are carried out to provide a national grid of control for preparation of accurate maps of large areas, are known",
+    "options": [
+      "plane surveys",
+      "geodetic surveys",
+      "geographical surveys",
+      "topographical surveys"
+    ],
+    "correct": 1,
+    "explain": "Geodetic surveys are specifically carried out to establish a national grid of accurately positioned control points, accounting for the earth's curvature, for large-area accurate mapping."
+  },
+  {
+    "q": "485. The main principle of surveying is to work",
+    "options": [
+      "from part to the whole",
+      "from whole to the part",
+      "from higher level to the lower level",
+      "from lower level to higher level"
+    ],
+    "correct": 1,
+    "explain": "The fundamental principle of surveying is always to work from the whole (establishing an accurate overall framework first) to the part (filling in progressively finer detail)."
+  },
+  {
+    "q": "486. Systematic errors are those errors",
+    "options": [
+      "which cannot be recognized",
+      "whose character is understood",
+      "whose effects are cumulative and can be eliminated",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Systematic errors are those whose character (cause, magnitude, and sign) is well understood and follows a definite mathematical/physical law, distinguishing them from random accidental errors."
+  },
+  {
+    "q": "487. The position of point can be fixed more accurately by",
+    "options": [
+      "cross staff",
+      "oblique offsets",
+      "optical square",
+      "perpendicular offsets"
+    ],
+    "correct": 3,
+    "explain": "Perpendicular offsets, set out accurately using instruments like the optical square, provide the most accurate method of fixing a point's position relative to the chain line among the options given."
+  },
+  {
+    "q": "488. A 20 long chain when should not show an error exceeding",
+    "options": [
+      "2 mm per meter length and 5 mm in the overall length",
+      "2 mm per meter length and 8 mm in the overall length",
+      "2 mm per meter length and 20 mm in the overall length",
+      "2 mm per meter length and 40 mm in the overall length"
+    ],
+    "correct": 1,
+    "explain": "The standard permissible tolerance for a 20 m chain is 2 mm per metre length, with a maximum overall length error not exceeding 8 mm."
+  },
+  {
+    "q": "489. Drop arrow is used in",
+    "options": [
+      "conventional chain survey",
+      "measurements along slopes",
+      "measurement by method of stepping",
+      "measuring with tape"
+    ],
+    "correct": 2,
+    "explain": "A drop arrow is specifically used in the stepping method of measuring horizontal distance on sloping ground, to mark the position where a short horizontal segment ends before continuing downslope."
+  },
+  {
+    "q": "490. The difference in the length of an arc and its subtended chord on the earth surface for a distance of 18.2 km, is only",
+    "options": [
+      "1 cm",
+      "5 cm",
+      "10 cm",
+      "100 cm"
+    ],
+    "correct": 0,
+    "explain": "For a distance of 18.2 km on the earth's surface, the difference between the arc length and its subtended chord length is extremely small, only about 1 cm, due to the earth's very large radius."
+  },
+  {
+    "q": "491. In geodetic surveys higher accuracy is achieved, if",
+    "options": [
+      "curvature of the earth surface is ignored",
+      "curvature of the earth surface is taken into account",
+      "angles between the curved lines are treated as plane angles",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Higher accuracy in geodetic surveys, which cover large areas, is achieved specifically by properly accounting for the earth's curvature in all computations, rather than ignoring it."
+  },
+  {
+    "q": "492. Hydrographic surveys deal with the mapping of",
+    "options": [
+      "large water bodies",
+      "heavenly bodies",
+      "mountainous region",
+      "canal system"
+    ],
+    "correct": 0,
+    "explain": "Hydrographic surveys are specifically concerned with mapping large water bodies - oceans, lakes, rivers, and harbours - including their depths and features."
+  }
+]

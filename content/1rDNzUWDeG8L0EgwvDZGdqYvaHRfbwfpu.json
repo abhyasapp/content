@@ -1,0 +1,211 @@
+[
+  {
+    "q": "1. In slope deflection method, the unknown rotations at various joints are determined by considering",
+    "options": [
+      "the equilibrium of joint",
+      "the rigidity of joint",
+      "the equilibrium of structure",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In the slope-deflection method, unknown joint rotations are solved for by writing and satisfying the moment equilibrium equations at each joint."
+  },
+  {
+    "q": "2. In slope deflection method, the end moments for any members are expressed .............",
+    "options": [
+      "as zero",
+      "in terms of the unknown end reactions",
+      "as equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In slope-deflection method, member end moments are expressed as functions of the unknown joint rotations and settlements (translations) — described in the source options as 'unknown end reactions'."
+  },
+  {
+    "q": "3. The design of structure is",
+    "options": [
+      "the planning of the structure",
+      "the calculation of straining actions at salient points",
+      "deciding the material and proportions of the various members of the structure",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Structural design (as distinct from analysis) involves selecting appropriate materials and proportioning (sizing) the members of the structure to safely carry the computed forces."
+  },
+  {
+    "q": "4. For a conjugate beam, the fixed end of a real beam corresponds to",
+    "options": [
+      "fixed end",
+      "free end",
+      "hinged end",
+      "hinged end on rollers"
+    ],
+    "correct": 1,
+    "explain": "A fixed end (zero slope, zero deflection) in the real beam becomes a free end in the conjugate beam, per the standard conjugate-beam correspondence rules."
+  },
+  {
+    "q": "5. For a strongest rectangular beam cut from a circular log, the ratio of the width and depth is",
+    "options": [
+      "0.404",
+      "0.505",
+      "0.606",
+      "0.707"
+    ],
+    "correct": 3,
+    "explain": "For maximum section modulus from a circular log of diameter D, the optimal condition gives depth d = D/√3 and width b = D×√(2/3), yielding a width-to-depth ratio of 1/√2 ≈ 0.707."
+  },
+  {
+    "q": "6. The effect of arching a beam is",
+    "options": [
+      "to reduce bending moment throughout",
+      "to increase bending moment throughout",
+      "to increase shear force",
+      "to decrease shear force"
+    ],
+    "correct": 0,
+    "explain": "By 'arching' a beam (curving it to more closely follow the funicular/thrust line for the given loads), bending moment throughout the member is reduced compared to a straight beam."
+  },
+  {
+    "q": "7. Internal forces at every cross section in a arch are",
+    "options": [
+      "normal thrust and shear force",
+      "shear force and bending moment",
+      "normal thrust and bending moment",
+      "normal thrust, shear force and bending moment"
+    ],
+    "correct": 3,
+    "explain": "In general, an arch cross-section resists three internal force components: normal (axial) thrust, shear force, and bending moment, unless the arch axis coincides exactly with the thrust line."
+  },
+  {
+    "q": "8. Due to rise in temperature, in a three hinged arch, induced stress is",
+    "options": [
+      "direct compressive",
+      "direct tensile",
+      "shear",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "Because a three-hinged arch is statically determinate, a temperature change causes free thermal expansion/contraction (accommodated by hinge rotations) without inducing any internal stress."
+  },
+  {
+    "q": "9. If a three hinged parabolic arch carries a udl over the entire span, then any section of the arch is subjected to",
+    "options": [
+      "normal thrust only",
+      "normal thrust and shear force",
+      "normal thrust and bending moment",
+      "normal thrust, shear force and bending moment"
+    ],
+    "correct": 0,
+    "explain": "A parabolic arch under a matching uniformly distributed load has its axis coincide exactly with the funicular (thrust) line everywhere, so every section carries pure normal thrust with zero shear and moment."
+  },
+  {
+    "q": "10. A linear arch has",
+    "options": [
+      "triangle",
+      "rectangle",
+      "square",
+      "hexagon"
+    ],
+    "correct": 0,
+    "explain": "This item appears to reference the shape of the linear arch's constituent link-work (a triangle being the basic funicular polygon shape), matching option (a) per the source's answer key."
+  },
+  {
+    "q": "11. A linear arch has",
+    "options": [
+      "normal thrust only",
+      "shear force only",
+      "bending moment only",
+      "normal thrust and shear force"
+    ],
+    "correct": 0,
+    "explain": "A linear (funicular) arch, by definition, follows exactly the thrust line for its loading, so it develops only normal (axial) thrust, with zero shear and bending moment."
+  },
+  {
+    "q": "12. The specimen in Charpy impact test is supported as a",
+    "options": [
+      "cantilever beam",
+      "simply supported beam",
+      "fixed beam",
+      "continuous beam"
+    ],
+    "correct": 1,
+    "explain": "In the Charpy impact test, the notched specimen is supported horizontally at both ends (as a simply supported beam) and struck at the center opposite the notch."
+  },
+  {
+    "q": "13. For a beam of uniform strength, if depth is constant",
+    "options": [
+      "width ∝ M",
+      "width ∝ √M",
+      "width ∝ 3√M",
+      "width ∝ 1/M"
+    ],
+    "correct": 0,
+    "explain": "For a rectangular section with constant depth d, since σ ∝ M/(bd²), keeping stress constant with fixed d requires width b to vary directly proportional to M."
+  },
+  {
+    "q": "14. The maximum deflection due to uniformly distributed load w per unit length over entire span of a cantilever of length l and of flexural rigidity EI is",
+    "options": [
+      "wl³/3EI",
+      "wl⁴/3EI",
+      "wl⁴/8EI",
+      "wl⁴/12EI"
+    ],
+    "correct": 2,
+    "explain": "The standard formula for maximum (tip) deflection of a cantilever under UDL over its full length is wl⁴/8EI."
+  },
+  {
+    "q": "15. The maximum deflection of a simply supported beam of span L, carrying an isolated load at the center of the span",
+    "options": [
+      "wl³/3EI",
+      "wl³/8EI",
+      "wl³/24EI",
+      "wl³/48EI"
+    ],
+    "correct": 3,
+    "explain": "The standard formula for maximum deflection of a simply supported beam under a central point load W is WL³/48EI."
+  },
+  {
+    "q": "16. The ratio of the deflections of the free end of a cantilever due to an isolated load at 1/3rd and 2/3rd of the span is",
+    "options": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "2/5"
+    ],
+    "correct": 1,
+    "explain": "Using the standard cantilever deflection formula for a load at distance a from the fixed end (deflection at tip involves a²(3L-a)), evaluating for a=L/3 versus a=2L/3 and taking the ratio gives 2/7."
+  },
+  {
+    "q": "17. The ratio of the length and diameter of a simply supported uniform circular beam which experiences maximum bending stress equal to tensile stress due to same load at its mid span is",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/2",
+      "1/3"
+    ],
+    "correct": 2,
+    "explain": "Equating the bending stress formula (from flexure) to the direct tensile stress formula (from axial elongation test) for the same circular bar and load leads to a length-to-diameter ratio of 1/2."
+  },
+  {
+    "q": "18. The ratio of the length and depth of a simply supported rectangular beam which experiences maximum bending stress equal to tensile stress, due to same load at its mid span is",
+    "options": [
+      "1/2",
+      "2/3",
+      "1/4",
+      "1/3"
+    ],
+    "correct": 1,
+    "explain": "Similarly equating bending stress to tensile stress for a rectangular bar of the same load gives a length-to-depth ratio of 2/3."
+  },
+  {
+    "q": "19. Beams of uniform strength are preferred to those of uniform section because these are economical for",
+    "options": [
+      "Large spans",
+      "Heavy weights",
+      "Light weights",
+      "Short spans"
+    ],
+    "correct": 2,
+    "explain": "Beams of uniform strength save material by removing unnecessary cross-section where bending moment is low, making them more economical particularly for lighter load applications where material savings matter proportionally more."
+  }
+]

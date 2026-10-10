@@ -1,0 +1,550 @@
+[
+  {
+    "q": "1. The flow in a pipe or channel is said to be uniform when",
+    "options": [
+      "the liquid particles at all sections have the same velocities",
+      "the liquid particles at different sections have different velocities"
+    ],
+    "correct": 0,
+    "explain": "Uniform flow is defined by velocity (and other flow parameters) remaining constant with respect to distance along the flow path."
+  },
+  {
+    "q": "2. The flow in a pipe or channel is said to be non-uniform when",
+    "options": [
+      "the liquid particles at all sections have the same velocities",
+      "the liquid particles at different sections have different velocities",
+      "the quantity of liquid flowing per second is constant",
+      "each liquid particle has a definite path"
+    ],
+    "correct": 1,
+    "explain": "Non-uniform flow occurs when the velocity changes from one cross-section to another at a given instant."
+  },
+  {
+    "q": "3. According to equation of continuity",
+    "options": [
+      "w₁a₁ = w₂a₂",
+      "w₁v₁ = w₂v₂",
+      "a₁v₁ = a₂v₂",
+      "a₁/v₁ = a₂/v₂"
+    ],
+    "correct": 2,
+    "explain": "For an incompressible fluid, the volume flow rate (Area * Velocity) must remain constant across different sections."
+  },
+  {
+    "q": "4. A flow through a long pipe at constant rate is called",
+    "options": [
+      "steady uniform flow",
+      "steady non-uniform flow",
+      "unsteady uniform flow",
+      "unsteady non-uniform flow"
+    ],
+    "correct": 0,
+    "explain": "Constant rate makes it steady; a long pipe of constant diameter makes it uniform."
+  },
+  {
+    "q": "5. A flow through an expanding tube at constant rate is called",
+    "options": [
+      "steady uniform flow",
+      "steady non-uniform flow",
+      "unsteady uniform flow",
+      "unsteady non-uniform flow"
+    ],
+    "correct": 1,
+    "explain": "It is steady (constant rate), but non-uniform because the expanding area causes velocity to change along the length."
+  },
+  {
+    "q": "6. A flow whose streamline is represented by a curve, is called",
+    "options": [
+      "one-dimensional flow",
+      "two-dimensional flow",
+      "three-dimensional flow",
+      "four-dimensional flow"
+    ],
+    "correct": 1,
+    "explain": "When flow velocity is a function of two space coordinates (e.g., x and y), the streamlines become curves in a plane."
+  },
+  {
+    "q": "7. A flow whose streamline is represented by a straight line, is called _________ dimensional flow.",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "In 1D flow, fluid parameters vary along a single direction, resulting in straight parallel streamlines."
+  },
+  {
+    "q": "8. In one dimensional flow, the flow",
+    "options": [
+      "is steady and uniform",
+      "takes place in straight line",
+      "takes place in curve",
+      "takes place in one direction"
+    ],
+    "correct": 1,
+    "explain": "The key characteristic is that the flow parameters only change along the direction of flow, which is typically a straight line path."
+  },
+  {
+    "q": "9. The total energy of a liquid particle in motion is equal to",
+    "options": [
+      "pressure energy + kinetic energy + potential energy",
+      "pressure energy - (kinetic energy + potential energy)",
+      "potential energy - (pressure energy + kinetic energy)",
+      "kinetic energy - (pressure energy + potential energy)"
+    ],
+    "correct": 0,
+    "explain": "Based on Bernoulli's principle, total energy is the summation of these three forms of energy."
+  },
+  {
+    "q": "10. The total head of a liquid particle in motion is equal to",
+    "options": [
+      "pressure head + kinetic head + potential head",
+      "pressure head - (kinetic head + potential head)",
+      "potential head - (pressure head + kinetic head)",
+      "kinetic head - (pressure head + potential head)"
+    ],
+    "correct": 0,
+    "explain": "Total head (H) = P/w + v²/2g + Z. It represents the energy per unit weight of the fluid."
+  },
+  {
+    "q": "11. For a perfect incompressible liquid, flowing in a continuous stream, the total energy of a particle remains the same... This statement is called",
+    "options": [
+      "Continuity equation",
+      "Bernoulli's equation",
+      "Pascal's law",
+      "Archimedes' principle"
+    ],
+    "correct": 1,
+    "explain": "This is the core definition of Bernoulli's theorem for ideal fluid flow."
+  },
+  {
+    "q": "12. According to Bernoulli's equation",
+    "options": [
+      "Z + P/w + v²/2g = constant",
+      "Z + P/w - v²/2g = constant",
+      "Z - P/w + v²/2g = constant",
+      "Z - P/w - v²/2g = constant"
+    ],
+    "correct": 0,
+    "explain": "This represents the conservation of energy where potential, pressure, and kinetic heads sum to a constant value."
+  },
+  {
+    "q": "13. Euler's equation in the differential form for the motion of liquids is given by",
+    "options": [
+      "dp/ρ + g·dz + v·dv = 0",
+      "dp/ρ - g·dz + v·dv = 0",
+      "p·dp + g·dz + v·dv = 0",
+      "p·dp - g·dz + v·dv = 0"
+    ],
+    "correct": 0,
+    "explain": "Euler's equation relates pressure, gravity, and acceleration in a fluid, assuming no friction."
+  },
+  {
+    "q": "14. Bernoulli's equation is applied to",
+    "options": [
+      "venturimeter",
+      "orifice meter",
+      "pitot tube",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "All three listed devices work by measuring pressure/velocity changes based on Bernoulli's principle."
+  },
+  {
+    "q": "15. A pitot tube is used to measure the",
+    "options": [
+      "velocity of flow at the required point in a pipe",
+      "pressure difference between two points in a pipe",
+      "total pressure of liquid flowing in a pipe",
+      "discharge through a pipe"
+    ],
+    "correct": 0,
+    "explain": "The pitot tube measures stagnation pressure to determine the point velocity of the fluid."
+  },
+  {
+    "q": "16. The hydraulic gradient line lies over the centre line of the pipe by an amount equal to the ............",
+    "options": [
+      "pressure head",
+      "velocity head",
+      "pressure head + velocity head",
+      "pressure head - velocity head"
+    ],
+    "correct": 0,
+    "explain": "The Hydraulic Gradient Line (HGL) represents the sum of the datum head and pressure head ($P/w + z$)."
+  },
+  {
+    "q": "17. The total energy line lies over the centre line of the pipe by an amount equal to ............",
+    "options": [
+      "pressure head",
+      "velocity head",
+      "pressure head + velocity head",
+      "pressure head - velocity head"
+    ],
+    "correct": 2,
+    "explain": "The Total Energy Line (TEL) represents the sum of pressure head, datum head, and velocity head ($P/w + z + v^2/2g$)."
+  },
+  {
+    "q": "18. When the flow in an open channel is gradually varied, the flow is said to be ............",
+    "options": [
+      "steady uniform flow",
+      "steady non-uniform flow",
+      "unsteady uniform flow",
+      "unsteady non-uniform flow"
+    ],
+    "correct": 1,
+    "explain": "Gradually Varied Flow (GVF) is a type of steady non-uniform flow where the depth of flow changes gradually along the length of the channel."
+  },
+  {
+    "q": "19. The flow of water through the hole in the bottom of a wash basin is an example of ............",
+    "options": [
+      "steady flow",
+      "uniform flow",
+      "free vortex",
+      "forced vortex"
+    ],
+    "correct": 2,
+    "explain": "A free vortex occurs when liquid rotates without external torque, such as water draining from a basin or a whirlpool."
+  },
+  {
+    "q": "20. The tangential velocity of the water element having a free vortex is ............",
+    "options": [
+      "directly proportional to its distance from the centre",
+      "inversely proportional to its distance from the centre",
+      "directly proportional to its (distance)^2 from the centre",
+      "inversely proportional to its (distance)^2 from the centre"
+    ],
+    "correct": 1,
+    "explain": "In a free vortex, the velocity $v$ is inversely proportional to the radius $r$ ($vr = constant$)."
+  },
+  {
+    "q": "21. A flow in which ............ force is dominating over the viscosity is called turbulent flow.",
+    "options": [
+      "elastic",
+      "surface tension",
+      "viscous",
+      "inertia"
+    ],
+    "correct": 3,
+    "explain": "Turbulent flow is characterized by high inertia forces that overcome the damping effect of viscosity."
+  },
+  {
+    "q": "22. The velocity at which the flow changes from laminar flow to turbulent flow is called ............",
+    "options": [
+      "critical velocity",
+      "velocity of approach",
+      "sub-sonic velocity",
+      "super-sonic velocity"
+    ],
+    "correct": 0,
+    "explain": "The critical velocity is the threshold where the flow regime transitions between laminar and turbulent."
+  },
+  {
+    "q": "23. Which of the following is an example of laminar flow?",
+    "options": [
+      "Underground flow",
+      "Flow past tiny bodies",
+      "Flow of oil in measuring instruments",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "All these cases involve low velocities or high viscosities where the Reynolds number remains very low."
+  },
+  {
+    "q": "24. The velocity at which the laminar flow stops, is known as ............",
+    "options": [
+      "velocity of approach",
+      "lower critical velocity",
+      "higher critical velocity",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The lower critical velocity is the speed below which any flow will eventually become laminar."
+  },
+  {
+    "q": "25. Reynold's number is the ratio of the inertia force to the ............",
+    "options": [
+      "surface tension force",
+      "viscous force",
+      "gravity force",
+      "elastic force"
+    ],
+    "correct": 1,
+    "explain": "$Re = \text{Inertia Force} / \text{Viscous Force} = \rho v D / \\mu$."
+  },
+  {
+    "q": "26. The velocity corresponding to Reynold number of 2000 is called ............",
+    "options": [
+      "sub-sonic velocity",
+      "super-sonic velocity",
+      "lower critical velocity",
+      "higher critical velocity"
+    ],
+    "correct": 2,
+    "explain": "The lower critical velocity in pipes typically corresponds to a Reynolds number of around 2000."
+  },
+  {
+    "q": "27. The velocity corresponding to Reynold number of 2800, is called ............",
+    "options": [
+      "sub-sonic velocity",
+      "super-sonic velocity",
+      "lower critical velocity",
+      "higher critical velocity"
+    ],
+    "correct": 3,
+    "explain": "The upper or higher critical velocity corresponds to the Reynolds number where the flow becomes fully turbulent."
+  },
+  {
+    "q": "28. The loss of pressure head in case of laminar flow is proportional to ...............",
+    "options": [
+      "velocity",
+      "(velocity)²",
+      "(velocity)³",
+      "(velocity)⁴"
+    ],
+    "correct": 0,
+    "explain": "According to the Hagen-Poiseuille equation for laminar flow, the pressure drop is directly proportional to the average velocity (v), unlike turbulent flow where it is proportional to v²."
+  },
+  {
+    "q": "29. In a footstep bearing, if the speed of the shaft is doubled, then the torque required to over-come the viscous resistance will be ...............",
+    "options": [
+      "double",
+      "four times",
+      "eight times",
+      "sixteen times"
+    ],
+    "correct": 0,
+    "explain": "In viscous lubrication, torque is proportional to the angular velocity (ω). If the speed doubles, the torque also doubles."
+  },
+  {
+    "q": "30. In a footstep bearing, if the radius of the shaft is doubled, then the torque required to over-come the viscous resistance will be ...............",
+    "options": [
+      "double",
+      "four times",
+      "eight times",
+      "sixteen times"
+    ],
+    "correct": 3,
+    "explain": "Torque in a footstep bearing is proportional to the fourth power of the radius (R⁴). Thus, doubling the radius increases torque by 2⁴ = 16 times."
+  },
+  {
+    "q": "31. When the Mach number is less than unity, the flow is called ...............",
+    "options": [
+      "sub-sonic flow",
+      "sonic flow",
+      "super-sonic flow",
+      "hyper-sonic flow"
+    ],
+    "correct": 0,
+    "explain": "Mach number (M) < 1 indicates the flow velocity is less than the local speed of sound, which is termed sub-sonic."
+  },
+  {
+    "q": "32. When the mach number is between ............... the flow is called super-sonic flow.",
+    "options": [
+      "1 and 2.5",
+      "2.5 and 4",
+      "4 and 6",
+      "1 and 6"
+    ],
+    "correct": 3,
+    "explain": "Supersonic flow occurs when 1 < Mach number < 6. Beyond M=6, the flow is typically classified as hypersonic."
+  },
+  {
+    "q": "33. When the Mach number is more than 6, the flow is called ...............",
+    "options": [
+      "sub-sonic flow",
+      "sonic flow",
+      "super-sonic flow",
+      "hyper-sonic flow"
+    ],
+    "correct": 3,
+    "explain": "Flows with a Mach number greater than 5 or 6 are characterized by high temperature and dissociation effects, known as hyper-sonic flow."
+  },
+  {
+    "q": "34. A flow is called sub-sonic, if the Mach number is ...............",
+    "options": [
+      "less than unity",
+      "unity",
+      "between 1 and 6",
+      "more than 6"
+    ],
+    "correct": 0,
+    "explain": "Sub-sonic flow is defined by a Mach number (M) less than 1 (unity)."
+  },
+  {
+    "q": "35. A flow is called super-sonic if the ...............",
+    "options": [
+      "velocity of flow is very high",
+      "discharge is difficult to measure",
+      "mach number is between 1 and 6",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Super-sonic flow is specifically defined by a Mach number greater than 1 but less than the hypersonic threshold (typically 6)."
+  },
+  {
+    "q": "36. A flow is called hyper-sonic, if the Mach number is ...............",
+    "options": [
+      "less than unity",
+      "unity",
+      "between 1 and 6",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "Since hyper-sonic flow requires a Mach number > 6, none of the specific ranges (M<1, M=1, or 1<M<6) apply."
+  },
+  {
+    "q": "37. A point, in a compressible flow where the velocity of fluid is zero, is called ...............",
+    "options": [
+      "critical point",
+      "vena contracta",
+      "stagnation point",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A stagnation point is a point in a flow field where the local velocity of the fluid is zero and all kinetic energy has been converted into pressure energy."
+  },
+  {
+    "q": "38. The ratio of the inertia force to the viscous force is called ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Weber's number",
+      "Euler's number"
+    ],
+    "correct": 0,
+    "explain": "The Reynolds number (Re) is a dimensionless value used to predict flow patterns by comparing inertial forces to viscous forces."
+  },
+  {
+    "q": "39. The ratio of the inertia force to the ............... is called Euler's number.",
+    "options": [
+      "pressure force",
+      "elastic force",
+      "surface tension force",
+      "viscous force"
+    ],
+    "correct": 0,
+    "explain": "Euler's number (Eu) is a dimensionless number representing the ratio between pressure forces and inertial forces."
+  },
+  {
+    "q": "40. The ratio of the inertia force to the elastic force is called ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Weber's number",
+      "Mach number"
+    ],
+    "correct": 3,
+    "explain": "The Mach number can also be defined as the square root of the ratio of inertia force to elastic force in a fluid."
+  },
+  {
+    "q": "41. Froude's number is the ratio of inertia force to ...............",
+    "options": [
+      "pressure force",
+      "elastic force",
+      "gravity force",
+      "surface tension force"
+    ],
+    "correct": 2,
+    "explain": "Froude number (Fr) is a dimensionless number representing the ratio of inertial forces to gravitational forces. It is critical in open channel flow analysis."
+  },
+  {
+    "q": "42. Reynold's number is the ratio of inertia force to ...............",
+    "options": [
+      "pressure force",
+      "elastic force",
+      "gravity force",
+      "viscous force"
+    ],
+    "correct": 3,
+    "explain": "Reynolds number (Re) quantifies the relative importance of these two types of forces for given flow conditions, guiding whether a flow is laminar or turbulent."
+  },
+  {
+    "q": "43. In fluids, steady, flow occurs when ...............",
+    "options": [
+      "conditions of flow change steadily with time",
+      "conditions of flow do not change with time at a point",
+      "conditions of flow remain the same at adjacent point",
+      "velocity vector remains constant at a point"
+    ],
+    "correct": 1,
+    "explain": "Steady flow is defined as the type of flow in which the fluid properties (velocity, pressure, etc.) at any point do not change with time."
+  },
+  {
+    "q": "44. A steady uniform flow is through ...............",
+    "options": [
+      "a long pipe at decreasing rate",
+      "a long pipe at constant rate",
+      "an expanding tube at constant rate",
+      "an expanding tube at increasing rate"
+    ],
+    "correct": 1,
+    "explain": "Uniform flow requires a constant cross-section (long pipe), and steady flow requires a constant discharge (constant rate)."
+  },
+  {
+    "q": "45. A non-uniform steady flow is through ...............",
+    "options": [
+      "a long tube at a decreasing rate",
+      "an expanding tube at constant rate",
+      "an expanding tube at increasing rate",
+      "a long pipe at increasing rate"
+    ],
+    "correct": 1,
+    "explain": "It is non-uniform because the cross-section changes (expanding tube) and steady because the discharge rate remains constant over time."
+  },
+  {
+    "q": "46. The continuity equation ...............",
+    "options": [
+      "expresses the relationship between work and energy",
+      "relates the momentum per unit volume between two points on a stream line",
+      "relates mass rate of flow along a stream line",
+      "requires that Newton's second law of motion be satisfied at every point in fluid"
+    ],
+    "correct": 2,
+    "explain": "The continuity equation is a mathematical expression of the law of conservation of mass for a fluid system."
+  },
+  {
+    "q": "47. Equation of continuity of fluids is applicable only if ...............",
+    "options": [
+      "flow is steady and velocity is uniform",
+      "flow is compressive",
+      "flow is one dimensional",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "While general forms exist, the standard engineering version (A1V1 = A2V2) assumes steady, one-dimensional, and usually incompressible flow."
+  },
+  {
+    "q": "48. For the two dimensional flow, the stream functions is given by Ψ = 2xy. The velocity at a point (3, 4) is ...............",
+    "options": [
+      "6 m/sec",
+      "8 m/sec",
+      "10 m/sec",
+      "12 m/sec"
+    ],
+    "correct": 2,
+    "explain": "u = -∂Ψ/∂y = -2x = -6; v = ∂Ψ/∂x = 2y = 8. Resultant velocity V = √(u² + v²) = √((-6)² + 8²) = 10 m/sec."
+  },
+  {
+    "q": "49. Euler's equation for the motion of liquids assumes that ...............",
+    "options": [
+      "fluid is viscous",
+      "fluid is homogeneous and incompressible",
+      "velocity of flow is non-uniform over the section",
+      "flow is unsteady along the stream line"
+    ],
+    "correct": 1,
+    "explain": "Euler's equation is derived for an ideal fluid, which is assumed to be non-viscous, homogeneous, and incompressible."
+  },
+  {
+    "q": "50. For solving the problems is hydraulic engineering velocity used is ...............",
+    "options": [
+      "velocity at the centre of pipe section",
+      "average velocity of flow over a section",
+      "mean of the velocities at the centre and that along the pipe surface",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Engineers use average (mean) velocity (V = Q/A) for practical calculations involving discharge and energy equations."
+  }
+]

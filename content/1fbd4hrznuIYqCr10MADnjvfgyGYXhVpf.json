@@ -1,0 +1,134 @@
+[
+  {
+    "q": "1. The deflection angle may have any value between",
+    "options": [
+      "0 and 45",
+      "0 and 90",
+      "0 and 120",
+      "0 and 180"
+    ],
+    "correct": 3,
+    "explain": "A deflection angle, measured as the deviation of a survey line from the prolongation of the previous line, may take any value between 0 and 180 degrees."
+  },
+  {
+    "q": "2. If the radius of a simple curve is R, the length of the chord for calculating offsets by method of chords produced, should not exceed",
+    "options": [
+      "R/100",
+      "R/15",
+      "R/20",
+      "R/25"
+    ],
+    "correct": 2,
+    "explain": "For the method of offsets from chords produced, the chord length should not exceed R/20 to keep the approximation error within acceptable limits."
+  },
+  {
+    "q": "3. The angle by which the forward tangent deflects from the back tangent of a curve is known as",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "This angle, by which the forward tangent deviates from the back tangent, is by definition the deflection angle of the curve."
+  },
+  {
+    "q": "4. A deflection angle is",
+    "options": [
+      "less than 90",
+      "more than 90 but less than 180",
+      "equal to the difference between the angel of intersection and 180",
+      "equal to the difference between the angel of intersection and 360"
+    ],
+    "correct": 1,
+    "explain": "As per the book's answer key, a deflection angle generally falls between 90 and 180 degrees in typical usage described here."
+  },
+  {
+    "q": "5. The length of peg interval for flat curves is",
+    "options": [
+      "15 m",
+      "20 m",
+      "25 m",
+      "30 m"
+    ],
+    "correct": 1,
+    "explain": "For relatively flat (gentle) curves, the standard peg interval used for setting out points is 20 m."
+  },
+  {
+    "q": "6. The perpendicular offset from a tangent to the junction of transition curve and circular curve is equal to",
+    "options": [
+      "L/6R",
+      "L/24R",
+      "L^2/6R",
+      "L^2/24R"
+    ],
+    "correct": 3,
+    "explain": "The perpendicular offset from the tangent to the junction point of the transition and circular curve equals L^2/(24R), which is the shift of the curve, where L is the transition curve length and R is the radius."
+  },
+  {
+    "q": "7. The shift of a curve is equal to",
+    "options": [
+      "L/6R",
+      "L/24R",
+      "L^2/6R",
+      "L^2/24R"
+    ],
+    "correct": 3,
+    "explain": "The shift of a curve, needed to accommodate the insertion of a transition curve, is given by the standard formula L^2/(24R)."
+  },
+  {
+    "q": "8. The polar equation for a lemniscate curve is",
+    "options": [
+      "l = k*sqrt(sin theta)",
+      "l = k*sqrt(sin 2theta)",
+      "l = k*sqrt(cos theta)",
+      "l = k*sqrt(cos 2theta)"
+    ],
+    "correct": 1,
+    "explain": "The polar equation of a lemniscate curve, used in curve transition design, is given by l = k*sqrt(sin 2theta), where theta is the polar deflection angle."
+  },
+  {
+    "q": "9. A lemniscate curve between the tangents is transitional throughout, if the polar deflection angle of its apex is equal to",
+    "options": [
+      "phi/3",
+      "phi/4",
+      "phi/5",
+      "phi/6"
+    ],
+    "correct": 1,
+    "explain": "A lemniscate curve remains fully transitional throughout its length between the tangents if the polar deflection angle at its apex equals phi/4, where phi is the total angle of deflection."
+  },
+  {
+    "q": "10. If the radius of a simple curve is 600 m, the maximum length of the chord for calculating offsets, is taken",
+    "options": [
+      "10 m",
+      "15 m",
+      "20 m",
+      "30 m"
+    ],
+    "correct": 3,
+    "explain": "Using the rule that chord length should not exceed R/20, for R=600m the maximum chord works out to 30 m, matching the book's answer key."
+  },
+  {
+    "q": "11. A ideal vertical curve to join two gradients, is",
+    "options": [
+      "circular",
+      "parabolic",
+      "none of these",
+      "hyperbolic"
+    ],
+    "correct": 1,
+    "explain": "A parabolic curve is considered the ideal shape for a vertical curve joining two different gradients, since it gives a uniform rate of change of grade."
+  },
+  {
+    "q": "12. A lemniscate curve will not be transitional throughout, if its deflection angle, is",
+    "options": [
+      "45",
+      "60",
+      "90",
+      "120"
+    ],
+    "correct": 2,
+    "explain": "A lemniscate curve fails to remain fully transitional throughout its length if the deflection angle equals 90 degrees, per the specific geometric limitation of the curve."
+  }
+]

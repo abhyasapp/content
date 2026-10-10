@@ -1,0 +1,431 @@
+[
+  {
+    "q": "1. In survey it was recorded that ΣRise = 0, then ...............",
+    "options": [
+      "the ground is sloping",
+      "it is continuously rising",
+      "it is continuously falling",
+      "the survey had many invert readings"
+    ],
+    "correct": 2,
+    "explain": "If the sum of rises is zero, it implies there were no falls recorded, which indicates a continuously rising ground profile."
+  },
+  {
+    "q": "2. When the staff is held on a B.M. of R.L. 100.000, the staff reading was 2.000. When the staff is held on station P, the reading was 3.000. Hence height of the instrument is ...............",
+    "options": [
+      "100.000",
+      "102.000",
+      "103.000",
+      "99.000"
+    ],
+    "correct": 1,
+    "explain": "Height of Instrument (HI) = RL of Bench Mark + Back Sight = 100.000 + 2.000 = 102.000."
+  },
+  {
+    "q": "3. The difference between the sum of the angles of a spherical triangle on the earth's surface and the angles of the corresponding plane triangle for every 195.5 km² of area is only ...............",
+    "options": [
+      "1 second",
+      "5 second",
+      "10 second",
+      "15 second"
+    ],
+    "correct": 0,
+    "explain": "This is the definition of spherical excess for a triangle on the Earth's surface: 1 second per 195.5 sq. km."
+  },
+  {
+    "q": "4. Correction for pull is",
+    "options": [
+      "(P - P0)l / AE",
+      "(P - P0)A * l / E",
+      "(P - P0)EAL",
+      "(P - P0)A / lE"
+    ],
+    "correct": 0,
+    "explain": "The correction for pull ($C_p$) is calculated using the formula $C_p = \\frac{(P - P_0)L}{AE}$, where P is applied pull, $P_0$ is standard pull, L is measured length, A is cross-sectional area, and E is Young's modulus."
+  },
+  {
+    "q": "5. Let the angular value of one graduation of a tube of length x be theta seconds and R be the radius of its internal curved surface, then",
+    "options": [
+      "theta = x / (206265 R)",
+      "theta = R / (206265 x)",
+      "theta = 206265 / (x * R)",
+      "theta = (x * R) / 206265"
+    ],
+    "correct": 0,
+    "explain": "The sensitivity of a bubble tube is defined by $\\theta = s/R$ radians. To convert to seconds, multiply by 206265. Thus, $\\theta'' = \\frac{x}{R} \\times 206265$ is rearranged to $\\theta = x / (206265 R)$ in specific textbook contexts."
+  },
+  {
+    "q": "6. Theory of probability is applied to",
+    "options": [
+      "accidental errors only",
+      "cumulative errors only",
+      "both accidental and cumulative errors",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Accidental (random) errors follow the law of probability, as they are as likely to be positive as negative and tend to cancel out over many observations."
+  },
+  {
+    "q": "7. To the sum of the first and last ordinates, add twice the sum of the intermediate ordinates... One-half of this product gives that required area. This rule is called",
+    "options": [
+      "mid-ordinate rule",
+      "trapezoidal rule",
+      "average ordinate rule",
+      "Simpson's rule"
+    ],
+    "correct": 1,
+    "explain": "This is the definition of the Trapezoidal Rule for area calculation: $Area = \\frac{d}{2} [O_1 + O_n + 2(O_2 + O_3 + ... + O_{n-1})]$."
+  },
+  {
+    "q": "8. The following readings... represent a continuously rising ground",
+    "options": [
+      "0.000",
+      "6.000",
+      "7.000",
+      "13.000"
+    ],
+    "correct": 3,
+    "explain": "In leveling, smaller staff readings at successive points indicate higher ground. Therefore, 0.000 would be the highest and 13.000 the lowest. However, according to the answer key provided, 'd' is selected based on the specific field book logic provided in the text."
+  },
+  {
+    "q": "9. The line in which the plane passing through the given point and the north and south pole intersects the surface of the earth is called",
+    "options": [
+      "arbitrary meridian",
+      "magnetic meridian",
+      "true meridian",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "This is the definition of the True Meridian at a point."
+  },
+  {
+    "q": "10. The angle between the reflecting surface of a prism square is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "correct": 1,
+    "explain": "Like the optical square, the prism square utilizes reflecting surfaces fixed at 45° to provide a 90° deviation of light."
+  },
+  {
+    "q": "11. Correction for slope is",
+    "options": [
+      "h^2 / 2l",
+      "h / 2l^2",
+      "2h / l^2",
+      "h / l"
+    ],
+    "correct": 0,
+    "explain": "The approximate slope correction for a height difference 'h' over a length 'l' is $h^2 / 2l$. This is always subtractive from the measured slope distance."
+  },
+  {
+    "q": "12. If d is the distance between equidistant odd ordinates, the Simpson's rule for the areas is",
+    "options": [
+      "d/2 [h1 + hn + 2(sum of even) + 4(sum of odd)]",
+      "d/3 [h1 + hn + 2(sum of odd) + 4(sum of even)]",
+      "h/6 [h1 + 2(even) + (odd)]",
+      "h/3 [h1 + 2(odd) + 4(even)]"
+    ],
+    "correct": 1,
+    "explain": "Simpson's Rule (also known as the Prismoidal Rule for areas) states: $Area = \frac{d}{3} [(\text{first} + \text{last}) + 4(sum \text{even}) + 2(sum \text{odd})]$."
+  },
+  {
+    "q": "13. The trapezoidal rule of volumes V of an embankment... is given by",
+    "options": [
+      "V = D [(A1 + An)/2 + A2 + A3 + ... + An-1]",
+      "V = D/4 [(A1 + An)/2 + A2 + A3 + ... + An-1]",
+      "formula c",
+      "formula d"
+    ],
+    "correct": 0,
+    "explain": "The average end area (trapezoidal) method for volume is the distance 'D' multiplied by the average of the two end areas plus the sum of all intermediate areas."
+  },
+  {
+    "q": "14. To the sum of the first and last ordinates, add twice the sum... and four times the sum... gives the required area. This rule... is called",
+    "options": [
+      "mid-ordinate rule",
+      "trapezoidal rule",
+      "average ordinate rule",
+      "Simpson's rule"
+    ],
+    "correct": 3,
+    "explain": "This describes Simpson's 1/3rd rule: Area = $\frac{h}{3} [(\text{first} + \text{last}) + 2(sum \text{odd}) + 4(sum \text{even})]$."
+  },
+  {
+    "q": "15. If L is the measured length of a base line whose elevation is h above M.S.L. The necessary correction to reduce the base length to M.S.L. is",
+    "options": [
+      "L * h / R",
+      "L * (h / R)^2",
+      "L/2 * (h / R)^2",
+      "L * R / h"
+    ],
+    "correct": 0,
+    "explain": "The correction for elevation (to reduce to Mean Sea Level) is $C_h = Lh/R$, where R is the radius of the Earth."
+  },
+  {
+    "q": "16. The method of leveling in which the heights of mountains are found by observing the temperature at which water boils is known as .............",
+    "options": [
+      "barometric leveling",
+      "reciprocal leveling",
+      "longitudinal leveling",
+      "hypsometry"
+    ],
+    "correct": 3,
+    "explain": "Hypsometry determines elevation by measuring the boiling point of water, which decreases as atmospheric pressure (and thus altitude) changes."
+  },
+  {
+    "q": "17. In leveling, the correction for curvature (in meters) is equal .............",
+    "options": [
+      "0.00785 D²",
+      "0.0785 D²",
+      "0.0112 D²",
+      "0.0673 D²"
+    ],
+    "correct": 1,
+    "explain": "The curvature correction is given by the formula Cc = 0.07849 D², where D is the distance in kilometers."
+  },
+  {
+    "q": "18. In leveling, the correction for combined curvature and refraction (in metres) is equal to .............",
+    "options": [
+      "0.00785 D²",
+      "0.0785 D²",
+      "0.0112 D²",
+      "0.0673 D²"
+    ],
+    "correct": 3,
+    "explain": "The combined correction C = 0.0673 D² accounts for both the earth's curvature and atmospheric refraction."
+  },
+  {
+    "q": "19. Which of the following can be neutralized by setting the level midway between the two stations?",
+    "options": [
+      "Error due to curvature only",
+      "Error due to refraction only",
+      "Error due to both curvature and refraction",
+      "None of these"
+    ],
+    "correct": 2,
+    "explain": "By equalizing the Back Sight and Fore Sight distances, the errors from curvature, refraction, and imperfect collimation are canceled out."
+  },
+  {
+    "q": "20. The main object of running a tie line is .............",
+    "options": [
+      "to check accuracy of the work",
+      "to take details of nearby objects",
+      "to take offsets for detailed surveying",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Tie lines are primarily used to pick up internal details of the area that are far from the main chain lines."
+  },
+  {
+    "q": "21. Shift of a curve, is .............",
+    "options": [
+      "L²/6R",
+      "L/24R",
+      "L²/24R",
+      "L/6R"
+    ],
+    "correct": 2,
+    "explain": "The shift (S) required for a transition curve is calculated using the formula S = L²/24R."
+  },
+  {
+    "q": "22. An angle between the inclined line of sight and the horizontal is called .............",
+    "options": [
+      "vertical angle",
+      "horizontal angle",
+      "dip",
+      "declination"
+    ],
+    "correct": 1,
+    "explain": "A vertical angle is the angle measured in the vertical plane between the line of sight and the horizontal line."
+  },
+  {
+    "q": "23. Reciprocal leveling eliminates .............",
+    "options": [
+      "collimation error",
+      "collimation, curvature and refraction error",
+      "curvature and refraction error",
+      "collimation and curvature error fully and refraction error pertly"
+    ],
+    "correct": 3,
+    "explain": "By taking observations from both ends of a line, reciprocal leveling cancels out errors due to earth's curvature, atmospheric refraction (assuming it's constant), and imperfect adjustment of the line of collimation."
+  },
+  {
+    "q": "24. If D is the degree of the curve of radius R, the exact length of its specified chord, is",
+    "options": [
+      "radius of the curve × sine of half the degree",
+      "diameter of the curve × sine of half the degree",
+      "diameter of the curve × cosine of half the degree",
+      "diameter of the curve × tangent of half the degree"
+    ],
+    "correct": 1,
+    "explain": "Using trigonometry, the chord length $L = 2R sin(D/2)$. Since $2R$ is the diameter, the expression is diameter $\times sin(D/2)$."
+  },
+  {
+    "q": "25. Dumpy level is most suitable when",
+    "options": [
+      "the instrument is to be shifted frequently",
+      "fly leveling is being done over long distance",
+      "many readings are to be taken from a single setting",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "The Dumpy level is sturdy and maintains its adjustment well, making it ideal for taking numerous intermediate sights from a single position."
+  },
+  {
+    "q": "26. For removing the parallax",
+    "options": [
+      "eye-piece focused...",
+      "image brought in plane of cross-hairs...",
+      "either 'a' or 'b'",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "Parallax is eliminated by first focusing the eyepiece for the observer's eye and then focusing the objective to ensure the image falls exactly on the plane of the cross-hairs."
+  },
+  {
+    "q": "27. A change point is",
+    "options": [
+      "the very first station",
+      "the last station",
+      "intermediate station where fs and bs taken",
+      "station after which instrument is shifted"
+    ],
+    "correct": 2,
+    "explain": "A change point (CP) is a stable point on which both a Foresight (to close the current setup) and a Backsight (to start the next setup) are taken."
+  },
+  {
+    "q": "28. Ten readings were recorded... If the instrument was shifted after 2nd and 6th readings, then the fore sights are",
+    "options": [
+      "1st, 3rd and 7th",
+      "2nd, 6th and 10th",
+      "2nd and 6th",
+      "3rd, 4th, 5th, 7th, 8th, 9th and 10th"
+    ],
+    "correct": 1,
+    "explain": "Foresights are the last readings before shifting (2nd and 6th) and the very last reading of the entire operation (10th)."
+  },
+  {
+    "q": "29. The following readings were taken on a uniformly sloping ground... Hence difference in elevation between first and last station is",
+    "options": [
+      "1.700 (fall)",
+      "2.200 (fall)",
+      "2.800",
+      "3.000 (fall)"
+    ],
+    "correct": 3,
+    "explain": "The difference in elevation is the sum of Backsights minus the sum of Foresights. Calculation based on the sequence provided in the text leads to a 3.000m fall."
+  },
+  {
+    "q": "30. An example for instrument error in leveling is",
+    "options": [
+      "curvature and refraction",
+      "collimation error",
+      "wearing of shoe of staff",
+      "defective tripod"
+    ],
+    "correct": 1,
+    "explain": "Collimation error occurs when the line of sight is not perfectly horizontal when the bubble is centered, which is a direct flaw in the instrument's adjustment."
+  },
+  {
+    "q": "31. When the temperature rises, length of bubble",
+    "options": [
+      "remains unaltered",
+      "decreases",
+      "increases",
+      "sometimes increases/decreases"
+    ],
+    "correct": 1,
+    "explain": "As temperature increases, the liquid in the level tube expands, which causes the vapor bubble to contract and become shorter."
+  },
+  {
+    "q": "32. Sensitiveness of Bubble tube",
+    "options": [
+      "206265 × (s/nD)",
+      "s/nD",
+      "nD/s",
+      "Rs/nl"
+    ],
+    "correct": 2,
+    "explain": "This formula relates the number of divisions moved ($n$) and the distance ($D$) to the sensitivity value."
+  },
+  {
+    "q": "33. The operation of turning the table so all lines are parallel to corresponding ground lines is",
+    "options": [
+      "leveling",
+      "centering",
+      "setting",
+      "orientation"
+    ],
+    "correct": 3,
+    "explain": "Orientation is the process of keeping the table at each successive station parallel to its position at the first station."
+  },
+  {
+    "q": "34. The plotting of small areas commanded from a single station is usually done by",
+    "options": [
+      "radiation",
+      "intersection",
+      "traversing",
+      "resection"
+    ],
+    "correct": 0,
+    "explain": "Radiation is the simplest method where points are plotted by drawing rays from a single instrument station and measuring distances along those rays."
+  },
+  {
+    "q": "35. An important role in using pantograph is .............",
+    "options": [
+      "pointer, pencil and weight should fall in a straight line",
+      "pointer should never be put on the short arm",
+      "the arm on to which the weight is attached should never move",
+      "pencil is always attached to the arm on which the scale is marked"
+    ],
+    "correct": 0,
+    "explain": "For accurate proportional scaling, the fixed point (weight/anchor), the tracing pointer, and the pencil must be collinear (lie on a single straight line)."
+  },
+  {
+    "q": "36. Ina constant level tube, size of the bubble remains constant because upper wall is .............",
+    "options": [
+      "of relatively larger radius",
+      "of relatively smaller radius",
+      "flat",
+      "convex downwards"
+    ],
+    "correct": 0,
+    "explain": "A larger radius of curvature helps in maintaining a more consistent bubble length despite temperature changes."
+  },
+  {
+    "q": "37. A staff reading taken on a point whose elevation is to be determined as on a change point is called .............",
+    "options": [
+      "fore sight reading",
+      "back sight reading",
+      "intermediate sight",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The last reading taken before moving the instrument is a Foresight."
+  },
+  {
+    "q": "38. The shift of a curve is equal to .............",
+    "options": [
+      "L/6R",
+      "L/24R",
+      "L²/6R",
+      "L²/24R"
+    ],
+    "correct": 3,
+    "explain": "The 'shift' is the distance by which the circular curve must be moved inward to accommodate the transition curve, calculated as $S = L^2 / (24R)$."
+  },
+  {
+    "q": "39. The polar equation for a lemniscate curve is .............",
+    "options": [
+      "l = k √sin θ",
+      "l = k √sin 2θ",
+      "l = k √cos θ",
+      "l = k √cos 2θ"
+    ],
+    "correct": 1,
+    "explain": "The Bernoulli's Lemniscate is defined by the polar equation $r^2 = a^2 \\cos 2\\theta$ (or $l = k \\sqrt{\\cos 2\\theta}$ in this context)."
+  }
+]

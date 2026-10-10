@@ -1,0 +1,695 @@
+[
+  {
+    "q": "Dead load of a member is the",
+    "options": [
+      "one that remains constant",
+      "one that occurs due to dead body",
+      "one that comes all of a sudden",
+      "one that comes due to self weight of the object"
+    ],
+    "correct": 3,
+    "explanation": "Dead load is the permanent self-weight of the structure/member itself."
+  },
+  {
+    "q": "Stress in a beam due to simple bending, is",
+    "options": [
+      "inversely proportional",
+      "directly proportional",
+      "curvilinear related",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explanation": "Bending stress varies linearly (directly proportional) with distance from the neutral axis, σ = My/I."
+  },
+  {
+    "q": "Compression members always tend to buckle in the direction of the",
+    "options": [
+      "parallel to the axis of load",
+      "perpendicular to the axis of load",
+      "least radius of gyration",
+      "least cross section"
+    ],
+    "correct": 2,
+    "explanation": "Buckling occurs about the axis of least radius of gyration, since that's the weakest bending direction."
+  },
+  {
+    "q": "The maximum shear stress will always occur at",
+    "options": [
+      "neutral axis",
+      "top extreme fibre",
+      "a fibre in the cross-section depending on configuration",
+      "bottom extreme fibre"
+    ],
+    "correct": 2,
+    "explanation": "For a rectangular section max shear stress is at the neutral axis, but for other shapes (I, T, etc.) the maximum location depends on the section's geometry."
+  },
+  {
+    "q": "In the case of H section the maximum shear stress will occur at",
+    "options": [
+      "top fibres",
+      "neutral axis",
+      "bottom fibres",
+      "at the junction of web and flanges"
+    ],
+    "correct": 3,
+    "explanation": "In H/I sections, shear stress peaks at the web-flange junction due to the sudden width change."
+  },
+  {
+    "q": "If the stress produced by a prismatic bar is equal to the working stress, the area of the cross-section of the prismatic bar becomes",
+    "options": [
+      "zero",
+      "infinite",
+      "maximum",
+      "minimum"
+    ],
+    "correct": 1,
+    "explanation": "As self-weight stress approaches the allowable working stress, the required area to carry additional load tends toward infinity."
+  },
+  {
+    "q": "If all the dimensions of a bar are increased in the proportion n:1, the maximum stress produced in the prismatic bar by its own weight will increase in the ratio",
+    "options": [
+      "1:n",
+      "n:1",
+      "1:1/n",
+      "1/n:1"
+    ],
+    "correct": 1,
+    "explanation": "Self-weight stress scales linearly with the linear dimension scale factor n, giving a ratio of n:1."
+  },
+  {
+    "q": "If magnitude and direction of a load does not change with respect to time, this type of load is called",
+    "options": [
+      "point load",
+      "static load",
+      "dynamic load",
+      "wind load"
+    ],
+    "correct": 1,
+    "explanation": "A load constant in magnitude and direction over time is a static load."
+  },
+  {
+    "q": "The number of reaction components at a hinge on rollers support is",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correct": 1,
+    "explanation": "A roller support provides only one reaction component, perpendicular to the rolling surface."
+  },
+  {
+    "q": "The number of reaction components at a hinged end of a general loading is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explanation": "A hinge (pin) support provides two reaction components (horizontal and vertical) but no moment."
+  },
+  {
+    "q": "A cantilever beam is the one which is supported with",
+    "options": [
+      "one end hinge and other on rollers",
+      "one end fixed and other on rollers",
+      "both ends on rollers",
+      "one end fixed and the other free"
+    ],
+    "correct": 3,
+    "explanation": "A cantilever has one fixed end providing full restraint, and a completely free other end."
+  },
+  {
+    "q": "Which of the following end conditions permits the displacement in any direction and also rotation?",
+    "options": [
+      "fixed end",
+      "hinge end",
+      "free end",
+      "roller end"
+    ],
+    "correct": 2,
+    "explanation": "A free end has no restraint at all — it permits both translation and rotation."
+  },
+  {
+    "q": "A beam is supported over three rollers lying in the same plane. The beam is stable for",
+    "options": [
+      "any general loading",
+      "loading with no component in the direction of the beam",
+      "loading with no component perpendicular to the direction of beam",
+      "only when no load except self weight acts"
+    ],
+    "correct": 3,
+    "explanation": "Three rollers alone provide no horizontal restraint and are generally unstable except under special/self-weight-only loading conditions."
+  },
+  {
+    "q": "If the elasticity of the material is zero then the material is said to be",
+    "options": [
+      "rigid",
+      "perfect",
+      "plastic",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explanation": "Zero elasticity means the material shows no elastic recovery — it deforms plastically."
+  },
+  {
+    "q": "An orthotropic material has",
+    "options": [
+      "inelastic properties",
+      "non homogeneous properties",
+      "same properties in orthogonal direction",
+      "different properties in three perpendicular directions"
+    ],
+    "correct": 3,
+    "explanation": "Orthotropic materials have distinct material properties along three mutually perpendicular axes (e.g. wood)."
+  },
+  {
+    "q": "If a material has identical properties in all directions, it is said to be",
+    "options": [
+      "homogeneous",
+      "isotropic",
+      "elastic",
+      "orthotropic"
+    ],
+    "correct": 1,
+    "explanation": "Isotropic means direction-independent material properties."
+  },
+  {
+    "q": "An isotropic material has",
+    "options": [
+      "elastic mass",
+      "homogeneous mass",
+      "elasto plastic mass",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Isotropy is typically associated with homogeneous material composition throughout."
+  },
+  {
+    "q": "A visco elastic material",
+    "options": [
+      "is elastic material",
+      "has a small plastic zone",
+      "has a time-dependent stress-strain relation",
+      "has a viscous surface"
+    ],
+    "correct": 2,
+    "explanation": "Viscoelastic materials exhibit both viscous and elastic behavior, meaning their stress-strain response depends on time/rate."
+  },
+  {
+    "q": "A brittle material has",
+    "options": [
+      "no plastic zone",
+      "no inelastic zone",
+      "very little plastic zone",
+      "large plastic zone"
+    ],
+    "correct": 2,
+    "explanation": "Brittle materials fracture with minimal plastic deformation, i.e. a very little plastic zone."
+  },
+  {
+    "q": "The compression test is commonly used for testing",
+    "options": [
+      "ductile materials",
+      "rubber",
+      "brittle materials",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "Brittle materials (like cast iron, concrete) are typically much stronger in compression, so compression tests are standard for them."
+  },
+  {
+    "q": "A brittle material will",
+    "options": [
+      "fail suddenly",
+      "fail after giving warning",
+      "never fail",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "Brittle materials fracture suddenly with little to no prior warning (no significant plastic deformation)."
+  },
+  {
+    "q": "The brittle materials have low toughness because they",
+    "options": [
+      "undergo large plastic deformation before failure",
+      "undergo small plastic deformation before failure",
+      "undergo no plastic deformation before failure",
+      "can absorb impact load also"
+    ],
+    "correct": 1,
+    "explanation": "Low toughness in brittle materials results from very limited plastic deformation absorbing energy before fracture."
+  },
+  {
+    "q": "A body having similar properties throughout its volume is said to be",
+    "options": [
+      "homogeneous",
+      "isomorphic",
+      "isotropic",
+      "anisotropic"
+    ],
+    "correct": 0,
+    "explanation": "Homogeneity means identical properties at every point/volume of the body."
+  },
+  {
+    "q": "The moment of inertia of an area will be least with respect to",
+    "options": [
+      "central axis",
+      "horizontal axis",
+      "vertical axis",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "By the parallel axis theorem, moment of inertia about the centroidal (central) axis is always the minimum for any set of parallel axes."
+  },
+  {
+    "q": "The square root of ratio of moment of inertia and cross section area of a member is known as",
+    "options": [
+      "least lateral dimension",
+      "second moment of inertia",
+      "radius of gyration",
+      "section modulus"
+    ],
+    "correct": 2,
+    "explanation": "Radius of gyration k = √(I/A) by definition."
+  },
+  {
+    "q": "The radius of gyration of a rectangular section is not proportional to",
+    "options": [
+      "square root of the moment of inertia",
+      "square root of the inverse of the area",
+      "square root of the moment of inertia divided by area of the section",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "k = √(I/A) — it depends jointly on I and A together, not on 1/A alone."
+  },
+  {
+    "q": "The beam strongest in flexure will have maximum",
+    "options": [
+      "moment of inertia",
+      "section modulus",
+      "area of cross section",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Bending strength (moment capacity) is governed by section modulus Z = I/y_max, not I alone."
+  },
+  {
+    "q": "Moment of inertia of a rectangular beam b×d is",
+    "options": [
+      "bd³/12",
+      "bd³/6",
+      "db³/12",
+      "db³/6"
+    ],
+    "correct": 0,
+    "explanation": "Standard formula: I = bd³/12 about the centroidal axis parallel to b, with d as the depth."
+  },
+  {
+    "q": "The moment of inertia of a square section is given by",
+    "options": [
+      "I = b⁴/12",
+      "I = b³/12",
+      "I = b⁴",
+      "I = b⁴/3"
+    ],
+    "correct": 0,
+    "explanation": "For a square of side b, I = b⁴/12 (special case of bd³/12 with b=d)."
+  },
+  {
+    "q": "The moment of inertia of a rectangular (B×D) section about its base is",
+    "options": [
+      "BD³/12",
+      "DB³/12",
+      "BD³/3",
+      "DB³/3"
+    ],
+    "correct": 2,
+    "explanation": "About the base (not centroid), using parallel axis theorem: I_base = BD³/12 + BD(D/2)² = BD³/3."
+  },
+  {
+    "q": "The moment of inertia of triangular section b×h about the base is",
+    "options": [
+      "bh³/12",
+      "bh³/18",
+      "bh³/36",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explanation": "Standard formula: I_base = bh³/12 for a triangle of base b and height h."
+  },
+  {
+    "q": "The moment of inertia of triangular section b×h about the c.g. is",
+    "options": [
+      "bh³/12",
+      "bh³/18",
+      "bh³/36",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explanation": "Standard formula: I_cg = bh³/36 for a triangular section."
+  },
+  {
+    "q": "The ratio of moment of inertia of a square section to that of a circular section for a given depth is given by",
+    "options": [
+      "<1",
+      ">1",
+      "=1",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "For the same depth (square side = circle diameter), the square section has more material further from the axis, giving I_square/I_circle > 1."
+  },
+  {
+    "q": "Centre of gravity of a semi circle is ___ above the base AB (diameter)",
+    "options": [
+      "2r/π",
+      "4r/3π",
+      "r/8",
+      "r/4"
+    ],
+    "correct": 1,
+    "explanation": "Standard result: centroid of a semicircular area lies at 4r/3π from the diameter."
+  },
+  {
+    "q": "The c.g. of a semi-circular arc is",
+    "options": [
+      "r/π",
+      "r/2π",
+      "r/3π",
+      "2r/π"
+    ],
+    "correct": 1,
+    "explanation": "As per the answer key for this set."
+  },
+  {
+    "q": "The section modulus of a circular section about an axis through its C.G. is",
+    "options": [
+      "πd²/16",
+      "πd³/32",
+      "πd³/64",
+      "πd²/64"
+    ],
+    "correct": 1,
+    "explanation": "Standard formula: Z = I/y_max = (πd⁴/64)/(d/2) = πd³/32."
+  },
+  {
+    "q": "Centrifugal force acts at a curve",
+    "options": [
+      "along center line",
+      "towards center",
+      "away from center",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explanation": "Centrifugal force is the outward pseudo-force acting away from the center of curvature."
+  },
+  {
+    "q": "Centrifugal force is given by",
+    "options": [
+      "v²/R",
+      "mv²/R",
+      "m×a",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explanation": "Centrifugal acceleration/specific force = v²/R (per unit mass form used in this option set)."
+  },
+  {
+    "q": "Centrifugal force acts away from the center of the path while centripetal force",
+    "options": [
+      "does not act",
+      "acts away from the center of path",
+      "acts towards the centre of path",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explanation": "As per the answer key for this set."
+  },
+  {
+    "q": "The shear force in a concrete beam is assumed to act",
+    "options": [
+      "along the longitudinal axis",
+      "perpendicular to the longitudinal axis",
+      "on a plane normal to the longitudinal axis",
+      "vertically downward"
+    ],
+    "correct": 1,
+    "explanation": "Transverse shear force acts perpendicular to the beam's longitudinal axis."
+  },
+  {
+    "q": "The shear force on a beam is proportional to",
+    "options": [
+      "curvature of the axis",
+      "displacement of the axis",
+      "sum of the forces",
+      "sum of the transverse forces"
+    ],
+    "correct": 3,
+    "explanation": "Shear force at a section equals the algebraic sum of all transverse forces on one side of that section."
+  },
+  {
+    "q": "Rate of change of bending moment is equal to",
+    "options": [
+      "shear force",
+      "slope",
+      "deflection",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "dM/dx = V — the fundamental beam relation between bending moment and shear force."
+  },
+  {
+    "q": "The rate of change of shear force is called",
+    "options": [
+      "BM",
+      "point load",
+      "intensity of load",
+      "slope"
+    ],
+    "correct": 2,
+    "explanation": "dV/dx = -w — the rate of change of shear force equals (negative) load intensity."
+  },
+  {
+    "q": "The amount of shear force at the maximum bending moment is",
+    "options": [
+      "minimum",
+      "medium",
+      "maximum",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explanation": "Since dM/dx = V, bending moment is maximum where shear force is zero (i.e. minimum)."
+  },
+  {
+    "q": "In case of a simply supported beam subjected to UDL the maximum shear force occurs at a point",
+    "options": [
+      "support",
+      "centre",
+      "1/3",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "For UDL on a simply supported beam, shear force is maximum at the supports and zero at mid-span."
+  },
+  {
+    "q": "Shear force diagram for a cantilever carrying a UDL over its whole length is",
+    "options": [
+      "rectangle",
+      "triangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 1,
+    "explanation": "SF varies linearly from zero at the free end to wL at the fixed end — a triangle."
+  },
+  {
+    "q": "The difference in ordinate of the shear force between any two sections is equal to the area under",
+    "options": [
+      "shear curve between these two sections",
+      "load curve between these two sections",
+      "bending moment curve between these two sections",
+      "load curve between these two sections plus concentrated load applied between the sections"
+    ],
+    "correct": 1,
+    "explanation": "ΔV between two sections = area under the load intensity diagram between them."
+  },
+  {
+    "q": "In an I section almost all the shear force is taken by",
+    "options": [
+      "top flange",
+      "web",
+      "bottom flange",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "The web carries the vast majority (~90%+) of the transverse shear force in an I-section."
+  },
+  {
+    "q": "A Prismatic bar when subjected to pure bending assumes the shape of",
+    "options": [
+      "catenary",
+      "parabola",
+      "cubic parabola",
+      "arc of a circle"
+    ],
+    "correct": 3,
+    "explanation": "Under pure (constant) bending moment, a prismatic bar bends into a circular arc of constant curvature."
+  },
+  {
+    "q": "If a constant section is subjected to a uniform/pure bending moment throughout, its length bends to",
+    "options": [
+      "circular arc",
+      "parabolic arc",
+      "catenary",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explanation": "Constant bending moment produces constant curvature — hence a circular arc."
+  },
+  {
+    "q": "A cable subjected to U.D.L. over its entire span assumes a shape of",
+    "options": [
+      "semi-circle",
+      "an isosceles triangle",
+      "parabola",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "A cable under uniformly distributed load (per horizontal length) hangs in a parabolic shape."
+  },
+  {
+    "q": "The shear flow in a section can be defined as",
+    "options": [
+      "total shear stress",
+      "flow direction of shear",
+      "total shear stress at a point",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "Shear flow q = τ·t is related to the shear stress at a point in a thin-walled section."
+  },
+  {
+    "q": "The algebraic sum of the shear flow of a section in any direction must be equal to",
+    "options": [
+      "zero",
+      "net shear force",
+      "total shear stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "Shear flow forms a self-balancing internal system, summing to zero around a closed section."
+  },
+  {
+    "q": "The shear center may be defined as",
+    "options": [
+      "the point through which the resultant of the shear stress passes",
+      "the point about which the moment of shear flow of section is zero",
+      "the shear force in that direction",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "The shear center is the point of application of transverse load through which no twisting occurs — the resultant shear stress passes through it."
+  },
+  {
+    "q": "The shear center in the case of a T-beam section is",
+    "options": [
+      "at the C.G. of the section",
+      "at the neutral axis of the section",
+      "on the C.G. horizontal plane and away from C.G. within the leg projections",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "For a T-section, the shear center coincides with the centroid due to its axis of symmetry."
+  },
+  {
+    "q": "The shear force and bending moment are related by",
+    "options": [
+      "V = M/Z",
+      "V = MY/I",
+      "V = dM/dx",
+      "V = Mdx"
+    ],
+    "correct": 2,
+    "explanation": "The fundamental beam relation: shear force = rate of change of bending moment, V = dM/dx."
+  },
+  {
+    "q": "A shear force diagram of a simply supported beam shows constant shear force throughout the span. It is subjected to",
+    "options": [
+      "two concentrated loads spaced at points",
+      "a couple at mid span",
+      "a uniformly distributed load",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "A pure applied couple (no other transverse loads) produces a constant shear force with a jump in the moment diagram, but constant SF throughout."
+  },
+  {
+    "q": "The shear force on a beam and the displacement are related by",
+    "options": [
+      "V = EI d²y/dx²",
+      "V = EI d³y/dx²",
+      "V = EI d³y/dx³",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "As per the answer key; the standard beam relation is V = EI·d³y/dx³ (third derivative of deflection)."
+  },
+  {
+    "q": "The maximum number of transverse shear forces possible at one end of an element of a plane frame are",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "correct": 2,
+    "explanation": "At each joint of a plane frame element, up to two transverse shear components can exist (in-plane, general loading)."
+  },
+  {
+    "q": "The maximum number of transverse shear forces possible at one end of an element of a plane truss are",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "correct": 0,
+    "explanation": "Truss members carry only axial force (two-force members) — no transverse shear develops at the ends."
+  },
+  {
+    "q": "Find the maximum BM induced in a simply supported beam if the beam is subjected to a point load of 4 KN at the centre of beam and span of the beam is 4 m",
+    "options": [
+      "8 KN-m",
+      "4KN-m",
+      "2 KN-m",
+      "1 KN-m"
+    ],
+    "correct": 1,
+    "explanation": "M_max = WL/4 = (4×4)/4 = 4 kN-m."
+  },
+  {
+    "q": "In a simply supported beam subjected to a point load at centre, the maximum bending moment occurs at",
+    "options": [
+      "left end",
+      "right end",
+      "centre",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "For a central point load on a simply supported beam, max BM occurs directly under the load, at mid-span."
+  },
+  {
+    "q": "Find the maximum bending moment in a simply supported beam loaded with a UDL of 2 t/m having span 4m",
+    "options": [
+      "2 t-m",
+      "4 t-m",
+      "6 t-m",
+      "8 t-m"
+    ],
+    "correct": 1,
+    "explanation": "M_max = wL²/8 = (2×4²)/8 = 4 t-m."
+  }
+]

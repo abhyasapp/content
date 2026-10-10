@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The point of contra flexure is a point where",
+    "options": [
+      "shear force change sign",
+      "bending moment changes sign",
+      "shear force is maximum",
+      "bending moment is maximum"
+    ],
+    "correct": 1,
+    "explain": "The point of contraflexure (or inflection) is the location in a structural member where the bending moment changes from positive (sagging) to negative (hogging) or vice versa."
+  },
+  {
+    "q": "2. When shear force at a point is zero, then bending moment is... at that point.",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "Mathematically, V = dM/dx. If the derivative (V) is zero, the function (M) is at a local maximum or minimum."
+  },
+  {
+    "q": "3. In a simply supported beam carrying uniformly distributed load w per unit length, the point of contraflexure",
+    "options": [
+      "lies in the centre of the beam",
+      "lies at the ends of the beam",
+      "depends upon the length of beam",
+      "does not exist"
+    ],
+    "correct": 3,
+    "explain": "In a simply supported beam with downward UDL, the entire beam experiences sagging (positive BM). Since the sign never changes, there is no point of contraflexure."
+  },
+  {
+    "q": "4. When there is a sudden increase or decrease in shear force diagram between any two points, it indicates that there is a",
+    "options": [
+      "point load at the two points",
+      "no loading between the two points",
+      "uniformly distributed load between the two points",
+      "uniformly varying load between the two points"
+    ],
+    "correct": 0,
+    "explain": "A vertical jump in the shear force diagram always corresponds to the application of a concentrated (point) load at 그 point."
+  },
+  {
+    "q": "5. When the shear force diagram is a parabolic curve between two points, it indicates that there is a",
+    "options": [
+      "point load at the two points",
+      "no loading between the two points",
+      "uniformly distributed load between the two points",
+      "uniformly varying load between the two points"
+    ],
+    "correct": 3,
+    "explain": "If the loading is linear (uniformly varying), the shear force (its integral) will be a 2nd-degree parabolic curve."
+  },
+  {
+    "q": "6. In a beam where shear force changes sign, the bending moment will be",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "A change in sign in the SFD indicates that the SF passes through zero, which identifies the location of the maximum bending moment."
+  },
+  {
+    "q": "7. The point of contraflexure occurs in",
+    "options": [
+      "cantilever beams",
+      "simply supported beams",
+      "overhanging beams",
+      "fixed beams"
+    ],
+    "correct": 2,
+    "explain": "Overhanging beams typically experience hogging over the supports and sagging in the span, creating points where the bending moment must pass through zero."
+  },
+  {
+    "q": "8. The number of reaction components possible at a hinge on rollers supports is",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "correct": 0,
+    "explain": "A roller support only resists movement perpendicular to the surface it sits on, providing exactly one vertical reaction component."
+  },
+  {
+    "q": "9. The number of reaction components possible at a hinged end for a general loading is",
+    "options": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
+    "correct": 2,
+    "explain": "A hinged (pinned) support prevents horizontal and vertical displacement but allows rotation, resulting in two reaction components (Rx and Ry)."
+  },
+  {
+    "q": "10. The number of reaction components possible at a fixed or built in end for a general loading",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "correct": 1,
+    "explain": "A fixed support prevents all movement (vertical, horizontal, and rotation), providing three reactions: vertical force, horizontal force, and a bending moment."
+  },
+  {
+    "q": "11. A simply supported beam is subjected to a pure moment. This will be resisted through",
+    "options": [
+      "a moment reaction at hinged end",
+      "a moment reaction at hinge on rollers end",
+      "a couple formed by the reaction from the two supports",
+      "external support capable of resisting moment"
+    ],
+    "correct": 2,
+    "explain": "Since simple supports cannot provide moment reactions, the applied moment is balanced by a couple consisting of two equal and opposite vertical reactions at the supports."
+  },
+  {
+    "q": "12. A cantilever beam is the one which is supported with",
+    "options": [
+      "one end hinge and other on rollers",
+      "one end fixed and the other on rollers",
+      "both on rollers",
+      "one end fixed and the other free"
+    ],
+    "correct": 3,
+    "explain": "A cantilever is defined by having one end entirely fixed (built-in) and the other end completely unsupported (free)."
+  },
+  {
+    "q": "13. A horizontal beam with both the ends hinged will be statically determinate for this type of loadings",
+    "options": [
+      "purely vertical loading",
+      "purely inclined loads",
+      "any general loading",
+      "inclined loads with moments"
+    ],
+    "correct": 0,
+    "explain": "If both ends are hinged, there are 4 unknown reactions. For purely vertical loads, horizontal reactions are zero, reducing unknowns and making it determinate with basic equilibrium equations."
+  },
+  {
+    "q": "14. A beam is said to be in general, stable and statically determinate for general loading when the number of reaction components is",
+    "options": [
+      "greater than 3",
+      "0",
+      "less than 3",
+      "3"
+    ],
+    "correct": 3,
+    "explain": "In 2D space, there are 3 equations of equilibrium (ΣFx, ΣFy, ΣM). A structure with 3 independent reaction components is statically determinate."
+  },
+  {
+    "q": "15. The shear force on a simply supported beam is proportional to",
+    "options": [
+      "displacement of the neutral axis",
+      "sum of the forces",
+      "sum of the transverse forces",
+      "algebraic sum of the transverse forces of the section"
+    ],
+    "correct": 3,
+    "explain": "By definition, the shear force at any section of a beam is the algebraic sum of all external transverse forces acting on either side of that section."
+  },
+  {
+    "q": "16. A cantilever beam carrying a uniformly distributed load W over its full length is propped at its free end... BM will be zero at its free end also at",
+    "options": [
+      "mind pint of the cantilever",
+      "fixed point of the cantilever",
+      "1/4 length from free end",
+      "3/4 length from free end"
+    ],
+    "correct": 3,
+    "explain": "For a propped cantilever with UDL, the point of zero bending moment (contraflexure) occurs at a distance of 3/4L from the fixed end (or 1/4L from the prop)."
+  },
+  {
+    "q": "17. A simply supported beam carrying a UDL... is propped at the centre... The reaction of the prop will be",
+    "options": [
+      "half the distributed load",
+      "3/8 distributed load",
+      "5/8 the distributed load",
+      "distributed load"
+    ],
+    "correct": 2,
+    "explain": "By equating the downward deflection of a SS beam due to UDL (5wL⁴/384EI) to the upward deflection due to the prop (PL³/48EI), the prop reaction is found to be 5/8 of the total load W."
+  },
+  {
+    "q": "18. A uniform girder simply supported at its ends... propped at the centre so as to neutralize the deflection. The net B.M. at the centre will be",
+    "options": [
+      "WL",
+      "WL/8",
+      "WL/24",
+      "WL/32"
+    ],
+    "correct": 3,
+    "explain": "With a prop reaction of 5/8W, the net BM at the center becomes (WL/8) - (5/8W * L/4) = WL/32."
+  },
+  {
+    "q": "19. The moment diagram for a cantilever whose free end is subjected to a bending moment, will be a",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 1,
+    "explain": "If a constant moment is applied at the end, the internal bending moment is uniform throughout the length, resulting in a rectangular BMD."
+  },
+  {
+    "q": "20. The moment diagram for a cantilever carrying linearly varying load from zero at its free end and to maximum at the fixed end will be",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 3,
+    "explain": "Since the load is linear (1st degree), the shear force is parabolic (2nd degree) and the bending moment is a cubic parabola (3rd degree)."
+  },
+  {
+    "q": "21. The moment diagram for a cantilever which is subjected to a uniformly distributed load will be a",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 2,
+    "explain": "For a UDL (0th degree), the shear force is linear (1st degree) and the bending moment is parabolic (2nd degree)."
+  },
+  {
+    "q": "22. The moment diagram for a cantilever carrying a concentrated load at its free end, will be",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 0,
+    "explain": "The bending moment varies linearly from zero at the free end to (W * L) at the fixed support, resulting in a triangular Bending Moment Diagram (BMD)."
+  },
+  {
+    "q": "23. Shear force for a cantilever carrying a uniformly distributed load over its length, is",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 0,
+    "explain": "The shear force at any section x from the free end is (w * x). This linear relationship (1st degree) forms a right-angled triangle."
+  },
+  {
+    "q": "24. When a rectangular beam is loaded longitudinally, shear develops on",
+    "options": [
+      "bottom fibre",
+      "top fibre",
+      "middle fibre",
+      "every-horizontal plane"
+    ],
+    "correct": 3,
+    "explain": "Longitudinal or complementary shear stress is developed across every horizontal plane of the beam to maintain equilibrium against the varying bending stresses."
+  },
+  {
+    "q": "25. A simply supported beam is subjected to a udl of intensity W/m throughout the length of the span. The B.M. diagram will be a",
+    "options": [
+      "triangle with wl²/8 maximum ordinate",
+      "rectangle with uniform ordinate wl²/8",
+      "parabola with wl²/8 maximum ordinate",
+      "parabola with wl/4 maximum ordinate"
+    ],
+    "correct": 2,
+    "explain": "A UDL produces a 2nd-degree curve (parabola) for the bending moment, with the peak value at the center being wl²/8."
+  },
+  {
+    "q": "26. The bending moment in a beam will be maximum where",
+    "options": [
+      "the S.F. is uniform",
+      "the S.F. is maximum",
+      "the S.F. is zero",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The maximum bending moment occurs at the section where the shear force is zero or changes its sign."
+  },
+  {
+    "q": "27. The slope of curve of B.M. diagram at any section will be equal to",
+    "options": [
+      "the slope of moment at that section",
+      "the slope of S.F. diagram at that section",
+      "the ordinate of S.F. diagram at that section",
+      "the area of S.F. diagram starting from any one end"
+    ],
+    "correct": 2,
+    "explain": "The rate of change of bending moment (dM/dx) at a section is equal to the shear force (V) at that section."
+  },
+  {
+    "q": "28. A simply supported beam is subjected to a uniformly varying load with zero intensity at the two ends increasing to W/m at the centre. the maximum S.F. is",
+    "options": [
+      "wl/2",
+      "wl/4",
+      "wl²/2",
+      "wl²/4"
+    ],
+    "correct": 1,
+    "explain": "The total load is (1/2 * l * w). Since the loading is symmetrical, each reaction (Max SF) is half the total load: (1/2 * wl/2) = wl/4."
+  },
+  {
+    "q": "29. A simply supported beam is subjected to a uniformly varying load with zero intensity at the two ends increasing to W/m at the centre. The max. B.M. will occur at",
+    "options": [
+      "1/3 from centre",
+      "l/2 from end",
+      "at the two ends",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For a symmetrical loading on a simply supported beam, the maximum bending moment always occurs at the mid-span (l/2 from either end)."
+  },
+  {
+    "q": "30. A simply supported beam is subjected to a uniformly varying load with zero intensity at the two ends increasing to W/m at the centre. The maximum B.M. will be equal to",
+    "options": [
+      "wl²/12",
+      "wl²/24",
+      "wl²/6",
+      "w²l/8"
+    ],
+    "correct": 0,
+    "explain": "For this specific triangular loading (apex at center), the maximum bending moment at the mid-span is calculated as wl²/12."
+  },
+  {
+    "q": "31. Which of the following end conditions permits the displacement in any direction and also rotation?",
+    "options": [
+      "fixed end",
+      "hinged end",
+      "free end",
+      "roller end"
+    ],
+    "correct": 2,
+    "explain": "A free end has no constraints; it can move horizontally, vertically, and rotate freely under load."
+  },
+  {
+    "q": "32. Which of the following beams will have points of contraflexure? (self weight is negligible)",
+    "options": [
+      "a simply supported beam with udl over entire span",
+      "a overhanging beam with loading only over supported span and not on overhangs",
+      "fixed beam subjected to concentrated load",
+      "cantilever subjected to uniformly varying loads"
+    ],
+    "correct": 2,
+    "explain": "Fixed beams develop hogging moments at the supports and sagging moments in the center, necessitating points of contraflexure where the BM is zero."
+  },
+  {
+    "q": "33. A beam is said to have been subjected to a pure bending moment, when",
+    "options": [
+      "S.F. is maximum",
+      "the load is applied as a udl throughout the span",
+      "S.F. in a length is zero",
+      "the load is applied at the mid-span section only"
+    ],
+    "correct": 2,
+    "explain": "Pure bending occurs in a region where the shear force is zero, meaning the bending moment is constant over that length."
+  },
+  {
+    "q": "34. The slope of the B.M. diagram change its sign when",
+    "options": [
+      "B.M. change its sign",
+      "S.F. is maximum.",
+      "S.F. changes its sign",
+      "rate of loading changes suddenly"
+    ],
+    "correct": 2,
+    "explain": "The slope of BMD is the Shear Force. If SF changes sign (from positive to negative), the slope of the BM curve changes from increasing to decreasing."
+  },
+  {
+    "q": "35. A bending moment may be defined as",
+    "options": [
+      "arithmetic sum of the moments of all the forces on either side of the section",
+      "arithmetic sum of the forces on either sides of the section",
+      "algebraic sum of the moments of all the forces on either side of the section",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The internal bending moment at a section is the algebraic sum of the moments of all external forces acting on one side of the section."
+  },
+  {
+    "q": "36. If Z and I are the section modulus and moment of inertia of the section, the shear force F and bending moment M at a section are related by",
+    "options": [
+      "F = My/I",
+      "F = M/Z",
+      "F = dM/dx",
+      "F = ∫ M dx"
+    ],
+    "correct": 2,
+    "explain": "The fundamental differential relationship between bending moment and shear force is that F (or V) is the derivative of M with respect to distance x."
+  },
+  {
+    "q": "37. At either end of a plane frame, maximum number of possible transverse shear forces, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "In a 2D plane frame member, there is only one transverse (perpendicular to the axis) shear force component at any section."
+  },
+  {
+    "q": "38. At either end of a plane frame, maximum number of possible bending moments, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "zero"
+    ],
+    "correct": 3,
+    "explain": "In a 2D plane frame, bending occurs only in the plane of the frame, resulting in a single bending moment component (Mz)."
+  },
+  {
+    "q": "39. the shape of the bending moment diagram over the length of a beam, having no external load, is always",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubical",
+      "circular"
+    ],
+    "correct": 0,
+    "explain": "With no external load between two points, the shear force is constant (horizontal line), making the bending moment linear (inclined line)."
+  },
+  {
+    "q": "40. The shape of the bending moment diagram over the length of a beam, carrying a uniformly distributed load is always",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubical",
+      "circular"
+    ],
+    "correct": 1,
+    "explain": "UDL (constant) leads to a linear SFD, which integrates into a 2nd-degree parabolic curve for the BMD."
+  },
+  {
+    "q": "41. The shape of the bending moment diagram over the length of a beam, carrying a uniformly increasing load, is always",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubical",
+      "circular"
+    ],
+    "correct": 2,
+    "explain": "A uniformly increasing load (1st degree) leads to a parabolic SFD (2nd degree) and a cubical parabolic BMD (3rd degree)."
+  },
+  {
+    "q": "42. The maximum bending moment due to a moving load on a simply supported beam, occurs",
+    "options": [
+      "at the mid span",
+      "at the supports",
+      "under the load",
+      "anywhere on the beam"
+    ],
+    "correct": 2,
+    "explain": "For a single concentrated moving load, the absolute maximum bending moment at any section always occurs when the load is placed directly over that section."
+  },
+  {
+    "q": "43. For a simply supported beam with a central load, the bending moment is",
+    "options": [
+      "least at the centre",
+      "least at the supports",
+      "maximum at the supports",
+      "maximum at the centre"
+    ],
+    "correct": 3,
+    "explain": "For a simply supported beam of length L with a central point load P, the bending moment increases linearly from zero at the supports to a maximum value of PL/4 at the center."
+  },
+  {
+    "q": "44. For a cantilever with a uniformly distributed load W over its entire length L, the maximum bending moment is",
+    "options": [
+      "WL",
+      "1/2 WL",
+      "1/3 WL",
+      "1/2 W^2L"
+    ],
+    "correct": 1,
+    "explain": "In a cantilever beam with a UDL, the maximum bending moment occurs at the fixed support and is calculated as (Total Load × Distance to CG), which is W × (L/2) = WL/2."
+  },
+  {
+    "q": "45. The bending moment is maximum on a section where shearing force",
+    "options": [
+      "is maximum",
+      "is minimum",
+      "is equal",
+      "changes sign"
+    ],
+    "correct": 3,
+    "explain": "According to the relationship dM/dx = V, the bending moment (M) reaches a local maximum or minimum value where the shear force (V) is zero or changes its sign."
+  },
+  {
+    "q": "46. A beam is said to be of uniform strength, if",
+    "options": [
+      "B.M. is same throughout the beam",
+      "shear stress is same throughout the beam",
+      "deflection is same throughout the beam",
+      "bending stress is same at every section along its longitudinal axis"
+    ],
+    "correct": 3,
+    "explain": "A beam of uniform strength is designed by varying its cross-section such that the maximum fiber stress (bending stress) remains constant at every section along its length."
+  },
+  {
+    "q": "47. In a continuous bending moment curve the point where it changes sign, is called",
+    "options": [
+      "point of inflexion",
+      "point of contraflexure",
+      "point of virtual hinge",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "The point where the bending moment changes from sagging (+) to hogging (-) or vice versa is known by all these terms; it is the location where the curvature of the beam changes."
+  },
+  {
+    "q": "48. For a beam, if fundamental equations of statics are not sufficient to determine all the reactive forces at the supports, the structure is said to be",
+    "options": [
+      "determinate",
+      "statically determinate",
+      "statically indeterminate",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Statically indeterminate structures have more unknown support reactions or internal forces than the available equations of equilibrium (ΣH=0, ΣV=0, ΣM=0)."
+  },
+  {
+    "q": "49. If the beam is supported so that there are only three unknown reactive elements at the supports. These can be determined by using the following fundamental equation of statics",
+    "options": [
+      "ΣH = 0",
+      "ΣV = 0",
+      "ΣH = 0, ΣH = 0",
+      "ΣH = 0, ΣV = 0, ΣM = 0"
+    ],
+    "correct": 3,
+    "explain": "For a 2D structure, the three independent equations of equilibrium are the summation of horizontal forces, vertical forces, and moments about any point."
+  },
+  {
+    "q": "50. For a beam having fixed ends, the unknown element of the reactions, is",
+    "options": [
+      "horizontal components at either end",
+      "vertical components at either end",
+      "horizontal component at one end and vertical component at the other",
+      "horizontal and vertical components at both the ends"
+    ],
+    "correct": 3,
+    "explain": "A fixed support prevents translation in both directions and rotation, resulting in three unknowns per support (Horizontal, Vertical, and Moment)."
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "q": "451. The loss of pressure head for the laminar flow through pipes varies",
+    "options": [
+      "as the square of velocity",
+      "directly as the velocity",
+      "as the inverse of the velocity",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "According to the Hagen-Poiseuille equation for laminar flow, the head loss (hf) is given by (32μVL)/(ρgD²). This shows that head loss is directly proportional to the first power of the velocity (V)."
+  },
+  {
+    "q": "452. For the laminar flow through a pipe, the shear stress over the cross-section",
+    "options": [
+      "varies inversely as the distance from the centre",
+      "varies directly as the distance from the surface",
+      "varies directly as the distance from the centre",
+      "remains constant"
+    ],
+    "correct": 2,
+    "explain": "In a circular pipe, the shear stress distribution is linear, starting from zero at the center and reaching a maximum at the pipe wall. It is directly proportional to the radial distance (r) from the center."
+  },
+  {
+    "q": "453. For the laminar flow between two parallel plate",
+    "options": [
+      "max velocity = 2.0 times average",
+      "max velocity = 2.5 times average",
+      "max velocity = 1.5 times average",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For laminar flow between two stationary parallel plates, the velocity distribution is parabolic, and the maximum velocity (at the midpoint) is 1.5 times the average velocity."
+  },
+  {
+    "q": "454. The value of the kinetic energy correction factor (α) for the viscous flow through a circular pipe is",
+    "options": [
+      "1.33",
+      "1.50",
+      "2.0",
+      "1.25"
+    ],
+    "correct": 2,
+    "explain": "The kinetic energy correction factor (α) accounts for the non-uniform velocity distribution. For laminar (viscous) flow in a circular pipe, α is equal to 2.0."
+  },
+  {
+    "q": "455. The value of the momentum correction factor (β) for the viscous flow through a circular pipe is",
+    "options": [
+      "1.33",
+      "1.50",
+      "2.0",
+      "1.25"
+    ],
+    "correct": 0,
+    "explain": "The momentum correction factor (β) for laminar flow in a circular pipe is calculated as 4/3, which is approximately 1.33."
+  },
+  {
+    "q": "456. The velocity distribution in laminar flow through a circular pipe follows the",
+    "options": [
+      "parabolic law",
+      "linear law",
+      "logarithmic law",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In laminar flow, the velocity distribution across the pipe cross-section forms a parabola, with the maximum velocity at the center and zero velocity at the walls."
+  },
+  {
+    "q": "457. Hydraulic gradient line (H.G.L.) represents the sum of",
+    "options": [
+      "pressure head and kinetic head",
+      "kinetic head and datum head",
+      "pressure head, kinetic head and datum head",
+      "pressure head and datum head"
+    ],
+    "correct": 3,
+    "explain": "The Hydraulic Gradient Line (HGL) connects points representing the Piezometric Head, which is the sum of the Pressure Head (p/w) and the Datum Head (z)."
+  },
+  {
+    "q": "458. Total Energy Line (T.E.L.) represents the sum of",
+    "options": [
+      "pressure head and kinetic head",
+      "kinetic head and datum head",
+      "pressure head and datum head",
+      "pressure head, kinetic head and datum head"
+    ],
+    "correct": 3,
+    "explain": "The Total Energy Line (TEL) represents the total head of the fluid, which is the sum of Pressure Head (p/w), Datum Head (z), and Velocity/Kinetic Head (V²/2g)."
+  },
+  {
+    "q": "459. When the pipes are connected in series, the total rate of flow",
+    "options": [
+      "is equal to the sum of the rate of flow in each pipe",
+      "is equal to reciprocal of the sum",
+      "is the same as flowing through each pipe",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In a series pipe system, the discharge (Q) remains constant throughout all pipe segments (Q1 = Q2 = Q3 = ...), based on the principle of continuity."
+  },
+  {
+    "q": "460. Power transmitted through pipes will be maximum when",
+    "options": [
+      "Head lost due to friction = 1/2 total head",
+      "Head lost due to friction = 1/4 total head",
+      "Head lost due to friction = Total head",
+      "Head lost due to friction = 1/3 total head"
+    ],
+    "correct": 3,
+    "explain": "The condition for maximum power transmission through a pipe is that the head loss due to friction (hf) is equal to one-third of the total head (H) supplied at the inlet (hf = H/3)."
+  },
+  {
+    "q": "461. The velocity of pressure wave in terms of bulk modulus (K) and density (ρ) is given by",
+    "options": [
+      "C = √(ρ/K)",
+      "C = √(Kρ)",
+      "C = √(K/ρ)",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The speed of sound or a pressure wave in a fluid is determined by the fluid's compressibility (Bulk Modulus, K) and its mass density (ρ), calculated as C = √(K/ρ)."
+  },
+  {
+    "q": "462. Water-hammer in pipes takes place when",
+    "options": [
+      "fluid is flowing with high velocity",
+      "fluid is flowing with high pressure",
+      "flowing fluid is suddenly brought to rest by closing the valve",
+      "flowing fluid is gradually brought to rest"
+    ],
+    "correct": 2,
+    "explain": "Water hammer is a pressure surge caused when a fluid in motion is forced to stop or change direction suddenly, usually by the quick closure of a valve."
+  },
+  {
+    "q": "463. Mach number is defined as the ratio of",
+    "options": [
+      "inertia force to viscous force",
+      "viscous force to surface tension force",
+      "viscous force to elastic force",
+      "inertia force to elastic force"
+    ],
+    "correct": 3,
+    "explain": "Mach number is a dimensionless parameter representing the ratio of the inertia force to the elastic force (or the ratio of the velocity of the fluid to the velocity of sound in that fluid)."
+  },
+  {
+    "q": "464. Euler's number is the ratio of",
+    "options": [
+      "inertia force to pressure force",
+      "inertia force to elastic force",
+      "inertia force to gravity force",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Euler's number (Eu) expresses the relationship between the inertia force and the pressure force in a fluid flow."
+  },
+  {
+    "q": "465. Models are known undistorted model, if",
+    "options": [
+      "prototype and model have different scale ratios",
+      "prototype and model have same scale ratio",
+      "model and prototype are kinematically similar",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "An undistorted model is one that is geometrically similar to its prototype, meaning the scale ratio for all linear dimensions (length, width, height) is the same."
+  },
+  {
+    "q": "466. Geometric similarity between model and prototype means",
+    "options": [
+      "the similarity of discharge",
+      "the similarity of linear dimensions",
+      "the similarity of motion",
+      "the similarity of force"
+    ],
+    "correct": 1,
+    "explain": "Geometric similarity exists when the ratio of all corresponding linear dimensions in the model and prototype are equal."
+  },
+  {
+    "q": "467. Kinematic similarity between model and prototype means",
+    "options": [
+      "the similarity of forces",
+      "the similarity of shape",
+      "the similarity of motion",
+      "the similarity of discharge"
+    ],
+    "correct": 2,
+    "explain": "Kinematic similarity means the similarity of motion; it occurs when the ratios of velocities and accelerations at corresponding points in the model and prototype are equal."
+  },
+  {
+    "q": "468. Dynamic similarity between model and prototype means",
+    "options": [
+      "the similarity of forces",
+      "the similarity of motion",
+      "the similarity of shape",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Dynamic similarity is the similarity of forces; it exists when the ratios of corresponding forces (inertia, viscous, gravity, etc.) at corresponding points are the same."
+  },
+  {
+    "q": "469. Froude's number (Fe) is given by",
+    "options": [
+      "Fe = V√g",
+      "Fe = V√(g/L)",
+      "Fe = V/√(Lg)",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Froude's number is defined as the ratio of inertia force to gravity force, mathematically expressed as Fr = V / √(gL)."
+  },
+  {
+    "q": "470. Mach number (M) is given by",
+    "options": [
+      "M = C/V",
+      "M = V × C",
+      "M = V/C",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The Mach number is the ratio of the local flow velocity (V) to the local speed of sound (C) in that medium."
+  },
+  {
+    "q": "471. The square root of the ratio of inertia force to gravity force is called",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 1,
+    "explain": "The Froude number represents the square root of (Inertia Force / Gravity Force), commonly used in open channel flow and wave studies."
+  },
+  {
+    "q": "472. The square root of the ratio of inertia force to force due to compressibility is known as",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 2,
+    "explain": "The Mach number is the square root of the ratio of the inertia force to the force due to compressibility (elastic force)."
+  },
+  {
+    "q": "473. The square root of the ratio of inertia force to pressure force is known as",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 3,
+    "explain": "The Euler number is the square root of the ratio of the inertia force to the pressure force."
+  },
+  {
+    "q": "474. Model analysis of pipes flow are based on",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 0,
+    "explain": "Flow in closed conduits (pipes) is dominated by viscous forces; therefore, model studies for pipes are typically based on Reynolds similarity."
+  },
+  {
+    "q": "475. Model analysis of free surface flows are based on",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 1,
+    "explain": "Free surface flows (like rivers, canals, or spillways) are dominated by gravity; thus, they are analyzed using Froude number similarity."
+  },
+  {
+    "q": "476. Model analysis of aeroplanes and projectile moving at super-sonic speed are based on",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 2,
+    "explain": "For high-speed flows where compressibility effects are significant (supersonic), the Mach number is the primary similarity parameter used for model testing."
+  },
+  {
+    "q": "477. Drag is defined as the force exerted by a flowing fluid on a solid body",
+    "options": [
+      "in the direction of flow",
+      "perpendicular to the direction of flow",
+      "in the direction which is at an angle of 45°",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Drag is the component of the total force exerted by the fluid on the body in the direction of the relative motion (parallel to the flow)."
+  },
+  {
+    "q": "478. Total drag on a body is the sum of",
+    "options": [
+      "pressure drag and velocity drag",
+      "pressure drag and friction drag",
+      "friction drag and velocity drag",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Total drag consists of skin friction drag (viscous resistance) and pressure drag (form drag due to pressure differences between the front and back of the body)."
+  },
+  {
+    "q": "479. A body is called stream-lined body when it is placed in a flow and the surface",
+    "options": [
+      "coincides with the streamlines",
+      "does not coincide with the streamlines",
+      "is perpendicular to the streamlines",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A streamlined body is shaped such that its surface aligns with the streamlines of the flow, minimizing separation and pressure drag."
+  },
+  {
+    "q": "480. A body is called bluff body if the surface of the body",
+    "options": [
+      "coincides with the streamlines",
+      "does not coincide with the streamlines",
+      "is very smooth",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A bluff body has a shape that does not coincide with streamlines, causing flow separation and a large wake, resulting in high pressure drag."
+  },
+  {
+    "q": "481. The skin friction drag on a sphere (for Reynolds number less than 0.2) is equal to",
+    "options": [
+      "one-third of the total drag",
+      "half of the total drag",
+      "two-third of the total drag",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In Stokes' flow (Re < 0.2), the total drag is 6πηrv. Mathematically, 2/3 of this is due to skin friction and 1/3 is due to pressure."
+  },
+  {
+    "q": "482. The pressure drag on a sphere (for Reynolds number less than 0.2) is equal to",
+    "options": [
+      "one-third of the total drag",
+      "half of the total drag",
+      "two-third of the total drag",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "As derived in Stokes' law, for very low Reynolds numbers, pressure drag accounts for exactly one-third of the total resistance force."
+  },
+  {
+    "q": "483. Terminal velocity of a falling body is equal to",
+    "options": [
+      "the maximum velocity with which body will fall",
+      "the maximum constant velocity with which body will fall",
+      "half of the maximum velocity",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Terminal velocity is reached when the sum of the drag force and buoyancy equals the downward force of gravity, resulting in zero acceleration and constant velocity."
+  },
+  {
+    "q": "484. When a falling body has attained terminal velocity, the weight of the body is equal to",
+    "options": [
+      "drag force minus buoyant force",
+      "buoyant force minus drag force",
+      "drag force plus the buoyant force",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "At equilibrium (terminal velocity), the downward Weight (W) is balanced by the upward forces: Drag (Fd) and Buoyancy (Fb). Thus, W = Fd + Fb."
+  },
+  {
+    "q": "485. The boundary-layer takes place",
+    "options": [
+      "for ideal fluids",
+      "for pipe-flow only",
+      "for real fluids",
+      "for flow over flat plate only"
+    ],
+    "correct": 2,
+    "explain": "Boundary layers form in 'real' (viscous) fluids due to the no-slip condition at the solid boundary. Ideal fluids have no viscosity and thus no boundary layer."
+  },
+  {
+    "q": "486. The boundary layer is called turbulent boundary layer if",
+    "options": [
+      "Reynold number is more than 2000",
+      "Reynold number is more than 4000",
+      "Reynold number is more than 5 × 10⁵",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explain": "For flow over a flat plate, the transition from laminar to turbulent boundary layer typically occurs at a critical Reynolds number of approximately 5 × 10⁵."
+  },
+  {
+    "q": "487. Laminar sub-layer exists in",
+    "options": [
+      "laminar boundary layer region",
+      "turbulent boundary layer region",
+      "transition zone",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Even in a turbulent boundary layer, there is a very thin region extremely close to the wall where viscous forces dominate and the flow remains laminar; this is the laminar sub-layer."
+  },
+  {
+    "q": "488. The separation of boundary layer takes place in case of",
+    "options": [
+      "negative pressure gradient",
+      "positive pressure gradient",
+      "zero pressure gradient",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Boundary layer separation occurs in the presence of an adverse (positive) pressure gradient (dp/dx > 0), where the fluid is moving against increasing pressure."
+  },
+  {
+    "q": "489. The drag force exerted by a fluid on a body immersed in the fluid is due to",
+    "options": [
+      "pressure and viscous force",
+      "pressure and gravity forces",
+      "pressure and turbulence forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Drag is the combined effect of shear stress (viscous force) and the pressure distribution (pressure force) acting on the surface of the body."
+  },
+  {
+    "q": "490. Super-sonic flow means",
+    "options": [
+      "mach number = 1.0",
+      "mach number < 1.0",
+      "mach number > 1.0",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Supersonic flow is defined as flow where the speed of the fluid exceeds the local speed of sound, resulting in a Mach number greater than 1."
+  },
+  {
+    "q": "491. Sonic-flow means",
+    "options": [
+      "mach number < 1.0",
+      "mach number = 1.0",
+      "mach number > 1.0",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Sonic flow occurs when the fluid velocity is exactly equal to the local speed of sound (Mach = 1)."
+  },
+  {
+    "q": "492. In sonic-flow, the disturbances, created by a projectile, moves",
+    "options": [
+      "along the projectile",
+      "ahead of the projectile",
+      "behind the projectile",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In sonic flow, the projectile and the pressure disturbances it creates travel at the same speed, so they move together."
+  },
+  {
+    "q": "493. In super-sonic flow, the projectile (which creates disturbances) moves",
+    "options": [
+      "ahead of the disturbances",
+      "along the disturbances",
+      "behind the disturbances",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In supersonic flow, the projectile travels faster than the speed of sound (the speed of disturbances), so it stays ahead of the pressure waves it creates."
+  },
+  {
+    "q": "494. For sub-sonic flow, if the area of flow increases",
+    "options": [
+      "velocity is constant",
+      "velocity increases",
+      "velocity decreases",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In subsonic flow (Mach < 1), a diffuser (increasing area) causes the velocity to decrease and the pressure to increase, as per the continuity and Bernoulli principles."
+  },
+  {
+    "q": "495. For super-sonic flow, if the area of flow increases, then",
+    "options": [
+      "velocity decreases",
+      "velocity increases",
+      "velocity is constant",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In supersonic flow (Mach > 1), the relationship between area and velocity is inverted: an increase in area actually causes an increase in velocity."
+  },
+  {
+    "q": "496. The discharge through a trapezoidal channel is maximum when",
+    "options": [
+      "half of top width = sloping side",
+      "top width = half of sloping side",
+      "top width = 1.5 × sloping side",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For the most economical trapezoidal section, one of the conditions is that the length of the sloping side must be equal to half of the top width."
+  },
+  {
+    "q": "497. The depth of flow at which specific energy is minimum is called",
+    "options": [
+      "normal depth",
+      "critical depth",
+      "alternate depth",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Critical depth (yc) is defined as the depth of flow in an open channel at which the specific energy is at its minimum value for a given discharge."
+  },
+  {
+    "q": "498. Numerical value of gauge pressure is",
+    "options": [
+      "more than absolute pressure",
+      "less than absolute pressure",
+      "equal to the absolute pressure",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Absolute Pressure = Gauge Pressure + Atmospheric Pressure. Therefore, gauge pressure is always less than absolute pressure by the amount of atmospheric pressure."
+  },
+  {
+    "q": "499. For a supersonic flow, velocity increases",
+    "options": [
+      "with the decrease of area of flow",
+      "with the increase of area of flow",
+      "when area of flow is constant",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "As noted in question 495, for supersonic flow (Mach > 1), the velocity increases as the cross-sectional area of flow increases."
+  },
+  {
+    "q": "500. If the depth of flow along the length of the channel is constant, then flow is known as",
+    "options": [
+      "laminar",
+      "uniform",
+      "non-uniform",
+      "steady"
+    ],
+    "correct": 1,
+    "explain": "Uniform flow in an open channel occurs when the depth, discharge, and velocity remain constant at every section along the channel's length."
+  },
+  {
+    "q": "501. If the depth of flow along the length of the channel is a variable, then flow is known as",
+    "options": [
+      "laminar",
+      "uniform",
+      "non-uniform",
+      "steady"
+    ],
+    "correct": 2,
+    "explain": "Non-uniform flow (or varied flow) occurs when the depth of flow changes from one section to another along the channel."
+  },
+  {
+    "q": "502. If the velocity at a section of a channel is constant with respect to time, then the flow in the channel is known as",
+    "options": [
+      "uniform",
+      "laminar",
+      "steady",
+      "unsteady"
+    ],
+    "correct": 2,
+    "explain": "Steady flow is defined by parameters (like velocity or depth) being independent of time at any given location."
+  },
+  {
+    "q": "503. If the velocity at a section of a channel is variable with respect to time, then the flow in the channel is known as",
+    "options": [
+      "uniform",
+      "laminar",
+      "steady",
+      "unsteady"
+    ],
+    "correct": 3,
+    "explain": "Unsteady flow occurs when fluid properties at a section change over time."
+  },
+  {
+    "q": "504. If the depth of flow in a channel is varying slowly, then the flow is known as",
+    "options": [
+      "G.V.F.",
+      "R.V.F.",
+      "P.V.F.",
+      "M.V.F."
+    ],
+    "correct": 0,
+    "explain": "G.V.F. stands for Gradually Varied Flow, where the depth changes over a long distance."
+  },
+  {
+    "q": "505. If the depth of flow in a channel is varying rapidly, then the flow is known as",
+    "options": [
+      "G.V.F.",
+      "R.V.F.",
+      "P.V.F.",
+      "M.V.F."
+    ],
+    "correct": 1,
+    "explain": "R.V.F. stands for Rapidly Varied Flow, occurring when depth changes abruptly over a short distance, such as in a hydraulic jump."
+  },
+  {
+    "q": "506. For sub-critical flow in a channel",
+    "options": [
+      "Fe = 1",
+      "Fe > 1",
+      "Fe < 1",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Sub-critical flow (tranquil flow) occurs when the Froude number (Fe) is less than 1."
+  },
+  {
+    "q": "507. Chezy's formula is used for finding... in a channel.",
+    "options": [
+      "velocity",
+      "discharge",
+      "slope",
+      "hydraulic mean depth"
+    ],
+    "correct": 0,
+    "explain": "Chezy's formula (V = C√(RS)) is used to calculate the mean velocity of flow in an open channel."
+  },
+  {
+    "q": "508. Manning's formula is used for finding... in a channel.",
+    "options": [
+      "rate of flow",
+      "velocity",
+      "hydraulic mean depth",
+      "slope"
+    ],
+    "correct": 1,
+    "explain": "Manning's formula is an empirical formula used to estimate the velocity of a liquid flowing in an open channel."
+  },
+  {
+    "q": "509. A section of a channel is most efficient if the discharge through the channel is maximum for a given",
+    "options": [
+      "area of flow",
+      "surface resistance",
+      "slope of the bed of channel",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "An efficient or economical section provides maximum discharge for a given area, resistance, and bed slope by minimizing the wetted perimeter."
+  },
+  {
+    "q": "510. A rectangular channel will be most efficient if depth of flow is equal to",
+    "options": [
+      "width of the channel",
+      "twice the width of the channel",
+      "half the width of channel",
+      "one-quarter width of channel"
+    ],
+    "correct": 2,
+    "explain": "A rectangular channel is most efficient when the depth (y) is half of the width (b), or b = 2y."
+  },
+  {
+    "q": "511. For the most efficient rectangular channel, the hydraulic mean depth should be equal to",
+    "options": [
+      "depth of flow",
+      "half of depth of flow",
+      "twice the depth of flow",
+      "one-quarter depth of flow"
+    ],
+    "correct": 1,
+    "explain": "For an economical rectangular section, the hydraulic mean depth (R = A/P) is equal to half the depth of flow (y/2)."
+  },
+  {
+    "q": "512. A trapezoidal channel will be most efficient if length of sloping side is equal to",
+    "options": [
+      "twice the top width",
+      "top width",
+      "half of the top width",
+      "none-quarter of top width"
+    ],
+    "correct": 2,
+    "explain": "This is a key geometric property of a most economical trapezoidal section (similar to question 496)."
+  },
+  {
+    "q": "513. For the most efficient trapezoidal channel, the hydraulic mean depth should be",
+    "options": [
+      "twice the depth of flow",
+      "1.5 times the depth of flow",
+      "equal to the depth of flow",
+      "half the depth of flow"
+    ],
+    "correct": 3,
+    "explain": "Similar to the rectangular section, the most efficient trapezoidal section has a hydraulic mean depth R = y/2."
+  },
+  {
+    "q": "514. A trapezoidal channel will be most efficient if",
+    "options": [
+      "three sides of trapezoidal are equal",
+      "three sides of trapezoidal are unequal",
+      "three sides of trapezoidal section are tangential to the semi-circle",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The most economical trapezoidal section is one where a semi-circle with radius equal to the depth of flow can be inscribed, touching the three sides."
+  },
+  {
+    "q": "515. The total energy of flowing water in a channel with respect to bed of channel is known as",
+    "options": [
+      "total energy",
+      "specific energy",
+      "hydraulic gradient",
+      "mechanical energy"
+    ],
+    "correct": 1,
+    "explain": "Specific energy is the energy per unit weight of water at any section of a channel measured with respect to the channel bed as the datum."
+  },
+  {
+    "q": "516. The specific energy is given by (where y = depth, V = velocity)",
+    "options": [
+      "y + V²/2g",
+      "2y + V²/2g",
+      "y + V²/g",
+      "p/w + z + V²/2g"
+    ],
+    "correct": 0,
+    "explain": "The specific energy (E) is the sum of the depth of flow (potential energy) and the velocity head (kinetic energy): E = y + V²/2g."
+  },
+  {
+    "q": "517. Critical depth is the depth of water at which",
+    "options": [
+      "specific energy is maximum",
+      "specific energy is minimum",
+      "specific energy is zero",
+      "specific energy is one plus minimum specific energy"
+    ],
+    "correct": 1,
+    "explain": "As defined in question 497, critical depth corresponds to the state of minimum specific energy for a given discharge."
+  },
+  {
+    "q": "518. The velocity of flow, corresponding to critical depth is known as",
+    "options": [
+      "maximum velocity",
+      "minimum velocity",
+      "critical velocity",
+      "average velocity"
+    ],
+    "correct": 2,
+    "explain": "Critical velocity (Vc) is the velocity of flow when the depth is at the critical depth (yc)."
+  },
+  {
+    "q": "519. Hydraulic jump will take place if depth of flow is",
+    "options": [
+      "more than critical depth",
+      "equal to critical depth",
+      "less than critical depth",
+      "two times the critical depth"
+    ],
+    "correct": 2,
+    "explain": "A hydraulic jump occurs when a supercritical flow (depth < critical depth) transitions to a subcritical flow (depth > critical depth)."
+  },
+  {
+    "q": "520. The loss of energy during hydraulic jump is given by",
+    "options": [
+      "hL = (y1 + y2)/4y1y2",
+      "hL = (y1 - y2)²/2y1y2",
+      "hL = (y2 - y1)²/2y1y2",
+      "hL = (y2 - y1)³/4y1y2"
+    ],
+    "correct": 3,
+    "explain": "The energy loss (head loss) in a hydraulic jump in a rectangular channel is calculated as ΔE = (y2 - y1)³ / (4 * y1 * y2)."
+  }
+]

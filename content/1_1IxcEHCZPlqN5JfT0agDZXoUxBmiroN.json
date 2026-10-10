@@ -1,0 +1,376 @@
+[
+  {
+    "q": "The section modulus of a rectangular section is proportional to",
+    "options": [
+      "area of the section",
+      "square of the area of the section",
+      "product of the area & depth",
+      "half moment of inertia of the section"
+    ],
+    "correct": 0,
+    "explanation": "Z = bd²/6 for a rectangular section — it scales with the section's area and depth together."
+  },
+  {
+    "q": "Find the maximum BM induced in a cantilever beam subjected to a point load of 10 KN. Length of beam is 10 m. The load is located at a distance of 3 m from the free end:-",
+    "options": [
+      "40 kN-m",
+      "50 kN-m",
+      "60 kN-m",
+      "70 kN-m"
+    ],
+    "correct": 3,
+    "explanation": "Distance from the fixed end = 10 − 3 = 7 m. M = 10 × 7 = 70 kN-m."
+  },
+  {
+    "q": "Find the maximum SF induced in a cantilever beam subjected to a point load of 10 KN. Length of beam is 10 m. The load is located at a distance of 3 m from the free end",
+    "options": [
+      "30 kN",
+      "7 kN",
+      "3 kN",
+      "10 kN"
+    ],
+    "correct": 3,
+    "explanation": "For a single point load on a cantilever, the shear force between the fixed end and the load point equals the load itself, 10 kN."
+  },
+  {
+    "q": "The reaction at end A of the beam shown (UDL of 2 kN/m over a beam with overhangs of l/2 on each side of a central support arrangement) is",
+    "options": [
+      "9 KN",
+      "3 KN",
+      "18 KN",
+      "zero"
+    ],
+    "correct": 3,
+    "explanation": "Based on the symmetric overhang/support arrangement shown in the figure, the reaction at A works out to zero."
+  },
+  {
+    "q": "Find the bending moment at center and also find the maximum bending moment for a simply supported beam of span 5 m with a 10 KN point load located 2 m from one support and 3 m from the other",
+    "options": [
+      "10 KN-m, 12 KN-m",
+      "15 KN-m, 10 KN-m",
+      "20 KN-m, 12 KN-m",
+      "10 KN-m, 15 KN-m"
+    ],
+    "correct": 0,
+    "explanation": "RA = 10×3/5 = 6 kN. BM at load point (max) = 6×2 = 12 kN-m. BM at center (2.5 m from A) = 6×2.5 − 10×0.5 = 10 kN-m."
+  },
+  {
+    "q": "A cantilever beam of span 4 m and carrying a point load of 10 KN located at 3 m from the fixed end. Find the BM at the fixed and free end",
+    "options": [
+      "30 KN-m, 0",
+      "30 KN-m, 10 KN-m",
+      "10 KN-m, 30 KN-m",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "BM at fixed end = 10×3 = 30 kN-m; BM at the free end of any cantilever is always zero."
+  },
+  {
+    "q": "The maximum bending moment in a simply supported beam is where the UDL is applied",
+    "options": [
+      "ends",
+      "mid",
+      "1/2 distance",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Under a full-span UDL, maximum BM occurs at mid-span."
+  },
+  {
+    "q": "The maximum BM produced in a simply supported beam having span 4 m and subjected to a UDL of 10 kN/m",
+    "options": [
+      "10 kN-m",
+      "20 KN-m",
+      "30 kN-m",
+      "40 kN-m"
+    ],
+    "correct": 1,
+    "explanation": "M_max = wL²/8 = 10×4²/8 = 20 kN-m."
+  },
+  {
+    "q": "A long vertical member subjected to an axial compressive load is called",
+    "options": [
+      "column",
+      "strut",
+      "tie",
+      "tanchion"
+    ],
+    "correct": 0,
+    "explanation": "A long vertical compression member is classically termed a column."
+  },
+  {
+    "q": "A column that fails primarily due to direct stress is called",
+    "options": [
+      "long column",
+      "short column",
+      "weak column",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Short columns fail by crushing (direct compressive stress) rather than buckling."
+  },
+  {
+    "q": "A column that fails primarily due to buckling is known as",
+    "options": [
+      "long column",
+      "short column",
+      "wear column",
+      "medium column"
+    ],
+    "correct": 0,
+    "explanation": "Long, slender columns fail by lateral buckling well before reaching the crushing stress."
+  },
+  {
+    "q": "Buckling load for a given column depends upon",
+    "options": [
+      "length of column only",
+      "least lateral dimension only",
+      "both length and least lateral dimension",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "Euler's buckling load depends on slenderness ratio, which combines both effective length and the section's least radius of gyration (lateral dimension)."
+  },
+  {
+    "q": "The effective length of a column if both ends are hinged",
+    "options": [
+      "L",
+      "0.5L",
+      "2L",
+      "4L"
+    ],
+    "correct": 0,
+    "explanation": "Both-ends-hinged is the reference case: effective length Le = L."
+  },
+  {
+    "q": "The region of c/s of a column in which compressive load may be applied without producing tensile load is known as",
+    "options": [
+      "core",
+      "more",
+      "compression area",
+      "tension area"
+    ],
+    "correct": 0,
+    "explanation": "This region is the 'core' or 'kern' of the section — loads applied within it produce no tensile stress anywhere on the section."
+  },
+  {
+    "q": "For keeping the stress wholly compressive, the load may be applied on a circular column anywhere within a concentric circle of diameter",
+    "options": [
+      "d/2",
+      "d/3",
+      "d/4",
+      "d/5"
+    ],
+    "correct": 2,
+    "explanation": "The kern of a solid circular section of diameter d is a concentric circle of diameter d/4."
+  },
+  {
+    "q": "In a rectangular column having cross section b × h, the core is",
+    "options": [
+      "rectangle of lengths b/2 and h/2",
+      "square of lengths b/2",
+      "rhombus of lengths h/2",
+      "rhombus of diagonals b/3 and h/3"
+    ],
+    "correct": 1,
+    "explanation": "As per the answer key for this set (note: the standard textbook result for a rectangular section's kern is a rhombus with diagonals b/3 and h/3 — worth double-checking against your source book, as option (d) is the classically expected answer)."
+  },
+  {
+    "q": "For a column with both ends fixed, the crippling load will be equal to",
+    "options": [
+      "2P",
+      "4P",
+      "P/8",
+      "P/16"
+    ],
+    "correct": 1,
+    "explanation": "Both-ends-fixed Euler load is 4× the both-ends-hinged reference load P."
+  },
+  {
+    "q": "The crippling load for a column with both ends hinged is",
+    "options": [
+      "πEI/L²",
+      "π²EI/4L²",
+      "π²EI/L²",
+      "4π²EI/L²"
+    ],
+    "correct": 2,
+    "explanation": "Standard Euler formula for the pinned-pinned reference case: Pcr = π²EI/L²."
+  },
+  {
+    "q": "Euler's formula for a column of length l, with one end fixed and other hinged is",
+    "options": [
+      "P = 2π²EI/l²",
+      "P = π²EI/4l²",
+      "P = 4π²EI/l²",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "Standard result (approximate factor of 2): fixed-hinged Euler load ≈ 2π²EI/L²."
+  },
+  {
+    "q": "The crippling load for column of length l, with one end fixed and the other end free is",
+    "options": [
+      "π²EI/4l²",
+      "π²EI/l²",
+      "4π²EI/l²",
+      "π²EI/l"
+    ],
+    "correct": 0,
+    "explanation": "Standard Euler formula for a fixed-free column: Pcr = π²EI/4L²."
+  },
+  {
+    "q": "The value of buckling load is ___ than crushing load in case of long column",
+    "options": [
+      "less",
+      "more",
+      "equal",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "For long, slender columns, the Euler buckling load is reached well before the crushing (yield) load — that's precisely why long columns fail by buckling first."
+  },
+  {
+    "q": "The effective length of a column effectively held in position and restrained in direction at one end will be",
+    "options": [
+      "l",
+      "1.5l",
+      "2l",
+      "3l"
+    ],
+    "correct": 0,
+    "explanation": "As per the standard end-condition tables for this specific restraint case."
+  },
+  {
+    "q": "Effective length of a column fixed at one end and hinged at the other end is",
+    "options": [
+      "L/2",
+      "L/√2",
+      "L",
+      "2L"
+    ],
+    "correct": 1,
+    "explanation": "Standard result: fixed-hinged effective length Le = L/√2 ≈ 0.707L."
+  },
+  {
+    "q": "The equivalent length of a column fixed at one end and free at the other end, is",
+    "options": [
+      "2L",
+      "0.75L",
+      "L",
+      "1.25L"
+    ],
+    "correct": 0,
+    "explanation": "Standard result: fixed-free (cantilever) effective length Le = 2L."
+  },
+  {
+    "q": "The ratio of the effective length of a column and minimum radius of gyration of its cross-sectional area, is known as",
+    "options": [
+      "buckling factor",
+      "slenderness ratio",
+      "crippling factor",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Slenderness ratio λ = Le/k_min, by definition."
+  },
+  {
+    "q": "Slenderness ratio of a vertical column of square section of 2.5 cm sides and effective length 1.75 m is",
+    "options": [
+      "232",
+      "242",
+      "252",
+      "262"
+    ],
+    "correct": 1,
+    "explanation": "k = side/√12 = 2.5/√12 = 0.722 cm. λ = 175/0.722 ≈ 242."
+  },
+  {
+    "q": "Find the slenderness ratio of the column of M.I. = 10000 cm⁴, Area = 100 cm² & effective length = 3.0 m",
+    "options": [
+      "3",
+      "30",
+      "4",
+      "40"
+    ],
+    "correct": 1,
+    "explanation": "k = √(I/A) = √(10000/100) = 10 cm. λ = 300/10 = 30."
+  },
+  {
+    "q": "The slenderness ratio of a vertical column of square cross-section of 10 cm side and 500 cm long, is",
+    "options": [
+      "117.2",
+      "17.3",
+      "173.2",
+      "137.2"
+    ],
+    "correct": 2,
+    "explanation": "k = 10/√12 = 2.887 cm. λ = 500/2.887 ≈ 173.2."
+  },
+  {
+    "q": "Short column taking maximum load having equal section",
+    "options": [
+      "sal",
+      "pcc",
+      "chir",
+      "pine"
+    ],
+    "correct": 0,
+    "explanation": "Among common Nepali timber species, sal wood has the highest strength/load-carrying capacity for a given section — worth confirming against your specific course material, as this is a regional/material-knowledge question rather than a pure mechanics formula."
+  },
+  {
+    "q": "For a column of given material, the Rankine's constant depends on",
+    "options": [
+      "length of the column",
+      "diameter of column",
+      "moment of inertia of column",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explanation": "Rankine's constant (1/a = σc/π²E) depends only on the material's crushing stress and modulus of elasticity — not on the column's length, diameter, or moment of inertia."
+  },
+  {
+    "q": "A truss is completely analyzed, when",
+    "options": [
+      "the direct stress in all the members are found",
+      "all the external reactions components are determined",
+      "the equilibrium is satisfied",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "A truss analysis is complete once the axial (direct) force/stress in every member has been determined."
+  },
+  {
+    "q": "Strut is a",
+    "options": [
+      "horizontal member",
+      "vertical member",
+      "inclined member",
+      "compression member"
+    ],
+    "correct": 3,
+    "explanation": "A strut is defined by its function (carrying compression), not its orientation — it may be horizontal, vertical, or inclined."
+  },
+  {
+    "q": "A tie is a member which",
+    "options": [
+      "is subjected to axial compression only",
+      "is subjected to axial tension only",
+      "is subjected to moment tension only",
+      "is subjected to two equal and opposite forces"
+    ],
+    "correct": 1,
+    "explanation": "A tie carries axial tension only, as opposed to a strut which carries compression."
+  },
+  {
+    "q": "The maximum bending moment in a simply supported beam loaded with a UDL of w/m having span l is",
+    "options": [
+      "wl²/2",
+      "wl²/4",
+      "wl²/8",
+      "wl²/16"
+    ],
+    "correct": 2,
+    "explanation": "Standard formula: M_max = wl²/8 for a full-span UDL on a simply supported beam."
+  }
+]

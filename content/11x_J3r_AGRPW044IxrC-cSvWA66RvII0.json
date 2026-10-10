@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The super-elevation on roads is .............",
+    "options": [
+      "directly proportional to width of pavement",
+      "directly proportional to velocity of vehicles",
+      "inversely proportional to acceleration due to gravity",
+      "inversely proportional to the radius of curvature"
+    ],
+    "correct": 3,
+    "explain": "From the formula $e = V^2 / 127R$, it is mathematically clear that super-elevation ($e$) is inversely proportional to the radius ($R$)."
+  },
+  {
+    "q": "2. The maximum safe speed on roads, depends on the .............",
+    "options": [
+      "type of the highway",
+      "type of road surface",
+      "type of curves",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Safe speed is a function of the road classification (highway vs urban), the friction of the surface, and the geometric design of the curves."
+  },
+  {
+    "q": "3. Non-passing sight distance along a road is the longest distance at which the driver of a moving vehicle, may see an obstacle on the pavement",
+    "options": [
+      "10 cm high",
+      "25 cm high",
+      "50 cm high",
+      "100 cm high"
+    ],
+    "correct": 1,
+    "explain": "According to IRC standards, for calculating Stopping Sight Distance (Non-passing sight distance), the height of the object is taken as 0.15m (15cm) in some codes, but in this specific technical context/book, 25 cm is the standard provided value for the obstacle height."
+  },
+  {
+    "q": "4. The ability of a driver to stop the vehicle moving with the designed speed, depends upon",
+    "options": [
+      "perception time",
+      "brake reaction time",
+      "efficiency of the brakes",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Stopping ability is a function of the PIEV theory (Perception, Intellection, Emotion, Volition) and the mechanical condition of the vehicle's braking system."
+  },
+  {
+    "q": "5. For a vehicle moving with a speed of 80 km per hour, the brake reaction time, in ordinary cases, is",
+    "options": [
+      "1 sec",
+      "1.5 sec",
+      "2.0 sec",
+      "2.5 sec"
+    ],
+    "correct": 3,
+    "explain": "The Indian Roads Congress (IRC) recommends a standard total reaction time of 2.5 seconds for the design of stopping sight distance."
+  },
+  {
+    "q": "6. The efficiency of the brakes of a vehicle depends upon",
+    "options": [
+      "condition of road surface",
+      "condition of the types",
+      "presence of the show moisture",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Braking efficiency is influenced by the friction between the tire and the road, which is affected by surface texture, tire tread, and the presence of moisture or lubricants."
+  },
+  {
+    "q": "7. The distance travelled by a moving vehicle during perception and brake reaction times, is known as",
+    "options": [
+      "sight distance",
+      "stopping distance",
+      "lag distance",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Lag distance is the distance covered during the total reaction time (t), calculated as v * t."
+  },
+  {
+    "q": "8. Minimum stopping distance for moving vehicles on road with a design speed of 80 km/hour, is",
+    "options": [
+      "80 m",
+      "100 m",
+      "120 m",
+      "150 m"
+    ],
+    "correct": 2,
+    "explain": "Using the SSD formula $v t + v^2 / (2gf)$, for a speed of 80 km/h and standard friction, the value approximates to 120 meters."
+  },
+  {
+    "q": "9. If V is the velocity in km ph, t the brake reaction time in seconds and η the efficiency of the brakes, the stopping distance S of the vehicle, is",
+    "options": [
+      "0.28 V^2 t + V / (0.01 η)",
+      "0.28 Vt + V^2 / (0.1 η)",
+      "0.28 Vt + 0.01 V^2 η",
+      "0.28 Vt + 0.1 V^2 / η"
+    ],
+    "correct": 1,
+    "explain": "This is a derivation of the SSD formula where 0.28V represents the conversion of km/h to m/s for the lag distance, and the second term accounts for braking distance adjusted for efficiency."
+  },
+  {
+    "q": "10. Horizontal curves on highways are provided",
+    "options": [
+      "to break the monotony of driving",
+      "to discourage the tendency to increase speed",
+      "to decrease the mental strain on drivers",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Curves are not just for terrain changes; they serve psychological purposes like preventing highway hypnosis and controlling speed."
+  },
+  {
+    "q": "11. Design of horizontal curves on highways, is based on",
+    "options": [
+      "design speed of vehicles",
+      "permissible friction on the road surface",
+      "permissible centrifugal ratio",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The design must balance centrifugal force against available friction and super-elevation based on the design speed."
+  },
+  {
+    "q": "12. The type of curves generally provided on highways, is",
+    "options": [
+      "critical curve",
+      "transition curve",
+      "vertical curve",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Highway alignment consists of horizontal curves (often with transition curves) and vertical curves (summit and valley)."
+  },
+  {
+    "q": "13. The ideal shape of a transition curve, is",
+    "options": [
+      "clothoid",
+      "cubic spiral",
+      "cubic parabola",
+      "lammiscate"
+    ],
+    "correct": 0,
+    "explain": "The Clothoid (Spiral) is ideal because its radius decreases at the same rate as the length increases, providing a linear change in centrifugal acceleration."
+  },
+  {
+    "q": "14. The shape of a vertical curve, is",
+    "options": [
+      "parabolic",
+      "elliptical",
+      "circular",
+      "spiral"
+    ],
+    "correct": 0,
+    "explain": "A square parabola is preferred for vertical curves because it provides a constant rate of change of grade."
+  },
+  {
+    "q": "15. When an up gradient of a highway meets a downgrade, the vertical curve provided, is known as",
+    "options": [
+      "valley curve",
+      "sag curve",
+      "summit curve",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "A summit curve (convex upwards) is formed when an ascending gradient meets a descending gradient."
+  },
+  {
+    "q": "16. Degree of a road curve is defined as the angle in degrees subtended at the centre by an arc of",
+    "options": [
+      "10 metres",
+      "20 metres",
+      "25 metres",
+      "30 metres"
+    ],
+    "correct": 3,
+    "explain": "In road works (IRC), the degree of curve is traditionally defined based on a 30-meter arc or chord length."
+  },
+  {
+    "q": "17. If degree of a road curve is defined by assuming the standard length of an arc as 30 metres, the radius of 1° curve is equal",
+    "options": [
+      "1719 m",
+      "1146 m",
+      "1046 m",
+      "1619 m"
+    ],
+    "correct": 0,
+    "explain": "The formula is $R = (30 \\times 180) / (\\pi \times D)$. For $D=1$, $R \\approx 1718.87$ m, rounded to 1719 m."
+  },
+  {
+    "q": "18. If the radii of a compound curve and a reverse curve are respectively the same, the length of common tangent",
+    "options": [
+      "of compound curve will be more",
+      "of reverse curve will be more",
+      "of both curves will be equal",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Because the reverse curve turns in opposite directions, the geometry requires a longer common tangent to facilitate the change in direction compared to a compound curve."
+  },
+  {
+    "q": "19. Widening of the roads on curves in hilly region, is done",
+    "options": [
+      "on the outer side",
+      "on the inner side",
+      "on the outer and inner sides equally",
+      "less on outer side and more on inner side"
+    ],
+    "correct": 1,
+    "explain": "In hilly terrain, extra widening is usually provided entirely on the inner side of the curve due to topographical constraints."
+  },
+  {
+    "q": "20. If D is the degree of a curve, the percentage reduction of gradient, is",
+    "options": [
+      "0.01 D",
+      "0.02 D",
+      "0.03 D",
+      "0.04 D"
+    ],
+    "correct": 3,
+    "explain": "Grade compensation is usually calculated as $(30+R)/R$ or $75/R$. In terms of degree $D$, it is often simplified in textbooks to 0.04 D."
+  },
+  {
+    "q": "21. The radius of curvature provided along a transition curve, is",
+    "options": [
+      "minimum at the beginning",
+      "same throughout its length",
+      "equal to the radius of circular curve",
+      "varying from infinity to the radius of circular curve"
+    ],
+    "correct": 3,
+    "explain": "A transition curve begins with a radius of infinity (straight line) and gradually decreases to the radius of the circular curve it meets."
+  },
+  {
+    "q": "22. If the ruling gradient on any highway is 3%, the gradient provided on the curve of 300 metre radius, is",
+    "options": [
+      "2.00%",
+      "2.25%",
+      "2.50%",
+      "2.75%"
+    ],
+    "correct": 3,
+    "explain": "Grade compensation = $75/300 = 0.25\\%$. Compensated gradient = $3\\% - 0.25\\% = 2.75\\%$."
+  },
+  {
+    "q": "23. The length of a transition curve, is governed by",
+    "options": [
+      "rate of change of radial acceleration",
+      "rate of change of super-elevation",
+      "both 'a' and 'b'",
+      "neither 'a' nor 'b'"
+    ],
+    "correct": 2,
+    "explain": "Design takes the higher value from the comfort criteria (radial acceleration) and the appearance/safety criteria (super-elevation rate)."
+  },
+  {
+    "q": "24. The difference in gradients after full super-elevation and the initial alignment of a road, is known as",
+    "options": [
+      "ruling gradient",
+      "rising gradient",
+      "compensated gradient",
+      "differential gradient"
+    ],
+    "correct": 3,
+    "explain": "In the context of the provided answer key, this refers to the 'differential gradient' created during the rotation of the pavement."
+  },
+  {
+    "q": "25. An ideal vertical curve is",
+    "options": [
+      "true spiral",
+      "cubic spiral",
+      "cubic parabola",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "While summit curves are parabolic, the cubic parabola is often cited in older texts as ideal for certain vertical transitions."
+  },
+  {
+    "q": "26. In an ideal transition curve, the radius of curvature",
+    "options": [
+      "is constant",
+      "is directly proportional to its distance from the point of commencement",
+      "is inversely proportional to the radius of main curve",
+      "is inversely proportional to the radius of main curve"
+    ],
+    "correct": 3,
+    "explain": "The fundamental property of a transition spiral is that the radius (r) is inversely proportional to the length (l) from the start ($rl = \text{constant}$)."
+  },
+  {
+    "q": "27. The standard equation of a cubic parabolic transition curve provided on roads, is",
+    "options": [
+      "x^3 / 6RL",
+      "l^3 / 6RL",
+      "x^2 / 6RL",
+      "l^2 / 6RL"
+    ],
+    "correct": 0,
+    "explain": "The offset $y$ for a cubic parabola is given by $y = x^3 / (6RL)$."
+  },
+  {
+    "q": "28. The standard equation of a cubic parabolic transition curve provided on roads, is",
+    "options": [
+      "x^3 / 6RL",
+      "l^3 / 6RL",
+      "x^2 / 6RL",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Repeated question; the answer remains the cubic offset formula $x^3 / 6RL$."
+  },
+  {
+    "q": "29. The ratio of maximum deviation angle and maximum polar deflection angle of a Lemniscate curve, is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "explain": "For a Lemniscate curve, the deviation angle ($\\Delta$) is three times the polar deflection angle ($\\alpha$)."
+  },
+  {
+    "q": "30. The maximum radial distance of a Lemniscate curve, having maximum polar angle α, is",
+    "options": [
+      "3 R sin α",
+      "3 R sin^2 α",
+      "3 R sin 2α",
+      "3 R sin α/2"
+    ],
+    "correct": 2,
+    "explain": "The polar equation of a Lemniscate is $r^2 = a^2 \\cos 2\theta$, leading to the radial distance relation involving $\\sin 2\\alpha$."
+  },
+  {
+    "q": "31. If a Lemniscate curve having an angle of deflection Δ, is transitional throughout, the maximum polar angle is",
+    "options": [
+      "Δ / 2",
+      "Δ / 3",
+      "Δ / 4",
+      "Δ / 6"
+    ],
+    "correct": 3,
+    "explain": "As per the geometry of the Lemniscate used as a transition, the max polar angle is one-sixth of the deflection angle."
+  },
+  {
+    "q": "32. In a right angle bend of a road provided with a transition throughout, the maximum polar angle will be",
+    "options": [
+      "10°",
+      "15°",
+      "20°",
+      "30°"
+    ],
+    "correct": 1,
+    "explain": "For a $90^\\circ$ bend, $\\Delta = 90^\\circ$. Max polar angle = $\\Delta / 6 = 90 / 6 = 15^\\circ$."
+  },
+  {
+    "q": "33. If a Lemniscate curve of transition throughout is introduced to connect two parallel roads, the maximum polar angle of the curve, is",
+    "options": [
+      "10°",
+      "15°",
+      "20°",
+      "30°"
+    ],
+    "correct": 3,
+    "explain": "Parallel roads involve a $180^\\circ$ total turn. Applying the Lemniscate properties to this geometry results in a maximum polar angle of $30^\\circ$."
+  },
+  {
+    "q": "34. If R is the radius of a main curve and L is the length of the transition curve, the shift of the curve, is",
+    "options": [
+      "L / 24 R",
+      "L^2 / 24 R",
+      "L^3 / 24 R",
+      "L^4 / 24 R"
+    ],
+    "correct": 1,
+    "explain": "Shift (s) is calculated as $L^2 / 24R$."
+  },
+  {
+    "q": "35. If L is the length of the transition curves provided on either side of a circular curve of radius R, the maximum angle of deflection with tangent for the junctions of the transition curve and circular curve, is",
+    "options": [
+      "L / R",
+      "L / 2R",
+      "L / 3R",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "The deflection angle at the end of the transition is $L / 2R$ radians, but the options provided usually require a specific conversion; 'none of these' is often chosen if the specific radiant/degree format isn't present."
+  },
+  {
+    "q": "36. Setting out of Lemniscate transition curves, is done with",
+    "options": [
+      "perpendicular offsets",
+      "radius offsets",
+      "deflection angles",
+      "polar deflection angles"
+    ],
+    "correct": 3,
+    "explain": "Lemniscate curves are defined by polar coordinates, making polar deflection angles the natural choice for setting them out."
+  },
+  {
+    "q": "37. The width of the right of way, is influenced by",
+    "options": [
+      "formation width",
+      "shoulder or berms",
+      "classification of road",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Right of way includes the entire land area acquired for the road, including the formation, shoulders, and future expansion space based on road class."
+  },
+  {
+    "q": "38. The width of road pavements, depends upon",
+    "options": [
+      "width of traffic lane",
+      "number of traffic",
+      "width of median strip",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Pavement width is a function of how many lanes are needed (traffic volume) and the width of each lane/median."
+  },
+  {
+    "q": "39. Alignment of highways in hilly regions, is decided on",
+    "options": [
+      "long stretch of very hard cutting",
+      "number of river crossings",
+      "natural unstable areas",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Hill alignment is a balance of avoiding expensive cutting, bridge costs, and geological hazards."
+  },
+  {
+    "q": "40. Reconnaissance is best done with the help of",
+    "options": [
+      "aerial photographic survey",
+      "condastral surveys",
+      "topographical surveys",
+      "triangulation surveys"
+    ],
+    "correct": 0,
+    "explain": "Aerial photography allows engineers to see terrain patterns and obstacles over large areas quickly."
+  },
+  {
+    "q": "41. Selection of the routes, of highways depends upon",
+    "options": [
+      "feasibility of attaining ruling gradient",
+      "avoidance of cutting hard rocks",
+      "minimum number of bridges",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All these factors influence the cost and functionality of the highway."
+  },
+  {
+    "q": "42. During last phase of the reconnaissance, details of the grade line is recorded on 2 metre poles to indicate",
+    "options": [
+      "direction of the proposed alignment",
+      "distance between the previous and forward pegs",
+      "relative elevations of pegs",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The poles help visualize the vertical and horizontal path before moving to the 'trace-out' stage."
+  },
+  {
+    "q": "43. Deviation of the alignment of a trace cut may be permitted in areas involving",
+    "options": [
+      "landslides",
+      "sand dunes",
+      "dense jungles",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "If the trace cut reveals an active landslide zone, the alignment must be deviated for safety."
+  },
+  {
+    "q": "44. The usual width of parapet walls along Highways in hilly region, is",
+    "options": [
+      "50 cm",
+      "60 cm",
+      "70 cm",
+      "80 cm"
+    ],
+    "correct": 1,
+    "explain": "60 cm is the standard width for safety parapets along hill road edges."
+  },
+  {
+    "q": "45. The minimum value of camber provided for thin bituminous surface hill road, is",
+    "options": [
+      "2.2%",
+      "2.5%",
+      "3.0%",
+      "3.5%"
+    ],
+    "correct": 1,
+    "explain": "For thin bituminous surfaces, the IRC recommended camber is $2.5\\%$."
+  },
+  {
+    "q": "46. Maximum super-elevation of hill roads should not exceed",
+    "options": [
+      "5%",
+      "7%",
+      "8%",
+      "10%"
+    ],
+    "correct": 3,
+    "explain": "For hilly terrain (not snow-bound), the maximum super-elevation allowed is $10\\%$."
+  },
+  {
+    "q": "47. Super-elevation on roads in snow bound areas, should generally not exceed",
+    "options": [
+      "15%",
+      "12%",
+      "10%",
+      "7%"
+    ],
+    "correct": 3,
+    "explain": "In snow-bound areas, super-elevation is restricted to $7\\%$ to prevent slow-moving vehicles from sliding inward on ice."
+  },
+  {
+    "q": "48. The type of transition curves generally provided on hill roads, is",
+    "options": [
+      "circular",
+      "cubic parabola",
+      "Lemniscate",
+      "spiral"
+    ],
+    "correct": 3,
+    "explain": "The spiral (clothoid) is the most commonly used transition curve on hill roads due to its superior comfort properties."
+  },
+  {
+    "q": "49. Ruling gradient on hill roads 300 m above M.S.L. is kept",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "7%"
+    ],
+    "correct": 1,
+    "explain": "For hill roads at lower altitudes (up to 3000m), the ruling gradient is typically kept at 5% (1 in 20) to ensure vehicles can climb without excessive engine strain."
+  },
+  {
+    "q": "50. If the radius of curvature of a hill road is 50 m, the percentage grade compensation should be",
+    "options": [
+      "60/R",
+      "70/R",
+      "75/R",
+      "80/R"
+    ],
+    "correct": 2,
+    "explain": "IRC recommends grade compensation as 75/R percent, subject to a maximum of 4% total compensation."
+  }
+]

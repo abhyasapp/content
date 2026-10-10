@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The total cost versus time curve is ............",
+    "options": [
+      "a straight line",
+      "U-shaped",
+      "a parabola",
+      "n-shaped curve"
+    ],
+    "correct": 1,
+    "explain": "The total cost curve is U-shaped because it is the sum of direct costs (which decrease with more time) and indirect costs (which increase over time)."
+  },
+  {
+    "q": "2. Crashing to the project means ............",
+    "options": [
+      "reducing the time of completion by spending more resources",
+      "reducing the cost of project by delaying the time of completion",
+      "reducing the project size to save the resources",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "Project crashing is the technique of adding extra resources (labor, overtime, equipment) to shorten the duration of critical activities."
+  },
+  {
+    "q": "3. A hand-held air-operated percussion type drill used for drilling down holes is ............",
+    "options": [
+      "jack hammer",
+      "drifter",
+      "wagon drill",
+      "piston drill"
+    ],
+    "correct": 0,
+    "explain": "A jack hammer is a portable, hand-held pneumatic tool used primarily for vertical or down-hole drilling in rock or concrete."
+  },
+  {
+    "q": "4. A drill most suitable for drilling down, horizontal, or up holes is ............",
+    "options": [
+      "jack hammer",
+      "drifter",
+      "blasto hole drill",
+      "shot drill"
+    ],
+    "correct": 1,
+    "explain": "A drifter is a heavy-duty rock drill mounted on a support (like a jumbo or frame) that can efficiently drill in various orientations: up, down, or horizontal."
+  },
+  {
+    "q": "5. When the time of earliest finish and the latest finish are equal in an operation, the operation is called ............",
+    "options": [
+      "critical",
+      "float",
+      "free float",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "If EF = LF, the total float is zero. Activities with zero float are termed 'Critical' because any delay in them will delay the entire project."
+  },
+  {
+    "q": "6. A drawback of the bar chart is that ............",
+    "options": [
+      "all the activity are independent of each other",
+      "it is difficult to judge whether an activity is completed or not",
+      "the sequence of activity is not clearly defined",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Gantt charts (bar charts) lack interdependency details, don't easily show the critical path, and can make it difficult to monitor precise progress in complex projects."
+  },
+  {
+    "q": "7. Select the incorrect statement ............",
+    "options": [
+      "a critical path always begins at the very first event",
+      "a critical path always terminates at the last event",
+      "critical activities control the project duration",
+      "critical activity is the one for which free float is zero"
+    ],
+    "correct": 3,
+    "explain": "While a critical activity has a Total Float of zero, having a Free Float of zero is not the defining characteristic, as non-critical activities can also have zero free float."
+  },
+  {
+    "q": "8. Select the incorrect statements ............",
+    "options": [
+      "its latest start time and earliest start time for its successor activity",
+      "its latest start time and earliest starts time",
+      "its latest finish time and earliest starts time for its successor activity",
+      "its earliest finish time and latest time for its successor activity"
+    ],
+    "correct": 0,
+    "explain": "The latest start time of an activity is not directly equated to the earliest start time of its successor; these values depend on activity duration and float."
+  },
+  {
+    "q": "9. Free float is the ............",
+    "options": [
+      "portion of independent float",
+      "portion of positive total float",
+      "portion of interfering float",
+      "all the above"
+    ],
+    "correct": 1,
+    "explain": "Free float is the portion of total float that can be used without affecting the early start of the immediately following successor activity."
+  },
+  {
+    "q": "10. Critical path is ............",
+    "options": [
+      "shortest path for the earliest completion of the project",
+      "longest path of the network from the first event to the last event",
+      "ideal path by preceding along which the project can be completed as per the schedule",
+      "the path which takes into account the completion of all the parallel activities"
+    ],
+    "correct": 2,
+    "explain": "The critical path is the specific sequence of activities that represents the minimum time required to complete the project as scheduled."
+  },
+  {
+    "q": "11. Resource smoothening means ............",
+    "options": [
+      "gradual increase in resources",
+      "adjustment of resources to have the least variations",
+      "complete revamping of resources to suit the requirement",
+      "optimisation and economical utilisation of resources"
+    ],
+    "correct": 1,
+    "explain": "Resource smoothing is a technique used to level the peaks and valleys of resource demand within the limits of the project's float."
+  },
+  {
+    "q": "12. When all the paths are arranged according to the descending order of the float, the path which is next to critical path is known as ............",
+    "options": [
+      "under-critical",
+      "sub-critical",
+      "semi-critical path",
+      "secondary critical path"
+    ],
+    "correct": 2,
+    "explain": "A 'Semi-critical' or 'Sub-critical' path is a path that has a very low amount of float and can easily become a critical path if minor delays occur."
+  },
+  {
+    "q": "13. The time by which the completion of an activity can be delayed without affecting the start of succeeding activities is called ............",
+    "options": [
+      "total float",
+      "interfering float",
+      "independent float",
+      "free float"
+    ],
+    "correct": 3,
+    "explain": "Free Float is the amount of time that an activity can be delayed without delaying the Earliest Start (ES) of any successor."
+  },
+  {
+    "q": "14. Fulkerson's rule is used for numbering the ............",
+    "options": [
+      "events",
+      "activities",
+      "initial events",
+      "dummies"
+    ],
+    "correct": 0,
+    "explain": "Fulkerson's Rule provides a systematic procedure for numbering events (nodes) in a project network diagram in a logical order."
+  },
+  {
+    "q": "15. The probability distribution taken to represent the completion time in P.E.R.T. analysis is ............",
+    "options": [
+      "gamma distribution",
+      "normal distribution",
+      "beta distribution",
+      "log-normal distribution"
+    ],
+    "correct": 2,
+    "explain": "PERT assumes that the duration of an activity follows a Beta Distribution, which accounts for the asymmetry between optimistic and pessimistic times."
+  },
+  {
+    "q": "16. According to Beta distribution, the standard deviation of the time of completion is given by ............",
+    "options": [
+      "(tp - to)/3",
+      "(tp - to)/4",
+      "(tp - to)/5",
+      "(tp - to)/6"
+    ],
+    "correct": 3,
+    "explain": "Standard deviation ($σ$) in PERT is calculated as $(t_p - t_o) / 6$, where $t_p$ is pessimistic time and $t_o$ is optimistic time."
+  },
+  {
+    "q": "17. The optimistic, most likely and pessimistic time estimates of an activity are 5, 10, 21 days, what are the expected time and standard deviation?",
+    "options": [
+      "12, 3",
+      "11, 4",
+      "11, 2.67",
+      "10, 16"
+    ],
+    "correct": 2,
+    "explain": "Expected time $T_e = (t_o + 4t_m + t_p)/6 = (5 + 40 + 21)/6 = 11$. Standard deviation $σ = (21-5)/6 = 2.67$."
+  },
+  {
+    "q": "18. Cost-benefit studies are essential to ............",
+    "options": [
+      "assess the total cost of the work",
+      "ascertain the relevant escalation in prices",
+      "monitor the expenditure",
+      "evaluate the viability and worthwhileness of taking up the project"
+    ],
+    "correct": 3,
+    "explain": "A Cost-Benefit Analysis (CBA) is a financial assessment tool used to determine if the benefits of a project outweigh the costs before starting."
+  },
+  {
+    "q": "19. Higher standard deviations means ............",
+    "options": [
+      "higher uncertainty",
+      "lower uncertainty",
+      "nothing to do with uncertainty",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In statistics and PERT, a higher standard deviation indicates a wider range of possible outcomes, which directly corresponds to higher risk and uncertainty."
+  },
+  {
+    "q": "20. Slack is given as the difference between ............",
+    "options": [
+      "latest allowable time and earliest expected time",
+      "latest allowable time and the pessimistic time estimate",
+      "earliest expected time and latest allowable time",
+      "final event time and initial event time"
+    ],
+    "correct": 0,
+    "explain": "Event Slack = Latest Allowable Time ($T_L$) - Earliest Expected Time ($T_E$)."
+  },
+  {
+    "q": "21. For all the events along the critical path, the slack is ............",
+    "options": [
+      "maximum",
+      "negative",
+      "minimum or zero",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "By definition, events on the critical path have the least amount of flexibility, meaning their slack is zero (or the minimum constant value in the network)."
+  },
+  {
+    "q": "22. A dummy activity in a network ............",
+    "options": [
+      "is represented by a dotted line",
+      "is an artificial activity",
+      "does not consume time or resources",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Dummies are artificial activities shown with dashed arrows to represent logical dependencies without adding time or cost to the project."
+  },
+  {
+    "q": "23. In the critical path of construction planning, free float can be ............",
+    "options": [
+      "greater than total float",
+      "equal to total float",
+      "greater than independent float",
+      "less than independent float"
+    ],
+    "correct": 2,
+    "explain": "Free float is a subset of Total Float, and mathematically, Free Float is always greater than or equal to Independent Float ($TF ≥ FF ≥ IF$)."
+  },
+  {
+    "q": "24. Which of the following is a dummy activity?",
+    "options": [
+      "excavation of foundations",
+      "laying the foundation concrete",
+      "awaiting the arrivals of concrete material",
+      "curing the foundation concrete"
+    ],
+    "correct": 2,
+    "explain": "Wait times or administrative dependencies that don't involve active labor or machine work are modeled as dummies to maintain network logic."
+  },
+  {
+    "q": "25. The resources in a construction project are made up of ............",
+    "options": [
+      "plant equipment and machinery required for the project",
+      "construction material such as cement, bricks, steel etc",
+      "skilled and unskilled manpower",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The 4 M's of construction resources are Men (Manpower), Materials, Machinery (Plant), and Money."
+  },
+  {
+    "q": "26. Technical planning is carried out for the ............",
+    "options": [
+      "preparation of detailed drawings",
+      "preparation of detailed estimate",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Technical planning bridges the gap between the concept and execution by producing the precise drawings and cost calculations (estimates) needed."
+  },
+  {
+    "q": "27. For the preparation of a construction schedule, the data required is ............",
+    "options": [
+      "number of operations",
+      "number of activities",
+      "output of labour",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "To build a schedule, you must know what needs to be done (activities), how they are grouped (operations), and how fast they can be done (labor productivity)."
+  },
+  {
+    "q": "28. Bottom dump wagons are not suitable for ............",
+    "options": [
+      "sand",
+      "gravels",
+      "lump of wet clay",
+      "surkhi"
+    ],
+    "correct": 2,
+    "explain": "Wet clay is sticky and cohesive; it tends to bridge or get stuck in the discharge gates of a bottom dump wagon."
+  },
+  {
+    "q": "29. Variance is ............",
+    "options": [
+      "sum of time duration for various job / number of jobs",
+      "difference between number under consideration and mean time",
+      "mean of square root of mean of squared deviation",
+      "square root of mean of squared deviations"
+    ],
+    "correct": 2,
+    "explain": "In the context of PERT, variance ($σ^2$) is the square of the standard deviation, representing the mean of the squared deviations from the expected time."
+  },
+  {
+    "q": "30. If for a activity optimistic time is 1 day pessimistic times is 8 days and most likely time is 3 days then the expected time is ............",
+    "options": [
+      "3.5 days",
+      "2.5 days",
+      "3.75 days",
+      "4 days"
+    ],
+    "correct": 0,
+    "explain": "$T_e = (t_o + 4t_m + t_p) / 6 = (1 + 4(3) + 8) / 6 = 21 / 6 = 3.5$ days."
+  },
+  {
+    "q": "31. Standard deviation when optimistic time and earliest expected time ............",
+    "options": [
+      "1.167 days",
+      "2.5 days",
+      "3.5 days",
+      "4 days"
+    ],
+    "correct": 0,
+    "explain": "Standard Deviation $σ = (t_p - t_o) / 6$. For the values in Q66: $(8 - 1) / 6 = 1.167$."
+  },
+  {
+    "q": "32. Slack is ............",
+    "options": [
+      "difference of lastest allowable time and earliest expected time",
+      "least allowable time-earliest expected time",
+      "earliest expected time - lastest allowable time",
+      "time gained by an activity"
+    ],
+    "correct": 0,
+    "explain": "Slack specifically refers to events (nodes) and is calculated as $T_L - T_E$."
+  },
+  {
+    "q": "33. Pick up the correct statement from the following ............",
+    "options": [
+      "in a network activities are represented by arrows and events are circled",
+      "events into which a number of activities enter and from which one or several activities emerge are called the merge nodes",
+      "events into which one or several activities enter and from which a number of emerging activities are generated are called burst nodes",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "These are the fundamental definitions of network components (arrows/nodes) and node types (merge/burst)."
+  },
+  {
+    "q": "34. Interfering float is the difference between ............",
+    "options": [
+      "total float and independent float",
+      "total float and free float",
+      "free float and independent float",
+      "independent float and free float"
+    ],
+    "correct": 1,
+    "explain": "Interfering Float ($IF = TF - FF$) is equal to the head event slack."
+  },
+  {
+    "q": "35. Negative float for any activity means that the activity is ............",
+    "options": [
+      "super-critical",
+      "sub-critical",
+      "critical",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "An activity with negative float is 'Super-critical' because it is already behind the required completion date."
+  },
+  {
+    "q": "36. Zero float any activity means that the activity is ............",
+    "options": [
+      "super-critical",
+      "sub-critical",
+      "critical",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Zero float indicates a 'Critical' activity; any delay will immediately impact the project finish date."
+  },
+  {
+    "q": "37. Positive float for any activity means that the activity is ............",
+    "options": [
+      "super-critical",
+      "sub-critical",
+      "critical",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Positive float indicates a 'Sub-critical' or non-critical activity with some flexibility in its timing."
+  },
+  {
+    "q": "38. Total project cost ............",
+    "options": [
+      "increase with increase in time",
+      "reduces with increase in time",
+      "initially reduces and then increases with increase in time",
+      "initially increases and then reduces with increase in time"
+    ],
+    "correct": 2,
+    "explain": "Total cost follows a U-curve: as time increases, direct costs drop but indirect costs rise, leading to a minimum point."
+  },
+  {
+    "q": "39. Identify the odd man out ............",
+    "options": [
+      "mix concrete",
+      "excavate trench",
+      "assemble parts",
+      "design completed"
+    ],
+    "correct": 3,
+    "explain": "'Design completed' is an Event (a point in time), whereas the others are Activities (actions that consume time)."
+  },
+  {
+    "q": "40. An important principle in drawing a network is ............",
+    "options": [
+      "no activity can start until all the previous activities in the same chain are completed",
+      "parallel activities should begin and end at the same time",
+      "between two events there should not be more than two activities",
+      "the number of dummy activities in a network should not exceed 4"
+    ],
+    "correct": 0,
+    "explain": "This is the principle of logical precedence; a successor cannot begin until its predecessors are finished."
+  },
+  {
+    "q": "41. A dummy activity ............",
+    "options": [
+      "has no tail event but only a head event",
+      "has only head event but tail event",
+      "does not require any resources or any time",
+      "has no bearing on the network and can appear anywhere"
+    ],
+    "correct": 2,
+    "explain": "Dummies are logical connectors only; they are 'zero-time' and 'zero-resource' activities."
+  },
+  {
+    "q": "42. Negative slack occurs ............",
+    "options": [
+      "when lastest allowable time is greater than earliest expected time",
+      "when events sticks to their schedule",
+      "when deficiency of resource exist",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Negative slack indicates the project is behind schedule, often caused by inadequate resources or delays."
+  },
+  {
+    "q": "43. Critical path ............",
+    "options": [
+      "is the shortest path",
+      "bad 'null' slack",
+      "had the maximum slack",
+      "had the minimum slack"
+    ],
+    "correct": 3,
+    "explain": "The critical path is the longest sequence of activities, which means it has the least (minimum) amount of slack/float."
+  },
+  {
+    "q": "44. Float is ............",
+    "options": [
+      "the earliest time by which an activity may commence",
+      "lastest time by which an activity can be delayed without hapering the completion of the project",
+      "lastest allowable time - earliest expected time",
+      "time available time required for an activity"
+    ],
+    "correct": 2,
+    "explain": "Float is the difference between the time available for an activity and the time required ($T_L - T_E$)."
+  },
+  {
+    "q": "45. Latest starts of an activity is always ............",
+    "options": [
+      "greater than or equal to latest event time of preceding node",
+      "less than or equal to latest event time of preceding node",
+      "equal to latest event time of preceding node",
+      "less than latest event time of preceding node"
+    ],
+    "correct": 0,
+    "explain": "The Latest Start ($LS$) must occur at or after the latest possible completion of the previous activity to maintain logic."
+  },
+  {
+    "q": "46. An activity of the project is graphically represented by ............ on the network",
+    "options": [
+      "a circle",
+      "a straight line",
+      "an arrow",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "In Activity-on-Arrow (AOA) diagrams, arrows represent tasks (activities)."
+  },
+  {
+    "q": "47. Which of the following statement is correct about the network diagram?",
+    "options": [
+      "the events are represented graphically by circles or nodes at the beginning and the end of activity by arrows",
+      "the tail end of the arrow represents the start of the activity",
+      "the head of the arrow represents the end of an activity",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "These are the standard conventions for drawing AOA (Activity-on-Arrow) network diagrams."
+  },
+  {
+    "q": "48. If the completion time for a particular project is 20 weeks and its earliest expected time is 22 weeks, then the slack time for the project is ............",
+    "options": [
+      "2 weeks",
+      "0",
+      "-2 weeks",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Slack = $T_L - T_E$. Here $20 - 22 = -2$ weeks."
+  },
+  {
+    "q": "49. Interfering float is the difference between ............",
+    "options": [
+      "total float and free float",
+      "total float and independent float",
+      "free float",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Interfering float is defined as $TF - FF$; it represents the part of the total float that, if used, consumes the slack of a successor event."
+  },
+  {
+    "q": "50. Which of the following is not an excavating equipment?",
+    "options": [
+      "Power shovel",
+      "Scraper",
+      "Dragline",
+      "Hoe"
+    ],
+    "correct": 1,
+    "explain": "A Scraper is primarily an earth-moving (hauling and spreading) machine, whereas the others are dedicated excavators."
+  }
+]

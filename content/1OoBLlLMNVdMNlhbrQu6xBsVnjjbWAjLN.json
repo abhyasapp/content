@@ -1,0 +1,145 @@
+[
+  {
+    "q": "1. The value of buckling load is ___ than crushing load in case of long column",
+    "options": [
+      "less",
+      "more",
+      "equal",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For long, slender columns, the Euler buckling load is reached well before the crushing (yield) load — that's precisely why long columns fail by buckling first."
+  },
+  {
+    "q": "2. The effective length of a column effectively held in position and restrained in direction at one end will be",
+    "options": [
+      "l",
+      "1.5l",
+      "2l",
+      "3l"
+    ],
+    "correct": 0,
+    "explain": "As per the standard end-condition tables for this specific restraint case."
+  },
+  {
+    "q": "3. Effective length of a column fixed at one end and hinged at the other end is",
+    "options": [
+      "L/2",
+      "L/√2",
+      "L",
+      "2L"
+    ],
+    "correct": 1,
+    "explain": "Standard result: fixed-hinged effective length Le = L/√2 ≈ 0.707L."
+  },
+  {
+    "q": "4. The equivalent length of a column fixed at one end and free at the other end, is",
+    "options": [
+      "2L",
+      "0.75L",
+      "L",
+      "1.25L"
+    ],
+    "correct": 0,
+    "explain": "Standard result: fixed-free (cantilever) effective length Le = 2L."
+  },
+  {
+    "q": "5. The ratio of the effective length of a column and minimum radius of gyration of its cross-sectional area, is known as",
+    "options": [
+      "buckling factor",
+      "slenderness ratio",
+      "crippling factor",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Slenderness ratio λ = Le/k_min, by definition."
+  },
+  {
+    "q": "6. Slenderness ratio of a vertical column of square section of 2.5 cm sides and effective length 1.75 m is",
+    "options": [
+      "232",
+      "242",
+      "252",
+      "262"
+    ],
+    "correct": 1,
+    "explain": "k = side/√12 = 2.5/√12 = 0.722 cm. λ = 175/0.722 ≈ 242."
+  },
+  {
+    "q": "7. Find the slenderness ratio of the column of M.I. = 10000 cm⁴, Area = 100 cm² & effective length = 3.0 m",
+    "options": [
+      "3",
+      "30",
+      "4",
+      "40"
+    ],
+    "correct": 1,
+    "explain": "k = √(I/A) = √(10000/100) = 10 cm. λ = 300/10 = 30."
+  },
+  {
+    "q": "8. The slenderness ratio of a vertical column of square cross-section of 10 cm side and 500 cm long, is",
+    "options": [
+      "117.2",
+      "17.3",
+      "173.2",
+      "137.2"
+    ],
+    "correct": 2,
+    "explain": "k = 10/√12 = 2.887 cm. λ = 500/2.887 ≈ 173.2."
+  },
+  {
+    "q": "9. Short column taking maximum load having equal section",
+    "options": [
+      "sal",
+      "pcc",
+      "chir",
+      "pine"
+    ],
+    "correct": 0,
+    "explain": "Among common Nepali timber species, sal wood has the highest strength/load-carrying capacity for a given section — worth confirming against your specific course material, as this is a regional/material-knowledge question rather than a pure mechanics formula."
+  },
+  {
+    "q": "10. For a column of given material, the Rankine's constant depends on",
+    "options": [
+      "length of the column",
+      "diameter of column",
+      "moment of inertia of column",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "Rankine's constant (1/a = σc/π²E) depends only on the material's crushing stress and modulus of elasticity — not on the column's length, diameter, or moment of inertia."
+  },
+  {
+    "q": "11. Strut is a",
+    "options": [
+      "horizontal member",
+      "vertical member",
+      "inclined member",
+      "compression member"
+    ],
+    "correct": 3,
+    "explain": "A strut is defined by its function (carrying compression), not its orientation — it may be horizontal, vertical, or inclined."
+  },
+  {
+    "q": "12. Compression members always tend to buckle in the direction of the",
+    "options": [
+      "parallel to the axis of load",
+      "perpendicular to the axis of load",
+      "least radius of gyration",
+      "least cross section"
+    ],
+    "correct": 2,
+    "explain": "Buckling occurs about the axis of least radius of gyration, since that's the weakest bending direction."
+  },
+  {
+    "q": "13. The inclined member carrying compressive load in case of frames and trusses is",
+    "options": [
+      "Post",
+      "stanchion",
+      "strut",
+      "column"
+    ],
+    "correct": 2,
+    "explain": "An inclined compression member in a truss/frame is called a strut."
+  }
+]

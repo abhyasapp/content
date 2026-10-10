@@ -1,0 +1,332 @@
+[
+  {
+    "q": "1. To avoid any possibility of tension occurring in masonry structures, the resultant of various forces at any level must through",
+    "options": [
+      "the section",
+      "the centre of the section",
+      "middle third of the width or depth of the section",
+      "a corner of the section"
+    ],
+    "correct": 2,
+    "explain": "The 'middle third rule' requires the resultant force to pass within the middle third of the section width/depth to prevent tensile stress in masonry (which cannot resist tension)."
+  },
+  {
+    "q": "2. Force is the product of",
+    "options": [
+      "mass and acceleration",
+      "mass and weight",
+      "velocity and time",
+      "acceleration and time"
+    ],
+    "correct": 0,
+    "explain": "According to Newton's Second Law, $F = m \\cdot a$."
+  },
+  {
+    "q": "3. The function of king post in a roof truss is",
+    "options": [
+      "to support the framework of the roof",
+      "to receive the ends of principal rafters",
+      "to prevent the walls from spreading outward",
+      "to prevent the tie beam from sagging at its centre"
+    ],
+    "correct": 3,
+    "explain": "The king post is a central vertical member that supports the tie beam below it, preventing it from sagging due to its own weight."
+  },
+  {
+    "q": "4. The effective length of a column with both ends hinged is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 3,
+    "explain": "For a column hinged (pinned) at both ends, the effective length equals the actual length: Le = L."
+  },
+  {
+    "q": "5. The effective length of a column with one end fixed and the other end free is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 1,
+    "explain": "For a column fixed at one end and free at the other, the effective length is Le = 2L."
+  },
+  {
+    "q": "6. Which of the following is a true example of a statically determinate beam?",
+    "options": [
+      "one end is fixed and the other end is simply supported",
+      "both ends are fixed",
+      "the beam over hangs over two support",
+      "the beam is supported on three supports"
+    ],
+    "correct": 2,
+    "explain": "An overhanging beam with two supports has three reaction components, which can be solved with three equilibrium equations."
+  },
+  {
+    "q": "7. A rigid jointed plane frame is stable and statically determinate ............. .",
+    "options": [
+      "m + r = 2j",
+      "m + r = 3j",
+      "3m + r = 3j",
+      "m + 3r = 3j"
+    ],
+    "correct": 2,
+    "explain": "For a rigid-jointed plane frame (each joint with 3 dof), the condition for stable and statically determinate structure is 3m + r = 3j."
+  },
+  {
+    "q": "8. The number of independent equations to be satisfied for static equilibrium in a space structure is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct": 3,
+    "explain": "A three-dimensional (space) structure requires 6 independent equilibrium equations: 3 force equations (ΣFx, ΣFy, ΣFz) and 3 moment equations (ΣMx, ΣMy, ΣMz)."
+  },
+  {
+    "q": "9. The degree of static indeterminacy of a pin jointed space frame is given by",
+    "options": [
+      "m + r − 2j",
+      "m + r − 3j",
+      "3m + r − 3j",
+      "m + r + 3j"
+    ],
+    "correct": 1,
+    "explain": "For a pin-jointed space frame, each joint has 3 equilibrium equations (3D translation), giving static indeterminacy Ds = m + r − 3j."
+  },
+  {
+    "q": "10. The degree of kinematic indeterminacy of a pin jointed space frame is",
+    "options": [
+      "2j − r",
+      "3j − r",
+      "j − 2r",
+      "j − 3r"
+    ],
+    "correct": 1,
+    "explain": "Each joint of a pin-jointed space frame has 3 possible translational displacements, so kinematic indeterminacy = 3j − r (subtracting restrained reaction components)."
+  },
+  {
+    "q": "11. The number of independent displacement components at each joint of a rigid jointed space frame is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 3,
+    "explain": "A rigid joint in 3D space can have 3 translations and 3 rotations, giving 6 independent displacement components per joint."
+  },
+  {
+    "q": "12. For finding forces in the members of truss by the graphical method, the force diagram is suggested by",
+    "options": [
+      "Mohr",
+      "Timoshenko",
+      "Maxwell",
+      "Betti"
+    ],
+    "correct": 2,
+    "explain": "The graphical method of truss analysis using a combined force/stress diagram (Maxwell diagram) for finding member forces was developed by Maxwell."
+  },
+  {
+    "q": "13. In a pin jointed plane frame all the loads are assumed to act .............",
+    "options": [
+      "in the plane of the frame",
+      "perpendicular to the plane of the frame",
+      "in a plane inclined at 45° to the plane of frame",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a plane (2D) pin-jointed frame, loads are, by definition of the idealization, assumed to act within the plane of the frame."
+  },
+  {
+    "q": "14. The deflection at any point of a perfect frame can be obtained by applying a unit load at the joint in",
+    "options": [
+      "vertical direction",
+      "horizontal direction",
+      "inclined direction",
+      "the direction in which the deflection is required"
+    ],
+    "correct": 3,
+    "explain": "The unit load method (virtual work) requires the unit load to be applied at the point and in the exact direction of the deflection being sought."
+  },
+  {
+    "q": "15. For analyzing pin jointed frames by method of joints; the number of equations of static equilibrium available is",
+    "options": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "correct": 3,
+    "explain": "At each pin joint of a plane truss, only 2 equilibrium equations are available (ΣFx=0, ΣFy=0), since moment equilibrium is automatically satisfied at a pin."
+  },
+  {
+    "q": "16. For analyzing pin jointed frames by method of joints, the joints must be selected in succession such that",
+    "options": [
+      "only two members meet at that joint",
+      "only three members meet at that joint",
+      "only two unknown forces exist at that point",
+      "there is no external forces acting in the joint"
+    ],
+    "correct": 2,
+    "explain": "The method of joints requires proceeding to joints where only 2 unknown member forces remain, since only 2 equilibrium equations are available per joint to solve them."
+  },
+  {
+    "q": "17. For analyzing pin jointed frames by method of sections, the section should be so chosen that it cuts",
+    "options": [
+      "only three members at a time",
+      "any number of members but only two members with unknown forces",
+      "any number of members but only three members with unknown forces",
+      "not more than one member"
+    ],
+    "correct": 2,
+    "explain": "The method of sections uses 3 equilibrium equations (ΣFx, ΣFy, ΣM), so a cutting section should pass through at most 3 members with unknown forces to be solvable."
+  },
+  {
+    "q": "18. In a rigid jointed frame, the rotation of various members meeting at a joint will be",
+    "options": [
+      "equal",
+      "proportional to the length of member",
+      "proportional to stiffness",
+      "proportional to respective moment of inertia"
+    ],
+    "correct": 0,
+    "explain": "Since a rigid joint rotates as a single unit, all members rigidly connected at that joint undergo the same (equal) angle of rotation."
+  },
+  {
+    "q": "19. The displacements of a truss can be obtained directly from",
+    "options": [
+      "space diagram",
+      "force diagram",
+      "Williot Mohr diagram",
+      "funicular polygon"
+    ],
+    "correct": 2,
+    "explain": "The Williot-Mohr diagram is a specific graphical method used to directly determine joint displacements of a truss."
+  },
+  {
+    "q": "20. The basic form of a pin jointed frame is",
+    "options": [
+      "triangle",
+      "rectangle",
+      "trapezium",
+      "parallelogram"
+    ],
+    "correct": 0,
+    "explain": "A triangle is the only basic polygon shape that is inherently rigid (stable) when pin-jointed, making it the fundamental unit of truss construction."
+  },
+  {
+    "q": "21. In a pin jointed plane frame, all the loads will be assumed to act at .............",
+    "options": [
+      "the centers of members only",
+      "the joints of members only",
+      "only on the top chords joints",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For a truss to be analyzed with members carrying only axial forces, loads must be idealized as acting only at the joints (pins), not along member lengths."
+  },
+  {
+    "q": "22. By assuming that all the forces acting on a pin connected truss are co planar and act at a joint only it can be expected that all the member will be subjected to",
+    "options": [
+      "direct compressive stress only",
+      "direct tensile stress only",
+      "direct stress only",
+      "direct stress and shear stress only"
+    ],
+    "correct": 2,
+    "explain": "With loads applied only at joints (pins) and members assumed weightless/straight, truss members carry only direct (axial) stress — either tension or compression, with no bending or shear."
+  },
+  {
+    "q": "23. In a pin jointed frame, it is sufficient if the forces in all the members meeting at a joint are .............",
+    "options": [
+      "co planar",
+      "co planar and concurrent",
+      "equal in magnitude",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For equilibrium at a pin joint (which cannot resist moment), it suffices that all member forces meeting there are coplanar and concurrent (passing through the same point)."
+  },
+  {
+    "q": "24. A truss containing j joints and m members, will be a simple truss if",
+    "options": [
+      "m = 2j – 3",
+      "j = 2m – 3",
+      "m = 3j – 2",
+      "j = 3m – 2"
+    ],
+    "correct": 0,
+    "explain": "The standard condition for a statically determinate (simple) truss relates members and joints as m = 2j − 3 (accounting for 3 reaction components)."
+  },
+  {
+    "q": "25. A compound truss may be formed by connecting two simple rigid frames by",
+    "options": [
+      "two bars",
+      "three bars",
+      "three parallel bars",
+      "three bars intersecting at a point"
+    ],
+    "correct": 1,
+    "explain": "Two simple rigid (stable) truss units can be combined into a stable compound truss by connecting them with exactly three non-parallel, non-concurrent bars."
+  },
+  {
+    "q": "26. m1 and m2 are the members of two individual simple trusses of a compound truss. The compound truss will be rigid and determinate if",
+    "options": [
+      "m = m1 + m2",
+      "m = m1 + m2+1",
+      "m = m1 + m2+2",
+      "m = m1 + m2+3"
+    ],
+    "correct": 3,
+    "explain": "Since three additional connecting bars are needed to join two simple trusses into a stable compound truss, the total member count becomes m = m1 + m2 + 3."
+  },
+  {
+    "q": "27. The forces in the members of simple trusses, may be analysed by",
+    "options": [
+      "graphical method",
+      "method of joint",
+      "method of section",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Truss member forces can be determined by any of the graphical method, method of joints, or method of sections — all are valid standard techniques."
+  },
+  {
+    "q": "28. If two force acting at a joint are not along the straight line, then for the equilibrium of the joint",
+    "options": [
+      "one of the forces must be zero",
+      "each force must be zero",
+      "forces must be equal and of the same sign",
+      "forces must be equal in magnitude but opposite in sign"
+    ],
+    "correct": 1,
+    "explain": "If two non-collinear forces act at a joint with no other forces, equilibrium (ΣF=0 in two independent directions) can only be satisfied if both forces are individually zero."
+  },
+  {
+    "q": "29. A member is balanced at its end by two inclined members carrying equal forces, equilibrium the angle between the inclined bars must be",
+    "options": [
+      "120°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 0,
+    "explain": "For two equal-force inclined members to balance a load symmetrically at a joint with no other member, the resultant condition for equilibrium requires the two members to be at 120° to each other (each at 60° to the load line)."
+  },
+  {
+    "q": "30. A column with maximum equivalent length has",
+    "options": [
+      "both ends hinged",
+      "both ends fixed",
+      "one end fixed and the other end hinged",
+      "one end fixed and the other end free"
+    ],
+    "correct": 3,
+    "explain": "A column with one end fixed and the other completely free has the largest effective length (Le = 2L), the maximum among the standard end conditions."
+  }
+]

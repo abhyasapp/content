@@ -1,0 +1,1102 @@
+[
+  {
+    "q": "201. The permeability of a soil deposit-in-situ can be best obtained by ............",
+    "options": [
+      "falling head permeameter",
+      "constant head permeameter",
+      "pumping test",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Field pumping tests are considered the most reliable for in-situ permeability because they involve a large volume of soil in its natural state, unlike small laboratory samples which may be disturbed."
+  },
+  {
+    "q": "202. The minimum number of observation wells required to determine the permeability of stratum in the field by pumping test is ............",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "To apply the Thiem or Dupuit equations for steady-state flow, at least two observation wells at different distances from the main pumping well are needed to measure the drawdown curve."
+  },
+  {
+    "q": "203. The total discharge from two wells situated near to each other is ............",
+    "options": [
+      "sum of the discharges from individual wells",
+      "greater than the sum of the discharges from the wells",
+      "less than the sum of the discharges from the wells",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "When two wells are close, their 'zones of influence' overlap, causing interference. This increases the total drawdown and results in a total discharge that is less than the sum of their individual capacities."
+  },
+  {
+    "q": "204. When the steady seepage occurs in an isotropic soil, the head causing the flow satisfies the following equation ............",
+    "options": [
+      "Darcy's equation",
+      "Hazen's equation",
+      "Laplace's equation",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The governing equation for steady-state flow in a porous medium is the Laplace Equation ($\nabla^2 h = 0$), which signifies that the potential head distribution is continuous and mass is conserved."
+  },
+  {
+    "q": "205. The rate of flow of water through a vertical strip of aquifer of unit width and extending the full saturation height under unit hydraulic gradient is known as ............",
+    "options": [
+      "Coefficient of permeability",
+      "Storage coefficient",
+      "specific retention",
+      "Coefficient of transmissibility"
+    ],
+    "correct": 3,
+    "explain": "Transmissibility ($T$) is defined as $T = k \\cdot b$, where $k$ is permeability and $b$ is the aquifer thickness. It represents the capacity of the entire aquifer thickness to transmit water."
+  },
+  {
+    "q": "206. In a stratified soil deposit with number of layer having different permeability, the average permeability along the bedding planes is given by ............",
+    "options": [
+      "kx = (z1 + z2 + ... + zn) / (k1 + k2 + ... + kn)",
+      "kx = (k1z1 + k2z2 + ... + knzn) / (z1 + z2 + ... + zn)",
+      "kx = (k1 + k2 + ... + kn) / (z1 + z2 + ... + zn)",
+      "kx = (z1 + z2 + ... + zn) / (k1z1 + k2z2 + ... + knzn)"
+    ],
+    "correct": 1,
+    "explain": "For flow parallel to the layers, the total discharge is the sum of discharges in each layer. This leads to a weighted average formula based on the thickness of each layer."
+  },
+  {
+    "q": "207. In a stratified soil deposit the average permeability normal to the bedding planes is given by ............",
+    "options": [
+      "kx = (z1 + z2 + ... + zn) / (k1 + k2 + ... + kn)",
+      "kz = (k1 + k2 + ... + kn) / (z1 + z2 + ... + zn)",
+      "kz = (z1 + z2 + ... + zn) / (z1/k1 + z2/k2 + ... + zn/kn)",
+      "kz = (z1 + z2 + ... + zn) / (k1z1 + k2z2 + ... + knzn)"
+    ],
+    "correct": 2,
+    "explain": "For flow perpendicular to layers, the velocity is constant through all layers but the head loss varies. This results in an equivalent permeability calculated via the harmonic mean."
+  },
+  {
+    "q": "208. Which of the following is correct?",
+    "options": [
+      "kx = kz",
+      "kx < kz",
+      "kx > kz",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In nature, soil particles tend to orient horizontally. Combined with the mathematical relationship between arithmetic and harmonic means, the horizontal permeability ($k_x$) is always greater than or equal to the vertical permeability ($k_z$)."
+  },
+  {
+    "q": "209. A coarse grained soil has a void ratio of 0.7 and specific gravity of 2.7. The critical gradient at which the quick sand condition occurs is ............",
+    "options": [
+      "1.00",
+      "0.75",
+      "0.5",
+      "0.25"
+    ],
+    "correct": 0,
+    "explain": "Using the formula $i_c = (G-1) / (1+e)$, we get $(2.7-1) / (1+0.7) = 1.7 / 1.7 = 1.0$."
+  },
+  {
+    "q": "210. The seepage flow through a porous medium is generally ............",
+    "options": [
+      "Turbulent",
+      "Super critical",
+      "transitional",
+      "Laminar"
+    ],
+    "correct": 3,
+    "explain": "Due to the narrowness of soil pores and the resulting low velocity of water, the Reynolds number is almost always less than 1, characterizing the flow as laminar."
+  },
+  {
+    "q": "211. Bleeder wells are required to ............",
+    "options": [
+      "increase discharge from main well",
+      "stone drainage water",
+      "collect seepage water in dams",
+      "relieve pressure in impervious layers"
+    ],
+    "correct": 3,
+    "explain": "Bleeder wells (relief wells) are installed to reduce excess hydrostatic pressure or uplift pressure in pervious strata underlying impervious layers, preventing blowouts or piping."
+  },
+  {
+    "q": "212. Neutral stress refers to ............",
+    "options": [
+      "major principal stress",
+      "minor principal stress",
+      "pore water pressure",
+      "total stress"
+    ],
+    "correct": 2,
+    "explain": "Neutral stress is another term for pore water pressure ($u$). It is called 'neutral' because it acts equally in all directions and does not cause soil deformation or changes in frictional resistance."
+  },
+  {
+    "q": "213. The difference between total pressure and pore water pressure is known as ............",
+    "options": [
+      "major principal stress",
+      "minor principal stress",
+      "effective stress",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Effective stress ($\\sigma'$) is defined by Terzaghi's principle as $\\sigma' = \\sigma - u$. It represents the stress transmitted through the soil skeleton (grain-to-grain contact)."
+  },
+  {
+    "q": "214. A flow net may be used for the determination of ............",
+    "options": [
+      "exit gradient",
+      "seepage flow rate",
+      "seepage pressure",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Flow nets are a graphical representation used to calculate all hydraulic parameters including discharge ($q$), uplift pressure at any point, and the gradient at the exit."
+  },
+  {
+    "q": "215. Which of the following is responsible for shear resistance in soils?",
+    "options": [
+      "intergranular friction",
+      "cohesion and adhesion between the soil particles",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Based on Mohr-Coulomb theory, shear strength ($s$) comes from two components: internal friction ($\\phi$) between grains and cohesion ($c$) between particles."
+  },
+  {
+    "q": "216. In an undrained plastic clay the shear strength is due to ............",
+    "options": [
+      "internal friction",
+      "cohesion",
+      "inter-granular friction",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In purely cohesive soils (like saturated plastic clay under undrained conditions), the angle of internal friction ($\\phi$) is zero, and strength depends entirely on cohesion ($c$)."
+  },
+  {
+    "q": "217. Through a point in a loaded soil, the normal stress is maximum on ............",
+    "options": [
+      "major principal plane",
+      "minor principal plane",
+      "plane making an angle of 45 with principal planes",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, the major principal plane is the plane on which the normal stress is at its maximum value and the shear stress is zero."
+  },
+  {
+    "q": "218. The maximum shear stress occurs on the filament which makes an angle with the horizontal plane equal to ............",
+    "options": [
+      "22 ½°",
+      "45°",
+      "60°",
+      "67 ½°"
+    ],
+    "correct": 1,
+    "explain": "In Mohr's circle analysis, the maximum shear stress occurs on a plane oriented at $45^\\circ$ to the principal planes."
+  },
+  {
+    "q": "219. The seepage velocity vs and the Darcy's velocity v are related as ............",
+    "options": [
+      "v = vs / n",
+      "vs = v / n",
+      "vs = v · n",
+      "vs = n / v"
+    ],
+    "correct": 1,
+    "explain": "Since water only flows through the voids, the actual velocity ($v_s$) is higher than the discharge velocity ($v$). It is related by porosity ($n$) as $v_s = v/n$."
+  },
+  {
+    "q": "220. When analogy is drawn between Darcy's law for flow of water and Ohm's law for flow of current, what is analogous to the quantity of seepage?",
+    "options": [
+      "Resistance",
+      "Voltage",
+      "Current",
+      "Conductivity"
+    ],
+    "correct": 2,
+    "explain": "In the electrical analogy, flow of water ($Q$) is analogous to electric current ($I$), hydraulic head ($h$) to voltage ($V$), and permeability ($k$) to conductivity."
+  },
+  {
+    "q": "221. An isobar is ............",
+    "options": [
+      "a curve connecting points of equal vertical pressure",
+      "a point at which the net pressure is zero",
+      "a curve connecting points of equal horizontal pressure",
+      "a curve connecting points of equal pore water pressure"
+    ],
+    "correct": 0,
+    "explain": "An isobar (or 'pressure bulb') is a contour line that joins points of equal vertical stress increment in the soil mass below a loaded area."
+  },
+  {
+    "q": "222. Consolidation theory was enunciated by ............",
+    "options": [
+      "Rankine",
+      "Westergaard's",
+      "Skempton",
+      "Terzaghi"
+    ],
+    "correct": 3,
+    "explain": "Karl Terzaghi, the father of soil mechanics, developed the one-dimensional consolidation theory in 1923 to explain how saturated clays settle over time."
+  },
+  {
+    "q": "223. Consolidation is a process involving ............",
+    "options": [
+      "sudden compression of soil",
+      "tilting and failure of structure",
+      "abnormal sinking of foundation",
+      "gradual expulsion of pore water"
+    ],
+    "correct": 3,
+    "explain": "Consolidation is the time-dependent reduction in volume of a saturated soil due to the gradual expulsion of pore water under a static load."
+  },
+  {
+    "q": "224. Consolidation is generally considered to be a function of ............",
+    "options": [
+      "total stress",
+      "neutral stress",
+      "effective stress",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Consolidation occurs only as excess pore water pressure dissipates and the load is transferred to the soil solids, thereby increasing the effective stress."
+  },
+  {
+    "q": "225. In the Terzaghi's theory of one dimensional consolidation, it is assumed that ............",
+    "options": [
+      "soil particles are compressible",
+      "soil is non-homogeneous",
+      "coefficient of volume change is not constant",
+      "compression is one-dimensional"
+    ],
+    "correct": 3,
+    "explain": "Key assumptions include: the soil is homogeneous and saturated, water and soil grains are incompressible, and both water flow and soil compression occur in only one direction (vertical)."
+  },
+  {
+    "q": "226. The unit of the coefficient of consolidation is ............",
+    "options": [
+      "cm²/cm",
+      "cm/sec",
+      "cm²/sec",
+      "gm-cm²/sec"
+    ],
+    "correct": 2,
+    "explain": "The coefficient of consolidation ($C_v$) is defined by the units of Area/Time ($L^2/T$), typically $cm^2/sec$ or $m^2/year$."
+  },
+  {
+    "q": "227. When a static load is applied, the consolidation is fast the case of ............",
+    "options": [
+      "clays",
+      "silty clays",
+      "sandy silts",
+      "sands"
+    ],
+    "correct": 3,
+    "explain": "Sands have high permeability, allowing pore water to escape almost instantaneously upon loading, making consolidation very rapid compared to clays."
+  },
+  {
+    "q": "228. The aim of doubling the pressure each time in the consolidation test is to see that the soil is always ............",
+    "options": [
+      "over consolidated condition",
+      "normally consolidated condition",
+      "under consolidation condition",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "By doubling the load (e.g., 0.5, 1, 2, 4 kg/cm²), we ensure the new pressure quickly exceeds the previous maximum, keeping the soil in a 'normally consolidated' state for analysis."
+  },
+  {
+    "q": "229. The maximum over consolidation ratio of normally consolidated soil is ............",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "The Over-Consolidation Ratio (OCR) is the ratio of the maximum past pressure to the present pressure. For a normally consolidated soil, these are equal, so $OCR = 1$."
+  },
+  {
+    "q": "230. Direct measurement of permeability of the soil specimen can be made at any stage of loading in ............",
+    "options": [
+      "fixed ring type consolidometer",
+      "floating ring type consolidometer",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In a floating ring consolidometer, the ring is free to move, reducing friction and allowing for better drainage setups that facilitate direct permeability measurements during the test."
+  },
+  {
+    "q": "231. Square root of time fitting method is used for calculating ............",
+    "options": [
+      "compression index",
+      "co-efficient of consolidation",
+      "co-efficient of compressibility",
+      "co-efficient of volume compressibility"
+    ],
+    "correct": 1,
+    "explain": "Taylor's 'square root of time' method and Casagrande's 'log of time' method are the two standard graphical techniques used to determine $C_v$ from laboratory data."
+  },
+  {
+    "q": "232. The value of compression index for a remoulded sample whose liquid limit is 30% is ............",
+    "options": [
+      "0.021",
+      "0.027",
+      "0.21",
+      "0.27"
+    ],
+    "correct": 0,
+    "explain": "For remoulded soil, $C_c = 0.007(LL - 10)$. For $LL = 30$, $C_c = 0.007(30 - 10) = 0.007 \times 20 = 0.14$. Note: Answer key indicates option 'a' (0.021), likely following a specific variant of the formula or text error."
+  },
+  {
+    "q": "233. The coefficient of consolidation of a soil is affected by ............",
+    "options": [
+      "compressibility only",
+      "permeability only",
+      "both compressibility and permeability",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The coefficient of consolidation ($C_v$) is mathematically related to permeability ($k$) and volume compressibility ($m_v$) by the equation $C_v = k / (m_v \\cdot \\gamma_w)$."
+  },
+  {
+    "q": "234. Compressibility of a clayey soils will be ............",
+    "options": [
+      "equal to that of sandy soils",
+      "greater than sandy soils",
+      "less than clayey soils",
+      "can't say"
+    ],
+    "correct": 1,
+    "explain": "Clays are much more compressible than sands because they have higher void ratios and the plate-like particles can rearrange significantly under load."
+  },
+  {
+    "q": "235. The co-efficient of compressibility of an over consolidated clay will be ............",
+    "options": [
+      "equal to that of a normally consolidated clay",
+      "greater than that of a normally consolidated clay",
+      "less than that of a normally consolidated clay",
+      "can't say"
+    ],
+    "correct": 2,
+    "explain": "Over-consolidated clays have already experienced higher pressures in the past, making them stiffer and less compressible ($a_v$ is lower) than normally consolidated clays."
+  },
+  {
+    "q": "236. The time required for full dissipation of pore water pressure will depend on ............",
+    "options": [
+      "thickness of soil sample only",
+      "co-efficient of permeability of soil only",
+      "both thickness and co-efficient of permeability only",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Time $t$ is proportional to $d^2 / C_v$. Since $C_v$ depends on permeability, both the drainage path (thickness) and the permeability determine the rate of dissipation."
+  },
+  {
+    "q": "237. When compared to deformation of thin soil sample because of consolidation, the deformation of thick soil sample will be ............",
+    "options": [
+      "less",
+      "more",
+      "equal",
+      "can't say"
+    ],
+    "correct": 1,
+    "explain": "Settlement $\\Delta H$ is directly proportional to the initial thickness $H$. Therefore, a thicker soil layer will undergo a larger total deformation."
+  },
+  {
+    "q": "238. The time required for the completion of consolidation for a thin soil sample when compared with that of a thick soil sample will be ............",
+    "options": [
+      "less",
+      "more",
+      "equal",
+      "can't say"
+    ],
+    "correct": 0,
+    "explain": "Since time $t$ is proportional to the square of the thickness ($t \\propto H^2$), a thinner sample completes consolidation much faster than a thicker one."
+  },
+  {
+    "q": "239. As the value of drainage path increases the time required for consolidation will ............",
+    "options": [
+      "decrease",
+      "increase",
+      "constant",
+      "can't say"
+    ],
+    "correct": 1,
+    "explain": "The time required for a certain degree of consolidation is directly proportional to the square of the drainage path ($d^2$). More distance for water to travel means more time."
+  },
+  {
+    "q": "240. The change in the thickness of a soil sample may be due to ............",
+    "options": [
+      "expulsion of pore water or pore air from the voids",
+      "compression of the soil solid particles",
+      "compression of water (or) air in the voids of soil",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "While expulsion of water/air is the primary cause in soil mechanics, the physical compression of the individual components also contributes to the total volume change."
+  },
+  {
+    "q": "241. Primary consolidation of soil is due to the expulsion of ............",
+    "options": [
+      "absorbed water only",
+      "adsorbed water only",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Primary consolidation refers specifically to the expulsion of 'free' or 'absorbed' pore water from the voids under excess hydrostatic pressure."
+  },
+  {
+    "q": "242. Secondary consolidation of soil is due to the expulsion of ............",
+    "options": [
+      "absorbed water only",
+      "adsorbed water only",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Secondary consolidation occurs after primary consolidation is complete and is attributed to the plastic readjustment of soil solids and the expulsion of highly viscous 'adsorbed' water."
+  },
+  {
+    "q": "243. The relationship between the time factor Tv, coefficient of consolidation Cv, the length of drainage path d, and time t is given by ............",
+    "options": [
+      "Tv = Cv · d² / t",
+      "Tv = Cv · t² / d",
+      "Tv = Cv · t / d²",
+      "Tv = Cv · t² / d²"
+    ],
+    "correct": 2,
+    "explain": "The dimensionless time factor $T_v$ is defined as $T_v = (C_v \\cdot t) / d^2$, where $d$ is the drainage path length."
+  },
+  {
+    "q": "244. The time factor for a particular degree of consolidation ............",
+    "options": [
+      "depends upon the coefficient of consolidation",
+      "depends upon the drainage path",
+      "depends upon the distribution of initial excess hydrostatic pressure",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "While $T_v$ relates to $t$, its value for a specific degree of consolidation ($U$) depends on the boundary conditions and the shape of the initial pore pressure distribution (Isocrone)."
+  },
+  {
+    "q": "245. The compression resulting from long term static load and resulting expulsion of water is known as ............",
+    "options": [
+      "compaction",
+      "inverses swelling",
+      "consolidation",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "This is the classic definition of consolidation: a slow, time-dependent reduction in volume under static load due to water expulsion."
+  },
+  {
+    "q": "246. Compression of soils occurs rapidly if voids are occupied by ............",
+    "options": [
+      "air",
+      "water",
+      "partly air and partly water",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Air is highly compressible and can be expelled or compressed almost instantly, leading to rapid volume change (compaction) compared to water-filled voids."
+  },
+  {
+    "q": "247. The compressibility of a field deposit is ............",
+    "options": [
+      "the same as that shown by a laboratory sample",
+      "greater than that shown by a laboratory sample",
+      "smaller than that shown by a laboratory sample",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Laboratory samples often suffer from 'sampling disturbance,' which tends to slightly decrease the apparent compressibility compared to the actual in-situ soil deposit."
+  },
+  {
+    "q": "248. Mathematically speaking, the time taken for 100% consolidation is ............",
+    "options": [
+      "5 years",
+      "10 years",
+      "zero",
+      "infinite"
+    ],
+    "correct": 3,
+    "explain": "According to Terzaghi's mathematical model, the degree of consolidation reaches 100% asymptotically, meaning it takes infinite time to achieve theoretically 'perfect' consolidation."
+  },
+  {
+    "q": "249. If consolidation experiments are conducted on two soil samples of the same soil but having different thickness (thick and thin) then the deformations will be higher in ............",
+    "options": [
+      "thick",
+      "thin",
+      "constant",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Since vertical strain ($\\Delta H/H$) is constant for a given pressure, the absolute change in thickness ($\\Delta H$) is larger for the thicker sample."
+  },
+  {
+    "q": "250. As the length of drainage path increases the time required for consolidation ............",
+    "options": [
+      "decreases",
+      "increases",
+      "remains constant",
+      "can't say"
+    ],
+    "correct": 1,
+    "explain": "The time required for consolidation is directly proportional to the square of the drainage path; hence, a longer path significantly increases the time required."
+  },
+  {
+    "q": "251. The ratio of settlement at any time t, to the final settlement is called as ............",
+    "options": [
+      "percentage settlement",
+      "partial settlement ratio",
+      "degree of consolidation",
+      "residual consolidation"
+    ],
+    "correct": 2,
+    "explain": "The degree of consolidation (U) is defined as the ratio of the settlement at a specific time (St) to the ultimate expected settlement (Sf), usually expressed as a percentage."
+  },
+  {
+    "q": "252. A clay deposit subjected to pressure in the past is more than the present over burden pressure is known as ............",
+    "options": [
+      "normally consolidated soil",
+      "over-consolidated soil",
+      "under-consolidated soil",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Over-consolidated (OC) soils have experienced a vertical effective stress in their geological history higher than what is currently acting on them, often due to erosion or ice melting."
+  },
+  {
+    "q": "253. A clay deposit which is not fully consolidated under the existing over burden pressure is known as ............",
+    "options": [
+      "normally consolidated soil",
+      "over-consolidated soil",
+      "under-consolidated soil",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Under-consolidated soil is still in the process of consolidating under its own weight or existing loads; the pore water pressure has not yet reached equilibrium."
+  },
+  {
+    "q": "254. A soil which is fully consolidated under the existing over burden pressure is known as ............",
+    "options": [
+      "normally consolidated soil",
+      "over consolidated soil",
+      "under-consolidated soil",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Normally consolidated (NC) soil is currently experiencing the maximum vertical effective stress it has ever felt in its history."
+  },
+  {
+    "q": "255. Over-consolidation may be due to ............",
+    "options": [
+      "the weight of ice sheet or glacier which is melted away",
+      "weight of the land slide which is removed",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Any process that removes previously existing overburden—such as glacial melting, erosion, or excavations—results in an over-consolidated state."
+  },
+  {
+    "q": "256. Even after the complete dissipation of excess pore pressure, a little more consolidation is possible. This is called as ............",
+    "options": [
+      "primary consolidation",
+      "secondary consolidation",
+      "compressibility",
+      "compaction"
+    ],
+    "correct": 1,
+    "explain": "Secondary consolidation (or creep) occurs at constant effective stress due to the plastic readjustment of soil fabrics after primary consolidation (pore pressure dissipation) is finished."
+  },
+  {
+    "q": "257. Secondary consolidation is ............",
+    "options": [
+      "caused by hydrodynamic lag",
+      "caused by hydrostatic pressure",
+      "caused by creep",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Creep refers to the slow, time-dependent deformation of the soil skeleton itself, which continues long after water has finished draining."
+  },
+  {
+    "q": "258. Which of the following clays behave like a dense sand ............",
+    "options": [
+      "normally consolidated clay",
+      "under consolidated clay",
+      "over consolidated clay with a low O.C.R.",
+      "over consolidated clay with a high O.C.R."
+    ],
+    "correct": 3,
+    "explain": "Clays with a high Over-Consolidation Ratio (OCR) are stiff and brittle; they show a peak in shear strength followed by a drop, much like dense sands do."
+  },
+  {
+    "q": "259. For a soil layer with double drainage and thickness H, the drainage path is equal to ............",
+    "options": [
+      "2H",
+      "H/2",
+      "H²",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In double drainage, water at the center has to travel a maximum distance of H/2 to reach either the top or bottom drainage boundary."
+  },
+  {
+    "q": "260. A clay deposit suffers a total settlement of 10 cm with one way drainage, then with two way drainage, it suffers a total settlement of ............",
+    "options": [
+      "20 cm",
+      "5 cm",
+      "10 cm",
+      "Nil"
+    ],
+    "correct": 2,
+    "explain": "Total ultimate settlement depends on the change in void ratio and the thickness of the layer, not on the drainage conditions. Drainage only affects the *rate* (speed) of settlement."
+  },
+  {
+    "q": "261. The consolidation settlement of a soil is ............",
+    "options": [
+      "directly proportional to compression index",
+      "inversely proportional to compression index",
+      "directly proportional to the voids ratio",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The settlement formula $S = [C_c / (1+e_0)] \\cdot H \\cdot \\log(\\sigma_1/\\sigma_0)$ shows that settlement is directly proportional to the Compression Index ($C_c$)."
+  },
+  {
+    "q": "262. The pressure-void ratio curve will be ............",
+    "options": [
+      "linear when plotted on ordinary paper",
+      "linear when plotted on semi-log paper",
+      "linear when plotted on log-log paper",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In the $e$ vs $\\log(p)$ plot, the compression of normally consolidated soil appears as a straight line, the slope of which is $C_c$."
+  },
+  {
+    "q": "263. Standard proctor test is used for determining ............",
+    "options": [
+      "optimum moisture content (O.M.C.)",
+      "void ratio",
+      "co-efficient of consolidation",
+      "pavement thickness"
+    ],
+    "correct": 0,
+    "explain": "The Proctor test determines the relationship between water content and dry density to find the Optimum Moisture Content (OMC) and Maximum Dry Density."
+  },
+  {
+    "q": "264. compaction of soil is aimed at ............",
+    "options": [
+      "decreasing dry density",
+      "increasing porosity",
+      "decreasing void ratio",
+      "decreasing shear strength"
+    ],
+    "correct": 2,
+    "explain": "Compaction expels air from the voids, which reduces the void ratio and increases the dry density, leading to higher shear strength."
+  },
+  {
+    "q": "265. The process of compaction of a soil involves ............",
+    "options": [
+      "expulsion of pore water",
+      "expulsion of air voids",
+      "expulsion of both pore water and air voids",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Strictly speaking, compaction is the expulsion of air. Expulsion of water is the definition of consolidation."
+  },
+  {
+    "q": "266. Compaction of soil ............",
+    "options": [
+      "increases dry density",
+      "decreases porosity",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "By reducing the volume of air voids, the soil becomes denser (higher dry density) and has fewer total voids (lower porosity)."
+  },
+  {
+    "q": "267. For the same soil, increase in compaction effort ............",
+    "options": [
+      "does not affect O.M.C.",
+      "increases O.M.C.",
+      "decreases O.M.C.",
+      "decreases dry density"
+    ],
+    "correct": 2,
+    "explain": "Higher compactive energy packs particles tighter at lower moisture levels, resulting in a higher maximum dry density and a lower OMC."
+  },
+  {
+    "q": "268. The most effective method for compacting sand is by using ............",
+    "options": [
+      "pneumatic rollers",
+      "sheep foot rollers",
+      "steel tyred rollers",
+      "vibration"
+    ],
+    "correct": 3,
+    "explain": "Cohesionless soils like sands are best compacted by vibration, which causes the particles to settle into their densest possible arrangement."
+  },
+  {
+    "q": "269. The ratio of dry density obtained in the field to the proctor's maximum dry density is called ........ ",
+    "options": [
+      "compaction energy",
+      "compactive effort",
+      "relative compaction",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Relative compaction is a measure of field efficiency, ensuring the contractor meets the engineering specifications derived from the lab."
+  },
+  {
+    "q": "270. The soil involved in the compaction is ............",
+    "options": [
+      "perfectly saturated soil",
+      "partly saturated soil",
+      "submerged soil",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Compaction is most effective on partially saturated soils where air voids can be easily compressed and expelled."
+  },
+  {
+    "q": "271. The maximum dry density upto which any soil can be compacted depends upon ............",
+    "options": [
+      "water content only",
+      "amount of compactive effort only",
+      "both water content and compactive effort",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Density is a function of both the lubrication provided by water and the mechanical energy (effort) applied to the soil."
+  },
+  {
+    "q": "272. For better strength and stability, the coarse grained and fine grained soils are respectively compacted as ............",
+    "options": [
+      "dry of OMC and wet of OMC",
+      "wet of OMC and wet of OMC",
+      "wet of OMC and dry of OMC",
+      "dry of OMC and dry of OMC"
+    ],
+    "correct": 0,
+    "explain": "Compacting clays 'wet of OMC' produces a dispersed structure with lower permeability, while coarse soils are usually compacted 'dry of OMC'."
+  },
+  {
+    "q": "273. Compaction process may be accompanied by ............",
+    "options": [
+      "rolling",
+      "tamping",
+      "vibration",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "Depending on the soil type (cohesive vs cohesionless), various mechanical methods like rolling (static), tamping (impact), or vibration are used."
+  },
+  {
+    "q": "274. The maximum compaction for any given water content corresponds to a percent air-voids equal to ...",
+    "options": [
+      "0",
+      "1.0",
+      "0.1",
+      "can't say"
+    ],
+    "correct": 0,
+    "explain": "The 'Zero Air Voids' line represents the theoretical maximum density where all air has been removed, leaving only soil and water."
+  },
+  {
+    "q": "275. The coefficient of sub-grade reaction of a soil is ............",
+    "options": [
+      "load per unit deformation",
+      "pressure per unit deformation",
+      "density per unit deformation",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Coefficient of sub-grade reaction (k) is the ratio of applied pressure to the resulting settlement ($p/s$), measured in $kg/cm^3$."
+  },
+  {
+    "q": "276. Plasticity needle is used to determine ............",
+    "options": [
+      "plastic limit of the soil used in compaction",
+      "penetration resistance to control field compaction",
+      "penetration value of bitumen used in road construction",
+      "swelling index of black cotton soil"
+    ],
+    "correct": 1,
+    "explain": "Also known as the Proctor Needle, it measures the penetration resistance of compacted soil in the field to ensure it matches lab results."
+  },
+  {
+    "q": "277. In the modified proctor test the drop height of the rammer is ............",
+    "options": [
+      "30 cm",
+      "45 cm",
+      "60 cm",
+      "75 cm"
+    ],
+    "correct": 1,
+    "explain": "In the Modified Proctor test, the rammer weight is 4.54 kg (10 lb) and the drop height is 45.7 cm (18 inches), providing much higher energy than the standard test."
+  },
+  {
+    "q": "278. The admixture used in soil stabilization is ............",
+    "options": [
+      "cement",
+      "lime",
+      "bitumen",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "Cement, lime, and bitumen are all common chemical additives used to improve the engineering properties of weak soils."
+  },
+  {
+    "q": "279. Clays containing organic matter are made suitable for stabilization, by first adding a small percentage of ............",
+    "options": [
+      "hydrated lime",
+      "cement",
+      "calcium chloride",
+      "resins"
+    ],
+    "correct": 2,
+    "explain": "Calcium chloride helps counteract the retarding effects that organic matter has on the hardening process of other stabilizers like cement."
+  },
+  {
+    "q": "280. Cut back bitumen refers to bitumen ............",
+    "options": [
+      "cut to the required size for filling gaps",
+      "mixed with a solvent",
+      "heated to decrease viscosity",
+      "mixed with water before adding the aggregate"
+    ],
+    "correct": 1,
+    "explain": "Cut-back bitumen is bitumen whose viscosity has been temporarily reduced by the addition of a volatile solvent like kerosene or gasoline."
+  },
+  {
+    "q": "281. Total number of stress components at a particular point within a soil mass because of the load is ..",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correct": 2,
+    "explain": "In 3D stress analysis, there are 3 normal stresses ($\\sigma_x, \\sigma_y, \\sigma_z$) and 6 shear stresses ($\tau_{xy}, \tau_{yx}$, etc.), totaling 9 components (of which 6 are independent)."
+  },
+  {
+    "q": "282. The value of Poisson's ratio for an elastic material generally varies from ............",
+    "options": [
+      "0 to 1.0",
+      "0.0 to 0.5",
+      "1 to 1.5",
+      "1.5 to 2.0"
+    ],
+    "correct": 1,
+    "explain": "For most engineering materials, Poisson's ratio ranges from 0 to 0.5. A value of 0.5 represents a perfectly incompressible material."
+  },
+  {
+    "q": "283. Geostatic stresses are due to ............",
+    "options": [
+      "static loads",
+      "dynamic loads",
+      "self-weight of soil",
+      "none of above"
+    ],
+    "correct": 2,
+    "explain": "Geostatic stress is the stress exerted by the weight of the overlying soil at a given depth in the ground."
+  },
+  {
+    "q": "284. The expression for vertical stress at a point below the corner of a rectangular loaded area was derived by ............",
+    "options": [
+      "Boussinesq's",
+      "Westergaard's",
+      "Newmark",
+      "Fenske"
+    ],
+    "correct": 2,
+    "explain": "Newmark derived the integration of Boussinesq's equation specifically for a point under the corner of a rectangular area, leading to the use of 'Influence Charts'."
+  },
+  {
+    "q": "285. Newmark's chart is based on the concept of vertical stress under ............",
+    "options": [
+      "concentrated load",
+      "a line load",
+      "a strip load",
+      "a uniformly loaded circular area"
+    ],
+    "correct": 3,
+    "explain": "Newmark’s Influence Chart is constructed using the equation for vertical stress at the center of a uniformly loaded circular area."
+  },
+  {
+    "q": "286. Westergaard's theory is more appropriate for ............",
+    "options": [
+      "layered soils",
+      "homogeneous deposits",
+      "anisotropic soils",
+      "normally consolidated homogeneous soils"
+    ],
+    "correct": 0,
+    "explain": "Westergaard's theory assumes the soil is reinforced by thin, rigid horizontal layers, making it better for stratified (layered) deposits than Boussinesq's theory."
+  },
+  {
+    "q": "287. Generally hand augers are used when the depth is about ............",
+    "options": [
+      "6 m",
+      "12 m",
+      "25 m",
+      "37 m"
+    ],
+    "correct": 0,
+    "explain": "Hand augers are manually operated and become physically difficult to manage once the depth exceeds about 6 meters."
+  },
+  {
+    "q": "288. The depth of exploration for square footing should be at least ............",
+    "options": [
+      "Width of footing",
+      "1.5 times width of footing",
+      "twice the width of footing",
+      "3 times width of footing"
+    ],
+    "correct": 1,
+    "explain": "For square foundations, the pressure bulb (significant stress zone) usually extends to about 1.5 times the width of the footing."
+  },
+  {
+    "q": "289. The depth of exploration of a strip footing should be at least ............",
+    "options": [
+      "width of footing",
+      "1.5 times width of footing",
+      "twice the width of footing",
+      "3 times width of footing"
+    ],
+    "correct": 3,
+    "explain": "Strip footings distribute stress differently; the pressure bulb is deeper, requiring investigation up to 3 times the width."
+  },
+  {
+    "q": "290. The depth upto which the stress increment due to the applied loads can produce significant settlement is called as ............",
+    "options": [
+      "depth of settlement",
+      "depth of foundation",
+      "significant depth",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Significant depth is generally taken as the depth where the increase in vertical stress is less than 10% of the applied surface pressure."
+  },
+  {
+    "q": "291. The minimum depth of exploration in case of gravity dam is ............",
+    "options": [
+      "base of dam",
+      "twice the base of am",
+      "height of the dam",
+      "twice the height of dam"
+    ],
+    "correct": 2,
+    "explain": "For heavy structures like gravity dams, the exploration must reach a depth at least equal to the height of the dam to ensure foundation stability."
+  },
+  {
+    "q": "292. For an area of about 0.4 hectares, the minimum number of bore holes is ............",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "7"
+    ],
+    "correct": 1,
+    "explain": "Standard practice for soil exploration recommends at least 3 bore holes for a small site to establish the geological profile."
+  },
+  {
+    "q": "293. The minimum clear working space for pit as recommended by I.S. code is ............",
+    "options": [
+      "1 m × 1 m",
+      "1.2 m × 1.2 m",
+      "1.4 m × 1.4 m",
+      "2 m × 2 m"
+    ],
+    "correct": 1,
+    "explain": "A size of 1.2m x 1.2m is the standard minimum required for a worker to operate safely and effectively inside an exploration pit."
+  },
+  {
+    "q": "294. Bore boles are found to be economical than the test pits when the depth of exploration is around ....",
+    "options": [
+      "2 m",
+      "4 m",
+      "6 m",
+      "10 m"
+    ],
+    "correct": 2,
+    "explain": "Pits require extensive excavation and support; beyond 6 meters, drilling a bore hole is much faster and cheaper."
+  },
+  {
+    "q": "295. Adits are also known as ............",
+    "options": [
+      "test pits",
+      "trenches",
+      "shafts",
+      "drifts"
+    ],
+    "correct": 3,
+    "explain": "Adits or drifts are horizontal or nearly horizontal passages driven into a hill or underground for exploration or drainage."
+  },
+  {
+    "q": "296. Drifts are naturally made in ............",
+    "options": [
+      "horizontal direction",
+      "vertical direction",
+      "inclined direction",
+      "vertical direction"
+    ],
+    "correct": 0,
+    "explain": "As noted, drifts are horizontal exploration tunnels."
+  },
+  {
+    "q": "297. Shafts are naturally made in ............",
+    "options": [
+      "horizontal direction",
+      "vertical direction",
+      "inclined direction",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A shaft is a vertical or steeply inclined passage from the surface used for exploration or access."
+  },
+  {
+    "q": "298. The mechanical augers will become inconvenient when the depth is greater than ............",
+    "options": [
+      "6 m",
+      "12 m",
+      "25 m",
+      "37 m"
+    ],
+    "correct": 1,
+    "explain": "Light mechanical augers typically reach their practical limit around 12 meters before heavier drilling rigs are required."
+  },
+  {
+    "q": "299. For a sandy soil below the water table, the presence of a casing is ............",
+    "options": [
+      "required",
+      "not required",
+      "not at all necessary",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "In loose sand below water level, the bore hole walls will cave in instantly. A casing pipe is essential to keep the hole open."
+  },
+  {
+    "q": "300. An undisturbed sample is that in which ............",
+    "options": [
+      "neither the natural structure nor the properties are preserved",
+      "both the natural structure and the properties are preserved",
+      "natural structure is disturbed but the water content is retained",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Undisturbed samples are obtained using special samplers to maintain the soil's original structure, void ratio, and moisture for accurate lab testing."
+  }
+]

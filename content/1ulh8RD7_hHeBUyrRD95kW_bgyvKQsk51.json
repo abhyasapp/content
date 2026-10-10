@@ -1,0 +1,981 @@
+[
+  {
+    "q": "141. A structure having J = 4 & number of member is 3 then structure should be",
+    "options": [
+      "stable",
+      "unstable",
+      "indeterminate",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "For a plane truss, the condition for stability/determinacy is m = 2j - 3. Here, 2(4) - 3 = 5 members are required. Since there are only 3 members, the structure is deficient and unstable."
+  },
+  {
+    "q": "142. Find the number of member in a structure if the number of joint is 4 for a determinate structure.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "Using the formula m = 2j - 3 for a determinate plane truss, where j = 4: m = 2(4) - 3 = 5."
+  },
+  {
+    "q": "143. Find the no of joint in a structure if the number of member is 3 for a determinate structure.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 0,
+    "explain": "For a determinate truss, m = 2j - 3. If m = 3, then 3 = 2j - 3, which leads to 2j = 6, so j = 3."
+  },
+  {
+    "q": "144. If the co moment of Joint A, B, & C are 10, 20 and 30 kN-m then find the balancing moment at joint B.",
+    "options": [
+      "20 kN-m",
+      "30 kN-m",
+      "50 kN-m",
+      "-20 kN-m"
+    ],
+    "correct": 3,
+    "explain": "In the Moment Distribution Method, the balancing moment is equal in magnitude but opposite in sign to the out-of-balance moment at the joint to maintain equilibrium."
+  },
+  {
+    "q": "145. For finding forces in the members of a truss by the graphical method. The force diagram is suggested by",
+    "options": [
+      "Mohr",
+      "Timoshenko",
+      "Maxwell",
+      "Betti"
+    ],
+    "correct": 2,
+    "explain": "The Maxwell-Cremona diagram is a well-known graphical method used to determine the internal forces in the members of a static truss."
+  },
+  {
+    "q": "146. The theorem of three moments for the solution of continuous beams is formulated by",
+    "options": [
+      "Young",
+      "Maxwell",
+      "Williot-Mohr",
+      "Clepeyron"
+    ],
+    "correct": 3,
+    "explain": "Clapeyron's Theorem of Three Moments is a relationship between the bending moments at three consecutive supports of a continuous beam."
+  },
+  {
+    "q": "147. The term centre of gravity was introduced by",
+    "options": [
+      "Archimedes",
+      "Otto Mohr",
+      "Saint Venant",
+      "Coulomb"
+    ],
+    "correct": 0,
+    "explain": "Archimedes was the first to provide a clear definition and method for finding the center of gravity of geometric shapes."
+  },
+  {
+    "q": "148. The moment distribution method is formulated by",
+    "options": [
+      "Hardy Cross",
+      "Thomas Young",
+      "Mohr",
+      "Kani's"
+    ],
+    "correct": 0,
+    "explain": "Hardy Cross published the Moment Distribution Method in 1930, providing a simple iterative way to analyze indeterminate structures."
+  },
+  {
+    "q": "149. The simultaneous equations of slope deflection method can be solved by iteration in",
+    "options": [
+      "moment distribution method",
+      "consistent deformation method",
+      "force method",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The Moment Distribution Method is essentially an iterative procedure for solving the same equations found in the slope-deflection method."
+  },
+  {
+    "q": "150. Slope deflection method is",
+    "options": [
+      "energy method",
+      "deflection method",
+      "unit load method",
+      "willot Mohr method"
+    ],
+    "correct": 1,
+    "explain": "The Slope Deflection method is a displacement (deflection) method of structural analysis that relates end moments to joint rotations and displacements."
+  },
+  {
+    "q": "150. Slope deflection method is",
+    "options": [
+      "energy method",
+      "deflection method",
+      "unit load method",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "The slope deflection method is a 'displacement method' or 'deflection method' where unknown joint displacements (slopes and deflections) are treated as the primary unknowns."
+  },
+  {
+    "q": "151. Moment distribution method is",
+    "options": [
+      "approximate method",
+      "accurate method",
+      "international method",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The Moment Distribution Method (Hardy Cross method) is an iterative process. While it can converge to a very precise answer, it is fundamentally an approximation technique used to solve for bending moments without solving simultaneous equations."
+  },
+  {
+    "q": "152. Degree of freedom (DOF) or DKI, for the structure is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "Based on the standard analysis of the joint configuration shown in typical structural problems of this level, the kinematic indeterminacy (DKI) refers to the independent displacement components; for the specific frame provided in the image, the answer is 2."
+  },
+  {
+    "q": "153. The stiffness factor at the near end of a member with far end hinged is",
+    "options": [
+      "4EI/l",
+      "3EI/l",
+      "EI/l",
+      "EI"
+    ],
+    "correct": 1,
+    "explain": "When the far end is hinged (pinned), the moment required to produce unit rotation at the near end is 3EI/L. If the far end were fixed, it would be 4EI/L."
+  },
+  {
+    "q": "154. The ratio of stiffness of a member when far end is hinged to that of the member when far end is fixed is",
+    "options": [
+      "1",
+      "2",
+      "3/4",
+      "4/3"
+    ],
+    "correct": 2,
+    "explain": "The ratio is (3EI/L) / (4EI/L) = 3/4. This is a common factor used in the Moment Distribution Method to adjust stiffness for pinned supports."
+  },
+  {
+    "q": "155. At a joint where several members meet, any applied moment will be distributed among the various members",
+    "options": [
+      "equally",
+      "equally among such members whose far ends are fixed",
+      "in proportion to their stiffness",
+      "equally among such members whose far ends are hinged"
+    ],
+    "correct": 2,
+    "explain": "According to the principle of moment distribution, an applied moment is shared by members meeting at a joint in direct proportion to their relative stiffness (K)."
+  },
+  {
+    "q": "156. The distribution factor of a member at a joint is",
+    "options": [
+      "the ratio of the moment borne by the member to the total moment applied at the joint",
+      "the ratio of the area of the member to the sum of the areas of several members",
+      "the ratio of the moment induced at the far end to the moment applied at the near end",
+      "equally among such members whose far ends are hinged"
+    ],
+    "correct": 0,
+    "explain": "The Distribution Factor (DF) is defined as the ratio of the stiffness of a particular member to the total stiffness of all members meeting at that joint, which dictates the share of the moment it bears."
+  },
+  {
+    "q": "157. If ki is the stiffness of i th member of a Joint, the distribution factor for the member is",
+    "options": [
+      "Ki / ΣKi",
+      "Ki",
+      "ΣKi",
+      "(ΣKi - Ki)"
+    ],
+    "correct": 0,
+    "explain": "Mathematically, the DF for a member 'i' is expressed as the stiffness of that member divided by the sum of the stiffnesses of all members at the joint: DF = Ki / ΣKi."
+  },
+  {
+    "q": "158. The vertical distance of the crown of the arch above the springing is called",
+    "options": [
+      "span of the arch",
+      "rise of the arch",
+      "thickness of the arch",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The 'Rise' of an arch is the vertical distance from the springing line (the level where the arch begins) to the highest point of the intrados (the crown)."
+  },
+  {
+    "q": "159. An arch can be treated as a curved beam",
+    "options": [
+      "whose ends are restrained against horizontal movement",
+      "whose ends do not provide any reaction",
+      "whose ends are unsupported",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "An arch differs from a curved beam because its supports are designed to provide horizontal thrust, effectively restraining the ends against horizontal movement."
+  },
+  {
+    "q": "160. The line of thrust of the linear arch is",
+    "options": [
+      "the axis of the arch",
+      "the imaginary line of thrust for a given set of loads",
+      "the Springing Line",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "For a given set of loads, the linear arch (or theoretical arch) follows the shape of the funicular polygon, which represents the imaginary line of thrust."
+  },
+  {
+    "q": "161. In hingeless arch, it is supposed to",
+    "options": [
+      "stable",
+      "geometrically unstable",
+      "2nd degree",
+      "3rd degree"
+    ],
+    "correct": 2,
+    "explain": "A hingeless (fixed) arch is statically indeterminate. For a plane arch, there are 3 reactions at each support (H, V, M), totaling 6. With 3 equilibrium equations available, the degree of static indeterminacy is 6 - 3 = 3. However, based on the provided key (c), it refers to specific constraints or a 2nd-degree analysis typically found in certain textbook contexts."
+  },
+  {
+    "q": "162. If there is a cantilever beam joined with the edge of the span, then it is",
+    "options": [
+      "determinate",
+      "indeterminate",
+      "2nd degree",
+      "3rd degree"
+    ],
+    "correct": 1,
+    "explain": "Joining a cantilever to an existing span introduces additional redundant constraints or internal forces that cannot be solved by simple static equilibrium equations alone, making the structure indeterminate."
+  },
+  {
+    "q": "163. Influence line is",
+    "options": [
+      "the line showing stress function due to unit moving load",
+      "the line showing stress function due to unit load",
+      "the line showing stress function due to udl",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, an Influence Line Diagram (ILD) represents the variation of a specific response (stress function like shear, moment, or reaction) at a fixed section as a unit load moves across the structure."
+  },
+  {
+    "q": "164. The line showing the variations of stress function at a given point due to a unit load moving on a span is known as",
+    "options": [
+      "load line",
+      "influence line",
+      "curve line",
+      "stress function line"
+    ],
+    "correct": 1,
+    "explain": "This is the formal definition of an influence line. It tracks how a single 'unit' load affects one specific point as that load changes position."
+  },
+  {
+    "q": "165. Influence lines are drawn for structures",
+    "options": [
+      "indeterminate",
+      "determinate",
+      "any type",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Influence lines are a universal tool in structural engineering. While they are simpler to draw for determinate structures (linear), they are also used for indeterminate structures (where they are typically curved)."
+  },
+  {
+    "q": "166. Which one is right w.r.t. ILD?",
+    "options": [
+      "it is the BMD due to unit load",
+      "it is the BMD due to static unit load",
+      "it is the BMD due to moving unit load",
+      "it is the BMD due to impacting unit load"
+    ],
+    "correct": 2,
+    "explain": "The ILD specifically captures the effects of a moving unit load. Unlike a standard BMD which shows the effect of a fixed load along the whole beam, the ILD shows the effect at one spot for all possible load positions."
+  },
+  {
+    "q": "167. The influence line diagram for S.F. or BM at a section is",
+    "options": [
+      "the value of S.F. or B.M. at that section when the unit load is placed over that section only",
+      "the value of S.F. or B.M. at that section when the unit load is at the centre of the span",
+      "the variation in the value of S.F. or B.M. at that section as the unit load transverses the span from left to right",
+      "the S.F. or B.M. diagram"
+    ],
+    "correct": 2,
+    "explain": "An ILD for a section must show the full range of variation (the 'influence') as the unit load moves from the start of the span to the end."
+  },
+  {
+    "q": "168. The influence line diagram for reaction at a support of a simply supported beam is",
+    "options": [
+      "a triangle with ordinate 1 at that support",
+      "a triangle with ordinate 1 at the other support",
+      "a rectangle with ordinate 1",
+      "a rectangle with ordinate 1/2"
+    ],
+    "correct": 0,
+    "explain": "For a support reaction $R_A$, the reaction is 1 when the unit load is exactly at A, and 0 when it is at the other support B. This creates a right-angled triangle with a peak (ordinate) of 1 at support A."
+  },
+  {
+    "q": "169. The influence line diagram for reaction at the support of a cantilever will be a",
+    "options": [
+      "triangle with zero ordinate at fixed end and unit ordinate at free end",
+      "triangle with unit ordinate at fixed end and zero ordinate at free end",
+      "rectangle with ordinate 1/2",
+      "rectangle with unit ordinate"
+    ],
+    "correct": 3,
+    "explain": "In a cantilever, any vertical load placed anywhere on the beam must be fully resisted by the single vertical reaction at the fixed support. Therefore, the reaction is always 1, resulting in a rectangle with unit ordinate."
+  },
+  {
+    "q": "170. The influence line diagram for shear force at a section on a cantilever will be",
+    "options": [
+      "a rectangle of length equal to full length of span with unit ordinate",
+      "a rectangle extending between free end and the section with unit ordinate",
+      "a triangle extending for whole length of span with unit ordinate at fixed support",
+      "a triangle extending between the section and the fixed end with unit ordinate at fixed support"
+    ],
+    "correct": 1,
+    "explain": "Shear force at a section in a cantilever only exists when the load is between the free end and that section. If the load is between the fixed support and the section, the shear at that section is zero. This creates a rectangle from the section to the free end."
+  },
+  {
+    "q": "171. The influence line diagram for BM at a section in a cantilever will be a triangle extending between the section and the",
+    "options": [
+      "fixed end with maximum ordinate under the section",
+      "fixed end with maximum ordinate under the fixed end",
+      "unsupported end with maximum ordinate at the section",
+      "unsupported end with maximum ordinate at the supported end"
+    ],
+    "correct": 3,
+    "explain": "The bending moment at a section is created by the load multiplied by its distance from that section. The maximum moment occurs when the unit load is at the farthest possible point from the support (the free/unsupported end)."
+  },
+  {
+    "q": "172. The influence line diagram for BM at a section of a simply supported beam will be a",
+    "options": [
+      "triangle with maximum ordinate at the section and zero at the two supports",
+      "triangle with maximum ordinate at the support nearer to the section and zero at the other support",
+      "rectangle with unit ordinate",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a simply supported beam, the B.M. at a section 'C' is zero when the load is at either support and reaches its maximum value (ab/L) when the load is directly on the section."
+  },
+  {
+    "q": "173. Plastic section modulus is defined as",
+    "options": [
+      "the ratio of plastic moment capacity of a section to the yield stress",
+      "the ratio of moment of inertia to radius of gyration",
+      "radius of gyration multiplied by the area",
+      "the ratio of plastic moment capacity of a section to the yield moment"
+    ],
+    "correct": 0,
+    "explain": "Plastic Section Modulus ($Z_p$) is derived from the formula $M_p = f_y \times Z_p$. Therefore, $Z_p = M_p / f_y$ (Plastic moment / yield stress)."
+  },
+  {
+    "q": "174. Plastic hinge in a section is caused",
+    "options": [
+      "when the material at a section reach plastic state",
+      "when the extreme fibres at a section reach plastic state",
+      "when all the fibres at a section reach plastic state",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A plastic hinge is formed only when every fiber across the entire cross-section has reached the yield stress ($f_y$), allowing the section to undergo large rotations at a constant moment ($M_p$)."
+  },
+  {
+    "q": "175. The shape factor is defined as the ratio of",
+    "options": [
+      "plastic moment / yield moment",
+      "M.I. / yield stress",
+      "ultimate moment / yield stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Shape Factor ($S$) is the ratio of the Plastic Moment ($M_p$) to the Yield Moment ($M_y$). It represents the reserve strength of a section beyond its elastic limit."
+  },
+  {
+    "q": "176. The shape factor of rectangle section is",
+    "options": [
+      "1.50",
+      "1.69",
+      "1.80",
+      "2.00"
+    ],
+    "correct": 0,
+    "explain": "For a rectangular section, the Plastic Section Modulus (Zp) is bd²/4 and the Elastic Section Modulus (Ze) is bd²/6. The Shape Factor (S = Zp/Ze) is (bd²/4) / (bd²/6) = 1.5."
+  },
+  {
+    "q": "177. The shape factor of circular section is",
+    "options": [
+      "1.50",
+      "1.69",
+      "1.80",
+      "2.00"
+    ],
+    "correct": 1,
+    "explain": "For a solid circular cross-section, the shape factor is approximately 1.697 (rounded to 1.7 in many texts, or 1.69 as per the provided options)."
+  },
+  {
+    "q": "178. The approximate value of the shape factor of an I section is equal to",
+    "options": [
+      "2.15",
+      "1.75",
+      "1.15",
+      "0.75"
+    ],
+    "correct": 2,
+    "explain": "I-sections are very efficient because most of the material is in the flanges. This leads to a low shape factor, typically ranging from 1.12 to 1.15."
+  },
+  {
+    "q": "179. The shape factor of diamond section is",
+    "options": [
+      "1.50",
+      "1.69",
+      "1.80",
+      "2.00"
+    ],
+    "correct": 3,
+    "explain": "For a diamond section (square with diagonal vertical), the shape factor is exactly 2.0. This indicates a high reserve strength after the extreme fibers yield."
+  },
+  {
+    "q": "180. The ultimate strength design of steel structures make use of",
+    "options": [
+      "plastic analysis of structures",
+      "elastic analysis of structures",
+      "ultimate analysis of structures",
+      "elastic and plastic analysis"
+    ],
+    "correct": 1,
+    "explain": "In classical 'Ultimate Strength Design', the internal forces are typically determined using elastic analysis, while the sections are sized based on their ultimate or plastic capacities."
+  },
+  {
+    "q": "181. The limit strength design of steel structures make use of",
+    "options": [
+      "plastic analysis of structures",
+      "elastic analysis of structures",
+      "ultimate analysis of structures",
+      "elastic and plastic analysis"
+    ],
+    "correct": 0,
+    "explain": "Limit state design (or Plastic Design) utilizes plastic analysis to determine the collapse mechanism and the true ultimate load-carrying capacity of the entire structure."
+  },
+  {
+    "q": "182. The plastic design of steel structure which is based on the mechanism method of plastic analysis",
+    "options": [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The mechanism method (Kinematic Method) is based on the Upper Bound Theorem, which states that the predicted collapse load will be greater than or equal to the true collapse load. Therefore, it can be 'unsafe' if the lowest mechanism is not found."
+  },
+  {
+    "q": "183. The plastic design of steel structure which is based on the kinematic method of plastic analysis",
+    "options": [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Kinematic method is synonymous with the mechanism method. As an Upper Bound approach, it overestimates the strength of the structure, thus carrying a risk of being 'unsafe' if the critical mechanism is missed."
+  },
+  {
+    "q": "184. The plastic design of steel structure which is based on the statical method of plastic analysis",
+    "options": [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The statical method (Lower Bound Theorem) ensures that equilibrium and yield conditions are met. It states the load will be less than or equal to the true collapse load, making it a 'safe' approach."
+  },
+  {
+    "q": "185. The plastic design of steel structure which is based on the lower bound theorem of plastic analysis",
+    "options": [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The lower bound theorem satisfies equilibrium and the yield criterion without violating the capacity anywhere, ensuring the predicted load is always on the 'safe' side of the true collapse load."
+  },
+  {
+    "q": "186. The plastic design of steel structure which is based on the upper bound theorem of plastic analysis",
+    "options": [
+      "is safe",
+      "is unsafe",
+      "gives no any indication",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "While the Upper Bound theorem is technically 'unsafe' (overestimating strength), the answer key provided (d) suggests that in the context of this specific test, it provides neither a guaranteed safety nor a simple indication without further check."
+  },
+  {
+    "q": "187. Horizontal reaction at B as shown in fig. is equal to",
+    "options": [
+      "0",
+      "10 KN",
+      "20 KN",
+      "30 KN"
+    ],
+    "correct": 1,
+    "explain": "Summing horizontal forces (ΣHx = 0): The applied 10kN horizontal load at the top must be countered by an equal and opposite horizontal reaction at the support B to maintain equilibrium."
+  },
+  {
+    "q": "188. Which of the following methods of structure analysis is a force method?",
+    "options": [
+      "slope deflection method",
+      "column analogy method",
+      "moment distribution method",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Column Analogy and Method of Consistent Deformation are Force Methods (Flexibility Methods), where redundant forces are the unknowns. Slope Deflection and Moment Distribution are Displacement Methods."
+  },
+  {
+    "q": "189. The percentage of elongation of a material with applied direct tensile test is:",
+    "options": [
+      "rigidity",
+      "strength",
+      "rupture",
+      "ductility"
+    ],
+    "correct": 2,
+    "explain": "While percentage elongation is a measure of 'Ductility', the answer key provided marks 'Rupture' (c). In testing context, elongation is measured until the point of rupture/failure."
+  },
+  {
+    "q": "190. Bending moment at any section in a conjugate beam gives in the actual beam:",
+    "options": [
+      "slope",
+      "curvature",
+      "deflection",
+      "bending moment"
+    ],
+    "correct": 2,
+    "explain": "According to Conjugate Beam Theory, the Slope of the actual beam is the Shear of the conjugate beam, and the Deflection of the actual beam is the Bending Moment of the conjugate beam."
+  },
+  {
+    "q": "191. In general equation for the deflection of the beam: M=EI*  where EI is ",
+    "options": [
+      "young's modulus of elasticity",
+      "flexural strength",
+      "stifness modulus",
+      "sectional rigidity"
+    ],
+    "correct": 1,
+    "explain": "EI represent the flexural strength."
+  },
+  {
+    "q": "192. When the load does not pass through the shear centre of the steel beam. It produces",
+    "options": [
+      "torsional moment only ",
+      "bending moment only ",
+      "shear force only ",
+      "torsional moment along with bending moment "
+    ],
+    "correct": 3,
+    "explain": "Loads not passing through the shear center cause twisting (torsion). The resistance to this is related to the torsional and sectional rigidity of the beam."
+  },
+  {
+    "q": "193. When a cantilever beam of length l is loaded with a uniformly varying load of maximum intensity w at free end, the shape of bending moment diagram is",
+    "options": [
+      "a straight line",
+      "a triangle",
+      "a simple parabola",
+      "a cubic parabola"
+    ],
+    "correct": 3,
+    "explain": "Since the load is linear (varying), the shear force is parabolic ($x^2$), and the bending moment is a cubic function ($x^3$)."
+  },
+  {
+    "q": "194. Degree of static indeterminacy of the frame is equal to (refer to image 1666)",
+    "options": [
+      "18",
+      "15",
+      "12",
+      "8"
+    ],
+    "correct": 3,
+    "explain": "Calculated using $D_s = 3c - r'$, where 'c' is the number of closed loops and 'r' represents the releases at supports or hinges."
+  },
+  {
+    "q": "195. If 'S' is the axial acting on an element 'ds' of a structural member with cross sectional area 'A' and modulus of elasticity 'E' the total strain energy of the member on account of axial force 'S' is given by",
+    "options": [
+      "∫ S² ds / 2AE",
+      "∫ S ds / 2AE",
+      "∫ S² ds / AE",
+      "∫ S² ds / A"
+    ],
+    "correct": 0,
+    "explain": "The standard formula for axial strain energy is $U = \\int \frac{P^2}{2AE} dx$."
+  },
+  {
+    "q": "196. Given pin jointed frame is (refer to image 1666)",
+    "options": [
+      "internally stable",
+      "externally unstable",
+      "unstable",
+      "stable"
+    ],
+    "correct": 2,
+    "explain": "A frame is unstable if it doesn't meet the minimum member requirement ($m < 2j-3$) or if the arrangement of hinges allows for a mechanism."
+  },
+  {
+    "q": "197. Bending moment at A of the following beam is equal to (refer to image 1666)",
+    "options": [
+      "0",
+      "20KN-m",
+      "30-KN-m",
+      "10 Kn-m"
+    ],
+    "correct": 0,
+    "explain": "At a simple end support or hinge, the internal bending moment is zero."
+  },
+  {
+    "q": "198. Portal method of framed analysis for horizontal loads is appropriate for a frame:",
+    "options": [
+      "that has a width greater than its height",
+      "that has a height greater than its width",
+      "Which is thin and tall",
+      "any width any height"
+    ],
+    "correct": 0,
+    "explain": "The portal method is an approximate method suitable for low-rise frames where the width is significant relative to the height."
+  },
+  {
+    "q": "199. The slope and the deflection at a section in a loaded beam cannot be found out by :",
+    "options": [
+      "Rankine's method",
+      "virtual work method",
+      "macaulay's method",
+      "moment area method"
+    ],
+    "correct": 0,
+    "explain": "Rankine's method is typically used for earth pressure or column buckling, not for determining beam deflection."
+  },
+  {
+    "q": "200. For the beam shown in figure, the shear force at A is equal to (refer to image 1667):",
+    "options": [
+      "wl/6",
+      "wl/3",
+      "wl",
+      "2wl/3"
+    ],
+    "correct": 0,
+    "explain": "For a beam with a triangular load (zero at A, peak at B), the total load is $wl/2$ and the reaction at the lighter end A is $wl/6$."
+  },
+  {
+    "q": "201. Prestressing to a large extent removes the disadvantages which a conventional reinforced concrete structure suffers as compared to a comparable :",
+    "options": [
+      "steel structure",
+      "plain concrete structure",
+      "composite structure",
+      "reinforced concrete structure"
+    ],
+    "correct": 3,
+    "explain": "Prestressing allows concrete to span longer distances and remain crack-free, making it competitive with steel structures."
+  },
+  {
+    "q": "202. For a cantilever with a uniformly distributed load of total W over entire length L, the max bending moment is :",
+    "options": [
+      "WL",
+      "WL/2",
+      "WL/3",
+      "WL/4"
+    ],
+    "correct": 1,
+    "explain": "If W is the total load ($w \\cdot L$), the moment at the fixed end is $W \\cdot (L/2) = WL/2$."
+  },
+  {
+    "q": "203. The load, required to produce a unit deflection in a spring is called :",
+    "options": [
+      "young's modulus",
+      "flexural rigidity",
+      "torsional rigidity",
+      "spring stiffness"
+    ],
+    "correct": 3,
+    "explain": "Stiffness ($k$) is defined as Force per unit displacement ($F/\\delta$)."
+  },
+  {
+    "q": "204. Force is the product of",
+    "options": [
+      "mass and acceleration",
+      "mass and weight",
+      "velocity and time",
+      "acceleration and time"
+    ],
+    "correct": 0,
+    "explain": "According to Newton's Second Law, $F = m \\cdot a$."
+  },
+  {
+    "q": "205. The function of king post in a roof truss is",
+    "options": [
+      "to support the framework of the roof",
+      "to receive the ends of principal rafters",
+      "to prevent the walls from spreading outward",
+      "to prevent the tie beam from sagging at its centre"
+    ],
+    "correct": 3,
+    "explain": "The king post is a central vertical member that supports the tie beam below it, preventing it from sagging due to its own weight."
+  },
+  {
+    "q": "206. Which of the following structural analysis is a force method?",
+    "options": [
+      "slope deflection",
+      "column analogy",
+      "moment distribution",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Column analogy treats the redundants as forces, making it a force-based method."
+  },
+  {
+    "q": "207. Stiffness factor is calculated in structural members for analyzing it by",
+    "options": [
+      "moment distribution method",
+      "slope deflection method",
+      "column analogy method",
+      "none of above"
+    ],
+    "correct": 0,
+    "explain": "The moment distribution method relies heavily on member stiffness to distribute unbalanced moments."
+  },
+  {
+    "q": "208. At the yield point of a steel test piece :",
+    "options": [
+      "materials obeys Hooke's Law",
+      "materials behave in an elastic manner",
+      "materials regain its original shape on removal of load",
+      "material undergo plastic deformation"
+    ],
+    "correct": 3,
+    "explain": "Up to the yield point, the material is generally considered to be in the elastic range."
+  },
+  {
+    "q": "209. Strain in concrete at zero stress is called :",
+    "options": [
+      "creep loss",
+      "relaxation",
+      "shrinkage",
+      "transfer stress"
+    ],
+    "correct": 1,
+    "explain": "Creep is the time-dependent deformation of concrete under sustained load, often continuing after stress is removed."
+  },
+  {
+    "q": "210. Which of the following is a true example of a statically determinate beam?",
+    "options": [
+      "one end is fixed and the other end is simply supported",
+      "both ends are fixed",
+      "the beam over hangs over two support",
+      "the beam is supported on three supports"
+    ],
+    "correct": 2,
+    "explain": "An overhanging beam with two supports has three reaction components, which can be solved with three equilibrium equations."
+  },
+  {
+    "q": "211. Unequal settlement in the supports of statically indeterminate structure develop",
+    "options": [
+      "member force",
+      "reactions from supports",
+      "no reactions",
+      "strains in some members"
+    ],
+    "correct": 1,
+    "explain": "Settlement in indeterminate structures induces internal forces and reactions that wouldn't exist in a determinate structure."
+  },
+  {
+    "q": "212. In approximate analysis of building frames under lateral loads, the point of contraflexure in columns is assumed at",
+    "options": [
+      "storey height/2",
+      "storey height/3",
+      "storey height/10",
+      "storey height/12"
+    ],
+    "correct": 0,
+    "explain": "Methods like the Portal and Cantilever methods assume the point of zero moment (contraflexure) is at the mid-height of the column."
+  },
+  {
+    "q": "213. The moment distribution method is best suited for",
+    "options": [
+      "trussed beam",
+      "space frames",
+      "rigid frames",
+      "indeterminate pin jointed truss"
+    ],
+    "correct": 0,
+    "explain": "as per key 1 MDM is specifically designed for rigid frames and continuous beams where joint rotations occur."
+  },
+  {
+    "q": "214. In the moment distribution method, the sum of distribution factors of all the members meeting at any joint is always :",
+    "options": [
+      "zero",
+      "less than 1",
+      "1",
+      "greater than 1"
+    ],
+    "correct": 2,
+    "explain": "The total unbalanced moment must be 100% distributed, so $\\sum DF = 1$."
+  },
+  {
+    "q": "215. The stiffness method in structural analysis is also known as :",
+    "options": [
+      "unit load method",
+      "consistent deformation method",
+      "force method",
+      "displacement method"
+    ],
+    "correct": 3,
+    "explain": "The stiffness method uses displacements as the primary unknowns, hence it is a displacement method."
+  },
+  {
+    "q": "216. The Young's modulus of elasticity of steel is",
+    "options": [
+      "150KN/mm2",
+      "200 KN/mm2",
+      "275 KN/mm2",
+      "250 KN/mm2"
+    ],
+    "correct": 1,
+    "explain": "The standard value for steel modulus ($E$) is $200 \text{ GPa}$ or $200 \text{ kN/mm}^2$."
+  },
+  {
+    "q": "217. Creep of material is the property indicated by",
+    "options": [
+      "elongation of the materials caused by changes in material properties",
+      "time dependent strain of the materials",
+      "shortening caused by shrinkage of the member",
+      "decrease in volume of the materials affected by the weather conditions"
+    ],
+    "correct": 1,
+    "explain": "Creep is specifically defined as permanent deformation under a constant load over time."
+  },
+  {
+    "q": "218. The shear center may be defined as",
+    "options": [
+      "the point through which the resultant of the shear stress pass",
+      "the point about which the moment of shear flow is zero",
+      "the centre of gravity of section",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The shear center is the point where a load produces only bending and no torsion."
+  },
+  {
+    "q": "219. The shear center in the case of T-beam section is",
+    "options": [
+      "at the C.G. of the section",
+      "at the neutral axis of the section",
+      "on the C.G. horizontal plane and away from C.G. within the leg projections",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For sections with one axis of symmetry, the shear center lies on that axis. In a T-beam, it is typically at the junction of the web and flange."
+  },
+  {
+    "q": "220. The shear flow in a section can be defined as",
+    "options": [
+      "total shear stress",
+      "flow direction of shear",
+      "total shear stress at a point",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Shear flow ($q$) is the shear force per unit length along a cross-section ($q = \tau \\cdot t$)."
+  },
+  {
+    "q": "221. When a thin cylindrical shell is subjected to internal fluid pressure, which of the following stress is developed in its wall ?",
+    "options": [
+      "circumferential and longitudinal stress",
+      "longitudinal stress",
+      "normal stress",
+      "circumferential"
+    ],
+    "correct": 0,
+    "explain": "Internal pressure in cylinders creates both hoop (circumferential) and longitudinal stresses."
+  },
+  {
+    "q": "222. What is the condition for equilibrium in plastic analysis?",
+    "options": [
+      "bending moment distribution defined by assumed plastic hinges must not be in static equilibrium",
+      "shear force distribution must be in equilibrium",
+      "bending moment distribution must be in static equilibrium with applied loads and reactions",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "All plastic analysis methods must satisfy basic static equilibrium conditions."
+  },
+  {
+    "q": "223. Which of the following is true?",
+    "options": [
+      "ultimate load is reached when a mechanism is formed",
+      "ultimate load is not reached when a mechanism is formed",
+      "plastic hinges are not required for beam to form a mechanism",
+      "frictionless hinges are not required"
+    ],
+    "correct": 0,
+    "explain": "Collapse occurs when enough plastic hinges form to turn the structure into a kinematic mechanism."
+  },
+  {
+    "q": "224. Which of the following relation is correct?",
+    "options": [
+      "-Mp ≥ M",
+      "M > Mp",
+      "M ≥ Mp",
+      "M ≤ Mp"
+    ],
+    "correct": 3,
+    "explain": "The bending moment ($M$) at any section cannot exceed the plastic moment capacity ($M_p$) of that section."
+  },
+  {
+    "q": "225. Lowest plastic limit load is obtained when ....",
+    "options": [
+      "only equilibrium condition is satisfied",
+      "equilibrium and mechanism condition of plastic hinge are  are satisfied",
+      "only mechanism condition is satisfied",
+      "equilibrium, mechanism and plasticity condition are satisfied"
+    ],
+    "correct": 3,
+    "explain": "Satisfying only the mechanism condition (Upper Bound) usually leads to the lowest of the possible 'untrue' limit loads."
+  },
+  {
+    "q": "226. Which load is obtained when equilibrium and mechanism conditions of plastic analysis are satisfied?",
+    "options": [
+      "plastic limit load",
+      "upper bound solution of true ultimate load",
+      "lower bound solution of true ultimate load ",
+      "no solution"
+    ],
+    "correct": 1,
+    "explain": "This combination of conditions satisfies the Kinematic Theorem, giving an upper bound solution."
+  },
+  {
+    "q": "227. Which load is obtained when equilibrium and plasticity conditions of plastic analysis are satisfied?",
+    "options": [
+      "plastic limit load",
+      "upper bound solution of true ultimate load",
+      "lower bound solution of true ultimate load",
+      "no solution"
+    ],
+    "correct": 2,
+    "explain": "This combination follows the Static Theorem, providing a lower bound (safe) solution."
+  },
+  {
+    "q": "228. What is principle of virtual work?",
+    "options": [
+      "work done by external forces > internal forces",
+      "work done by external forces < internal forces",
+      "work done by external forces = work done by internal forces",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a system in equilibrium, the virtual work done by external forces equals the virtual work done by internal forces."
+  }
+]

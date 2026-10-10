@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The nominal shear stress in beams of M 15 grade concrete (even with shear reinforcement) under no circumstances shall exceed ...........",
+    "options": [
+      "2.5 N/mm2",
+      "1.5 N/mm2",
+      "0.5 N/mm2",
+      "no limit"
+    ],
+    "correct": 0,
+    "explain": "The maximum shear stress (τc max) for M15 grade concrete is 2.5 N/mm² to prevent diagonal compression failure."
+  },
+  {
+    "q": "2. Compared to plain bars, the deformed bars will have ...........",
+    "options": [
+      "better bond with concrete",
+      "improved yield stress",
+      "economical design",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Deformed bars (HYSD) provide mechanical interlocking for better bond and higher yield strength, leading to reduced steel consumption."
+  },
+  {
+    "q": "3. One way shear strength in a R.C.C. footing is checked at a distance equal to ........... of the footing from the face of the column",
+    "options": [
+      "one-fourth of the effective depth",
+      "one-half of the effective depth",
+      "three-fourth of the effective depth",
+      "the effective depth"
+    ],
+    "correct": 3,
+    "explain": "One-way shear (beam shear) is checked at a critical section at distance 'd' from the column face."
+  },
+  {
+    "q": "4. Two way shear strength in a R.C.C. footing is checked at a distance equal to ........... of the footing from the face of the column along the surface of truncated cone ...........",
+    "options": [
+      "one-fourth of the effective depth",
+      "one-half of the effective depth",
+      "three-fourth of the effective depth",
+      "the effective depth"
+    ],
+    "correct": 1,
+    "explain": "Two-way shear (punching shear) is checked at a critical section at a distance of 'd/2' from the column face."
+  },
+  {
+    "q": "5. The critical section for checking the development length in a footing shall be at the same planes as for ...........",
+    "options": [
+      "bending moment",
+      "one way shear",
+      "two way shear",
+      "one way and two way shear"
+    ],
+    "correct": 0,
+    "explain": "The critical section for development length is the same as for bending moment (at the face of the column)."
+  },
+  {
+    "q": "6. In a combined footing, the bottom bars under a column should be extended in to the interior of the slab. This distance should be greater of the distance up to the point of contraflexure and ...........",
+    "options": [
+      "30 times diameter of the main reinforcement from the outer face of the column",
+      "42 times diameter of the main reinforcement from the outer face of the column",
+      "30 times diameter of the main reinforcement from the inner face of the column",
+      "42 times diameter of the main reinforcement from the inner face of the column"
+    ],
+    "correct": 1,
+    "explain": "Standard detailing rules for development and anchorage require a minimum extension (often 42d for specific steel grades) beyond critical sections."
+  },
+  {
+    "q": "7. If the allowable punching shear stress is q, the depth of footing from punching shear criterion to carry a load W is given by ...........",
+    "options": [
+      "D = W(a-b)/4a^2bq",
+      "D = W(a^2-b^2)/8abq",
+      "D = W(a^2+b^2)/8abq",
+      "D = W(a^2-b^2)/4a^2bq"
+    ],
+    "correct": 3,
+    "explain": "This formula relates total load, footing area, column area, and the punching shear perimeter to solve for required depth."
+  },
+  {
+    "q": "8. In a combined footing if shear stress does not exceed 5 kg/cm², the nominal stirrups provided are ...........",
+    "options": [
+      "6 legged",
+      "8 legged",
+      "10 legged",
+      "132 legged"
+    ],
+    "correct": 1,
+    "explain": "For large combined footings, 8-legged stirrups are often a minimum requirement for nominal shear reinforcement."
+  },
+  {
+    "q": "9. In a combined footing if shear stress exceed 5 kg/cm², the nominal stirrups provided are ...........",
+    "options": [
+      "6 legged",
+      "8 legged",
+      "10 legged",
+      "12 legged"
+    ],
+    "correct": 3,
+    "explain": "As shear stress increases, more legs are required in the stirrup arrangement to effectively resist the diagonal tension."
+  },
+  {
+    "q": "10. Generally for piles, the concrete used is of grade ...........",
+    "options": [
+      "M10",
+      "M15",
+      "M20",
+      "M30"
+    ],
+    "correct": 2,
+    "explain": "M20 is generally the minimum grade for reinforced concrete in foundations (like piles) to ensure durability against groundwater and soil chemicals."
+  },
+  {
+    "q": "11. In a simply supported beam carrying uniformly distributed load, the spacing of vertical stumps near supports would be ...........",
+    "options": [
+      "uniform",
+      "closer",
+      "wider",
+      "no specific pattern"
+    ],
+    "correct": 1,
+    "explain": "Shear force is maximum at the supports. To resist this higher shear, stirrups (vertical reinforcement) must be spaced closer together."
+  },
+  {
+    "q": "12. The design shear stress in reinforced cement concrete depends on ...........",
+    "options": [
+      "characteristic strength of concrete",
+      "percentage of longitudinal tensile reinforcement",
+      "characteristic strength of steel",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "Design shear strength (tau_c) is a function of the concrete grade and the amount of tension steel (which restricts crack opening)."
+  },
+  {
+    "q": "13. The maximum shear stress permitted in reinforced concrete members depends upon ...........",
+    "options": [
+      "grade of concrete",
+      "percentage of longitudinal tensile reinforcement",
+      "shear reinforcement provided",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "The absolute maximum shear stress (tau_c max) is limited solely based on the grade of concrete to prevent diagonal compression failure of the web."
+  },
+  {
+    "q": "14. The ratio of the allowable bond stress in deformed bars to that of plain bars is about ...........",
+    "options": [
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.6"
+    ],
+    "correct": 3,
+    "explain": "IS 456 allows for a 60% increase (ratio of 1.6) in bond stress for deformed (HYSD) bars compared to plain mild steel bars."
+  },
+  {
+    "q": "15. The allowable bond stress in tension for plain bars in the limit sate method for M15 grade concrete is ...........",
+    "options": [
+      "0.6 N/mm2",
+      "1.2 N/mm2",
+      "1.0 N/mm2",
+      "15 N/mm2"
+    ],
+    "correct": 2,
+    "explain": "For M15 concrete in Limit State Method, the design bond stress (tau_bd) for plain bars is 1.0 N/mm²."
+  },
+  {
+    "q": "16. According to I.S.: 456 specifications, the safe diagonal tensile stress for M150 grade concrete is ............",
+    "options": [
+      "5 kg/cm²",
+      "10 kg/cm²",
+      "15 kg/cm²",
+      "25 kg/cm²"
+    ],
+    "correct": 0,
+    "explain": "Under older metric codes (like M150/M15), the permissible shear stress (which represents diagonal tension) for lower grades of concrete is approximately 5 kg/cm²."
+  },
+  {
+    "q": "17. Dimension of a beam need be changed if the shear stress is more than ............",
+    "options": [
+      "10 kg/cm²",
+      "15 kg/cm²",
+      "20 kg/cm²",
+      "25 kg/cm²"
+    ],
+    "correct": 2,
+    "explain": "If the nominal shear stress exceeds the maximum permissible shear stress ($\tau_{c,max}$), which is around 20 kg/cm² for M15/M150, the section is unsafe against diagonal compression and dimensions must be increased."
+  },
+  {
+    "q": "18. The maximum shear stress (q) in concrete of a reinforced cement concrete beam is ............",
+    "options": [
+      "shear force / (lever arm × width)",
+      "shear force / (lever arm × width)",
+      "width / (lever arm × shear force)",
+      "shear force × width / lever arm"
+    ],
+    "correct": 0,
+    "explain": "In the working stress method, the nominal shear stress $q$ is calculated as $V / (b \\cdot z)$, where $V$ is shear force, $b$ is width, and $z$ is the lever arm."
+  },
+  {
+    "q": "19. If $S_b$ is the average bond stress on a bar of diameter $d$ subjected to maximum stress $t$, the length of the embedment $l$ is given by ............",
+    "options": [
+      "l = dt / S_b",
+      "l = dt / 2S_b",
+      "l = dt / 3S_b",
+      "l = dt / 4S_b"
+    ],
+    "correct": 3,
+    "explain": "The development length is derived by equating the force in the bar to the bond force: $(\\pi d^2 / 4) \\cdot t = \\pi d \\cdot l \\cdot S_b$. Solving for $l$ gives $dt / 4S_b$."
+  },
+  {
+    "q": "20. If the average bending stress is 6 kg/cm² for M150 grade concrete, the length of embedment of a bar of diameter $d$ according to I.S. 456 specifications, is ............",
+    "options": [
+      "28 d",
+      "38 d",
+      "48 d",
+      "58 d"
+    ],
+    "correct": 3,
+    "explain": "For M150 concrete and mild steel in tension, the development length requirement typically works out to approximately 58 times the diameter of the bar ($58d$)."
+  },
+  {
+    "q": "21. In a beam the local bond stress $S_b$ is equal to ............",
+    "options": [
+      "shear force / (lever arm × total perimeter of reinforcement)",
+      "total perimeter / (lever arm × shear force)",
+      "lever arm / (bending moment × total perimeter)",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Local (flexural) bond stress is calculated as $V / (\\sum O \\cdot j \\cdot d)$, where $\\sum O$ is the total perimeter of the reinforcement."
+  },
+  {
+    "q": "22. For M150 mix concrete, according to I.S. specifications, local bond stress, is ............",
+    "options": [
+      "5 kg/cm²",
+      "10 kg/cm²",
+      "15 kg/cm²",
+      "20 kg/cm²"
+    ],
+    "correct": 1,
+    "explain": "For an M150 (M15 equivalent) mix, the permissible local bond stress is specifically defined as 10 kg/cm² in the standard tables."
+  },
+  {
+    "q": "23. If diameter of a reinforcement bar is d, the anchorage value of the hook is ............",
+    "options": [
+      "4 d",
+      "8 d",
+      "12 d",
+      "16 d"
+    ],
+    "correct": 3,
+    "explain": "A standard U-type hook (180 degree bend) provides an anchorage value equivalent to 16 times the diameter of the bar ($16d$)."
+  },
+  {
+    "q": "24. The radius of a bar bend to form a hook, should not be less than ............",
+    "options": [
+      "twice the diameter",
+      "thrice the diameter",
+      "four times the diameter",
+      "five times the diameter"
+    ],
+    "correct": 0,
+    "explain": "To prevent internal stress concentration and cracking of the steel, the minimum radius for a bend in mild steel is 2 times the bar diameter."
+  },
+  {
+    "q": "25. The length of the straight portion of a bar beyond the end of the hook, should be at least ............",
+    "options": [
+      "twice the diameter",
+      "thrice the diameter",
+      "four times the diameter",
+      "seven times the diameter"
+    ],
+    "correct": 2,
+    "explain": "IS 456 specifies that the straight length of the bar beyond the end of the curve shall be at least 4 times the diameter of the bar."
+  },
+  {
+    "q": "26. The deep beams are designed for ............",
+    "options": [
+      "shear force only",
+      "bending moment only",
+      "both shear and bending",
+      "bearing"
+    ],
+    "correct": 1,
+    "explain": "According to traditional design rules, deep beams (where span-to-depth ratio is very low) are primarily designed for bending moment, though shear is also a critical check."
+  },
+  {
+    "q": "27. The maximum permissible shear stress given in I.S. 456 : 1978 is based on ............",
+    "options": [
+      "diagonal tension failure",
+      "diagonal compression failure",
+      "flexural tension failure",
+      "uniaxial compression"
+    ],
+    "correct": 1,
+    "explain": "The limit for $\tau_{c,max}$ is set to prevent the concrete in the web from crushing due to diagonal compression before the shear reinforcement yields."
+  },
+  {
+    "q": "28. In a reinforced concrete beam, the shear stress distribution above the neutral axis follows a ............",
+    "options": [
+      "straight line",
+      "circular curve",
+      "parabolic curve",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In the concrete above the neutral axis, the shear stress distribution follows a parabolic curve, similar to a standard homogenous rectangular section."
+  },
+  {
+    "q": "29. Which one of the following sections... can resist the torsional moment of R.C.C beam section more efficiently...?",
+    "options": [
+      "An unsymmetrical section",
+      "A box section",
+      "A solid rectangular section",
+      "A symmetrical I-section"
+    ],
+    "correct": 1,
+    "explain": "Closed sections (like box sections) are significantly more efficient in resisting torsion compared to open sections because they provide a continuous path for the shear flow."
+  },
+  {
+    "q": "30. For a reinforced concrete beam section, the shape of the shear stress diagram is ............",
+    "options": [
+      "parabolic over the whole section",
+      "parabolic above N.A. and rectangular below N.A.",
+      "linearly varying",
+      "dependent on shear reinforcement"
+    ],
+    "correct": 1,
+    "explain": "In R.C. beams, shear stress is parabolic from the top fiber to the Neutral Axis, and then remains constant (rectangular) from the N.A. down to the center of steel."
+  },
+  {
+    "q": "31. The chances of diagonal tension cracks in R.C.C. member reduce when ............",
+    "options": [
+      "only shear force act",
+      "flexural and shear force act",
+      "axial tension and shear act",
+      "axial compression and shear act"
+    ],
+    "correct": 3,
+    "explain": "Axial compression reduces the principal tensile stress, thereby delaying or preventing the formation of diagonal tension cracks."
+  },
+  {
+    "q": "32. Shear reinforcement is provided in the form of ............",
+    "options": [
+      "vertical bars",
+      "inclined bars",
+      "combination of both",
+      "any one of these"
+    ],
+    "correct": 3,
+    "explain": "Shear can be resisted using vertical stirrups, bent-up longitudinal bars (inclined bars), or a combination of both."
+  },
+  {
+    "q": "33. For M15 grade concrete, shear reinforcement is necessary, if shear stress is more than ............",
+    "options": [
+      "0.5 N/mm²",
+      "1 N/mm²",
+      "1.5 N/mm²",
+      "2 N/mm²"
+    ],
+    "correct": 0,
+    "explain": "If the calculated nominal shear stress $\tau_v$ exceeds the permissible shear stress $\tau_c$ of concrete (which for M15 is roughly 0.5 N/mm² depending on % steel), shear reinforcement must be provided."
+  },
+  {
+    "q": "34. For M15 grade concrete, the section is to be redesigned if shear stress is more than ............",
+    "options": [
+      "0.5 N/mm²",
+      "1 N/mm²",
+      "1.5 N/mm²",
+      "2 N/mm²"
+    ],
+    "correct": 3,
+    "explain": "Redesign is required if $\tau_v$ exceeds $\tau_{c,max}$. For M15 concrete, the maximum limit $\tau_{c,max}$ is 2.5 N/mm² (LSM) or approximately 2.0 N/mm² in older contexts."
+  },
+  {
+    "q": "35. The number of stirrups resisting shear force, in a reinforced beam, is given by ............",
+    "options": [
+      "shear force / spacing",
+      "lever arm / spacing",
+      "spacing / lever arm",
+      "spacing / shear force"
+    ],
+    "correct": 1,
+    "explain": "The number of stirrups crossing a diagonal crack (roughly at 45 degrees) is determined by the horizontal length of the crack (approx. equal to the lever arm $d$ or $z$) divided by the spacing $s$."
+  },
+  {
+    "q": "36. A stirrups consists of ............ diameter mild steel bars round the tensile reinforcement.",
+    "options": [
+      "1 to 5 mm",
+      "5 to 12 mm",
+      "12 to 18 mm",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Stirrups are usually made from smaller diameter bars, typically ranging from 5mm to 12mm."
+  },
+  {
+    "q": "37. When the steel bars are embedded in concrete... The intensity of this adhesive force is called ............",
+    "options": [
+      "bond stress",
+      "shear stress",
+      "compressive stress",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Bond stress is the longitudinal shear stress acting on the surface between the steel and the surrounding concrete which prevents relative movement."
+  },
+  {
+    "q": "38. The longitudinal shearing stress acting on the surface between the steel and concrete are called ............",
+    "options": [
+      "bond stresses",
+      "tensile stresses",
+      "compressive stresses",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "As per the definition, this longitudinal shear interaction is called Bond Stress."
+  },
+  {
+    "q": "39. The bond between steel and concrete is mainly due to ............",
+    "options": [
+      "pure adhesive resistance",
+      "frictional resistance",
+      "mechanical resistance",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Bonding is a combination of chemical adhesion, friction between the surfaces, and mechanical interlocking (especially in deformed bars)."
+  },
+  {
+    "q": "40. As per IS 456 : 1978, the permissible value of bond stress for M15 grade if concrete is limited to",
+    "options": [
+      "0.5 N/mm²",
+      "1.0 N/mm²",
+      "1.5 N/mm²",
+      "2.0 N/mm²"
+    ],
+    "correct": 1,
+    "explain": "According to the older IS 456:1978 code (Working Stress Method), the permissible design bond stress for M15 concrete using plain bars in tension is 1.0 N/mm²."
+  },
+  {
+    "q": "41. If the bond stress developed in a reinforced concrete beam is more than permissible value, it can be brought down by",
+    "options": [
+      "increasing the depth of beam",
+      "increasing the number of bars",
+      "decreasing the diameter of the bars",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Bond stress depends on the total perimeter of the bars. By increasing the number of bars or decreasing the diameter (while maintaining area), the total surface area increases, which reduces bond stress. Increasing depth also reduces the force required, thus reducing bond stress."
+  },
+  {
+    "q": "42. If φ is the diameter of reinforcing bar, then for M15 grade concrete, the bond length used for splicing bar in tension is approximately equal to",
+    "options": [
+      "28 φ",
+      "38 φ",
+      "58 φ",
+      "68 φ"
+    ],
+    "correct": 2,
+    "explain": "For M15 grade and plain bars, the development length (Ld) is roughly 58φ. Splicing requirements in tension are usually equal to the development length or slightly more depending on the specific code version."
+  },
+  {
+    "q": "43. For reinforcing bars in compression, the average bond stress can be increased by",
+    "options": [
+      "10%",
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "correct": 1,
+    "explain": "IS 456 specifies that design bond stress values for bars in tension shall be increased by 25% for bars in compression, as the compression tends to expand the bar and tighten the grip."
+  },
+  {
+    "q": "44. In the case of deformed bars, the value of bond stress for various grades of concrete is greater by... than the plain bars.",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "60%"
+    ],
+    "correct": 3,
+    "explain": "Deformed bars (like HYSD) provide better mechanical interlock than plain bars. Codes allow a 60% increase in design bond stress for deformed bars."
+  },
+  {
+    "q": "45. When the diameter of a reinforcement bar is φ, the anchorage value of the hook alone is equal to",
+    "options": [
+      "2 φ",
+      "8 φ",
+      "16 φ",
+      "32 φ"
+    ],
+    "correct": 2,
+    "explain": "A standard U-type hook provides an anchorage value equivalent to a straight length of 16 times the diameter (16φ) of the bar."
+  },
+  {
+    "q": "46. The length of lab for reinforcement bars in compression shall not be less than",
+    "options": [
+      "(φσs / 2τbd) or 24φ whichever is smaller",
+      "(φσs / 4τbd) or 24φ whichever is greater",
+      "(φσs / 2τbd) or 30φ whichever is smaller",
+      "(φσs / 4τbd) or 30φ whichever is greater"
+    ],
+    "correct": 1,
+    "explain": "For bars in compression, the lap length is usually the development length in compression (φσs / 4τbd) but must not be less than 24φ."
+  },
+  {
+    "q": "47. The side face reinforcement, if required, in a T-beam will be",
+    "options": [
+      "0.1 % of the web area",
+      "0.15 % of the web area",
+      "0.2 % to 0.3 % of the web area depending upon the breadth of the slab",
+      "half the longitudinal reinforcement"
+    ],
+    "correct": 0,
+    "explain": "When the depth of the web exceeds 750 mm, side face reinforcement is provided at 0.1% of the web area, distributed equally on both faces."
+  },
+  {
+    "q": "48. Side face reinforcement shall be provided in the beam when depth of the web in a beam exceeds",
+    "options": [
+      "50 cm",
+      "75 cm",
+      "100 cm",
+      "120 cm"
+    ],
+    "correct": 1,
+    "explain": "If the web depth exceeds 75 cm (750 mm), side face reinforcement must be provided."
+  },
+  {
+    "q": "49. The dowel force is the shear force",
+    "options": [
+      "across the steel bars",
+      "across the neutral axis",
+      "at the top of the beam",
+      "at the bottom of the beam"
+    ],
+    "correct": 0,
+    "explain": "Dowel action refers to the ability of longitudinal reinforcement bars to transfer shear forces across a crack."
+  },
+  {
+    "q": "50. The tension reinforcement in a R.C.C. beam can be cut off at a point when it is no longer needed if",
+    "options": [
+      "enough bond length is available",
+      "the shear at the cut-off points does not exceed two-thirds",
+      "bending moment is zero",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Reinforcement can be terminated (curtailed) only when it is no longer required for flexure, provided development length and shear capacity requirements are met."
+  }
+]

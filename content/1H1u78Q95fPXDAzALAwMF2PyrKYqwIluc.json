@@ -1,0 +1,354 @@
+[
+  {
+    "q": "401. The shear stress at the outermost fibres of a circular shaft under torsion is ............ ",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "In a circular shaft, shear stress increases linearly with the radius. Therefore, it reaches its maximum value at the outermost fiber where r = R."
+  },
+  {
+    "q": "402. The torsional rigidity of a shaft is given by ............ ",
+    "options": [
+      "T / J",
+      "T / θ",
+      "T / r",
+      "T / G"
+    ],
+    "correct": 1,
+    "explain": "Torsional rigidity is defined as the torque required to produce a unit radian of twist per unit length. From T/J = Gθ/L, GJ = TL/θ. Often represented as T/θ for a given length."
+  },
+  {
+    "q": "403. When a shaft is subjected to torsion, the shear stress induced in the shaft varies from ............ ",
+    "options": [
+      "minimum at the centre to maximum at the circumference",
+      "maximum at the centre to minimum at the circumference",
+      "zero at the centre to maximum at the circumference",
+      "maximum at the centre to zero at the circumference"
+    ],
+    "correct": 2,
+    "explain": "The shear stress distribution in a circular shaft is linear, starting from zero at the neutral axis (center) and reaching a maximum at the external surface (circumference)."
+  },
+  {
+    "q": "404. When a column is subjected to an eccentric load, the stress induced in the column will be ............ ",
+    "options": [
+      "direct stress only",
+      "bending stress only",
+      "shear stress only",
+      "direct and bending stress both"
+    ],
+    "correct": 3,
+    "explain": "An eccentric load acts as a combination of a direct axial load (causing direct stress) and a bending moment (causing bending stress)."
+  },
+  {
+    "q": "405. For no tension condition in the base of a short column of circular section, the line of action of the load should be within a circle of diameter equal to ............ of the main circle.",
+    "options": [
+      "one-half",
+      "one-third",
+      "one-fourth",
+      "one-eight"
+    ],
+    "correct": 2,
+    "explain": "For a circular section of diameter 'd', the eccentricity 'e' must be ≤ d/8. This creates a 'core' or 'kern' with a diameter of d/4."
+  },
+  {
+    "q": "406. The limit of eccentricity for no tensile conditions for a column of circular section of diameter (d) is ............ ",
+    "options": [
+      "d / 4",
+      "d / 8",
+      "d / 12",
+      "d / 16"
+    ],
+    "correct": 0,
+    "explain": "To ensure no tension at any point in a circular section, the load must fall within the middle quarter of the diameter, meaning the eccentricity e ≤ d/8."
+  },
+  {
+    "q": "407. The load at which the column just buckles, is known as ............ ",
+    "options": [
+      "buckling load",
+      "critical load",
+      "crippling load",
+      "any one of these"
+    ],
+    "correct": 3,
+    "explain": "Buckling, critical, and crippling load are synonymous terms referring to the maximum axial load a column can support before becoming unstable."
+  },
+  {
+    "q": "408. Compression members always tend to buckle in the direction of the ............ ",
+    "options": [
+      "axis of load",
+      "perpendicular to the axis of load",
+      "minimum cross section",
+      "least radius of gyration"
+    ],
+    "correct": 3,
+    "explain": "Buckling occurs about the axis with the minimum resistance to bending, which corresponds to the axis with the least moment of inertia and thus the least radius of gyration."
+  },
+  {
+    "q": "409. The direct stress induced in a long column is ............ as compared to bending stress.",
+    "options": [
+      "same",
+      "more",
+      "less",
+      "negligible"
+    ],
+    "correct": 3,
+    "explain": "In very long columns, failure is dominated by lateral instability (buckling). The axial load required to cause buckling is much lower than the load required to cause crushing via direct stress."
+  },
+  {
+    "q": "410. A column that fails due to direct stress, is called ............ ",
+    "options": [
+      "short column",
+      "long column",
+      "weak column",
+      "medium column"
+    ],
+    "correct": 0,
+    "explain": "Short columns have low slenderness ratios and fail by material crushing (direct stress) rather than buckling."
+  },
+  {
+    "q": "411. The assumption made in Euler's column theory is that ............ ",
+    "options": [
+      "the failure of column occurs due to buckling alone",
+      "the length of column is very large as compared to its cross-sectional dimensions",
+      "the column material obeys Hooke's law",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Euler's theory assumes the material is isotropic and elastic, the column is initially straight, and failure is due purely to elastic buckling."
+  },
+  {
+    "q": "412. A vertical column has two moments of inertia (i.e., Ixx and Iyy). The column will tend to buckle in the direction of the ............ ",
+    "options": [
+      "axis of load",
+      "perpendicular to the axis of load",
+      "maximum moment of inertia",
+      "minimum moment of inertia"
+    ],
+    "correct": 3,
+    "explain": "A column will buckle about the 'weak axis,' which is the axis corresponding to the minimum moment of inertia."
+  },
+  {
+    "q": "413. The slenderness ratio is the ratio of ............ ",
+    "options": [
+      "area of column to least radius of gyration",
+      "length of column to least radius of gyration",
+      "least radius of gyration to area of column",
+      "least radius of gyration to length of column"
+    ],
+    "correct": 1,
+    "explain": "Slenderness ratio (λ) is defined as the ratio of the effective length of the column (Le) to the least radius of gyration (k)."
+  },
+  {
+    "q": "414. The column whose slenderness ratio is less than 80, are known as ............ ",
+    "options": [
+      "short columns",
+      "long columns",
+      "weak columns",
+      "medium columns"
+    ],
+    "correct": 0,
+    "explain": "Generally, for steel, a slenderness ratio less than 80 indicates a short column where crushing is the primary mode of failure."
+  },
+  {
+    "q": "415. A column with maximum equivalent length has ............ ",
+    "options": [
+      "both ends hinged",
+      "both ends fixed",
+      "one end fixed and the other hinged",
+      "one end fixed and the other end free"
+    ],
+    "correct": 3,
+    "explain": "For one end fixed and one end free, Le = 2L, which is the highest possible multiplier for a given actual length."
+  },
+  {
+    "q": "416. Euler's formula holds good only for ............ ",
+    "options": [
+      "short columns",
+      "long columns",
+      "both short and long columns",
+      "weak columns"
+    ],
+    "correct": 1,
+    "explain": "Euler's formula assumes the column fails by buckling within the elastic limit. Short columns fail by crushing before reaching the Euler buckling load."
+  },
+  {
+    "q": "417. A column is said to be a short column, when ............ ",
+    "options": [
+      "its length is very small",
+      "its cross-sectional area is small",
+      "the ratio of its length to the least radius of gyration is less than 80",
+      "the ratio of its length to the least radius of gyration is more than 80"
+    ],
+    "correct": 2,
+    "explain": "The classification of short vs long columns is strictly based on the slenderness ratio (L/k), typically with a cutoff around 80."
+  },
+  {
+    "q": "418. The Rankine's constant for a mild steel column with both ends hinged is ............ ",
+    "options": [
+      "1 / 750",
+      "1 / 1600",
+      "1 / 7500",
+      "1 / 9000"
+    ],
+    "correct": 2,
+    "explain": "The Rankine constant 'a' for mild steel is standardly taken as 1/7500 for hinged ends."
+  },
+  {
+    "q": "419. The Rankine's formula holds good for ............ ",
+    "options": [
+      "short columns",
+      "long columns",
+      "both short and long columns",
+      "weak columns"
+    ],
+    "correct": 2,
+    "explain": "Rankine's formula is an empirical formula designed to cover the entire range from very short to very long columns."
+  },
+  {
+    "q": "420. In case of eccentrically loaded struts ............ is preferred. ",
+    "options": [
+      "solid section",
+      "hollow section",
+      "composite section",
+      "reinforced section"
+    ],
+    "correct": 2,
+    "explain": "Hollow sections provide a larger radius of gyration for the same cross-sectional area, making them more resistant to the bending induced by eccentricity."
+  },
+  {
+    "q": "421. A masonry dam may fail due to ............ ",
+    "options": [
+      "tension in the masonry of the dam and its base",
+      "overturning of the dam",
+      "crushing of masonry at the base of the dam",
+      "any one of the above"
+    ],
+    "correct": 3,
+    "explain": "Dams are subject to multiple failure modes including stability issues (overturning), material strength (crushing), or joint separation (tension)."
+  },
+  {
+    "q": "422. In a tensile test, when the material is stressed beyond elastic limit, the tensile strain ............ as compared to the stress.",
+    "options": [
+      "decreases slowly",
+      "increases slowly",
+      "decreases more quickly",
+      "increases more quickly"
+    ],
+    "correct": 3,
+    "explain": "Beyond the elastic limit (in the plastic region), the material undergoes large deformations for very small increments in stress."
+  },
+  {
+    "q": "423. The stress at which the extension of the material takes place more quickly as compared to the increase in load, is called ............ ",
+    "options": [
+      "elastic limit",
+      "yield point",
+      "ultimate point",
+      "breaking point"
+    ],
+    "correct": 1,
+    "explain": "At the yield point, a ductile material begins to 'flow,' resulting in significant extension without a proportional increase in load."
+  },
+  {
+    "q": "424. The breaking stress is ............ the ultimate stress. ",
+    "options": [
+      "equal to",
+      "less than",
+      "greater than",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "In a nominal stress-strain curve for ductile materials, 'necking' occurs after the ultimate stress, causing the load (and nominal stress) to drop before breaking."
+  },
+  {
+    "q": "425. The stress developed in the material without any permanent set is called ............ ",
+    "options": [
+      "elastic limit",
+      "yield stress",
+      "ultimate stress",
+      "breaking stress"
+    ],
+    "correct": 0,
+    "explain": "The elastic limit is the maximum stress that can be applied to a material such that it returns to its original dimensions upon unloading."
+  },
+  {
+    "q": "426. The ratio of the largest load in a test to the original cross-sectional area of the test piece is called ............ ",
+    "options": [
+      "elastic limit",
+      "yield stress",
+      "ultimate stress",
+      "breaking stress"
+    ],
+    "correct": 2,
+    "explain": "Ultimate tensile strength (UTS) is defined as the maximum load reached during the test divided by the original area."
+  },
+  {
+    "q": "427. The tensile test is carried on ............ materials.",
+    "options": [
+      "ductile",
+      "brittle",
+      "malleable",
+      "plastic"
+    ],
+    "correct": 0,
+    "explain": "While many materials can be tested, the standard tensile test is most descriptive for ductile materials to observe yield and elongation."
+  },
+  {
+    "q": "428. The compression test is carried on ............ materials.",
+    "options": [
+      "ductile",
+      "brittle",
+      "malleable",
+      "plastic"
+    ],
+    "correct": 1,
+    "explain": "Brittle materials (concrete, cast iron) are weak in tension but strong in compression, making the compression test the primary method for determining their strength."
+  },
+  {
+    "q": "429. A tensile test is performed on a mild steel round bar. Its diameter after fracture will ............ ",
+    "options": [
+      "remain same",
+      "increase",
+      "decrease",
+      "depend upon rate of loading"
+    ],
+    "correct": 2,
+    "explain": "Mild steel is ductile; before it breaks, it undergoes 'necking,' which is a localized reduction in the cross-sectional area."
+  },
+  {
+    "q": "430. A tensile test is performed on a round bar. After fracture it has been found that the diameter remains approximately same at fracture. The material under test was ............ ",
+    "options": [
+      "mild steel",
+      "cast iron",
+      "glass",
+      "copper"
+    ],
+    "correct": 1,
+    "explain": "Cast iron is a brittle material. It fails by sudden fracture with very little plastic deformation or necking, so the diameter remains nearly unchanged."
+  },
+  {
+    "q": "431. Factor of safety is defined as the ratio of ............ ",
+    "options": [
+      "ultimate stress to working stress",
+      "working stress to ultimate stress",
+      "breaking stress to ultimate stress",
+      "ultimate stress to breaking stress"
+    ],
+    "correct": 0,
+    "explain": "Factor of Safety = Failure Stress / Allowable (Working) Stress. For ductile materials, ultimate stress is often used as the failure reference."
+  },
+  {
+    "q": "432. In compression test, the fracture in cast iron specimen would occur along ............ ",
+    "options": [
+      "the axis of load",
+      "an oblique plane",
+      "at right angles to the axis of specimen",
+      "would not occur"
+    ],
+    "correct": 1,
+    "explain": "Brittle materials in compression often fail due to shear on an oblique plane (typically around 45 degrees) because they are weaker in shear than in pure compression."
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "q": "101. The coefficient of discharge for an external mouthpiece is",
+    "options": [
+      "0.375",
+      "0.5",
+      "0.707",
+      "0.855"
+    ],
+    "correct": 3,
+    "explain": "For an external cylindrical mouthpiece, the coefficient of discharge ($C_d$) is approximately 0.855, which is higher than a sharp-edged orifice due to the reduction in contraction."
+  },
+  {
+    "q": "102. An internal mouthpiece is said to be running free if the length of the mouthpiece is ............ the diameter of the orifice.",
+    "options": [
+      "less than twice",
+      "more than twice",
+      "less than three times",
+      "more than three times"
+    ],
+    "correct": 0,
+    "explain": "In a Borda's mouthpiece (internal), if the length is less than twice the diameter, the jet of liquid does not touch the sides, and it is said to be 'running free'."
+  },
+  {
+    "q": "103. When an internal mouthpiece is running free, the discharge through the mouthpiece is ............ ",
+    "options": [
+      "0.5a√(2gH)",
+      "0.707a√(2gH)",
+      "0.855a√(2gH)",
+      "a√(2gH)"
+    ],
+    "correct": 0,
+    "explain": "For an internal mouthpiece running free, the theoretical coefficient of discharge is 0.5. Therefore, $Q = 0.5a\\sqrt{2gH}$."
+  },
+  {
+    "q": "104. The discharge through a convergent mouthpiece is ............ the discharge through an internal mouthpiece of the same diameter and head of water.",
+    "options": [
+      "equal to",
+      "one-half",
+      "three fourth",
+      "double"
+    ],
+    "correct": 3,
+    "explain": "A convergent mouthpiece has a $C_d$ near 1.0, while a Borda's mouthpiece running free has a $C_d$ of 0.5. Thus, the discharge through the convergent one is roughly double."
+  },
+  {
+    "q": "105. An opening in the side of a tank or vessel such that the liquid surface with the tank is below the top edge of the opening, is called ............ ",
+    "options": [
+      "weir",
+      "notch",
+      "orifice",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A notch is an opening in the side of a tank such that the liquid level is below the upper edge of the opening. It is primarily used for measuring discharge in small channels."
+  },
+  {
+    "q": "106. A notch is used to measure ............ of liquids.",
+    "options": [
+      "pressure",
+      "discharge",
+      "velocity",
+      "volume"
+    ],
+    "correct": 1,
+    "explain": "Notches and weirs are standard hydraulic structures used to measure the rate of flow (discharge) of liquids in open channels."
+  },
+  {
+    "q": "107. The discharge over a rectangular notch is ............ ",
+    "options": [
+      "2/3 Cd x b√(2gH)",
+      "2/3 Cd x b√(2g) x H",
+      "2/3 Cd x b√(2g) x H^(3/2)",
+      "2/3 Cd x b√(2g) x H^2"
+    ],
+    "correct": 2,
+    "explain": "The standard formula for discharge over a rectangular notch is $Q = \\frac{2}{3} C_d \\cdot b \\sqrt{2g} \\cdot H^{3/2}$."
+  },
+  {
+    "q": "108. The discharge over a right angled notch is ............ ",
+    "options": [
+      "8/15 Cd√(2g) x H",
+      "8/15 Cd√(2g) x H^(3/2)",
+      "8/15 Cd√(2g) x H^2",
+      "8/15 Cd√(2g) x H^(5/2)"
+    ],
+    "correct": 3,
+    "explain": "For a V-notch (triangular notch), the discharge formula is $Q = \\frac{8}{15} C_d \\tan(\\theta/2) \\sqrt{2g} \\cdot H^{5/2}$. For a right-angled notch, $\\theta = 90°$, so $\tan(45°) = 1$."
+  },
+  {
+    "q": "109. If the coefficient of discharge is 0.6, then the discharge over a right angled notch is ............ ",
+    "options": [
+      "0.417 H^(5/2)",
+      "1.417 H^(5/2)",
+      "4.171 H^(5/2)",
+      "7.141 H^(5/2)"
+    ],
+    "correct": 1,
+    "explain": "Plugging $C_d = 0.6$ into the V-notch formula $Q = \\frac{8}{15} \\times 0.6 \times \\sqrt{2 \times 9.81} \times H^{5/2}$ results in approximately $1.417 H^{5/2}$."
+  },
+  {
+    "q": "110. The discharge over a rectangular notch is ............ ",
+    "options": [
+      "inversely proportional to H^(3/2)",
+      "directly proportional to H^(3/2)",
+      "inversely proportional to H^(5/2)",
+      "directly proportional to H^(5/2)"
+    ],
+    "correct": 1,
+    "explain": "Based on the formula $Q = \frac{2}{3} C_d b \\sqrt{2g} H^{3/2}$, discharge is directly proportional to the head raised to the power of 1.5."
+  },
+  {
+    "q": "111. The discharge over a triangular notch is ............ ",
+    "options": [
+      "inversely proportional to H^(3/2)",
+      "directly proportional to H^(3/2)",
+      "inversely proportional to H^(5/2)",
+      "directly proportional to H^(5/2)"
+    ],
+    "correct": 3,
+    "explain": "Based on the formula $Q = \frac{8}{15} C_d \tan(\theta/2) \\sqrt{2g} H^{5/2}$, discharge is directly proportional to $H^{2.5}$."
+  },
+  {
+    "q": "112. The error in discharge (dQ/Q) to the error in measurement of head (dH/H) over a rectangular notch is given by ............ ",
+    "options": [
+      "dQ/Q = 1/2 x dH/H",
+      "dQ/Q = 3/4 x dH/H",
+      "dQ/Q = dH/H",
+      "dQ/Q = 3/2 x dH/H"
+    ],
+    "correct": 3,
+    "explain": "By differentiating $Q = kH^{3/2}$, we get $dQ/Q = 1.5 (dH/H)$."
+  },
+  {
+    "q": "113. The error in discharge (dQ/Q) to the error in measurement of head (dH/H) over a triangular notch is given by ............ ",
+    "options": [
+      "dQ/Q = 3/2 x dH/H",
+      "dQ/Q = 2 x dH/H",
+      "dQ/Q = 5/2 x dH/H",
+      "3 x dH/H"
+    ],
+    "correct": 2,
+    "explain": "By differentiating $Q = kH^{5/2}$, we get $dQ/Q = 2.5 (dH/H)$."
+  },
+  {
+    "q": "114. An error of 1% in measuring head over the crest of the notch (H) will produce an error of ............ in discharge over a rectangular notch.",
+    "options": [
+      "1%",
+      "1.5%",
+      "2%",
+      "2.5%"
+    ],
+    "correct": 1,
+    "explain": "Using $dQ/Q = 1.5 (dH/H)$, a 1% error in head results in $1.5 \times 1\\% = 1.5\\%$ error in discharge."
+  },
+  {
+    "q": "115. An error of 1% in measuring head over the apex of the notch (H) will produce an error of ............ in discharge over a triangular notch.",
+    "options": [
+      "1%",
+      "1.5%",
+      "2%",
+      "2.5%"
+    ],
+    "correct": 3,
+    "explain": "Using $dQ/Q = 2.5 (dH/H)$, a 1% error in head results in $2.5 \times 1\\% = 2.5\\%$ error in discharge."
+  },
+  {
+    "q": "116. A structure used to dam up a stream or river over which the water flows is called ............ ",
+    "options": [
+      "orifice",
+      "notch",
+      "weir",
+      "dam"
+    ],
+    "correct": 2,
+    "explain": "While a dam holds water, a 'weir' is specifically the structure built across a river over which water flows for measurement or regulation."
+  },
+  {
+    "q": "117. The sheet of water flowing over a notch or a weir is known as ............ ",
+    "options": [
+      "sill or crest",
+      "nappe or vein",
+      "orifice",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The continuous sheet of water that overflows the weir or notch is technically called the 'nappe' or 'vein'."
+  },
+  {
+    "q": "118. The top of the weir over which the water flows is known as ............ ",
+    "options": [
+      "sill or crest",
+      "nappe or vein",
+      "orifice",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The top edge or surface of a weir or notch over which the water flows is called the 'crest' or 'sill'."
+  },
+  {
+    "q": "119. According to Francis formula, the discharge over a rectangular weir is ............ ",
+    "options": [
+      "2/3 Cd (L - nH) √(2gH)",
+      "2/3 Cd (L - 0.1nH) √(2g) H^(3/2)",
+      "2/3 Cd (L - nH) √(2g) H^2",
+      "2/3 Cd (L - 0.2nH) √(2g) H^(5/2)"
+    ],
+    "correct": 1,
+    "explain": "Francis formula accounts for end contractions: $Q = \frac{2}{3} C_d (L - 0.1nH) \\sqrt{2g} H^{3/2}$, where $n$ is the number of end contractions."
+  },
+  {
+    "q": "120. When the coefficient of discharge (Cd) is 0.623, then the general equation for discharge over a rectangular weir is ............ ",
+    "options": [
+      "1.84 (L - 0.1 nH) H^(3/2)",
+      "1.84 (L - nH) H^2",
+      "1.84 (L - 0.1nH) H^(5/2)",
+      "1.84 (L - nH) H^3"
+    ],
+    "correct": 0,
+    "explain": "Substituting $C_d = 0.623$ and $g = 9.81$ into the Francis formula $\frac{2}{3} C_d \\sqrt{2g}$ yields the constant 1.84."
+  },
+  {
+    "q": "121. The Cippoletti is a ............ weir.",
+    "options": [
+      "rectangular",
+      "triangular",
+      "trapezoidal",
+      "circular"
+    ],
+    "correct": 2,
+    "explain": "A Cippoletti weir is a trapezoidal weir with a side slope of 1 horizontal to 4 vertical (1:4)."
+  },
+  {
+    "q": "122. The Francis formula for the discharge over Cippoletti weir is ............ ",
+    "options": [
+      "1.84 LH^(1/2)",
+      "1.84 LH",
+      "1.84 LH^(3/2)",
+      "1.84 LH^(5/2)"
+    ],
+    "correct": 2,
+    "explain": "The Cippoletti weir is designed to compensate for end contractions, simplifying the formula to $Q = 1.84 LH^{3/2}$."
+  },
+  {
+    "q": "123. In a broad-crested weir, the discharge is maximum if the head of water on the downstream side of weir is ............ the head of water on the upstream side of weir.",
+    "options": [
+      "equal to",
+      "one-third",
+      "two-third",
+      "three-fourth"
+    ],
+    "correct": 2,
+    "explain": "For maximum discharge over a broad-crested weir, the depth of water over the crest ($h$) should be $\frac{2}{3} H$."
+  },
+  {
+    "q": "124. The maximum discharge over a broad crested weir is ............ ",
+    "options": [
+      "0.384 Cd x L x H^(1/2)",
+      "0.384 Cd x L x H^(3/2)",
+      "1.71 Cd x L x H^(1/2)",
+      "1.71 Cd x L x H^(3/2)"
+    ],
+    "correct": 3,
+    "explain": "The maximum discharge is $Q_{max} = 1.71 C_d L H^{3/2}$, derived using the critical depth condition."
+  },
+  {
+    "q": "125. A weir, generally, used as a spillway of a dam is ............ ",
+    "options": [
+      "narrow crested weir",
+      "broad crested weir",
+      "Ogee weir",
+      "submerged weir"
+    ],
+    "correct": 2,
+    "explain": "An Ogee weir is shaped to follow the profile of the lower nappe of a ventilated jet, making it the most efficient and common shape for dam spillways."
+  },
+  {
+    "q": "126. When the water level on the downstream side of a weir is above the top surface of a weir, the weir is known as ............",
+    "options": [
+      "narrow-crested weir",
+      "broad-crested weir",
+      "Ogee weir",
+      "submerged weir"
+    ],
+    "correct": 3,
+    "explain": "A weir is considered submerged or drowned when the water level on the downstream side is higher than the crest of the weir."
+  },
+  {
+    "q": "127. In a free nappe ............",
+    "options": [
+      "the pressure below the nappe is atmospheric",
+      "the pressure below the nappe is negative",
+      "the pressure above the nappe is atmospheric",
+      "the pressure above the nappe is negative"
+    ],
+    "correct": 0,
+    "explain": "For a nappe to be 'free', air must circulate freely underneath it, maintaining atmospheric pressure below the water sheet."
+  },
+  {
+    "q": "128. In a depressed nappe ............",
+    "options": [
+      "the pressure below the nappe is atmospheric",
+      "the pressure below the nappe is negative",
+      "the pressure above the nappe is atmospheric",
+      "the pressure above the nappe is negative"
+    ],
+    "correct": 1,
+    "explain": "In a depressed nappe, air is trapped and partially exhausted by the flowing water, creating a partial vacuum (negative pressure) underneath."
+  },
+  {
+    "q": "129. The discharge through a siphon spillway is ............",
+    "options": [
+      "Cd x a√(2gH)",
+      "Cd x a√(2g) x H^(3/2)",
+      "Cd x a√(2g) x H^2",
+      "Cd x a√(2g) x H^(5/2)"
+    ],
+    "correct": 0,
+    "explain": "A siphon spillway acts like a large submerged orifice or pipe under a head $H$, where $H$ is the difference between upstream and downstream water levels."
+  },
+  {
+    "q": "130. The frictional resistance of a pipe varies approximately with ............ of the liquid.",
+    "options": [
+      "pressure",
+      "velocity",
+      "square of velocity",
+      "cube of velocity"
+    ],
+    "correct": 2,
+    "explain": "According to Froude's experiments on fluid friction, for turbulent flow, the frictional resistance is proportional to the square of the velocity ($v^2$)."
+  },
+  {
+    "q": "131. According to Darcy's formula, the loss of head due to friction in the pipe is ............",
+    "options": [
+      "flv^2 / 2gd",
+      "flv^2 / gd",
+      "3flv^2 / 2gd",
+      "4flv^2 / 2gd"
+    ],
+    "correct": 3,
+    "explain": "The standard Darcy-Weisbach equation is often expressed as $h_f = \frac{4flv^2}{2gd}$ where $f$ is the friction factor."
+  },
+  {
+    "q": "132. The hydraulic mean depth or the hydraulic radius is the ratio of ............",
+    "options": [
+      "area of flow and wetted perimeter",
+      "wetted perimeter and diameter of pipe",
+      "velocity of flow and area of flow",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Hydraulic mean depth ($m$ or $R$) is defined as the cross-sectional area of flow ($A$) divided by the wetted perimeter ($P$)."
+  },
+  {
+    "q": "133. The hydraulic mean depth for a circular pipe of diameter (d) is ............",
+    "options": [
+      "d/6",
+      "d/4",
+      "d/2",
+      "d"
+    ],
+    "correct": 1,
+    "explain": "For a full pipe: $A = \frac{\\pi d^2}{4}$ and $P = \\pi d$. Thus, $m = A/P = (\frac{\\pi d^2}{4}) / \\pi d = d/4$."
+  },
+  {
+    "q": "134. The hydraulic gradient line lies over the centre line of the pipe by an amount equal to the ............",
+    "options": [
+      "pressure head",
+      "velocity head",
+      "pressure head + velocity head",
+      "pressure head - velocity head"
+    ],
+    "correct": 0,
+    "explain": "The Hydraulic Gradient Line (HGL) represents the sum of the datum head and pressure head ($P/w + z$)."
+  },
+  {
+    "q": "135. The total energy line lies over the centre line of the pipe by an amount equal to ............",
+    "options": [
+      "pressure head",
+      "velocity head",
+      "pressure head + velocity head",
+      "pressure head - velocity head"
+    ],
+    "correct": 2,
+    "explain": "The Total Energy Line (TEL) represents the sum of pressure head, datum head, and velocity head ($P/w + z + v^2/2g$)."
+  },
+  {
+    "q": "136. The efficiency of power transmission through pipe is ............",
+    "options": [
+      "(H - hf) / H",
+      "H / (H - hf)",
+      "(H + hf) / H",
+      "H / (H + hf)"
+    ],
+    "correct": 0,
+    "explain": "Efficiency is the ratio of available head at the outlet ($H - h_f$) to the total head supplied at the inlet ($H$)."
+  },
+  {
+    "q": "137. The power transmitted through a pipe is ............",
+    "options": [
+      "w x Q x H",
+      "w x Q x hf",
+      "w x Q (H - hf)",
+      "w x Q (H + hf)"
+    ],
+    "correct": 2,
+    "explain": "Power is given by $P = \\gamma Q H_{net}$, where $H_{net}$ is the total head minus friction losses ($H - h_f$)."
+  },
+  {
+    "q": "138. The power transmitted through the pipe is maximum when the head lost due to friction is equal to ............",
+    "options": [
+      "one-fourth of the total supply head",
+      "one-third of the total supply head",
+      "one-half of the total supply head",
+      "two-third of the total supply head"
+    ],
+    "correct": 1,
+    "explain": "By differentiating the power equation with respect to velocity, we find that maximum power occurs when $h_f = H/3$."
+  },
+  {
+    "q": "139. The maximum efficiency of transmission through a pipe is ............",
+    "options": [
+      "50%",
+      "55.7%",
+      "66.67%",
+      "76.66%"
+    ],
+    "correct": 2,
+    "explain": "At maximum power transmission ($h_f = H/3$), efficiency $\\eta = (H - H/3) / H = 2/3$, which is 66.67%."
+  },
+  {
+    "q": "140. A compound pipe is required to be replaced by a new pipe. The two pipes are said to be equivalent, if ............",
+    "options": [
+      "length of both the pipes is same",
+      "diameter of both the pipes is same",
+      "loss of head and discharge of both the pipes is same",
+      "loss of head and velocity of flow in both the pipes is same"
+    ],
+    "correct": 2,
+    "explain": "An equivalent pipe must carry the same discharge ($Q$) with the same total head loss ($h_f$) as the original system of pipes."
+  },
+  {
+    "q": "141. A compound pipe of diameter d1, d2 and d3 having lengths l1, l2 and l3 is to be replaced by an equivalent pipe of uniform diameter d and of the same length (l) as that of the compound pipe. The size of the equivalent pipe is given by ............",
+    "options": [
+      "l/d^2 = l1/d1^2 + l2/d2^2 + l3/d3^2",
+      "l/d^3 = l1/d1^3 + l2/d2^3 + l3/d3^3",
+      "l/d^4 = l1/d1^4 + l2/d2^4 + l3/d3^4",
+      "l/d^5 = l1/d1^5 + l2/d2^5 + l3/d3^5"
+    ],
+    "correct": 3,
+    "explain": "This is known as Dupuit’s equation: $\frac{l}{d^5} = \\sum \frac{l_i}{d_i^5}$, derived from equating friction losses."
+  },
+  {
+    "q": "142. An air vessel is provided at the summit in a siphon to ............",
+    "options": [
+      "avoid interruption in the flow",
+      "increase discharge",
+      "increase velocity",
+      "maintain pressure difference"
+    ],
+    "correct": 0,
+    "explain": "Air vessels at the summit collect air that comes out of solution at low pressure, preventing an air lock which would interrupt the siphonic action."
+  },
+  {
+    "q": "143. A nozzle is generally made of ............",
+    "options": [
+      "cylindrical shape",
+      "convergent shape",
+      "divergent shape",
+      "convergent-divergent shape"
+    ],
+    "correct": 1,
+    "explain": "Nozzles are designed to increase the velocity of fluid at the expense of pressure; a convergent shape achieves this for incompressible fluids."
+  },
+  {
+    "q": "144. A nozzle placed at the end of a water pipe line discharges water at a ............",
+    "options": [
+      "low pressure",
+      "high pressure",
+      "low velocity",
+      "high velocity"
+    ],
+    "correct": 3,
+    "explain": "The primary function of a nozzle is to convert pressure energy into kinetic energy, resulting in a high-velocity jet."
+  },
+  {
+    "q": "145. The power transmitted through the nozzle is maximum when the head lost due to friction in the pipe is ............ of the total supply head.",
+    "options": [
+      "one-half",
+      "one-third",
+      "two-third",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Similar to pipe transmission, the maximum power through a nozzle is achieved when head loss $h_f = H/3$."
+  },
+  {
+    "q": "146. The diameter of the nozzle (d) for maximum transmission of power is given by ............",
+    "options": [
+      "d = (D^5 / 8fl)^(1/2)",
+      "d = (D^5 / 8fl)^(1/3)",
+      "d = (D^5 / 8fl)^(1/4)",
+      "d = (D^5 / 8fl)^(1/5)"
+    ],
+    "correct": 2,
+    "explain": "For maximum power, the optimal nozzle diameter is $d = (\frac{D^5}{8fl})^{1/4}$."
+  },
+  {
+    "q": "147. The pressure of fluid due to hammer blow is ............",
+    "options": [
+      "directly proportional to density of fluid",
+      "inversely proportional to density of fluid",
+      "directly proportional to (density)^(1/2) of fluid",
+      "inversely proportional to (density)^(1/2) of fluid"
+    ],
+    "correct": 2,
+    "explain": "Water hammer pressure $P = \rho v C$, where $C$ (velocity of pressure wave) involves $\\sqrt{K/\rho}$, making $P$ proportional to $\\sqrt{\rho}$."
+  },
+  {
+    "q": "148. The hammer blow in pipes occurs when ............",
+    "options": [
+      "there is excessive leakage in the pipe",
+      "the pipe bursts under high pressure of fluid",
+      "the flow of fluid through the pipe is suddenly brought to rest by closing of the valve",
+      "the flow of fluid through the pipe is gradually brought to rest by closing of the valve"
+    ],
+    "correct": 2,
+    "explain": "Water hammer (hammer blow) is a pressure surge caused when a fluid in motion is forced to stop or change direction suddenly."
+  },
+  {
+    "q": "149. According to Chezy's formula, the discharge through an open channel is ............",
+    "options": [
+      "A√(m x i)",
+      "C√(m x i)",
+      "AC√(m x i)",
+      "mi√(A x C)"
+    ],
+    "correct": 2,
+    "explain": "Chezy's formula for velocity is $v = C\\sqrt{mi}$. Discharge $Q = Av$, so $Q = AC\\sqrt{mi}$."
+  },
+  {
+    "q": "150. According to Manning's formula, the discharge through an open channel is ............",
+    "options": [
+      "A x M x m^(1/2) x i^(2/3)",
+      "A x M x m^(2/3) x i^(1/2)",
+      "A^(1/2) x M^(2/3) x m x i",
+      "A^(2/3) x M^(1/3) x m x i"
+    ],
+    "correct": 1,
+    "explain": "Manning's formula for velocity is $v = M \\cdot m^{2/3} \\cdot i^{1/2}$. Therefore, $Q = A \\cdot M \\cdot m^{2/3} \\cdot i^{1/2}$."
+  },
+  {
+    "q": "151. When the flow in an open channel is gradually varied, the flow is said to be ............",
+    "options": [
+      "steady uniform flow",
+      "steady non-uniform flow",
+      "unsteady uniform flow",
+      "unsteady non-uniform flow"
+    ],
+    "correct": 1,
+    "explain": "Gradually Varied Flow (GVF) is a type of steady non-uniform flow where the depth of flow changes gradually along the length of the channel."
+  },
+  {
+    "q": "152. A channel is said to be of most economical cross-section, if ............",
+    "options": [
+      "it gives maximum discharge for a given cross-section",
+      "it has minimum wetted perimeter",
+      "it involves lesser excavation for the designed amount of discharge",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The most economical section (or most efficient section) is designed to minimize the wetted perimeter for a given area, which maximizes discharge and minimizes excavation costs."
+  },
+  {
+    "q": "153. The discharge through a channel of rectangular section will be maximum, if ............",
+    "options": [
+      "its depth is twice the breadth",
+      "its breadth is twice the depth",
+      "its depth is thrice the breadth",
+      "its breadth is thrice the depth"
+    ],
+    "correct": 1,
+    "explain": "For a rectangular channel to be most economical, the hydraulic radius should be half the depth ($R = y/2$), which occurs when the width $b$ is twice the depth $y$ ($b = 2y$)."
+  },
+  {
+    "q": "154. The discharge through a channel of trapezoidal section is maximum when ............",
+    "options": [
+      "width of channel at the top is equal to twice the width at the bottom",
+      "depth of channel is equal to the width at the bottom",
+      "the sloping side is equal to half the width at the top",
+      "the sloping side is equal to the width at the bottom"
+    ],
+    "correct": 2,
+    "explain": "A trapezoidal section is most economical when the length of the sloping side is equal to half of the top width."
+  },
+  {
+    "q": "155. The discharge through a channel of circular section will be maximum when the depth of water is ............ the diameter of the circular channel.",
+    "options": [
+      "0.34 times",
+      "0.67 times",
+      "0.81 times",
+      "0.95 times"
+    ],
+    "correct": 3,
+    "explain": "While velocity is maximum at 0.81d, the maximum discharge in a circular channel occurs when the depth $y = 0.95d$ due to the large increase in area."
+  },
+  {
+    "q": "156. The velocity through a channel of circular section will be maximum when the depth of water is ............ the diameter of the circular channel.",
+    "options": [
+      "0.34 times",
+      "0.67 times",
+      "0.81 times",
+      "0.95 times"
+    ],
+    "correct": 2,
+    "explain": "Maximum velocity in a circular pipe occurs when the depth of flow is 0.81 times the diameter."
+  },
+  {
+    "q": "157. The highest efficiency is obtained with a channel of ............ section.",
+    "options": [
+      "circular",
+      "square",
+      "rectangular",
+      "trapezoidal"
+    ],
+    "correct": 3,
+    "explain": "Among the common polygonal shapes, the trapezoidal section (specifically a half-hexagon) is the most efficient open channel section."
+  },
+  {
+    "q": "158. In open channels, the specific energy is the ............",
+    "options": [
+      "total energy per unit discharge",
+      "total energy measured with respect to the datum passing through the bottom of the channel",
+      "total energy measured above the horizontal datum",
+      "kinetic energy plotted above the free surface of water"
+    ],
+    "correct": 1,
+    "explain": "Specific energy ($E$) is the energy of flow per unit weight of water measured with the channel bed as the datum: $E = y + v^2/2g$."
+  },
+  {
+    "q": "159. The critical depth for a channel is given by ............",
+    "options": [
+      "(q/g)^(1/2)",
+      "(q^2/g)^(1/3)",
+      "(q^3/g)^(1/4)",
+      "(q^4/g)^(1/5)"
+    ],
+    "correct": 1,
+    "explain": "For a rectangular channel, the critical depth ($y_c$) is calculated as $\\sqrt[3]{q^2/g}$, where $q$ is the discharge per unit width."
+  },
+  {
+    "q": "160. If the depth of water in an open channel is greater than the critical depth, the flow is called ............",
+    "options": [
+      "critical flow",
+      "turbulent flow",
+      "tranquil flow",
+      "torrential flow"
+    ],
+    "correct": 2,
+    "explain": "When $y > y_c$, the velocity is low and the flow is described as tranquil, subcritical, or streaming flow."
+  },
+  {
+    "q": "161. If the depth of water in an open channel is less than the critical depth, the flow is called ............",
+    "options": [
+      "critical flow",
+      "turbulent flow",
+      "tranquil flow",
+      "torrential flow"
+    ],
+    "correct": 3,
+    "explain": "When $y < y_c$, the velocity is high and the flow is described as torrential, supercritical, or shooting flow."
+  },
+  {
+    "q": "162. The most efficient section of a channel is ............",
+    "options": [
+      "triangular",
+      "rectangular",
+      "square",
+      "trapezoidal"
+    ],
+    "correct": 3,
+    "explain": "The trapezoidal section is generally considered the most efficient because it can most closely approximate a semi-circle, which has the minimum wetted perimeter."
+  },
+  {
+    "q": "163. The critical depth meter is used to measure ............",
+    "options": [
+      "velocity of flow in an open channel",
+      "depth of flow in an open channel",
+      "hydraulic jump",
+      "depth of channel"
+    ],
+    "correct": 1,
+    "explain": "A critical depth meter is a device used in open channels to measure the depth of flow by creating a critical flow condition."
+  },
+  {
+    "q": "164. In a venturiflume, the flow takes place at ............",
+    "options": [
+      "atmospheric pressure",
+      "gauge pressure",
+      "absolute pressure",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Since a venturiflume is an open channel structure, the water surface is in contact with the atmosphere, so flow occurs at atmospheric pressure."
+  },
+  {
+    "q": "165. A venturiflume is used to measure ............",
+    "options": [
+      "pressure of liquid",
+      "discharge of liquid",
+      "pressure difference between two points in a channel",
+      "pressure difference between two points in a pipe"
+    ],
+    "correct": 1,
+    "explain": "A venturiflume is the open-channel equivalent of a venturi meter, used specifically to measure the discharge ($Q$)."
+  },
+  {
+    "q": "166. The coefficient of venturiflume, generally, lies between ............",
+    "options": [
+      "0.3 to 0.45",
+      "0.50 to 0.75",
+      "0.75 to 0.95",
+      "0.95 to 1.0"
+    ],
+    "correct": 3,
+    "explain": "Venturiflumes are very efficient with minimal energy loss, so their coefficient of discharge ($C_d$) is typically between 0.95 and 1.0."
+  },
+  {
+    "q": "167. When a cylindrical vessel, containing some liquid, is rotated about its vertical axis, the liquid surface is depressed down at the axis of its rotation and rises up near the walls of the vessel on all sides. This type of flow is known as ............",
+    "options": [
+      "steady flow",
+      "turbulent flow",
+      "vortex flow",
+      "uniform flow"
+    ],
+    "correct": 2,
+    "explain": "Vortex flow is the motion of a fluid in a curved path or around a central axis. This specific case is a 'forced vortex'."
+  },
+  {
+    "q": "168. When a cylindrical vessel containing liquid is revolved about its vertical axis at a constant angular velocity, the pressure ............",
+    "options": [
+      "Varies at the square of the radial distance",
+      "increases linearly as its radial distance",
+      "increases as the square of the radial distance",
+      "decreases as the square of the radial distance"
+    ],
+    "correct": 2,
+    "explain": "In a forced vortex, the pressure head increases with the square of the radius ($P = \\frac{\\rho \\omega^2 r^2}{2}$)."
+  },
+  {
+    "q": "169. When a cylindrical vessel containing liquid is revolved, the surface of the liquid takes the shape of ............",
+    "options": [
+      "a triangle",
+      "a paraboloid",
+      "an ellipse",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The free surface of a liquid in a forced vortex takes the shape of a paraboloid of revolution."
+  },
+  {
+    "q": "170. The total pressure on the top of a closed cylindrical vessel completely filled up with a liquid is ............",
+    "options": [
+      "directly proportional to (radius)^2",
+      "inversely proportional to (radius)^2",
+      "directly proportional to (radius)^4",
+      "inversely proportional to (radius)^4"
+    ],
+    "correct": 2,
+    "explain": "By integrating the pressure over the top surface area, the total force (or pressure) is found to be proportional to $R^4$."
+  },
+  {
+    "q": "171. The flow of water through the hole in the bottom of a wash basin is an example of ............",
+    "options": [
+      "steady flow",
+      "uniform flow",
+      "free vortex",
+      "forced vortex"
+    ],
+    "correct": 2,
+    "explain": "A free vortex occurs when liquid rotates without external torque, such as water draining from a basin or a whirlpool."
+  },
+  {
+    "q": "172. The increase in pressure at the outer edge of a drum of radius (r) completely filled up with liquid of density (ρ) and rotating at (ω) rad/s is ............",
+    "options": [
+      "ρ ω^2 r^2",
+      "2ρ ω^2 r^2",
+      "ρ ω^2 r^2 / 2",
+      "ρ ω^2 r^2 / 4"
+    ],
+    "correct": 2,
+    "explain": "The pressure difference between the center and a point at radius $r$ in a forced vortex is $\\Delta P = \\frac{\\rho \\omega^2 r^2}{2}$."
+  },
+  {
+    "q": "173. The tangential velocity of the water element having a free vortex is ............",
+    "options": [
+      "directly proportional to its distance from the centre",
+      "inversely proportional to its distance from the centre",
+      "directly proportional to its (distance)^2 from the centre",
+      "inversely proportional to its (distance)^2 from the centre"
+    ],
+    "correct": 1,
+    "explain": "In a free vortex, the velocity $v$ is inversely proportional to the radius $r$ ($vr = constant$)."
+  },
+  {
+    "q": "174. When a cylindrical vessel of radius (r) containing liquid is revolved about its vertical axis ω rad/s then depth of parabola which the liquid assumes is ............",
+    "options": [
+      "ω·r / 2g",
+      "ω^2·r^2 / 2g",
+      "ω·r / 4g",
+      "ω^2·r^2 / 4g"
+    ],
+    "correct": 1,
+    "explain": "The height of the paraboloid (rise at the edges) is given by $Z = v^2/2g = \\omega^2 r^2 / 2g$."
+  },
+  {
+    "q": "175. According to Newton's law of viscosity, the shear stress on a layer of a fluid is ............ to the rate of shear strain.",
+    "options": [
+      "equal to",
+      "directly proportional",
+      "inversely proportional",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "Newton's law states that $\\tau = \\mu (du/dy)$, where shear stress is directly proportional to the velocity gradient (rate of shear strain)."
+  },
+  {
+    "q": "176. Newton's law of viscosity is a relationship between ............",
+    "options": [
+      "pressure, velocity and temperature",
+      "shear stress and rate of shear strain",
+      "shear stress and velocity",
+      "rate of shear strain and temperature"
+    ],
+    "correct": 1,
+    "explain": "It defines the relationship where shear stress is proportional to the rate of shear deformation."
+  },
+  {
+    "q": "177. The unit of dynamic viscosity in S.I. units is ............",
+    "options": [
+      "N-m/s^2",
+      "N-s/m^2",
+      "poise",
+      "stoke"
+    ],
+    "correct": 1,
+    "explain": "Dynamic viscosity ($\\mu$) in SI units is Pascal-seconds (Pa·s), which is equivalent to $N \\cdot s/m^2$."
+  },
+  {
+    "q": "178. One poise is equal to ............",
+    "options": [
+      "0.1 N-s/m^2",
+      "1 N-s/m^2",
+      "10 N-s/m^2",
+      "100 N-s/m^2"
+    ],
+    "correct": 0,
+    "explain": "1 Poise = 1 dyne-s/cm² = 0.1 N·s/m² (or 0.1 Pa·s)."
+  },
+  {
+    "q": "179. The kinematic viscosity is the ............",
+    "options": [
+      "ratio of absolute viscosity to the density of the liquid",
+      "ratio of density of the liquid to the absolute viscosity",
+      "product of absolute viscosity and density of the liquid",
+      "product of absolute viscosity and mass of the liquid"
+    ],
+    "correct": 0,
+    "explain": "Kinematic viscosity ($\nu$) is defined as $\\mu/\rho$."
+  },
+  {
+    "q": "180. Stoke is the unit of ............",
+    "options": [
+      "kinematic viscosity in C.G.S. units",
+      "kinematic viscosity in M.K.S. units",
+      "dynamic viscosity in M.K.S. units",
+      "dynamic viscosity in S.I. units"
+    ],
+    "correct": 0,
+    "explain": "1 Stoke is the CGS unit for kinematic viscosity, equal to 1 cm²/s."
+  },
+  {
+    "q": "181. One stoke is equal to ............",
+    "options": [
+      "10^-2 m^2/s",
+      "10^-3 m^2/s",
+      "10^-4 m^2/s",
+      "10^-6 m^2/s"
+    ],
+    "correct": 2,
+    "explain": "1 Stoke = 1 cm²/s = $(10^{-2} m)^2/s = 10^{-4} m^2/s$."
+  },
+  {
+    "q": "182. The unit of kinematic viscosity in S.I. units is ............",
+    "options": [
+      "N-m/s",
+      "N-s/m^2",
+      "m^2/s",
+      "N-m"
+    ],
+    "correct": 2,
+    "explain": "The SI unit for kinematic viscosity is square meters per second ($m^2/s$)."
+  },
+  {
+    "q": "183. The viscosity of water at 20°C is ............",
+    "options": [
+      "one stoke",
+      "one centistroke",
+      "one poise",
+      "one centipoise"
+    ],
+    "correct": 3,
+    "explain": "At 20°C, the dynamic viscosity of water is approximately 1.0 centipoise (0.001 Pa·s)."
+  },
+  {
+    "q": "184. The kinematic viscosity of an oil (in stokes) whose specific gravity is 0.95 and viscosity 0.011 poise, is ............",
+    "options": [
+      "0.0116 stoke",
+      "0.116 stoke",
+      "0.0611 stoke",
+      "0.611 stoke"
+    ],
+    "correct": 0,
+    "explain": "Kinematic viscosity $\nu = \\mu/\rho = 0.011 / 0.95 \\approx 0.0116$ Stokes."
+  },
+  {
+    "q": "185. A fluid having no viscosity is known as ............",
+    "options": [
+      "real fluid",
+      "ideal fluid",
+      "Newtonian fluid",
+      "non-newtonian fluid"
+    ],
+    "correct": 1,
+    "explain": "An ideal fluid is a theoretical fluid that is incompressible and has zero viscosity (no friction)."
+  },
+  {
+    "q": "186. A fluid whose viscosity does not change with the rate of deformation or shear strain is known as ............",
+    "options": [
+      "real fluid",
+      "ideal fluid",
+      "Newtonian fluid",
+      "non-newtonian fluid"
+    ],
+    "correct": 2,
+    "explain": "Newtonian fluids have a constant viscosity regardless of the shear rate."
+  },
+  {
+    "q": "187. A fluid which obeys the Newton's law of viscosity is termed as ............",
+    "options": [
+      "real fluid",
+      "ideal fluid",
+      "Newtonian fluid",
+      "non-newtonian fluid"
+    ],
+    "correct": 2,
+    "explain": "By definition, Newtonian fluids follow the linear relationship $\tau = \\mu (du/dy)$."
+  },
+  {
+    "q": "188. Water is a ............ fluid.",
+    "options": [
+      "real",
+      "ideal",
+      "Newtonian",
+      "non-newtonian"
+    ],
+    "correct": 2,
+    "explain": "Water, air, and thin oils are common examples of Newtonian fluids."
+  },
+  {
+    "q": "189. The shear stress-strain graph for a Newtonian fluid is a ............",
+    "options": [
+      "straight line",
+      "parabolic curve",
+      "hyperbolic curve",
+      "elliptical"
+    ],
+    "correct": 0,
+    "explain": "Since $\tau \\propto du/dy$, the relationship is linear and passes through the origin."
+  },
+  {
+    "q": "190. A flow in which the viscosity of fluid is dominating over the inertia force is called ............",
+    "options": [
+      "steady flow",
+      "unsteady flow",
+      "laminar flow",
+      "turbulent flow"
+    ],
+    "correct": 2,
+    "explain": "Laminar flow occurs at low velocities where viscous forces are strong enough to keep fluid particles in smooth layers."
+  },
+  {
+    "q": "191. A flow in which ............ force is dominating over the viscosity is called turbulent flow.",
+    "options": [
+      "elastic",
+      "surface tension",
+      "viscous",
+      "inertia"
+    ],
+    "correct": 3,
+    "explain": "Turbulent flow is characterized by high inertia forces that overcome the damping effect of viscosity."
+  },
+  {
+    "q": "192. The velocity at which the flow changes from laminar flow to turbulent flow is called ............",
+    "options": [
+      "critical velocity",
+      "velocity of approach",
+      "sub-sonic velocity",
+      "super-sonic velocity"
+    ],
+    "correct": 0,
+    "explain": "The critical velocity is the threshold where the flow regime transitions between laminar and turbulent."
+  },
+  {
+    "q": "193. Which of the following is an example of laminar flow?",
+    "options": [
+      "Underground flow",
+      "Flow past tiny bodies",
+      "Flow of oil in measuring instruments",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "All these cases involve low velocities or high viscosities where the Reynolds number remains very low."
+  },
+  {
+    "q": "194. The velocity at which the laminar flow stops, is known as ............",
+    "options": [
+      "velocity of approach",
+      "lower critical velocity",
+      "higher critical velocity",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The lower critical velocity is the speed below which any flow will eventually become laminar."
+  },
+  {
+    "q": "195. Reynold's number is the ratio of the inertia force to the ............",
+    "options": [
+      "surface tension force",
+      "viscous force",
+      "gravity force",
+      "elastic force"
+    ],
+    "correct": 1,
+    "explain": "$Re = \text{Inertia Force} / \text{Viscous Force} = \rho v D / \\mu$."
+  },
+  {
+    "q": "196. The flow in a pipe is turbulent when Reynold number is ............",
+    "options": [
+      "less than 2000",
+      "between 2000 and 2800",
+      "more than 2800",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In pipe flow, $Re > 2800$ (or often cited as 4000 in some texts) is generally considered turbulent."
+  },
+  {
+    "q": "197. The flow in a pipe is neither laminar nor turbulent when Reynold number is ............",
+    "options": [
+      "less than 2000",
+      "between 2000 and 2800",
+      "more than 2800",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "This range is known as the 'transition zone' where the flow is unstable."
+  },
+  {
+    "q": "198. The velocity corresponding to Reynold number of 2000 is called ............",
+    "options": [
+      "sub-sonic velocity",
+      "super-sonic velocity",
+      "lower critical velocity",
+      "higher critical velocity"
+    ],
+    "correct": 2,
+    "explain": "The lower critical velocity in pipes typically corresponds to a Reynolds number of around 2000."
+  },
+  {
+    "q": "199. The velocity corresponding to Reynold number of 2800, is called ............",
+    "options": [
+      "sub-sonic velocity",
+      "super-sonic velocity",
+      "lower critical velocity",
+      "higher critical velocity"
+    ],
+    "correct": 3,
+    "explain": "The upper or higher critical velocity corresponds to the Reynolds number where the flow becomes fully turbulent."
+  },
+  {
+    "q": "200. The loss of head due to viscosity for laminar flow in pipes is ............",
+    "options": [
+      "4μvl / wd^2",
+      "8μvl / wd^2",
+      "16μvl / wd^2",
+      "32μvl / wd^2"
+    ],
+    "correct": 3,
+    "explain": "From the Hagen-Poiseuille equation, $h_f = 32 \\mu v L / \\gamma D^2$."
+  }
+]

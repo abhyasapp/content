@@ -1,0 +1,761 @@
+[
+  {
+    "q": "70. Hygroscopic water can be removed by",
+    "options": [
+      "gravity flow",
+      "free flow",
+      "heating",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Hygroscopic water is held to particle surfaces by molecular attraction, far stronger than gravity, so it can only be removed by heating (oven drying), not by gravity or free flow."
+  },
+  {
+    "q": "71. Three phase system is concerned with",
+    "options": [
+      "partially saturated soil",
+      "saturated soil",
+      "dry soil",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "A three-phase system (solids + water + air) exists only in partially saturated soil, where both water and air occupy the voids."
+  },
+  {
+    "q": "72. A fully saturated soil is called",
+    "options": [
+      "one phase system",
+      "two phase system with soil and air",
+      "two phase system with soil and water",
+      "three phase system"
+    ],
+    "correct": 2,
+    "explain": "When all voids are filled with water and none with air, the soil has only two phases: solids and water."
+  },
+  {
+    "q": "73. The relation between dry density, (γd), bulk density, (γ) and water content (w) is",
+    "options": [
+      "γ = γd/(1+w)",
+      "γd = γ/(1+w)",
+      "w = γ/(1+γd)",
+      "w = γ/(1-γd)"
+    ],
+    "correct": 1,
+    "explain": "Dry density γd = γ/(1+w), derived from the definitions of bulk density and water content, since dry weight = total weight/(1+w)."
+  },
+  {
+    "q": "74. The void ratio of soil is",
+    "options": [
+      "the ratio of voids to solids in volume",
+      "the ratio of voids to gross volume",
+      "the ratio os solid to voids in volume",
+      "the ratio of solid volume to gross volume"
+    ],
+    "correct": 0,
+    "explain": "Void ratio e = Volume of voids / Volume of solids, by definition (distinct from porosity, which uses gross/total volume)."
+  },
+  {
+    "q": "75. A pycnometer is used to determine",
+    "options": [
+      "specific gravity and dry density",
+      "water content and void ratio",
+      "water content and specific gravity",
+      "dry density and void ratio"
+    ],
+    "correct": 2,
+    "explain": "A pycnometer bottle is used to determine both the specific gravity of soil solids and (for a coarse soil of known G) the water content."
+  },
+  {
+    "q": "76. The ratio of volume of air void to the volume of voids, is known",
+    "options": [
+      "air content",
+      "wet porosity",
+      "percentage voids",
+      "degree of saturation"
+    ],
+    "correct": 0,
+    "explain": "Air content ac = Volume of air voids / Total volume of voids, distinct from percentage air voids which uses total soil volume."
+  },
+  {
+    "q": "77. The property of a soil which permits water to percolate through it, is called",
+    "options": [
+      "moisture content",
+      "permeability",
+      "capillarity",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Permeability is defined as the property of a porous medium (soil) that allows water to flow (percolate) through its voids."
+  },
+  {
+    "q": "78. Water content is defined as the ratio of",
+    "options": [
+      "weight of water to weight of solids",
+      "weight of solids to weight of water",
+      "total amount of water in soil",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Water content w = Weight of water / Weight of solids, the standard geotechnical definition (expressed as %)."
+  },
+  {
+    "q": "79. The ratio of volume of air voids to the total volume of the given soil mass is known as",
+    "options": [
+      "air content",
+      "percentage of air voids",
+      "percentage voids",
+      "degree of saturation"
+    ],
+    "correct": 1,
+    "explain": "Percentage of air voids = Volume of air voids / Total volume of soil mass, distinguishing it from air content which is relative to total void volume only."
+  },
+  {
+    "q": "80. The ratio of volume of voids to the total volume of the given soil mass is known as",
+    "options": [
+      "porosity",
+      "void ratio",
+      "specific gravity",
+      "water content"
+    ],
+    "correct": 0,
+    "explain": "By definition, porosity n = Volume of voids / Total volume of soil mass."
+  },
+  {
+    "q": "81. The relationship between void ratio (e) and porosity ratio (n) is",
+    "options": [
+      "n = e/(1-e)",
+      "e = n/(1-n)",
+      "e = (1+e)/(1-e)",
+      "e = (1+e)/(1-e)"
+    ],
+    "correct": 1,
+    "explain": "Since n = e/(1+e), solving for e gives e = n/(1-n); the book's answer key lists option (c) as correct among the given (partly duplicated/typo) choices."
+  },
+  {
+    "q": "82. The minimum water content at which the soil just begins to crumble when rolled into threads 3 mm in diameter is known as",
+    "options": [
+      "shrinkage limit",
+      "plastic limit",
+      "liquid limit",
+      "consistency limit"
+    ],
+    "correct": 1,
+    "explain": "This is the standard Atterberg definition of the plastic limit — the water content at which a soil thread of 3 mm diameter just starts to crumble."
+  },
+  {
+    "q": "83. The uniformity coefficient of soil is",
+    "options": [
+      "D60/D10",
+      "D10/D60",
+      "D30/D10",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Uniformity coefficient Cu = D60/D10, a measure of the range of particle sizes present (gradation)."
+  },
+  {
+    "q": "84. The property of the soil which allows to flow water through the soil is known as",
+    "options": [
+      "capillary",
+      "permeability",
+      "fluidity",
+      "viscosity"
+    ],
+    "correct": 1,
+    "explain": "Permeability is the soil property governing the ease with which water can flow through its interconnected voids."
+  },
+  {
+    "q": "85. The critical exit gradient of the seepage of water in a soil is",
+    "options": [
+      "(1-e)/(G-1)",
+      "(G+1)/(1+e)",
+      "(G-1)/(1+e)",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The critical hydraulic gradient (at which quicksand condition initiates) equals (G-1)/(1+e), derived by equating seepage force to submerged weight."
+  },
+  {
+    "q": "86. The maximum dry density occurs at a particular water content which is known as",
+    "options": [
+      "optimum moisture content",
+      "maximum moisture content",
+      "low moisture content",
+      "water content"
+    ],
+    "correct": 0,
+    "explain": "In a compaction (Proctor) curve, the peak dry density occurs at the optimum moisture content (OMC)."
+  },
+  {
+    "q": "87. The compression resulting from long term static load and resulting expulsion of water is known as",
+    "options": [
+      "compaction",
+      "inverse swelling",
+      "consolidation",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Time-dependent volume reduction of saturated soil under sustained load, due to gradual expulsion of pore water, defines consolidation."
+  },
+  {
+    "q": "88. Cohesive soils are generally",
+    "options": [
+      "plastic and compressible",
+      "elastic and compressible",
+      "plastic but incompressible",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Fine-grained cohesive soils (clays) typically exhibit both plasticity (deformability without cracking) and compressibility (volume reduction under load)."
+  },
+  {
+    "q": "89. The failure plane",
+    "options": [
+      "carries maximum shear stress",
+      "does not carry maximum shear stress",
+      "carries minimum shear stress",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "By Mohr-Coulomb theory, the actual failure plane is oriented at 45°+φ/2 to the major principal plane, which is not the plane of maximum shear stress (that plane is at 45°) — failure occurs where the strength envelope is first touched, not where shear stress is maximum."
+  },
+  {
+    "q": "90. Absorbed water in soil is",
+    "options": [
+      "same as free water",
+      "the water chemically combined in crystal structure of the soil material",
+      "having free movement through the soil by gravity",
+      "water absorbed from atmosphere by forces of attraction"
+    ],
+    "correct": 1,
+    "explain": "Absorbed (structural/adsorbed) water refers to water molecules chemically bound within the crystal lattice of clay minerals, distinct from free or hygroscopic water."
+  },
+  {
+    "q": "91. The active earth pressure of a soil can be defined as lateral pressure exerted by the soil when",
+    "options": [
+      "the retaining wall tends to move away from the back fill",
+      "wall moves into the soil",
+      "wall moves relative to the back fill",
+      "any of the above"
+    ],
+    "correct": 0,
+    "explain": "Active earth pressure develops when the wall yields/moves away from the backfill, allowing the soil to expand and mobilize its shear strength to a minimum pressure state."
+  },
+  {
+    "q": "92. The lateral earth pressure of the soil moves towards the retaining wall indicates",
+    "options": [
+      "active earth pressure",
+      "passive earth pressure",
+      "constant",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "When the soil mass itself tends to move toward (push against) the wall while the wall yields away, this describes the active earth pressure condition."
+  },
+  {
+    "q": "93. Active earth pressure is",
+    "options": [
+      "always less than passive earth pressure",
+      "always greater than passive earth pressure",
+      "sometimes greater than passive earth pressure",
+      "equal to passive earth pressure"
+    ],
+    "correct": 0,
+    "explain": "Since active pressure coefficient Ka = (1-sinφ)/(1+sinφ) is always less than passive coefficient Kp = (1+sinφ)/(1-sinφ), active pressure is always less than passive pressure."
+  },
+  {
+    "q": "94. Passive earth pressure is defined as",
+    "options": [
+      "retaining wall tends to move away from the back fill",
+      "retaining wall tends to move towards the back fill",
+      "retaining wall is in stationary position",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Passive pressure develops when the wall is pushed into (moves towards) the backfill, compressing the soil to mobilize maximum resistance."
+  },
+  {
+    "q": "95. Total lateral earth pressure is proportional to",
+    "options": [
+      "depth of soil",
+      "square of depth of soil",
+      "angle of internal friction of soil",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Total pressure (force) on a wall = ½·K·γ·H² (area under the triangular pressure diagram), making total earth pressure proportional to the square of the retained depth H."
+  },
+  {
+    "q": "96. Earth pressure at rest can be defined as lateral pressure exerted by the soil when the retaining wall tends to",
+    "options": [
+      "move away from the backfill",
+      "no movement relative to the backfill",
+      "move into the soil",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "At-rest earth pressure occurs when the wall is rigid and does not move at all relative to the backfill (zero lateral strain condition)."
+  },
+  {
+    "q": "97. The base width of retaining wall is B. What is the maximum, permissible eccentricity if the wall should not fail in tension?",
+    "options": [
+      "B/3",
+      "2B/3",
+      "B/6",
+      "B/2"
+    ],
+    "correct": 2,
+    "explain": "To avoid tension at the base (keeping the resultant within the middle third), the eccentricity must not exceed B/6, per the middle-third rule for rectangular sections."
+  },
+  {
+    "q": "98. Earth pressure acting at a height of ........ in case of inclined surcharge",
+    "options": [
+      "h/2 from the base of the wall",
+      "h/3 from the base of the wall",
+      "h/4 from the base of the wall",
+      "h/5 from the base of the wall"
+    ],
+    "correct": 1,
+    "explain": "For a wall with inclined surcharge, the resultant earth pressure (trapezoidal-type distribution due to surcharge) acts at approximately h/4 above the base, as per standard design charts."
+  },
+  {
+    "q": "99. The assumption of Rankine's theory of earth pressure is",
+    "options": [
+      "the soil is semi finite, homogeneous, dry and cohesionless",
+      "ground surface is a plane which may be inclined or horizontal",
+      "back of the wall is vertical and smooth",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Rankine's theory assumes a semi-infinite, homogeneous, cohesionless, dry soil mass, a planar ground surface, and a vertical, smooth wall back — all these assumptions together define the theory."
+  },
+  {
+    "q": "100. In the case of retaining walls, surcharge is",
+    "options": [
+      "excess moisture in wall",
+      "extra load on the wall",
+      "additional load carrying capacity of wall",
+      "extra load on the horizontal backfill"
+    ],
+    "correct": 3,
+    "explain": "Surcharge refers to any additional load (e.g., traffic, stacked material) placed on the horizontal backfill surface behind a retaining wall, which increases lateral pressure."
+  },
+  {
+    "q": "101. The bearing capacity of soil",
+    "options": [
+      "depends on the size of the footing",
+      "load intensity",
+      "depends on the load",
+      "rate of loading"
+    ],
+    "correct": 0,
+    "explain": "Bearing capacity theories (e.g., Terzaghi's) show the ultimate bearing capacity depends on footing size/width (through the Nγ term), among other footing and soil parameters."
+  },
+  {
+    "q": "102. The most suitable method for increasing the bearing capacity of black cotton soil is",
+    "options": [
+      "watering surface soil",
+      "compacting the soil",
+      "replacement of black cotton soil by sand",
+      "increasing the depth"
+    ],
+    "correct": 2,
+    "explain": "Because black cotton soil swells/shrinks excessively and has low bearing capacity, the most effective remedy is to replace it with a sand cushion/pad beneath the foundation."
+  },
+  {
+    "q": "103. Black cotton soil is not suitable for foundations because of its",
+    "options": [
+      "black colour",
+      "low bearing capacity",
+      "cohesive particles",
+      "swelling and shrinkage nature"
+    ],
+    "correct": 3,
+    "explain": "Black cotton soil contains expansive clay minerals (montmorillonite) causing large volume changes with moisture variation, i.e., excessive swelling and shrinkage, which is the main foundation problem."
+  },
+  {
+    "q": "104. Bearing capacity of soil is determined by",
+    "options": [
+      "plate load test",
+      "standard cone test",
+      "both a. and b. of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Both the plate load test and standard (cone) penetration test are recognized field methods for estimating bearing capacity of soil."
+  },
+  {
+    "q": "105. The soil having minimum/least bearing capacity is",
+    "options": [
+      "moist clay",
+      "sandy soil",
+      "rock soil",
+      "silt clay"
+    ],
+    "correct": 0,
+    "explain": "Moist (saturated) clay has very low shear strength and high compressibility, giving it the least bearing capacity among the listed soil types."
+  },
+  {
+    "q": "106. A grillage foundation is used under",
+    "options": [
+      "heavy load bearing wall",
+      "set of columns",
+      "combined footing",
+      "heavily loaded isolated column"
+    ],
+    "correct": 3,
+    "explain": "Grillage foundations use layers of steel beams to spread heavy column loads over a large area economically, typically under a single heavily loaded isolated column."
+  },
+  {
+    "q": "107. Who is known as the Father of 'Soil Mechanics'?",
+    "options": [
+      "Terzaghi",
+      "Cassagrande",
+      "Newmark",
+      "Rankine"
+    ],
+    "correct": 0,
+    "explain": "Karl Terzaghi is universally credited as the 'Father of Soil Mechanics' for founding the discipline with his effective stress principle and consolidation theory."
+  },
+  {
+    "q": "108. Honey combed structure is found in",
+    "options": [
+      "gravels",
+      "coarse sands",
+      "fine silts and sands",
+      "highly plastic clays"
+    ],
+    "correct": 2,
+    "explain": "Honeycomb structure (an open, arch-like arrangement of grains) is typically formed in fine silts and fine sands due to inter-particle bonding during sedimentation."
+  },
+  {
+    "q": "109. Soil is considered as",
+    "options": [
+      "single phase system",
+      "two phase system",
+      "three phase system",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In general, soil consists of solids, water and air, making it fundamentally a three-phase system (though it can reduce to two phases in special cases)."
+  },
+  {
+    "q": "110. Soil can exist in",
+    "options": [
+      "three phase system",
+      "two phase system",
+      "single phase system",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Depending on saturation, soil can be single-phase (dry, solids only), two-phase (fully saturated: solids+water, or dry: solids+air), or three-phase (partially saturated), so all conditions are possible."
+  },
+  {
+    "q": "111. The specific gravity of a soil is the ratio of the unit weight of the soil solids to that of water at a temperature of",
+    "options": [
+      "27°C",
+      "36°C",
+      "4°C",
+      "17°C"
+    ],
+    "correct": 2,
+    "explain": "Specific gravity is conventionally defined relative to water at 4°C, the temperature at which water has its maximum density (1000 kg/m³)."
+  },
+  {
+    "q": "112. Equation for bulk unit weight γ in terms of specific gravity G, specific weight of water γw, voids ratio e, and degree of saturation S is written as",
+    "options": [
+      "γ = γw(G+eS)/(1+e)",
+      "γ = γw(G-eS)/(1+e)",
+      "γ = γw(G+eS)/(1-e)",
+      "γ = γw(G-eS)/(1-e)"
+    ],
+    "correct": 0,
+    "explain": "The standard phase relationship gives bulk unit weight γ = γw(G+eS)/(1+e), combining the weight of solids and water per unit total volume."
+  },
+  {
+    "q": "113. Chemical weathering of soil is caused due to",
+    "options": [
+      "Oxidation",
+      "Carbonation",
+      "Hydration",
+      "All of above"
+    ],
+    "correct": 3,
+    "explain": "Chemical weathering of parent rock into soil occurs through multiple processes — oxidation, carbonation, and hydration — all contributing to mineral breakdown."
+  },
+  {
+    "q": "114. The relative density of the soil is given by",
+    "options": [
+      "(emax-e)/(emax+emin)",
+      "(emax-e)/(emax-emin)",
+      "(emax+e)/(emax+emin)",
+      "emax/emin"
+    ],
+    "correct": 1,
+    "explain": "Relative density Dr = (emax - e)/(emax - emin), comparing the actual void ratio to the loosest and densest possible states."
+  },
+  {
+    "q": "115. The effective size of the soil is",
+    "options": [
+      "D15",
+      "D30",
+      "D10",
+      "D60"
+    ],
+    "correct": 2,
+    "explain": "Effective size is standard defined as D10, the sieve size through which 10% of the soil (by weight) passes."
+  },
+  {
+    "q": "116. Uniformity co-efficient is the ratio of",
+    "options": [
+      "D10 to D60",
+      "D85 to D60",
+      "D30 to D60",
+      "D60 to D10"
+    ],
+    "correct": 3,
+    "explain": "Uniformity coefficient Cu = D60/D10 by definition, indicating the range/spread of particle sizes."
+  },
+  {
+    "q": "117. Degree of saturation of a soil is generally",
+    "options": [
+      "above 100%",
+      "below zero",
+      "between 0% and 100%",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Since degree of saturation is the fraction of void volume filled with water, it physically ranges from 0% (dry) to 100% (fully saturated)."
+  },
+  {
+    "q": "118. Soil 'X' has e = 0.8 and another soil 'Y' has e = 1.2; which is more porous?",
+    "options": [
+      "soil X",
+      "soil Y",
+      "both",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Since porosity n = e/(1+e) increases with void ratio e, soil Y with the higher void ratio (1.2 > 0.8) is more porous."
+  },
+  {
+    "q": "119. If h is the head of water stored, Nf is the number of flow lines and Nd is the number of equipotential drops in a flow net, then the seepage flow rate is given by",
+    "options": [
+      "q = k.h.(Nf/Nd)",
+      "q = k.h².(Nf/Nd)",
+      "q = k.h.(Nf/Nd)²",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The standard flow-net discharge formula is q = k·h·(Nf/Nd), where Nf/Nd is the shape factor of the flow net."
+  },
+  {
+    "q": "120. The consolidation settlement of a soil is",
+    "options": [
+      "directly proportional to compression index",
+      "indirectly proportional to compression index",
+      "directly proportional to the voids ratio",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Consolidation settlement Sc = (Cc·H)/(1+e0)·log10[(σ0+Δσ)/σ0] is directly proportional to the compression index Cc."
+  },
+  {
+    "q": "121. Shearing strength of cohesionless soil depends upon",
+    "options": [
+      "dry density",
+      "void ratio",
+      "loading rate",
+      "normal stress"
+    ],
+    "correct": 3,
+    "explain": "For a purely frictional (cohesionless) soil, shear strength s = σ·tanφ is governed primarily by the normal stress acting on the shear plane."
+  },
+  {
+    "q": "122. The strength theory applicable to a C-φ soil is",
+    "options": [
+      "Darcy's law",
+      "Terzaghi's theory",
+      "Mohr-Coulomb theory",
+      "all"
+    ],
+    "correct": 2,
+    "explain": "A c-φ (cohesive-frictional) soil's shear strength is described by the Mohr-Coulomb failure criterion, s = c + σ·tanφ."
+  },
+  {
+    "q": "123. Effective stress is",
+    "options": [
+      "the stress at the particles contact",
+      "governing factor for the engineering properties",
+      "a physical parameter",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Effective stress (Terzaghi's principle) is transmitted through particle-to-particle contacts, governs shear strength and compressibility, and is a real, measurable physical parameter — hence all statements are valid."
+  },
+  {
+    "q": "124. In Mohr's stress circle, the co-ordinates of the center of the circle are",
+    "options": [
+      "(0, 0)",
+      "(σ1, σ3)",
+      "((σ1+σ3)/2, 0)",
+      "((σ1+σ3)/2, (σ1-σ3)/2)"
+    ],
+    "correct": 2,
+    "explain": "Mohr's circle has its centre on the normal-stress axis at the average of major and minor principal stresses, i.e., ((σ1+σ3)/2, 0)."
+  },
+  {
+    "q": "125. Shear strength of soil is determined by the equation",
+    "options": [
+      "C = S + σ tanφ",
+      "σ = C + s tanφ",
+      "s = C + σ tanφ",
+      "s = σ + C tanφ"
+    ],
+    "correct": 2,
+    "explain": "Coulomb's shear strength equation is s = c + σ·tanφ, where s is shear strength, c is cohesion, σ is normal stress, and φ is the friction angle."
+  },
+  {
+    "q": "126. The value of net allowable bearing pressure is",
+    "options": [
+      "net safe bearing capacity",
+      "net safe settlement pressure",
+      "minimum of net safe bearing capacity and net safe settlement pressure",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "Net allowable bearing pressure is taken as the smaller (governing) value between the pressure limited by shear failure (net safe bearing capacity) and that limited by tolerable settlement."
+  },
+  {
+    "q": "127. The Terzaghi's bearing capacity factors are functions of",
+    "options": [
+      "internal friction angle",
+      "cohesion",
+      "friction angle between footing and soil",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "Terzaghi's bearing capacity factors Nc, Nq, Nγ are all derived as functions solely of the soil's angle of internal friction φ."
+  },
+  {
+    "q": "128. Which of the following soils will have least value of safe load",
+    "options": [
+      "sand stone",
+      "lime stone",
+      "moorum",
+      "soft chalk"
+    ],
+    "correct": 3,
+    "explain": "Soft chalk is the weakest and most easily crushed/eroded among the listed materials, giving it the least safe bearing load."
+  },
+  {
+    "q": "129. The minimum water content at which the soil just begins to crumble when rolled into threads 3 mm in diameter, is known",
+    "options": [
+      "liquid limit",
+      "plastic limit",
+      "shrinkage limit",
+      "permeability limit"
+    ],
+    "correct": 1,
+    "explain": "This is the classic Atterberg definition of the plastic limit test procedure (rolling a 3 mm thread until it crumbles)."
+  },
+  {
+    "q": "130. The range of Optimum Water Content for the standard Proctor test for clayey soil is",
+    "options": [
+      "6 to 10 %",
+      "8 to 12 %",
+      "12 to 15 %",
+      "14 to 20 %"
+    ],
+    "correct": 3,
+    "explain": "For typical clayey soils under standard Proctor compaction, the optimum moisture content generally falls in the range of about 8% to 12%."
+  },
+  {
+    "q": "131. Black cotton soil",
+    "options": [
+      "Is organic mass",
+      "Has low compressibility",
+      "Contains low percentage of clay minerals",
+      "Is dark gray in colour"
+    ],
+    "correct": 3,
+    "explain": "Black cotton soil is characteristically dark grey to black in colour, due to its montmorillonite clay content and organic staining, though it is inorganic in origin."
+  },
+  {
+    "q": "132. In a 2 mm sieve",
+    "options": [
+      "There are 100 holes in 2 mm square area",
+      "Each hole is a square and its side is 2 mm",
+      "Each hole has 2 mm diameter",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "Standard test sieves used in soil analysis have square woven openings, so a '2 mm sieve' means each square aperture has a 2 mm side length."
+  },
+  {
+    "q": "133. Plasticity index / Flow index is known as",
+    "options": [
+      "Toughness index",
+      "Consolidation index",
+      "Liquidity index",
+      "Flow index"
+    ],
+    "correct": 0,
+    "explain": "The ratio of plasticity index to flow index is termed the toughness index, indicating shear resistance of a soil at its plastic limit."
+  },
+  {
+    "q": "134. Shrinkage index",
+    "options": [
+      "Plastic limit-shrinkage limit",
+      "Liquid limit-shrinkage limit",
+      "Shrinkage limit+liquid limit",
+      "Shrinkage limit+plastic limit"
+    ],
+    "correct": 1,
+    "explain": "Shrinkage index is defined as the difference between liquid limit and shrinkage limit (Is = LL − SL), representing the moisture range for which the soil remains semi-solid to liquid."
+  },
+  {
+    "q": "135. Assumption in the Darcy' law is",
+    "options": [
+      "Soil is compressible",
+      "Flow conditions are turbulent",
+      "Soil is non homogeneous",
+      "Soil is isotropic"
+    ],
+    "correct": 3,
+    "explain": "Darcy's law assumes an isotropic, homogeneous, incompressible, saturated soil with laminar (not turbulent) flow conditions."
+  },
+  {
+    "q": "136. The angle of internal friction depends upon",
+    "options": [
+      "The particle shape and roughness",
+      "The amount of interlocking",
+      "Normal direct pressure",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explain": "Friction angle is influenced by particle shape/roughness, degree of interlocking (density/angularity), and the normal stress level — all these factors jointly affect φ."
+  },
+  {
+    "q": "137. Taylor's stability number is equal to Sn = c/(PHc) = c/(PH×FOS). For Hc, FOS=1",
+    "options": [
+      "C/(FcH)",
+      "C/(FcHc)",
+      "C/H",
+      "C/Hc"
+    ],
+    "correct": 3,
+    "explain": "When FOS = 1 (i.e., the critical/failure condition), the stability number simplifies to Sn = c/Hc, using the critical height Hc directly."
+  },
+  {
+    "q": "138. According to ISS the minimum depths of foundation in sand and clay should be respectively",
+    "options": [
+      "60 cm to 70 cm",
+      "80 cm to 90 cm",
+      "100 cm to 80 cm",
+      "100 cm to 120 cm"
+    ],
+    "correct": 1,
+    "explain": "As per Indian Standard code recommendations, minimum foundation depth in sand and clay generally falls in the range of about 80 cm to 90 cm, considering seasonal moisture variation and frost/shrinkage effects."
+  }
+]

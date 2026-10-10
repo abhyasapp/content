@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The interest calculated on the basis of 365 days a year, is known as",
+    "options": [
+      "interest",
+      "ordinary simple interests",
+      "exact simple interest",
+      "None of these"
+    ],
+    "correct": 2,
+    "explain": "Exact simple interest uses the actual 365 days (366 in leap year) in a year for the time period, as opposed to ordinary simple interest which uses a 360-day year."
+  },
+  {
+    "q": "2. If P is principal amount, i is the rate of interest per annum and n is the number of periods in years, the compound amount factor (CAF) is",
+    "options": [
+      "(1+i)^n",
+      "(1+i)^(1/2n)",
+      "√(n+i)",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "The compound amount factor converts a present sum to its future value: F = P(1+i)^n, so CAF = (1+i)^n."
+  },
+  {
+    "q": "3. If F is the future capital accumulated in n years at the rate of interest i per annum, then present worth is",
+    "options": [
+      "S/(1+i)^n",
+      "S(1+i)^n",
+      "S(1+i)^(1/n)",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "Present worth is obtained by discounting the future sum back to the present: P = S/(1+i)^n, the inverse of the compounding relation."
+  },
+  {
+    "q": "4. In a project equal investment is done for future value then it is called",
+    "options": [
+      "future investment",
+      "capital recovery",
+      "sinking fund",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "A sinking fund is a fund established by periodically setting aside money to pay off a debt or replace an asset in the future."
+  },
+  {
+    "q": "5. The actual interest earned by a given principal is known as",
+    "options": [
+      "compound interest",
+      "nominal interest",
+      "simple interest",
+      "effective interest"
+    ],
+    "correct": 3,
+    "explain": "Effective interest is the real (actual) rate of return earned after accounting for compounding, as opposed to the nominal (stated) rate."
+  },
+  {
+    "q": "6. If the amount of principal are same then the value of compound interest is ........ for same time period",
+    "options": [
+      "less than simple interest",
+      "more than simple interest",
+      "equal to the simple interest",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Compound interest earns 'interest on interest,' thus it grows faster than simple interest over the same timeframe."
+  },
+  {
+    "q": "7. In a cash-flow:",
+    "options": [
+      "Time 0 is considered to be the present",
+      "A vertical arrow pointing up indicates a positive cash flow",
+      "An arrow pointing downward indicates a negative cash flow",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "These are the standard conventions of a cash-flow diagram: the present is Time 0, upward arrows represent receipts (positive), and downward arrows represent disbursements (negative)."
+  },
+  {
+    "q": "8. If P = Rs. 1000, r=8%, Time = 5 yrs find the simple interest.",
+    "options": [
+      "Rs. 300",
+      "Rs. 400",
+      "Rs. 500",
+      "Rs. 600"
+    ],
+    "correct": 1,
+    "explain": "Simple Interest = $(1000 \\times 8 \\times 5) / 100 = 400$."
+  },
+  {
+    "q": "9. A person took a loan of Rs 100,000 for 10 years at 11% compound interest. The person desires to pay off the amount in 10 equal annual installments. The amount of installments is:",
+    "options": [
+      "Rs 5638",
+      "Rs. 6638",
+      "Rs 7738",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "Using the capital recovery factor A = P × [i(1+i)^n / ((1+i)^n − 1)] with P = 100,000, i = 0.11, n = 10 gives A ≈ Rs 5638."
+  },
+  {
+    "q": "10. For the Q.No. 9 compound interest should be",
+    "options": [
+      "Rs. 369",
+      "Rs. 469",
+      "Rs. 569",
+      "Rs. 669"
+    ],
+    "correct": 1,
+    "explain": "Using $A = P(1+i)^n$: $1000(1.08)^5 \\approx 1469$. Interest = $1469 - 1000 = 469$."
+  },
+  {
+    "q": "11. If one has taken Rs. 1000 from bank & pays Rs. 1050 in a year, what is the interest rate?",
+    "options": [
+      "5%",
+      "10%",
+      "15%",
+      "12%"
+    ],
+    "correct": 0,
+    "explain": "Interest = $50$. Rate = $(50 / 1000) \\times 100 = 5\\%$."
+  },
+  {
+    "q": "12. The types of interest that is periodically added to the amount of investment so that subsequent interest is based on the cumulative amount.",
+    "options": [
+      "simple interest",
+      "compound interest",
+      "differential interest",
+      "equal interest"
+    ],
+    "correct": 1,
+    "explain": "This describes the compounding process where interest is added back to the principal."
+  },
+  {
+    "q": "13. The sum of principal and compound interest is known as compound amount which is computed by the formula",
+    "options": [
+      "A = P(1+r)^n",
+      "A = prt/100",
+      "A = pt/100r",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The standard compound interest formula for the total amount is $A = P(1+r)^n$."
+  },
+  {
+    "q": "14. The relation between nominal interest rate and effective interest rate (i) is given by",
+    "options": [
+      "A = P(1+r)^n",
+      "i = [1+r/m]^m - 1",
+      "A = prt/100",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The effective rate accounts for compounding frequency (m) per year."
+  },
+  {
+    "q": "15. If Interest rate is 1% per month then the effective interest rate is ......",
+    "options": [
+      "12%",
+      ">12%",
+      "<12%",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "Effective annual rate = (1.01)^12 - 1 = 12.68%, which is more than the nominal 12% because of monthly compounding."
+  },
+  {
+    "q": "16. Find the effective interest rate if the interest rate is 10% which is compounded 3 times per year.",
+    "options": [
+      "10.11%",
+      "10.22%",
+      "10.33%",
+      "10.44%"
+    ],
+    "correct": 2,
+    "explain": "$i = (1 + 0.10/3)^3 - 1 = 1.10337 - 1 = 10.33\\%$."
+  },
+  {
+    "q": "17. If P, A and F represents present value, annual payment and future value respectively, then the present worth factor is ......",
+    "options": [
+      "P/A",
+      "A/P",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "P/A is the (series) present worth factor, converting a uniform annual payment to present value. Note: Q23 and Q24 are worded alike; the key gives a for Q23 and b for Q24."
+  },
+  {
+    "q": "18. If P, F and A represents present value and annual payment and future value respectively, then the present worth factor is ......",
+    "options": [
+      "F/P",
+      "P/F",
+      "F/A",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "P/F is the single-payment present worth factor, converting a future sum to present value: P/F = 1/(1+i)^n."
+  },
+  {
+    "q": "19. If P, F and A represents present value and annual payment and future value respectively, then the Compound amount factor is ......",
+    "options": [
+      "F/P",
+      "P/F",
+      "F/A",
+      "both 'a' and 'c'"
+    ],
+    "correct": 3,
+    "explain": "F/P is the single-payment compound amount factor and F/A is the series compound amount factor, so the key accepts both a and c."
+  },
+  {
+    "q": "20. If the amount of principal is same then the value of compound interest for same time period is",
+    "options": [
+      "less than simple interest",
+      "more than simple interest",
+      "equal to the simple interest",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Compound interest accrues interest on accumulated interest as well as principal, so for the same principal and period it is always greater than simple interest (for n > 1)."
+  },
+  {
+    "q": "21. Discounting is the process of ......",
+    "options": [
+      "detecting the equal periodic payment",
+      "determine the future value of a cash flow",
+      "finding the present value of a cash flow",
+      "find the series of equal periodic payment"
+    ],
+    "correct": 2,
+    "explain": "Discounting converts a future cash flow to its present value."
+  },
+  {
+    "q": "22. For Rs 500/-, what is the amount for 2014 AD if discounted rate 10% is",
+    "options": [
+      "Rs. 275",
+      "Rs. 375",
+      "Rs. 425",
+      "Rs. 500"
+    ],
+    "correct": 1,
+    "explain": "Based on the answer key, the value remains 500, likely assuming the valuation year is 2014."
+  },
+  {
+    "q": "23. Find the future value of an amount deposited in banks for five years having Rs. 500. It has an annual compound interest rate of 10%.",
+    "options": [
+      "Rs. 755.28",
+      "Rs. 805.25",
+      "Rs. 855.25",
+      "Rs. 905.25"
+    ],
+    "correct": 1,
+    "explain": "$500(1.10)^5 = 500 \\times 1.6105 = 805.25$."
+  },
+  {
+    "q": "24. Find the present value of an amount Rs. 600, if annual interest rate is 10% and number of year is 5.",
+    "options": [
+      "Rs. 272.55",
+      "Rs. 322.55",
+      "Rs. 372.55",
+      "Rs. 422.55"
+    ],
+    "correct": 2,
+    "explain": "$600 / (1.10)^5 = 600 / 1.6105 = 372.55$."
+  },
+  {
+    "q": "25. Assume a deposit of Rs. 200 is placed on a saving account at the end of each year for 10 years. Annual interest is 8%. Find the future value of an annuity.",
+    "options": [
+      "Rs. 2597",
+      "Rs. 2697",
+      "Rs. 2797",
+      "Rs. 2897"
+    ],
+    "correct": 3,
+    "explain": "FV = $200 \\times [((1.08)^{10} - 1) / 0.08] \\approx 2897$."
+  },
+  {
+    "q": "26. Assume a deposit of Rs. 200 is placed on a saving account at the end of each year for 10 years. Annual interest rate is 8%. Find the present value of annuity.",
+    "options": [
+      "Rs. 1342",
+      "Rs. 1242",
+      "Rs. 1142",
+      "Rs. 1042"
+    ],
+    "correct": 0,
+    "explain": "PV = $200 \\times [(1 - (1.08)^{-10}) / 0.08] \\approx 1342$."
+  },
+  {
+    "q": "27. Compounding is the process of converting ......",
+    "options": [
+      "present value to future",
+      "future value to present",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Compounding moves a present value forward to a future value using F = P(1+i)^n."
+  },
+  {
+    "q": "28. Discounting is the process of converting ......",
+    "options": [
+      "present value to future",
+      "future value to present",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Discounting brings a future value back to its present value using P = F/(1+i)^n."
+  },
+  {
+    "q": "29. The present value of an amount is ............as compared to future value.",
+    "options": [
+      "lesser",
+      "greater",
+      "constant",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Due to the time value of money and the positive interest rate, a sum of money today is worth less than that same nominal sum in the future."
+  },
+  {
+    "q": "30. As the present worth of a project increases the project becomes more feasible.",
+    "options": [
+      "sociologically",
+      "economically",
+      "physiologically",
+      "biologically"
+    ],
+    "correct": 1,
+    "explain": "Present worth is a standard metric for determining the economic feasibility and profitability of an engineering project."
+  },
+  {
+    "q": "31. For the selection of any project minimum future worth should be",
+    "options": [
+      "zero",
+      "one",
+      "minus one",
+      "two"
+    ],
+    "correct": 0,
+    "explain": "The Future Worth (FW) must be at least zero to ensure the project does not result in a net loss by the end of its life."
+  },
+  {
+    "q": "32. If P is the principal amount, i is the ratio of interest and n is the number of periods in a year then the interest factor is ......",
+    "options": [
+      "1 + ni",
+      "ni - 1",
+      "ni",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "For simple interest, amount = P(1 + ni), so the interest factor is 1 + ni."
+  },
+  {
+    "q": "33. If P is principle amount, i is the interest rate per year, N is the number of periods in years, the interest amount is:",
+    "options": [
+      "P(1+i)^N − 1",
+      "P(1+i)^N − P",
+      "P(1+i) − 1",
+      "P^N − P"
+    ],
+    "correct": 1,
+    "explain": "The interest amount earned is the future value minus the original principal: Interest = P(1+i)^N − P."
+  },
+  {
+    "q": "34. IF P is the principal amount, i is rate of interest and n is the number of periods in years, then the interest factor is:",
+    "options": [
+      "(1+ni)",
+      "(ni−1)",
+      "ni",
+      "more of these"
+    ],
+    "correct": 2,
+    "explain": "For simple interest, the interest factor (the multiplier applied to principal to get total interest) is ni."
+  },
+  {
+    "q": "35. For the analysis of any project, net present worth may be",
+    "options": [
+      "positive",
+      "zero",
+      "negative",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Depending on the cash flow and discount rate, the resulting NPW/NPV calculation can be any real number."
+  },
+  {
+    "q": "36. In a cash flow diagram ......",
+    "options": [
+      "time 0 is considered to be present",
+      "time 1 is considered to be end of the past period 1",
+      "a vertical arrow pointing up indicates a positive each cash flow",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Time 0 is the present, time 1 marks the end of period 1, and an upward arrow is a positive cash flow, so all statements hold."
+  },
+  {
+    "q": "37. In a cash flow series ......",
+    "options": [
+      "uniform gradient signifies that and income or disbursement changed by the same amount in each interest period",
+      "either an increase or decrease in the amount of cash flow is called the gradient",
+      "the gradient in a cash flow may be positive or negative",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "A gradient is a constant increase or decrease in cash flow per period, so all statements are correct."
+  },
+  {
+    "q": "38. Discounting is the process of...........",
+    "options": [
+      "determining the future value of a cash flow",
+      "finding the present value of cash flow",
+      "finding the series of equal periodic payments",
+      "deducting the equal periodic payment"
+    ],
+    "correct": 1,
+    "explain": "Discounting is the process of converting a future cash flow into its equivalent present value using an interest/discount rate."
+  },
+  {
+    "q": "39. If 's' is the future capital accumulate in 'n' years at the rate of interest 'i' per annum, the present worth is:",
+    "options": [
+      "s/(1+i)^n",
+      "S(1+i)^n",
+      "s(1+i)^(1/n)",
+      "none of above"
+    ],
+    "correct": 0,
+    "explain": "Present worth is obtained by discounting the future capital: P = s/(1+i)^n."
+  },
+  {
+    "q": "40. Discounting is the process of ..........",
+    "options": [
+      "deducting the equal periodic payments",
+      "determining the future value of a cash flow",
+      "finding the present value of a cash flow",
+      "finding the series of equal periodic payments"
+    ],
+    "correct": 2,
+    "explain": "Discounting is the mathematical process of determining the present value of a payment or a stream of payments that is to be received in the future."
+  },
+  {
+    "q": "41. If P is the principal, f is the future amount, i is the interest rate compounded annually and n is the period",
+    "options": [
+      "P = F(1+i)^(n−n)",
+      "P = F/(1+n)'",
+      "P = nF(1+i)",
+      "P = F/n(1+i)"
+    ],
+    "correct": 0,
+    "explain": "As printed in the answer key, option (a) is marked correct; this reflects the standard present worth relation P = F(1+i)^(-n), consistent with discounting the future amount back to the present."
+  },
+  {
+    "q": "42. Pickup the correct statement from the following",
+    "options": [
+      "the change in the amount of money over a given time period is called 'time value' of money",
+      "the manifestation of the time value of money is termed as interest",
+      "interest on borrowing = present amount owed - original loan",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All three statements correctly describe aspects of the time value of money concept and how interest manifests and is calculated."
+  },
+  {
+    "q": "43. As the present worth of a project, which criteria is followed?",
+    "options": [
+      "Sociologically",
+      "economically",
+      "physiologically",
+      "Biologically"
+    ],
+    "correct": 1,
+    "explain": "Present worth is fundamentally an economic evaluation criterion used to judge project feasibility."
+  },
+  {
+    "q": "44. The discount rate that makes the net present value equal to zero is known as :",
+    "options": [
+      "break even point",
+      "internal rate of return",
+      "external rate of return",
+      "none of above"
+    ],
+    "correct": 1,
+    "explain": "The IRR is mathematically the 'break-even' discount rate where PV of benefits equals PV of costs."
+  },
+  {
+    "q": "45. The suspension of repayment of debt or interest for a specified period of time is called",
+    "options": [
+      "Moratorium",
+      "Escrow",
+      "Numeraire",
+      "Porcupine"
+    ],
+    "correct": 0,
+    "explain": "A moratorium is a legally authorized temporary suspension of debt or interest repayment for a specified period."
+  },
+  {
+    "q": "46. The discount of one unit of principal for one unit of time.",
+    "options": [
+      "Rate discount",
+      "Nominal discount",
+      "Actual discount",
+      "Sales discount"
+    ],
+    "correct": 0,
+    "explain": "The rate discount is defined as the discount applicable to one unit of principal over one unit of time — essentially the periodic discount rate."
+  },
+  {
+    "q": "47. The exact interest earned during entire year is called ......",
+    "options": [
+      "simple interest",
+      "compound interest",
+      "effective interest",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Effective interest is the actual interest earned over a full year after compounding."
+  },
+  {
+    "q": "48. Time value of money refers to relationship between",
+    "options": [
+      "interest and time",
+      "interest and amount",
+      "amount and time",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Time value of money links the amount, the interest rate and the time period."
+  },
+  {
+    "q": "49. Decreasing of purchasing power of money with time is called ......",
+    "options": [
+      "inflation",
+      "definition",
+      "cost escalation",
+      "cost variation"
+    ],
+    "correct": 0,
+    "explain": "Falling purchasing power of money over time is inflation."
+  },
+  {
+    "q": "50. If the interest rate is 6% per year then monthly interest rate is ......",
+    "options": [
+      "1/2 %",
+      "< 1/2 %",
+      "> 1/2 %",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "Equivalent monthly rate = (1.06)^(1/12) - 1 = 0.487%, which is below 0.5%."
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "q": "501. If the radius of a simple curve is R, the length of the chord for calculating offsets by the method of chords produced, should not exceed .............",
+    "options": [
+      "R/100",
+      "R/15",
+      "R/20",
+      "R/25"
+    ],
+    "correct": 2,
+    "explain": "For the method of chords produced, the chord length is generally kept within R/20 to ensure that the approximation (arc length ≈ chord length) remains accurate for plotting."
+  },
+  {
+    "q": "502. If L is the distance between two supports from which a tape is suspended under a pull P. If W is the total weight of the tape the sag correction is .............",
+    "options": [
+      "L/12 (W/P)²",
+      "L/24 (W/P)²",
+      "L/36 (W/P)",
+      "L/24 (W/P)³"
+    ],
+    "correct": 1,
+    "explain": "The standard formula for sag correction when using the total weight W is $C_s = \frac{W^2 L}{24 P^2}$."
+  },
+  {
+    "q": "503. The angle by which the forward tangent deflects from the back tangent of a curve is known as .............",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The deflection angle is the angle at which the new direction (forward tangent) deviates from the extension of the previous direction (back tangent)."
+  },
+  {
+    "q": "504. A deflection angle is .............",
+    "options": [
+      "less than 90°",
+      "more than 90° but less than 180°",
+      "equal to the difference between the angel of intersection and 180°",
+      "equal to the difference between the angel of intersection and 360°"
+    ],
+    "correct": 2,
+    "explain": "The sum of the deflection angle and the internal angle of intersection ($I$) equals 180°. Therefore, Deflection Angle = $180° - I$."
+  },
+  {
+    "q": "505. The length of peg interval for flat curves is .............",
+    "options": [
+      "15 m",
+      "20 m",
+      "25 m",
+      "30 m"
+    ],
+    "correct": 3,
+    "explain": "For flat or easy curves, a longer peg interval of 30m is standard, whereas for sharp curves, 15m or 20m intervals are used to maintain precision."
+  },
+  {
+    "q": "506. Resolving power of a telescope depends on .............",
+    "options": [
+      "the diameter of the aperture",
+      "the pupil aperture of the eye",
+      "the diameter of the object glass",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Resolving power is influenced by the diffraction limit (determined by the objective diameter) and the observer's eye capability."
+  },
+  {
+    "q": "507. The longitudinal section of the surface of bubble tube is .............",
+    "options": [
+      "straight",
+      "circular",
+      "parabolic",
+      "elliptic"
+    ],
+    "correct": 1,
+    "explain": "The inner surface of a bubble tube is ground to a circular arc of a large radius so that the bubble moves linearly with respect to the tilt angle."
+  },
+  {
+    "q": "508. The bubble tube is nearly filled with .............",
+    "options": [
+      "alcohol or chloroform",
+      "a liquid which is very mobile",
+      "a liquid having low freezing point",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Liquids like synthetic alcohol or ether are used because they move quickly (low viscosity/mobile) and won't freeze in cold conditions."
+  },
+  {
+    "q": "509. The radius of curvature of the bubble tube is generally kept .............",
+    "options": [
+      "10 m",
+      "25 m",
+      "50 m",
+      "100 m"
+    ],
+    "correct": 3,
+    "explain": "A large radius (like 100m) is required to make the bubble sensitive to very small changes in inclination."
+  },
+  {
+    "q": "510. While rotating the theodolite in the horizontal plane, the bubble of the bubble tube takes up the same position in its tube, it indicates .............",
+    "options": [
+      "the rotation axis is vertical",
+      "the trunnion axis is horizontal",
+      "the line of collimation is perpendicular to vertical axis",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "If the bubble remains centered throughout a 360-degree rotation, it confirms the vertical axis of the instrument is truly vertical."
+  },
+  {
+    "q": "511. The tacheometric method of contouring is particularly suitable .............",
+    "options": [
+      "when a contoured map of hill is required",
+      "when the area is not very extensive",
+      "in surfaces of roads or railways",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Tacheometry is ideal for hilly terrain where chaining is difficult or impossible due to steep slopes and obstacles."
+  },
+  {
+    "q": "512. The space of cross-sections in a hilly country is usually .............",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 3,
+    "explain": "In rugged or hilly terrain, cross-sections are typically spaced every 20m to capture significant changes in topography without excessive labor."
+  },
+  {
+    "q": "513. In indirect method of contouring, the best method of interpolation if contours .............",
+    "options": [
+      "by graphical method",
+      "by estimation",
+      "by arithmetical calculation",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "Arithmetical calculation is the most accurate method for interpolation, as it assumes a uniform slope between points and calculates the exact position of the contour line."
+  },
+  {
+    "q": "514. The method of surveying in which field work and plotting work are done simultaneously, is called .............",
+    "options": [
+      "compass surveying",
+      "leveling",
+      "plane tabling",
+      "chain surveying"
+    ],
+    "correct": 2,
+    "explain": "Plane table surveying is unique because the map is drawn in the field while observations are being made."
+  },
+  {
+    "q": "515. The vertical distance between any two consecutive contours is called .............",
+    "options": [
+      "vertical equivalent",
+      "horizontal equivalent",
+      "contour interval",
+      "contour gradient"
+    ],
+    "correct": 2,
+    "explain": "Contour Interval is the constant vertical distance between successive contour lines."
+  },
+  {
+    "q": "516. The horizontal distance between any two consecutive contours is called .............",
+    "options": [
+      "vertical equivalent",
+      "horizontal equivalent",
+      "contour interval",
+      "contour gradient"
+    ],
+    "correct": 1,
+    "explain": "Horizontal Equivalent is the distance between two contour lines measured on a map, which varies according to the steepness of the slope."
+  },
+  {
+    "q": "517. When several contours coincide, it indicates .............",
+    "options": [
+      "a vertical cliff",
+      "a valley",
+      "a ridge",
+      "a saddle"
+    ],
+    "correct": 0,
+    "explain": "Contours coincide to form a single line only in the case of a vertical cliff."
+  },
+  {
+    "q": "518. A branch of surveying in which the horizontal and vertical distances of points are obtained by instrumental observations, is known as .............",
+    "options": [
+      "chain surveying",
+      "plane table surveying",
+      "tacheometric surveying",
+      "hydrographic surveying"
+    ],
+    "correct": 2,
+    "explain": "Tacheometry allows for the calculation of both horizontal and vertical distances using optical measurements (stadia hairs) rather than tapes/chains."
+  },
+  {
+    "q": "519. The principle of tacheometry is used .............",
+    "options": [
+      "for locating contours",
+      "on hydrographic surveys",
+      "for filling in detail in topographic surveys",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Tacheometry is versatile and used for contouring, topographic mapping, and specialized surveys like hydrography."
+  },
+  {
+    "q": "520. The multiplying constant for the tacheometer is .............",
+    "options": [
+      "i/f",
+      "f/i",
+      "f/d",
+      "f+d"
+    ],
+    "correct": 1,
+    "explain": "The multiplying constant is denoted by $k = f/i$, where $f$ is focal length and $i$ is stadia interval."
+  },
+  {
+    "q": "521. The additive constant for the tacheometer is .............",
+    "options": [
+      "i/f",
+      "f/i",
+      "f/d",
+      "f+d"
+    ],
+    "correct": 3,
+    "explain": "The additive constant is denoted by $C = f + d$, where $d$ is the distance from the objective to the vertical axis."
+  },
+  {
+    "q": "522. The multiplying constant for the tacheometer is, generally, kept as .............",
+    "options": [
+      "20",
+      "40",
+      "60",
+      "100"
+    ],
+    "correct": 3,
+    "explain": "To simplify distance calculations ($D = ks + C$), $k$ is almost always set to 100."
+  },
+  {
+    "q": "523. The value of additive constant for the tacheometer varies from .............",
+    "options": [
+      "0 to 15 cm",
+      "15 to 30 cm",
+      "30 to 45 cm",
+      "45 to 60 cm"
+    ],
+    "correct": 2,
+    "explain": "For external focusing telescopes, $f+d$ typically ranges from 30cm to 45cm."
+  },
+  {
+    "q": "524. An angle of deflection right, may be directly obtained by setting the instrument to read .............",
+    "options": [
+      "zero on back station",
+      "180° on back station",
+      "90°",
+      "270° on back station"
+    ],
+    "correct": 0,
+    "explain": "If you zero the instrument on the back sight and then turn to the next station, the resulting clockwise reading is the deflection angle."
+  },
+  {
+    "q": "525. Left swing is not much favoured in theodolite survey because .............",
+    "options": [
+      "most of the surveyors are accustomed to right hand",
+      "it is inconvenient to turn the telescope anti-clockwise",
+      "the readings increase clockwise",
+      "vertical scale comes to an inconvenient position to be read"
+    ],
+    "correct": 2,
+    "explain": "Because theodolite graduations increase clockwise, a 'right swing' (clockwise rotation) is standard to prevent confusion during reading."
+  },
+  {
+    "q": "526. You have to observe an included angle with better accuracy than what is achievable by a vernier, you will prefer the method of .............",
+    "options": [
+      "repetition",
+      "reiteration",
+      "double observations",
+      "exactness"
+    ],
+    "correct": 0,
+    "explain": "The method of repetition allows the same angle to be measured multiple times and divided by the number of repetitions, which reduces the least-count error."
+  },
+  {
+    "q": "527. Centering error of a theodolite produces an error .............",
+    "options": [
+      "in all angles equally",
+      "which does not vary with the direction or pointing",
+      "which varies with the direction of pointing and inversely with the length of sight",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The effect of centering error is more significant on short sights than on long sights."
+  },
+  {
+    "q": "528. In horizontal angles, the error due to imperfect leveling of the plate bubble is .............",
+    "options": [
+      "large when sights are nearly level",
+      "large for long sights",
+      "less for steeply inclined sights",
+      "large for steeply inclined sights"
+    ],
+    "correct": 3,
+    "explain": "If the instrument is not level, the horizontal axis is not horizontal; this error is magnified significantly when the telescope is tilted steeply upward or downward."
+  },
+  {
+    "q": "529. Removal of parallax, may be achieved by focusing .............",
+    "options": [
+      "the objective",
+      "the eye-piece",
+      "the objective and the eye-piece",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Parallax is removed by first focusing the eyepiece to see the crosshairs clearly, then focusing the objective to bring the object image into the same plane."
+  },
+  {
+    "q": "530. Distance between two stations A and B is 200 m whereas their difference in elevations is 2 m. hence horizontal distance between A and B is .............",
+    "options": [
+      "199 m",
+      "199.9 m",
+      "199.99 m",
+      "199.999 m"
+    ],
+    "correct": 2,
+    "explain": "Horizontal distance = $\\sqrt{200^2 - 2^2} = \\sqrt{40000 - 4} = \\sqrt{39996} ≈ 199.99$ m."
+  },
+  {
+    "q": "531. Correct length of a 50 m tape, weighing 1.2 kg when a pull of 12 kg is applied at the ends and is freely suspended is .............",
+    "options": [
+      "49.98 m",
+      "49.96 m",
+      "50.02 m",
+      "50.04 m"
+    ],
+    "correct": 0,
+    "explain": "Using the sag correction formula $\frac{W^2 L}{24 P^2} = \frac{1.2^2 \times 50}{24 \times 12^2} = \frac{72}{3456} ≈ 0.02$m. Corrected length = $50 - 0.02 = 49.98$ m."
+  },
+  {
+    "q": "532. In the double application of principle of reversion, the apparent error is .............",
+    "options": [
+      "equal to true error",
+      "half the true error",
+      "two times the true error",
+      "four times the true error"
+    ],
+    "correct": 3,
+    "explain": "In testing adjustments via reversion, the displacement between the two positions is twice the actual error."
+  },
+  {
+    "q": "533. Which of the following errors can be eliminated by taking mean of both face observations?",
+    "options": [
+      "errors due to imperfect graduations",
+      "errors due to eccentricity of verniers",
+      "errors due to imperfect adjustments of plate levels",
+      "errors due to line of collimation not being perpendicular to horizontal axis"
+    ],
+    "correct": 3,
+    "explain": "Taking the average of Face Left and Face Right readings eliminates instrumental errors such as the horizontal axis not being perpendicular to the vertical axis."
+  },
+  {
+    "q": "534. A level line is .............",
+    "options": [
+      "horizontal line",
+      "line parallel to the mean spheriodal surface of earth",
+      "line passing through the centers of cross hairs and the center of eye piece",
+      "line passing through the objective lens and the eye piece of a dumpy or tilting level"
+    ],
+    "correct": 1,
+    "explain": "A level line is a curved line that is equidistant from the center of the earth at every point."
+  },
+  {
+    "q": "535. The following sights are taken on the turning point .............",
+    "options": [
+      "fore sight only",
+      "back sight only",
+      "fore sight and back sight",
+      "fore sight and intermediate sight"
+    ],
+    "correct": 2,
+    "explain": "At a change point (CP), a Foresight is taken to determine its elevation, and then a Backsight is taken to continue the leveling from that new height."
+  },
+  {
+    "q": "536. The adjustment of horizontal cross hair is required particularly when the instrument is used for .............",
+    "options": [
+      "leveling",
+      "prolonging a straight line",
+      "measurement of horizontal angle",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "In leveling, the horizontal hair must be truly horizontal to ensure accurate staff readings."
+  },
+  {
+    "q": "537. The two point problem and three point problem are methods of .............",
+    "options": [
+      "resection",
+      "orientation",
+      "traversing",
+      "resection and orientation"
+    ],
+    "correct": 3,
+    "explain": "These methods allow a surveyor to locate the table's position (resection) and align the table (orientation) simultaneously using known points."
+  },
+  {
+    "q": "538. An angle between the inclined line of sight and the horizontal is called .............",
+    "options": [
+      "direct angel",
+      "vertical angle",
+      "horizontal angle",
+      "deflection angle"
+    ],
+    "correct": 1,
+    "explain": "Vertical angles are measured in the vertical plane between the horizontal line of sight and the target line."
+  },
+  {
+    "q": "539. The tangent to the liquid surface in a level tube, is parallel to the axis of the bubble .............",
+    "options": [
+      "every point of the bubble",
+      "either end of the bubble",
+      "the mid-point of the bubble",
+      "no where"
+    ],
+    "correct": 2,
+    "explain": "The axis of the bubble tube is defined as the line tangential to the internal surface at its center point."
+  },
+  {
+    "q": "540. The sensitiveness of a level tube decreases if .............",
+    "options": [
+      "radius of curvature of its inner surface is increased",
+      "diameter of the tube is increased",
+      "length of the vapor bubble is increased",
+      "both viscosity and surface tension are increased"
+    ],
+    "correct": 3,
+    "explain": "Increased viscosity and surface tension make the liquid 'sluggish', thereby reducing the sensitivity of the bubble's movement."
+  },
+  {
+    "q": "541. Ina constant level tube, size of the bubble remains constant because upper wall is .............",
+    "options": [
+      "of relatively larger radius",
+      "of relatively smaller radius",
+      "flat",
+      "convex downwards"
+    ],
+    "correct": 0,
+    "explain": "A larger radius of curvature helps in maintaining a more consistent bubble length despite temperature changes."
+  },
+  {
+    "q": "542. The line normal to the plumb line is known as .............",
+    "options": [
+      "horizontal line",
+      "level line",
+      "datum line",
+      "vertical line"
+    ],
+    "correct": 1,
+    "explain": "By definition, a level line is perpendicular (normal) to the direction of gravity (plumb line) at any point."
+  },
+  {
+    "q": "543. Long offsets are taken if the offset length exceeds .............",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 2,
+    "explain": "In standard practice, offsets less than 15m are 'short', and those exceeding 15m are considered 'long' and require more care for accuracy."
+  },
+  {
+    "q": "544. The angle between two plane mirrors of the optical square is kept .............",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 1,
+    "explain": "To deflect a line of sight by 90° using reflection, the mirrors must be placed at exactly half that angle, which is 45°."
+  },
+  {
+    "q": "545. The desirable multiplying and additive constants for a tacheometer .............",
+    "options": [
+      "100 and 0.3 m",
+      "50 and 0.5 m",
+      "100 and 0 m",
+      "200 and 0.15 m"
+    ],
+    "correct": 2,
+    "explain": "An ideal tacheometer has a multiplying constant of 100 and an additive constant of 0 (achieved with an anallatic lens)."
+  },
+  {
+    "q": "546. Anallatic lens is provided .............",
+    "options": [
+      "between diaphragm and object glass",
+      "exactly at the line of intersection of vertical and horizontal axes",
+      "just before objective",
+      "between eye-piece and diaphragm"
+    ],
+    "correct": 0,
+    "explain": "The anallatic lens is a special convex lens placed between the objective and the diaphragm to simplify calculations."
+  },
+  {
+    "q": "547. Anallatic lens is provided to .............",
+    "options": [
+      "nullify both the constants of tacheometer",
+      "render additive constant zero",
+      "make multiplying constant as 100 and additive constant as zero",
+      "improve visibility"
+    ],
+    "correct": 1,
+    "explain": "The primary purpose of an anallatic lens is to make the additive constant ($f+d$) zero, allowing the distance to be calculated simply as $D = ks$."
+  },
+  {
+    "q": "548. Anallatic lens is a .............",
+    "options": [
+      "convex lens",
+      "concave lens",
+      "compound concave and convex lens",
+      "plain lens"
+    ],
+    "correct": 0,
+    "explain": "The anallatic lens used in tacheometers is a convex lens."
+  },
+  {
+    "q": "549. A staff reading taken on a bench mark or a point known elevation is called .............",
+    "options": [
+      "fore sight reading",
+      "back sight reading",
+      "intermediate sight",
+      "any one of these"
+    ],
+    "correct": 1,
+    "explain": "Any reading taken on a point of known elevation (like a Bench Mark) to start a leveling run is a Backsight."
+  },
+  {
+    "q": "550. A staff reading taken on a point whose elevation is to be determined as on a change point is called .............",
+    "options": [
+      "fore sight reading",
+      "back sight reading",
+      "intermediate sight",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The last reading taken before moving the instrument is a Foresight."
+  },
+  {
+    "q": "551. To find the true difference of level between two points, the level should be kept .............",
+    "options": [
+      "at either of the two points",
+      "exactly midway between the two points",
+      "at any point on the line joining the two points",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Placing the level exactly midway eliminates errors due to curvature, refraction, and imperfect collimation, as these effects cancel out when distances to both staves are equal."
+  },
+  {
+    "q": "552. The variation of magnetic declination within a day is called .............",
+    "options": [
+      "diurnal variation",
+      "regular variation",
+      "annual variation",
+      "secular variation"
+    ],
+    "correct": 0,
+    "explain": "Diurnal variation refers to the systematic changes in magnetic declination that occur over a 24-hour period, typically influenced by the sun's position."
+  },
+  {
+    "q": "553. In plate tabling, the instrument used to measure horizontal and vertical distance directly is known as .............",
+    "options": [
+      "plane alidade",
+      "telescopic alidade",
+      "tachometer",
+      "clinometers"
+    ],
+    "correct": 1,
+    "explain": "A telescopic alidade is equipped with a telescope and stadia hairs, allowing the surveyor to determine distances and elevations without manual chaining."
+  },
+  {
+    "q": "554. Can the vertical axis coincide with any other axis in any position of telescope?",
+    "options": [
+      "Yes, with the geometric centre of level head",
+      "Yes, with the axis of altitude levels",
+      "Yes, with line of collimation",
+      "No impossible"
+    ],
+    "correct": 2,
+    "explain": "In specific adjustment positions, the vertical axis can align with the axis of the altitude bubble tube to ensure horizontal rotation."
+  },
+  {
+    "q": "555. For a transit theodolite the least reading on the main scale is 20'. If its vernier scale should read 20\", then .............",
+    "options": [
+      "59° on the main scale are divided into 60 equal parts",
+      "20° on the main scale are divided into 60 equal divisions",
+      "19° 40' on the main scale are divided into 60 equal parts",
+      "20° 20' on the main scale are divided into 60 equal parts"
+    ],
+    "correct": 2,
+    "explain": "For a least count of 20\", the vernier must divide $(n-1)$ divisions of the main scale. Here, 59 divisions of 20' each ($19° 40'$) are divided into 60 parts on the vernier."
+  },
+  {
+    "q": "556. Tacheometry is best suited .............",
+    "options": [
+      "where chaining is impossible",
+      "for populous areas",
+      "in broken ground",
+      "for extremely accurate survey"
+    ],
+    "correct": 2,
+    "explain": "Broken or undulating ground makes traditional chaining highly inaccurate and labor-intensive, whereas tacheometry handles it easily using optical sights."
+  },
+  {
+    "q": "557. Level line and horizontal line are .............",
+    "options": [
+      "the same for longer distance",
+      "both straight lines",
+      "never the same",
+      "same for smaller lengths"
+    ],
+    "correct": 3,
+    "explain": "A level line is a curved line following the earth's spheroidal surface, while a horizontal line is a straight line tangent to the level line at a specific point."
+  },
+  {
+    "q": "558. A plumb line is .............",
+    "options": [
+      "a vertical line",
+      "a line parallel to a vertical line",
+      "a line perpendicular to level line",
+      "a line perpendicular to the horizontal line"
+    ],
+    "correct": 2,
+    "explain": "The plumb line represents the direction of gravity at a point and is defined as a vertical line."
+  },
+  {
+    "q": "559. The imaginary line passing through the intersection of cross hairs and the optical centre of the objective, is known as .............",
+    "options": [
+      "line of sight",
+      "line of collimation",
+      "axis of the telescope",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The line of collimation is the specific line of sight that passes through the intersection of the crosshairs and the optical center of the objective lens."
+  },
+  {
+    "q": "560. Cross hairs in surveying telescope, are fitted .............",
+    "options": [
+      "in the objective glass",
+      "at the centre of the telescope",
+      "at the optical centre of the eye piece",
+      "in front of the eye piece"
+    ],
+    "correct": 3,
+    "explain": "The diaphragm containing the crosshairs is placed in front of the eyepiece so that they can be focused clearly by the observer."
+  },
+  {
+    "q": "561. The real image of an object formed by the objective, must lie .............",
+    "options": [
+      "in the plane of cross hairs",
+      "at the centre of the telescope",
+      "at the optical centre of the eye-piece",
+      "plano-convex less in the telescope"
+    ],
+    "correct": 0,
+    "explain": "To eliminate parallax, the objective lens must focus the image of the object exactly onto the same plane where the crosshairs are located."
+  },
+  {
+    "q": "562. An internal focusing type surveying telescope, may be focused by the movement of .............",
+    "options": [
+      "objective glass of the telescope",
+      "convex-lens in the telescope",
+      "concave lens in the telescope",
+      "plano-convex lens in the telescope"
+    ],
+    "correct": 2,
+    "explain": "In internal focusing telescopes, a double concave lens is moved back and forth between the objective and the diaphragm to focus the image."
+  },
+  {
+    "q": "563. Which of the following methods of plane table surveying is used to locate the position of an inaccessible points?",
+    "options": [
+      "Radiation",
+      "Intersection",
+      "Traversing",
+      "Resection"
+    ],
+    "correct": 1,
+    "explain": "Intersection is the method where a point is located by the intersection of two rays from two different stations, making it ideal for points that cannot be reached."
+  },
+  {
+    "q": "564. The resection by two point problem as compared to three point problem .............",
+    "options": [
+      "gives more accurate problem",
+      "takes less time",
+      "requires more labor",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The two-point problem is more involved and requires an auxiliary station and more sightings, making it more laborious than the three-point problem."
+  },
+  {
+    "q": "565. The perpendicular offset from a tangent to the junction of transition curve and circular curve is equal to .............",
+    "options": [
+      "L/6R",
+      "L/24R",
+      "L²/6R",
+      "L²/24R"
+    ],
+    "correct": 2,
+    "explain": "This offset value is mathematically derived for a spiral transition curve to ensure a smooth change in curvature; it is often noted as $Y = L^2 / (24R)$."
+  },
+  {
+    "q": "566. The shift of a curve is equal to .............",
+    "options": [
+      "L/6R",
+      "L/24R",
+      "L²/6R",
+      "L²/24R"
+    ],
+    "correct": 3,
+    "explain": "The 'shift' is the distance by which the circular curve must be moved inward to accommodate the transition curve, calculated as $S = L^2 / (24R)$."
+  },
+  {
+    "q": "567. The polar equation for a lemniscate curve is .............",
+    "options": [
+      "l = k √sin θ",
+      "l = k √sin 2θ",
+      "l = k √cos θ",
+      "l = k √cos 2θ"
+    ],
+    "correct": 1,
+    "explain": "The Bernoulli's Lemniscate is defined by the polar equation $r^2 = a^2 \\cos 2\\theta$ (or $l = k \\sqrt{\\cos 2\\theta}$ in this context)."
+  },
+  {
+    "q": "568. A lemniscate curve between the tangents is transitional throughout, if the polar deflection angle of its apex is equal to .............",
+    "options": [
+      "φ/3",
+      "φ/4",
+      "φ/5",
+      "φ/6"
+    ],
+    "correct": 3,
+    "explain": "For a fully transitional lemniscate curve, the polar deflection angle at the end is exactly one-sixth of the total deflection angle $\\phi$."
+  },
+  {
+    "q": "569. If the radius of a simple curve is 600 m, the maximum length of the chord for calculating offsets, is taken .............",
+    "options": [
+      "10 m",
+      "15 m",
+      "20 m",
+      "30 m"
+    ],
+    "correct": 2,
+    "explain": "Using the $R/20$ rule of thumb for chord lengths, $600/20 = 30$ meters is the appropriate interval for calculation."
+  },
+  {
+    "q": "570. A ideal vertical curve to join two gradients, is .............",
+    "options": [
+      "circular",
+      "parabolic",
+      "hyperbolic",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A simple parabola is used for vertical curves because it provides a constant rate of change of grade, ensuring smooth vehicle motion."
+  },
+  {
+    "q": "571. A lemniscate curve will not be transitional throughout, if its deflection angle, is .............",
+    "options": [
+      "45°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correct": 0,
+    "explain": "The lemniscate loses its specific transition properties once the deflection angle reaches or exceeds $45°$."
+  },
+  {
+    "q": "572. If a 30 m chain diverges through a perpendicular distance from its correct alignment, the error in length is .............",
+    "options": [
+      "d²/60 m",
+      "d²/30 m",
+      "d²/40 m",
+      "d/40 m"
+    ],
+    "correct": 0,
+    "explain": "The error due to bad alignment is approximately $d^2 / 2L$. For a 30m chain, this becomes $d^2 / (2 \times 30) = d^2 / 60$."
+  }
+]

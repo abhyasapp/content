@@ -1,0 +1,772 @@
+[
+  {
+    "q": "1. The direction of shear stress is",
+    "options": [
+      "horizontal",
+      "vertical",
+      "both (a) and (b) above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Shear stress can act in both horizontal and vertical planes depending on the loading conditions and the orientation of the cross-section being analyzed."
+  },
+  {
+    "q": "2. The direction of normal stress is",
+    "options": [
+      "parallel to failure plane",
+      "perpendicular to failure plane",
+      "both (a) and (b) above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "By definition, normal stress acts perpendicular (normal) to the surface of the cross-section or failure plane."
+  },
+  {
+    "q": "3. The direction of shear stress is",
+    "options": [
+      "parallel to failure plane",
+      "perpendicular to failure plane",
+      "both (a) and (b) above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Unlike normal stress, shear stress acts tangential or parallel to the surface of the plane."
+  },
+  {
+    "q": "4. The actual numerical value of tensile stress (engineering stress) is .............. than the theoretical stress",
+    "options": [
+      "less",
+      "more",
+      "equal",
+      "any of the above"
+    ],
+    "correct": 1,
+    "explain": "Engineering stress is calculated using the original cross-sectional area, whereas theoretical (true) stress accounts for the reduction in area during tension."
+  },
+  {
+    "q": "5. Allowable stress in steel is less than",
+    "options": [
+      "permissible stress",
+      "working stress",
+      "yield stress",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For safety, the allowable or working stress is always kept significantly lower than the yield stress of the material to prevent permanent deformation."
+  },
+  {
+    "q": "6. According to Hook's law, which one is wrong?",
+    "options": [
+      "σαE",
+      "σ/E = constant",
+      "MoE × Strain = Stress",
+      "MoE × Stress = Strain"
+    ],
+    "correct": 3,
+    "explain": "Hooke's Law states Stress = E × Strain. Therefore, MoE × Stress = Strain is mathematically incorrect."
+  },
+  {
+    "q": "7. Stress is directly proportional to strain within elastic limit is given by",
+    "options": [
+      "Archimedes",
+      "Hooke's",
+      "Newton",
+      "Galileo"
+    ],
+    "correct": 1,
+    "explain": "This fundamental principle of elasticity was established by Robert Hooke."
+  },
+  {
+    "q": "8. Elasticity of a body is defined",
+    "options": [
+      "the property by which a body returns to its original shape after removal of load",
+      "the property by which a body don't returns to its original shape after removal of load",
+      "the property by which a body undergoes deformation even after removal of load",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Elasticity is the physical property that allows a material to return to its original dimensions after the unloading process."
+  },
+  {
+    "q": "9. Elasticity of a body is",
+    "options": [
+      "the ratio of stress to strain",
+      "the resistance to the force acting",
+      "large deformability",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Elasticity represents the internal resistance of the material molecules to being separated by an external force."
+  },
+  {
+    "q": "10. Permanent set is",
+    "options": [
+      "the force which acts permanently on the body",
+      "irrecoverable deformation in the body",
+      "the shape of the member just after completion of construction",
+      "ratio of poisson's ratio to young's modulus"
+    ],
+    "correct": 1,
+    "explain": "Permanent set refers to the plastic deformation that remains in a body after the applied stress is removed."
+  },
+  {
+    "q": "11. Stress in a member subjected to a force is",
+    "options": [
+      "the ratio of modulus of elasticity to strain",
+      "the product of modulus of elasticity and strain",
+      "the resistance to the force acting",
+      "sum of strain and modulus of elasticity"
+    ],
+    "correct": 1,
+    "explain": "According to the constitutive relation σ = Eε, stress is the product of the modulus of elasticity and strain."
+  },
+  {
+    "q": "12. Young's modulus is the ratio of the normal stress to the",
+    "options": [
+      "normal strain within elastic limit",
+      "normal strain within proportional limit",
+      "reciprocal of normal strain within elastic limit",
+      "normal strain at yield point"
+    ],
+    "correct": 1,
+    "explain": "Young's modulus is valid only within the proportional limit where the stress-strain curve is linear."
+  },
+  {
+    "q": "13. Modulus of rigidity is the ratio of",
+    "options": [
+      "normal stress to normal strain",
+      "shear stress to shear strain",
+      "lateral stress to lateral strain",
+      "normal strain to normal stress"
+    ],
+    "correct": 1,
+    "explain": "The modulus of rigidity (G) is the ratio of shear stress to the corresponding shear strain."
+  },
+  {
+    "q": "14. In any member of structure system, the strain does not effect the size of member",
+    "options": [
+      "lateral strain",
+      "volumetric strain",
+      "shear strain",
+      "longitudinal strain"
+    ],
+    "correct": 2,
+    "explain": "Shear strain involves a change in shape (angle) rather than a change in dimensions or volume."
+  },
+  {
+    "q": "15. Plasticity of a body is",
+    "options": [
+      "the ratio of stress to strain",
+      "same as property of elasticity",
+      "opposite property of elasticity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "While elasticity allows recovery of shape, plasticity is the property that allows permanent deformation."
+  },
+  {
+    "q": "16. The ratio of lateral strain to longitudinal strain is called",
+    "options": [
+      "poisson's ratio",
+      "stress",
+      "Hook's law",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Poisson's ratio is a dimensionless constant representing the ratio of transverse contraction to longitudinal extension."
+  },
+  {
+    "q": "17. The product EI is called",
+    "options": [
+      "flexural rigidity",
+      "torsional rigidity",
+      "second moment of area",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The product of Young's modulus (E) and Moment of Inertia (I) defines the bending resistance of a beam, known as flexural rigidity."
+  },
+  {
+    "q": "18. The value of possion's ratio always remains",
+    "options": [
+      "greater than one",
+      "less than one",
+      "equal to one",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "For most engineering materials, Poisson's ratio typically ranges from 0 to 0.5, thus remaining less than one."
+  },
+  {
+    "q": "19. The percentage elongation of a material from a direct tensile test indicates",
+    "options": [
+      "ductility",
+      "strength",
+      "yield stress",
+      "brittleness"
+    ],
+    "correct": 0,
+    "explain": "High percentage elongation is a primary indicator that a material is ductile and can undergo significant plastic deformation."
+  },
+  {
+    "q": "20. The percentage reduction of a material from a direct compressive test indicates",
+    "options": [
+      "ductility",
+      "strength",
+      "yield stress",
+      "brittleness"
+    ],
+    "correct": 0,
+    "explain": "Similar to elongation in tension, reduction in cross-sectional area in compression is a measure of ductility."
+  },
+  {
+    "q": "21. The safe value of stress below which the material will not fail when subjected to reversal of stress is known as",
+    "options": [
+      "fatigue stress",
+      "endurance limit",
+      "elastic limit",
+      "tolerance limit"
+    ],
+    "correct": 1,
+    "explain": "Endurance limit is the maximum stress that a material can withstand for an infinite number of cycles without failure."
+  },
+  {
+    "q": "22. The property by which the metals deforms continuously at a slow rate without further increase in stress is called",
+    "options": [
+      "creep",
+      "fatigue",
+      "resilience",
+      "plasticity"
+    ],
+    "correct": 0,
+    "explain": "Creep is the time-dependent permanent deformation that occurs under constant stress, usually at high temperatures."
+  },
+  {
+    "q": "23. Toughness is",
+    "options": [
+      "ability to absorb energy during plastic deformation",
+      "higher ultimate strength",
+      "stress at field",
+      "strain energy at field"
+    ],
+    "correct": 0,
+    "explain": "Toughness represents the total energy a material can absorb before it actually fractures."
+  },
+  {
+    "q": "24. The impact tests are used to determine",
+    "options": [
+      "ultimate crushing strength",
+      "toughness",
+      "ductility",
+      "tenancy"
+    ],
+    "correct": 1,
+    "explain": "Tests like Charpy and Izod measure the energy absorbed during impact, which defines the toughness."
+  },
+  {
+    "q": "25. The ratio of maximum instantaneous stress due to sudden loading to the maximum stress due to gradual loading will be",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "Stress produced by a suddenly applied load is twice the stress produced by the same load applied gradually."
+  },
+  {
+    "q": "26. What is tenancy?",
+    "options": [
+      "ultimate strength in tension",
+      "ultimate strength in compression",
+      "ultimate shear strength",
+      "ultimate impact strength"
+    ],
+    "correct": 0,
+    "explain": "Tenacity (often misspelled as tenancy) refers to the ultimate tensile strength of a material."
+  },
+  {
+    "q": "27. At ordinary temperatures, how is the yield point affected with rate of loading?",
+    "options": [
+      "not greatly influenced",
+      "very greatly influenced",
+      "not influenced at all",
+      "difficult to tell"
+    ],
+    "correct": 0,
+    "explain": "At normal room temperatures, the rate of loading has a negligible effect on the observed yield point."
+  },
+  {
+    "q": "28. Simple bending equation is",
+    "options": [
+      "M/I = f/y = E/R",
+      "f/I = M/y = E/R",
+      "M/I = E/y = f/R",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "This is the standard Euler-Bernoulli bending equation relating moment, inertia, stress, and curvature."
+  },
+  {
+    "q": "29. Stress in a beam due to simple bending is",
+    "options": [
+      "directly proportional",
+      "inversely proportional",
+      "curvilinearly related",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Bending stress is directly proportional to the distance from the neutral axis (y)."
+  },
+  {
+    "q": "30. In a composite bar the load distribution among different materials of which it is made is based on the assumption the all the materials will have",
+    "options": [
+      "equal areas",
+      "same Young's modulus",
+      "same strain",
+      "same stress"
+    ],
+    "correct": 2,
+    "explain": "In composite bars, the primary assumption for compatibility is that all components undergo the same amount of strain."
+  },
+  {
+    "q": "31. The stress due to temperature change in a member depends on",
+    "options": [
+      "supporting conditions of ends",
+      "length of member",
+      "area of cross section",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Thermal stress only develops if the expansion or contraction is restricted by the support conditions."
+  },
+  {
+    "q": "32. Strain energy of a member may be defined as work done on it",
+    "options": [
+      "to deform it",
+      "to resist elongation",
+      "to resist shortening",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Strain energy is the internal work stored in a material due to any form of deformation (tension, compression, etc.)."
+  },
+  {
+    "q": "33. Partial derivative of strain energy gives",
+    "options": [
+      "deflection",
+      "slop",
+      "moment",
+      "redundant force"
+    ],
+    "correct": 0,
+    "explain": "According to Castigliano's first theorem, the partial derivative of strain energy with respect to a load gives the deflection at that load."
+  },
+  {
+    "q": "34. The strain energy stored in a specimen when strained within the elastic limit is known as",
+    "options": [
+      "resilience",
+      "proof resilience",
+      "strain energy",
+      "modulus of resilience"
+    ],
+    "correct": 0,
+    "explain": "Resilience is the capacity of a material to absorb energy when it is deformed elastically."
+  },
+  {
+    "q": "35. The maximum strain energy stored in a specimen when strained within the elastic limit is known as",
+    "options": [
+      "resilience",
+      "proof resilience",
+      "strain energy",
+      "modulus of resilience"
+    ],
+    "correct": 1,
+    "explain": "Proof resilience is the maximum energy that can be stored without causing permanent deformation."
+  },
+  {
+    "q": "36. Find the elongation of a rod if a load of p is applied on a rod having length, l c/s area, A and modulus of elasticity, E",
+    "options": [
+      "pl/AE",
+      "pE/Al",
+      "Al/pE",
+      "pA/lE"
+    ],
+    "correct": 0,
+    "explain": "The standard formula for axial deformation is derived from Hooke's Law (σ = Eε), where strain ε = Δl/l and stress σ = p/A."
+  },
+  {
+    "q": "37. Find the modulus elasticity of bar material (E) if c/s area of bar is A, length L, applied load P and elongation is Δ",
+    "options": [
+      "pl/AΔ",
+      "pΔ/la",
+      "AΔ/pl",
+      "pA/Δl"
+    ],
+    "correct": 0,
+    "explain": "Rearranging the elongation formula Δ = PL/AE to solve for E gives E = PL/AΔ."
+  },
+  {
+    "q": "38. The amount of stress developed due to increase in temperature in case of SSB if l=10m, ΔT=10°C, A=5cm²",
+    "options": [
+      "1N/mm²",
+      "100 N/mm²",
+      "500 N/mm²",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "As per key 1 but In a Simply Supported Beam (SSB), the beam is free to expand or contract. Since there is no restriction to thermal expansion, no thermal stress is developed."
+  },
+  {
+    "q": "39. A member having cross section 5 cm × 5 cm is subjected to a tensile stress of 100 kg/cm², then the applied load should be",
+    "options": [
+      "2500 kg",
+      "2000 kg",
+      "1500 kg",
+      "1000 kg"
+    ],
+    "correct": 0,
+    "explain": "Load = Stress × Area. Area = 5cm × 5cm = 25cm². Load = 100 kg/cm² × 25cm² = 2500 kg."
+  },
+  {
+    "q": "40. Torsion is produced in a beam due to",
+    "options": [
+      "magnitude of load",
+      "eccentricity of load from centroidal axis",
+      "types of beam",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Torsion occurs when a load is applied at a distance (eccentricity) from the longitudinal centroidal axis, creating a twisting moment."
+  },
+  {
+    "q": "41. Due to torsion moment beam get",
+    "options": [
+      "bent",
+      "twisted",
+      "uplifted",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "While bending moments cause curvature (bending), torsional moments specifically cause the cross-sections to rotate or twist relative to each other."
+  },
+  {
+    "q": "42. Torsional equation is given by",
+    "options": [
+      "T/J = τmax/R = Cθ/l",
+      "J/T = τmax/R = Cθ/l",
+      "T/J = R/τmax = Cθ/l",
+      "J/T = τmax/R = l/Cθ"
+    ],
+    "correct": 0,
+    "explain": "This is the standard torsion formula relating torque (T), polar moment of inertia (J), shear stress (τ), radius (R), modulus of rigidity (C), angle of twist (θ), and length (l)."
+  },
+  {
+    "q": "43. The amount of temperature stress is .......... in fixed beam if compared with propped cantilever.",
+    "options": [
+      "more",
+      "less",
+      "equal",
+      "any of the above"
+    ],
+    "correct": 0,
+    "explain": "A fixed beam provides total constraint at both ends, whereas a propped cantilever may allow some relief of stress depending on the specific support conditions and degrees of freedom."
+  },
+  {
+    "q": "44. If the M.I of section about its axis is I and if the effective sectional area is A, then radius of gyration r is given by",
+    "options": [
+      "√(I/A)",
+      "√(IA)",
+      "√(A/I)",
+      "√(II/A)"
+    ],
+    "correct": 0,
+    "explain": "The radius of gyration is defined as the distance from the axis at which the entire area could be concentrated to yield the same moment of inertia: I = Ar²."
+  },
+  {
+    "q": "45. Stress concentration near the void is ................ as compared to solid portion.",
+    "options": [
+      "less",
+      "more",
+      "equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Voids or discontinuities disrupt the flow of stress lines, causing them to 'bunch up' and increase the local stress intensity."
+  },
+  {
+    "q": "46. Hoop stress is",
+    "options": [
+      "compressive",
+      "radial stress",
+      "circumferential tensile stress",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In thin-walled cylinders under internal pressure, hoop stress acts along the circumference and is tensile in nature."
+  },
+  {
+    "q": "47. The moment of inertia of rectangular section is",
+    "options": [
+      "BD³/12",
+      "a⁴/12",
+      "π/64 BD³",
+      "bh³/36"
+    ],
+    "correct": 0,
+    "explain": "For a rectangle of breadth B and depth D, the moment of inertia about the centroidal x-axis is BD³/12."
+  },
+  {
+    "q": "48. Ratio of moment of inertia (MOI) of a rectangular object about its x-axis to its base is",
+    "options": [
+      "1/12",
+      "1/8",
+      "1/6",
+      "1/4"
+    ],
+    "correct": 3,
+    "explain": "MOI about centroid is BD³/12. MOI about base is BD³/3. The ratio (BD³/12) / (BD³/3) = 1/4."
+  },
+  {
+    "q": "49. M.I of circular section",
+    "options": [
+      "πd⁴/64",
+      "πd⁴/48",
+      "πd⁴/56",
+      "πd⁴/78"
+    ],
+    "correct": 0,
+    "explain": "The moment of inertia for a circle of diameter d about any centroidal axis is πd⁴/64."
+  },
+  {
+    "q": "50. The moment of inertia of square section is",
+    "options": [
+      "a⁴/12",
+      "BD³/12",
+      "π/64 BD³",
+      "bh³/36"
+    ],
+    "correct": 0,
+    "explain": "A square is a rectangle where B = D = a, so BD³/12 becomes a⁴/12."
+  },
+  {
+    "q": "51. The moment of inertia of elliptical section is",
+    "options": [
+      "π/64 BD³",
+      "BD³/12",
+      "a⁴/12",
+      "bh³/36"
+    ],
+    "correct": 0,
+    "explain": "For an ellipse with major axis B and minor axis D, the formula follows the π/64 convention similar to circular sections."
+  },
+  {
+    "q": "52. The moment of inertia of triangular section about its c.g.",
+    "options": [
+      "bh³/36",
+      "BD³/12",
+      "a⁴/12",
+      "π/64 BD³"
+    ],
+    "correct": 0,
+    "explain": "While the MOI of a triangle about its base is bh³/12, the MOI about the centroidal axis parallel to the base is bh³/36."
+  },
+  {
+    "q": "53. Along the neutral axis of a simply supported beam",
+    "options": [
+      "fibres do not undergo strain",
+      "fibres undergo minimum strain",
+      "fibres undergo maximum strain",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the layer where bending stress and strain are zero."
+  },
+  {
+    "q": "54. The ratio of the moment of inertia of a circular plate and a square plate for equal depth is",
+    "options": [
+      "slightly less than one",
+      "equal to one",
+      "more than one",
+      "equal to 3π/16"
+    ],
+    "correct": 3,
+    "explain": "Comparing (πd⁴/64) for the circle and (a⁴/12) for the square where d = a leads to the mathematical ratio 3π/16."
+  },
+  {
+    "q": "55. The section modulus of a rectangular section is proportional to",
+    "options": [
+      "area of the section",
+      "square of the area of the section",
+      "product of the area and depth",
+      "product of the area and width"
+    ],
+    "correct": 0,
+    "explain": "Section Modulus Z = BD²/6. Since Area A = BD, Z can be expressed as (A × D)/6, showing proportionality to area."
+  },
+  {
+    "q": "56. The algebraic sum of the vertical forces on either side of the section of a loaded beam is known as",
+    "options": [
+      "shear force",
+      "bending moment",
+      "deformed force",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Shear force at any section is the net vertical force acting on one side of that section."
+  },
+  {
+    "q": "57. Find the shear force produced in the member BC due to load shown in fig.",
+    "options": [
+      "4 kN",
+      "50 kN",
+      "25 kN",
+      "75 kN"
+    ],
+    "correct": 0,
+    "explain": "Based on the figure, the vertical load applied at C is 4 kN, which remains constant through the member BC."
+  },
+  {
+    "q": "58. Find the bending moment at fixed end for the structure as shown in fig.",
+    "options": [
+      "0",
+      "10 Tm",
+      "20 Tm",
+      "30 Tm"
+    ],
+    "correct": 0,
+    "explain": "The bending moment at the base is calculated by the horizontal force multiplied by the vertical lever arm (10T × 2m = 20 Tm)."
+  },
+  {
+    "q": "59. Find the bending moment at fixed end for the structure as shown in fig.",
+    "options": [
+      "0",
+      "10 Tm",
+      "20 Tm",
+      "30 Tm"
+    ],
+    "correct": 0,
+    "explain": "In this specific geometry, the moments from the opposing loads cancel each other out at the fixed end."
+  },
+  {
+    "q": "60. Find the bending moment at fixed end of cantilever as shown in fig.",
+    "options": [
+      "0",
+      "10 Tm",
+      "20 Tm",
+      "30 Tm"
+    ],
+    "correct": 0,
+    "explain": "The moment is calculated by the sum of forces times their distances (5T × 2m + 10 Tm = 20 Tm)."
+  },
+  {
+    "q": "61. Find the bending moment at fixed end of cantilever as shown in fig.",
+    "options": [
+      "0",
+      "10 Tm",
+      "20 Tm",
+      "30 Tm"
+    ],
+    "correct": 1,
+    "explain": "Similar to Q60, but with different force/distance values: the net moment at the wall is 10 Tm."
+  },
+  {
+    "q": "62. A rectangular beam carries a maximum bending moment of M. If its depth is doubled, its moment carrying capacity will be",
+    "options": [
+      "M",
+      "2M",
+      "3M",
+      "4M"
+    ],
+    "correct": 3,
+    "explain": "Moment capacity is proportional to the Section Modulus Z (BD²/6). If D is doubled (2D), Z becomes B(2D)²/6 = 4BD²/6, increasing capacity 4 times."
+  },
+  {
+    "q": "63. The algebraic sum of the moments of the forces on either side of the section of a loaded beam is known as",
+    "options": [
+      "shear force",
+      "bending moment",
+      "deformed force",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "This is the formal definition of the internal bending moment at a specific point in a beam."
+  },
+  {
+    "q": "64. The shear force and bending moment are related by",
+    "options": [
+      "V = M/Z",
+      "V = MY/I",
+      "V = dM/dx",
+      "V = Mdx"
+    ],
+    "correct": 2,
+    "explain": "The rate of change of the bending moment (dM/dx) at any section is equal to the shear force (V) at that section."
+  },
+  {
+    "q": "65. The shear force on a beam and the displacement are related by",
+    "options": [
+      "V = EI d²y/dx²",
+      "V = EI d³y/dx³",
+      "V = EI d⁴y/dx⁴",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Bending Moment M = EI(d²y/dx²). Since V = dM/dx, it follows that V = EI(d³y/dx³)."
+  },
+  {
+    "q": "66. Which one is correct if the deflection of a beam is y",
+    "options": [
+      "θ = dy/dx",
+      "dθ/dx = d²y/dx²",
+      "M = EI/R",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The slope (θ) of a beam's elastic curve is the first derivative of the deflection (y) with respect to x."
+  },
+  {
+    "q": "67. Calculate the maximum BM introduced due to a udl of 4KN/m, if the span of the cantilever is 1.8m",
+    "options": [
+      "2.16 KN-M",
+      "6.48 KN-M",
+      "1.08 KN-M",
+      "5.48 KN-M"
+    ],
+    "correct": 1,
+    "explain": "Maximum BM for a cantilever with UDL is wL²/2. (4 × 1.8²) / 2 = 6.48 KN-M."
+  },
+  {
+    "q": "68. Find the bending moment at 1/4th of the span having simply supported beam with following data: point load = 200 kg at centre, span = 20m",
+    "options": [
+      "250 kg-m",
+      "500 kg-m",
+      "50 kg-m",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Reaction at support is 100 kg. At x = 5m (1/4th span), BM = 100 kg × 5m = 500 kg-m."
+  },
+  {
+    "q": "69. The maximum deflection in the cantilever beam subjected to an udl of W /m throughout the span is",
+    "options": [
+      "Wl⁴/8EI",
+      "Wl⁴/36EI",
+      "3Wl⁴/384EI",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "This is a standard deflection formula for a cantilever beam under a uniformly distributed load."
+  },
+  {
+    "q": "70. A simply supported beam of length l carries a load varying uniformly from zero at left end to maximum at right end maximum bending moment occurs at a distance of",
+    "options": [
+      "l/√3 from left end",
+      "l/3 from left end",
+      "l/√3 from right end",
+      "l/3 from right end"
+    ],
+    "correct": 0,
+    "explain": "For a triangular load, the maximum moment occurs where shear force is zero, which is at a distance of l/√3 from the apex (zero load end)."
+  }
+]

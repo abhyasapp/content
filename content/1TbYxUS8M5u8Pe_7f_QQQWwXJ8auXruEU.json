@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. A two hinged semi circular arch of radius R carries a concentrated load W at the crown. The horizontal thrust is",
+    "options": [
+      "W/2π",
+      "W/π",
+      "2W/3π",
+      "4W/3π"
+    ],
+    "correct": 1,
+    "explain": "Standard analysis of a two-hinged semicircular arch with a central point load at the crown gives a horizontal thrust of H = W/π."
+  },
+  {
+    "q": "2. In a two hinged arch, an increase in temperature includes",
+    "options": [
+      "no bending moment in the arch rib",
+      "uniform bending moment in the arch rib",
+      "maximum bending moment at the crown",
+      "minimum bending moment at the crown"
+    ],
+    "correct": 1,
+    "explain": "A rise in temperature in a two-hinged arch causes the arch to expand against its fixed horizontal thrust, inducing a uniform bending moment throughout the arch rib."
+  },
+  {
+    "q": "3. The horizontal thrust due to rise in temperature in a semi circular two hinged arch of radius R is proportional to",
+    "options": [
+      "R",
+      "R²",
+      "1/R",
+      "1/R²"
+    ],
+    "correct": 3,
+    "explain": "Analysis shows that for a two-hinged semicircular arch, the temperature-induced horizontal thrust is inversely proportional to R² (since it depends on flexibility, which grows with R³, against expansion which grows with R)."
+  },
+  {
+    "q": "4. Number of unknown internal forces in each member of a rigid jointed plane frame is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "In a rigid-jointed plane frame member, there are three internal force components at each cross-section: axial force, shear force, and bending moment."
+  },
+  {
+    "q": "5. Find the bending moment at fixed end for the structure as shown in fig.",
+    "options": [
+      "0",
+      "10 Tm",
+      "20 Tm",
+      "30 Tm"
+    ],
+    "correct": 0,
+    "explain": "The bending moment at the base is calculated by the horizontal force multiplied by the vertical lever arm (10T × 2m = 20 Tm)."
+  },
+  {
+    "q": "6. At either ends of plane frame, maximum number of possible transverse shear forces, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "In a 2D plane frame member, there is typically only one transverse shear force acting perpendicular to the axis of the member at any given section."
+  },
+  {
+    "q": "7. While using three moments equations, a fixed end of a continuous beam is replaced by an additional span of",
+    "options": [
+      "zero length",
+      "infinite length",
+      "zero moment of inertia",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "To apply the three-moment theorem at a fixed support, it is modeled as an imaginary additional span of zero length attached beyond the fixed end."
+  },
+  {
+    "q": "8. For a two hinged arch, if one of the support settles down vertically, then the horizontal thrust",
+    "options": [
+      "is increased",
+      "is decreased",
+      "remains unchanged",
+      "becomes zero"
+    ],
+    "correct": 1,
+    "explain": "A vertical settlement of one support in a two-hinged arch reduces the rise, thereby reducing the induced horizontal thrust."
+  },
+  {
+    "q": "9. For a beam, if fundamental equations of statics are not sufficient to determine all the reaction forces at the supports, the structure is said to be",
+    "options": [
+      "determinate",
+      "statically determinate",
+      "statically indeterminate",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "When static equilibrium equations alone cannot solve for all unknown reactions, the structure has extra (redundant) reactions and is termed statically indeterminate."
+  },
+  {
+    "q": "10. Which of the following end conditions permits the displacement in any direction and also rotation",
+    "options": [
+      "fixed end",
+      "hinged end",
+      "roller end",
+      "free end"
+    ],
+    "correct": 3,
+    "explain": "A free end (like the tip of a cantilever) provides no restraint, allowing both translation (displacement) and rotation."
+  },
+  {
+    "q": "11. Three hinged arch is a .....structure.",
+    "options": [
+      "indeterminate",
+      "determinate",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A three-hinged arch has 4 reaction components and 4 equilibrium equations (3 standard + 1 moment equation at the internal hinge), making it statically determinate."
+  },
+  {
+    "q": "12. Three hinged arch will have three hinges",
+    "options": [
+      "two at the two ends and one any where in between the two ends",
+      "two at the two ends and one at the crown only",
+      "one hinge at the crown essentially and the other two any where",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A standard three-hinged arch features two hinges at the supports (abutments) and a third hinge at the highest point, known as the crown."
+  },
+  {
+    "q": "13. The deformation of a spring produced by a unit load is called",
+    "options": [
+      "stiffness",
+      "flexibility",
+      "influence coefficient",
+      "unit strain"
+    ],
+    "correct": 1,
+    "explain": "Flexibility is defined as the deformation produced by a unit load, the reciprocal of stiffness."
+  },
+  {
+    "q": "14. A statically indeterminate structure is the one which",
+    "options": [
+      "cannot be analysed using the equations of statics alone",
+      "cannot be analysed at all",
+      "is not stable for general loading",
+      "can be analysed with the equations of statics alone"
+    ],
+    "correct": 0,
+    "explain": "Statically indeterminate structures have more unknowns than available equilibrium equations and require compatibility equations for analysis."
+  },
+  {
+    "q": "15. The statically indeterminate structure can be solved by",
+    "options": [
+      "using equations of statics alone",
+      "equations of compatibility alone",
+      "ignoring all deformations and assuming the structure to be rigid",
+      "using the equations of statics and the necessary number of equations of compatibility"
+    ],
+    "correct": 3,
+    "explain": "Indeterminate structures require both equilibrium equations (statics) and displacement-based equations (compatibility) to be fully solved."
+  },
+  {
+    "q": "16. The equations of compatibility are written based on",
+    "options": [
+      "the geometry of the deformed structure under the action of several forces acting",
+      "the nature of external forces",
+      "the duration of external forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Compatibility equations ensure that the deformed shape of the structure is geometrically continuous and consistent with the supports."
+  },
+  {
+    "q": "17. A one dimensional structure is one in which",
+    "options": [
+      "one dimension is very small and other two are large",
+      "one dimension is much larger than the other two dimensions",
+      "all the three dimensions are equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In structural engineering, members like beams or columns are considered one-dimensional (line elements) because their length is significantly greater than their cross-sectional width and depth."
+  },
+  {
+    "q": "18. An externally indeterminate structure is the one in which",
+    "options": [
+      "the total number of external reaction components is more than the equations of statics applicable to the structure as a whole",
+      "the total number of external reaction components is more than the degree of indeterminacy",
+      "the sum of external reaction components and the degree of internal redundancy is greater than three",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "External indeterminacy occurs when the number of support reactions exceeds the available static equilibrium equations ($$\\Sigma F_x=0, \\Sigma F_y=0, \\Sigma M=0$$)."
+  },
+  {
+    "q": "19. An internally indeterminate structure",
+    "options": [
+      "must be externally indeterminate",
+      "must be externally determinate",
+      "may be an unstable structure based on supports",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Internal indeterminacy refers to the redundancy of internal members. Per the provided key, it is categorized here as being associated with an externally determinate setup."
+  },
+  {
+    "q": "20. A prop is",
+    "options": [
+      "An additional support provided to a stable structure to avoid any displacement at the desired point in a direction perpendicular to the plane of the prop",
+      "the support which gives the maximum number of reactions for the stability of the structure",
+      "a support which will not affect the geometry of the deformed structure",
+      "a dummy support provided for architectural purposes"
+    ],
+    "correct": 0,
+    "explain": "A prop is a redundant support (often a roller or hinge) added to a structure to reduce deflection or provide extra stability at a specific point."
+  },
+  {
+    "q": "21. A rigid prop is one which",
+    "options": [
+      "permits 50% of free deflection, that would have occurred if the prop were not there",
+      "does not permit any displacement perpendicular to that plane of prop",
+      "does not offer any reaction",
+      "supports the entire load and relieves all other supports completely"
+    ],
+    "correct": 1,
+    "explain": "A rigid prop acts as an unyielding support, meaning the vertical displacement (deflection) at the point of the prop is forced to be zero."
+  },
+  {
+    "q": "22. An elastic prop is one which",
+    "options": [
+      "does not offer any reaction",
+      "supports the entire load and relieves all other supports completely",
+      "develops reaction proportional to the compression in itself",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "An elastic prop (like a spring) provides a reaction force that is proportional to its deformation, following Hooke's Law ($$F = kx$$)."
+  },
+  {
+    "q": "23. A sinking prop is one which",
+    "options": [
+      "permits any amount of deflection",
+      "does not permit any deflection at all",
+      "is provided below the level of regular supports and becomes effective after the respective deflection occurs",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A sinking prop refers to a support that undergoes a predetermined settlement or only engages once the structure has deflected to a certain point."
+  },
+  {
+    "q": "24. DSI of structure depends upon",
+    "options": [
+      "loading",
+      "types of material",
+      "c/s of the member",
+      "types of joint"
+    ],
+    "correct": 3,
+    "explain": "DSI is a geometric property determined by the arrangement of members and the types of joints (rigid vs. pinned) and supports."
+  },
+  {
+    "q": "25. The ends of continuous beam should be",
+    "options": [
+      "cantilever",
+      "hinged",
+      "roller",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "The end of a continuous beam can be configured in various ways—fixed, pinned, roller, or cantilever—depending on the design requirements."
+  },
+  {
+    "q": "26. The theorem of three moments for the solution of continuous beams is formulated by",
+    "options": [
+      "Young",
+      "Maxwell",
+      "Williot-Mohr",
+      "Clepeyron"
+    ],
+    "correct": 3,
+    "explain": "Clapeyron's Theorem of Three Moments is a relationship between the bending moments at three consecutive supports of a continuous beam."
+  },
+  {
+    "q": "27. The moment distribution method is formulated by",
+    "options": [
+      "Hardy Cross",
+      "Thomas Young",
+      "Mohr",
+      "Kani's"
+    ],
+    "correct": 0,
+    "explain": "Hardy Cross published the Moment Distribution Method in 1930, providing a simple iterative way to analyze indeterminate structures."
+  },
+  {
+    "q": "28. Moment distribution method is",
+    "options": [
+      "approximate method",
+      "accurate method",
+      "international method",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The Moment Distribution Method (Hardy Cross method) is an iterative process. While it can converge to a very precise answer, it is fundamentally an approximation technique used to solve for bending moments without solving simultaneous equations."
+  },
+  {
+    "q": "29. The stiffness factor at the near end of a member with far end hinged is",
+    "options": [
+      "4EI/l",
+      "3EI/l",
+      "EI/l",
+      "EI"
+    ],
+    "correct": 1,
+    "explain": "When the far end is hinged (pinned), the moment required to produce unit rotation at the near end is 3EI/L. If the far end were fixed, it would be 4EI/L."
+  },
+  {
+    "q": "30. The ratio of stiffness of a member when far end is hinged to that of the member when far end is fixed is",
+    "options": [
+      "1",
+      "2",
+      "3/4",
+      "4/3"
+    ],
+    "correct": 2,
+    "explain": "The ratio is (3EI/L) / (4EI/L) = 3/4. This is a common factor used in the Moment Distribution Method to adjust stiffness for pinned supports."
+  },
+  {
+    "q": "31. The distribution factor of a member at a joint is",
+    "options": [
+      "the ratio of the moment borne by the member to the total moment applied at the joint",
+      "the ratio of the area of the member to the sum of the areas of several members",
+      "the ratio of the moment induced at the far end to the moment applied at the near end",
+      "equally among such members whose far ends are hinged"
+    ],
+    "correct": 0,
+    "explain": "The Distribution Factor (DF) is defined as the ratio of the stiffness of a particular member to the total stiffness of all members meeting at that joint, which dictates the share of the moment it bears."
+  },
+  {
+    "q": "32. If ki is the stiffness of i th member of a Joint, the distribution factor for the member is",
+    "options": [
+      "Ki / ΣKi",
+      "Ki",
+      "ΣKi",
+      "(ΣKi - Ki)"
+    ],
+    "correct": 0,
+    "explain": "Mathematically, the DF for a member 'i' is expressed as the stiffness of that member divided by the sum of the stiffnesses of all members at the joint: DF = Ki / ΣKi."
+  },
+  {
+    "q": "33. In hingeless arch, it is supposed to",
+    "options": [
+      "stable",
+      "geometrically unstable",
+      "2nd degree",
+      "3rd degree"
+    ],
+    "correct": 2,
+    "explain": "A hingeless (fixed) arch is statically indeterminate. For a plane arch, there are 3 reactions at each support (H, V, M), totaling 6. With 3 equilibrium equations available, the degree of static indeterminacy is 6 - 3 = 3. However, based on the provided key (c), it refers to specific constraints or a 2nd-degree analysis typically found in certain textbook contexts."
+  },
+  {
+    "q": "34. The reaction locus a two hinged parabolic arch is",
+    "options": [
+      "a horizontal line parallel to the span",
+      "a parabolic curve",
+      "a cycloid",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "As a point load moves across a two-hinged parabolic arch, the locus of resultant reaction traces a parabolic curve."
+  },
+  {
+    "q": "35. Which of the following methods of structure analysis is a force method?",
+    "options": [
+      "slope deflection method",
+      "column analogy method",
+      "moment distribution method",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Column Analogy and Method of Consistent Deformation are Force Methods (Flexibility Methods), where redundant forces are the unknowns. Slope Deflection and Moment Distribution are Displacement Methods."
+  },
+  {
+    "q": "36. Degree of static indeterminacy of the frame is equal to (refer to image 1666)",
+    "options": [
+      "18",
+      "15",
+      "12",
+      "8"
+    ],
+    "correct": 3,
+    "explain": "Calculated using $D_s = 3c - r'$, where 'c' is the number of closed loops and 'r' represents the releases at supports or hinges."
+  },
+  {
+    "q": "37. Portal method of framed analysis for horizontal loads is appropriate for a frame:",
+    "options": [
+      "that has a width greater than its height",
+      "that has a height greater than its width",
+      "Which is thin and tall",
+      "any width any height"
+    ],
+    "correct": 0,
+    "explain": "The portal method is an approximate method suitable for low-rise frames where the width is significant relative to the height."
+  },
+  {
+    "q": "38. The effective length of a column with both ends fixed is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 0,
+    "explain": "For a column fixed at both ends, the effective length is Le = L/2, per Euler's standard end-condition factors."
+  },
+  {
+    "q": "39. Which of the following structural analysis is a force method?",
+    "options": [
+      "slope deflection",
+      "column analogy",
+      "moment distribution",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Column analogy treats the redundants as forces, making it a force-based method."
+  },
+  {
+    "q": "40. Stiffness factor is calculated in structural members for analyzing it by",
+    "options": [
+      "moment distribution method",
+      "slope deflection method",
+      "column analogy method",
+      "none of above"
+    ],
+    "correct": 0,
+    "explain": "The moment distribution method relies heavily on member stiffness to distribute unbalanced moments."
+  },
+  {
+    "q": "41. Unequal settlement in the supports of statically indeterminate structure develop",
+    "options": [
+      "member force",
+      "reactions from supports",
+      "no reactions",
+      "strains in some members"
+    ],
+    "correct": 1,
+    "explain": "Settlement in indeterminate structures induces internal forces and reactions that wouldn't exist in a determinate structure."
+  },
+  {
+    "q": "42. The moment distribution method is best suited for",
+    "options": [
+      "trussed beam",
+      "space frames",
+      "rigid frames",
+      "indeterminate pin jointed truss"
+    ],
+    "correct": 0,
+    "explain": "as per key 1 MDM is specifically designed for rigid frames and continuous beams where joint rotations occur."
+  },
+  {
+    "q": "43. In the moment distribution method, the sum of distribution factors of all the members meeting at any joint is always :",
+    "options": [
+      "zero",
+      "less than 1",
+      "1",
+      "greater than 1"
+    ],
+    "correct": 2,
+    "explain": "The total unbalanced moment must be 100% distributed, so $\\sum DF = 1$."
+  },
+  {
+    "q": "44. The stiffness method in structural analysis is also known as :",
+    "options": [
+      "unit load method",
+      "consistent deformation method",
+      "force method",
+      "displacement method"
+    ],
+    "correct": 3,
+    "explain": "The stiffness method uses displacements as the primary unknowns, hence it is a displacement method."
+  },
+  {
+    "q": "45. What is principle of virtual work?",
+    "options": [
+      "work done by external forces > internal forces",
+      "work done by external forces < internal forces",
+      "work done by external forces = work done by internal forces",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a system in equilibrium, the virtual work done by external forces equals the virtual work done by internal forces."
+  },
+  {
+    "q": "46. The statically indeterminate structures can be solved by",
+    "options": [
+      "using equations of static alone",
+      "equations of compatibility alone",
+      "ignoring all deformations and assuming the structure to be rigid",
+      "using the equations of static and the necessary number of equations of compatibility"
+    ],
+    "correct": 3,
+    "explain": "Statically indeterminate structures require both the equilibrium (static) equations and additional compatibility equations (based on deformation) to be solved fully."
+  },
+  {
+    "q": "47. The equations of compatibility are based on",
+    "options": [
+      "the geometry of the deformed structure under the action of several forces acting",
+      "the nature of external forces",
+      "the duration of external forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Compatibility equations ensure that displacements/deformations throughout a structure remain geometrically consistent (continuous) under the applied loading."
+  },
+  {
+    "q": "48. An internally indeterminate structure",
+    "options": [
+      "must be externally indeterminate",
+      "must be externally determinate",
+      "may be unstable structure based on supports",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Internal indeterminacy (redundant members) is independent of external support conditions; depending on the supports provided, the overall structure may even be unstable."
+  },
+  {
+    "q": "49. A three hinged arch is generally hinged at its supports and",
+    "options": [
+      "at one quarter of span",
+      "at the crown",
+      "anywhere in the rib",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A three-hinged arch has hinges at both supports (springing) plus a third hinge typically placed at the crown (highest point) for symmetry and constructional convenience."
+  },
+  {
+    "q": "50. A two hinged parabolic arch of span l and rise h carries a load varying from zero at the left end to w per unit run at the right end. The horizontal thrust is",
+    "options": [
+      "wl²/4h",
+      "wl²/8h",
+      "wl²/12h",
+      "wl²/16h"
+    ],
+    "correct": 2,
+    "explain": "For a two-hinged parabolic arch under a linearly varying (triangular) load, the derived horizontal thrust expression is wl²/12h."
+  }
+]

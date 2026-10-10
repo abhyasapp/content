@@ -1,0 +1,816 @@
+[
+  {
+    "q": "232. Levelling deals with measurements in",
+    "options": [
+      "horizontal planes",
+      "vertical planes",
+      "both of above",
+      "none of above"
+    ],
+    "correct": 2,
+    "explain": "Levelling essentially measures vertical differences of elevation between points, but these are determined with reference to a horizontal line of sight, so it involves both horizontal and vertical planes."
+  },
+  {
+    "q": "233. In levelling, the correction for curvature (in meters) is equal to",
+    "options": [
+      "0.00785 D2",
+      "0.0785 D2",
+      "0.0112 D2",
+      "0.0673 D2"
+    ],
+    "correct": 1,
+    "explain": "The standard formula for the curvature correction, with D in kilometres, is Cc = 0.0785*D2 metres."
+  },
+  {
+    "q": "234. In levelling, the correction for combined curvature and refraction (in meters) is equal to",
+    "options": [
+      "0.00785 D2",
+      "0.0785 D2",
+      "0.0112 D2",
+      "0.0673 D2"
+    ],
+    "correct": 3,
+    "explain": "Accounting for the effect of atmospheric refraction (about 1/7th of the curvature effect, in the opposite sense), the combined correction reduces to 0.0673*D2 metres, with D in kilometres."
+  },
+  {
+    "q": "235. For which of the following permanent adjustments of theodolite, the spire test is used?",
+    "options": [
+      "adjustment of plate levels",
+      "adjustment of line of sight",
+      "adjustment of horizontal axis",
+      "all of above"
+    ],
+    "correct": 2,
+    "explain": "The spire test is specifically used to check and adjust the horizontal (trunnion) axis of a theodolite, ensuring it is truly horizontal by sighting a high point from both faces."
+  },
+  {
+    "q": "236. Pick up the odd instrument",
+    "options": [
+      "prismatic compass",
+      "theodolite",
+      "box sextant",
+      "dummy level"
+    ],
+    "correct": 3,
+    "explain": "A dummy level is used for levelling (vertical measurement), whereas the prismatic compass, theodolite, and box sextant are all instruments primarily used for measuring horizontal angles/directions, making the dummy level the odd one out."
+  },
+  {
+    "q": "237. The contour interval depends upon the",
+    "options": [
+      "nature of the ground",
+      "scale of map",
+      "purpose and extent of survey",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "The choice of contour interval depends on multiple factors together: the nature/relief of the terrain, the scale of the map, and the purpose and extent of the survey."
+  },
+  {
+    "q": "238. The vertical distance between the elevations represented by adjacent contour lines on a map is called",
+    "options": [
+      "vertical equivalent",
+      "horizontal equivalent",
+      "contour interval",
+      "contour gradient"
+    ],
+    "correct": 2,
+    "explain": "As defined before, the constant vertical distance between two adjacent contours on a map is the contour interval."
+  },
+  {
+    "q": "239. An imaginary line on the surface of the earth having a constant inclination with the horizontal (slope) is called",
+    "options": [
+      "vertical equivalent",
+      "horizontal equivalent",
+      "contour interval",
+      "contour gradient"
+    ],
+    "correct": 3,
+    "explain": "As defined earlier, an imaginary line on the ground maintaining a constant slope (inclination to horizontal) is called a contour gradient."
+  },
+  {
+    "q": "240. A 'level line' is a",
+    "options": [
+      "horizontal line",
+      "line parallel to the mean spheroidal surface of earth",
+      "line passing through the center of cross hairs and the center of eye piece",
+      "line passing through the objective lens and the eyepiece of a dumpy or tilting level"
+    ],
+    "correct": 1,
+    "explain": "A level line follows the curved level surface of the earth, and is therefore best described as a line parallel to (following) the mean spheroidal surface of the earth, not a straight horizontal line."
+  },
+  {
+    "q": "241. Contour lines cross ridge or valley lines at",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "correct": 3,
+    "explain": "As established earlier, contour lines always cross ridge lines and valley lines at right angles (90 degrees), since these lines represent the direction of steepest slope."
+  },
+  {
+    "q": "242. Contour interval is",
+    "options": [
+      "inversely proportional to the scale of the map",
+      "directly proportional to the flatness of ground",
+      "larger for accurate works",
+      "larger if the time available is more"
+    ],
+    "correct": 0,
+    "explain": "A larger map scale (more detailed) generally uses a smaller contour interval and vice versa, so the contour interval is inversely proportional to the scale of the map."
+  },
+  {
+    "q": "243. In route surveys, the most suitable method of contouring is",
+    "options": [
+      "by squares",
+      "by radial lines",
+      "by cross-sections",
+      "by tacheometer"
+    ],
+    "correct": 2,
+    "explain": "For a linear route survey (road, railway, canal), contouring by cross-sections taken perpendicular to the centre line at regular intervals is the most suitable method."
+  },
+  {
+    "q": "244. The tacheometric method of contouring is particularly suitable",
+    "options": [
+      "when a contoured map of hill is required",
+      "when the area is not very extensive",
+      "in surveys of roads or railways",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "The tacheometric method, which is fast and does not require chaining, is particularly suitable for contouring hilly terrain where direct measurement would be difficult."
+  },
+  {
+    "q": "245. The spacing of cross-sections in a hilly country is usually",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 3,
+    "explain": "In hilly terrain, where the ground changes rapidly, cross-sections for contouring/earthwork are usually spaced closer together than in flat country, but as per this text the given standard spacing is taken as 20 m."
+  },
+  {
+    "q": "246. In indirect method of contouring, the best method of interpolation of contours is",
+    "options": [
+      "by graphical method",
+      "by estimation",
+      "by arithmetical calculation",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "Interpolating contour positions between spot levels by arithmetical (proportional) calculation is considered the most accurate method, though graphical and estimation methods are quicker alternatives."
+  },
+  {
+    "q": "247. The method of surveying in which field work and plotting work are done simultaneously, is called",
+    "options": [
+      "compass surveying",
+      "levelling",
+      "plane tabling",
+      "chain surveying"
+    ],
+    "correct": 2,
+    "explain": "As established, plane table surveying is the unique method where field observation and plotting proceed together, simultaneously."
+  },
+  {
+    "q": "248. In plane tabling, the instrument used to measure horizontal and vertical distances directly, is known as",
+    "options": [
+      "plane alidade",
+      "telescopic alidade",
+      "tacheometer",
+      "clinometer"
+    ],
+    "correct": 1,
+    "explain": "As noted earlier, a telescopic alidade, fitted with stadia hairs, allows both horizontal and vertical distances to be measured directly in plane table surveying."
+  },
+  {
+    "q": "249. The plane table surveying is",
+    "options": [
+      "most suitable for preparing small-scale maps",
+      "particularly advantageous in magnetic areas",
+      "less costly than a theodolite survey",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Plane table surveying is well suited for small-scale mapping, is unaffected by local magnetic attraction (unlike compass surveys), and is generally less costly than theodolite surveying, so all the listed statements are true."
+  },
+  {
+    "q": "250. The operation of turning the table so that all the lines on the paper are parallel to the corresponding lines on the ground, is called",
+    "options": [
+      "levelling",
+      "centering",
+      "setting",
+      "orientation"
+    ],
+    "correct": 3,
+    "explain": "As defined earlier, this act of aligning the plane table so that plotted lines are parallel to the corresponding ground lines is called orientation."
+  },
+  {
+    "q": "251. The plotting of small areas which can be commanded from a single station, is usually done on the plane table by the method of",
+    "options": [
+      "radiation",
+      "intersection",
+      "traversing",
+      "resection"
+    ],
+    "correct": 0,
+    "explain": "When a small area can be entirely observed and measured from one single station, the method of radiation is used to plot all the points directly from that station."
+  },
+  {
+    "q": "252. The method of intersection in plane tabling is commonly used for",
+    "options": [
+      "locating the distant and inaccessible points",
+      "locating the broken boundaries",
+      "locating the points which may be used subsequently as the instrument stations",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Intersection is a versatile method used to locate distant/inaccessible points, broken boundary details, and even future instrument stations, so all the listed uses apply."
+  },
+  {
+    "q": "253. The method of plane tabling commonly used for establishing the instrument stations only, is a",
+    "options": [
+      "method of radiation",
+      "method of intersection",
+      "method of traversing",
+      "method of resection"
+    ],
+    "correct": 3,
+    "explain": "Resection is specifically used to locate/establish the plane table's own instrument station with reference to already plotted points."
+  },
+  {
+    "q": "254. Spirit level in plane table is used for",
+    "options": [
+      "Centering",
+      "Sighting",
+      "Marking north",
+      "Leveliing"
+    ],
+    "correct": 3,
+    "explain": "The spirit level fitted to (or used with) a plane table is specifically used to check and set the table perfectly horizontal, i.e., for levelling the table."
+  },
+  {
+    "q": "255. A reverse curve consists of",
+    "options": [
+      "a single curve of a circle connecting two straights",
+      "two arcs of different radii bending in the same direction",
+      "two arcs of equal radii bending in the same direction",
+      "two arcs of equal or different radii bending in the opposite directions"
+    ],
+    "correct": 3,
+    "explain": "A reverse curve is composed of two circular arcs (of equal or different radii) that curve in opposite directions, joined at a common tangent point."
+  },
+  {
+    "q": "256. When the centers of the arcs lie on the opposite sides of the common tangent at the junction of the two curves, it is known as a",
+    "options": [
+      "simple curve",
+      "vertical curve",
+      "compound curve",
+      "reverse curve"
+    ],
+    "correct": 3,
+    "explain": "This specific geometric arrangement, where the centres of curvature of the two joined arcs lie on opposite sides of their common tangent, defines a reverse curve."
+  },
+  {
+    "q": "257. A simple circular curve is designated by the",
+    "options": [
+      "radius of the curve",
+      "curvature of the curve",
+      "angle subtended at the centre by a chord of any length",
+      "angle subtended at the centre by a chord of a particular length"
+    ],
+    "correct": 3,
+    "explain": "A simple circular curve is conventionally designated by its 'degree of curve', which is the angle subtended at the centre by a chord of one particular standard length (e.g., 30 m or 100 ft)."
+  },
+  {
+    "q": "258. The degree of the curve is the angle subtended by a chord of length.",
+    "options": [
+      "15 m",
+      "20 m",
+      "25 m",
+      "30 m"
+    ],
+    "correct": 3,
+    "explain": "As per this text's convention, the degree of a curve is defined as the angle subtended at the centre by a standard chord length of 30 m."
+  },
+  {
+    "q": "259. When R is the radius of the curve (in meters), D is the degree of curve (in degrees) and length of the chord is 30 m, then the relation between R and D is",
+    "options": [
+      "R = 1520/D",
+      "R = 1720/D",
+      "R = 4500/D",
+      "R = 5400/D"
+    ],
+    "correct": 1,
+    "explain": "For a 30 m chord definition of degree of curve, the standard relation is R = 1720/D (approximately, derived from R = (chord/2)/sin(D/2) for small D)."
+  },
+  {
+    "q": "260. The angle between the back tangent and forward tangent of a curve is known as",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The angle subtended at the centre of the curve between the back tangent and the forward tangent (or equivalently between the two radii to the tangent points) is called the central angle."
+  },
+  {
+    "q": "261. The angle by which the forward tangent deflects from the back tangent of a curve is called",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The deflection angle is, by definition, the angle by which the forward tangent direction deflects from the direction of the back tangent."
+  },
+  {
+    "q": "262. A deflection angle is",
+    "options": [
+      "less than 90 deg",
+      "more than 90 deg but less than 180 deg",
+      "equal to the difference between the angle of intersection and 180 deg",
+      "equal to the difference between the angle of intersection and 360 deg"
+    ],
+    "correct": 2,
+    "explain": "The deflection angle and the angle of intersection are supplementary, so the deflection angle equals 180 deg minus the angle of intersection."
+  },
+  {
+    "q": "263. The length of peg interval for flat curves is",
+    "options": [
+      "15 m",
+      "20 m",
+      "25 m",
+      "30 m"
+    ],
+    "correct": 3,
+    "explain": "For flat (large radius) curves, pegs are usually set out at the full standard chord interval of 30 m, as used for the degree-of-curve definition."
+  },
+  {
+    "q": "264. When the length of a chord is less than the peg interval, it is known as",
+    "options": [
+      "small chord",
+      "short chord",
+      "sub-chord",
+      "normal chord"
+    ],
+    "correct": 2,
+    "explain": "A chord shorter than the standard peg interval (used typically at the beginning or end of a curve) is called a sub-chord."
+  },
+  {
+    "q": "265. The total length of the curve is equal to",
+    "options": [
+      "pi*R*phi",
+      "pi*R*phi/90",
+      "pi*R*phi/180",
+      "pi*R*phi/360"
+    ],
+    "correct": 2,
+    "explain": "The length of a circular curve (arc) subtending an angle phi (in degrees) at the centre, with radius R, is given by L = pi*R*phi/180."
+  },
+  {
+    "q": "266. Total station is",
+    "options": [
+      "total number of stations in traverse",
+      "even or odd no. of station in traverse",
+      "optical distance measurement instrument",
+      "electro magnetic distance measurement instrument"
+    ],
+    "correct": 3,
+    "explain": "A total station is an electronic surveying instrument that integrates an electronic theodolite with an Electromagnetic (Electronic) Distance Measurement (EDM) unit."
+  },
+  {
+    "q": "267. Different grades are jointed together by",
+    "options": [
+      "transition curve",
+      "horizontal curve",
+      "vertical curve",
+      "compound curve"
+    ],
+    "correct": 2,
+    "explain": "Vertical curves are used to smoothly join two different longitudinal gradients (grades) on a road or railway alignment."
+  },
+  {
+    "q": "268. 'Point of curve' is",
+    "options": [
+      "point of tangent",
+      "point of commencement",
+      "point of intersection",
+      "all of above"
+    ],
+    "correct": 1,
+    "explain": "The 'point of curve' refers to the point of commencement of the curve, i.e., where the curve begins (tangent point at the start)."
+  },
+  {
+    "q": "269. The angle of intersection of a curve is the angle between",
+    "options": [
+      "forward tangent and back tangent",
+      "forward tangent and long chord",
+      "both of above",
+      "none of above"
+    ],
+    "correct": 0,
+    "explain": "As stated in Q12, the angle of intersection of a curve is the angle between the (prolongation of) back tangent and the forward tangent."
+  },
+  {
+    "q": "270. The size of plane table is",
+    "options": [
+      "350 x 500mm",
+      "450 x 600mm",
+      "500 x 800mm",
+      "600 x 750mm"
+    ],
+    "correct": 3,
+    "explain": "A standard plane table used in surveying is typically about 600 mm x 750 mm in size, as given by this text."
+  },
+  {
+    "q": "271. The following sights are taken on a 'turning point'",
+    "options": [
+      "foresight only",
+      "backsight only",
+      "foresight and backsight",
+      "foresight and intermediate sight"
+    ],
+    "correct": 2,
+    "explain": "A turning point (change point) requires both a foresight (to close the current instrument setup) and a subsequent backsight (from the new instrument position), so both are taken there."
+  },
+  {
+    "q": "272. The type of surveying which requires least office work is",
+    "options": [
+      "tacheometry",
+      "trigonometrical levelling",
+      "plane table surveying",
+      "theodolite surveying"
+    ],
+    "correct": 2,
+    "explain": "Since plotting is done directly in the field alongside observation in plane table surveying, it requires the least amount of subsequent office (indoor) computation and plotting work."
+  },
+  {
+    "q": "273. Overturning of vehicles on a curve can be avoided by using",
+    "options": [
+      "compound curve",
+      "vertical curve",
+      "reverse curve",
+      "transition curve"
+    ],
+    "correct": 3,
+    "explain": "Transition curves gradually introduce curvature (and superelevation) between a straight and a circular curve, reducing the centrifugal effect and thus avoiding sudden overturning tendencies of vehicles."
+  },
+  {
+    "q": "274. An ideal vertical curve to join two gradients, is",
+    "options": [
+      "circular",
+      "elliptical",
+      "parabolic",
+      "hyperbolic"
+    ],
+    "correct": 2,
+    "explain": "A simple parabolic curve is considered ideal for vertical curves joining two different road/rail gradients, since it provides a constant rate of change of grade."
+  },
+  {
+    "q": "275. The angle between the prolongation of the preceding line and the forward line of a traverse is called",
+    "options": [
+      "deflection angle",
+      "included angle",
+      "direct angle",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "As defined earlier (Q210), this angle between the prolongation of the preceding survey line and the following line is the deflection angle."
+  },
+  {
+    "q": "276. The method most suitable for plotting in hilly areas is",
+    "options": [
+      "traversing",
+      "radiation",
+      "intersection",
+      "resection"
+    ],
+    "correct": 2,
+    "explain": "In hilly terrain, where direct chaining or traversing between points is difficult, the method of intersection (measuring angles from two known stations) is most suitable for plotting points."
+  },
+  {
+    "q": "277. Three-point problem can be solved by",
+    "options": [
+      "Tracing paper method",
+      "Bessel's method",
+      "Lehman's method",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The three-point problem for orienting a plane table can be solved by several standard techniques, including the tracing paper method, Bessel's (mechanical/graphical) method, and Lehmann's method, so all are valid solutions."
+  },
+  {
+    "q": "278. Parallax is an adjustment carried out in",
+    "options": [
+      "Chain surveying",
+      "Levelling",
+      "Plane Table Surveying",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Removal of parallax (by properly focusing the eyepiece and objective) is a key temporary adjustment carried out in levelling instruments before taking readings."
+  },
+  {
+    "q": "279. Correction for Sag is always",
+    "options": [
+      "positive",
+      "negative",
+      "either a or b",
+      "neither a nor b"
+    ],
+    "correct": 1,
+    "explain": "Since a sagging tape always measures a distance that is effectively longer than the true horizontal distance, the sag correction is always subtracted, i.e., it is always negative."
+  },
+  {
+    "q": "280. One mile equals to",
+    "options": [
+      "60 Gunter's Chain",
+      "80 Gunter's Chain",
+      "100 Gunter's Chain",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Since a Gunter's chain is 66 feet long and one mile is 5280 feet, one mile equals 5280/66 = 80 Gunter's chains."
+  },
+  {
+    "q": "281. The missing station of the ground survey can be found out with the help of",
+    "options": [
+      "Key plan",
+      "reference sketch",
+      "arithmetic calculation",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A missing or unclear survey station's position can typically be identified/re-established with the help of a reference sketch made during the original fieldwork, showing its relation to nearby features."
+  },
+  {
+    "q": "282. With the help of a Tacheometer we can measure",
+    "options": [
+      "Elevation of points",
+      "horizontal angles",
+      "vertical angles",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A tacheometer, essentially a theodolite fitted with stadia hairs, is primarily used to measure vertical angles (along with horizontal angles and stadia readings) to compute distance and elevation."
+  },
+  {
+    "q": "283. In order to determine the natural features such as valley, rivers, lakes etc., the surveying prepared is",
+    "options": [
+      "City survey",
+      "Location survey",
+      "Cadastral survey",
+      "Topographical survey"
+    ],
+    "correct": 3,
+    "explain": "As in Q201, topographical surveying is used to determine and depict natural features such as valleys, rivers, and lakes."
+  },
+  {
+    "q": "284. A level surface to which elevation of different points are referred to, is known as:",
+    "options": [
+      "Level surface",
+      "Datum",
+      "Horizontal",
+      "Plane"
+    ],
+    "correct": 1,
+    "explain": "A datum is the reference level surface to which the elevations of all other points in a survey are referred."
+  },
+  {
+    "q": "285. A relatively permanent point of reference whose elevation is known as:",
+    "options": [
+      "Reduced level",
+      "Bench mark",
+      "Level surface",
+      "Datum point"
+    ],
+    "correct": 1,
+    "explain": "As defined earlier, a bench mark is a relatively permanent point of reference whose elevation is already known."
+  },
+  {
+    "q": "286. Correction applied in prismoidal correction is always",
+    "options": [
+      "Subtractive",
+      "Additive",
+      "Multiplicative",
+      "Divisible"
+    ],
+    "correct": 1,
+    "explain": "The prismoidal correction, which accounts for the difference between the trapezoidal formula and the more accurate prismoidal formula for volume computation, is applied additively per this text's convention."
+  },
+  {
+    "q": "287. How many types of bench mark are there?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "As per this text, bench marks are classified into two main types."
+  },
+  {
+    "q": "288. Trapezoidal formula is also known as",
+    "options": [
+      "Simpson's rule",
+      "Co-ordinate method",
+      "Prismoidal method",
+      "Average end area method"
+    ],
+    "correct": 3,
+    "explain": "The trapezoidal formula for computing volumes/areas from cross-sections is also known as the average end area method."
+  },
+  {
+    "q": "289. Which of the following methods is capable of providing sufficient accuracy?",
+    "options": [
+      "Area by planimeter",
+      "Area by co-ordinates",
+      "Prismoidal method",
+      "Trapezoidal method"
+    ],
+    "correct": 3,
+    "explain": "Per this text, the trapezoidal method is identified as being capable of providing sufficient practical accuracy for area/volume computation among the listed methods."
+  },
+  {
+    "q": "290. Which of the following can fulfill the objective of the airport survey?",
+    "options": [
+      "Electric line map",
+      "Characteristics of soil",
+      "Water line map",
+      "Cable line map"
+    ],
+    "correct": 1,
+    "explain": "An airport survey requires detailed information on the characteristics of the soil, which is essential for pavement/runway design and foundation planning."
+  },
+  {
+    "q": "291. Different types of EDM's are obtained on the basis of",
+    "options": [
+      "Wave length",
+      "Carrier wave",
+      "Frequency",
+      "Time period"
+    ],
+    "correct": 1,
+    "explain": "EDM (Electronic Distance Measurement) instruments are classified based on the type of carrier wave used, such as light waves, infrared, or microwaves."
+  },
+  {
+    "q": "292. Which among the following EDM instruments is having more range?",
+    "options": [
+      "Infra-red instruments",
+      "Visible light instruments",
+      "Microwave instruments",
+      "Gamma ray instruments"
+    ],
+    "correct": 2,
+    "explain": "Microwave-based EDM instruments offer a much greater measuring range than infra-red or visible light instruments, as microwaves suffer less atmospheric attenuation over long distances."
+  },
+  {
+    "q": "293. In total station, data is stored in",
+    "options": [
+      "Pen drive",
+      "Data card",
+      "Micro processor",
+      "External hardware"
+    ],
+    "correct": 2,
+    "explain": "A total station stores its measured/computed data internally using its built-in microprocessor and memory."
+  },
+  {
+    "q": "294. Which of the following indicates the correct set of the combination of total station?",
+    "options": [
+      "Theodolite, compass",
+      "Theodolite, EDM",
+      "Electronic theodolite, EDM",
+      "EDM, GPS"
+    ],
+    "correct": 2,
+    "explain": "A total station is correctly defined as the combination of an electronic theodolite with an integrated Electronic Distance Measurement (EDM) unit."
+  },
+  {
+    "q": "295. Which among the following doesn't indicate the basic calculation of total station?",
+    "options": [
+      "Horizontal distance",
+      "Slope distance",
+      "Vertical distance",
+      "Co-ordinate calculations"
+    ],
+    "correct": 1,
+    "explain": "Per this text, slope distance is not counted among the 'basic' calculations of the total station, which instead directly outputs horizontal distance, vertical distance, and co-ordinates (slope distance is measured but treated separately here)."
+  },
+  {
+    "q": "296. The data obtained from total station can be used in which among the following software directly?",
+    "options": [
+      "Primavera",
+      "STAAD PRO",
+      "Autodesk Revit",
+      "Surfer"
+    ],
+    "correct": 3,
+    "explain": "Survey data (points/co-ordinates) from a total station can be directly imported into Surfer, a contouring and terrain modelling software, for map/DTM generation."
+  },
+  {
+    "q": "297. After levelling of an instrument is done what is the next up?",
+    "options": [
+      "Releasing all clamps",
+      "Loosing the lower clamp",
+      "Turning plates",
+      "Clamping the plates"
+    ],
+    "correct": 0,
+    "explain": "After the temporary adjustment of levelling the instrument is complete, the next step is to release all the clamping screws so that the instrument is free for sighting."
+  },
+  {
+    "q": "298. In order to measure the magnetic bearing of a line, the theodolite should be provided with",
+    "options": [
+      "extra telescope",
+      "spirit level",
+      "compass",
+      "tabular or trough compass"
+    ],
+    "correct": 3,
+    "explain": "To measure the magnetic bearing of a line using a theodolite, a small tabular or trough compass must be fitted onto the instrument."
+  },
+  {
+    "q": "299. Which of the following doesn't involve the method of traversing?",
+    "options": [
+      "Chain surveying",
+      "Theodolite surveying",
+      "Plane Table surveying",
+      "Tacheometric surveying"
+    ],
+    "correct": 3,
+    "explain": "Per this text, tacheometric surveying is identified as not typically involving the specific method of traversing, unlike chain, theodolite, and plane table surveying."
+  },
+  {
+    "q": "300. Which among the following is a procedure for computation of traverse area?",
+    "options": [
+      "Calculation and adjustment of latitudes and departures",
+      "Adjustment of instrument",
+      "Calculation of consecutive co-ordinates",
+      "Determination of R.L"
+    ],
+    "correct": 0,
+    "explain": "Computing the area of a closed traverse requires first calculating and adjusting (balancing) the latitudes and departures of all its sides, from which co-ordinates and area are then derived."
+  },
+  {
+    "q": "301. For adjusting the traverse, which of the following methods can be used?",
+    "options": [
+      "Compass traversing",
+      "Chain traversing",
+      "Theodolite traversing",
+      "Bowditch's method"
+    ],
+    "correct": 3,
+    "explain": "Bowditch's method (rule) is the standard method used specifically for adjusting/balancing the latitudes and departures of a closed traverse."
+  },
+  {
+    "q": "302. Which of the following is the accurate method for plotting traverse area?",
+    "options": [
+      "Transit method",
+      "Angle and distance method",
+      "Co-ordinate method",
+      "Bowditch's method"
+    ],
+    "correct": 2,
+    "explain": "As with plotting theodolite traverses generally (Q71), the co-ordinate method (plotting each station by its independent co-ordinates) is the most accurate way to plot a traverse area."
+  },
+  {
+    "q": "303. Bench marks are fixed by",
+    "options": [
+      "profile leveling",
+      "trigonometric leveling",
+      "barometric leveling",
+      "spirit leveling"
+    ],
+    "correct": 3,
+    "explain": "Bench marks are established with high accuracy using ordinary spirit levelling, which provides the precision required for a permanent reference elevation point."
+  },
+  {
+    "q": "306. The technique of plotting all the accessible stations with a single set up of plane table is called",
+    "options": [
+      "radiation",
+      "interesection",
+      "resection",
+      "traversing"
+    ],
+    "correct": 0,
+    "explain": "As stated in Q104, this technique of plotting all accessible points from a single plane table setup is called radiation."
+  },
+  {
+    "q": "307. The method of finding out the difference in elevation between two points for eliminating the effect of curvature and refraction is",
+    "options": [
+      "reciprocal leveling",
+      "precise leveling",
+      "differential leveling",
+      "flying leveling"
+    ],
+    "correct": 2,
+    "explain": "Per the answer key provided in this text, differential levelling is identified as the method used here, since it is the general procedure for determining elevation differences over multiple set-ups, effectively managing curvature and refraction through careful instrument placement."
+  }
+]

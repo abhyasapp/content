@@ -1,0 +1,530 @@
+[
+  {
+    "q": "301. With the usual notations, capital recovery factor is given by",
+    "options": [
+      "(1 + i)^n",
+      "i / [(1 + i)^n - 1]",
+      "i / (1 + i)^n",
+      "i(1 + i)^n / [(1 + i)^n - 1]"
+    ],
+    "correct": 3,
+    "explain": "The Capital Recovery Factor (CRF) is used to calculate the equal annual payments required to recover a current investment over 'n' periods at interest rate 'i'. The formula is $[i(1+i)^n] / [(1+i)^n - 1]$."
+  },
+  {
+    "q": "302. In time-cost optimization of a project, crashing is done",
+    "options": [
+      "on all the activities",
+      "on all the activities lying on the critical path",
+      "only on activities lying on the original critical path and having flatter cost slopes",
+      "on original critical activities and those that become critical at any stage of crashing in the order of ascending cost slope"
+    ],
+    "correct": 3,
+    "explain": "To minimize costs while shortening duration, crashing is performed on critical activities starting with the one that has the lowest (cheapest) cost slope. As paths change, new critical activities must also be considered."
+  },
+  {
+    "q": "303. Site order book is used for recording",
+    "options": [
+      "instructions of the executive engineer",
+      "construction measurements",
+      "requisition of plants and equipment",
+      "indents for materials to be ordered"
+    ],
+    "correct": 0,
+    "explain": "A site order book is maintained at the work site to record instructions, observations, or orders issued by the engineer-in-charge or superior officers to the contractor."
+  },
+  {
+    "q": "304. Free float for any activity is defined as the difference between",
+    "options": [
+      "its earliest finish time and earliest start time for its successor activity",
+      "its latest start time and earliest start time",
+      "its latest finish time and earliest start time for successor activity",
+      "its earliest finish time and latest start time for its successor activity"
+    ],
+    "correct": 0,
+    "explain": "Free float is the amount of time an activity can be delayed without affecting the earliest start time of any succeeding activity. It is calculated as: $ES_{successor} - EF_{current}$."
+  },
+  {
+    "q": "305. Critical path",
+    "options": [
+      "is always longest",
+      "is always shortest",
+      "may be longest",
+      "may be shortest"
+    ],
+    "correct": 0,
+    "explain": "In a project network, the critical path is the longest path from the start to the finish. It determines the minimum time required to complete the project."
+  },
+  {
+    "q": "306. The independent float affects only",
+    "options": [
+      "preceding activities",
+      "succeeding activities",
+      "the particular activity involved",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Independent float is the delay possible for an activity even if all preceding activities end as late as possible and all succeeding activities start as early as possible. It does not affect any other activity in the network."
+  },
+  {
+    "q": "307. The time by which a particular activity can be delayed without affecting the preceding and succeeding activities is known as",
+    "options": [
+      "total float",
+      "free float",
+      "interfering float",
+      "independent float"
+    ],
+    "correct": 3,
+    "explain": "Independent float is unique because it is the only float that does not consume the float of either the preceding or succeeding activities."
+  },
+  {
+    "q": "308. The time with which direct cost does not reduce with the increase in time is known",
+    "options": [
+      "crash time",
+      "normal time",
+      "optimistic time",
+      "standard time"
+    ],
+    "correct": 1,
+    "explain": "Normal time is the duration that results in the minimum direct cost. Increasing time beyond this does not further reduce direct costs and may increase indirect costs."
+  },
+  {
+    "q": "309. Milestone chart is an improvement over",
+    "options": [
+      "Bar chart",
+      "P.E.R.T.",
+      "C.P.M.",
+      "All of these"
+    ],
+    "correct": 0,
+    "explain": "Milestone charts were developed as an improvement to Gantt (Bar) charts by adding key 'milestones' or events to show specific points of achievement within a task."
+  },
+  {
+    "q": "310. Clamshell are used to remove loose material from inside",
+    "options": [
+      "cofferdams",
+      "pier foundations",
+      "sewer manholes",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Clamshell excavators are specifically designed for vertical lifting of loose materials, making them ideal for deep, confined spaces like cofferdams, pier foundations, and manholes."
+  },
+  {
+    "q": "311. Which of the following is not another name of Hoe?",
+    "options": [
+      "backhoe",
+      "back-shovel",
+      "pull shoval",
+      "trenching machine"
+    ],
+    "correct": 3,
+    "explain": "While hoes are used for trenching, 'trenching machine' refers to a specific dedicated machine (like a trencher). Backhoe, back-shovel, and pull-shovel are all standard alternative names for a Hoe."
+  },
+  {
+    "q": "312. Hoe is primarily used to excavate",
+    "options": [
+      "below the natural surface of the ground on which the machine rests",
+      "trenches requiring precise control of depth",
+      "pits of basements requiring precise control of depth",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "The Hoe's downward and inward digging action makes it perfect for excavating below its own track level, providing excellent control for trenches and basement pits."
+  },
+  {
+    "q": "313. Idlers are",
+    "options": [
+      "excavating equipments",
+      "dumping equipments",
+      "used in hoes",
+      "used to provide supports for belt conveyor system"
+    ],
+    "correct": 3,
+    "explain": "In belt conveyor systems, idlers are the non-powered rollers that support the belt and the load being transported."
+  },
+  {
+    "q": "314. The start or completion of task is called",
+    "options": [
+      "an event",
+      "an activity",
+      "a duration",
+      "any one of these"
+    ],
+    "correct": 0,
+    "explain": "An event represents a specific point in time (start or end) and does not consume any time or resources, unlike an activity."
+  },
+  {
+    "q": "315. An activity requires",
+    "options": [
+      "events",
+      "resources",
+      "time and resources",
+      "energy"
+    ],
+    "correct": 2,
+    "explain": "By definition, an activity is a process that takes time to complete and consumes resources (labor, materials, money)."
+  },
+  {
+    "q": "316. P.E.R.T.",
+    "options": [
+      "provides an approach for keeping planning up-to-date",
+      "provides a way for management to require that planning be done on a uniform and logical basis",
+      "permits management to foresee quickly the impact of variations from the plan",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Program Evaluation and Review Technique (PERT) is a management tool used to schedule, organize, and coordinate tasks within a project, offering flexibility and predictive capabilities."
+  },
+  {
+    "q": "317. The opening of bidding in the process of procurement is",
+    "options": [
+      "contracting",
+      "tendering",
+      "negotiation",
+      "mediation"
+    ],
+    "correct": 1,
+    "explain": "Tendering is the process by which an organization invites bids for large projects. It includes the invitation, submission, and opening of bids."
+  },
+  {
+    "q": "318. Consulting works worth more than 10 crores NRs should be procured on the basis of",
+    "options": [
+      "R.F.P.",
+      "R.F.P. and E.O.I.",
+      "International level E.O.I. and R.F.P.",
+      "International level R.F.P."
+    ],
+    "correct": 2,
+    "explain": "According to Nepalese procurement regulations, high-value consulting services (above 100 million NPR) require an Expression of Interest (EOI) followed by a Request for Proposal (RFP) at an international level."
+  },
+  {
+    "q": "319. The estimated cost of works must be quoted in the tender notice for works worth up to",
+    "options": [
+      "60 lakh",
+      "1 crore",
+      "2 crore",
+      "3 crore"
+    ],
+    "correct": 2,
+    "explain": "Standard procurement practice in Nepal typically requires the estimated cost to be disclosed in the notice for works valued up to 20 million (2 Crore) NPR to guide bidders."
+  },
+  {
+    "q": "320. P.E.R.T. analysis is based upon",
+    "options": [
+      "optimistic time",
+      "pessimistic time",
+      "most likely time",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "PERT uses a weighted average of three time estimates: Optimistic ($t_o$), Pessimistic ($t_p$), and Most Likely ($t_m$) to account for uncertainty."
+  },
+  {
+    "q": "321. Probabilistic time for completion of any activity can be found from",
+    "options": [
+      "optimistic time",
+      "pessimistic time",
+      "most likely time",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "The 'Expected Time' ($t_e$) in PERT is a probabilistic value derived using all three time estimates ($t_o$, $t_p$, $t_m$)."
+  },
+  {
+    "q": "322. The optimistic time represent the",
+    "options": [
+      "shortest possible time in which an activity can be completed if everything goes exceptionally well",
+      "time in which the activity is normally expected to complete under normal contingencies",
+      "time in which an activity will take to complete in case of difficulty",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Optimistic time ($t_o$) assumes ideal conditions where no delays or setbacks occur during the execution of an activity."
+  },
+  {
+    "q": "323. The time in which an activity will take to complete in case of difficulty, is called",
+    "options": [
+      "optimistic time",
+      "most likely time",
+      "pessimistic time",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Pessimistic time ($t_p$) is the maximum time required for an activity, assuming everything that can reasonably go wrong does go wrong."
+  },
+  {
+    "q": "324. Float or slack represent the difference between the",
+    "options": [
+      "earliest completion time and latest allowable time",
+      "latest allowable time and earliest completion time",
+      "earliest completion time and normal expected time",
+      "latest allowable time and normal allowable time"
+    ],
+    "correct": 1,
+    "explain": "Float (in CPM) or Slack (in PERT) is the margin of extra time available; it is the difference between the latest allowable finish and the earliest finish."
+  },
+  {
+    "q": "325. The amount of time by which the activity completion can be delayed without interfering with the start of succeeding activity, is known as",
+    "options": [
+      "earliest completion time",
+      "total float",
+      "free float",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Free float is the delay allowed for an activity that does not delay the early start of its successor. If free float is used, it does not affect any other part of the schedule."
+  },
+  {
+    "q": "326. The early finish time of an activity is the ______ of early start time and duration of activity.",
+    "options": [
+      "sum",
+      "difference",
+      "product",
+      "ratio"
+    ],
+    "correct": 0,
+    "explain": "Formula: $EF = ES + d$. The Earliest Finish time is simply the Earliest Start time plus the duration of the task."
+  },
+  {
+    "q": "327. A Gantt chart indicates",
+    "options": [
+      "Balance of work to be done",
+      "Efficiency of project work",
+      "Comparison of actual process with the scheduled progress",
+      "Progress cost of project"
+    ],
+    "correct": 2,
+    "explain": "Gantt charts are primarily used to monitor progress by comparing the planned timeline (bars) against the actual completion status."
+  },
+  {
+    "q": "328. The jobs going ahead of schedule are conveniently shown in",
+    "options": [
+      "Gantt chart",
+      "Milestone chart",
+      "Pie chart",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "In a Gantt chart, progress bars extended beyond the current date line indicate that a job is ahead of its planned schedule."
+  },
+  {
+    "q": "329. Travel chart are used to",
+    "options": [
+      "analyse material handling",
+      "determine inventory control difficulties",
+      "plan material handling procedure and routes",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A travel chart is a matrix used to study the flow of materials/people between different departments to optimize layout and reduce handling costs."
+  },
+  {
+    "q": "330. Actual performance of a task is called",
+    "options": [
+      "an event",
+      "an activity",
+      "a duration",
+      "any one of these"
+    ],
+    "correct": 1,
+    "explain": "An activity represents the actual work or performance of a task that consumes time and resources."
+  },
+  {
+    "q": "331. Size of a dragline is indicated by the size of",
+    "options": [
+      "bucket",
+      "dipper",
+      "cab",
+      "boom"
+    ],
+    "correct": 0,
+    "explain": "The capacity of a dragline is primarily rated by the volumetric size of its bucket (usually in cubic meters or yards)."
+  },
+  {
+    "q": "332. The total activity slack is equal to",
+    "options": [
+      "late start time - early start time",
+      "late finish time - early finish time",
+      "latest allowable event occurrence time - early finish time",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Total Slack (Total Float) can be calculated in several ways: $LS - ES$, $LF - EF$, or $L - E$. All these represent the same time buffer."
+  },
+  {
+    "q": "333. The free float is equal to",
+    "options": [
+      "latest allowable event occurrence time + early finish time",
+      "earliest event occurrence time + early finish time",
+      "latest allowable event occurrence time - early finish time",
+      "earliest event occurrence time - early finish time"
+    ],
+    "correct": 3,
+    "explain": "Free Float = (Earliest Start of successor) - (Early Finish of activity). In event-based terminology, it is $E_j - E_i - d$."
+  },
+  {
+    "q": "334. The estimated time required to complete an activity is known as",
+    "options": [
+      "duration",
+      "float",
+      "restraint",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "Duration is the predicted span of time necessary to finish a task, excluding holidays or non-working periods."
+  },
+  {
+    "q": "335. When float or slack of an activity is positive",
+    "options": [
+      "it represents a situation where extra resources are available and the completion of project is not delayed",
+      "it represents that a programme falls behind schedule and additional resources are required to complete the project in time",
+      "the activity is critical and any delay in its performance will delay the completion of whole project",
+      "any one of the above"
+    ],
+    "correct": 0,
+    "explain": "Positive float indicates a 'safety margin'. The activity can be delayed by that amount without impacting the project deadline."
+  },
+  {
+    "q": "336. Critical path method",
+    "options": [
+      "helps in ascertaining time schedules",
+      "makes better and detailed planning possible",
+      "provides a standard method for communication project plans, schedules time and cost performance",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "CPM is a comprehensive planning technique used to determine the sequence of critical activities and manage the overall project timeline and resources."
+  },
+  {
+    "q": "337. Which of the following statement is correct?",
+    "options": [
+      "When float of an activity is zero, it falls only on critical path.",
+      "C.P.M. technique is useful to minimise the direct and indirect expenses.",
+      "Critical path of a network represents the minimum time required for completion of project.",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explain": "All statements are true: Zero float identifies critical activities, CPM balances costs, and the critical path duration is the fastest the project can finish."
+  },
+  {
+    "q": "338. When float of an activity is negative",
+    "options": [
+      "it represents a situation where extra resources are available and the completion of project is delayed",
+      "it represents that a programme falls behind schedule and additional resources are required to complete the project in time",
+      "the activity is critical and any delay in its performance will delay the completion of whole project",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Negative float occurs when the required completion date is earlier than the calculated earliest finish date, meaning the project is currently behind schedule."
+  },
+  {
+    "q": "339. Which of the following statement is wrong?",
+    "options": [
+      "an activity consumes time and resources whereas an event do not consume time or resources.",
+      "the performance of a specific task is called an activity",
+      "an event is an instantaneous point in time at which an activity begins or ends",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "None of the statements are wrong. Options (a), (b), and (c) correctly define the fundamental building blocks of a network diagram."
+  },
+  {
+    "q": "340. Which one of the following is not an excavating and moving type of equipment?",
+    "options": [
+      "Bulldozer",
+      "Clam shell",
+      "Scraper",
+      "Dump truck"
+    ],
+    "correct": 3,
+    "explain": "A dump truck is purely a hauling (transportation) equipment. Bulldozers, clamshells, and scrapers all perform excavation functions."
+  },
+  {
+    "q": "341. The price adjustment clause is essential for contract having duration greater than _______ months.",
+    "options": [
+      "6",
+      "12",
+      "15",
+      "20"
+    ],
+    "correct": 1,
+    "explain": "Under the Public Procurement Act of Nepal, a price adjustment clause is generally mandatory for contracts with a duration exceeding 12 months to account for inflation."
+  },
+  {
+    "q": "342. The final technical authority of a project is",
+    "options": [
+      "assistant engineer",
+      "executive engineer",
+      "superintending engineer",
+      "chief engineer"
+    ],
+    "correct": 3,
+    "explain": "In a department hierarchy, the Chief Engineer holds the ultimate technical decision-making power and responsibility for the project."
+  },
+  {
+    "q": "343. When used in connection with the progress of a work, the term amount indicates the",
+    "options": [
+      "total expenditure on a particular item",
+      "supplies made and services performed",
+      "value of the finished product in a manufacturing operation",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In construction accounting and progress reports, 'amount' refers to the monetary value spent or allocated for specific work items."
+  },
+  {
+    "q": "344. A dual role event",
+    "options": [
+      "is the head events as well as a tail event",
+      "consumes no time",
+      "is the beginning of one event and the end of another",
+      "is any event other than the initial and final events"
+    ],
+    "correct": 3,
+    "explain": "A dual role event acts as the end (head) of preceding activities and the start (tail) of succeeding activities. Only the very first and very last events of a project are NOT dual role."
+  },
+  {
+    "q": "345. If the path of activities leads back into itself, the resulting error in the network is known as",
+    "options": [
+      "looping",
+      "dangling",
+      "interfacing",
+      "splicing"
+    ],
+    "correct": 0,
+    "explain": "Looping occurs when a series of activities forms a cycle, making it impossible to calculate a finish date. This is a logical error in network planning."
+  },
+  {
+    "q": "346. In P.E.R.T., the critical path represents the",
+    "options": [
+      "shortest path of the earliest completion of the project",
+      "longest path of the network from the initial to final event",
+      "ideal path by proceeding along which the project can be completed as per schedule",
+      "path which takes into account the completion of the parallel activities"
+    ],
+    "correct": 1,
+    "explain": "Regardless of CPM or PERT, the critical path is always the sequence of activities that represents the longest duration through the network."
+  },
+  {
+    "q": "347. The optimistic time estimate represents",
+    "options": [
+      "the shortest time required to complete the activity under favorable conditions",
+      "the maximum time required to complete the activity under adverse conditions",
+      "the time the activity would most often require if normal conditions prevail",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The optimistic time ($t_o$) is the minimum possible time needed to complete an activity if everything goes perfectly."
+  },
+  {
+    "q": "348. If to, tp and tl represent the optimistic, pessimistic and most likely time estimates, the expected time of completion of the activity is given by",
+    "options": [
+      "te = (to + tl + tp) / 3",
+      "te = (to + 2tl + tp) / 4",
+      "te = (to + 3tl + tp) / 5",
+      "te = (to + 4tl + tp) / 6"
+    ],
+    "correct": 3,
+    "explain": "The PERT formula for Expected Time is a weighted average that gives 4 times the weight to the most likely time: $t_e = (t_o + 4t_m + t_p) / 6$. (Note: $t_l$ is used here as most likely)."
+  }
+]

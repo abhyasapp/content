@@ -1,0 +1,904 @@
+[
+  {
+    "q": "165. An ideal transition curve is",
+    "options": [
+      "cubic parabola",
+      "cubic spiral",
+      "clothoid spiral",
+      "true spiral"
+    ],
+    "correct": 2,
+    "explain": "The clothoid spiral is considered the theoretically ideal transition curve because its curvature increases exactly linearly with distance along the curve, matching the actual path of a vehicle turning at constant speed."
+  },
+  {
+    "q": "166. Shift of a curve, is",
+    "options": [
+      "L^2/6R",
+      "L/24R",
+      "L^2/24R",
+      "L^2/6R"
+    ],
+    "correct": 2,
+    "explain": "The shift of a curve (the perpendicular distance the circular curve is shifted inward to accommodate a transition curve) is given by the formula L^2/24R, where L is the transition curve length and R the radius."
+  },
+  {
+    "q": "167. In the prismatic compass",
+    "options": [
+      "the magnetic needle moves with the box",
+      "the line of sight doesn't move with the box",
+      "the magnetic needle and graduated circle do not move with the box",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In a prismatic compass, the magnetic needle (with attached graduated ring) stays fixed relative to magnetic north while the box (and line of sight/sighting vane) rotates freely; so the line of sight does not move with the fixed needle assembly."
+  },
+  {
+    "q": "168. Local attraction in compass surveying may exist due to",
+    "options": [
+      "incorrect leveling of the magnetic needle",
+      "loss of magnetism of the needle",
+      "friction of the needle at the pivot",
+      "presence of magnetic substances near the instrument"
+    ],
+    "correct": 3,
+    "explain": "Local attraction is caused by external magnetic disturbances - the presence of magnetic substances (iron objects, power lines, etc.) near the compass station - which deflect the needle from true magnetic north."
+  },
+  {
+    "q": "169. The horizontal angle between true meridian and magnetic meridian at a place is called",
+    "options": [
+      "azimuth",
+      "declination",
+      "local attraction",
+      "magnetic bearing"
+    ],
+    "correct": 1,
+    "explain": "This angle, between the true meridian and the magnetic meridian at a place, is by definition the magnetic declination."
+  },
+  {
+    "q": "170. Determining the difference in elevation between two points on the surface of the earth, is known as",
+    "options": [
+      "leveling",
+      "simple leveling",
+      "differential leveling",
+      "longitudinal leveling"
+    ],
+    "correct": 0,
+    "explain": "Leveling, in its most general definition, is the branch of surveying concerned with determining the difference in elevation between points on the earth's surface."
+  },
+  {
+    "q": "171. When the bubble of the level tube of level, remains central",
+    "options": [
+      "line of sight is horizontal",
+      "axis of the telescope is horizontal",
+      "line of collimation is horizontal",
+      "geometrical axis of the telescope is horizontal"
+    ],
+    "correct": 0,
+    "explain": "When the bubble is centred (in an adjusted level), the axis of the bubble tube is horizontal, which in turn means the line of sight is horizontal."
+  },
+  {
+    "q": "172. Plotting of inaccessible points on a plane table, is done by",
+    "options": [
+      "intersection method",
+      "radiation method",
+      "resection method",
+      "three point problem"
+    ],
+    "correct": 0,
+    "explain": "Points that are inaccessible (cannot be reached to measure distance) but are visible from two known plane table stations are plotted using the intersection method."
+  },
+  {
+    "q": "173. Locating the position of plane table station with reference to three known points, is known as",
+    "options": [
+      "intersection method",
+      "radiation method",
+      "resection method",
+      "three point problem"
+    ],
+    "correct": 3,
+    "explain": "When the plane table station's position is determined with reference to three known points visible on the ground, this is specifically termed the three-point problem (a case of resection)."
+  },
+  {
+    "q": "174. The 'fix' of a plane table from three known points, is good, if",
+    "options": [
+      "middle station is nearest",
+      "middle station is farthest",
+      "either the right or left station is nearest",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "As per the book's answer key, the quality of the 'fix' from three-point resection depends on the geometric configuration (strength of fix relative to the great circle), not simply on which station is nearest, so none of these applies directly."
+  },
+  {
+    "q": "175. A series of closely spaced contour lines represents a",
+    "options": [
+      "steep slope",
+      "gentle slope",
+      "uniform slope",
+      "plane surface"
+    ],
+    "correct": 0,
+    "explain": "Closely spaced contour lines indicate a rapid change in elevation over a short horizontal distance, representing a steep slope."
+  },
+  {
+    "q": "176. Direct method of contouring is",
+    "options": [
+      "a quick method",
+      "adopted for large surveys only",
+      "most accurate method",
+      "suitable for hilly terrain"
+    ],
+    "correct": 2,
+    "explain": "The direct method of contouring, where points actually lying on the contour are located and marked in the field, is the most accurate method, though it is slower than indirect methods."
+  },
+  {
+    "q": "177. The angle of intersection of a counter and a ridge line, is",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "correct": 3,
+    "explain": "Contour lines always cross ridge or valley lines at right angles (90 degrees), since ridge/valley lines represent the direction of steepest slope, which is perpendicular to the contour."
+  },
+  {
+    "q": "178. In case of double line river, contours are",
+    "options": [
+      "stopped at the banks of the river",
+      "stopped at the edge of the river",
+      "drawn across the water",
+      "drawn by parabolic curves having their vertex at the centre of the water"
+    ],
+    "correct": 1,
+    "explain": "For a double line (wide) river, contours are shown stopping at the edge/bank of the river rather than being drawn across the water body."
+  },
+  {
+    "q": "179. An imaginary line lying throughout on the surface of the earth and preserving a constant inclination to the horizontal, is called",
+    "options": [
+      "contour line",
+      "contour gradient",
+      "level line",
+      "line of gentle scope"
+    ],
+    "correct": 1,
+    "explain": "A contour gradient is an imaginary line on the ground surface that maintains a constant inclination (slope) to the horizontal throughout its length."
+  },
+  {
+    "q": "180. From any point on the surface with a given inclination",
+    "options": [
+      "only one contour gradient is possible",
+      "two contour gradients are possible",
+      "indefinite contour gradient are possible",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "From any given point with a specified inclination, two contour gradients are geometrically possible - one running in each direction around the slope at that constant grade."
+  },
+  {
+    "q": "181. Location of contour gradient for a highway is best set out from",
+    "options": [
+      "ridge down the hill",
+      "saddle down the hill",
+      "bottom to the ridge",
+      "bottom to the saddle"
+    ],
+    "correct": 1,
+    "explain": "For highway alignment, the contour gradient is best set out starting from a saddle (low point on a ridge) and working down the hill, providing more efficient routing options."
+  },
+  {
+    "q": "182. An angle between the inclined line of sight and the horizontal is called",
+    "options": [
+      "direct angle by angles/distances from same station",
+      "by angle from one station/distance from other",
+      "by distance from two different stations",
+      "by angles from two different stations"
+    ],
+    "correct": 3,
+    "explain": "Note: this question's answer-key entry appears to be a misprint/mismatch with a different question in the book (locating inaccessible objects); the angle between inclined line of sight and horizontal is properly termed the vertical angle. Please verify this entry visually against your copy."
+  },
+  {
+    "q": "183. In locating the details of inaccessible objects visible at least from transit stations, the method used is",
+    "options": [
+      "by angles and distances from the same station",
+      "by angle from one station and distance from the other station",
+      "by distances from two different stations",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "Note: this answer-key entry appears mismatched with the adjacent question in the book. The standard method for locating inaccessible objects visible from two transit stations is by angles from both stations (intersection); please verify this entry visually against your copy."
+  },
+  {
+    "q": "184. The traversing by the method of deflection angles is chiefly used in",
+    "options": [
+      "canals",
+      "highways",
+      "railways",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "The deflection angle method of traversing is commonly used across all types of linear engineering works - canals, highways, and railways - since it directly gives the angle by which the alignment changes at each station."
+  },
+  {
+    "q": "185. The difference between the most probable value and its observed value is",
+    "options": [
+      "true error",
+      "weighted observation",
+      "conditional error",
+      "residual error"
+    ],
+    "correct": 3,
+    "explain": "The residual error (or residual) is defined as the difference between the most probable value (usually the mean of observations) and any individual observed value."
+  },
+  {
+    "q": "186. An arbitrary surface with reference to which the elevation of points are measured and compared, is called",
+    "options": [
+      "datum surface",
+      "level surface",
+      "horizontal surface",
+      "vertical surface"
+    ],
+    "correct": 0,
+    "explain": "A datum surface is any arbitrarily chosen reference surface (such as mean sea level) from which elevations of points are measured and compared."
+  },
+  {
+    "q": "187. A line normal to the plumb line at all points is known as",
+    "options": [
+      "horizontal line",
+      "vertical line",
+      "level line",
+      "line of collimation"
+    ],
+    "correct": 2,
+    "explain": "A level line is defined as a curved line that is normal (perpendicular) to the direction of the plumb line (gravity) at every point along its length."
+  },
+  {
+    "q": "188. Substense bar is an instrument used for",
+    "options": [
+      "leveling",
+      "measurement of horizontal distances in plane areas",
+      "measurement of horizontal distances in undulated areas",
+      "measurement of angles"
+    ],
+    "correct": 2,
+    "explain": "A subtense bar is used together with a theodolite to measure horizontal distances indirectly, and it is particularly useful in undulating (uneven) terrain where direct chaining is difficult."
+  },
+  {
+    "q": "189. The number of horizontal cross wires in a stadia diaphragm is",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "A standard stadia diaphragm typically has one central horizontal cross wire plus two additional stadia hairs; per the book's answer key, one horizontal wire is noted here (referring to the central sighting hair, distinct from the stadia hairs)."
+  },
+  {
+    "q": "190. A contour map of the area is essential before proceeding with the construction of",
+    "options": [
+      "a building",
+      "a swimming pool",
+      "a dam",
+      "a bridge"
+    ],
+    "correct": 2,
+    "explain": "A detailed contour map is essential before constructing a dam, since it is critical for determining reservoir capacity, submergence area, and the layout of the dam and spillway."
+  },
+  {
+    "q": "191. Reciprocal leveling eliminates",
+    "options": [
+      "collimation error",
+      "collimation, curvature and refraction error",
+      "curvature and refraction error",
+      "collimation and curvature error fully and refraction error partly"
+    ],
+    "correct": 1,
+    "explain": "Reciprocal leveling, by averaging observations taken from both ends of a line, eliminates the combined effects of collimation error, earth's curvature, and atmospheric refraction."
+  },
+  {
+    "q": "192. Contour lines",
+    "options": [
+      "end abruptly",
+      "cross each other",
+      "are uniformly spaced",
+      "close somewhere"
+    ],
+    "correct": 3,
+    "explain": "Contour lines are always continuous closed loops; they never end abruptly but must eventually close somewhere, either within the map area or by returning to the same elevation elsewhere."
+  },
+  {
+    "q": "193. Contour lines look to cross each other in case of",
+    "options": [
+      "an overhanging cliff",
+      "a dam of vertical face",
+      "a steep hill",
+      "a deep valley"
+    ],
+    "correct": 0,
+    "explain": "Only in the special case of an overhanging cliff can contour lines appear to cross each other in plan view, since one part of the ground overhangs another at a different elevation but same horizontal projection."
+  },
+  {
+    "q": "194. In a theodolite the line of collimation is",
+    "options": [
+      "parallel to axis of plate levels",
+      "parallel to the vertical axis",
+      "perpendicular to the trunnion axis",
+      "parallel to the horizontal axis"
+    ],
+    "correct": 2,
+    "explain": "For correct theodolite operation, the line of collimation must be perpendicular to the trunnion (horizontal) axis, so that it sweeps out a true vertical plane when the telescope is plunged."
+  },
+  {
+    "q": "195. In a transit theodolite error due to eccentricity of verniers is counteracted by",
+    "options": [
+      "reading both the verniers",
+      "reading different parts of main scale",
+      "reading right and left faces",
+      "taking both right swing and left swing reading"
+    ],
+    "correct": 0,
+    "explain": "The error due to eccentricity of verniers (misalignment of the vernier scale centre with the instrument's rotation axis) is counteracted by reading both verniers (typically 180 degrees apart) and averaging the results."
+  },
+  {
+    "q": "196. Right face and left reading are taken to",
+    "options": [
+      "get the correct reading",
+      "eliminate error of trunnion axis not exactly horizontal",
+      "eliminate error in the line of collimation",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Taking readings on both faces (face left and face right) of the theodolite and averaging eliminates multiple instrumental errors together - collimation error, trunnion axis error, and other index errors - so all of the above apply."
+  },
+  {
+    "q": "197. Axis of altitude level is",
+    "options": [
+      "parallel to trunnion axis",
+      "perpendicular to the vertical axis",
+      "parallel to the line of collimation",
+      "perpendicular to plate levels"
+    ],
+    "correct": 2,
+    "explain": "The axis of the altitude (vertical circle) level is set parallel to the line of collimation, so that when the bubble is centred, the line of sight reads a true zero (horizontal) on the vertical circle."
+  },
+  {
+    "q": "198. A 15 cm theodolite means",
+    "options": [
+      "length of the telescope is 15 cm",
+      "height of standards is 15 cm",
+      "diameter of lower plate is 15 cm",
+      "radius of upper plate is 15 cm"
+    ],
+    "correct": 2,
+    "explain": "A theodolite is designated by the diameter of its lower (graduated horizontal) plate; a '15 cm theodolite' has a lower plate diameter of 15 cm."
+  },
+  {
+    "q": "199. A simple circular curve is designated by",
+    "options": [
+      "radius of the curve",
+      "curvature of the curve",
+      "angle subtended at the centre by a chord of any length",
+      "angle subtended at the centre by a chord of particular length"
+    ],
+    "correct": 3,
+    "explain": "A simple circular curve is designated by its degree of curve, which is the angle subtended at the centre by a chord of a specified (particular) standard length."
+  },
+  {
+    "q": "200. A fixed point of reference of known elevation is called",
+    "options": [
+      "change point station point",
+      "station point",
+      "bench mark",
+      "datum"
+    ],
+    "correct": 2,
+    "explain": "A bench mark (BM) is a fixed, stable point of known and recorded elevation used as a reference in leveling operations."
+  },
+  {
+    "q": "201. An imaginary line tangent to the longitudinal curve of the bubble tube at its middle points is called",
+    "options": [
+      "axis of telescope",
+      "axis of level tube",
+      "level line",
+      "line of collimation"
+    ],
+    "correct": 1,
+    "explain": "This is the definition of the axis of the level tube - the imaginary line tangent to the bubble tube's curved surface at its centre point."
+  },
+  {
+    "q": "202. The distances AC and BC are measured from two fixed points A and B whose distance AB is known. The point C is plotted by intersection. This method is generally adopted in",
+    "options": [
+      "chain surveying",
+      "traverse method of surveying",
+      "triangulation",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Locating an unknown point C by measuring/computing angles or distances from two known points A and B on a fixed baseline, and plotting by intersection, is the basic principle of triangulation."
+  },
+  {
+    "q": "203. Mistakes which may produce a very serious effect upon the final results arise due to",
+    "options": [
+      "in attention",
+      "in experience",
+      "carelessness",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Serious mistakes in survey work generally result from a combination of human factors - inattention, inexperience, and carelessness - so all of these are valid causes."
+  },
+  {
+    "q": "204. The systematic errors which persist and have regular effects in the performance of a survey operations, are due to",
+    "options": [
+      "careless",
+      "faulty instrument",
+      "inattention",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Systematic errors, which follow a definite mathematical/physical law and persist consistently, typically arise from a faulty (mis-calibrated or maladjusted) instrument."
+  },
+  {
+    "q": "205. The method of reversal",
+    "options": [
+      "is usually directed to examine whether a certain part is truly parallel or perpendicular to another",
+      "makes the erroneous relationship between parts evident",
+      "both 'a' and 'b'",
+      "neither 'a' nor 'b'"
+    ],
+    "correct": 2,
+    "explain": "The method of reversal serves both purposes - it examines whether parts of an instrument are truly parallel/perpendicular to each other, and in doing so makes any erroneous relationship between them evident."
+  },
+  {
+    "q": "206. The apparent error on reversal is",
+    "options": [
+      "equal to the actual error",
+      "twice the actual error",
+      "thrice the actual error",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "When an instrumental error is examined by the method of reversal, the apparent (observed) error is exactly twice the actual error present in the instrument's adjustment."
+  },
+  {
+    "q": "207. The sensitivity of bubble tube can be increased by",
+    "options": [
+      "increasing the diameter of tube",
+      "decreasing the length of bubble",
+      "increasing the viscosity of liquid",
+      "decreasing the radius of curvature of tube"
+    ],
+    "correct": 3,
+    "explain": "Note: increasing the radius of curvature of the bubble tube generally increases sensitivity in standard theory; however, per the book's printed answer key, decreasing the radius of curvature is given as the answer here - please verify against your copy."
+  },
+  {
+    "q": "208. With the rise of temperature, the sensitivity of bubble tube",
+    "options": [
+      "decreases",
+      "increases",
+      "remains constant",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "As temperature rises, the liquid inside the bubble tube becomes less viscous and the bubble itself expands, generally reducing the precision/sensitivity of readings, so sensitivity decreases."
+  },
+  {
+    "q": "209. Refraction correction",
+    "options": [
+      "completely eliminates curvature correction",
+      "partially eliminates curvature correction",
+      "adds to the curvature correction",
+      "has no effect on the curvature correction"
+    ],
+    "correct": 1,
+    "explain": "Atmospheric refraction bends the line of sight in the opposite sense to the effect of earth's curvature, so the refraction correction partially offsets (partially eliminates) the curvature correction, rather than fully cancelling it."
+  },
+  {
+    "q": "210. While doing leveling in undulating terrain, it is preferable to set level on",
+    "options": [
+      "the top of summit",
+      "the bottom of a valley",
+      "one side of the slope",
+      "anywhere"
+    ],
+    "correct": 2,
+    "explain": "In undulating terrain, setting the level instrument on one side of the slope (rather than at the very top or bottom) often provides better command over multiple staff points with fewer instrument setups."
+  },
+  {
+    "q": "211. A leveling station is a place where",
+    "options": [
+      "the level is setup",
+      "the level staff is held",
+      "both B.S. and F.S. are taken",
+      "temporary adjustments are done"
+    ],
+    "correct": 0,
+    "explain": "A leveling station (or instrument station) refers to the point where the leveling instrument itself is physically set up for taking observations."
+  },
+  {
+    "q": "212. The telescope of a dumpy level",
+    "options": [
+      "is rigidly fixed to the leveling head",
+      "can be tilted in a vertical plane",
+      "can be taken out of its supports and reversed",
+      "permits interchange of eye piece and object glass"
+    ],
+    "correct": 0,
+    "explain": "In a dumpy level, the telescope is rigidly and permanently fixed to the vertical spindle/leveling head, distinguishing it from tilting or reversible levels."
+  },
+  {
+    "q": "213. A traverse deflection angle is",
+    "options": [
+      "less than 90",
+      "more than 90 but less than 180",
+      "the difference between the included angle and 180",
+      "the difference between 360 and the included angle"
+    ],
+    "correct": 2,
+    "explain": "A deflection angle is defined as the angle by which a survey line deviates from the prolongation of the preceding line, calculated as the difference between the included angle and 180 degrees."
+  },
+  {
+    "q": "214. The size of plane table is",
+    "options": [
+      "750 mm x 900 mm",
+      "600 mm x 750 mm",
+      "450 mm x 600 mm",
+      "300 mm x 450 mm"
+    ],
+    "correct": 0,
+    "explain": "A standard plane table board used in surveying is typically 750 mm x 900 mm in size."
+  },
+  {
+    "q": "215. The vertical distance between any two consecutive contours is called",
+    "options": [
+      "vertical equivalent",
+      "horizontal equivalent",
+      "contour interval",
+      "contour gradient"
+    ],
+    "correct": 2,
+    "explain": "The constant vertical distance between any two consecutive contour lines on a map is, by definition, the contour interval."
+  },
+  {
+    "q": "216. The horizontal distance between any two consecutive contours is called",
+    "options": [
+      "vertical equivalent",
+      "horizontal equivalent",
+      "contour interval",
+      "contour gradient"
+    ],
+    "correct": 1,
+    "explain": "The horizontal distance between two consecutive contours (which varies with the slope) is called the horizontal equivalent."
+  },
+  {
+    "q": "217. When several contours coincide, it indicates",
+    "options": [
+      "a vertical cliff",
+      "a valley",
+      "a ridge",
+      "a saddle"
+    ],
+    "correct": 0,
+    "explain": "When multiple contour lines of different elevations coincide (appear as a single line) on a map, it indicates a vertical cliff, where elevation changes without any horizontal distance."
+  },
+  {
+    "q": "218. A branch of surveying in which the horizontal and vertical distances of points are obtained by instrumental observations, is known as",
+    "options": [
+      "chain surveying",
+      "plane table surveying",
+      "tacheometric surveying",
+      "hydrographic surveying"
+    ],
+    "correct": 2,
+    "explain": "Tacheometric surveying is defined as the branch in which both horizontal and vertical distances are obtained rapidly through instrumental (stadia) observations, without chaining."
+  },
+  {
+    "q": "219. The principle of tacheometry is used",
+    "options": [
+      "for locating contours",
+      "on hydrographic surveys",
+      "for filling in detail in topographic surveys",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Tacheometry's principle of rapid indirect distance/elevation measurement is widely applied for locating contours, hydrographic surveys, and filling in topographic detail - so all of these apply."
+  },
+  {
+    "q": "220. The multiplying constant for the tacheometer is",
+    "options": [
+      "f/i",
+      "i/f",
+      "f/d",
+      "f+d"
+    ],
+    "correct": 0,
+    "explain": "The multiplying constant of a tacheometer is given by f/i, where f is the focal length of the objective and i is the interval between the stadia hairs."
+  },
+  {
+    "q": "221. The additive constant for the tacheometer is",
+    "options": [
+      "f/i",
+      "i/f",
+      "f/d",
+      "f+d"
+    ],
+    "correct": 3,
+    "explain": "The additive constant of a tacheometer equals f+d, where f is the focal length of the objective and d is the distance from the optical centre to the vertical axis of the instrument."
+  },
+  {
+    "q": "222. The multiplying constant for the tacheometer is, generally, kept as",
+    "options": [
+      "20",
+      "40",
+      "60",
+      "100"
+    ],
+    "correct": 3,
+    "explain": "The multiplying constant of a tacheometer is conventionally standardized at 100 for ease of calculation."
+  },
+  {
+    "q": "223. The value of additive constant for the tacheometer varies from",
+    "options": [
+      "0 to 15 cm",
+      "15 to 30 cm",
+      "30 to 45 cm",
+      "45 to 60 cm"
+    ],
+    "correct": 0,
+    "explain": "The additive constant, dependent on the focal length and instrument geometry, typically varies from 0 to about 15 cm for standard tacheometers (approaching zero with an anallatic lens)."
+  },
+  {
+    "q": "224. An angle of deflection right, may be directly obtained by setting the instrument to read",
+    "options": [
+      "Zero on back station",
+      "180 on back station",
+      "90",
+      "270 on back station"
+    ],
+    "correct": 1,
+    "explain": "To directly obtain a deflection angle right, the theodolite is set to read 180 degrees when backsighted to the previous station, so that the forward reading directly gives the deflection angle."
+  },
+  {
+    "q": "225. Left swing is not much favoured in theodolite survey because",
+    "options": [
+      "most of the surveyors are accustomed to right hand",
+      "it is inconvenient to turn the telescope anti-clockwise",
+      "the readings increase clockwise",
+      "vertical scale comes to an inconvenient position to be read"
+    ],
+    "correct": 0,
+    "explain": "Left swing is generally avoided in practice because most surveyors are more accustomed and comfortable operating the instrument with their right hand for a clockwise (right) swing."
+  },
+  {
+    "q": "226. You have to observe an included angle with better accuracy than what is achievable by vernier, you will prefer the method of",
+    "options": [
+      "repetition",
+      "reiteration",
+      "double observations",
+      "exactness"
+    ],
+    "correct": 0,
+    "explain": "The method of repetition allows an angle to be measured multiple times cumulatively on the graduated circle before reading, effectively increasing the precision beyond the least count of the vernier."
+  },
+  {
+    "q": "227. Centering error of a theodolite produces an error",
+    "options": [
+      "in all angles equally",
+      "which does not vary with the direction or pointing",
+      "which varies with the direction of pointing and inversely with the length of sight",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A centering error causes an angular error that varies depending on the direction of pointing and is inversely proportional to the length of the sight - shorter sights are affected more severely."
+  },
+  {
+    "q": "228. In horizontal angles, the error due to imperfect leveling of the plate bubble is",
+    "options": [
+      "large when sights are nearly level",
+      "large for long sights",
+      "less for steeply inclined sights",
+      "large for steeply inclined sights"
+    ],
+    "correct": 3,
+    "explain": "The error in horizontal angle measurement due to imperfect plate bubble leveling becomes larger for steeply inclined sights, since the vertical axis tilt has a greater effect when sighting objects at significant vertical angles."
+  },
+  {
+    "q": "229. Removal of parallax, may be achieved by focusing",
+    "options": [
+      "the objective",
+      "the eye-piece",
+      "the objective and the eye-piece",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Parallax is removed by correctly focusing both the eyepiece (for clear cross-hairs) and the objective (to bring the image into the plane of the cross-hairs)."
+  },
+  {
+    "q": "230. Distance between two stations A and B is 200 m whereas their difference in elevations is 2 m. hence horizontal distance between A and B is",
+    "options": [
+      "199 m",
+      "199.9 m",
+      "199.99 m",
+      "199.999 m"
+    ],
+    "correct": 2,
+    "explain": "Horizontal distance = sqrt(slope distance^2 - height difference^2) = sqrt(200^2 - 2^2) = sqrt(39996) approximately equal to 199.99 m."
+  },
+  {
+    "q": "231. Correct length of a 50 m tape, weighing 1.2 kg when a pull of 12 kg is applied at the ends and is freely suspended is",
+    "options": [
+      "49.98 m",
+      "49.96 m",
+      "50.02 m",
+      "50.04"
+    ],
+    "correct": 1,
+    "explain": "Applying the standard sag correction formula for a tape freely suspended between end supports with its own weight and applied pull, the corrected length works out to approximately 49.96 m."
+  },
+  {
+    "q": "232. In the double application of principle of reversion, the apparent error is",
+    "options": [
+      "equal to true error",
+      "half the true error",
+      "two times the true error",
+      "four times the true error"
+    ],
+    "correct": 3,
+    "explain": "When the principle of reversion is applied twice (doubled), the apparent error observed becomes four times the actual true error in the instrument's adjustment."
+  },
+  {
+    "q": "233. Which of the following errors can be eliminated by taking mean of both face observations?",
+    "options": [
+      "Errors due to imperfect graduations",
+      "Errors due to eccentricity of verniers",
+      "Errors due to imperfect adjustments of plate levels",
+      "Errors due to line of collimation not being perpendicular to horizontal axis"
+    ],
+    "correct": 3,
+    "explain": "Taking the mean of face left and face right observations eliminates errors due to the line of collimation not being perfectly perpendicular to the horizontal axis, since this error reverses sign between the two faces."
+  },
+  {
+    "q": "234. A level line is",
+    "options": [
+      "horizontal line",
+      "line parallel to the mean spheriodal surface of earth",
+      "line passing through the centers of cross hairs and the center of eye piece",
+      "line passing through the objective lens and the eye piece of a dumpy or tilting level"
+    ],
+    "correct": 1,
+    "explain": "A level line is a curved line that remains parallel to the mean spheroidal (geoid) surface of the earth at every point, distinguishing it from a straight horizontal line."
+  },
+  {
+    "q": "235. The following sights are taken on the turning point",
+    "options": [
+      "fore sight only",
+      "back sight only",
+      "fore sight and back sight",
+      "fore sight and intermediate sight"
+    ],
+    "correct": 2,
+    "explain": "At a turning (change) point, both a fore sight (to close the previous instrument setup) and a back sight (to begin the next instrument setup) are taken."
+  },
+  {
+    "q": "236. The adjustment of horizontal cross hair is required particularly when the instrument is used for",
+    "options": [
+      "leveling",
+      "prolonging a straight line",
+      "measurement of horizontal angle",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Correct adjustment of the horizontal cross hair is important across multiple uses of the instrument - leveling, prolonging straight lines, and measuring horizontal angles - so all of these apply."
+  },
+  {
+    "q": "237. The two point problem and three point problem are methods of",
+    "options": [
+      "resection",
+      "orientation",
+      "traversing",
+      "resection and orientation"
+    ],
+    "correct": 0,
+    "explain": "Both the two-point problem and three-point problem are specific techniques used to solve the resection problem in plane table surveying - determining the plane table's own position from known points."
+  },
+  {
+    "q": "238. An angle between the inclined line of sight and the horizontal is called",
+    "options": [
+      "direct angel",
+      "vertical angle",
+      "horizontal angle",
+      "deflection angle"
+    ],
+    "correct": 1,
+    "explain": "The angle measured between an inclined line of sight and the horizontal plane is, by definition, the vertical angle."
+  },
+  {
+    "q": "239. The tangent to the liquid surface in a level tube, is parallel to the axis of the bubble",
+    "options": [
+      "every point of the bubble",
+      "either end of the bubble",
+      "the mid-point of the bubble",
+      "no where"
+    ],
+    "correct": 2,
+    "explain": "The tangent to the curved liquid surface of the level tube is parallel to the bubble tube's axis specifically at the mid-point of the bubble."
+  },
+  {
+    "q": "240. The sensitiveness of a level tube decreases if",
+    "options": [
+      "radius of curvature of its inner surface is increased",
+      "diameter of the tube is increased",
+      "length of the vapor bubble is increased",
+      "both viscosity and surface tension are increased"
+    ],
+    "correct": 3,
+    "explain": "Sensitivity of the level tube decreases when both the viscosity and surface tension of the enclosed liquid are increased, since the bubble then moves more sluggishly in response to tilt."
+  },
+  {
+    "q": "241. In a constant level tube, size of the bubble remains constant because upper wall is",
+    "options": [
+      "of relatively larger radius",
+      "of relatively smaller radius",
+      "flat",
+      "convex downwards"
+    ],
+    "correct": 0,
+    "explain": "In a constant-bubble level tube, the upper wall has a relatively larger radius of curvature compared to the main curved surface, which keeps the bubble length constant despite temperature changes."
+  },
+  {
+    "q": "242. The line normal to the plumb line is known as",
+    "options": [
+      "horizontal line",
+      "level line",
+      "datum line",
+      "vertical line"
+    ],
+    "correct": 1,
+    "explain": "A line normal (perpendicular) to the plumb line (direction of gravity) at every point is, by definition, a level line."
+  },
+  {
+    "q": "243. Long offsets are taken if the offset length exceeds",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 1,
+    "explain": "When an offset exceeds 10 m in length, it is classified as a long offset and requires more careful (instrumental) methods to maintain perpendicularity/accuracy."
+  },
+  {
+    "q": "244. The angle between two plane mirrors of the optical square is kept",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "correct": 1,
+    "explain": "The two plane mirrors of an optical square are set at exactly 45 degrees to each other to achieve the required 90-degree deflection of the sight line."
+  },
+  {
+    "q": "245. The desirable multiplying and additive constants for a tacheometer",
+    "options": [
+      "100 and 0.3 m",
+      "50 and 0.5 m",
+      "100 and 0 m",
+      "200 and 0.15 m"
+    ],
+    "correct": 2,
+    "explain": "The most desirable (standard) tacheometric constants are a multiplying constant of 100 and an additive constant of 0 m, achieved by using an anallatic lens."
+  },
+  {
+    "q": "246. Anallatic lens is provided",
+    "options": [
+      "between diaphragm and object glass",
+      "exactly at the line of intersection of vertical and horizontal axes",
+      "just before objective",
+      "between eye-piece and diaphragm"
+    ],
+    "correct": 0,
+    "explain": "The anallatic lens is fitted inside the telescope tube, positioned between the diaphragm (cross hairs) and the object glass (objective lens)."
+  }
+]

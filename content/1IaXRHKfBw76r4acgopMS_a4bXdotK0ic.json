@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. For excavating solid rocks, the most suitable equipment?",
+    "options": [
+      "dragline",
+      "power shovel",
+      "clamshell",
+      "hoe"
+    ],
+    "correct": 1,
+    "explain": "The power shovel provides the highest breakout force, making it the best choice for digging hard or blasted rock."
+  },
+  {
+    "q": "2. The size of a power shovel is indicated by the size of ............",
+    "options": [
+      "boom",
+      "hoist line",
+      "dipper",
+      "cab"
+    ],
+    "correct": 2,
+    "explain": "Power shovels are rated by the capacity (volume) of their 'dipper' or bucket."
+  },
+  {
+    "q": "3. Which one of the following does not from a part of Derrick crane?",
+    "options": [
+      "Mast",
+      "Book",
+      "Guys",
+      "Jack"
+    ],
+    "correct": 3,
+    "explain": "A Derrick crane consists of a mast, a boom (incorrectly spelled 'book' in text), and guy wires. A jack is a separate lifting tool."
+  },
+  {
+    "q": "4. Which one of the following does not fall under the category hoisting equipment?",
+    "options": [
+      "Chain hoist",
+      "Jack",
+      "Hoist winch",
+      "Dragline"
+    ],
+    "correct": 3,
+    "explain": "A Dragline is excavating equipment. While it has hoisting cables, its primary function is excavation, not dedicated lifting like a hoist or jack."
+  },
+  {
+    "q": "5. Which of the following conveyor is never used?",
+    "options": [
+      "Spiral conveyor",
+      "Roller conveyor",
+      "Screw conveyor",
+      "None of the above"
+    ],
+    "correct": 3,
+    "explain": "All the listed types (Spiral, Roller, and Screw) are standard conveyors used in various industrial and construction material handling applications."
+  },
+  {
+    "q": "6. A canal is trimmed on its side and bottom by ............",
+    "options": [
+      "dragline",
+      "trimmer",
+      "trencher",
+      "angle dozer"
+    ],
+    "correct": 1,
+    "explain": "Mechanical trimmers are specialized machines used to precisely finish the slopes and beds of canals before lining."
+  },
+  {
+    "q": "7. The direct cost of a project with respect normal time is ............",
+    "options": [
+      "minimum",
+      "maximum",
+      "zero",
+      "infinite"
+    ],
+    "correct": 0,
+    "explain": "At normal time, the project is executed using the most efficient methods and standard resources, resulting in the lowest possible direct cost."
+  },
+  {
+    "q": "8. Economic saving of time result by crashing ............",
+    "options": [
+      "cheapest critical activity",
+      "cheapest non-critical activity",
+      "costliest critical activity",
+      "costliest non-critical activity"
+    ],
+    "correct": 0,
+    "explain": "To reduce project duration economically, we always crash the activity on the critical path that has the lowest cost slope (the cheapest to compress)."
+  },
+  {
+    "q": "9. The process of incorporating changes and rescheduling or preplanning is called ............",
+    "options": [
+      "resource levelling",
+      "resource smoothening",
+      "updating",
+      "critical path scheduling"
+    ],
+    "correct": 2,
+    "explain": "Updating is the process of re-evaluating the project network periodically to account for actual progress and making necessary adjustments to future schedules."
+  },
+  {
+    "q": "10. Which of the following is the correct from of representation of an event?",
+    "options": [
+      "Circle",
+      "X",
+      "+",
+      "Hexagon"
+    ],
+    "correct": 0,
+    "explain": "In a network diagram, an event (a point in time marking the start or end of an activity) is standardly represented by a circle or a node."
+  },
+  {
+    "q": "11. Which of the following is not related to cost slope?",
+    "options": [
+      "Crash cost",
+      "Normal cost",
+      "Crash time",
+      "Slack"
+    ],
+    "correct": 3,
+    "explain": "Cost slope is calculated using (Crash Cost - Normal Cost) / (Normal Time - Crash Time). Slack is a time-related buffer for events and is not part of the cost slope formula."
+  },
+  {
+    "q": "12. Use of dummies is required for ............",
+    "options": [
+      "grammatical purpose only",
+      "logical purpose only",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Dummy activities consume zero time and resources; they are used solely to maintain the correct logic and dependencies between activities in a network."
+  },
+  {
+    "q": "13. Latest finish time in C.P.M. technique is indicated by a ............",
+    "options": [
+      "rectangle",
+      "circle",
+      "triangle",
+      "line"
+    ],
+    "correct": 0,
+    "explain": "According to the provided answer key (and common CPM chart standards), the rectangle is used to represent the boundary times like Latest Finish."
+  },
+  {
+    "q": "14. The essential condition for the decompression of an activity is that ............",
+    "options": [
+      "the project time should change due to decompression",
+      "after decompression, the time of an activity invariably exceeds its normal time",
+      "an activity could be decompressed to the maximum extent of its normal time",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Decompression is the reverse of crashing. You can only expand an activity's duration back to its original 'Normal Time' but not beyond it."
+  },
+  {
+    "q": "15. Dummy activities are used to ............",
+    "options": [
+      "determine the critical path",
+      "determine the project completion time",
+      "maintain the required network",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Dummies are structural tools in a network diagram used to show relationships (logic) when two activities share the same start and end nodes."
+  },
+  {
+    "q": "16. Which of the following are the guidelines for the construction of a network diagram?",
+    "options": [
+      "each activity is represented by one only arrow in the network",
+      "dangling must be avoided in a network diagram",
+      "dummy activity consumes no time or resource",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "These are fundamental rules: unique arrows per activity, avoiding loose ends (dangling), and utilizing zero-duration dummies for logic."
+  },
+  {
+    "q": "17. Due to omission of any part of a project, the duration of project will ............",
+    "options": [
+      "increase",
+      "decrease",
+      "constant",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "Removing a scope of work (omission) generally reduces the total amount of work to be done, thereby decreasing the project duration."
+  },
+  {
+    "q": "18. Due to omission of any part of a project, the cost of project will ............",
+    "options": [
+      "increase",
+      "decrease",
+      "constant",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "If a portion of the project is removed, the direct costs associated with those materials and labor are subtracted from the total project cost."
+  },
+  {
+    "q": "19. Sensitivity analysis is a study of .............",
+    "options": [
+      "comparison of profit and loss",
+      "comparison of assets and liabilities",
+      "change in output due to change in input",
+      "economics of cost and benefits of the project"
+    ],
+    "correct": 2,
+    "explain": "Sensitivity analysis determines how different values of an independent variable (input) affect a particular dependent variable (output) under a given set of assumptions."
+  },
+  {
+    "q": "20. In the time-cost optimisation, using C.P.M. method for network analysis, the crashing of the activities along the critical path is done starting with the activity having .............",
+    "options": [
+      "Longest duration",
+      "highest cost slope",
+      "least cost slope",
+      "shortest duration"
+    ],
+    "correct": 2,
+    "explain": "To minimize the increase in project cost while shortening the duration, activities on the critical path with the lowest cost slope (least expensive to crash) are prioritized."
+  },
+  {
+    "q": "21. Preliminary project report for a road project must contain .............",
+    "options": [
+      "the detailed estimated cost based on detailed design",
+      "the several alternatives of the project that have been considered",
+      "the soil survey, traffic survey, concept design and approximate cost",
+      "the contract documents for inviting tenders"
+    ],
+    "correct": 2,
+    "explain": "A preliminary report focuses on feasibility and basic data like soil types, traffic volume, and rough cost estimates before moving to detailed design."
+  },
+  {
+    "q": "22. A project is .............",
+    "options": [
+      "a large dam constructed across a river for a single or multi-purpose",
+      "any job involving many people and large money",
+      "a work of major importance involving huge men and material",
+      "an organised team work to achieve a set task within the time limit"
+    ],
+    "correct": 3,
+    "explain": "A project is defined by its temporary nature (time limit) and its specific goal-oriented organization."
+  },
+  {
+    "q": "23. An activity is .............",
+    "options": [
+      "an element of work entailed in the project",
+      "the movement of heavy vehicles from one place to another",
+      "the beginning or the end of a specified job",
+      "the progress of work up to certain limit"
+    ],
+    "correct": 0,
+    "explain": "In network analysis, an activity is a specific task or element of work that consumes time and resources."
+  },
+  {
+    "q": "24. The pictorial representation of activities and events of a project is known as the .............",
+    "options": [
+      "flow chart",
+      "flow net",
+      "algorithm",
+      "net work"
+    ],
+    "correct": 3,
+    "explain": "A project network is a graphical flow diagram showing the sequence of activities and their interdependencies."
+  },
+  {
+    "q": "25. The flow of time in a net work is generally .............",
+    "options": [
+      "from left to right",
+      "from right to left",
+      "both ways",
+      "of no importance"
+    ],
+    "correct": 0,
+    "explain": "Standard network conventions dictate that the project timeline progresses from left (start) to right (finish)."
+  },
+  {
+    "q": "26. Bar chart is also known as .............",
+    "options": [
+      "histogram chart",
+      "flow chart",
+      "time chart",
+      "Gantt chart"
+    ],
+    "correct": 3,
+    "explain": "Bar charts used in project management were developed by Henry Gantt and are widely referred to as Gantt charts."
+  },
+  {
+    "q": "27. Systematic reporting of work progress is the main objective of .............",
+    "options": [
+      "operation process chart",
+      "man machine chart",
+      "flow process chart",
+      "two hand process chart"
+    ],
+    "correct": 2,
+    "explain": "A flow process chart is used to track the sequence of all operations, transportations, inspections, and delays in a process to report and analyze progress."
+  },
+  {
+    "q": "28. P.E.R.T. technique of network analysis is mainly useful for .............",
+    "options": [
+      "small projects",
+      "large and complex project",
+      "research and development projects",
+      "deterministic activities"
+    ],
+    "correct": 2,
+    "explain": "PERT is a probabilistic technique designed for projects with high uncertainty, such as R&D, where activity times aren't precisely known."
+  },
+  {
+    "q": "29. Which of the following is not a P.E.R.T. event?",
+    "options": [
+      "site investigation started",
+      "sessional work completed",
+      "bus starts from Janakpur",
+      "class is being attended"
+    ],
+    "correct": 3,
+    "explain": "'Class is being attended' is an ongoing process (activity), not a specific point in time (event)."
+  },
+  {
+    "q": "30. In P.E.R.T. analysis, the time estimates of activities and probability of their occurrence follow .............",
+    "options": [
+      "normal distribution curve",
+      "Poisson's distribution curve",
+      "beta-distribution curve",
+      "binomial distribution curve"
+    ],
+    "correct": 2,
+    "explain": "PERT assumes activity durations follow a Beta distribution to account for skewness in optimistic/pessimistic times."
+  },
+  {
+    "q": "31. For excavating utility trenches with precise control of depth, the excavation equipment used is .............",
+    "options": [
+      "hoe",
+      "shovel",
+      "dragline",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A backhoe (or hoe) is the most effective for trenching because it works below its own track level with high precision."
+  },
+  {
+    "q": "32. Free float is mainly used to .............",
+    "options": [
+      "identify the activities which can be delayed without affecting the total float of succeeding activity",
+      "identify the activities, which can be delayed without affecting the start of succeeding activity",
+      "establish priorities",
+      "identify the activities which can be delayed without affecting the total of either the preceding of succeeding activities"
+    ],
+    "correct": 1,
+    "explain": "Free float is the amount of time an activity can be delayed without delaying the Earliest Start (ES) of any immediate successor."
+  },
+  {
+    "q": "33. A milestone chart .............",
+    "options": [
+      "depicts the delay of job",
+      "shows the inter dependence of various jobs",
+      "shows the events in chronological, but in a logical sequence",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Milestone charts focus on key project events (milestones) chronologically, though they don't show interdependencies as well as networks."
+  },
+  {
+    "q": "34. Time estimated time required to complete an activity is termed as .............",
+    "options": [
+      "event",
+      "duration",
+      "activate time",
+      "float"
+    ],
+    "correct": 1,
+    "explain": "Duration is the standard term for the time spent on performing an activity."
+  },
+  {
+    "q": "35. The variance of the P.E.R.T. critical path is equal to .............",
+    "options": [
+      "sum of variance of activities lying on critical path",
+      "maximum of sum of variance upto end event",
+      "minimum of sum of variances upto end event",
+      "none of above"
+    ],
+    "correct": 0,
+    "explain": "According to the central limit theorem, the variance of the whole path is the sum of the variances of the individual activities on that path."
+  },
+  {
+    "q": "36. In case of burst event the latest permissible occurrence time is .............",
+    "options": [
+      "maximum of LSTs of the bursting activities",
+      "maximum of ESTs of the bursting activities",
+      "minimum of LSTs of the bursting activities",
+      "minimum of ESTs of the bursting activities"
+    ],
+    "correct": 2,
+    "explain": "When moving backward through a network (backward pass), the TL (Latest Time) of a burst node is the minimum of the Latest Start Times of all outgoing activities."
+  },
+  {
+    "q": "37. There are three parallel paths in part of a network between a bursting node and the next merging node with only one activity in each path. The minimum number of dummy arrows needed will be .............",
+    "options": [
+      "zero",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2,
+    "explain": "To keep the identity of activities unique (since they share the same start and end nodes), 2 dummies are required for 3 parallel activities."
+  },
+  {
+    "q": "38. Whenever an activity has zero total float, then .............",
+    "options": [
+      "free float must be zero but independent float need not be zero",
+      "independent float must be zero but free float need not be zero",
+      "free float and independent float both must be zero",
+      "free float and independent float both need not be zero"
+    ],
+    "correct": 2,
+    "explain": "Since Independent Float ≤ Free Float ≤ Total Float, if Total Float is zero, the others must also be zero (assuming non-negative values)."
+  },
+  {
+    "q": "39. Total float for any activity is defined as the difference between .............",
+    "options": [
+      "its latest finish time and earliest start time for its successor activity",
+      "its latest starts time and earliest start time",
+      "its latest start time and earliest finish time",
+      "its earliest finish time and earliest start time for its successor activity"
+    ],
+    "correct": 1,
+    "explain": "Total Float = Latest Start Time - Earliest Start Time (or LFT - EFT)."
+  },
+  {
+    "q": "40. Which one of the following is associated with a critical activity in a A-O-A network?",
+    "options": [
+      "Maximum float",
+      "Minimum float",
+      "Zero float",
+      "Free float"
+    ],
+    "correct": 2,
+    "explain": "By definition, a critical activity is one that has zero float, meaning any delay in it will delay the entire project."
+  },
+  {
+    "q": "41. Selected the incorrect statements ..............",
+    "options": [
+      "a critical path always begins at the very first event",
+      "a critical path always terminates at the last event",
+      "critical activities control the project duration",
+      "critical activity is the one for which free float is zero"
+    ],
+    "correct": 3,
+    "explain": "A critical activity is defined by having a Total Float of zero. While its free float will also be zero, the primary defining characteristic used in network analysis is the zero total float."
+  },
+  {
+    "q": "42. Crash project duration is obtained by summing the ..............",
+    "options": [
+      "normal durations for all the activities",
+      "crash durations for all activities",
+      "crash durations for all the activities along the critical path obtained by taking into account the normal duration for the activities",
+      "crash durations for all the activities along the critical path obtained by taking into account the crash duration for all the activities"
+    ],
+    "correct": 3,
+    "explain": "The crash project duration is the shortest possible time to complete the project, calculated by summing the crash durations of activities along the path that remains critical when all activities are crashed."
+  },
+  {
+    "q": "43. In C.P.M. ..............",
+    "options": [
+      "time optimisation is given prime importance",
+      "cost optimisation is given prime importance",
+      "cost is directly proportional to time",
+      "all the above"
+    ],
+    "correct": 1,
+    "explain": "CPM is a deterministic model often used in construction where cost-time trade-offs (crashing) are a primary focus to find the optimum project cost."
+  },
+  {
+    "q": "44. Indirect cost of the project ..............",
+    "options": [
+      "decrease with duration",
+      "decrease up to optimum duration and then increase with duration",
+      "increase with duration",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "Indirect costs (overhead, administration, insurance) are time-dependent; the longer the project continues, the higher the total indirect cost."
+  },
+  {
+    "q": "45. Work study comprises ..............",
+    "options": [
+      "motion study",
+      "work measurement",
+      "probabilistic analysis",
+      "method study and work measurement"
+    ],
+    "correct": 3,
+    "explain": "Work study is a generic term for those techniques, particularly method study and work measurement, which are used in the examination of human work."
+  },
+  {
+    "q": "46. Gnatt chart indicates ..............",
+    "options": [
+      "balance of work to be done",
+      "comparison of actual progress with the scheduled progress",
+      "efficiency of project work",
+      "progressive cost of projects"
+    ],
+    "correct": 1,
+    "explain": "Gantt charts are primarily used for scheduling and monitoring, allowing managers to see actual progress bars plotted against the original planned bars."
+  },
+  {
+    "q": "47. The weakness in bar chart is ..............",
+    "options": [
+      "the various activities are interdependent",
+      "uncertainty in duration for various activities",
+      "the sequence of activities is not very clear",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Bar charts struggle to show complex interdependencies between activities, do not account for uncertainty well, and can become cluttered for large projects."
+  },
+  {
+    "q": "48. The interrelationship between the functional elements of a programme is achieve through ..............",
+    "options": [
+      "work break down structure",
+      "bar charts",
+      "Gantt chart",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "A Work Breakdown Structure (WBS) hierarchically organizes the project into functional elements, showing how sub-tasks relate to the overall project scope."
+  },
+  {
+    "q": "49. The probability factor Z in P.E.R.T. is given by ..............",
+    "options": [
+      "scheduled time - earliest expected time / standard deviation",
+      "scheduled time - latest allowable time / variance",
+      "latest allowable time - scheduled time / standard deviation",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The Z-score formula in PERT is (Ts - Te) / S, where Ts is the target/scheduled time and Te is the expected completion time."
+  },
+  {
+    "q": "50. Float may be defined as the difference between ..............",
+    "options": [
+      "latest start time and the earliest start time",
+      "latest finish time and the earliest finish time",
+      "time available and the time required to complete the activity",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Total Float can be calculated as LST-EST or LFT-EFT, and it essentially represents the excess time available for an activity."
+  }
+]

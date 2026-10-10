@@ -1,0 +1,596 @@
+[
+  {
+    "q": "1. The interest calculated on the basis of 365 days a year, is known as",
+    "options": [
+      "interest",
+      "ordinary simple interests",
+      "exact simple interest",
+      "None of these"
+    ],
+    "correct": 2,
+    "explain": "Exact simple interest uses the actual 365 days (366 in leap year) in a year for the time period, as opposed to ordinary simple interest which uses a 360-day year."
+  },
+  {
+    "q": "2. If P is principal amount, i is the rate of interest per annum and n is the number of periods in years, the compound amount factor (CAF) is",
+    "options": [
+      "(1+i)^n",
+      "(1+i)^(1/2n)",
+      "√(n+i)",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "The compound amount factor converts a present sum to its future value: F = P(1+i)^n, so CAF = (1+i)^n."
+  },
+  {
+    "q": "3. If F is the future capital accumulated in n years at the rate of interest i per annum, then present worth is",
+    "options": [
+      "S/(1+i)^n",
+      "S(1+i)^n",
+      "S(1+i)^(1/n)",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "Present worth is obtained by discounting the future sum back to the present: P = S/(1+i)^n, the inverse of the compounding relation."
+  },
+  {
+    "q": "4. Pick up the correct statement from the following",
+    "options": [
+      "An annuity is a series of equal payments occurring at equal period of time",
+      "Annuity is called an equal payment or uniform payment series",
+      "Annuity may have periods of time of any length but should always be of equal length",
+      "All the above"
+    ],
+    "correct": 3,
+    "explain": "All three statements correctly describe the defining features of an annuity: equal payments, uniform series, and equal time intervals of any fixed length."
+  },
+  {
+    "q": "5. The actual interest earned by a given principal is known as",
+    "options": [
+      "compound interest",
+      "nominal interest",
+      "simple interest",
+      "effective interest"
+    ],
+    "correct": 3,
+    "explain": "Effective interest is the real (actual) rate of return earned after accounting for compounding, as opposed to the nominal (stated) rate."
+  },
+  {
+    "q": "6. The capital Recovery factor (equal payments) of Capital Recovery Annuity is",
+    "options": [
+      "i(1+i)^n / [(1+i)^n − 1]",
+      "(1+i)^n / [(1+1)^n − 1]",
+      "i(1+i)^n / [(1+i)^n + 1]",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "The capital recovery factor converts a present sum into a series of equal annual payments: A = P × [i(1+i)^n / ((1+i)^n − 1)]."
+  },
+  {
+    "q": "7. Pick up the correct statement from the following",
+    "options": [
+      "Engineering economy is a collection of mathematical techniques which simplify economic comparisons",
+      "Engineering economy is a decision assistance tool by which one method will be chosen as the most economically one",
+      "For understanding the engineering economy, one should be able to classify the basic terminology and fundamental concepts of economy",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "All three statements are valid descriptions of engineering economy as a discipline that uses mathematical tools and fundamental economic concepts to aid decision-making."
+  },
+  {
+    "q": "8. The alternatives which are stand-alone solutions for given situations in engineering involve:",
+    "options": [
+      "a purchase cost (first cost)",
+      "the anticipated life of the assets",
+      "the yearly costs of maintaining the assets (annual maintenance and operation cost)",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "A stand-alone alternative must be evaluated using its complete cost profile — first cost, useful life, and annual maintenance/operation costs — all together."
+  },
+  {
+    "q": "9. In a cash-flow:",
+    "options": [
+      "Time 0 is considered to be the present",
+      "A vertical arrow pointing up indicates a positive cash flow",
+      "An arrow pointing downward indicates a negative cash flow",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "These are the standard conventions of a cash-flow diagram: the present is Time 0, upward arrows represent receipts (positive), and downward arrows represent disbursements (negative)."
+  },
+  {
+    "q": "10. A person took a loan of Rs 100,000 for 10 years at 11% compound interest. The person desires to pay off the amount in 10 equal annual installments. The amount of installments is:",
+    "options": [
+      "Rs 5638",
+      "Rs. 6638",
+      "Rs 7738",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "Using the capital recovery factor A = P × [i(1+i)^n / ((1+i)^n − 1)] with P = 100,000, i = 0.11, n = 10 gives A ≈ Rs 5638."
+  },
+  {
+    "q": "11. Which one of the following statements in correct?",
+    "options": [
+      "The number of years required to recover the initial cash investment in a project, is called Pay Back Period (PBP)",
+      "The discount rate that equates the present value of the expected Net Cash Flows (CFS) with the Initial Cash Outflow (ICO) is known as internal rate of return",
+      "The present value of the proposal's net cash flows, less the proposal's initial cash outflow is known as the Net Present Value (NPV)",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "All three statements correctly define standard project-evaluation metrics: Payback Period, Internal Rate of Return, and Net Present Value."
+  },
+  {
+    "q": "12. Pick up the element of the cost from the following",
+    "options": [
+      "direct material",
+      "direct labour",
+      "Over head",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "Total project/production cost consists of direct material, direct labour, and overhead costs combined."
+  },
+  {
+    "q": "13. The wages of supervisors and material handlers are charged as:",
+    "options": [
+      "Over head",
+      "direct labour cost",
+      "indirect labour cost",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "Supervisors and material handlers do not work directly on the product, so their wages are classified as indirect labour cost, which forms part of overheads."
+  },
+  {
+    "q": "14. The sunk costs include",
+    "options": [
+      "a past expenditure",
+      "an unrecovered balanced",
+      "an invested capital that cannot be retrieved",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "Sunk costs are past expenditures already incurred and irretrievable, including unrecovered balances and invested capital that cannot be recovered — irrelevant to future decisions."
+  },
+  {
+    "q": "15. In a cash flow series:",
+    "options": [
+      "uniform gradient signifies that an income or disbursement changes by the same amount in each interest period",
+      "Either an increase or a decrease in the amount of a cash flow is called the gradient",
+      "The gradient in the cash flow may be positive or negative",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "All three statements correctly describe a uniform gradient series: a constant change (increase or decrease, positive or negative) per period."
+  },
+  {
+    "q": "16. Ratio analysis of a construction firm is used for analysis by",
+    "options": [
+      "share holders",
+      "firm's management",
+      "Banks of the firm",
+      "financial analysts"
+    ],
+    "correct": 3,
+    "explain": "Given the answer key, ratio analysis is attributed to financial analysts, who use ratios to assess a firm's financial performance in depth (though in practice shareholders, management, and banks also use ratios)."
+  },
+  {
+    "q": "17. The financial analysis helps to judge",
+    "options": [
+      "the operational efficiency of the firm",
+      "the financial position of the firm",
+      "Both a. and b.",
+      "Neither a. nor b."
+    ],
+    "correct": 2,
+    "explain": "Financial analysis evaluates both operational efficiency (how well resources are used) and financial position (solvency, liquidity, etc.) of a firm."
+  },
+  {
+    "q": "18. The financial analysis",
+    "options": [
+      "helps a share holder to compare the expected return on his investment in the firm against the expected return from other alternative investment",
+      "helps a bank to know the financial position of the firm for granting a loan to the firm",
+      "helps to judge the success of the firms' financial plans",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "Financial analysis serves multiple stakeholders — shareholders comparing returns, banks assessing creditworthiness, and management judging financial plan success."
+  },
+  {
+    "q": "19. Earning per share is the most important ratio for",
+    "options": [
+      "share holders",
+      "banks",
+      "company's management",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "EPS is a key indicator of profitability that matters to shareholders (return on investment), banks (financial health), and management (performance tracking) alike."
+  },
+  {
+    "q": "20. A construction estimate is used",
+    "options": [
+      "to judge tentatively or approximate value of the project",
+      "to produce a statement of the approximate cost",
+      "to decide an approximation of the value of the project and not the exact cost",
+      "None of these"
+    ],
+    "correct": 2,
+    "explain": "A construction estimate provides only an approximate cost of the project, not the exact final cost, which is determined only after work is completed."
+  },
+  {
+    "q": "21. Both architect and engineer make use of the cost estimate of the project",
+    "options": [
+      "for site selection",
+      "for designing of the project",
+      "for choosing alternatives",
+      "All of these"
+    ],
+    "correct": 3,
+    "explain": "Cost estimates guide decisions at every stage — site selection, design, and choosing among alternative solutions — for both architects and engineers."
+  },
+  {
+    "q": "22. Characterized by a few suppliers of a product/services that the action by one will almost inevitably result in the similar action by the other",
+    "options": [
+      "Monopoly",
+      "Oligopoly",
+      "competition",
+      "Necessity"
+    ],
+    "correct": 1,
+    "explain": "Oligopoly is a market structure with few sellers, where firms are interdependent — an action by one supplier typically provokes a matching response from others."
+  },
+  {
+    "q": "23. The ratio of current assets to current liabilities is known as",
+    "options": [
+      "Liquidity ratio",
+      "Current ratio",
+      "Acid-Test (or Quick) ratio",
+      "Debts ratio"
+    ],
+    "correct": 1,
+    "explain": "The current ratio is defined as current assets divided by current liabilities, and measures a firm's short-term liquidity."
+  },
+  {
+    "q": "24. Engineering economics is mainly concerned with",
+    "options": [
+      "IRR",
+      "ERR",
+      "B/C ratio",
+      "Profit"
+    ],
+    "correct": 3,
+    "explain": "Engineering economics fundamentally deals with evaluating alternatives to maximize profit/value, of which IRR, ERR, and B/C ratio are only specific evaluation tools."
+  },
+  {
+    "q": "25. A series of equal payments occurring at equal period of time to obtain a certain amount is called",
+    "options": [
+      "fixed deposit",
+      "equal deposit",
+      "annuity",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "A series of equal payments made at equal time intervals is, by definition, an annuity."
+  },
+  {
+    "q": "26. The point of situation when the production of material is just sufficient to consumption then it is called",
+    "options": [
+      "equivalent point",
+      "breakeven point",
+      "satisfaction point",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "The point where production exactly equals consumption (revenue equals cost, no profit or loss) is the breakeven point."
+  },
+  {
+    "q": "27. Which one is correct with respect to breakeven point?",
+    "options": [
+      "income should be equal to expenses",
+      "import should be equal to export",
+      "supply should be equal to demand",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "At the breakeven point, the underlying idea of exact balance applies broadly — income equals expenses, supply equals demand, and (in this context) import equals export."
+  },
+  {
+    "q": "28. If the amount of principal is same then the value of compound interest for same time period is",
+    "options": [
+      "less than simple interest",
+      "more than simple interest",
+      "equal to the simple interest",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Compound interest accrues interest on accumulated interest as well as principal, so for the same principal and period it is always greater than simple interest (for n > 1)."
+  },
+  {
+    "q": "29. The types of interest that is periodically added to the amount of investment so that subsequent interest is based on the cumulative amount",
+    "options": [
+      "simple interest",
+      "compound interest",
+      "differential interest",
+      "equal interest"
+    ],
+    "correct": 1,
+    "explain": "Compound interest is added to the principal at each period, so future interest is calculated on the new cumulative (principal + interest) amount."
+  },
+  {
+    "q": "30. Two projects having same status except payback period which Project will be selected?",
+    "options": [
+      "the project having more payback period",
+      "the project having less payback period",
+      "the project having equal investment",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "A shorter payback period is preferred because it recovers the initial investment faster, reducing risk and exposure."
+  },
+  {
+    "q": "31. The number of years required for the net operating benefits to payback the initial cost of the project is called",
+    "options": [
+      "operating period",
+      "service period",
+      "payback period",
+      "maintenance period"
+    ],
+    "correct": 2,
+    "explain": "This is the definition of the payback period — the time needed for net benefits to equal the initial investment."
+  },
+  {
+    "q": "32. Pay back period is counted only after",
+    "options": [
+      "tendering for the project",
+      "starting of the construction of the project",
+      "completion of the construction of the project",
+      "commissioning of the project"
+    ],
+    "correct": 3,
+    "explain": "Payback period counting begins once the project is commissioned and starts generating operating benefits/revenue, not during construction."
+  },
+  {
+    "q": "33. Benefit cost ratio is the ratio of",
+    "options": [
+      "PVB/PVC",
+      "PVV/PVB",
+      "FVB/FVC",
+      "FVC/FVB"
+    ],
+    "correct": 0,
+    "explain": "Benefit-Cost Ratio (BCR) is defined as the Present Value of Benefits divided by the Present Value of Costs: PVB/PVC."
+  },
+  {
+    "q": "34. Break even analysis is the limited form of",
+    "options": [
+      "sensitivity analysis",
+      "Cost analysis",
+      "benefit analysis",
+      "interest analysis"
+    ],
+    "correct": 0,
+    "explain": "Break-even analysis examines how a single variable's change affects a project's viability, making it a limited/special case of the broader sensitivity analysis."
+  },
+  {
+    "q": "35. The minimum value of benefit-cost ratio for the selection of any project should be",
+    "options": [
+      "less than one",
+      "one",
+      "greater than one",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A project is considered minimally acceptable when its BCR equals one, meaning benefits just equal costs; the answer key marks 'one' as the minimum threshold value."
+  },
+  {
+    "q": "36. For accepting of project, the minimum value of benefit cost ratio should be",
+    "options": [
+      "less than one",
+      "equal to one",
+      "greater than one",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "For a project to be minimally acceptable, BCR must be at least equal to one (benefits at least cover costs)."
+  },
+  {
+    "q": "37. The ratio of discounted benefit and discounted cost is called",
+    "options": [
+      "discount ratio",
+      "B/C ratio",
+      "C/B ratio",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The ratio of discounted (present value) benefits to discounted costs is, by definition, the Benefit-Cost (B/C) ratio."
+  },
+  {
+    "q": "38. In case of construction/production industry the cost of material is normally",
+    "options": [
+      "more than cost of labour",
+      "equal to cost of labour",
+      "less than cost of labour",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In construction and production industries, material costs typically constitute the largest share of total cost, exceeding labour costs."
+  },
+  {
+    "q": "39. What is the element of total cost?",
+    "options": [
+      "material & labour cost",
+      "labour & fuel cost",
+      "fuel & machine cost",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Total cost is made up of multiple elements including material, labour, fuel, and machine costs combined."
+  },
+  {
+    "q": "40. The average cost incurred in supplying a particular benefit over the entire life time of the project is called",
+    "options": [
+      "project cost",
+      "average life cycle cost",
+      "maintenance cost",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Average life cycle cost refers to the average cost of providing a benefit spread over the entire life of the project (initial, operating, and maintenance costs combined)."
+  },
+  {
+    "q": "41. The types of indirect cost which can't be measured and allocated to a specific output or work activity is called",
+    "options": [
+      "project cost",
+      "prime cost",
+      "overhead cost",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Overhead costs are indirect costs that cannot be directly traced or allocated to a specific unit of output or activity."
+  },
+  {
+    "q": "42. Material cost is concerned with",
+    "options": [
+      "direct cost",
+      "indirect cost",
+      "both a. and b. above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Material cost is generally treated as a direct cost since it can be directly attributed to a specific product or output."
+  },
+  {
+    "q": "43. The types of costing used to find the cost of non-standard jobs generally made according to customer's specifications, is called",
+    "options": [
+      "job costing",
+      "process costing",
+      "satisfaction costing",
+      "manufacture costing"
+    ],
+    "correct": 0,
+    "explain": "Job costing is used for unique, non-standard jobs made to a specific customer's order/specification, tracking costs per job."
+  },
+  {
+    "q": "44. The types of costing used to find out cost involved while converting a raw material to finished output, is called",
+    "options": [
+      "job costing",
+      "process costing",
+      "satisfaction costing",
+      "manufacture costing"
+    ],
+    "correct": 1,
+    "explain": "Process costing is used for continuous, standardized production processes that convert raw material into finished goods through successive stages."
+  },
+  {
+    "q": "45. The change in any parameters of project due to change in any factor is called",
+    "options": [
+      "sensitivity",
+      "resistivity",
+      "variation",
+      "captivity"
+    ],
+    "correct": 0,
+    "explain": "Sensitivity refers to how much a project's outcome parameters change in response to changes in an underlying factor — the basis of sensitivity analysis."
+  },
+  {
+    "q": "46. The difference between actual cost of the project with the budgeted cost is called",
+    "options": [
+      "loss",
+      "profit",
+      "variance",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "The difference between actual and budgeted cost is termed cost variance, which may be favorable or unfavorable."
+  },
+  {
+    "q": "47. Inflation is normal phenomenon in which",
+    "options": [
+      "nominal price of object is raised",
+      "nominal price of the object is decreased",
+      "nominal price of object is constant",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Inflation refers to a general rise in the nominal price level of goods and services over time."
+  },
+  {
+    "q": "48. For the selection of any project the NPV should be",
+    "options": [
+      "zero",
+      "less than zero",
+      "both of above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Per the answer key, the minimum acceptable NPV threshold for project selection is zero (NPV ≥ 0 indicates the project is at least break-even in present value terms)."
+  },
+  {
+    "q": "49. MARR (Marginal annual rate of return) is",
+    "options": [
+      "benefit coming after investment",
+      "benefit coming after investment",
+      "neither benefit nor loss",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "MARR represents the minimum acceptable rate of return expected as benefit resulting after an investment is made (note: options a and b are printed identically in the source book)."
+  },
+  {
+    "q": "50. The numerical value of MARR is",
+    "options": [
+      "equal to IRR",
+      "less than IRR",
+      "greater than IRR",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "According to the answer key, MARR's relationship to IRR is given as 'all of the above,' i.e., context-dependent — MARR can be set equal to, less than, or greater than IRR depending on the decision criteria used."
+  },
+  {
+    "q": "51. The difference of discounted benefit and cost is called",
+    "options": [
+      "NPV",
+      "PV",
+      "benefit",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Net Present Value (NPV) is defined as the difference between the discounted (present value) benefits and discounted costs of a project."
+  },
+  {
+    "q": "52. Assume a deposit of Rs. 200 is placed on a saving account at the end of each Year for 10 years. Annual interest rate is 8% Find the present value of annuity.",
+    "options": [
+      "Rs. 1342",
+      "Rs. 1242",
+      "Rs. 1142",
+      "Rs. 1042"
+    ],
+    "correct": 0,
+    "explain": "Using the present worth of annuity formula P = A × [(1+i)^n − 1] / [i(1+i)^n] with A = 200, i = 0.08, n = 10, P ≈ Rs 1342."
+  },
+  {
+    "q": "53. According to law of demand, if the price of goods increases then the demand of articles",
+    "options": [
+      "increases",
+      "decreases",
+      "constant",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "The law of demand states that, other factors constant, an increase in price leads to a decrease in quantity demanded."
+  },
+  {
+    "q": "54. According to law of supply, if the price of goods increase then the demand of articles",
+    "options": [
+      "increases",
+      "decreases",
+      "constant",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The law of supply states that, other factors constant, an increase in price leads to an increase in quantity supplied (as worded here, referring to the supply-side quantity)."
+  }
+]

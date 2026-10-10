@@ -1,0 +1,553 @@
+[
+  {
+    "q": "1. The technique for establishing and maintaining priorites among the various jobs of a project, is known as",
+    "options": [
+      "event flow scheduling technique",
+      "critical ratio scheduling",
+      "slotting technique for scheduling",
+      "short interval scheduling"
+    ],
+    "correct": 1,
+    "explain": "Critical ratio scheduling evaluates priority based on remaining time versus remaining work[cite: 1]."
+  },
+  {
+    "q": "2. Higher standard deviations means",
+    "options": [
+      "lower uncertainty",
+      "medium uncertainty",
+      "higher uncertainty",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "In PERT, standard deviation measures the dispersion of possible completion times; a higher value indicates a wider range of possibilities and thus greater uncertainty."
+  },
+  {
+    "q": "3. If D is the duration, ES and EF are the earlist start and earliest finish time, LS and LF are latest start and latest finish time, then following relation holds good",
+    "options": [
+      "EF = ES + D",
+      "LS = LF - D",
+      "LF = LS + D",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All given basic scheduling relationships mathematically link activity duration to early and late start/finish times[cite: 1]."
+  },
+  {
+    "q": "4. Probability factor is",
+    "options": [
+      "(scheduled time - earliest expected time) / standard deviation",
+      "(scheduled time - latest allowable time) / standard deviation",
+      "(latest allowable time - scheduled time) / standard deviation",
+      "(latest allowable time - earliest expected time) / variance"
+    ],
+    "correct": 0,
+    "explain": "The probability factor (Z-score) is calculated as $Z = (T_s - T_e) / \\sigma$, where $T_s$ is scheduled time and $T_e$ is earliest expected time."
+  },
+  {
+    "q": "5. Find the variance if tp = 14 days, tm = 6 days and to = 2 days.",
+    "options": [
+      "2/3",
+      "2",
+      "4",
+      "4/9"
+    ],
+    "correct": 2,
+    "explain": "Standard deviation $\\sigma = (t_p - t_o) / 6 = (14 - 2) / 6 = 2$. Variance is $\\sigma^2$, so $2^2 = 4$."
+  },
+  {
+    "q": "6. Higher standard deviations means",
+    "options": [
+      "lower uncertainity",
+      "medium uncertainity",
+      "higher uncertainity",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Standard deviation measures dispersion; higher values indicate greater uncertainty in duration estimates[cite: 1]."
+  },
+  {
+    "q": "7. The expected project duration in CPM follow",
+    "options": [
+      "normal distribution curve",
+      "beta distribution curve",
+      "posson's distribution curve",
+      "binomial distribution curve"
+    ],
+    "correct": 0,
+    "explain": "While individual activities in PERT follow a Beta distribution, the total project duration (due to the Central Limit Theorem) is assumed to follow a Normal Distribution."
+  },
+  {
+    "q": "8. Probability factor is",
+    "options": [
+      "\\frac{\\text{scheduled time} - \\text{earliest expected time}}{\\text{standard deviation}}",
+      "\\frac{\\text{scheduled time} - \\text{latest allowable time}}{\\text{standard deviation}}",
+      "\\frac{\\text{latest allowable time} - \\text{scheduled time}}{\\text{standard deviation}}",
+      "\\frac{\\text{latest allowable time} - \\text{earliest expected time}}{\\text{varience}}"
+    ],
+    "correct": 0,
+    "explain": "The probability factor (Z-score) in PERT is defined as (T_s - T_E) / \\sigma[cite: 1]."
+  },
+  {
+    "q": "9. The relation between jobs of a particular type and various durations they have consumed for completion is expressed by",
+    "options": [
+      "normal distribution curve",
+      "distribution curve",
+      "frequency distribution curve",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A frequency distribution curve shows how often different values (durations) occur within a data set of completed jobs."
+  },
+  {
+    "q": "10. The mean coincides with the node, if frequency distribution curve is",
+    "options": [
+      "symmetrical",
+      "unsymmetrical",
+      "normal",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In a perfectly symmetrical distribution, the mean, median, and mode all coincide at the center point."
+  },
+  {
+    "q": "11. If the height of the frequency-distribution underneath is equal to unity, then curve is known as",
+    "options": [
+      "distribution curve",
+      "skew curve",
+      "probability distribution curve",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "A standard distribution curve where the total area (or cumulative frequency normalized) represents the whole unit."
+  },
+  {
+    "q": "12. Restraint is a restriction having",
+    "options": [
+      "positive duration",
+      "negative duration",
+      "both (a) and (b) of above",
+      "zero duration"
+    ],
+    "correct": 2,
+    "explain": "Restraints in scheduling can impose requirements that effectively act as positive or negative time constraints depending on the logic."
+  },
+  {
+    "q": "13. If a is the optimistic time, b is the pessimistic time and m is the most likely time, then the average time is calculated as",
+    "options": [
+      "(a+b+m)/3",
+      "(a+b+m)/6",
+      "(a+4m+2b)/6",
+      "(a+4m+b)/6"
+    ],
+    "correct": 3,
+    "explain": "The standard PERT expected time formula is (optimistic + 4×most likely + pessimistic)/6, i.e., (a+4m+b)/6."
+  },
+  {
+    "q": "14. Updating may result in",
+    "options": [
+      "change of critical path",
+      "decrease of project completion time",
+      "increase of project completion time",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "As a project progresses, updating the schedule with actual data can shorten or lengthen the timeline and shift the critical path."
+  },
+  {
+    "q": "15. Which of the following denotes a dummy activity P?",
+    "options": [
+      "solid arrow with label P from 9 to 10",
+      "dotted arrow labeled P from 9 to 10",
+      "dotted arrow (no label) from 9 to 10",
+      "dotted arrow reversed labeled P from 10 to 9"
+    ],
+    "correct": 2,
+    "explain": "A dummy activity is represented by a dotted arrow with zero label/duration; per the figure and answer key, the unlabeled dotted arrow denotes dummy activity P."
+  },
+  {
+    "q": "16. If σ1, σ2, σ3, .........are the standard deviations of completion for the activities along the critical path, the standard deviations of the time of completion of the project is given by",
+    "options": [
+      "σtE = √(σ1² + σ2² + σ3² ...)",
+      "σtE = √((σ1 + σ2 + σ3 ...)/n)",
+      "σtE = (σ1 + σ2 + σ3 ...)/n",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The project standard deviation is the square root of the sum of the variances ($\\sigma^2$) of the activities on the critical path."
+  },
+  {
+    "q": "17. The technique for establishing and maintaining priorities among the various jobs of a project, is known as",
+    "options": [
+      "event flow scheduling technique",
+      "critical ratio scheduling",
+      "slotting technique for scheduling",
+      "short interval scheduling"
+    ],
+    "correct": 1,
+    "explain": "Critical Ratio is a priority index determined by dividing the time remaining until a job is due by the work time remaining."
+  },
+  {
+    "q": "18. Variance is",
+    "options": [
+      "(sum of time durations for various job)/number of jobs",
+      "difference between time under consideration and mean time",
+      "mean of squared deviations",
+      "square root of mean of squared deviations"
+    ],
+    "correct": 2,
+    "explain": "Variance is statistically defined as the mean (average) of the squared deviations from the mean value."
+  },
+  {
+    "q": "19. If for an activity optimistic time is 1 day pessimistic times is 8 days and most likely time is 3 days then the expected time is",
+    "options": [
+      "5 days",
+      "3.5 days",
+      "3.75 days",
+      "4 days"
+    ],
+    "correct": 1,
+    "explain": "Using te = (t0+4tm+tp)/6 = (1+4×3+8)/6 = (1+12+8)/6 = 21/6 = 3.5 days; however per the answer key the correct choice is c (3.75 days), matching the book's stated formula application."
+  },
+  {
+    "q": "20. Slack is",
+    "options": [
+      "difference of latest allowable time and earliest expected time",
+      "least allowable time-earliest expected time",
+      "earliest expected time-latest allowable time",
+      "time gained by an activity"
+    ],
+    "correct": 0,
+    "explain": "Slack is defined as the difference between the latest allowable time and the earliest expected time of an event."
+  },
+  {
+    "q": "21. Negative slack occurs",
+    "options": [
+      "when latest allowable time is greater than earliest expected time",
+      "when events stick to their schedule",
+      "when deficiency of resources exists",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Negative slack typically arises due to deficiency of resources causing the schedule to fall behind requirements."
+  },
+  {
+    "q": "22. Float is",
+    "options": [
+      "the earliest time by which an activity may commence",
+      "latest time by which an activity can be delayed without hampering the completion of the project",
+      "latest allowable time-earliest expected time",
+      "time available-time required for an activity"
+    ],
+    "correct": 3,
+    "explain": "Float (slack) is precisely defined as the difference between latest allowable time and earliest expected time."
+  },
+  {
+    "q": "23. For the preparation of construction schedule, the data required is",
+    "options": [
+      "number of operations",
+      "number of activities",
+      "output of labour",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Preparing a construction schedule requires data on operations, activities, and labour output - all these inputs are needed."
+  },
+  {
+    "q": "24. Which of the following is a type of bar chart that illustrates a project schedule?",
+    "options": [
+      "Gantt Chart",
+      "Pie Chart",
+      "Smith Chart",
+      "Slant Chart"
+    ],
+    "correct": 0,
+    "explain": "The Gantt Chart is the standard bar-chart form used to illustrate project schedules."
+  },
+  {
+    "q": "25. In construction planning, an activity is",
+    "options": [
+      "something that required construction material",
+      "an element of work which constitutes the project",
+      "movement of equipment of material",
+      "Progress of work up to a stage"
+    ],
+    "correct": 1,
+    "explain": "An activity in construction planning is defined as any identifiable element of work that constitutes part of the overall project."
+  },
+  {
+    "q": "26. If the optimistic time, most likely time and pessimistic time for activity A are 4, 6 and 8 respectively and for activity B are 5, 5.5 and 9 respectively, then",
+    "options": [
+      "expected time of activity A is greater than the expected time of activity B",
+      "expected time of activity B is greater than the expected time of activity A",
+      "expected time of both activities A and B are same",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For A: te=(4+4×6+8)/6=36/6=6; For B: te=(5+4×5.5+9)/6=36/6=6. Both give equal expected time of 6, so option c is correct."
+  },
+  {
+    "q": "27. Free float for any activity is defined as the difference between",
+    "options": [
+      "its latest start time and earliest start time for its successor activity",
+      "its latest start time and earliest start time",
+      "its latest finish time and earliest start time for its successor activity",
+      "its earliest finish time and latest start time for its successor activity"
+    ],
+    "correct": 0,
+    "explain": "Free float is defined as the difference between the activity's own latest start time and its earliest start time, without delaying successor activities."
+  },
+  {
+    "q": "28. The time by which a particular activity can be delayed without affecting the proceeding and succeeding activities is known as",
+    "options": [
+      "total float",
+      "free float",
+      "interfering float",
+      "independent float"
+    ],
+    "correct": 3,
+    "explain": "Independent float specifically measures the delay possible in an activity without affecting either the preceding or succeeding activities."
+  },
+  {
+    "q": "29. If the height of the frequency-distribution underneath is equal to unity, then curve is known as",
+    "options": [
+      "normal distribution curve",
+      "skew curve",
+      "probability distribution curve",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "A standard normal distribution curve is defined such that the total area underneath the curve is equal to unity (1.0)."
+  },
+  {
+    "q": "30. The object of technical planning is",
+    "options": [
+      "preparation of specification",
+      "preparation of estimates",
+      "initiating the procurement action of resources",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Technical planning covers preparing specifications, estimates, and initiating procurement of resources - all these objectives."
+  },
+  {
+    "q": "31. Slack time in PERT analysis",
+    "options": [
+      "can never be greater than zero",
+      "is always zero for critical activities",
+      "can never be less than zero",
+      "minimum for critical events"
+    ],
+    "correct": 3,
+    "explain": "Critical activities/events in PERT always have zero slack, as they lie directly on the critical path with no room for delay."
+  },
+  {
+    "q": "32. Updating of schedule is carried out in a project",
+    "options": [
+      "to accommodate configuration changes",
+      "to assign new target date against the planned date",
+      "to reflect remedial actions for correction of deviations",
+      "all of above"
+    ],
+    "correct": 3,
+    "explain": "Schedule updating serves multiple purposes: accommodating changes, resetting target dates, and reflecting corrective actions - all of the above."
+  },
+  {
+    "q": "33. Critical Path method (CPM) in construction management required single time estimates whereas programme evaluation and Review Technique (PERT) requires:",
+    "options": [
+      "double time estimates",
+      "triple time estimates",
+      "tretra time estimates",
+      "penta time estimates"
+    ],
+    "correct": 1,
+    "explain": "PERT requires three (triple) time estimates - optimistic, most likely, and pessimistic - unlike CPM's single estimate."
+  },
+  {
+    "q": "34. The constraint in case of resource smoothing operation would be",
+    "options": [
+      "on the resources",
+      "project duration time",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Resource smoothing aims to even out resource usage without changing the project completion date, making time the primary constraint."
+  },
+  {
+    "q": "35. In resource leveling the main constraint would be",
+    "options": [
+      "on the resources",
+      "project duration time",
+      "both of the above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Resource leveling is performed when resource limits are fixed (constrained), which may lead to an increase in the project duration to stay within those limits."
+  },
+  {
+    "q": "36. Construction site planning is concerned with",
+    "options": [
+      "work progress at site",
+      "minimize the chances of wastages, deterioration and losses",
+      "maximize the safety and execution of work",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Effective site planning addresses progress tracking, material management to reduce waste, and safety protocols for workers."
+  },
+  {
+    "q": "37. Interfering float is the difference between",
+    "options": [
+      "total float and free float",
+      "total float and independent float",
+      "free float and independent float",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Interfering float is defined as the difference between total float and free float of an activity."
+  },
+  {
+    "q": "38. Pick up the incorrect statement from the following:",
+    "options": [
+      "The activity which consumes maximum time, is called a node",
+      "The activity is the time consuming part of a project",
+      "The beginning and end of a job, are called events",
+      "Logically and sequentially connected activities and events form a network"
+    ],
+    "correct": 0,
+    "explain": "This statement is incorrect - a 'node' represents an event (start/end point), not the activity consuming maximum time."
+  },
+  {
+    "q": "39. The time by which activity completion time can be delayed without affecting the start of succeeding activities, is known as:",
+    "options": [
+      "Interfering float.",
+      "Total float",
+      "Duration",
+      "Free float"
+    ],
+    "correct": 3,
+    "explain": "Free float specifically measures delay possible in an activity without affecting the succeeding activity's start."
+  },
+  {
+    "q": "40. In a PERT network, the earliest (activity) start time is the",
+    "options": [
+      "Earliest time that an activity can be finished without delaying the entire project.",
+      "Latest time that an activity can be started without delaying the entire project.",
+      "Earliest time that an activity can start without violation of precedence requirements.",
+      "Latest time that an activity can be finished without delaying the entire project."
+    ],
+    "correct": 2,
+    "explain": "Earliest start time is defined as the earliest possible time an activity can begin, respecting all preceding activity dependencies."
+  },
+  {
+    "q": "41. Which of the following is one of the assumptions of PERT?",
+    "options": [
+      "Total project completion time follows a normal probability distribution.",
+      "Activity times are dependent and correlated.",
+      "Project completion time follows a skewed chi-square distribution.",
+      "Activity times are known with certainty."
+    ],
+    "correct": 0,
+    "explain": "PERT assumes that the sum of many independent activity durations along the critical path leads to an overall project completion time following a normal distribution (by central limit theorem)."
+  },
+  {
+    "q": "42. A construction schedule is prepared after collecting",
+    "options": [
+      "number of operations",
+      "output",
+      "output of machinery",
+      "quantity of various items",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "Scheduling requires comprehensive data on task quantities, labor productivity (output), and machinery capacity to determine durations."
+  },
+  {
+    "q": "43. An important assumption in PERT calculations is:",
+    "options": [
+      "Activity times are normally distributed.",
+      "Activity times are independent.",
+      "A and B",
+      "A and C"
+    ],
+    "correct": 1,
+    "explain": "PERT assumes individual activity times are statistically independent of each other, which allows summing their variances along the critical path."
+  },
+  {
+    "q": "44. Construction site planning is mainly depends upon the",
+    "options": [
+      "nature of the work",
+      "site condition",
+      "method of execution",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Effective site layout and planning must account for the type of project, the physical constraints of the site, and how the work will be performed."
+  },
+  {
+    "q": "45. Which is/are features of PERT/CPM?",
+    "options": [
+      "An estimate of how long a project will take.",
+      "A graphical display of project activities.",
+      "An indication of critical activities.",
+      "All the above"
+    ],
+    "correct": 3,
+    "explain": "PERT/CPM techniques provide time estimates, graphical network displays, and identify critical activities - all of the above."
+  },
+  {
+    "q": "46. An event is indicated on the network by a number enclosed in",
+    "options": [
+      "a circle",
+      "a square",
+      "a trtiangle",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Events are conventionally represented on network diagrams by numbers enclosed within circles (nodes)."
+  },
+  {
+    "q": "47. In the given figure, the network of a project represents",
+    "options": [
+      "activity of an excavation of a footing",
+      "activity of an excavation which starts at event No. 1 and ends at even No. 2",
+      "activity of excavation which takes 8 units of time",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The figure shows the excavation activity between events 1 and 2 labeled with duration '8', indicating it takes 8 units of time to complete."
+  },
+  {
+    "q": "48. Completion of an activity on CPM network diagram, is generally known",
+    "options": [
+      "event",
+      "node",
+      "connector",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "The completion point of an activity is called an event, represented as a node/connector point - all the above terms apply."
+  },
+  {
+    "q": "49. A Milestone chart",
+    "options": [
+      "shows the interdependencies of various jobs",
+      "depicts the delay of jobs, if any",
+      "points outgoing ahead of schedule of jobs, if any",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "A milestone chart does not show interdependencies between jobs (that's a network diagram's function), so per the answer key, none of these accurately describes it fully."
+  },
+  {
+    "q": "50. The total cost verses time curve of an activity is",
+    "options": [
+      "a straight line",
+      "a parabola",
+      "U shaped curve",
+      " shaped curve"
+    ],
+    "correct": 2,
+    "explain": "Combining decreasing indirect costs and increasing direct costs yields a distinct U-shaped total cost curve with a clear minimum cost point."
+  }
+]

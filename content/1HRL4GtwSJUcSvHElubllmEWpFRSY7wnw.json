@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. In which of the following truss members, the stress depends upon, whether the load is moving on top chord or bottom chord",
+    "options": [
+      "top chord and bottom chord",
+      "verticals",
+      "diagonals",
+      "verticals and diagonals"
+    ],
+    "correct": 2,
+    "explain": "In a truss, diagonal members' force sign and magnitude depend on which chord (top or bottom) the moving load acts on, unlike the chords or verticals which react more consistently."
+  },
+  {
+    "q": "2. Free body diagram is",
+    "options": [
+      "the diagram of the body or a part of the body in isolated equilibrium",
+      "the diagram of a body free from all the forces that have been acting",
+      "the diagram of the body with no supports at all",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A free body diagram isolates a body (or part of it) showing all external forces and reactions acting on it, representing it in equilibrium independent of the rest of the structure."
+  },
+  {
+    "q": "3. The analysis of structure is",
+    "options": [
+      "deciding the material of the member",
+      "deciding the dimension of the member",
+      "calculating the magnitude and nature of various straining actions at salient points of the structure",
+      "planning of the structure"
+    ],
+    "correct": 2,
+    "explain": "Structural analysis is the process of determining the internal forces (straining actions) like shear, moment, and thrust at critical points, not deciding material or dimensions (which is design)."
+  },
+  {
+    "q": "4. The number of independent equations to be satisfied for static equilibrium of a plane structure is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "For a planar (2D) structure, equilibrium requires three independent equations: ΣFx=0, ΣFy=0, and ΣM=0."
+  },
+  {
+    "q": "5. If there m unknown member forces, r unknown reaction components and j number of joints then degree of static indeterminacy of a pin jointed plane frame is given by",
+    "options": [
+      "m + r + 2j",
+      "m − r + 2j",
+      "m + r − 2j",
+      "m + r − 3j"
+    ],
+    "correct": 2,
+    "explain": "For a pin-jointed plane frame, the degree of static indeterminacy is Ds = m + r − 2j, since each joint provides 2 equilibrium equations (ΣFx=0, ΣFy=0)."
+  },
+  {
+    "q": "6. Degree of kinematic indeterminacy of a pin jointed plane frame is given by",
+    "options": [
+      "2j − r",
+      "j − 2r",
+      "3j − r",
+      "2j + r"
+    ],
+    "correct": 0,
+    "explain": "Each joint of a pin-jointed plane frame has 2 possible displacements (translations); subtracting restrained reaction components r gives kinematic indeterminacy = 2j − r."
+  },
+  {
+    "q": "7. Independent displacement components at each joint of a rigid jointed plane frame are",
+    "options": [
+      "three linear movements",
+      "two linear movements and one rotation",
+      "one linear movement and two rotations",
+      "three rotations"
+    ],
+    "correct": 1,
+    "explain": "A rigid joint in a plane frame can translate in two directions (x, y) and rotate about one axis (z), giving 2 linear movements and 1 rotation as independent displacement components."
+  },
+  {
+    "q": "8. In a pin jointed frame, the members meeting at a joint must be so arranged that",
+    "options": [
+      "the axes of all the members are concurrent and co planar",
+      "not more than two axes meet at a point",
+      "the axes must be parallel to each other",
+      "at least three axes meet at a common point"
+    ],
+    "correct": 0,
+    "explain": "For a pin joint to be in proper equilibrium without unintended moments, all member axes meeting there must be concurrent (intersect at one point) and lie in the same plane."
+  },
+  {
+    "q": "9. A tie is a member which",
+    "options": [
+      "connects two joints",
+      "a subjected to axial tensional primarily",
+      "does not suffer any stress irrespective of loading conditions",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A tie is defined as a structural member that is primarily subjected to axial tensile force."
+  },
+  {
+    "q": "10. A strut is member which",
+    "options": [
+      "connects two joints",
+      "is subjected to shear force predominantly",
+      "is subjected to axial compressive predominantly",
+      "is subjected to bending moment and shear force along with any axial force"
+    ],
+    "correct": 2,
+    "explain": "A strut is defined as a structural member primarily subjected to axial compressive force."
+  },
+  {
+    "q": "11. The number of reaction components possible at a hinged end for a general loading is",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2,
+    "explain": "A hinged (pinned) support prevents translation in both horizontal and vertical directions, resulting in two reaction components, but it does not resist rotation."
+  },
+  {
+    "q": "12. A body is said to be in equilibrium if",
+    "options": [
+      "it moves horizontally",
+      "it moves vertically",
+      "it rotates about its cg",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "True equilibrium requires zero net force and zero net moment; a body moving or rotating is not in static equilibrium, so 'none of these' correctly excludes all listed motions."
+  },
+  {
+    "q": "13. A column is aid to be of medium size if its slenderness ratio is between",
+    "options": [
+      "20 and 32",
+      "32 and 120",
+      "120 and 160",
+      "160 and 180"
+    ],
+    "correct": 1,
+    "explain": "By common classification, columns with slenderness ratio between about 32 and 120 are treated as medium/intermediate columns."
+  },
+  {
+    "q": "14. Columns of given length, cross-section and material have different values of buckling loads for different end conditions. The strongest column is one whose",
+    "options": [
+      "one end is fixed and other end is hinged",
+      "both ends are hinged or pin jointed",
+      "one end is fixed and the other end entirely free",
+      "both the ends are fixed"
+    ],
+    "correct": 3,
+    "explain": "A column fixed at both ends has the smallest effective length (Le=L/2), giving the highest Euler buckling load, making it the strongest configuration."
+  },
+  {
+    "q": "15. The moments in the arch will be zero, if",
+    "options": [
+      "ends are hinged",
+      "ends are fixed",
+      "the arch axis coincides with the line of thrust",
+      "the arch axis is parallel to the line of thrust"
+    ],
+    "correct": 2,
+    "explain": "Bending moment in an arch is the product of the thrust and the eccentricity. If the arch axis coincides with the line of thrust, the eccentricity is zero, and thus the moment is zero."
+  },
+  {
+    "q": "16. In any determinate structure, vertical load fall on the",
+    "options": [
+      "hinge",
+      "roller",
+      "fixed",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Determinate structures can have various support types (hinges, rollers) that receive and transfer vertical loads to the foundation."
+  },
+  {
+    "q": "17. The value of horizontal thrust produced in a arch is",
+    "options": [
+      "wL²/4",
+      "wL²/6",
+      "wL²/8h",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a three-hinged parabolic arch carrying a UDL (w) over the entire span (L) with rise (h), the horizontal thrust H = wL²/8h."
+  },
+  {
+    "q": "18. A suspension cable, supporting loads will be under",
+    "options": [
+      "tension",
+      "bending",
+      "compression",
+      "compression and bending"
+    ],
+    "correct": 0,
+    "explain": "Due to their flexibility, cables adapt their shape (catenary or parabola) to remain in pure tension."
+  },
+  {
+    "q": "19. The maximum tension in a cable occurs",
+    "options": [
+      "at the highest point in the cable",
+      "at the lowest point in the cable",
+      "at the centre point of the cable",
+      "at all points in the cable"
+    ],
+    "correct": 0,
+    "explain": "Tension is the vector sum of horizontal thrust and vertical shear; since vertical shear is highest at the supports (highest points), the tension is maximum there."
+  },
+  {
+    "q": "20. What is the maximum number of unknown reaction components that can be determined using only statics",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 3,
+    "explain": "For a 2D structure, there are three equations of static equilibrium: ΣFx = 0, ΣFy = 0, and ΣM = 0."
+  },
+  {
+    "q": "21. A roller support for a space structure",
+    "options": [
+      "permits the movement perpendicular to the base of the supports only",
+      "permits movement in any direction in the plane of the base",
+      "does not permit any movement but permits rotation",
+      "permits movement in any direction in the plane of the base but does not permit any rotation"
+    ],
+    "correct": 1,
+    "explain": "A roller support allows movement parallel to the supporting surface (the plane of the base)."
+  },
+  {
+    "q": "22. A hinged support for a space structure",
+    "options": [
+      "permits the movement perpendicular to the base of the support only",
+      "permits movement in any direction in the plane of the base",
+      "does not permit any movement at all but permits rotation about all three mutually perpendicular axes through the joint",
+      "does not permit movement as well as rotation in any direction"
+    ],
+    "correct": 2,
+    "explain": "A hinged (pin) support restricts all translational movement but allows the members to rotate freely about the axes."
+  },
+  {
+    "q": "23. A fixed support for a space structure",
+    "options": [
+      "permits the translation only in all directions",
+      "permits rotation only about all three mutually perpendicular axes through the joint",
+      "permits rotation about all three mutually perpendicular axes and movement in any direction in the plane of the base",
+      "permits neither rotation about nor translation along, any of the three principal axes"
+    ],
+    "correct": 3,
+    "explain": "A fixed support provides total restraint, preventing both translation and rotation in all three dimensions."
+  },
+  {
+    "q": "24. Free body diagram is",
+    "options": [
+      "the diagram of the body or a part of the body in isolated equilibrium",
+      "the diagram of a body freed from all the forces that have been acting",
+      "the diagram of a body with no supports at all",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A Free Body Diagram (FBD) isolates a body or segment to show all active forces and reactive components acting on it."
+  },
+  {
+    "q": "25. The free body diagram of a portion of a body will be in equilibrium under the action of",
+    "options": [
+      "only external loading acting on that part without consideration of support reactions",
+      "all super-imposed loads, self-weight, support reactions, if any, and the internal reactions exposed at the cuts",
+      "only support reactions and the internal reactions exposed at the cuts",
+      "external loading acting on that part and internal reactions exposed at the cuts"
+    ],
+    "correct": 1,
+    "explain": "For any portion of a structure to be in equilibrium, all forces (external, gravity, and internal forces at the cut section) must be accounted for."
+  },
+  {
+    "q": "26. The analysis of a structure is",
+    "options": [
+      "deciding the material of the member",
+      "deciding the dimensions of the member",
+      "calculating the magnitude and nature of various straining actions at salient points of the structure",
+      "planning of the structure"
+    ],
+    "correct": 2,
+    "explain": "Structural analysis is the process of determining the effects of loads (internal forces like shear and moment) on physical structures."
+  },
+  {
+    "q": "27. The design of a structure is",
+    "options": [
+      "the planning of the structure",
+      "the calculation of straining actions at salient points",
+      "deciding the material and proportions of the various members of the structure",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Design involves selecting materials and determining member sizes to ensure the structure can safely resist the analyzed forces."
+  },
+  {
+    "q": "28. A plane structure is structure",
+    "options": [
+      "the various members of which lie in a plane",
+      "the thickness of various members of which will be very small",
+      "in which there will not be any bending moment",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A plane structure is defined as a two-dimensional structure where all members and applied forces lie within the same single plane."
+  },
+  {
+    "q": "29. A two dimensional structure is one in which",
+    "options": [
+      "two dimensions are very much larger than the third",
+      "all the dimensions are equal",
+      "two dimensions are very much smaller than the third",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Two-dimensional structures, such as plates or shells, have two primary dimensions (length and width) that are much larger than the thickness."
+  },
+  {
+    "q": "30. A plane structure which subjected to a force lying outside the plane will be",
+    "options": [
+      "stable",
+      "statically determinate",
+      "unstable",
+      "statically indeterminate"
+    ],
+    "correct": 2,
+    "explain": "If a structure designed only for in-plane forces is subjected to out-of-plane forces, it lacks the necessary constraints to resist that movement, making it unstable in that direction."
+  },
+  {
+    "q": "31. A frame is completely analysed, when",
+    "options": [
+      "the variation in shear is found throughout the frame",
+      "the variation in direct stress, shear and moment is found throughout the frame",
+      "the shear and moment reaction from member to member are known at every joint",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Complete analysis of a frame requires determining all internal actions, including axial (direct) stress, shear force, and bending moments across all members."
+  },
+  {
+    "q": "32. The displacements of joints of a truss can be obtained directly from",
+    "options": [
+      "space diagram",
+      "force diagram",
+      "Williot Mohr diagram",
+      "funicular polygon"
+    ],
+    "correct": 2,
+    "explain": "The Williot-Mohr diagram is a graphical method used to find the resultant displacement of all joints in a truss due to member deformations."
+  },
+  {
+    "q": "33. The basic form of a pin jointed frame is",
+    "options": [
+      "triangle",
+      "rectangular",
+      "trapezium",
+      "parallelogram"
+    ],
+    "correct": 0,
+    "explain": "The triangle is the simplest and only inherently stable geometric shape for a pin-jointed frame; other shapes require bracing to prevent collapse."
+  },
+  {
+    "q": "34. In a pin jointed plane frame all the loads are assumed to act",
+    "options": [
+      "in the plane of the frame",
+      "perpendicular to the plane of the frame",
+      "in a plane inclined at 45 degrees to the plane of the frame",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In the analysis of plane trusses, it is a fundamental assumption that all applied loads and reactions act within the plane of the structure."
+  },
+  {
+    "q": "35. A pin jointed plane frame with J number of joints and n, number of members will be internally redundant, if",
+    "options": [
+      "n=(2j+3)",
+      "n>(2j-3)",
+      "n<(2j-3)",
+      "n=(2j-3)"
+    ],
+    "correct": 1,
+    "explain": "A truss is internally redundant (over-stiff) if the number of members (n) is greater than the minimum required for stability, which is given by the formula $$n = 2j - 3$$."
+  },
+  {
+    "q": "36. A pin jointed frame with with J number of joints and n, number of members will be a perfect frame if",
+    "options": [
+      "n> (2j-3)",
+      "n< (2j-3)",
+      "n=(2j-3)",
+      "n<(2j+3)"
+    ],
+    "correct": 2,
+    "explain": "A perfect (just-rigid) plane frame satisfies the condition $$n = 2j - 3$$, where it is stable and determinate."
+  },
+  {
+    "q": "37. A structure having J = 4 & number of member is 3 then structure should be",
+    "options": [
+      "stable",
+      "unstable",
+      "indeterminate",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "For a plane truss, the condition for stability/determinacy is m = 2j - 3. Here, 2(4) - 3 = 5 members are required. Since there are only 3 members, the structure is deficient and unstable."
+  },
+  {
+    "q": "38. Find the number of member in a structure if the number of joint is 4 for a determinate structure.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "Using the formula m = 2j - 3 for a determinate plane truss, where j = 4: m = 2(4) - 3 = 5."
+  },
+  {
+    "q": "39. Find the no of joint in a structure if the number of member is 3 for a determinate structure.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 0,
+    "explain": "For a determinate truss, m = 2j - 3. If m = 3, then 3 = 2j - 3, which leads to 2j = 6, so j = 3."
+  },
+  {
+    "q": "40. If the co moment of Joint A, B, & C are 10, 20 and 30 kN-m then find the balancing moment at joint B.",
+    "options": [
+      "20 kN-m",
+      "30 kN-m",
+      "50 kN-m",
+      "-20 kN-m"
+    ],
+    "correct": 3,
+    "explain": "In the Moment Distribution Method, the balancing moment is equal in magnitude but opposite in sign to the out-of-balance moment at the joint to maintain equilibrium."
+  },
+  {
+    "q": "41. For finding forces in the members of a truss by the graphical method. The force diagram is suggested by",
+    "options": [
+      "Mohr",
+      "Timoshenko",
+      "Maxwell",
+      "Betti"
+    ],
+    "correct": 2,
+    "explain": "The Maxwell-Cremona diagram is a well-known graphical method used to determine the internal forces in the members of a static truss."
+  },
+  {
+    "q": "42. Degree of freedom (DOF) or DKI, for the structure is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "Based on the standard analysis of the joint configuration shown in typical structural problems of this level, the kinematic indeterminacy (DKI) refers to the independent displacement components; for the specific frame provided in the image, the answer is 2."
+  },
+  {
+    "q": "43. At a joint where several members meet, any applied moment will be distributed among the various members",
+    "options": [
+      "equally",
+      "equally among such members whose far ends are fixed",
+      "in proportion to their stiffness",
+      "equally among such members whose far ends are hinged"
+    ],
+    "correct": 2,
+    "explain": "According to the principle of moment distribution, an applied moment is shared by members meeting at a joint in direct proportion to their relative stiffness (K)."
+  },
+  {
+    "q": "44. Influence lines are drawn for structures",
+    "options": [
+      "indeterminate",
+      "determinate",
+      "any type",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Influence lines are a universal tool in structural engineering. While they are simpler to draw for determinate structures (linear), they are also used for indeterminate structures (where they are typically curved)."
+  },
+  {
+    "q": "45. The maximum tension in a cable occurs",
+    "options": [
+      "at the highest point in the cable",
+      "at the lowest point in the cable",
+      "at the center of the cable",
+      "at all points in the cable"
+    ],
+    "correct": 0,
+    "explain": "In a suspended cable, tension is a combination of horizontal component (constant) and vertical component (varying with slope); it is maximum at the supports (highest points), where the cable's slope is steepest."
+  },
+  {
+    "q": "46. A parabolic cable is subjected to a rise of t°C in temperature. Then the increase in dip of the cable is proportional to",
+    "options": [
+      "span length",
+      "square of span length",
+      "cube of span length",
+      "reciprocal of span length"
+    ],
+    "correct": 1,
+    "explain": "The extra length gained due to thermal expansion relates to dip change through a relation involving the square of the span, giving increase in dip proportional to (span)²."
+  },
+  {
+    "q": "47. Horizontal reaction at B as shown in fig. is equal to",
+    "options": [
+      "0",
+      "10 KN",
+      "20 KN",
+      "30 KN"
+    ],
+    "correct": 1,
+    "explain": "Summing horizontal forces (ΣHx = 0): The applied 10kN horizontal load at the top must be countered by an equal and opposite horizontal reaction at the support B to maintain equilibrium."
+  },
+  {
+    "q": "48. In a co planar parallel force system, the number of unknown forces that can be found by the principle of statics is",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "correct": 1,
+    "explain": "A coplanar parallel force system has only 2 independent equilibrium equations available (ΣF=0 along the force direction, and ΣM=0), since ΣF perpendicular to forces is automatically satisfied."
+  },
+  {
+    "q": "49. In a general co planar force system, the number of unknown forces that can be found by the principle of statics is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct": 2,
+    "explain": "A general coplanar force system has 3 independent equilibrium equations: ΣFx=0, ΣFy=0, ΣM=0, so up to 3 unknowns can be solved."
+  },
+  {
+    "q": "50. Given pin jointed frame is (refer to image 1666)",
+    "options": [
+      "internally stable",
+      "externally unstable",
+      "unstable",
+      "stable"
+    ],
+    "correct": 2,
+    "explain": "A frame is unstable if it doesn't meet the minimum member requirement ($m < 2j-3$) or if the arrangement of hinges allows for a mechanism."
+  }
+]

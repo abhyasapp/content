@@ -1,0 +1,123 @@
+[
+  {
+    "q": "1. The theodolite method off setting out a curve involves ...............",
+    "options": [
+      "linear measurements only",
+      "angular measurements only",
+      "both linear and angular measurements",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Theodolite methods (like the two-theodolite method) primarily rely on angular observations to define points on the curve."
+  },
+  {
+    "q": "2. The approximate formula for radial or perpendicular offsets from the tangent is",
+    "options": [
+      "x / 2R",
+      "x^2 / 2R",
+      "x / R",
+      "x^2 / R"
+    ],
+    "correct": 1,
+    "explain": "For short distances (x), the perpendicular offset (O) is approximately $O = x^2 / 2R$."
+  },
+  {
+    "q": "3. Perpendicular offset from a tangent to the junction of a transition curve and circular curve is equal to",
+    "options": [
+      "shift",
+      "twice the shift",
+      "thrice the shift",
+      "four times the shift"
+    ],
+    "correct": 3,
+    "explain": "In the geometry of a transition curve, the offset at the end of the transition curve (where it meets the circular curve) is four times the shift 's'."
+  },
+  {
+    "q": "4. If D is the angle of deflection of a simple curve of radius R, the length of its long chord, is",
+    "options": [
+      "R cos D/2",
+      "2R cos D/2",
+      "R sin D/2",
+      "2R sin D/2"
+    ],
+    "correct": 3,
+    "explain": "The long chord is the straight line connecting the start and end of the curve. Its length is calculated as $2R sin(Delta/2)$, where $Delta$ (or D) is the deflection angle."
+  },
+  {
+    "q": "5. When R is radius (m) and D is degree of curve, relation for 30 m chord is",
+    "options": [
+      "R = 1520/D",
+      "R = 1720/D",
+      "R = 4500/D",
+      "R = 5400/D"
+    ],
+    "correct": 1,
+    "explain": "For a 30m chord, $R = (30 \\times 180) / (\\pi \\times D) \\approx 1718.87 / D$. This is usually rounded to $1720/D$ in many textbooks."
+  },
+  {
+    "q": "6. The angle between the back tangent and forward tangent of a curve is",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The central angle (or angle of intersection) is the angle between the two tangents at the point of intersection (PI)."
+  },
+  {
+    "q": "7. A reverse curve consists of .............",
+    "options": [
+      "a single curve of a circle connecting two straights",
+      "two arcs of different radii bending in the same direction",
+      "two arcs of equal radii bending in the same direction",
+      "two arcs of equal or different radii bending in the opposite direction"
+    ],
+    "correct": 3,
+    "explain": "A reverse curve (S-curve) consists of two circular arcs with centers on opposite sides of a common tangent."
+  },
+  {
+    "q": "8. If the radius of a simple curve is R, the length of the chord for calculating offsets by the method of chords produced, should not exceed .............",
+    "options": [
+      "R/100",
+      "R/15",
+      "R/20",
+      "R/25"
+    ],
+    "correct": 2,
+    "explain": "For the method of chords produced, the chord length is generally kept within R/20 to ensure that the approximation (arc length ≈ chord length) remains accurate for plotting."
+  },
+  {
+    "q": "9. The perpendicular offset from a tangent to the junction of transition curve and circular curve is equal to .............",
+    "options": [
+      "L/6R",
+      "L/24R",
+      "L²/6R",
+      "L²/24R"
+    ],
+    "correct": 2,
+    "explain": "This offset value is mathematically derived for a spiral transition curve to ensure a smooth change in curvature; it is often noted as $Y = L^2 / (24R)$."
+  },
+  {
+    "q": "10. A lemniscate curve between the tangents is transitional throughout, if the polar deflection angle of its apex is equal to .............",
+    "options": [
+      "φ/3",
+      "φ/4",
+      "φ/5",
+      "φ/6"
+    ],
+    "correct": 3,
+    "explain": "For a fully transitional lemniscate curve, the polar deflection angle at the end is exactly one-sixth of the total deflection angle $\\phi$."
+  },
+  {
+    "q": "11. A ideal vertical curve to join two gradients, is .............",
+    "options": [
+      "circular",
+      "parabolic",
+      "hyperbolic",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A simple parabola is used for vertical curves because it provides a constant rate of change of grade, ensuring smooth vehicle motion."
+  }
+]

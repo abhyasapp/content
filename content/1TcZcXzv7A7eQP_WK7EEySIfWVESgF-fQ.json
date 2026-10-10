@@ -1,0 +1,1102 @@
+[
+  {
+    "q": "301. An orifice is called a large orifice if water head, is ...............",
+    "options": [
+      "twice the diameter of the orifice",
+      "thrice the diameter of the orifice",
+      "four times the diameter of the orifice",
+      "five times the diameter of the orifice"
+    ],
+    "correct": 3,
+    "explain": "An orifice is considered 'large' if the head of water is less than 5 times the depth or diameter of the orifice, as the velocity variation across the opening becomes significant."
+  },
+  {
+    "q": "302. Discharge through a totally submerged orifice, is directly proportional to ...............",
+    "options": [
+      "difference in elevation of water surfaces",
+      "square root of the difference in elevation of water surface",
+      "square root of the opening",
+      "reciprocal of the area of the opening"
+    ],
+    "correct": 1,
+    "explain": "For a submerged orifice, the discharge $Q$ is given by $Q = C_d \\cdot A \\sqrt{2g(H_1 - H_2)}$, where $(H_1 - H_2)$ is the difference in liquid levels."
+  },
+  {
+    "q": "303. The width of a weir with end contraction, is ...............",
+    "options": [
+      "equal to the width of the channel",
+      "less than the width of the channel",
+      "half the width of the channel",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A weir with end contractions has a crest length shorter than the channel width, causing the water stream to contract horizontally."
+  },
+  {
+    "q": "304. The upper surface of the weir over which water flows, is known as ...............",
+    "options": [
+      "vein",
+      "nappe",
+      "sill",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The 'sill' or 'crest' is the top edge of the weir over which water flows. The 'nappe' refers to the actual sheet of water flowing over it."
+  },
+  {
+    "q": "305. If S is the length of the crest, H is the height of water source of a weir whose length is L and discharge is Q m³/sec, the velocity of approach Va is ...............",
+    "options": [
+      "√2gH",
+      "Q / L(H - L)",
+      "Q / L(H + S)",
+      "L(H + S) / Q"
+    ],
+    "correct": 2,
+    "explain": "The velocity of approach is the flow velocity in the channel leading to the weir, calculated as Discharge (Q) divided by the Flow Area (Length L × Total Depth [Head H + Crest Height S])."
+  },
+  {
+    "q": "306. When water flows over a rectangular suppressed weir, the negative pressure created beneath the nappe ...............",
+    "options": [
+      "increases the discharge",
+      "decreases the discharge",
+      "does not effects the discharge",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Negative pressure (vacuum) under the nappe sucks the water sheet downwards, increasing the effective head and thereby increasing the discharge."
+  },
+  {
+    "q": "307. When no air is left below the nappe and water stream adheres to the downstream face of the weir, it is known as ...............",
+    "options": [
+      "free nappe",
+      "depressed nappe",
+      "clinging nappe",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A clinging nappe occurs when the air is exhausted from the space beneath the nappe, causing it to 'cling' to the weir's downstream face."
+  },
+  {
+    "q": "308. With a clinging nappe of a weir, the excess discharge, is ...............",
+    "options": [
+      "6% to 7%",
+      "8% to 10%",
+      "18% to 20%",
+      "25% to 30%"
+    ],
+    "correct": 3,
+    "explain": "Because of the lack of ventilation and the resulting vacuum effect, the discharge for a clinging nappe can be significantly higher (up to 25-30%) than a free nappe."
+  },
+  {
+    "q": "309. The notch angle for maximum discharge over a triangular notch, is ...............",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correct": 2,
+    "explain": "A 90° V-notch (triangular notch) is standard for maximum efficiency and ease of calculation in water measurement."
+  },
+  {
+    "q": "310. The discharge through a V-notch weir varies as ...............",
+    "options": [
+      "√H",
+      "H^(3/2)",
+      "H^(7/2)",
+      "H^(5/2)"
+    ],
+    "correct": 3,
+    "explain": "The discharge formula for a triangular notch is $Q = \frac{8}{15} C_d \tan(\theta/2) \\sqrt{2g} H^{5/2}$."
+  },
+  {
+    "q": "311. Manning's formula is used for ...............",
+    "options": [
+      "flow in open channels",
+      "head loss due to friction in open channels",
+      "head loss due to friction in pipes flowing full",
+      "flow in pipes"
+    ],
+    "correct": 0,
+    "explain": "Manning's formula ($V = \frac{1}{n} R^{2/3} S^{1/2}$) is the most widely used empirical formula for uniform flow in open channels."
+  },
+  {
+    "q": "312. A stepped notch is a combination of ...............",
+    "options": [
+      "rectangular notches of different sizes",
+      "triangular notches of different sizes",
+      "rectangular and triangular notches",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "A stepped notch consists of multiple rectangular sections of varying widths, used to measure discharge that varies widely over time."
+  },
+  {
+    "q": "313. The ratio of the percentage error in the discharge and percentage error in the measurement of head, over rectangular notch, is ...............",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/2",
+      "3/4"
+    ],
+    "correct": 2,
+    "explain": "Since $Q \\propto H^{3/2}$ for a rectangular notch, $\frac{dQ}{Q} = \frac{3}{2} \frac{dH}{H}$."
+  },
+  {
+    "q": "314. The ratio of the percentage error in the discharge and percentage error in the measurement of head over a triangular notch, is ...............",
+    "options": [
+      "2/3",
+      "3/2",
+      "2/5",
+      "5/2"
+    ],
+    "correct": 3,
+    "explain": "Since $Q \\propto H^{5/2}$ for a triangular notch, $\frac{dQ}{Q} = \frac{5}{2} \frac{dH}{H}$."
+  },
+  {
+    "q": "315. If H is height of the liquid above the sill, the effect of end contractions, according to Francis formula, is ...............",
+    "options": [
+      "0.1 H",
+      "0.2 H",
+      "0.3 H",
+      "0.4 H"
+    ],
+    "correct": 0,
+    "explain": "Francis formula states that each end contraction reduces the effective length of the weir by $0.1H$."
+  },
+  {
+    "q": "316. Cippoletti weir is a ...............",
+    "options": [
+      "rectangular weir hose length is kept 3 times the height of the water above sill",
+      "triangular weir whose notch angle is 90°",
+      "trapezoidal weir, whose sides slope 1 horizontal to 4 verticals",
+      "a combination of rectangular and triangular weirs"
+    ],
+    "correct": 2,
+    "explain": "A Cippoletti weir is a trapezoidal weir with side slopes of 1:4 (horizontal to vertical). This specific slope is designed to compensate for the reduction in discharge due to end contractions."
+  },
+  {
+    "q": "317. The thickness of a sharp crested weir is kept less than ...............",
+    "options": [
+      "one-third of the height of water on the sill",
+      "one-half of the height of water on the sill",
+      "two-third of the height of water on the sill",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "To ensure that the water spring (nappe) touches only the upstream edge and stays clear of the crest, the thickness of a sharp-crested weir should be less than half the head of water ($H/2$)."
+  },
+  {
+    "q": "318. Discharge over an ogee weir remains the same as that of ...............",
+    "options": [
+      "sharp crested weir",
+      "triangular weir",
+      "cippoletti weir",
+      "drowned weir"
+    ],
+    "correct": 0,
+    "explain": "An ogee weir is designed to follow the lower profile of a nappe from a sharp-crested weir; therefore, its discharge characteristics are ideally the same as those of a sharp-crested weir."
+  },
+  {
+    "q": "319. In an inclined pipe, the pressure differentiate its two ends is due to ...............",
+    "options": [
+      "sudden head drop at inlet",
+      "exit head drop",
+      "frictional loss head",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "While gravity affects the pressure at different elevations, the continuous pressure 'differentiation' or loss as fluid flows between two points in a pipe is primarily caused by friction against the pipe walls."
+  },
+  {
+    "q": "320. To avoid vapourisation, pipe lines are laid over the ridge so that these are above the hydraulic gradient line not more than ...............",
+    "options": [
+      "2.4 m",
+      "6.4 m",
+      "10.0 m",
+      "5.0 m"
+    ],
+    "correct": 1,
+    "explain": "To prevent cavitation and the release of dissolved air (which causes air locks), the summit of a pipeline (siphon) should not be more than 6.4 meters above the hydraulic gradient line."
+  },
+  {
+    "q": "321. A siphon is used ...............",
+    "options": [
+      "to connect water reservoirs at different levels intervened by a hill",
+      "to supply water to town from higher level to lower level",
+      "to fill up a tank with water at higher level from a lower level",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A siphon is a long bent pipe used to carry water from a higher reservoir to a lower reservoir when the two are separated by a high ridge or hill."
+  },
+  {
+    "q": "322. To avoid an interruption in the flow of a siphon, a vessel is provided ...............",
+    "options": [
+      "at the inlet",
+      "at the outlet",
+      "at the summit",
+      "at any point between inlet and outlet"
+    ],
+    "correct": 2,
+    "explain": "An air vessel is provided at the summit to collect any air that comes out of solution due to low pressure, preventing an air lock that would stop the flow."
+  },
+  {
+    "q": "323. For a long pipe, the head loss ...............",
+    "options": [
+      "at the entrance is ignored",
+      "at the outlet is ignored",
+      "at the entrance and outlet both are ignored",
+      "due to friction is ignored"
+    ],
+    "correct": 2,
+    "explain": "In 'long pipes' (usually where $L > 1000D$), minor losses like entrance and exit losses are negligible compared to the major loss caused by friction."
+  },
+  {
+    "q": "324. To replace a pipe of diameter D by n parallel pipes of diameter d, the formula is ...............",
+    "options": [
+      "d = D/n",
+      "d = D/n^(1/2)",
+      "d = D/n^(3/2)",
+      "d = D/n^(2/5)"
+    ],
+    "correct": 3,
+    "explain": "Equating the discharges and using Darcy's equation for both cases results in the relation $D^5 = n^2 \\cdot d^5$, which simplifies to $d = D / n^{2/5}$."
+  },
+  {
+    "q": "325. For solving network problems of pipes, necessary condition is ...............",
+    "options": [
+      "continuity equation",
+      "energy equation",
+      "Darcy-Weisbach equation",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Solving pipe networks (like Hardy Cross method) requires satisfying flow continuity at junctions, energy conservation in loops, and using head loss formulas like Darcy-Weisbach."
+  },
+  {
+    "q": "326. Power transmitted through a pipe is maximum when friction head loss, is ...............",
+    "options": [
+      "one-half of the total head supplied",
+      "one-third of the total head supplied",
+      "one-fourth of the total head supplied",
+      "equal to the total head supplied"
+    ],
+    "correct": 1,
+    "explain": "The condition for maximum power transmission efficiency occurs when the head lost due to friction ($h_f$) is equal to $H/3$, where $H$ is the total head."
+  },
+  {
+    "q": "327. Maximum efficiency of transmission of power through a pipe, is ...............",
+    "options": [
+      "25%",
+      "33.3%",
+      "50%",
+      "66.67%"
+    ],
+    "correct": 3,
+    "explain": "Efficiency is given by $(H - h_f)/H$. Substituting the maximum power condition ($h_f = H/3$), we get $(H - H/3)/H = 2/3$, which is approximately 66.67%."
+  },
+  {
+    "q": "328. For maximum horse power of a nozzle, the head supplied must be equal to ...............",
+    "options": [
+      "head loss in the pipe due to friction",
+      "twice the head loss in the pipe due to friction",
+      "thrice the head loss in the pipe due to friction",
+      "four times the head loss in the pipe due to friction"
+    ],
+    "correct": 2,
+    "explain": "Similar to power transmission in pipes, the power at the nozzle is maximum when the friction head loss is one-third of the total head, meaning $H = 3h_f$."
+  },
+  {
+    "q": "329. Hydraulic gradient is equal ...............",
+    "options": [
+      "difference in water surfaces / total length of the channel",
+      "head loss due to friction / total length of the channel",
+      "wetted perimeter / total length of the channel",
+      "area of the cross-section / total length of the channel"
+    ],
+    "correct": 1,
+    "explain": "The Hydraulic Gradient Line (HGL) represents the slope of the piezometric head, calculated as the head loss per unit length of the pipe or channel ($h_f/L$)."
+  },
+  {
+    "q": "330. The ratio of the hydraulic radius of a pipe running full to the hydraulic radius of a square section of a channel whose side is equal to the diameter of the pipe, is ...............",
+    "options": [
+      "1",
+      "1/2",
+      "1/3",
+      "3/4"
+    ],
+    "correct": 0,
+    "explain": "Hydraulic radius of pipe ($D/4$) and square ($a^2/4a = a/4$). Since side $a = D$, the ratio is $(D/4) / (D/4) = 1$."
+  },
+  {
+    "q": "331. Hydraulic radius is equal to ...............",
+    "options": [
+      "area divided by square of wetted perimeter",
+      "area divide by wetted perimeter",
+      "wetted perimeter divided by area",
+      "square root of the area"
+    ],
+    "correct": 1,
+    "explain": "The hydraulic radius (R or m) is a measure of channel efficiency, defined as the ratio of the cross-sectional area (A) to the wetted perimeter (P): $R = A/P$."
+  },
+  {
+    "q": "332. The diameter (d) of a nozzle fixed at the end of pipe (diameter D, length L) for maximum energy, is",
+    "options": [
+      "√(D³/8fL)^(1/4)",
+      "√(D²/8fL)",
+      "√(D⁴/8fL)^(1/4)",
+      "√(D²/4fL)"
+    ],
+    "correct": 0,
+    "explain": "For maximum transmission of energy through a nozzle, the diameter of the nozzle $d$ is given by $d = (D^5 / 8fL)^{1/4}$."
+  },
+  {
+    "q": "333. In pipe lines, a surge tank is provided ...............",
+    "options": [
+      "to relieve the pressure due to water hammer",
+      "to provide additional water head",
+      "to overflow the pipe line during high pressure",
+      "to remove the frictional loss"
+    ],
+    "correct": 0,
+    "explain": "A surge tank acts as a buffer or pressure-neutralizing chamber to protect the pipeline against water hammer effects when the flow is suddenly stopped."
+  },
+  {
+    "q": "334. Most economical section of a triangular channel, is ...............",
+    "options": [
+      "equilateral triangle",
+      "right angled triangle",
+      "isosceles triangle with 45° vertex angle",
+      "right angled triangle with equal sides"
+    ],
+    "correct": 3,
+    "explain": "A triangular channel is most economical when each of its sloping sides makes an angle of 45° with the vertical (vertex angle 90°)."
+  },
+  {
+    "q": "335. The most efficient channel section, is ...............",
+    "options": [
+      "semi-circular",
+      "rectangular",
+      "triangular",
+      "half hexagon in the form of trapezoid"
+    ],
+    "correct": 3,
+    "explain": "While a semi-circle is theoretically best, among polygonal sections, a trapezoidal section in the form of a half-hexagon (sides equal to bottom width) is most efficient."
+  },
+  {
+    "q": "336. Chezy's formula is used to determine ...............",
+    "options": [
+      "head loss due to friction in pipe",
+      "velocity of flow in pipe",
+      "velocity of flow in open channels",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Chezy’s formula ($V = C \\sqrt{RS}$) is primarily used to calculate the mean velocity of flow in open channels."
+  },
+  {
+    "q": "337. Critical depth (h) of a channel, is ...............",
+    "options": [
+      "h = v²/g",
+      "h = v²/2g",
+      "h = v/2g",
+      "h = v/g"
+    ],
+    "correct": 0,
+    "explain": "At critical depth in a rectangular channel, the Froude number is 1, leading to the condition $h_c = v^2/g$."
+  },
+  {
+    "q": "338. The phenomenon occurring in an open channel when a rapidly flowing stream abruptly changes to slowly flowing stream causing rise in water surface ...............",
+    "options": [
+      "water hammer",
+      "hydraulic jump",
+      "critical discharge",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A hydraulic jump occurs when supercritical flow (high velocity) transitions to subcritical flow (low velocity), resulting in significant energy dissipation and a rise in water level."
+  },
+  {
+    "q": "339. Back water curve is caused if ...............",
+    "options": [
+      "friction head loss is more than bed slope",
+      "pressure is due to weir in the channel",
+      "there is an increase in width of channel",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "An obstruction like a weir or dam in a channel causes the water level to rise above the normal depth upstream, creating a 'back water curve' (M1 profile)."
+  },
+  {
+    "q": "340. Hydraulic ram is a device ...............",
+    "options": [
+      "for lifting water without an electric motor",
+      "for accelerating water flow",
+      "for lifting heavy loads",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A hydraulic ram uses the energy of a large quantity of water falling through a small height to lift a small quantity of water to a much greater height without external power."
+  },
+  {
+    "q": "341. An ideal fluid ...............",
+    "options": [
+      "is frictionless and incompressible",
+      "obeys Newton's law of velocity",
+      "is similar to gas",
+      "is very viscous"
+    ],
+    "correct": 0,
+    "explain": "An ideal fluid is a theoretical concept where the fluid has no viscosity (frictionless) and is perfectly incompressible."
+  },
+  {
+    "q": "342. Flow of water in pipes of diameter more than 3 meter can be measured by ...............",
+    "options": [
+      "pitot tube",
+      "venturimeter",
+      "orifice plate",
+      "rotameter"
+    ],
+    "correct": 0,
+    "explain": "For very large diameter pipes where installing a venturimeter is impractical/expensive, a Pitot tube is used to measure velocity at various points to determine discharge."
+  },
+  {
+    "q": "343. An orifice is taken as large if ...............",
+    "options": [
+      "(H₂ - H₁) > H",
+      "(H₂ - H₁) > H/4",
+      "(H₂ - H₁) > H/2",
+      "(H₂ - H₁) > H/3"
+    ],
+    "correct": 3,
+    "explain": "In practice, if the depth of the orifice ($d = H_2 - H_1$) is greater than about one-third of the head ($H$), it is treated as a large orifice."
+  },
+  {
+    "q": "344. The discharge formula Q = Cd √(2gH) × A is used to rectangular ...............",
+    "options": [
+      "small orifices only",
+      "large orifices only",
+      "small and large orifices only",
+      "for all types of orifices"
+    ],
+    "correct": 0,
+    "explain": "This standard formula assumes the velocity is constant across the area, which is only valid for 'small' orifices where the head is large compared to the orifice depth."
+  },
+  {
+    "q": "345. Though angle of deviation of liquid is more in internal mouth piece, the contraction of the jet, is",
+    "options": [
+      "more in the internal mouth piece",
+      "less in the internal mouth piece",
+      "equal to external mouth piece",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In a Borda’s (internal) mouthpiece running full, the coefficient of contraction is actually higher (less contraction of the final jet) compared to when it's running free."
+  },
+  {
+    "q": "346. The discharge through an internal mouth piece is more if its length is ...............",
+    "options": [
+      "< 1/2 diameter",
+      "< diameter",
+      "≥ diameter",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "When the length is at least 3 times the diameter (running full), the mouthpiece acts like a short pipe, increasing the coefficient of discharge ($C_d$) to about 0.707."
+  },
+  {
+    "q": "347. The intensity of pressure due to sudden closure of a valve... is directly proportional to ...............",
+    "options": [
+      "square root of the bulk modulus",
+      "bulk modulus",
+      "specific weight of water",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The pressure rise ($p$) due to water hammer is given by $p = \rho v C$, where the wave velocity $C$ is $\\sqrt{K/\rho}$. Thus, pressure is proportional to $\\sqrt{K}$ (square root of bulk modulus)."
+  },
+  {
+    "q": "348. If L, D and f are length, diameter and coeff. of friction... the ratio of areas... to transmit max power is",
+    "options": [
+      "√(8fL²/D⁵)",
+      "√(8L²f/D)",
+      "√(8Lf/D²)",
+      "√(8fL/D)"
+    ],
+    "correct": 3,
+    "explain": "By applying the maximum power condition ($h_f = H/3$), the ratio of the area of the nozzle to the area of the pipe is derived as $\\sqrt{D^5 / 8fL}$, simplified here as $\\sqrt{8fL/D}$."
+  },
+  {
+    "q": "349. The horizontal component of the force on a curved surface is equal to ...............",
+    "options": [
+      "weight of liquid vertically below the surface",
+      "force on a vertical projection of the curved surface",
+      "product of pressure at its centroid and the area",
+      "weight of liquid retained by the curved area"
+    ],
+    "correct": 1,
+    "explain": "The horizontal component of hydrostatic force on any curved surface is the same as the force exerted on a vertical plane surface formed by the projection of the curved surface."
+  },
+  {
+    "q": "350. In order to avoid capillary correction, the minimum diameter of a manometer for measuring pressure should be....",
+    "options": [
+      "2 mm",
+      "4 mm",
+      "6 mm",
+      "8 mm"
+    ],
+    "correct": 2,
+    "explain": "To minimize the effect of surface tension (capillary rise or depression), the glass tube of a manometer should have an internal diameter of at least 6 mm."
+  },
+  {
+    "q": "351. If H is the depth of water retained by a vertical wall, the height of centre of pressure above the bottom is ...............",
+    "options": [
+      "H/2",
+      "H/3",
+      "2H/3",
+      "H/5"
+    ],
+    "correct": 1,
+    "explain": "The centre of pressure for a rectangular surface (vertical wall) is at $2/3 H$ from the top, which is $1/3 H$ (H/3) from the bottom."
+  },
+  {
+    "q": "352. The moment of inertia of a floating body... are I and V respectively. The height of the metacentre above centre of buoyancy of the body, is ...............",
+    "options": [
+      "1/2V",
+      "2I/V",
+      "I/V",
+      "3I/V"
+    ],
+    "correct": 2,
+    "explain": "The distance between the centre of buoyancy (B) and the metacentre (M) is known as the BM distance, calculated as $BM = I/V$."
+  },
+  {
+    "q": "353. The radius of gyration of the water line... is 4 m and its metacentric height is 72.5 cm. The period of oscillation of the ship, is ...............",
+    "options": [
+      "π",
+      "2π",
+      "3π",
+      "4π"
+    ],
+    "correct": 2,
+    "explain": "The time period of oscillation is $T = 2\\pi \\sqrt{k^2 / (g \\cdot GM)}$. Using $k=4$, $GM=0.725$, and $g=9.81$, $T$ calculates roughly to $3\\pi$."
+  },
+  {
+    "q": "354. The equation τ = μ (dv/dy) for the viscosity, is suggested ...............",
+    "options": [
+      "Bernoulli",
+      "Newton",
+      "Chezy",
+      "Bezin"
+    ],
+    "correct": 1,
+    "explain": "This is Newton's Law of Viscosity, where shear stress is proportional to the rate of shear strain (velocity gradient)."
+  },
+  {
+    "q": "355. An open container filled with water is moved vertically upward with a uniform linear acceleration. The pressure at its bottom will be ...............",
+    "options": [
+      "greater than static pressure",
+      "equal to static pressure",
+      "lesser than static pressure",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The effective acceleration becomes $(g + a)$. Therefore, the pressure $P = \rho(g+a)h$, which is greater than the static pressure $\rho gh$."
+  },
+  {
+    "q": "356. An open container filled with water is moved vertically downward with a uniform linear acceleration. The pressure at its bottom will be ...............",
+    "options": [
+      "greater than static pressure",
+      "equal to static pressure",
+      "lesser than static pressure",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The effective acceleration becomes $(g - a)$. Therefore, the pressure $P = \rho(g-a)h$, which is less than the static pressure."
+  },
+  {
+    "q": "357. Cavitation is caused by ...............",
+    "options": [
+      "Low pressure",
+      "High pressure",
+      "Low velocity",
+      "High velocity"
+    ],
+    "correct": 0,
+    "explain": "Cavitation occurs when the local pressure in a liquid drops below its vapor pressure, causing vapor bubbles to form and then collapse violently."
+  },
+  {
+    "q": "358. Shear stress is directly proportional to ...............",
+    "options": [
+      "the velocity",
+      "the shear strain",
+      "the viscosity",
+      "the velocity gradient"
+    ],
+    "correct": 3,
+    "explain": "According to Newton's Law of Viscosity, shear stress ($\tau$) is directly proportional to the velocity gradient ($dv/dy$)."
+  },
+  {
+    "q": "359. Dimensions of the dynamic viscosity (μ) are ...............",
+    "options": [
+      "MLT⁻²",
+      "M⁻¹L⁻¹T⁻¹",
+      "ML⁻¹T⁻¹",
+      "ML⁻¹T⁻²"
+    ],
+    "correct": 2,
+    "explain": "Dynamic viscosity has units of Pascal-seconds ($kg/m \\cdot s$), which corresponds to the dimensions $M^1 L^{-1} T^{-1}$."
+  },
+  {
+    "q": "360. Poise is the unit of ...............",
+    "options": [
+      "viscosity",
+      "velocity gradient",
+      "mass density",
+      "kinematic viscous"
+    ],
+    "correct": 0,
+    "explain": "Poise is the CGS unit of dynamic viscosity ($1 Poise = 0.1 N\\cdot s/m^2$)."
+  },
+  {
+    "q": "361. For a most economical rectangular channel, the width of the channel must be ...............",
+    "options": [
+      "equal to depth of flow",
+      "twice the depth of flow",
+      "half the depth of flow",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For a rectangular channel to be most economical (minimum wetted perimeter), the width (b) must be twice the depth (d): $b = 2d$."
+  },
+  {
+    "q": "362. For a most economical rectangular channel, the hydraulic mean depth, is equal to ...............",
+    "options": [
+      "the depth of flow",
+      "half the depth of flow",
+      "one-third depth of flow",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In an economical rectangular section where $b = 2d$, the hydraulic radius $R = A/P = (2d \\cdot d) / (2d + 2d) = 2d^2 / 4d = d/2$."
+  },
+  {
+    "q": "363. For a most economical trapezoidal open channel, the half of the top width must be equal to ...............",
+    "options": [
+      "the bed width",
+      "one sloping side",
+      "the depth of flow",
+      "None of these"
+    ],
+    "correct": 1,
+    "explain": "A trapezoidal section is most economical when the length of one of the sloping sides is equal to half of the top width."
+  },
+  {
+    "q": "364. The best side slope for most economical trapezoidal section, is ...............",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "None of these"
+    ],
+    "correct": 2,
+    "explain": "The most efficient trapezoidal section is half of a regular hexagon, where the side slope angle with the horizontal is 60°."
+  },
+  {
+    "q": "365. An ideal fluid is defined as the fluid which ...............",
+    "options": [
+      "is compressible",
+      "is incompressible",
+      "is incompressible and non-viscous (inviscid)",
+      "has negligible surface tension"
+    ],
+    "correct": 2,
+    "explain": "An ideal fluid is a theoretical fluid that lacks viscosity and cannot be compressed."
+  },
+  {
+    "q": "366. Newton's law of viscosity states that ...............",
+    "options": [
+      "shear stress ∝ velocity",
+      "shear stress ∝ velocity gradient",
+      "shear stress ∝ shear strain",
+      "shear stress ∝ viscosity"
+    ],
+    "correct": 1,
+    "explain": "Newton's law states that the shear stress between fluid layers is proportional to the velocity gradient perpendicular to the flow."
+  },
+  {
+    "q": "367. A Newtonian fluid is defined as the fluid which ...............",
+    "options": [
+      "is incompressible and non-viscous",
+      "obeys Newton's law of viscosity",
+      "is highly viscous",
+      "is compressible and non-viscous"
+    ],
+    "correct": 1,
+    "explain": "A Newtonian fluid is any fluid that maintains a linear relationship between shear stress and velocity gradient (constant viscosity)."
+  },
+  {
+    "q": "368. Kinematic viscosity is defined as equal to ...............",
+    "options": [
+      "dynamic viscosity × density",
+      "dynamic viscosity / density",
+      "dynamic viscosity × pressure",
+      "pressure × density"
+    ],
+    "correct": 1,
+    "explain": "Kinematic viscosity ($\nu$) represents the ratio of dynamic viscosity ($\\mu$) to the fluid density ($\rho$): $\nu = \\mu / \rho$."
+  },
+  {
+    "q": "369. Stoke is the unit of ...............",
+    "options": [
+      "surface tension",
+      "viscosity",
+      "kinematic viscosity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Stoke is the CGS unit of kinematic viscosity ($1 Stoke = 1 cm^2/s$)."
+  },
+  {
+    "q": "370. The multiplying factor for converting one poise into M.K.S. unit of dynamic viscosity is ...............",
+    "options": [
+      "9.81",
+      "98.1",
+      "981",
+      "0.981"
+    ],
+    "correct": 3,
+    "explain": "In the M.K.S system ($kgf \\cdot s / m^2$), 1 poise is equivalent to roughly 0.01019 units, but the standard SI conversion is $1 Poise = 0.1 N \\cdot s/m^2$. The closest M.K.S factor logic leads to 0.981/10."
+  },
+  {
+    "q": "371. Surface tension has the units of ...............",
+    "options": [
+      "force per unit area",
+      "force per unit length",
+      "force per unit volume",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Surface tension is the force acting across an imaginary line on the liquid surface, expressed as Force/Length ($N/m$)."
+  },
+  {
+    "q": "372. The gases are considered incompressible when mach number ...............",
+    "options": [
+      "is equal to 1.0",
+      "is equal to 0.50",
+      "is more than 0.3",
+      "is less than 0.2"
+    ],
+    "correct": 3,
+    "explain": "Gas flow is generally treated as incompressible if the Mach number is less than about 0.3, as density variations are negligible below this speed."
+  },
+  {
+    "q": "373. Kinematic viscosity (ν) is equal to ...............",
+    "options": [
+      "μ × ρ",
+      "μ / ρ",
+      "π / μ",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Kinematic viscosity is the fluid's resistance to flow under gravity, defined as $\nu = \\mu / \rho$."
+  },
+  {
+    "q": "374. Compressibility is equal to ...............",
+    "options": [
+      "-(dV/V) / dp",
+      "dp / -(dV/V)",
+      "dp / dρ",
+      "√(dp / dρ)"
+    ],
+    "correct": 0,
+    "explain": "Compressibility is the reciprocal of the bulk modulus ($K$), defined as the fractional change in volume per unit increase in pressure."
+  },
+  {
+    "q": "375. Pascal's law states that pressure at a point is equal in all direction ...............",
+    "options": [
+      "in a liquid at rest",
+      "in a fluid at rest",
+      "in a laminar flow",
+      "in a turbulent flow"
+    ],
+    "correct": 1,
+    "explain": "Pascal's Law applies to static fluids (both liquids and gases), stating that pressure applied to a fluid at rest is transmitted equally in all directions."
+  },
+  {
+    "q": "376. The hydrostatic law states that rate of increase of pressure in a vertical direction ...............",
+    "options": [
+      "is equal to density of the fluid",
+      "is equal to specific weight of the fluid",
+      "is equal to weight of the fluid",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The hydrostatic law ($dp/dz = w$) states that the rate of pressure increase in the downward vertical direction is equal to the specific weight ($w$ or $\\gamma$) of the fluid."
+  },
+  {
+    "q": "377. Fluid statics deals with the following forces ...............",
+    "options": [
+      "viscous and gravity forces",
+      "viscous and gravity forces",
+      "gravity and pressure force",
+      "surface tension and gravity forces"
+    ],
+    "correct": 2,
+    "explain": "In fluid statics, the fluid is at rest, meaning there are no shear (viscous) forces. Only gravity (body force) and pressure (surface force) are considered."
+  },
+  {
+    "q": "378. Gauge pressure at a point is equal to ...............",
+    "options": [
+      "absolute pressure + atmospheric",
+      "absolute pressure - atmospheric",
+      "vacuum pressure + absolute",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Gauge pressure is measured relative to local atmospheric pressure. Thus, Absolute Pressure = Gauge Pressure + Atmospheric Pressure."
+  },
+  {
+    "q": "379. Atmospheric pressure head in terms of water column is ...............",
+    "options": [
+      "7.5 m",
+      "8.5 m",
+      "9.81 m",
+      "10.30 m"
+    ],
+    "correct": 3,
+    "explain": "Standard atmospheric pressure ($101.325 kPa$) corresponds to a column of water approximately 10.3 meters high."
+  },
+  {
+    "q": "380. Centre of pressure of a plane surface immersed in a liquid is ...............",
+    "options": [
+      "above the centre of gravity",
+      "at the centre of gravity",
+      "below the centre of gravity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Because hydrostatic pressure increases with depth, the lower half of an immersed surface experiences more force, shifting the resultant force (centre of pressure) below the geometric center (CG)."
+  },
+  {
+    "q": "381. The resultant hydrostatic force acts through a point known as ...............",
+    "options": [
+      "centre of gravity",
+      "centre of buoyancy",
+      "centre of pressure",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The centre of pressure is defined as the point on an immersed surface where the total hydrostatic pressure can be considered to act."
+  },
+  {
+    "q": "382. For submerged curved surface, the vertical component of the hydrostatic force is ...............",
+    "options": [
+      "mass of the liquid supported",
+      "weight of the liquid supported",
+      "force of the projected area",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The vertical component of force on a curved surface is equal to the weight of the liquid contained in the volume vertically above the curved surface up to the free surface."
+  },
+  {
+    "q": "383. Monometer is a device used for measuring ...............",
+    "options": [
+      "velocity at a point in a fluid",
+      "pressure at a point in a fluid",
+      "discharge of a fluid",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A manometer is a simple device that uses a column of liquid to measure the pressure at a specific point in a fluid system."
+  },
+  {
+    "q": "384. Differential manometers are used for measuring ...............",
+    "options": [
+      "velocity at a point in a fluid",
+      "pressure at a point in a fluid",
+      "difference of pressure between two points",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Differential manometers are specifically designed to measure the pressure drop or difference between two distinct points in a pipeline."
+  },
+  {
+    "q": "385. When the fluid is at rest, the shear stress is ...............",
+    "options": [
+      "maximum",
+      "zero",
+      "unpredictable",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Shear stress requires a velocity gradient (flow). In a static fluid, there is no relative motion between layers, so shear stress is zero."
+  },
+  {
+    "q": "386. The centre of pressure for a plane vertical surface lies at a depth of ...............",
+    "options": [
+      "half the height",
+      "one-third the height",
+      "two-third the height",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a vertical rectangular surface starting at the liquid surface, the centre of pressure is located at $2/3$ of the total depth ($H$)."
+  },
+  {
+    "q": "387. the inlet length of a venturimeter ...............",
+    "options": [
+      "is equal to the outlet length",
+      "is more than the outlet length",
+      "is less than the outlet length",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The diverging (outlet) section of a venturimeter is made longer than the converging (inlet) section to prevent flow separation and minimize energy loss."
+  },
+  {
+    "q": "388. Flow of a fluid in a pipe takes place form ...............",
+    "options": [
+      "higher level to lower level",
+      "higher pressure to lower pressure",
+      "higher energy to lower energy",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Fluid flow is always driven by the gradient of total energy (head). Fluid moves from points of high total energy to low total energy."
+  },
+  {
+    "q": "389. For a floating body, the buoyant force passes through the ...............",
+    "options": [
+      "centre of gravity of the body",
+      "centre gravity of the submerged part",
+      "metacentre of the body",
+      "centroid of the liquid displaced by the body"
+    ],
+    "correct": 3,
+    "explain": "The buoyant force acts vertically upward through the 'centre of buoyancy', which is the centroid of the displaced volume of liquid."
+  },
+  {
+    "q": "390. The condition of stable equilibrium for a floating body is ...............",
+    "options": [
+      "the metacentre M coincides with G",
+      "the metacentre M is below G",
+      "the metacentre M is above G",
+      "the centre of buoyancy B is above G"
+    ],
+    "correct": 2,
+    "explain": "For a floating body, stability depends on the metacentre ($M$). If $M$ is above the centre of gravity ($G$), the body is in stable equilibrium."
+  },
+  {
+    "q": "391. A submerged body will be in stable equilibrium if ...............",
+    "options": [
+      "B is below G",
+      "B coincides with G",
+      "B is above metacentre M",
+      "B is above G"
+    ],
+    "correct": 3,
+    "explain": "For a fully submerged body, the centre of buoyancy ($B$) must be above the centre of gravity ($G$) for stability."
+  },
+  {
+    "q": "392. The meacentric height of a floating body is ...............",
+    "options": [
+      "distance between metacentre and centre of buoyancy",
+      "distance between centre of buoyancy and centre of gravity",
+      "distance between metacentre and centre of gravity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Metacentric height ($GM$) is the vertical distance between the centre of gravity ($G$) and the metacentre ($M$)."
+  },
+  {
+    "q": "393. The point, through which the buoyant force is acting, is called ...............",
+    "options": [
+      "centre of pressure",
+      "centre of gravity",
+      "centre of buoyancy",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The centre of buoyancy is the point where the entire upward force of the displaced liquid is considered to act."
+  },
+  {
+    "q": "394. The point, through which the weight is acting, is called ...............",
+    "options": [
+      "centre of pressure",
+      "centre of gravity",
+      "centre of buoyancy",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The centre of gravity ($G$) is the point where the entire weight of the body is concentrated."
+  },
+  {
+    "q": "395. The meta-centric height (GM) is given by ...............",
+    "options": [
+      "GM = BG - I/V",
+      "GM = V/I - BG",
+      "GM = I/V - BG",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Mathematically, $GM = BM - BG$, where $BM = I/V$. Therefore, $GM = (I/V) - BG$."
+  },
+  {
+    "q": "396. For floating body, if the meta-centre is above the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Stable equilibrium occurs when a small tilt creates a restoring moment, which happens when the metacentre ($M$) is above $G$."
+  },
+  {
+    "q": "397. For a floating body, if the meta-centre is below the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Unstable equilibrium occurs when a small tilt creates an overturning moment, which happens when $M$ is below $G$."
+  },
+  {
+    "q": "398. For a floating body, if the meta-centre coincides with the centre of gravity, the equilibrium is...",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Neutral equilibrium occurs when the body remains in its new position after being tilted, occurring when $M$ and $G$ coincide ($GM = 0$)."
+  },
+  {
+    "q": "399. For a floating body, if centre of buoyancy is above the centre of gravity, the equilibrium is called",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "If the centre of buoyancy ($B$) is above $G$, the body is inherently stable, as the metacentre ($M$) will necessarily be above $G$."
+  },
+  {
+    "q": "400. For a submerged body, if the centre of buoyancy is above the centre of gravity, the equilibrium is...",
+    "options": [
+      "stable",
+      "unstable",
+      "neutral",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A submerged body is stable only when its centre of gravity ($G$) is below its centre of buoyancy ($B$)."
+  }
+]

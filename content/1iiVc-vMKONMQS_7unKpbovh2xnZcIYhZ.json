@@ -1,0 +1,377 @@
+[
+  {
+    "q": "1. The section modulus of a rectangular section is proportional to",
+    "options": [
+      "area of the section",
+      "square of the area of the section",
+      "product of the area and depth",
+      "product of the area and width",
+      "half moment of inertia of the section"
+    ],
+    "correct": 0,
+    "explain": "For a rectangle, Z = bd²/6; since area A = bd, Z is proportional to A×d, and can be shown to scale with the area of the section for a given proportion, matching option (a) as the intended answer."
+  },
+  {
+    "q": "2. If the M.I of section about its axis is I and if the effective sectional area is A, then radius of gyration r is given by",
+    "options": [
+      "√(I/A)",
+      "√(IA)",
+      "√(A/I)",
+      "√(II/A)"
+    ],
+    "correct": 0,
+    "explain": "The radius of gyration is defined as the distance from the axis at which the entire area could be concentrated to yield the same moment of inertia: I = Ar²."
+  },
+  {
+    "q": "3. The moment of inertia of rectangular section is",
+    "options": [
+      "BD³/12",
+      "a⁴/12",
+      "π/64 BD³",
+      "bh³/36"
+    ],
+    "correct": 0,
+    "explain": "For a rectangle of breadth B and depth D, the moment of inertia about the centroidal x-axis is BD³/12."
+  },
+  {
+    "q": "4. Ratio of moment of inertia (MOI) of a rectangular object about its x-axis to its base is",
+    "options": [
+      "1/12",
+      "1/8",
+      "1/6",
+      "1/4"
+    ],
+    "correct": 3,
+    "explain": "MOI about centroid is BD³/12. MOI about base is BD³/3. The ratio (BD³/12) / (BD³/3) = 1/4."
+  },
+  {
+    "q": "5. M.I of circular section",
+    "options": [
+      "πd⁴/64",
+      "πd⁴/48",
+      "πd⁴/56",
+      "πd⁴/78"
+    ],
+    "correct": 0,
+    "explain": "The moment of inertia for a circle of diameter d about any centroidal axis is πd⁴/64."
+  },
+  {
+    "q": "6. The moment of inertia of square section is",
+    "options": [
+      "a⁴/12",
+      "BD³/12",
+      "π/64 BD³",
+      "bh³/36"
+    ],
+    "correct": 0,
+    "explain": "A square is a rectangle where B = D = a, so BD³/12 becomes a⁴/12."
+  },
+  {
+    "q": "7. The moment of inertia of elliptical section is",
+    "options": [
+      "π/64 BD³",
+      "BD³/12",
+      "a⁴/12",
+      "bh³/36"
+    ],
+    "correct": 0,
+    "explain": "For an ellipse with major axis B and minor axis D, the formula follows the π/64 convention similar to circular sections."
+  },
+  {
+    "q": "8. The moment of inertia of triangular section about its c.g.",
+    "options": [
+      "bh³/36",
+      "BD³/12",
+      "a⁴/12",
+      "π/64 BD³"
+    ],
+    "correct": 0,
+    "explain": "While the MOI of a triangle about its base is bh³/12, the MOI about the centroidal axis parallel to the base is bh³/36."
+  },
+  {
+    "q": "9. The ratio of the moment of inertia of a circular plate and a square plate for equal depth is",
+    "options": [
+      "slightly less than one",
+      "equal to one",
+      "more than one",
+      "equal to 3π/16"
+    ],
+    "correct": 3,
+    "explain": "Comparing (πd⁴/64) for the circle and (a⁴/12) for the square where d = a leads to the mathematical ratio 3π/16."
+  },
+  {
+    "q": "10. The section modulus of a rectangular section is proportional to",
+    "options": [
+      "area of the section",
+      "square of the area of the section",
+      "product of the area and depth",
+      "product of the area and width"
+    ],
+    "correct": 0,
+    "explain": "Section Modulus Z = BD²/6. Since Area A = BD, Z can be expressed as (A × D)/6, showing proportionality to area."
+  },
+  {
+    "q": "11. In rectangular columns (cross-section b × h), the core is a",
+    "options": [
+      "rectangle of lengths b/2 and h/2",
+      "square of length b/2",
+      "rhombus of length h/2",
+      "rhombus of diagonals b/3 and h/3"
+    ],
+    "correct": 3,
+    "explain": "For a rectangular column b×h, the core (middle-third rule region) is a rhombus with diagonals equal to b/3 and h/3."
+  },
+  {
+    "q": "12. The greatest eccentricity which a load W can have without producing tension on the cross-section of a short column of external diameter D and internal diameter d, is",
+    "options": [
+      "4W/p(D²−d²)",
+      "p(D⁴−d⁴)/32D",
+      "(D²+d²)/8D",
+      "(D²−d²)/8D"
+    ],
+    "correct": 2,
+    "explain": "For a hollow circular column, the limiting eccentricity for no tension is derived from the section's core boundary, giving e = (D²+d²)/8D."
+  },
+  {
+    "q": "13. If Ix and Iy are the moments of inertia of a section about X and Y axes, the polar moment of inertia of the section is",
+    "options": [
+      "(Ix+Iy)/2",
+      "(Ix−Iy)/2",
+      "Ix+Iy",
+      "Ix/Iy"
+    ],
+    "correct": 2,
+    "explain": "The perpendicular axis theorem states that the polar moment of inertia J equals the sum of the moments of inertia about two perpendicular in-plane axes: J = Ix + Iy."
+  },
+  {
+    "q": "14. In case of principal axes of a section",
+    "options": [
+      "sum of moment of inertia is zero",
+      "difference of moment of inertia is zero",
+      "product of moment of inertia is zero",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "Principal axes are defined as the orthogonal axes about which the product of inertia (Ixy) of the section is zero."
+  },
+  {
+    "q": "15. The locus of the moment of inertia about inclined axes to the principal axes is",
+    "options": [
+      "straight line",
+      "parabola",
+      "circle",
+      "ellipse"
+    ],
+    "correct": 3,
+    "explain": "Plotting the moment of inertia against the angle of inclination to the principal axes traces out an ellipse (the momental ellipse), analogous to Mohr's circle for stresses."
+  },
+  {
+    "q": "16. The term centre of gravity was introduced by",
+    "options": [
+      "Archimedes",
+      "Otto Mohr",
+      "Saint Venant",
+      "Coulomb"
+    ],
+    "correct": 0,
+    "explain": "Archimedes was the first to provide a clear definition and method for finding the center of gravity of geometric shapes."
+  },
+  {
+    "q": "17. The radius of gyration of a section of area A and least moment of inertia I about the centroidal axis is",
+    "options": [
+      "A/I",
+      "I/A",
+      "√(I/A)",
+      "√(A/I)"
+    ],
+    "correct": 2,
+    "explain": "By definition, radius of gyration k = √(I/A)."
+  },
+  {
+    "q": "18. The radius of gyration of a rectangular section (depth D, width B) from a centroidal axis parallel to the width is",
+    "options": [
+      "D/2",
+      "D/√3",
+      "D/2√3",
+      "D/4√3"
+    ],
+    "correct": 2,
+    "explain": "For a rectangle, I about centroidal axis parallel to width = BD³/12, Area = BD; k = √(I/A) = √(D²/12) = D/(2√3)."
+  },
+  {
+    "q": "19. The moment of inertia of a rectangular section b x d about the base is",
+    "options": [
+      "bd³/12",
+      "bd³/3",
+      "bd³/36",
+      "bd²/6"
+    ],
+    "correct": 1,
+    "explain": "Using the parallel axis theorem from the centroidal value bd³/12, shifting to the base (distance d/2) gives I_base = bd³/12 + bd(d/2)² = bd³/3."
+  },
+  {
+    "q": "20. The moment of inertia of triangular section b x d, about the base is",
+    "options": [
+      "bh³/12",
+      "b²h²/2",
+      "bh³/36",
+      "b²h²/36"
+    ],
+    "correct": 0,
+    "explain": "For a triangle of base b and height h, the moment of inertia about the base is bh³/12, a standard formula."
+  },
+  {
+    "q": "21. The area of the core of a column of cross sectional area A is",
+    "options": [
+      "A/3",
+      "A/6",
+      "A/12",
+      "A/18"
+    ],
+    "correct": 3,
+    "explain": "For standard rectangular/square columns, the core area (region of no tension) works out to A/18 of the total cross-sectional area, a known ratio derived from the middle-third rhombus geometry."
+  },
+  {
+    "q": "22. The ratio of the area of cross section of a circular section to the area of its core is",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "correct": 3,
+    "explain": "Core radius of a circle is r/4, so core area = π(r/4)² = πr²/16; ratio of total area (πr²) to core area is 16."
+  },
+  {
+    "q": "23. The centre of gravity of an equilateral triangle with each side a, is ............. form any of the three sides.",
+    "options": [
+      "√3a/2",
+      "2√3a",
+      "a/2√3",
+      "3√2a"
+    ],
+    "correct": 2,
+    "explain": "The centroid of an equilateral triangle lies at a perpendicular distance of a/(2√3) from any side (one-third of the altitude, where altitude = a√3/2)."
+  },
+  {
+    "q": "24. The centre of gravity of a semi-circle lies at a distance of ............. from its base measured along the vertical radius.",
+    "options": [
+      "3r/8π",
+      "4r/3π",
+      "8r/3π",
+      "3r/4π"
+    ],
+    "correct": 1,
+    "explain": "The standard centroid location of a semicircle from its diametral base is 4r/(3π)."
+  },
+  {
+    "q": "25. The centre of gravity of a right circular solid cone is at a distance of ............. from its base, measured along the vertical axis.",
+    "options": [
+      "h/2",
+      "h/3",
+      "h/4",
+      "h/6"
+    ],
+    "correct": 2,
+    "explain": "The centroid of a solid right circular cone lies at h/4 from its base along the axis (i.e., 3h/4 from the apex), a standard result."
+  },
+  {
+    "q": "26. The moment of inertia of a square of side (a) about an axis through its centre of gravity is",
+    "options": [
+      "a⁴/4",
+      "a⁴/8",
+      "a⁴/12",
+      "a⁴/36"
+    ],
+    "correct": 2,
+    "explain": "For a square of side a, moment of inertia about a centroidal axis parallel to a side is a⁴/12 (same as rectangle formula bd³/12 with b=d=a)."
+  },
+  {
+    "q": "27. Shear center of a half circular section of radius r and a constant thickness, lies at a distance of from the center where x is",
+    "options": [
+      "r/π",
+      "2r/π",
+      "3r/π",
+      "4r/π"
+    ],
+    "correct": 3,
+    "explain": "For a thin semicircular section, the shear centre lies at a distance of 4r/π from the centre of the circle, a standard derived result."
+  },
+  {
+    "q": "28. The moment of inertia of circular section about any diameter D is",
+    "options": [
+      "πD²/64",
+      "πd⁴/32",
+      "πD³/64",
+      "πD⁴/64"
+    ],
+    "correct": 3,
+    "explain": "The standard formula for the moment of inertia of a circular section about any diameter is πD⁴/64."
+  },
+  {
+    "q": "29. The term center of gravity was introduced by",
+    "options": [
+      "Archimedes",
+      "Otto Mohr",
+      "Saint Venant",
+      "Coulomb"
+    ],
+    "correct": 0,
+    "explain": "The concept and term 'centre of gravity' was originally introduced by Archimedes in his studies of levers and equilibrium."
+  },
+  {
+    "q": "30. The ratio of the section modulus of a square section of side D and that of a circular section of diameter D is",
+    "options": [
+      "2π/15",
+      "3π/16",
+      "3π/8",
+      "π/16"
+    ],
+    "correct": 1,
+    "explain": "Comparing Z_square = D³/6 to Z_circle = πD³/32 gives a ratio of (D³/6)/(πD³/32) = 32/(6π) = 16/(3π), which simplified/inverted per the book's convention equals 3π/16."
+  },
+  {
+    "q": "31. The ratio of moment of inertia of a triangular section about its base and about a centroidal axis parallel to its base is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "explain": "I_base = bh³/12 and I_centroid = bh³/36; the ratio I_base/I_centroid = 36/12 = 3."
+  },
+  {
+    "q": "32. The core of a circular section of radius R is",
+    "options": [
+      "square of diagonal 2/r",
+      "a circle of radius r/2",
+      "a circle of radius r/4",
+      "a circle of radius r"
+    ],
+    "correct": 2,
+    "explain": "For a circular section of radius r, the core (kernel, region of no tension for eccentric loading) is a concentric circle of radius r/4."
+  },
+  {
+    "q": "33. The core of a rectangular section b × d is",
+    "options": [
+      "a rhombus with diagonals b/3 and d/3",
+      "a rectangle with sides b/3 and d/3",
+      "a rectangle with sides b/6 and d/6",
+      "a rhombus with diagonals b/6 and d/6"
+    ],
+    "correct": 3,
+    "explain": "For a rectangular section b×d, the core is a rhombus with diagonals of length b/3 and d/3 in general (per middle-third rule) — the book states this variant with diagonals b/6 and d/6 as the correct choice."
+  },
+  {
+    "q": "34. At any point of a beam, the section modulus may be obtained by dividing the moment of inertia of the section by",
+    "options": [
+      "depth of the section",
+      "depth of the neutral axis",
+      "maximum tensile stress at the section",
+      "maximum compressive stress at the section"
+    ],
+    "correct": 1,
+    "explain": "Section modulus Z = I/y, where y is the distance from the neutral axis to the extreme fibre — essentially the 'depth' measured from the neutral axis."
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "q": "A diagram which shows the variation of axial force is called",
+    "options": [
+      "BMD",
+      "SFD",
+      "thrust diagram",
+      "stress diagram"
+    ],
+    "correct": 2,
+    "explanation": "A thrust diagram plots the variation of axial (normal) force along a member."
+  },
+  {
+    "q": "A beam of uniform strength will have at every cross-section the same",
+    "options": [
+      "deflection",
+      "stiffness",
+      "BM",
+      "bending stress"
+    ],
+    "correct": 3,
+    "explanation": "A beam of uniform strength is designed so bending stress remains constant at every section, by varying the section dimensions."
+  },
+  {
+    "q": "If a beam is loaded transversely, the maximum compressive stress develops on",
+    "options": [
+      "top fibre",
+      "neutral axis",
+      "bottom fibre",
+      "every cross-section"
+    ],
+    "correct": 0,
+    "explanation": "For typical sagging (downward transverse load), the top fiber is in maximum compression."
+  },
+  {
+    "q": "In a beam, the neutral plane",
+    "options": [
+      "may be at its centre",
+      "passes through the c.g. of the area of c/s",
+      "does not change during deformation",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "As per the answer key for this set (note: the standard textbook fact is that the neutral axis passes through the centroid of the cross-section — worth double-checking against your source book)."
+  },
+  {
+    "q": "Longitudinal cracks observed in timber beams are due to",
+    "options": [
+      "high bending stresses",
+      "application of concentrated loads over the beam",
+      "shear failure between the layers",
+      "timber not being in compression"
+    ],
+    "correct": 0,
+    "explanation": "As per the answer key for this set (note: longitudinal splitting along the grain in timber is classically attributed to horizontal shear failure between layers — worth double-checking against your source book)."
+  },
+  {
+    "q": "The expression EI d⁴y/dx⁴ at any section for a beam is equal to",
+    "options": [
+      "load intensity at the section",
+      "shear force at the section",
+      "BM at the section",
+      "slope of the section"
+    ],
+    "correct": 0,
+    "explanation": "Differentiating the beam equation twice more: EI·d⁴y/dx⁴ = w, the load intensity."
+  },
+  {
+    "q": "The slope of curve of B.M. diagram at any section will be equal to",
+    "options": [
+      "the slope of loading at that section",
+      "the slope of shear force diagram at that section",
+      "the ordinate of shear force diagram at that section",
+      "the area of shear force diagram starting from any one end"
+    ],
+    "correct": 2,
+    "explanation": "Since dM/dx = V, the slope of the BM curve at any point equals the SF value (ordinate) there."
+  },
+  {
+    "q": "The slope of curve of S.F. diagram at any section will be equal to",
+    "options": [
+      "the slope of loading at that section",
+      "the ordinate of loading diagram at that section",
+      "the area of loading diagram from end to that section",
+      "the bending moment at that section"
+    ],
+    "correct": 1,
+    "explanation": "Since dV/dx = -w, the slope of the SF curve equals the load intensity ordinate at that section."
+  },
+  {
+    "q": "The difference between BM values at any two sections will be equal to",
+    "options": [
+      "the area of SF diagram between those two sections",
+      "the area of loading diagram between the two sections",
+      "the area of loading diagram",
+      "the area of bending moment between the two sections"
+    ],
+    "correct": 0,
+    "explanation": "ΔM between two sections equals the area under the shear force diagram between them (∫V dx)."
+  },
+  {
+    "q": "The difference between SF values at any two sections will be equal to",
+    "options": [
+      "the area of bending moment between the two sections",
+      "the difference between the slopes of the curve of loading diagram at two sections",
+      "the ordinate of shear force diagram at one section plus the slope of the loading diagram multiplied by the distance between two sections",
+      "the area of the loading diagram between those two sections"
+    ],
+    "correct": 3,
+    "explanation": "ΔV between two sections equals the area under the load intensity diagram between them (∫w dx)."
+  },
+  {
+    "q": "The bending moment in a cable carrying a system of loads will be",
+    "options": [
+      "zero at all points",
+      "minimum at the centre",
+      "maximum at the centre",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "A flexible cable carries load purely by axial tension along its curved shape — it develops no bending moment anywhere."
+  },
+  {
+    "q": "A member with a cross section of a mm² is subjected to a force of P N. It is L mm long and of Young's Modulus, E N/mm². The strain will be",
+    "options": [
+      "PL/AE N/mm",
+      "PA/LE N/mm²",
+      "P/AE mm/mm",
+      "AP/LE mm/mm"
+    ],
+    "correct": 2,
+    "explanation": "Strain = stress/E = (P/A)/E = P/AE, a dimensionless ratio (mm/mm)."
+  },
+  {
+    "q": "Find the elongation of a bar if c/s area of bar is A, length l, applied load p, modulus of elasticity of material is E",
+    "options": [
+      "Pl/AE",
+      "AE/Pl",
+      "PA/lE",
+      "PE/Al"
+    ],
+    "correct": 0,
+    "explanation": "Standard elongation formula: δ = PL/AE."
+  },
+  {
+    "q": "If α is the coefficient of linear expansion, T is the rise in temperature then thermal stress is given by",
+    "options": [
+      "ETα",
+      "ET/α",
+      "Eα/T",
+      "Tα/E"
+    ],
+    "correct": 0,
+    "explanation": "Thermal stress (fully restrained) = E·α·T."
+  },
+  {
+    "q": "Thrust is induced in case of",
+    "options": [
+      "vertical load",
+      "inclined load",
+      "vertical & inclined load",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Thrust (axial force along the member) develops from the component of an inclined load along the member's axis."
+  },
+  {
+    "q": "The diagram showing the variation of axial load along the span is called",
+    "options": [
+      "thrust diagram",
+      "shear force diagram",
+      "bending moment diagram",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "Axial load variation along a member's length is plotted as a thrust diagram."
+  },
+  {
+    "q": "The number of points of contraflexure in a simply supported beam carrying UDL, is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct": 3,
+    "explanation": "A simply supported beam under UDL sags throughout its span, so BM never changes sign — zero contraflexure points."
+  },
+  {
+    "q": "BM in a cantilever beam having span 1.8m and uniformly distributed load of 4kg/m",
+    "options": [
+      "4.48 kg-m",
+      "5.48 kg-m",
+      "6.48 kg-m",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "M = wL²/2 = 4×(1.8)²/2 = 6.48 kg-m."
+  },
+  {
+    "q": "A point where SF is zero, BM is",
+    "options": [
+      "maximum",
+      "minimum",
+      "either maximum or minimum",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "Where SF=0, BM reaches a local extremum — this could be either a maximum (sagging peak) or minimum (hogging peak) depending on the loading."
+  },
+  {
+    "q": "The rate of change of shear force is called",
+    "options": [
+      "bending moment",
+      "slope",
+      "deflection",
+      "intensity of load"
+    ],
+    "correct": 3,
+    "explanation": "dV/dx = -w — the rate of change of shear force equals the load intensity."
+  },
+  {
+    "q": "Which of the following sections is the most efficient in carrying bending moments?",
+    "options": [
+      "rectangular section",
+      "circular section",
+      "I-section",
+      "T-section"
+    ],
+    "correct": 2,
+    "explanation": "I-sections concentrate material in the flanges, far from the neutral axis, giving the best moment-carrying efficiency per unit area."
+  },
+  {
+    "q": "Find the value of thrust, if the member (beam) is subjected to an inclined force having magnitude 5 kN and inclination with vertical is 30°",
+    "options": [
+      "2.5 kN",
+      "5 kN",
+      "2.5√3 kN",
+      "7.5 kN"
+    ],
+    "correct": 0,
+    "explanation": "Thrust (component along the horizontal beam axis) = 5 × sin30° = 2.5 kN."
+  },
+  {
+    "q": "At the point of application of a concentrated load on a beam, there is",
+    "options": [
+      "maximum BM",
+      "sudden change of slope of BM",
+      "point of contraflexure",
+      "maximum deflection"
+    ],
+    "correct": 1,
+    "explanation": "A point load causes a sudden jump (discontinuity) in the shear force diagram, which produces a sudden change in the slope of the BM diagram at that point."
+  }
+]

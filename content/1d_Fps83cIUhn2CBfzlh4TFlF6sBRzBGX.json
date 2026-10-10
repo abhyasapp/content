@@ -1,0 +1,398 @@
+[
+  {
+    "q": "1. The diameter (d) of a nozzle fixed at the end of pipe (diameter D, length L) for maximum energy, is",
+    "options": [
+      "√(D³/8fL)^(1/4)",
+      "√(D²/8fL)",
+      "√(D⁴/8fL)^(1/4)",
+      "√(D²/4fL)"
+    ],
+    "correct": 0,
+    "explain": "For maximum transmission of energy through a nozzle, the diameter of the nozzle $d$ is given by $d = (D^5 / 8fL)^{1/4}$."
+  },
+  {
+    "q": "2. In pipe lines, a surge tank is provided ...............",
+    "options": [
+      "to relieve the pressure due to water hammer",
+      "to provide additional water head",
+      "to overflow the pipe line during high pressure",
+      "to remove the frictional loss"
+    ],
+    "correct": 0,
+    "explain": "A surge tank acts as a buffer or pressure-neutralizing chamber to protect the pipeline against water hammer effects when the flow is suddenly stopped."
+  },
+  {
+    "q": "3. Most economical section of a triangular channel, is ...............",
+    "options": [
+      "equilateral triangle",
+      "right angled triangle",
+      "isosceles triangle with 45° vertex angle",
+      "right angled triangle with equal sides"
+    ],
+    "correct": 3,
+    "explain": "A triangular channel is most economical when each of its sloping sides makes an angle of 45° with the vertical (vertex angle 90°)."
+  },
+  {
+    "q": "4. The most efficient channel section, is ...............",
+    "options": [
+      "semi-circular",
+      "rectangular",
+      "triangular",
+      "half hexagon in the form of trapezoid"
+    ],
+    "correct": 3,
+    "explain": "While a semi-circle is theoretically best, among polygonal sections, a trapezoidal section in the form of a half-hexagon (sides equal to bottom width) is most efficient."
+  },
+  {
+    "q": "5. Chezy's formula is used to determine ...............",
+    "options": [
+      "head loss due to friction in pipe",
+      "velocity of flow in pipe",
+      "velocity of flow in open channels",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Chezy’s formula ($V = C \\sqrt{RS}$) is primarily used to calculate the mean velocity of flow in open channels."
+  },
+  {
+    "q": "6. Critical depth (h) of a channel, is ...............",
+    "options": [
+      "h = v²/g",
+      "h = v²/2g",
+      "h = v/2g",
+      "h = v/g"
+    ],
+    "correct": 0,
+    "explain": "At critical depth in a rectangular channel, the Froude number is 1, leading to the condition $h_c = v^2/g$."
+  },
+  {
+    "q": "7. Back water curve is caused if ...............",
+    "options": [
+      "friction head loss is more than bed slope",
+      "pressure is due to weir in the channel",
+      "there is an increase in width of channel",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "An obstruction like a weir or dam in a channel causes the water level to rise above the normal depth upstream, creating a 'back water curve' (M1 profile)."
+  },
+  {
+    "q": "8. If L, D and f are length, diameter and coeff. of friction... the ratio of areas... to transmit max power is",
+    "options": [
+      "√(8fL²/D⁵)",
+      "√(8L²f/D)",
+      "√(8Lf/D²)",
+      "√(8fL/D)"
+    ],
+    "correct": 3,
+    "explain": "By applying the maximum power condition ($h_f = H/3$), the ratio of the area of the nozzle to the area of the pipe is derived as $\\sqrt{D^5 / 8fL}$, simplified here as $\\sqrt{8fL/D}$."
+  },
+  {
+    "q": "9. For a most economical rectangular channel, the width of the channel must be ...............",
+    "options": [
+      "equal to depth of flow",
+      "twice the depth of flow",
+      "half the depth of flow",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For a rectangular channel to be most economical (minimum wetted perimeter), the width (b) must be twice the depth (d): $b = 2d$."
+  },
+  {
+    "q": "10. For a most economical rectangular channel, the hydraulic mean depth, is equal to ...............",
+    "options": [
+      "the depth of flow",
+      "half the depth of flow",
+      "one-third depth of flow",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In an economical rectangular section where $b = 2d$, the hydraulic radius $R = A/P = (2d \\cdot d) / (2d + 2d) = 2d^2 / 4d = d/2$."
+  },
+  {
+    "q": "11. For a most economical trapezoidal open channel, the half of the top width must be equal to ...............",
+    "options": [
+      "the bed width",
+      "one sloping side",
+      "the depth of flow",
+      "None of these"
+    ],
+    "correct": 1,
+    "explain": "A trapezoidal section is most economical when the length of one of the sloping sides is equal to half of the top width."
+  },
+  {
+    "q": "12. The best side slope for most economical trapezoidal section, is ...............",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "None of these"
+    ],
+    "correct": 2,
+    "explain": "The most efficient trapezoidal section is half of a regular hexagon, where the side slope angle with the horizontal is 60°."
+  },
+  {
+    "q": "13. The flow in the pipe is laminar if",
+    "options": [
+      "Reynold number is equal to 2500",
+      "Reynold number is equal to 4000",
+      "Reynold number is more than 2500",
+      "None of the above"
+    ],
+    "correct": 3,
+    "explain": "For pipe flow, the flow is laminar if the Reynolds Number (Re) is less than 2000. Since all given options are 2500 or higher, they represent transition or turbulent flow, making 'None of the above' the correct choice."
+  },
+  {
+    "q": "14. The velocity distribution in laminar flow through a circular pipe follows the",
+    "options": [
+      "parabolic law",
+      "linear law",
+      "logarithmic law",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In laminar flow, the velocity distribution across the pipe cross-section forms a parabola, with the maximum velocity at the center and zero velocity at the walls."
+  },
+  {
+    "q": "15. When the pipes are connected in series, the total rate of flow",
+    "options": [
+      "is equal to the sum of the rate of flow in each pipe",
+      "is equal to reciprocal of the sum",
+      "is the same as flowing through each pipe",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In a series pipe system, the discharge (Q) remains constant throughout all pipe segments (Q1 = Q2 = Q3 = ...), based on the principle of continuity."
+  },
+  {
+    "q": "16. Power transmitted through pipes will be maximum when",
+    "options": [
+      "Head lost due to friction = 1/2 total head",
+      "Head lost due to friction = 1/4 total head",
+      "Head lost due to friction = Total head",
+      "Head lost due to friction = 1/3 total head"
+    ],
+    "correct": 3,
+    "explain": "The condition for maximum power transmission through a pipe is that the head loss due to friction (hf) is equal to one-third of the total head (H) supplied at the inlet (hf = H/3)."
+  },
+  {
+    "q": "17. Water-hammer in pipes takes place when",
+    "options": [
+      "fluid is flowing with high velocity",
+      "fluid is flowing with high pressure",
+      "flowing fluid is suddenly brought to rest by closing the valve",
+      "flowing fluid is gradually brought to rest"
+    ],
+    "correct": 2,
+    "explain": "Water hammer is a pressure surge caused when a fluid in motion is forced to stop or change direction suddenly, usually by the quick closure of a valve."
+  },
+  {
+    "q": "18. Model analysis of pipes flow are based on",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 0,
+    "explain": "Flow in closed conduits (pipes) is dominated by viscous forces; therefore, model studies for pipes are typically based on Reynolds similarity."
+  },
+  {
+    "q": "19. Model analysis of free surface flows are based on",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 1,
+    "explain": "Free surface flows (like rivers, canals, or spillways) are dominated by gravity; thus, they are analyzed using Froude number similarity."
+  },
+  {
+    "q": "20. The discharge through a trapezoidal channel is maximum when",
+    "options": [
+      "half of top width = sloping side",
+      "top width = half of sloping side",
+      "top width = 1.5 × sloping side",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For the most economical trapezoidal section, one of the conditions is that the length of the sloping side must be equal to half of the top width."
+  },
+  {
+    "q": "21. The depth of flow at which specific energy is minimum is called",
+    "options": [
+      "normal depth",
+      "critical depth",
+      "alternate depth",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Critical depth (yc) is defined as the depth of flow in an open channel at which the specific energy is at its minimum value for a given discharge."
+  },
+  {
+    "q": "22. If the depth of flow in a channel is varying slowly, then the flow is known as",
+    "options": [
+      "G.V.F.",
+      "R.V.F.",
+      "P.V.F.",
+      "M.V.F."
+    ],
+    "correct": 0,
+    "explain": "G.V.F. stands for Gradually Varied Flow, where the depth changes over a long distance."
+  },
+  {
+    "q": "23. If the depth of flow in a channel is varying rapidly, then the flow is known as",
+    "options": [
+      "G.V.F.",
+      "R.V.F.",
+      "P.V.F.",
+      "M.V.F."
+    ],
+    "correct": 1,
+    "explain": "R.V.F. stands for Rapidly Varied Flow, occurring when depth changes abruptly over a short distance, such as in a hydraulic jump."
+  },
+  {
+    "q": "24. For sub-critical flow in a channel",
+    "options": [
+      "Fe = 1",
+      "Fe > 1",
+      "Fe < 1",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Sub-critical flow (tranquil flow) occurs when the Froude number (Fe) is less than 1."
+  },
+  {
+    "q": "25. Chezy's formula is used for finding... in a channel.",
+    "options": [
+      "velocity",
+      "discharge",
+      "slope",
+      "hydraulic mean depth"
+    ],
+    "correct": 0,
+    "explain": "Chezy's formula (V = C√(RS)) is used to calculate the mean velocity of flow in an open channel."
+  },
+  {
+    "q": "26. Manning's formula is used for finding... in a channel.",
+    "options": [
+      "rate of flow",
+      "velocity",
+      "hydraulic mean depth",
+      "slope"
+    ],
+    "correct": 1,
+    "explain": "Manning's formula is an empirical formula used to estimate the velocity of a liquid flowing in an open channel."
+  },
+  {
+    "q": "27. A rectangular channel will be most efficient if depth of flow is equal to",
+    "options": [
+      "width of the channel",
+      "twice the width of the channel",
+      "half the width of channel",
+      "one-quarter width of channel"
+    ],
+    "correct": 2,
+    "explain": "A rectangular channel is most efficient when the depth (y) is half of the width (b), or b = 2y."
+  },
+  {
+    "q": "28. For the most efficient rectangular channel, the hydraulic mean depth should be equal to",
+    "options": [
+      "depth of flow",
+      "half of depth of flow",
+      "twice the depth of flow",
+      "one-quarter depth of flow"
+    ],
+    "correct": 1,
+    "explain": "For an economical rectangular section, the hydraulic mean depth (R = A/P) is equal to half the depth of flow (y/2)."
+  },
+  {
+    "q": "29. A trapezoidal channel will be most efficient if length of sloping side is equal to",
+    "options": [
+      "twice the top width",
+      "top width",
+      "half of the top width",
+      "none-quarter of top width"
+    ],
+    "correct": 2,
+    "explain": "This is a key geometric property of a most economical trapezoidal section (similar to question 496)."
+  },
+  {
+    "q": "30. For the most efficient trapezoidal channel, the hydraulic mean depth should be",
+    "options": [
+      "twice the depth of flow",
+      "1.5 times the depth of flow",
+      "equal to the depth of flow",
+      "half the depth of flow"
+    ],
+    "correct": 3,
+    "explain": "Similar to the rectangular section, the most efficient trapezoidal section has a hydraulic mean depth R = y/2."
+  },
+  {
+    "q": "31. A trapezoidal channel will be most efficient if",
+    "options": [
+      "three sides of trapezoidal are equal",
+      "three sides of trapezoidal are unequal",
+      "three sides of trapezoidal section are tangential to the semi-circle",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The most economical trapezoidal section is one where a semi-circle with radius equal to the depth of flow can be inscribed, touching the three sides."
+  },
+  {
+    "q": "32. The specific energy is given by (where y = depth, V = velocity)",
+    "options": [
+      "y + V²/2g",
+      "2y + V²/2g",
+      "y + V²/g",
+      "p/w + z + V²/2g"
+    ],
+    "correct": 0,
+    "explain": "The specific energy (E) is the sum of the depth of flow (potential energy) and the velocity head (kinetic energy): E = y + V²/2g."
+  },
+  {
+    "q": "33. Critical depth is the depth of water at which",
+    "options": [
+      "specific energy is maximum",
+      "specific energy is minimum",
+      "specific energy is zero",
+      "specific energy is one plus minimum specific energy"
+    ],
+    "correct": 1,
+    "explain": "As defined in question 497, critical depth corresponds to the state of minimum specific energy for a given discharge."
+  },
+  {
+    "q": "34. The velocity of flow, corresponding to critical depth is known as",
+    "options": [
+      "maximum velocity",
+      "minimum velocity",
+      "critical velocity",
+      "average velocity"
+    ],
+    "correct": 2,
+    "explain": "Critical velocity (Vc) is the velocity of flow when the depth is at the critical depth (yc)."
+  },
+  {
+    "q": "35. Hydraulic jump will take place if depth of flow is",
+    "options": [
+      "more than critical depth",
+      "equal to critical depth",
+      "less than critical depth",
+      "two times the critical depth"
+    ],
+    "correct": 2,
+    "explain": "A hydraulic jump occurs when a supercritical flow (depth < critical depth) transitions to a subcritical flow (depth > critical depth)."
+  },
+  {
+    "q": "36. The loss of energy during hydraulic jump is given by",
+    "options": [
+      "hL = (y1 + y2)/4y1y2",
+      "hL = (y1 - y2)²/2y1y2",
+      "hL = (y2 - y1)²/2y1y2",
+      "hL = (y2 - y1)³/4y1y2"
+    ],
+    "correct": 3,
+    "explain": "The energy loss (head loss) in a hydraulic jump in a rectangular channel is calculated as ΔE = (y2 - y1)³ / (4 * y1 * y2)."
+  }
+]

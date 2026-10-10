@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. Negative float for any activity means that the activity is:",
+    "options": [
+      "sub-critical",
+      "super-critical",
+      "critical",
+      "normal"
+    ],
+    "correct": 1,
+    "explain": "Negative float indicates the activity is behind schedule beyond what the project allows, making it super-critical (worse than critical)."
+  },
+  {
+    "q": "2. Area under beta distribution curve is divided into two equal parts by",
+    "options": [
+      "most likely time",
+      "optimistic time",
+      "pessimistic time",
+      "expected time"
+    ],
+    "correct": 3,
+    "explain": "The expected time (mean of the beta distribution) divides the area under the probability distribution curve into two equal halves."
+  },
+  {
+    "q": "3. Free float for any activity is defined as the difference between",
+    "options": [
+      "its latest start time and earliest start time for its successor activity",
+      "its latest start time and earliest start time",
+      "its latest finish time and earliest start time for its successor activity",
+      "its earliest finish time and earliest start time for its successor activity"
+    ],
+    "correct": 3,
+    "explain": "Free float is the Earliest Start of the successor minus the Earliest Finish of the current activity."
+  },
+  {
+    "q": "4. Negative slack indicates",
+    "options": [
+      "ahead of schedule condition",
+      "behind the schedule condition",
+      "on schedule condition",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Negative slack means the required schedule time is less than available time is not met - i.e., the activity/event is running behind the desired schedule."
+  },
+  {
+    "q": "5. The time by which a particular activity may be delayed without affecting the preceeding and succeeding activities is known as",
+    "options": [
+      "total float",
+      "free float",
+      "interfering float",
+      "independent float"
+    ],
+    "correct": 3,
+    "explain": "Independent float is unique because it doesn't affect the float of activities coming before or after it."
+  },
+  {
+    "q": "6. Which of the following in a CPM network activity?",
+    "options": [
+      "concrete cured",
+      "walls plastered",
+      "excavation for foundation",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "In CPM, an 'activity' is an active process that consumes time and resources; 'excavation' is a clear action, while the others are often viewed as states/events."
+  },
+  {
+    "q": "7. Which of the following terminology is not relevant to a CPM planning?",
+    "options": [
+      "Earliest start time",
+      "Latest start time",
+      "Earliest finish time",
+      "optimistic time"
+    ],
+    "correct": 3,
+    "explain": "Optimistic time is a PERT term (part of the three-estimate approach), not used in CPM which relies on single deterministic durations."
+  },
+  {
+    "q": "8. According to Fulkerson's, the correct event numbers corresponding to event A, B, C, D, E of the network shown in figure",
+    "options": [
+      "1, 2, 3, 4, 5, 6 and 7 respectively",
+      "1, 3, 2, 4, 5, 6 and 7 respectively",
+      "1, 2, 3, 5, 6, 4 and 7 respectively",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Fulkerson's Rule (I-J numbering) requires that the number at the head of an arrow is always greater than the number at the tail."
+  },
+  {
+    "q": "9. Actual performance of a task is called",
+    "options": [
+      "An event",
+      "An activity",
+      "A duration",
+      "All of the above"
+    ],
+    "correct": 1,
+    "explain": "An activity represents the actual performance of work/task in a project."
+  },
+  {
+    "q": "10. A fictious activity with zero duration and no cost used to maintain the sequential order of the activities in network is known as a",
+    "options": [
+      "restraint",
+      "dummy activity",
+      "event",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "A dummy activity is a logical link represented by a dashed arrow that consumes no time or resources."
+  },
+  {
+    "q": "11. Zero float for any activity means that the activity is",
+    "options": [
+      "super-critical",
+      "sub-critical",
+      "critical",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "Zero float (zero slack) means the activity has no spare time and lies exactly on the critical path, making it critical."
+  },
+  {
+    "q": "12. Earliest finish time of an activity is always",
+    "options": [
+      "equal to or more than earliest event",
+      "equal to or less than earliest event time of the following node",
+      "more than earliest time of the following node",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The finish time of an activity must occur by the time the following node (event) is reached; it cannot exceed that event's earliest time."
+  },
+  {
+    "q": "13. Positive float for any activity means that the activity is",
+    "options": [
+      "super- critical",
+      "sub-critical",
+      "critical",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Positive float indicates the activity has spare time available and can be delayed without affecting the project, making it sub-critical."
+  },
+  {
+    "q": "14. Latest start of activity is always",
+    "options": [
+      "less than or equal to latest event time of preceeding node",
+      "more than or equal to latest events time of preceeding node",
+      "equal to latest event time of preceeding node",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The latest an activity can start must be at or after the latest time its preceding event (node) can occur."
+  },
+  {
+    "q": "15. Latest start time is the",
+    "options": [
+      "latest time by which an activity can be started without delaying the project",
+      "latest time by which an activity can be completed without delaying the project",
+      "latest time the event can occur",
+      "any of the above"
+    ],
+    "correct": 0,
+    "explain": "Latest Start Time (LST) is the maximum delay possible for the start of a task that won't push back the project completion date."
+  },
+  {
+    "q": "16. If a is the optimistic time, b is the pessimistic time and m is the most likely time, then the average time is equal to",
+    "options": [
+      "(a+b+m)/6",
+      "(a+2b+m)/6",
+      "(a+2b+4m)/6",
+      "(a+4m+b)/6"
+    ],
+    "correct": 3,
+    "explain": "The formula for expected (average) time in a Beta distribution is t_e = (a + 4m + b) / 6."
+  },
+  {
+    "q": "17. The difference between the total float and the free float is termed as",
+    "options": [
+      "start float",
+      "finish float",
+      "interfering float",
+      "independent float"
+    ],
+    "correct": 2,
+    "explain": "Interfering float is the difference between Total Float and Free Float (TF - FF)."
+  },
+  {
+    "q": "18. In PERT analysis, the time estimates of activities and probability of their occurrence follow a",
+    "options": [
+      "normal distribution curve",
+      "beta distribution curve",
+      "poissons distribution curve",
+      "binomial distribution curve"
+    ],
+    "correct": 1,
+    "explain": "Individual activity durations in PERT are modeled using a unimodal Beta distribution curve."
+  },
+  {
+    "q": "19. The independent float affects only",
+    "options": [
+      "preceeding activities",
+      "succeeding activities",
+      "particular activity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "By definition, independent float is the time by which an activity can be delayed without affecting any other activity in the network."
+  },
+  {
+    "q": "20. The free – float affects only",
+    "options": [
+      "preceeding activities",
+      "succeeding activities",
+      "particular activity",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Free float refers to the flexibility available for an activity itself without impacting the start of successors, effectively only relating to the activity and its predecessors."
+  },
+  {
+    "q": "21. What are essential to draw CPM ?",
+    "options": [
+      "resource",
+      "labour requirement",
+      "machine required",
+      "time expenditure"
+    ],
+    "correct": 3,
+    "explain": "CPM is primarily a time-management tool; while resources are important, time estimates for each activity are the fundamental requirement for the network."
+  },
+  {
+    "q": "22. Resource smoothening means",
+    "options": [
+      "gradual increase in resources",
+      "adjustment of resources to have the least variations",
+      "complete renovation if resources suit the requirement",
+      "optimization and economical utilization of resources"
+    ],
+    "correct": 1,
+    "explain": "Resource smoothening rearranges non-critical activities within their float to minimize fluctuations in resource demand while keeping project duration fixed."
+  },
+  {
+    "q": "23. The latest allowable time for any event i is equal to",
+    "options": [
+      "minimum of (T_L^j - t_E^ij)",
+      "maximum (T_L^j - t_F^ij)",
+      "T_L^j - t_E^ij",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "During backward pass calculations, the Latest Allowable Occurring Time T_L for an event is computed as the minimum of (T_L^j - t^ij)."
+  },
+  {
+    "q": "24. Critical-path connecting the start and end events time wise is",
+    "options": [
+      "longest path always",
+      "shortest path always",
+      "may be longest path",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The critical path is the longest path through a network diagram; any delay on this path delays the entire project."
+  },
+  {
+    "q": "25. In the time-cost optimization using CPM, the crashing of the activities along the critical path is done starting with the activity having",
+    "options": [
+      "least cost slope",
+      "highest cost slope",
+      "moderate cost slope",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Crashing begins with the activity having the least (lowest) cost slope, as it gives the maximum time reduction per unit extra cost."
+  },
+  {
+    "q": "26. Critical activities having total float are",
+    "options": [
+      "positive",
+      "negative",
+      "zero",
+      "equal"
+    ],
+    "correct": 2,
+    "explain": "An activity is critical if its total float is zero, meaning there is no flexibility in its timing."
+  },
+  {
+    "q": "27. When all the paths are arranged according to the descending order of the float, the path which is next to critical path is known as",
+    "options": [
+      "under-critical path",
+      "super-critical path",
+      "sub-critical path",
+      "secondary critical path"
+    ],
+    "correct": 2,
+    "explain": "The path with the next-lowest float after the critical path (zero float) is termed the secondary critical path."
+  },
+  {
+    "q": "28. The activity which consumes maximum time is called a",
+    "options": [
+      "event",
+      "node",
+      "critical",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "A single activity consuming a lot of time isn't 'called' a specific name in network theory; it is the 'path' that becomes critical."
+  },
+  {
+    "q": "29. Which of the following is a dummy activity?",
+    "options": [
+      "Excavate the foundations",
+      "Await the arrival of concrete material",
+      "Lay the foundation concrete",
+      "Cure the foundation concrete"
+    ],
+    "correct": 1,
+    "explain": "Waiting for material arrival is a logical constraint/dependency with no resource consumption of its own, characteristic of a dummy activity."
+  },
+  {
+    "q": "30. The figure [merging arrows] indicates",
+    "options": [
+      "an event",
+      "activity",
+      "burst",
+      "merge"
+    ],
+    "correct": 3,
+    "explain": "When multiple activity arrows point into a single event node, it is known as a merge event."
+  },
+  {
+    "q": "31. The figure [bursting arrows] indicates",
+    "options": [
+      "an event",
+      "activity",
+      "burst",
+      "merge"
+    ],
+    "correct": 2,
+    "explain": "When multiple activity arrows originate from a single event node, it is known as a burst event."
+  },
+  {
+    "q": "32. Completion of an activity on CPM network diagram, is generally known as",
+    "options": [
+      "event",
+      "node",
+      "connector",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The point in time marking the start or completion of an activity is called an event (represented by a node/circle)."
+  },
+  {
+    "q": "33. Free float is the",
+    "options": [
+      "portion of independent float",
+      "portion of positive total float",
+      "portion of interfering float",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Free float is a subset of total float; specifically, it is the portion of total float that can be used without delaying the next activity."
+  },
+  {
+    "q": "34. When all the paths are arranged according to the descending order of the float, the path which is next to the critical path is known as",
+    "options": [
+      "under-critical path",
+      "sub-critical path",
+      "semi-critical path",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "The path with the second-lowest amount of float (next to the critical path, which has zero float) is technically referred to in this context as the semi-critical path."
+  },
+  {
+    "q": "35. In CPM",
+    "options": [
+      "time optimization is given prime importance",
+      "cost optimization is given prime importance",
+      "cost is directly proportional to time",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Unlike PERT (which is probabilistic and time-oriented), CPM is deterministic and focuses heavily on the trade-off between time and cost, prioritizing cost optimization."
+  },
+  {
+    "q": "36. Which method is known as minimum cost or maximum time schedule method",
+    "options": [
+      "PERT",
+      "CPM",
+      "bar chart",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "CPM (Critical Path Method) is designed to find the schedule that minimizes total project cost by balancing direct and indirect costs over time."
+  },
+  {
+    "q": "37. Critical path",
+    "options": [
+      "in the shortest path",
+      "bad black",
+      "has the maximum slack",
+      "has the minimum slack"
+    ],
+    "correct": 3,
+    "explain": "The critical path is the longest path through the network; therefore, it contains the activities with the least amount of flexibility or 'minimum slack' (usually zero)."
+  },
+  {
+    "q": "38. Critical path is",
+    "options": [
+      "always longest",
+      "always shortest",
+      "may be longest",
+      "may be shortest"
+    ],
+    "correct": 0,
+    "explain": "By definition, the critical path is the sequence of activities that takes the longest time to complete, determining the shortest possible project duration."
+  },
+  {
+    "q": "39. For completion of a project, the CPM of the network represents",
+    "options": [
+      "minimum time",
+      "maximum time",
+      "maximum cost",
+      "optimum cost"
+    ],
+    "correct": 0,
+    "explain": "The Critical Path Method identifies the minimum time required to complete the entire project based on the sequence of dependent tasks."
+  },
+  {
+    "q": "40. Critical path",
+    "options": [
+      "is always longest",
+      "is always shortest",
+      "may be longest",
+      "may be shortest"
+    ],
+    "correct": 0,
+    "explain": "The critical path is generally the longest path through the network; among the options given it 'may be longest' as it corresponds to the answer key."
+  },
+  {
+    "q": "41. Henry Gant developed bar chart in",
+    "options": [
+      "1880",
+      "1900",
+      "1940",
+      "2000"
+    ],
+    "correct": 1,
+    "explain": "Henry Gantt developed the bar chart technique around 1900, well before CPM/PERT were developed."
+  },
+  {
+    "q": "42. The difference between total float and free float is called interfering float which is nothing but the",
+    "options": [
+      "float of head event",
+      "float of tail event",
+      "slack of head event",
+      "slack of tail event"
+    ],
+    "correct": 2,
+    "explain": "Interfering Float = Total Float - Free Float = Head Event Slack."
+  },
+  {
+    "q": "43. Bar chart is suitable for",
+    "options": [
+      "large project",
+      "major work",
+      "minor work",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "Bar charts are simple and versatile, suitable for representing schedules of projects of all sizes - major and minor alike."
+  },
+  {
+    "q": "44. Various activities of a project, are shown on bar charts by",
+    "options": [
+      "vertical lines",
+      "horizontal lines",
+      "dots",
+      "crosses"
+    ],
+    "correct": 1,
+    "explain": "In a bar chart, each activity is represented by a horizontal bar/line whose length is proportional to its duration."
+  },
+  {
+    "q": "45. The total cost verses time curve of an activity is",
+    "options": [
+      "a straight line",
+      "a parabola",
+      "U shaped curve",
+      "∩ shaped curve"
+    ],
+    "correct": 1,
+    "explain": "The total cost curve is generally represented as a parabola or U-shaped because it is the summation of a decreasing indirect cost and an increasing direct cost curve."
+  },
+  {
+    "q": "46. Which operation must complete first?",
+    "options": [
+      "right of the line joining two circles",
+      "left of the line joining two circle",
+      "both of the above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In left-to-right network flow diagramming, the task on the left precedes and must be completed before downstream tasks."
+  },
+  {
+    "q": "47. The first method invented for planning projects, was",
+    "options": [
+      "Bar chart method",
+      "Milestone chart",
+      "Critical path method (CPM)",
+      "Programme evaluation and Review Technique (PERT)"
+    ],
+    "correct": 0,
+    "explain": "The bar chart (Gantt chart) method, invented in the late 1800s, was the earliest project planning tool, preceding milestone charts, CPM, and PERT."
+  },
+  {
+    "q": "48. PERT analysis is based on",
+    "options": [
+      "optimistic time",
+      "pessimistic time",
+      "most likely time",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "PERT analysis uses all three time estimates - optimistic, pessimistic, and most likely - to compute the expected activity duration."
+  },
+  {
+    "q": "49. The performance of a specific task in CPM, is known",
+    "options": [
+      "Dummy",
+      "Event",
+      "Activity",
+      "Contract"
+    ],
+    "correct": 2,
+    "explain": "In CPM, the performance of a specific task is termed an activity."
+  },
+  {
+    "q": "50. Completion of an activity on CPM network, is generally known",
+    "options": [
+      "Event",
+      "Node",
+      "Connector",
+      "All the above"
+    ],
+    "correct": 3,
+    "explain": "In CPM networks, the point of completion (or start) of an activity is represented as a node."
+  }
+]

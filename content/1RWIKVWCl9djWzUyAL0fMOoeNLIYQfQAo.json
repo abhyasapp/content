@@ -1,0 +1,585 @@
+[
+  {
+    "q": "The law \"Stress is proportional to strain within certain limits\" is formulated by",
+    "options": [
+      "Thomas Youngs",
+      "Poisson",
+      "Mohr",
+      "Robert Hook"
+    ],
+    "correct": 3,
+    "explanation": "Hooke's Law states stress ∝ strain within the elastic limit."
+  },
+  {
+    "q": "According to Hooke's law which one is correct?",
+    "options": [
+      "σ = E",
+      "σE = 1",
+      "σ = Eε",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explanation": "Hooke's Law: stress = Modulus of Elasticity × strain, i.e. σ = Eε."
+  },
+  {
+    "q": "The zone between elastic limit and proportional limit on the elastic curve of an elastic material is known as",
+    "options": [
+      "linear elastic zone",
+      "non-linear elastic zone",
+      "plastic zone",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Beyond the proportional limit but still within the elastic limit, stress-strain is no longer linear — this is the non-linear elastic zone."
+  },
+  {
+    "q": "As per elastic theory of design the factor of safety is the ratio of",
+    "options": [
+      "working stress to field stress",
+      "yield stress to working stress",
+      "ultimate stress to yield stress",
+      "ultimate load to load at yield"
+    ],
+    "correct": 1,
+    "explanation": "Factor of safety (elastic design) = yield stress / working (permissible) stress."
+  },
+  {
+    "q": "Which of the following gives Poisson's ratio?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 2,
+    "explanation": "Poisson's ratio μ = lateral strain / longitudinal strain."
+  },
+  {
+    "q": "The value of Poisson's ratio always remains",
+    "options": [
+      "greater than one",
+      "lesser than one",
+      "equal to one",
+      "none of these"
+    ],
+    "correct": 1,
+    "explanation": "For all real engineering materials, Poisson's ratio lies between 0 and 0.5, always less than one."
+  },
+  {
+    "q": "Normally the numerical value of Poisson's ratio is",
+    "options": [
+      "0.3 for steel",
+      "0.15 for concrete",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "Typical values: steel ≈ 0.3, concrete ≈ 0.15."
+  },
+  {
+    "q": "If the Poisson's ratio of a material is 0.25, the ratio of Modulus of Rigidity to the Young's Modulus is",
+    "options": [
+      "2",
+      "0.4",
+      "2.5",
+      "4"
+    ],
+    "correct": 1,
+    "explanation": "N/E = 1/[2(1+μ)] = 1/[2(1.25)] = 1/2.5 = 0.4."
+  },
+  {
+    "q": "The actual breaking stress of a ductile material from a tension test will be",
+    "options": [
+      "greater than ultimate strength",
+      "equal to ultimate strength",
+      "equal to nominal breaking stress",
+      "less than the ultimate strength but greater than nominal breaking stress"
+    ],
+    "correct": 0,
+    "explanation": "True (actual) stress is computed on the reduced necked area, so it exceeds the nominal ultimate strength (computed on original area)."
+  },
+  {
+    "q": "The product EI is called",
+    "options": [
+      "flexural rigidity",
+      "torsional rigidity",
+      "second moment of area",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "E (Young's modulus) × I (moment of inertia) = flexural rigidity, a measure of resistance to bending."
+  },
+  {
+    "q": "The phenomenon of decreased resistance of material due to reversal of stress is called",
+    "options": [
+      "creep",
+      "fatigue",
+      "elasticity",
+      "plasticity"
+    ],
+    "correct": 1,
+    "explanation": "Repeated/reversed stress cycles progressively weaken a material — this is fatigue."
+  },
+  {
+    "q": "The property of a material by which a body returns to its original shape after removal of the force, is called",
+    "options": [
+      "plasticity",
+      "elasticity",
+      "ductility",
+      "malleability"
+    ],
+    "correct": 1,
+    "explanation": "Elasticity is the ability to recover original shape/size after unloading."
+  },
+  {
+    "q": "A perfectly elastic body is",
+    "options": [
+      "that body which recovers its original shape completely after removal of force",
+      "a body of such a material with a lot of extensibility",
+      "a body made of rubber only",
+      "a body whose cross sectional dimensions are very small"
+    ],
+    "correct": 0,
+    "explanation": "By definition, perfect elasticity means complete shape recovery on unloading, regardless of material or size."
+  },
+  {
+    "q": "Load required to produce unit deflection is called",
+    "options": [
+      "stiffness",
+      "ductility",
+      "elasticity",
+      "malleability"
+    ],
+    "correct": 0,
+    "explanation": "Stiffness = load / deflection, i.e. the load needed to produce one unit of deflection."
+  },
+  {
+    "q": "The property of material by which it can be drawn, due to tension, to a smaller section, is called",
+    "options": [
+      "plasticity",
+      "ductility",
+      "elasticity",
+      "malleability"
+    ],
+    "correct": 1,
+    "explanation": "Ductility is the ability to be drawn into a wire/smaller section under tensile load."
+  },
+  {
+    "q": "Which of the following is a relatively ductile material?",
+    "options": [
+      "cast iron",
+      "wrought iron",
+      "mild steel",
+      "bronze"
+    ],
+    "correct": 2,
+    "explanation": "Mild steel shows large plastic elongation before fracture, making it relatively ductile compared to the brittle options listed."
+  },
+  {
+    "q": "Toughness is",
+    "options": [
+      "ability to absorb energy during plastic deformation",
+      "higher ultimate strength",
+      "stress at field",
+      "strain energy at field"
+    ],
+    "correct": 0,
+    "explanation": "Toughness is the total energy a material can absorb before fracture, largely through plastic deformation."
+  },
+  {
+    "q": "The impact tests are used to determine",
+    "options": [
+      "ultimate crushing strength",
+      "toughness",
+      "ductility",
+      "tenancy"
+    ],
+    "correct": 1,
+    "explanation": "Impact tests (e.g. Izod/Charpy) measure the energy absorbed on sudden loading — i.e. toughness."
+  },
+  {
+    "q": "The property of material by which it can be beaten or rolled into plates, is called",
+    "options": [
+      "malleability",
+      "ductility",
+      "plasticity",
+      "elasticity"
+    ],
+    "correct": 0,
+    "explanation": "Malleability is the ability to be hammered/rolled into thin sheets."
+  },
+  {
+    "q": "A member which is subjected to reversible tensile or compressible stress may fail at a stress lower than the ultimate stress of the material. The property of metal, is called",
+    "options": [
+      "plasticity of the metal",
+      "elasticity of the metal",
+      "fatigue of the metal",
+      "workability of the metal"
+    ],
+    "correct": 2,
+    "explanation": "Failure under repeated/reversed stress below the ultimate stress is the fatigue phenomenon."
+  },
+  {
+    "q": "The safe value of stress below which the material will not fail when subjected to reversal of stress is known as",
+    "options": [
+      "endurance limit",
+      "fatigue stress",
+      "tolerance limit",
+      "elastic limit"
+    ],
+    "correct": 0,
+    "explanation": "The endurance limit is the stress amplitude below which a material can withstand infinite stress reversals."
+  },
+  {
+    "q": "The method of increasing fatigue resistance by over stressing the metal by successively increasing the loading is known as",
+    "options": [
+      "compounding",
+      "coaxing",
+      "relaxing",
+      "enduring"
+    ],
+    "correct": 1,
+    "explanation": "Coaxing improves fatigue strength by applying gradually increasing sub-critical stress cycles."
+  },
+  {
+    "q": "The phenomenon of slow growth of strain under a steady tensile stress, i.e. increasing with time, is called",
+    "options": [
+      "yielding",
+      "creeping",
+      "breaking",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Creep is time-dependent strain growth under sustained stress."
+  },
+  {
+    "q": "Permanent set is",
+    "options": [
+      "the force which acts permanently on the body",
+      "irrecoverable deformation in the body",
+      "the shape of the member just after completion of construction",
+      "ratio of poisson's ratio to young's modulus"
+    ],
+    "correct": 1,
+    "explanation": "Permanent set is the residual (irrecoverable) deformation left after unloading beyond the elastic limit."
+  },
+  {
+    "q": "If the value of Young's Modulus of elasticity for a material is zero, it implies that the material is",
+    "options": [
+      "incompressible",
+      "compressible",
+      "plastic",
+      "visco elastic"
+    ],
+    "correct": 2,
+    "explanation": "Zero stiffness against elastic deformation implies the material deforms permanently/plastically under any stress."
+  },
+  {
+    "q": "Limit of proportionality depends upon",
+    "options": [
+      "area of cross section",
+      "types of loading",
+      "types of material",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "The proportional limit is a material property, varying with the type of material."
+  },
+  {
+    "q": "The S.I. unit of modulus of elasticity is",
+    "options": [
+      "N/cm²",
+      "N/m²",
+      "dyne/cm²",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Modulus of elasticity has units of stress (force/area); the SI unit is N/m² (Pascal)."
+  },
+  {
+    "q": "Which of the following is dimensionless?",
+    "options": [
+      "bulk modulus",
+      "strain",
+      "shear stress",
+      "coefficient of linear expansion"
+    ],
+    "correct": 1,
+    "explanation": "Strain is a ratio of length change to original length — dimensionless."
+  },
+  {
+    "q": "The stress at which extension of a material takes place more quickly as compared to the increase in load, is called",
+    "options": [
+      "elastic limit",
+      "plastic limit",
+      "breaking point",
+      "yielding point"
+    ],
+    "correct": 3,
+    "explanation": "At the yield point, strain increases disproportionately for a small increase in load."
+  },
+  {
+    "q": "What is tenacity?",
+    "options": [
+      "ultimate strength in tension",
+      "ultimate strength in compression",
+      "ultimate shear strength",
+      "ultimate impact strength"
+    ],
+    "correct": 0,
+    "explanation": "Tenacity refers to the ultimate tensile strength of a material."
+  },
+  {
+    "q": "Which of the following gives Modulus of Elasticity?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 0,
+    "explanation": "Young's Modulus (E) = linear stress / linear strain."
+  },
+  {
+    "q": "The Young's Modulus of elasticity is defined as a ratio of stress & strain within the",
+    "options": [
+      "yield limit",
+      "elastic limit",
+      "plastic limit",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explanation": "Hooke's Law (and hence E) is valid only within the elastic limit."
+  },
+  {
+    "q": "Which of the following gives Modulus of Rigidity?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 1,
+    "explanation": "Modulus of Rigidity (N/G) = shear stress / shear strain."
+  },
+  {
+    "q": "Which of the following gives Bulk Modulus?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress of equal magnitude on all six faces on a solid cube to the volumetric strain"
+    ],
+    "correct": 3,
+    "explanation": "Bulk Modulus (K) = uniform normal stress / volumetric strain."
+  },
+  {
+    "q": "Identify the correct relationship that exists among the modulus of elasticity (E), modulus of rigidity (N) and bulk modulus (k)",
+    "options": [
+      "E = (3K+N)/9KN",
+      "E = 3KN/(3K+N)",
+      "E = 9KN/(3K+N)",
+      "E = K/N"
+    ],
+    "correct": 2,
+    "explanation": "Standard elastic-constants relation: E = 9KN / (3K + N)."
+  },
+  {
+    "q": "Normal strain is defined as",
+    "options": [
+      "rate of change of length",
+      "strain that normally occurs",
+      "strain that is normal to shear strain",
+      "deformation normal to the force"
+    ],
+    "correct": 0,
+    "explanation": "Normal (linear) strain = change in length / original length."
+  },
+  {
+    "q": "Shear strain is defined as",
+    "options": [
+      "change in angle between planes at right angles",
+      "distortion of fibre",
+      "change in angles between two angles",
+      "strain that normally occurs"
+    ],
+    "correct": 0,
+    "explanation": "Shear strain is the change in the right angle between two originally perpendicular planes/lines."
+  },
+  {
+    "q": "The modular ratio of two materials is defined as (E1 and E2 are the modulus of elasticity of the respective materials)",
+    "options": [
+      "E1/E2",
+      "(E1/E2)²",
+      "(E1/E2)³",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explanation": "Modular ratio m = E1/E2, used in composite-section analysis (e.g. RCC transformed sections)."
+  },
+  {
+    "q": "How does Young's Modulus vary with increase in temperature?",
+    "options": [
+      "will increase",
+      "will not be affected",
+      "will decrease",
+      "impossible to predict"
+    ],
+    "correct": 2,
+    "explanation": "Interatomic bonding weakens with rising temperature, reducing stiffness (E) for most materials."
+  },
+  {
+    "q": "Which of the following materials will have the highest Young's Modulus?",
+    "options": [
+      "brass",
+      "timber",
+      "mild steel",
+      "copper"
+    ],
+    "correct": 2,
+    "explanation": "Among these, mild steel has the highest stiffness (E ≈ 200 GPa)."
+  },
+  {
+    "q": "What is strain energy?",
+    "options": [
+      "stress x strain",
+      "volume x stress x strain",
+      "energy that is spent for straining a body",
+      "energy stored in a body because of being strained"
+    ],
+    "correct": 3,
+    "explanation": "Strain energy is the elastic energy stored within a body as a result of deformation."
+  },
+  {
+    "q": "Strain energy of a member may be defined as work done on it",
+    "options": [
+      "to deform it",
+      "to resist elongation",
+      "to resist shortening",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explanation": "Strain energy equals the work done by external loads in deforming the member (stored internally)."
+  },
+  {
+    "q": "The strain energy stored by a member when strained within elastic limit, is known as",
+    "options": [
+      "resilience",
+      "proof resilience",
+      "potential strain",
+      "none"
+    ],
+    "correct": 0,
+    "explanation": "Resilience is the strain energy stored (and recoverable) within the elastic range."
+  },
+  {
+    "q": "Proof resilience is the greatest stored energy at",
+    "options": [
+      "limit of proportionality",
+      "elastic limit",
+      "plastic limit",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explanation": "Proof resilience is the maximum strain energy a material can absorb without permanent deformation, i.e. up to the elastic limit."
+  },
+  {
+    "q": "The stress in a member subjected to a force is",
+    "options": [
+      "continued deformation under sustained loading",
+      "load per unit area",
+      "the resistance offered by the material per unit area to a force",
+      "the strain per unit length"
+    ],
+    "correct": 2,
+    "explanation": "Stress is the internal resisting force per unit area developed in response to an applied load."
+  },
+  {
+    "q": "The stress due to temperature change in a member depends on",
+    "options": [
+      "cross section of the member",
+      "length of the member",
+      "supporting end conditions",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explanation": "Thermal stress only develops if expansion/contraction is restrained — hence it depends on the end/support conditions, not on cross-section or length directly."
+  },
+  {
+    "q": "The stress necessary to initiate yielding, is considerably",
+    "options": [
+      "more than necessary to continue it",
+      "less than necessary to continue it",
+      "more than necessary to stop it",
+      "less than necessary to continue it"
+    ],
+    "correct": 1,
+    "explanation": "The upper yield point stress needed to start yielding is higher than the (lower) stress needed to continue/sustain plastic flow."
+  },
+  {
+    "q": "The ratio of intensity of stress in a case of a suddenly applied load to that of a gradually applied load is",
+    "options": [
+      "same",
+      "half",
+      "twice",
+      "thrice"
+    ],
+    "correct": 2,
+    "explanation": "A suddenly applied load produces twice the stress/deflection of the same load applied gradually."
+  },
+  {
+    "q": "The stress at which extension of a material takes place more quickly as compared to the increase in load, is called",
+    "options": [
+      "breaking point",
+      "plastic point",
+      "yielding point",
+      "elastic point"
+    ],
+    "correct": 2,
+    "explanation": "This describes the yield point, where strain grows disproportionately fast relative to load."
+  },
+  {
+    "q": "When equal and opposite forces applied to a body tend to elongate it, the stress produced is called",
+    "options": [
+      "compressive stress",
+      "tensile stress",
+      "shear stress",
+      "longitudinal stress"
+    ],
+    "correct": 1,
+    "explanation": "Forces that pull a body apart (elongating it) produce tensile stress."
+  },
+  {
+    "q": "The bending moment acting on the plane of an element will cause the following type of stress on the plane",
+    "options": [
+      "normal stress",
+      "tension stress",
+      "axial stress",
+      "transverse shear stress"
+    ],
+    "correct": 0,
+    "explanation": "Bending moment produces normal (bending) stress that varies linearly across the section — tension on one side, compression on the other."
+  },
+  {
+    "q": "As the elastic limit reaches, tensile strain",
+    "options": [
+      "decreases more rapidly",
+      "increases more rapidly",
+      "decreases in proportion to the stress",
+      "increases in proportion to the stress"
+    ],
+    "correct": 0,
+    "explanation": "As per the answer key for this set; near the elastic limit the linear stress–strain proportionality begins to break down."
+  },
+  {
+    "q": "The ratio of elongations of a conical bar due to its own weight and that of a prismatic bar of the same length is",
+    "options": [
+      "1/6",
+      "1/5",
+      "1/4",
+      "1/3"
+    ],
+    "correct": 3,
+    "explanation": "A conical bar under self-weight elongates only 1/3 as much as a prismatic bar of the same length and weight, due to the tapering cross-section."
+  }
+]

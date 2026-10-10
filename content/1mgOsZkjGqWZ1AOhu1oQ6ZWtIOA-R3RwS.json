@@ -1,0 +1,772 @@
+[
+  {
+    "q": "71. Load carrying capacity of fixed beam is",
+    "options": [
+      "lesser than simply supported beam",
+      "lesser than cantilever beam",
+      "greater than simply supported beam and cantilever beam",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "A fixed beam has a higher degree of redundancy and smaller maximum bending moments compared to simply supported or cantilever beams for the same span and loading, allowing it to carry more load."
+  },
+  {
+    "q": "72. The difference in placing the end of a beam simply over a support and the supporting end through a hinge on rollers is that the roller support",
+    "options": [
+      "can offer reaction in the plane of rollers",
+      "can offer moment reaction",
+      "will not allowed the end to lift up the deflection",
+      "will not offer reaction normal to the plane of rollers"
+    ],
+    "correct": 2,
+    "explain": "A roller support allows horizontal movement and rotation but constrains vertical movement; however, in standard civil engineering contexts, it prevents the beam from lifting off the support surface."
+  },
+  {
+    "q": "73. The number of reaction components possible at a hinged end for a general loading is",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2,
+    "explain": "A hinged (pinned) support prevents translation in both horizontal and vertical directions, resulting in two reaction components, but it does not resist rotation."
+  },
+  {
+    "q": "74. At either ends of plane frame, maximum number of possible transverse shear forces, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "In a 2D plane frame member, there is typically only one transverse shear force acting perpendicular to the axis of the member at any given section."
+  },
+  {
+    "q": "75. At either ends of plane frame, maximum number of possible bending moment, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "zero"
+    ],
+    "correct": 3,
+    "explain": "According to the provided answer key, the value is zero; this typically refers to idealized hinged or pinned connections at the ends of a frame where no moment is transferred."
+  },
+  {
+    "q": "76. A simply supported beam of span L carries a uniformly distributed load, w. The maximum shear force, V is",
+    "options": [
+      "wL/2",
+      "wL/4",
+      "wL/8",
+      "wL/16"
+    ],
+    "correct": 0,
+    "explain": "For a simply supported beam with UDL, the total load is wL. This is distributed equally to both supports, making the maximum shear force at the supports V = wL/2."
+  },
+  {
+    "q": "77. A simply supported beam of span L carries a uniformly distributed load, w. The maximum bending moment, M is",
+    "options": [
+      "wL²/2",
+      "wL²/4",
+      "wL²/8",
+      "wL²/16"
+    ],
+    "correct": 2,
+    "explain": "The maximum bending moment for a simply supported beam with a UDL occurs at the center and is calculated as M = wL²/8."
+  },
+  {
+    "q": "78. A simply supported beam of span L carries two equal concentrated loads, W at a distance of L/3 from either support. The maximum bending moment, M is",
+    "options": [
+      "WL/2",
+      "WL/3",
+      "WL/4",
+      "WL/5"
+    ],
+    "correct": 1,
+    "explain": "The reaction at each support is W. The maximum moment occurs between the two loads and is equal to Reaction × Distance = W × (L/3)."
+  },
+  {
+    "q": "79. A beam is hinged at both ends and loaded with a triangular load having maximum intensity (W) at centre. Find the maximum bending moment & shear force",
+    "options": [
+      "WL²/12, WL/10",
+      "WL²/12, WL/4",
+      "WL²/10, WL/10",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "For a triangular load (reaching peak W at center) on a simply supported span L, the total load is WL/2, the reactions are WL/4, and the peak moment at the center is WL²/12."
+  },
+  {
+    "q": "80. The shape of bending moment diagram over the length of a beam, having no external load is",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubical",
+      "circular"
+    ],
+    "correct": 0,
+    "explain": "When there is no external load (only point loads or moments at ends), the shear force is constant and the bending moment varies linearly."
+  },
+  {
+    "q": "81. The shape of bending moment diagram over the length of a beam, carrying a uniformly distributed load is",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubical",
+      "circular"
+    ],
+    "correct": 1,
+    "explain": "The bending moment is the integral of the shear force. For a UDL, the shear force is linear, so the bending moment diagram follows a second-degree (parabolic) curve."
+  },
+  {
+    "q": "82. In any beam, there is acting uniformly moment then its curve is",
+    "options": [
+      "circular arch",
+      "parabolic arch",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The key indicates 'parabolic arch', though pure bending (constant moment) typically results in a circular elastic curve; however, in the context of load diagrams, 'parabolic' is often associated with distributed forces."
+  },
+  {
+    "q": "83. The shape of bending moment diagram over the length of a beam, carrying a uniformly increasing load is",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubical",
+      "circular"
+    ],
+    "correct": 2,
+    "explain": "A uniformly increasing load (triangular) results in a parabolic shear force (2nd degree) and a cubical bending moment diagram (3rd degree)."
+  },
+  {
+    "q": "84. The maximum bending moment due to moving load on a simply supported beam occurs",
+    "options": [
+      "at the mid span",
+      "at the supports",
+      "under the load",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a single moving point load on a simply supported beam, the maximum bending moment always occurs directly under the load position."
+  },
+  {
+    "q": "85. For a simply supported beam with a central load, the bending moment is",
+    "options": [
+      "least at the centre",
+      "least at the supports",
+      "maximum at the supports",
+      "maximum at the center"
+    ],
+    "correct": 3,
+    "explain": "With a central point load, the bending moment increases linearly from zero at the supports to a maximum value of WL/4 at the center."
+  },
+  {
+    "q": "86. For a cantilever with a uniformly distributed load, w over its entire length L, the maximum bending moment is",
+    "options": [
+      "wL²",
+      "wL²/2",
+      "wL²/3",
+      "wL²/4"
+    ],
+    "correct": 1,
+    "explain": "The total load is wL acting at a distance L/2 from the fixed support. Thus, M = (wL) * (L/2) = wL²/2 at the fixed end."
+  },
+  {
+    "q": "87. The maximum deflection in the cantilever beam carrying a point load (W) at end is",
+    "options": [
+      "WL³/3EI",
+      "WL³/8EI",
+      "WL³/16EI",
+      "WL³/32EI"
+    ],
+    "correct": 0,
+    "explain": "Standard structural formula for a cantilever with a point load at the free end: δ = WL³ / 3EI."
+  },
+  {
+    "q": "88. In a cantilever beam a point load is applied at the free end. Which one is correct?",
+    "options": [
+      "SF is uniform throughout the beam",
+      "SF varies linearly from free end to fixed end",
+      "BM is uniform throughout the beam",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Since there is only one load at the end and no other loads, the shear force remains constant (uniform) at value W across the entire length."
+  },
+  {
+    "q": "89. Which of the following end conditions permits the displacement in any direction and also rotation",
+    "options": [
+      "fixed end",
+      "hinged end",
+      "roller end",
+      "free end"
+    ],
+    "correct": 3,
+    "explain": "A free end (like the tip of a cantilever) provides no restraint, allowing both translation (displacement) and rotation."
+  },
+  {
+    "q": "90. Which of the following section is the most efficient in carrying bending moments?",
+    "options": [
+      "I-section",
+      "rectangular-section",
+      "T-section",
+      "circular-section"
+    ],
+    "correct": 0,
+    "explain": "An I-section is most efficient because most of its area is located in the flanges, far from the neutral axis, providing a high Section Modulus (Z) for a given area."
+  },
+  {
+    "q": "91. In an I-section almost all the shear force is taken by",
+    "options": [
+      "top flange",
+      "web",
+      "bottom flange",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "While flanges resist most of the bending moment, the vertical web of an I-beam resists the vast majority (usually over 90%) of the shear force."
+  },
+  {
+    "q": "92. The bending moment is maximum on a section where shear force",
+    "options": [
+      "is maximum",
+      "is minimum",
+      "is equal",
+      "changes sign"
+    ],
+    "correct": 3,
+    "explain": "Mathematically, dM/dx = V. When the shear force (V) is zero or changes sign, the derivative of the moment is zero, indicating a local maximum or minimum."
+  },
+  {
+    "q": "93. In a continuous bending moment curve the point where its changes sign is called",
+    "options": [
+      "point of inflexion",
+      "point of contraflexture",
+      "point of virtual hinge",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The point where the bending moment changes sign (from sagging to hogging or vice versa) is known by all these terms in structural engineering."
+  },
+  {
+    "q": "94. For any types of loading, the no. of point of contraflexture in a simply supported beam is",
+    "options": [
+      "one",
+      "two",
+      "zero",
+      "three"
+    ],
+    "correct": 2,
+    "explain": "In a simply supported beam, the bending moment usually maintains the same sign (sagging) throughout the span, so there are zero points of contraflexure."
+  },
+  {
+    "q": "95. The moment diagram for a cantilever carrying concentrated load at its free end will be",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 0,
+    "explain": "The moment varies linearly from 0 at the free end to WL at the fixed end, creating a triangular shape."
+  },
+  {
+    "q": "96. Shear force for a cantilever carrying a uniformly distributed load over its whole length is",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 0,
+    "explain": "The shear force varies linearly from 0 at the free end to wL at the fixed end, resulting in a triangular Shear Force Diagram."
+  },
+  {
+    "q": "97. When a rectangular beam is loaded longitudinally, shear develops",
+    "options": [
+      "bottom fibre",
+      "top fibre",
+      "neutral axis",
+      "every horizontal plane"
+    ],
+    "correct": 3,
+    "explain": "Longitudinal loading (axial) typically creates uniform stress, but internal shear can be considered present across horizontal planes depending on the distribution of load."
+  },
+  {
+    "q": "98. When a rectangular beam is loaded transversely, the maximum compressive force develops on",
+    "options": [
+      "bottom fibre",
+      "top fibre",
+      "neutral axis",
+      "every horizontal plane"
+    ],
+    "correct": 1,
+    "explain": "For a simply supported beam under transverse load, sagging occurs, which puts the top fibers in compression and the bottom fibers in tension."
+  },
+  {
+    "q": "99. If the shear force along a section of a beam is zero, the bending moment at the section is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "As dM/dx = V, if V=0, the bending moment is at a stationary point, which is typically the maximum (or minimum) value in the region."
+  },
+  {
+    "q": "100. The moments in the arch will be zero, if",
+    "options": [
+      "ends are hinged",
+      "ends are fixed",
+      "the arch axis coincides with the line of thrust",
+      "the arch axis is parallel to the line of thrust"
+    ],
+    "correct": 2,
+    "explain": "Bending moment in an arch is the product of the thrust and the eccentricity. If the arch axis coincides with the line of thrust, the eccentricity is zero, and thus the moment is zero."
+  },
+  {
+    "q": "101. The arch meant for supporting uniformly distributed loads, to avoid any bending moment must be",
+    "options": [
+      "circular",
+      "elliptical",
+      "parabolic",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A parabolic arch is the 'funicular' shape for a uniformly distributed load, meaning it carries the load purely through compression with zero bending moment."
+  },
+  {
+    "q": "102. In any determinate structure, vertical load fall on the",
+    "options": [
+      "hinge",
+      "roller",
+      "fixed",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Determinate structures can have various support types (hinges, rollers) that receive and transfer vertical loads to the foundation."
+  },
+  {
+    "q": "103. Three hinged arch is a .....structure.",
+    "options": [
+      "indeterminate",
+      "determinate",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A three-hinged arch has 4 reaction components and 4 equilibrium equations (3 standard + 1 moment equation at the internal hinge), making it statically determinate."
+  },
+  {
+    "q": "104. Three hinged arch will have three hinges",
+    "options": [
+      "two at the two ends and one any where in between the two ends",
+      "two at the two ends and one at the crown only",
+      "one hinge at the crown essentially and the other two any where",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A standard three-hinged arch features two hinges at the supports (abutments) and a third hinge at the highest point, known as the crown."
+  },
+  {
+    "q": "105. The value of horizontal thrust produced in a arch is",
+    "options": [
+      "wL²/4",
+      "wL²/6",
+      "wL²/8h",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a three-hinged parabolic arch carrying a UDL (w) over the entire span (L) with rise (h), the horizontal thrust H = wL²/8h."
+  },
+  {
+    "q": "106. The amount of bending moment induced in a cable is",
+    "options": [
+      "unity",
+      "zero",
+      "wl²/8",
+      "wl²/10"
+    ],
+    "correct": 1,
+    "explain": "A perfectly flexible cable cannot resist bending; it carries loads through pure tension."
+  },
+  {
+    "q": "107. A suspension cable, supporting loads will be under",
+    "options": [
+      "tension",
+      "bending",
+      "compression",
+      "compression and bending"
+    ],
+    "correct": 0,
+    "explain": "Due to their flexibility, cables adapt their shape (catenary or parabola) to remain in pure tension."
+  },
+  {
+    "q": "108. The maximum tension in a cable occurs",
+    "options": [
+      "at the highest point in the cable",
+      "at the lowest point in the cable",
+      "at the centre point of the cable",
+      "at all points in the cable"
+    ],
+    "correct": 0,
+    "explain": "Tension is the vector sum of horizontal thrust and vertical shear; since vertical shear is highest at the supports (highest points), the tension is maximum there."
+  },
+  {
+    "q": "109. A cable subjected to UDL over its entire span assumes a shape of",
+    "options": [
+      "semi-circle",
+      "parabola",
+      "an isosceles triangle",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": " as per key c A cable under a uniformly distributed load (UDL) acting over the horizontal projection takes a parabolic shape."
+  },
+  {
+    "q": "110. What is the maximum number of unknown reaction components that can be determined using only statics",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 3,
+    "explain": "For a 2D structure, there are three equations of static equilibrium: ΣFx = 0, ΣFy = 0, and ΣM = 0."
+  },
+  {
+    "q": "111. A statically indeterminate structure is the one which",
+    "options": [
+      "cannot be analysed using the equations of statics alone",
+      "cannot be analysed at all",
+      "is not stable for general loading",
+      "can be analysed with the equations of statics alone"
+    ],
+    "correct": 0,
+    "explain": "Statically indeterminate structures have more unknowns than available equilibrium equations and require compatibility equations for analysis."
+  },
+  {
+    "q": "112. A roller support for a space structure",
+    "options": [
+      "permits the movement perpendicular to the base of the supports only",
+      "permits movement in any direction in the plane of the base",
+      "does not permit any movement but permits rotation",
+      "permits movement in any direction in the plane of the base but does not permit any rotation"
+    ],
+    "correct": 1,
+    "explain": "A roller support allows movement parallel to the supporting surface (the plane of the base)."
+  },
+  {
+    "q": "113. A hinged support for a space structure",
+    "options": [
+      "permits the movement perpendicular to the base of the support only",
+      "permits movement in any direction in the plane of the base",
+      "does not permit any movement at all but permits rotation about all three mutually perpendicular axes through the joint",
+      "does not permit movement as well as rotation in any direction"
+    ],
+    "correct": 2,
+    "explain": "A hinged (pin) support restricts all translational movement but allows the members to rotate freely about the axes."
+  },
+  {
+    "q": "114. A fixed support for a space structure",
+    "options": [
+      "permits the translation only in all directions",
+      "permits rotation only about all three mutually perpendicular axes through the joint",
+      "permits rotation about all three mutually perpendicular axes and movement in any direction in the plane of the base",
+      "permits neither rotation about nor translation along, any of the three principal axes"
+    ],
+    "correct": 3,
+    "explain": "A fixed support provides total restraint, preventing both translation and rotation in all three dimensions."
+  },
+  {
+    "q": "115. Free body diagram is",
+    "options": [
+      "the diagram of the body or a part of the body in isolated equilibrium",
+      "the diagram of a body freed from all the forces that have been acting",
+      "the diagram of a body with no supports at all",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A Free Body Diagram (FBD) isolates a body or segment to show all active forces and reactive components acting on it."
+  },
+  {
+    "q": "116. The free body diagram of a portion of a body will be in equilibrium under the action of",
+    "options": [
+      "only external loading acting on that part without consideration of support reactions",
+      "all super-imposed loads, self-weight, support reactions, if any, and the internal reactions exposed at the cuts",
+      "only support reactions and the internal reactions exposed at the cuts",
+      "external loading acting on that part and internal reactions exposed at the cuts"
+    ],
+    "correct": 1,
+    "explain": "For any portion of a structure to be in equilibrium, all forces (external, gravity, and internal forces at the cut section) must be accounted for."
+  },
+  {
+    "q": "117. The analysis of a structure is",
+    "options": [
+      "deciding the material of the member",
+      "deciding the dimensions of the member",
+      "calculating the magnitude and nature of various straining actions at salient points of the structure",
+      "planning of the structure"
+    ],
+    "correct": 2,
+    "explain": "Structural analysis is the process of determining the effects of loads (internal forces like shear and moment) on physical structures."
+  },
+  {
+    "q": "118. The design of a structure is",
+    "options": [
+      "the planning of the structure",
+      "the calculation of straining actions at salient points",
+      "deciding the material and proportions of the various members of the structure",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Design involves selecting materials and determining member sizes to ensure the structure can safely resist the analyzed forces."
+  },
+  {
+    "q": "119. The statically indeterminate structure can be solved by",
+    "options": [
+      "using equations of statics alone",
+      "equations of compatibility alone",
+      "ignoring all deformations and assuming the structure to be rigid",
+      "using the equations of statics and the necessary number of equations of compatibility"
+    ],
+    "correct": 3,
+    "explain": "Indeterminate structures require both equilibrium equations (statics) and displacement-based equations (compatibility) to be fully solved."
+  },
+  {
+    "q": "120. The equations of compatibility are written based on",
+    "options": [
+      "the geometry of the deformed structure under the action of several forces acting",
+      "the nature of external forces",
+      "the duration of external forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Compatibility equations ensure that the deformed shape of the structure is geometrically continuous and consistent with the supports."
+  },
+  {
+    "q": "121. A plane structure is structure",
+    "options": [
+      "the various members of which lie in a plane",
+      "the thickness of various members of which will be very small",
+      "in which there will not be any bending moment",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A plane structure is defined as a two-dimensional structure where all members and applied forces lie within the same single plane."
+  },
+  {
+    "q": "122. A one dimensional structure is one in which",
+    "options": [
+      "one dimension is very small and other two are large",
+      "one dimension is much larger than the other two dimensions",
+      "all the three dimensions are equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In structural engineering, members like beams or columns are considered one-dimensional (line elements) because their length is significantly greater than their cross-sectional width and depth."
+  },
+  {
+    "q": "123. A two dimensional structure is one in which",
+    "options": [
+      "two dimensions are very much larger than the third",
+      "all the dimensions are equal",
+      "two dimensions are very much smaller than the third",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Two-dimensional structures, such as plates or shells, have two primary dimensions (length and width) that are much larger than the thickness."
+  },
+  {
+    "q": "124. A plane structure which subjected to a force lying outside the plane will be",
+    "options": [
+      "stable",
+      "statically determinate",
+      "unstable",
+      "statically indeterminate"
+    ],
+    "correct": 2,
+    "explain": "If a structure designed only for in-plane forces is subjected to out-of-plane forces, it lacks the necessary constraints to resist that movement, making it unstable in that direction."
+  },
+  {
+    "q": "125. An externally indeterminate structure is the one in which",
+    "options": [
+      "the total number of external reaction components is more than the equations of statics applicable to the structure as a whole",
+      "the total number of external reaction components is more than the degree of indeterminacy",
+      "the sum of external reaction components and the degree of internal redundancy is greater than three",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "External indeterminacy occurs when the number of support reactions exceeds the available static equilibrium equations ($$\\Sigma F_x=0, \\Sigma F_y=0, \\Sigma M=0$$)."
+  },
+  {
+    "q": "126. An internally indeterminate structure",
+    "options": [
+      "must be externally indeterminate",
+      "must be externally determinate",
+      "may be an unstable structure based on supports",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Internal indeterminacy refers to the redundancy of internal members. Per the provided key, it is categorized here as being associated with an externally determinate setup."
+  },
+  {
+    "q": "127. A frame is completely analysed, when",
+    "options": [
+      "the variation in shear is found throughout the frame",
+      "the variation in direct stress, shear and moment is found throughout the frame",
+      "the shear and moment reaction from member to member are known at every joint",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Complete analysis of a frame requires determining all internal actions, including axial (direct) stress, shear force, and bending moments across all members."
+  },
+  {
+    "q": "128. A prop is",
+    "options": [
+      "An additional support provided to a stable structure to avoid any displacement at the desired point in a direction perpendicular to the plane of the prop",
+      "the support which gives the maximum number of reactions for the stability of the structure",
+      "a support which will not affect the geometry of the deformed structure",
+      "a dummy support provided for architectural purposes"
+    ],
+    "correct": 0,
+    "explain": "A prop is a redundant support (often a roller or hinge) added to a structure to reduce deflection or provide extra stability at a specific point."
+  },
+  {
+    "q": "129. A rigid prop is one which",
+    "options": [
+      "permits 50% of free deflection, that would have occurred if the prop were not there",
+      "does not permit any displacement perpendicular to that plane of prop",
+      "does not offer any reaction",
+      "supports the entire load and relieves all other supports completely"
+    ],
+    "correct": 1,
+    "explain": "A rigid prop acts as an unyielding support, meaning the vertical displacement (deflection) at the point of the prop is forced to be zero."
+  },
+  {
+    "q": "130. An elastic prop is one which",
+    "options": [
+      "does not offer any reaction",
+      "supports the entire load and relieves all other supports completely",
+      "develops reaction proportional to the compression in itself",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "An elastic prop (like a spring) provides a reaction force that is proportional to its deformation, following Hooke's Law ($$F = kx$$)."
+  },
+  {
+    "q": "131. A sinking prop is one which",
+    "options": [
+      "permits any amount of deflection",
+      "does not permit any deflection at all",
+      "is provided below the level of regular supports and becomes effective after the respective deflection occurs",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A sinking prop refers to a support that undergoes a predetermined settlement or only engages once the structure has deflected to a certain point."
+  },
+  {
+    "q": "132. A support over which the real beam is continuous will correspond to",
+    "options": [
+      "an internal hinge in the conjugate beam",
+      "a hinged support in the conjugate beam",
+      "a fixed support in the conjugate beam",
+      "a discontinuity in the conjugate beam"
+    ],
+    "correct": 0,
+    "explain": "In the conjugate beam method, an internal support in the real beam (where slope exists but deflection is zero) corresponds to an internal hinge in the conjugate beam."
+  },
+  {
+    "q": "133. The displacements of joints of a truss can be obtained directly from",
+    "options": [
+      "space diagram",
+      "force diagram",
+      "Williot Mohr diagram",
+      "funicular polygon"
+    ],
+    "correct": 2,
+    "explain": "The Williot-Mohr diagram is a graphical method used to find the resultant displacement of all joints in a truss due to member deformations."
+  },
+  {
+    "q": "134. The basic form of a pin jointed frame is",
+    "options": [
+      "triangle",
+      "rectangular",
+      "trapezium",
+      "parallelogram"
+    ],
+    "correct": 0,
+    "explain": "The triangle is the simplest and only inherently stable geometric shape for a pin-jointed frame; other shapes require bracing to prevent collapse."
+  },
+  {
+    "q": "135. In a pin jointed plane frame all the loads are assumed to act",
+    "options": [
+      "in the plane of the frame",
+      "perpendicular to the plane of the frame",
+      "in a plane inclined at 45 degrees to the plane of the frame",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In the analysis of plane trusses, it is a fundamental assumption that all applied loads and reactions act within the plane of the structure."
+  },
+  {
+    "q": "136. A pin jointed plane frame with J number of joints and n, number of members will be internally redundant, if",
+    "options": [
+      "n=(2j+3)",
+      "n>(2j-3)",
+      "n<(2j-3)",
+      "n=(2j-3)"
+    ],
+    "correct": 1,
+    "explain": "A truss is internally redundant (over-stiff) if the number of members (n) is greater than the minimum required for stability, which is given by the formula $$n = 2j - 3$$."
+  },
+  {
+    "q": "137. A pin jointed frame with with J number of joints and n, number of members will be a perfect frame if",
+    "options": [
+      "n> (2j-3)",
+      "n< (2j-3)",
+      "n=(2j-3)",
+      "n<(2j+3)"
+    ],
+    "correct": 2,
+    "explain": "A perfect (just-rigid) plane frame satisfies the condition $$n = 2j - 3$$, where it is stable and determinate."
+  },
+  {
+    "q": "138. Find the DSI of propped cantilever beam",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 0,
+    "explain": "A propped cantilever has 4 reaction components (3 at fixed end + 1 at prop). With 3 equilibrium equations, the Degree of Static Indeterminacy (DSI) is $$4 - 3 = 1$$."
+  },
+  {
+    "q": "139. DSI of structure depends upon",
+    "options": [
+      "loading",
+      "types of material",
+      "c/s of the member",
+      "types of joint"
+    ],
+    "correct": 3,
+    "explain": "DSI is a geometric property determined by the arrangement of members and the types of joints (rigid vs. pinned) and supports."
+  },
+  {
+    "q": "140. The ends of continuous beam should be",
+    "options": [
+      "cantilever",
+      "hinged",
+      "roller",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "The end of a continuous beam can be configured in various ways—fixed, pinned, roller, or cantilever—depending on the design requirements."
+  }
+]

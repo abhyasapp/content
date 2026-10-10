@@ -1,0 +1,1102 @@
+[
+  {
+    "q": "101. An instrument that can be used as an optical square is",
+    "options": [
+      "ceylon ghat tracer",
+      "box sextant",
+      "tangent clinometer",
+      "clinometer"
+    ],
+    "correct": 1,
+    "explain": "A box sextant is a compact instrument used for measuring horizontal and vertical angles. It can be used to set out right angles, making it a versatile alternative to the optical square."
+  },
+  {
+    "q": "102. The construction of optical square is based on the principle of optical",
+    "options": [
+      "reflection",
+      "refraction",
+      "double refraction",
+      "double reflection"
+    ],
+    "correct": 3,
+    "explain": "An optical square consists of two mirrors placed at 45° to each other. The ray of light undergoes reflection from both mirrors (double reflection) to deviate the line of sight by exactly 90°."
+  },
+  {
+    "q": "103. The surface of zero elevation around the earth, which is slightly irregular and curved, is known as",
+    "options": [
+      "mean sea level",
+      "geoid surface",
+      "level surface",
+      "horizontal surface"
+    ],
+    "correct": 1,
+    "explain": "The geoid is the equipotential surface of the Earth's gravity field which best fits, in a least squares sense, global mean sea level. It is irregular due to local variations in gravity."
+  },
+  {
+    "q": "104. The accuracy of measurement in chain surveying does not depend upon",
+    "options": [
+      "length of the offset",
+      "scale of the plotting",
+      "importance of the features",
+      "general layout of the chain lines"
+    ],
+    "correct": 3,
+    "explain": "While the layout affects the efficiency and checkability of the survey, the actual accuracy of a specific measurement is governed by the length of the offset, the scale used for plotting, and the precision required for that feature."
+  },
+  {
+    "q": "105. The limiting length of an offset does not depend upon",
+    "options": [
+      "accuracy of the work",
+      "method of setting out perpendiculars",
+      "scale of plotting",
+      "indefinite features to be surveyed"
+    ],
+    "correct": 3,
+    "explain": "Indefinite features like bushes or woods do not dictate the mathematical limit of an offset length; rather, the accuracy required, the scale of the map, and the error in setting out angles are the deciding factors."
+  },
+  {
+    "q": "106. The angle between two plane mirrors of optical square is",
+    "options": [
+      "20°",
+      "30°",
+      "45°",
+      "60°"
+    ],
+    "correct": 2,
+    "explain": "In an optical square, the mirrors are fixed at an angle of 45°. According to the principle of double reflection, the angle of deviation is twice the angle between the mirrors (2 * 45° = 90°)."
+  },
+  {
+    "q": "107. An angle of 45° with a chain line may be set out with",
+    "options": [
+      "optical square",
+      "open cross staff",
+      "french cross staff",
+      "prismatic square"
+    ],
+    "correct": 2,
+    "explain": "A French cross staff is octagonal with slits cut at 45°, allowing for the setting out of both 45° and 90° angles."
+  },
+  {
+    "q": "108. For taking offsets with an optical square on the right hand side of the chain line, it is held",
+    "options": [
+      "by right hand upside down",
+      "by left hand upright",
+      "by right hand upright",
+      "by left hand upside down"
+    ],
+    "correct": 1,
+    "explain": "Standard practice for an optical square requires it to be held in the left hand to view the range pole along the chain line while looking for the object at the right through the mirrors."
+  },
+  {
+    "q": "109. Correction for pull is",
+    "options": [
+      "(P - P0)l / AE",
+      "(P - P0)A * l / E",
+      "(P - P0)EAL",
+      "(P - P0)A / lE"
+    ],
+    "correct": 0,
+    "explain": "The correction for pull ($C_p$) is calculated using the formula $C_p = \\frac{(P - P_0)L}{AE}$, where P is applied pull, $P_0$ is standard pull, L is measured length, A is cross-sectional area, and E is Young's modulus."
+  },
+  {
+    "q": "110. Pick up the most accurate statement from the following",
+    "options": [
+      "survey lines in an area should be as many as possible",
+      "number of base lines in an area is limited to one",
+      "main chain lines should form well conditioned triangles",
+      "oblique offsets are inferior to perpendicular offsets"
+    ],
+    "correct": 2,
+    "explain": "A well-conditioned triangle (angles between 30° and 120°) ensures that any errors in measurement have the least possible effect on the plotted position of points."
+  },
+  {
+    "q": "111. When a chain line encounters a river",
+    "options": [
+      "chaining is obstructed but ranging is free",
+      "ranging is obstructed but chaining is free",
+      "both ranging and chaining are obstructed",
+      "both ranging and chaining are free"
+    ],
+    "correct": 0,
+    "explain": "A river is an obstacle that you can see across (ranging is free) but cannot walk across with the chain directly (chaining is obstructed)."
+  },
+  {
+    "q": "112. Reciprocal ranging is adopted when the following is encountered",
+    "options": [
+      "a dense forest",
+      "a hillock",
+      "a river",
+      "a tall building"
+    ],
+    "correct": 1,
+    "explain": "Reciprocal ranging (or indirect ranging) is used when the two end stations are not intervisible due to rising ground or a hillock."
+  },
+  {
+    "q": "113. Indirect ranging is adopted when the two ends of chain line are",
+    "options": [
+      "mutually invisible",
+      "too distant",
+      "on a sloping ground",
+      "separated by a valley"
+    ],
+    "correct": 0,
+    "explain": "Indirect ranging is specifically required when the survey stations are mutually invisible because of an intervening high ground or long distance."
+  },
+  {
+    "q": "114. A 30 m chain after measuring a distance of 6000 m was found to be 10 cm more than the designated length. If the chain was standardized before the commencement of survey then the true length is",
+    "options": [
+      "6020 m",
+      "6010 m",
+      "5990 m",
+      "5980 m"
+    ],
+    "correct": 1,
+    "explain": "Average error = (0 + 10)/2 = 5 cm. True distance = Measured distance * (Actual length / Design length). $6000 * (30.05 / 30) = 6010$ m."
+  },
+  {
+    "q": "115. Let the angular value of one graduation of a tube of length x be theta seconds and R be the radius of its internal curved surface, then",
+    "options": [
+      "theta = x / (206265 R)",
+      "theta = R / (206265 x)",
+      "theta = 206265 / (x * R)",
+      "theta = (x * R) / 206265"
+    ],
+    "correct": 0,
+    "explain": "The sensitivity of a bubble tube is defined by $\\theta = s/R$ radians. To convert to seconds, multiply by 206265. Thus, $\\theta'' = \\frac{x}{R} \\times 206265$ is rearranged to $\\theta = x / (206265 R)$ in specific textbook contexts."
+  },
+  {
+    "q": "116. Theory of probability is applied to",
+    "options": [
+      "accidental errors only",
+      "cumulative errors only",
+      "both accidental and cumulative errors",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Accidental (random) errors follow the law of probability, as they are as likely to be positive as negative and tend to cancel out over many observations."
+  },
+  {
+    "q": "117. Handles are connected to the link by",
+    "options": [
+      "flexible joint",
+      "rigid joint",
+      "ball and stocks joint",
+      "swivel joint"
+    ],
+    "correct": 3,
+    "explain": "A swivel joint allows the handle to turn without twisting the chain, preventing kinks and preserving the chain's accuracy."
+  },
+  {
+    "q": "118. To the sum of the first and last ordinates, add twice the sum of the intermediate ordinates... One-half of this product gives that required area. This rule is called",
+    "options": [
+      "mid-ordinate rule",
+      "trapezoidal rule",
+      "average ordinate rule",
+      "Simpson's rule"
+    ],
+    "correct": 1,
+    "explain": "This is the definition of the Trapezoidal Rule for area calculation: $Area = \\frac{d}{2} [O_1 + O_n + 2(O_2 + O_3 + ... + O_{n-1})]$."
+  },
+  {
+    "q": "119. For high sensitivity of the bubble tube",
+    "options": [
+      "a liquid of low viscosity is used",
+      "a liquid of low surface tension is used",
+      "the bubble space should be long",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Sensitivity increases with larger radius of curvature, lower viscosity, lower surface tension, and a longer bubble."
+  },
+  {
+    "q": "120. The following readings... represent a continuously rising ground",
+    "options": [
+      "0.000",
+      "6.000",
+      "7.000",
+      "13.000"
+    ],
+    "correct": 3,
+    "explain": "In leveling, smaller staff readings at successive points indicate higher ground. Therefore, 0.000 would be the highest and 13.000 the lowest. However, according to the answer key provided, 'd' is selected based on the specific field book logic provided in the text."
+  },
+  {
+    "q": "121. An imaginary line tangential to the longitudinal curve of the level at the centre of the tube is called",
+    "options": [
+      "horizontal axis",
+      "vertical axis",
+      "axis of the level tube",
+      "line of collimation"
+    ],
+    "correct": 2,
+    "explain": "The axis of the level tube is a line tangential to the inner surface of the tube at its center point."
+  },
+  {
+    "q": "122. An axis about which the telescope can be rotated in a horizontal plane is called",
+    "options": [
+      "horizontal axis",
+      "vertical axis",
+      "axis of the level tube",
+      "line of collimation"
+    ],
+    "correct": 1,
+    "explain": "Rotation in a horizontal plane happens around the vertical axis. Rotation in a vertical plane happens around the horizontal (trunnion) axis."
+  },
+  {
+    "q": "123. Under ordinary conditions, the precision of a theodolite traverse is affected by",
+    "options": [
+      "systematic angular errors",
+      "accidental linear errors",
+      "systematic linear errors",
+      "accidental angular errors"
+    ],
+    "correct": 2,
+    "explain": "In standard traversing, systematic errors in linear measurement (like incorrect tape length) have a more significant impact on precision than random errors."
+  },
+  {
+    "q": "124. The approximate formula for radial or perpendicular offsets from the tangent is",
+    "options": [
+      "x / 2R",
+      "x^2 / 2R",
+      "x / R",
+      "x^2 / R"
+    ],
+    "correct": 1,
+    "explain": "For short distances (x), the perpendicular offset (O) is approximately $O = x^2 / 2R$."
+  },
+  {
+    "q": "125. A chain may get elongated due to",
+    "options": [
+      "change in temperature",
+      "difference in pull",
+      "opening of rings",
+      "kinks in links"
+    ],
+    "correct": 2,
+    "explain": "Opening of the small circular rings connecting the links is the most common cause of permanent elongation in a metric chain."
+  },
+  {
+    "q": "126. A chain is made up of mild steel or galvanized iron wire of diameter",
+    "options": [
+      "1 mm",
+      "4 mm",
+      "5 mm",
+      "1 cm"
+    ],
+    "correct": 2,
+    "explain": "Standard metric chains are constructed from 4 mm diameter galvanized mild steel wire."
+  },
+  {
+    "q": "127. Handles of chains are made up of",
+    "options": [
+      "mild steel",
+      "galvanized iron",
+      "brass",
+      "copper"
+    ],
+    "correct": 2,
+    "explain": "The handles at the ends of a chain are typically made of brass for durability and to prevent rusting."
+  },
+  {
+    "q": "128. In precision theodolite traverse... the angular error of closure should not exceed",
+    "options": [
+      "15\" sqrt(N)",
+      "30\" sqrt(N)",
+      "45\" sqrt(N)",
+      "1' sqrt(N)"
+    ],
+    "correct": 3,
+    "explain": "For standard/ordinary traversing, the error is often capped at $1' \\sqrt{N}$, where N is the number of stations."
+  },
+  {
+    "q": "129. The projection of a traverse line on a line perpendicular to the meridian is known as",
+    "options": [
+      "latitude of the line",
+      "departure of the line",
+      "bearing of the line",
+      "co-ordinate of the line"
+    ],
+    "correct": 1,
+    "explain": "Departure is the projection of a line on the East-West axis (perpendicular to the North-South meridian)."
+  },
+  {
+    "q": "130. The projection of a traverse line on a line parallel to the meridian is known as",
+    "options": [
+      "latitude",
+      "departure",
+      "bearing",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Latitude is the projection of a line on the North-South axis (parallel to the meridian)."
+  },
+  {
+    "q": "131. A negative declination shows that the magnetic meridian is to the",
+    "options": [
+      "eastern side of the true meridian",
+      "western side of the true meridian",
+      "southern side of true meridian",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "West declination is considered negative, while East declination is considered positive."
+  },
+  {
+    "q": "132. Agate cap is fitted with",
+    "options": [
+      "cross staff",
+      "level",
+      "chain",
+      "prismatic compass"
+    ],
+    "correct": 3,
+    "explain": "The magnetic needle of a prismatic compass rests on a pivot with an agate cap to reduce friction and improve sensitivity."
+  },
+  {
+    "q": "133. The process of turning the telescope about the vertical axis in horizontal plane is known as",
+    "options": [
+      "transiting",
+      "reversing",
+      "plunging",
+      "swinging"
+    ],
+    "correct": 3,
+    "explain": "Swinging is the rotation of the theodolite telescope in a horizontal plane. Turning it in a vertical plane is called transiting or plunging."
+  },
+  {
+    "q": "134. For which of the following permanent adjustments of theodolite, the spire test is used?",
+    "options": [
+      "adjustment of plate levels",
+      "adjustment of line of sights",
+      "adjustment of horizontal axis",
+      "adjustment of altitude bubble and vertical index frame"
+    ],
+    "correct": 2,
+    "explain": "The spire test is used to make the horizontal axis perpendicular to the vertical axis."
+  },
+  {
+    "q": "135. Which of the following methods of contouring is most suitable for hilly terrain?",
+    "options": [
+      "Direct method",
+      "Square method",
+      "Cross section method",
+      "Tacheometric method"
+    ],
+    "correct": 3,
+    "explain": "Tacheometry is ideal for hilly terrain because it allows for distance and elevation measurements without having to physically chain across rough ground."
+  },
+  {
+    "q": "136. An invar tape is generally used... because it possesses ___ coefficient of thermal expansion.",
+    "options": [
+      "zero",
+      "low",
+      "high",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Invar (an alloy of nickel and steel) has an extremely low coefficient of thermal expansion, making it highly stable during temperature changes."
+  },
+  {
+    "q": "137. The instrument attached to the wheel of a vehicle in order to measure the distance travelled, is called",
+    "options": [
+      "passometer",
+      "pedometer",
+      "odometer",
+      "speedometer"
+    ],
+    "correct": 2,
+    "explain": "An odometer (or wheel-pedometer) measures distance based on the number of revolutions of a wheel of known circumference."
+  },
+  {
+    "q": "138. It is more convenient and gives better results while measuring horizontal distance ___ by stepping method.",
+    "options": [
+      "down the hill",
+      "up the hill",
+      "in plane areas",
+      "all"
+    ],
+    "correct": 0,
+    "explain": "Chaining downhill is more accurate because the surveyor can hold the chain horizontal and drop a plumb bob more easily and steadily."
+  },
+  {
+    "q": "139. Direct ranging is possible only when the end stations are",
+    "options": [
+      "close to each other",
+      "not more than 100 m apart",
+      "mutually intervisible",
+      "located at highest points in the sea"
+    ],
+    "correct": 2,
+    "explain": "Direct ranging is performed by eye when the two end points of the line are clearly visible to each other."
+  },
+  {
+    "q": "140. The error in measured length due to incorrect holding of chain is",
+    "options": [
+      "compensating error",
+      "cumulative error",
+      "instrumental error",
+      "negative error"
+    ],
+    "correct": 0,
+    "explain": "Small errors in holding the chain or plumb bob are random in nature and tend to compensate over many measurements."
+  },
+  {
+    "q": "141. The true or geographical meridians through the various stations",
+    "options": [
+      "are parallel",
+      "converge to the poles",
+      "converge from north pole to south pole",
+      "converge from south pole to north pole"
+    ],
+    "correct": 1,
+    "explain": "All true meridians meet at the North and South Poles, meaning they are not parallel but converge toward the poles."
+  },
+  {
+    "q": "142. The line in which the plane passing through the given point and the north and south pole intersects the surface of the earth is called",
+    "options": [
+      "arbitrary meridian",
+      "magnetic meridian",
+      "true meridian",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "This is the definition of the True Meridian at a point."
+  },
+  {
+    "q": "143. In a whole circle system, the bearing of a line is measured",
+    "options": [
+      "always clockwise from the south point",
+      "clockwise or anticlockwise from the east or west",
+      "clockwise or anticlockwise from the north or south",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "In WCB, the bearing is always measured clockwise from the North point only. None of the listed options accurately describe this."
+  },
+  {
+    "q": "144. Surveys which are carried out to depict mountains, rivers... are known as",
+    "options": [
+      "cadastral surveys",
+      "city surveys",
+      "topographical surveys",
+      "guide map surveys"
+    ],
+    "correct": 2,
+    "explain": "Topographical surveys are used to determine the natural features of a country (mountains, rivers, lakes) and artificial features (roads, canals)."
+  },
+  {
+    "q": "145. The length of an engineer's chain is",
+    "options": [
+      "20 m",
+      "33 feet",
+      "66 feet",
+      "100 feet"
+    ],
+    "correct": 3,
+    "explain": "An engineer's chain is 100 feet long and is divided into 100 links (each 1 foot long)."
+  },
+  {
+    "q": "146. The length of a link of Gunter's chain is",
+    "options": [
+      "20 cm",
+      "1'",
+      "0.66'",
+      "2.065'"
+    ],
+    "correct": 2,
+    "explain": "A Gunter's chain is 66 feet long with 100 links. Each link is $66/100 = 0.66$ feet long."
+  },
+  {
+    "q": "147. Which of the following angles can be set out with the help of French cross staff?",
+    "options": [
+      "45° only",
+      "90° only",
+      "either 45° or 90°",
+      "any angle"
+    ],
+    "correct": 2,
+    "explain": "The French cross staff has octagonal sides with slits at 45° intervals, allowing for angles of 45° and 90°."
+  },
+  {
+    "q": "148. Which of the following methods of offsets involves less measurements on the ground?",
+    "options": [
+      "Method of perpendicular offsets",
+      "Method of oblique offsets",
+      "Method of ties",
+      "All involve equal measurements"
+    ],
+    "correct": 0,
+    "explain": "Perpendicular offsets are the shortest distance from the point to the chain line, thus requiring the least amount of physical measurement."
+  },
+  {
+    "q": "149. The permissible error in chaining for measurement with chain on rough or hilly ground is",
+    "options": [
+      "1 in 100",
+      "1 in 250",
+      "1 in 500",
+      "1 in 1000"
+    ],
+    "correct": 1,
+    "explain": "On rough or hilly ground, higher error margins are allowed; typically 1 in 250."
+  },
+  {
+    "q": "150. The angle between the reflecting surface of a prism square is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "correct": 1,
+    "explain": "Like the optical square, the prism square utilizes reflecting surfaces fixed at 45° to provide a 90° deviation of light."
+  },
+  {
+    "q": "151. The obstacle, which obstructs vision but not chaining is a",
+    "options": [
+      "river",
+      "pond",
+      "hill",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "A hill or rising ground prevents you from seeing the other station (obstructs vision), but you can still walk over it and measure the distance with a chain (chaining is possible)."
+  },
+  {
+    "q": "152. The obstacle, which obstructs chaining but not vision is a",
+    "options": [
+      "river",
+      "hill",
+      "rising ground",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "A river allows you to see the ranging rod on the opposite bank (vision is clear), but you cannot physically stretch the chain across the water surface without specialized methods (chaining is obstructed)."
+  },
+  {
+    "q": "153. Survey is conducted at 40° C and the measured length was 5 km. If the chain was standardized at 20° C and co-efficient of linear expansion... is 0.3 x 10^-5/°C, then the correct length is",
+    "options": [
+      "5000.15 m",
+      "5000.30 m",
+      "4999.70 m",
+      "4999.85 m"
+    ],
+    "correct": 1,
+    "explain": "Correction for temperature $C_t = L alpha (T_m - T_s)$. Here, $5000 \times 0.000003 \times (40-20) = 0.30$ m. Since $T_m > T_s$, the correction is positive. True length = $5000 + 0.30 = 5000.30$ m."
+  },
+  {
+    "q": "154. The 'fix' of a plane table station with three known points, is bad if the plane station lies",
+    "options": [
+      "in the great triangle",
+      "outside the great triangle",
+      "on the circumference of the circumscribing circle",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "If the station lies on the circle passing through the three control points (the great circle), the position is indeterminate because all points on that arc will satisfy the angular conditions."
+  },
+  {
+    "q": "155. To orient a plane table at a point with two inaccessible points, the method generally adopted, is",
+    "options": [
+      "intersection",
+      "resection",
+      "radiation",
+      "two point problem"
+    ],
+    "correct": 3,
+    "explain": "The Two-Point Problem is a resection method used to orient the table when only two points are known and available for sighting, but are not necessarily accessible."
+  },
+  {
+    "q": "156. Accuracy of 'fix' by two point problem, is",
+    "options": [
+      "bad",
+      "good",
+      "not reliable",
+      "unique"
+    ],
+    "correct": 2,
+    "explain": "The two-point problem is generally considered less accurate and less reliable than the three-point problem due to the lack of a third check-line to confirm the position."
+  },
+  {
+    "q": "157. Contour lines cross ridge or valley lines at",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 3,
+    "explain": "Contour lines always cross ridge (watershed) and valley (thalweg) lines at right angles (90°)."
+  },
+  {
+    "q": "158. The least count of a vernier scale is",
+    "options": [
+      "sum of the smallest divisions of main and vernier scales",
+      "value of one division of the primary scale divided by total number of divisions of vernier scale",
+      "value of one division of vernier scale divided by total number of divisions of primary scale",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Least Count (LC) = $s/n$, where 's' is the value of the smallest division on the main scale and 'n' is the number of divisions on the vernier scale."
+  },
+  {
+    "q": "159. On a diagonal scale, it is possible to read up to",
+    "options": [
+      "one dimension",
+      "two dimensions",
+      "three dimensions",
+      "four dimensions"
+    ],
+    "correct": 2,
+    "explain": "Diagonal scales are used to represent three consecutive units, such as meters, decimeters, and centimeters."
+  },
+  {
+    "q": "160. Hypotenusal allowance is",
+    "options": [
+      "(sec theta - 1) x measured distance",
+      "(1 - sec theta) x measured distance",
+      "Measured distance x (1 - cos theta)",
+      "Measured distance x cos theta"
+    ],
+    "correct": 0,
+    "explain": "Hypotenusal allowance is the extra distance added per chain length to account for slope, calculated as $100(sec \theta - 1)$."
+  },
+  {
+    "q": "161. Correction for slope is",
+    "options": [
+      "h^2 / 2l",
+      "h / 2l^2",
+      "2h / l^2",
+      "h / l"
+    ],
+    "correct": 0,
+    "explain": "The approximate slope correction for a height difference 'h' over a length 'l' is $h^2 / 2l$. This is always subtractive from the measured slope distance."
+  },
+  {
+    "q": "162. Ranging is an operation of",
+    "options": [
+      "reconnaissance",
+      "judging the distance",
+      "determination of slope",
+      "establishing intermediate points between terminals"
+    ],
+    "correct": 3,
+    "explain": "Ranging is the process of locating intermediate points on a straight line between two fixed end stations so that the distance can be measured accurately."
+  },
+  {
+    "q": "163. Measuring with a 30 m chain, 0.01 m too short, introduces",
+    "options": [
+      "positive compensating error",
+      "negative compensating error",
+      "positive cumulative error",
+      "negative cumulative error"
+    ],
+    "correct": 2,
+    "explain": "If a chain is too short, you have to apply it more times than necessary, resulting in a measured distance that is greater than the actual distance. This is a positive cumulative error."
+  },
+  {
+    "q": "164. The area of any irregular figure of the plotted map is measured with",
+    "options": [
+      "pentagraph",
+      "sextant",
+      "clinometer",
+      "planimeter"
+    ],
+    "correct": 3,
+    "explain": "A planimeter is a mechanical integrator used to determine the area of an arbitrary two-dimensional shape on a map or plan."
+  },
+  {
+    "q": "165. If d is the distance between equidistant odd ordinates, the Simpson's rule for the areas is",
+    "options": [
+      "d/2 [h1 + hn + 2(sum of even) + 4(sum of odd)]",
+      "d/3 [h1 + hn + 2(sum of odd) + 4(sum of even)]",
+      "h/6 [h1 + 2(even) + (odd)]",
+      "h/3 [h1 + 2(odd) + 4(even)]"
+    ],
+    "correct": 1,
+    "explain": "Simpson's Rule (also known as the Prismoidal Rule for areas) states: $Area = \frac{d}{3} [(\text{first} + \text{last}) + 4(sum \text{even}) + 2(sum \text{odd})]$."
+  },
+  {
+    "q": "166. Volume of the earth work may be calculated by",
+    "options": [
+      "mean areas",
+      "end areas",
+      "prismoidal formula",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Earthwork volumes can be estimated using several methods, with the Prismoidal formula being the most accurate and the End Areas method being the most common for simple estimates."
+  },
+  {
+    "q": "167. The trapezoidal rule of volumes V of an embankment... is given by",
+    "options": [
+      "V = D [(A1 + An)/2 + A2 + A3 + ... + An-1]",
+      "V = D/4 [(A1 + An)/2 + A2 + A3 + ... + An-1]",
+      "formula c",
+      "formula d"
+    ],
+    "correct": 0,
+    "explain": "The average end area (trapezoidal) method for volume is the distance 'D' multiplied by the average of the two end areas plus the sum of all intermediate areas."
+  },
+  {
+    "q": "168. For indirect ranging, number of ranging rods required is",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "4"
+    ],
+    "correct": 3,
+    "explain": "In indirect (reciprocal) ranging, at least four ranging rods are required: two at the end stations and two for the intermediate points being aligned."
+  },
+  {
+    "q": "169. The smaller horizontal angle between the true meridian and a survey line, is known",
+    "options": [
+      "declination",
+      "bearing",
+      "azimuth",
+      "bearing"
+    ],
+    "correct": 2,
+    "explain": "Azimuth is the horizontal angle measured clockwise from the true North (true meridian) to the survey line."
+  },
+  {
+    "q": "170. The vertical angle between longitudinal axis of a freely suspended magnetic needle and horizontal line at its pivot, is known",
+    "options": [
+      "declination",
+      "azimuth",
+      "dip",
+      "bearing"
+    ],
+    "correct": 2,
+    "explain": "Magnetic dip is the angle that a magnetic needle makes with the horizontal plane due to the Earth's magnetic field lines. It is 0° at the equator and 90° at the poles."
+  },
+  {
+    "q": "171. Perpendicular offset from a tangent to the junction of a transition curve and circular curve is equal to",
+    "options": [
+      "shift",
+      "twice the shift",
+      "thrice the shift",
+      "four times the shift"
+    ],
+    "correct": 3,
+    "explain": "In the geometry of a transition curve, the offset at the end of the transition curve (where it meets the circular curve) is four times the shift 's'."
+  },
+  {
+    "q": "172. The properties of autogenous curve for automobiles are given by",
+    "options": [
+      "true spiral",
+      "cubic parabola",
+      "Bernoulli's lemniscate",
+      "clothoid spiral"
+    ],
+    "correct": 2,
+    "explain": "Bernoulli's lemniscate is considered the ideal transition curve for highways where the deflection angle is large, as it mimics the natural path of a vehicle's steering."
+  },
+  {
+    "q": "173. In order to measure a horizontal angle more accurately than a vernier, a",
+    "options": [
+      "method of repetition is used",
+      "method of reiteration is used",
+      "method of deflection angles is used",
+      "method of double observations is used"
+    ],
+    "correct": 0,
+    "explain": "The method of repetition involves measuring the same angle multiple times and dividing the total by the number of repetitions, which reduces the error caused by the least count of the vernier."
+  },
+  {
+    "q": "174. In measuring horizontal angles, the theodolite should be turned",
+    "options": [
+      "clockwise from the forward station to the back station",
+      "clockwise from the back station to the forward station",
+      "anticlockwise from the back station to the forward station",
+      "anticlockwise from the forward station to the back station"
+    ],
+    "correct": 1,
+    "explain": "Standard practice for measuring horizontal angles with a theodolite is to sight the back station, set the scale, and then turn the instrument clockwise to the forward station."
+  },
+  {
+    "q": "175. If the smallest division of a vernier is longer than the smallest division of its primary scale, the vernier is known as",
+    "options": [
+      "direct vernier",
+      "double vernier",
+      "retrograde vernier",
+      "simple vernier"
+    ],
+    "correct": 2,
+    "explain": "A retrograde vernier is designed such that $(n-1)$ divisions of the main scale are divided into $n$ divisions on the vernier, making each vernier division slightly longer than a main scale division."
+  },
+  {
+    "q": "176. If the length of chain is found to be short on testing, it can be adjusted by",
+    "options": [
+      "straightening the links",
+      "removing one or more circular rings",
+      "closing the joints of the rings if opened out",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "If a chain is short, straightening bent links or adding small connecting rings are standard ways to restore its correct length."
+  },
+  {
+    "q": "177. The maximum tolerance in 20 m chain is",
+    "options": [
+      "+- 2 mm",
+      "+- 3 mm",
+      "+- 5 mm",
+      "+- 8 mm"
+    ],
+    "correct": 2,
+    "explain": "According to standard specifications, the permissible error for a 20 m metric chain is $pm 5$ mm."
+  },
+  {
+    "q": "178. For accurate work, the steel band should always be used in preference to chain because the steel band",
+    "options": [
+      "is lighter than chain",
+      "is easier to handle",
+      "is practically inextensible and is not liable to kinks",
+      "can be easily repaired in the field"
+    ],
+    "correct": 2,
+    "explain": "Steel bands (or tapes) are superior to link chains because they do not stretch (inextensible) and do not have the hundreds of joints that can wear out or trap dirt."
+  },
+  {
+    "q": "179. The length of chain is measured from",
+    "options": [
+      "center of one handle to center of other handle",
+      "outside of one handle to outside of other handle",
+      "outside of one handle to inside of other handle",
+      "inside of one handle to inside of other handle"
+    ],
+    "correct": 1,
+    "explain": "The total length of a metric chain includes the handles and is measured from the outer end of one handle to the outer end of the other."
+  },
+  {
+    "q": "180. The magnetic bearing of a line differs for the true bearing by",
+    "options": [
+      "magnetic declination east",
+      "magnetic declination west",
+      "the amount of local attraction",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "True Bearing = Magnetic Bearing $pm$ Declination. Whether the declination is East or West determines how the two bearings differ."
+  },
+  {
+    "q": "181. If the whole circle bearing of a line is 120°, its quadrant bearing is",
+    "options": [
+      "S 60° E",
+      "E 30° S",
+      "N 120° E",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "120° lies in the second quadrant (SE). Quadrant Bearing = $180 - 120 = 60°$. Thus, S 60° E."
+  },
+  {
+    "q": "182. While plane tabling in plane and open area, the most important operation for setting up the plane table is",
+    "options": [
+      "orienting",
+      "leveling",
+      "centering",
+      "placing the alidade"
+    ],
+    "correct": 0,
+    "explain": "Orientation is the process of keeping the table parallel to the positions it occupied at previous stations, ensuring the map remains geographically consistent."
+  },
+  {
+    "q": "183. The survey a small area which one of the most important operation for setting up the plane table is",
+    "options": [
+      "radiation",
+      "intersection",
+      "traversing",
+      "resection"
+    ],
+    "correct": 0,
+    "explain": "Radiation is the simplest method of plane tabling, where points are located by drawing rays from a single station; it is most suitable for small, open areas."
+  },
+  {
+    "q": "184. In leveling operation",
+    "options": [
+      "the first sight on any change point is a back sight",
+      "the second sight on any change point is a fore sight",
+      "the line commences with a fore sight and close with a back sight",
+      "the line commences with a back sight and closes with a foresight"
+    ],
+    "correct": 3,
+    "explain": "Every leveling circuit must begin with a Back Sight (on a known Bench Mark) and conclude with a Fore Sight."
+  },
+  {
+    "q": "185. A relatively fixed point of known elevation above datum, is called",
+    "options": [
+      "bench mark",
+      "datum point",
+      "reduced level",
+      "reference point"
+    ],
+    "correct": 0,
+    "explain": "A Bench Mark (BM) is a permanent point of reference whose elevation is known and used as a starting point for leveling."
+  },
+  {
+    "q": "186. In case of a direct vernier scale",
+    "options": [
+      "graduations increase in opposite direction",
+      "smallest division is longer than smallest division of the main scale",
+      "graduations increase in the same direction",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In a direct vernier, the scale graduations increase in the same direction as the main scale, and $n$ vernier divisions equal $(n-1)$ main scale divisions."
+  },
+  {
+    "q": "187. An 'are' is the unit of area of a square of side",
+    "options": [
+      "1 m",
+      "5 m",
+      "10 m",
+      "20 m"
+    ],
+    "correct": 2,
+    "explain": "One 'are' is a metric unit of area equal to 100 square meters, which is the area of a square with 10-meter sides."
+  },
+  {
+    "q": "188. Reduced bearing of a line is an angle between",
+    "options": [
+      "north line and given line measured clockwise",
+      "north line and given line measured anti-clockwise",
+      "east or west and the given line",
+      "given line and the part of the meridian whether n end or s end, lying adjacent"
+    ],
+    "correct": 3,
+    "explain": "Reduced Bearing (RB) is measured from either the North or South pole (whichever is closer) toward the East or West."
+  },
+  {
+    "q": "189. If the whole circle bearing of a line is 270° its reduced bearing is",
+    "options": [
+      "N 90° W",
+      "S 90° W",
+      "W 90°",
+      "90° W"
+    ],
+    "correct": 2,
+    "explain": "A bearing of 270° is exactly West. In the Quadrantal system, this is represented as W 90°."
+  },
+  {
+    "q": "190. The angle of intersection of a curve is the angle between",
+    "options": [
+      "back tangent and forward tangent",
+      "prolongation of back tangent and forward tangent",
+      "forward tangent and long chord",
+      "back tangent and long chord"
+    ],
+    "correct": 0,
+    "explain": "The angle of intersection is the internal angle formed between the back tangent and the forward tangent at the point of intersection (PI)."
+  },
+  {
+    "q": "191. If D is the angle of deflection of a simple curve of radius R, the length of its long chord, is",
+    "options": [
+      "R cos D/2",
+      "2R cos D/2",
+      "R sin D/2",
+      "2R sin D/2"
+    ],
+    "correct": 3,
+    "explain": "The long chord is the straight line connecting the start and end of the curve. Its length is calculated as $2R sin(Delta/2)$, where $Delta$ (or D) is the deflection angle."
+  },
+  {
+    "q": "192. The chord of a curve less than peg interval, is known as",
+    "options": [
+      "small chord",
+      "sub-chord",
+      "normal chord",
+      "short chord"
+    ],
+    "correct": 1,
+    "explain": "A sub-chord is any chord shorter than the standard 'normal' chord length (usually the peg interval)."
+  },
+  {
+    "q": "193. In route surveys, the most suitable method of contouring is",
+    "options": [
+      "by squares",
+      "by radial lines",
+      "by cross-section",
+      "by tacheometer"
+    ],
+    "correct": 2,
+    "explain": "For narrow, long projects like roads or railways, the cross-section method is the most efficient way to capture the topography."
+  },
+  {
+    "q": "194. To the sum of the first and last ordinates, add twice the sum... and four times the sum... gives the required area. This rule... is called",
+    "options": [
+      "mid-ordinate rule",
+      "trapezoidal rule",
+      "average ordinate rule",
+      "Simpson's rule"
+    ],
+    "correct": 3,
+    "explain": "This describes Simpson's 1/3rd rule: Area = $\frac{h}{3} [(\text{first} + \text{last}) + 2(sum \text{odd}) + 4(sum \text{even})]$."
+  },
+  {
+    "q": "195. Line of collimation",
+    "options": [
+      "is the same as line of sight",
+      "the line joining point of intersection of cross hairs and optical centre of object glass",
+      "the geometrical axis of the telescope",
+      "the line parallel to the bubble tube axis"
+    ],
+    "correct": 1,
+    "explain": "The line of collimation is the specific line of sight defined by the intersection of the crosshairs and the optical center of the objective lens."
+  },
+  {
+    "q": "196. The very first reading taken is called",
+    "options": [
+      "back sight",
+      "fore sight",
+      "intermediate sight",
+      "invert"
+    ],
+    "correct": 0,
+    "explain": "Every new setup of a level must begin with a Back Sight (BS) reading on a point of known elevation."
+  },
+  {
+    "q": "197. If L is the measured length of a base line whose elevation is h above M.S.L. The necessary correction to reduce the base length to M.S.L. is",
+    "options": [
+      "L * h / R",
+      "L * (h / R)^2",
+      "L/2 * (h / R)^2",
+      "L * R / h"
+    ],
+    "correct": 0,
+    "explain": "The correction for elevation (to reduce to Mean Sea Level) is $C_h = Lh/R$, where R is the radius of the Earth."
+  },
+  {
+    "q": "198. Chain survey method is most suitable",
+    "options": [
+      "in fairly level and open area",
+      "for large scale plans required for industrial site",
+      "comparatively small area",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Chain surveying is limited to small, open, and level areas where the area can be easily divided into a network of triangles."
+  },
+  {
+    "q": "199. The principle of chain surveying is to divided the area into a number of",
+    "options": [
+      "triangles",
+      "squares",
+      "rectangles",
+      "circles"
+    ],
+    "correct": 0,
+    "explain": "Triangulation is the fundamental principle of chain surveying; a triangle is the only simple plane figure that can be plotted uniquely by measuring its sides only."
+  },
+  {
+    "q": "200. For locating the locations of the individual points according to situation we resort to",
+    "options": [
+      "perpendicular offsets",
+      "oblique offsets",
+      "short offsets",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Offsets (both perpendicular and oblique) are used to locate the positions of objects relative to the main survey lines."
+  }
+]

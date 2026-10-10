@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. In P.E.R.T. analysis the actual performance of task is known is ..............",
+    "options": [
+      "activity",
+      "event",
+      "task",
+      "work"
+    ],
+    "correct": 1,
+    "explain": "In PERT (Program Evaluation and Review Technique), the focus is on the completion of tasks, which are represented as 'events' or milestones in the network."
+  },
+  {
+    "q": "2. Which of the following in an activity ..............",
+    "options": [
+      "concrete cured",
+      "walls plastered",
+      "excavation for foundation",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "An activity consumes time and resources. 'Excavation' is a continuous process/task, whereas 'cured' or 'plastered' (in past tense) usually denotes an event or state."
+  },
+  {
+    "q": "3. A drawback of the bar chart is that ..............",
+    "options": [
+      "it is difficult to judge whether an activity is completed or not",
+      "all the activities represented are independent of each other",
+      "sequence of activities is not clearly defined",
+      "it is not possible to judge whether the activity is ahead or behind schedule"
+    ],
+    "correct": 2,
+    "explain": "The primary limitation of a Gantt/Bar chart is its inability to show the complex logical interdependencies and sequences between different activities."
+  },
+  {
+    "q": "4. Milestones are ..............",
+    "options": [
+      "the events specifying the beginning and /or the end of subdivided activities",
+      "the stones indicating the distance along a highway",
+      "dates of important happenings in the history of any nation",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In project management, milestones are key events that represent significant points of progress, such as the start or completion of a major phase."
+  },
+  {
+    "q": "5. Henry Gantt developed the bar chart technique around ..............",
+    "options": [
+      "1800",
+      "1900",
+      "1850",
+      "1950"
+    ],
+    "correct": 1,
+    "explain": "Henry Gantt developed his famous chart around the year 1910 (early 1900s) to help supervisors see whether production was on schedule."
+  },
+  {
+    "q": "6. Milestone charts are developed around ..............",
+    "options": [
+      "1800",
+      "1840",
+      "1900",
+      "1940"
+    ],
+    "correct": 3,
+    "explain": "Milestone charts were developed as an evolution of the bar chart, gaining prominence around the 1940s during World War II industrial efforts."
+  },
+  {
+    "q": "7. The earliest method used for planning of projects was ..............",
+    "options": [
+      "P.E.R.T",
+      "C.P.M.",
+      "Bar chart",
+      "Milestone chart"
+    ],
+    "correct": 2,
+    "explain": "The Bar Chart (Gantt Chart) is the oldest formal technique for project planning, predating the network techniques like PERT and CPM which arrived in the 1950s."
+  },
+  {
+    "q": "8. Bar charts are suitable only for ..............",
+    "options": [
+      "minor projects",
+      "medium projects",
+      "major projects",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "Due to their inability to show interdependencies, bar charts become too complex and confusing for major projects, making them best suited for simple or minor projects."
+  },
+  {
+    "q": "9. P.E.R.T. is an abbreviation for ..............",
+    "options": [
+      "pertinent equation related to a task",
+      "performance, evaluation, rating and timing",
+      "programme evaluation and review technique",
+      "periodical estimation of resource treasure"
+    ],
+    "correct": 2,
+    "explain": "PERT stands for Program (or Project) Evaluation and Review Technique, originally developed by the US Navy."
+  },
+  {
+    "q": "10. Expected project duration generally follows ..............",
+    "options": [
+      "normal distribution curve",
+      "Poisson's distribution curve",
+      "β-distribution curve",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "While individual activity durations in PERT follow a Beta distribution, the Central Limit Theorem states that the total project duration (sum of activities) follows a Normal distribution."
+  },
+  {
+    "q": "11. The area under the β-distribution curve is divided into two equal parts by ..............",
+    "options": [
+      "most likely time",
+      "optimistic time",
+      "pessimistic time",
+      "expected time"
+    ],
+    "correct": 3,
+    "explain": "The 'expected time' ($t_e$) is the weighted average (mean) which theoretically divides the probability distribution into two equal areas of probability."
+  },
+  {
+    "q": "12. C.P.M. stands for ..............",
+    "options": [
+      "computer programming mode",
+      "critical project management",
+      "controlling planning and maintenance",
+      "critical path method"
+    ],
+    "correct": 3,
+    "explain": "CPM stands for Critical Path Method, a deterministic algorithm for scheduling a set of project activities."
+  },
+  {
+    "q": "13. When the events are numbered in a network then the number of the head event of an activity is ..............",
+    "options": [
+      "always larger than the number of the tail event of same activity",
+      "always smaller than the number of the tail event of the same activity",
+      "always equal to the number of the tail event of the same activity",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Following Fulkerson's Rule for numbering networks, the head node (j) must always be assigned a number greater than the tail node (i)."
+  },
+  {
+    "q": "14. The cost slope is defined as ..............",
+    "options": [
+      "(crash cost - normal cost) / crash time",
+      "(normal cost - crash cost) / (normal time - crash time)",
+      "(crash cost - normal cost) / normal time",
+      "(crash cost - normal cost) / (normal time - crash time)"
+    ],
+    "correct": 3,
+    "explain": "Cost slope represents the increase in cost per unit of time saved. It is calculated as the change in cost divided by the change in time: (Crash Cost - Normal Cost) / (Normal Time - Crash Time)."
+  },
+  {
+    "q": "15. Select the incorrect statement",
+    "options": [
+      "earliest start of an activity is the early event time of the node it leaves",
+      "latest finish of an activity is the late event time of the node it enters",
+      "latest start of an activity is its latest finish minus its duration",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "All the statements (a), (b), and (c) are standard definitions in CPM/PERT. Since none are incorrect, the answer is 'none of the above'."
+  },
+  {
+    "q": "16. If an activity has its optimistic, most likely and pessimistic times as 2, 3 and 7 respectively, than its expected time and variance are respectively ............",
+    "options": [
+      "3.5 and 5/6",
+      "5 and 25/36",
+      "3.5 and 25/36",
+      "4 and 5/6"
+    ],
+    "correct": 2,
+    "explain": "Expected time $t_e = (2 + 4(3) + 7) / 6 = 21/6 = 3.5$. Variance $\\sigma^2 = [(t_p - t_o) / 6]^2 = [(7 - 2) / 6]^2 = (5/6)^2 = 25/36$."
+  },
+  {
+    "q": "17. Select the incorrect statement ............",
+    "options": [
+      "start float and finish float are always equal",
+      "total float can be either start float or finish float",
+      "start float and finish float need not be equal",
+      "start float and finish float are the differences between activity times and not event times"
+    ],
+    "correct": 0,
+    "explain": "Start float and finish float are equal to each other (and to Total Float) only if the activity is not part of a sub-network with interference. They are not 'always' equal in general context."
+  },
+  {
+    "q": "18. The probability of completion of any activity within its expected time is ............",
+    "options": [
+      "50%",
+      "84.1%",
+      "99.9%",
+      "100%"
+    ],
+    "correct": 0,
+    "explain": "In PERT, the expected time ($t_e$) corresponds to the mean of a normal distribution (50% probability)."
+  },
+  {
+    "q": "19. In resources levelling ............",
+    "options": [
+      "total duration of project",
+      "total duration of project is increased",
+      "uniform demand of resources is achieved",
+      "cost of project is controlled"
+    ],
+    "correct": 2,
+    "explain": "Resource leveling aims to smooth out the resource usage profile to achieve a more uniform demand throughout the project."
+  },
+  {
+    "q": "20. Total cost of the project is ............",
+    "options": [
+      "direct cost and outage loss of project",
+      "direct cost and over heads",
+      "direct cost and indirect cost",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The total project cost is the summation of Direct Costs (labor, material) and Indirect Costs (overhead, insurance)."
+  },
+  {
+    "q": "21. In time-cost optimisation of a project, crashing is done ............",
+    "options": [
+      "on all the activities",
+      "on all the activities lying on the critical paths",
+      "only on activities lying on the original critical path and having flatter cost slopes",
+      "on original critical activities and those that become critical"
+    ],
+    "correct": 3,
+    "explain": "Crashing must be performed on critical activities to reduce project duration; as paths change, new critical activities must also be crashed."
+  },
+  {
+    "q": "22. The problem of developing, low cost housing for economically backward people in undeveloped region should be analysed by ............",
+    "options": [
+      "Gantt chart",
+      "C.P.M. technique",
+      "P.E.R.T. technique",
+      "zero or negative"
+    ],
+    "correct": 2,
+    "explain": "PERT is used for research and development type projects where time estimates are uncertain and non-repetitive."
+  },
+  {
+    "q": "23. The C.P.M. network is updated ............",
+    "options": [
+      "at regular intervals",
+      "at fixed times",
+      "at any time",
+      "whenever the is difference in the planned and actual performance"
+    ],
+    "correct": 3,
+    "explain": "Updating is necessary whenever there is a significant deviation between planned progress and actual field performance."
+  },
+  {
+    "q": "24. The effect of network compression is increase in the ............",
+    "options": [
+      "total cost",
+      "direct cost",
+      "indirect cost",
+      "overheads"
+    ],
+    "correct": 1,
+    "explain": "Compressing (crashing) a network involves adding more resources, which directly increases the direct cost."
+  },
+  {
+    "q": "25. The scheduling of project activities is done in such a way that it consumes resources ............",
+    "options": [
+      "greater at the start, lesser at the end",
+      "lesser at the start, greater at the end",
+      "uniform throughout the project",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Ideal resource scheduling aims for a uniform distribution to avoid idle time and sudden spikes in labor/equipment needs."
+  },
+  {
+    "q": "26. In a barchart the vertical axis represents ............",
+    "options": [
+      "time",
+      "types of activities",
+      "number of labours",
+      "various activities of the project"
+    ],
+    "correct": 3,
+    "explain": "In a standard Gantt/Bar chart, the Y-axis lists the activities, while the X-axis represents time."
+  },
+  {
+    "q": "27. The barchart technique is commonly used because it ............",
+    "options": [
+      "is simple to draw and easy to understand",
+      "indicates progress clearly",
+      "is useful for cost and quality control",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "The primary advantage of bar charts is their simplicity and visual clarity for general project overviews."
+  },
+  {
+    "q": "28. Each work should be planned with respect to ............",
+    "options": [
+      "manner of execution of the work",
+      "urgency of the work",
+      "availability of resources",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Effective planning requires considering the methods (how), timing (urgency), and necessary inputs (resources)."
+  },
+  {
+    "q": "29. In construction work, the controlling function aims at ............",
+    "options": [
+      "keeping a watch over the physical progress of each activity of the work",
+      "controlling the expenditure on each item of work",
+      "controlling the use of machines and materials",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Controlling ensures that physical progress, financial expenditure, and resource usage stay within the project budget and schedule."
+  },
+  {
+    "q": "30. Which of the following is an example of parallel activities?",
+    "options": [
+      "construction of walls and casting of roof",
+      "construction of walls and carpentry work of doors and window",
+      "casting of roof and construction of septic tank",
+      "digging of well and construction of septic tank"
+    ],
+    "correct": 1,
+    "explain": "Carpentry work for doors/windows can happen simultaneously (in parallel) while walls are being built."
+  },
+  {
+    "q": "31. The process of calculating the resources requirement of a project is known as ..............",
+    "options": [
+      "scheduling",
+      "co-ordinating",
+      "resource aggregation",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "Resource aggregation is the summation of resources required across all activities for each time period."
+  },
+  {
+    "q": "32. The use of bar chart is very popular in construction department because ..............",
+    "options": [
+      "it is very simple to prepare and interpret",
+      "each item of work or activity is shown separately",
+      "modification to the chart, if required, can be carried out easily",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Duplicate of 284 with expanded answer. Its simplicity and clarity make it widely used despite its technical limitations."
+  },
+  {
+    "q": "33. Any delay in starting, that involves consumption of any of the interfering floats of an activity, will result in ..............",
+    "options": [
+      "retarding of some following activity",
+      "delaying the overall project time",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Interfering float is the part of total float that consumes the slack of a succeeding activity. Using it will affect following activities but not necessarily the overall project duration (unless total float is exceeded)."
+  },
+  {
+    "q": "34. With the usual notations, capital recovery factor is given by",
+    "options": [
+      "(1 + i)^n",
+      "i / [(1 + i)^n - 1]",
+      "i / (1 + i)^n",
+      "i(1 + i)^n / [(1 + i)^n - 1]"
+    ],
+    "correct": 3,
+    "explain": "The Capital Recovery Factor (CRF) is used to calculate the equal annual payments required to recover a current investment over 'n' periods at interest rate 'i'. The formula is $[i(1+i)^n] / [(1+i)^n - 1]$."
+  },
+  {
+    "q": "35. In time-cost optimization of a project, crashing is done",
+    "options": [
+      "on all the activities",
+      "on all the activities lying on the critical path",
+      "only on activities lying on the original critical path and having flatter cost slopes",
+      "on original critical activities and those that become critical at any stage of crashing in the order of ascending cost slope"
+    ],
+    "correct": 3,
+    "explain": "To minimize costs while shortening duration, crashing is performed on critical activities starting with the one that has the lowest (cheapest) cost slope. As paths change, new critical activities must also be considered."
+  },
+  {
+    "q": "36. Free float for any activity is defined as the difference between",
+    "options": [
+      "its earliest finish time and earliest start time for its successor activity",
+      "its latest start time and earliest start time",
+      "its latest finish time and earliest start time for successor activity",
+      "its earliest finish time and latest start time for its successor activity"
+    ],
+    "correct": 0,
+    "explain": "Free float is the amount of time an activity can be delayed without affecting the earliest start time of any succeeding activity. It is calculated as: $ES_{successor} - EF_{current}$."
+  },
+  {
+    "q": "37. The time by which a particular activity can be delayed without affecting the preceding and succeeding activities is known as",
+    "options": [
+      "total float",
+      "free float",
+      "interfering float",
+      "independent float"
+    ],
+    "correct": 3,
+    "explain": "Independent float is unique because it is the only float that does not consume the float of either the preceding or succeeding activities."
+  },
+  {
+    "q": "38. The time with which direct cost does not reduce with the increase in time is known",
+    "options": [
+      "crash time",
+      "normal time",
+      "optimistic time",
+      "standard time"
+    ],
+    "correct": 1,
+    "explain": "Normal time is the duration that results in the minimum direct cost. Increasing time beyond this does not further reduce direct costs and may increase indirect costs."
+  },
+  {
+    "q": "39. The start or completion of task is called",
+    "options": [
+      "an event",
+      "an activity",
+      "a duration",
+      "any one of these"
+    ],
+    "correct": 0,
+    "explain": "An event represents a specific point in time (start or end) and does not consume any time or resources, unlike an activity."
+  },
+  {
+    "q": "40. An activity requires",
+    "options": [
+      "events",
+      "resources",
+      "time and resources",
+      "energy"
+    ],
+    "correct": 2,
+    "explain": "By definition, an activity is a process that takes time to complete and consumes resources (labor, materials, money)."
+  },
+  {
+    "q": "41. P.E.R.T.",
+    "options": [
+      "provides an approach for keeping planning up-to-date",
+      "provides a way for management to require that planning be done on a uniform and logical basis",
+      "permits management to foresee quickly the impact of variations from the plan",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Program Evaluation and Review Technique (PERT) is a management tool used to schedule, organize, and coordinate tasks within a project, offering flexibility and predictive capabilities."
+  },
+  {
+    "q": "42. P.E.R.T. analysis is based upon",
+    "options": [
+      "optimistic time",
+      "pessimistic time",
+      "most likely time",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "PERT uses a weighted average of three time estimates: Optimistic ($t_o$), Pessimistic ($t_p$), and Most Likely ($t_m$) to account for uncertainty."
+  },
+  {
+    "q": "43. Probabilistic time for completion of any activity can be found from",
+    "options": [
+      "optimistic time",
+      "pessimistic time",
+      "most likely time",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "The 'Expected Time' ($t_e$) in PERT is a probabilistic value derived using all three time estimates ($t_o$, $t_p$, $t_m$)."
+  },
+  {
+    "q": "44. The optimistic time represent the",
+    "options": [
+      "shortest possible time in which an activity can be completed if everything goes exceptionally well",
+      "time in which the activity is normally expected to complete under normal contingencies",
+      "time in which an activity will take to complete in case of difficulty",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Optimistic time ($t_o$) assumes ideal conditions where no delays or setbacks occur during the execution of an activity."
+  },
+  {
+    "q": "45. Float or slack represent the difference between the",
+    "options": [
+      "earliest completion time and latest allowable time",
+      "latest allowable time and earliest completion time",
+      "earliest completion time and normal expected time",
+      "latest allowable time and normal allowable time"
+    ],
+    "correct": 1,
+    "explain": "Float (in CPM) or Slack (in PERT) is the margin of extra time available; it is the difference between the latest allowable finish and the earliest finish."
+  },
+  {
+    "q": "46. The amount of time by which the activity completion can be delayed without interfering with the start of succeeding activity, is known as",
+    "options": [
+      "earliest completion time",
+      "total float",
+      "free float",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Free float is the delay allowed for an activity that does not delay the early start of its successor. If free float is used, it does not affect any other part of the schedule."
+  },
+  {
+    "q": "47. The early finish time of an activity is the ______ of early start time and duration of activity.",
+    "options": [
+      "sum",
+      "difference",
+      "product",
+      "ratio"
+    ],
+    "correct": 0,
+    "explain": "Formula: $EF = ES + d$. The Earliest Finish time is simply the Earliest Start time plus the duration of the task."
+  },
+  {
+    "q": "48. Actual performance of a task is called",
+    "options": [
+      "an event",
+      "an activity",
+      "a duration",
+      "any one of these"
+    ],
+    "correct": 1,
+    "explain": "An activity represents the actual work or performance of a task that consumes time and resources."
+  },
+  {
+    "q": "49. The total activity slack is equal to",
+    "options": [
+      "late start time - early start time",
+      "late finish time - early finish time",
+      "latest allowable event occurrence time - early finish time",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Total Slack (Total Float) can be calculated in several ways: $LS - ES$, $LF - EF$, or $L - E$. All these represent the same time buffer."
+  },
+  {
+    "q": "50. The free float is equal to",
+    "options": [
+      "latest allowable event occurrence time + early finish time",
+      "earliest event occurrence time + early finish time",
+      "latest allowable event occurrence time - early finish time",
+      "earliest event occurrence time - early finish time"
+    ],
+    "correct": 3,
+    "explain": "Free Float = (Earliest Start of successor) - (Early Finish of activity). In event-based terminology, it is $E_j - E_i - d$."
+  }
+]

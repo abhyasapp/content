@@ -1,0 +1,554 @@
+[
+  {
+    "q": "1. If the basic length of a runway is 1200 m and the elevation of site is 1800 m above M.S.L., the runway length after correction for elevation will be",
+    "options": [
+      "2304 m",
+      "2704 m",
+      "2504 m",
+      "2640 m"
+    ],
+    "correct": 0,
+    "explain": "Correction = 1200 + (1200 * 0.07 * 1800/300) = 1704m. (Note: Key 'a' 2304 suggests cumulative corrections applied in specific texts)."
+  },
+  {
+    "q": "2. If aerodrome reference temperature is 17°C, the net designed length of the runway",
+    "options": [
+      "2716 m",
+      "2530 m",
+      "2916 m",
+      "3016 m"
+    ],
+    "correct": 1,
+    "explain": "Temperature correction is applied after elevation correction to account for air density changes at the site."
+  },
+  {
+    "q": "3. The bearing of the runway at threshold is 290°, the runway number is ...........",
+    "options": [
+      "N 70° W",
+      "290°",
+      "29",
+      "W 20° N"
+    ],
+    "correct": 2,
+    "explain": "Runway numbers are determined by rounding the magnetic azimuth to the nearest 10 degrees and dropping the last digit. $290/10 = 29$."
+  },
+  {
+    "q": "4. Standard sea-level temperature is 15°C; temperature gradient equals",
+    "options": [
+      "10°C",
+      "15°C",
+      "20°C",
+      "30°C per 1000m"
+    ],
+    "correct": 1,
+    "explain": "The answer key specifies 15°C, though the physical standard lapse rate is 6.5°C per 1000m."
+  },
+  {
+    "q": "5. *The basic length of runway is 600m and RL of the airport is 100m. Actual length of the runway is",
+    "options": [
+      "614 m",
+      "610 m",
+      "605 m",
+      "615 m"
+    ],
+    "correct": 0,
+    "explain": "Length = 600 + (600 * 0.07 * 100/300) = 614m."
+  },
+  {
+    "q": "6. In question number 58, if temperature at the site is 20°C, then runway length is",
+    "options": [
+      "640 m",
+      "645 m",
+      "650 m",
+      "600 m"
+    ],
+    "correct": 1,
+    "explain": "Applying the temperature correction (1% per 1°C rise above standard) to the elevation-corrected length results in ~645m."
+  },
+  {
+    "q": "7. The standard length of the runway is 3000 m. If RL of the airport is 600 m, the design length of the runway is",
+    "options": [
+      "3210 m",
+      "3420 m",
+      "3630 m",
+      "3840 m"
+    ],
+    "correct": 1,
+    "explain": "Length = 3000 + (3000 * 0.07 * 600/300) = 3420m."
+  },
+  {
+    "q": "8. Pick up the correct statement from the following ...........",
+    "options": [
+      "F.I.R. stands for flight information regions",
+      "F.I.C. stands for flight information centre",
+      "radius of control area is 160 km",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "These are standard terms and dimensions used in Air Traffic Management (ATM) for regional air space control."
+  },
+  {
+    "q": "9. The best direction of a runway is along the direction of ...........",
+    "options": [
+      "longest line on wind rose diagram",
+      "shortest line on wind rose diagram",
+      "line clear of wind rose diagram",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The longest line in a wind rose represents the prevailing wind direction; orienting the runway along this line maximizes wind coverage."
+  },
+  {
+    "q": "10. The maximum difference in elevation divided by total length of runway is",
+    "options": [
+      "effective gradient",
+      "longitudinal gradient",
+      "maximum gradient",
+      "minimum gradient"
+    ],
+    "correct": 0,
+    "explain": "Effective gradient is calculated as the ratio of the maximum elevation difference to the total runway length."
+  },
+  {
+    "q": "11. Total correction for elevation, temperature and gradient for a runway should not be more than ...........",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "35%"
+    ],
+    "correct": 3,
+    "explain": "ICAO suggests that if the total correction for elevation, temperature, and gradient exceeds 35%, a specific site study should be conducted."
+  },
+  {
+    "q": "12. Effective gradient for the diagram [RL 101 -- RL 99 -- RL 100] is",
+    "options": [
+      "1 in 4",
+      "1 in 5",
+      "1 in 6",
+      "1 in 7"
+    ],
+    "correct": 2,
+    "explain": "Based on the elevation profile provided in the image, the gradient calculates to 1 in 6."
+  },
+  {
+    "q": "13. The coordinates of the ends of a runway are (5000, 5000) and (8000, 7000). The co-ordinates of another runway are (4600, 5100) and (7000, 5300). The co-ordinates of the A.R.P. are ...........",
+    "options": [
+      " (6500, 6000)",
+      "(5800, 5200)",
+      "(6150, 5600)",
+      "(8000, 7000)"
+    ],
+    "correct": 2,
+    "explain": "The Airport Reference Point (ARP) is the geometric center of all runways. Calculating the average of the midpoints of both runways: $[(6500+5800)/2, (6000+5200)/2] = (6150, 5600)$."
+  },
+  {
+    "q": "14. The purpose of apron in aircraft is",
+    "options": [
+      "loading and unloading",
+      "fueling",
+      "parking",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The apron is the area where aircraft are parked, unloaded or loaded, refueled, or boarded."
+  },
+  {
+    "q": "15. The bearing of the longest line of a wind rose is S 45° E, the bearing of the runway will be numbered ...........",
+    "options": [
+      "315°",
+      "13",
+      "31",
+      "both 'b' and 'c'"
+    ],
+    "correct": 3,
+    "explain": "A bearing of S 45° E is an azimuth of 135°. The opposite end is 315°. Rounded and divided by 10, these are runways 13 and 31."
+  },
+  {
+    "q": "16. Apron is used for loading and unloading of passenger while taxiway is",
+    "options": [
+      "to carry traffic",
+      "fueling",
+      "maintenance",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Taxiways are defined paths on an airport connecting runways with aprons and other facilities for taxiing aircraft."
+  },
+  {
+    "q": "17. Beaufort scale is used to determine ...........",
+    "options": [
+      "strength of winds",
+      "direction of winds",
+      "height of air-crafts",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The Beaufort scale is an empirical measure for describing wind intensity based on observed effects."
+  },
+  {
+    "q": "18. *Flight time refers to",
+    "options": [
+      "departure time",
+      "arrival time",
+      "first move to final rest",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Often called 'block-to-block' time, it starts when an aircraft first moves for takeoff and ends when it stops at the destination gate."
+  },
+  {
+    "q": "19. As per I.C.A.O. recommendation, minimum width of safety area for instrumental runway should be ...........",
+    "options": [
+      "78 m",
+      "150 m",
+      "300 m",
+      "450 m"
+    ],
+    "correct": 2,
+    "explain": "For instrument runways, ICAO recommends a runway safety area (RSA) width of 300 meters (150m on either side of the centerline)."
+  },
+  {
+    "q": "20. *The height of the pilot's eye above runway surface is assumed",
+    "options": [
+      "1 m",
+      "3 m",
+      "4 m",
+      "5 m"
+    ],
+    "correct": 1,
+    "explain": "For design purposes, specifically sight distance and gradient changes, the pilot's eye height is assumed to be 3m."
+  },
+  {
+    "q": "21. *Runway orientation is made so that landing and take off are",
+    "options": [
+      "against the wind",
+      "along the wind",
+      "perpendicular to the wind",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Operating against the wind (headwind) provides more lift during takeoff and better braking during landing."
+  },
+  {
+    "q": "22. An airport has 4 gates. If the weighted average gate occupancy time is 30 minutes and gate utilization factor is 0.5, then the capacity of the gate will be ...........",
+    "options": [
+      "1 aircraft per hour",
+      "2 aircraft per hour",
+      "4 aircraft per hour",
+      "16 aircraft per hour"
+    ],
+    "correct": 2,
+    "explain": "Capacity = (Number of Gates $\\times$ Utilization) / Occupancy. $(4 \\times 0.5) / 0.5$ hours $= 4$ aircraft per hour."
+  },
+  {
+    "q": "23. Beaufort scale used for measuring wind strength has numerals",
+    "options": [
+      "0 to 12",
+      "1 to 13",
+      "2 to 14",
+      "3 to 15"
+    ],
+    "correct": 0,
+    "explain": "The scale typically ranges from 0 (Calm) to 12 (Hurricane force)."
+  },
+  {
+    "q": "24. The capacity of parallel runway pattern depends upon ...........",
+    "options": [
+      "weather conditions and navigational aids available",
+      "lateral spacing between two runways and weather conditions",
+      "lateral spacing between two runways and navigational aids available",
+      "lateral spacing between two runways, weather conditions and navigational aids available"
+    ],
+    "correct": 3,
+    "explain": "Parallel runway capacity is a complex function of how far apart they are (for simultaneous use), the weather (VFR vs IFR), and the precision of the radar/navigation aids."
+  },
+  {
+    "q": "25. The engine failure case for determining the basic runway length may require ............",
+    "options": [
+      "only clearway",
+      "only stopway",
+      "either a clearway or a stopway",
+      "either a clearway or a stopway or both"
+    ],
+    "correct": 3,
+    "explain": "In the event of engine failure, the aircraft may need additional distance to either stop safely (stopway) or continue to climb (clearway). The balanced field concept considers both."
+  },
+  {
+    "q": "26. The minimum width of clearway is ............",
+    "options": [
+      "50 m",
+      "100 m",
+      "150 m",
+      "250 m"
+    ],
+    "correct": 2,
+    "explain": "According to ICAO standards, the clearway should have a minimum width of 150 m, which is usually centered along the extended centerline of the runway."
+  },
+  {
+    "q": "27. If the monthly mean of average daily temperature for the hottest month of the year is 25°C and the monthly mean of the maximum daily temperature of the same month of the year is 46°C, the airport reference temperature is ............",
+    "options": [
+      "32°C",
+      "35.5°C",
+      "48°C",
+      "25°C"
+    ],
+    "correct": 0,
+    "explain": "Airport Reference Temperature $T_a = T_1 + \\frac{T_2 - T_1}{3}$. Here, $25 + \\frac{46 - 25}{3} = 25 + 7 = 32°C$."
+  },
+  {
+    "q": "28. The total length of a runway is 1000 m. The elevation at distance 0, 200 m, 400 m, 600 m, 800 m and 1000 m are 100.0 m, 99.2 m, 101.0 m, 101.8 m, 101.4 m and 101.0 m respectively. The effective gradient of runway will be ............",
+    "options": [
+      "0.10%",
+      "0.26%",
+      "0.43%",
+      "0.65%"
+    ],
+    "correct": 1,
+    "explain": "Effective Gradient is the maximum difference in elevation divided by total length. Max elevation is 101.8m and Min is 99.2m. $(101.8 - 99.2) / 1000 = 0.26\\%$."
+  },
+  {
+    "q": "29. The length of runway under standard conditions is 2500 m. The elevation of airport site is 300 m. Its reference temperature is 33.05°C. If the runway is to be constructed with an effective gradient of 0.25 percent, the corrected runway length will be ............",
+    "options": [
+      "2500 m",
+      "2600 m",
+      "2700 m",
+      "2800 m"
+    ],
+    "correct": 3,
+    "explain": "Corrections are applied sequentially: 1. Elevation (7% per 300m), 2. Temperature (1% per 1°C rise above standard), 3. Gradient (20% per 1% effective gradient). Total calculation leads to 2800m."
+  },
+  {
+    "q": "30. As per I.C.A.O., the minimum basic runway length for A and E type of airport will be ............",
+    "options": [
+      "1500 m and 600 m",
+      "2100 m and 750 m",
+      "1500 m and 750 m",
+      "2100 m and 600 m"
+    ],
+    "correct": 3,
+    "explain": "ICAO classifies 'A' type as >2100m and 'E' type as 600m for basic runway length requirements."
+  },
+  {
+    "q": "31. The cruising speed of the aircraft is 500 kmph. If there a head wind of 50 kmph, then the air speed and ground speed of the aircraft respectively will be ............",
+    "options": [
+      "450 kmph and 500 kmph",
+      "500 kmph and 450 kmph",
+      "450 kmph and 450 kmph",
+      "500 kmph and 500 kmph"
+    ],
+    "correct": 1,
+    "explain": "Air speed is relative to the air (500 kmph). Ground speed = Air speed - Head wind (500 - 50 = 450 kmph)."
+  },
+  {
+    "q": "32. Pick up the correct statement from the following",
+    "options": [
+      "F.I.R. stands for flight information regions",
+      "F.I.C stands for flight information centre",
+      "radius of control area is 160km",
+      "radius of control zone is 40km",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "All provided definitions for Flight Information Regions, Centres, and standard radii for control areas/zones are correct in aviation standards."
+  },
+  {
+    "q": "33. If the visibility of environment is less than 4 KNm then pilot must follow",
+    "options": [
+      "IFR",
+      "VFR",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "When visibility falls below the Visual Flight Rules (VFR) limit, pilots must switch to Instrument Flight Rules (IFR)."
+  },
+  {
+    "q": "34. For determining the basic runway length, the landing case requires that aircraft should come to a stop within p% of the landing distance. The value of p is ............",
+    "options": [
+      "40%",
+      "50%",
+      "60%",
+      "75%"
+    ],
+    "correct": 2,
+    "explain": "Safety regulations require that the aircraft must be able to land and stop within 60% of the available runway length."
+  },
+  {
+    "q": "35. The coordinates of the ends of a runway are (5000, 5000) and (8000, 7000). The co-ordinates of the A.R.P are",
+    "options": [
+      "(6500, 6000)",
+      "(5800, 5200)",
+      "(6150, 5600)",
+      "(8000, 7000)"
+    ],
+    "correct": 0,
+    "explain": "The Airport Reference Point (ARP) is the geometric center. Calculation: (5000+8000)/2 = 6500 and (5000+7000)/2 = 6000."
+  },
+  {
+    "q": "36. The bearing of the longest line of a wind rose is S 45° E. The bearing of the runway will be numbered",
+    "options": [
+      "135°",
+      "315°",
+      "13",
+      "31",
+      "both (c) and (d) of above"
+    ],
+    "correct": 4,
+    "explain": "S 45° E is 135°. The opposite end is 315°. Runway numbers are 135/10 ≈ 13 and 315/10 ≈ 31."
+  },
+  {
+    "q": "37. Runway threshold is indicated by a series of parallel lines starting from a distance of ............",
+    "options": [
+      "3 m from runway end",
+      "6 m from runway end",
+      "10 m from runway end",
+      "15 m from runway end"
+    ],
+    "correct": 1,
+    "explain": "Threshold stripes start 6 meters from the beginning of the runway to indicate the start of the landing area."
+  },
+  {
+    "q": "38. The WCB of the 1st and 2nd end of the runway are 80° and 260° respectively. Find the runway number indicated on the 1st end",
+    "options": [
+      "8",
+      "26",
+      "18",
+      "24"
+    ],
+    "correct": 0,
+    "explain": "The runway number for the 1st end is 80/10 = 8."
+  },
+  {
+    "q": "39. *The bearing of the 1st end of straight runway is 90°. Find the runway number of 1st end",
+    "options": [
+      "3",
+      "9",
+      "18",
+      "27"
+    ],
+    "correct": 1,
+    "explain": "The runway number is 90/10 = 9."
+  },
+  {
+    "q": "40. The airplane of IAR was hijacked from Tribhuvan International Airport in",
+    "options": [
+      "1998",
+      "1999",
+      "2000",
+      "2001"
+    ],
+    "correct": 1,
+    "explain": "Indian Airlines flight IC 814 was hijacked on Dec 24, 1999, after taking off from Kathmandu."
+  },
+  {
+    "q": "41. The maximum number of airports is located in the district",
+    "options": [
+      "kathmandu",
+      "morang",
+      "okhaldhunga",
+      "solukhumbu"
+    ],
+    "correct": 3,
+    "explain": "Solukhumbu district has the highest number of airports in Nepal including Lukla and Phaplu."
+  },
+  {
+    "q": "42. Civil Aviation Authority of Nepal was established in",
+    "options": [
+      "1997",
+      "1998",
+      "1999",
+      "2000"
+    ],
+    "correct": 1,
+    "explain": "CAAN was established as an autonomous body on Dec 31, 1998."
+  },
+  {
+    "q": "43. The number of international airports in Nepal",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 1,
+    "explain": "Nepal recognizes 4 international airports: TIA, GBIA, Pokhara, and Nijgadh (under project)."
+  },
+  {
+    "q": "44. For supersonic transport aircraft, the minimum turning radius of taxiway is ............",
+    "options": [
+      "60 m",
+      "120 m",
+      "180 m",
+      "240 m"
+    ],
+    "correct": 2,
+    "explain": "Supersonic aircraft have longer wheelbases and higher speeds, requiring a larger turning radius of 180m."
+  },
+  {
+    "q": "45. *The width of taxiway is kept about",
+    "options": [
+      "1/3rd of the runway width",
+      "1/4th of the runway width",
+      "1/2 of the runway width",
+      "equal to the runway width"
+    ],
+    "correct": 2,
+    "explain": "Generally, the width of the taxiway is kept roughly 1/2 of the runway width."
+  },
+  {
+    "q": "46. The purposed international airport in Nepal is",
+    "options": [
+      "Biratnagar",
+      "Nijgarh (bara)",
+      "Janakpur",
+      "Pokhara"
+    ],
+    "correct": 1,
+    "explain": "Nijgadh International Airport in Bara is the major proposed international airport."
+  },
+  {
+    "q": "47. The National pride project concerned with airport is",
+    "options": [
+      "Biratnaga",
+      "Simra",
+      "Nijgarh",
+      "Nepalgunj"
+    ],
+    "correct": 2,
+    "explain": "Nijgadh International Airport is a designated National Pride Project of Nepal."
+  },
+  {
+    "q": "48. Lord Ram returned from Lanka to Ayodhya through",
+    "options": [
+      "Indian airlines",
+      "dashrath airlines",
+      "pushp viman",
+      "pushpak viman"
+    ],
+    "correct": 3,
+    "explain": "According to Hindu mythology, the Pushpak Viman was used by Lord Ram."
+  },
+  {
+    "q": "49. As the elevation of airport increases the runway length",
+    "options": [
+      "increases",
+      "decreases",
+      "constant",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Higher elevation means thinner air, which reduces lift, requiring a longer runway for takeoff."
+  },
+  {
+    "q": "50. The slope of the transitional surface for A, B and C type of runway shall be ............",
+    "options": [
+      "1:5",
+      "1:7",
+      "1:10",
+      "1:12"
+    ],
+    "correct": 1,
+    "explain": "Transitional surfaces extend from the edge of the runway strip to the inner horizontal surface. For larger categories (A, B, C), the slope is 1:7."
+  }
+]

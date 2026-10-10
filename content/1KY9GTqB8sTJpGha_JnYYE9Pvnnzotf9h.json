@@ -1,0 +1,552 @@
+[
+  {
+    "q": "101. A dummy activity",
+    "options": [
+      "had no tail event but had only a head event",
+      "had only a head event but no tail event",
+      "does not require any resources or any time",
+      "had no sequence and can be fitted anywhere"
+    ],
+    "correct": 2,
+    "explain": "A dummy activity requires no resources or time and is used to maintain network logic[cite: 1]."
+  },
+  {
+    "q": "102. Critical path is",
+    "options": [
+      "shortest path for the earliest completion of the project",
+      "longest path of the network from the first event to the last event",
+      "ideal path by preceeding along which the project can be completed as per the schedule",
+      "the path which takes into account the completion of all the parallel activities"
+    ],
+    "correct": 2,
+    "explain": "The critical path is defined as the ideal path by preceding along which the project can be completed as per the schedule[cite: 1]."
+  },
+  {
+    "q": "103. The minimum number of critical path in a net work should be",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 1,
+    "explain": "A network must have at least 1 critical path[cite: 1]."
+  },
+  {
+    "q": "104. Critical path network helps the engineer to",
+    "options": [
+      "concentrate his attention on critical activitirs",
+      "divert the different resourced from non-critical activities to critical activities",
+      "be cautious for avoiding any delay in the critical activities",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A critical path network helps concentrate attention, divert resources, and avoid delays in critical activities[cite: 1]."
+  },
+  {
+    "q": "105. In CPM, 'Forward Pass' and 'Backward Pass' are used to calculate .respectively.",
+    "options": [
+      "earliest expected time and latest allowable time",
+      "latest allowable time and earliest expected time",
+      "to check float and slack",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Forward pass calculates the earliest expected time and backward pass calculates the latest allowable time[cite: 1]."
+  },
+  {
+    "q": "106. Float is",
+    "options": [
+      "the earliest time by which an activity may commence",
+      "latest time by which an activity can be delayed without hampering the completion of the project",
+      "latest allowable time-earliest expected time",
+      "time available-time required for an activity"
+    ],
+    "correct": 3,
+    "explain": "Float represents the difference between time available and time required for an activity[cite: 1]."
+  },
+  {
+    "q": "107. Positive float can occur when it is",
+    "options": [
+      "sub-critical activity",
+      "critical activity",
+      "super-critical activity",
+      "normal activity"
+    ],
+    "correct": 0,
+    "explain": "Positive float typically occurs in sub-critical activities[cite: 1]."
+  },
+  {
+    "q": "108. Negative float can occur when it is",
+    "options": [
+      "sub-critical activity",
+      "critical activity",
+      "super-critical activity",
+      "normal activity"
+    ],
+    "correct": 2,
+    "explain": "Negative float occurs when project completion is behind schedule, associated with super-critical activities[cite: 1]."
+  },
+  {
+    "q": "109. Positive slack indicates",
+    "options": [
+      "ahead of schedule condition",
+      "behind the schedule condition",
+      "on schedule condition",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Positive slack indicates an ahead of schedule condition[cite: 1]."
+  },
+  {
+    "q": "110. Negative slack indicates",
+    "options": [
+      "ahead of schedule condition",
+      "behind the schedule condition",
+      "on schedule condition",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Negative slack indicates a behind the schedule condition[cite: 1]."
+  },
+  {
+    "q": "111. The slack for an event i is given by",
+    "options": [
+      "T_L^j - T_L^i",
+      "T_L^j - T_E^i",
+      "T_L^i - T_E^i",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Event slack is given by the difference between latest allowable time and earliest expected time[cite: 1]."
+  },
+  {
+    "q": "112. Variance is",
+    "options": [
+      "Sum of time duration for various job / number of jobs",
+      "difference between the time under consideration and mean time",
+      "mean of squared deviations",
+      "square root of mean of squared deviation"
+    ],
+    "correct": 2,
+    "explain": "Variance is defined statistically as the mean of squared deviations[cite: 1]."
+  },
+  {
+    "q": "113. The estimated time required to complete an activity is termed as",
+    "options": [
+      "event",
+      "duration",
+      "active time",
+      "float"
+    ],
+    "correct": 1,
+    "explain": "The estimated time required to complete an activity is its duration[cite: 1]."
+  },
+  {
+    "q": "114. Free float is mainly used to",
+    "options": [
+      "identify the activities which can be delayed without affecting the total float of preceeding activity",
+      "identify the activities, which can be delayed without affecting the total float of succeeding activity",
+      "establish priorities",
+      "identify the activities which can be delayed without affecting the total float of either the preceeding or succeeding activities"
+    ],
+    "correct": 1,
+    "explain": "Free float identifies activities that can be delayed without affecting the total float of succeeding activities[cite: 1]."
+  },
+  {
+    "q": "115. Whenever activity has zero total float, then",
+    "options": [
+      "free float of the activity must be zero but independent float need not be zero",
+      "independent float must be zero but free float need not be zero",
+      "free float and independent float both must be zero",
+      "free float and independent float both need not be zero"
+    ],
+    "correct": 2,
+    "explain": "When total float is zero, both free float and independent float must also be zero[cite: 1]."
+  },
+  {
+    "q": "116. Total float for any activity is defined as the difference between",
+    "options": [
+      "its latest finish time and earliest start time for its successor activity",
+      "its latest start time and earliest start time",
+      "its latest start time and earliest finish time",
+      "its earliest finish time and earliest start time for its successor activity"
+    ],
+    "correct": 1,
+    "explain": "Total float is the difference between its latest start time and earliest start time[cite: 1]."
+  },
+  {
+    "q": "117. Free float for any activity is defined as the difference between",
+    "options": [
+      "its latest start time and earliest start time for its successor activity",
+      "its latest start time and earliest start time",
+      "its latest finish time and earliest start time for its successor activity",
+      "its earliest finish time and earliest start time for its successor activity"
+    ],
+    "correct": 3,
+    "explain": "Free float is the difference between its earliest finish time and the earliest start time of its successor activity[cite: 1]."
+  },
+  {
+    "q": "118. The time by which a particular activity may be delayed without affecting the preceeding and succeeding activities is known as",
+    "options": [
+      "total float",
+      "free float",
+      "interfering float",
+      "independent float"
+    ],
+    "correct": 3,
+    "explain": "Independent float does not affect preceding or succeeding activities when delayed[cite: 1]."
+  },
+  {
+    "q": "119. Which of the following in a CPM network activity?",
+    "options": [
+      "concrete cured",
+      "walls plastered",
+      "excavation for foundation",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Excavation for foundation represents an ongoing activity requiring time and resources[cite: 1]."
+  },
+  {
+    "q": "120. The square root of the variance is known as",
+    "options": [
+      "deviation",
+      "standard deviation",
+      "mode",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Standard deviation is the square root of the variance[cite: 1]."
+  },
+  {
+    "q": "121. The variance will be zero if",
+    "options": [
+      "each individual deviation is zero",
+      "sum of deviation is zero",
+      "standard deviation is zero",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Variance is zero when each individual deviation from the mean is zero[cite: 1]."
+  },
+  {
+    "q": "122. According to Fulkerson's, the correct event numbers corresponding to event A B C D. E of the network shown in figure",
+    "options": [
+      "1, 2, 3, 4, 5, 6 and 7 respectively",
+      "1, 3, 2, 4, 5, 6 and 7 respectively",
+      "1, 2, 3, 5, 6, 4 and 7 respectively",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Fulkerson's numbering rule assigns event numbers according to standard topological sorting[cite: 1]."
+  },
+  {
+    "q": "123. A fictious activity with zero duration and no cost used to maintain the sequential order of the activities in network is known as a",
+    "options": [
+      "restraint",
+      "dummy activity",
+      "event",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "A dummy activity has zero duration and cost and maintains logical sequencing[cite: 1]."
+  },
+  {
+    "q": "124. Earliest finish time of an activity is always",
+    "options": [
+      "equal to or more than earliest event time of the following node",
+      "equal to or less than earliest event time of the following node",
+      "more than earliest time of the following node",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Earliest finish time is equal to or less than the earliest event time of the following node[cite: 1]."
+  },
+  {
+    "q": "125. Latest start of activity is always",
+    "options": [
+      "less than or equal to latest event time of preceeding node",
+      "more than or equal to latest events time of preceeding node",
+      "equal to latest event time of preceeding node",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Latest start of an activity is more than or equal to the latest event time of the preceding node[cite: 1]."
+  },
+  {
+    "q": "126. Latest start time is the",
+    "options": [
+      "latest time by which an activity can be started without delaying the project",
+      "latest time by which an activity can be completed without delaying the project",
+      "latest time the event can occur",
+      "any of the above"
+    ],
+    "correct": 0,
+    "explain": "Latest start time is the latest time an activity can begin without delaying the overall project[cite: 1]."
+  },
+  {
+    "q": "127. The difference between the total float and the free float is termed as",
+    "options": [
+      "start float",
+      "finish float",
+      "interfering float",
+      "independent float"
+    ],
+    "correct": 2,
+    "explain": "Interfering float is the difference between total float and free float[cite: 1]."
+  },
+  {
+    "q": "128. The independent float affects only",
+    "options": [
+      "preceeding activities",
+      "succeeding activities",
+      "particular activity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Independent float affects only the particular activity in question[cite: 1]."
+  },
+  {
+    "q": "129. The free float affects only",
+    "options": [
+      "preceeding activities",
+      "succeeding activities",
+      "particular activity",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Free float affects preceding activities/successor relationships as per definition[cite: 1]."
+  },
+  {
+    "q": "130. What are essential to draw CPM?",
+    "options": [
+      "resource",
+      "labour requirement",
+      "machine required",
+      "time expenditure"
+    ],
+    "correct": 3,
+    "explain": "Time expenditure (durations) is essential to draw and analyze a CPM network[cite: 1]."
+  },
+  {
+    "q": "131. Critical-path connecting the start and end events time wise is",
+    "options": [
+      "longest path always",
+      "shortest path always",
+      "may be longest path",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The critical path is always the longest path through the network[cite: 1]."
+  },
+  {
+    "q": "132. Critical activities having total float are",
+    "options": [
+      "positive",
+      "negative",
+      "zero",
+      "equal"
+    ],
+    "correct": 2,
+    "explain": "Critical activities have zero total float[cite: 1]."
+  },
+  {
+    "q": "133. The activity which consumes maximum time is called a",
+    "options": [
+      "event",
+      "node",
+      "critical",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "None of the standard terms defines an activity solely by consuming maximum time without context[cite: 1]."
+  },
+  {
+    "q": "134. The figure indicates",
+    "options": [
+      "an event",
+      "activity",
+      "burst",
+      "merge"
+    ],
+    "correct": 3,
+    "explain": "A node with multiple incoming arrows and one outgoing arrow represents a merge event[cite: 1]."
+  },
+  {
+    "q": "135. The figure indicates",
+    "options": [
+      "an event",
+      "activity",
+      "burst",
+      "merge"
+    ],
+    "correct": 2,
+    "explain": "A node with one incoming arrow and multiple outgoing arrows represents a burst event[cite: 1]."
+  },
+  {
+    "q": "136. Completion of an activity on CPM network diagram, is generally known as",
+    "options": [
+      "event",
+      "node",
+      "connector",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Completion of an activity is represented by an event, node, or connector[cite: 1]."
+  },
+  {
+    "q": "137. Free float is the",
+    "options": [
+      "portion of independent float",
+      "portion of positive total float",
+      "portion of interfering float",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Free float is a portion of the positive total float[cite: 1]."
+  },
+  {
+    "q": "138. When all the paths are arranged according to the descending order of the float, the path which is next to the critical path is known as",
+    "options": [
+      "under-critical path",
+      "sub-critical path",
+      "semi-critical path",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Various terms like under-critical, sub-critical, and semi-critical paths are used for paths next to the critical path[cite: 1]."
+  },
+  {
+    "q": "139. In CPM",
+    "options": [
+      "time optimization is given prime importance",
+      "cost optimization is given prime importance",
+      "cost is directly proportional to time",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "CPM primarily focuses on cost optimization through time-cost trade-offs[cite: 1]."
+  },
+  {
+    "q": "140. Which method is known as minimum cost or maximum time schedule method",
+    "options": [
+      "PERT",
+      "CPM",
+      "bar chart",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "CPM is known as the minimum cost or maximum time schedule method[cite: 1]."
+  },
+  {
+    "q": "141. Critical path",
+    "options": [
+      "in the shortest path",
+      "bad black",
+      "has the maximum slack",
+      "has the minimum slack"
+    ],
+    "correct": 3,
+    "explain": "The critical path has the minimum slack (zero slack)[cite: 1]."
+  },
+  {
+    "q": "142. t^{ij} and t_E^{ij} indicates the time required for completion of an activity in CPM and PERT respectively. Here the subscript E stands for",
+    "options": [
+      "uncertainity factor concerned with PERT",
+      "certainity factor concerned with PERT",
+      "certainity factor concerned with CPM",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "In PERT, subscript E denotes the expected time accounting for uncertainty[cite: 1]."
+  },
+  {
+    "q": "143. Which of the following does not represent an activity?",
+    "options": [
+      "site located",
+      "foundation is being dug",
+      "the office area is being cleaned",
+      "the invitations are being sent"
+    ],
+    "correct": 0,
+    "explain": "'Site located' is an event (past tense, completed milestone), not an active process/activity[cite: 1]."
+  },
+  {
+    "q": "144. Critical path is",
+    "options": [
+      "always longest",
+      "always shortest",
+      "may be longest",
+      "may be shortest"
+    ],
+    "correct": 0,
+    "explain": "The critical path is always the longest path through the network[cite: 1]."
+  },
+  {
+    "q": "145. For completion of a project, the CPM of the network represents",
+    "options": [
+      "minimum time",
+      "maximum time",
+      "maximum cost",
+      "optimum cost"
+    ],
+    "correct": 1,
+    "explain": "The critical path duration represents the maximum time path for project completion[cite: 1]."
+  },
+  {
+    "q": "146. In a CPM/PERT network, the number of event is",
+    "options": [
+      "less than number of activity",
+      "more than the number of activity",
+      "equal to the number of activity",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Depending on network configuration, event counts relative to activities can vary, making 'all of the above' a valid general option in this textbook context[cite: 1]."
+  },
+  {
+    "q": "147. Economic saving of time is obtained by crashing",
+    "options": [
+      "cheapest critical activity",
+      "cheapest non-critical activity",
+      "costliest critical activity",
+      "costliest non-critical activity"
+    ],
+    "correct": 0,
+    "explain": "Crashing the cheapest critical activity yields economical time savings[cite: 1]."
+  },
+  {
+    "q": "148. Crash project duration is obtained by adding the",
+    "options": [
+      "crash durations for all the activities",
+      "normal duration for all the activities",
+      "normal duration for all the activities along the critical path",
+      "crash durations for all the activities along the critical path"
+    ],
+    "correct": 3,
+    "explain": "Crash project duration is the sum of crash durations of activities along the critical path[cite: 1]."
+  },
+  {
+    "q": "149. Crashing is",
+    "options": [
+      "reduction in duration",
+      "reduction in resource",
+      "reduction in cost",
+      "reduction in project size"
+    ],
+    "correct": 0,
+    "explain": "Crashing is the process of reducing project or activity duration[cite: 1]."
+  },
+  {
+    "q": "150. At an event other than final event if no activity emerges it results in an error called",
+    "options": [
+      "looping",
+      "dangling",
+      "interfacing",
+      "splicing"
+    ],
+    "correct": 1,
+    "explain": "An intermediate event with no emerging activity causes a dangling error[cite: 1]."
+  }
+]

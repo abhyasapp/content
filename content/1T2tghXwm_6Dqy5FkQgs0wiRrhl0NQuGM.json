@@ -1,0 +1,838 @@
+[
+  {
+    "q": "75. Free float is the",
+    "options": [
+      "portion of independent float",
+      "portion of positive total float",
+      "portion of interfering float",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Free float is defined as the amount of time an activity can be delayed without affecting the earliest start time of any succeeding activities. It is a portion of the total float that remains positive."
+  },
+  {
+    "q": "76. When all the paths are arranged according to the descending order of the float, the path which is next to the critical path is known as",
+    "options": [
+      "under-critical path",
+      "sub-critical path",
+      "semi-critical path",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "The path with the second-lowest amount of float (next to the critical path, which has zero float) is technically referred to in this context as the semi-critical path."
+  },
+  {
+    "q": "77. In CPM",
+    "options": [
+      "time optimization is given prime importance",
+      "cost optimization is given prime importance",
+      "cost is directly proportional to time",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Unlike PERT (which is probabilistic and time-oriented), CPM is deterministic and focuses heavily on the trade-off between time and cost, prioritizing cost optimization."
+  },
+  {
+    "q": "78. Which method is known as minimum cost or maximum time schedule method",
+    "options": [
+      "PERT",
+      "CPM",
+      "bar chart",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "CPM (Critical Path Method) is designed to find the schedule that minimizes total project cost by balancing direct and indirect costs over time."
+  },
+  {
+    "q": "79. Critical path",
+    "options": [
+      "in the shortest path",
+      "bad black",
+      "has the maximum slack",
+      "has the minimum slack"
+    ],
+    "correct": 3,
+    "explain": "The critical path is the longest path through the network; therefore, it contains the activities with the least amount of flexibility or 'minimum slack' (usually zero)."
+  },
+  {
+    "q": "80. Critical path is",
+    "options": [
+      "always longest",
+      "always shortest",
+      "may be longest",
+      "may be shortest"
+    ],
+    "correct": 0,
+    "explain": "By definition, the critical path is the sequence of activities that takes the longest time to complete, determining the shortest possible project duration."
+  },
+  {
+    "q": "81. For completion of a project, the CPM of the network represents",
+    "options": [
+      "minimum time",
+      "maximum time",
+      "maximum cost",
+      "optimum cost"
+    ],
+    "correct": 0,
+    "explain": "The Critical Path Method identifies the minimum time required to complete the entire project based on the sequence of dependent tasks."
+  },
+  {
+    "q": "82. The time below witch the duration can not be further reduced is known as",
+    "options": [
+      "normal time",
+      "crash time",
+      "optimistic time",
+      "standard time"
+    ],
+    "correct": 1,
+    "explain": "Crash time is the absolute minimum time in which an activity can be completed by employing additional resources, regardless of cost."
+  },
+  {
+    "q": "83. The cost corresponding to crash time is",
+    "options": [
+      "direct cost is maximum",
+      "indirect cost is minimum",
+      "total cost may be maximum",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Crashing involves increasing resources to save time, which maximizes direct costs. Because the duration is shortest, indirect costs are minimized, but the total cost often peaks."
+  },
+  {
+    "q": "84. The cost corresponding to the completion of activity within normal time is",
+    "options": [
+      "direct cost",
+      "indirect cost",
+      "activity cost",
+      "normal cost"
+    ],
+    "correct": 3,
+    "explain": "Normal cost is the expenditure associated with completing an activity in its 'normal time' using standard resources and methods."
+  },
+  {
+    "q": "85. The direct cost of a project with respect to normal time is",
+    "options": [
+      "maximum",
+      "minimum",
+      "zero",
+      "infinite"
+    ],
+    "correct": 1,
+    "explain": "In the time-cost relationship, direct cost is at its lowest (minimum) when the project is executed at a normal, non-accelerated pace."
+  },
+  {
+    "q": "86. The reduction in project time normally results in",
+    "options": [
+      "decreasing the direct cost and increasing indirect cost",
+      "increasing the direct cost and decreasing the indirect cost",
+      "increasing the direct cost and indirect cost both",
+      "decreasing the direct cost and indirect cost both"
+    ],
+    "correct": 1,
+    "explain": "Reducing time (crashing) requires more labor/equipment (increasing direct cost) but reduces the time-dependent overheads like rent or utilities (decreasing indirect cost)."
+  },
+  {
+    "q": "87. The total cost verses time curve of an activity is",
+    "options": [
+      "a straight line",
+      "a parabola",
+      "U shaped curve",
+      "∩ shaped curve"
+    ],
+    "correct": 1,
+    "explain": "The total cost curve is generally represented as a parabola or U-shaped because it is the summation of a decreasing indirect cost and an increasing direct cost curve."
+  },
+  {
+    "q": "88. Assuming that the cost varies with time, the cost – slope is defined as",
+    "options": [
+      "(crash cost - normal cost) / crash time",
+      "(crash cost - normal cost) / normal time",
+      "(crash cost - normal cost) / (normal time - crash time)",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Cost slope represents the increase in cost per unit of time saved. It is calculated as the change in cost divided by the change in time."
+  },
+  {
+    "q": "89. Direct cost of a project is due to",
+    "options": [
+      "establishment charges as salaries to administrative staff",
+      "loss gain of revenue",
+      "penalty imposed",
+      "cost of materials and wages of labor"
+    ],
+    "correct": 3,
+    "explain": "Direct costs are those that can be attributed directly to a specific activity, such as the physical materials used and the wages of the workers performing the task."
+  },
+  {
+    "q": "90. Indirect cost of the project",
+    "options": [
+      "decreases with duration",
+      "decreases up to optimum duration and then increase with duration",
+      "increase with duration",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Indirect costs are time-dependent expenses (overheads); the longer the project lasts, the more these costs accumulate."
+  },
+  {
+    "q": "91. Total project cost",
+    "options": [
+      "increases with time",
+      "decreases with time",
+      "initially reduces with time and then increases with further increases",
+      "constant"
+    ],
+    "correct": 2,
+    "explain": "Total cost is the sum of direct and indirect costs. It typically decreases as duration increases toward the 'optimum' point, then starts to rise again as indirect costs dominate."
+  },
+  {
+    "q": "92. The reduction in project time normally results in",
+    "options": [
+      "decreasing the direct cost and increasing indirect cost",
+      "increasing the direct cost and decreasing the indirect cost",
+      "increasing the direct cost and indirect cost both",
+      "decreasing the direct cost and indirect cost both"
+    ],
+    "correct": 1,
+    "explain": "As previously noted, reducing project time involves crashing (higher direct costs) while saving on time-based overheads (lower indirect costs)."
+  },
+  {
+    "q": "93. In a time-cost optimization using CPM the crashing of the activities along the critical path is done starting with the activity having",
+    "options": [
+      "highest cost slope",
+      "least cost slope",
+      "crashing has no relation with cost slope",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "To reduce project duration most economically, we crash the critical activity that has the lowest cost slope (cheapest to crash first)."
+  },
+  {
+    "q": "94. The amount of time required performing any event in case of PERT should be ................... CPM.",
+    "options": [
+      "less than",
+      "greater than",
+      "equal to",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Because PERT deals with uncertain/probabilistic time estimates and CPM uses deterministic ones, the actual time required can vary based on the nature of the project."
+  },
+  {
+    "q": "95. PERT technique of network analysis is useful for",
+    "options": [
+      "small project",
+      "large project",
+      "research and development project",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "PERT is ideally suited for Research and Development projects where the duration of activities is uncertain and has not been performed before."
+  },
+  {
+    "q": "96. An event is",
+    "options": [
+      "a definite job",
+      "a definite time interval",
+      "the terminals of an activity",
+      "a definite position of an activity"
+    ],
+    "correct": 2,
+    "explain": "An event represents a point in time (the start or end of an activity) and does not consume time or resources itself; it marks the terminals."
+  },
+  {
+    "q": "97. PERT means",
+    "options": [
+      "programme evaluation and review technique",
+      "pertinent programming related to a project",
+      "performance evaluation, rating and timing",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "PERT is the standard acronym for Program Evaluation and Review Technique."
+  },
+  {
+    "q": "98. PERT is",
+    "options": [
+      "activity oriented",
+      "event oriented",
+      "time oriented",
+      "resources oriented"
+    ],
+    "correct": 1,
+    "explain": "PERT focuses on milestones or 'events' (reaching a specific stage), whereas CPM focuses on the 'activities' or tasks themselves."
+  },
+  {
+    "q": "99. 'Wait' in PERT, belongs to the category of",
+    "options": [
+      "activity",
+      "node",
+      "event",
+      "motion"
+    ],
+    "correct": 0,
+    "explain": "In the context of network analysis, waiting is considered a 'dummy activity' or an activity because it consumes time, even if it doesn't consume physical resources."
+  },
+  {
+    "q": "100. In PERT technique, completion of an activity is called",
+    "options": [
+      "head activity",
+      "head event",
+      "tail activity",
+      "tail event"
+    ],
+    "correct": 1,
+    "explain": "The event at the end (arrowhead) of an activity is known as the head event, signifying the completion of that activity."
+  },
+  {
+    "q": "101. The time corresponding to minimum total project cost is",
+    "options": [
+      "normal time",
+      "crash time",
+      "optimistic time",
+      "between normal and crash time"
+    ],
+    "correct": 2,
+    "explain": "In time-cost optimization, the 'optimum duration' (which minimizes total cost) usually falls between the crash time and normal time, often aligning with the optimistic perspective of cost-efficiency."
+  },
+  {
+    "q": "102. The time with which direct cost does not reduce with the increase in time is known as",
+    "options": [
+      "normal time",
+      "crash time",
+      "optimistic time",
+      "standard time"
+    ],
+    "correct": 0,
+    "explain": "Normal time is the duration beyond which increasing time further does not lead to any further reduction in direct costs."
+  },
+  {
+    "q": "103. The benefit of the PERT network is taken by the management in",
+    "options": [
+      "formulating a new schedule",
+      "coordinating various tasks",
+      "readjusting the time to meet the target",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "PERT provides a comprehensive framework for scheduling, inter-departmental coordination, and dynamic readjustment based on probability."
+  },
+  {
+    "q": "104. Which of the following time estimate is related to PERT?",
+    "options": [
+      "most likely time estimate",
+      "pessimistic time estimate",
+      "optimistic time estimate",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "PERT uses a 'three-time estimate' approach (Optimistic, Pessimistic, and Most Likely) to account for uncertainty."
+  },
+  {
+    "q": "105. The event which act as head as well as tail for different activities is, called",
+    "options": [
+      "tail event",
+      "head event",
+      "dual role event",
+      "common event"
+    ],
+    "correct": 2,
+    "explain": "An internal node in a network that marks the finish of one activity and the start of another is a dual role event."
+  },
+  {
+    "q": "106. If for an activity optimistic time is 1 day, pessimistic time is 11 days and most likely time is 3 days then the expected time is",
+    "options": [
+      "3 days",
+      "4 days",
+      "5 days",
+      "6 days"
+    ],
+    "correct": 1,
+    "explain": "Using the PERT formula $t_e = (t_o + 4t_m + t_p) / 6$: $(1 + 4(3) + 11) / 6 = 24 / 6 = 4$ days."
+  },
+  {
+    "q": "107. Of the following, the PERT event is",
+    "options": [
+      "fixing of doors",
+      "plastering of walls",
+      "concrete cured",
+      "selection of sites"
+    ],
+    "correct": 2,
+    "explain": "Events are instantaneous milestones. 'Concrete cured' signifies a finished state (event), whereas the others are ongoing processes (activities)."
+  },
+  {
+    "q": "108. PERT analysis is based on",
+    "options": [
+      "optimistic time",
+      "pessimistic time",
+      "most likely time",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "PERT analysis relies on all three time estimates to calculate the expected mean time."
+  },
+  {
+    "q": "109. In PERT analysis, the start and end of event is represented by",
+    "options": [
+      "activity",
+      "node",
+      "task",
+      "work"
+    ],
+    "correct": 1,
+    "explain": "Events are graphically represented as circles or rectangles, commonly referred to as nodes in a network diagram."
+  },
+  {
+    "q": "110. The probability of completion of any activity within its expected time in PERT is",
+    "options": [
+      "0%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correct": 1,
+    "explain": "The expected time ($t_e$) in a normal distribution represents the 50% probability mark (the mean)."
+  },
+  {
+    "q": "111. If the probability factor is zero, the chances of completing the project in scheduled time are",
+    "options": [
+      "0%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correct": 1,
+    "explain": "A probability factor (Z-score) of zero means the scheduled time equals the expected time, resulting in a 50% chance of success."
+  },
+  {
+    "q": "112. You are going to design a new computer programme, which would you like to prefer?",
+    "options": [
+      "bar chart",
+      "milestone chart",
+      "CPM",
+      "PERT"
+    ],
+    "correct": 3,
+    "explain": "Software development involves high uncertainty in task durations, making the probabilistic PERT method more suitable than deterministic CPM."
+  },
+  {
+    "q": "113. Bar chart is used for minor project, CPM is used for repetitive work while PERT is used for",
+    "options": [
+      "repetitive type of work",
+      "limited time and unlimited resources types of work",
+      "uncertainty time and resources types of work",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "PERT is specifically designed for non-repetitive projects where time and resource requirements are uncertain."
+  },
+  {
+    "q": "114. Standard deviation when the optimistic time is 1 day, pessimistic time is 11 days and most likely time is 3 days",
+    "options": [
+      "2 days",
+      "3.5 days",
+      "3 days",
+      "1.67 days"
+    ],
+    "correct": 3,
+    "explain": "Standard deviation ($\\sigma$) = $(t_p - t_o) / 6$. Here, $(11 - 1) / 6 = 10 / 6 = 1.67$ days."
+  },
+  {
+    "q": "115. In PERT analysis the actual performance of task is known as",
+    "options": [
+      "activity",
+      "event",
+      "task",
+      "work"
+    ],
+    "correct": 0,
+    "explain": "The actual work or performance required to progress from one event to another is termed an activity."
+  },
+  {
+    "q": "116. Line of balance technique is used for",
+    "options": [
+      "planning of an project",
+      "planning of an activity",
+      "planning of an event",
+      "comparison of actual progress with the scheduled progress"
+    ],
+    "correct": 3,
+    "explain": "Line of Balance (LOB) is a management control process used for highly repetitive projects to compare actual progress against the plan."
+  },
+  {
+    "q": "117. In PERT, optimistic time in which any activity can possibly be accomplished",
+    "options": [
+      "the minimum time in which any activity can possibly be accomplished",
+      "the maximum time which an activity might require",
+      "the time which has the highest probability of occurrence",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Optimistic time ($t_o$) assumes everything goes perfectly, representing the minimum possible duration."
+  },
+  {
+    "q": "118. In PERT, pessimistic time is",
+    "options": [
+      "the minimum time in which any activity can possibly be accomplished",
+      "the maximum time which an activity might require",
+      "the time which has the highest probability of occurrence",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Pessimistic time ($t_p$) assumes everything goes wrong (excluding major disasters), representing the maximum duration."
+  },
+  {
+    "q": "119. In PERT, the most likely time is",
+    "options": [
+      "the minimum time in which any activity can possibly be accomplished",
+      "the maximum time which an activity might require",
+      "the time which has the highest probability of occurrence",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The most likely time ($t_m$) is the duration that would occur most frequently if the activity were repeated many times."
+  },
+  {
+    "q": "120. If a is the optimistic time, b is the pessimistic time and m is the most likely time, then the average time is equal to",
+    "options": [
+      "(a + b + m) / 6",
+      "(a + 2b + m) / 6",
+      "(a + 2b + 4m) / 6",
+      "(a + 4m + b) / 6"
+    ],
+    "correct": 3,
+    "explain": "The weighted average (expected time) in PERT is calculated using the formula $(a + 4m + b) / 6$."
+  },
+  {
+    "q": "121. In PERT analysis, the time estimates of activities and probability of their occurrence follow",
+    "options": [
+      "normal distribution curve",
+      "beta distribution curve",
+      "poissons distribution curve",
+      "binominal distribution curve"
+    ],
+    "correct": 1,
+    "explain": "Individual activity durations in PERT are assumed to follow a Beta distribution."
+  },
+  {
+    "q": "122. Negative slack occurs",
+    "options": [
+      "when latest allowable time is greater than earliest expected time",
+      "when events stick to their schedule",
+      "when deficiency of resources exist",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Negative slack indicates the project is behind schedule, often caused by resource shortages or delays."
+  },
+  {
+    "q": "123. A stage or point where all previous jobs merging in it are completed and all further jobs bursting out are still to be completed is known as a",
+    "options": [
+      "activity",
+      "event",
+      "duration",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "This describes a node in the network, which is technically an event."
+  },
+  {
+    "q": "124. The latest allowable time for any event i is equal to",
+    "options": [
+      "minimum of (TLj - tEij)",
+      "maximum (TLj - tEij)",
+      "TLj - tEij",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "To ensure no following activities are delayed, the latest allowable time is the minimum of the late finishes of succeeding activities minus their durations."
+  },
+  {
+    "q": "125. SLACK time refers to an",
+    "options": [
+      "event",
+      "activity",
+      "both",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Slack is specifically associated with events (the difference between $T_L$ and $T_E$), while 'float' is associated with activities."
+  },
+  {
+    "q": "126. The minimum number of years required to complete any research project may be",
+    "options": [
+      "one year",
+      "two year",
+      "three year",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "Research projects have variable timelines depending on complexity and findings."
+  },
+  {
+    "q": "127. An event is indicated on the network by a number enclosed in",
+    "options": [
+      "a circle",
+      "square",
+      "a triangle",
+      "an ellipse",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "While circles are standard, various shapes like squares or ellipses can be used to represent nodes in different conventions."
+  },
+  {
+    "q": "128. Slack time in PERT analysis",
+    "options": [
+      "can never be greater than zero",
+      "is always zero for critical activities",
+      "can never be less than zero",
+      "is minimum for critical events"
+    ],
+    "correct": 3,
+    "explain": "Critical events are those on the path with the least amount of slack (zero or negative)."
+  },
+  {
+    "q": "129. The area under the beta-curve is divided into two equal parts by",
+    "options": [
+      "expected time",
+      "optimistic time",
+      "pessimistic time",
+      "most likely time"
+    ],
+    "correct": 0,
+    "explain": "The expected time ($t_e$) is the mean of the distribution, which bisects the area under the probability curve."
+  },
+  {
+    "q": "130. For a beta-distribution curve, if t0 is the optimistic time and tp the pessimistic time then the standard deviation will be equal to",
+    "options": [
+      "(tp - t0) / 2",
+      "(tp - t0) / 4",
+      "(tp - t0) / 6",
+      "(tp - t0) / 8"
+    ],
+    "correct": 2,
+    "explain": "The standard deviation is defined as one-sixth of the range between pessimistic and optimistic times."
+  },
+  {
+    "q": "131. For a curve, larger the variance",
+    "options": [
+      "greater will be the uncertainty",
+      "smaller will be the uncertainty",
+      "not related with the uncertainty",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Variance is a measure of spread; a higher variance means the actual time could deviate significantly from the mean, increasing uncertainty."
+  },
+  {
+    "q": "132. If an activity has its optimistic, most likely and pessimistic time are 2, 4 & 6 respectively, then its expected time and variance are respectively",
+    "options": [
+      "4 and 2/3",
+      "4 and 4/9",
+      "5 and 4/9",
+      "5 and 2/3"
+    ],
+    "correct": 1,
+    "explain": "Expected time: $(2 + 4(4) + 6) / 6 = 24 / 6 = 4$. Variance: $((6 - 2) / 6)^2 = (4/6)^2 = (2/3)^2 = 4/9$."
+  },
+  {
+    "q": "133. tij and tEij indicates the time required for completion of an activity in CPM and PERT respectively. Here the subscript E stands for",
+    "options": [
+      "uncertainty factor concerned with PERT",
+      "certainty factor concerned with PERT",
+      "certainty factor concerned with CPM",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The 'E' in $t_E$ stands for 'Expected' time, which incorporates the uncertainty inherent in PERT."
+  },
+  {
+    "q": "134. Which of the following does not represent an activity?",
+    "options": [
+      "site located",
+      "foundation is being dug",
+      "the office area is being cleaned",
+      "the invitations are being sent"
+    ],
+    "correct": 0,
+    "explain": "'Site located' is a completed state or milestone (event), not a process that consumes time."
+  },
+  {
+    "q": "135. In a CPM/PERT network, the number of event is",
+    "options": [
+      "less than number of activity",
+      "more than the number of activity",
+      "equal to the number of activity",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The relationship between the number of events and activities depends entirely on the network topology and the use of dummy activities."
+  },
+  {
+    "q": "136. The technique used for the management and development of Polaris Missile in American Navy Force is",
+    "options": [
+      "CPM",
+      "PERT",
+      "MART",
+      "ZOPP"
+    ],
+    "correct": 1,
+    "explain": "PERT was famously developed by the US Navy in the late 1950s specifically for the Polaris missile project."
+  },
+  {
+    "q": "137. Positive slack indicates",
+    "options": [
+      "ahead of schedule condition",
+      "behind the schedule condition",
+      "on schedule condition",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Positive slack means there is extra time available, implying the project or event is ahead of its required deadline."
+  },
+  {
+    "q": "138. Negative slack indicates",
+    "options": [
+      "ahead of schedule condition",
+      "behind the schedule condition",
+      "on schedule condition",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Negative slack means the earliest expected time is later than the latest allowable time, indicating a delay."
+  },
+  {
+    "q": "139. The slack for an event i is given by",
+    "options": [
+      "TLj - TLi",
+      "TLj - TEi",
+      "TLi - TEi"
+    ],
+    "correct": 2,
+    "explain": "Slack for an event is calculated as the Latest Allowable occurrence time ($T_L$) minus the Earliest Expected occurrence time ($T_E$)."
+  },
+  {
+    "q": "140. Variance is",
+    "options": [
+      "Sum of time duration / number of jobs",
+      "difference between time and mean time",
+      "mean of squared deviations",
+      "square root of mean of squared deviation"
+    ],
+    "correct": 2,
+    "explain": "Mathematically, variance is the average of the squared differences from the mean."
+  },
+  {
+    "q": "141. The square root of the variance is known as",
+    "options": [
+      "deviation",
+      "standard deviation",
+      "mode",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "By definition, the standard deviation is the square root of the variance."
+  },
+  {
+    "q": "142. The variance will be zero if",
+    "options": [
+      "each individual deviation is zero",
+      "sum of deviation is zero",
+      "standard deviation is zero",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Variance is only zero if all data points (durations) are exactly equal to the mean."
+  },
+  {
+    "q": "143. The chart which gives an estimate about the amount of materials handling between various work stations is known as :",
+    "options": [
+      "operation chart",
+      "flow chart",
+      "process chart",
+      "travel chart"
+    ],
+    "correct": 3,
+    "explain": "A travel chart is used to analyze the movement of materials and personnel between different locations."
+  },
+  {
+    "q": "144. One of the tools for monitoring and evaluation of projects is :",
+    "options": [
+      "progressive approach",
+      "target seeking approach",
+      "goal seeking approach",
+      "logical framework approach"
+    ],
+    "correct": 3,
+    "explain": "The Logical Framework Approach (LFA) is a standard methodology for planning and evaluating project progress."
+  },
+  {
+    "q": "145. Crashing is",
+    "options": [
+      "reduction in duration",
+      "reduction in resource",
+      "reduction in cost",
+      "reduction in project size"
+    ],
+    "correct": 0,
+    "explain": "Crashing is the process of shortening the duration of project activities by adding resources."
+  },
+  {
+    "q": "146. Economic saving of time is obtained by crashing",
+    "options": [
+      "cheapest critical activity",
+      "cheapest non-critical activity",
+      "costliest critical activity",
+      "costliest non-critical activity"
+    ],
+    "correct": 0,
+    "explain": "Crashing the critical activity with the lowest cost slope provides the most cost-effective time reduction."
+  },
+  {
+    "q": "147. Crash project duration is obtained by adding the",
+    "options": [
+      "crash durations for all the activities",
+      "normal duration for all the activities",
+      "normal duration for all the activities along the critical path",
+      "crash durations for all the activities along the critical path"
+    ],
+    "correct": 3,
+    "explain": "The total crashed duration is the sum of the crash times of all activities forming the critical path."
+  },
+  {
+    "q": "148. At an event other than final event if no activity emerges it results in an error called",
+    "options": [
+      "looping",
+      "dangling",
+      "interfacing",
+      "splicing"
+    ],
+    "correct": 1,
+    "explain": "Dangling occurs when an activity is disconnected from the network flow, ending at a node that isn't the final project event."
+  },
+  {
+    "q": "149. Earned value analysis is used for comparing----------- of the project",
+    "options": [
+      "actual time with planned time",
+      "actual cost with planned cost",
+      "actual progress with planned progress",
+      "technical with planned progress"
+    ],
+    "correct": 2,
+    "explain": "Earned Value Management (EVM) measures project performance by comparing actual work done against the baseline plan."
+  },
+  {
+    "q": "150. A frequency distribution curve",
+    "options": [
+      "having single lump is called unimodal curve",
+      "if symmetrical is called normal curve",
+      "if unsymmetrical is called skew curve",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "These are standard statistical terms describing the shape and symmetry of frequency distributions."
+  }
+]

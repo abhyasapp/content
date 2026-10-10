@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. When a bar of length l, width b and thickness t is subjected to a push of P, its",
+    "options": [
+      "length, width and thickness increases",
+      "length, width and thickness decreases",
+      "length increases, width and thickness decreases",
+      "length decreases, width and thickness increases"
+    ],
+    "correct": 3,
+    "explain": "Under a compressive push, the bar shortens (length decreases) and expands laterally (width and thickness increase)."
+  },
+  {
+    "q": "2. The volumetric strain is the ratio of the",
+    "options": [
+      "original thickness to the change in thickness",
+      "change in thickness to the original thickness",
+      "original volume to the change in volume",
+      "change in volume to the original volume"
+    ],
+    "correct": 3,
+    "explain": "Volumetric strain measures the overall deformation of a body in terms of volume change relative to its initial state."
+  },
+  {
+    "q": "3. When a body is subjected to three mutually perpendicular stresses, of equal intensity, the ratio of direct stress to the corresponding volumetric strain is",
+    "options": [
+      "Young's modulus",
+      "Modulus of rigidity",
+      "Bulk modulus",
+      "Poisson's ratio"
+    ],
+    "correct": 2,
+    "explain": "Bulk Modulus (K) is the ratio of direct stress to volumetric strain when a body is subjected to equal stresses in all three directions."
+  },
+  {
+    "q": "4. The ratio of bulk modulus to Young's modulus for a Poisson's ratio of 0.25 will be",
+    "options": [
+      "1/3",
+      "2/3",
+      "1",
+      "3/2"
+    ],
+    "correct": 1,
+    "explain": "Using the relation E = 3K(1 - 2μ). If μ = 0.25, then E = 3K(1 - 0.5) = 1.5K. Therefore, K/E = 1/1.5 = 2/3."
+  },
+  {
+    "q": "5. The ratio of shear modulus to the modulus of elasticity for a Poisson's ratio of 0.4 will be",
+    "options": [
+      "5/7",
+      "7/5",
+      "5/14",
+      "14/5"
+    ],
+    "correct": 2,
+    "explain": "Using the relation E = 2G(1 + μ). If μ = 0.4, then E = 2G(1.4) = 2.8G. Therefore, G/E = 1/2.8 = 5/14."
+  },
+  {
+    "q": "6. The Young's modulus of a material is 125 GPa and Poisson's ratio 0.25. The modulus of rigidity of the material is",
+    "options": [
+      "30 GPa",
+      "50 GPa",
+      "80 GPa",
+      "100 GPa"
+    ],
+    "correct": 1,
+    "explain": "Using G = E / [2(1 + μ)]. G = 125 / [2(1 + 0.25)] = 125 / 2.5 = 50 GPa."
+  },
+  {
+    "q": "7. Within elastic limit, shear stress is ___________ shear strain.",
+    "options": [
+      "equal to",
+      "less than",
+      "directly proportional to",
+      "inversely proportional to"
+    ],
+    "correct": 2,
+    "explain": "According to Hooke's Law for shear, shear stress is directly proportional to shear strain within the elastic limit."
+  },
+  {
+    "q": "8. Shear modulus is the ratio of",
+    "options": [
+      "linear stress to linear strain",
+      "linear stress to lateral strain",
+      "volumetric strain to linear strain",
+      "shear stress to shear strain"
+    ],
+    "correct": 3,
+    "explain": "Shear Modulus (or Modulus of Rigidity, G) is defined as the ratio of shear stress to shear strain."
+  },
+  {
+    "q": "9. A localized compressive stress at the area of contact between two members is known as",
+    "options": [
+      "tensile stress",
+      "bending stress",
+      "crushing stress",
+      "shear stress"
+    ],
+    "correct": 2,
+    "explain": "Crushing stress (or bearing stress) is the localized compressive stress at the surface of contact between two relative parts."
+  },
+  {
+    "q": "10. In a bar of large length when held vertically, its own weight produces additional stress. The maximum stress will be",
+    "options": [
+      "at the lower cross-section",
+      "at the built-in upper cross-section",
+      "at the central cross-section",
+      "at every point of the bar"
+    ],
+    "correct": 1,
+    "explain": "The top cross-section must support the weight of the entire bar below it, making the stress maximum at the support."
+  },
+  {
+    "q": "11. If the stress produced by a prismatic bar is equal to the working stress, the area of the cross-section becomes",
+    "options": [
+      "zero",
+      "infinite",
+      "maximum",
+      "minimum"
+    ],
+    "correct": 1,
+    "explain": "This refers to the theoretical 'limit of length' for a bar under its own weight; if the self-weight stress equals the allowed stress, any increase in length would require an infinite area to maintain that stress level."
+  },
+  {
+    "q": "12. The ratio of elongations of a conical bar due to its own weight and that of a prismatic bar of the same length, is",
+    "options": [
+      "1/3",
+      "1/2",
+      "1/4",
+      "1/5"
+    ],
+    "correct": 0,
+    "explain": "Elongation of prismatic bar = γL²/2E. Elongation of conical bar = γL²/6E. The ratio is (1/6) / (1/2) = 1/3."
+  },
+  {
+    "q": "13. If all the dimensions of a bar are increased in the proportion n:1, the proportion of maximum stress will increase in the ratio",
+    "options": [
+      "1:n",
+      "n:1",
+      "1:1/n",
+      "1/n:1"
+    ],
+    "correct": 1,
+    "explain": "Stress due to self-weight is σ = γL. If all dimensions increase by n, the new length is nL, so stress becomes n(γL), a ratio of n:1."
+  },
+  {
+    "q": "14. If the stress in each cross-section of a pillar is equal to its working stress, it is called",
+    "options": [
+      "body of equal",
+      "body of equal section",
+      "body of equal strength",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A body of equal strength is designed so that the stress is constant at all sections, usually by varying the cross-sectional area."
+  },
+  {
+    "q": "15. A member with cross-section A mm² is subjected to a force P N. It is L mm long. The linear strain will be",
+    "options": [
+      "PL/AE N/mm",
+      "PA/LE N/mm²",
+      "P/AE mm/mm",
+      "AP/LE mm/mm"
+    ],
+    "correct": 2,
+    "explain": "Stress σ = P/A. Strain ε = σ/E = P/(AE). Strain is dimensionless (mm/mm)."
+  },
+  {
+    "q": "16. Young's Modulus is the ratio of the normal stress to the",
+    "options": [
+      "normal strain within elastic limit",
+      "reciprocal of normal strain",
+      "normal strain within proportional limit",
+      "normal strain at valid point"
+    ],
+    "correct": 2,
+    "explain": "By definition, Young's Modulus is the constant of proportionality between normal stress and normal strain within the limit of proportionality."
+  },
+  {
+    "q": "17. As per elastic theory of design, the factor of safety is the ratio of",
+    "options": [
+      "working stress to yield stress",
+      "yield stress to working stress",
+      "unlimited strength to yield stress",
+      "unlimited load to load at yield"
+    ],
+    "correct": 1,
+    "explain": "Factor of Safety (FOS) is defined as the ratio of the failure stress (yield stress for ductile materials) to the allowable or working stress."
+  },
+  {
+    "q": "18. In a composite bar, the load distribution... is based on the assumption that all the materials will have",
+    "options": [
+      "equal areas",
+      "sane Yong's Modulus",
+      "same strain",
+      "same stress"
+    ],
+    "correct": 2,
+    "explain": "For composite bars subjected to axial loads, the fundamental compatibility condition is that the change in length is the same for all components, meaning they undergo the same strain."
+  },
+  {
+    "q": "19. The stress due to temperature change in a member depends on",
+    "options": [
+      "length of the member",
+      "area of cross-section",
+      "supporting conditions at the two ends",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Thermal stress only develops if the expansion or contraction of the member is restricted by the supporting conditions (e.g., fixed ends)."
+  },
+  {
+    "q": "20. In a Uniaxial tension test on a mild steel bar, the Lueders' lines will be",
+    "options": [
+      "inclined at 45° to the direction of tensile stress",
+      "perpendicular to the direction of tensile stress",
+      "along the direction of tensile stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Lueders' lines (or slip lines) appear due to shear failure, which occurs on planes of maximum shear stress, typically inclined at 45° to the axis of tensile loading."
+  },
+  {
+    "q": "21. The percentage elongation of a material from a direct tensile test indicates",
+    "options": [
+      "ductility",
+      "strength",
+      "yield stress",
+      "unlimited strength"
+    ],
+    "correct": 0,
+    "explain": "Ductility is the property that allows a material to undergo significant plastic deformation before rupture, measured by percentage elongation."
+  },
+  {
+    "q": "22. The percentage reduction in area of a member from a direct tension test indicates",
+    "options": [
+      "ductility",
+      "elasticity",
+      "malleability",
+      "brittleness"
+    ],
+    "correct": 0,
+    "explain": "Like elongation, the reduction in cross-sectional area at the point of fracture is a key measure of a material's ductility."
+  },
+  {
+    "q": "23. The Poisson's ratio is the ratio of",
+    "options": [
+      "lateral elongation to linear elongation",
+      "lateral stress to linear stress",
+      "lateral strain to longitudinal strain",
+      "Yong's Modulus elasticity to Modulus of Rigidity"
+    ],
+    "correct": 2,
+    "explain": "Poisson's ratio is the ratio of transverse (lateral) strain to axial (longitudinal) strain."
+  },
+  {
+    "q": "24. A tie is a member which",
+    "options": [
+      "connects two joints",
+      "is subjected to axial tension primarily",
+      "does not suffer any stress",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In structural engineering, a 'tie' is a tension member designed to resist forces that pull it apart."
+  },
+  {
+    "q": "25. The product of Young's modulus (E) and moment of inertia (I) is known as",
+    "options": [
+      "modulus of rigidity",
+      "bulk modulus",
+      "flexural rigidity",
+      "torsional rigidity"
+    ],
+    "correct": 2,
+    "explain": "Flexural rigidity (EI) represents the resistance offered by a beam section against bending deformation."
+  },
+  {
+    "q": "26. When a rectangular beam is loaded transversely, the maximum compressive stress develops on",
+    "options": [
+      "bottom fibre",
+      "top fibre",
+      "neutral axis",
+      "every cross-section"
+    ],
+    "correct": 1,
+    "explain": "In a standard sagging beam, the fibers above the neutral axis are in compression, with the maximum value occurring at the outermost 'top' fiber."
+  },
+  {
+    "q": "27. The region of the cross-section of a column in which compressive load may be applied without producing any tensile stress, is known as the core... in circular columns the radius of the core, is",
+    "options": [
+      "one-half of the radius",
+      "one-third of the radius",
+      "one-quarter of the radius",
+      "one-fifth of the radius"
+    ],
+    "correct": 2,
+    "explain": "To avoid tension in a circular section (Middle Fourth Rule), the eccentricity must not exceed D/8 from the center, making the radius of the core R/4 (or D/8)."
+  },
+  {
+    "q": "28. Stress in members of statically determinate simple frames, can be determined by",
+    "options": [
+      "method of joints",
+      "method of sections",
+      "graphical solution",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "All three are standard methods for analyzing trusses; Method of Joints uses joint equilibrium, Method of Sections uses part equilibrium, and Graphical (Cremona) uses vector diagrams."
+  },
+  {
+    "q": "29. A principal plane is a plane which carries",
+    "options": [
+      "maximum shear stress",
+      "the given of higher magnitude acting",
+      "no shear stress",
+      "plane inclined at 45° to x-axis"
+    ],
+    "correct": 2,
+    "explain": "By definition, principal planes are those on which the shear stress is zero; they only carry normal stresses (principal stresses)."
+  },
+  {
+    "q": "30. The angle between the two principal planes is",
+    "options": [
+      "45°",
+      "90°",
+      "30°",
+      "60°"
+    ],
+    "correct": 1,
+    "explain": "The major and minor principal planes are always mutually perpendicular (90 degrees apart)."
+  },
+  {
+    "q": "31. If an element of a specimen of brittle material is subjected to shear stress, the crack propagation if occurs, will be inclined to the sides of the element at",
+    "options": [
+      "45°",
+      "90°",
+      "30°",
+      "60°"
+    ],
+    "correct": 0,
+    "explain": "Brittle materials are weak in tension. Pure shear produces maximum principal tensile stress at 45°, leading to failure along that plane."
+  },
+  {
+    "q": "32. A prismatic bar is supported at top and is subjected to its own weight... the total elongation of the bar is given by",
+    "options": [
+      "ρl² / E",
+      "ρl² / 2E",
+      "ρAL / 2E",
+      "ρl² / 2EA"
+    ],
+    "correct": 1,
+    "explain": "The elongation due to self-weight is WL/2AE. Substituting W = ρAL, we get (ρAL)L/2AE = ρl²/2E."
+  },
+  {
+    "q": "33. The moment of inertia of triangular section b x d, about the base is",
+    "options": [
+      "bh³ / 12",
+      "b²h² / 2",
+      "bh³ / 36",
+      "b²h² / 36"
+    ],
+    "correct": 0,
+    "explain": "Using Parallel Axis Theorem: I_base = I_cg + Ah² = (bh³/36) + (1/2 bh)(h/3)² = bh³/12."
+  },
+  {
+    "q": "34. When a rectangular beam is loaded transversely, the maximum tensile stress is developed on the",
+    "options": [
+      "top layer",
+      "bottom layer",
+      "neutral axis",
+      "every cross-section"
+    ],
+    "correct": 1,
+    "explain": "For a simply supported beam under downward loads, the beam sags. This creates compression in the top fibers and tension in the bottom fibers."
+  },
+  {
+    "q": "35. When a rectangular beam is loaded transversely, the maximum compressive stress is developed on the",
+    "options": [
+      "top layer",
+      "bottom layer",
+      "neutral axis",
+      "every cross-section"
+    ],
+    "correct": 0,
+    "explain": "As explained in Q. 296, the curvature causes the top layer of a simply supported beam to shorten, resulting in maximum compressive stress."
+  },
+  {
+    "q": "36. The maximum shear stress will always occur at",
+    "options": [
+      "neutral axis",
+      "the top extreme fibre",
+      "the bottom extreme fibre",
+      "a fibre in the cross-section depending on the configuration"
+    ],
+    "correct": 3,
+    "explain": "While max shear is at the neutral axis for common shapes like rectangles/circles, for certain complex sections (like some I-beams), it can occur elsewhere depending on the geometry."
+  },
+  {
+    "q": "37. The shear stress at any section of a shaft is maximum",
+    "options": [
+      "at the centre of the section",
+      "at a distance r/2 from the centre",
+      "at the top of the surface",
+      "at a distance 3/4r from the centre"
+    ],
+    "correct": 2,
+    "explain": "In torsion, shear stress τ = (T·r)/J. It is zero at the center (axis of rotation) and increases linearly to a maximum at the outer surface (radius R)."
+  },
+  {
+    "q": "38. The ratio of maximum shear stress developed in a rectangular beam and a circular beam of the same cross-sectional area is",
+    "options": [
+      "2/3",
+      "3/4",
+      "1",
+      "9/8"
+    ],
+    "correct": 3,
+    "explain": "Ratio = (1.5 for rectangle) / (1.33 for circle) = (3/2) / (4/3) = 9/8."
+  },
+  {
+    "q": "39. A beam of triangular section is placed with its base horizontal. The maximum shear stress occurs at",
+    "options": [
+      "apex of the triangle",
+      "mid of the height",
+      "centre of gravity of the triangle",
+      "base of the triangle"
+    ],
+    "correct": 1,
+    "explain": "Unlike rectangular sections, the maximum shear stress in a triangular section occurs at h/2 (mid-height), whereas the neutral axis is at h/3 from the base."
+  },
+  {
+    "q": "40. The ratio of maximum shear stress to average shear stress in the case of a rectangular section is",
+    "options": [
+      "4/3",
+      "3/2",
+      "1",
+      "2"
+    ],
+    "correct": 1,
+    "explain": "As noted in Q. 301, the maximum shear stress for a rectangle is 1.5 times (3/2) the average shear stress."
+  },
+  {
+    "q": "41. In the case of H section the maximum shear stress will occur at",
+    "options": [
+      "top fibres",
+      "bottom fibres",
+      "neutral axis",
+      "at the junction of the web and flanges"
+    ],
+    "correct": 3,
+    "explain": "In an H-section (similar to an I-section), the maximum shear stress is located at the neutral axis of the cross-section."
+  },
+  {
+    "q": "42. For the materials which do not have a pronounced yield point... the yield point is taken to be",
+    "options": [
+      "stress corresponding to 0.2% strain from the stress strain curve",
+      "the stress at which the permanent set reaches the value 0.2%",
+      "ultimate strength",
+      "average of ultimate strength and actual breaking stress"
+    ],
+    "correct": 1,
+    "explain": "For materials like aluminum or high-strength steel, the proof stress (yield point) is determined using the 0.2% offset method."
+  },
+  {
+    "q": "43. In the case of uniaxial tension the angle between the plane carrying maximum shear stress and direction of tensile force will be",
+    "options": [
+      "90°",
+      "0°",
+      "45°",
+      "60°"
+    ],
+    "correct": 2,
+    "explain": "Under uniaxial tension, maximum shear stress occurs on planes inclined at 45° to the axis of the load."
+  },
+  {
+    "q": "44. An element is subjected to two normal stress σ1 and σ2... The max shear stress is given by",
+    "options": [
+      "(σ1 - σ2) / 2",
+      "(σ1 + σ2) / 2",
+      "σ1 + σ2",
+      "σ1 - σ2"
+    ],
+    "correct": 0,
+    "explain": "The maximum in-plane shear stress is equal to half the difference between the principal stresses: τ_max = (σ1 - σ2)/2."
+  },
+  {
+    "q": "45. When a body is subjected to a direct tensile stress (σ) in one plane, then normal stress on an oblique section... inclined at angle θ to the normal... is",
+    "options": [
+      "σ cos θ",
+      "σ cos² θ",
+      "σ sin θ",
+      "σ sin² θ"
+    ],
+    "correct": 1,
+    "explain": "The normal stress on an oblique plane is σ_n = σ cos²θ, where θ is the angle between the normal to the plane and the direction of stress."
+  },
+  {
+    "q": "46. When a body is subjected to a direct tensile stress (σ) in one plane, then tangential or shear stress on an oblique section... inclined at angle θ to the normal... is",
+    "options": [
+      "σ sin 2θ",
+      "σ cos 2θ",
+      "σ/2 sin 2θ",
+      "σ/2 cos 2θ"
+    ],
+    "correct": 2,
+    "explain": "The tangential (shear) stress on an oblique plane is given by τ = (σ/2) sin 2θ."
+  },
+  {
+    "q": "47. The resultant stress on an inclined plane which is inclined at an angle θ to the normal cross-section... is",
+    "options": [
+      "σ sin θ",
+      "σ cos θ",
+      "σ sin 2θ",
+      "σ cos 2θ"
+    ],
+    "correct": 1,
+    "explain": "The resultant stress on a plane inclined at θ is the vector sum of normal and tangential stress, which simplifies to σ cosθ for a single axial stress."
+  },
+  {
+    "q": "48. When a body is subjected to a direct tensile stress (σ) in one plane, then maximum normal stress occurs at a section inclined at",
+    "options": [
+      "0°",
+      "30°",
+      "45°",
+      "90°"
+    ],
+    "correct": 0,
+    "explain": "Normal stress is σ cos²θ. This is maximum when cos θ = 1, which occurs at θ = 0° (the plane perpendicular to the force)."
+  },
+  {
+    "q": "49. A body is subjected to a direct tensile stress (σ) in one plane. The shear stress is maximum at a section inclined at ............ to the normal of the section.",
+    "options": [
+      "45° and 90°",
+      "45° and 135°",
+      "60° and 150°",
+      "30° and 135°"
+    ],
+    "correct": 1,
+    "explain": "Shear stress is (σ/2) sin 2θ. This is maximum when sin 2θ = 1 (at 2θ = 90° or 270°), giving θ = 45° and 135°."
+  },
+  {
+    "q": "50. When a body is subjected to a direct tensile stress (σ) in one plane, the maximum shear stress is ............ the maximum normal stress.",
+    "options": [
+      "equal to",
+      "one-half",
+      "two-third",
+      "twice"
+    ],
+    "correct": 1,
+    "explain": "Maximum normal stress is σ (at 0°), and maximum shear stress is σ/2 (at 45°). Therefore, max shear is half of max normal stress."
+  }
+]

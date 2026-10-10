@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. In a reinforced concrete T-beam (in which the flange is in compression), the position of neutral axis will",
+    "options": [
+      "be within the flange",
+      "be within the web",
+      "depend on the thickness of flange is in relation to total depth and percentage of reinforcement",
+      "at the junction of flange and web"
+    ],
+    "correct": 2,
+    "explain": "The position of the neutral axis is determined by the equilibrium of total compression and total tension, which depends on the steel ratio and the geometry of the section."
+  },
+  {
+    "q": "2. The width of the flange of T-beam should be less than",
+    "options": [
+      "one-third of the effective span of the T-beam",
+      "distance between the centres of T-beam",
+      "breadth of the rib plus twelve times the thickness of the slab",
+      "least of the above"
+    ],
+    "correct": 3,
+    "explain": "The effective width of a T-beam flange is limited to the minimum of several factors (span/6 + bw + 6df, or center-to-center distance) to account for shear lag."
+  },
+  {
+    "q": "3. The width of the flange of L-beam, should be less than",
+    "options": [
+      "one-sixth of the effective span",
+      "breadth of the rib + four times thickness of the slab",
+      "breadth of the rib + half clear distance between ribs",
+      "least of the above"
+    ],
+    "correct": 3,
+    "explain": "Similar to T-beams, L-beams have specific geometric limits in the code for 'effective width'—usually based on span, rib width, and slab thickness."
+  },
+  {
+    "q": "4. Thought the effective depth of a T-beam is the distance between the top compression edge to centre of the tensile reinforcement, for heavy loads, it is taken as",
+    "options": [
+      "1/8 of span",
+      "1/10 of span",
+      "1/12 of span",
+      "1/16 of span"
+    ],
+    "correct": 2,
+    "explain": "For heavy loading conditions in flanged beams, a stiffer section is required, typically leading to an effective depth around 1/12 of the span."
+  },
+  {
+    "q": "5. For the design of a simply supported T-beam the ratio of the effective span to the overall depth the beam is limited to",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 2,
+    "explain": "For span/depth ratios regarding deflection control (IS 456), the value for a simply supported beam is generally taken as 20."
+  },
+  {
+    "q": "6. The maximum strain in the tension reinforcement at failure shall not be less than",
+    "options": [
+      "(fy / 1.15Es) - 0.002",
+      "(fy / 1.15Es) + 0.002",
+      "(1.15Es / fy) - 0.002",
+      "(1.15Es / fy) + 0.002"
+    ],
+    "correct": 1,
+    "explain": "Per Limit State Method (IS 456), the minimum strain in steel at failure to ensure ductility is (0.87fy / Es) + 0.002. Note: 0.87 is 1/1.15."
+  },
+  {
+    "q": "7. The ratio of the compressive strength of concrete is structure to the characteristic strength of concrete in cube is equal to",
+    "options": [
+      "1.67",
+      "1/0.67",
+      "0.67",
+      "1/1.67"
+    ],
+    "correct": 2,
+    "explain": "Because of size and shape differences between a test cube and the actual structure, the design compressive strength of concrete in the structure is taken as 0.67 times the cube strength (fck)."
+  },
+  {
+    "q": "8. The shape of the stress-strain curve for compression in concrete is generally taken to be",
+    "options": [
+      "hyperbolic",
+      "straight line",
+      "rectangular",
+      "parabolic"
+    ],
+    "correct": 3,
+    "explain": "In the Limit State Method, the stress-strain block is usually assumed to be parabolic up to a strain of 0.002 and rectangular thereafter."
+  },
+  {
+    "q": "9. The partial factor of safety for steel in limit state design is",
+    "options": [
+      "1.65",
+      "1.75",
+      "1.50",
+      "1.15"
+    ],
+    "correct": 3,
+    "explain": "The partial safety factor for steel (γs) is 1.15 because steel is a factory-manufactured material with better quality control than concrete."
+  },
+  {
+    "q": "10. The partial factor of safety for concrete in limit state design is",
+    "options": [
+      "1.65",
+      "1.75",
+      "1.50",
+      "1.15"
+    ],
+    "correct": 2,
+    "explain": "The partial safety factor for concrete (γc) is 1.50, reflecting higher uncertainty in site-mixed concrete compared to steel."
+  },
+  {
+    "q": "11. The maximum allowable percentage of tension reinforcement in R.C.C. beams is",
+    "options": [
+      "14%",
+      "0.4%",
+      "4%",
+      "0.09%"
+    ],
+    "correct": 2,
+    "explain": "To prevent congestion and ensure proper concrete placement, IS 456 limits the maximum area of tension reinforcement to 4% of the gross cross-sectional area."
+  },
+  {
+    "q": "12. A continuous beam shall be deemed to be a deep beam if the ratio of effective span to overall depth, is",
+    "options": [
+      "2.5",
+      "2.0",
+      "less than 2",
+      "less than 2.5"
+    ],
+    "correct": 3,
+    "explain": "According to IS 456, a beam is considered deep when the L/D ratio is less than 2.0 for a simply supported beam and less than 2.5 for a continuous beam."
+  },
+  {
+    "q": "13. The maximum area of tension reinforcement in beams shall not exceed",
+    "options": [
+      "0.15%",
+      "1.5%",
+      "4%",
+      "1%"
+    ],
+    "correct": 2,
+    "explain": "Same as Q240; the limit is 4% of the gross area (bD)."
+  },
+  {
+    "q": "14. A reinforced concrete beam is design to resist",
+    "options": [
+      "tensile stress only",
+      "compressive stress only",
+      "shear stress only",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "A complete beam design must account for flexural tension (steel), flexural compression (concrete/steel), and shear (stirrups)."
+  },
+  {
+    "q": "15. Concrete is fairly strong in",
+    "options": [
+      "tension but very weak in compression",
+      "compression but very weak in tension",
+      "both tension and compression",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Concrete is a brittle material that performs well under compression but has very little tensile strength (roughly 1/10th of its compressive strength)."
+  },
+  {
+    "q": "16. Steel is very strong",
+    "options": [
+      "in tension",
+      "in compression",
+      "at neutral axis",
+      "at extreme fibre"
+    ],
+    "correct": 0,
+    "explain": "While steel can handle both, its primary purpose in RCC is its high tensile strength to compensate for concrete's weakness."
+  },
+  {
+    "q": "17. In singly reinforced simply supported beams, the reinforced steel bars are placed",
+    "options": [
+      "near the bottom of the beam",
+      "near the top of the beam",
+      "at the neutral axis of the beam",
+      "anywhere in the cross section of the beam"
+    ],
+    "correct": 0,
+    "explain": "In a simply supported beam, the bottom fiber is in tension, so the reinforcement must be placed there."
+  },
+  {
+    "q": "18. A reinforced concrete beam subjected to a monotonously increasing load may fail at",
+    "options": [
+      "un-cracked concrete stage",
+      "cracked concrete stage",
+      "ultimate strength stage",
+      "at all the above stages"
+    ],
+    "correct": 2,
+    "explain": "A beam design ensures that it only fails when it reaches its ultimate capacity (Ultimate Strength Stage)."
+  },
+  {
+    "q": "19. The simple bending equation is applicable to a reinforced concrete beam subjected to a monotonously increasing load when the beam remains in",
+    "options": [
+      "un-cracked concrete stage",
+      "cracked concrete stage",
+      "ultimate strength stage",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Simple bending theory (linear elastic) applies best when the section is homogenous and uncracked. Once cracks appear, the section properties change significantly."
+  },
+  {
+    "q": "20. At cracked concrete stage of a reinforced concrete beam, the maximum tensile stress in concrete remains",
+    "options": [
+      "less than its modulus of rupture",
+      "more than its modulus of rupture",
+      "equal to modulus of rupture",
+      "zero"
+    ],
+    "correct": 1,
+    "explain": "Concrete cracks once the tensile stress exceeds its Modulus of Rupture (flexural tensile strength)."
+  },
+  {
+    "q": "21. The analysis and design of reinforced concrete beam at the cracked concrete stage is done by",
+    "options": [
+      "working stress design method",
+      "ultimate stress design method",
+      "limit state stress design method",
+      "all the above methods"
+    ],
+    "correct": 0,
+    "explain": "The Working Stress Method (WSM) is based on the elastic theory and assumes the concrete is cracked and the steel carries all tension, focusing on serviceability at the cracked stage."
+  },
+  {
+    "q": "22. The ratio of the depth of the parabolic and rectangular portion block at the limit state of collapse of a singly reinforced section is",
+    "options": [
+      "1:2",
+      "4:3",
+      "3:4",
+      "4:5"
+    ],
+    "correct": 1,
+    "explain": "In the IS 456 stress block, the rectangular portion is 3/7th and the parabolic portion is 4/7th of the neutral axis depth. The ratio 4/7 : 3/7 is 4:3."
+  },
+  {
+    "q": "23. The distance between the lines of action of compression and tensile forces in a singly reinforced beam is called",
+    "options": [
+      "effective depth",
+      "lever arm",
+      "neutral axis",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The lever arm (z) is the internal distance between the resultant compressive force (C) in concrete and the resultant tensile force (T) in steel."
+  },
+  {
+    "q": "24. If the ratio of steel to concrete in a beam is such that maximum strain in both materials reach simultaneously, the beam is referred to as",
+    "options": [
+      "balanced reinforced beam",
+      "under-reinforced beam",
+      "over reinforced beam",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A balanced section is a theoretical design where the concrete reaches its maximum allowable compressive strain at the exact same time the steel reaches its yield strain."
+  },
+  {
+    "q": "25. Compression failure of simply reinforced beam occurs in",
+    "options": [
+      "balanced reinforced beam",
+      "under-reinforced beam",
+      "over reinforced beam",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In an over-reinforced beam, the concrete reaches its crushing strain before the steel yields, leading to a sudden, brittle compression failure."
+  },
+  {
+    "q": "26. Tension failure occurs is singly reinforced beam in",
+    "options": [
+      "balanced reinforced beam",
+      "under-reinforced beam",
+      "over reinforced beam",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In an under-reinforced beam, the steel yields first. This provides ample warning (cracking and deflection) before the concrete eventually crushes, termed a tension failure."
+  },
+  {
+    "q": "27. Yielding of steel in singly reinforced beam occurs in",
+    "options": [
+      "balanced reinforced beam",
+      "under-reinforced beam",
+      "over reinforced beam",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Yielding of steel is the defining characteristic of an under-reinforced section, ensuring a ductile failure mode."
+  },
+  {
+    "q": "28. The ratio of the limiting value of the depth of neutral axis and the depth of the section of a singly reinforced beam is equal to",
+    "options": [
+      "0.0035 / (0.0055 + 0.87 σy/Es)",
+      "0.0055 / (0.0035 + 0.87 σy/Es)",
+      "0.0035 / (0.0035 + 0.87 σy/Es)",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "This formula is derived from the linear strain diagram where the maximum concrete strain is 0.0035 and the minimum steel strain is 0.002 + 0.87fy/Es."
+  },
+  {
+    "q": "29. The limiting moment of resistance for a singly reinforced beam using Fe 250 steel and general grade concrete, is",
+    "options": [
+      "0.133 σck·bd²",
+      "0.135 σck·bd²",
+      "0.149 σck·bd²",
+      "0.138 σck·bd²"
+    ],
+    "correct": 2,
+    "explain": "For Fe 250 steel (mild steel), the limiting moment of resistance factor (Mu,lim) is 0.148 (rounded to 0.149 in some texts) times fck·bd²."
+  },
+  {
+    "q": "30. The most economical design of singly reinforced beams is given by",
+    "options": [
+      "limit state theory",
+      "working stress theory",
+      "ultimate stress theory",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "Limit State Method (LSM) is more economical as it uses partial safety factors and accounts for the non-linear behavior of concrete, allowing for smaller sections than WSM."
+  },
+  {
+    "q": "31. To ensure that under the applied moment the concrete and steel in singly reinforced beam reach their stresses, the minimum area of steel",
+    "options": [
+      "0.42 bd / σy",
+      "0.36 bd / σy",
+      "0.85 bd / σy",
+      "0.87 bd / σy"
+    ],
+    "correct": 2,
+    "explain": "As per IS 456, the minimum tension reinforcement (As) is given by As/bd = 0.85/fy."
+  },
+  {
+    "q": "32. For a rectangular simply supported beam for 4.5 m effective span, based on the code restriction, the depth is",
+    "options": [
+      "180 mm",
+      "225 mm",
+      "300 mm",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For a simply supported beam, span/depth = 20. Thus, Depth = 4500 / 20 = 225 mm."
+  },
+  {
+    "q": "33. The strain at the level of compression reinforcement is doubly reinforced beam is",
+    "options": [
+      "0.0035 (1 - d'/Xm)",
+      "0.0035 (1 + d'/Xm)",
+      "0.087 (1 - d'/Xm)",
+      "0.087 (1 + d'/Xm)"
+    ],
+    "correct": 0,
+    "explain": "From the strain triangle, the strain at depth d' is linearly proportional to the distance from the neutral axis: εsc = 0.0035 * (xu - d') / xu."
+  },
+  {
+    "q": "34. In doubly reinforced beams, the percentage of the maximum compression reinforcement of the gross cross-sectional area of beam should not exceed",
+    "options": [
+      "2%",
+      "3%",
+      "4%",
+      "5%"
+    ],
+    "correct": 2,
+    "explain": "Similar to tension reinforcement, compression reinforcement is also capped at 4% of the gross area to prevent congestion."
+  },
+  {
+    "q": "35. For simply supported beams of spans above 10 m, span to depth ratio 20 must be multiplied to get permitted value by",
+    "options": [
+      "10 / span",
+      "15 / span",
+      "20 / span",
+      "25 / span"
+    ],
+    "correct": 0,
+    "explain": "For spans exceeding 10m, the span-to-depth ratios are modified by multiplying by (10 / span in meters)."
+  },
+  {
+    "q": "36. When strains in compression zone of the concrete of a loaded singly reinforced beam, cause crushing of concrete, the failure is known as",
+    "options": [
+      "primary compression failure",
+      "secondary compression failure",
+      "primary tensile failure",
+      "secondary tensile failure"
+    ],
+    "correct": 0,
+    "explain": "Primary compression failure occurs in over-reinforced sections where concrete reaches its limit before the steel yields."
+  },
+  {
+    "q": "37. The capacity of beam is determined by the load which causes",
+    "options": [
+      "cracks in tensile zone",
+      "crushing concrete in compression zone",
+      "yielding of steel",
+      "the shift of neutral axis"
+    ],
+    "correct": 2,
+    "explain": "In standard under-reinforced design, the beam's capacity is reached when the steel yields (ultimate limit state)."
+  },
+  {
+    "q": "38. For design purpose of flexural members, the compressive strength of concrete is assumed to be",
+    "options": [
+      "0.67 times the concrete characteristic strength",
+      "0.57 times the characteristic strength",
+      "0.73 times the characteristic strength",
+      "0.42 times the characteristic strength"
+    ],
+    "correct": 3,
+    "explain": "Design strength = (0.67 * fck) / 1.5 (Partial Safety Factor) ≈ 0.446 fck, often simplified or rounded to 0.42-0.45 in various literature batches."
+  },
+  {
+    "q": "39. For the design of flexural members, the safety partial fact for compressive strength",
+    "options": [
+      "rm = 1.2",
+      "rm = 1.4",
+      "rm = 1.5",
+      "rm = 1.25"
+    ],
+    "correct": 2,
+    "explain": "The partial safety factor for concrete (γc) is 1.5."
+  },
+  {
+    "q": "40. For the design purpose of flexural members, the partial safety factor for stress in the reinforcement",
+    "options": [
+      "rm = 1.5",
+      "rm = 1.15",
+      "rm = 1.25",
+      "rm = 1.35"
+    ],
+    "correct": 1,
+    "explain": "The partial safety factor for steel (γs) is 1.15."
+  },
+  {
+    "q": "41. A double reinforced beam may be provided from",
+    "options": [
+      "structural point of view",
+      "architectural point of view",
+      "head room point of view",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Doubly reinforced beams are used when depth is limited (headroom/architecture) or to increase ductility and resist reversal of moments (structural)."
+  },
+  {
+    "q": "42. The maximum diameter of the reinforcement bars in R.C.C. beams is limited to",
+    "options": [
+      "28 mm",
+      "40 mm",
+      "one-eighth of the least dimension of the beams",
+      "one-tenth of the depth of beams"
+    ],
+    "correct": 2,
+    "explain": "General detailing guidelines suggest bar diameter should not exceed 1/8th of the least dimension to ensure bond and concrete flow."
+  },
+  {
+    "q": "43. The maximum spacing of the torsional reinforcement in R.C.C. beams must not exceed",
+    "options": [
+      "300 mm",
+      "b1",
+      "(b1 + d1) / 4",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Torsional stirrups must be closely spaced; the limit is the least of x1, (x1+y1)/4, or 300mm."
+  },
+  {
+    "q": "44. The probability that the actual strengths of material is more than or equal to its characteristic strength is",
+    "options": [
+      "0.75",
+      "0.85",
+      "0.95",
+      "0.65"
+    ],
+    "correct": 2,
+    "explain": "Characteristic strength is defined as the value below which not more than 5% of test results are expected to fall, meaning 95% are above it."
+  },
+  {
+    "q": "45. For simply supported slabs spanning in one direction, the ratio of span to overall depth should exceed",
+    "options": [
+      "15",
+      "20",
+      "30",
+      "50"
+    ],
+    "correct": 2,
+    "explain": "For slabs, the span/overall depth ratio is typically kept around 25-30 for simply supported spans to control deflection."
+  },
+  {
+    "q": "46. For cantilever beams and slabs, the basic value of span to effective depth ratio is",
+    "options": [
+      "7",
+      "10",
+      "20",
+      "26"
+    ],
+    "correct": 0,
+    "explain": "The code provides basic L/d ratios for deflection control: 7 for cantilevers, 20 for simply supported, and 26 for continuous."
+  },
+  {
+    "q": "47. For the simply supported beams and slabs the basic value of span to effective depth ratio is",
+    "options": [
+      "7",
+      "10",
+      "20",
+      "26"
+    ],
+    "correct": 2,
+    "explain": "As per IS 456, the basic span-to-effective-depth ratio for simply supported members is 20."
+  },
+  {
+    "q": "48. The minimum factor of safety against overturning for a retaining wall is",
+    "options": [
+      "1.0",
+      "1.75",
+      "2.0",
+      "3.0"
+    ],
+    "correct": 2,
+    "explain": "Stability requirements dictate a minimum factor of safety of 2.0 against overturning to account for soil variations."
+  },
+  {
+    "q": "49. The minimum factor of safety against sliding for a retaining wall is",
+    "options": [
+      "3.0",
+      "2.0",
+      "1.5",
+      "1.0"
+    ],
+    "correct": 2,
+    "explain": "The minimum factor of safety against sliding is 1.5, often increased if soil conditions are poor."
+  },
+  {
+    "q": "50. Reinforcement is normally used in cast-in-situ concrete to",
+    "options": [
+      "resist impact stresses",
+      "resist temperature, shrinkage forces etc.",
+      "primarily resist compression",
+      "resist tension during uplift"
+    ],
+    "correct": 1,
+    "explain": "Even if the member doesn't carry external tension, reinforcement is necessary to control cracking caused by temperature and shrinkage."
+  }
+]

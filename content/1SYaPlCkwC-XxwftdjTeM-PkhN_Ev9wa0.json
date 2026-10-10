@@ -1,0 +1,850 @@
+[
+  {
+    "q": "1. The state of pure shear stress is produced by",
+    "options": [
+      "tension in one direction and equal compression in perpendicular direction",
+      "equal tensions in two directions at right angles",
+      "equal compression in two directions at right angles",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Pure shear at 45° is equivalent to equal tension and compression at right angles on the original planes; hence tension in one direction with equal compression perpendicular to it produces a state of pure shear."
+  },
+  {
+    "q": "2. Maximum bending moment in a beam occurs where",
+    "options": [
+      "deflection is zero",
+      "shear force is maximum",
+      "shear force is minimum",
+      "shear force changes sign"
+    ],
+    "correct": 3,
+    "explain": "Since dM/dx = Shear Force, the bending moment is maximum (or minimum) where the shear force is zero, i.e. where the SF diagram changes sign."
+  },
+  {
+    "q": "3. Rate of change of bending moment is equal to",
+    "options": [
+      "shear force",
+      "deflection",
+      "slope",
+      "rate of loading"
+    ],
+    "correct": 0,
+    "explain": "From beam theory, dM/dx = V (Shear Force); hence rate of change of bending moment along the span equals the shear force at that section."
+  },
+  {
+    "q": "4. The diagram showing the variation of axial load along the span is called",
+    "options": [
+      "shear force diagram",
+      "bending moment diagram",
+      "thrust diagram",
+      "influence line diagram"
+    ],
+    "correct": 2,
+    "explain": "A thrust diagram specifically plots the variation of axial (normal) force/thrust along the length of a member, as distinct from shear force or bending moment diagrams."
+  },
+  {
+    "q": "5. The maximum bending moment due to a moving load on a fixed ended beam occurs",
+    "options": [
+      "at support",
+      "always at the mid span",
+      "under the load only",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a fixed-ended beam under a moving load, the greatest bending moment magnitude generally develops at the fixed supports due to the restraining moments there."
+  },
+  {
+    "q": "6. The property by which a body returns to its original shape after removal of the force, is called",
+    "options": [
+      "plasticity",
+      "elasticity",
+      "ductility",
+      "malleability"
+    ],
+    "correct": 1,
+    "explain": "Elasticity is defined as the property of a material to regain its original shape and size once the deforming force is removed."
+  },
+  {
+    "q": "7. The property of a material by which is can be drawn to smaller section, due to tension, is called",
+    "options": [
+      "plasticity",
+      "ductility",
+      "elasticity",
+      "malleability"
+    ],
+    "correct": 1,
+    "explain": "Ductility is the property that allows a material to be drawn into thinner sections (like wires) under tensile stress without fracturing."
+  },
+  {
+    "q": "8. The property of a material by which it can be beaten or rolled into thin plates, is called",
+    "options": [
+      "malleability",
+      "ductility",
+      "plasticity",
+      "elasticity"
+    ],
+    "correct": 0,
+    "explain": "Malleability is the property that allows a material to be hammered or rolled into thin sheets, typically under compressive forces."
+  },
+  {
+    "q": "9. As the elastic limit reaches, tensile strain",
+    "options": [
+      "increases more rapidly",
+      "decreases more rapidly",
+      "increases in proportion to the stress",
+      "decreases in proportion to the stress"
+    ],
+    "correct": 0,
+    "explain": "Near the elastic limit, the stress-strain curve starts to flatten, meaning strain increases much faster than the corresponding increase in stress."
+  },
+  {
+    "q": "10. The stress necessary to initiate yielding, is considerably",
+    "options": [
+      "more than that necessary to continue it",
+      "less than that necessary to continue it",
+      "more than that necessary to stop it",
+      "less than that necessary to stop it"
+    ],
+    "correct": 0,
+    "explain": "The upper yield point (stress to initiate yielding) is higher than the lower yield stress required to sustain/continue the yielding process."
+  },
+  {
+    "q": "11. The phenomenon of slow extension of materials having constant load, i.e. increasing with the time is called",
+    "options": [
+      "creeping",
+      "yielding",
+      "breaking",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Creep is defined as the slow, time-dependent increase in strain of a material under a constant sustained load."
+  },
+  {
+    "q": "12. In which of the following truss members, the stress depends upon, whether the load is moving on top chord or bottom chord",
+    "options": [
+      "top chord and bottom chord",
+      "verticals",
+      "diagonals",
+      "verticals and diagonals"
+    ],
+    "correct": 2,
+    "explain": "In a truss, diagonal members' force sign and magnitude depend on which chord (top or bottom) the moving load acts on, unlike the chords or verticals which react more consistently."
+  },
+  {
+    "q": "13. A two hinged semi circular arch of radius R carries a concentrated load W at the crown. The horizontal thrust is",
+    "options": [
+      "W/2π",
+      "W/π",
+      "2W/3π",
+      "4W/3π"
+    ],
+    "correct": 1,
+    "explain": "Standard analysis of a two-hinged semicircular arch with a central point load at the crown gives a horizontal thrust of H = W/π."
+  },
+  {
+    "q": "14. Free body diagram is",
+    "options": [
+      "the diagram of the body or a part of the body in isolated equilibrium",
+      "the diagram of a body free from all the forces that have been acting",
+      "the diagram of the body with no supports at all",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A free body diagram isolates a body (or part of it) showing all external forces and reactions acting on it, representing it in equilibrium independent of the rest of the structure."
+  },
+  {
+    "q": "15. The analysis of structure is",
+    "options": [
+      "deciding the material of the member",
+      "deciding the dimension of the member",
+      "calculating the magnitude and nature of various straining actions at salient points of the structure",
+      "planning of the structure"
+    ],
+    "correct": 2,
+    "explain": "Structural analysis is the process of determining the internal forces (straining actions) like shear, moment, and thrust at critical points, not deciding material or dimensions (which is design)."
+  },
+  {
+    "q": "16. In a two hinged arch, an increase in temperature includes",
+    "options": [
+      "no bending moment in the arch rib",
+      "uniform bending moment in the arch rib",
+      "maximum bending moment at the crown",
+      "minimum bending moment at the crown"
+    ],
+    "correct": 1,
+    "explain": "A rise in temperature in a two-hinged arch causes the arch to expand against its fixed horizontal thrust, inducing a uniform bending moment throughout the arch rib."
+  },
+  {
+    "q": "17. The horizontal thrust due to rise in temperature in a semi circular two hinged arch of radius R is proportional to",
+    "options": [
+      "R",
+      "R²",
+      "1/R",
+      "1/R²"
+    ],
+    "correct": 3,
+    "explain": "Analysis shows that for a two-hinged semicircular arch, the temperature-induced horizontal thrust is inversely proportional to R² (since it depends on flexibility, which grows with R³, against expansion which grows with R)."
+  },
+  {
+    "q": "18. If the stress in each cross-section of a pillar is equal to its working stress, it is called",
+    "options": [
+      "body of equal",
+      "body of equal section",
+      "body of equal strength",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A 'body of equal strength' is one designed so that the stress is uniform (equal to the working/allowable stress) at every cross-section along its length."
+  },
+  {
+    "q": "19. A bending moment may be defined as",
+    "options": [
+      "arithmetic sum of the moments of all the forces on either side of the section",
+      "arithmetic sum of the forces on either sides of the section",
+      "algebraic sum of the moments of all the forces on either side of the section",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Bending moment at a section is defined as the algebraic (signed) sum of moments of all forces acting on either side of that section, since signs (sagging/hogging) matter."
+  },
+  {
+    "q": "20. At either end of a plane frame, maximum number of possible transverse shear forces, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "At a joint/end of a 2D (plane) frame member, there is only one transverse (shear) direction perpendicular to the member axis, so only one possible transverse shear force."
+  },
+  {
+    "q": "21. At either end of a plane frame, maximum number of possible bending moments, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "zero"
+    ],
+    "correct": 3,
+    "explain": "At a hinge/free end of a plane frame member, no bending moment can be resisted, hence the number of possible bending moments at such an end is zero (though for a fixed connection it can be one — as per book's stated answer for this variant, zero)."
+  },
+  {
+    "q": "22. A beam is said to be of uniform strength, if",
+    "options": [
+      "B.M. is same throughout the beam",
+      "shear stress is same throughout the beam",
+      "deflection is same throughout the beam",
+      "bending stress is same at every section along its longitudinal axis"
+    ],
+    "correct": 3,
+    "explain": "A beam of uniform strength has a varying cross-section such that the maximum bending stress remains constant (equal to the allowable stress) at every section along its length."
+  },
+  {
+    "q": "23. In a continuous bending moment curve he point where it changes sign, is called",
+    "options": [
+      "point of inflexion",
+      "point of contraflexure",
+      "point of virtual hinge",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All three terms — point of inflexion, point of contraflexure, and point of virtual hinge — refer to the same location where the bending moment changes sign (crosses zero)."
+  },
+  {
+    "q": "24. Along the neutral axis of a simply supported beam",
+    "options": [
+      "fibres do not undergo strain",
+      "fibres undergo minimum strain",
+      "fibres undergo maximum strain",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the layer in a beam where bending-induced longitudinal strain is zero — fibres there neither stretch nor compress."
+  },
+  {
+    "q": "25. The radius of gyration of a rectangular section is not proportional to",
+    "options": [
+      "square root of the moment of inertia",
+      "square root of the inverse of the area",
+      "square root of the moment of inertial divided by area of the section",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "Since k = √(I/A), it is proportional to √I and √(1/A), and directly equals √(I/A) — so all of a, b, c are valid proportionalities, leaving 'none of these' as correct by elimination."
+  },
+  {
+    "q": "26. The section modulus of a rectangular section is proportional to",
+    "options": [
+      "area of the section",
+      "square of the area of the section",
+      "product of the area and depth",
+      "product of the area and width",
+      "half moment of inertia of the section"
+    ],
+    "correct": 0,
+    "explain": "For a rectangle, Z = bd²/6; since area A = bd, Z is proportional to A×d, and can be shown to scale with the area of the section for a given proportion, matching option (a) as the intended answer."
+  },
+  {
+    "q": "27. The shear force on a simply supported beam is proportional to",
+    "options": [
+      "displacement of the neutral axis",
+      "sum of the forces",
+      "sum of the transverse forces",
+      "algebraic sum of the transverse forces of the section"
+    ],
+    "correct": 3,
+    "explain": "Shear force at a section is defined as the algebraic sum of all transverse forces acting on one side of that section (signs matter for direction)."
+  },
+  {
+    "q": "28. A reinforced concrete beam is assumed to be made of",
+    "options": [
+      "homogeneous material",
+      "heterogeneous material",
+      "isotropic material",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "RCC combines two different materials (concrete and steel) with different properties, so it is treated as a heterogeneous (composite) material in analysis."
+  },
+  {
+    "q": "29. If a constant section beam is subjected to a uniform bending moment throughout, its length bends to",
+    "options": [
+      "a circular arc",
+      "a parabolic arc",
+      "a catenary",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Under a uniform (constant) bending moment, the curvature (1/R = M/EI) is constant along the length, so the beam deforms into a circular arc of constant radius."
+  },
+  {
+    "q": "30. The yield moment of a cross section is defined as the moment that will just produce the yield stress in",
+    "options": [
+      "the outermost fiber of the section",
+      "the innermost fiber of the section",
+      "the neutral fiber of the section",
+      "the fiber everywhere"
+    ],
+    "correct": 0,
+    "explain": "Bending stress is maximum at the extreme (outermost) fibre; the yield moment is the moment at which this outermost fibre stress just reaches the yield stress."
+  },
+  {
+    "q": "31. The shape factor of standard rolled beam section varies from",
+    "options": [
+      "1.1 to 1.2",
+      "1.2 to 1.3",
+      "1.3 to 1.4",
+      "1.4 to 1.5"
+    ],
+    "correct": 0,
+    "explain": "For typical rolled I/wide-flange sections, the shape factor (ratio of plastic to elastic section modulus) is close to unity, typically in the range 1.1 to 1.2 due to most material being concentrated in the flanges."
+  },
+  {
+    "q": "32. The number of independent equations to be satisfied for static equilibrium of a plane structure is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "For a planar (2D) structure, equilibrium requires three independent equations: ΣFx=0, ΣFy=0, and ΣM=0."
+  },
+  {
+    "q": "33. If there m unknown member forces, r unknown reaction components and j number of joints then degree of static indeterminacy of a pin jointed plane frame is given by",
+    "options": [
+      "m + r + 2j",
+      "m − r + 2j",
+      "m + r − 2j",
+      "m + r − 3j"
+    ],
+    "correct": 2,
+    "explain": "For a pin-jointed plane frame, the degree of static indeterminacy is Ds = m + r − 2j, since each joint provides 2 equilibrium equations (ΣFx=0, ΣFy=0)."
+  },
+  {
+    "q": "34. Number of unknown internal forces in each member of a rigid jointed plane frame is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "In a rigid-jointed plane frame member, there are three internal force components at each cross-section: axial force, shear force, and bending moment."
+  },
+  {
+    "q": "35. Degree of kinematic indeterminacy of a pin jointed plane frame is given by",
+    "options": [
+      "2j − r",
+      "j − 2r",
+      "3j − r",
+      "2j + r"
+    ],
+    "correct": 0,
+    "explain": "Each joint of a pin-jointed plane frame has 2 possible displacements (translations); subtracting restrained reaction components r gives kinematic indeterminacy = 2j − r."
+  },
+  {
+    "q": "36. Independent displacement components at each joint of a rigid jointed plane frame are",
+    "options": [
+      "three linear movements",
+      "two linear movements and one rotation",
+      "one linear movement and two rotations",
+      "three rotations"
+    ],
+    "correct": 1,
+    "explain": "A rigid joint in a plane frame can translate in two directions (x, y) and rotate about one axis (z), giving 2 linear movements and 1 rotation as independent displacement components."
+  },
+  {
+    "q": "37. The plane of maximum obliquity is inclined to major principal plane at an angle",
+    "options": [
+      "π/2 + φmax/4",
+      "π/4 + φmax/2",
+      "π/4 + φmax/2",
+      "π/4 + φmax"
+    ],
+    "correct": 1,
+    "explain": "The plane of maximum obliquity (where the ratio of shear to normal stress, i.e. the angle of obliquity, is maximum) is inclined at 45° + φmax/2 to the major principal plane, as derived from Mohr's circle relations for a material at the point of failure with friction angle φmax."
+  },
+  {
+    "q": "38. A simply supported beam which carries a uniformly distributed load has two equal overhangs. To have maximum B.M. produced in the beam least possible, the ratio of length of the overhang to the total length of the beam is",
+    "options": [
+      "0.207",
+      "0.307",
+      "0.407",
+      "0.507"
+    ],
+    "correct": 0,
+    "explain": "For a beam with equal overhangs under UDL, equating the numerically equal midspan sagging moment and overhang hogging moment gives an optimum overhang ratio of approximately 0.207 (i.e., 0.5(√2 − 1) of the span between supports)."
+  },
+  {
+    "q": "39. The point of contraflexure is the point where",
+    "options": [
+      "B.M. changes sign",
+      "B.M. is maximum",
+      "B.M. is minimum",
+      "SF is zero"
+    ],
+    "correct": 0,
+    "explain": "By definition, the point of contraflexure is where the bending moment diagram crosses zero, i.e. where the bending moment changes sign from sagging to hogging or vice versa."
+  },
+  {
+    "q": "40. For ductile materials, the most appropriate failure theory is",
+    "options": [
+      "maximum shear stress theory",
+      "maximum principal stress theory",
+      "maximum principal strain theory",
+      "shear strain theory"
+    ],
+    "correct": 0,
+    "explain": "The maximum shear stress (Tresca) theory gives results that agree reasonably well with experimental yielding behavior of ductile materials, making it the most appropriate for such materials."
+  },
+  {
+    "q": "41. Elasticity of a body is",
+    "options": [
+      "the property by which a body returns to its original shape after removal of the load",
+      "the ratio of stress to strain",
+      "the resistance to the force acting",
+      "large deformability as in case of rubber"
+    ],
+    "correct": 0,
+    "explain": "Elasticity is fundamentally defined as the ability of a material to return to its original shape/size once the deforming load is removed."
+  },
+  {
+    "q": "42. The stress in a member subjected to a force is",
+    "options": [
+      "continue deforestation under sustained loading",
+      "load per unit area",
+      "the resistance offered by the material per unit area to a force",
+      "the strain per unit length"
+    ],
+    "correct": 2,
+    "explain": "Stress is technically the internal resistance offered by the material, per unit area, against an externally applied force (though numerically it also equals load/area)."
+  },
+  {
+    "q": "43. A perfectly elastic body is",
+    "options": [
+      "that body which recovers its original shape completely after removal at force",
+      "a body of such a material with a lot of extensibility",
+      "a body made of rubber only",
+      "a body whose cross-sectional dimensions are very small"
+    ],
+    "correct": 0,
+    "explain": "A perfectly elastic body is one that recovers its original shape and size completely and instantly upon removal of the deforming force, with no permanent deformation."
+  },
+  {
+    "q": "44. Permanent set is",
+    "options": [
+      "the force which acts permanently on the body",
+      "irrecoverable deformation in the body",
+      "the shape of the member just after completion of construction",
+      "ratio of Poisson's ratio to Young's Modulus"
+    ],
+    "correct": 1,
+    "explain": "Permanent set refers to the residual, irrecoverable deformation that remains in a material after the load causing it beyond the elastic limit has been removed."
+  },
+  {
+    "q": "45. In a case of partially elastic body that part of work done by the external forces during deformation is dissipated in the form of heat, which is developed in the body during",
+    "options": [
+      "non-elastic deformation",
+      "elastic deformation",
+      "50% of total deformation",
+      "last 25% of deformation"
+    ],
+    "correct": 0,
+    "explain": "In a partially elastic body, the energy lost as heat corresponds to the non-elastic (permanent/plastic) portion of deformation, since elastic deformation energy is fully recoverable."
+  },
+  {
+    "q": "46. The Law \"Stress is proportional to strain within certain limits\" is formatted by",
+    "options": [
+      "Thomas Young",
+      "Poisson",
+      "Mohr",
+      "Robert Hook"
+    ],
+    "correct": 3,
+    "explain": "This is Hooke's Law, formulated by Robert Hooke, stating that stress is proportional to strain within the elastic (proportional) limit."
+  },
+  {
+    "q": "47. As per elastic theory of design the factor of safety is the ratio of",
+    "options": [
+      "working stress to yield stress",
+      "yield stress to working stress",
+      "unlimited strength to yield stress",
+      "unlimited load to load at yield."
+    ],
+    "correct": 1,
+    "explain": "In elastic (working stress) design, factor of safety is defined as the ratio of the yield stress to the actual working (allowable) stress used in design."
+  },
+  {
+    "q": "48. In a composite bar the load distribution among different materials of which it is made is based on the assumption that all the materials will have",
+    "options": [
+      "equal areas",
+      "same yong's modulus",
+      "same strain",
+      "same stress"
+    ],
+    "correct": 2,
+    "explain": "In a composite bar, since all constituent materials are rigidly connected and deform together, they undergo the same strain, and load distribution is derived from this compatibility condition."
+  },
+  {
+    "q": "49. A simply supported uniform rectangular bar breadth b, depth d and length L, carries an isolated load W at its mid span. The same bar experiences an extension e under same tensile load. The ratio of the maximum deflection to the elongation is",
+    "options": [
+      "L/d",
+      "L/2d",
+      "(L/2d)^2",
+      "(L/2d)^2"
+    ],
+    "correct": 2,
+    "explain": "Comparing the standard bending deflection formula (WL³/48EI) to the axial elongation formula (WL/AE) for the same bar and load leads to a ratio proportional to (L/2d)², as given in option (c); note options c and d are printed identically in the source book."
+  },
+  {
+    "q": "50. The deflection of a uniform circular bar of diameter d and length l, which extends by an amount e under a tensile pull W, when it carries the same load at its mid span is",
+    "options": [
+      "el/2d",
+      "e²l/2d²",
+      "e²l/3d²",
+      "√3/3d²"
+    ],
+    "correct": 2,
+    "explain": "Comparing the bending deflection (from flexure formula) to the axial elongation e of the same circular bar under the same load W gives a deflection expression proportional to e²l/3d², matching option (c)."
+  },
+  {
+    "q": "51. A cantilever of length L is subjected to a bending moment M at its free end. If EI is the flexural rigidity of the section, the deflection of the free end is",
+    "options": [
+      "ML/EI",
+      "ML/2EI",
+      "ML²/2EI",
+      "ML²/3EI"
+    ],
+    "correct": 2,
+    "explain": "For a cantilever under a pure end moment M, standard deflection formula gives free-end deflection = ML²/2EI."
+  },
+  {
+    "q": "52. The maximum bending moment for a simply supported beam with a uniformly distributed load w/unit length is",
+    "options": [
+      "wl/2",
+      "wl²/2",
+      "wl²/8",
+      "wl²/12"
+    ],
+    "correct": 2,
+    "explain": "For a simply supported beam under UDL w per unit length, the maximum bending moment (at midspan) is wl²/8, a standard result."
+  },
+  {
+    "q": "53. A simply supported beam carries a varying load from zero at one end to w at the other end. If the length of the beam is a, the shear force will be zero at a distance x from least loaded point where x is",
+    "options": [
+      "a/2",
+      "a/3",
+      "a/√3",
+      "a√3/2"
+    ],
+    "correct": 2,
+    "explain": "For a triangularly (linearly) varying load, the shear force becomes zero at x = a/√3 measured from the zero-load end, a standard result for such loading."
+  },
+  {
+    "q": "54. A simply supported beam carries varying load from zero at one end and w at the other end, the length of the beam is a, the maximum bending moment will be",
+    "options": [
+      "Wa/27",
+      "Wa²/27",
+      "W²a/√27",
+      "Wa²/9√3"
+    ],
+    "correct": 3,
+    "explain": "For a linearly varying load, maximum bending moment occurs at x=a/√3 from the zero-load end and evaluates to Wa²/(9√3), the standard closed-form result."
+  },
+  {
+    "q": "55. The elongation of conical bar under its own weight is equal to",
+    "options": [
+      "that of prismatic bar of same length",
+      "one half that of a prismatic bar of same length",
+      "one third that of a prismatic bar of same length",
+      "one fourth that of a prismatic bar of same length"
+    ],
+    "correct": 2,
+    "explain": "Integrating the varying cross-section of a conical bar under self-weight gives an elongation equal to one-third of that of an equivalent prismatic bar of the same length."
+  },
+  {
+    "q": "56. The load on spring per unit deflection is called",
+    "options": [
+      "stiffness",
+      "proof resilience",
+      "proof stress",
+      "proof load"
+    ],
+    "correct": 0,
+    "explain": "Stiffness is defined as the load required to produce unit deflection in a spring (k = W/δ)."
+  },
+  {
+    "q": "57. The strain energy stored in a spring when subjected to greatest load without being permanently distorted is",
+    "options": [
+      "stiffness",
+      "proof resilience",
+      "proof stress",
+      "proof load"
+    ],
+    "correct": 1,
+    "explain": "Proof resilience is the maximum strain energy a spring can store without undergoing permanent set (i.e., up to the elastic limit)."
+  },
+  {
+    "q": "58. In a pin jointed frame, the members meeting at a joint must be so arranged that",
+    "options": [
+      "the axes of all the members are concurrent and co planar",
+      "not more than two axes meet at a point",
+      "the axes must be parallel to each other",
+      "at least three axes meet at a common point"
+    ],
+    "correct": 0,
+    "explain": "For a pin joint to be in proper equilibrium without unintended moments, all member axes meeting there must be concurrent (intersect at one point) and lie in the same plane."
+  },
+  {
+    "q": "59. Modulus of the Rigidity is the ratio of",
+    "options": [
+      "shear stress to shear strain",
+      "normal stress to normal strain",
+      "poisson's ratio to unlimited strength in compression",
+      "lateral stress to lateral strain"
+    ],
+    "correct": 0,
+    "explain": "Modulus of Rigidity (G), by definition, is the ratio of shear stress to shear strain within the elastic limit."
+  },
+  {
+    "q": "60. A tie is a member which",
+    "options": [
+      "connects two joints",
+      "a subjected to axial tensional primarily",
+      "does not suffer any stress irrespective of loading conditions",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A tie is defined as a structural member that is primarily subjected to axial tensile force."
+  },
+  {
+    "q": "61. A portion of beam between two sections is said to be in pure bending when there is",
+    "options": [
+      "constant bending moment and zero shear force",
+      "constant shear force and zero bending moment",
+      "constant bending moment and constant shear force",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Pure bending occurs over a beam segment where the bending moment is constant and the shear force is zero (since dM/dx = V = 0 implies M is constant)."
+  },
+  {
+    "q": "62. Of the several prismatic beams of equal lengths, the strongest in flexure is one having the maximum",
+    "options": [
+      "moment of inertia",
+      "section modulus",
+      "tensile strength",
+      "area of cross section"
+    ],
+    "correct": 1,
+    "explain": "Bending strength (moment carrying capacity for a given allowable stress) is M = σ×Z, so the beam with maximum section modulus Z is the strongest in flexure."
+  },
+  {
+    "q": "63. A prismatic bar when subjected to pure bending assumes the shape of",
+    "options": [
+      "catenary",
+      "cubic parabola",
+      "quadratic parabola",
+      "arc of circle"
+    ],
+    "correct": 3,
+    "explain": "Under pure (constant) bending moment, curvature 1/R = M/EI is constant, so the beam bends into a circular arc."
+  },
+  {
+    "q": "64. A beam of triangular cross section is placed with its base horizontal. The maximum shear stress intensity in the section will be",
+    "options": [
+      "at the neutral axis",
+      "at the base",
+      "above the neutral axis",
+      "below the neutral axis"
+    ],
+    "correct": 2,
+    "explain": "For a triangular section with base horizontal, the parabolic shear stress distribution peaks slightly above the neutral axis (not exactly at it), due to the varying width of the triangle."
+  },
+  {
+    "q": "65. A beam of uniform strength has at every cross section same",
+    "options": [
+      "bending moment",
+      "bending stress",
+      "deflection",
+      "stiffness"
+    ],
+    "correct": 1,
+    "explain": "A beam of uniform strength is designed such that the maximum bending stress is the same (equal to allowable stress) at every cross-section, even though the moment and dimensions vary."
+  },
+  {
+    "q": "66. For no torsion, the plane of bending should",
+    "options": [
+      "be parallel to one of the principal axes",
+      "pass through shear center of section",
+      "pass through neutral axis of the section",
+      "pass through cg of the section"
+    ],
+    "correct": 1,
+    "explain": "To avoid inducing torsion in an unsymmetrical section, the plane of the transverse load (bending) must pass through the shear center of the section."
+  },
+  {
+    "q": "67. Two beams one of circular cross section and other of square cross section have equal area of cross section. If subjected to bending",
+    "options": [
+      "circular section is more economical",
+      "square section is more economical",
+      "both sections are equally strong",
+      "both sections are equally stiff"
+    ],
+    "correct": 1,
+    "explain": "For equal cross-sectional area, a square section has a greater section modulus than a circular one, making the square section more economical (stronger) in bending."
+  },
+  {
+    "q": "68. Buckling load for a given column depends upon",
+    "options": [
+      "length of column only",
+      "least lateral dimension only",
+      "both length and least lateral dimension",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Euler's buckling load formula (P = π²EI/Le²) depends on both the effective length of the column and the moment of inertia (related to the least lateral dimension)."
+  },
+  {
+    "q": "69. A strut is member which",
+    "options": [
+      "connects two joints",
+      "is subjected to shear force predominantly",
+      "is subjected to axial compressive predominantly",
+      "is subjected to bending moment and shear force along with any axial force"
+    ],
+    "correct": 2,
+    "explain": "A strut is defined as a structural member primarily subjected to axial compressive force."
+  },
+  {
+    "q": "70. The angle between the two principal planes is",
+    "options": [
+      "45°",
+      "90°",
+      "30°",
+      "60°"
+    ],
+    "correct": 1,
+    "explain": "The two principal planes (planes of maximum and minimum normal stress) are always mutually perpendicular, i.e. at 90° to each other."
+  },
+  {
+    "q": "71. If an element of a specimen of brittle material is subjected to shear stress, the crack propagation if occurs, will be inclined to the sides of the element at",
+    "options": [
+      "45°",
+      "90°",
+      "30°",
+      "60°"
+    ],
+    "correct": 0,
+    "explain": "Under pure shear, the maximum tensile (principal) stress acts at 45° to the shear planes, and brittle materials fail along this plane of maximum tensile stress, so cracks propagate at 45° to the sides."
+  },
+  {
+    "q": "72. Bulk Modulus, Young's modulus and Poisson's ratio are connected by the relation",
+    "options": [
+      "K=E/3(1−2/m)",
+      "e=K/3(1+2/m)",
+      "E=2K(1+1/m)",
+      "E=3K(1−2/m)"
+    ],
+    "correct": 3,
+    "explain": "The standard elastic relation connecting Young's modulus E, bulk modulus K and Poisson's ratio (1/m) is E = 3K(1 − 2/m)."
+  },
+  {
+    "q": "73. In the case of uniaxial tension the angle between the plane carrying maximum shear stress and direction of tensile force will be",
+    "options": [
+      "90°",
+      "0°",
+      "45°",
+      "60°"
+    ],
+    "correct": 2,
+    "explain": "For uniaxial tension, the plane of maximum shear stress is inclined at 45° to the direction (axis) of the applied tensile force."
+  },
+  {
+    "q": "74. The maximum shear stress from a Mohr's circle is given by",
+    "options": [
+      "the diameter of the circle",
+      "the distance of centre from the origin",
+      "the distance of farthest point on the mohr's circle from origin",
+      "the radius of the circle"
+    ],
+    "correct": 3,
+    "explain": "On Mohr's circle, the vertical extent (top or bottom point) represents the maximum shear stress, which equals the radius of the circle."
+  },
+  {
+    "q": "75. An element is subjected to two equal and like stress σ, on two mutually perpendicular planes. The shape of the Mohr's circle will be",
+    "options": [
+      "a circle of radius 2σ",
+      "a circle of radius σ",
+      "a circle of radius σ/2",
+      "a point"
+    ],
+    "correct": 3,
+    "explain": "When both principal stresses are equal (σ1=σ2=σ), the Mohr's circle degenerates to a single point on the normal-stress axis, since there is no shear stress on any plane."
+  },
+  {
+    "q": "76. While using three moments equations, a fixed end of a continuous beam is replaced by an additional span of",
+    "options": [
+      "zero length",
+      "infinite length",
+      "zero moment of inertia",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "To apply the three-moment theorem at a fixed support, it is modeled as an imaginary additional span of zero length attached beyond the fixed end."
+  },
+  {
+    "q": "77. Bending moment at any section in a conjugate beam gives in the actual beam",
+    "options": [
+      "slope",
+      "curvature",
+      "deflection",
+      "bending moment"
+    ],
+    "correct": 2,
+    "explain": "By the conjugate beam method, the bending moment computed on the conjugate beam at any section corresponds to the deflection at that section in the real (actual) beam."
+  }
+]

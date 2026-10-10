@@ -1,0 +1,178 @@
+[
+  {
+    "q": "1. A shear force diagram of a simply supported beam shows constant shear force throughout the span. It is subjected to",
+    "options": [
+      "two concentrated loads spaced at points",
+      "a couple at mid span",
+      "a uniformly distributed load",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A pure applied couple (no other transverse loads) produces a constant shear force with a jump in the moment diagram, but constant SF throughout."
+  },
+  {
+    "q": "2. The shear force on a beam and the displacement are related by",
+    "options": [
+      "V = EI d²y/dx²",
+      "V = EI d³y/dx²",
+      "V = EI d³y/dx³",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "As per the answer key; the standard beam relation is V = EI·d³y/dx³ (third derivative of deflection)."
+  },
+  {
+    "q": "3. Find the maximum BM induced in a simply supported beam if the beam is subjected to a point load of 4 KN at the centre of beam and span of the beam is 4 m",
+    "options": [
+      "8 KN-m",
+      "4KN-m",
+      "2 KN-m",
+      "1 KN-m"
+    ],
+    "correct": 1,
+    "explain": "M_max = WL/4 = (4×4)/4 = 4 kN-m."
+  },
+  {
+    "q": "4. In a simply supported beam subjected to a point load at centre, the maximum bending moment occurs at",
+    "options": [
+      "left end",
+      "right end",
+      "centre",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a central point load on a simply supported beam, max BM occurs directly under the load, at mid-span."
+  },
+  {
+    "q": "5. Find the maximum bending moment in a simply supported beam loaded with a UDL of 2 t/m having span 4m",
+    "options": [
+      "2 t-m",
+      "4 t-m",
+      "6 t-m",
+      "8 t-m"
+    ],
+    "correct": 1,
+    "explain": "M_max = wL²/8 = (2×4²)/8 = 4 t-m."
+  },
+  {
+    "q": "6. Load required to produce unit deflection is called",
+    "options": [
+      "stiffness",
+      "ductility",
+      "elasticity",
+      "malleability"
+    ],
+    "correct": 0,
+    "explain": "Stiffness = load / deflection, i.e. the load needed to produce one unit of deflection."
+  },
+  {
+    "q": "7. A simply supported beam as shown carries 10 t of load, 2 m from support A and 3 m from support B. What will be the reaction at point B?",
+    "options": [
+      "5 t",
+      "4.5 t",
+      "4 t",
+      "3 t"
+    ],
+    "correct": 2,
+    "explain": "RB = (Load × distance from A) / span = (10×2)/5 = 4 t."
+  },
+  {
+    "q": "8. A simply supported beam of span L carries a uniformly distributed load W. The maximum bending moment, M is:",
+    "options": [
+      "WL/2",
+      "WL/4",
+      "WL/8",
+      "WL/16"
+    ],
+    "correct": 2,
+    "explain": "M_max = WL/8 for a full-span UDL (W = total load) on a simply supported beam."
+  },
+  {
+    "q": "9. The bending moment at a section tends to bend or deflect the beam and internal stresses resist its bending. The resistance offered by the internal stress to the bending, is called:",
+    "options": [
+      "compressive stress",
+      "shear stress",
+      "bending stress",
+      "elastic modulus"
+    ],
+    "correct": 2,
+    "explain": "The internal normal stress that resists bending action is called bending stress."
+  },
+  {
+    "q": "10. The magnitude of a shear force at a distance of L/4 from either end of a simply supported beam with load P applied at mid span is equal to:",
+    "options": [
+      "P",
+      "P/2",
+      "P/4",
+      "P/8"
+    ],
+    "correct": 1,
+    "explain": "Between each support and the mid-span load, the shear force stays constant and equal to the support reaction, P/2."
+  },
+  {
+    "q": "11. Bending moment diagram of a simply supported beam with a point load at the centre of the span is:",
+    "options": [
+      "parabola",
+      "triangular",
+      "rectangle",
+      "diagonal"
+    ],
+    "correct": 1,
+    "explain": "BM rises linearly from zero at the supports to a peak under the central point load, forming a triangle."
+  },
+  {
+    "q": "12. Moment of inertia of an object having rectangular section of 'b' as width and 'd' as depth is given by",
+    "options": [
+      "bd³/12",
+      "bd²/24",
+      "b²d²/12",
+      "db³/24"
+    ],
+    "correct": 0,
+    "explain": "Standard formula: I = bd³/12 about the centroidal axis."
+  },
+  {
+    "q": "13. A cantilever beam is one which is:",
+    "options": [
+      "Fixed at both ends",
+      "Fixed at one end and free at other end",
+      "Supported at its ends",
+      "Supported on more than two supports"
+    ],
+    "correct": 1,
+    "explain": "A cantilever has one fully fixed end and one completely free end."
+  },
+  {
+    "q": "14. A beam is said to be loaded in pure bending when",
+    "options": [
+      "Bending moment is constant",
+      "Bending moment is zero",
+      "Bending moment is changing linearly",
+      "Bending moment and shear force are changing linearly"
+    ],
+    "correct": 0,
+    "explain": "Pure bending is characterized by a constant bending moment (and correspondingly zero shear force) over the section of interest."
+  },
+  {
+    "q": "15. If the shear force along a section of a beam is zero, the bending moment at the section is:",
+    "options": [
+      "zero",
+      "maximum",
+      "minimum",
+      "average of maximum-minimum"
+    ],
+    "correct": 1,
+    "explain": "Since dM/dx = V, wherever shear force is zero, bending moment reaches a local extremum — commonly the maximum bending moment for typical loading cases."
+  },
+  {
+    "q": "16. If a cantilever beam of 8 m long has a uniformly distributed load of 2 KN/m throughout the length and a 10 KN point load at the center of beam, find the moment at center:",
+    "options": [
+      "8 KN-m",
+      "16 KN-m",
+      "32 KN-m",
+      "44 KN-m"
+    ],
+    "correct": 1,
+    "explain": "Only the UDL beyond the center (4 m of it, total 8 kN, acting 2 m from center) contributes: 8×2 = 16 kN-m. The point load, applied exactly at the center, has zero moment arm about that same point."
+  }
+]

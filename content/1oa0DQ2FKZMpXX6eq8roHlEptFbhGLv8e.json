@@ -1,0 +1,552 @@
+[
+  {
+    "q": "1. The metacentric heights of two floating bodies A and B are 1 m and 1.5 m respectively. Select the correct statement",
+    "options": [
+      "The bodies A and B have equal stability",
+      "The body A is more stable than body B",
+      "The body B is more stable than body A",
+      "The bodies A and B are unstable"
+    ],
+    "correct": 2,
+    "explain": "Stability of a floating body is directly proportional to its metacentric height (GM). A higher GM provides a larger restoring couple."
+  },
+  {
+    "q": "2. If a body floating in a liquid returns back to its original position, when given a small angular displacement, the body is said to be in",
+    "options": [
+      "neutral equilibrium",
+      "stable equilibrium",
+      "unstable equilibrium",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Stable equilibrium occurs when the metacentre (M) is above the centre of gravity (G), creating a restoring moment."
+  },
+  {
+    "q": "3. A body floating in a liquid is said to be in neutral equilibrium, if its metacentre",
+    "options": [
+      "coincides with its centre of gravity",
+      "lies above its centre of gravity",
+      "lies below its centre of gravity",
+      "lies between the centre of buoyancy and centre of gravity"
+    ],
+    "correct": 0,
+    "explain": "In neutral equilibrium, M and G coincide, meaning no restoring or overturning moment is produced when the body is tilted."
+  },
+  {
+    "q": "4. The time of oscillation of a floating body is given by",
+    "options": [
+      "2π√(k² / (h·g))",
+      "2π√(h·g / k²)",
+      "1/2π√(k² / (h·g))",
+      "1/2π√(h·g / k²)"
+    ],
+    "correct": 0,
+    "explain": "The time period (T) formula is T = 2π√(k² / (GM·g)), where k is the radius of gyration and h (or GM) is the metacentric height."
+  },
+  {
+    "q": "5. The metacentric height of a ship is 0.6 m and the radius of gyration is 4 m. The time of rolling of ship is",
+    "options": [
+      "4.1 s",
+      "5.2 s",
+      "10.4 s",
+      "14.1 s"
+    ],
+    "correct": 2,
+    "explain": "Using T = 2π√(k² / (h·g)): T = 2 * 3.14 * √(4² / (0.6 * 9.81)) ≈ 10.4 seconds."
+  },
+  {
+    "q": "6. One cubic metre of water weighs",
+    "options": [
+      "100 litres",
+      "250 litres",
+      "500 litres",
+      "1000 litres"
+    ],
+    "correct": 3,
+    "explain": "By standard metric definition, 1 cubic metre (m³) of volume is equivalent to 1000 litres of liquid."
+  },
+  {
+    "q": "7. One litre of water occupies a volume of",
+    "options": [
+      "100 cm³",
+      "250 cm³",
+      "5000 cm³",
+      "1000 cm³"
+    ],
+    "correct": 3,
+    "explain": "Since 1 m³ = 1,000,000 cm³ and 1 m³ = 1000 litres, then 1 litre = 1000 cm³."
+  },
+  {
+    "q": "8. When a liquid is flowing through a pipe, the velocity of the liquid is",
+    "options": [
+      "maximum at the centre and minimum near the walls",
+      "minimum at the centre and maximum near the walls",
+      "zero at the centre and maximum near the walls",
+      "maximum at the centre and zero near the walls"
+    ],
+    "correct": 0,
+    "explain": "Due to viscosity and the 'no-slip condition' at the boundaries, velocity is zero at the walls and reaches its peak at the pipe's centerline."
+  },
+  {
+    "q": "9. The imaginary line drawn in the fluid in such a way that the tangent to any point gives the direction of motion at that point, is known as",
+    "options": [
+      "path line",
+      "stream line",
+      "steak line",
+      "potential line"
+    ],
+    "correct": 1,
+    "explain": "A streamline is a curve that is everywhere tangent to the local velocity vector of the fluid flow."
+  },
+  {
+    "q": "10. A flow in which each liquid particle has a definite path, and the paths of individual particles do not cross each other, is called",
+    "options": [
+      "steady flow",
+      "uniform flow",
+      "streamline flow",
+      "dominant flow"
+    ],
+    "correct": 2,
+    "explain": "In streamline (laminar) flow, fluid layers slide over each other without mixing or crossing paths."
+  },
+  {
+    "q": "11. A flow in which the quantity of liquid flowing per second is constant, is called _________ flow.",
+    "options": [
+      "steady",
+      "streamline",
+      "turbulent",
+      "unsteady"
+    ],
+    "correct": 0,
+    "explain": "Steady flow is defined as flow where properties (like discharge/velocity) do not change with respect to time."
+  },
+  {
+    "q": "12. A flow in which the quantity of liquid flowing per second is not constant, is called",
+    "options": [
+      "streamline flow",
+      "turbulent flow",
+      "steady flow",
+      "unsteady flow"
+    ],
+    "correct": 3,
+    "explain": "Unsteady flow occurs when parameters at a point vary over time."
+  },
+  {
+    "q": "13. Barometer is used to measure",
+    "options": [
+      "velocity of liquid",
+      "atmospheric pressure",
+      "pressure in pipes and channels",
+      "difference of pressure between two points in a pipe"
+    ],
+    "correct": 1,
+    "explain": "The barometer is specifically designed to measure local atmospheric pressure."
+  },
+  {
+    "q": "14. An opening in the side of a tank or vessel such that the liquid surface with the tank is below the top edge of the opening, is called ............",
+    "options": [
+      "weir",
+      "notch",
+      "orifice",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A notch is an opening in the side of a tank such that the liquid level is below the upper edge of the opening. It is primarily used for measuring discharge in small channels."
+  },
+  {
+    "q": "15. The frictional resistance of a pipe varies approximately with ............ of the liquid.",
+    "options": [
+      "pressure",
+      "velocity",
+      "square of velocity",
+      "cube of velocity"
+    ],
+    "correct": 2,
+    "explain": "According to Froude's experiments on fluid friction, for turbulent flow, the frictional resistance is proportional to the square of the velocity ($v^2$)."
+  },
+  {
+    "q": "16. The pressure of fluid due to hammer blow is ............",
+    "options": [
+      "directly proportional to density of fluid",
+      "inversely proportional to density of fluid",
+      "directly proportional to (density)^(1/2) of fluid",
+      "inversely proportional to (density)^(1/2) of fluid"
+    ],
+    "correct": 2,
+    "explain": "Water hammer pressure $P = \rho v C$, where $C$ (velocity of pressure wave) involves $\\sqrt{K/\rho}$, making $P$ proportional to $\\sqrt{\rho}$."
+  },
+  {
+    "q": "17. When a cylindrical vessel, containing some liquid, is rotated about its vertical axis, the liquid surface is depressed down at the axis of its rotation and rises up near the walls of the vessel on all sides. This type of flow is known as ............",
+    "options": [
+      "steady flow",
+      "turbulent flow",
+      "vortex flow",
+      "uniform flow"
+    ],
+    "correct": 2,
+    "explain": "Vortex flow is the motion of a fluid in a curved path or around a central axis. This specific case is a 'forced vortex'."
+  },
+  {
+    "q": "18. When a cylindrical vessel containing liquid is revolved about its vertical axis at a constant angular velocity, the pressure ............",
+    "options": [
+      "Varies at the square of the radial distance",
+      "increases linearly as its radial distance",
+      "increases as the square of the radial distance",
+      "decreases as the square of the radial distance"
+    ],
+    "correct": 2,
+    "explain": "In a forced vortex, the pressure head increases with the square of the radius ($P = \\frac{\\rho \\omega^2 r^2}{2}$)."
+  },
+  {
+    "q": "19. When a cylindrical vessel containing liquid is revolved, the surface of the liquid takes the shape of ............",
+    "options": [
+      "a triangle",
+      "a paraboloid",
+      "an ellipse",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The free surface of a liquid in a forced vortex takes the shape of a paraboloid of revolution."
+  },
+  {
+    "q": "20. The total pressure on the top of a closed cylindrical vessel completely filled up with a liquid is ............",
+    "options": [
+      "directly proportional to (radius)^2",
+      "inversely proportional to (radius)^2",
+      "directly proportional to (radius)^4",
+      "inversely proportional to (radius)^4"
+    ],
+    "correct": 2,
+    "explain": "By integrating the pressure over the top surface area, the total force (or pressure) is found to be proportional to $R^4$."
+  },
+  {
+    "q": "21. The increase in pressure at the outer edge of a drum of radius (r) completely filled up with liquid of density (ρ) and rotating at (ω) rad/s is ............",
+    "options": [
+      "ρ ω^2 r^2",
+      "2ρ ω^2 r^2",
+      "ρ ω^2 r^2 / 2",
+      "ρ ω^2 r^2 / 4"
+    ],
+    "correct": 2,
+    "explain": "The pressure difference between the center and a point at radius $r$ in a forced vortex is $\\Delta P = \\frac{\\rho \\omega^2 r^2}{2}$."
+  },
+  {
+    "q": "22. When a cylindrical vessel of radius (r) containing liquid is revolved about its vertical axis ω rad/s then depth of parabola which the liquid assumes is ............",
+    "options": [
+      "ω·r / 2g",
+      "ω^2·r^2 / 2g",
+      "ω·r / 4g",
+      "ω^2·r^2 / 4g"
+    ],
+    "correct": 1,
+    "explain": "The height of the paraboloid (rise at the edges) is given by $Z = v^2/2g = \\omega^2 r^2 / 2g$."
+  },
+  {
+    "q": "23. According to Newton's law of viscosity, the shear stress on a layer of a fluid is ............ to the rate of shear strain.",
+    "options": [
+      "equal to",
+      "directly proportional",
+      "inversely proportional",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "Newton's law states that $\\tau = \\mu (du/dy)$, where shear stress is directly proportional to the velocity gradient (rate of shear strain)."
+  },
+  {
+    "q": "24. Newton's law of viscosity is a relationship between ............",
+    "options": [
+      "pressure, velocity and temperature",
+      "shear stress and rate of shear strain",
+      "shear stress and velocity",
+      "rate of shear strain and temperature"
+    ],
+    "correct": 1,
+    "explain": "It defines the relationship where shear stress is proportional to the rate of shear deformation."
+  },
+  {
+    "q": "25. The unit of dynamic viscosity in S.I. units is ............",
+    "options": [
+      "N-m/s^2",
+      "N-s/m^2",
+      "poise",
+      "stoke"
+    ],
+    "correct": 1,
+    "explain": "Dynamic viscosity ($\\mu$) in SI units is Pascal-seconds (Pa·s), which is equivalent to $N \\cdot s/m^2$."
+  },
+  {
+    "q": "26. One poise is equal to ............",
+    "options": [
+      "0.1 N-s/m^2",
+      "1 N-s/m^2",
+      "10 N-s/m^2",
+      "100 N-s/m^2"
+    ],
+    "correct": 0,
+    "explain": "1 Poise = 1 dyne-s/cm² = 0.1 N·s/m² (or 0.1 Pa·s)."
+  },
+  {
+    "q": "27. The kinematic viscosity is the ............",
+    "options": [
+      "ratio of absolute viscosity to the density of the liquid",
+      "ratio of density of the liquid to the absolute viscosity",
+      "product of absolute viscosity and density of the liquid",
+      "product of absolute viscosity and mass of the liquid"
+    ],
+    "correct": 0,
+    "explain": "Kinematic viscosity ($\nu$) is defined as $\\mu/\rho$."
+  },
+  {
+    "q": "28. Stoke is the unit of ............",
+    "options": [
+      "kinematic viscosity in C.G.S. units",
+      "kinematic viscosity in M.K.S. units",
+      "dynamic viscosity in M.K.S. units",
+      "dynamic viscosity in S.I. units"
+    ],
+    "correct": 0,
+    "explain": "1 Stoke is the CGS unit for kinematic viscosity, equal to 1 cm²/s."
+  },
+  {
+    "q": "29. One stoke is equal to ............",
+    "options": [
+      "10^-2 m^2/s",
+      "10^-3 m^2/s",
+      "10^-4 m^2/s",
+      "10^-6 m^2/s"
+    ],
+    "correct": 2,
+    "explain": "1 Stoke = 1 cm²/s = $(10^{-2} m)^2/s = 10^{-4} m^2/s$."
+  },
+  {
+    "q": "30. The unit of kinematic viscosity in S.I. units is ............",
+    "options": [
+      "N-m/s",
+      "N-s/m^2",
+      "m^2/s",
+      "N-m"
+    ],
+    "correct": 2,
+    "explain": "The SI unit for kinematic viscosity is square meters per second ($m^2/s$)."
+  },
+  {
+    "q": "31. The viscosity of water at 20°C is ............",
+    "options": [
+      "one stoke",
+      "one centistroke",
+      "one poise",
+      "one centipoise"
+    ],
+    "correct": 3,
+    "explain": "At 20°C, the dynamic viscosity of water is approximately 1.0 centipoise (0.001 Pa·s)."
+  },
+  {
+    "q": "32. The kinematic viscosity of an oil (in stokes) whose specific gravity is 0.95 and viscosity 0.011 poise, is ............",
+    "options": [
+      "0.0116 stoke",
+      "0.116 stoke",
+      "0.0611 stoke",
+      "0.611 stoke"
+    ],
+    "correct": 0,
+    "explain": "Kinematic viscosity $\nu = \\mu/\rho = 0.011 / 0.95 \\approx 0.0116$ Stokes."
+  },
+  {
+    "q": "33. A fluid having no viscosity is known as ............",
+    "options": [
+      "real fluid",
+      "ideal fluid",
+      "Newtonian fluid",
+      "non-newtonian fluid"
+    ],
+    "correct": 1,
+    "explain": "An ideal fluid is a theoretical fluid that is incompressible and has zero viscosity (no friction)."
+  },
+  {
+    "q": "34. A fluid whose viscosity does not change with the rate of deformation or shear strain is known as ............",
+    "options": [
+      "real fluid",
+      "ideal fluid",
+      "Newtonian fluid",
+      "non-newtonian fluid"
+    ],
+    "correct": 2,
+    "explain": "Newtonian fluids have a constant viscosity regardless of the shear rate."
+  },
+  {
+    "q": "35. A fluid which obeys the Newton's law of viscosity is termed as ............",
+    "options": [
+      "real fluid",
+      "ideal fluid",
+      "Newtonian fluid",
+      "non-newtonian fluid"
+    ],
+    "correct": 2,
+    "explain": "By definition, Newtonian fluids follow the linear relationship $\tau = \\mu (du/dy)$."
+  },
+  {
+    "q": "36. Water is a ............ fluid.",
+    "options": [
+      "real",
+      "ideal",
+      "Newtonian",
+      "non-newtonian"
+    ],
+    "correct": 2,
+    "explain": "Water, air, and thin oils are common examples of Newtonian fluids."
+  },
+  {
+    "q": "37. The shear stress-strain graph for a Newtonian fluid is a ............",
+    "options": [
+      "straight line",
+      "parabolic curve",
+      "hyperbolic curve",
+      "elliptical"
+    ],
+    "correct": 0,
+    "explain": "Since $\tau \\propto du/dy$, the relationship is linear and passes through the origin."
+  },
+  {
+    "q": "38. A flow in which the viscosity of fluid is dominating over the inertia force is called ............",
+    "options": [
+      "steady flow",
+      "unsteady flow",
+      "laminar flow",
+      "turbulent flow"
+    ],
+    "correct": 2,
+    "explain": "Laminar flow occurs at low velocities where viscous forces are strong enough to keep fluid particles in smooth layers."
+  },
+  {
+    "q": "39. A moving fluid mass may be brought to a static equilibrium position, by applying an imaginary inertia force of the same magnitude as that of the accelerating force but in the opposite direction. This statement is called ...............",
+    "options": [
+      "Pascal's law",
+      "Archimede's principle",
+      "D-Alembert's principle",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "D-Alembert's principle states that a system can be analyzed as if it were in equilibrium by adding an 'inertial force' to the external forces."
+  },
+  {
+    "q": "40. When a tank containing liquid moves with an acceleration in the horizontal direction, then the free surface of the liquid ...............",
+    "options": [
+      "remains horizontal",
+      "becomes curved",
+      "falls on the front end",
+      "falls on the back end"
+    ],
+    "correct": 2,
+    "explain": "Due to horizontal acceleration, the liquid surface tilts. The depth increases at the rear (back) end and decreases (falls) at the front end."
+  },
+  {
+    "q": "41. An open tank containing liquid is made to move from rest with a uniform acceleration. The angle θ which the free surface of liquid makes with the horizontal is such that ...............",
+    "options": [
+      "tan θ = a/g",
+      "tan θ = 2a/g",
+      "tan θ = a/2g",
+      "tan θ = a²/2g"
+    ],
+    "correct": 0,
+    "explain": "The slope of the free surface in a horizontally accelerated tank is given by the ratio of horizontal acceleration (a) to the acceleration due to gravity (g)."
+  },
+  {
+    "q": "42. The coefficient of viscosity may be determined by ...............",
+    "options": [
+      "capillary tube method",
+      "orifice type viscometer",
+      "rotating cylinder method",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "All the listed methods are standard laboratory procedures used to measure the dynamic or kinematic viscosity of various fluids."
+  },
+  {
+    "q": "43. Bulk modulus of a fluid is the ratio of ...............",
+    "options": [
+      "shear stress to shear strain",
+      "increase in volume to the viscosity of fluid",
+      "increase in pressure to the volumetric strain",
+      "critical velocity to the viscosity of fluid"
+    ],
+    "correct": 2,
+    "explain": "Bulk modulus (K) measures a fluid's resistance to compression and is defined as the ratio of compressive stress (pressure increase) to volumetric strain."
+  },
+  {
+    "q": "44. The celerity (velocity) of a pressure wave in a fluid is given by ...............",
+    "options": [
+      "√(K·ρ)",
+      "√(K/ρ)",
+      "√(ρ/K)",
+      "K·ρ"
+    ],
+    "correct": 1,
+    "explain": "The speed of sound (celerity) in a fluid depends on its elasticity (Bulk modulus K) and its inertia (Density ρ), calculated as √(K/ρ)."
+  },
+  {
+    "q": "45. The force exerted by a moving fluid on an immersed body is directly proportional to the rate of change of momentum due to the presence of the body. This statement is called ...............",
+    "options": [
+      "Newton's law of motion",
+      "Newton's law of cooling",
+      "Newton's law of viscosity",
+      "Newton's law of resistance"
+    ],
+    "correct": 3,
+    "explain": "Newton's law of resistance states that the force (drag/resistance) is proportional to the rate of change of momentum of the fluid displaced or affected by the body."
+  },
+  {
+    "q": "46. Whenever a plate is held immersed at some angle with the direction of flow of the liquid, it is subjected to some pressure. The component of this pressure, in the direction of flow of the liquid, is known as ...............",
+    "options": [
+      "lift",
+      "drag",
+      "stagnation pressure",
+      "bulk modulus"
+    ],
+    "correct": 1,
+    "explain": "The force component acting parallel to the direction of motion is 'drag', while the component perpendicular to the motion is 'lift'."
+  },
+  {
+    "q": "47. The force present in a moving liquid is ...............",
+    "options": [
+      "inertia force",
+      "viscous force",
+      "gravity force",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Fluid dynamics involves several forces including inertia (resistance to change in motion), viscosity (internal friction), and gravity (weight)."
+  },
+  {
+    "q": "48. The product of mass and acceleration of flowing liquid is called ...............",
+    "options": [
+      "inertia force",
+      "viscous force",
+      "gravity force",
+      "pressure force"
+    ],
+    "correct": 0,
+    "explain": "In accordance with Newton's second law, F = ma, where the product of mass and acceleration represents the inertia force."
+  },
+  {
+    "q": "49. Viscous force is the ............... of shear stress due to viscosity and cross-sectional area of flow.",
+    "options": [
+      "sum",
+      "different",
+      "product",
+      "ratio"
+    ],
+    "correct": 2,
+    "explain": "Force is defined as Stress × Area. Therefore, viscous force is the product of viscous shear stress and the area over which it acts."
+  },
+  {
+    "q": "50. The value of bulk modulus of a fluid is required to determine ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Mach number",
+      "Euler's number"
+    ],
+    "correct": 2,
+    "explain": "The Mach number relates flow velocity to the speed of sound, which itself is calculated using the Bulk Modulus (K) and density (ρ)."
+  }
+]

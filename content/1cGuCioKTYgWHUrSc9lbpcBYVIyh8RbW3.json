@@ -1,0 +1,849 @@
+[
+  {
+    "q": "155. A cantilever beam is the one which is supported with",
+    "options": [
+      "one end hinge and other on rollers",
+      "one end fixed and the other on rollers",
+      "both on rollers",
+      "one end fixed and the other free"
+    ],
+    "correct": 3,
+    "explain": "By definition, a cantilever beam is fixed (built-in) at one end while the other end is completely free."
+  },
+  {
+    "q": "156. A horizontal beam with both the ends hinged will be statically determinate for this type of loadings",
+    "options": [
+      "purely vertical loading",
+      "purely inclined loads",
+      "any general loading",
+      "inclined loads with moments"
+    ],
+    "correct": 0,
+    "explain": "A beam hinged at both ends has redundant horizontal reactions unless loading is purely vertical, in which case horizontal reactions are automatically zero, making it determinate only for vertical loads."
+  },
+  {
+    "q": "157. Which of the following beams will have points of contraflexure?",
+    "options": [
+      "A simply supported beam with udl over entire span",
+      "An overhanging beam with loading only over supported span and not on overhangs",
+      "Fixed beam subjected to concentrated load",
+      "Cantilever subjected to uniformly varying loads"
+    ],
+    "correct": 2,
+    "explain": "A fixed beam under a concentrated load develops both hogging moments near supports and sagging moment mid-span, so the bending moment changes sign, creating points of contraflexure."
+  },
+  {
+    "q": "158. A beam is said to have been subjected to a pure bending moment, when",
+    "options": [
+      "S.F. is maximum",
+      "the load is applied as a udl throughout the span",
+      "S.F. in a length is zero",
+      "the load is applied at the mid-span section only"
+    ],
+    "correct": 2,
+    "explain": "Pure bending occurs over a length where shear force is zero (since dM/dx = SF), leaving only a constant bending moment."
+  },
+  {
+    "q": "159. The assumption that the cross-sections plane before bending remain plane even after bending means",
+    "options": [
+      "the strains in the fibers are proportional to their distances from neutral axis",
+      "the bending moment will be resisted by the central core of the section",
+      "the stresses in the fibres are proportional to their distances from neutral axis",
+      "the neutral axis lies at mid height"
+    ],
+    "correct": 0,
+    "explain": "Plane sections remaining plane implies a linear variation of strain with distance from the neutral axis, which is the fundamental Bernoulli-Euler bending assumption."
+  },
+  {
+    "q": "160. The assumption in the theory of bending that the material is homogeneous and isotropic has the same value of Young's Modulus in tension and compression implies that",
+    "options": [
+      "the stresses are proportional to strains at all fibres",
+      "the strains are proportional to distances of the fibres from neutral axis",
+      "the beam bends into a circular arc",
+      "the neutral axis lies at the centre"
+    ],
+    "correct": 0,
+    "explain": "Equal E in tension and compression (homogeneous, isotropic material) combined with Hooke's law implies stress is proportional to strain uniformly at all fibres of the section."
+  },
+  {
+    "q": "161. The moment of inertia of a rectangular section b x d about the base is",
+    "options": [
+      "bd³/12",
+      "bd³/3",
+      "bd³/36",
+      "bd²/6"
+    ],
+    "correct": 1,
+    "explain": "Using the parallel axis theorem from the centroidal value bd³/12, shifting to the base (distance d/2) gives I_base = bd³/12 + bd(d/2)² = bd³/3."
+  },
+  {
+    "q": "162. The moment of inertia of triangular section b x d, about the base is",
+    "options": [
+      "bh³/12",
+      "b²h²/2",
+      "bh³/36",
+      "b²h²/36"
+    ],
+    "correct": 0,
+    "explain": "For a triangle of base b and height h, the moment of inertia about the base is bh³/12, a standard formula."
+  },
+  {
+    "q": "163. In the case of T section, the maximum bending stress will occur at",
+    "options": [
+      "neutral axis",
+      "extreme fibre in the flange",
+      "extreme fibre in the web",
+      "junction of web and flange"
+    ],
+    "correct": 2,
+    "explain": "Since a T-section's neutral axis is closer to the flange, the farthest extreme fibre (in the web, at the bottom) experiences the maximum bending stress."
+  },
+  {
+    "q": "164. The neutral axis of any section is",
+    "options": [
+      "the axis passing through middle point of the height",
+      "the line of intersection of neutral plane with cross-section",
+      "the axis about which the moment of inertia is minimum",
+      "longitudinal axis of the member"
+    ],
+    "correct": 1,
+    "explain": "The neutral axis is defined as the line of intersection between the neutral plane (zero-strain plane) of the beam and its cross-section."
+  },
+  {
+    "q": "165. By increasing the carbon content in steel, the ultimate tensile strength will",
+    "options": [
+      "decrease",
+      "not be affected",
+      "increase",
+      "become zero"
+    ],
+    "correct": 2,
+    "explain": "Higher carbon content increases the hardness and strength of steel, thereby increasing its ultimate tensile strength (though reducing ductility)."
+  },
+  {
+    "q": "166. With the increase in the carbon content, the ductility of the steel will",
+    "options": [
+      "increase",
+      "decrease",
+      "not be affected",
+      "difficult to tell"
+    ],
+    "correct": 1,
+    "explain": "As carbon content increases, steel becomes harder and more brittle, resulting in decreased ductility."
+  },
+  {
+    "q": "167. Which of the following materials will have the highest Young's Modulus?",
+    "options": [
+      "Brass",
+      "Copper",
+      "Mild steel",
+      "Timber"
+    ],
+    "correct": 2,
+    "explain": "Among the listed materials, mild steel has the highest Young's modulus (~200 GPa), significantly higher than brass, copper, or timber."
+  },
+  {
+    "q": "168. Creep of a material is",
+    "options": [
+      "continued deformation with time under sustained loading",
+      "disappearance of deformation on removal of load",
+      "not being ductile",
+      "to become brittle"
+    ],
+    "correct": 0,
+    "explain": "Creep is defined as the gradual, continued deformation of a material over time while subjected to a constant sustained load, even below the yield stress."
+  },
+  {
+    "q": "169. What is tenacity?",
+    "options": [
+      "Ultimate strength in tension",
+      "Ultimate strength in compression",
+      "Ultimate shear strength",
+      "Ultimate impact strength"
+    ],
+    "correct": 0,
+    "explain": "Tenacity is the technical term for the ultimate tensile strength of a material."
+  },
+  {
+    "q": "170. At ordinary temperatures, how is the yield point affected with rate of loading?",
+    "options": [
+      "Not greatly influenced",
+      "Very greatly influenced",
+      "Not influenced at all",
+      "Difficult to tell"
+    ],
+    "correct": 0,
+    "explain": "At normal (ordinary) temperatures, the yield point of typical metals is not greatly affected by moderate changes in loading rate."
+  },
+  {
+    "q": "171. In case of a simply supported I section beam of span L and loaded with a central load W, the length of elasto plastic zone of the plastic hinge is",
+    "options": [
+      "L/2",
+      "L/3",
+      "L/4",
+      "L/5"
+    ],
+    "correct": 3,
+    "explain": "For an I-section beam (as opposed to rectangular), plastic analysis under central load gives an elasto-plastic zone length of L/5 due to its different shape factor and stress distribution."
+  },
+  {
+    "q": "172. If all the dimensions of prismatic bar are doubled, then the maximum stress produced in it under its own weight will",
+    "options": [
+      "decrease",
+      "remains unchanged",
+      "increase to two times",
+      "increase to four times"
+    ],
+    "correct": 2,
+    "explain": "Self-weight stress at the base = weight/area ∝ (volume×density)/area ∝ length (since volume/area ∝ length for a scaled bar); doubling all dimensions doubles the length, hence doubling this self-weight stress."
+  },
+  {
+    "q": "173. Limiting values of Poisson's ratio are",
+    "options": [
+      "−1 and 0.5",
+      "−1 and −0.5",
+      "1 and −0.5",
+      "0 and 0.5"
+    ],
+    "correct": 0,
+    "explain": "From thermodynamic stability requirements for isotropic elastic materials, Poisson's ratio must lie between −1 and 0.5."
+  },
+  {
+    "q": "174. The ratio of the stresses produced by a suddenly applied load and by a gradually applied load on a bar is",
+    "options": [
+      "1/4",
+      "1/2",
+      "1",
+      "2"
+    ],
+    "correct": 3,
+    "explain": "A suddenly applied load produces twice the stress (and deflection) of the same load applied gradually, a classic impact-loading result."
+  },
+  {
+    "q": "175. Maximum strain theory for the failure of material at the elastic limit is known as",
+    "options": [
+      "Guest or Trecas theory",
+      "St. Venant theory",
+      "Rankine theory",
+      "Haig theory"
+    ],
+    "correct": 1,
+    "explain": "The maximum strain theory of failure is also known as St. Venant's theory."
+  },
+  {
+    "q": "176. Maximum shear stress theory for the failure of a material at the elastic limit is known as",
+    "options": [
+      "Guest or Trecas theory",
+      "St. Venant theory",
+      "Rankine theory",
+      "Haig theory"
+    ],
+    "correct": 0,
+    "explain": "The maximum shear stress theory of failure is also called Guest's theory or Tresca's theory."
+  },
+  {
+    "q": "177. A suspension cable, supporting loads will be under",
+    "options": [
+      "tension",
+      "bending",
+      "compression",
+      "compression and bending"
+    ],
+    "correct": 0,
+    "explain": "A flexible suspension cable can only carry axial tension (it cannot resist bending or compression), so it is always under pure tension."
+  },
+  {
+    "q": "178. The intercept between a given arch and a linear arch at a section is proportional to",
+    "options": [
+      "the horizontal thrust",
+      "the shear force at the section",
+      "the vertical reaction at the support",
+      "the bending moment at the section"
+    ],
+    "correct": 3,
+    "explain": "The vertical distance (intercept) between an actual arch axis and the linear (funicular/thrust-line) arch at any section is proportional to the bending moment at that section (M = H×intercept)."
+  },
+  {
+    "q": "179. The reaction locus a two hinged parabolic arch is",
+    "options": [
+      "a horizontal line parallel to the span",
+      "a parabolic curve",
+      "a cycloid",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "As a point load moves across a two-hinged parabolic arch, the locus of resultant reaction traces a parabolic curve."
+  },
+  {
+    "q": "180. The maximum tension in a cable occurs",
+    "options": [
+      "at the highest point in the cable",
+      "at the lowest point in the cable",
+      "at the center of the cable",
+      "at all points in the cable"
+    ],
+    "correct": 0,
+    "explain": "In a suspended cable, tension is a combination of horizontal component (constant) and vertical component (varying with slope); it is maximum at the supports (highest points), where the cable's slope is steepest."
+  },
+  {
+    "q": "181. A parabolic cable is subjected to a rise of t°C in temperature. Then the increase in dip of the cable is proportional to",
+    "options": [
+      "span length",
+      "square of span length",
+      "cube of span length",
+      "reciprocal of span length"
+    ],
+    "correct": 1,
+    "explain": "The extra length gained due to thermal expansion relates to dip change through a relation involving the square of the span, giving increase in dip proportional to (span)²."
+  },
+  {
+    "q": "182. A three hinged girder is used to stiffen a cable of a suspension bridge. Then the bending moment in the girder due to loads will be",
+    "options": [
+      "maximum at mid span",
+      "maximum at quarter span",
+      "maximum at one eighth span",
+      "zero over the entire span"
+    ],
+    "correct": 3,
+    "explain": "In an ideal stiffened suspension system with a three-hinged girder matching the cable's thrust line, the girder carries zero bending moment throughout, all load being carried by cable tension."
+  },
+  {
+    "q": "183. A cable subjected to udl over its entire span assumes a shape of",
+    "options": [
+      "semi circle",
+      "an isosceles triangle",
+      "parabola",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A cable under a uniformly distributed load (per unit horizontal length, like a suspension bridge deck) takes the shape of a parabola."
+  },
+  {
+    "q": "184. Maximum principal stress theory for the failure of a material at elastic point is known as",
+    "options": [
+      "Guest or Trecas theory",
+      "St. Venant theory",
+      "Rankine theory",
+      "Haig theory"
+    ],
+    "correct": 2,
+    "explain": "The maximum principal stress theory of failure is also known as Rankine's theory."
+  },
+  {
+    "q": "185. Total strain energy theory for the failure of a material at the elastic limit is known as",
+    "options": [
+      "Guest or Trecas theory",
+      "St. Venant theory",
+      "Rankine theory",
+      "Haig theory"
+    ],
+    "correct": 3,
+    "explain": "The total strain energy theory of failure is also known as Haig's theory (Beltrami's theory)."
+  },
+  {
+    "q": "186. A localized compressive stress at the area of contact between two members is known as",
+    "options": [
+      "tensile stress",
+      "bending stress",
+      "crushing stress",
+      "shear stress"
+    ],
+    "correct": 2,
+    "explain": "A localized compressive stress at the contact area between two members (such as at a bearing or joint) is termed crushing (bearing) stress."
+  },
+  {
+    "q": "187. Principle plane is a plane on which the shear stress is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "none"
+    ],
+    "correct": 0,
+    "explain": "A principal plane is defined as a plane on which the shear stress is zero, and only normal (principal) stress acts."
+  },
+  {
+    "q": "188. The extremities of any diameter on Mohr's circle represent",
+    "options": [
+      "principal stress",
+      "normal stresses on planes at 45°",
+      "shear stresses on planes at 45°",
+      "normal and shear stresses on a plane"
+    ],
+    "correct": 3,
+    "explain": "Each point on Mohr's circle represents the normal and shear stress combination on a particular plane; the two ends of any diameter represent stresses on two mutually perpendicular planes."
+  },
+  {
+    "q": "189. A beam is a structural member predominantly subjected to",
+    "options": [
+      "transverse loads",
+      "axial forces",
+      "twisting moment",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A beam, by definition, is a structural member designed to primarily resist transverse (perpendicular to its axis) loads, developing shear and bending."
+  },
+  {
+    "q": "190. A beam is completely analyzed when",
+    "options": [
+      "support reactions are determined",
+      "shear and moment diagrams are found",
+      "the moment of inertia is uniform throughout the length",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A beam analysis is considered complete once the shear force and bending moment diagrams (which describe internal forces along the entire length) are obtained."
+  },
+  {
+    "q": "191. A rigid frame is a structure composed of members which are connected by",
+    "options": [
+      "rigid joints",
+      "simple bearing",
+      "a single rivet",
+      "none"
+    ],
+    "correct": 0,
+    "explain": "By definition, a rigid frame has members connected by rigid (moment-resisting) joints, as opposed to pin-jointed trusses."
+  },
+  {
+    "q": "192. A frame is completely analyzed when",
+    "options": [
+      "the variation in shear is found throughout the frame",
+      "the variation in direct stress, shear and moment is found throughout the frame",
+      "the shear and moment reaction from member to member are known at every joint",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A rigid frame analysis is complete only when all three internal force quantities—axial (direct) force, shear force, and bending moment—are known throughout every member."
+  },
+  {
+    "q": "193. In a co planar parallel force system, the number of unknown forces that can be found by the principle of statics is",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "correct": 1,
+    "explain": "A coplanar parallel force system has only 2 independent equilibrium equations available (ΣF=0 along the force direction, and ΣM=0), since ΣF perpendicular to forces is automatically satisfied."
+  },
+  {
+    "q": "194. In a general co planar force system, the number of unknown forces that can be found by the principle of statics is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct": 2,
+    "explain": "A general coplanar force system has 3 independent equilibrium equations: ΣFx=0, ΣFy=0, ΣM=0, so up to 3 unknowns can be solved."
+  },
+  {
+    "q": "195. If the span of real beam is l, the span of the corresponding conjugate beam is",
+    "options": [
+      "l/2",
+      "l",
+      "2l",
+      "l × number of supports"
+    ],
+    "correct": 1,
+    "explain": "In the conjugate beam method, the conjugate beam has the same span (length) as the real beam; only the support conditions and loading (M/EI diagram) change."
+  },
+  {
+    "q": "196. The loading on the conjugate beam will be",
+    "options": [
+      "loading on the real beam divided by EI",
+      "B.M. diagram multiplied by EI",
+      "B.M. diagram divided by SF diagram",
+      "B.M. diagram divided by EI"
+    ],
+    "correct": 3,
+    "explain": "The conjugate beam method loads the conjugate beam with the M/EI diagram of the real beam (bending moment diagram divided by flexural rigidity EI)."
+  },
+  {
+    "q": "197. The stress due to temperature change in a member depends on",
+    "options": [
+      "length of the member",
+      "area of cross-section",
+      "supporting conditions at the two ends",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Thermal stress develops only if expansion/contraction is restrained; hence it depends fundamentally on the support/end conditions (degree of restraint), not on length or area directly."
+  },
+  {
+    "q": "198. The percentage elongation of a material from a direct tensile test indicates",
+    "options": [
+      "ductility",
+      "strength",
+      "yield stress",
+      "ultimate strength"
+    ],
+    "correct": 0,
+    "explain": "Percentage elongation (increase in gauge length at fracture) is the standard measure of a material's ductility."
+  },
+  {
+    "q": "199. The percentage reduction in area of a member from a direct tension test indicates",
+    "options": [
+      "ductility",
+      "elasticity",
+      "malleability",
+      "brittleness"
+    ],
+    "correct": 0,
+    "explain": "Percentage reduction in cross-sectional area at fracture, like percentage elongation, is a standard measure of ductility."
+  },
+  {
+    "q": "200. The Poisson's ratio is the ratio of",
+    "options": [
+      "lateral elongation to linear elongation",
+      "lateral stress to linear stress",
+      "lateral strain to longitudinal strain",
+      "Yong's modulus elasticity to modulus of rigidity"
+    ],
+    "correct": 2,
+    "explain": "Poisson's ratio is, by definition, the ratio of lateral strain to longitudinal (axial) strain under uniaxial loading."
+  },
+  {
+    "q": "201. The equation connection Yong's modulus (E) Poisson's (1/m) and Modulus of Rigidity (C), is",
+    "options": [
+      "C=2E(1+1/m)",
+      "E=2C(1−2/m)",
+      "E=3C(1+1/m)",
+      "E=2C(1+1/m)"
+    ],
+    "correct": 3,
+    "explain": "The standard elastic relation connecting Young's modulus E, modulus of rigidity C(G), and Poisson's ratio (1/m) is E = 2C(1 + 1/m)."
+  },
+  {
+    "q": "202. The strain energy stored in a body, when suddenly loaded, is ............. the strain energy stored when same load is applied gradually.",
+    "options": [
+      "equal to",
+      "one-half",
+      "twice",
+      "four times"
+    ],
+    "correct": 3,
+    "explain": "A suddenly applied load causes twice the stress/deformation of a gradual load, and since strain energy ∝ (deformation)², the stored energy becomes four times as much."
+  },
+  {
+    "q": "203. When a load on the free end of a cantilever beam is increased, failure will occur",
+    "options": [
+      "at the free end",
+      "at the fixed end",
+      "in the middle of the beam",
+      "at a distance 2l/3 from free end"
+    ],
+    "correct": 1,
+    "explain": "For a cantilever, bending moment is maximum at the fixed (built-in) support, so failure (due to maximum bending stress) will initiate there."
+  },
+  {
+    "q": "204. To avoid any possibility of tension occurring in masonry structures, the resultant of various forces at any level must through",
+    "options": [
+      "the section",
+      "the centre of the section",
+      "middle third of the width or depth of the section",
+      "a corner of the section"
+    ],
+    "correct": 2,
+    "explain": "The 'middle third rule' requires the resultant force to pass within the middle third of the section width/depth to prevent tensile stress in masonry (which cannot resist tension)."
+  },
+  {
+    "q": "205. The effective length of a column with both ends fixed is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 0,
+    "explain": "For a column fixed at both ends, the effective length is Le = L/2, per Euler's standard end-condition factors."
+  },
+  {
+    "q": "206. The effective length of a column with both ends hinged is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 3,
+    "explain": "For a column hinged (pinned) at both ends, the effective length equals the actual length: Le = L."
+  },
+  {
+    "q": "207. The effective length of a column with one end fixed and the other end free is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 1,
+    "explain": "For a column fixed at one end and free at the other, the effective length is Le = 2L."
+  },
+  {
+    "q": "208. The effective length of a column with one end fixed and the other end hinged is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 2,
+    "explain": "For a column fixed at one end and hinged at the other, the effective length is Le = L/√2."
+  },
+  {
+    "q": "209. In the case of long columns the maximum permissible stress depends on",
+    "options": [
+      "the ultimate crushing strength of the material",
+      "the maximum slenderness ratio",
+      "radius of gyration only",
+      "effective length only"
+    ],
+    "correct": 1,
+    "explain": "For long columns, buckling (governed by slenderness ratio, combining both length and radius of gyration) controls failure, so permissible stress depends on the maximum slenderness ratio."
+  },
+  {
+    "q": "210. The stress at which extension of a material takes place more quickly as compared to the increase in load, is called",
+    "options": [
+      "elastic point",
+      "plastic point",
+      "breaking point",
+      "yielding point"
+    ],
+    "correct": 3,
+    "explain": "The yield point is defined as the stress at which strain (extension) increases disproportionately faster than the applied load/stress."
+  },
+  {
+    "q": "211. Every material obeys the Hooke's law within its",
+    "options": [
+      "elastic limit",
+      "plastic point",
+      "limit of proportionality",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Hooke's law (stress directly proportional to strain) strictly holds only up to the limit of proportionality on the stress-strain curve."
+  },
+  {
+    "q": "212. The law which states, \"Within elastic limits strain produced is proportional to the stress producing it\", is known as",
+    "options": [
+      "Bernoulli's law",
+      "Stress law",
+      "Hooke's law",
+      "Poisson's law"
+    ],
+    "correct": 2,
+    "explain": "This statement is the definition of Hooke's Law."
+  },
+  {
+    "q": "213. In a bar of large length when held vertically and subjected to a load at its lower end, its own-weight, produces additional stress. The maximum stress will be",
+    "options": [
+      "at the lower cross-section",
+      "at the built-in upper cross-section",
+      "at the central cross-section",
+      "at every point of the bar"
+    ],
+    "correct": 1,
+    "explain": "The internal axial force (and hence stress) accumulates from the free lower end upward due to self-weight, so the maximum total stress (applied load + accumulated self-weight) occurs at the top, built-in cross-section."
+  },
+  {
+    "q": "214. If the stress produced by a prismatic bar is equal to the working stress, the area of the cross-section of the prismatic bar, becomes",
+    "options": [
+      "zero",
+      "infinite",
+      "maximum",
+      "minimum"
+    ],
+    "correct": 1,
+    "explain": "For a bar of uniform section carrying its own weight and load, if stress must remain exactly at the (constant) working stress everywhere despite increasing self-weight force with length, the theoretical cross-sectional area needed tends to infinity (this describes the limiting/idealized case of a bar of uniform strength)."
+  },
+  {
+    "q": "215. The ratio of elongations of a conical bar due to its own weight and that of a prismatic bar of the same length, is",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5"
+    ],
+    "correct": 1,
+    "explain": "As established earlier, a conical bar's self-weight elongation is exactly one-third that of a prismatic bar of the same length."
+  },
+  {
+    "q": "216. A square column carries a load P at the centroid of one of the quarters of the square, the side of the main square, the combined bending stress will be",
+    "options": [
+      "P/a²",
+      "2P/a²",
+      "3P/a²",
+      "4P/a²"
+    ],
+    "correct": 2,
+    "explain": "Applying combined direct and bending stress formulas for a load placed at the centroid of one quadrant (eccentricity a/4 in both directions) of a square column of side a gives a combined stress of 3P/a²."
+  },
+  {
+    "q": "217. The area of the core of a column of cross sectional area A is",
+    "options": [
+      "A/3",
+      "A/6",
+      "A/12",
+      "A/18"
+    ],
+    "correct": 3,
+    "explain": "For standard rectangular/square columns, the core area (region of no tension) works out to A/18 of the total cross-sectional area, a known ratio derived from the middle-third rhombus geometry."
+  },
+  {
+    "q": "218. The ratio of the area of cross section of a circular section to the area of its core is",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "correct": 3,
+    "explain": "Core radius of a circle is r/4, so core area = π(r/4)² = πr²/16; ratio of total area (πr²) to core area is 16."
+  },
+  {
+    "q": "219. When a closed coiled helical spring is subjected to an axial tensile load the material of the spring will be subjected to",
+    "options": [
+      "axial compressive stress",
+      "bending stress",
+      "axial tensile stress",
+      "shear stress"
+    ],
+    "correct": 3,
+    "explain": "In a closed-coil helical spring under axial load, the wire is primarily subjected to torsional shear stress due to the load acting at an offset (radius) from the wire's axis."
+  },
+  {
+    "q": "220. When a close coiled helical spring is subjected to an axial twist, the material of the spring will be subjected to",
+    "options": [
+      "bending stresses",
+      "axial compressive stress",
+      "axial tensile stress",
+      "shear stress"
+    ],
+    "correct": 0,
+    "explain": "When a closed-coil spring is subjected to an axial twisting moment (about its own axis), the wire is subjected to bending stress (the roles of torsion and bending swap compared to axial loading)."
+  },
+  {
+    "q": "221. In the Euler's theory for long columns it is assumed that",
+    "options": [
+      "the failure occurs by crushing of the material",
+      "the failure occurs by buckling only",
+      "the column shortens so much that it will become a short column",
+      "the column is having initial curvature and the load is eccentrically applied"
+    ],
+    "correct": 1,
+    "explain": "Euler's column theory is based purely on elastic instability (buckling) failure, ignoring crushing/direct stress effects, applicable to long columns."
+  },
+  {
+    "q": "222. Euler's formulae for columns can be used if the slenderness ratio is",
+    "options": [
+      "<100",
+      "0",
+      ">120",
+      "> 120 but less than 180"
+    ],
+    "correct": 2,
+    "explain": "Euler's formula is valid for long columns with high slenderness ratio, generally taken as greater than about 120, where buckling (not crushing) governs failure."
+  },
+  {
+    "q": "223. If a shaft subjected to pure torsion cracks, the crack will start",
+    "options": [
+      "at centre of cross section",
+      "on the periphery",
+      "throughout the cross-section simultaneously",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Since shear stress due to torsion is maximum at the outer surface (periphery) and zero at the centre, cracks in a shaft under torsion initiate at the periphery."
+  },
+  {
+    "q": "224. Shear strain theory for the failure of a material at elastic limit is due to",
+    "options": [
+      "Rankine",
+      "Guest or Trecas",
+      "St. Venant",
+      "Von Mises"
+    ],
+    "correct": 3,
+    "explain": "The shear strain energy (distortion energy) theory of failure is attributed to Von Mises (also known as the Von Mises-Hencky theory)."
+  },
+  {
+    "q": "225. Gradually applied static loads do not change with time their",
+    "options": [
+      "magnitude",
+      "direction",
+      "point of application",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "A static load, by definition, is applied gradually and remains constant in magnitude, direction, and point of application over time — hence 'all of these'."
+  },
+  {
+    "q": "226. If Q is a load factor, S is shape factor and F is factor of safety in elastic design, the following",
+    "options": [
+      "Q = S + F",
+      "Q = S − F",
+      "Q = F − S",
+      "Q = S × F"
+    ],
+    "correct": 3,
+    "explain": "The relation between load factor, shape factor, and factor of safety in plastic/elastic design theory is Q = S × F."
+  },
+  {
+    "q": "227. The sum of normal stress is",
+    "options": [
+      "constant",
+      "variable",
+      "dependent on the planes",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The sum of normal stresses on two mutually perpendicular planes at a point (σx + σy) is a stress invariant — it remains constant regardless of the orientation of the planes chosen."
+  },
+  {
+    "q": "228. The radius of Mohr's circle for two equal unlike principle stresses of magnitude P is",
+    "options": [
+      "P",
+      "P/2",
+      "Zero",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "For two equal but unlike (opposite sign) principal stresses +P and −P, the radius of Mohr's circle = (σ1−σ2)/2 = (P−(−P))/2 = P."
+  },
+  {
+    "q": "229. Shear stress on principal planes is",
+    "options": [
+      "zero",
+      "maximum",
+      "minimum",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "By definition, principal planes are those on which shear stress is zero (only normal stress acts)."
+  },
+  {
+    "q": "230. The statically indeterminate structures can be solved by",
+    "options": [
+      "using equations of static alone",
+      "equations of compatibility alone",
+      "ignoring all deformations and assuming the structure to be rigid",
+      "using the equations of static and the necessary number of equations of compatibility"
+    ],
+    "correct": 3,
+    "explain": "Statically indeterminate structures require both the equilibrium (static) equations and additional compatibility equations (based on deformation) to be solved fully."
+  },
+  {
+    "q": "231. The equations of compatibility are based on",
+    "options": [
+      "the geometry of the deformed structure under the action of several forces acting",
+      "the nature of external forces",
+      "the duration of external forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Compatibility equations ensure that displacements/deformations throughout a structure remain geometrically consistent (continuous) under the applied loading."
+  }
+]

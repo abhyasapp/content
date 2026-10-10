@@ -1,0 +1,112 @@
+[
+  {
+    "q": "1. The estimated time required to complete an activity is known as",
+    "options": [
+      "duration",
+      "float",
+      "restraint",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "Duration is the predicted span of time necessary to finish a task, excluding holidays or non-working periods."
+  },
+  {
+    "q": "2. When float or slack of an activity is positive",
+    "options": [
+      "it represents a situation where extra resources are available and the completion of project is not delayed",
+      "it represents that a programme falls behind schedule and additional resources are required to complete the project in time",
+      "the activity is critical and any delay in its performance will delay the completion of whole project",
+      "any one of the above"
+    ],
+    "correct": 0,
+    "explain": "Positive float indicates a 'safety margin'. The activity can be delayed by that amount without impacting the project deadline."
+  },
+  {
+    "q": "3. Critical path method",
+    "options": [
+      "helps in ascertaining time schedules",
+      "makes better and detailed planning possible",
+      "provides a standard method for communication project plans, schedules time and cost performance",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "CPM is a comprehensive planning technique used to determine the sequence of critical activities and manage the overall project timeline and resources."
+  },
+  {
+    "q": "4. Which of the following statement is correct?",
+    "options": [
+      "When float of an activity is zero, it falls only on critical path.",
+      "C.P.M. technique is useful to minimise the direct and indirect expenses.",
+      "Critical path of a network represents the minimum time required for completion of project.",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explain": "All statements are true: Zero float identifies critical activities, CPM balances costs, and the critical path duration is the fastest the project can finish."
+  },
+  {
+    "q": "5. When float of an activity is negative",
+    "options": [
+      "it represents a situation where extra resources are available and the completion of project is delayed",
+      "it represents that a programme falls behind schedule and additional resources are required to complete the project in time",
+      "the activity is critical and any delay in its performance will delay the completion of whole project",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Negative float occurs when the required completion date is earlier than the calculated earliest finish date, meaning the project is currently behind schedule."
+  },
+  {
+    "q": "6. Which of the following statement is wrong?",
+    "options": [
+      "an activity consumes time and resources whereas an event do not consume time or resources.",
+      "the performance of a specific task is called an activity",
+      "an event is an instantaneous point in time at which an activity begins or ends",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "None of the statements are wrong. Options (a), (b), and (c) correctly define the fundamental building blocks of a network diagram."
+  },
+  {
+    "q": "7. A dual role event",
+    "options": [
+      "is the head events as well as a tail event",
+      "consumes no time",
+      "is the beginning of one event and the end of another",
+      "is any event other than the initial and final events"
+    ],
+    "correct": 3,
+    "explain": "A dual role event acts as the end (head) of preceding activities and the start (tail) of succeeding activities. Only the very first and very last events of a project are NOT dual role."
+  },
+  {
+    "q": "8. In P.E.R.T., the critical path represents the",
+    "options": [
+      "shortest path of the earliest completion of the project",
+      "longest path of the network from the initial to final event",
+      "ideal path by proceeding along which the project can be completed as per schedule",
+      "path which takes into account the completion of the parallel activities"
+    ],
+    "correct": 1,
+    "explain": "Regardless of CPM or PERT, the critical path is always the sequence of activities that represents the longest duration through the network."
+  },
+  {
+    "q": "9. The optimistic time estimate represents",
+    "options": [
+      "the shortest time required to complete the activity under favorable conditions",
+      "the maximum time required to complete the activity under adverse conditions",
+      "the time the activity would most often require if normal conditions prevail",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The optimistic time ($t_o$) is the minimum possible time needed to complete an activity if everything goes perfectly."
+  },
+  {
+    "q": "10. If to, tp and tl represent the optimistic, pessimistic and most likely time estimates, the expected time of completion of the activity is given by",
+    "options": [
+      "te = (to + tl + tp) / 3",
+      "te = (to + 2tl + tp) / 4",
+      "te = (to + 3tl + tp) / 5",
+      "te = (to + 4tl + tp) / 6"
+    ],
+    "correct": 3,
+    "explain": "The PERT formula for Expected Time is a weighted average that gives 4 times the weight to the most likely time: $t_e = (t_o + 4t_m + t_p) / 6$. (Note: $t_l$ is used here as most likely)."
+  }
+]
