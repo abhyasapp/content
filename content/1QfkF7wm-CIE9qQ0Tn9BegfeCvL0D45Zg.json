@@ -1,6 +1,105 @@
 [
   {
-    "q": "1. Direct cost of project is due to",
+    "q": "1. Sinking fund is",
+    "options": [
+      "the fund for rebuilding a structure when its economic life is over",
+      "raised to meet maintenance costs",
+      "the total sum to be paid to the municipal authorities by the tenants",
+      "a part of the money kept in reserve for providing additional structure and structural modifications"
+    ],
+    "correct": 0,
+    "explain": "A sinking fund is set aside periodically to rebuild or replace a structure at the end of its economic life."
+  },
+  {
+    "q": "2. The amount saved as depreciation reserve fund will be termed as",
+    "options": [
+      "operating cost",
+      "profit",
+      "loss",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "It is a reserve set aside for replacement, so it is none of operating cost, profit or loss."
+  },
+  {
+    "q": "3. The direct cost of a project with respect normal time is",
+    "options": [
+      "minimum",
+      "maximum",
+      "zero",
+      "infinite"
+    ],
+    "correct": 0,
+    "explain": "Direct cost is lowest at the normal duration and rises as the project is crashed."
+  },
+  {
+    "q": "4. The reduction in project time normally results in",
+    "options": [
+      "decreasing the direct cost and increasing indirect cost",
+      "increasing the direct cost and decreasing the indirect cost",
+      "increasing the direct cost and indirect cost both",
+      "decreasing the direct cost and indirect cost both"
+    ],
+    "correct": 1,
+    "explain": "Crashing raises direct cost, while a shorter duration lowers indirect cost (overheads)."
+  },
+  {
+    "q": "5. Which of the following is not related to cost slope?",
+    "options": [
+      "Crash cost",
+      "Normal cost",
+      "Crash time",
+      "Slack"
+    ],
+    "correct": 3,
+    "explain": "Cost slope = (crash cost – normal cost)/(normal time – crash time). Slack is not part of it."
+  },
+  {
+    "q": "6. The constraints in case of resource smoothening operation would be",
+    "options": [
+      "resources",
+      "project duration time",
+      "both resources and project duration time",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In smoothening the project duration is fixed, and resources are adjusted within it. Per the key, b."
+  },
+  {
+    "q": "7. Crash project duration is obtained by summing the",
+    "options": [
+      "normal durations for all the activities",
+      "crash durations for all activities",
+      "crash durations for all the activities along the critical path obtained by taking into account the normal duration for the activities",
+      "crash durations for all the activities along the critical path obtained by taking into account the crash duration for all the activities"
+    ],
+    "correct": 3,
+    "explain": "Crash duration is the sum of crash durations along the critical path, found after all activities are crashed."
+  },
+  {
+    "q": "8. In CPM",
+    "options": [
+      "time optimisation is given prime importance",
+      "cost optimisation is given prime importance",
+      "cost is directly proportional to time",
+      "all the above"
+    ],
+    "correct": 1,
+    "explain": "CPM stresses time-cost trade-off, so cost optimisation is the prime concern."
+  },
+  {
+    "q": "9. Indirect cost of the project",
+    "options": [
+      "decrease with duration",
+      "decrease up to optimum duration and then increase with duration",
+      "increase with duration",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "Indirect cost (overheads) rises with project duration."
+  },
+  {
+    "q": "10. Direct cost of project is due to",
     "options": [
       "establishment charges as salaries to administrative staff",
       "loss or gain of revenue",
@@ -11,7 +110,7 @@
     "explain": "Direct costs are those directly attributable to the execution of work, such as material costs and labour wages."
   },
   {
-    "q": "2. Total project cost",
+    "q": "11. Total project cost",
     "options": [
       "increases with increase in time",
       "reduces with increase in time",
@@ -22,7 +121,7 @@
     "explain": "As project duration increases from crash time, direct cost falls while indirect cost rises; the combined total cost initially decreases then increases, forming a U-shaped curve."
   },
   {
-    "q": "3. The total cost versus time curve is",
+    "q": "12. The total cost versus time curve is",
     "options": [
       "straight line",
       "U-shaped curve",
@@ -33,7 +132,7 @@
     "explain": "The sum of direct and indirect cost curves against project duration forms a U-shaped curve with a minimum at the optimum duration."
   },
   {
-    "q": "4. Crashing to the project means",
+    "q": "13. Crashing to the project means",
     "options": [
       "reducing the time of completion by spending more resources",
       "reducing the cost of project by delaying the time of completion",
@@ -44,7 +143,7 @@
     "explain": "Crashing means shortening the project completion time by applying additional resources (at extra cost) to critical activities."
   },
   {
-    "q": "5. The time below witch the duration can not be further reduced is known as",
+    "q": "14. The time below witch the duration can not be further reduced is known as",
     "options": [
       "normal time",
       "crash time",
@@ -55,7 +154,7 @@
     "explain": "Crash time is the absolute minimum time in which an activity can be completed by employing additional resources, regardless of cost."
   },
   {
-    "q": "6. The cost corresponding to crash time is",
+    "q": "15. The cost corresponding to crash time is",
     "options": [
       "direct cost is maximum",
       "indirect cost is minimum",
@@ -66,7 +165,7 @@
     "explain": "Crashing involves increasing resources to save time, which maximizes direct costs. Because the duration is shortest, indirect costs are minimized, but the total cost often peaks."
   },
   {
-    "q": "7. The cost corresponding to the completion of activity within normal time is",
+    "q": "16. The cost corresponding to the completion of activity within normal time is",
     "options": [
       "direct cost",
       "indirect cost",
@@ -77,7 +176,7 @@
     "explain": "Normal cost is the expenditure associated with completing an activity in its 'normal time' using standard resources and methods."
   },
   {
-    "q": "8. The direct cost of a project with respect to normal time is",
+    "q": "17. The direct cost of a project with respect to normal time is",
     "options": [
       "maximum",
       "minimum",
@@ -88,7 +187,7 @@
     "explain": "In the time-cost relationship, direct cost is at its lowest (minimum) when the project is executed at a normal, non-accelerated pace."
   },
   {
-    "q": "9. Assuming that the cost varies with time, the cost – slope is defined as",
+    "q": "18. Assuming that the cost varies with time, the cost – slope is defined as",
     "options": [
       "(crash cost - normal cost) / crash time",
       "(crash cost - normal cost) / normal time",
@@ -99,7 +198,7 @@
     "explain": "Cost slope represents the increase in cost per unit of time saved. It is calculated as the change in cost divided by the change in time."
   },
   {
-    "q": "10. Direct cost of a project is due to",
+    "q": "19. Direct cost of a project is due to",
     "options": [
       "establishment charges as salaries to administrative staff",
       "loss gain of revenue",
@@ -110,7 +209,7 @@
     "explain": "Direct costs are those that can be attributed directly to a specific activity, such as the physical materials used and the wages of the workers performing the task."
   },
   {
-    "q": "11. Indirect cost of the project",
+    "q": "20. Indirect cost of the project",
     "options": [
       "decreases with duration",
       "decreases up to optimum duration and then increase with duration",
@@ -121,7 +220,7 @@
     "explain": "Indirect costs are time-dependent expenses (overheads); the longer the project lasts, the more these costs accumulate."
   },
   {
-    "q": "12. Total project cost",
+    "q": "21. Total project cost",
     "options": [
       "increases with time",
       "decreases with time",
@@ -132,7 +231,29 @@
     "explain": "Total cost is the sum of direct and indirect costs. It typically decreases as duration increases toward the 'optimum' point, then starts to rise again as indirect costs dominate."
   },
   {
-    "q": "13. The time corresponding to minimum total project cost is",
+    "q": "22. The time corresponding to minimum total project cost is",
+    "options": [
+      "crash time",
+      "normal time",
+      "optimistic time",
+      "between normal time and crash time"
+    ],
+    "correct": 3,
+    "explain": "The optimum duration lies between the normal and crash times, where direct plus indirect cost is lowest."
+  },
+  {
+    "q": "23. The cost slope is defined as",
+    "options": [
+      "(crash cost – normal cost) / crash time",
+      "crash cost / (normal time – crash time)",
+      "(crash cost – normal cost) / normal time",
+      "(crash cost – normal cost) / (normal time – crash time)"
+    ],
+    "correct": 3,
+    "explain": "Cost slope = extra cost per unit of time saved = (crash cost – normal cost)/(normal time – crash time)."
+  },
+  {
+    "q": "24. The time corresponding to minimum total project cost is",
     "options": [
       "normal time",
       "crash time",
@@ -143,7 +264,7 @@
     "explain": "In time-cost optimization, the 'optimum duration' (which minimizes total cost) usually falls between the crash time and normal time, often aligning with the optimistic perspective of cost-efficiency."
   },
   {
-    "q": "14. The time with which direct cost does not reduce with the increase in time is known as",
+    "q": "25. The time with which direct cost does not reduce with the increase in time is known as",
     "options": [
       "normal time",
       "crash time",
@@ -154,7 +275,40 @@
     "explain": "Normal time is the duration beyond which increasing time further does not lead to any further reduction in direct costs."
   },
   {
-    "q": "15. The direct cost of a project with respect to normal time is",
+    "q": "26. Total cost of the project is",
+    "options": [
+      "direct cost and outage loss of project",
+      "direct cost and over heads",
+      "direct cost and indirect cost",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Total cost = direct cost + indirect cost."
+  },
+  {
+    "q": "27. In time-cost optimisation of a project, crashing is done",
+    "options": [
+      "on all the activities",
+      "on all the activities lying on the critical paths",
+      "only on activities lying on the original critical path and having flatter cost slopes",
+      "on original critical activities and those that become critical"
+    ],
+    "correct": 2,
+    "explain": "Per the answer key, c. (The same question appears later with option d as the key answer, in Q175.)"
+  },
+  {
+    "q": "28. The effect of network compression is increase in the",
+    "options": [
+      "total cost",
+      "direct cost",
+      "indirect cost",
+      "overheads"
+    ],
+    "correct": 1,
+    "explain": "Compressing the network (crashing) increases direct cost and reduces indirect cost."
+  },
+  {
+    "q": "29. The direct cost of a project with respect to normal time is",
     "options": [
       "minimum",
       "maximum",
@@ -165,7 +319,7 @@
     "explain": "At normal time, the project is executed at its most economical pace, making direct cost minimum (it rises if crashed, i.e., time reduced below normal)."
   },
   {
-    "q": "16. Crashing is",
+    "q": "30. Crashing is",
     "options": [
       "reduction in duration",
       "reduction in resource",
@@ -176,7 +330,7 @@
     "explain": "Crashing is the process of shortening the duration of project activities by adding resources."
   },
   {
-    "q": "17. Economic saving of time is obtained by crashing",
+    "q": "31. Economic saving of time is obtained by crashing",
     "options": [
       "cheapest critical activity",
       "cheapest non-critical activity",
@@ -187,18 +341,29 @@
     "explain": "Crashing the critical activity with the lowest cost slope provides the most cost-effective time reduction."
   },
   {
-    "q": "18. Crashing is",
+    "q": "32. With the usual notations, capital recovery factor is given by",
     "options": [
-      "reduction in duration",
-      "reduction of resource",
-      "reduction of cost",
-      "reduction in project size"
+      "(1 + i)^n",
+      "i / ((1 + i)^n – 1)",
+      "i / (1 + i)^n",
+      "i(1 + i)^n / ((1 + i)^n – 1)"
     ],
-    "correct": 0,
-    "explain": "Crashing specifically refers to reducing the duration of an activity/project by employing additional resources at extra cost."
+    "correct": 3,
+    "explain": "CRF = i(1+i)^n / ((1+i)^n – 1)."
   },
   {
-    "q": "19. The time with which direct cost does not reduce with the increase in time is known as",
+    "q": "33. The time with which direct cost does not reduce with the increase in time is known",
+    "options": [
+      "crash time",
+      "normal time",
+      "optimistic time",
+      "standard time"
+    ],
+    "correct": 1,
+    "explain": "Per the answer key, normal time, beyond which more time gives no further saving in direct cost."
+  },
+  {
+    "q": "34. The time with which direct cost does not reduce with the increase in time is known as",
     "options": [
       "crash time",
       "normal time",
@@ -209,18 +374,7 @@
     "explain": "Normal time is the point beyond which further increasing duration does not reduce direct cost any further - the most economical duration."
   },
   {
-    "q": "20. The time corresponding to minimum total project cost is",
-    "options": [
-      "crash time",
-      "normal time",
-      "optimistic time",
-      "between normal time and crash time"
-    ],
-    "correct": 3,
-    "explain": "The optimum duration (minimum total cost point) usually lies between the normal time and crash time, at the intersection of direct and indirect cost curves."
-  },
-  {
-    "q": "21. The cost slope is defined as",
+    "q": "35. The cost slope is defined as",
     "options": [
       "(crash cost - normal cost)/crash time",
       "crash cost/(normal time - crash time)",
@@ -231,7 +385,7 @@
     "explain": "Cost slope is calculated as (crash cost - normal cost) divided by (normal time - crash time), giving cost increase per unit time reduction."
   },
   {
-    "q": "22. Quality control is done by",
+    "q": "36. Quality control is done by",
     "options": [
       "Supervision of work",
       "auditing of accounts",
@@ -242,29 +396,40 @@
     "explain": "Quality control is achieved through measurement of the work performed against specified standards."
   },
   {
-    "q": "23. The reduction in project time normally results in",
+    "q": "37. When used in connection with the progress of a work, the term amount indicates the",
     "options": [
-      "decreasing the direct cost and increasing indirect cost",
-      "increasing the direct cost and decreasing the indirect cost",
-      "increasing the direct cost and indirect cost both",
-      "decreasing the direct cost and indirect cost both"
+      "total expenditure on a particular item",
+      "supplies made and services performed",
+      "value of the finished product in a manufacturing operation",
+      "none of the above"
     ],
-    "correct": 1,
-    "explain": "Reducing project time (crashing) increases direct cost (extra resources needed) while decreasing indirect cost (shorter overhead duration)."
+    "correct": 0,
+    "explain": "Per the answer key, a."
   },
   {
-    "q": "24. At a work site, statistical quality control of concrete means",
+    "q": "38. The total cost versus time curve is",
     "options": [
-      "Measurement of risks to eliminate failures",
-      "Applying the theory of probability to sample testing or inspection",
-      "Reduction in wastage of inspection costs",
-      "Reduction in costs for the removal of defects"
+      "a straight line",
+      "U-shaped",
+      "a parabola",
+      "∩-shaped curve"
     ],
     "correct": 1,
-    "explain": "Statistical quality control applies probability theory to sample testing/inspection results to assess and control concrete quality."
+    "explain": "Total cost is the sum of rising direct cost and falling indirect cost as time shortens, giving a U-shape with a minimum."
   },
   {
-    "q": "25. In time-cost optimization of a project, crashing is done.",
+    "q": "39. Crashing to the project means",
+    "options": [
+      "reducing the time of completion by spending more resources",
+      "reducing the cost of project by delaying the time of completion",
+      "reducing the project size to save the resources",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "Crashing shortens the duration by spending more."
+  },
+  {
+    "q": "40. In time-cost optimization of a project, crashing is done.",
     "options": [
       "on all the activities",
       "on all the activities lying on the critical path",
@@ -275,7 +440,7 @@
     "explain": "Crashing in time-cost optimization is applied progressively to critical activities (including newly critical ones as crashing proceeds), always in ascending order of cost slope."
   },
   {
-    "q": "26. Quality control ensures that the physical works conforms to",
+    "q": "41. Quality control ensures that the physical works conforms to",
     "options": [
       "Strength specified in the contract document",
       "Durability",
@@ -286,7 +451,7 @@
     "explain": "Quality control ensures the executed work conforms to the standards specified in the contract document."
   },
   {
-    "q": "27. Assuming that the cost varies with time, the cost - slope is defined as",
+    "q": "42. Assuming that the cost varies with time, the cost - slope is defined as",
     "options": [
       "\\frac{\\text{crash cost - normal cost}}{\\text{crash time}}",
       "\\frac{\\text{crash cost - normal cost}}{\\text{normal time}}",
@@ -297,7 +462,51 @@
     "explain": "Cost Slope represents the extra direct cost per unit time saved: $\\text{Cost Slope} = \\frac{\\text{Crash Cost} - \\text{Normal Cost}}{\\text{Normal Time} - \\text{Crash Time}}$."
   },
   {
-    "q": "28. Crashing is:",
+    "q": "43. Direct cost a project is due to",
+    "options": [
+      "establishment charges as salaries to administrative staff",
+      "loss or gain or revenue",
+      "penalty imposed",
+      "cost of materials and wages of labour"
+    ],
+    "correct": 3,
+    "explain": "Direct cost comprises materials and labour wages."
+  },
+  {
+    "q": "44. Total project cost",
+    "options": [
+      "establishment charges as salaries to administrative staff",
+      "loss or gain of revenue",
+      "penalty imposed",
+      "cost of materials and wages of labour"
+    ],
+    "correct": 3,
+    "explain": "Per the answer key, d. This repeats the previous question's options, so the stem looks misprinted."
+  },
+  {
+    "q": "45. Total project cost",
+    "options": [
+      "increase with increase in time",
+      "reduces with increase in time",
+      "initially reduces and then increases with increase in time",
+      "initially increases and then reduces with increase in time"
+    ],
+    "correct": 2,
+    "explain": "Total cost falls to a minimum at the optimum duration and then rises."
+  },
+  {
+    "q": "46. Total cost is",
+    "options": [
+      "direct cost",
+      "direct cost + indirect cost",
+      "overheads",
+      "outage loss"
+    ],
+    "correct": 1,
+    "explain": "Total cost = direct cost + indirect cost."
+  },
+  {
+    "q": "47. Crashing is:",
     "options": [
       "reduction in duration",
       "reduction in resources",
@@ -308,36 +517,36 @@
     "explain": "Crashing specifically refers to reducing the duration of the project/activity by applying additional resources."
   },
   {
-    "q": "29. Which of the following is an indirect cost in construction work?",
+    "q": "48. Crashing is",
     "options": [
-      "Overheads",
-      "cost of labour to erect forms",
-      "cost of that can be attributed to any single task",
-      "subcontracted costs"
+      "reduction in duration",
+      "reduction of resource",
+      "reduction of cost",
+      "reduction in project size"
     ],
     "correct": 0,
-    "explain": "Overhead costs (administrative, supervisory) are indirect costs, not directly tied to a specific work item, unlike labour or subcontracted task-specific costs."
+    "explain": "Crashing reduces duration."
   },
   {
-    "q": "30. What is done in \"quality control\"?",
+    "q": "49. The essential condition for the decompression of an activity is that",
     "options": [
-      "detection",
-      "prevention",
-      "both detection and prevention",
+      "the project time should change due to decompression",
+      "after decompression, the time of an activity invariably exceeds its normal tome",
+      "an activity could be decompressed to the maximum extent of its normal time",
       "none of the above"
     ],
     "correct": 2,
-    "explain": "Quality control involves both detecting defects and taking preventive measures to avoid future non-conformance."
+    "explain": "An activity can be decompressed (lengthened) only up to its normal time."
   },
   {
-    "q": "31. Including a contingency reserve in the project budget is intended to",
+    "q": "50. Due to omission of any part of a project, the duration of project will",
     "options": [
-      "Reduce the probability of scope changes",
-      "Increase the effectiveness of scope controls",
-      "Reduce the probability of a cost overrun",
-      "Increase the effectiveness of cost controls"
+      "increase",
+      "decrease",
+      "constant",
+      "all of these"
     ],
     "correct": 2,
-    "explain": "A contingency reserve is specifically included to buffer against unforeseen costs, reducing the probability of a cost overrun."
+    "explain": "Per the answer key, constant. Note: standard theory suggests the duration may decrease if the omitted work is on the critical path."
   }
 ]

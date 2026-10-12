@@ -1,446 +1,6 @@
 [
   {
-    "q": "1. The effect of arching a beam, is",
-    "options": [
-      "to reduce the bending moment throughout",
-      "to increase the bending moment throughout",
-      "nothing on the bending throughout",
-      "all the above"
-    ],
-    "correct": 0,
-    "explain": "Arching action converts some of the bending moments into axial thrust, thereby reducing the net bending moment that the material must resist."
-  },
-  {
-    "q": "2. A three-hinged arch is said to be",
-    "options": [
-      "statically determinate structure",
-      "statically indeterminate structure",
-      "a bent beam",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "With three hinges (two at supports, one at crown), there are 4 unknown reactions and 4 available equations (3 from statics + 1 from the internal hinge moment = 0), making it determinate."
-  },
-  {
-    "q": "3. In a three hinged arch, the bending moment will be zero",
-    "options": [
-      "at right hinge only",
-      "at left hinge only",
-      "at both right and left hinges",
-      "at all the three hinges"
-    ],
-    "correct": 3,
-    "explain": "By definition, a hinge cannot resist or transfer bending moment; therefore, the BM is zero at every hinge location."
-  },
-  {
-    "q": "4. In a three hinged arch, the third hinge is generally kept at",
-    "options": [
-      "crown of the arch",
-      "midpoint of the crown and left support hinge",
-      "midpoint of the crown and right support hinge",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "To maintain symmetry and structural efficiency, the internal hinge is usually placed at the highest point of the arch, known as the crown."
-  },
-  {
-    "q": "5. If a three hinged parabolic arch carries a uniformly distributed load on its entire span, every section of the arch resists",
-    "options": [
-      "compressive force",
-      "tensile force",
-      "shear force",
-      "bending moment"
-    ],
-    "correct": 0,
-    "explain": "A parabolic arch under full UDL is in a state of pure compression (the 'funicular shape' for UDL is a parabola), meaning BM and Shear are zero."
-  },
-  {
-    "q": "6. The rise of a parabolic arch at quarter points, is equal to",
-    "options": [
-      "1/3 times the rise of the crown",
-      "1/4 times the rise of the crown",
-      "1/2 times the rise of the crown",
-      "3/4 times the rise of the crown"
-    ],
-    "correct": 3,
-    "explain": "Using the equation y = 4hx(L-x)/L², at x = L/4, y = 4h(L/4)(3L/4)/L² = 3h/4."
-  },
-  {
-    "q": "7. A linear arch is subjected only to",
-    "options": [
-      "shear force",
-      "thrust",
-      "bending moment",
-      "both (b) and (c)"
-    ],
-    "correct": 1,
-    "explain": "A linear arch (or theoretical arch) is shaped such that its centerline coincides with the line of thrust, resulting in only axial compression (thrust)."
-  },
-  {
-    "q": "8. An arch with three hinges, is a structure",
-    "options": [
-      "statically determinate",
-      "statically indeterminate",
-      "geometrically unstable",
-      "structurally sound but indeterminate"
-    ],
-    "correct": 0,
-    "explain": "As established in Q. 250, the three hinges provide enough equations to solve for all reactions using statics alone."
-  },
-  {
-    "q": "9. In a three hinged arch, the shear force is usually",
-    "options": [
-      "maximum at crown",
-      "maximum at springing",
-      "maximum at quarter points",
-      "varies with slope"
-    ],
-    "correct": 1,
-    "explain": "Shear force in an arch is the component of the resultant force perpendicular to the arch axis; this typically reaches its peak near the support points (springings)."
-  },
-  {
-    "q": "10. In a solid arch, shear force acts",
-    "options": [
-      "vertically upwards",
-      "along the axis of the arch",
-      "perpendicular to the axis of arch",
-      "tangentially to the arch"
-    ],
-    "correct": 2,
-    "explain": "Normal thrust acts tangentially/along the axis, while radial shear acts perpendicular to the axis of the arch."
-  },
-  {
-    "q": "11. An arch may be subjected to",
-    "options": [
-      "shear and axial force",
-      "bending moment and shear force",
-      "bending moment and axial force",
-      "thrust, shear force and bending moment"
-    ],
-    "correct": 3,
-    "explain": "Unlike a funicular arch, a general arch structure under arbitrary loading must resist axial compression (thrust), transverse shear, and bending moments."
-  },
-  {
-    "q": "12. For a stable frame structure, number of members required, is",
-    "options": [
-      "three times the number of joints minus three",
-      "twice the number of joints minus three",
-      "twice the number of joints minus two",
-      "twice the number of joints minus one"
-    ],
-    "correct": 1,
-    "explain": "The condition for a perfect (statically determinate) plane truss is m = 2j - 3, where m is members and j is joints."
-  },
-  {
-    "q": "13. If two forces acting at a joint are not along the straight line, then for the equilibrium of the joint",
-    "options": [
-      "one of the forces must be zero",
-      "each force must be zero",
-      "forces must be equal and of the same sign",
-      "forces must be equal in magnitude but opposite in sign"
-    ],
-    "correct": 1,
-    "explain": "If only two non-collinear members meet at a joint with no external load, both must carry zero force to satisfy ΣH=0 and ΣV=0."
-  },
-  {
-    "q": "14. A member is balanced at its end by two inclined members carrying equal forces. For equilibrium the angle between the inclined bars must be",
-    "options": [
-      "3°",
-      "45°",
-      "60°",
-      "120°"
-    ],
-    "correct": 3,
-    "explain": "For three equal forces to be in equilibrium at a joint, the angle between each pair of forces must be 120° (Lami's Theorem)."
-  },
-  {
-    "q": "15. The assumption that the cross-sections plane before bending remain plane even after bending means",
-    "options": [
-      "the strains in the fibers are proportional to their distances from neutral axis",
-      "the bending moment will be resisted by the central core of the section",
-      "the stresses in the fibres are proportional to their distances from neutral axis",
-      "the neutral axis lies at mid height"
-    ],
-    "correct": 0,
-    "explain": "Bernoulli's assumption implies that longitudinal strain varies linearly with the distance from the neutral axis."
-  },
-  {
-    "q": "16. The assumption in the theory of bending that the material is homogeneous and isotropic... implies that",
-    "options": [
-      "the stresses are proportional to strains at all fibres",
-      "the strains are proportional to distances of the fibres from neutral axis",
-      "the beam bends into a circular arc",
-      "the neutral axis lies at the centre"
-    ],
-    "correct": 0,
-    "explain": "Homogeneity and isotropy imply consistent elastic properties throughout, which allows Hooke's Law (Stress ∝ Strain) to be applied uniformly."
-  },
-  {
-    "q": "17. The moment of inertia of a rectangular section b x d about the base is",
-    "options": [
-      "1/12 bd³",
-      "1/3 bd³",
-      "1/36 bd³",
-      "1/6 bd²"
-    ],
-    "correct": 1,
-    "explain": "Using Parallel Axis Theorem: I_base = I_cg + Ah² = (1/12 bd³) + (bd)(d/2)² = 1/3 bd³."
-  },
-  {
-    "q": "18. For a circular section Izz = Ixx = Iyy. Then zz-axis",
-    "options": [
-      "coincides with xx-axis",
-      "coincides with yy-axis",
-      "will be tangential to the circle",
-      "will be passing through point of intersection... and perpendicular to the plane"
-    ],
-    "correct": 3,
-    "explain": "Izz represents the polar moment of inertia, which is the sum of Ixx and Iyy (Perpendicular Axis Theorem), passing through the centroid perpendicular to the section."
-  },
-  {
-    "q": "19. In the case of T section, the maximum bending stress will occur at",
-    "options": [
-      "neutral axis",
-      "extreme fibre in the flange",
-      "extreme fibre in the web",
-      "junction of web and flange"
-    ],
-    "correct": 2,
-    "explain": "Since stress σ = My/I, the maximum stress occurs at the fiber furthest from the neutral axis. In a T-section, the NA is closer to the flange, making the web's bottom fiber the furthest."
-  },
-  {
-    "q": "20. The neutral axis of any section is",
-    "options": [
-      "the axis passing through middle point of the height",
-      "the line of intersection of neutral plane with cross-section",
-      "the axis about which the moment of inertia is minimum",
-      "longitudinal axis of the member"
-    ],
-    "correct": 1,
-    "explain": "The neutral axis is the geometric line where the neutral surface (which undergoes no longitudinal strain) intersects the cross-sectional plane."
-  },
-  {
-    "q": "21. The bending moment at a section tends to bend or deflect the beam and the internal stress resist its bending. The resistance offered by the internal stresses, to the bending, is called",
-    "options": [
-      "compressive stress",
-      "shear stress",
-      "bending stress",
-      "elastic modulus"
-    ],
-    "correct": 2,
-    "explain": "Bending stress (or flexural stress) is the internal resistance developed by the fibers of a beam to counteract the external bending moment."
-  },
-  {
-    "q": "22. In a simple bending theory, one of the assumptions is that the material of the beam is isotropic. This assumption means that the",
-    "options": [
-      "normal stress remains constant in all directions",
-      "normal stress varies linearly in the material",
-      "elastic constants are same in all the directions",
-      "elastic constants varies linearly in the material"
-    ],
-    "correct": 2,
-    "explain": "An isotropic material has identical physical and elastic properties (like Young's Modulus and Poisson's ratio) in all directions at any given point."
-  },
-  {
-    "q": "23. In a simple bending of beams, the stress in the beam varies",
-    "options": [
-      "linearly",
-      "parabolically",
-      "hyperbolically",
-      "elliptically"
-    ],
-    "correct": 0,
-    "explain": "According to the flexure formula (σ = My/I), the bending stress is directly proportional to the distance from the neutral axis, resulting in a linear distribution."
-  },
-  {
-    "q": "24. When a beam is subjected to a bending moment, the strain in a layer is ............ the distance from the neutral axis.",
-    "options": [
-      "equal to",
-      "directly proportional to",
-      "inversely proportional to",
-      "independent of"
-    ],
-    "correct": 1,
-    "explain": "The fundamental assumption that 'plane sections remain plane' implies that longitudinal strain (ε) varies linearly with the distance (y) from the neutral axis."
-  },
-  {
-    "q": "25. The bending equation is",
-    "options": [
-      "M/I = σ/y = E/R",
-      "T/J = τ/r = Cθ/l",
-      "M/y = σ/I = E/R",
-      "T/r = τ/J = Cθ/l"
-    ],
-    "correct": 0,
-    "explain": "The Bernoulli-Euler bending equation relates the internal moment (M), moment of inertia (I), stress (σ), distance from neutral axis (y), modulus (E), and radius of curvature (R)."
-  },
-  {
-    "q": "26. A section of beam is said to be in pure bending, if it is subjected to",
-    "options": [
-      "constant bending moment and constant shear force",
-      "constant shear force and zero bending moment",
-      "constant bending moment and zero shear force",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Pure bending (or simple bending) occurs in a region where the bending moment is constant, which mathematically implies the shear force (dM/dx) must be zero."
-  },
-  {
-    "q": "27. When a beam is subjected to bending moment, the stress at any point is ............ the distance of the point from the neutral axis.",
-    "options": [
-      "equal to",
-      "directly proportional to",
-      "inversely proportional to",
-      "independent of"
-    ],
-    "correct": 1,
-    "explain": "As per the flexure formula σ = (M/I)y, for a given section, stress increases linearly as you move further away from the neutral axis."
-  },
-  {
-    "q": "28. The neutral axis of the cross-section of a beam is that axis at which the bending stress is",
-    "options": [
-      "zero",
-      "minimum",
-      "maximum",
-      "infinity"
-    ],
-    "correct": 0,
-    "explain": "The neutral axis is the layer in the beam that undergoes no extension or contraction; therefore, the strain and the corresponding stress are zero."
-  },
-  {
-    "q": "29. The section modulus (Z) of a beam is given by",
-    "options": [
-      "I/y",
-      "Iy",
-      "y/I",
-      "M/I"
-    ],
-    "correct": 0,
-    "explain": "Section modulus (Z) is defined as the ratio of the moment of inertia (I) to the distance of the extreme fiber from the neutral axis (y_max)."
-  },
-  {
-    "q": "30. The section modulus of a rectangular section about an axis through its C.G., is",
-    "options": [
-      "b/2",
-      "d/2",
-      "bd²/2",
-      "bd²/6"
-    ],
-    "correct": 3,
-    "explain": "For a rectangle, I = bd³/12 and y_max = d/2. Thus, Z = (bd³/12) / (d/2) = bd²/6."
-  },
-  {
-    "q": "31. If the section modulus of a beam is increased, the bending stress in the beam will",
-    "options": [
-      "not change",
-      "increase",
-      "decrease",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Since σ = M/Z, bending stress is inversely proportional to the section modulus. A higher Z indicates a stronger section with lower stress for the same moment."
-  },
-  {
-    "q": "32. Two beams, one of circular cross-section and the other of square cross-section, have equal areas of cross-sections. When these beams are subjected to bending",
-    "options": [
-      "both beams are equally economical",
-      "square beam is more economical",
-      "circular beam is more economical",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "For the same cross-sectional area, a square section has a higher section modulus than a circular section, making it more efficient (economical) in resisting bending."
-  },
-  {
-    "q": "33. When a cantilever beam is loaded at its free end, the maximum compressive stress shall develop at",
-    "options": [
-      "bottom fibre",
-      "top fibre",
-      "neutral axis",
-      "centre of gravity"
-    ],
-    "correct": 0,
-    "explain": "In a cantilever beam loaded downwards, the top fibers undergo tension (stretching) and the bottom fibers undergo compression (shortening)."
-  },
-  {
-    "q": "34. A beam of uniform strength may be obtained by",
-    "options": [
-      "keeping the width uniform and varying the depth",
-      "keeping the depth uniform and varying the width",
-      "varying the width and depth both",
-      "any one of the above"
-    ],
-    "correct": 3,
-    "explain": "Uniform strength is achieved by adjusting the section modulus (Z) along the length to match the bending moment (M) so that the stress σ = M/Z remains constant."
-  },
-  {
-    "q": "35. If the depth is kept constant for a beam of uniform strength, then its width will vary in proportional to",
-    "options": [
-      "M",
-      "√M",
-      "M²",
-      "M³"
-    ],
-    "correct": 0,
-    "explain": "σ = M / (bd²/6). If σ and d are constant, then b must be directly proportional to M (b ∝ M)."
-  },
-  {
-    "q": "36. A beam of uniform strength has",
-    "options": [
-      "same cross-section throughout the beam",
-      "same bending stress at every section",
-      "same bending moment at every section",
-      "same shear stress at every section"
-    ],
-    "correct": 1,
-    "explain": "The core definition of a beam of uniform strength is that the maximum fiber stress is constant across every cross-section along its longitudinal axis."
-  },
-  {
-    "q": "37. The bending stress in a beam is ............ bending moment.",
-    "options": [
-      "equal to",
-      "less than",
-      "more than",
-      "directly proportional to"
-    ],
-    "correct": 3,
-    "explain": "From the equation σ = My/I, it is clear that for a given section, the stress is directly proportional to the applied bending moment."
-  },
-  {
-    "q": "38. At the neutral axis of a beam",
-    "options": [
-      "the layers are subjected to maximum bending stress",
-      "the layers are subjected to minimum bending stress",
-      "the layers are subjected to compression",
-      "the layers do not undergo any strain"
-    ],
-    "correct": 3,
-    "explain": "The neutral axis is the 'zero-strain' axis. Fibers at this location neither elongate nor contract when the beam is bent."
-  },
-  {
-    "q": "39. The neutral axis of a beam is subjected to ............ stress.",
-    "options": [
-      "zero",
-      "maximum tensile",
-      "minimum tensile",
-      "maximum compressive"
-    ],
-    "correct": 0,
-    "explain": "Since there is zero strain at the neutral axis, and stress = Modulus × Strain, the bending stress at the neutral axis is also zero."
-  },
-  {
-    "q": "40. The neutral axis of a transverse section of a beam passes through the centre of gravity of the section and is",
-    "options": [
-      "in the vertical plane",
-      "in the horizontal plane",
-      "in the same plane in which the beam bends",
-      "at right angle to the plane in which the beam bends"
-    ],
-    "correct": 3,
-    "explain": "If a beam bends in a vertical plane, the neutral axis is a horizontal line perpendicular to that plane of bending."
-  },
-  {
-    "q": "41. At the neutral axis of a beam, the shear stress is",
+    "q": "1. At the neutral axis of a beam, the shear stress is",
     "options": [
       "zero",
       "minimum",
@@ -451,7 +11,7 @@
     "explain": "For standard sections like rectangles and circles, the shear stress distribution is parabolic, reaching its maximum value at the neutral axis."
   },
   {
-    "q": "42. The maximum shear stress developed in a beam of rectangular section is ............ the average shear stress.",
+    "q": "2. The maximum shear stress developed in a beam of rectangular section is ............ the average shear stress.",
     "options": [
       "equal to",
       "4/3 times",
@@ -462,7 +22,7 @@
     "explain": "For a rectangular section, the shear stress distribution is parabolic, and the maximum shear stress (at the neutral axis) is exactly 1.5 times the average shear stress (τ_max = 1.5 * V/A)."
   },
   {
-    "q": "43. The maximum shear stress developed in a beam of circular section is ............ the average shear stress.",
+    "q": "3. The maximum shear stress developed in a beam of circular section is ............ the average shear stress.",
     "options": [
       "equal to",
       "4/3 times",
@@ -473,51 +33,7 @@
     "explain": "In a circular section, the maximum shear stress at the neutral axis is 4/3 (or 1.33) times the average shear stress."
   },
   {
-    "q": "44. A beam of T-section is subjected to a shear force of F. The maximum shear force will occur at the",
-    "options": [
-      "top of the section",
-      "bottom of the section",
-      "neutral axis of the section",
-      "junction of web and flange"
-    ],
-    "correct": 2,
-    "explain": "For a T-section, the shear stress increases as the width decreases. The peak value generally occurs at the neutral axis of the combined section."
-  },
-  {
-    "q": "45. A flitched beam is used to",
-    "options": [
-      "change the shape of the beam",
-      "effect the saving in material",
-      "equalize the strength in tension and compression",
-      "increase the cross-section of the beam"
-    ],
-    "correct": 2,
-    "explain": "A flitched beam (composite beam made of wood and steel plates) is used to increase the load-carrying capacity and stiffness while keeping the overall size manageable, leading to material efficiency."
-  },
-  {
-    "q": "46. In an I section almost all the shear force is taken by",
-    "options": [
-      "web",
-      "top flange",
-      "bottom flange",
-      "half the depth of each flange"
-    ],
-    "correct": 0,
-    "explain": "In an I-beam, the flanges resist most of the bending moment, while the web resists nearly all (usually over 95%) of the vertical shear force."
-  },
-  {
-    "q": "47. A straight beam subjected to pure bending will be bending in the shape of",
-    "options": [
-      "circular arc",
-      "parabolic arc",
-      "straight line",
-      "triangle"
-    ],
-    "correct": 0,
-    "explain": "Under pure bending (constant M), the radius of curvature R is constant (R = EI/M). A curve with a constant radius is a circular arc."
-  },
-  {
-    "q": "48. Longitudinal cracks observed in timber beams are due to",
+    "q": "4. Longitudinal cracks observed in timber beams are due to",
     "options": [
       "high bending stresses",
       "application of concentrated loads over the beams",
@@ -528,18 +44,7 @@
     "explain": "Timber is relatively weak in shear parallel to the grain. Horizontal shear stress causes the fibers to slide past each other, resulting in longitudinal cracks."
   },
   {
-    "q": "49. The flexure formula is valid only for",
-    "options": [
-      "static loads",
-      "dynamic loads",
-      "static loads with no residual stresses",
-      "dynamic loads with no residual stresses"
-    ],
-    "correct": 2,
-    "explain": "The standard bending formula assumes the material is in a stress-free state before loading and that the load is applied gradually (static)."
-  },
-  {
-    "q": "50. The product E.I. is called",
+    "q": "5. The product E.I. is called",
     "options": [
       "flexural rigidity",
       "torsional rigidity",
@@ -548,5 +53,500 @@
     ],
     "correct": 0,
     "explain": "Flexural rigidity (EI) represents the resistance of a beam section to bending deformation."
+  },
+  {
+    "q": "6. The difference in placing the end of a beam simply over a support and the supporting end through a hinge on rollers is that the roller support",
+    "options": [
+      "can offer reaction in the plane of rollers",
+      "can offer moment reaction",
+      "will not allow the end to lift up due to deflection",
+      "will not offer reaction normal to the plane of rollers."
+    ],
+    "correct": 2,
+    "explain": "A roller support provides a reaction only in the direction perpendicular to the plane of the rollers."
+  },
+  {
+    "q": "7. The minimum moment of resistance of a beam with material of allowable stress σ, is given by",
+    "options": [
+      "(σ * I) / Distance of farthest fibre from neutral axis",
+      "σ * I",
+      "(σ * I) / distance of nearer extreme fibre",
+      "σ * I * ratio of distances of the two extreme fibres"
+    ],
+    "correct": 0,
+    "explain": "Moment of Resistance M = σ * Z. Since Z = I / y_max (farthest fiber), the formula is (σ * I) / y_max."
+  },
+  {
+    "q": "8. Polar moment of inertia of a circular section with radius R is ............",
+    "options": [
+      "πR⁴/33",
+      "πR³/32",
+      "πR⁴/16",
+      "πR⁴/2"
+    ],
+    "correct": 3,
+    "explain": "For a circle, $J = \\frac{\\pi D^4}{32}$. Since $D=2R$, $J = \\frac{\\pi (2R)^4}{32} = \\frac{16\\pi R^4}{32} = \\frac{\\pi R^4}{2}$."
+  },
+  {
+    "q": "9. Polar moment of inertia of a hollow circular section with external diameter D and internal diameter d is ............",
+    "options": [
+      "π/64 (D⁴ - d⁴)",
+      "π/32 (D³ - d³)",
+      "π/32 (D⁴ - d⁴)",
+      "πD²/32 (D² - d²)"
+    ],
+    "correct": 2,
+    "explain": "The polar moment of inertia ($J$) for a hollow section is the difference between the $J$ of the outer circle and the $J$ of the inner circle: $\\frac{\\pi D^4}{32} - \\frac{\\pi d^4}{32}$."
+  },
+  {
+    "q": "10. The torsional rigidity of a shaft is given by ............",
+    "options": [
+      "T / J",
+      "T / θ",
+      "T / r",
+      "T / G"
+    ],
+    "correct": 1,
+    "explain": "Torsional rigidity is defined as the torque required to produce a unit radian of twist per unit length. From T/J = Gθ/L, GJ = TL/θ. Often represented as T/θ for a given length."
+  },
+  {
+    "q": "11. The section modulus of a rectangular section is proportional to",
+    "options": [
+      "area of the section",
+      "square of the area of the section",
+      "product of the area & depth",
+      "half moment of inertia of the section"
+    ],
+    "correct": 0,
+    "explain": "Z = bd²/6 for a rectangular section — it scales with the section's area and depth together."
+  },
+  {
+    "q": "12. Find the maximum BM induced in a cantilever beam subjected to a point load of 10 KN. Length of beam is 10 m. The load is located at a distance of 3 m from the free end:-",
+    "options": [
+      "40 kN-m",
+      "50 kN-m",
+      "60 kN-m",
+      "70 kN-m"
+    ],
+    "correct": 3,
+    "explain": "Distance from the fixed end = 10 − 3 = 7 m. M = 10 × 7 = 70 kN-m."
+  },
+  {
+    "q": "13. Find the maximum SF induced in a cantilever beam subjected to a point load of 10 KN. Length of beam is 10 m. The load is located at a distance of 3 m from the free end",
+    "options": [
+      "30 kN",
+      "7 kN",
+      "3 kN",
+      "10 kN"
+    ],
+    "correct": 3,
+    "explain": "For a single point load on a cantilever, the shear force between the fixed end and the load point equals the load itself, 10 kN."
+  },
+  {
+    "q": "14. The reaction at end A of the beam shown (UDL of 2 kN/m over a beam with overhangs of l/2 on each side of a central support arrangement) is",
+    "options": [
+      "9 KN",
+      "3 KN",
+      "18 KN",
+      "zero"
+    ],
+    "correct": 3,
+    "explain": "Based on the symmetric overhang/support arrangement shown in the figure, the reaction at A works out to zero."
+  },
+  {
+    "q": "15. Find the bending moment at center and also find the maximum bending moment for a simply supported beam of span 5 m with a 10 KN point load located 2 m from one support and 3 m from the other",
+    "options": [
+      "10 KN-m, 12 KN-m",
+      "15 KN-m, 10 KN-m",
+      "20 KN-m, 12 KN-m",
+      "10 KN-m, 15 KN-m"
+    ],
+    "correct": 0,
+    "explain": "RA = 10×3/5 = 6 kN. BM at load point (max) = 6×2 = 12 kN-m. BM at center (2.5 m from A) = 6×2.5 − 10×0.5 = 10 kN-m."
+  },
+  {
+    "q": "16. A cantilever beam of span 4 m and carrying a point load of 10 KN located at 3 m from the fixed end. Find the BM at the fixed and free end",
+    "options": [
+      "30 KN-m, 0",
+      "30 KN-m, 10 KN-m",
+      "10 KN-m, 30 KN-m",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "BM at fixed end = 10×3 = 30 kN-m; BM at the free end of any cantilever is always zero."
+  },
+  {
+    "q": "17. The maximum bending moment in a simply supported beam is where the UDL is applied",
+    "options": [
+      "ends",
+      "mid",
+      "1/2 distance",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Under a full-span UDL, maximum BM occurs at mid-span."
+  },
+  {
+    "q": "18. The maximum BM produced in a simply supported beam having span 4 m and subjected to a UDL of 10 kN/m",
+    "options": [
+      "10 kN-m",
+      "20 KN-m",
+      "30 kN-m",
+      "40 kN-m"
+    ],
+    "correct": 1,
+    "explain": "M_max = wL²/8 = 10×4²/8 = 20 kN-m."
+  },
+  {
+    "q": "19. The maximum bending moment in a simply supported beam loaded with a UDL of w/m having span l is",
+    "options": [
+      "wl²/2",
+      "wl²/4",
+      "wl²/8",
+      "wl²/16"
+    ],
+    "correct": 2,
+    "explain": "Standard formula: M_max = wl²/8 for a full-span UDL on a simply supported beam."
+  },
+  {
+    "q": "20. Maximum bending moment occurs at the centre if the simply supported beam is subjected to",
+    "options": [
+      "point load of centre",
+      "uniformly distributed load throughout the span",
+      "triangular load with maximum intensity at centre",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All three symmetric loading patterns produce maximum BM at mid-span for a simply supported beam."
+  },
+  {
+    "q": "21. Find the maximum SF induced in a S.S beam if the beam is subjected to a point load of 4 KN at the centre of beam and span of the beam is 4 m",
+    "options": [
+      "1 KN",
+      "2 KN",
+      "4 KN",
+      "8 KN-m"
+    ],
+    "correct": 1,
+    "explain": "Each support reaction = W/2 = 4/2 = 2 kN, which is the maximum shear force."
+  },
+  {
+    "q": "22. If y is the deflection of the beam, then shear force is",
+    "options": [
+      "y",
+      "dy/dx",
+      "d²y/dx²",
+      "d³y/dx³"
+    ],
+    "correct": 3,
+    "explain": "V = EI·d³y/dx³ — shear force is the third derivative of deflection (times EI)."
+  },
+  {
+    "q": "23. The relation between deflection (y) and bending moment (M) is",
+    "options": [
+      "M = EI dy/dx",
+      "M = -EI d²y/dx²",
+      "M = EI∫dy",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The Euler-Bernoulli beam equation: M = -EI·d²y/dx² (sign convention dependent)."
+  },
+  {
+    "q": "24. The relation between the radius of curvature (R), bending moment (M) and flexural rigidity (EI) is given by",
+    "options": [
+      "M = EI/R",
+      "M = E/IR",
+      "EI = R/M",
+      "MI/R = E"
+    ],
+    "correct": 0,
+    "explain": "From the bending equation: M/I = E/R, so M = EI/R."
+  },
+  {
+    "q": "25. Along the neutral axis of a simply supported beam",
+    "options": [
+      "fibres do not undergo strain",
+      "fibers undergo very little strain",
+      "the fibres are subjected to maximum stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the locus of zero bending stress/strain."
+  },
+  {
+    "q": "26. Simple bending equation is",
+    "options": [
+      "M/y = f/I = E/R",
+      "M/I = f/y = E/R",
+      "M/R = f/y = E/R",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The standard bending equation: M/I = f/y = E/R."
+  },
+  {
+    "q": "27. Maximum bending moment occurs where",
+    "options": [
+      "shear force is maximum",
+      "shear force is less than one",
+      "shear force changes sign",
+      "deflection is zero"
+    ],
+    "correct": 2,
+    "explain": "Since V=dM/dx, M is at an extremum (max/min) where V=0, i.e. where the shear force diagram crosses zero and changes sign."
+  },
+  {
+    "q": "28. In a beam where shear force is maximum the bending moment will be",
+    "options": [
+      "maximum",
+      "zero",
+      "minimum",
+      "no relation"
+    ],
+    "correct": 3,
+    "explain": "As per the answer key; there's no fixed universal relation between the location of max SF and the BM value there — it depends on the specific loading case."
+  },
+  {
+    "q": "29. Shape of bending moment diagram for a simply supported beam having point load at centre is",
+    "options": [
+      "parabolic",
+      "square",
+      "rectangle",
+      "triangle"
+    ],
+    "correct": 3,
+    "explain": "BM varies linearly from zero at supports to maximum under the point load — forming a triangle."
+  },
+  {
+    "q": "30. Bending moment diagram of simply supported beam having uniformly distributed load is",
+    "options": [
+      "rectangular",
+      "parabolic",
+      "triangular",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "BM under UDL varies as a second-degree curve (parabola), zero at supports, maximum at mid-span."
+  },
+  {
+    "q": "31. The variation of the bending moment in the portion of the beam carrying linearly varying load is",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubic",
+      "deflection is zero"
+    ],
+    "correct": 2,
+    "explain": "A linearly varying load (triangular) produces a shear force that's parabolic and a bending moment that's cubic in x."
+  },
+  {
+    "q": "32. The variation of the bending moment in the segment of a beam where the load is uniformly distributed is",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubic",
+      "rectangular"
+    ],
+    "correct": 1,
+    "explain": "Under UDL, shear varies linearly and bending moment (its integral) varies parabolically."
+  },
+  {
+    "q": "33. The bending moment diagram for a cantilever beam subjected to a moment at the end of the beam would be",
+    "options": [
+      "rectangle",
+      "triangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 0,
+    "explain": "A pure end moment with no other loads produces a constant BM throughout — a rectangle."
+  },
+  {
+    "q": "34. A beam simply supported at ends is subjected to load. The maximum bending moment is located where",
+    "options": [
+      "shear force is zero",
+      "shear force is maximum",
+      "bending moment is zero",
+      "axial thrust is zero"
+    ],
+    "correct": 0,
+    "explain": "Since dM/dx = V, BM is maximum/minimum exactly where V = 0."
+  },
+  {
+    "q": "35. Point of contraflexure is a point where bending moment",
+    "options": [
+      "minimum",
+      "maximum",
+      "zero",
+      "changes sign"
+    ],
+    "correct": 3,
+    "explain": "At a point of contraflexure the bending moment passes through zero, changing from sagging to hogging (or vice versa)."
+  },
+  {
+    "q": "36. In a continuous beam, the point where bending moment changes sign is called",
+    "options": [
+      "point of inflection",
+      "point of virtual hinge",
+      "point of contraflexure",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All three terms describe the same location where BM sign reverses."
+  },
+  {
+    "q": "37. The point of contraflexure occurs in a beam",
+    "options": [
+      "cantilevers only",
+      "simply supported only",
+      "overhanging only",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Contraflexure points typically arise in overhanging beams (and continuous beams), where sagging and hogging regions meet."
+  },
+  {
+    "q": "38. In a fixed beam, the points of contraflexure,",
+    "options": [
+      "for a udl load are 2",
+      "for a concentrated load are 2",
+      "for a moment applied load are 2",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Fixed beams develop two points of contraflexure for each of these standard load cases."
+  },
+  {
+    "q": "39. In case of a fixed beam loaded at its centre, the number of points at which BM is zero",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "A centrally-loaded fixed beam has two points of contraflexure (zero BM), symmetric about mid-span."
+  },
+  {
+    "q": "40. The maximum bending moment caused by a moving load on a simply supported beam is",
+    "options": [
+      "at the support",
+      "under the load",
+      "at mid span",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "For a single moving point load, the maximum BM occurs directly under the load at its critical position."
+  },
+  {
+    "q": "41. The maximum bending moment caused by a moving load on a fixed end beam occurs",
+    "options": [
+      "at the support",
+      "under the load",
+      "at mid span",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a fixed-end beam, the largest bending moment from a moving load typically develops at the supports (fixed ends)."
+  },
+  {
+    "q": "42. If a cantilever beam carries a uniformly distributed load over its entire length, then the shape of the shear force diagram and bending moment diagram respectively are",
+    "options": [
+      "triangle and quadratic parabola",
+      "quadratic parabola and cubic parabola",
+      "rectangle and triangle",
+      "quadratic parabola and rectangle"
+    ],
+    "correct": 0,
+    "explain": "Under UDL, SF is linear (triangle) and BM is a second-degree (quadratic) parabola."
+  },
+  {
+    "q": "43. The variation of the bending moment in the segment of a beam where no external load is present is",
+    "options": [
+      "linear",
+      "parabolic",
+      "cubic",
+      "rectangular"
+    ],
+    "correct": 0,
+    "explain": "With zero load, shear force is constant, so BM (its integral) varies linearly."
+  },
+  {
+    "q": "44. The critical bending moment caused in a fixed end beam loaded with a uniformly distributed load (W=wL) throughout is",
+    "options": [
+      "M = WL/4",
+      "M = WL/8",
+      "M = WL/12",
+      "M = WL/16"
+    ],
+    "correct": 2,
+    "explain": "For a fixed-fixed beam under UDL, the fixed-end (support) moment = WL/12."
+  },
+  {
+    "q": "45. The maximum bending moment caused by a large number of equally spaced identical loads on a simply supported beam is (W=wL)",
+    "options": [
+      "WL/6",
+      "WL/8",
+      "WL/16",
+      "WL/2y"
+    ],
+    "correct": 1,
+    "explain": "As the number of equal point loads increases, the loading approaches a UDL, so max BM approaches WL/8."
+  },
+  {
+    "q": "46. The maximum bending moment caused by a moment M applied at a distance 'a' from one end on a simply supported beam is (where L=span, a>L/2)",
+    "options": [
+      "M",
+      "Ma/L",
+      "M(L-a)/L",
+      "ML/a"
+    ],
+    "correct": 0,
+    "explain": "As per the answer key for this specific case (a > L/2)."
+  },
+  {
+    "q": "47. For a beam of uniform strength if its depth is maintained constant then its width will vary in proportion to",
+    "options": [
+      "bending moment",
+      "(B.M)²",
+      "(B.M)³",
+      "(B.M)^(1/2)"
+    ],
+    "correct": 2,
+    "explain": "As per the answer key for this set (uniform-strength beam with constant depth)."
+  },
+  {
+    "q": "48. In a simply supported beam with span (L) having a triangular load with its intensity 0 at both ends and W at center. The maximum BM will be",
+    "options": [
+      "WL/2",
+      "WL/3",
+      "WL²/12",
+      "WL/9"
+    ],
+    "correct": 2,
+    "explain": "As per the answer key for this symmetric triangular loading case."
+  },
+  {
+    "q": "49. Maximum deflection of a simply supported beam subjected to concentrated load (w) at the mid point is",
+    "options": [
+      "wl³/8EI",
+      "wl³/48EI",
+      "5wl³/48EI",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Standard formula: δ_max = WL³/48EI for a central point load on a simply supported beam."
+  },
+  {
+    "q": "50. In a simply supported beam with span L subjected to a point load W at center, find the maximum bending moment induced in the beam",
+    "options": [
+      "WL/2",
+      "WL/3",
+      "WL/4",
+      "WL/8"
+    ],
+    "correct": 2,
+    "explain": "M_max = WL/4 for a central point load on a simply supported beam."
   }
 ]

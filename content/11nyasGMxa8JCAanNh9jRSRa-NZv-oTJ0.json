@@ -209,29 +209,7 @@
     "explain": "Deflection 1 ∝ 1/(bd³). Deflection 2 ∝ 1/(db³). Ratio Δ2/Δ1 = (bd³) / (db³) = d²/b² = (d/b)²."
   },
   {
-    "q": "20. The deflection of any rectangular beam simply supported, is",
-    "options": [
-      "directly proportional to its weight",
-      "inversely proportional to its width",
-      "inversely proportional to the cube of its depth",
-      "directly proportional to the cube of its length"
-    ],
-    "correct": 2,
-    "explain": "Based on the formula δ = WL³ / 48EI and I = bd³/12, deflection is inversely proportional to the width (b) and the cube of the depth (d³)."
-  },
-  {
-    "q": "21. A rectangular beam of length l supported at its two ends carries a central point load W. The maximum deflection occurs",
-    "options": [
-      "at the ends",
-      "at l/3 from both ends",
-      "at the centre",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "For a symmetrical loading on a simply supported beam, the maximum deflection always occurs at the mid-span (center)."
-  },
-  {
-    "q": "22. The maximum deflection of a cantilever beam of length l with a point load W at the free end is",
+    "q": "20. The maximum deflection of a cantilever beam of length l with a point load W at the free end is",
     "options": [
       "Wl³ / 3EI",
       "Wl³ / 8EI",
@@ -242,18 +220,7 @@
     "explain": "The standard formula for maximum deflection at the free end of a cantilever with a point load is Wl³ / 3EI."
   },
   {
-    "q": "23. The maximum deflection of a fixed beam carrying a central point load lies at",
-    "options": [
-      "fixed ends",
-      "centre of beam",
-      "1/3 from fixed ends",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Due to symmetry in both loading and support conditions, the maximum deflection of a fixed beam with a central point load occurs at the mid-span."
-  },
-  {
-    "q": "24. The maximum deflection of a fixed beam of length l carrying a central point load W is",
+    "q": "21. The maximum deflection of a fixed beam of length l carrying a central point load W is",
     "options": [
       "Wl³ / 48EI",
       "Wl³ / 96EI",
@@ -264,18 +231,7 @@
     "explain": "The deflection of a fixed beam is 1/4th of the deflection of a simply supported beam of the same span and load. Since SS beam deflection is Wl³/48EI, fixed beam deflection is Wl³/192EI."
   },
   {
-    "q": "25. The expression EI (d⁴y/dx⁴) at any section for a beam is equal to",
-    "options": [
-      "load intensity at the section",
-      "S.F. at the section",
-      "B.M. at the section",
-      "slope at the section"
-    ],
-    "correct": 0,
-    "explain": "In the differential equation of beams, the fourth derivative of deflection multiplied by EI represents the rate of loading (w)."
-  },
-  {
-    "q": "26. A beam which is fixed at one end and free at the other is called",
+    "q": "22. A beam which is fixed at one end and free at the other is called",
     "options": [
       "simply supported beam",
       "fixed beam",
@@ -286,7 +242,7 @@
     "explain": "A cantilever is a rigid structural element that extends horizontally and is supported at only one end."
   },
   {
-    "q": "27. A beam extending beyond the support is called",
+    "q": "23. A beam extending beyond the support is called",
     "options": [
       "simply supported beam",
       "fixed beam",
@@ -297,7 +253,7 @@
     "explain": "An overhanging beam has one or both of its end portions extending beyond the supports."
   },
   {
-    "q": "28. A beam encastered at both the ends is called",
+    "q": "24. A beam encastered at both the ends is called",
     "options": [
       "simply supported beam",
       "fixed beam",
@@ -308,7 +264,7 @@
     "explain": "A fixed beam (also known as a built-in or encastered beam) has both ends restrained against rotation and displacement."
   },
   {
-    "q": "29. A beam supported on more than two supports is called",
+    "q": "25. A beam supported on more than two supports is called",
     "options": [
       "simply supported beam",
       "fixed beam",
@@ -319,7 +275,7 @@
     "explain": "A continuous beam is a statically indeterminate structure that spans across more than two supports."
   },
   {
-    "q": "30. A cantilever beam is one which is",
+    "q": "26. A cantilever beam is one which is",
     "options": [
       "fixed at both ends",
       "fixed at one end and free at the other end",
@@ -330,7 +286,7 @@
     "explain": "The defining characteristic of a cantilever is the single fixed support that provides all the necessary stability."
   },
   {
-    "q": "31. A continuous beam is one which is",
+    "q": "27. A continuous beam is one which is",
     "options": [
       "fixed at both ends",
       "fixed at one end and free at the other end",
@@ -341,7 +297,7 @@
     "explain": "Any beam having three or more supports is classified as a continuous beam."
   },
   {
-    "q": "32. A concentrated load is one which",
+    "q": "28. A concentrated load is one which",
     "options": [
       "acts at a point on a beam",
       "spreads non-uniformly over the whole length",
@@ -352,7 +308,7 @@
     "explain": "A concentrated or point load is assumed to act at a single specific point on the beam's axis."
   },
   {
-    "q": "33. The bending moment on a section is maximum where shear force is",
+    "q": "29. The bending moment on a section is maximum where shear force is",
     "options": [
       "minimum",
       "maximum",
@@ -363,18 +319,7 @@
     "explain": "Since dM/dx = V, the maximum bending moment occurs where the shear force (V) is zero or changes sign."
   },
   {
-    "q": "34. When a load on the free end of a cantilever beam is increased, failure will occur",
-    "options": [
-      "at the free end",
-      "at the fixed end",
-      "in the middle of the beam",
-      "at a distance 2l/3 from free end"
-    ],
-    "correct": 1,
-    "explain": "In a cantilever, both the Shear Force and Bending Moment are maximum at the fixed support, making it the most critical section for failure."
-  },
-  {
-    "q": "35. The bending moment at the free end of a cantilever beam is",
+    "q": "30. The bending moment at the free end of a cantilever beam is",
     "options": [
       "zero",
       "minimum",
@@ -385,7 +330,7 @@
     "explain": "Since there are no forces or moments acting beyond the free end, the internal bending moment at that point must be zero."
   },
   {
-    "q": "36. The shear force of a cantilever beam of length l carrying a uniformly distributed load of w per unit length is... at the fixed end.",
+    "q": "31. The shear force of a cantilever beam of length l carrying a uniformly distributed load of w per unit length is... at the fixed end.",
     "options": [
       "zero",
       "wl/4",
@@ -396,7 +341,7 @@
     "explain": "The total load on the beam is w * l. To maintain equilibrium, the vertical reaction (Shear Force) at the fixed end must equal the total load."
   },
   {
-    "q": "37. The shear force diagram of a cantilever beam of length l and carrying a uniformly distributed load of w per unit length will be",
+    "q": "32. The shear force diagram of a cantilever beam of length l and carrying a uniformly distributed load of w per unit length will be",
     "options": [
       "a right angled triangle",
       "an isosceles triangle",
@@ -407,7 +352,7 @@
     "explain": "The SF varies linearly from zero at the free end to wl at the fixed end, forming a right-angled triangle."
   },
   {
-    "q": "38. The bending moment of a cantilever beam of length l and carrying a uniformly distributed load of w per unit length is... at the free end.",
+    "q": "33. The bending moment of a cantilever beam of length l and carrying a uniformly distributed load of w per unit length is... at the free end.",
     "options": [
       "zero",
       "wl/4",
@@ -418,7 +363,7 @@
     "explain": "As per the definition of Bending Moment, the sum of moments of forces to the right of the free end is zero."
   },
   {
-    "q": "39. The shear force and bending moment are zero at the free end of a cantilever beam, if it carries a",
+    "q": "34. The shear force and bending moment are zero at the free end of a cantilever beam, if it carries a",
     "options": [
       "point load at the free end",
       "point load at the middle of its length",
@@ -429,7 +374,7 @@
     "explain": "If a load is at the middle, the section from the middle to the free end has no load acting on it, resulting in zero SF and BM in that portion."
   },
   {
-    "q": "40. The bending moment of a cantilever beam of length l and carrying a uniformly distributed load of w per unit length is... at the fixed end.",
+    "q": "35. The bending moment of a cantilever beam of length l and carrying a uniformly distributed load of w per unit length is... at the fixed end.",
     "options": [
       "wl/4",
       "wl/2",
@@ -440,7 +385,7 @@
     "explain": "The total load is 'wl' acting at its center of gravity (l/2 from the support). Moment = (wl) * (l/2) = wl²/2."
   },
   {
-    "q": "41. The shear force of a cantilever beam... carrying a gradually varying load from zero at the free end and w per unit length at the fixed end is... at the fixed end.",
+    "q": "36. The shear force of a cantilever beam... carrying a gradually varying load from zero at the free end and w per unit length at the fixed end is... at the fixed end.",
     "options": [
       "zero",
       "wl/4",
@@ -451,7 +396,7 @@
     "explain": "The total load is the area of the triangular loading diagram: 1/2 * base * height = 1/2 * l * w = wl/2."
   },
   {
-    "q": "42. The bending moment of a cantilever beam... carrying a gradually varying load from zero at free end and w per unit length at the fixed end is... at the fixed end.",
+    "q": "37. The bending moment of a cantilever beam... carrying a gradually varying load from zero at free end and w per unit length at the fixed end is... at the fixed end.",
     "options": [
       "wl/2",
       "wl",
@@ -462,7 +407,7 @@
     "explain": "Total load wl/2 acts at a distance of l/3 from the base (fixed end). Moment = (wl/2) * (l/3) = wl²/6."
   },
   {
-    "q": "43. The maximum bending moment of a simply supported beam of span l and carrying a point load w at the centre of beam, is",
+    "q": "38. The maximum bending moment of a simply supported beam of span l and carrying a point load w at the centre of beam, is",
     "options": [
       "wl/4",
       "wl/2",
@@ -473,7 +418,7 @@
     "explain": "Reaction at each support is w/2. Maximum BM at the center = (w/2) * (l/2) = wl/4."
   },
   {
-    "q": "44. The bending moment diagram for a simply supported beam loaded in its centre is",
+    "q": "39. The bending moment diagram for a simply supported beam loaded in its centre is",
     "options": [
       "a right angled triangle",
       "an isosceles triangle",
@@ -484,7 +429,7 @@
     "explain": "The BM increases linearly from zero at both supports to wl/4 at the center, forming an isosceles triangle."
   },
   {
-    "q": "45. The shear force in the centre of a simply supported beam carrying a uniformly distributed load of w per unit length, is",
+    "q": "40. The shear force in the centre of a simply supported beam carrying a uniformly distributed load of w per unit length, is",
     "options": [
       "zero",
       "wl²/2",
@@ -495,7 +440,7 @@
     "explain": "For a symmetrical UDL on an SS beam, the SF diagram passes through zero at the mid-span."
   },
   {
-    "q": "46. The bending moment in the centre of a simply supported beam carrying a uniformly distributed load of w per unit length is",
+    "q": "41. The bending moment in the centre of a simply supported beam carrying a uniformly distributed load of w per unit length is",
     "options": [
       "zero",
       "wl²/2",
@@ -506,7 +451,7 @@
     "explain": "The reaction is wl/2. BM at center = (wl/2 * l/2) - (w * l/2 * l/4) = wl²/4 - wl²/8 = wl²/8."
   },
   {
-    "q": "47. The shear force at the ends of a simply supported beam carrying a uniformly distributed load of w per unit length is",
+    "q": "42. The shear force at the ends of a simply supported beam carrying a uniformly distributed load of w per unit length is",
     "options": [
       "zero at its both ends",
       "wl at one end and -wl at the other end",
@@ -517,18 +462,7 @@
     "explain": "For a symmetrical UDL, each support reaction is half the total load (W = wl). Therefore, the shear force starts at +wl/2 at one support and ends at -wl/2 at the other."
   },
   {
-    "q": "48. The shear force diagram for a simply supported beam carrying a uniformly distributed load of w per unit length, consists of",
-    "options": [
-      "one right angled triangle",
-      "two right angled triangles",
-      "one equilateral triangle",
-      "two equilateral triangles"
-    ],
-    "correct": 1,
-    "explain": "The SFD for a UDL on an SS beam is a straight line passing through zero at the center, creating two equal right-angled triangles on either side of the mid-span."
-  },
-  {
-    "q": "49. The bending moment diagram for a simply supported beam carrying a uniformly distributed load of w per unit length, will be",
+    "q": "43. The bending moment diagram for a simply supported beam carrying a uniformly distributed load of w per unit length, will be",
     "options": [
       "a horizontal line",
       "a vertical line",
@@ -539,7 +473,7 @@
     "explain": "Since the shear force varies linearly (1st degree) for a UDL, the bending moment (which is the integral of SF) varies parabolically (2nd degree)."
   },
   {
-    "q": "50. The shear force at the centre of a simply supported beam with a gradually varying load from zero at both ends to w per metre at the centre, is",
+    "q": "44. The shear force at the centre of a simply supported beam with a gradually varying load from zero at both ends to w per metre at the centre, is",
     "options": [
       "zero",
       "wl/4",
@@ -548,5 +482,71 @@
     ],
     "correct": 0,
     "explain": "Due to the symmetry of the triangular loading (zero at ends, max at center), the shear force at the exact mid-point of the span must be zero."
+  },
+  {
+    "q": "45. The point of contra flexure is a point where",
+    "options": [
+      "shear force change sign",
+      "bending moment changes sign",
+      "shear force is maximum",
+      "bending moment is maximum"
+    ],
+    "correct": 1,
+    "explain": "The point of contraflexure (or inflection) is the location in a structural member where the bending moment changes from positive (sagging) to negative (hogging) or vice versa."
+  },
+  {
+    "q": "46. When shear force at a point is zero, then bending moment is... at that point.",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "Mathematically, V = dM/dx. If the derivative (V) is zero, the function (M) is at a local maximum or minimum."
+  },
+  {
+    "q": "47. When there is a sudden increase or decrease in shear force diagram between any two points, it indicates that there is a",
+    "options": [
+      "point load at the two points",
+      "no loading between the two points",
+      "uniformly distributed load between the two points",
+      "uniformly varying load between the two points"
+    ],
+    "correct": 0,
+    "explain": "A vertical jump in the shear force diagram always corresponds to the application of a concentrated (point) load at 그 point."
+  },
+  {
+    "q": "48. When the shear force diagram is a parabolic curve between two points, it indicates that there is a",
+    "options": [
+      "point load at the two points",
+      "no loading between the two points",
+      "uniformly distributed load between the two points",
+      "uniformly varying load between the two points"
+    ],
+    "correct": 3,
+    "explain": "If the loading is linear (uniformly varying), the shear force (its integral) will be a 2nd-degree parabolic curve."
+  },
+  {
+    "q": "49. In a beam where shear force changes sign, the bending moment will be",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "A change in sign in the SFD indicates that the SF passes through zero, which identifies the location of the maximum bending moment."
+  },
+  {
+    "q": "50. The number of reaction components possible at a fixed or built in end for a general loading",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "correct": 1,
+    "explain": "A fixed support prevents all movement (vertical, horizontal, and rotation), providing three reactions: vertical force, horizontal force, and a bending moment."
   }
 ]

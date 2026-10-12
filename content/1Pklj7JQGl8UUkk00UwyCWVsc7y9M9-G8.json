@@ -1,6 +1,149 @@
 [
   {
-    "q": "1. Accidental or compensating errors of length L are proportional to",
+    "q": "1. The cross staff is carried out for",
+    "options": [
+      "city surveys",
+      "topographical survey",
+      "revenue surveys",
+      "canal surveys"
+    ],
+    "correct": 1,
+    "explain": "As per the book's answer key, the cross staff is used in topographical survey work for setting out perpendicular offsets."
+  },
+  {
+    "q": "2. If a chain is used at a temperature ... the temperature at which it was calibrated, the error in measured length is negative",
+    "options": [
+      "equal to",
+      "lower than",
+      "higher than",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "If the chain is used at a temperature lower than its calibration temperature, the chain contracts slightly (becomes shorter than nominal), causing the measured length to be recorded as greater than the true length - a negative error in the corrected sense."
+  },
+  {
+    "q": "3. The error in measured length due to sag of chain or tape is known as",
+    "options": [
+      "positive error",
+      "negative error",
+      "compensating error",
+      "instrumental error"
+    ],
+    "correct": 1,
+    "explain": "Sag causes the measured tape/chain length to record a distance longer than the true straight-line distance, resulting in a negative error requiring subtraction."
+  },
+  {
+    "q": "4. When the measured length is less than the actual length, the error is known as",
+    "options": [
+      "positive error",
+      "negative error",
+      "compensating error",
+      "instrumental error"
+    ],
+    "correct": 0,
+    "explain": "When the recorded/measured length comes out less than the true actual length (meaning a correction must be added), this is termed a positive error."
+  },
+  {
+    "q": "5. The position of point can be fixed more accurately by",
+    "options": [
+      "cross staff",
+      "oblique offsets",
+      "optical square",
+      "perpendicular offsets"
+    ],
+    "correct": 3,
+    "explain": "Perpendicular offsets, set out accurately using instruments like the optical square, provide the most accurate method of fixing a point's position relative to the chain line among the options given."
+  },
+  {
+    "q": "6. A 20 long chain when should not show an error exceeding",
+    "options": [
+      "2 mm per meter length and 5 mm in the overall length",
+      "2 mm per meter length and 8 mm in the overall length",
+      "2 mm per meter length and 20 mm in the overall length",
+      "2 mm per meter length and 40 mm in the overall length"
+    ],
+    "correct": 1,
+    "explain": "The standard permissible tolerance for a 20 m chain is 2 mm per metre length, with a maximum overall length error not exceeding 8 mm."
+  },
+  {
+    "q": "7. Ranging in chain survey means",
+    "options": [
+      "looking at an isolated",
+      "establishing an intermediate point on the line",
+      "determining the distance between end points",
+      "determining the offset distance"
+    ],
+    "correct": 1,
+    "explain": "Ranging in chain surveying specifically means the process of establishing intermediate points in a straight line between the end stations of a chain line."
+  },
+  {
+    "q": "8. Chain surveying consists of the arrangement of framework of triangles because a triangle is the only simple plane figure which can be plotted uniquely if ... of the triangle are known",
+    "options": [
+      "three sides",
+      "three angles",
+      "one side and two angles",
+      "one angle and two sides"
+    ],
+    "correct": 0,
+    "explain": "A triangle can be plotted uniquely and independently if the lengths of all three sides are known, which is why chain surveying (using linear measurements only) relies on a framework of triangles."
+  },
+  {
+    "q": "9. The ranging of the line between two stations across raised ground is called",
+    "options": [
+      "direct ranging",
+      "indirect ranging",
+      "random line ranging",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "When ranging a line between two stations across raised (intervening) ground where they are not mutually visible from ground level, indirect ranging is used."
+  },
+  {
+    "q": "10. If L is the distance between two supports from which a tape is suspended under a pull P and W is the total weight of the tape the sag correction is",
+    "options": [
+      "(L/12)(W/P)^2",
+      "(L/24)(W/P)^2",
+      "(L/36)(W/P)^2",
+      "(L/24)(W/P)^3"
+    ],
+    "correct": 1,
+    "explain": "The standard sag correction formula for a tape freely suspended between two supports under pull P with total weight W is (L/24)(W/P)^2."
+  },
+  {
+    "q": "11. If a 30 m chain diverges through a perpendicular distance from its correct alignment, the error in length is",
+    "options": [
+      "d^2/60 m",
+      "d^2/30 m",
+      "d^2/40 m",
+      "d/40 m"
+    ],
+    "correct": 2,
+    "explain": "For a 30 m chain that diverges by a perpendicular distance d from the correct alignment, the resulting error in the measured length is given by d^2/40 m, as per the standard small-angle approximation formula."
+  },
+  {
+    "q": "12. If the length of a chain line along a slope of theta is l, the required slope correction is",
+    "options": [
+      "2l cos^2(theta/2)",
+      "2l sin^2(theta/2)",
+      "l tan^2(theta/2)",
+      "l cos^2(theta)"
+    ],
+    "correct": 1,
+    "explain": "The slope correction to be subtracted from a chain line of length l measured along a slope of angle theta is given by the formula 2l sin^2(theta/2)."
+  },
+  {
+    "q": "13. A tape of length l and weight W kg/m is suspended at its ends with a pull of p kg, the correction is",
+    "options": [
+      "l^3W^2/24P^2",
+      "l^2W^3/24P^2",
+      "l^2W^2/24P^3",
+      "lW^2/24P"
+    ],
+    "correct": 1,
+    "explain": "For a tape of length l with weight per unit length W suspended under pull P, the sag correction formula (in this book's notation) is given as l^2W^3/24P^2."
+  },
+  {
+    "q": "14. Accidental or compensating errors of length L are proportional to",
     "options": [
       "L",
       "sqrt(L)",
@@ -11,7 +154,7 @@
     "explain": "Accidental (compensating) errors accumulate in proportion to the square root of the total measured length L, following the statistical law of random errors."
   },
   {
-    "q": "2. While measuring a chain line between two stations A and B intervened by a raised ground",
+    "q": "15. While measuring a chain line between two stations A and B intervened by a raised ground",
     "options": [
       "vision gets obstructed",
       "chaining gets obstructed",
@@ -22,7 +165,7 @@
     "explain": "A raised intervening ground obstructs both the line of sight between the two stations and the physical continuity of chaining across it, so both vision and chaining get obstructed."
   },
   {
-    "q": "3. Prolongation of chain line across an obstruction in chain surveying, is done by",
+    "q": "16. Prolongation of chain line across an obstruction in chain surveying, is done by",
     "options": [
       "making angular measurements",
       "drawing perpendiculars with a chain",
@@ -33,18 +176,7 @@
     "explain": "Prolonging a chain line across an obstruction can be achieved using any of several field methods together - angular measurements, constructing perpendiculars, or solving triangles - so all of the above are valid techniques."
   },
   {
-    "q": "4. In chain surveying tie lines are primarily provided",
-    "options": [
-      "to check the accuracy of the survey",
-      "to take offsets for detail survey",
-      "to avoid long offsets from chain lines",
-      "to increase the number of chain lines"
-    ],
-    "correct": 2,
-    "explain": "The primary purpose of providing tie lines in chain surveying is to avoid having to take unduly long offsets directly from the main chain lines, by providing closer reference lines for nearby detail."
-  },
-  {
-    "q": "5. In chain surveying field work is limited to",
+    "q": "17. In chain surveying field work is limited to",
     "options": [
       "linear measurements only",
       "angular measurements only",
@@ -55,7 +187,7 @@
     "explain": "Chain surveying, by its fundamental nature, restricts all field work to linear measurements only, without any angular measurement instruments being used."
   },
   {
-    "q": "6. A clinometer is used for",
+    "q": "18. A clinometer is used for",
     "options": [
       "measuring angle of slope",
       "correcting line of collimation",

@@ -1,6 +1,116 @@
 [
   {
-    "q": "1. The elongation of conical bar under its own weight is equal to",
+    "q": "1. Torsional equation is given by",
+    "options": [
+      "T/J = τmax/R = Cθ/l",
+      "J/T = τmax/R = Cθ/l",
+      "T/J = R/τmax = Cθ/l",
+      "J/T = τmax/R = l/Cθ"
+    ],
+    "correct": 0,
+    "explain": "This is the standard torsion formula relating torque (T), polar moment of inertia (J), shear stress (τ), radius (R), modulus of rigidity (C), angle of twist (θ), and length (l)."
+  },
+  {
+    "q": "2. The stress in a member subjected to a force is",
+    "options": [
+      "continue deforestation under sustained loading",
+      "load per unit area",
+      "the resistance offered by the material per unit area to a force",
+      "the strain per unit length"
+    ],
+    "correct": 2,
+    "explain": "Stress is technically the internal resistance offered by the material, per unit area, against an externally applied force (though numerically it also equals load/area)."
+  },
+  {
+    "q": "3. A perfectly elastic body is",
+    "options": [
+      "that body which recovers its original shape completely after removal at force",
+      "a body of such a material with a lot of extensibility",
+      "a body made of rubber only",
+      "a body whose cross-sectional dimensions are very small"
+    ],
+    "correct": 0,
+    "explain": "A perfectly elastic body is one that recovers its original shape and size completely and instantly upon removal of the deforming force, with no permanent deformation."
+  },
+  {
+    "q": "4. Permanent set is",
+    "options": [
+      "the force which acts permanently on the body",
+      "irrecoverable deformation in the body",
+      "the shape of the member just after completion of construction",
+      "ratio of Poisson's ratio to Young's Modulus"
+    ],
+    "correct": 1,
+    "explain": "Permanent set refers to the residual, irrecoverable deformation that remains in a material after the load causing it beyond the elastic limit has been removed."
+  },
+  {
+    "q": "5. Stress concentration near the void is ................ as compared to solid portion.",
+    "options": [
+      "less",
+      "more",
+      "equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Voids or discontinuities disrupt the flow of stress lines, causing them to 'bunch up' and increase the local stress intensity."
+  },
+  {
+    "q": "6. In a case of partially elastic body that part of work done by the external forces during deformation is dissipated in the form of heat, which is developed in the body during",
+    "options": [
+      "non-elastic deformation",
+      "elastic deformation",
+      "50% of total deformation",
+      "last 25% of deformation"
+    ],
+    "correct": 0,
+    "explain": "In a partially elastic body, the energy lost as heat corresponds to the non-elastic (permanent/plastic) portion of deformation, since elastic deformation energy is fully recoverable."
+  },
+  {
+    "q": "7. Hoop stress is",
+    "options": [
+      "compressive",
+      "radial stress",
+      "circumferential tensile stress",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In thin-walled cylinders under internal pressure, hoop stress acts along the circumference and is tensile in nature."
+  },
+  {
+    "q": "8. The Law \"Stress is proportional to strain within certain limits\" is formatted by",
+    "options": [
+      "Thomas Young",
+      "Poisson",
+      "Mohr",
+      "Robert Hook"
+    ],
+    "correct": 3,
+    "explain": "This is Hooke's Law, formulated by Robert Hooke, stating that stress is proportional to strain within the elastic (proportional) limit."
+  },
+  {
+    "q": "9. As per elastic theory of design the factor of safety is the ratio of",
+    "options": [
+      "working stress to yield stress",
+      "yield stress to working stress",
+      "unlimited strength to yield stress",
+      "unlimited load to load at yield."
+    ],
+    "correct": 1,
+    "explain": "In elastic (working stress) design, factor of safety is defined as the ratio of the yield stress to the actual working (allowable) stress used in design."
+  },
+  {
+    "q": "10. In a composite bar the load distribution among different materials of which it is made is based on the assumption that all the materials will have",
+    "options": [
+      "equal areas",
+      "same yong's modulus",
+      "same strain",
+      "same stress"
+    ],
+    "correct": 2,
+    "explain": "In a composite bar, since all constituent materials are rigidly connected and deform together, they undergo the same strain, and load distribution is derived from this compatibility condition."
+  },
+  {
+    "q": "11. The elongation of conical bar under its own weight is equal to",
     "options": [
       "that of prismatic bar of same length",
       "one half that of a prismatic bar of same length",
@@ -11,7 +121,18 @@
     "explain": "Integrating the varying cross-section of a conical bar under self-weight gives an elongation equal to one-third of that of an equivalent prismatic bar of the same length."
   },
   {
-    "q": "2. The strain energy stored in a spring when subjected to greatest load without being permanently distorted is",
+    "q": "12. The load on spring per unit deflection is called",
+    "options": [
+      "stiffness",
+      "proof resilience",
+      "proof stress",
+      "proof load"
+    ],
+    "correct": 0,
+    "explain": "Stiffness is defined as the load required to produce unit deflection in a spring (k = W/δ)."
+  },
+  {
+    "q": "13. The strain energy stored in a spring when subjected to greatest load without being permanently distorted is",
     "options": [
       "stiffness",
       "proof resilience",
@@ -22,7 +143,7 @@
     "explain": "Proof resilience is the maximum strain energy a spring can store without undergoing permanent set (i.e., up to the elastic limit)."
   },
   {
-    "q": "3. Modulus of the Rigidity is the ratio of",
+    "q": "14. Modulus of the Rigidity is the ratio of",
     "options": [
       "shear stress to shear strain",
       "normal stress to normal strain",
@@ -33,18 +154,18 @@
     "explain": "Modulus of Rigidity (G), by definition, is the ratio of shear stress to shear strain within the elastic limit."
   },
   {
-    "q": "4. A beam of triangular cross section is placed with its base horizontal. The maximum shear stress intensity in the section will be",
+    "q": "15. A beam of uniform strength has at every cross section same",
     "options": [
-      "at the neutral axis",
-      "at the base",
-      "above the neutral axis",
-      "below the neutral axis"
+      "bending moment",
+      "bending stress",
+      "deflection",
+      "stiffness"
     ],
-    "correct": 2,
-    "explain": "For a triangular section with base horizontal, the parabolic shear stress distribution peaks slightly above the neutral axis (not exactly at it), due to the varying width of the triangle."
+    "correct": 1,
+    "explain": "A beam of uniform strength is designed such that the maximum bending stress is the same (equal to allowable stress) at every cross-section, even though the moment and dimensions vary."
   },
   {
-    "q": "5. For no torsion, the plane of bending should",
+    "q": "16. For no torsion, the plane of bending should",
     "options": [
       "be parallel to one of the principal axes",
       "pass through shear center of section",
@@ -55,7 +176,7 @@
     "explain": "To avoid inducing torsion in an unsymmetrical section, the plane of the transverse load (bending) must pass through the shear center of the section."
   },
   {
-    "q": "6. Buckling load for a given column depends upon",
+    "q": "17. Buckling load for a given column depends upon",
     "options": [
       "length of column only",
       "least lateral dimension only",
@@ -66,7 +187,40 @@
     "explain": "Euler's buckling load formula (P = π²EI/Le²) depends on both the effective length of the column and the moment of inertia (related to the least lateral dimension)."
   },
   {
-    "q": "7. Bulk Modulus, Young's modulus and Poisson's ratio are connected by the relation",
+    "q": "18. A strut is member which",
+    "options": [
+      "connects two joints",
+      "is subjected to shear force predominantly",
+      "is subjected to axial compressive predominantly",
+      "is subjected to bending moment and shear force along with any axial force"
+    ],
+    "correct": 2,
+    "explain": "A strut is defined as a structural member primarily subjected to axial compressive force."
+  },
+  {
+    "q": "19. The angle between the two principal planes is",
+    "options": [
+      "45°",
+      "90°",
+      "30°",
+      "60°"
+    ],
+    "correct": 1,
+    "explain": "The two principal planes (planes of maximum and minimum normal stress) are always mutually perpendicular, i.e. at 90° to each other."
+  },
+  {
+    "q": "20. If an element of a specimen of brittle material is subjected to shear stress, the crack propagation if occurs, will be inclined to the sides of the element at",
+    "options": [
+      "45°",
+      "90°",
+      "30°",
+      "60°"
+    ],
+    "correct": 0,
+    "explain": "Under pure shear, the maximum tensile (principal) stress acts at 45° to the shear planes, and brittle materials fail along this plane of maximum tensile stress, so cracks propagate at 45° to the sides."
+  },
+  {
+    "q": "21. Bulk Modulus, Young's modulus and Poisson's ratio are connected by the relation",
     "options": [
       "K=E/3(1−2/m)",
       "e=K/3(1+2/m)",
@@ -77,7 +231,40 @@
     "explain": "The standard elastic relation connecting Young's modulus E, bulk modulus K and Poisson's ratio (1/m) is E = 3K(1 − 2/m)."
   },
   {
-    "q": "8. Stress may be defined as",
+    "q": "22. In the case of uniaxial tension the angle between the plane carrying maximum shear stress and direction of tensile force will be",
+    "options": [
+      "90°",
+      "0°",
+      "45°",
+      "60°"
+    ],
+    "correct": 2,
+    "explain": "For uniaxial tension, the plane of maximum shear stress is inclined at 45° to the direction (axis) of the applied tensile force."
+  },
+  {
+    "q": "23. The maximum shear stress from a Mohr's circle is given by",
+    "options": [
+      "the diameter of the circle",
+      "the distance of centre from the origin",
+      "the distance of farthest point on the mohr's circle from origin",
+      "the radius of the circle"
+    ],
+    "correct": 3,
+    "explain": "On Mohr's circle, the vertical extent (top or bottom point) represents the maximum shear stress, which equals the radius of the circle."
+  },
+  {
+    "q": "24. An element is subjected to two equal and like stress σ, on two mutually perpendicular planes. The shape of the Mohr's circle will be",
+    "options": [
+      "a circle of radius 2σ",
+      "a circle of radius σ",
+      "a circle of radius σ/2",
+      "a point"
+    ],
+    "correct": 3,
+    "explain": "When both principal stresses are equal (σ1=σ2=σ), the Mohr's circle degenerates to a single point on the normal-stress axis, since there is no shear stress on any plane."
+  },
+  {
+    "q": "25. Stress may be defined as",
     "options": [
       "force per unit length",
       "force per unit volume",
@@ -88,7 +275,7 @@
     "explain": "Stress is fundamentally defined as the internal force per unit cross-sectional area."
   },
   {
-    "q": "9. Stress may be expressed in Newton's",
+    "q": "26. Stress may be expressed in Newton's",
     "options": [
       "per millimeter square",
       "per centimeter square",
@@ -99,7 +286,7 @@
     "explain": "In engineering practice (especially for structural/mechanical stresses), stress is conventionally expressed in N/mm² (MPa) due to convenient magnitude."
   },
   {
-    "q": "10. A material is said to be perfectly elastic if",
+    "q": "27. A material is said to be perfectly elastic if",
     "options": [
       "it regains its original shape on removal of the load",
       "it regains its original shape partially on removal of the load",
@@ -110,7 +297,18 @@
     "explain": "A perfectly elastic material fully regains its original shape and size immediately upon removal of the applied load."
   },
   {
-    "q": "11. A long vertical member, subjected to and axial compressive load, is called",
+    "q": "28. Stress in a beam due to simple bending, is",
+    "options": [
+      "directly proportional",
+      "inversely proportional",
+      "curvilinearly related",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "From the flexure formula σ = My/I, stress varies directly (linearly) proportional to the distance y from the neutral axis."
+  },
+  {
+    "q": "29. A long vertical member, subjected to and axial compressive load, is called",
     "options": [
       "a column",
       "a strut",
@@ -121,7 +319,7 @@
     "explain": "A long vertical member under axial compressive load is generically termed a column (a stanchion is a specific type, but 'column' is the general/correct term here)."
   },
   {
-    "q": "12. The region of the cross-section of a column in which compressive load may be applied without producing any tensile stress, is known as the core of the cross-section; in circular columns the radius of the core, is",
+    "q": "30. The region of the cross-section of a column in which compressive load may be applied without producing any tensile stress, is known as the core of the cross-section; in circular columns the radius of the core, is",
     "options": [
       "none-half of the radius",
       "one-third of the radius",
@@ -132,18 +330,18 @@
     "explain": "For a circular column of radius r, the core (kernel) has a radius of r/4, within which an eccentric load produces no tensile stress anywhere on the section."
   },
   {
-    "q": "13. Rankine-Golden formula accounts for direct as well as buckling stress and is applicable to",
+    "q": "31. In rectangular columns (cross-section b × h), the core is a",
     "options": [
-      "very long columns",
-      "long columns",
-      "short columns",
-      "intermediate columns"
+      "rectangle of lengths b/2 and h/2",
+      "square of length b/2",
+      "rhombus of length h/2",
+      "rhombus of diagonals b/3 and h/3"
     ],
     "correct": 3,
-    "explain": "Rankine's formula is a practical empirical formula that bridges crushing and buckling failure, making it applicable across the full range but particularly valid for intermediate columns where both effects matter."
+    "explain": "For a rectangular column b×h, the core (middle-third rule region) is a rhombus with diagonals equal to b/3 and h/3."
   },
   {
-    "q": "14. When a rectangular beam is loaded transversely, the maximum compressive force develops on",
+    "q": "32. When a rectangular beam is loaded transversely, the maximum compressive force develops on",
     "options": [
       "bottom fibre",
       "top fibre",
@@ -154,7 +352,62 @@
     "explain": "For a simply supported beam under transverse load, sagging occurs, which puts the top fibers in compression and the bottom fibers in tension."
   },
   {
-    "q": "15. The maximum magnitude of shear stress due to shear force F on a rectangular section area A at the neutral axis is",
+    "q": "33. For keeping the stress wholly compressive the load may be applied on a circular column anywhere within a concentric circle of diameter",
+    "options": [
+      "d/2",
+      "d/3",
+      "d/4",
+      "d/8"
+    ],
+    "correct": 2,
+    "explain": "For a circular column of diameter d, the core (no-tension zone) is a concentric circle of diameter d/4, within which the eccentric load keeps stress wholly compressive."
+  },
+  {
+    "q": "34. To ascertain the maximum permissible eccentricity of loads on circular columns, the rule generally followed, is",
+    "options": [
+      "middle half rule of columns",
+      "middle third rule of columns",
+      "middle fourth rule of columns",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The 'middle third rule' states that a load must be kept within the middle third of the section width/diameter to avoid tension, which is the generally followed rule for columns."
+  },
+  {
+    "q": "35. The greatest eccentricity which a load W can have without producing tension on the cross-section of a short column of external diameter D and internal diameter d, is",
+    "options": [
+      "4W/p(D²−d²)",
+      "p(D⁴−d⁴)/32D",
+      "(D²+d²)/8D",
+      "(D²−d²)/8D"
+    ],
+    "correct": 2,
+    "explain": "For a hollow circular column, the limiting eccentricity for no tension is derived from the section's core boundary, giving e = (D²+d²)/8D."
+  },
+  {
+    "q": "36. The deformation of a spring produced by a unit load is called",
+    "options": [
+      "stiffness",
+      "flexibility",
+      "influence coefficient",
+      "unit strain"
+    ],
+    "correct": 1,
+    "explain": "Flexibility is defined as the deformation produced by a unit load, the reciprocal of stiffness."
+  },
+  {
+    "q": "37. A composite beam is composed of two equal strips one of brass and other of steel; temperature is raised",
+    "options": [
+      "steel experiences tensile forces",
+      "brass experiences compressive force",
+      "composite beam bends",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Since brass expands more than steel for the same temperature rise, the differential expansion in a bonded strip causes the beam to bend, inducing tension in steel and compression in brass — hence all listed effects occur together."
+  },
+  {
+    "q": "38. The maximum magnitude of shear stress due to shear force F on a rectangular section area A at the neutral axis is",
     "options": [
       "F/A",
       "F/2A",
@@ -165,7 +418,7 @@
     "explain": "For a rectangular section, the parabolic shear stress distribution peaks at the neutral axis with a value of 1.5 times the average shear stress (F/A), giving 3F/2A."
   },
   {
-    "q": "16. The ratio of maximum and average shear stresses on a rectangular section is",
+    "q": "39. The ratio of maximum and average shear stresses on a rectangular section is",
     "options": [
       "1",
       "1.5",
@@ -176,7 +429,7 @@
     "explain": "For a rectangular section, max shear stress = 1.5 × average shear stress (a standard parabolic distribution result), giving a ratio of 1.5."
   },
   {
-    "q": "17. The ratio of maximum and average shear stresses on a circular section is",
+    "q": "40. The ratio of maximum and average shear stresses on a circular section is",
     "options": [
       "2/3",
       "3/2",
@@ -187,7 +440,7 @@
     "explain": "For a circular section, the ratio of maximum to average shear stress is 4/3, a standard result from integrating the parabolic-type shear distribution over a circle."
   },
   {
-    "q": "18. A bar of square section of area a² is held such that its one of its diameters is vertical; maximum shear stress will develop at a depth h where h is",
+    "q": "41. A bar of square section of area a² is held such that its one of its diameters is vertical; maximum shear stress will develop at a depth h where h is",
     "options": [
       "2√3/4",
       "3√2/4",
@@ -198,7 +451,40 @@
     "explain": "For a square section oriented with a diagonal vertical, the maximum shear stress occurs at a depth from the top vertex of 3√2·a/4 (with side a), matching option (b)."
   },
   {
-    "q": "19. In a stressed body the minimum normal stress at any point is always",
+    "q": "42. The residual stress in a member is",
+    "options": [
+      "the stress due to the loading on the member",
+      "the average of initial and final stresses",
+      "deformation stress",
+      "instantaneous stress due to sudden loading"
+    ],
+    "correct": 2,
+    "explain": "Residual stress is the internal stress remaining in a member after all external loads have been removed, arising from non-uniform plastic deformation — best described as a 'deformation stress'."
+  },
+  {
+    "q": "43. The stress along the contact surface of a rivet and the member is",
+    "options": [
+      "bearing stress",
+      "compressive stress",
+      "shearing stress",
+      "axial tensile stress"
+    ],
+    "correct": 0,
+    "explain": "The stress developed at the contact/bearing surface between two members (e.g., a pin and a plate, or a column base on a footing) is termed bearing stress."
+  },
+  {
+    "q": "44. In a stressed body the maximum normal stress at any point is always",
+    "options": [
+      "a principal stresses",
+      "average of maximum and minimum shear stresses",
+      "sum of the two normal stresses acting in two principal directions",
+      "a principal stress"
+    ],
+    "correct": 3,
+    "explain": "By definition, a principal stress is the extreme (maximum or minimum) normal stress on any plane through the point with zero shear stress; hence the maximum normal stress is always a principal stress."
+  },
+  {
+    "q": "45. In a stressed body the minimum normal stress at any point is always",
     "options": [
       "average of two normal stresses acting in the two principal directions",
       "a principal stress",
@@ -209,7 +495,7 @@
     "explain": "Just as the maximum normal stress is a principal stress, the minimum normal stress at a point is also always a principal stress (the minor principal stress)."
   },
   {
-    "q": "20. The maximum shear stress will be equal to",
+    "q": "46. The maximum shear stress will be equal to",
     "options": [
       "on half of the algebraic difference of the maximum and minimum principal stresses at the point",
       "the intensity of shear stress acting on the major principal plane",
@@ -220,7 +506,7 @@
     "explain": "Maximum shear stress = (σ1 − σ2)/2, i.e., half the algebraic difference of the two principal stresses."
   },
   {
-    "q": "21. When a column in resting on base plate, the stresses along the surfaces of contact are",
+    "q": "47. When a column in resting on base plate, the stresses along the surfaces of contact are",
     "options": [
       "compressive stresses",
       "shear stresses",
@@ -231,7 +517,18 @@
     "explain": "The contact stress between a column base and its supporting plate/footing is specifically termed bearing stress."
   },
   {
-    "q": "22. Two bars of different materials and same size are subjected to the same tensile force. If the bars have unit elongation in the ratio of 2 : 5, then the ratio of modulus of elasticity of the two materials will be",
+    "q": "48. The modulus of elasticity for mild steel is approximately equal to",
+    "options": [
+      "10 kN/mm²",
+      "80 kN/mm²",
+      "100 kN/mm²",
+      "210 kN/mm²"
+    ],
+    "correct": 3,
+    "explain": "The Young's modulus (modulus of elasticity) of mild steel is approximately 200-210 kN/mm² (GPa), a standard material property value."
+  },
+  {
+    "q": "49. Two bars of different materials and same size are subjected to the same tensile force. If the bars have unit elongation in the ratio of 2 : 5, then the ratio of modulus of elasticity of the two materials will be",
     "options": [
       "2:5",
       "5:2",
@@ -242,7 +539,7 @@
     "explain": "Since strain (unit elongation) is inversely proportional to E for the same stress (E=stress/strain), a strain ratio of 2:5 gives an E ratio of 5:2."
   },
   {
-    "q": "23. When a bar of length l and diameter d is rigidly fixed at the upper end and hanging freely, then the total elongation produced in the bar due to its own weight is",
+    "q": "50. When a bar of length l and diameter d is rigidly fixed at the upper end and hanging freely, then the total elongation produced in the bar due to its own weight is",
     "options": [
       "wl/2E",
       "wl²/2E",
@@ -251,302 +548,5 @@
     ],
     "correct": 1,
     "explain": "For a bar hanging under its own weight (w = weight per unit volume), the total elongation is wl²/2E, derived by integrating the varying internal axial force along the length."
-  },
-  {
-    "q": "24. The deformation of a bar under its own weight is ............. the deformation, if the same body is subjected to a direct load equal to weight of the body.",
-    "options": [
-      "equal to",
-      "half",
-      "double",
-      "quadruple"
-    ],
-    "correct": 1,
-    "explain": "Self-weight elongation (wl²/2E) is exactly half of the elongation caused by an equivalent direct end load equal to the total weight (Wl/AE), since self-weight effectively acts as if applied at the centroid on average."
-  },
-  {
-    "q": "25. The elongation of a conical bar under its own weight is ............. that of prismatic bar of the same length.",
-    "options": [
-      "equal to",
-      "half",
-      "one-third",
-      "two-third"
-    ],
-    "correct": 2,
-    "explain": "Due to the tapering cross-section reducing internal force build-up, a conical bar's self-weight elongation is one-third that of an equivalent prismatic bar of the same length."
-  },
-  {
-    "q": "26. The length of a conical bar is l, diameter of base is d and weight per unit volume is w. It is fixed at its upper end and hanging freely. The elongation of the bar under the action of its own weight will be",
-    "options": [
-      "wl²/2E",
-      "wl²/4E",
-      "wl²/6E",
-      "wl²/8E"
-    ],
-    "correct": 2,
-    "explain": "For a conical bar under self-weight, integrating gives an elongation of wl²/6E, consistent with it being one-third of the prismatic bar's wl²/2E value."
-  },
-  {
-    "q": "27. Strain rosetters are used to",
-    "options": [
-      "measure shear strain",
-      "measure linear strain",
-      "measure volumetric strain",
-      "relieve strain"
-    ],
-    "correct": 1,
-    "explain": "Strain rosettes consist of multiple strain gauges arranged to measure linear (normal) strains in different directions at a point, from which principal strains can be derived."
-  },
-  {
-    "q": "28. A rod is enclosed centrally in a tube and the assembly is tightened by rigid washers. If assembly is subjected to a compressive load, then",
-    "options": [
-      "rod is under compression",
-      "tube is under compression",
-      "both rod and tube are under compression",
-      "tube is under tension and rod is under compression"
-    ],
-    "correct": 2,
-    "explain": "Since the rigid washers force the rod and tube to shorten together under the applied compressive load, both components share and resist the load in compression."
-  },
-  {
-    "q": "29. When a bar is subjected to a change of temperature and its deformation is prevented, stress induced in the bar is",
-    "options": [
-      "tensile stress",
-      "compressive stress",
-      "shear stress",
-      "thermal stress"
-    ],
-    "correct": 3,
-    "explain": "When thermal expansion/contraction of a restrained bar is prevented, the resulting internal stress is generically termed thermal stress (which may be tensile or compressive depending on direction of temperature change)."
-  },
-  {
-    "q": "30. A steel bar of 5 mm is heated from 15°C to 40°C and it if free to expand. The bar will induce",
-    "options": [
-      "no stress",
-      "shear stress",
-      "tensile stress",
-      "compressive stress"
-    ],
-    "correct": 0,
-    "explain": "If the bar is completely free to expand (unrestrained), no internal stress develops regardless of temperature change, since there is no resistance to the deformation."
-  },
-  {
-    "q": "31. A bar of copper and steel form a composite system, which is heated to a temperature of 40. The stress induced in the copper bar will be",
-    "options": [
-      "tensile",
-      "compressive",
-      "shear",
-      "zero"
-    ],
-    "correct": 1,
-    "explain": "Since copper has a higher coefficient of thermal expansion than steel, in a bonded composite bar heated together, copper is restrained from expanding as much as it wants by the steel, inducing compressive stress in the copper."
-  },
-  {
-    "q": "32. When a circular bar tapering uniformly from diameter d1 at one end to diameter d2 at the other end, is subjected to an increase in temperature (t), then the thermal stress induced is",
-    "options": [
-      "a.t.E.d1/d2",
-      "a.t.d1/d2.E",
-      "a.t.d2/d1.E",
-      "d1.t/a.E.d2"
-    ],
-    "correct": 0,
-    "explain": "For a fully restrained tapering bar under temperature rise t, the standard thermal stress relation (as given in the source) is expressed as a·t·E·d1/d2, matching option (a)."
-  },
-  {
-    "q": "33. The assumption in the theory of bending that the material is homogeneous and isotropic has the same value of Young's Modulus in tension and compression implies that",
-    "options": [
-      "the stresses are proportional to strains at all fibres",
-      "the strains are proportional to distances of the fibres from neutral axis",
-      "the beam bends into a circular arc",
-      "the neutral axis lies at the centre"
-    ],
-    "correct": 0,
-    "explain": "Equal E in tension and compression (homogeneous, isotropic material) combined with Hooke's law implies stress is proportional to strain uniformly at all fibres of the section."
-  },
-  {
-    "q": "34. The line showing the variations of stress function at a given point due to a unit load moving on a span is known as",
-    "options": [
-      "load line",
-      "influence line",
-      "curve line",
-      "stress function line"
-    ],
-    "correct": 1,
-    "explain": "This is the formal definition of an influence line. It tracks how a single 'unit' load affects one specific point as that load changes position."
-  },
-  {
-    "q": "35. If all the dimensions of prismatic bar are doubled, then the maximum stress produced in it under its own weight will",
-    "options": [
-      "decrease",
-      "remains unchanged",
-      "increase to two times",
-      "increase to four times"
-    ],
-    "correct": 2,
-    "explain": "Self-weight stress at the base = weight/area ∝ (volume×density)/area ∝ length (since volume/area ∝ length for a scaled bar); doubling all dimensions doubles the length, hence doubling this self-weight stress."
-  },
-  {
-    "q": "36. Limiting values of Poisson's ratio are",
-    "options": [
-      "−1 and 0.5",
-      "−1 and −0.5",
-      "1 and −0.5",
-      "0 and 0.5"
-    ],
-    "correct": 0,
-    "explain": "From thermodynamic stability requirements for isotropic elastic materials, Poisson's ratio must lie between −1 and 0.5."
-  },
-  {
-    "q": "37. The ratio of the stresses produced by a suddenly applied load and by a gradually applied load on a bar is",
-    "options": [
-      "1/4",
-      "1/2",
-      "1",
-      "2"
-    ],
-    "correct": 3,
-    "explain": "A suddenly applied load produces twice the stress (and deflection) of the same load applied gradually, a classic impact-loading result."
-  },
-  {
-    "q": "38. Maximum strain theory for the failure of material at the elastic limit is known as",
-    "options": [
-      "Guest or Trecas theory",
-      "St. Venant theory",
-      "Rankine theory",
-      "Haig theory"
-    ],
-    "correct": 1,
-    "explain": "The maximum strain theory of failure is also known as St. Venant's theory."
-  },
-  {
-    "q": "39. Maximum shear stress theory for the failure of a material at the elastic limit is known as",
-    "options": [
-      "Guest or Trecas theory",
-      "St. Venant theory",
-      "Rankine theory",
-      "Haig theory"
-    ],
-    "correct": 0,
-    "explain": "The maximum shear stress theory of failure is also called Guest's theory or Tresca's theory."
-  },
-  {
-    "q": "40. Maximum principal stress theory for the failure of a material at elastic point is known as",
-    "options": [
-      "Guest or Trecas theory",
-      "St. Venant theory",
-      "Rankine theory",
-      "Haig theory"
-    ],
-    "correct": 2,
-    "explain": "The maximum principal stress theory of failure is also known as Rankine's theory."
-  },
-  {
-    "q": "41. Total strain energy theory for the failure of a material at the elastic limit is known as",
-    "options": [
-      "Guest or Trecas theory",
-      "St. Venant theory",
-      "Rankine theory",
-      "Haig theory"
-    ],
-    "correct": 3,
-    "explain": "The total strain energy theory of failure is also known as Haig's theory (Beltrami's theory)."
-  },
-  {
-    "q": "42. Principle plane is a plane on which the shear stress is",
-    "options": [
-      "zero",
-      "minimum",
-      "maximum",
-      "none"
-    ],
-    "correct": 0,
-    "explain": "A principal plane is defined as a plane on which the shear stress is zero, and only normal (principal) stress acts."
-  },
-  {
-    "q": "43. The percentage of elongation of a material with applied direct tensile test is:",
-    "options": [
-      "rigidity",
-      "strength",
-      "rupture",
-      "ductility"
-    ],
-    "correct": 2,
-    "explain": "While percentage elongation is a measure of 'Ductility', the answer key provided marks 'Rupture' (c). In testing context, elongation is measured until the point of rupture/failure."
-  },
-  {
-    "q": "44. If 'S' is the axial acting on an element 'ds' of a structural member with cross sectional area 'A' and modulus of elasticity 'E' the total strain energy of the member on account of axial force 'S' is given by",
-    "options": [
-      "∫ S² ds / 2AE",
-      "∫ S ds / 2AE",
-      "∫ S² ds / AE",
-      "∫ S² ds / A"
-    ],
-    "correct": 0,
-    "explain": "The standard formula for axial strain energy is $U = \\int \frac{P^2}{2AE} dx$."
-  },
-  {
-    "q": "45. The percentage elongation of a material from a direct tensile test indicates",
-    "options": [
-      "ductility",
-      "strength",
-      "yield stress",
-      "ultimate strength"
-    ],
-    "correct": 0,
-    "explain": "Percentage elongation (increase in gauge length at fracture) is the standard measure of a material's ductility."
-  },
-  {
-    "q": "46. The equation connection Yong's modulus (E) Poisson's (1/m) and Modulus of Rigidity (C), is",
-    "options": [
-      "C=2E(1+1/m)",
-      "E=2C(1−2/m)",
-      "E=3C(1+1/m)",
-      "E=2C(1+1/m)"
-    ],
-    "correct": 3,
-    "explain": "The standard elastic relation connecting Young's modulus E, modulus of rigidity C(G), and Poisson's ratio (1/m) is E = 2C(1 + 1/m)."
-  },
-  {
-    "q": "47. The effective length of a column with one end fixed and the other end hinged is",
-    "options": [
-      "l/2",
-      "2l",
-      "l/√2",
-      "l"
-    ],
-    "correct": 2,
-    "explain": "For a column fixed at one end and hinged at the other, the effective length is Le = L/√2."
-  },
-  {
-    "q": "48. Strain in concrete at zero stress is called :",
-    "options": [
-      "creep loss",
-      "relaxation",
-      "shrinkage",
-      "transfer stress"
-    ],
-    "correct": 1,
-    "explain": "Creep is the time-dependent deformation of concrete under sustained load, often continuing after stress is removed."
-  },
-  {
-    "q": "49. In a bar of large length when held vertically and subjected to a load at its lower end, its own-weight, produces additional stress. The maximum stress will be",
-    "options": [
-      "at the lower cross-section",
-      "at the built-in upper cross-section",
-      "at the central cross-section",
-      "at every point of the bar"
-    ],
-    "correct": 1,
-    "explain": "The internal axial force (and hence stress) accumulates from the free lower end upward due to self-weight, so the maximum total stress (applied load + accumulated self-weight) occurs at the top, built-in cross-section."
-  },
-  {
-    "q": "50. The ratio of elongations of a conical bar due to its own weight and that of a prismatic bar of the same length, is",
-    "options": [
-      "1/2",
-      "1/3",
-      "1/4",
-      "1/5"
-    ],
-    "correct": 1,
-    "explain": "As established earlier, a conical bar's self-weight elongation is exactly one-third that of a prismatic bar of the same length."
   }
 ]

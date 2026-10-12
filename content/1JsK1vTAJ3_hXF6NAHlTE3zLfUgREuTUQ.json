@@ -1,0 +1,838 @@
+[
+  {
+    "q": "232. A plane structure is a structure",
+    "options": [
+      "the various members of which lie in a plane",
+      "the thickness of various members of which will be very small",
+      "in which there will not be any bending moment",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A plane (2D) structure is one where all members and loads lie within a single plane."
+  },
+  {
+    "q": "233. A one dimensional structure is one in which",
+    "options": [
+      "one dimension is very small and other two are large",
+      "one dimension is much larger than the other two dimensions",
+      "all the three dimensions are equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A one-dimensional structure (like a beam or column) has its length dimension much larger than its cross-sectional dimensions."
+  },
+  {
+    "q": "234. A two dimensional structure is one in which",
+    "options": [
+      "two dimensions are very much larger than the third",
+      "all the dimensions are equal",
+      "two dimensions are very much smaller than the third",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A two-dimensional structure (like a slab or wall) has two dimensions (length and width) much larger than the third (thickness)."
+  },
+  {
+    "q": "235. A dam is a",
+    "options": [
+      "one dimensional structure",
+      "two dimensional structure",
+      "three dimensional structure",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A dam has all three dimensions (length, height, and thickness/width) of comparable significant magnitude, making it a three-dimensional structure."
+  },
+  {
+    "q": "236. A beam is a",
+    "options": [
+      "one dimensional structure",
+      "two dimensional structure",
+      "three dimensional structure",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A beam's length is much larger than its cross-sectional dimensions, classifying it as a one-dimensional structure."
+  },
+  {
+    "q": "237. A slab is a",
+    "options": [
+      "one dimensional structure",
+      "a two dimensional structure",
+      "three dimensional structure",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A slab has length and width much larger than its thickness, classifying it as a two-dimensional structure."
+  },
+  {
+    "q": "238. A plane structure when subjected to a force lying outside the plane will be",
+    "options": [
+      "stable",
+      "unstable",
+      "statically determinate",
+      "statically indeterminate"
+    ],
+    "correct": 1,
+    "explain": "A plane structure is designed to resist in-plane forces; a force acting out of its plane (out-of-plane) causes instability since it cannot properly resist such loading."
+  },
+  {
+    "q": "239. An internally indeterminate structure",
+    "options": [
+      "must be externally indeterminate",
+      "must be externally determinate",
+      "may be unstable structure based on supports",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Internal indeterminacy (redundant members) is independent of external support conditions; depending on the supports provided, the overall structure may even be unstable."
+  },
+  {
+    "q": "240. The bending moment diagram for a simply supported beam loaded in its centre is",
+    "options": [
+      "a right angled triangle",
+      "an isosceles triangles",
+      "an equilateral triangle",
+      "a rectangle"
+    ],
+    "correct": 1,
+    "explain": "For a simply supported beam with a central point load, the BMD is a symmetric (isosceles) triangle peaking at midspan."
+  },
+  {
+    "q": "241. The shear force diagram for a simply supported beam carrying a uniformly distributed load of w per unit length, consists of",
+    "options": [
+      "one right angled triangle",
+      "two right angled triangles",
+      "one equilateral triangle",
+      "two equilateral triangles"
+    ],
+    "correct": 1,
+    "explain": "For a UDL on a simply supported beam, shear force varies linearly from +wl/2 to −wl/2, forming two right-angled triangles (positive on one half, negative on the other)."
+  },
+  {
+    "q": "242. In a simply supported beam carrying uniformly distributed load w per unit length, the point of contraflexure",
+    "options": [
+      "lies in the centre of the beam",
+      "lies at the ends of the beam",
+      "depends upon the length of beam",
+      "does not exist"
+    ],
+    "correct": 3,
+    "explain": "A simply supported beam under UDL has a bending moment that is always sagging (positive) throughout its span, never changing sign, so no point of contraflexure exists."
+  },
+  {
+    "q": "243. The point of contraflexure occurs in",
+    "options": [
+      "cantilever beams",
+      "simply supported beams",
+      "overhanging beams",
+      "fixed beams"
+    ],
+    "correct": 2,
+    "explain": "Overhanging beams typically have both sagging (within supports) and hogging (over the overhang) moments, so the bending moment changes sign, creating a point of contraflexure."
+  },
+  {
+    "q": "244. The bending moment at a section tends to bend or deflect the beam and the internal stresses resist bending. The resistance offered by the internal stresses, to the bending, is called",
+    "options": [
+      "compressive stress",
+      "shear stress",
+      "bending stress",
+      "elastic modulus"
+    ],
+    "correct": 2,
+    "explain": "The internal resisting stress developed within a beam's cross-section to counter the external bending moment is termed bending stress."
+  },
+  {
+    "q": "245. The neutral axis of the cross-section of a beam is that axis at which the bending stress is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the axis in the cross-section where bending stress (and strain) is zero."
+  },
+  {
+    "q": "246. When a cantilever beam is loaded at its free end, the maximum compressive stress will develop at",
+    "options": [
+      "bottom fibre",
+      "top fibre",
+      "neutral axis",
+      "centre of gravity"
+    ],
+    "correct": 0,
+    "explain": "For a cantilever loaded downward at its free end, the top fibres near the fixed support stretch (tension) while the bottom fibres compress, so maximum compressive stress develops at the bottom fibre."
+  },
+  {
+    "q": "247. A beam of uniform strength may be obtained by",
+    "options": [
+      "keeping the width uniform and varying the depth",
+      "keeping the depth uniform and varying the width",
+      "varying the width and depth both",
+      "any one of the above"
+    ],
+    "correct": 3,
+    "explain": "A beam of uniform strength can be achieved by varying depth alone, width alone, or both together, as long as the section modulus varies appropriately with the moment — hence any of these approaches works."
+  },
+  {
+    "q": "248. At the neutral axis of a beam",
+    "options": [
+      "the layers are subjected to maximum bending stress",
+      "the layers are subjected to minimum bending stress",
+      "the layers are subjected to compression",
+      "the layers do not undergo any strain"
+    ],
+    "correct": 3,
+    "explain": "Fibres along the neutral axis experience zero strain (neither elongation nor compression) during bending, by definition of the neutral axis."
+  },
+  {
+    "q": "249. The neutral axis of a beam is subjected to ............. stress.",
+    "options": [
+      "zero",
+      "maximum tensile",
+      "minimum tensile",
+      "maximum compressive"
+    ],
+    "correct": 0,
+    "explain": "Since strain at the neutral axis is zero, and stress is proportional to strain (Hooke's law), the bending stress there is also zero."
+  },
+  {
+    "q": "250. The neutral axis of a transverse section of a beam passes through the centre of gravity of the section and is",
+    "options": [
+      "in the vertical plane",
+      "in the horizontal plane",
+      "in the same plane in which the beam bends",
+      "at right angle to the plane in which the beam bends"
+    ],
+    "correct": 3,
+    "explain": "The neutral axis lies perpendicular to the plane of bending (the plane containing the applied loads and curvature), while passing through the section's centroid."
+  },
+  {
+    "q": "251. In a beam subjected to pure bending, the intensity of stress in any fibre is ............. the distance of the fibre from the neutral axis.",
+    "options": [
+      "equal to",
+      "less than",
+      "more than",
+      "directly proportional to"
+    ],
+    "correct": 3,
+    "explain": "From the flexure formula σ = My/I, bending stress varies linearly (directly proportional) with distance y from the neutral axis."
+  },
+  {
+    "q": "252. A the neutral axis of a beam, the shear stress is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "For most common sections (rectangular, circular), the shear stress distribution is parabolic and peaks at the neutral axis (where it is maximum), not zero."
+  },
+  {
+    "q": "253. The ratio of maximum shear stress developed in a rectangular beam and a circular beam of the same cross-sectional area is",
+    "options": [
+      "2/3",
+      "3/4",
+      "1",
+      "9/8"
+    ],
+    "correct": 3,
+    "explain": "Comparing the maximum shear stress factors of a rectangle (1.5×average) and circle (1.333×average) of equal area, working through the equal-area condition gives a ratio of 9/8."
+  },
+  {
+    "q": "254. A beam of triangular section is placed with its base horizontal. The maximum shear stress occurs at",
+    "options": [
+      "apex of the triangle",
+      "mid of the height",
+      "centre of gravity of the triangle",
+      "base of the triangle"
+    ],
+    "correct": 1,
+    "explain": "For a triangular section with base horizontal, detailed analysis shows the maximum shear stress occurs at mid-height, not exactly at the centroid or base."
+  },
+  {
+    "q": "255. A beam of T-section is subjected to a shear force of F. The maximum shear force will occur at the",
+    "options": [
+      "top of the section",
+      "bottom of the section",
+      "neutral axis of the section",
+      "junction of web and flange"
+    ],
+    "correct": 2,
+    "explain": "As with most sections, the maximum shear stress in a T-section occurs at the neutral axis, where the parabolic shear distribution peaks within the web."
+  },
+  {
+    "q": "256. A flitched beam is used to",
+    "options": [
+      "change the shape of the beam",
+      "effect the saving in material",
+      "equalize the strength in tension and compression",
+      "increase the cross-section of the beam"
+    ],
+    "correct": 2,
+    "explain": "A flitched beam (composite timber-and-steel beam) is used to equalize/balance the strength characteristics in tension and compression by combining materials with complementary properties."
+  },
+  {
+    "q": "257. A rectangular beam of length l supported at its two ends carries a central point load W. The maximum deflection occurs",
+    "options": [
+      "at the ends",
+      "at l/3 from both ends",
+      "at the centre",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "For a simply supported beam under a symmetric central point load, maximum deflection (by symmetry) occurs exactly at the midspan (centre)."
+  },
+  {
+    "q": "258. The point, through which the whole weight of the body acts, irrespective of its position, is known as",
+    "options": [
+      "moment of inertia",
+      "centre of gravity",
+      "centre of percussion",
+      "centre of mass"
+    ],
+    "correct": 1,
+    "explain": "The centre of gravity is defined as the point through which the resultant weight of a body acts, regardless of the body's orientation."
+  },
+  {
+    "q": "259. The term 'centroid' is",
+    "options": [
+      "the same as centre of gravity",
+      "the point of suspension",
+      "the point of application of the resultant of all the forces tending to cause a body to rotate about a certain axis",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a body of uniform density, the centroid coincides with the centre of gravity, and the terms are used synonymously in most engineering contexts."
+  },
+  {
+    "q": "260. The centre of gravity of an equilateral triangle with each side a, is ............. form any of the three sides.",
+    "options": [
+      "√3a/2",
+      "2√3a",
+      "a/2√3",
+      "3√2a"
+    ],
+    "correct": 2,
+    "explain": "The centroid of an equilateral triangle lies at a perpendicular distance of a/(2√3) from any side (one-third of the altitude, where altitude = a√3/2)."
+  },
+  {
+    "q": "261. The centre of gravity of a semi-circle lies at a distance of ............. from its base measured along the vertical radius.",
+    "options": [
+      "3r/8π",
+      "4r/3π",
+      "8r/3π",
+      "3r/4π"
+    ],
+    "correct": 1,
+    "explain": "The standard centroid location of a semicircle from its diametral base is 4r/(3π)."
+  },
+  {
+    "q": "262. The centre of gravity of a right circular solid cone is at a distance of ............. from its base, measured along the vertical axis.",
+    "options": [
+      "h/2",
+      "h/3",
+      "h/4",
+      "h/6"
+    ],
+    "correct": 2,
+    "explain": "The centroid of a solid right circular cone lies at h/4 from its base along the axis (i.e., 3h/4 from the apex), a standard result."
+  },
+  {
+    "q": "263. The moment of inertia of a square of side (a) about an axis through its centre of gravity is",
+    "options": [
+      "a⁴/4",
+      "a⁴/8",
+      "a⁴/12",
+      "a⁴/36"
+    ],
+    "correct": 2,
+    "explain": "For a square of side a, moment of inertia about a centroidal axis parallel to a side is a⁴/12 (same as rectangle formula bd³/12 with b=d=a)."
+  },
+  {
+    "q": "264. Coefficient of wind resistance of a circular surface is",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "3/2"
+    ],
+    "correct": 2,
+    "explain": "The standard coefficient of wind resistance (pressure coefficient) for a circular (cylindrical) surface, as used in practical wind load calculations, is taken as 2/3."
+  },
+  {
+    "q": "265. A three hinged arch is generally hinged at its supports and",
+    "options": [
+      "at one quarter of span",
+      "at the crown",
+      "anywhere in the rib",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A three-hinged arch has hinges at both supports (springing) plus a third hinge typically placed at the crown (highest point) for symmetry and constructional convenience."
+  },
+  {
+    "q": "266. The maximum bending moment due to an isolated load in a three hinged parabolic arch (span l, rise h) having one of its hinges at the crown, occurs on either side of the crown at a distance",
+    "options": [
+      "l/4",
+      "h/4",
+      "l/2√3",
+      "l/3√2"
+    ],
+    "correct": 2,
+    "explain": "For a three-hinged parabolic arch with crown hinge, standard analysis shows the maximum bending moment due to an isolated load occurs at a distance l/(2√3) from the crown."
+  },
+  {
+    "q": "267. The ratio of circumferential stress to the longitudinal stress in the walls of a cylindrical shell due to flowing liquid is",
+    "options": [
+      "1/2",
+      "1",
+      "3/2",
+      "2"
+    ],
+    "correct": 3,
+    "explain": "For a thin cylindrical shell under internal pressure, circumferential (hoop) stress = pd/2t while longitudinal stress = pd/4t, giving a ratio of 2:1."
+  },
+  {
+    "q": "268. Shear center of a half circular section of radius r and a constant thickness, lies at a distance of from the center where x is",
+    "options": [
+      "r/π",
+      "2r/π",
+      "3r/π",
+      "4r/π"
+    ],
+    "correct": 3,
+    "explain": "For a thin semicircular section, the shear centre lies at a distance of 4r/π from the centre of the circle, a standard derived result."
+  },
+  {
+    "q": "269. A concentrated load P is supported by the free end of a quadrantal ring AB whose end B is fixed. The ratio of the vertical to horizontal deflections of the end A is",
+    "options": [
+      "π",
+      "π/2",
+      "π/3",
+      "π/4"
+    ],
+    "correct": 1,
+    "explain": "For a quadrant ring under an end load, applying Castigliano's theorem to find vertical and horizontal deflection components gives a ratio of π/2."
+  },
+  {
+    "q": "270. A two hinged parabolic arch of span l and rise h carries a load varying from zero at the left end to w per unit run at the right end. The horizontal thrust is",
+    "options": [
+      "wl²/4h",
+      "wl²/8h",
+      "wl²/12h",
+      "wl²/16h"
+    ],
+    "correct": 3,
+    "explain": "For a two-hinged parabolic arch under a linearly varying (triangular) load, the derived horizontal thrust expression is wl²/12h."
+  },
+  {
+    "q": "271. Euler's formula holds good only for",
+    "options": [
+      "short columns",
+      "long columns",
+      "both short and long columns",
+      "weak columns"
+    ],
+    "correct": 1,
+    "explain": "Euler's buckling formula is derived assuming purely elastic instability and is valid only for long, slender columns (high slenderness ratio)."
+  },
+  {
+    "q": "272. The Rankine's formula holds good for",
+    "options": [
+      "short columns",
+      "long columns",
+      "both short and long columns",
+      "weak columns"
+    ],
+    "correct": 2,
+    "explain": "Rankine's empirical formula was developed specifically to bridge the gap between crushing (short column) and buckling (long column) failure, making it applicable across both ranges."
+  },
+  {
+    "q": "273. In case of eccentrically loaded struts ............. is preferred",
+    "options": [
+      "solid section",
+      "hollow section",
+      "composite section",
+      "reinforced section"
+    ],
+    "correct": 2,
+    "explain": "For eccentrically loaded struts, a composite section is preferred as it can be tailored (e.g., unsymmetric distribution) to better resist the resulting combined bending and axial stresses."
+  },
+  {
+    "q": "274. In a tensile test, when the material is stressed beyond beyond elastic limit, the tensile strain ............. as compared to the stress.",
+    "options": [
+      "decreases slowly",
+      "increases slowly",
+      "decreases more quickly",
+      "increases more quickly"
+    ],
+    "correct": 3,
+    "explain": "Beyond the elastic limit, the stress-strain curve flattens considerably, meaning strain increases much more rapidly than the corresponding increase in stress."
+  },
+  {
+    "q": "275. The stress at which the extension of the material takes place more quickly as compared to the increase in load, is called",
+    "options": [
+      "elastic limit",
+      "yield point",
+      "ultimate point",
+      "breaking point"
+    ],
+    "correct": 1,
+    "explain": "This describes the yield point, where strain increases disproportionately compared to the increase in load/stress."
+  },
+  {
+    "q": "276. The stress developed in the material without any permanent set is called",
+    "options": [
+      "elastic limit",
+      "yield stress",
+      "ultimate stress",
+      "breaking stress"
+    ],
+    "correct": 0,
+    "explain": "The elastic limit is defined as the maximum stress up to which the material returns to its original shape completely (no permanent set) after unloading."
+  },
+  {
+    "q": "277. The tensile test is carried on ............. materials.",
+    "options": [
+      "ductile",
+      "brittle",
+      "malleable",
+      "plastic"
+    ],
+    "correct": 0,
+    "explain": "Tensile tests (measuring elongation, necking, ductile yielding behavior) are primarily meaningful and carried out on ductile materials."
+  },
+  {
+    "q": "278. The compression test is carried on ............. materials.",
+    "options": [
+      "ductile",
+      "brittle",
+      "malleable",
+      "plastic"
+    ],
+    "correct": 1,
+    "explain": "Compression tests are the standard test method for brittle materials (like cast iron, concrete), which are weak in tension but strong in compression."
+  },
+  {
+    "q": "279. Factor of safety is defined as the ratio of",
+    "options": [
+      "ultimate stress to working stress",
+      "working stress to ultimate stress",
+      "breaking stress to ultimate stress",
+      "ultimate stress to breaking stress"
+    ],
+    "correct": 0,
+    "explain": "Factor of safety is standardly defined as the ratio of the ultimate (or yield) stress to the permissible working stress used in design."
+  },
+  {
+    "q": "280. In compression test, the fracture in cast in cast iron specimen would occur along",
+    "options": [
+      "the axis of load",
+      "an oblique plane",
+      "at right angles to the axis of specimen",
+      "would not occur"
+    ],
+    "correct": 1,
+    "explain": "Cast iron, being weak in shear, typically fails in compression tests along an oblique (diagonal) plane where shear stress is maximum, rather than perpendicular to the load axis."
+  },
+  {
+    "q": "281. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being simply supported is given by",
+    "options": [
+      "3EI/L",
+      "4EI/L",
+      "2EI/L",
+      "EI/L"
+    ],
+    "correct": 0,
+    "explain": "The rotational stiffness of a prismatic member with the far end simply supported (pinned) is 3EI/L, a standard slope-deflection method coefficient."
+  },
+  {
+    "q": "282. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being fixed is given by",
+    "options": [
+      "3EI/L",
+      "4EI/L",
+      "2EI/L",
+      "EI/L"
+    ],
+    "correct": 1,
+    "explain": "The rotational stiffness of a prismatic member with the far end fixed is 4EI/L, the standard slope-deflection stiffness coefficient."
+  },
+  {
+    "q": "283. If M is the external moment which rotates the near end of a prismatic beam without translation ( the far end being fixed), then the moment induced at the far end is",
+    "options": [
+      "M/2 in same direction as M",
+      "M/2 in opposite direction as M",
+      "M in opposite direction",
+      "0"
+    ],
+    "correct": 0,
+    "explain": "The carry-over factor for a prismatic member with the far end fixed is 1/2, meaning half the applied moment M is carried over to the far end in the same rotational sense."
+  },
+  {
+    "q": "284. The ordinates of influence line diagram for bending moment always has the dimensions of",
+    "options": [
+      "force",
+      "length",
+      "force × length",
+      "force/length"
+    ],
+    "correct": 1,
+    "explain": "An influence line for bending moment plots the moment produced at a section per unit load moving across the span; since moment = force×length, per unit force this ratio has dimensions of length."
+  },
+  {
+    "q": "285. A cantilever carrying a uniformly distributed load W over its full length is propped at its free end such that it is at the level of the fixed end. The bending moment will be zero at its free end also at",
+    "options": [
+      "mind pint of the cantilever",
+      "fixed point of the cantilever",
+      "1/4th length from free end",
+      "3/4th length from free end"
+    ],
+    "correct": 3,
+    "explain": "For a propped cantilever with UDL and prop bringing the free end to the fixed-end level, analysis shows the bending moment is zero at the free end and again at 3/4 of the length measured from the free end."
+  },
+  {
+    "q": "286. A simply supported beam carrying a uniformly distributed load over its whole span, is propped at the centre of the span so that the beam is held to the level of the end supports. The reaction of the prop will be",
+    "options": [
+      "half the distributed load",
+      "3/8th distributed load",
+      "5/8th the distributed load",
+      "distributed load"
+    ],
+    "correct": 2,
+    "explain": "For a beam propped at midspan and brought level with the end supports under UDL, standard analysis gives the prop reaction as 5/8 of the total distributed load."
+  },
+  {
+    "q": "287. The moment diagram for a cantilever whose free end is subjected to a bending moment, will be a",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 1,
+    "explain": "A pure moment applied at the free end of a cantilever produces a constant bending moment throughout its length, giving a rectangular BMD."
+  },
+  {
+    "q": "288. The locus of reaction of a two hinged semi circular arch is",
+    "options": [
+      "straight line",
+      "parabola",
+      "circle",
+      "hyperbola"
+    ],
+    "correct": 0,
+    "explain": "As a moving load traverses a two-hinged semicircular arch, the locus of the resultant reaction at the support traces a straight line."
+  },
+  {
+    "q": "289. A rigid jointed plane frame is stable and statically determinate ............. .",
+    "options": [
+      "m + r = 2j",
+      "m + r = 3j",
+      "3m + r = 3j",
+      "m + 3r = 3j"
+    ],
+    "correct": 2,
+    "explain": "For a rigid-jointed plane frame (each joint with 3 dof), the condition for stable and statically determinate structure is 3m + r = 3j."
+  },
+  {
+    "q": "290. The number of independent equations to be satisfied for static equilibrium in a space structure is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct": 3,
+    "explain": "A three-dimensional (space) structure requires 6 independent equilibrium equations: 3 force equations (ΣFx, ΣFy, ΣFz) and 3 moment equations (ΣMx, ΣMy, ΣMz)."
+  },
+  {
+    "q": "291. The degree of static indeterminacy of a pin jointed space frame is given by",
+    "options": [
+      "m + r − 2j",
+      "m + r − 3j",
+      "3m + r − 3j",
+      "m + r + 3j"
+    ],
+    "correct": 1,
+    "explain": "For a pin-jointed space frame, each joint has 3 equilibrium equations (3D translation), giving static indeterminacy Ds = m + r − 3j."
+  },
+  {
+    "q": "292. The degree of static indeterminacy of a rigid jointed space frame is given by",
+    "options": [
+      "m + r − 2j",
+      "m + r − 3j",
+      "3m + r − 3j",
+      "6m + r − 6j"
+    ],
+    "correct": 3,
+    "explain": "For a rigid-jointed space frame, each member has 6 internal force components and each joint provides 6 equilibrium equations, giving static indeterminacy = 6m + r − 6j."
+  },
+  {
+    "q": "293. The degree of kinematic indeterminacy of a pin jointed space frame is",
+    "options": [
+      "2j − r",
+      "3j − r",
+      "j − 2r",
+      "j − 3r"
+    ],
+    "correct": 1,
+    "explain": "Each joint of a pin-jointed space frame has 3 possible translational displacements, so kinematic indeterminacy = 3j − r (subtracting restrained reaction components)."
+  },
+  {
+    "q": "294. The number of independent displacement components at each joint of a rigid jointed space frame is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 3,
+    "explain": "A rigid joint in 3D space can have 3 translations and 3 rotations, giving 6 independent displacement components per joint."
+  },
+  {
+    "q": "295. The principle of virtual work can be applied to elastic system by considering the virtual work of",
+    "options": [
+      "internal forces only",
+      "external forces only",
+      "internal as well as external force",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The principle of virtual work for elastic systems equates the virtual work done by external forces to the virtual work (strain energy) done by internal forces, so both must be considered."
+  },
+  {
+    "q": "296. Castigliano's first theorem is applicable",
+    "options": [
+      "for statically determinate structures only",
+      "when the system behaves elastically",
+      "only when principle of superposition is valid",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Castigliano's first theorem, which relates partial derivatives of strain energy to displacements, is applicable specifically when the principle of superposition (linear elastic behavior) holds."
+  },
+  {
+    "q": "297. At yield point of a test piece, the material",
+    "options": [
+      "obeys hooke's law",
+      "behaves in an elastic manner",
+      "regains its original shape on removal of the load",
+      "undergoes plastic deformation"
+    ],
+    "correct": 3,
+    "explain": "At the yield point, the material transitions from elastic to plastic behavior, undergoing permanent (plastic) deformation."
+  },
+  {
+    "q": "298. The ratio of lateral strain to axial strain of a homogenous material is known as",
+    "options": [
+      "Yield ratio",
+      "Hooke's ratio",
+      "Poisson's ratio",
+      "Plastic ratio"
+    ],
+    "correct": 2,
+    "explain": "By definition, Poisson's ratio is the ratio of lateral strain to axial (longitudinal) strain."
+  },
+  {
+    "q": "299. The normal and tangential components of stress on an inclined plane through to the direction of the force will be equal to",
+    "options": [
+      "45°",
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "correct": 0,
+    "explain": "For a uniaxial stress acting on an inclined plane, the normal and tangential (shear) stress components become equal when the plane is inclined at 45° to the force direction."
+  },
+  {
+    "q": "300. The locus of the end point of the resultant of the normal and tangential components of the stress on an inclined plane is",
+    "options": [
+      "circle",
+      "parabola",
+      "ellipse",
+      "straight line"
+    ],
+    "correct": 2,
+    "explain": "As the inclination of the plane varies, the resultant stress vector's endpoint traces out an ellipse (the stress ellipse), similar to the momental ellipse for inertia."
+  },
+  {
+    "q": "301. Principal planes are subjected to",
+    "options": [
+      "normal stresses only",
+      "tangential stresses only",
+      "normal stresses as well as tangential stresses",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, a principal plane carries only normal stress with zero shear (tangential) stress."
+  },
+  {
+    "q": "302. A bar l meter long and having its area of cross section A, is subjected to a gradually applied load W. the strain energy stored in the bar is",
+    "options": [
+      "WL/2AE",
+      "WL/AE",
+      "W²L/AE",
+      "W²L/2AE"
+    ],
+    "correct": 3,
+    "explain": "Strain energy stored in a bar under a gradually applied axial load W is U = W²L/2AE, the standard formula (area under the linear load-deformation curve)."
+  },
+  {
+    "q": "303. The bending moment in a cable carrying a system of loads will be",
+    "options": [
+      "maximum at the center",
+      "minimum at the center",
+      "zero at all points",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A flexible cable, by its nature, can carry only axial tension and adjusts its shape (funicular shape) so that bending moment is zero everywhere along its length."
+  },
+  {
+    "q": "304. The ILD for horizontal thrust at the support of a three hinged arch when a concentrated load passes over the span is",
+    "options": [
+      "a triangle with maximum ordinate at the center",
+      "a triangle with maximum ordinate at one of the supports",
+      "a parabola with maximum ordinate at the center",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "As a unit load moves across a three-hinged arch, the influence line for horizontal thrust is a triangle peaking at the crown (mid-span), i.e., maximum ordinate at the center."
+  },
+  {
+    "q": "305. A multi span continuous beam is simply supported at the two ends. One of the intermediate supports sinks with respect to other supports. Due to this settlement, the bending moment will get modified at",
+    "options": [
+      "only the two supports adjacent to the one that sinks",
+      "only the support that sinks",
+      "all the supports",
+      "all the supports except the two end supports"
+    ],
+    "correct": 3,
+    "explain": "Support settlement in a continuous beam affects the bending moments at all intermediate supports (due to the continuity/redundancy), but the two simply supported end supports (already zero moment) remain unaffected."
+  },
+  {
+    "q": "306. For finding forces in the members of truss by the graphical method, the force diagram is suggested by",
+    "options": [
+      "Mohr",
+      "Timoshenko",
+      "Maxwell",
+      "Betti"
+    ],
+    "correct": 2,
+    "explain": "The graphical method of truss analysis using a combined force/stress diagram (Maxwell diagram) for finding member forces was developed by Maxwell."
+  },
+  {
+    "q": "307. In a pin jointed plane frame all the loads are assumed to act .............",
+    "options": [
+      "in the plane of the frame",
+      "perpendicular to the plane of the frame",
+      "in a plane inclined at 45° to the plane of frame",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a plane (2D) pin-jointed frame, loads are, by definition of the idealization, assumed to act within the plane of the frame."
+  }
+]

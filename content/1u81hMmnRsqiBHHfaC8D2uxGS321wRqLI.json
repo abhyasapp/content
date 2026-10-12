@@ -1,6 +1,94 @@
 [
   {
-    "q": "1. Three point problem is concerned with",
+    "q": "1. The method of plane tabling generally adopted to obtain details and plotting inaccessible points is",
+    "options": [
+      "radiation",
+      "intersection",
+      "resection",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Intersection plots points by the crossing of rays from two different stations, which is ideal for points that cannot be reached to measure distance."
+  },
+  {
+    "q": "2. In the intersection method of plane tabling the number of stations needed to be set up are",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "At least two known stations are required to create the intersecting rays for a single point."
+  },
+  {
+    "q": "3. Resection is the method employed for",
+    "options": [
+      "plotting the details",
+      "locating the instrument station",
+      "surveying mountainous country",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Resection is specifically used to establish the location of the plane table on the map by observing known points."
+  },
+  {
+    "q": "4. The two point problem is",
+    "options": [
+      "a case of resection method where no ray is required to be drawn from the proceeding station to the instrument station",
+      "locating the position of plane table by means of two visible well defined points",
+      "all of the above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "It is a resection technique where the table is oriented and located using two known points, often involving an auxiliary station."
+  },
+  {
+    "q": "5. The size of plane table is",
+    "options": [
+      "350 x 500mm",
+      "450 x 600mm",
+      "500 x 800mm",
+      "600 x 750mm"
+    ],
+    "correct": 3,
+    "explain": "A standard plane table used in surveying is typically about 600 mm x 750 mm in size, as given by this text."
+  },
+  {
+    "q": "6. The two- point problem as compared to the three point problem is",
+    "options": [
+      "more laborious",
+      "more accurate",
+      "quicker",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The two-point problem involves more steps and temporary setups compared to the three-point problem."
+  },
+  {
+    "q": "7. The three point problem can be solved by",
+    "options": [
+      "tracing paper method",
+      "graphical method",
+      "trial and error method",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Several methods exist to solve the three-point problem, including Lehmann's (trial and error) and Bessel's (graphical)."
+  },
+  {
+    "q": "8. The type of surveying which requires least office work is",
+    "options": [
+      "tacheometry",
+      "trigonometrical levelling",
+      "plane table surveying",
+      "theodolite surveying"
+    ],
+    "correct": 2,
+    "explain": "Since plotting is done directly in the field alongside observation in plane table surveying, it requires the least amount of subsequent office (indoor) computation and plotting work."
+  },
+  {
+    "q": "9. Three point problem is concerned with",
     "options": [
       "chain survey",
       "plane table survey",
@@ -11,7 +99,7 @@
     "explain": "This is a fundamental resection problem specific to plane table surveying."
   },
   {
-    "q": "2. The size of plane table is",
+    "q": "10. The size of plane table is",
     "options": [
       "600 x 750mm",
       "450 x 750mm",
@@ -22,7 +110,7 @@
     "explain": "Standard surveying plane tables typically measure 600mm by 750mm."
   },
   {
-    "q": "3. The process of aligning the plane table by rotating it in the horizontal plane to the corresponding lines on the ground",
+    "q": "11. The process of aligning the plane table by rotating it in the horizontal plane to the corresponding lines on the ground",
     "options": [
       "centring",
       "orientation",
@@ -33,7 +121,7 @@
     "explain": "Rotation to align with ground features is the definition of orientation."
   },
   {
-    "q": "4. The triangle formed by joining the position of the known points on plane table survey is known as",
+    "q": "12. The triangle formed by joining the position of the known points on plane table survey is known as",
     "options": [
       "isoscele triangle",
       "great triangle",
@@ -44,18 +132,18 @@
     "explain": "In the context of the three-point problem, the triangle formed by the three known points is called the great triangle."
   },
   {
-    "q": "5. Three-point problem can be solved by",
+    "q": "13. The method most suitable for plotting in hilly areas is",
     "options": [
-      "Tracing paper method",
-      "Bessel's method",
-      "Lehman's method",
-      "all of the above"
+      "traversing",
+      "radiation",
+      "intersection",
+      "resection"
     ],
-    "correct": 3,
-    "explain": "The three-point problem for orienting a plane table can be solved by several standard techniques, including the tracing paper method, Bessel's (mechanical/graphical) method, and Lehmann's method, so all are valid solutions."
+    "correct": 2,
+    "explain": "In hilly terrain, where direct chaining or traversing between points is difficult, the method of intersection (measuring angles from two known stations) is most suitable for plotting points."
   },
   {
-    "q": "6. In case of resection method of plane table, the relation between great triangle and great circle are",
+    "q": "14. In case of resection method of plane table, the relation between great triangle and great circle are",
     "options": [
       "the area of great triangle is more than great circle",
       "the area of great triangle is less than great circle",
@@ -66,7 +154,18 @@
     "explain": "Geometrically, the circle passing through the three points (great circle) encloses the triangle (great triangle)."
   },
   {
-    "q": "7. Strength of fix of a plane table is",
+    "q": "15. Three-point problem can be solved by",
+    "options": [
+      "Tracing paper method",
+      "Bessel's method",
+      "Lehman's method",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The three-point problem for orienting a plane table can be solved by several standard techniques, including the tracing paper method, Bessel's (mechanical/graphical) method, and Lehmann's method, so all are valid solutions."
+  },
+  {
+    "q": "16. Strength of fix of a plane table is",
     "options": [
       "accuracy in centring",
       "accuracy in locating the position of instrument station by taking observation to three stations",
@@ -77,7 +176,7 @@
     "explain": "Strength of fix refers to how accurately the table's position is determined relative to the known points."
   },
   {
-    "q": "8. The fix of table is good when",
+    "q": "17. The fix of table is good when",
     "options": [
       "the station is within the great triangle",
       "the middle station is much nearer than other two stations",
@@ -88,7 +187,7 @@
     "explain": "A good fix requires geometry that avoids 'danger circles' where the position becomes indeterminate."
   },
   {
-    "q": "9. A poor fix of the table is",
+    "q": "18. A poor fix of the table is",
     "options": [
       "when station is within the great triangle",
       "when station is near the great circle",
@@ -99,18 +198,7 @@
     "explain": "If the instrument station lies on or near the circle passing through the three known points, the solution becomes unreliable."
   },
   {
-    "q": "10. The missing station of the ground survey can be found out with the help of",
-    "options": [
-      "Key plan",
-      "reference sketch",
-      "arithmetic calculation",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "A missing or unclear survey station's position can typically be identified/re-established with the help of a reference sketch made during the original fieldwork, showing its relation to nearby features."
-  },
-  {
-    "q": "11. The strength of fix' is poor when",
+    "q": "19. The strength of fix' is poor when",
     "options": [
       "the station is within the great triangle",
       "the station is outside the great circle",
@@ -121,7 +209,7 @@
     "explain": "The position is indeterminate if the station is on the circumference of the great circle."
   },
   {
-    "q": "12. The two point problem and three point problems are methods of",
+    "q": "20. The two point problem and three point problems are methods of",
     "options": [
       "orientation",
       "resection",
@@ -132,7 +220,7 @@
     "explain": "Both problems solve for the station's location and the table's orientation simultaneously."
   },
   {
-    "q": "13. The resection by two point problem as compared to the three point problem",
+    "q": "21. The resection by two point problem as compared to the three point problem",
     "options": [
       "requires more labor",
       "takes less time",
@@ -143,7 +231,7 @@
     "explain": "Two-point resection is more cumbersome and usually less accurate than three-point resection."
   },
   {
-    "q": "14. If the plane table is not horizontal in a direction at right angles to the alidade, the line of sight is parallel to fiducial edge only for",
+    "q": "22. If the plane table is not horizontal in a direction at right angles to the alidade, the line of sight is parallel to fiducial edge only for",
     "options": [
       "horizontal sights",
       "inclined sight upward",
@@ -154,7 +242,7 @@
     "explain": "Errors due to non-horizontality are minimized or eliminated when the line of sight itself is horizontal."
   },
   {
-    "q": "15. To orient a plane table without two inaccessible points, the method generally adopted is",
+    "q": "23. To orient a plane table without two inaccessible points, the method generally adopted is",
     "options": [
       "intersection",
       "resection",
@@ -165,7 +253,7 @@
     "explain": "The two-point problem is the specific procedure used to orient when only two points are available and distance measurement is not possible."
   },
   {
-    "q": "16. Which one of the following is not a personal error ?",
+    "q": "24. Which one of the following is not a personal error ?",
     "options": [
       "the table not being perfectly leveled",
       "the table not being perfectly central",
@@ -176,7 +264,7 @@
     "explain": "All listed items (levelling, centering, clamping) are under the surveyor's control and are therefore personal/instrumental setup errors."
   },
   {
-    "q": "17. The method of plane tabling in which plane table is set only one station to take detail is known as",
+    "q": "25. The method of plane tabling in which plane table is set only one station to take detail is known as",
     "options": [
       "intersection",
       "radiation",
@@ -187,7 +275,7 @@
     "explain": "Radiation involves taking rays and distances to all points from a single setup."
   },
   {
-    "q": "18. Detailed plotting is generally done by",
+    "q": "26. Detailed plotting is generally done by",
     "options": [
       "radiation",
       "intersection",
@@ -198,7 +286,7 @@
     "explain": "Radiation is the most efficient way to plot numerous nearby details once the station is established."
   },
   {
-    "q": "19. Radiation method of plane table survey is the best suited when",
+    "q": "27. Radiation method of plane table survey is the best suited when",
     "options": [
       "distances are long but accessible",
       "distances are short but accessible",
@@ -209,7 +297,7 @@
     "explain": "Since distances must be measured (usually with a tape/chain), it is best for short, clear paths."
   },
   {
-    "q": "20. In plane table instrument for horizontal & vertical measurement without chaining",
+    "q": "28. In plane table instrument for horizontal & vertical measurement without chaining",
     "options": [
       "theodolite",
       "tacheometer",
@@ -220,7 +308,7 @@
     "explain": "A telescopic alidade is equipped with stadia hairs for distance and a vertical circle for slope angles."
   },
   {
-    "q": "21. The method most suitable for plotting in hilly areas is",
+    "q": "29. The method most suitable for plotting in hilly areas is",
     "options": [
       "radiation",
       "resection",
@@ -231,7 +319,7 @@
     "explain": "Intersection is preferred in hills where measuring horizontal distance on steep slopes is difficult."
   },
   {
-    "q": "22. Intersection is preferred to radiation when",
+    "q": "30. Intersection is preferred to radiation when",
     "options": [
       "the lengths are too short",
       "it is not possible to measure any distance",
@@ -242,7 +330,7 @@
     "explain": "Intersection removes the need to physically reach the target point."
   },
   {
-    "q": "23. Actually which is not the method of plane tabling ?",
+    "q": "31. Actually which is not the method of plane tabling ?",
     "options": [
       "radiation",
       "intersection",
@@ -253,7 +341,7 @@
     "explain": "Per the provided key, 'resection' is listed as the 'not' method here, likely referring to its role as a location tool rather than a detail plotting tool in this specific context."
   },
   {
-    "q": "24. The instrument used for centering the plane table accurately is",
+    "q": "32. The instrument used for centering the plane table accurately is",
     "options": [
       "spirit level",
       "trough compass",
@@ -264,7 +352,7 @@
     "explain": "The plumbing fork (or U-frame) carries a plumb bob to transfer the ground point to the paper."
   },
   {
-    "q": "25. The orientation of the table is done by",
+    "q": "33. The orientation of the table is done by",
     "options": [
       "magnetic needle",
       "back sighting",
@@ -275,7 +363,7 @@
     "explain": "The table can be oriented using a compass (magnetic needle) or by aligning a line with a previously occupied station (back sighting)."
   },
   {
-    "q": "26. \"Fiducial edge \" is the working edge of",
+    "q": "34. \"Fiducial edge \" is the working edge of",
     "options": [
       "plumbing fork",
       "alidade",
@@ -286,7 +374,7 @@
     "explain": "The bevelled ruler edge of the alidade used for drawing rays is the fiducial edge."
   },
   {
-    "q": "27. Which instrument is not used in plane table ?",
+    "q": "35. Which instrument is not used in plane table ?",
     "options": [
       "altimeter",
       "alidade",
@@ -297,18 +385,7 @@
     "explain": "An altimeter is used for measuring altitude via pressure, not standard plane table plotting."
   },
   {
-    "q": "28. Which of the following doesn't involve the method of traversing?",
-    "options": [
-      "Chain surveying",
-      "Theodolite surveying",
-      "Plane Table surveying",
-      "Tacheometric surveying"
-    ],
-    "correct": 3,
-    "explain": "Per this text, tacheometric surveying is identified as not typically involving the specific method of traversing, unlike chain, theodolite, and plane table surveying."
-  },
-  {
-    "q": "29. The technique of plotting all the accessible stations with a single set up of plane table is called",
+    "q": "36. The technique of plotting all the accessible stations with a single set up of plane table is called",
     "options": [
       "radiation",
       "interesection",
@@ -319,7 +396,7 @@
     "explain": "As stated in Q104, this technique of plotting all accessible points from a single plane table setup is called radiation."
   },
   {
-    "q": "30. In case of telescopic alidade, the adjustment done is",
+    "q": "37. In case of telescopic alidade, the adjustment done is",
     "options": [
       "the line of collimation should perpendicular to the axis of telescope",
       "the horizontal axis should be parallel to the alidade rule",
@@ -330,7 +407,7 @@
     "explain": "Telescopic alidades require these permanent adjustments to ensure the line of sight accurately reflects the horizontal and vertical positions plotted on the sheet."
   },
   {
-    "q": "31. The 'fix' of a plane table station with three known points, is bad if the plane station lies",
+    "q": "38. The 'fix' of a plane table station with three known points, is bad if the plane station lies",
     "options": [
       "in the great triangle",
       "outside the great triangle",
@@ -341,7 +418,7 @@
     "explain": "The three-point problem 'fix' is considered bad (unreliable/indeterminate) specifically when the plane table station lies on the circumference of the circle passing through the three known points, since the solution becomes indeterminate there."
   },
   {
-    "q": "32. To orient a plane table at a point with two inaccessible points, the method generally adopted, is",
+    "q": "39. To orient a plane table at a point with two inaccessible points, the method generally adopted, is",
     "options": [
       "intersection",
       "resection",
@@ -352,7 +429,7 @@
     "explain": "When orienting a plane table at a station using only two known but inaccessible points, the specific technique used is the two-point problem, a form of resection using two references."
   },
   {
-    "q": "33. Accuracy of 'fix' by two point problem, is",
+    "q": "40. Accuracy of 'fix' by two point problem, is",
     "options": [
       "bad",
       "good",
@@ -363,7 +440,7 @@
     "explain": "Compared to the three-point problem, the accuracy of the 'fix' obtained by the two-point problem is generally not as reliable, since it involves an iterative trial-and-error graphical solution."
   },
   {
-    "q": "34. The least count of a vernier scale is",
+    "q": "41. The least count of a vernier scale is",
     "options": [
       "sum of the smallest divisions of main and vernier scales",
       "value of one division of the primary scale divided by total number of divisions of vernier scale",
@@ -374,7 +451,7 @@
     "explain": "The least count of a vernier is defined as the value of one division of the main (primary) scale divided by the total number of divisions on the vernier scale."
   },
   {
-    "q": "35. While plane tabling in plane and open area, the most important operation for setting up the plane table is",
+    "q": "42. While plane tabling in plane and open area, the most important operation for setting up the plane table is",
     "options": [
       "orienting",
       "leveling",
@@ -385,7 +462,7 @@
     "explain": "In plane and open terrain, leveling of the plane table is considered the most important initial operation for correctly setting up the instrument."
   },
   {
-    "q": "36. The survey a small area which one of the most important operation for setting up the plane table is",
+    "q": "43. The survey a small area which one of the most important operation for setting up the plane table is",
     "options": [
       "radiation",
       "intersection",
@@ -396,18 +473,7 @@
     "explain": "For surveying a small area commanded from a single station, radiation is one of the most important (and simplest) plane table operations used for setting up detail plotting."
   },
   {
-    "q": "37. The angle of intersection of a curve is the angle between",
-    "options": [
-      "back tangent and forward tangent",
-      "prolongation of back tangent and forward tangent",
-      "forward tangent and long chord",
-      "back tangent and long chord"
-    ],
-    "correct": 1,
-    "explain": "The angle of intersection of a curve is defined as the angle between the prolongation of the back tangent and the forward tangent (i.e., the deflection angle at the point of intersection of the two straights)."
-  },
-  {
-    "q": "38. An imaginary line joining the point of intersection of the cross-hairs of the diaphragm and the optical plane is called",
+    "q": "44. An imaginary line joining the point of intersection of the cross-hairs of the diaphragm and the optical plane is called",
     "options": [
       "fundamental line",
       "axis of telescope",
@@ -418,7 +484,7 @@
     "explain": "This imaginary line, joining the intersection of the cross-hairs with the optical centre of the objective, is by definition the line of collimation."
   },
   {
-    "q": "39. The instrument used for accurate centering in plane table survey is",
+    "q": "45. The instrument used for accurate centering in plane table survey is",
     "options": [
       "spirit level",
       "alidade",
@@ -429,7 +495,7 @@
     "explain": "A plumbing fork (with a plumb bob attached) is the specific instrument used to accurately centre a plane table exactly over a ground station mark."
   },
   {
-    "q": "40. A disadvantage of plane table survey is",
+    "q": "46. A disadvantage of plane table survey is",
     "options": [
       "it is heavy, cumbersome and awkward to carry",
       "it cannot be used in wet climate",
@@ -440,7 +506,7 @@
     "explain": "A significant practical disadvantage of plane table surveying is that the table and its equipment are heavy, cumbersome, and awkward to carry, especially over rough terrain."
   },
   {
-    "q": "41. Detailed plotting is generally done by",
+    "q": "47. Detailed plotting is generally done by",
     "options": [
       "radiation",
       "traversing",
@@ -451,7 +517,7 @@
     "explain": "Detailed plotting in plane table surveying can be accomplished using any of several methods - radiation, traversing, or resection - depending on the situation, so all of these apply."
   },
   {
-    "q": "42. Intersection method of detailed plotting is most suitable for",
+    "q": "48. Intersection method of detailed plotting is most suitable for",
     "options": [
       "forests",
       "urban areas",
@@ -462,7 +528,7 @@
     "explain": "The intersection method, useful for locating inaccessible points from known stations, is particularly suited for hilly areas where direct distance measurement to many points is difficult."
   },
   {
-    "q": "43. The plane table surveying is",
+    "q": "49. The plane table surveying is",
     "options": [
       "most suitable for preparing small-scale maps",
       "particularly advantageous in magnetic areas",
@@ -473,7 +539,7 @@
     "explain": "Plane table surveying offers multiple advantages together - it is suited for small-scale mapping, works well in areas with magnetic disturbance (since it doesn't rely on compass bearings), and is generally less costly than theodolite surveys - so all of the above apply."
   },
   {
-    "q": "44. The operation of turning the table so that all the lines on the paper are parallel to the corresponding lines on the ground is called",
+    "q": "50. The operation of turning the table so that all the lines on the paper are parallel to the corresponding lines on the ground is called",
     "options": [
       "leveling",
       "centering",
@@ -482,71 +548,5 @@
     ],
     "correct": 3,
     "explain": "This operation of rotating the plane table so plotted lines remain parallel to corresponding ground lines is, by definition, orientation."
-  },
-  {
-    "q": "45. The plotting of small areas which can be commanded from a single station, is usually done on the plane table by the method of",
-    "options": [
-      "radiation",
-      "intersection",
-      "traversing",
-      "resection"
-    ],
-    "correct": 0,
-    "explain": "For small areas visible and accessible from a single plane table station, the radiation method is typically used, plotting rays and measured distances directly to each point."
-  },
-  {
-    "q": "46. The method of intersection in plane tabling is commonly used for",
-    "options": [
-      "locating the distant and inaccessible points",
-      "locating the broken boundaries",
-      "locating the points which may be used subsequently as the instrument stations",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "The intersection method serves multiple purposes together in plane tabling - locating distant/inaccessible points, broken boundaries, and future instrument stations - so all of the above apply."
-  },
-  {
-    "q": "47. The method of plane tabling commonly used for establishing the instrument stations only is a",
-    "options": [
-      "method of radiation",
-      "method of intersection",
-      "method of traversing",
-      "method of resection"
-    ],
-    "correct": 2,
-    "explain": "The method of traversing in plane tabling is specifically used to progressively establish and connect a series of instrument stations, rather than plotting detail points directly."
-  },
-  {
-    "q": "48. If the plane table is not horizontal in a direction at right angles to the alidade, the line of sight is parallel to the fiducial edge only for",
-    "options": [
-      "horizontal sights",
-      "inclined sights upward",
-      "inclined sight downward",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "When the plane table is not perfectly horizontal, the line of sight through the alidade remains parallel to its fiducial (ruling) edge only for purely horizontal sights; inclined sights introduce an error under these conditions."
-  },
-  {
-    "q": "49. In plate tabling, the instrument used to measure horizontal and vertical distance directly is known as",
-    "options": [
-      "plane alidade",
-      "telescopic alidade",
-      "tachometer",
-      "clinometers"
-    ],
-    "correct": 1,
-    "explain": "A telescopic alidade, fitted with stadia hairs, allows both horizontal and vertical distances to be measured directly during plane tabling without separate chaining."
-  },
-  {
-    "q": "50. The imaginary line passing through the intersection of cross hairs and the optical centre of the objective, is known as",
-    "options": [
-      "line of sight",
-      "line of collimation",
-      "axis of the telescope",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "This imaginary line, through the intersection of the cross hairs and the optical centre of the objective, is by definition the line of collimation."
   }
 ]

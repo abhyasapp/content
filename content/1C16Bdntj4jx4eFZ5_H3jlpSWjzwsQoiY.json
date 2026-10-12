@@ -1,17 +1,6 @@
 [
   {
-    "q": "1. The state of pure shear stress is produced by",
-    "options": [
-      "tension in one direction and equal compression in perpendicular direction",
-      "equal tensions in two directions at right angles",
-      "equal compression in two directions at right angles",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Pure shear at 45° is equivalent to equal tension and compression at right angles on the original planes; hence tension in one direction with equal compression perpendicular to it produces a state of pure shear."
-  },
-  {
-    "q": "2. The direction of shear stress is",
+    "q": "1. The direction of shear stress is",
     "options": [
       "horizontal",
       "vertical",
@@ -20,6 +9,17 @@
     ],
     "correct": 2,
     "explain": "Shear stress can act in both horizontal and vertical planes depending on the loading conditions and the orientation of the cross-section being analyzed."
+  },
+  {
+    "q": "2. The state of pure shear stress is produced by",
+    "options": [
+      "tension in one direction and equal compression in perpendicular direction",
+      "equal tensions in two directions at right angles",
+      "equal compression in two directions at right angles",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Pure shear at 45° is equivalent to equal tension and compression at right angles on the original planes; hence tension in one direction with equal compression perpendicular to it produces a state of pure shear."
   },
   {
     "q": "3. The direction of normal stress is",
@@ -77,15 +77,15 @@
     "explain": "Hooke's Law states Stress = E × Strain. Therefore, MoE × Stress = Strain is mathematically incorrect."
   },
   {
-    "q": "8. The property of a material by which is can be drawn to smaller section, due to tension, is called",
+    "q": "8. The property by which a body returns to its original shape after removal of the force, is called",
     "options": [
       "plasticity",
-      "ductility",
       "elasticity",
+      "ductility",
       "malleability"
     ],
     "correct": 1,
-    "explain": "Ductility is the property that allows a material to be drawn into thinner sections (like wires) under tensile stress without fracturing."
+    "explain": "Elasticity is defined as the property of a material to regain its original shape and size once the deforming force is removed."
   },
   {
     "q": "9. Stress is directly proportional to strain within elastic limit is given by",
@@ -99,7 +99,18 @@
     "explain": "This fundamental principle of elasticity was established by Robert Hooke."
   },
   {
-    "q": "10. Elasticity of a body is defined",
+    "q": "10. The property of a material by which is can be drawn to smaller section, due to tension, is called",
+    "options": [
+      "plasticity",
+      "ductility",
+      "elasticity",
+      "malleability"
+    ],
+    "correct": 1,
+    "explain": "Ductility is the property that allows a material to be drawn into thinner sections (like wires) under tensile stress without fracturing."
+  },
+  {
+    "q": "11. Elasticity of a body is defined",
     "options": [
       "the property by which a body returns to its original shape after removal of load",
       "the property by which a body don't returns to its original shape after removal of load",
@@ -110,18 +121,18 @@
     "explain": "Elasticity is the physical property that allows a material to return to its original dimensions after the unloading process."
   },
   {
-    "q": "11. As the elastic limit reaches, tensile strain",
+    "q": "12. The property of a material by which it can be beaten or rolled into thin plates, is called",
     "options": [
-      "increases more rapidly",
-      "decreases more rapidly",
-      "increases in proportion to the stress",
-      "decreases in proportion to the stress"
+      "malleability",
+      "ductility",
+      "plasticity",
+      "elasticity"
     ],
     "correct": 0,
-    "explain": "Near the elastic limit, the stress-strain curve starts to flatten, meaning strain increases much faster than the corresponding increase in stress."
+    "explain": "Malleability is the property that allows a material to be hammered or rolled into thin sheets, typically under compressive forces."
   },
   {
-    "q": "12. Elasticity of a body is",
+    "q": "13. Elasticity of a body is",
     "options": [
       "the ratio of stress to strain",
       "the resistance to the force acting",
@@ -132,7 +143,18 @@
     "explain": "Elasticity represents the internal resistance of the material molecules to being separated by an external force."
   },
   {
-    "q": "13. The stress necessary to initiate yielding, is considerably",
+    "q": "14. As the elastic limit reaches, tensile strain",
+    "options": [
+      "increases more rapidly",
+      "decreases more rapidly",
+      "increases in proportion to the stress",
+      "decreases in proportion to the stress"
+    ],
+    "correct": 0,
+    "explain": "Near the elastic limit, the stress-strain curve starts to flatten, meaning strain increases much faster than the corresponding increase in stress."
+  },
+  {
+    "q": "15. The stress necessary to initiate yielding, is considerably",
     "options": [
       "more than that necessary to continue it",
       "less than that necessary to continue it",
@@ -143,18 +165,7 @@
     "explain": "The upper yield point (stress to initiate yielding) is higher than the lower yield stress required to sustain/continue the yielding process."
   },
   {
-    "q": "14. Permanent set is",
-    "options": [
-      "the force which acts permanently on the body",
-      "irrecoverable deformation in the body",
-      "the shape of the member just after completion of construction",
-      "ratio of poisson's ratio to young's modulus"
-    ],
-    "correct": 1,
-    "explain": "Permanent set refers to the plastic deformation that remains in a body after the applied stress is removed."
-  },
-  {
-    "q": "15. Stress in a member subjected to a force is",
+    "q": "16. Stress in a member subjected to a force is",
     "options": [
       "the ratio of modulus of elasticity to strain",
       "the product of modulus of elasticity and strain",
@@ -165,7 +176,18 @@
     "explain": "According to the constitutive relation σ = Eε, stress is the product of the modulus of elasticity and strain."
   },
   {
-    "q": "16. Young's modulus is the ratio of the normal stress to the",
+    "q": "17. The phenomenon of slow extension of materials having constant load, i.e. increasing with the time is called",
+    "options": [
+      "creeping",
+      "yielding",
+      "breaking",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Creep is defined as the slow, time-dependent increase in strain of a material under a constant sustained load."
+  },
+  {
+    "q": "18. Young's modulus is the ratio of the normal stress to the",
     "options": [
       "normal strain within elastic limit",
       "normal strain within proportional limit",
@@ -176,7 +198,7 @@
     "explain": "Young's modulus is valid only within the proportional limit where the stress-strain curve is linear."
   },
   {
-    "q": "17. Modulus of rigidity is the ratio of",
+    "q": "19. Modulus of rigidity is the ratio of",
     "options": [
       "normal stress to normal strain",
       "shear stress to shear strain",
@@ -187,7 +209,7 @@
     "explain": "The modulus of rigidity (G) is the ratio of shear stress to the corresponding shear strain."
   },
   {
-    "q": "18. In any member of structure system, the strain does not effect the size of member",
+    "q": "20. In any member of structure system, the strain does not effect the size of member",
     "options": [
       "lateral strain",
       "volumetric strain",
@@ -198,7 +220,7 @@
     "explain": "Shear strain involves a change in shape (angle) rather than a change in dimensions or volume."
   },
   {
-    "q": "19. Plasticity of a body is",
+    "q": "21. Plasticity of a body is",
     "options": [
       "the ratio of stress to strain",
       "same as property of elasticity",
@@ -209,7 +231,7 @@
     "explain": "While elasticity allows recovery of shape, plasticity is the property that allows permanent deformation."
   },
   {
-    "q": "20. The ratio of lateral strain to longitudinal strain is called",
+    "q": "22. The ratio of lateral strain to longitudinal strain is called",
     "options": [
       "poisson's ratio",
       "stress",
@@ -220,7 +242,7 @@
     "explain": "Poisson's ratio is a dimensionless constant representing the ratio of transverse contraction to longitudinal extension."
   },
   {
-    "q": "21. The value of possion's ratio always remains",
+    "q": "23. The value of possion's ratio always remains",
     "options": [
       "greater than one",
       "less than one",
@@ -231,7 +253,18 @@
     "explain": "For most engineering materials, Poisson's ratio typically ranges from 0 to 0.5, thus remaining less than one."
   },
   {
-    "q": "22. The percentage elongation of a material from a direct tensile test indicates",
+    "q": "24. If the stress in each cross-section of a pillar is equal to its working stress, it is called",
+    "options": [
+      "body of equal",
+      "body of equal section",
+      "body of equal strength",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A 'body of equal strength' is one designed so that the stress is uniform (equal to the working/allowable stress) at every cross-section along its length."
+  },
+  {
+    "q": "25. The percentage elongation of a material from a direct tensile test indicates",
     "options": [
       "ductility",
       "strength",
@@ -242,7 +275,7 @@
     "explain": "High percentage elongation is a primary indicator that a material is ductile and can undergo significant plastic deformation."
   },
   {
-    "q": "23. The percentage reduction of a material from a direct compressive test indicates",
+    "q": "26. The percentage reduction of a material from a direct compressive test indicates",
     "options": [
       "ductility",
       "strength",
@@ -253,7 +286,7 @@
     "explain": "Similar to elongation in tension, reduction in cross-sectional area in compression is a measure of ductility."
   },
   {
-    "q": "24. The safe value of stress below which the material will not fail when subjected to reversal of stress is known as",
+    "q": "27. The safe value of stress below which the material will not fail when subjected to reversal of stress is known as",
     "options": [
       "fatigue stress",
       "endurance limit",
@@ -264,7 +297,7 @@
     "explain": "Endurance limit is the maximum stress that a material can withstand for an infinite number of cycles without failure."
   },
   {
-    "q": "25. The property by which the metals deforms continuously at a slow rate without further increase in stress is called",
+    "q": "28. The property by which the metals deforms continuously at a slow rate without further increase in stress is called",
     "options": [
       "creep",
       "fatigue",
@@ -275,7 +308,18 @@
     "explain": "Creep is the time-dependent permanent deformation that occurs under constant stress, usually at high temperatures."
   },
   {
-    "q": "26. Toughness is",
+    "q": "29. A beam is said to be of uniform strength, if",
+    "options": [
+      "B.M. is same throughout the beam",
+      "shear stress is same throughout the beam",
+      "deflection is same throughout the beam",
+      "bending stress is same at every section along its longitudinal axis"
+    ],
+    "correct": 3,
+    "explain": "A beam of uniform strength has a varying cross-section such that the maximum bending stress remains constant (equal to the allowable stress) at every section along its length."
+  },
+  {
+    "q": "30. Toughness is",
     "options": [
       "ability to absorb energy during plastic deformation",
       "higher ultimate strength",
@@ -286,7 +330,7 @@
     "explain": "Toughness represents the total energy a material can absorb before it actually fractures."
   },
   {
-    "q": "27. The impact tests are used to determine",
+    "q": "31. The impact tests are used to determine",
     "options": [
       "ultimate crushing strength",
       "toughness",
@@ -297,7 +341,18 @@
     "explain": "Tests like Charpy and Izod measure the energy absorbed during impact, which defines the toughness."
   },
   {
-    "q": "28. The ratio of maximum instantaneous stress due to sudden loading to the maximum stress due to gradual loading will be",
+    "q": "32. Along the neutral axis of a simply supported beam",
+    "options": [
+      "fibres do not undergo strain",
+      "fibres undergo minimum strain",
+      "fibres undergo maximum strain",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the layer in a beam where bending-induced longitudinal strain is zero — fibres there neither stretch nor compress."
+  },
+  {
+    "q": "33. The ratio of maximum instantaneous stress due to sudden loading to the maximum stress due to gradual loading will be",
     "options": [
       "1",
       "2",
@@ -308,7 +363,7 @@
     "explain": "Stress produced by a suddenly applied load is twice the stress produced by the same load applied gradually."
   },
   {
-    "q": "29. What is tenancy?",
+    "q": "34. What is tenancy?",
     "options": [
       "ultimate strength in tension",
       "ultimate strength in compression",
@@ -319,7 +374,7 @@
     "explain": "Tenacity (often misspelled as tenancy) refers to the ultimate tensile strength of a material."
   },
   {
-    "q": "30. Simple bending equation is",
+    "q": "35. Simple bending equation is",
     "options": [
       "M/I = f/y = E/R",
       "f/I = M/y = E/R",
@@ -330,7 +385,7 @@
     "explain": "This is the standard Euler-Bernoulli bending equation relating moment, inertia, stress, and curvature."
   },
   {
-    "q": "31. In a composite bar the load distribution among different materials of which it is made is based on the assumption the all the materials will have",
+    "q": "36. In a composite bar the load distribution among different materials of which it is made is based on the assumption the all the materials will have",
     "options": [
       "equal areas",
       "same Young's modulus",
@@ -341,7 +396,7 @@
     "explain": "In composite bars, the primary assumption for compatibility is that all components undergo the same amount of strain."
   },
   {
-    "q": "32. The stress due to temperature change in a member depends on",
+    "q": "37. The stress due to temperature change in a member depends on",
     "options": [
       "supporting conditions of ends",
       "length of member",
@@ -352,7 +407,7 @@
     "explain": "Thermal stress only develops if the expansion or contraction is restricted by the support conditions."
   },
   {
-    "q": "33. Strain energy of a member may be defined as work done on it",
+    "q": "38. Strain energy of a member may be defined as work done on it",
     "options": [
       "to deform it",
       "to resist elongation",
@@ -363,7 +418,7 @@
     "explain": "Strain energy is the internal work stored in a material due to any form of deformation (tension, compression, etc.)."
   },
   {
-    "q": "34. Partial derivative of strain energy gives",
+    "q": "39. Partial derivative of strain energy gives",
     "options": [
       "deflection",
       "slop",
@@ -374,7 +429,7 @@
     "explain": "According to Castigliano's first theorem, the partial derivative of strain energy with respect to a load gives the deflection at that load."
   },
   {
-    "q": "35. The strain energy stored in a specimen when strained within the elastic limit is known as",
+    "q": "40. The strain energy stored in a specimen when strained within the elastic limit is known as",
     "options": [
       "resilience",
       "proof resilience",
@@ -385,7 +440,7 @@
     "explain": "Resilience is the capacity of a material to absorb energy when it is deformed elastically."
   },
   {
-    "q": "36. The maximum strain energy stored in a specimen when strained within the elastic limit is known as",
+    "q": "41. The maximum strain energy stored in a specimen when strained within the elastic limit is known as",
     "options": [
       "resilience",
       "proof resilience",
@@ -396,7 +451,7 @@
     "explain": "Proof resilience is the maximum energy that can be stored without causing permanent deformation."
   },
   {
-    "q": "37. Find the elongation of a rod if a load of p is applied on a rod having length, l c/s area, A and modulus of elasticity, E",
+    "q": "42. Find the elongation of a rod if a load of p is applied on a rod having length, l c/s area, A and modulus of elasticity, E",
     "options": [
       "pl/AE",
       "pE/Al",
@@ -407,18 +462,7 @@
     "explain": "The standard formula for axial deformation is derived from Hooke's Law (σ = Eε), where strain ε = Δl/l and stress σ = p/A."
   },
   {
-    "q": "38. The plane of maximum obliquity is inclined to major principal plane at an angle",
-    "options": [
-      "π/2 + φmax/4",
-      "π/4 + φmax/2",
-      "π/4 + φmax/2",
-      "π/4 + φmax"
-    ],
-    "correct": 1,
-    "explain": "The plane of maximum obliquity (where the ratio of shear to normal stress, i.e. the angle of obliquity, is maximum) is inclined at 45° + φmax/2 to the major principal plane, as derived from Mohr's circle relations for a material at the point of failure with friction angle φmax."
-  },
-  {
-    "q": "39. Find the modulus elasticity of bar material (E) if c/s area of bar is A, length L, applied load P and elongation is Δ",
+    "q": "43. Find the modulus elasticity of bar material (E) if c/s area of bar is A, length L, applied load P and elongation is Δ",
     "options": [
       "pl/AΔ",
       "pΔ/la",
@@ -429,7 +473,18 @@
     "explain": "Rearranging the elongation formula Δ = PL/AE to solve for E gives E = PL/AΔ."
   },
   {
-    "q": "40. The amount of stress developed due to increase in temperature in case of SSB if l=10m, ΔT=10°C, A=5cm²",
+    "q": "44. The plane of maximum obliquity is inclined to major principal plane at an angle",
+    "options": [
+      "π/2 + φmax/4",
+      "π/4 + φmax/2",
+      "π/4 + φmax/2",
+      "π/4 + φmax"
+    ],
+    "correct": 1,
+    "explain": "The plane of maximum obliquity (where the ratio of shear to normal stress, i.e. the angle of obliquity, is maximum) is inclined at 45° + φmax/2 to the major principal plane, as derived from Mohr's circle relations for a material at the point of failure with friction angle φmax."
+  },
+  {
+    "q": "45. The amount of stress developed due to increase in temperature in case of SSB if l=10m, ΔT=10°C, A=5cm²",
     "options": [
       "1N/mm²",
       "100 N/mm²",
@@ -440,7 +495,7 @@
     "explain": "As per key 1 but In a Simply Supported Beam (SSB), the beam is free to expand or contract. Since there is no restriction to thermal expansion, no thermal stress is developed."
   },
   {
-    "q": "41. A member having cross section 5 cm × 5 cm is subjected to a tensile stress of 100 kg/cm², then the applied load should be",
+    "q": "46. A member having cross section 5 cm × 5 cm is subjected to a tensile stress of 100 kg/cm², then the applied load should be",
     "options": [
       "2500 kg",
       "2000 kg",
@@ -451,18 +506,7 @@
     "explain": "Load = Stress × Area. Area = 5cm × 5cm = 25cm². Load = 100 kg/cm² × 25cm² = 2500 kg."
   },
   {
-    "q": "42. For ductile materials, the most appropriate failure theory is",
-    "options": [
-      "maximum shear stress theory",
-      "maximum principal stress theory",
-      "maximum principal strain theory",
-      "shear strain theory"
-    ],
-    "correct": 0,
-    "explain": "The maximum shear stress (Tresca) theory gives results that agree reasonably well with experimental yielding behavior of ductile materials, making it the most appropriate for such materials."
-  },
-  {
-    "q": "43. Torsion is produced in a beam due to",
+    "q": "47. Torsion is produced in a beam due to",
     "options": [
       "magnitude of load",
       "eccentricity of load from centroidal axis",
@@ -473,7 +517,18 @@
     "explain": "Torsion occurs when a load is applied at a distance (eccentricity) from the longitudinal centroidal axis, creating a twisting moment."
   },
   {
-    "q": "44. Due to torsion moment beam get",
+    "q": "48. For ductile materials, the most appropriate failure theory is",
+    "options": [
+      "maximum shear stress theory",
+      "maximum principal stress theory",
+      "maximum principal strain theory",
+      "shear strain theory"
+    ],
+    "correct": 0,
+    "explain": "The maximum shear stress (Tresca) theory gives results that agree reasonably well with experimental yielding behavior of ductile materials, making it the most appropriate for such materials."
+  },
+  {
+    "q": "49. Due to torsion moment beam get",
     "options": [
       "bent",
       "twisted",
@@ -484,69 +539,14 @@
     "explain": "While bending moments cause curvature (bending), torsional moments specifically cause the cross-sections to rotate or twist relative to each other."
   },
   {
-    "q": "45. Torsional equation is given by",
+    "q": "50. Elasticity of a body is",
     "options": [
-      "T/J = τmax/R = Cθ/l",
-      "J/T = τmax/R = Cθ/l",
-      "T/J = R/τmax = Cθ/l",
-      "J/T = τmax/R = l/Cθ"
+      "the property by which a body returns to its original shape after removal of the load",
+      "the ratio of stress to strain",
+      "the resistance to the force acting",
+      "large deformability as in case of rubber"
     ],
     "correct": 0,
-    "explain": "This is the standard torsion formula relating torque (T), polar moment of inertia (J), shear stress (τ), radius (R), modulus of rigidity (C), angle of twist (θ), and length (l)."
-  },
-  {
-    "q": "46. In a case of partially elastic body that part of work done by the external forces during deformation is dissipated in the form of heat, which is developed in the body during",
-    "options": [
-      "non-elastic deformation",
-      "elastic deformation",
-      "50% of total deformation",
-      "last 25% of deformation"
-    ],
-    "correct": 0,
-    "explain": "In a partially elastic body, the energy lost as heat corresponds to the non-elastic (permanent/plastic) portion of deformation, since elastic deformation energy is fully recoverable."
-  },
-  {
-    "q": "47. Stress concentration near the void is ................ as compared to solid portion.",
-    "options": [
-      "less",
-      "more",
-      "equal",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Voids or discontinuities disrupt the flow of stress lines, causing them to 'bunch up' and increase the local stress intensity."
-  },
-  {
-    "q": "48. The Law \"Stress is proportional to strain within certain limits\" is formatted by",
-    "options": [
-      "Thomas Young",
-      "Poisson",
-      "Mohr",
-      "Robert Hook"
-    ],
-    "correct": 3,
-    "explain": "This is Hooke's Law, formulated by Robert Hooke, stating that stress is proportional to strain within the elastic (proportional) limit."
-  },
-  {
-    "q": "49. Hoop stress is",
-    "options": [
-      "compressive",
-      "radial stress",
-      "circumferential tensile stress",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "In thin-walled cylinders under internal pressure, hoop stress acts along the circumference and is tensile in nature."
-  },
-  {
-    "q": "50. In a composite bar the load distribution among different materials of which it is made is based on the assumption that all the materials will have",
-    "options": [
-      "equal areas",
-      "same yong's modulus",
-      "same strain",
-      "same stress"
-    ],
-    "correct": 2,
-    "explain": "In a composite bar, since all constituent materials are rigidly connected and deform together, they undergo the same strain, and load distribution is derived from this compatibility condition."
+    "explain": "Elasticity is fundamentally defined as the ability of a material to return to its original shape/size once the deforming load is removed."
   }
 ]

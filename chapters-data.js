@@ -228,20 +228,17 @@ const DRIVE = {
         "part 3": "1EZ0gJhlMVuDsWF341-p6cf6Emjka-140",
         "part 4": "1cCB3OX0H1PxXsc9tFL3Yt5gwXxUDQbFH",
         "part 5": "13HlrGv9VHa3nPpwXqoZVQalGzsDvjbEl",
-        "part 6": "1O15MBCQjGI3G0xfjbldXGLEyOxWWCOud",
-        "part 7": "1ujD7X9tjpL0o8amH7LkpjklzqUgx625j"
+        "part 6": "1O15MBCQjGI3G0xfjbldXGLEyOxWWCOud"
       },
       "3.2 Mechanics of Beams": {
         "part 1": "11nyasGMxa8JCAanNh9jRSRa-NZv-oTJ0",
         "part 2": "1umjufw0l1Auuzlf2FhkYeHp8TCoYhpxT",
         "part 3": "1DzqiWqs5QYWI6z9MR3tlF-AP_d4a9rV8",
         "part 4": "19y8xlXf7mUUHG5VWAqWhRLHNnFVaV67F",
-        "part 5": "1-e5Swgkdpf7G6ogRd6hfru5HecFa01OP",
-        "part 6": "1HGEVL5WDwsHitOVWVUucJRiwFHzj-wss"
+        "part 5": "1-e5Swgkdpf7G6ogRd6hfru5HecFa01OP"
       },
       "3.3 Simple Strut Theory": {
-        "part 1": "16xTE4-Byg1VVmEywUoCUjgM7_3Sz7FlQ",
-        "part 2": "1OoBLlLMNVdMNlhbrQu6xBsVnjjbWAjLN"
+        "All": "16xTE4-Byg1VVmEywUoCUjgM7_3Sz7FlQ"
       },
       "3.5 Original Questions": {
         "DPARSAD.1-53": "1RWIKVWCl9djWzUyAL0fMOoeNLIYQfQAo",
@@ -534,10 +531,7 @@ const DRIVE = {
         "All": "1aKwgnngIF7-0yA8a9LFN4IpDS4mNNJYS"
       },
       "12.5 Planning and Control": {
-        "part 1": "18__-HcVQnYPWZhooSTPq5PZvJ18qzvnS",
-        "part 2": "1IaXRHKfBw76r4acgopMS_a4bXdotK0ic",
-        "part 3": "13KsILyO9Y-gTz_M52qRrvrnGZVMVbvDG",
-        "part 4": "1Rt0zRyEnEr-fiiGH1lGFsr-wDlfv8FGY"
+        "All": "18__-HcVQnYPWZhooSTPq5PZvJ18qzvnS"
       },
       "12.7 Original Questions": {
         "Sunil Sah.101-200": "1EgH0tKtUJQVmsopLeh61lXTTDzMqbMy6",
@@ -575,13 +569,15 @@ const DRIVE = {
       "3.2 STRESS&TORSION": {
         "part 1": "1C16Bdntj4jx4eFZ5_H3jlpSWjzwsQoiY",
         "part 2": "1t9gbPvDMnXEtn7UtcR0oe4v7MwHm3LX7",
-        "part 3": "1sImmMkK0ivOlmWb0sM-cDg8BKf6SwDSf"
+        "part 3": "1sImmMkK0ivOlmWb0sM-cDg8BKf6SwDSf",
+        "part 4": "1LxKBO_ppCoFiqzb4yd9ba_npSiK3ZcQF",
+        "part 5": "1xheF4Di-RdkMDJxpJ21m1y3vdvNEq3Hp",
+        "part 6": "1vTKFu-Y-36FTur9V7Iz1N-OzsRfZX8Wn"
       },
       "3.3 BEAM&FRAME": {
         "part 1": "1hValUmDeveADXR6iEdKeAsHqODOrAVdc",
         "part 2": "1pCVQ8_SVH8tEM1dv0XCZiQEwieT2gTAB",
-        "part 3": "1ZiFgVB_tg4eOltXwoymqW-hy1AROn8RX",
-        "part 4": "1rDNzUWDeG8L0EgwvDZGdqYvaHRfbwfpu"
+        "part 3": "1ZiFgVB_tg4eOltXwoymqW-hy1AROn8RX"
       },
       "3.4 DETERMINATE STR": {
         "part 1": "1HRL4GtwSJUcSvHElubllmEWpFRSY7wnw",
@@ -589,7 +585,8 @@ const DRIVE = {
       },
       "3.5 INDETERMINATE STR": {
         "part 1": "1TbYxUS8M5u8Pe_7f_QQQWwXJ8auXruEU",
-        "part 2": "1I4_a7MoUANsMx2X1v0AXsbWO4T4OuB4m"
+        "part 2": "1I4_a7MoUANsMx2X1v0AXsbWO4T4OuB4m",
+        "part 3": "10aS4GSzopfKkXaRosx6Q77OTv4Rr653t"
       },
       "3.6 PLASTIC ANALYSIS": {
         "All": "1FJR2g_0O4JsCQy2Q1MUN3e_8Ta310YjL"
@@ -598,12 +595,12 @@ const DRIVE = {
         "DPARSAD.1-70": "1h3NQ9AL7DSx-5K3uU7XSb9Q7CvPiRwPD",
         "DPARSAD.141-228": "1ulh8RD7_hHeBUyrRD95kW_bgyvKQsk51",
         "DPARSAD.71-140": "1mgOsZkjGqWZ1AOhu1oQ6ZWtIOA-R3RwS",
-        "Sunil Sah": "1SYaPlCkwC-XxwftdjTeM-PkhN_Ev9wa0",
-        "Sunil Sah (2)": "1NGZUdBqjXRUN_MO-1L7aYt_Q_1T3rvWq",
-        "Sunil Sah (3)": "1cGuCioKTYgWHUrSc9lbpcBYVIyh8RbW3",
-        "Sunil Sah (4)": "1T2AoK8ukETL8iwoA6edSpnuhKPcVD67P",
-        "Sunil Sah (5)": "1q0DNrOwCWM8-Y5AlRMrZtsVp1GhjZ5ws",
-        "Sunil Sah (6)": "1wIseIvXaPMtURT040fH1rr4c2EYkcSnH"
+        "Sunil Sah": "1pUm2R7pXdID7pjlTvmRlDui7FfltBr0x",
+        "Sunil Sah (2)": "1b4NXQw7DeiADVpjEoAfrien4treBAhbF",
+        "Sunil Sah (3)": "1bUTZE558TRwHny7bIKVt5O0rDNOfAYUo",
+        "Sunil Sah (4)": "1JsK1vTAJ3_hXF6NAHlTE3zLfUgREuTUQ",
+        "Sunil Sah (5)": "1XVT97nhyZtu7IjQT8rjLU9hJ-wkntRZF",
+        "Sunil Sah (6)": "1Ry7MFLP2WA8K2t59WlqMGb4A5YoDpt6r"
       }
     },
     "2": {
@@ -663,10 +660,10 @@ const DRIVE = {
         "DPARSAD.101-175": "14zRkZBGZnFXkxGylMqplHxDgq53CWayc",
         "DPARSAD.175-250": "1TzBMpOzm-Qp5-yqB5T7y7J3cS06Kt8vs",
         "DPARSAD.251-350": "1jw4nzypzxqQo7xO9JcRUUtyVL1U6kbDq",
-        "RK SHRESTHA.1-77": "1dCqKCDCgIyoNobRilOdP50bbqmOdTSWg",
-        "RK SHRESTHA.155-231": "1qHHhdU_TtWnM4uvp5EwHQx8m9N5GAk05",
-        "RK SHRESTHA.232-307": "1vNqbQIhOgiFmeGsmZj6AhKGmnqNm7Yr-",
-        "RK SHRESTHA.78-154": "1cCrVquPYs1VH7b2eKv9yqhiDttbjoDgT",
+        "RK SHRESTHA.1-77": "1oGLIdes_EzZHxP43jZ_hyge25tTnJJ87",
+        "RK SHRESTHA.78-154": "1Iu7aiQBT7gl1B1iZQuRe0uROkct5ILqM",
+        "RK SHRESTHA.155-231": "1qZwLo-rZKd20FsDMy3fIcuoYp5EX8C4y",
+        "RK SHRESTHA.232-307": "1Qgrqpg5fspGgqKqgQ7adsCy3id1EVAbw",
         "Sunil Sah": "1R7x3OE95XQPVmtQWwbpxmNf1Yy7x_6LS",
         "Sunil Sah (2)": "1QJW-SbfzpX-XVa9XUx8dRoByzLZ5_al5",
         "Sunil Sah (3)": "1a_rVm4QbC1c6_U7z7dnHE5pZgVll-_-A",
@@ -845,22 +842,28 @@ const DRIVE = {
         "part 4": "1AlLK4doz0KuMBz_wucaigauHEpIpI32i",
         "part 5": "1gjSKaD0xttgndZTlWJt-xeKY3LwQjrLU",
         "part 6": "18xsQlTL-Xcc0E0Oy45JosPmHfUzhAfnl",
-        "part 7": "1Dhfb1ZTT9mAkl3b5CKpFj4lfZ2XhIU4B"
+        "part 7": "1Dhfb1ZTT9mAkl3b5CKpFj4lfZ2XhIU4B",
+        "part 8": "1xkwhapk6Rj0YGS2RwnR5cpAEZ-Im6eie",
+        "part 9": "1iDrJGjmA-cW-aF82oMqmGqfKovAd3Aiw"
       },
       "8.2 CONTRACTUAL PROCEDURE": {
         "part 1": "1_TVbfw_Y7Ju4HryBHCvXlS-Cv0zysS7k",
         "part 2": "13_KZiHf9ilFhKCxlXe0oe66oS1CN_Zrb",
-        "part 3": "10G38zz-klr29YQV7QmJbPRyS7t3EbgBh"
+        "part 3": "10G38zz-klr29YQV7QmJbPRyS7t3EbgBh",
+        "part 4": "1VbslGapfiWqInN2VocINuCn-Fhem_0vv"
       },
       "8.3 MATERIAL MGMT": {
-        "All": "1J5ZNrICbuO8ba8veugqHgfnjOSg9OECl"
+        "part 1": "1J5ZNrICbuO8ba8veugqHgfnjOSg9OECl",
+        "part 2": "16OCEi3wVZkhFJQXR9RO4iNSWZszesE-I"
       },
       "8.4 COST QUALITY TIME": {
-        "All": "1QfkF7wm-CIE9qQ0Tn9BegfeCvL0D45Zg"
+        "part 1": "1QfkF7wm-CIE9qQ0Tn9BegfeCvL0D45Zg",
+        "part 2": "1LLvg7fWH38_hQkU2_V2xE_0PDQg4nBp5"
       },
       "8.5 PROJECT MGMT": {
         "part 1": "1R2WqNnjwjHl4BszPlOV8WM3igS_dETfN",
-        "part 2": "1psuTcue9MC5L5OJffg3R45KhKd3uXxb3"
+        "part 2": "1psuTcue9MC5L5OJffg3R45KhKd3uXxb3",
+        "part 3": "1A4RFLuqSl2TDGgIs4nEokVNtxQok3PTB"
       },
       "8.6 HEALTH&SAFETY": {
         "All": "1q5-MjxAh7z5PWx8KPP5OyhuARZl0uoMR"
@@ -888,7 +891,12 @@ const DRIVE = {
         "RK SHRESTHA (2)": "1V9EtSiGB2_jaOpTdna_0VGt6iSVh6WmG",
         "RK SHRESTHA (3)": "1vdN4MvatiJJ-7Qjz4epjV6FluEVf5a-m",
         "RK SHRESTHA (4)": "1nz3Tvjl6THGuXYKTnXLH8ZbYKxyfRy-w",
-        "RK SHRESTHA (5)": "1CJfsghP6UOy5qv29ktUrhhNBhqnmqRj7"
+        "RK SHRESTHA (5)": "1CJfsghP6UOy5qv29ktUrhhNBhqnmqRj7",
+        "Sunil Sah.1-70": "1qlsbY2JBhmdKHmKvN6VIEp7zWR6AZOsP",
+        "Sunil Sah.141-210": "1aqFDU-b4W_1FxDm4THng367FKdimHIRS",
+        "Sunil Sah.211-280": "1avP0HYmksnISSP1-P7VYcfukgF9No_Ul",
+        "Sunil Sah.281-335": "18ZaEa7-jsBSmugGYiWyHhwHjEGNDNVuj",
+        "Sunil Sah.71-140": "1E5P0h2v2UyYnIL95x-oiUL2wCeXSg20Z"
       }
     },
     "7": {
@@ -1034,17 +1042,13 @@ const DRIVE = {
       },
       "12.4 PUBLIC PROCUREMENT": {
         "part 1": "1aqhwztnXWmwhOsGEieiQYHJ9KTeyqYSE",
-        "part 2": "1xEjY22aWukAyrU_Q3w4LqT6oFnoc9s6P",
-        "part 3": "10I5Na4DMbZRzsySyRXePisKV8I-SlNS0"
+        "part 2": "1xEjY22aWukAyrU_Q3w4LqT6oFnoc9s6P"
       },
       "12.5 NBC": {
         "All": "1TFEZbh8MT4A3m2-c9DziB04uVln8lYkP"
       },
       "12.6 BUILDING BYLAWS": {
         "All": "1n-L2O3li7hRwWBNU2rqcueaMoaGb2DSS"
-      },
-      "12.7 Mixed Questions": {
-        "part 1": "1zDBYKRwlK6-SeQuRh7iCbWX7Tl7fWOMN"
       },
       "12.8 Original Questions": {
         "DPARSAD": "16Yw0SALw-Vk1KR-7HnRZdetJFqarj7S2",

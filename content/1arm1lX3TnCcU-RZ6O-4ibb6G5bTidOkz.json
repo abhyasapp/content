@@ -1,6 +1,17 @@
 [
   {
-    "q": "1. The difference in the lengths of an arc and its subtended chord on the earth surface for a distance of 18.2 km, is only",
+    "q": "1. The curvature of the earth is taken into consideration if the limit of survey is:",
+    "options": [
+      "50 to 100km2",
+      "100 to 200 km2",
+      "200 to 260 km2",
+      "more than 260km2"
+    ],
+    "correct": 3,
+    "explain": "Surveys covering an area of more than 260 km2 are treated as geodetic surveys, where the curvature of the earth must be accounted for; below this the earth's surface is assumed to be a plane."
+  },
+  {
+    "q": "2. The difference in the lengths of an arc and its subtended chord on the earth surface for a distance of 18.2 km, is only",
     "options": [
       "5 cm",
       "10 mm",
@@ -11,29 +22,51 @@
     "explain": "The arc-to-chord correction is given by d3/(24R2); for a distance of about 18.2 km on the earth's surface (R ~ 6370 km) this works out to approximately 10 mm, which is why curvature is ignored for ordinary plane surveys of this extent."
   },
   {
-    "q": "2. The least count of a vernier scale is",
+    "q": "3. Surveys which are carried out to depict mountains, rivers, water bodies, wooded areas and other cultural details, are known as",
     "options": [
-      "sum of the smallest division of main and vernier scales",
-      "value of one division of the primary scale divided by total number of division of vernier scale",
-      "value of one division of vernire scale divided by total number of division of primary scale",
-      "none of these"
+      "cadastral surveys",
+      "city surveys",
+      "topographical surveys",
+      "guide map surveys"
+    ],
+    "correct": 2,
+    "explain": "Topographical surveys are meant to depict natural features (mountains, rivers, forests) as well as man-made (cultural) features on a map."
+  },
+  {
+    "q": "4. Surveys which are carried out to provide a national grid of control for preparation of accurate maps of large areas, are known",
+    "options": [
+      "plane surveys",
+      "geodetic surveys",
+      "geographical surveys",
+      "topographical surveys"
     ],
     "correct": 1,
-    "explain": "Least count of a vernier = (value of one main scale division) / (total number of divisions on the vernier scale); this is the smallest reading directly obtainable with the vernier."
+    "explain": "Geodetic surveys account for the earth's curvature and establish a nationwide network of precise control points used as a framework for all other surveys and mapping."
   },
   {
-    "q": "3. The method of measuring distance by pacing is chiefly used in",
+    "q": "5. The main principle of surveying is to work",
     "options": [
-      "reconnaissance surveys",
-      "preliminary surveys",
-      "location surveys",
-      "all of these"
+      "from part to the whole",
+      "from whole to the part",
+      "from higher level to the lower level",
+      "from lower level to higher level"
     ],
-    "correct": 0,
-    "explain": "Pacing gives only approximate distances and is used mainly during reconnaissance surveys, where a quick rough idea of the terrain and distances is needed before detailed survey work."
+    "correct": 1,
+    "explain": "Surveying always proceeds from whole to part: a rough framework of control points covering the whole area is fixed first (low accuracy tolerance), and details are then filled in with reference to it, which localizes and minimizes the accumulation of errors."
   },
   {
-    "q": "4. The object of surveying is to be prepare",
+    "q": "6. Systematic errors are those errors",
+    "options": [
+      "which cannot be recognized",
+      "whose character is understood",
+      "whose effects are cumulative and can be eliminated",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Systematic (cumulative) errors follow a definite mathematical or physical law, so their sign and magnitude can be determined and corrected/eliminated by applying suitable corrections."
+  },
+  {
+    "q": "7. The object of surveying is to be prepare",
     "options": [
       "drawing",
       "cross section",
@@ -44,18 +77,7 @@
     "explain": "The fundamental purpose of any survey is to determine the relative positions of points so that a map or plan of the area can be prepared."
   },
   {
-    "q": "5. A plumb line is",
-    "options": [
-      "a vertical line",
-      "a line parallel to vertical line",
-      "a line perpendicular to level line",
-      "a line perpendicular to horizontal line"
-    ],
-    "correct": 2,
-    "explain": "A plumb line is the vertical line indicated by a suspended plumb bob, which is perpendicular to every level (horizontal) line at that point."
-  },
-  {
-    "q": "6. While surveying a plot of land by plane tabling, the field observations",
+    "q": "8. While surveying a plot of land by plane tabling, the field observations",
     "options": [
       "and plotting proceed simultaneously",
       "and plotting do not proceed simultaneously",
@@ -66,18 +88,7 @@
     "explain": "Plane tabling is unique among surveying methods in that field observation and plotting happen simultaneously on the table sheet in the field itself, eliminating the need for a separate field book."
   },
   {
-    "q": "7. A plain scale is used to read",
-    "options": [
-      "one dimension",
-      "two dimension",
-      "three dimension",
-      "all of these"
-    ],
-    "correct": 1,
-    "explain": "A plain scale has only primary and secondary divisions, allowing two dimensions (e.g., units and tenths, such as metres and decimetres) to be read directly."
-  },
-  {
-    "q": "8. Survey plotting can be done with an accuracy of",
+    "q": "9. Survey plotting can be done with an accuracy of",
     "options": [
       "0.25 mm",
       "0.5 mm",
@@ -88,40 +99,7 @@
     "explain": "With good drafting instruments and practice, survey plotting can typically achieve an accuracy of about 0.25 mm on the plotted sheet."
   },
   {
-    "q": "9. The angle between two plane mirrors of optical square, is",
-    "options": [
-      "30 deg",
-      "45 deg",
-      "60 deg",
-      "90 deg"
-    ],
-    "correct": 1,
-    "explain": "An optical square uses two mirrors inclined at 45 deg to each other, which by the double-reflection principle deviates a ray of light through 90 deg, enabling right angles to be set out."
-  },
-  {
-    "q": "10. A clinometer is used for",
-    "options": [
-      "measuring angle of slope",
-      "correcting line of collimation",
-      "setting out right angle",
-      "defining natural features"
-    ],
-    "correct": 0,
-    "explain": "A clinometer is a simple instrument used to measure the angle of slope (inclination) of the ground."
-  },
-  {
-    "q": "11. For the construction of highway",
-    "options": [
-      "longitudinal sections are required",
-      "cross sections are required",
-      "both longitudinal and cross sections are required",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Highway design and earthwork computation require both longitudinal sections (to fix the vertical alignment/gradient) and cross-sections (to compute cut and fill quantities)."
-  },
-  {
-    "q": "12. Pantagraph is used for",
+    "q": "10. Pantagraph is used for",
     "options": [
       "measuring distance",
       "measuring areas",
@@ -132,18 +110,7 @@
     "explain": "A pantograph is a mechanical linkage instrument used to copy, enlarge, or reduce plans and drawings to a different scale."
   },
   {
-    "q": "13. While surveying a plot of land by Plane tabling, the field observations",
-    "options": [
-      "and plotting proceed simultaneously",
-      "and plotting do not proceed simultaneously",
-      "and recorded in field books to be plotted later",
-      "all the above"
-    ],
-    "correct": 0,
-    "explain": "The key characteristic of plane table surveying is that field observation and plotting are done together at the same time in the field, unlike other methods where plotting is done later in the office."
-  },
-  {
-    "q": "14. The branch of surveying in which both horizontal and vertical positions of a point, are determined by making instrumental observations, is known",
+    "q": "11. The branch of surveying in which both horizontal and vertical positions of a point, are determined by making instrumental observations, is known",
     "options": [
       "tacheometry",
       "tachemetry",
@@ -154,29 +121,7 @@
     "explain": "As per the book's answer key, this branch is designated 'tachemetry' (an alternate spelling of tacheometry), the surveying method that determines both horizontal and vertical positions instrumentally without chaining."
   },
   {
-    "q": "15. The systematic errors which persist and have regular effects in the performance of a survey operation are due to",
-    "options": [
-      "carelessness",
-      "faulty instrument",
-      "inattention",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Systematic errors that follow a definite, regular pattern typically arise from faulty or improperly adjusted instruments, rather than random human lapses."
-  },
-  {
-    "q": "16. Pick up the method of surveying in which field observations and plotting proceed simultaneously from the following",
-    "options": [
-      "chain surveying",
-      "compass surveying",
-      "plan table surveying",
-      "tacheometric surveying"
-    ],
-    "correct": 2,
-    "explain": "Plane table surveying is unique in that field observation and plotting are carried out together at the same time in the field."
-  },
-  {
-    "q": "17. Theory of probability is applied to",
+    "q": "12. Theory of probability is applied to",
     "options": [
       "accidentals errors only",
       "cumulative errors only",
@@ -187,7 +132,7 @@
     "explain": "The theory of probability is applied specifically to accidental (random) errors, since these follow the laws of chance, unlike systematic/cumulative errors which have a definite known cause and sign."
   },
   {
-    "q": "18. Geodetic survey is different from plane surveying because of",
+    "q": "13. Geodetic survey is different from plane surveying because of",
     "options": [
       "very large area is covered",
       "the curvature of the earth is considered",
@@ -198,7 +143,7 @@
     "explain": "The key distinguishing feature of geodetic surveying from plane surveying is that the curvature of the earth is taken into account in geodetic computations."
   },
   {
-    "q": "19. In case of geographical maps, the scale is usually",
+    "q": "14. In case of geographical maps, the scale is usually",
     "options": [
       "1 cm = 10 cm to 100cm",
       "1cm = 50 m to 100m",
@@ -209,7 +154,18 @@
     "explain": "Geographical maps, which cover very large regions such as countries or continents, typically use small scales in the range of about 1 cm representing 5 km up to 160 km."
   },
   {
-    "q": "20. The representative fraction of the scale 1cm = 1 kilometer will be",
+    "q": "15. The survey done to fix the property lines, to calculate land area for transfer of land property from one owner to another, is known as",
+    "options": [
+      "cadastral survey",
+      "city survey",
+      "municipality survey",
+      "Property survey"
+    ],
+    "correct": 0,
+    "explain": "Cadastral surveys are conducted specifically to fix property boundaries and compute land areas for legal purposes such as the transfer of ownership."
+  },
+  {
+    "q": "16. The representative fraction of the scale 1cm = 1 kilometer will be",
     "options": [
       "1/10,000",
       "1/100",
@@ -220,29 +176,29 @@
     "explain": "1 cm = 1 km = 100,000 cm, so the representative fraction is 1/1,00,000 (i.e., 1/10,00,00 in the Indian numbering format given)."
   },
   {
-    "q": "21. Cadastral map is a map having",
+    "q": "17. A discrepancy is the difference between",
+    "options": [
+      "true value and error",
+      "measured value and actual value",
+      "two measured values of the same quantity",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explain": "A discrepancy refers to the difference between two independently measured values of the same quantity (unlike an error, which is the difference between the measured value and the true value)."
+  },
+  {
+    "q": "18. Cadastral map is a map having",
     "options": [
       "large scale",
       "small scale",
       "medium scale",
       "all of the above"
     ],
-    "correct": 0,
+    "correct": 1,
     "explain": "Cadastral maps, which show detailed property boundaries, are drawn to a large scale for adequate accuracy and clarity of individual plots."
   },
   {
-    "q": "22. The maximum allowable limit up to that a measurement may vary from the true value is known as",
-    "options": [
-      "permissible error",
-      "residual error",
-      "expected error",
-      "safe error"
-    ],
-    "correct": 0,
-    "explain": "The permissible error is defined as the maximum allowable deviation of a measured value from its true value, within the specified precision of the survey."
-  },
-  {
-    "q": "23. Geodetic surveying is different from plane surveying because of",
+    "q": "19. Geodetic surveying is different from plane surveying because of",
     "options": [
       "the curvature of earth",
       "the large difference of elevations between various points",
@@ -253,18 +209,7 @@
     "explain": "Geodetic surveying differs fundamentally from plane surveying because it covers very large areas where the curvature of the earth cannot be ignored, requiring spherical (geodetic) rather than plane computations."
   },
   {
-    "q": "24. The principle of optics used in the construction of an optical square is",
-    "options": [
-      "reflection measures by",
-      "double reflection principle",
-      "refraction",
-      "double refraction"
-    ],
-    "correct": 1,
-    "explain": "An optical square works on the principle of double reflection, using two mirrors inclined at 45 deg to each other to deviate a ray of light through exactly 90 deg."
-  },
-  {
-    "q": "25. When 1 cm on a map represents 10 m on the ground, the representative fraction of the scale is",
+    "q": "20. When 1 cm on a map represents 10 m on the ground, the representative fraction of the scale is",
     "options": [
       "1/10",
       "1/100",
@@ -275,7 +220,7 @@
     "explain": "1 cm = 10 m = 1000 cm, so the representative fraction is 1:1000, i.e., 1/1000."
   },
   {
-    "q": "26. The representative fraction 1/2500 means that the scale is",
+    "q": "21. The representative fraction 1/2500 means that the scale is",
     "options": [
       "1 cm = 0.25 m",
       "1 cm = 2.5 m",
@@ -286,7 +231,7 @@
     "explain": "RF of 1/2500 means 1 cm on the map represents 2500 cm on the ground, which equals 25 m."
   },
   {
-    "q": "27. Cross hairs in surveying telescope are fitted",
+    "q": "22. Cross hairs in surveying telescope are fitted",
     "options": [
       "in the objective glass",
       "at the centre of the telescope",
@@ -297,7 +242,7 @@
     "explain": "Cross hairs are mounted on a diaphragm located in front of the eyepiece at the focal plane of the objective."
   },
   {
-    "q": "28. The difference between the most probable value and its observed value is",
+    "q": "23. The difference between the most probable value and its observed value is",
     "options": [
       "true error",
       "weighted observation",
@@ -308,7 +253,40 @@
     "explain": "The residual error (or residual) is defined as the difference between the most probable value (usually the mean of observations) and any individual observed value."
   },
   {
-    "q": "29. Mistakes which may produce a very serious effect upon the final results arise due to",
+    "q": "24. The curvature of the earth is taken into consideration if the limit of survey is",
+    "options": [
+      "50 to 100 km2",
+      "100 to 200 km2",
+      "200 to 260 km2",
+      "more than 260 km2"
+    ],
+    "correct": 3,
+    "explain": "As with Q1, surveys covering more than about 260 km2 must take the earth's curvature into account and are treated as geodetic surveys."
+  },
+  {
+    "q": "25. In order to determine the natural features such as valleys, rivers, lakes etc., the surveying preferred is",
+    "options": [
+      "city surveying",
+      "location surveying",
+      "cadastral surveying",
+      "topographical surveying"
+    ],
+    "correct": 3,
+    "explain": "Topographical surveying is specifically aimed at depicting natural features of the terrain, such as valleys, rivers, and lakes."
+  },
+  {
+    "q": "26. The surveying used to determine additional details such as boundaries of fields, is called",
+    "options": [
+      "city surveying",
+      "location surveying",
+      "cadastral surveying",
+      "topographical surveying"
+    ],
+    "correct": 2,
+    "explain": "Cadastral surveying is used to determine and record property/field boundaries and related administrative details."
+  },
+  {
+    "q": "27. Mistakes which may produce a very serious effect upon the final results arise due to",
     "options": [
       "in attention",
       "in experience",
@@ -317,6 +295,28 @@
     ],
     "correct": 3,
     "explain": "Serious mistakes in survey work generally result from a combination of human factors - inattention, inexperience, and carelessness - so all of these are valid causes."
+  },
+  {
+    "q": "28. The fundamental principle of surveying is to work from the",
+    "options": [
+      "whole to the part",
+      "part to the whole",
+      "lower level to higher level",
+      "higher level to lower level"
+    ],
+    "correct": 0,
+    "explain": "As established earlier, the fundamental principle of surveying is to proceed from the whole (a broad framework) down to the part (detailed measurements)."
+  },
+  {
+    "q": "29. The systematic errors which persist and have regular effects in the performance of a survey operations, are due to",
+    "options": [
+      "careless",
+      "faulty instrument",
+      "inattention",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Systematic errors, which follow a definite mathematical/physical law and persist consistently, typically arise from a faulty (mis-calibrated or maladjusted) instrument."
   },
   {
     "q": "30. The working from whole to the part is done in surveying in order to ensure that",
@@ -330,15 +330,15 @@
     "explain": "Working from whole to part localizes errors, so that any small error made in one part of the survey does not propagate and magnify across the rest of the survey area."
   },
   {
-    "q": "31. The systematic errors which persist and have regular effects in the performance of a survey operations, are due to",
+    "q": "31. The method of reversal",
     "options": [
-      "careless",
-      "faulty instrument",
-      "inattention",
-      "none of these"
+      "is usually directed to examine whether a certain part is truly parallel or perpendicular to another",
+      "makes the erroneous relationship between parts evident",
+      "both 'a' and 'b'",
+      "neither 'a' nor 'b'"
     ],
-    "correct": 1,
-    "explain": "Systematic errors, which follow a definite mathematical/physical law and persist consistently, typically arise from a faulty (mis-calibrated or maladjusted) instrument."
+    "correct": 2,
+    "explain": "The method of reversal serves both purposes - it examines whether parts of an instrument are truly parallel/perpendicular to each other, and in doing so makes any erroneous relationship between them evident."
   },
   {
     "q": "32. When 1 cm on a map represents 10m on the ground, the representative fraction of the scale in",
@@ -352,18 +352,7 @@
     "explain": "1 cm represents 10 m = 1000 cm, so the representative fraction is 1/1000."
   },
   {
-    "q": "33. The method of reversal",
-    "options": [
-      "is usually directed to examine whether a certain part is truly parallel or perpendicular to another",
-      "makes the erroneous relationship between parts evident",
-      "both 'a' and 'b'",
-      "neither 'a' nor 'b'"
-    ],
-    "correct": 2,
-    "explain": "The method of reversal serves both purposes - it examines whether parts of an instrument are truly parallel/perpendicular to each other, and in doing so makes any erroneous relationship between them evident."
-  },
-  {
-    "q": "34. The apparent error on reversal is",
+    "q": "33. The apparent error on reversal is",
     "options": [
       "equal to the actual error",
       "twice the actual error",
@@ -374,18 +363,7 @@
     "explain": "When an instrumental error is examined by the method of reversal, the apparent (observed) error is exactly twice the actual error present in the instrument's adjustment."
   },
   {
-    "q": "35. The method of surveying used for determining the relative height of points on the surface of the earth is called",
-    "options": [
-      "leveling",
-      "simple leveling",
-      "longitudinal levelling",
-      "differential levelling"
-    ],
-    "correct": 3,
-    "explain": "Differential levelling is the method specifically used to determine the relative heights (difference in elevation) of points on the earth's surface."
-  },
-  {
-    "q": "36. A branch of surveying in which the horizontal and vertical distances of points are obtained by instrumental observations, is known as",
+    "q": "34. A branch of surveying in which the horizontal and vertical distances of points are obtained by instrumental observations, is known as",
     "options": [
       "chain surveying",
       "plane table surveying",
@@ -396,18 +374,7 @@
     "explain": "Tacheometric surveying is defined as the branch in which both horizontal and vertical distances are obtained rapidly through instrumental (stadia) observations, without chaining."
   },
   {
-    "q": "37. Which of the following statement is correct?",
-    "options": [
-      "In levelling, the effect of curvature is to decrease the staff reading.",
-      "The effect of refraction in levelling is to increase the staff reading.",
-      "The combined effect of curvature and refraction in levelling is to increase the staff reading.",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Actually curvature increases the apparent staff reading (makes points look lower), refraction (partially) decreases it, but per the answer key given, the combined net effect statement along with the other individual statements is taken as correct overall, hence option (d), all of the above, is marked correct in this text."
-  },
-  {
-    "q": "38. The types of survey used for Geodetic survey is",
+    "q": "35. The types of survey used for Geodetic survey is",
     "options": [
       "fly levelling",
       "precise leveling",
@@ -418,7 +385,7 @@
     "explain": "Geodetic surveys cover large areas and require extreme accuracy to account for earth's curvature, necessitating precise leveling methods."
   },
   {
-    "q": "39. The angle between two plane mirrors of the optical square is kept",
+    "q": "36. The angle between two plane mirrors of the optical square is kept",
     "options": [
       "30",
       "45",
@@ -429,29 +396,18 @@
     "explain": "The two plane mirrors of an optical square are set at exactly 45 degrees to each other to achieve the required 90-degree deflection of the sight line."
   },
   {
-    "q": "40. The method of surveying in which field work and plotting work are done simultaneously, is called",
+    "q": "37. The missing station of the ground survey can be found out with the help of",
     "options": [
-      "compass surveying",
-      "levelling",
-      "plane tabling",
-      "chain surveying"
+      "Key plan",
+      "reference sketch",
+      "arithmetic calculation",
+      "none of these"
     ],
-    "correct": 2,
-    "explain": "As established, plane table surveying is the unique method where field observation and plotting proceed together, simultaneously."
+    "correct": 1,
+    "explain": "A missing or unclear survey station's position can typically be identified/re-established with the help of a reference sketch made during the original fieldwork, showing its relation to nearby features."
   },
   {
-    "q": "41. The type of surveying which requires least office work is",
-    "options": [
-      "tacheometry",
-      "trigonometrical levelling",
-      "plane table surveying",
-      "theodolite surveying"
-    ],
-    "correct": 2,
-    "explain": "Since plotting is done directly in the field alongside observation in plane table surveying, it requires the least amount of subsequent office (indoor) computation and plotting work."
-  },
-  {
-    "q": "42. In order to determine the natural features such as valley, rivers, lakes etc., the surveying prepared is",
+    "q": "38. In order to determine the natural features such as valley, rivers, lakes etc., the surveying prepared is",
     "options": [
       "City survey",
       "Location survey",
@@ -462,7 +418,7 @@
     "explain": "As in Q201, topographical surveying is used to determine and depict natural features such as valleys, rivers, and lakes."
   },
   {
-    "q": "43. Which of the following can fulfill the objective of the airport survey?",
+    "q": "39. Which of the following can fulfill the objective of the airport survey?",
     "options": [
       "Electric line map",
       "Characteristics of soil",
@@ -473,7 +429,7 @@
     "explain": "An airport survey requires detailed information on the characteristics of the soil, which is essential for pavement/runway design and foundation planning."
   },
   {
-    "q": "44. Grid lines are parallel to",
+    "q": "40. Grid lines are parallel to",
     "options": [
       "magnetic meridian of the central point of the grid",
       "line representing the central true meridian of the grid",
@@ -484,7 +440,7 @@
     "explain": "In a survey grid system, all grid lines running north-south are drawn parallel to the line representing the central true meridian of the grid zone."
   },
   {
-    "q": "45. The sum of the interior angles of a geometrical figure laid on the surface of the earth differs from that of the corresponding plane figure only to the extent of one second for every",
+    "q": "41. The sum of the interior angles of a geometrical figure laid on the surface of the earth differs from that of the corresponding plane figure only to the extent of one second for every",
     "options": [
       "100 sq. km of area",
       "150 sq. km of area",
@@ -495,7 +451,7 @@
     "explain": "Due to the earth's curvature, the spherical excess in the interior angles of a figure on the earth's surface amounts to about one second of arc for every 100 sq. km of area (in this text's convention)."
   },
   {
-    "q": "46. Diaphragm of a surveying telescope is held inside",
+    "q": "42. Diaphragm of a surveying telescope is held inside",
     "options": [
       "eye-piece",
       "objective",
@@ -506,29 +462,7 @@
     "explain": "The diaphragm (cross-hair ring) is mounted inside the telescope tube, positioned roughly at its mid-point between the objective and the eyepiece."
   },
   {
-    "q": "47. In order to determine the natural features such as valleys, rivers, lakes, etc., the surveying preferred is",
-    "options": [
-      "city surveying",
-      "location surveying",
-      "cadastral surveying",
-      "topographical surveying"
-    ],
-    "correct": 3,
-    "explain": "Topographical surveying is specifically carried out to determine and depict natural features of the terrain such as valleys, rivers, and lakes, along with artificial features."
-  },
-  {
-    "q": "48. The surveying used to determine additional details such as boundaries of fields, is called",
-    "options": [
-      "city surveying",
-      "location surveying",
-      "cadastral surveying",
-      "topographical surveying"
-    ],
-    "correct": 2,
-    "explain": "Cadastral surveying is specifically carried out to determine property boundaries, such as those of individual fields, for revenue and legal purposes."
-  },
-  {
-    "q": "49. The fundamental principle of surveying is to work from the",
+    "q": "43. The fundamental principle of surveying is to work from the",
     "options": [
       "whole to the part",
       "part to the whole",
@@ -539,7 +473,7 @@
     "explain": "The fundamental principle of all surveying is to work from the whole to the part, establishing a rough, accurate framework first before adding progressively finer detail within it."
   },
   {
-    "q": "50. The working from whole to the part is done in surveying in order to ensure that",
+    "q": "44. The working from whole to the part is done in surveying in order to ensure that",
     "options": [
       "surveying work is completed more quickly",
       "number of errors is minimum",
@@ -548,5 +482,71 @@
     ],
     "correct": 3,
     "explain": "Working from whole to part localizes errors - if a mistake occurs in a minor detail survey, it does not affect the accuracy of the main framework or other parts of the survey."
+  },
+  {
+    "q": "45. Angular surveying in which both horizontal and vertical positions of a point are obtained by optical means is known as",
+    "options": [
+      "tacheometry",
+      "hydrography",
+      "topography",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Tacheometry is the branch of surveying that uses a telescope with stadia hairs to determine distances and elevations without a tape."
+  },
+  {
+    "q": "46. If L is the measured length of a base line whose elevation is h above MSL, the necessary correction to reduce the base length to MSL is",
+    "options": [
+      "L.h/R",
+      "L.(h/R)^2",
+      "(L/2).(h/R)",
+      "L.R/h"
+    ],
+    "correct": 0,
+    "explain": "The standard correction to reduce a measured base line length at elevation h to mean sea level is given by L.h/R, where R is the mean radius of the earth."
+  },
+  {
+    "q": "47. In the surveying telescopes, cross hairs are fitted in",
+    "options": [
+      "centre of the telescope",
+      "optical centre of the eye piece",
+      "front of the eye piece",
+      "nearer to the objective"
+    ],
+    "correct": 3,
+    "explain": "Cross hairs in a surveying telescope are mounted on the diaphragm, positioned within the tube nearer to the objective lens (rather than near the eyepiece)."
+  },
+  {
+    "q": "48. In the surveying telescope, diaphragm is held",
+    "options": [
+      "inside the eye piece",
+      "inside the objective",
+      "nearer to the eye piece",
+      "nearer to the objective"
+    ],
+    "correct": 3,
+    "explain": "The diaphragm (cross-hair mounting) inside a surveying telescope's tube is positioned nearer to the objective lens than to the eyepiece."
+  },
+  {
+    "q": "49. The principle of working from whole to part is used in surveying because",
+    "options": [
+      "plotting becomes easy",
+      "survey work can be completed quickly",
+      "accumulation of errors is prevented",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Working from whole to part serves multiple purposes together - simplifying plotting, speeding up survey work, and preventing accumulation of errors - so all of these are valid reasons."
+  },
+  {
+    "q": "50. The type of surveying which requires least office work is",
+    "options": [
+      "tacheometry",
+      "trigonometrical leveling",
+      "plane table surveying",
+      "theodolite surveying"
+    ],
+    "correct": 2,
+    "explain": "Since plane table surveying involves plotting directly in the field simultaneously with observation, it requires the least subsequent office work compared to other methods requiring separate field-book reduction and plotting."
   }
 ]

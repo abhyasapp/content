@@ -1,6 +1,193 @@
 [
   {
-    "q": "1. Which of the following represent an activity?",
+    "q": "1. In CPM analysis,",
+    "options": [
+      "emphasis is given to activities",
+      "uncertainties are not allowed",
+      "activities are represented by arrows",
+      "all of above"
+    ],
+    "correct": 3,
+    "explain": "CPM emphasizes activities, assumes deterministic (certain) durations, and represents activities as arrows - all statements are correct."
+  },
+  {
+    "q": "2. Variance is",
+    "options": [
+      "Sum of time duration for various job / number of jobs",
+      "difference between the time under consideration and mean time",
+      "mean of squared deviations",
+      "square root of mean of squared deviation"
+    ],
+    "correct": 2,
+    "explain": "Variance is defined statistically as the mean of squared deviations[cite: 1]."
+  },
+  {
+    "q": "3. You are going to design a new computer programme, which would you like to prefer?",
+    "options": [
+      "bar chart",
+      "milestone chart",
+      "CPM",
+      "PERT"
+    ],
+    "correct": 3,
+    "explain": "Software development involves high uncertainty in task durations, making the probabilistic PERT method more suitable than deterministic CPM."
+  },
+  {
+    "q": "4. The problem of developing, low cost housing for economically backward people in undeveloped region should be analysed by",
+    "options": [
+      "Gantt chart",
+      "CPM technique",
+      "PERT technique",
+      "zero or negative"
+    ],
+    "correct": 0,
+    "explain": "Per the answer key, a. Note: option d is a misprint in the book."
+  },
+  {
+    "q": "5. Bar chart is used for minor project, CPM is used for repetitive work while PERT is used for",
+    "options": [
+      "repetitive type of work",
+      "limited time and unlimited resources types of work",
+      "uncertainty time and resources types of work",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "PERT is specifically designed for non-repetitive projects where time and resource requirements are uncertain."
+  },
+  {
+    "q": "6. In PERT technique the critical path has slack equal to",
+    "options": [
+      "zero always",
+      "positive",
+      "negative",
+      "zero or negative"
+    ],
+    "correct": 3,
+    "explain": "Critical path slack is zero, or negative if the schedule is behind."
+  },
+  {
+    "q": "7. In PERT analysis the actual performance of task is known as",
+    "options": [
+      "activity",
+      "event",
+      "task",
+      "work"
+    ],
+    "correct": 0,
+    "explain": "The actual work or performance required to progress from one event to another is termed an activity."
+  },
+  {
+    "q": "8. In PERT analysis, the time estimates of activities and probability of their occurrence follow",
+    "options": [
+      "normal distribution curve",
+      "Poisson's distribution curve",
+      "Beta - distribution curve",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "PERT assumes activity time estimates follow a Beta distribution, which allows for skewness between optimistic and pessimistic estimates."
+  },
+  {
+    "q": "9. Line of balance technique is used for",
+    "options": [
+      "planning of an project",
+      "planning of an activity",
+      "planning of an event",
+      "comparison of actual progress with the scheduled progress"
+    ],
+    "correct": 3,
+    "explain": "Line of Balance (LOB) is a management control process used for highly repetitive projects to compare actual progress against the plan."
+  },
+  {
+    "q": "10. In PERT, optimistic time in which any activity can possibly be accomplished",
+    "options": [
+      "the minimum time in which any activity can possibly be accomplished",
+      "the maximum time which an activity might require",
+      "the time which has the highest probability of occurrence",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Optimistic time ($t_o$) assumes everything goes perfectly, representing the minimum possible duration."
+  },
+  {
+    "q": "11. Total float for any activity is defined as the difference between",
+    "options": [
+      "its latest finish time and earliest start time for its successor activity",
+      "its latest start time and earliest start time",
+      "its latest start time and earliest finish time",
+      "its earliest finish time and earliest start time for its successor activity"
+    ],
+    "correct": 1,
+    "explain": "Total float is calculated as the difference between an activity's latest start time and its earliest start time (or equivalently, LFT - EFT)."
+  },
+  {
+    "q": "12. In PERT, pessimistic time is",
+    "options": [
+      "the minimum time in which any activity can possibly be accomplished",
+      "the maximum time which an activity might require",
+      "the time which has the highest probability of occurrence",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Pessimistic time ($t_p$) assumes everything goes wrong (excluding major disasters), representing the maximum duration."
+  },
+  {
+    "q": "13. If TL is the latest allowable event occurrence time, total activity slacks (S), is equal to",
+    "options": [
+      "LST-EST",
+      "LFT-EFT",
+      "TL-EFT",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explain": "Total float/slack can be equivalently computed as LST-EST, LFT-EFT, or TL-EFT, all giving the same result - so all of the above is correct."
+  },
+  {
+    "q": "14. In PERT, the most likely time is",
+    "options": [
+      "the minimum time in which any activity can possibly be accomplished",
+      "the maximum time which an activity might require",
+      "the time which has the highest probability of occurrence",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The most likely time ($t_m$) is the duration that would occur most frequently if the activity were repeated many times."
+  },
+  {
+    "q": "15. All the following are valid for CPM except",
+    "options": [
+      "activities are represented by arrows",
+      "emphasis is given to activities",
+      "the beginning and end of an activity is denoted by nodes",
+      "uncertainties are allowed to exist"
+    ],
+    "correct": 3,
+    "explain": "CPM assumes deterministic, certain activity durations; allowing uncertainties is NOT valid for CPM (that characteristic belongs to PERT)."
+  },
+  {
+    "q": "16. The scheduling of project activities is dine in such a way that it consumes resources",
+    "options": [
+      "greater at the start, lesser at the end",
+      "lesser at the start, greater at the end",
+      "uniform throughout the project",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Good scheduling gives a uniform resource demand (levelling)."
+  },
+  {
+    "q": "17. If a is the optimistic time, b is the pessimistic time and m is the most likely time, then the average time is equal to",
+    "options": [
+      "(a + b + m) / 6",
+      "(a + 2b + m) / 6",
+      "(a + 2b + 4m) / 6",
+      "(a + 4m + b) / 6"
+    ],
+    "correct": 3,
+    "explain": "The weighted average (expected time) in PERT is calculated using the formula $(a + 4m + b) / 6$."
+  },
+  {
+    "q": "18. Which of the following represent an activity?",
     "options": [
       "construction of foundation",
       "construction of roof",
@@ -11,7 +198,7 @@
     "explain": "Construction of foundation, roof, and superstructure are all time- and resource-consuming tasks, hence all represent activities."
   },
   {
-    "q": "2. In PERT analysis, the time estimates of activities and probability of their occurrence follow",
+    "q": "19. In PERT analysis, the time estimates of activities and probability of their occurrence follow",
     "options": [
       "normal distribution curve",
       "beta distribution curve",
@@ -22,18 +209,18 @@
     "explain": "Individual activity durations in PERT are assumed to follow a Beta distribution."
   },
   {
-    "q": "3. Earliest finish of an activity is always",
+    "q": "20. In a barchart the vertical axis represents",
     "options": [
-      "greater than earliest event time of the following node",
-      "less than earliest event time of the following node",
-      "less than or equal to earliest event time of the following node",
-      "greater than or equal to earliest event time of the following node"
+      "time",
+      "types of activities",
+      "number of labours",
+      "various activities of the project"
     ],
-    "correct": 2,
-    "explain": "The earliest finish time of an activity must be less than or equal to the earliest event time of the node it leads into (since the node's earliest time is set by the latest-finishing predecessor)."
+    "correct": 3,
+    "explain": "Activities are listed on the vertical axis and time on the horizontal axis."
   },
   {
-    "q": "4. Negative slack occurs",
+    "q": "21. Negative slack occurs",
     "options": [
       "when latest allowable time is greater than earliest expected time",
       "when events stick to their schedule",
@@ -44,7 +231,7 @@
     "explain": "Negative slack indicates the project is behind schedule, often caused by resource shortages or delays."
   },
   {
-    "q": "5. In the network shown in Fig., activity 4-5 can be started only when",
+    "q": "22. In the network shown in Fig., activity 4-5 can be started only when",
     "options": [
       "activity 3-4 is completed",
       "activity 2-4 is completed",
@@ -55,7 +242,18 @@
     "explain": "From the given network, node 4 is reached only after both activities 2-4 and 3-4 are complete, so activity 4-5 requires both to finish first."
   },
   {
-    "q": "6. A stage or point where all previous jobs merging in it are completed and all further jobs bursting out are still to be completed is known as a",
+    "q": "23. The barchart technique is commonly used because it",
+    "options": [
+      "is simple to draw and easy to understand",
+      "indicates progress clearly",
+      "is useful for cost and quality control",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "Per the answer key, a. Its popularity comes from being simple to draw and understand."
+  },
+  {
+    "q": "24. A stage or point where all previous jobs merging in it are completed and all further jobs bursting out are still to be completed is known as a",
     "options": [
       "activity",
       "event",
@@ -66,18 +264,7 @@
     "explain": "This describes a node in the network, which is technically an event."
   },
   {
-    "q": "7. In PERT technique, completion of an activity is called",
-    "options": [
-      "head activity",
-      "head event",
-      "tail activity",
-      "tail event"
-    ],
-    "correct": 1,
-    "explain": "In PERT, the completion point of an activity is termed the head event."
-  },
-  {
-    "q": "8. Earliest finish time of an activity is always",
+    "q": "25. Earliest finish time of an activity is always",
     "options": [
       "equal to or more than earliest event time of the following node",
       "equal to or less than earliest event time of the following node",
@@ -88,7 +275,7 @@
     "explain": "Earliest finish time is equal to or less than the earliest event time of the following node[cite: 1]."
   },
   {
-    "q": "9. The latest allowable time for any event i is equal to",
+    "q": "26. The latest allowable time for any event i is equal to",
     "options": [
       "minimum of (TLj - tEij)",
       "maximum (TLj - tEij)",
@@ -99,18 +286,18 @@
     "explain": "To ensure no following activities are delayed, the latest allowable time is the minimum of the late finishes of succeeding activities minus their durations."
   },
   {
-    "q": "10. Which of the following is a PERT event?",
+    "q": "27. Each work should be planned with respect to",
     "options": [
-      "transport of sand",
-      "transport of cement",
-      "concreting of roof completed",
-      "making of formwork continues"
+      "manner of execution of the work",
+      "urgency of the work",
+      "availability of resources",
+      "all of these"
     ],
-    "correct": 2,
-    "explain": "'Concreting of roof completed' denotes an instantaneous milestone/state, qualifying as a PERT event, unlike the ongoing transport/formwork processes."
+    "correct": 3,
+    "explain": "Planning considers the execution method, urgency and resource availability."
   },
   {
-    "q": "11. SLACK time refers to an",
+    "q": "28. SLACK time refers to an",
     "options": [
       "event",
       "activity",
@@ -121,7 +308,7 @@
     "explain": "Slack is specifically associated with events (the difference between $T_L$ and $T_E$), while 'float' is associated with activities."
   },
   {
-    "q": "12. The technique which is activity oriented is",
+    "q": "29. The technique which is activity oriented is",
     "options": [
       "PERT",
       "CPM",
@@ -132,7 +319,7 @@
     "explain": "CPM is activity-oriented, focusing on individual activities and their durations, unlike PERT which is event-oriented."
   },
   {
-    "q": "13. The minimum number of years required to complete any research project may be",
+    "q": "30. The minimum number of years required to complete any research project may be",
     "options": [
       "one year",
       "two year",
@@ -143,7 +330,7 @@
     "explain": "Research projects have variable timelines depending on complexity and findings."
   },
   {
-    "q": "14. Which one of the following represents an event?",
+    "q": "31. Which one of the following represents an event?",
     "options": [
       "Fixing of doors",
       "plastering of walls",
@@ -154,7 +341,18 @@
     "explain": "'Concrete cured' represents a completed milestone/state (an event), while the others describe ongoing activities."
   },
   {
-    "q": "15. An event is indicated on the network by a number enclosed in",
+    "q": "32. Which of the following is an example of parallel activities?",
+    "options": [
+      "Construction of walls and casting of roof",
+      "Construction of walls and carpentry work of doors and window",
+      "Casting of roof and construction of septic tank",
+      "Digging of well and construction of septic tank"
+    ],
+    "correct": 1,
+    "explain": "Per the answer key, b. Wall construction and door/window carpentry can proceed at the same time."
+  },
+  {
+    "q": "33. An event is indicated on the network by a number enclosed in",
     "options": [
       "a circle",
       "square",
@@ -166,7 +364,7 @@
     "explain": "While circles are standard, various shapes like squares or ellipses can be used to represent nodes in different conventions."
   },
   {
-    "q": "16. Which of the following is an activity",
+    "q": "34. Which of the following is an activity",
     "options": [
       "concrete cured",
       "walls plastered",
@@ -177,18 +375,18 @@
     "explain": "Even though phrased in past tense, all listed processes (curing, plastering, excavation) originally represent work/tasks consuming time - so all of the above per the answer key."
   },
   {
-    "q": "17. Slack time in PERT analysis",
+    "q": "35. The occurrence of the completion of an activity is called its",
     "options": [
-      "can never be greater than zero",
-      "is always zero for critical activities",
-      "can never be less than zero",
-      "is minimum for critical events"
+      "head event",
+      "tail event",
+      "dual role event",
+      "none of the above"
     ],
-    "correct": 3,
-    "explain": "Critical events are those on the path with the least amount of slack (zero or negative)."
+    "correct": 0,
+    "explain": "The completion event is the head event, at the arrowhead."
   },
   {
-    "q": "18. Free float is mainly used to",
+    "q": "36. Free float is mainly used to",
     "options": [
       "identify the activities which can be delayed without affecting the total of preceding activity",
       "identify the activities, which can be delayed without affecting the total float of succeeding activity",
@@ -199,7 +397,18 @@
     "explain": "Free float specifically identifies how much an activity can be delayed without affecting the float or start of the succeeding activity."
   },
   {
-    "q": "19. The free float affects only",
+    "q": "37. The occurrence of the starting of an activity is called its",
+    "options": [
+      "head event",
+      "tail event",
+      "dual role event",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The starting event is the tail event."
+  },
+  {
+    "q": "38. The free float affects only",
     "options": [
       "preceeding activities",
       "succeeding activities",
@@ -210,7 +419,7 @@
     "explain": "Free float affects preceding activities/successor relationships as per definition[cite: 1]."
   },
   {
-    "q": "20. The area under the beta-curve is divided into two equal parts by",
+    "q": "39. The area under the beta-curve is divided into two equal parts by",
     "options": [
       "expected time",
       "optimistic time",
@@ -221,7 +430,29 @@
     "explain": "The expected time ($t_e$) is the mean of the distribution, which bisects the area under the probability curve."
   },
   {
-    "q": "21. For a curve, larger the variance",
+    "q": "40. A dual role event",
+    "options": [
+      "is the head events as well as a tail event",
+      "consumes no time",
+      "is the beginning of one event and the end of another",
+      "is any event other than the initial and final events"
+    ],
+    "correct": 3,
+    "explain": "Per the answer key, d. A dual role event is any event other than the first and last, since it is the head of some activities and the tail of others."
+  },
+  {
+    "q": "41. If the path of activities leads back into itself, the resulting error in the network is known as",
+    "options": [
+      "looping",
+      "dangling",
+      "interfacing",
+      "splicing"
+    ],
+    "correct": 0,
+    "explain": "A closed cycle of activities is a loop (looping error)."
+  },
+  {
+    "q": "42. For a curve, larger the variance",
     "options": [
       "greater will be the uncertainty",
       "smaller will be the uncertainty",
@@ -232,7 +463,18 @@
     "explain": "Variance is a measure of spread; a higher variance means the actual time could deviate significantly from the mean, increasing uncertainty."
   },
   {
-    "q": "22. If an activity has its optimistic, most likely and pessimistic time are 2, 4 & 6 respectively, then its expected time and variance are respectively",
+    "q": "43. In PERT, the critical path represents the",
+    "options": [
+      "shortest path of the earliest completion of the project",
+      "longest path of the network from the initial to final event",
+      "ideal path by proceeding along which the project can be completed as per schedule",
+      "path which takes into account the completion of the parallel activities"
+    ],
+    "correct": 1,
+    "explain": "The critical path is the longest path from the initial to the final event and fixes the project duration."
+  },
+  {
+    "q": "44. If an activity has its optimistic, most likely and pessimistic time are 2, 4 & 6 respectively, then its expected time and variance are respectively",
     "options": [
       "4 and 2/3",
       "4 and 4/9",
@@ -243,7 +485,18 @@
     "explain": "Expected time: $(2 + 4(4) + 6) / 6 = 24 / 6 = 4$. Variance: $((6 - 2) / 6)^2 = (4/6)^2 = (2/3)^2 = 4/9$."
   },
   {
-    "q": "23. tij and tEij indicates the time required for completion of an activity in CPM and PERT respectively. Here the subscript E stands for",
+    "q": "45. The optimistic time estimate represents",
+    "options": [
+      "the shortest time required to complete the activity under favorable conditions",
+      "the maximum time required to complete the activity under adverse conditions",
+      "the time the activity would most often require if normal conditions prevail",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Optimistic time is the shortest time if everything goes well."
+  },
+  {
+    "q": "46. tij and tEij indicates the time required for completion of an activity in CPM and PERT respectively. Here the subscript E stands for",
     "options": [
       "uncertainty factor concerned with PERT",
       "certainty factor concerned with PERT",
@@ -254,7 +507,7 @@
     "explain": "The 'E' in $t_E$ stands for 'Expected' time, which incorporates the uncertainty inherent in PERT."
   },
   {
-    "q": "24. The activity which is crashed first has",
+    "q": "47. The activity which is crashed first has",
     "options": [
       "highest cost slope",
       "least cost slope",
@@ -265,7 +518,18 @@
     "explain": "Crashing follows a least-cost approach, starting with the critical activity having the least (lowest) cost slope to minimize the additional cost incurred."
   },
   {
-    "q": "25. The figure indicates",
+    "q": "48. If t_o, t_p and t_L represent the optimistic, pessimistic and most likely time estimates, the expected time of completion of the activity is given by",
+    "options": [
+      "t_E = (t_o + t_L + t_p) / 3",
+      "t_E = (t_o + 2t_L + t_p) / 4",
+      "t_E = (t_o + 3t_L + t_p) / 5",
+      "t_E = (t_o + 4t_L + t_p) / 6"
+    ],
+    "correct": 3,
+    "explain": "PERT (beta distribution) gives t_E = (t_o + 4t_L + t_p)/6."
+  },
+  {
+    "q": "49. The figure indicates",
     "options": [
       "an event",
       "activity",
@@ -276,277 +540,14 @@
     "explain": "A node with multiple incoming arrows and one outgoing arrow represents a merge event[cite: 1]."
   },
   {
-    "q": "26. In a CPM/PERT network, the number of event is",
+    "q": "50. The probability distribution taken to represent the completion time in PERT analysis is",
     "options": [
-      "less than number of activity",
-      "more than the number of activity",
-      "equal to the number of activity",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "The relationship between the number of events and activities depends entirely on the network topology and the use of dummy activities."
-  },
-  {
-    "q": "27. The technique used for the management and development of Polaris Missile in American Navy Force is",
-    "options": [
-      "CPM",
-      "PERT",
-      "MART",
-      "ZOPP"
-    ],
-    "correct": 1,
-    "explain": "PERT was famously developed by the US Navy in the late 1950s specifically for the Polaris missile project."
-  },
-  {
-    "q": "28. Positive slack indicates",
-    "options": [
-      "ahead of schedule condition",
-      "behind the schedule condition",
-      "on schedule condition",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Positive slack means there is extra time available, implying the project or event is ahead of its required deadline."
-  },
-  {
-    "q": "29. In resource levelling",
-    "options": [
-      "total duration of project is reduced",
-      "total duration of project is increased",
-      "uniform demand of resources is achieved",
-      "cost of project is controlled"
+      "gamma distribution",
+      "normal distribution",
+      "beta distribution",
+      "log-normal distribution"
     ],
     "correct": 2,
-    "explain": "Resource levelling aims to smooth out resource demand fluctuations over the project duration, achieving a more uniform resource requirement, potentially extending duration."
-  },
-  {
-    "q": "30. The slack for an event i is given by",
-    "options": [
-      "TLj - TLi",
-      "TLj - TEi",
-      "TLi - TEi"
-    ],
-    "correct": 2,
-    "explain": "Slack for an event is calculated as the Latest Allowable occurrence time ($T_L$) minus the Earliest Expected occurrence time ($T_E$)."
-  },
-  {
-    "q": "31. A dummy activity is that part of the project which",
-    "options": [
-      "consumer resources",
-      "don't consume resources",
-      "consumes time only",
-      "none of above"
-    ],
-    "correct": 1,
-    "explain": "A dummy activity has zero duration and consumes no resources; it exists only to maintain correct network logic."
-  },
-  {
-    "q": "32. Variance is",
-    "options": [
-      "Sum of time duration / number of jobs",
-      "difference between time and mean time",
-      "mean of squared deviations",
-      "square root of mean of squared deviation"
-    ],
-    "correct": 2,
-    "explain": "Mathematically, variance is the average of the squared differences from the mean."
-  },
-  {
-    "q": "33. In PERT analysis is the duration of the activities is taken as",
-    "options": [
-      "optimistic time",
-      "pessimistic time",
-      "most likely time",
-      "expected mean time"
-    ],
-    "correct": 3,
-    "explain": "PERT uses the expected (mean) time, calculated from the three estimates, as the duration for each activity in scheduling calculations."
-  },
-  {
-    "q": "34. The square root of the variance is known as",
-    "options": [
-      "deviation",
-      "standard deviation",
-      "mode",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "By definition, the standard deviation is the square root of the variance."
-  },
-  {
-    "q": "35. In PERT technique the critical path has slack equal to",
-    "options": [
-      "zero always",
-      "positive",
-      "negative",
-      "zero or negative"
-    ],
-    "correct": 3,
-    "explain": "By definition, the critical path (in both PERT and CPM) always has zero slack/float."
-  },
-  {
-    "q": "36. t^{ij} and t_E^{ij} indicates the time required for completion of an activity in CPM and PERT respectively. Here the subscript E stands for",
-    "options": [
-      "uncertainity factor concerned with PERT",
-      "certainity factor concerned with PERT",
-      "certainity factor concerned with CPM",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "In PERT, subscript E denotes the expected time accounting for uncertainty[cite: 1]."
-  },
-  {
-    "q": "37. The variance will be zero if",
-    "options": [
-      "each individual deviation is zero",
-      "sum of deviation is zero",
-      "standard deviation is zero",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Variance is only zero if all data points (durations) are exactly equal to the mean."
-  },
-  {
-    "q": "38. The variance of the PERT critical path is equal to",
-    "options": [
-      "sum of variance of activities lying on critical path",
-      "maximum of sum of variances upto end event",
-      "minimum of sum of variances upto end event",
-      "none of above"
-    ],
-    "correct": 0,
-    "explain": "The variance of the project completion time equals the sum of the variances of all activities lying on the critical path."
-  },
-  {
-    "q": "39. The CPM network is updated",
-    "options": [
-      "at regular intervals",
-      "at fixed times",
-      "at any time",
-      "whenever there is difference in the planned & actual performance"
-    ],
-    "correct": 3,
-    "explain": "Network updating is triggered whenever actual progress deviates from the planned schedule, requiring re-planning to reflect current status."
-  },
-  {
-    "q": "40. Crash project duration is obtained by adding the",
-    "options": [
-      "crash durations for all the activities",
-      "normal duration for all the activities",
-      "normal duration for all the activities along the critical path",
-      "crash durations for all the activities along the critical path"
-    ],
-    "correct": 3,
-    "explain": "The total crashed duration is the sum of the crash times of all activities forming the critical path."
-  },
-  {
-    "q": "41. The Bar chart Technique is commonly used because it",
-    "options": [
-      "is simple to draw & easy to understand",
-      "indicates progress clearly",
-      "is useful for cost & quality control",
-      "all the above"
-    ],
-    "correct": 0,
-    "explain": "Bar charts are popular due to their simplicity, clear progress indication, and usefulness in monitoring cost and quality - all reasons apply."
-  },
-  {
-    "q": "42. PERT technique of network analysis is mainly useful for",
-    "options": [
-      "small projects",
-      "large and complex projects",
-      "research and development projects",
-      "deterministic activities"
-    ],
-    "correct": 2,
-    "explain": "PERT was developed for and is best suited to large, complex projects with uncertain activity durations."
-  },
-  {
-    "q": "43. A frequency distribution curve",
-    "options": [
-      "having single lump is called unimodal curve",
-      "if symmetrical is called normal curve",
-      "if unsymmetrical is called skew curve",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "These are standard statistical terms describing the shape and symmetry of frequency distributions."
-  },
-  {
-    "q": "44. The pictorial representation of activity and event of a project is known as",
-    "options": [
-      "flow chart",
-      "flow net",
-      "algorithm",
-      "network"
-    ],
-    "correct": 3,
-    "explain": "The pictorial diagram showing activities and events with their interrelationships in a project is called a network diagram."
-  },
-  {
-    "q": "45. If the completion time for a particular project is 6 weeks and its expected time is 8 weeks, then the slack time for the project is",
-    "options": [
-      "2 weeks",
-      "-2 weeks",
-      "0",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Slack time is calculated as (Scheduled Time - Expected Time). Here, 6 weeks - 8 weeks = -2 weeks. Negative slack indicates the project is behind schedule."
-  },
-  {
-    "q": "46. If D is the duration, ES and EF are the earliest start and earliest finish time, LS and LF are latest start and latest finish time, then following relation holds good",
-    "options": [
-      "EF = ES + D",
-      "LS = LF - D",
-      "LF = LS + D",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "In network analysis, finish times are the start times plus duration, and start times are finish times minus duration. All these formulas correctly represent the relationships between activity timings."
-  },
-  {
-    "q": "47. Technical planning is carried out for the",
-    "options": [
-      "preparation of detail drawing",
-      "preparation of detail estimate",
-      "planning resource and initiating procurement action",
-      "all of above"
-    ],
-    "correct": 3,
-    "explain": "Technical planning encompasses preparing detailed drawings, estimates, and resource/procurement planning - all these activities together."
-  },
-  {
-    "q": "48. An activity is",
-    "options": [
-      "resources",
-      "a definite job",
-      "event",
-      "mid of event"
-    ],
-    "correct": 1,
-    "explain": "An activity in a project network is a specific portion of work that consumes time and resources to complete."
-  },
-  {
-    "q": "49. If \\sigma_1, \\sigma_2, \\sigma_3 \\dots are the standard deviations of completion for the activities along the critical path, the standard deviations of the time of completion of the project is given by",
-    "options": [
-      "\\sigma_{tE} = \\sqrt{\\frac{\\sigma_1^2 + \\sigma_2^2 + \\sigma_3^2 \\dots}{n}}",
-      "\\sigma_{tE} = \\sqrt{\\frac{\\sigma_1 + \\sigma_2 + \\sigma_3 \\dots}{n}}",
-      "\\sigma_{tE} = \\frac{\\sigma_1 + \\sigma_2 + \\sigma_3 \\dots}{n}",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Standard deviation for the total project duration is computed using the square root of variances[cite: 1]."
-  },
-  {
-    "q": "50. Total project time is the",
-    "options": [
-      "sum of duration of all activities",
-      "sum of duration of non-critical activities",
-      "sum of duration of critical activities",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "The total project duration is determined by the length of the critical path, which is the sequence of activities with the longest total duration."
+    "explain": "PERT assumes activity times follow the beta distribution."
   }
 ]

@@ -1,17 +1,6 @@
 [
   {
-    "q": "1. At ordinary temperatures, how is the yield point affected with rate of loading?",
-    "options": [
-      "not greatly influenced",
-      "very greatly influenced",
-      "not influenced at all",
-      "difficult to tell"
-    ],
-    "correct": 0,
-    "explain": "At normal room temperatures, the rate of loading has a negligible effect on the observed yield point."
-  },
-  {
-    "q": "2. The yield moment of a cross section is defined as the moment that will just produce the yield stress in",
+    "q": "1. The yield moment of a cross section is defined as the moment that will just produce the yield stress in",
     "options": [
       "the outermost fiber of the section",
       "the innermost fiber of the section",
@@ -22,7 +11,7 @@
     "explain": "Bending stress is maximum at the extreme (outermost) fibre; the yield moment is the moment at which this outermost fibre stress just reaches the yield stress."
   },
   {
-    "q": "3. The shape factor of standard rolled beam section varies from",
+    "q": "2. The shape factor of standard rolled beam section varies from",
     "options": [
       "1.1 to 1.2",
       "1.2 to 1.3",
@@ -33,7 +22,7 @@
     "explain": "For typical rolled I/wide-flange sections, the shape factor (ratio of plastic to elastic section modulus) is close to unity, typically in the range 1.1 to 1.2 due to most material being concentrated in the flanges."
   },
   {
-    "q": "4. In a plastic analysis, shape factor of rectangular section is",
+    "q": "3. In a plastic analysis, shape factor of rectangular section is",
     "options": [
       "1.4",
       "1.5",
@@ -44,7 +33,7 @@
     "explain": "For a rectangular section, shape factor (plastic modulus/elastic modulus) = 1.5, a well-known standard value."
   },
   {
-    "q": "5. In a plastic analysis, shape factor of triangular section is",
+    "q": "4. In a plastic analysis, shape factor of triangular section is",
     "options": [
       "1.5",
       "1.34",
@@ -55,7 +44,7 @@
     "explain": "For a triangular cross-section, the shape factor (ratio of plastic to elastic section modulus) is 2.34, a standard tabulated value."
   },
   {
-    "q": "6. In a plastic analysis, shape factor of circular section is",
+    "q": "5. In a plastic analysis, shape factor of circular section is",
     "options": [
       "1.5",
       "1.6",
@@ -66,7 +55,7 @@
     "explain": "For a circular cross-section, the shape factor is 1.7 (specifically 16/(3π) ≈ 1.698), a standard result."
   },
   {
-    "q": "7. In case of a simply supported rectangular beam of span L and loaded with a central load W, the length of elasto plastic zone of the plastic hinge is",
+    "q": "6. In case of a simply supported rectangular beam of span L and loaded with a central load W, the length of elasto plastic zone of the plastic hinge is",
     "options": [
       "L/2",
       "L/3",
@@ -77,7 +66,7 @@
     "explain": "For a rectangular beam under central point load, plastic analysis shows the elasto-plastic zone extends over L/3 of the span."
   },
   {
-    "q": "8. In case of a simply supported I section beam of span L and loaded with a central load W, the length of elasto plastic zone of the plastic hinge is",
+    "q": "7. In case of a simply supported I section beam of span L and loaded with a central load W, the length of elasto plastic zone of the plastic hinge is",
     "options": [
       "L/2",
       "L/3",
@@ -88,7 +77,7 @@
     "explain": "For an I-section beam (as opposed to rectangular), plastic analysis under central load gives an elasto-plastic zone length of L/5 due to its different shape factor and stress distribution."
   },
   {
-    "q": "9. Plastic section modulus is defined as",
+    "q": "8. Plastic section modulus is defined as",
     "options": [
       "the ratio of plastic moment capacity of a section to the yield stress",
       "the ratio of moment of inertia to radius of gyration",
@@ -99,7 +88,7 @@
     "explain": "Plastic Section Modulus ($Z_p$) is derived from the formula $M_p = f_y \times Z_p$. Therefore, $Z_p = M_p / f_y$ (Plastic moment / yield stress)."
   },
   {
-    "q": "10. Plastic hinge in a section is caused",
+    "q": "9. Plastic hinge in a section is caused",
     "options": [
       "when the material at a section reach plastic state",
       "when the extreme fibres at a section reach plastic state",
@@ -110,7 +99,7 @@
     "explain": "A plastic hinge is formed only when every fiber across the entire cross-section has reached the yield stress ($f_y$), allowing the section to undergo large rotations at a constant moment ($M_p$)."
   },
   {
-    "q": "11. The shape factor is defined as the ratio of",
+    "q": "10. The shape factor is defined as the ratio of",
     "options": [
       "plastic moment / yield moment",
       "M.I. / yield stress",
@@ -121,7 +110,7 @@
     "explain": "Shape Factor ($S$) is the ratio of the Plastic Moment ($M_p$) to the Yield Moment ($M_y$). It represents the reserve strength of a section beyond its elastic limit."
   },
   {
-    "q": "12. The shape factor of rectangle section is",
+    "q": "11. The shape factor of rectangle section is",
     "options": [
       "1.50",
       "1.69",
@@ -132,7 +121,7 @@
     "explain": "For a rectangular section, the Plastic Section Modulus (Zp) is bd²/4 and the Elastic Section Modulus (Ze) is bd²/6. The Shape Factor (S = Zp/Ze) is (bd²/4) / (bd²/6) = 1.5."
   },
   {
-    "q": "13. The shape factor of circular section is",
+    "q": "12. The shape factor of circular section is",
     "options": [
       "1.50",
       "1.69",
@@ -143,7 +132,7 @@
     "explain": "For a solid circular cross-section, the shape factor is approximately 1.697 (rounded to 1.7 in many texts, or 1.69 as per the provided options)."
   },
   {
-    "q": "14. The approximate value of the shape factor of an I section is equal to",
+    "q": "13. The approximate value of the shape factor of an I section is equal to",
     "options": [
       "2.15",
       "1.75",
@@ -154,7 +143,7 @@
     "explain": "I-sections are very efficient because most of the material is in the flanges. This leads to a low shape factor, typically ranging from 1.12 to 1.15."
   },
   {
-    "q": "15. The shape factor of diamond section is",
+    "q": "14. The shape factor of diamond section is",
     "options": [
       "1.50",
       "1.69",
@@ -165,7 +154,7 @@
     "explain": "For a diamond section (square with diagonal vertical), the shape factor is exactly 2.0. This indicates a high reserve strength after the extreme fibers yield."
   },
   {
-    "q": "16. The ultimate strength design of steel structures make use of",
+    "q": "15. The ultimate strength design of steel structures make use of",
     "options": [
       "plastic analysis of structures",
       "elastic analysis of structures",
@@ -176,7 +165,7 @@
     "explain": "In classical 'Ultimate Strength Design', the internal forces are typically determined using elastic analysis, while the sections are sized based on their ultimate or plastic capacities."
   },
   {
-    "q": "17. The limit strength design of steel structures make use of",
+    "q": "16. The limit strength design of steel structures make use of",
     "options": [
       "plastic analysis of structures",
       "elastic analysis of structures",
@@ -187,7 +176,7 @@
     "explain": "Limit state design (or Plastic Design) utilizes plastic analysis to determine the collapse mechanism and the true ultimate load-carrying capacity of the entire structure."
   },
   {
-    "q": "18. The plastic design of steel structure which is based on the mechanism method of plastic analysis",
+    "q": "17. The plastic design of steel structure which is based on the mechanism method of plastic analysis",
     "options": [
       "is safe",
       "is unsafe",
@@ -198,7 +187,7 @@
     "explain": "The mechanism method (Kinematic Method) is based on the Upper Bound Theorem, which states that the predicted collapse load will be greater than or equal to the true collapse load. Therefore, it can be 'unsafe' if the lowest mechanism is not found."
   },
   {
-    "q": "19. The plastic design of steel structure which is based on the kinematic method of plastic analysis",
+    "q": "18. The plastic design of steel structure which is based on the kinematic method of plastic analysis",
     "options": [
       "is safe",
       "is unsafe",
@@ -209,7 +198,7 @@
     "explain": "Kinematic method is synonymous with the mechanism method. As an Upper Bound approach, it overestimates the strength of the structure, thus carrying a risk of being 'unsafe' if the critical mechanism is missed."
   },
   {
-    "q": "20. The plastic design of steel structure which is based on the statical method of plastic analysis",
+    "q": "19. The plastic design of steel structure which is based on the statical method of plastic analysis",
     "options": [
       "is safe",
       "is unsafe",
@@ -220,7 +209,7 @@
     "explain": "The statical method (Lower Bound Theorem) ensures that equilibrium and yield conditions are met. It states the load will be less than or equal to the true collapse load, making it a 'safe' approach."
   },
   {
-    "q": "21. The plastic design of steel structure which is based on the lower bound theorem of plastic analysis",
+    "q": "20. The plastic design of steel structure which is based on the lower bound theorem of plastic analysis",
     "options": [
       "is safe",
       "is unsafe",
@@ -231,7 +220,7 @@
     "explain": "The lower bound theorem satisfies equilibrium and the yield criterion without violating the capacity anywhere, ensuring the predicted load is always on the 'safe' side of the true collapse load."
   },
   {
-    "q": "22. The plastic design of steel structure which is based on the upper bound theorem of plastic analysis",
+    "q": "21. The plastic design of steel structure which is based on the upper bound theorem of plastic analysis",
     "options": [
       "is safe",
       "is unsafe",
@@ -242,7 +231,7 @@
     "explain": "While the Upper Bound theorem is technically 'unsafe' (overestimating strength), the answer key provided (d) suggests that in the context of this specific test, it provides neither a guaranteed safety nor a simple indication without further check."
   },
   {
-    "q": "23. At the yield point of a steel test piece :",
+    "q": "22. At the yield point of a steel test piece :",
     "options": [
       "materials obeys Hooke's Law",
       "materials behave in an elastic manner",
@@ -253,7 +242,7 @@
     "explain": "Up to the yield point, the material is generally considered to be in the elastic range."
   },
   {
-    "q": "24. What is the condition for equilibrium in plastic analysis?",
+    "q": "23. What is the condition for equilibrium in plastic analysis?",
     "options": [
       "bending moment distribution defined by assumed plastic hinges must not be in static equilibrium",
       "shear force distribution must be in equilibrium",
@@ -264,7 +253,7 @@
     "explain": "All plastic analysis methods must satisfy basic static equilibrium conditions."
   },
   {
-    "q": "25. Which of the following is true?",
+    "q": "24. Which of the following is true?",
     "options": [
       "ultimate load is reached when a mechanism is formed",
       "ultimate load is not reached when a mechanism is formed",
@@ -275,7 +264,7 @@
     "explain": "Collapse occurs when enough plastic hinges form to turn the structure into a kinematic mechanism."
   },
   {
-    "q": "26. Which of the following relation is correct?",
+    "q": "25. Which of the following relation is correct?",
     "options": [
       "-Mp ≥ M",
       "M > Mp",
@@ -286,7 +275,7 @@
     "explain": "The bending moment ($M$) at any section cannot exceed the plastic moment capacity ($M_p$) of that section."
   },
   {
-    "q": "27. Lowest plastic limit load is obtained when ....",
+    "q": "26. Lowest plastic limit load is obtained when ....",
     "options": [
       "only equilibrium condition is satisfied",
       "equilibrium and mechanism condition of plastic hinge are  are satisfied",
@@ -295,6 +284,17 @@
     ],
     "correct": 3,
     "explain": "Satisfying only the mechanism condition (Upper Bound) usually leads to the lowest of the possible 'untrue' limit loads."
+  },
+  {
+    "q": "27. Which load is obtained when equilibrium and mechanism conditions of plastic analysis are satisfied?",
+    "options": [
+      "plastic limit load",
+      "upper bound solution of true ultimate load",
+      "lower bound solution of true ultimate load ",
+      "no solution"
+    ],
+    "correct": 1,
+    "explain": "This combination of conditions satisfies the Kinematic Theorem, giving an upper bound solution."
   },
   {
     "q": "28. If Q is a load factor, S is shape factor and F is factor of safety in elastic design, the following",
@@ -308,18 +308,7 @@
     "explain": "The relation between load factor, shape factor, and factor of safety in plastic/elastic design theory is Q = S × F."
   },
   {
-    "q": "29. Which load is obtained when equilibrium and mechanism conditions of plastic analysis are satisfied?",
-    "options": [
-      "plastic limit load",
-      "upper bound solution of true ultimate load",
-      "lower bound solution of true ultimate load ",
-      "no solution"
-    ],
-    "correct": 1,
-    "explain": "This combination of conditions satisfies the Kinematic Theorem, giving an upper bound solution."
-  },
-  {
-    "q": "30. Which load is obtained when equilibrium and plasticity conditions of plastic analysis are satisfied?",
+    "q": "29. Which load is obtained when equilibrium and plasticity conditions of plastic analysis are satisfied?",
     "options": [
       "plastic limit load",
       "upper bound solution of true ultimate load",
@@ -330,7 +319,7 @@
     "explain": "This combination follows the Static Theorem, providing a lower bound (safe) solution."
   },
   {
-    "q": "31. At yield point of a test piece, the material",
+    "q": "30. At yield point of a test piece, the material",
     "options": [
       "obeys hooke's law",
       "behaves in an elastic manner",
@@ -341,7 +330,7 @@
     "explain": "At the yield point, the material transitions from elastic to plastic behavior, undergoing permanent (plastic) deformation."
   },
   {
-    "q": "32. Effects of shear force and axial force on plastic moment capacity of a structure respectively",
+    "q": "31. Effects of shear force and axial force on plastic moment capacity of a structure respectively",
     "options": [
       "increase and decrease",
       "increase and increase",
@@ -350,16 +339,5 @@
     ],
     "correct": 3,
     "explain": "Both the presence of shear force and axial force reduce (decrease) the moment capacity available for plastic bending, since some of the material's yield capacity is used up resisting them instead."
-  },
-  {
-    "q": "33. For the materials which do not have a pronounced yield point from a tension test the yield point is taken to be",
-    "options": [
-      "stress corresponding to 0.2% strain from the stress strain curve",
-      "the stress at which the permanent set reaches the value 0.2%",
-      "ultimate strength",
-      "average of ultimate strength and actual breaking stress"
-    ],
-    "correct": 1,
-    "explain": "For materials without a clear yield point, the 'proof stress' (offset yield strength) is conventionally defined as the stress at which the permanent set reaches 0.2% strain."
   }
 ]

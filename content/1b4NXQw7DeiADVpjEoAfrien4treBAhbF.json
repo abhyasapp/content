@@ -1,0 +1,849 @@
+[
+  {
+    "q": "78. For a two hinged arch, if one of the support settles down vertically, then the horizontal thrust",
+    "options": [
+      "is increased",
+      "is decreased",
+      "remains unchanged",
+      "becomes zero"
+    ],
+    "correct": 1,
+    "explain": "A vertical settlement of one support in a two-hinged arch reduces the rise, thereby reducing the induced horizontal thrust."
+  },
+  {
+    "q": "79. A body is said to be in equilibrium if",
+    "options": [
+      "it moves horizontally",
+      "it moves vertically",
+      "it rotates about its cg",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "True equilibrium requires zero net force and zero net moment; a body moving or rotating is not in static equilibrium, so 'none of these' correctly excludes all listed motions."
+  },
+  {
+    "q": "80. Stress may be defined as",
+    "options": [
+      "force per unit length",
+      "force per unit volume",
+      "force per unit area",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Stress is fundamentally defined as the internal force per unit cross-sectional area."
+  },
+  {
+    "q": "81. Stress may be expressed in Newton's",
+    "options": [
+      "per millimeter square",
+      "per centimeter square",
+      "per meter square",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In engineering practice (especially for structural/mechanical stresses), stress is conventionally expressed in N/mm² (MPa) due to convenient magnitude."
+  },
+  {
+    "q": "82. A material is said to be perfectly elastic if",
+    "options": [
+      "it regains its original shape on removal of the load",
+      "it regains its original shape partially on removal of the load",
+      "it doesn't regain its original shape at all",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A perfectly elastic material fully regains its original shape and size immediately upon removal of the applied load."
+  },
+  {
+    "q": "83. If the length of a cantilever carrying an isolated load at its free end is doubled, the deflection of the free end will increase by",
+    "options": [
+      "8",
+      "1/8",
+      "1/3",
+      "2"
+    ],
+    "correct": 0,
+    "explain": "Cantilever tip deflection δ = WL³/3EI is proportional to L³; doubling L increases deflection by a factor of 2³ = 8."
+  },
+  {
+    "q": "84. If the width of a simply supported beam carrying an isolated load at its centre is doubled, deflection of the beam at the centre is changed by",
+    "options": [
+      "1/2",
+      "1/8",
+      "2",
+      "8"
+    ],
+    "correct": 0,
+    "explain": "Deflection δ ∝ 1/I ∝ 1/b (for rectangular section, I ∝ b); doubling width b halves the deflection."
+  },
+  {
+    "q": "85. If the depth of a simply supported beam carrying an isolated load at its centre, is doubled, deflection of the beam at the centre will be changed by a factor of",
+    "options": [
+      "2",
+      "1/2",
+      "8",
+      "1/8"
+    ],
+    "correct": 3,
+    "explain": "Since I ∝ d³ for a rectangular section and δ ∝ 1/I, doubling the depth d reduces deflection by a factor of 1/2³ = 1/8."
+  },
+  {
+    "q": "86. If the width b and depth d of a beam simply supported with a central load are interchanged, the deflection at the centre of the beam will be changed in the ratio of",
+    "options": [
+      "b/d",
+      "d/b",
+      "(d/b)²",
+      "(b/d)²"
+    ],
+    "correct": 3,
+    "explain": "Since I ∝ bd³, swapping b and d changes I from bd³ to db³; the deflection ratio (inversely proportional to I) works out to (b/d)²."
+  },
+  {
+    "q": "87. The deflection of any rectangular beam simply supported, is",
+    "options": [
+      "directly proportional to its weight",
+      "inversely proportional to its width",
+      "inversely proportional to the cube of its depth",
+      "directly proportional to the cube of its length"
+    ],
+    "correct": 2,
+    "explain": "Since deflection δ ∝ 1/I and I ∝ d³ for a rectangular section, deflection is inversely proportional to the cube of the beam's depth."
+  },
+  {
+    "q": "88. Stress in a beam due to simple bending, is",
+    "options": [
+      "directly proportional",
+      "inversely proportional",
+      "curvilinearly related",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "From the flexure formula σ = My/I, stress varies directly (linearly) proportional to the distance y from the neutral axis."
+  },
+  {
+    "q": "89. For a beam, if fundamental equations of statics are not sufficient to determine all the reaction forces at the supports, the structure is said to be",
+    "options": [
+      "determinate",
+      "statically determinate",
+      "statically indeterminate",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "When static equilibrium equations alone cannot solve for all unknown reactions, the structure has extra (redundant) reactions and is termed statically indeterminate."
+  },
+  {
+    "q": "90. If the beam is supported so that there are only three unknown reactive elements at the support. These can be determined by using the following fundamental equation of statics",
+    "options": [
+      "ΣH=0",
+      "ΣV=0",
+      "ΣH=0, ΣH=0",
+      "ΣH=0, ΣV=0, ΣM=0"
+    ],
+    "correct": 3,
+    "explain": "Three unknown reactions require all three independent static equilibrium equations: sum of horizontal forces, sum of vertical forces, and sum of moments all equal zero."
+  },
+  {
+    "q": "91. For a beam having fixed ends, the unknown element of the reactions, is",
+    "options": [
+      "horizontal components at either end",
+      "vertical components at either end",
+      "horizontal component at one end and vertical component at the other",
+      "horizontal and vertical components at both the ends"
+    ],
+    "correct": 3,
+    "explain": "A fixed support can resist horizontal force, vertical force, and moment; for a beam fixed at both ends, unknown reactions include horizontal and vertical components (plus moments) at both ends."
+  },
+  {
+    "q": "92. A long vertical member, subjected to and axial compressive load, is called",
+    "options": [
+      "a column",
+      "a strut",
+      "a tie",
+      "a stanchion"
+    ],
+    "correct": 0,
+    "explain": "A long vertical member under axial compressive load is generically termed a column (a stanchion is a specific type, but 'column' is the general/correct term here)."
+  },
+  {
+    "q": "93. The ratio of the effective length of a column and minimum radius of gyration of its cross-sectional area, is known",
+    "options": [
+      "buckling factor",
+      "slenderness ratio",
+      "crippling factor",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Slenderness ratio is defined as the ratio of a column's effective length to its least radius of gyration, and governs its buckling behaviour."
+  },
+  {
+    "q": "94. The region of the cross-section of a column in which compressive load may be applied without producing any tensile stress, is known as the core of the cross-section; in circular columns the radius of the core, is",
+    "options": [
+      "none-half of the radius",
+      "one-third of the radius",
+      "one-quarter of the radius",
+      "one-fifth of the radius"
+    ],
+    "correct": 2,
+    "explain": "For a circular column of radius r, the core (kernel) has a radius of r/4, within which an eccentric load produces no tensile stress anywhere on the section."
+  },
+  {
+    "q": "95. In rectangular columns (cross-section b × h), the core is a",
+    "options": [
+      "rectangle of lengths b/2 and h/2",
+      "square of length b/2",
+      "rhombus of length h/2",
+      "rhombus of diagonals b/3 and h/3"
+    ],
+    "correct": 3,
+    "explain": "For a rectangular column b×h, the core (middle-third rule region) is a rhombus with diagonals equal to b/3 and h/3."
+  },
+  {
+    "q": "96. A column is aid to be of medium size if its slenderness ratio is between",
+    "options": [
+      "20 and 32",
+      "32 and 120",
+      "120 and 160",
+      "160 and 180"
+    ],
+    "correct": 1,
+    "explain": "By common classification, columns with slenderness ratio between about 32 and 120 are treated as medium/intermediate columns."
+  },
+  {
+    "q": "97. Columns of given length, cross-section and material have different values of buckling loads for different end conditions. The strongest column is one whose",
+    "options": [
+      "one end is fixed and other end is hinged",
+      "both ends are hinged or pin jointed",
+      "one end is fixed and the other end entirely free",
+      "both the ends are fixed"
+    ],
+    "correct": 3,
+    "explain": "A column fixed at both ends has the smallest effective length (Le=L/2), giving the highest Euler buckling load, making it the strongest configuration."
+  },
+  {
+    "q": "98. Rankine-Golden formula accounts for direct as well as buckling stress and is applicable to",
+    "options": [
+      "very long columns",
+      "long columns",
+      "short columns",
+      "intermediate columns"
+    ],
+    "correct": 3,
+    "explain": "Rankine's formula is a practical empirical formula that bridges crushing and buckling failure, making it applicable across the full range but particularly valid for intermediate columns where both effects matter."
+  },
+  {
+    "q": "99. The slenderness ratio of a vertical column of a square cross-section of 2.5 cm sides and 300 cm length, is",
+    "options": [
+      "200",
+      "240",
+      "360",
+      "416"
+    ],
+    "correct": 3,
+    "explain": "Radius of gyration k = side/√12 = 2.5/√12 ≈ 0.7217 cm; slenderness ratio = L/k = 300/0.7217 ≈ 416."
+  },
+  {
+    "q": "100. For keeping the stress wholly compressive the load may be applied on a circular column anywhere within a concentric circle of diameter",
+    "options": [
+      "d/2",
+      "d/3",
+      "d/4",
+      "d/8"
+    ],
+    "correct": 2,
+    "explain": "For a circular column of diameter d, the core (no-tension zone) is a concentric circle of diameter d/4, within which the eccentric load keeps stress wholly compressive."
+  },
+  {
+    "q": "101. To ascertain the maximum permissible eccentricity of loads on circular columns, the rule generally followed, is",
+    "options": [
+      "middle half rule of columns",
+      "middle third rule of columns",
+      "middle fourth rule of columns",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The 'middle third rule' states that a load must be kept within the middle third of the section width/diameter to avoid tension, which is the generally followed rule for columns."
+  },
+  {
+    "q": "102. The greatest eccentricity which a load W can have without producing tension on the cross-section of a short column of external diameter D and internal diameter d, is",
+    "options": [
+      "4W/p(D²−d²)",
+      "p(D⁴−d⁴)/32D",
+      "(D²+d²)/8D",
+      "(D²−d²)/8D"
+    ],
+    "correct": 2,
+    "explain": "For a hollow circular column, the limiting eccentricity for no tension is derived from the section's core boundary, giving e = (D²+d²)/8D."
+  },
+  {
+    "q": "103. A three-hinged arch is said to be",
+    "options": [
+      "statically determinate structure",
+      "statically indeterminate structure",
+      "a bent beam",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A three-hinged arch has exactly enough equations (including the extra condition at the third hinge) to solve all reactions using statics alone, making it statically determinate."
+  },
+  {
+    "q": "104. If a three hinged parabolic arch carries a uniformly distributed load on its entire span, every section of the arch resists",
+    "options": [
+      "compressive force",
+      "tensile force",
+      "shear force",
+      "bending moment"
+    ],
+    "correct": 0,
+    "explain": "For a parabolic arch under UDL matching its shape, the arch axis coincides with the line of thrust everywhere, resulting in pure compressive (normal thrust) force with zero shear/bending."
+  },
+  {
+    "q": "105. The rise of a parabolic arch at quarter points, is equal to",
+    "options": [
+      "1/3 times the rise of the crown",
+      "1/4 times the rise of the crown",
+      "1/2 times the rise of the crown",
+      "3/4 times the rise of the crown"
+    ],
+    "correct": 3,
+    "explain": "For a parabolic arch, using y = 4hx(l−x)/l², at quarter span (x=l/4) the rise works out to (3/4) of the central rise h."
+  },
+  {
+    "q": "106. A linear arch is subjected only to",
+    "options": [
+      "shear force",
+      "thrust",
+      "bending moment",
+      "both (b) and (c)"
+    ],
+    "correct": 1,
+    "explain": "A linear arch (funicular arch) is shaped exactly to the thrust line for the given loading, so it experiences only axial thrust with zero shear and bending moment."
+  },
+  {
+    "q": "107. In a three hinged arch, the shear force is usually",
+    "options": [
+      "maximum at crown",
+      "maximum at springing",
+      "maximum at quarter points",
+      "varies with slope"
+    ],
+    "correct": 1,
+    "explain": "In a three-hinged arch, shear force is typically maximum near the springing (supports) where the arch's slope relative to loads is greatest."
+  },
+  {
+    "q": "108. In a solid arch, shear force acts",
+    "options": [
+      "vertically upwards",
+      "along the axis of the arch",
+      "perpendicular to the axis of arch",
+      "tangentially to the arch"
+    ],
+    "correct": 2,
+    "explain": "Shear force in a curved (arch) member acts perpendicular to the arch's axis at that section, by definition (transverse to the member's local axis)."
+  },
+  {
+    "q": "109. The deformation of a spring produced by a unit load is called",
+    "options": [
+      "stiffness",
+      "flexibility",
+      "influence coefficient",
+      "unit strain"
+    ],
+    "correct": 1,
+    "explain": "Flexibility is defined as the deformation produced by a unit load, the reciprocal of stiffness."
+  },
+  {
+    "q": "110. For a beam of uniform strength, if width is constant",
+    "options": [
+      "depth ∝ M",
+      "depth ∝ √M",
+      "depth ∝ 3√M",
+      "depth ∝ 1/M"
+    ],
+    "correct": 1,
+    "explain": "Since bending stress σ ∝ M/(bd²) must remain constant with b fixed, d must vary as √M for uniform strength."
+  },
+  {
+    "q": "111. Beams of composed of more than one material, rigidly connected together so as to be one piece are known as",
+    "options": [
+      "compound beams",
+      "indeterminate beams",
+      "determinate beams",
+      "composite beams"
+    ],
+    "correct": 3,
+    "explain": "Beams made of two or more different materials rigidly bonded together to act as a single unit are termed composite beams."
+  },
+  {
+    "q": "112. A composite beam is composed of two equal strips one of brass and other of steel; temperature is raised",
+    "options": [
+      "steel experiences tensile forces",
+      "brass experiences compressive force",
+      "composite beam bends",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Since brass expands more than steel for the same temperature rise, the differential expansion in a bonded strip causes the beam to bend, inducing tension in steel and compression in brass — hence all listed effects occur together."
+  },
+  {
+    "q": "113. The maximum magnitude of shear stress due to shear force F on a rectangular section area A at the neutral axis is",
+    "options": [
+      "F/A",
+      "F/2A",
+      "3F/2A",
+      "2F/3A"
+    ],
+    "correct": 2,
+    "explain": "For a rectangular section, the parabolic shear stress distribution peaks at the neutral axis with a value of 1.5 times the average shear stress (F/A), giving 3F/2A."
+  },
+  {
+    "q": "114. The ratio of maximum and average shear stresses on a rectangular section is",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "2.5"
+    ],
+    "correct": 1,
+    "explain": "For a rectangular section, max shear stress = 1.5 × average shear stress (a standard parabolic distribution result), giving a ratio of 1.5."
+  },
+  {
+    "q": "115. The ratio of maximum and average shear stresses on a circular section is",
+    "options": [
+      "2/3",
+      "3/2",
+      "3/4",
+      "4/3"
+    ],
+    "correct": 3,
+    "explain": "For a circular section, the ratio of maximum to average shear stress is 4/3, a standard result from integrating the parabolic-type shear distribution over a circle."
+  },
+  {
+    "q": "116. A bar of square section of area a² is held such that its one of its diameters is vertical; maximum shear stress will develop at a depth h where h is",
+    "options": [
+      "2√3/4",
+      "3√2/4",
+      "√3/4",
+      "2/√3"
+    ],
+    "correct": 1,
+    "explain": "For a square section oriented with a diagonal vertical, the maximum shear stress occurs at a depth from the top vertex of 3√2·a/4 (with side a), matching option (b)."
+  },
+  {
+    "q": "117. The residual stress in a member is",
+    "options": [
+      "the stress due to the loading on the member",
+      "the average of initial and final stresses",
+      "deformation stress",
+      "instantaneous stress due to sudden loading"
+    ],
+    "correct": 2,
+    "explain": "Residual stress is the internal stress remaining in a member after all external loads have been removed, arising from non-uniform plastic deformation — best described as a 'deformation stress'."
+  },
+  {
+    "q": "118. The stress along the contact surface of a rivet and the member is ",
+    "options": [
+      "bearing stress",
+      "compressive stress",
+      "shearing stress",
+      "axial tensile stress"
+    ],
+    "correct": 0,
+    "explain": "The stress developed at the contact/bearing surface between two members (e.g., a pin and a plate, or a column base on a footing) is termed bearing stress."
+  },
+  {
+    "q": "119. In a stressed body the maximum normal stress at any point is always",
+    "options": [
+      "a principal stresses",
+      "average of maximum and minimum shear stresses",
+      "sum of the two normal stresses acting in two principal directions",
+      "a principal stress"
+    ],
+    "correct": 3,
+    "explain": "By definition, a principal stress is the extreme (maximum or minimum) normal stress on any plane through the point with zero shear stress; hence the maximum normal stress is always a principal stress."
+  },
+  {
+    "q": "120. In a stressed body the minimum normal stress at any point is always",
+    "options": [
+      "average of two normal stresses acting in the two principal directions",
+      "a principal stress",
+      "difference of two normal stresses in the two principal directions plus shear stresses on those planes",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Just as the maximum normal stress is a principal stress, the minimum normal stress at a point is also always a principal stress (the minor principal stress)."
+  },
+  {
+    "q": "121. The maximum shear stress will be equal to",
+    "options": [
+      "on half of the algebraic difference of the maximum and minimum principal stresses at the point",
+      "the intensity of shear stress acting on the major principal plane",
+      "the shear stress acting on the planes in the direction of two principal directions",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Maximum shear stress = (σ1 − σ2)/2, i.e., half the algebraic difference of the two principal stresses."
+  },
+  {
+    "q": "122. When a column in resting on base plate, the stresses along the surfaces of contact are",
+    "options": [
+      "compressive stresses",
+      "shear stresses",
+      "tensile stresses",
+      "bearing stresses"
+    ],
+    "correct": 3,
+    "explain": "The contact stress between a column base and its supporting plate/footing is specifically termed bearing stress."
+  },
+  {
+    "q": "123. The maximum deflection due due to load W at the free end of a cantilever of length L and having flexural rigidity EI is",
+    "options": [
+      "WL²/2EI",
+      "WL²/3EI",
+      "WL³/2EI",
+      "WL³/3EI"
+    ],
+    "correct": 3,
+    "explain": "For a cantilever with a point load W at the free end, the standard maximum tip deflection formula is WL³/3EI."
+  },
+  {
+    "q": "124. The modulus of elasticity for mild steel is approximately equal to",
+    "options": [
+      "10 kN/mm²",
+      "80 kN/mm²",
+      "100 kN/mm²",
+      "210 kN/mm²"
+    ],
+    "correct": 3,
+    "explain": "The Young's modulus (modulus of elasticity) of mild steel is approximately 200-210 kN/mm² (GPa), a standard material property value."
+  },
+  {
+    "q": "125. Two bars of different materials and same size are subjected to the same tensile force. If the bars have unit elongation in the ratio of 2 : 5, then the ratio of modulus of elasticity of the two materials will be",
+    "options": [
+      "2:5",
+      "5:2",
+      "4:3",
+      "3:4"
+    ],
+    "correct": 1,
+    "explain": "Since strain (unit elongation) is inversely proportional to E for the same stress (E=stress/strain), a strain ratio of 2:5 gives an E ratio of 5:2."
+  },
+  {
+    "q": "126. When a bar of length l and diameter d is rigidly fixed at the upper end and hanging freely, then the total elongation produced in the bar due to its own weight is",
+    "options": [
+      "wl/2E",
+      "wl²/2E",
+      "wl³/2E",
+      "wl⁴/2E"
+    ],
+    "correct": 1,
+    "explain": "For a bar hanging under its own weight (w = weight per unit volume), the total elongation is wl²/2E, derived by integrating the varying internal axial force along the length."
+  },
+  {
+    "q": "127. The deformation of a bar under its own weight is ............. the deformation, if the same body is subjected to a direct load equal to weight of the body.",
+    "options": [
+      "equal to",
+      "half",
+      "double",
+      "quadruple"
+    ],
+    "correct": 1,
+    "explain": "Self-weight elongation (wl²/2E) is exactly half of the elongation caused by an equivalent direct end load equal to the total weight (Wl/AE), since self-weight effectively acts as if applied at the centroid on average."
+  },
+  {
+    "q": "128. The elongation of a conical bar under its own weight is ............. that of prismatic bar of the same length.",
+    "options": [
+      "equal to",
+      "half",
+      "one-third",
+      "two-third"
+    ],
+    "correct": 2,
+    "explain": "Due to the tapering cross-section reducing internal force build-up, a conical bar's self-weight elongation is one-third that of an equivalent prismatic bar of the same length."
+  },
+  {
+    "q": "129. The length of a conical bar is l, diameter of base is d and weight per unit volume is w. It is fixed at its upper end and hanging freely. The elongation of the bar under the action of its own weight will be",
+    "options": [
+      "wl²/2E",
+      "wl²/4E",
+      "wl²/6E",
+      "wl²/8E"
+    ],
+    "correct": 2,
+    "explain": "For a conical bar under self-weight, integrating gives an elongation of wl²/6E, consistent with it being one-third of the prismatic bar's wl²/2E value."
+  },
+  {
+    "q": "130. Strain rosetters are used to",
+    "options": [
+      "measure shear strain",
+      "measure linear strain",
+      "measure volumetric strain",
+      "relieve strain"
+    ],
+    "correct": 1,
+    "explain": "Strain rosettes consist of multiple strain gauges arranged to measure linear (normal) strains in different directions at a point, from which principal strains can be derived."
+  },
+  {
+    "q": "131. The maximum stress produced in a bar of tapering section is at",
+    "options": [
+      "smaller end",
+      "larger end",
+      "middle",
+      "anywhere"
+    ],
+    "correct": 0,
+    "explain": "For a given axial load, stress = Force/Area, so the smaller cross-sectional area at the smaller end of a tapering bar experiences the maximum stress."
+  },
+  {
+    "q": "132. Modular ratio of the two materials is the ratio of",
+    "options": [
+      "linear stress to linear strain",
+      "shear stress to shear strain",
+      "their modulus of elasticities",
+      "their modulus of rigidities"
+    ],
+    "correct": 2,
+    "explain": "Modular ratio, used in composite section analysis, is defined as the ratio of the moduli of elasticity of the two materials involved."
+  },
+  {
+    "q": "133. The shear modulus of most materials with respect to the modulus of elasticity is",
+    "options": [
+      "equal to half",
+      "less than half",
+      "more than half",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For typical materials with Poisson's ratio around 0.25–0.3, the relation G = E/[2(1+μ)] gives G somewhat less than half of E."
+  },
+  {
+    "q": "134. A rod is enclosed centrally in a tube and the assembly is tightened by rigid washers. If assembly is subjected to a compressive load, then",
+    "options": [
+      "rod is under compression",
+      "tube is under compression",
+      "both rod and tube are under compression",
+      "tube is under tension and rod is under compression"
+    ],
+    "correct": 2,
+    "explain": "Since the rigid washers force the rod and tube to shorten together under the applied compressive load, both components share and resist the load in compression."
+  },
+  {
+    "q": "135. When a bar is subjected to a change of temperature and its deformation is prevented, stress induced in the bar is",
+    "options": [
+      "tensile stress",
+      "compressive stress",
+      "shear stress",
+      "thermal stress"
+    ],
+    "correct": 3,
+    "explain": "When thermal expansion/contraction of a restrained bar is prevented, the resulting internal stress is generically termed thermal stress (which may be tensile or compressive depending on direction of temperature change)."
+  },
+  {
+    "q": "136. A steel bar of 5 mm is heated from 15°C to 40°C and it if free to expand. The bar will induce",
+    "options": [
+      "no stress",
+      "shear stress",
+      "tensile stress",
+      "compressive stress"
+    ],
+    "correct": 0,
+    "explain": "If the bar is completely free to expand (unrestrained), no internal stress develops regardless of temperature change, since there is no resistance to the deformation."
+  },
+  {
+    "q": "137. When a bar is cooled to −5°C, it will develop",
+    "options": [
+      "no stress",
+      "shear stress",
+      "tensile stress",
+      "compressive stress"
+    ],
+    "correct": 0,
+    "explain": "As with heating, if the bar is free (unrestrained) while being cooled, it can contract freely and no internal stress is induced."
+  },
+  {
+    "q": "138. A bar of copper and steel form a composite system, which is heated to a temperature of 40. The stress induced in the copper bar will be",
+    "options": [
+      "tensile",
+      "compressive",
+      "shear",
+      "zero"
+    ],
+    "correct": 1,
+    "explain": "Since copper has a higher coefficient of thermal expansion than steel, in a bonded composite bar heated together, copper is restrained from expanding as much as it wants by the steel, inducing compressive stress in the copper."
+  },
+  {
+    "q": "139. When a circular bar tapering uniformly from diameter d1 at one end to diameter d2 at the other end, is subjected to an increase in temperature (t), then the thermal stress induced is",
+    "options": [
+      "a.t.E.d1/d2",
+      "a.t.d1/d2.E",
+      "a.t.d2/d1.E",
+      "d1.t/a.E.d2"
+    ],
+    "correct": 0,
+    "explain": "For a fully restrained tapering bar under temperature rise t, the standard thermal stress relation (as given in the source) is expressed as a·t·E·d1/d2, matching option (a)."
+  },
+  {
+    "q": "140. The Poisson's ratio for steel varies from",
+    "options": [
+      "0.23 to 0.27",
+      "0.25 to 0.33",
+      "0.31 to 0.34",
+      "0.32 to 0.42"
+    ],
+    "correct": 1,
+    "explain": "The typical Poisson's ratio for steel lies in the range 0.23 to 0.27 (commonly cited as ~0.25–0.3, with 0.23–0.27 as this book's stated range)."
+  },
+  {
+    "q": "141. The Poisson's ratio for cast iron varies from",
+    "options": [
+      "0.23 to 0.27",
+      "0.25 to 0.33",
+      "0.31 to 0.34",
+      "0.32 to 0.42"
+    ],
+    "correct": 0,
+    "explain": "Cast iron typically has a somewhat higher/varying Poisson's ratio range of about 0.25 to 0.33 compared to steel."
+  },
+  {
+    "q": "142. When a bar of length l, width b and thickness t is subjected to a pull of P, its",
+    "options": [
+      "length, width and thickness increases",
+      "length, width and thickness decreases",
+      "length increases, width and thickness decreases",
+      "length decreases, width and thickness increases"
+    ],
+    "correct": 2,
+    "explain": "Under axial tension (a pull), the bar elongates (length increases) while due to Poisson's effect it contracts laterally (width and thickness decrease)."
+  },
+  {
+    "q": "143. When a bar of length l, width b and thickness t is subjected to a push of P, its",
+    "options": [
+      "length, width and thickness increases",
+      "length, width and thickness decreases",
+      "length increases, width and thickness decreases",
+      "length decreases, width and thickness increases"
+    ],
+    "correct": 3,
+    "explain": "Under axial compression (a push), the bar shortens (length decreases) while it expands laterally due to Poisson's effect (width and thickness increase)."
+  },
+  {
+    "q": "144. The ratio of bulk modulus to Young's modulus for a Poisson's ratio of 0.25 will be",
+    "options": [
+      "1/3",
+      "2/3",
+      "1",
+      "3/2"
+    ],
+    "correct": 1,
+    "explain": "Using K/E = 1/[3(1−2μ)], substituting μ=0.25 gives K/E = 1/[3(0.5)] = 2/3."
+  },
+  {
+    "q": "145. If Ix and Iy are the moments of inertia of a section about X and Y axes, the polar moment of inertia of the section is",
+    "options": [
+      "(Ix+Iy)/2",
+      "(Ix−Iy)/2",
+      "Ix+Iy",
+      "Ix/Iy"
+    ],
+    "correct": 2,
+    "explain": "The perpendicular axis theorem states that the polar moment of inertia J equals the sum of the moments of inertia about two perpendicular in-plane axes: J = Ix + Iy."
+  },
+  {
+    "q": "146. In case of principal axes of a section",
+    "options": [
+      "sum of moment of inertia is zero",
+      "difference of moment of inertia is zero",
+      "product of moment of inertia is zero",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "Principal axes are defined as the orthogonal axes about which the product of inertia (Ixy) of the section is zero."
+  },
+  {
+    "q": "147. The locus of the moment of inertia about inclined axes to the principal axes is",
+    "options": [
+      "straight line",
+      "parabola",
+      "circle",
+      "ellipse"
+    ],
+    "correct": 3,
+    "explain": "Plotting the moment of inertia against the angle of inclination to the principal axes traces out an ellipse (the momental ellipse), analogous to Mohr's circle for stresses."
+  },
+  {
+    "q": "148. The radius of gyration of a section of area A and least moment of inertia I about the centroidal axis is",
+    "options": [
+      "A/I",
+      "I/A",
+      "√(I/A)",
+      "√(A/I)"
+    ],
+    "correct": 2,
+    "explain": "By definition, radius of gyration k = √(I/A)."
+  },
+  {
+    "q": "149. The radius of gyration of a rectangular section (depth D, width B) from a centroidal axis parallel to the width is",
+    "options": [
+      "D/2",
+      "D/√3",
+      "D/2√3",
+      "D/4√3"
+    ],
+    "correct": 2,
+    "explain": "For a rectangle, I about centroidal axis parallel to width = BD³/12, Area = BD; k = √(I/A) = √(D²/12) = D/(2√3)."
+  },
+  {
+    "q": "150. In a plastic analysis, shape factor of rectangular section is",
+    "options": [
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "correct": 1,
+    "explain": "For a rectangular section, shape factor (plastic modulus/elastic modulus) = 1.5, a well-known standard value."
+  },
+  {
+    "q": "151. In a plastic analysis, shape factor of triangular section is",
+    "options": [
+      "1.5",
+      "1.34",
+      "2.34",
+      "2.5"
+    ],
+    "correct": 2,
+    "explain": "For a triangular cross-section, the shape factor (ratio of plastic to elastic section modulus) is 2.34, a standard tabulated value."
+  },
+  {
+    "q": "152. In a plastic analysis, shape factor of circular section is",
+    "options": [
+      "1.5",
+      "1.6",
+      "1.7",
+      "1.75"
+    ],
+    "correct": 2,
+    "explain": "For a circular cross-section, the shape factor is 1.7 (specifically 16/(3π) ≈ 1.698), a standard result."
+  },
+  {
+    "q": "153. In case of a simply supported rectangular beam of span L and loaded with a central load W, the length of elasto plastic zone of the plastic hinge is",
+    "options": [
+      "L/2",
+      "L/3",
+      "L/4",
+      "L/5"
+    ],
+    "correct": 1,
+    "explain": "For a rectangular beam under central point load, plastic analysis shows the elasto-plastic zone extends over L/3 of the span."
+  },
+  {
+    "q": "154. A simply supported beam is subjected to a pure moment. This will be resisted through",
+    "options": [
+      "a moment reaction at hinged end",
+      "a moment reaction at hinge on rollers end",
+      "a couple formed by the reaction from the two supports",
+      "external support capable of resisting moment which is necessarily to be provided"
+    ],
+    "correct": 2,
+    "explain": "Since hinge/roller supports cannot resist moment directly, an applied pure moment on a simply supported beam is instead balanced by a couple formed from equal and opposite vertical reactions at the two supports."
+  }
+]

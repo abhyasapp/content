@@ -22,18 +22,7 @@
     "explain": "Earned Value Analysis (EVA) integrates scope, schedule, and cost metrics to compare actual work completed (earned value) against the planned schedule baseline."
   },
   {
-    "q": "3. When used in connection with the progress of a work, the term amount indicates the",
-    "options": [
-      "total expenditure on a particular item",
-      "supplies made and services performed",
-      "value of the finished product in a manufacturing operation",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "In progress reporting, 'amount' refers to the total expenditure incurred on a particular item of work."
-  },
-  {
-    "q": "4. Time and progress chart of a construction is known as",
+    "q": "3. Time and progress chart of a construction is known as",
     "options": [
       "bar chart",
       "gnatt chart",
@@ -44,7 +33,7 @@
     "explain": "Bar charts, Gantt charts, and CPM networks are all variations of time and progress management tools used in construction."
   },
   {
-    "q": "5. Monitoring of a construction project is done",
+    "q": "4. Monitoring of a construction project is done",
     "options": [
       "During the design period",
       "During project implementation period",
@@ -53,6 +42,17 @@
     ],
     "correct": 1,
     "explain": "Monitoring is an ongoing activity carried out throughout the project implementation (execution) period to track actual vs planned progress."
+  },
+  {
+    "q": "5. The process of incorporating changes and rescheduling or preplanning is called",
+    "options": [
+      "resource levelling",
+      "resource smoothening",
+      "updating",
+      "critical path scheduling"
+    ],
+    "correct": 2,
+    "explain": "Updating revises the network for actual progress and changes, then reschedules."
   },
   {
     "q": "6. Time and progress chart of a construction is known as",
@@ -66,7 +66,18 @@
     "explain": "Bar charts, Gantt charts, and Critical Path Method (CPM) networks all serve as methods for planning and tracking time and progress in construction."
   },
   {
-    "q": "7. For a beta-distribution curve, if t_o is the optimistic time and t_p the pessimistic time then the standard deviation will be equal to",
+    "q": "7. Updating may result in",
+    "options": [
+      "change of critical path",
+      "decrease of project completion time",
+      "increase of project completion time",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Updating can change the critical path and either shorten or lengthen the completion time."
+  },
+  {
+    "q": "8. For a beta-distribution curve, if t_o is the optimistic time and t_p the pessimistic time then the standard deviation will be equal to",
     "options": [
       "(t_p - t_o) / 2",
       "(t_p - t_o) / 4",
@@ -77,7 +88,7 @@
     "explain": "Standard deviation in PERT is defined as one-sixth of the total spread between pessimistic and optimistic time estimates: σ = (t_p - t_o) / 6."
   },
   {
-    "q": "8. Site order book is used for recording",
+    "q": "9. Site order book is used for recording",
     "options": [
       "instructions by the executive engineers",
       "construction measurements",
@@ -88,7 +99,7 @@
     "explain": "The site order book is maintained specifically to record instructions given by executive/supervising engineers to site staff/contractor."
   },
   {
-    "q": "9. Standard deviation when the optimistic time is 1 day, pessimistic time is 11 days and most likely time is 3 days",
+    "q": "10. Standard deviation when the optimistic time is 1 day, pessimistic time is 11 days and most likely time is 3 days",
     "options": [
       "2 days",
       "3.5 days",
@@ -99,7 +110,29 @@
     "explain": "Standard deviation ($\\sigma$) = $(t_p - t_o) / 6$. Here, $(11 - 1) / 6 = 10 / 6 = 1.67$ days."
   },
   {
-    "q": "10. For a beta-distribution curve, if t0 is the optimistic time and tp the pessimistic time then the standard deviation will be equal to",
+    "q": "11. The CPM network is updated",
+    "options": [
+      "at regular intervals",
+      "at fixed times",
+      "at any time",
+      "whenever the is difference in the planned and actual performance"
+    ],
+    "correct": 3,
+    "explain": "The network is updated whenever actual progress differs from the plan."
+  },
+  {
+    "q": "12. In construction work, the controlling function aims at",
+    "options": [
+      "keeping a watch over the physical progress of each activity of the work",
+      "controlling the expenditure on each item of work",
+      "controlling the use of machines and materials",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Control covers progress, expenditure, and machines and materials."
+  },
+  {
+    "q": "13. For a beta-distribution curve, if t0 is the optimistic time and tp the pessimistic time then the standard deviation will be equal to",
     "options": [
       "(tp - t0) / 2",
       "(tp - t0) / 4",
@@ -110,7 +143,29 @@
     "explain": "The standard deviation is defined as one-sixth of the range between pessimistic and optimistic times."
   },
   {
-    "q": "11. Cost - benefit studies are essential to",
+    "q": "14. The project technical audit is done",
+    "options": [
+      "after project completion",
+      "during project completion",
+      "after defect liability period",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "Per the answer key, a (after project completion)."
+  },
+  {
+    "q": "15. Cost-benefit studies are essential to",
+    "options": [
+      "assess the total cost of the work",
+      "ascertain the relevant escalation in prices",
+      "monitor the expenditure",
+      "evaluate the viability and worthwhileness of taking up the project"
+    ],
+    "correct": 3,
+    "explain": "Cost-benefit analysis judges whether a project is viable and worth undertaking."
+  },
+  {
+    "q": "16. Cost - benefit studies are essential to",
     "options": [
       "assess the total cost of the work",
       "ascertain the relevant escalation in prices",
@@ -121,7 +176,7 @@
     "explain": "Cost-benefit analysis is primarily conducted to evaluate whether a project is viable and worthwhile to undertake, comparing benefits against costs."
   },
   {
-    "q": "12. One of the tools for monitoring and evaluation of projects is :",
+    "q": "17. One of the tools for monitoring and evaluation of projects is :",
     "options": [
       "progressive approach",
       "target seeking approach",
@@ -132,18 +187,18 @@
     "explain": "The Logical Framework Approach (LFA) is a standard methodology for planning and evaluating project progress."
   },
   {
-    "q": "13. Time and progress chart are also known as",
+    "q": "18. Higher standard deviations means",
     "options": [
-      "bar chart",
-      "modified milestone chart",
-      "critical path method chart",
-      "all of these"
+      "higher uncertainty",
+      "lower uncertainty",
+      "nothing to do with uncertainty",
+      "none of the above"
     ],
-    "correct": 3,
-    "explain": "A time-and-progress chart is essentially a bar chart, sometimes described as a modified milestone chart, and relates to CPM-based tracking - so all of these apply."
+    "correct": 0,
+    "explain": "A larger standard deviation means a wider spread of possible times, so more uncertainty."
   },
   {
-    "q": "14. Earned value analysis is used for comparing----------- of the project",
+    "q": "19. Earned value analysis is used for comparing----------- of the project",
     "options": [
       "actual time with planned time",
       "actual cost with planned cost",
@@ -154,7 +209,7 @@
     "explain": "Earned Value Management (EVM) measures project performance by comparing actual work done against the baseline plan."
   },
   {
-    "q": "15. Project monitoring is",
+    "q": "20. Project monitoring is",
     "options": [
       "a review technique",
       "a feedback mechanism",
@@ -165,7 +220,7 @@
     "explain": "Project monitoring functions as a review technique, a feedback mechanism, and an essential management component - encompassing all these roles."
   },
   {
-    "q": "16. Project monitoring is",
+    "q": "21. Project monitoring is",
     "options": [
       "To keep track of a to check systematically the improvement in project implementation",
       "Collecting, recording and reporting information concerning all aspects of project performance",
@@ -176,7 +231,18 @@
     "explain": "Project monitoring involves both systematically tracking implementation progress and collecting/reporting performance information - both A and B apply."
   },
   {
-    "q": "17. The earned value technique in construction management is also known as",
+    "q": "22. The authority to conduct the monitoring of public procurement in Nepal lies with",
+    "options": [
+      "National vigilance center",
+      "PPMO",
+      "NEA",
+      "Office of auditorial general"
+    ],
+    "correct": 1,
+    "explain": "The Public Procurement Monitoring Office (PPMO) monitors public procurement in Nepal."
+  },
+  {
+    "q": "23. The earned value technique in construction management is also known as",
     "options": [
       "CPM",
       "PERT",
@@ -187,7 +253,7 @@
     "explain": "Earned Value Management (EVM) performance is typically plotted on an S-curve to show cumulative progress over time."
   },
   {
-    "q": "18. The process of studying the result/output of a project is known as",
+    "q": "24. The process of studying the result/output of a project is known as",
     "options": [
       "monotoring",
       "evaluation",
@@ -198,7 +264,7 @@
     "explain": "Evaluation is the specific process of studying and assessing the results/output achieved by a project."
   },
   {
-    "q": "19. Time and progress chart of a construction is also known as",
+    "q": "25. Time and progress chart of a construction is also known as",
     "options": [
       "bar chart",
       "gantt chart",
@@ -209,7 +275,7 @@
     "explain": "A time-and-progress chart is essentially a bar/Gantt chart and can relate to CPM-based tracking, so all of the above apply."
   },
   {
-    "q": "20. *Systematic reporting of work progress is the main objective of",
+    "q": "26. *Systematic reporting of work progress is the main objective of",
     "options": [
       "operation process chart",
       "man-machine chart",
@@ -220,7 +286,7 @@
     "explain": "Flow process charts track the sequence of operations and progress through a system."
   },
   {
-    "q": "21. *The report prepared at the end of finishing a construction job is called :",
+    "q": "27. *The report prepared at the end of finishing a construction job is called :",
     "options": [
       "audit repot",
       "finalization report",
@@ -231,7 +297,7 @@
     "explain": "A completion report documents that the project was finished according to the required standards."
   },
   {
-    "q": "22. The report prepared at the end of finishing a construction job is called:",
+    "q": "28. The report prepared at the end of finishing a construction job is called:",
     "options": [
       "finalization report",
       "approval report",
@@ -242,7 +308,7 @@
     "explain": "A completion report is prepared upon finishing a construction job, summarizing the work executed."
   },
   {
-    "q": "23. The owner gets the assurance of work progress and quality from",
+    "q": "29. The owner gets the assurance of work progress and quality from",
     "options": [
       "supervisor",
       "contractor",
@@ -253,7 +319,7 @@
     "explain": "The engineer (or consultant) acts as the owner's representative on-site to verify that the contractor is following specifications and meeting progress milestones."
   },
   {
-    "q": "24. Monitoring & supervision for quality control is done for",
+    "q": "30. Monitoring & supervision for quality control is done for",
     "options": [
       "meet the required strength",
       "meet the required quality",
@@ -264,7 +330,7 @@
     "explain": "Quality control supervision ensures structural strength requirements, adherence to material specifications, and minimizes operational delays."
   },
   {
-    "q": "25. Time and progress chart of a construction, is also known as",
+    "q": "31. Time and progress chart of a construction, is also known as",
     "options": [
       "Bar chart",
       "Gantt chart",
@@ -275,7 +341,7 @@
     "explain": "A time-and-progress chart is related to bar/Gantt charts and can also connect to milestone tracking - so all the above apply."
   },
   {
-    "q": "26. The progress of the project is determined from",
+    "q": "32. The progress of the project is determined from",
     "options": [
       "regular meeting",
       "by making report",
@@ -286,7 +352,7 @@
     "explain": "Monitoring progress requires a combination of physical inspections, formal reports, and coordination meetings."
   },
   {
-    "q": "27. Systematic reporting of work progress is the main objective of",
+    "q": "33. Systematic reporting of work progress is the main objective of",
     "options": [
       "operation process chart",
       "man-machine chart",
@@ -297,7 +363,7 @@
     "explain": "Flow process charts record operational steps, movements, and progress delays systematically across a production chain."
   },
   {
-    "q": "28. The report prepared at the end of finishing a construction job is called:",
+    "q": "34. The report prepared at the end of finishing a construction job is called:",
     "options": [
       "audit repot",
       "finalization report",
@@ -308,7 +374,7 @@
     "explain": "A completion report is compiled after project closeout documenting finalized quantities, standard compliance, final costs, and hand-over details."
   },
   {
-    "q": "29. Technical audit of a project may be carried out at the stage:",
+    "q": "35. Technical audit of a project may be carried out at the stage:",
     "options": [
       "Preparation stage",
       "procurement stage",
@@ -319,7 +385,7 @@
     "explain": "A technical audit can be conducted at any stage - preparation, procurement, implementation, or post-implementation - covering all of the above."
   },
   {
-    "q": "30. The progress monitoring process may be sketched as:",
+    "q": "36. The progress monitoring process may be sketched as:",
     "options": [
       "Information → analysis → investigation → action",
       "Participation → Baseline data → comparison → action",
@@ -330,7 +396,7 @@
     "explain": "Progress monitoring logically flows from establishing baseline data, comparing actual vs planned, analyzing deviations, then taking corrective action."
   },
   {
-    "q": "31. All measurement should be recorded in a :",
+    "q": "37. All measurement should be recorded in a :",
     "options": [
       "measurement book",
       "note book",
@@ -341,7 +407,7 @@
     "explain": "The Measurement Book (MB) is the official record used to document work quantities for payment processing."
   },
   {
-    "q": "32. Monitoring is done for the purpose to",
+    "q": "38. Monitoring is done for the purpose to",
     "options": [
       "make our programme effective",
       "collect and analyze information",
@@ -352,7 +418,7 @@
     "explain": "Monitoring provides the data needed to understand project health and make adjustments to stay on track."
   },
   {
-    "q": "33. The process of studying the result/output of a project is known as",
+    "q": "39. The process of studying the result/output of a project is known as",
     "options": [
       "monitoring",
       "evaluation",
@@ -363,7 +429,7 @@
     "explain": "While monitoring tracks ongoing progress, evaluation studies the actual results and outcomes against the original objectives."
   },
   {
-    "q": "34. Evaluation of work is done to get as well as reform the expected output. The types of evaluation which is done before the implementation is known as",
+    "q": "40. Evaluation of work is done to get as well as reform the expected output. The types of evaluation which is done before the implementation is known as",
     "options": [
       "ex-ante",
       "on-going",
@@ -374,7 +440,7 @@
     "explain": "Ex-ante evaluation is conducted before a project begins to assess its feasibility and potential impact."
   },
   {
-    "q": "35. Monitoring helps for evaluation while evaluation helps for",
+    "q": "41. Monitoring helps for evaluation while evaluation helps for",
     "options": [
       "monitoring",
       "future planning",
@@ -385,7 +451,7 @@
     "explain": "Evaluation findings are used to adjust current activities and inform the planning of future projects."
   },
   {
-    "q": "36. Monitoring for project work is checked by",
+    "q": "42. Monitoring for project work is checked by",
     "options": [
       "quality control",
       "quality assurance",
@@ -396,7 +462,7 @@
     "explain": "Monitoring acts as the checking mechanism for quality standards, budget adherence, and process assurance."
   },
   {
-    "q": "37. Monitoring & supervision for quality control is done for",
+    "q": "43. Monitoring & supervision for quality control is done for",
     "options": [
       "meet the required strength",
       "meet the required quality",
@@ -407,7 +473,7 @@
     "explain": "Supervision ensures that the materials and workmanship meet technical specs to achieve the desired structural strength and quality."
   },
   {
-    "q": "38. The Earned Value Technique in construction management is also known as",
+    "q": "44. The Earned Value Technique in construction management is also known as",
     "options": [
       "CPM",
       "PERT",
@@ -416,5 +482,16 @@
     ],
     "correct": 2,
     "explain": "The Earned Value Technique tracks project performance using cumulative cost/progress plots, commonly referred to as the S-curve method."
+  },
+  {
+    "q": "45. Systematic reporting of work progress is the main objective of",
+    "options": [
+      "operation process chart",
+      "man machine chart",
+      "flow process chart",
+      "two hand process chart"
+    ],
+    "correct": 2,
+    "explain": "Per the answer key, flow process chart."
   }
 ]

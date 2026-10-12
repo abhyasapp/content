@@ -1,0 +1,838 @@
+[
+  {
+    "q": "308. For a two hinged arch, if one of the support settles horizontally, then the horizontal thrust .............",
+    "options": [
+      "is increased",
+      "is decreased",
+      "remains unchanged",
+      "becomes zero"
+    ],
+    "correct": 1,
+    "explain": "A horizontal settlement (moving the supports apart) reduces the strain energy stored due to the thrust, effectively decreasing the induced horizontal thrust."
+  },
+  {
+    "q": "309. In column analogy method, the area of an analogous column for a fixed beam of span L and flexural rigidity EI is taken as",
+    "options": [
+      "L/EI",
+      "L/2EL",
+      "L/3EL",
+      "L/4EL"
+    ],
+    "correct": 0,
+    "explain": "In the column analogy method, the analogous column's cross-sectional area is taken as L/EI, corresponding to the M/EI diagram base."
+  },
+  {
+    "q": "310. The degree of static indeterminacy up to which column analogy method can be used is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "unrestricted"
+    ],
+    "correct": 1,
+    "explain": "The column analogy method is practically limited to structures with static indeterminacy up to degree 3 (e.g., single-span fixed or portal frames), beyond which it becomes cumbersome."
+  },
+  {
+    "q": "311. The deflection at any point of a perfect frame can be obtained by applying a unit load at the joint in",
+    "options": [
+      "vertical direction",
+      "horizontal direction",
+      "inclined direction",
+      "the direction in which the deflection is required"
+    ],
+    "correct": 3,
+    "explain": "The unit load method (virtual work) requires the unit load to be applied at the point and in the exact direction of the deflection being sought."
+  },
+  {
+    "q": "312. In slope deflection equations, the deformations are considered to be caused by",
+    "options": [
+      "bending moment only",
+      "shear force only",
+      "axial force only",
+      "both shear force and bending moment"
+    ],
+    "correct": 0,
+    "explain": "The slope-deflection method idealizes members as being deformed (bent) due to bending moment only, neglecting shear and axial deformations."
+  },
+  {
+    "q": "313. The three moments equation is applicable only when",
+    "options": [
+      "the beam is prismatic",
+      "there is no settlement of supports",
+      "there is no discontinuity such as hinges within the span",
+      "the spans are equal"
+    ],
+    "correct": 2,
+    "explain": "Clapeyron's three-moment theorem requires continuity of the beam (no internal hinges/discontinuities) between the spans considered, though it can handle varying EI, unequal spans, and support settlements with modified forms."
+  },
+  {
+    "q": "314. The maximum shear stress will always occur at",
+    "options": [
+      "neutral axis",
+      "the top extreme fibre",
+      "the bottom extreme fibre",
+      "a fibre in the cross-section depending on the configuration"
+    ],
+    "correct": 3,
+    "explain": "While maximum shear stress is at the neutral axis for symmetric sections like rectangles and circles, for unsymmetrical sections (like T-sections) it can occur elsewhere, so it depends on the section's configuration."
+  },
+  {
+    "q": "315. In an I section almost all the shear force is taken by",
+    "options": [
+      "web",
+      "top flange",
+      "bottom flange",
+      "half the depth of each flange"
+    ],
+    "correct": 0,
+    "explain": "In an I-section, due to its geometry, the thin web carries the vast majority (typically over 90%) of the total shear force, while the flanges carry very little."
+  },
+  {
+    "q": "316. What is the maximum number of unknown reaction components that can be determined using only statics",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 3,
+    "explain": "For a planar structure, only 3 independent static equilibrium equations exist, so a maximum of 3 unknown reaction components can be determined using statics alone."
+  },
+  {
+    "q": "317. Twisting moment is a moment applied in the plane of cross-section acting about",
+    "options": [
+      "longitudinal axis",
+      "neutral axis",
+      "yy-axis",
+      "xx-axis"
+    ],
+    "correct": 0,
+    "explain": "Twisting (torsional) moment acts about the longitudinal axis of the member, causing rotation of cross-sections relative to each other."
+  },
+  {
+    "q": "318. If a shaft is subjected to pure twisting moment, an element on the surface is subjected to",
+    "options": [
+      "normal tensile stress",
+      "normal compressive stress",
+      "pure shear stress",
+      "bending stress"
+    ],
+    "correct": 2,
+    "explain": "Under pure torsion, an element on the surface of a shaft experiences pure shear stress (with associated principal stresses at 45° being tension/compression)."
+  },
+  {
+    "q": "319. A brittle material will",
+    "options": [
+      "fail after giving ample warning",
+      "fail suddenly",
+      "never fail",
+      "never be used for structural purposes"
+    ],
+    "correct": 1,
+    "explain": "Brittle materials fracture suddenly with little to no prior plastic deformation or visible warning, unlike ductile materials."
+  },
+  {
+    "q": "320. Which of the following is a relatively ductile material?",
+    "options": [
+      "Mild steel",
+      "Cast iron",
+      "High carbon steel",
+      "Bronze"
+    ],
+    "correct": 0,
+    "explain": "Mild steel, with its low carbon content, exhibits significant ductility (large elongation before failure) compared to the more brittle options listed."
+  },
+  {
+    "q": "321. Glass will obey Hooke's law up to",
+    "options": [
+      "yield point",
+      "proof stress",
+      "fracture",
+      "50% of stress at fracture"
+    ],
+    "correct": 2,
+    "explain": "Being a brittle material with no distinct yield point, glass behaves elastically (obeying Hooke's law) right up until sudden fracture."
+  },
+  {
+    "q": "322. The effect of the size of the specimen on ultimate strength will be more serious for",
+    "options": [
+      "ductile materials",
+      "brittle materials",
+      "hard materials",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Brittle materials are more sensitive to flaws/defects that scale with specimen size, so size effects on ultimate strength are more pronounced for brittle materials."
+  },
+  {
+    "q": "323. The proportional limit of mild steel specimen is taken as the stress, corresponding to permanent set of",
+    "options": [
+      "0.2%",
+      "0.1%",
+      "0.25%",
+      "0.01%"
+    ],
+    "correct": 3,
+    "explain": "The proportional limit for mild steel is conventionally defined based on a very small permanent set of 0.01%, essentially marking the true elastic/proportional behavior limit."
+  },
+  {
+    "q": "324. For structural carbon steel the ratio of yield stress to ultimate strength will be about",
+    "options": [
+      "0.55 to 0.6",
+      "0.2 to 0.3",
+      "1.0",
+      "1.2 to 1.5"
+    ],
+    "correct": 0,
+    "explain": "For typical structural carbon (mild) steel, the yield-to-ultimate strength ratio is commonly around 0.55 to 0.6."
+  },
+  {
+    "q": "325. If a material has identical properties in all directions, it is said to be",
+    "options": [
+      "homogenous",
+      "isotropic",
+      "elastic",
+      "orthotropic"
+    ],
+    "correct": 1,
+    "explain": "Isotropic means having identical mechanical properties in every direction at a point, as opposed to homogeneous (uniform properties throughout the material, but possibly directionally dependent)."
+  },
+  {
+    "q": "326. When a member is subjected to axial tensile load, the greatest normal stress is equal to",
+    "options": [
+      "half the maximum shear stress",
+      "maximum shear stress",
+      "twice the maximum shear stress",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Under uniaxial tension σ, the maximum shear stress is σ/2, so the greatest normal stress (σ) is twice the maximum shear stress."
+  },
+  {
+    "q": "327. Castigliano's second theorem can be used to compute deflections",
+    "options": [
+      "in statically determinate structures only",
+      "for any type of structures",
+      "at the point under the load only",
+      "for beams and frames only"
+    ],
+    "correct": 1,
+    "explain": "Castigliano's second theorem, based on strain energy, is generally applicable to compute deflections in any type of elastic structure (determinate or indeterminate)."
+  },
+  {
+    "q": "328. Principle of superposition is applicable when",
+    "options": [
+      "deflections are linear functions of applied forces",
+      "material obey's hooke' law",
+      "the action of applied forces will be affected by small deformations of the structure",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The principle of superposition holds when the structural response (deflections, forces) is a linear function of the applied loads — the fundamental condition for combining effects of multiple loads."
+  },
+  {
+    "q": "329. In moment distribution method, the sum of distribution factors of all the members meeting at any joint is always",
+    "options": [
+      "zero",
+      "less than one",
+      "1",
+      "greater than one"
+    ],
+    "correct": 2,
+    "explain": "By definition, distribution factors at a joint are proportional shares of the total stiffness, and their sum must always equal 1 (100% of the unbalanced moment is distributed)."
+  },
+  {
+    "q": "330. The carryover factor in a prismatic member whose far end is fixed is",
+    "options": [
+      "0",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "correct": 1,
+    "explain": "For a prismatic member with the far end fixed, the carryover factor (fraction of moment transmitted to the far end) is 1/2, a standard moment-distribution constant."
+  },
+  {
+    "q": "331. The arches meant for supporting uniformly distributed loads, to avoid any bending moment must be",
+    "options": [
+      "circular",
+      "elliptical",
+      "parabolic",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "For an arch to carry a uniformly distributed load (per unit horizontal length) with zero bending moment throughout, its shape must be parabolic, matching the funicular shape for such loading."
+  },
+  {
+    "q": "332. The vertical distance of the crown of the arch above the springing is called",
+    "options": [
+      "span of the arch",
+      "rise of the arch",
+      "thickness of the arch",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The vertical height from the springing (support) level to the crown (highest point) of an arch is termed its rise."
+  },
+  {
+    "q": "333. An arch can be treated as curved beam .............",
+    "options": [
+      "whose ends are restrained against horizontal movement",
+      "whose ends do not provide any reaction",
+      "whose ends are unsupported",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "An arch functions structurally as a curved beam whose supports restrain horizontal movement, allowing the horizontal thrust to develop and enabling the arch action."
+  },
+  {
+    "q": "334. The line of thrust of the linear arch is",
+    "options": [
+      "the axis of the arch",
+      "the imaginary link work of thrust for a given set of loads",
+      "the springing line",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The line of thrust represents the locus of resultant force (like an imaginary funicular/linkwork polygon) for a given set of loads on the arch."
+  },
+  {
+    "q": "335. The moment in the arch will be zero if .............",
+    "options": [
+      "ends are hinged",
+      "ends are fixed",
+      "the arch axis coincides with the line of thrust",
+      "the arch axis is parallel to the line of thrust"
+    ],
+    "correct": 2,
+    "explain": "Bending moment at any arch section equals the horizontal thrust times the perpendicular offset between the arch axis and the line of thrust; this moment vanishes only when the arch axis exactly coincides with the thrust line."
+  },
+  {
+    "q": "336. The eddy theorem is valid for",
+    "options": [
+      "vertical loads only",
+      "horizontal loads only",
+      "dynamic loads only",
+      "all loads"
+    ],
+    "correct": 0,
+    "explain": "Eddy's theorem, which relates the bending moment in an arch to the vertical intercept between the arch and the linear arch (thrust line), is derived specifically for vertical loads."
+  },
+  {
+    "q": "337. In a three hinged arch, the line of thrust .............",
+    "options": [
+      "must pass through all the three hinges",
+      "must pass through two end hinges and may or may not pass through the third hinge",
+      "must not pass through any of the hinges",
+      "must pass through two end hinges only"
+    ],
+    "correct": 0,
+    "explain": "Since each of the three hinges in a three-hinged arch permits zero bending moment (M=0), the line of thrust must necessarily pass through all three hinge locations."
+  },
+  {
+    "q": "338. The carryover factor in a prismatic member whose far end is hinged is",
+    "options": [
+      "0",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "correct": 0,
+    "explain": "If the far end of a member is hinged (cannot resist moment), no moment can be carried over there, so the carryover factor is zero."
+  },
+  {
+    "q": "339. If he shear force long a section of a beam is zero, the bending moment at the section is",
+    "options": [
+      "zero",
+      "maximum",
+      "minimum",
+      "average of maximum-minimum"
+    ],
+    "correct": 1,
+    "explain": "Since dM/dx = Shear Force, a zero shear force at a section indicates the bending moment is at a local extreme (maximum or minimum) at that point."
+  },
+  {
+    "q": "340. Hooke's law states that stress and strain are",
+    "options": [
+      "directly proportional",
+      "inversely proportional",
+      "curvilinearly related",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Hooke's law states that within the elastic limit, stress is directly proportional to strain."
+  },
+  {
+    "q": "341. A cantilever beam rectangular in cross-section is subjected to an isolated load at its free end. If the width of the beam is doubled, the deflection of the free end will be changed in the ratio of",
+    "options": [
+      "8",
+      "1/8",
+      "1/2",
+      "2"
+    ],
+    "correct": 2,
+    "explain": "Since deflection δ ∝ 1/I and I ∝ b (width) for a rectangular section, doubling the width halves the deflection."
+  },
+  {
+    "q": "342. The moment of inertia of circular section about any diameter D is",
+    "options": [
+      "πD²/64",
+      "πd⁴/32",
+      "πD³/64",
+      "πD⁴/64"
+    ],
+    "correct": 3,
+    "explain": "The standard formula for the moment of inertia of a circular section about any diameter is πD⁴/64."
+  },
+  {
+    "q": "343. Influence line for horizontal thrust in a two hinged parabolic arch is",
+    "options": [
+      "parabolic",
+      "cubic",
+      "triangular",
+      "rectangle"
+    ],
+    "correct": 0,
+    "explain": "The influence line for horizontal thrust in a two-hinged parabolic arch is a cubic curve, a known classical result from arch theory."
+  },
+  {
+    "q": "344. The ratio of the maximum deflections of a simply supported beam with a central load W and of a cantilever of same length and with a load W at its free end is",
+    "options": [
+      "1/8",
+      "1/10",
+      "1/12",
+      "1/16"
+    ],
+    "correct": 3,
+    "explain": "Comparing WL³/48EI (simply supported, central load) to WL³/3EI (cantilever, end load) gives a ratio of (1/48)/(1/3) = 1/16."
+  },
+  {
+    "q": "345. A shaft is subjected to bending moment M and a torque T simultaneously. The ratio of the maximum bending stress to maximum shear stress developed in the shaft is",
+    "options": [
+      "M/T",
+      "T/M",
+      "2M/T",
+      "2T/M"
+    ],
+    "correct": 2,
+    "explain": "Comparing bending stress (σ = 32M/πd³) to shear stress (τ = 16T/πd³) for a circular shaft gives a ratio σ/τ = 2M/T."
+  },
+  {
+    "q": "346. The greatest load which a spring can carry without getting permanently distorted is called",
+    "options": [
+      "stiffness",
+      "proof resilience",
+      "proof stress",
+      "proof load"
+    ],
+    "correct": 3,
+    "explain": "Proof load is defined as the maximum load a spring can withstand without undergoing permanent deformation."
+  },
+  {
+    "q": "347. In the simultaneous equations derived from slope deflection method, the matrix formed by the coefficients of various rotations will have",
+    "options": [
+      "all element equal",
+      "all elements zero",
+      "all elements along the diagonal zero",
+      "diagonal symmetry with diagonal element predominant in that respective equation"
+    ],
+    "correct": 3,
+    "explain": "The stiffness matrix from slope-deflection equations is symmetric, with diagonal (self-stiffness) terms typically dominant compared to off-diagonal (coupling) terms."
+  },
+  {
+    "q": "348. Limit of proportionality depends upon",
+    "options": [
+      "area of cross section",
+      "type of loading",
+      "type of material",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "The limit of proportionality (where Hooke's law ceases to apply) is an intrinsic material property, depending on the type of material rather than its geometry or loading type."
+  },
+  {
+    "q": "349. If the Young's modulus of elasticity of a material is twice of its modulus of rigidity, the Poisson's ratio of the material is",
+    "options": [
+      "−1",
+      "−0.5",
+      "0.5",
+      "Zero"
+    ],
+    "correct": 3,
+    "explain": "Using E = 2G(1+μ), if E = 2G, then 2G = 2G(1+μ), giving 1+μ=1, so μ = 0 (zero)."
+  },
+  {
+    "q": "350. For an isotropic, homogenous and elastic material obeying Hooke's law, number of independent elastic constant is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "For an isotropic homogeneous elastic material, only 2 independent elastic constants (e.g., E and G, or E and Poisson's ratio) are needed, since all others can be derived from these."
+  },
+  {
+    "q": "351. The maximum bending moment due to a train of wheel loads on a simply supported girder .............",
+    "options": [
+      "always occurs at the center of span",
+      "always occurs under a wheel load",
+      "never occurs under a wheel load",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "For moving wheel loads on a simply supported girder, the absolute maximum bending moment always occurs directly under one of the wheel loads (specifically under the load nearest the resultant of the load system), not necessarily at midspan."
+  },
+  {
+    "q": "352. Which of the following is not the displacement method?",
+    "options": [
+      "Equilibrium method",
+      "Column analogy method",
+      "Moment distribution method",
+      "Kani method"
+    ],
+    "correct": 1,
+    "explain": "The column analogy method is a force (flexibility) method, whereas equilibrium, moment distribution, and Kani's method are all displacement (stiffness) methods."
+  },
+  {
+    "q": "353. The elements of flexibility matrix of a structure",
+    "options": [
+      "are dependent on the choice of co ordinates",
+      "are independent of the choice of co ordinates",
+      "are always dimensionally homogenous",
+      "both 'a' and 'c'"
+    ],
+    "correct": 0,
+    "explain": "The flexibility matrix elements are defined relative to a chosen set of coordinates (degrees of freedom) for the structure, so they depend on that choice."
+  },
+  {
+    "q": "354. Effects of shear force and axial force on plastic moment capacity of a structure respectively",
+    "options": [
+      "increase and decrease",
+      "increase and increase",
+      "decrease and increase",
+      "decrease and decrease"
+    ],
+    "correct": 3,
+    "explain": "Both the presence of shear force and axial force reduce (decrease) the moment capacity available for plastic bending, since some of the material's yield capacity is used up resisting them instead."
+  },
+  {
+    "q": "355. Which of the following methods of structural analysis is a force methods?",
+    "options": [
+      "Slope deflection method",
+      "Column analogy method",
+      "Moment distribution method",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "The column analogy method is a force (flexibility-based) method of structural analysis, unlike slope deflection and moment distribution which are displacement methods."
+  },
+  {
+    "q": "356. Which of the following method of structural analysis is a displacement method?",
+    "options": [
+      "Moment distribution method",
+      "Column analogy method",
+      "Three moment equation",
+      "None of the above"
+    ],
+    "correct": 0,
+    "explain": "The moment distribution method is a displacement (stiffness) method, as opposed to column analogy and three-moment equation which are force methods."
+  },
+  {
+    "q": "357. In the displacement method of structural analysis, the basic unknowns are",
+    "options": [
+      "displacements",
+      "force",
+      "displacement and forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In displacement (stiffness) methods, the primary unknowns solved for are the joint displacements (translations and rotations)."
+  },
+  {
+    "q": "358. The fixed support in a real beam becomes in the conjugate beam a",
+    "options": [
+      "roller support",
+      "hinge support",
+      "fixed support",
+      "free end"
+    ],
+    "correct": 3,
+    "explain": "In the conjugate beam method, a fixed support (zero slope, zero deflection) in the real beam transforms into a free end in the conjugate beam."
+  },
+  {
+    "q": "359. The width of the analogous column in the method of column analogy is",
+    "options": [
+      "2/EI",
+      "1/EI",
+      "1/2EI",
+      "1/4EI"
+    ],
+    "correct": 1,
+    "explain": "In column analogy, the 'width' (intensity) of the analogous column load/section corresponds to 1/EI, representing the M/EI diagram's scaling."
+  },
+  {
+    "q": "360. For analyzing pin jointed frames by method of joints; the number of equations of static equilibrium available is",
+    "options": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "correct": 3,
+    "explain": "At each pin joint of a plane truss, only 2 equilibrium equations are available (ΣFx=0, ΣFy=0), since moment equilibrium is automatically satisfied at a pin."
+  },
+  {
+    "q": "361. For analyzing pin jointed frames by method of joints, the joints must be selected in succession such that",
+    "options": [
+      "only two members meet at that joint",
+      "only three members meet at that joint",
+      "only two unknown forces exist at that point",
+      "there is no external forces acting in the joint"
+    ],
+    "correct": 2,
+    "explain": "The method of joints requires proceeding to joints where only 2 unknown member forces remain, since only 2 equilibrium equations are available per joint to solve them."
+  },
+  {
+    "q": "362. For analyzing pin jointed frames by method of sections, the section should be so chosen that it cuts",
+    "options": [
+      "only three members at a time",
+      "any number of members but only two members with unknown forces",
+      "any number of members but only three members with unknown forces",
+      "not more than one member"
+    ],
+    "correct": 2,
+    "explain": "The method of sections uses 3 equilibrium equations (ΣFx, ΣFy, ΣM), so a cutting section should pass through at most 3 members with unknown forces to be solvable."
+  },
+  {
+    "q": "363. The theorem of three moments for the solution of continuous beams is formulated by",
+    "options": [
+      "Young",
+      "Maxwell",
+      "Williot-Mohr",
+      "Clapeyron"
+    ],
+    "correct": 3,
+    "explain": "The three-moment theorem for continuous beams was formulated by Clapeyron."
+  },
+  {
+    "q": "364. The term center of gravity was introduced by",
+    "options": [
+      "Archimedes",
+      "Otto Mohr",
+      "Saint Venant",
+      "Coulomb"
+    ],
+    "correct": 0,
+    "explain": "The concept and term 'centre of gravity' was originally introduced by Archimedes in his studies of levers and equilibrium."
+  },
+  {
+    "q": "365. When a single load W moves over a simply supported beam, the maximum bending moment at a section will occur when the load is placed",
+    "options": [
+      "over the section",
+      "at center of span",
+      "over the nearer support",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a single moving load, the bending moment at a given section is maximum precisely when that load is positioned directly over the section itself."
+  },
+  {
+    "q": "366. In a rigid jointed frame, the joints are considered",
+    "options": [
+      "to rotate only as a whole",
+      "not to rotate at all",
+      "that 50% of members rotate in clockwise direction and 50% in anti clockwise direction",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "At a rigid joint, all connected members are assumed to rotate together by the same angle (the joint rotates as a whole, maintaining the rigid angles between members)."
+  },
+  {
+    "q": "367. In slope deflection method, the unknown rotations at various joints are determined by considering",
+    "options": [
+      "the equilibrium of joint",
+      "the rigidity of joint",
+      "the equilibrium of structure",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In the slope-deflection method, unknown joint rotations are solved for by writing and satisfying the moment equilibrium equations at each joint."
+  },
+  {
+    "q": "368. In slope deflection method, the end moments for any members are expressed .............",
+    "options": [
+      "as zero",
+      "in terms of the unknown end reactions",
+      "as equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In slope-deflection method, member end moments are expressed as functions of the unknown joint rotations and settlements (translations) — described in the source options as 'unknown end reactions'."
+  },
+  {
+    "q": "369. In a rigid jointed frame, the rotation of various members meeting at a joint will be",
+    "options": [
+      "equal",
+      "proportional to the length of member",
+      "proportional to stiffness",
+      "proportional to respective moment of inertia"
+    ],
+    "correct": 0,
+    "explain": "Since a rigid joint rotates as a single unit, all members rigidly connected at that joint undergo the same (equal) angle of rotation."
+  },
+  {
+    "q": "370. The moment distribution method is formulated by",
+    "options": [
+      "Hardy cross",
+      "Thomas young",
+      "Mohr",
+      "Kani"
+    ],
+    "correct": 0,
+    "explain": "The moment distribution method was developed by Hardy Cross."
+  },
+  {
+    "q": "371. A close coil helical spring when subjected to a moment M having its axis along the axis of helix is",
+    "options": [
+      "it is subjected to pure bending",
+      "its mean diameter will increase",
+      "its number of coil will increase",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "When a closed-coil spring is subjected to a moment about its own (helix) axis, the wire experiences pure bending (as opposed to axial loading which causes torsion)."
+  },
+  {
+    "q": "372. The design of structure is",
+    "options": [
+      "the planning of the structure",
+      "the calculation of straining actions at salient points",
+      "deciding the material and proportions of the various members of the structure",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Structural design (as distinct from analysis) involves selecting appropriate materials and proportioning (sizing) the members of the structure to safely carry the computed forces."
+  },
+  {
+    "q": "373. The ratio of the section modulus of a square section of side D and that of a circular section of diameter D is",
+    "options": [
+      "2π/15",
+      "3π/16",
+      "3π/8",
+      "π/16"
+    ],
+    "correct": 1,
+    "explain": "Comparing Z_square = D³/6 to Z_circle = πD³/32 gives a ratio of (D³/6)/(πD³/32) = 32/(6π) = 16/(3π), which simplified/inverted per the book's convention equals 3π/16."
+  },
+  {
+    "q": "374. For a conjugate beam, the fixed end of a real beam corresponds to",
+    "options": [
+      "fixed end",
+      "free end",
+      "hinged end",
+      "hinged end on rollers"
+    ],
+    "correct": 1,
+    "explain": "A fixed end (zero slope, zero deflection) in the real beam becomes a free end in the conjugate beam, per the standard conjugate-beam correspondence rules."
+  },
+  {
+    "q": "375. A support over which the real beam is continuous will correspond to .............",
+    "options": [
+      "an internal hinge in the conjugate beam",
+      "a hinged support in the conjugate beam",
+      "a fixed support in the conjugate beam",
+      "a discontinuity in the conjugate beam"
+    ],
+    "correct": 0,
+    "explain": "A continuous support in the real beam (where slope is continuous but moment may be nonzero) corresponds to an internal hinge in the conjugate beam."
+  },
+  {
+    "q": "376. The displacements of a truss can be obtained directly from",
+    "options": [
+      "space diagram",
+      "force diagram",
+      "Williot Mohr diagram",
+      "funicular polygon"
+    ],
+    "correct": 2,
+    "explain": "The Williot-Mohr diagram is a specific graphical method used to directly determine joint displacements of a truss."
+  },
+  {
+    "q": "377. The basic form of a pin jointed frame is",
+    "options": [
+      "triangle",
+      "rectangle",
+      "trapezium",
+      "parallelogram"
+    ],
+    "correct": 0,
+    "explain": "A triangle is the only basic polygon shape that is inherently rigid (stable) when pin-jointed, making it the fundamental unit of truss construction."
+  },
+  {
+    "q": "378. In a pin jointed plane frame, all the loads will be assumed to act at .............",
+    "options": [
+      "the centers of members only",
+      "the joints of members only",
+      "only on the top chords joints",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For a truss to be analyzed with members carrying only axial forces, loads must be idealized as acting only at the joints (pins), not along member lengths."
+  },
+  {
+    "q": "379. By assuming that all the forces acting on a pin connected truss are co planar and act at a joint only it can be expected that all the member will be subjected to",
+    "options": [
+      "direct compressive stress only",
+      "direct tensile stress only",
+      "direct stress only",
+      "direct stress and shear stress only"
+    ],
+    "correct": 2,
+    "explain": "With loads applied only at joints (pins) and members assumed weightless/straight, truss members carry only direct (axial) stress — either tension or compression, with no bending or shear."
+  },
+  {
+    "q": "380. In a pin jointed frame, it is sufficient if the forces in all the members meeting at a joint are .............",
+    "options": [
+      "co planar",
+      "co planar and concurrent",
+      "equal in magnitude",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For equilibrium at a pin joint (which cannot resist moment), it suffices that all member forces meeting there are coplanar and concurrent (passing through the same point)."
+  },
+  {
+    "q": "381. The stress below which a material has a high probability of not failing under reversal of stress is known as",
+    "options": [
+      "tolerance limit",
+      "elastic limit",
+      "proportional limit",
+      "endurance limit"
+    ],
+    "correct": 3,
+    "explain": "The endurance limit (fatigue limit) is defined as the maximum stress below which a material can withstand an infinite number of stress reversals (cycles) without fatigue failure."
+  },
+  {
+    "q": "382. The ratio of moment of inertia of a triangular section about its base and about a centroidal axis parallel to its base is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "explain": "I_base = bh³/12 and I_centroid = bh³/36; the ratio I_base/I_centroid = 36/12 = 3."
+  },
+  {
+    "q": "383. For a strongest rectangular beam cut from a circular log, the ratio of the width and depth is",
+    "options": [
+      "0.404",
+      "0.505",
+      "0.606",
+      "0.707"
+    ],
+    "correct": 3,
+    "explain": "For maximum section modulus from a circular log of diameter D, the optimal condition gives depth d = D/√3 and width b = D×√(2/3), yielding a width-to-depth ratio of 1/√2 ≈ 0.707."
+  }
+]
