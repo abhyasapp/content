@@ -1,17 +1,50 @@
 [
   {
-    "q": "1. Due to omission of any part of a project, the cost of project will",
+    "q": "1. Total cost is",
     "options": [
-      "increase",
-      "decrease",
-      "constant",
-      "all of these"
+      "direct cost",
+      "direct cost + indirect cost",
+      "overheads",
+      "outage loss"
     ],
     "correct": 1,
-    "explain": "Omitting work reduces the cost."
+    "explain": "Total cost = direct cost + indirect cost."
   },
   {
-    "q": "2. Which of the following is an indirect cost in construction work?",
+    "q": "2. Crashing is:",
+    "options": [
+      "reduction in duration",
+      "reduction in resources",
+      "reduction in cost",
+      "reduction in project size"
+    ],
+    "correct": 0,
+    "explain": "Crashing specifically refers to reducing the duration of the project/activity by applying additional resources."
+  },
+  {
+    "q": "3. Crashing is",
+    "options": [
+      "reduction in duration",
+      "reduction of resource",
+      "reduction of cost",
+      "reduction in project size"
+    ],
+    "correct": 0,
+    "explain": "Crashing reduces duration."
+  },
+  {
+    "q": "4. The essential condition for the decompression of an activity is that",
+    "options": [
+      "the project time should change due to decompression",
+      "after decompression, the time of an activity invariably exceeds its normal tome",
+      "an activity could be decompressed to the maximum extent of its normal time",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "An activity can be decompressed (lengthened) only up to its normal time."
+  },
+  {
+    "q": "5. Which of the following is an indirect cost in construction work?",
     "options": [
       "Overheads",
       "cost of labour to erect forms",
@@ -22,29 +55,7 @@
     "explain": "Overhead costs (administrative, supervisory) are indirect costs, not directly tied to a specific work item, unlike labour or subcontracted task-specific costs."
   },
   {
-    "q": "3. Cost of owning an equipment would include",
-    "options": [
-      "cost of depreciation, maintenance and repair and fuel",
-      "cost of investment, wages of the crew and fuel",
-      "cost of fuel, lubricating oil, investment and depreciation",
-      "cost of investment, major repairs and depreciation"
-    ],
-    "correct": 3,
-    "explain": "Ownership cost covers investment, depreciation and major repairs; fuel, oil and crew are operating costs."
-  },
-  {
-    "q": "4. Sensitivity analysis is a study of",
-    "options": [
-      "comparison of profit and loss",
-      "comparison of assets and liabilities",
-      "change in output due to change in input",
-      "economics of cost and benefits of the project"
-    ],
-    "correct": 2,
-    "explain": "Sensitivity analysis studies how output changes when inputs change."
-  },
-  {
-    "q": "5. With the usual notations, sinking fund factor is given by",
+    "q": "6. With the usual notations, sinking fund factor is given by",
     "options": [
       "(1 + i)^n",
       "i / ((1 + i)^n – 1)",
@@ -55,7 +66,7 @@
     "explain": "SFF = i / ((1+i)^n – 1)."
   },
   {
-    "q": "6. In the time-cost optimisation, using CPM method for network analysis, the crashing of the activities along the critical path is done starting with the activity having",
+    "q": "7. In the time-cost optimisation, using CPM method for network analysis, the crashing of the activities along the critical path is done starting with the activity having",
     "options": [
       "longest duration",
       "highest cost slope",
@@ -66,7 +77,7 @@
     "explain": "Crash the critical activity with the least cost slope first, since it adds the least cost per day saved."
   },
   {
-    "q": "7. What is done in \"quality control\"?",
+    "q": "8. What is done in \"quality control\"?",
     "options": [
       "detection",
       "prevention",
@@ -77,7 +88,7 @@
     "explain": "Quality control involves both detecting defects and taking preventive measures to avoid future non-conformance."
   },
   {
-    "q": "8. Including a contingency reserve in the project budget is intended to",
+    "q": "9. Including a contingency reserve in the project budget is intended to",
     "options": [
       "Reduce the probability of scope changes",
       "Increase the effectiveness of scope controls",

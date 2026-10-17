@@ -1,61 +1,6 @@
 [
   {
-    "q": "1. Free float is the",
-    "options": [
-      "portion of independent float",
-      "portion of positive total float",
-      "portion of interfering float",
-      "all the above"
-    ],
-    "correct": 1,
-    "explain": "Free float is the part of positive total float that can be used without affecting successors."
-  },
-  {
-    "q": "2. Critical path is",
-    "options": [
-      "shortest path for the earliest completion of the project",
-      "longest path of the network from the first event to the last event",
-      "ideal path by preceding along which the project can be completed as per the schedule",
-      "the path which takes into account the completion of all the parallel activities"
-    ],
-    "correct": 2,
-    "explain": "Per the answer key, c. Standard theory says the longest path (b)."
-  },
-  {
-    "q": "3. Resource smoothening means",
-    "options": [
-      "gradual increase in resources",
-      "adjustment of resources to have the least variations",
-      "complete revamping of resources to suit the requirement",
-      "optimisation and economical utilisation of resources"
-    ],
-    "correct": 1,
-    "explain": "Smoothening adjusts resources to minimise variation without changing project duration."
-  },
-  {
-    "q": "4. Construction site planning is concerned with",
-    "options": [
-      "work progress at site",
-      "minimize the chances of wastages, deterioration and losses",
-      "maximize the safety and execution of work",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Effective site planning addresses progress tracking, material management to reduce waste, and safety protocols for workers."
-  },
-  {
-    "q": "5. When all the paths are arranged according to the descending order of the float, the path which is next to critical path is known as",
-    "options": [
-      "under-critical",
-      "sub-critical",
-      "semi-critical path",
-      "secondary critical path"
-    ],
-    "correct": 2,
-    "explain": "Per the answer key, semi-critical path."
-  },
-  {
-    "q": "6. Which of the following is a dummy activity?",
+    "q": "1. Which of the following is a dummy activity?",
     "options": [
       "Excavate the foundations",
       "Await the arrival of concrete material",
@@ -66,7 +11,7 @@
     "explain": "Per the answer key, b."
   },
   {
-    "q": "7. Interfering float is the difference between",
+    "q": "2. Interfering float is the difference between",
     "options": [
       "total float and free float",
       "total float and independent float",
@@ -77,7 +22,7 @@
     "explain": "Interfering float is defined as the difference between total float and free float of an activity."
   },
   {
-    "q": "8. The time by which the completion of an activity can be delayed without affecting the start of succeeding activities is called",
+    "q": "3. The time by which the completion of an activity can be delayed without affecting the start of succeeding activities is called",
     "options": [
       "total float",
       "interfering float",
@@ -88,7 +33,7 @@
     "explain": "That is the definition of free float."
   },
   {
-    "q": "9. Pick up the incorrect statement from the following:",
+    "q": "4. Pick up the incorrect statement from the following:",
     "options": [
       "The activity which consumes maximum time, is called a node",
       "The activity is the time consuming part of a project",
@@ -99,7 +44,7 @@
     "explain": "This statement is incorrect - a 'node' represents an event (start/end point), not the activity consuming maximum time."
   },
   {
-    "q": "10. Fulkerson's rule is used for numbering the",
+    "q": "5. Fulkerson's rule is used for numbering the",
     "options": [
       "events",
       "activities",
@@ -110,7 +55,7 @@
     "explain": "Fulkerson's rule numbers the events so that each head number exceeds its tail number."
   },
   {
-    "q": "11. The time by which activity completion time can be delayed without affecting the start of succeeding activities, is known as:",
+    "q": "6. The time by which activity completion time can be delayed without affecting the start of succeeding activities, is known as:",
     "options": [
       "Interfering float.",
       "Total float",
@@ -121,7 +66,7 @@
     "explain": "Free float specifically measures delay possible in an activity without affecting the succeeding activity's start."
   },
   {
-    "q": "12. In a PERT network, the earliest (activity) start time is the",
+    "q": "7. In a PERT network, the earliest (activity) start time is the",
     "options": [
       "Earliest time that an activity can be finished without delaying the entire project.",
       "Latest time that an activity can be started without delaying the entire project.",
@@ -132,7 +77,7 @@
     "explain": "Earliest start time is defined as the earliest possible time an activity can begin, respecting all preceding activity dependencies."
   },
   {
-    "q": "13. Which of the following is one of the assumptions of PERT?",
+    "q": "8. Which of the following is one of the assumptions of PERT?",
     "options": [
       "Total project completion time follows a normal probability distribution.",
       "Activity times are dependent and correlated.",
@@ -143,7 +88,7 @@
     "explain": "PERT assumes that the sum of many independent activity durations along the critical path leads to an overall project completion time following a normal distribution (by central limit theorem)."
   },
   {
-    "q": "14. A construction schedule is prepared after collecting",
+    "q": "9. A construction schedule is prepared after collecting",
     "options": [
       "number of operations",
       "output",
@@ -155,7 +100,7 @@
     "explain": "Scheduling requires comprehensive data on task quantities, labor productivity (output), and machinery capacity to determine durations."
   },
   {
-    "q": "15. An important assumption in PERT calculations is:",
+    "q": "10. An important assumption in PERT calculations is:",
     "options": [
       "Activity times are normally distributed.",
       "Activity times are independent.",
@@ -166,7 +111,7 @@
     "explain": "PERT assumes individual activity times are statistically independent of each other, which allows summing their variances along the critical path."
   },
   {
-    "q": "16. Construction site planning is mainly depends upon the",
+    "q": "11. Construction site planning is mainly depends upon the",
     "options": [
       "nature of the work",
       "site condition",
@@ -177,7 +122,7 @@
     "explain": "Effective site layout and planning must account for the type of project, the physical constraints of the site, and how the work will be performed."
   },
   {
-    "q": "17. Which is/are features of PERT/CPM?",
+    "q": "12. Which is/are features of PERT/CPM?",
     "options": [
       "An estimate of how long a project will take.",
       "A graphical display of project activities.",
@@ -188,7 +133,7 @@
     "explain": "PERT/CPM techniques provide time estimates, graphical network displays, and identify critical activities - all of the above."
   },
   {
-    "q": "18. An event is indicated on the network by a number enclosed in",
+    "q": "13. An event is indicated on the network by a number enclosed in",
     "options": [
       "a circle",
       "a square",
@@ -199,7 +144,7 @@
     "explain": "Events are conventionally represented on network diagrams by numbers enclosed within circles (nodes)."
   },
   {
-    "q": "19. In the given figure, the network of a project represents",
+    "q": "14. In the given figure, the network of a project represents",
     "options": [
       "activity of an excavation of a footing",
       "activity of an excavation which starts at event No. 1 and ends at even No. 2",
@@ -210,7 +155,7 @@
     "explain": "The figure shows the excavation activity between events 1 and 2 labeled with duration '8', indicating it takes 8 units of time to complete."
   },
   {
-    "q": "20. Completion of an activity on CPM network diagram, is generally known",
+    "q": "15. Completion of an activity on CPM network diagram, is generally known",
     "options": [
       "event",
       "node",
@@ -221,18 +166,7 @@
     "explain": "The completion point of an activity is called an event, represented as a node/connector point - all the above terms apply."
   },
   {
-    "q": "21. Variance is",
-    "options": [
-      "(Sum of time duration for various job) / number of jobs",
-      "difference between time under consideration and mean time",
-      "mean of square root of mean of squared deviation",
-      "square root of mean of squared deviations"
-    ],
-    "correct": 2,
-    "explain": "Per the answer key, c. Standard theory defines variance as the mean of squared deviations, so the key and options look garbled."
-  },
-  {
-    "q": "22. If for a activity optimistic time is 1 day pessimistic times is 8 days and most likely time is ? days then the expected time is",
+    "q": "16. If for a activity optimistic time is 1 day pessimistic times is 8 days and most likely time is ? days then the expected time is",
     "options": [
       "3.5 days",
       "2.5 days",
@@ -243,7 +177,7 @@
     "explain": "The most likely time is cut off in the scan. The key answer 3.5 follows from tE = (1 + 4m + 8)/6 with m = 3 days."
   },
   {
-    "q": "23. Standard deviation when optimistic time and earliest expected time",
+    "q": "17. Standard deviation when optimistic time and earliest expected time",
     "options": [
       "1.167 days",
       "2.5 days",
@@ -254,7 +188,7 @@
     "explain": "The stem is incomplete in the book. Using the previous question's data, σ = (8 – 1)/6 = 1.167 days."
   },
   {
-    "q": "24. A Milestone chart",
+    "q": "18. A Milestone chart",
     "options": [
       "shows the interdependencies of various jobs",
       "depicts the delay of jobs, if any",
@@ -265,7 +199,7 @@
     "explain": "A milestone chart does not show interdependencies between jobs (that's a network diagram's function), so per the answer key, none of these accurately describes it fully."
   },
   {
-    "q": "25. Slack is",
+    "q": "19. Slack is",
     "options": [
       "difference of lastest allowable time and earliest expected time",
       "least allowable time-earliest expected time",
@@ -276,7 +210,7 @@
     "explain": "Slack = latest allowable time – earliest expected time."
   },
   {
-    "q": "26. The total cost verses time curve of an activity is",
+    "q": "20. The total cost verses time curve of an activity is",
     "options": [
       "a straight line",
       "a parabola",
@@ -287,7 +221,7 @@
     "explain": "Combining decreasing indirect costs and increasing direct costs yields a distinct U-shaped total cost curve with a clear minimum cost point."
   },
   {
-    "q": "27. Pick up the correct statement from the following",
+    "q": "21. Pick up the correct statement from the following",
     "options": [
       "in a network activities are represented by arrows and events are circled",
       "events into which a number of activities enter and from which one or several activities emerge are called the merge nodes",
@@ -298,7 +232,7 @@
     "explain": "All three statements are correct, so d."
   },
   {
-    "q": "28. In the initial stage of the project the probability of completing the project is",
+    "q": "22. In the initial stage of the project the probability of completing the project is",
     "options": [
       "Zero",
       "High",
@@ -309,7 +243,7 @@
     "explain": "At the initial stage of a project, uncertainty is highest and progress is minimal, so the probability of on-time completion assessment tends to be low."
   },
   {
-    "q": "29. Interfering float is the difference between",
+    "q": "23. Interfering float is the difference between",
     "options": [
       "total float and independent float",
       "total float and free float",
@@ -320,7 +254,7 @@
     "explain": "Interfering float = total float – free float."
   },
   {
-    "q": "30. Negative float for any activity means that the activity is",
+    "q": "24. Negative float for any activity means that the activity is",
     "options": [
       "super-critical",
       "sub-critical",
@@ -331,7 +265,7 @@
     "explain": "Negative float means super-critical."
   },
   {
-    "q": "31. The process of incorporating changes and rescheduling or replanning is called",
+    "q": "25. The process of incorporating changes and rescheduling or replanning is called",
     "options": [
       "resource levelling",
       "resource smoothening",
@@ -342,7 +276,7 @@
     "explain": "Updating is the process of incorporating changes and rescheduling/replanning the project based on actual progress."
   },
   {
-    "q": "32. Zero float any activity means that the activity is",
+    "q": "26. Zero float any activity means that the activity is",
     "options": [
       "super-critical",
       "sub-critical",
@@ -353,7 +287,7 @@
     "explain": "Zero float means critical."
   },
   {
-    "q": "33. Positive float for any activity means that the activity is",
+    "q": "27. Positive float for any activity means that the activity is",
     "options": [
       "super critical",
       "sub-critical",
@@ -364,7 +298,7 @@
     "explain": "Positive float means sub-critical."
   },
   {
-    "q": "34. The total float for any activity along the critical path in CPM is",
+    "q": "28. The total float for any activity along the critical path in CPM is",
     "options": [
       "positive",
       "negative",
@@ -375,7 +309,7 @@
     "explain": "Critical activities have zero total float."
   },
   {
-    "q": "35. Choose the correct statement from the following:",
+    "q": "29. Choose the correct statement from the following:",
     "options": [
       "PERT is event oriented",
       "PERT is not event oriented",
@@ -386,7 +320,7 @@
     "explain": "PERT is indeed event-oriented, making this the correct statement among the options."
   },
   {
-    "q": "36. Project control begins early in the project with planning and ends late in the project with",
+    "q": "30. Project control begins early in the project with planning and ends late in the project with",
     "options": [
       "payment",
       "Post-implementation review",
@@ -397,7 +331,7 @@
     "explain": "Project control spans from early planning through to a final post-implementation review at project closeout."
   },
   {
-    "q": "37. Identify the man out",
+    "q": "31. Identify the man out",
     "options": [
       "mix concrete",
       "excavate trench",
@@ -408,7 +342,7 @@
     "explain": "'Design completed' is an event; the others are activities."
   },
   {
-    "q": "38. The time by which activity completion time can be delayed without affecting the start of succeeding activities is known as:",
+    "q": "32. The time by which activity completion time can be delayed without affecting the start of succeeding activities is known as:",
     "options": [
       "duration",
       "total float",
@@ -419,7 +353,7 @@
     "explain": "Free float specifically defines the permissible delay in an activity that does not affect the succeeding activity's start time."
   },
   {
-    "q": "39. An important principle in drawing a network is",
+    "q": "33. An important principle in drawing a network is",
     "options": [
       "no activity can start until all the previous activities in the same chain are completed",
       "parallel activities should begin and end at the same time",
@@ -431,7 +365,7 @@
     "explain": "The precedence rule: an activity starts only after all its predecessors finish."
   },
   {
-    "q": "40. If the scheduled completion time of a project is more than the earliest expected time for completion of the project, then the probability of completion of the project within the scheduled completion time will be",
+    "q": "34. If the scheduled completion time of a project is more than the earliest expected time for completion of the project, then the probability of completion of the project within the scheduled completion time will be",
     "options": [
       "50%",
       "Less than 50%",
@@ -442,7 +376,7 @@
     "explain": "If the scheduled time exceeds the expected (mean) time, the project has a higher-than-average chance of completion within schedule, i.e., more than 50%."
   },
   {
-    "q": "41. A dummy activity",
+    "q": "35. A dummy activity",
     "options": [
       "has no tail event but only a head event",
       "has only head event but tail event",
@@ -453,7 +387,7 @@
     "explain": "A dummy consumes no time or resources."
   },
   {
-    "q": "42. At an event other than final event if no activity emerges, it results in an error called",
+    "q": "36. At an event other than final event if no activity emerges, it results in an error called",
     "options": [
       "looping",
       "dangling",
@@ -464,7 +398,7 @@
     "explain": "An event with no outgoing activity is a dangling error."
   },
   {
-    "q": "43. Aggregate planning is planning for",
+    "q": "37. Aggregate planning is planning for",
     "options": [
       "single activity",
       "double activities",
@@ -475,7 +409,7 @@
     "explain": "Aggregate planning looks at the total capacity and resource needs for the entire project rather than individual small tasks."
   },
   {
-    "q": "44. Critical path moves along the activities having total float?",
+    "q": "38. Critical path moves along the activities having total float?",
     "options": [
       "positive",
       "negative",
@@ -486,7 +420,7 @@
     "explain": "By definition, the critical path consists of activities with zero total float."
   },
   {
-    "q": "45. Negative slack occurs",
+    "q": "39. Negative slack occurs",
     "options": [
       "when lastest allowable time is greater than earliest expected time",
       "when events sticks to their schedule",
@@ -497,7 +431,7 @@
     "explain": "Per the answer key, c. Negative slack arises when the schedule is behind, which needs extra resources."
   },
   {
-    "q": "46. Critical path",
+    "q": "40. Critical path",
     "options": [
       "is the shortest path",
       "bad 'null' slack",
@@ -508,7 +442,7 @@
     "explain": "The critical path has the minimum slack (zero or negative)."
   },
   {
-    "q": "47. The objective of technical planning is",
+    "q": "41. The objective of technical planning is",
     "options": [
       "preparation of specifications and estimates",
       "initiating the procurement action of resources",
@@ -519,7 +453,7 @@
     "explain": "Technical planning covers the entire lifecycle from setting standards to resource management and problem-solving during execution."
   },
   {
-    "q": "48. Float is",
+    "q": "42. Float is",
     "options": [
       "the earliest time by which an activity may commence",
       "lastest time by which an activity can be delayed without hapering the completion of the project",
@@ -530,7 +464,7 @@
     "explain": "Per the answer key, d: float is the time available minus the time required."
   },
   {
-    "q": "49. For the execution of work in time, work plan is prepared by",
+    "q": "43. For the execution of work in time, work plan is prepared by",
     "options": [
       "contractor",
       "consultant",
@@ -541,7 +475,7 @@
     "explain": "The contractor is responsible for creating the detailed schedule and work plan to ensure they meet the contractual deadlines."
   },
   {
-    "q": "50. Which one is the basis of project?",
+    "q": "44. Which one is the basis of project?",
     "options": [
       "planning",
       "scheduling",
@@ -550,5 +484,71 @@
     ],
     "correct": 3,
     "explain": "A project is built on the pillars of planning what to do, scheduling when to do it, and monitoring to ensure it is done correctly."
+  },
+  {
+    "q": "45. In PERT (Programme Evaluation & Review Technique) analysis the duration of the activities is taken as:",
+    "options": [
+      "Optimistic time",
+      "Pessimistic time",
+      "Most likely time",
+      "Expected mean time"
+    ],
+    "correct": 3,
+    "explain": "PERT uses the expected mean time (calculated from the three time estimates) as the duration for scheduling calculations."
+  },
+  {
+    "q": "46. Latest starts of an activity is always",
+    "options": [
+      "greater than or equal to latest event time of preceding node",
+      "less than or equal to latest event tie of preceding node",
+      "equal to latest event time of preceding node",
+      "less than latest event time of preceding node"
+    ],
+    "correct": 0,
+    "explain": "Per the answer key, a."
+  },
+  {
+    "q": "47. 'Wait' in PERT, belongs to the category of",
+    "options": [
+      "activity",
+      "node",
+      "event",
+      "motion"
+    ],
+    "correct": 0,
+    "explain": "Waiting takes time, so it is an activity."
+  },
+  {
+    "q": "48. An activity of the project is graphically represented by ……… on the network.",
+    "options": [
+      "a circle",
+      "a straight line",
+      "an arrow",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Activities are arrows; events are circles."
+  },
+  {
+    "q": "49. Which of the following statement is correct about the network diagram?",
+    "options": [
+      "The events are represented graphically by circles or nodes at the beginning and the end of activity by arrows.",
+      "The tail end of the arrow represents the start of the activity",
+      "The head of the arrow represents the end of an activity",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explain": "All three are correct."
+  },
+  {
+    "q": "50. Which operation must complete first?",
+    "options": [
+      "Right of the line joining two circles",
+      "Left of the line joining two circle",
+      "Both 'a' and 'b'",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "The operation on the left (the predecessor) completes first."
   }
 ]
