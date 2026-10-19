@@ -1,6 +1,83 @@
 [
   {
-    "q": "1. Critical path method (CPM) requires:",
+    "q": "1. Which one is the basis of project?",
+    "options": [
+      "planning",
+      "scheduling",
+      "monitoring & supervising",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A project is built on the pillars of planning what to do, scheduling when to do it, and monitoring to ensure it is done correctly."
+  },
+  {
+    "q": "2. In PERT (Programme Evaluation & Review Technique) analysis the duration of the activities is taken as:",
+    "options": [
+      "Optimistic time",
+      "Pessimistic time",
+      "Most likely time",
+      "Expected mean time"
+    ],
+    "correct": 3,
+    "explain": "PERT uses the expected mean time (calculated from the three time estimates) as the duration for scheduling calculations."
+  },
+  {
+    "q": "3. Latest starts of an activity is always",
+    "options": [
+      "greater than or equal to latest event time of preceding node",
+      "less than or equal to latest event tie of preceding node",
+      "equal to latest event time of preceding node",
+      "less than latest event time of preceding node"
+    ],
+    "correct": 0,
+    "explain": "Per the answer key, a."
+  },
+  {
+    "q": "4. 'Wait' in PERT, belongs to the category of",
+    "options": [
+      "activity",
+      "node",
+      "event",
+      "motion"
+    ],
+    "correct": 0,
+    "explain": "Waiting takes time, so it is an activity."
+  },
+  {
+    "q": "5. An activity of the project is graphically represented by ……… on the network.",
+    "options": [
+      "a circle",
+      "a straight line",
+      "an arrow",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Activities are arrows; events are circles."
+  },
+  {
+    "q": "6. Which of the following statement is correct about the network diagram?",
+    "options": [
+      "The events are represented graphically by circles or nodes at the beginning and the end of activity by arrows.",
+      "The tail end of the arrow represents the start of the activity",
+      "The head of the arrow represents the end of an activity",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explain": "All three are correct."
+  },
+  {
+    "q": "7. Which operation must complete first?",
+    "options": [
+      "Right of the line joining two circles",
+      "Left of the line joining two circle",
+      "Both 'a' and 'b'",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "The operation on the left (the predecessor) completes first."
+  },
+  {
+    "q": "8. Critical path method (CPM) requires:",
     "options": [
       "single time estimate",
       "double time estimate",
@@ -11,7 +88,7 @@
     "explain": "CPM uses a single deterministic time estimate for each activity, unlike PERT's three estimates."
   },
   {
-    "q": "2. Number of pre-operation associated with an operation may be",
+    "q": "9. Number of pre-operation associated with an operation may be",
     "options": [
       "one only",
       "two only",
@@ -22,7 +99,7 @@
     "explain": "An operation can have one or more predecessors."
   },
   {
-    "q": "3. The post-operations in CPM are marked",
+    "q": "10. The post-operations in CPM are marked",
     "options": [
       "right to an operation",
       "left to an operation",
@@ -33,7 +110,7 @@
     "explain": "Successors are marked to the right."
   },
   {
-    "q": "4. In CPM method, the earliest finish is indicated by time on",
+    "q": "11. In CPM method, the earliest finish is indicated by time on",
     "options": [
       "top right, outside the circle, in triangle",
       "top right, outside the circle, in rectangle",
@@ -44,7 +121,7 @@
     "explain": "Per the answer key, in a rectangle at the top right, outside the circle."
   },
   {
-    "q": "5. CPM stand for:",
+    "q": "12. CPM stand for:",
     "options": [
       "Computer programme mode",
       "Critical project Management",
@@ -55,7 +132,7 @@
     "explain": "CPM stands for Critical Path Method."
   },
   {
-    "q": "6. Latest finish time in CPM technique is indicated by a",
+    "q": "13. Latest finish time in CPM technique is indicated by a",
     "options": [
       "rectangle",
       "circle",
@@ -66,7 +143,7 @@
     "explain": "Per the answer key, a triangle."
   },
   {
-    "q": "7. A bar chart is drawn for:",
+    "q": "14. A bar chart is drawn for:",
     "options": [
       "time versus activity",
       "activity versus resources",
@@ -77,7 +154,7 @@
     "explain": "A bar chart plots time against activities, with bar length representing each activity's duration."
   },
   {
-    "q": "8. Dummy activities are used to",
+    "q": "15. Dummy activities are used to",
     "options": [
       "determine the critical path",
       "determine the project completion tome",
@@ -88,7 +165,7 @@
     "explain": "Dummies maintain the required logic of the network."
   },
   {
-    "q": "9. Which of the following are the guidelines for the construction of a network diagram?",
+    "q": "16. Which of the following are the guidelines for the construction of a network diagram?",
     "options": [
       "Each activity is represented by one only arrow in the network",
       "Dangling must be avoided in a network diagram",
@@ -99,7 +176,7 @@
     "explain": "All three are network-construction guidelines."
   },
   {
-    "q": "10. A CPM network is updated",
+    "q": "17. A CPM network is updated",
     "options": [
       "at regular interval",
       "at predetermined milestones",
@@ -110,7 +187,7 @@
     "explain": "Network updating is done whenever a deviation is found between planned and actual performance, requiring revision."
   },
   {
-    "q": "11. In PERT, optimistic time represents the following time taken by an activity.",
+    "q": "18. In PERT, optimistic time represents the following time taken by an activity.",
     "options": [
       "expected or average time taken when the activity is repeated several times",
       "time taken if there is delay at every stage except due to natural calamities",
@@ -121,7 +198,7 @@
     "explain": "Optimistic time represents the minimum possible duration an activity would take assuming everything goes ideally well."
   },
   {
-    "q": "12. PERT stands for",
+    "q": "19. PERT stands for",
     "options": [
       "Pertinent equation related to a task",
       "performance, evaluation, routine and timing",
@@ -132,7 +209,7 @@
     "explain": "PERT stands for Programme Evaluation and Review Technique."
   },
   {
-    "q": "13. Completion of an activity on CPM network diagram, is generally known",
+    "q": "20. Completion of an activity on CPM network diagram, is generally known",
     "options": [
       "Event",
       "Node",
@@ -143,7 +220,7 @@
     "explain": "Completion of an activity is marked by an event, represented as a node/connector point - all of above apply."
   },
   {
-    "q": "14. Latest finish time CPM technique is indicated by a:",
+    "q": "21. Latest finish time CPM technique is indicated by a:",
     "options": [
       "rectangle",
       "Circle",
@@ -154,7 +231,7 @@
     "explain": "In many CPM notations, latest finish time is indicated in a rectangular box associated with the node."
   },
   {
-    "q": "15. Negative slack occurs:",
+    "q": "22. Negative slack occurs:",
     "options": [
       "When latest allowable time is greater than earliest expected time",
       "When events stick to their schedule",
@@ -165,7 +242,7 @@
     "explain": "Negative slack typically results from a deficiency of resources causing schedule delays beyond the allowable time."
   },
   {
-    "q": "16. Float may be defined as the difference between",
+    "q": "23. Float may be defined as the difference between",
     "options": [
       "latest start time and the earliest start time",
       "latest finish time and the earliest finish time",
@@ -176,18 +253,7 @@
     "explain": "Float can be equivalently expressed via any of these differences (LST-EST, LFT-EFT, or available-required time) - all of the above are valid definitions."
   },
   {
-    "q": "17. Preliminary project report for a road project must contain",
-    "options": [
-      "the detailed estimated cost based on detailed design",
-      "the several alternatives of the project that have been considered",
-      "the soil survey, traffic survey, concept design and approximate cost",
-      "the contract documents for inviting tenders"
-    ],
-    "correct": 2,
-    "explain": "A preliminary report holds surveys, concept design and an approximate cost."
-  },
-  {
-    "q": "18. For completion of a project, the critical path of the network represents:",
+    "q": "24. For completion of a project, the critical path of the network represents:",
     "options": [
       "minimum time",
       "maximum time",
@@ -198,7 +264,7 @@
     "explain": "The critical path represents the minimum time required to complete the entire project."
   },
   {
-    "q": "19. Gantt chart is drawn for",
+    "q": "25. Gantt chart is drawn for",
     "options": [
       "activity versus activity",
       "progress versus time",
@@ -209,7 +275,7 @@
     "explain": "A Gantt chart plots activities against time, similar to a standard bar chart."
   },
   {
-    "q": "20. An activity is",
+    "q": "26. An activity is",
     "options": [
       "an element of work entailed in the project",
       "the movement of heavy vehicles from one place to another",
@@ -220,7 +286,7 @@
     "explain": "An activity is an element of work in the project."
   },
   {
-    "q": "21. An event is",
+    "q": "27. An event is",
     "options": [
       "a dummy activity",
       "the useful criterion",
@@ -231,7 +297,7 @@
     "explain": "An event is the start and/or finish of activities."
   },
   {
-    "q": "22. PERT technique of network analysis is mainly useful for:",
+    "q": "28. PERT technique of network analysis is mainly useful for:",
     "options": [
       "inviting the tender",
       "opening the tender",
@@ -242,7 +308,7 @@
     "explain": "BUT AS PER BOOK C .PERT is a scheduling/planning technique, not related to tender inviting, opening, or awarding processes - hence none of the above."
   },
   {
-    "q": "23. The pictorial representation of activities and events of a project is known as the",
+    "q": "29. The pictorial representation of activities and events of a project is known as the",
     "options": [
       "flow chart",
       "flow net",
@@ -253,7 +319,7 @@
     "explain": "It is called a network."
   },
   {
-    "q": "24. The flow of time in a net work is generally",
+    "q": "30. The flow of time in a net work is generally",
     "options": [
       "from left to right",
       "from right to left",
@@ -264,7 +330,7 @@
     "explain": "Time flows left to right."
   },
   {
-    "q": "25. Bar chart is also known as",
+    "q": "31. Bar chart is also known as",
     "options": [
       "histogram chart",
       "flow chart",
@@ -275,7 +341,7 @@
     "explain": "A bar chart is also called a Gantt chart."
   },
   {
-    "q": "26. Bar chart is drawn for",
+    "q": "32. Bar chart is drawn for",
     "options": [
       "time versus activity",
       "activity versus resources",
@@ -286,7 +352,7 @@
     "explain": "Per the answer key, time versus activity."
   },
   {
-    "q": "27. When float or slack of an activity is positive, it represents",
+    "q": "33. When float or slack of an activity is positive, it represents",
     "options": [
       "The availability of extra resources",
       "The requirement of additional resource",
@@ -297,7 +363,7 @@
     "explain": "Positive float indicates spare time is available for the activity, implying flexibility/availability of extra time (and by extension resources) without impacting overall completion."
   },
   {
-    "q": "28. The pictorial representation of activities and events of a project is called",
+    "q": "34. The pictorial representation of activities and events of a project is called",
     "options": [
       "Flow chart",
       "Algorithm",
@@ -308,7 +374,7 @@
     "explain": "The network diagram is the standard pictorial representation depicting a project's activities and events with their interrelationships."
   },
   {
-    "q": "29. The object of technical planning, is",
+    "q": "35. The object of technical planning, is",
     "options": [
       "preparation of specifications",
       "preparation of estimates",
@@ -319,7 +385,7 @@
     "explain": "Technical planning covers preparing specifications, estimates, and initiating resource procurement - all of the above."
   },
   {
-    "q": "30. PERT technique of network analysis is mainly useful for",
+    "q": "36. PERT technique of network analysis is mainly useful for",
     "options": [
       "small projects",
       "large and complex project",
@@ -330,7 +396,7 @@
     "explain": "Per the answer key, c. PERT suits R&D projects where activity times are uncertain."
   },
   {
-    "q": "31. Select the correct statement",
+    "q": "37. Select the correct statement",
     "options": [
       "activity arrows in a CPM network are drawn to scale",
       "the tail of an arrow represents the finish of an activity",
@@ -341,7 +407,7 @@
     "explain": "Arrows are not drawn to scale, the tail is the start, and the head is the finish, so a, b and c are all wrong."
   },
   {
-    "q": "32. Inputs used during scope planning include all of the following except",
+    "q": "38. Inputs used during scope planning include all of the following except",
     "options": [
       "Constraints",
       "Project charter",
@@ -352,7 +418,7 @@
     "explain": "Scope planning inputs typically include the project charter, product description, and constraints, but detailed budget/cost analysis is not a direct input to scope planning."
   },
   {
-    "q": "33. Which of the following is a weakness of bar chart?",
+    "q": "39. Which of the following is a weakness of bar chart?",
     "options": [
       "Interdependencies of activities",
       "Project progress",
@@ -363,7 +429,7 @@
     "explain": "Per the answer key, all of the above."
   },
   {
-    "q": "34. Which of the following is not a PERT event?",
+    "q": "40. Which of the following is not a PERT event?",
     "options": [
       "Site investigation started",
       "Sessional work completed",
@@ -374,18 +440,18 @@
     "explain": "'Class is being attended' is an ongoing activity, not an event."
   },
   {
-    "q": "35. In PERT analysis, the time estimates of activities and probability of their occurrence follow",
+    "q": "41. In PERT analysis, the time estimates of activities and probability of their occurrence follow",
     "options": [
       "normal distribution curve",
       "Poisson's distribution curve",
       "β-distribution curve",
       "binomial distribution curve"
     ],
-    "correct": 0,
+    "correct": 2,
     "explain": "Per the answer key, a. Note: PERT normally assumes the beta distribution (c)."
   },
   {
-    "q": "36. A project has three independent critical paths A, B and C. To reduce the project length, we have to shorten",
+    "q": "42. A project has three independent critical paths A, B and C. To reduce the project length, we have to shorten",
     "options": [
       "The activities of A",
       "The activities of B",
@@ -396,7 +462,7 @@
     "explain": "When multiple independent critical paths exist, shortening the project duration requires reducing activities on all of them simultaneously (A, B, and C)."
   },
   {
-    "q": "37. Free float is mainly used to",
+    "q": "43. Free float is mainly used to",
     "options": [
       "identify the activities which can be delayed without affecting the total float of succeeding activity",
       "identify the activities, which can be delayed without affecting the total float of succeeding activity",
@@ -407,7 +473,7 @@
     "explain": "Options a and b read almost identically in the book. Per the key, b."
   },
   {
-    "q": "38. CPM requires",
+    "q": "44. CPM requires",
     "options": [
       "single time estimate",
       "double time estimate",
@@ -418,7 +484,7 @@
     "explain": "CPM uses a single deterministic time estimate."
   },
   {
-    "q": "39. PERT requires",
+    "q": "45. PERT requires",
     "options": [
       "single time estimate",
       "double time estimate",
@@ -429,7 +495,7 @@
     "explain": "PERT uses three time estimates: optimistic, most likely and pessimistic."
   },
   {
-    "q": "40. A milestone chart",
+    "q": "46. A milestone chart",
     "options": [
       "depicts the delay of job",
       "shows the inter dependence of various jobs",
@@ -440,7 +506,7 @@
     "explain": "Per the answer key, c. Note: the book's wording drops 'not' (milestone charts do not show logical sequence)."
   },
   {
-    "q": "41. Time estimated time required to complete an activity is termed as",
+    "q": "47. Time estimated time required to complete an activity is termed as",
     "options": [
       "event",
       "duration",

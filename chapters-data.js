@@ -873,9 +873,6 @@ const DRIVE = {
       "8.9 VARIATION&ALTERATION": {
         "All": "1NnZbn4knlrjOPqgJgvh0tNLxvUsCXqIR"
       },
-      "8.10 Mixed Questions": {
-        "part 1": "1HaLNY_Fy74C0wWu1WjNgHEQJohwebeVw"
-      },
       "8.11 Original Questions": {
         "DPARSAD.150-200": "18HnjG1-leT6OXk5mYPGTJluMw2yiFUEy",
         "DPARSAD.100-150": "1KY9GTqB8sTJpGha_JnYYE9Pvnnzotf9h",
@@ -891,11 +888,11 @@ const DRIVE = {
         "RK SHRESTHA (3)": "1vdN4MvatiJJ-7Qjz4epjV6FluEVf5a-m",
         "RK SHRESTHA (4)": "1nz3Tvjl6THGuXYKTnXLH8ZbYKxyfRy-w",
         "RK SHRESTHA (5)": "1CJfsghP6UOy5qv29ktUrhhNBhqnmqRj7",
-        "Sunil Sah.1-70": "1Hae7WAr-zJgOLj8QRTxNmpOHBThDbfCX",
-        "Sunil Sah.141-210": "1unW3_78Rwrweo-ScJZqKeeo95MFt_7jA",
-        "Sunil Sah.211-280": "17eBBqzkA_ofWh6mt6lXlU7PxWqOPjxnJ",
-        "Sunil Sah.281-335": "111vGoW202RdDFtQOYx0jhg2nmOLJYxev",
-        "Sunil Sah.71-140": "1V3X8iuGsbJYW0oFVW8chfHcqmyNEDtd-"
+        "Sunil Sah.1-70": "1FcnYFp5Btd5DD7YWt4DCYxFE8zwZqWOE",
+        "Sunil Sah.141-210": "1npFC-VYk3oPqV_1uF7fqFadATr82rqGJ",
+        "Sunil Sah.211-280": "1pZZBRkKnm6KgrJXg8xLeO2c2RRYesPsO",
+        "Sunil Sah.281-335": "1BRnvmWt5eDa5yUsdLaWQXspp94oHMMg3",
+        "Sunil Sah.71-140": "1fsK7-1vvlXEqvuCXdo78sMX_BBSKtf0f"
       }
     },
     "7": {
@@ -1022,8 +1019,8 @@ const DRIVE = {
         "DPARSAD": "1abshceD1-c5wygd9L32gAoLpuYdBqkd8",
         "RK SHRESTHA.1-54": "1OJYDYMCCYbayimPJzRlf7ZNI3C48YJIw",
         "RK SHRESTHA.55-108": "1VBxr0CbRm7LYah9FBTC3Cnl2-ddyIV39",
-        "Sunil Sah.1-73": "1VWMh_JXzHThB1sK4VMaZ61xlkcv7RJo-",
-        "Sunil Sah.74-146": "1nIijfTYKAch0m__T7U63oNxb6TyOGrDK"
+        "Sunil Sah.1-73": "1aRxux9NDAvRNxN_nqM4Gv6QilYG5ZwVD",
+        "Sunil Sah.74-146": "1jCxxpPxi2GrHsCkbtEEHrm-slHJ6lzpI"
       }
     },
     "10": {
@@ -1041,7 +1038,8 @@ const DRIVE = {
       },
       "12.4 PUBLIC PROCUREMENT": {
         "part 1": "1aqhwztnXWmwhOsGEieiQYHJ9KTeyqYSE",
-        "part 2": "1xEjY22aWukAyrU_Q3w4LqT6oFnoc9s6P"
+        "part 2": "1xEjY22aWukAyrU_Q3w4LqT6oFnoc9s6P",
+        "part 3": "13S6ceAJtyRwkcYYlH_HLRpqrmR4WWVfY"
       },
       "12.5 NBC": {
         "All": "1TFEZbh8MT4A3m2-c9DziB04uVln8lYkP"
@@ -1049,12 +1047,15 @@ const DRIVE = {
       "12.6 BUILDING BYLAWS": {
         "All": "1n-L2O3li7hRwWBNU2rqcueaMoaGb2DSS"
       },
+      "12.7 Mixed Questions": {
+        "part 1": "1bMvkTZEdwDElNorAF8VmxUPdk9phQ7QN"
+      },
       "12.8 Original Questions": {
         "DPARSAD": "16Yw0SALw-Vk1KR-7HnRZdetJFqarj7S2",
         "RK SHRESTHA": "1TsbaxhfnQdqsR31Qc0m48q3aIO2rqHfy",
         "RK SHRESTHA (2)": "1hTK4XCovy30ZCZ5j5AmCOcTdfQCYLsTq",
-        "Sunil Sah.1-60": "1P9J26lrPf1ne95WM0-JqNjdpqjAAKwHs",
-        "Sunil Sah.61-120": "1zap782ErWfLbCqbfZDMATqz9vtZehHLA"
+        "Sunil Sah.1-60": "1j8Qy9YyM7s-1w-qfyqoDzpXia1gumgaq",
+        "Sunil Sah.61-120": "1bzgiKA9qYcxqkYdKT0lJzvlra6XWe0oE"
       }
     }
   }
