@@ -154,18 +154,7 @@
     "explain": "A vertical settlement of one support in a two-hinged arch reduces the rise, thereby reducing the induced horizontal thrust."
   },
   {
-    "q": "15. Which of the following end conditions permits the displacement in any direction and also rotation",
-    "options": [
-      "fixed end",
-      "hinged end",
-      "roller end",
-      "free end"
-    ],
-    "correct": 3,
-    "explain": "A free end (like the tip of a cantilever) provides no restraint, allowing both translation (displacement) and rotation."
-  },
-  {
-    "q": "16. For a beam, if fundamental equations of statics are not sufficient to determine all the reaction forces at the supports, the structure is said to be",
+    "q": "15. For a beam, if fundamental equations of statics are not sufficient to determine all the reaction forces at the supports, the structure is said to be",
     "options": [
       "determinate",
       "statically determinate",
@@ -176,7 +165,7 @@
     "explain": "When static equilibrium equations alone cannot solve for all unknown reactions, the structure has extra (redundant) reactions and is termed statically indeterminate."
   },
   {
-    "q": "17. For a beam having fixed ends, the unknown element of the reactions, is",
+    "q": "16. For a beam having fixed ends, the unknown element of the reactions, is",
     "options": [
       "horizontal components at either end",
       "vertical components at either end",
@@ -187,7 +176,7 @@
     "explain": "A fixed support can resist horizontal force, vertical force, and moment; for a beam fixed at both ends, unknown reactions include horizontal and vertical components (plus moments) at both ends."
   },
   {
-    "q": "18. A column is aid to be of medium size if its slenderness ratio is between",
+    "q": "17. A column is aid to be of medium size if its slenderness ratio is between",
     "options": [
       "20 and 32",
       "32 and 120",
@@ -198,7 +187,7 @@
     "explain": "By common classification, columns with slenderness ratio between about 32 and 120 are treated as medium/intermediate columns."
   },
   {
-    "q": "19. Columns of given length, cross-section and material have different values of buckling loads for different end conditions. The strongest column is one whose",
+    "q": "18. Columns of given length, cross-section and material have different values of buckling loads for different end conditions. The strongest column is one whose",
     "options": [
       "one end is fixed and other end is hinged",
       "both ends are hinged or pin jointed",
@@ -209,7 +198,7 @@
     "explain": "A column fixed at both ends has the smallest effective length (Le=L/2), giving the highest Euler buckling load, making it the strongest configuration."
   },
   {
-    "q": "20. Rankine-Golden formula accounts for direct as well as buckling stress and is applicable to",
+    "q": "19. Rankine-Golden formula accounts for direct as well as buckling stress and is applicable to",
     "options": [
       "very long columns",
       "long columns",
@@ -220,7 +209,7 @@
     "explain": "Rankine's formula is a practical empirical formula that bridges crushing and buckling failure, making it applicable across the full range but particularly valid for intermediate columns where both effects matter."
   },
   {
-    "q": "21. The slenderness ratio of a vertical column of a square cross-section of 2.5 cm sides and 300 cm length, is",
+    "q": "20. The slenderness ratio of a vertical column of a square cross-section of 2.5 cm sides and 300 cm length, is",
     "options": [
       "200",
       "240",
@@ -231,7 +220,7 @@
     "explain": "Radius of gyration k = side/√12 = 2.5/√12 ≈ 0.7217 cm; slenderness ratio = L/k = 300/0.7217 ≈ 416."
   },
   {
-    "q": "22. Three hinged arch is a .....structure.",
+    "q": "21. Three hinged arch is a .....structure.",
     "options": [
       "indeterminate",
       "determinate",
@@ -242,7 +231,7 @@
     "explain": "A three-hinged arch has 4 reaction components and 4 equilibrium equations (3 standard + 1 moment equation at the internal hinge), making it statically determinate."
   },
   {
-    "q": "23. Three hinged arch will have three hinges",
+    "q": "22. Three hinged arch will have three hinges",
     "options": [
       "two at the two ends and one any where in between the two ends",
       "two at the two ends and one at the crown only",
@@ -253,7 +242,7 @@
     "explain": "A standard three-hinged arch features two hinges at the supports (abutments) and a third hinge at the highest point, known as the crown."
   },
   {
-    "q": "24. If a three hinged parabolic arch carries a uniformly distributed load on its entire span, every section of the arch resists",
+    "q": "23. If a three hinged parabolic arch carries a uniformly distributed load on its entire span, every section of the arch resists",
     "options": [
       "compressive force",
       "tensile force",
@@ -264,7 +253,7 @@
     "explain": "For a parabolic arch under UDL matching its shape, the arch axis coincides with the line of thrust everywhere, resulting in pure compressive (normal thrust) force with zero shear/bending."
   },
   {
-    "q": "25. The rise of a parabolic arch at quarter points, is equal to",
+    "q": "24. The rise of a parabolic arch at quarter points, is equal to",
     "options": [
       "1/3 times the rise of the crown",
       "1/4 times the rise of the crown",
@@ -275,7 +264,7 @@
     "explain": "For a parabolic arch, using y = 4hx(l−x)/l², at quarter span (x=l/4) the rise works out to (3/4) of the central rise h."
   },
   {
-    "q": "26. A linear arch is subjected only to",
+    "q": "25. A linear arch is subjected only to",
     "options": [
       "shear force",
       "thrust",
@@ -286,7 +275,7 @@
     "explain": "A linear arch (funicular arch) is shaped exactly to the thrust line for the given loading, so it experiences only axial thrust with zero shear and bending moment."
   },
   {
-    "q": "27. In a three hinged arch, the shear force is usually",
+    "q": "26. In a three hinged arch, the shear force is usually",
     "options": [
       "maximum at crown",
       "maximum at springing",
@@ -297,7 +286,7 @@
     "explain": "In a three-hinged arch, shear force is typically maximum near the springing (supports) where the arch's slope relative to loads is greatest."
   },
   {
-    "q": "28. In a solid arch, shear force acts",
+    "q": "27. In a solid arch, shear force acts",
     "options": [
       "vertically upwards",
       "along the axis of the arch",
@@ -308,7 +297,7 @@
     "explain": "Shear force in a curved (arch) member acts perpendicular to the arch's axis at that section, by definition (transverse to the member's local axis)."
   },
   {
-    "q": "29. A statically indeterminate structure is the one which",
+    "q": "28. A statically indeterminate structure is the one which",
     "options": [
       "cannot be analysed using the equations of statics alone",
       "cannot be analysed at all",
@@ -319,7 +308,7 @@
     "explain": "Statically indeterminate structures have more unknowns than available equilibrium equations and require compatibility equations for analysis."
   },
   {
-    "q": "30. The statically indeterminate structure can be solved by",
+    "q": "29. The statically indeterminate structure can be solved by",
     "options": [
       "using equations of statics alone",
       "equations of compatibility alone",
@@ -330,7 +319,7 @@
     "explain": "Indeterminate structures require both equilibrium equations (statics) and displacement-based equations (compatibility) to be fully solved."
   },
   {
-    "q": "31. The equations of compatibility are written based on",
+    "q": "30. The equations of compatibility are written based on",
     "options": [
       "the geometry of the deformed structure under the action of several forces acting",
       "the nature of external forces",
@@ -341,7 +330,7 @@
     "explain": "Compatibility equations ensure that the deformed shape of the structure is geometrically continuous and consistent with the supports."
   },
   {
-    "q": "32. An externally indeterminate structure is the one in which",
+    "q": "31. An externally indeterminate structure is the one in which",
     "options": [
       "the total number of external reaction components is more than the equations of statics applicable to the structure as a whole",
       "the total number of external reaction components is more than the degree of indeterminacy",
@@ -352,7 +341,7 @@
     "explain": "External indeterminacy occurs when the number of support reactions exceeds the available static equilibrium equations ($$\\Sigma F_x=0, \\Sigma F_y=0, \\Sigma M=0$$)."
   },
   {
-    "q": "33. An internally indeterminate structure",
+    "q": "32. An internally indeterminate structure",
     "options": [
       "must be externally indeterminate",
       "must be externally determinate",
@@ -363,7 +352,7 @@
     "explain": "Internal indeterminacy refers to the redundancy of internal members. Per the provided key, it is categorized here as being associated with an externally determinate setup."
   },
   {
-    "q": "34. A prop is",
+    "q": "33. A prop is",
     "options": [
       "An additional support provided to a stable structure to avoid any displacement at the desired point in a direction perpendicular to the plane of the prop",
       "the support which gives the maximum number of reactions for the stability of the structure",
@@ -374,7 +363,7 @@
     "explain": "A prop is a redundant support (often a roller or hinge) added to a structure to reduce deflection or provide extra stability at a specific point."
   },
   {
-    "q": "35. A rigid prop is one which",
+    "q": "34. A rigid prop is one which",
     "options": [
       "permits 50% of free deflection, that would have occurred if the prop were not there",
       "does not permit any displacement perpendicular to that plane of prop",
@@ -385,7 +374,7 @@
     "explain": "A rigid prop acts as an unyielding support, meaning the vertical displacement (deflection) at the point of the prop is forced to be zero."
   },
   {
-    "q": "36. An elastic prop is one which",
+    "q": "35. An elastic prop is one which",
     "options": [
       "does not offer any reaction",
       "supports the entire load and relieves all other supports completely",
@@ -396,7 +385,7 @@
     "explain": "An elastic prop (like a spring) provides a reaction force that is proportional to its deformation, following Hooke's Law ($$F = kx$$)."
   },
   {
-    "q": "37. A sinking prop is one which",
+    "q": "36. A sinking prop is one which",
     "options": [
       "permits any amount of deflection",
       "does not permit any deflection at all",
@@ -407,7 +396,7 @@
     "explain": "A sinking prop refers to a support that undergoes a predetermined settlement or only engages once the structure has deflected to a certain point."
   },
   {
-    "q": "38. DSI of structure depends upon",
+    "q": "37. DSI of structure depends upon",
     "options": [
       "loading",
       "types of material",
@@ -418,7 +407,7 @@
     "explain": "DSI is a geometric property determined by the arrangement of members and the types of joints (rigid vs. pinned) and supports."
   },
   {
-    "q": "39. The ends of continuous beam should be",
+    "q": "38. The ends of continuous beam should be",
     "options": [
       "cantilever",
       "hinged",
@@ -429,7 +418,7 @@
     "explain": "The end of a continuous beam can be configured in various ways—fixed, pinned, roller, or cantilever—depending on the design requirements."
   },
   {
-    "q": "40. The theorem of three moments for the solution of continuous beams is formulated by",
+    "q": "39. The theorem of three moments for the solution of continuous beams is formulated by",
     "options": [
       "Young",
       "Maxwell",
@@ -440,7 +429,7 @@
     "explain": "Clapeyron's Theorem of Three Moments is a relationship between the bending moments at three consecutive supports of a continuous beam."
   },
   {
-    "q": "41. The moment distribution method is formulated by",
+    "q": "40. The moment distribution method is formulated by",
     "options": [
       "Hardy Cross",
       "Thomas Young",
@@ -451,7 +440,7 @@
     "explain": "Hardy Cross published the Moment Distribution Method in 1930, providing a simple iterative way to analyze indeterminate structures."
   },
   {
-    "q": "42. Moment distribution method is",
+    "q": "41. Moment distribution method is",
     "options": [
       "approximate method",
       "accurate method",
@@ -462,7 +451,7 @@
     "explain": "The Moment Distribution Method (Hardy Cross method) is an iterative process. While it can converge to a very precise answer, it is fundamentally an approximation technique used to solve for bending moments without solving simultaneous equations."
   },
   {
-    "q": "43. The stiffness factor at the near end of a member with far end hinged is",
+    "q": "42. The stiffness factor at the near end of a member with far end hinged is",
     "options": [
       "4EI/l",
       "3EI/l",
@@ -473,7 +462,7 @@
     "explain": "When the far end is hinged (pinned), the moment required to produce unit rotation at the near end is 3EI/L. If the far end were fixed, it would be 4EI/L."
   },
   {
-    "q": "44. The ratio of stiffness of a member when far end is hinged to that of the member when far end is fixed is",
+    "q": "43. The ratio of stiffness of a member when far end is hinged to that of the member when far end is fixed is",
     "options": [
       "1",
       "2",
@@ -484,7 +473,7 @@
     "explain": "The ratio is (3EI/L) / (4EI/L) = 3/4. This is a common factor used in the Moment Distribution Method to adjust stiffness for pinned supports."
   },
   {
-    "q": "45. The distribution factor of a member at a joint is",
+    "q": "44. The distribution factor of a member at a joint is",
     "options": [
       "the ratio of the moment borne by the member to the total moment applied at the joint",
       "the ratio of the area of the member to the sum of the areas of several members",
@@ -495,7 +484,7 @@
     "explain": "The Distribution Factor (DF) is defined as the ratio of the stiffness of a particular member to the total stiffness of all members meeting at that joint, which dictates the share of the moment it bears."
   },
   {
-    "q": "46. If ki is the stiffness of i th member of a Joint, the distribution factor for the member is",
+    "q": "45. If ki is the stiffness of i th member of a Joint, the distribution factor for the member is",
     "options": [
       "Ki / ΣKi",
       "Ki",
@@ -506,7 +495,7 @@
     "explain": "Mathematically, the DF for a member 'i' is expressed as the stiffness of that member divided by the sum of the stiffnesses of all members at the joint: DF = Ki / ΣKi."
   },
   {
-    "q": "47. In hingeless arch, it is supposed to",
+    "q": "46. In hingeless arch, it is supposed to",
     "options": [
       "stable",
       "geometrically unstable",
@@ -517,7 +506,7 @@
     "explain": "A hingeless (fixed) arch is statically indeterminate. For a plane arch, there are 3 reactions at each support (H, V, M), totaling 6. With 3 equilibrium equations available, the degree of static indeterminacy is 6 - 3 = 3. However, based on the provided key (c), it refers to specific constraints or a 2nd-degree analysis typically found in certain textbook contexts."
   },
   {
-    "q": "48. By increasing the carbon content in steel, the ultimate tensile strength will",
+    "q": "47. By increasing the carbon content in steel, the ultimate tensile strength will",
     "options": [
       "decrease",
       "not be affected",
@@ -528,7 +517,7 @@
     "explain": "Higher carbon content increases the hardness and strength of steel, thereby increasing its ultimate tensile strength (though reducing ductility)."
   },
   {
-    "q": "49. With the increase in the carbon content, the ductility of the steel will",
+    "q": "48. With the increase in the carbon content, the ductility of the steel will",
     "options": [
       "increase",
       "decrease",
@@ -539,7 +528,7 @@
     "explain": "As carbon content increases, steel becomes harder and more brittle, resulting in decreased ductility."
   },
   {
-    "q": "50. A suspension cable, supporting loads will be under",
+    "q": "49. A suspension cable, supporting loads will be under",
     "options": [
       "tension",
       "bending",
@@ -548,5 +537,16 @@
     ],
     "correct": 0,
     "explain": "A flexible suspension cable can only carry axial tension (it cannot resist bending or compression), so it is always under pure tension."
+  },
+  {
+    "q": "50. The intercept between a given arch and a linear arch at a section is proportional to",
+    "options": [
+      "the horizontal thrust",
+      "the shear force at the section",
+      "the vertical reaction at the support",
+      "the bending moment at the section"
+    ],
+    "correct": 3,
+    "explain": "The vertical distance (intercept) between an actual arch axis and the linear (funicular/thrust-line) arch at any section is proportional to the bending moment at that section (M = H×intercept)."
   }
 ]

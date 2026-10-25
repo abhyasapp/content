@@ -1,39 +1,6 @@
 [
   {
-    "q": "1. Which of the following is a relatively ductile material?",
-    "options": [
-      "Mild steel",
-      "Cast iron",
-      "High carbon steel",
-      "Bronze"
-    ],
-    "correct": 0,
-    "explain": "Mild steel, with its low carbon content, exhibits significant ductility (large elongation before failure) compared to the more brittle options listed."
-  },
-  {
-    "q": "2. For structural carbon steel the ratio of yield stress to ultimate strength will be about",
-    "options": [
-      "0.55 to 0.6",
-      "0.2 to 0.3",
-      "1.0",
-      "1.2 to 1.5"
-    ],
-    "correct": 0,
-    "explain": "For typical structural carbon (mild) steel, the yield-to-ultimate strength ratio is commonly around 0.55 to 0.6."
-  },
-  {
-    "q": "3. In moment distribution method, the sum of distribution factors of all the members meeting at any joint is always",
-    "options": [
-      "zero",
-      "less than one",
-      "1",
-      "greater than one"
-    ],
-    "correct": 2,
-    "explain": "By definition, distribution factors at a joint are proportional shares of the total stiffness, and their sum must always equal 1 (100% of the unbalanced moment is distributed)."
-  },
-  {
-    "q": "4. The carryover factor in a prismatic member whose far end is fixed is",
+    "q": "1. The carryover factor in a prismatic member whose far end is fixed is",
     "options": [
       "0",
       "1/2",
@@ -44,7 +11,7 @@
     "explain": "For a prismatic member with the far end fixed, the carryover factor (fraction of moment transmitted to the far end) is 1/2, a standard moment-distribution constant."
   },
   {
-    "q": "5. The carryover factor in a prismatic member whose far end is hinged is",
+    "q": "2. The carryover factor in a prismatic member whose far end is hinged is",
     "options": [
       "0",
       "1/2",
@@ -55,7 +22,7 @@
     "explain": "If the far end of a member is hinged (cannot resist moment), no moment can be carried over there, so the carryover factor is zero."
   },
   {
-    "q": "6. Influence line for horizontal thrust in a two hinged parabolic arch is",
+    "q": "3. Influence line for horizontal thrust in a two hinged parabolic arch is",
     "options": [
       "parabolic",
       "cubic",
@@ -66,7 +33,7 @@
     "explain": "The influence line for horizontal thrust in a two-hinged parabolic arch is a cubic curve, a known classical result from arch theory."
   },
   {
-    "q": "7. In the simultaneous equations derived from slope deflection method, the matrix formed by the coefficients of various rotations will have",
+    "q": "4. In the simultaneous equations derived from slope deflection method, the matrix formed by the coefficients of various rotations will have",
     "options": [
       "all element equal",
       "all elements zero",
@@ -77,7 +44,7 @@
     "explain": "The stiffness matrix from slope-deflection equations is symmetric, with diagonal (self-stiffness) terms typically dominant compared to off-diagonal (coupling) terms."
   },
   {
-    "q": "8. Which of the following is not the displacement method?",
+    "q": "5. Which of the following is not the displacement method?",
     "options": [
       "Equilibrium method",
       "Column analogy method",
@@ -88,7 +55,7 @@
     "explain": "The column analogy method is a force (flexibility) method, whereas equilibrium, moment distribution, and Kani's method are all displacement (stiffness) methods."
   },
   {
-    "q": "9. The elements of flexibility matrix of a structure",
+    "q": "6. The elements of flexibility matrix of a structure",
     "options": [
       "are dependent on the choice of co ordinates",
       "are independent of the choice of co ordinates",
@@ -99,7 +66,7 @@
     "explain": "The flexibility matrix elements are defined relative to a chosen set of coordinates (degrees of freedom) for the structure, so they depend on that choice."
   },
   {
-    "q": "10. Which of the following methods of structural analysis is a force methods?",
+    "q": "7. Which of the following methods of structural analysis is a force methods?",
     "options": [
       "Slope deflection method",
       "Column analogy method",
@@ -110,7 +77,7 @@
     "explain": "The column analogy method is a force (flexibility-based) method of structural analysis, unlike slope deflection and moment distribution which are displacement methods."
   },
   {
-    "q": "11. Which of the following method of structural analysis is a displacement method?",
+    "q": "8. Which of the following method of structural analysis is a displacement method?",
     "options": [
       "Moment distribution method",
       "Column analogy method",
@@ -121,7 +88,7 @@
     "explain": "The moment distribution method is a displacement (stiffness) method, as opposed to column analogy and three-moment equation which are force methods."
   },
   {
-    "q": "12. In the displacement method of structural analysis, the basic unknowns are",
+    "q": "9. In the displacement method of structural analysis, the basic unknowns are",
     "options": [
       "displacements",
       "force",
@@ -132,7 +99,7 @@
     "explain": "In displacement (stiffness) methods, the primary unknowns solved for are the joint displacements (translations and rotations)."
   },
   {
-    "q": "13. The width of the analogous column in the method of column analogy is",
+    "q": "10. The width of the analogous column in the method of column analogy is",
     "options": [
       "2/EI",
       "1/EI",
@@ -143,7 +110,7 @@
     "explain": "In column analogy, the 'width' (intensity) of the analogous column load/section corresponds to 1/EI, representing the M/EI diagram's scaling."
   },
   {
-    "q": "14. The theorem of three moments for the solution of continuous beams is formulated by",
+    "q": "11. The theorem of three moments for the solution of continuous beams is formulated by",
     "options": [
       "Young",
       "Maxwell",
@@ -154,7 +121,7 @@
     "explain": "The three-moment theorem for continuous beams was formulated by Clapeyron."
   },
   {
-    "q": "15. In slope deflection method, the unknown rotations at various joints are determined by considering",
+    "q": "12. In slope deflection method, the unknown rotations at various joints are determined by considering",
     "options": [
       "the equilibrium of joint",
       "the rigidity of joint",
@@ -165,7 +132,7 @@
     "explain": "In the slope-deflection method, unknown joint rotations are solved for by writing and satisfying the moment equilibrium equations at each joint."
   },
   {
-    "q": "16. In slope deflection method, the end moments for any members are expressed .............",
+    "q": "13. In slope deflection method, the end moments for any members are expressed .............",
     "options": [
       "as zero",
       "in terms of the unknown end reactions",
@@ -176,7 +143,7 @@
     "explain": "In slope-deflection method, member end moments are expressed as functions of the unknown joint rotations and settlements (translations) — described in the source options as 'unknown end reactions'."
   },
   {
-    "q": "17. In a rigid jointed frame, the rotation of various members meeting at a joint will be",
+    "q": "14. In a rigid jointed frame, the rotation of various members meeting at a joint will be",
     "options": [
       "equal",
       "proportional to the length of member",
@@ -187,7 +154,7 @@
     "explain": "Since a rigid joint rotates as a single unit, all members rigidly connected at that joint undergo the same (equal) angle of rotation."
   },
   {
-    "q": "18. The moment distribution method is formulated by",
+    "q": "15. The moment distribution method is formulated by",
     "options": [
       "Hardy cross",
       "Thomas young",
@@ -198,18 +165,7 @@
     "explain": "The moment distribution method was developed by Hardy Cross."
   },
   {
-    "q": "19. The design of structure is",
-    "options": [
-      "the planning of the structure",
-      "the calculation of straining actions at salient points",
-      "deciding the material and proportions of the various members of the structure",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Structural design (as distinct from analysis) involves selecting appropriate materials and proportioning (sizing) the members of the structure to safely carry the computed forces."
-  },
-  {
-    "q": "20. For a conjugate beam, the fixed end of a real beam corresponds to",
+    "q": "16. For a conjugate beam, the fixed end of a real beam corresponds to",
     "options": [
       "fixed end",
       "free end",
@@ -220,7 +176,7 @@
     "explain": "A fixed end (zero slope, zero deflection) in the real beam becomes a free end in the conjugate beam, per the standard conjugate-beam correspondence rules."
   },
   {
-    "q": "21. The maximum deflection of a fixed beam carrying a central point load lies at",
+    "q": "17. The maximum deflection of a fixed beam carrying a central point load lies at",
     "options": [
       "fixed ends",
       "centre of beam",

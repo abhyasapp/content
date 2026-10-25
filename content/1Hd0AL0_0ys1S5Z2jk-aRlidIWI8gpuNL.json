@@ -1,17 +1,6 @@
 [
   {
-    "q": "1. Active earth pressure is",
-    "options": [
-      "always less than passive earth pressure",
-      "always greater than passive earth pressure",
-      "sometimes greater than passive earth pressure",
-      "equal to passive earth pressure"
-    ],
-    "correct": 0,
-    "explain": "Since active pressure coefficient Ka = (1-sinφ)/(1+sinφ) is always less than passive coefficient Kp = (1+sinφ)/(1-sinφ), active pressure is always less than passive pressure."
-  },
-  {
-    "q": "2. The total discharge from two wells situated near to each other is .............",
+    "q": "1. The total discharge from two wells situated near to each other is .............",
     "options": [
       "sum of the discharges from individual wells",
       "greater than the sum of the discharges from the wells",
@@ -22,7 +11,7 @@
     "explain": "Interference between the drawdown cones of nearby wells reduces the effective hydraulic gradient, so combined discharge is less than the simple sum of individual well discharges."
   },
   {
-    "q": "3. Passive earth pressure is defined as",
+    "q": "2. Passive earth pressure is defined as",
     "options": [
       "retaining wall tends to move away from the back fill",
       "retaining wall tends to move towards the back fill",
@@ -33,7 +22,7 @@
     "explain": "Passive pressure develops when the wall is pushed into (moves towards) the backfill, compressing the soil to mobilize maximum resistance."
   },
   {
-    "q": "4. When the steady seepage occurs in an isotropic soil, the head causing the flow satisfies the following equation .............",
+    "q": "3. When the steady seepage occurs in an isotropic soil, the head causing the flow satisfies the following equation .............",
     "options": [
       "Darcy's equation",
       "Hazen's equation",
@@ -44,7 +33,7 @@
     "explain": "Steady seepage through an isotropic, homogeneous soil is governed by Laplace's equation, the basis for flow net construction."
   },
   {
-    "q": "5. Total lateral earth pressure is proportional to",
+    "q": "4. Total lateral earth pressure is proportional to",
     "options": [
       "depth of soil",
       "square of depth of soil",
@@ -55,18 +44,7 @@
     "explain": "Total pressure (force) on a wall = ½·K·γ·H² (area under the triangular pressure diagram), making total earth pressure proportional to the square of the retained depth H."
   },
   {
-    "q": "6. The rate of flow of water through a vertical strip of aquifer of unit width and extending full saturation height under unit hydraulic gradient is known as .............",
-    "options": [
-      "Coefficient of permeability",
-      "Storage coefficient",
-      "Specific retention",
-      "Coefficient of transmissibility"
-    ],
-    "correct": 3,
-    "explain": "This defines the coefficient of transmissibility, which combines permeability and aquifer thickness into flow rate per unit width."
-  },
-  {
-    "q": "7. Earth pressure at rest can be defined as lateral pressure exerted by the soil when the retaining wall tends to",
+    "q": "5. Earth pressure at rest can be defined as lateral pressure exerted by the soil when the retaining wall tends to",
     "options": [
       "move away from the backfill",
       "no movement relative to the backfill",
@@ -77,7 +55,7 @@
     "explain": "At-rest earth pressure occurs when the wall is rigid and does not move at all relative to the backfill (zero lateral strain condition)."
   },
   {
-    "q": "8. In order to increase the FS against piping .............",
+    "q": "6. In order to increase the FS against piping .............",
     "options": [
       "a blanket of impermeable material is laid for same length along the downstream ground surface",
       "pump out the water periodically, downstream",
@@ -88,7 +66,7 @@
     "explain": "Placing an impervious blanket downstream lengthens the seepage path and increases the weight resisting uplift, raising the factor of safety against piping."
   },
   {
-    "q": "9. The base width of retaining wall is B. What is the maximum, permissible eccentricity if the wall should not fail in tension?",
+    "q": "7. The base width of retaining wall is B. What is the maximum, permissible eccentricity if the wall should not fail in tension?",
     "options": [
       "B/3",
       "2B/3",
@@ -99,7 +77,7 @@
     "explain": "To avoid tension at the base (keeping the resultant within the middle third), the eccentricity must not exceed B/6, per the middle-third rule for rectangular sections."
   },
   {
-    "q": "10. A coarse grained soil has a void ratio of 0.7 and specific gravity of 2.7. The critical gradient at which the quick sand condition occurs is .............",
+    "q": "8. A coarse grained soil has a void ratio of 0.7 and specific gravity of 2.7. The critical gradient at which the quick sand condition occurs is .............",
     "options": [
       "1.00",
       "0.75",
@@ -110,7 +88,7 @@
     "explain": "Critical gradient ic = (G-1)/(1+e) = (2.7-1)/(1+0.7) = 1.7/1.7 = 1.00."
   },
   {
-    "q": "11. Earth pressure acting at a height of ........ in case of inclined surcharge",
+    "q": "9. Earth pressure acting at a height of ........ in case of inclined surcharge",
     "options": [
       "h/2 from the base of the wall",
       "h/3 from the base of the wall",
@@ -121,7 +99,7 @@
     "explain": "For a wall with inclined surcharge, the resultant earth pressure (trapezoidal-type distribution due to surcharge) acts at approximately h/4 above the base, as per standard design charts."
   },
   {
-    "q": "12. The seepage flow through a porous medium is generally .............",
+    "q": "10. The seepage flow through a porous medium is generally .............",
     "options": [
       "turbulent",
       "super critical",
@@ -132,7 +110,7 @@
     "explain": "Seepage velocities in soils are typically low enough (low Reynolds number) that flow is laminar, satisfying Darcy's law."
   },
   {
-    "q": "13. The assumption of Rankine's theory of earth pressure is",
+    "q": "11. The assumption of Rankine's theory of earth pressure is",
     "options": [
       "the soil is semi finite, homogeneous, dry and cohesionless",
       "ground surface is a plane which may be inclined or horizontal",
@@ -143,7 +121,7 @@
     "explain": "Rankine's theory assumes a semi-infinite, homogeneous, cohesionless, dry soil mass, a planar ground surface, and a vertical, smooth wall back — all these assumptions together define the theory."
   },
   {
-    "q": "14. Criterion for the design of an inverted filter is .............",
+    "q": "12. Criterion for the design of an inverted filter is .............",
     "options": [
       "D15 of filter/D85 of base < 5 < D15 of filter/D15 of base",
       "D15 of base/D15 of filter < 5 < D15 of base/D15 of base",
@@ -154,7 +132,7 @@
     "explain": "The inverted filter design criterion ensures the filter is permeable enough (via D15/D85 ratio) yet fine enough to retain base soil particles."
   },
   {
-    "q": "15. In the case of retaining walls, surcharge is",
+    "q": "13. In the case of retaining walls, surcharge is",
     "options": [
       "excess moisture in wall",
       "extra load on the wall",
@@ -165,7 +143,7 @@
     "explain": "Surcharge refers to any additional load (e.g., traffic, stacked material) placed on the horizontal backfill surface behind a retaining wall, which increases lateral pressure."
   },
   {
-    "q": "16. The bearing capacity of soil",
+    "q": "14. The bearing capacity of soil",
     "options": [
       "depends on the size of the footing",
       "load intensity",
@@ -176,7 +154,7 @@
     "explain": "Bearing capacity theories (e.g., Terzaghi's) show the ultimate bearing capacity depends on footing size/width (through the Nγ term), among other footing and soil parameters."
   },
   {
-    "q": "17. The most suitable method for increasing the bearing capacity of black cotton soil is",
+    "q": "15. The most suitable method for increasing the bearing capacity of black cotton soil is",
     "options": [
       "watering surface soil",
       "compacting the soil",
@@ -187,7 +165,7 @@
     "explain": "Because black cotton soil swells/shrinks excessively and has low bearing capacity, the most effective remedy is to replace it with a sand cushion/pad beneath the foundation."
   },
   {
-    "q": "18. Bearing capacity of soil is determined by",
+    "q": "16. Bearing capacity of soil is determined by",
     "options": [
       "plate load test",
       "standard cone test",
@@ -198,7 +176,7 @@
     "explain": "Both the plate load test and standard (cone) penetration test are recognized field methods for estimating bearing capacity of soil."
   },
   {
-    "q": "19. The soil having minimum/least bearing capacity is",
+    "q": "17. The soil having minimum/least bearing capacity is",
     "options": [
       "moist clay",
       "sandy soil",
@@ -209,7 +187,7 @@
     "explain": "Moist (saturated) clay has very low shear strength and high compressibility, giving it the least bearing capacity among the listed soil types."
   },
   {
-    "q": "20. A grillage foundation is used under",
+    "q": "18. A grillage foundation is used under",
     "options": [
       "heavy load bearing wall",
       "set of columns",
@@ -220,7 +198,7 @@
     "explain": "Grillage foundations use layers of steel beams to spread heavy column loads over a large area economically, typically under a single heavily loaded isolated column."
   },
   {
-    "q": "21. Who is known as the Father of 'Soil Mechanics'?",
+    "q": "19. Who is known as the Father of 'Soil Mechanics'?",
     "options": [
       "Terzaghi",
       "Cassagrande",
@@ -231,7 +209,7 @@
     "explain": "Karl Terzaghi is universally credited as the 'Father of Soil Mechanics' for founding the discipline with his effective stress principle and consolidation theory."
   },
   {
-    "q": "22. When a static load is applied, the consolidation is fast the case of .............",
+    "q": "20. When a static load is applied, the consolidation is fast the case of .............",
     "options": [
       "clays",
       "silty clays",
@@ -242,7 +220,7 @@
     "explain": "Sands have high permeability, allowing pore water to drain and consolidation to occur almost instantaneously compared to fine-grained soils."
   },
   {
-    "q": "23. Direct measurement of permeability of the soil specimen can be made at any stage of loading in .............",
+    "q": "21. Direct measurement of permeability of the soil specimen can be made at any stage of loading in .............",
     "options": [
       "fixed ring type consolidometer",
       "floating ring type consolidometer",
@@ -253,7 +231,7 @@
     "explain": "In a fixed ring consolidometer, the sample geometry relative to the ring is known at all times, allowing direct permeability measurement at any load stage."
   },
   {
-    "q": "24. If h is the head of water stored, Nf is the number of flow lines and Nd is the number of equipotential drops in a flow net, then the seepage flow rate is given by",
+    "q": "22. If h is the head of water stored, Nf is the number of flow lines and Nd is the number of equipotential drops in a flow net, then the seepage flow rate is given by",
     "options": [
       "q = k.h.(Nf/Nd)",
       "q = k.h².(Nf/Nd)",
@@ -264,7 +242,7 @@
     "explain": "The standard flow-net discharge formula is q = k·h·(Nf/Nd), where Nf/Nd is the shape factor of the flow net."
   },
   {
-    "q": "25. The consolidation settlement of a soil is",
+    "q": "23. The consolidation settlement of a soil is",
     "options": [
       "directly proportional to compression index",
       "indirectly proportional to compression index",
@@ -275,7 +253,7 @@
     "explain": "Consolidation settlement Sc = (Cc·H)/(1+e0)·log10[(σ0+Δσ)/σ0] is directly proportional to the compression index Cc."
   },
   {
-    "q": "26. The strength theory applicable to a C-φ soil is",
+    "q": "24. The strength theory applicable to a C-φ soil is",
     "options": [
       "Darcy's law",
       "Terzaghi's theory",
@@ -286,7 +264,7 @@
     "explain": "A c-φ (cohesive-frictional) soil's shear strength is described by the Mohr-Coulomb failure criterion, s = c + σ·tanφ."
   },
   {
-    "q": "27. Effective stress is",
+    "q": "25. Effective stress is",
     "options": [
       "the stress at the particles contact",
       "governing factor for the engineering properties",
@@ -297,7 +275,7 @@
     "explain": "Effective stress (Terzaghi's principle) is transmitted through particle-to-particle contacts, governs shear strength and compressibility, and is a real, measurable physical parameter — hence all statements are valid."
   },
   {
-    "q": "28. In Mohr's stress circle, the co-ordinates of the center of the circle are",
+    "q": "26. In Mohr's stress circle, the co-ordinates of the center of the circle are",
     "options": [
       "(0, 0)",
       "(σ1, σ3)",
@@ -308,7 +286,7 @@
     "explain": "Mohr's circle has its centre on the normal-stress axis at the average of major and minor principal stresses, i.e., ((σ1+σ3)/2, 0)."
   },
   {
-    "q": "29. In a flownet, which of the following statement is true?",
+    "q": "27. In a flownet, which of the following statement is true?",
     "options": [
       "Flow lines and equipotential lines intersect at oblique angles",
       "Flow lines and equipotential lines intersect orthogonally",
@@ -319,7 +297,7 @@
     "explain": "By construction, flow lines and equipotential lines in a properly drawn flow net always intersect at right angles (orthogonally)."
   },
   {
-    "q": "30. Shear strength of soil is determined by the equation",
+    "q": "28. Shear strength of soil is determined by the equation",
     "options": [
       "C = S + σ tanφ",
       "σ = C + s tanφ",
@@ -330,7 +308,7 @@
     "explain": "Coulomb's shear strength equation is s = c + σ·tanφ, where s is shear strength, c is cohesion, σ is normal stress, and φ is the friction angle."
   },
   {
-    "q": "31. The permeability of a soil deposit-in-situ can be best obtained by .............",
+    "q": "29. The permeability of a soil deposit-in-situ can be best obtained by .............",
     "options": [
       "falling head permeameter",
       "constant head permeameter",
@@ -341,7 +319,7 @@
     "explain": "A field pumping test captures the actual in-situ permeability of a soil deposit, accounting for natural heterogeneity that lab tests cannot."
   },
   {
-    "q": "32. The value of net allowable bearing pressure is",
+    "q": "30. The value of net allowable bearing pressure is",
     "options": [
       "net safe bearing capacity",
       "net safe settlement pressure",
@@ -352,7 +330,7 @@
     "explain": "Net allowable bearing pressure is taken as the smaller (governing) value between the pressure limited by shear failure (net safe bearing capacity) and that limited by tolerable settlement."
   },
   {
-    "q": "33. The minimum number of observation wells required to determine the permeability of stratum in the field by pumping test is .............",
+    "q": "31. The minimum number of observation wells required to determine the permeability of stratum in the field by pumping test is .............",
     "options": [
       "one",
       "two",
@@ -363,7 +341,7 @@
     "explain": "At least two observation wells at different radial distances are needed to establish the drawdown curve and calculate permeability."
   },
   {
-    "q": "34. The Terzaghi's bearing capacity factors are functions of",
+    "q": "32. The Terzaghi's bearing capacity factors are functions of",
     "options": [
       "internal friction angle",
       "cohesion",
@@ -374,7 +352,7 @@
     "explain": "Terzaghi's bearing capacity factors Nc, Nq, Nγ are all derived as functions solely of the soil's angle of internal friction φ."
   },
   {
-    "q": "35. Over-consolidation may be due to .............",
+    "q": "33. Over-consolidation may be due to .............",
     "options": [
       "the weight of ice sheet or glacier which is melted away",
       "weight of the land side which is removed",
@@ -385,7 +363,7 @@
     "explain": "Over-consolidation results from removal of a previously applied overburden, whether from a melted glacier or an eroded/removed landmass — both mechanisms apply."
   },
   {
-    "q": "36. Even after the complete dissipation of excess pore pressure, a little more consolidation is possible. This is called as .............",
+    "q": "34. Even after the complete dissipation of excess pore pressure, a little more consolidation is possible. This is called as .............",
     "options": [
       "primary consolidation",
       "secondary consolidation",
@@ -396,7 +374,7 @@
     "explain": "Secondary consolidation is the slow, creep-like compression that continues after primary consolidation (pore pressure dissipation) is complete."
   },
   {
-    "q": "37. The coefficient of electro-osmotic permeability .............",
+    "q": "35. The coefficient of electro-osmotic permeability .............",
     "options": [
       "is the same as the coefficient of hydraulic permeability",
       "varies in the value over a wide range depending on the size of voids in the soil",
@@ -407,7 +385,7 @@
     "explain": "Unlike hydraulic permeability, electro-osmotic permeability depends mainly on the soil's zeta potential and double-layer properties, staying roughly independent of grain size."
   },
   {
-    "q": "38. Bleeder wells are required to .............",
+    "q": "36. Bleeder wells are required to .............",
     "options": [
       "increase discharge from main well",
       "stone drainage water",
@@ -418,7 +396,7 @@
     "explain": "Bleeder wells relieve excess pore water pressure trapped beneath impervious layers, preventing uplift or blowout."
   },
   {
-    "q": "39. Neutral stress refers to .............",
+    "q": "37. Neutral stress refers to .............",
     "options": [
       "major principal stress",
       "minor principal stress",
@@ -429,7 +407,7 @@
     "explain": "Neutral stress is another term for pore water pressure, the stress carried by water in the soil voids."
   },
   {
-    "q": "40. The difference between total pressure and pore water pressure is known as .............",
+    "q": "38. The difference between total pressure and pore water pressure is known as .............",
     "options": [
       "major principal stress",
       "minor principal stress",
@@ -440,7 +418,7 @@
     "explain": "Effective stress = total stress - pore water pressure, per Terzaghi's principle of effective stress."
   },
   {
-    "q": "41. A flownet may be used for the determination of .............",
+    "q": "39. A flownet may be used for the determination of .............",
     "options": [
       "exit gradient",
       "seepage flow rate",
@@ -451,7 +429,7 @@
     "explain": "A flow net simultaneously provides exit gradient, seepage discharge, and seepage/uplift pressure at any point."
   },
   {
-    "q": "42. Assumption in the Darcy' law is",
+    "q": "40. Assumption in the Darcy' law is",
     "options": [
       "Soil is compressible",
       "Flow conditions are turbulent",
@@ -462,7 +440,7 @@
     "explain": "Darcy's law assumes an isotropic, homogeneous, incompressible, saturated soil with laminar (not turbulent) flow conditions."
   },
   {
-    "q": "43. The angle of internal friction depends upon",
+    "q": "41. The angle of internal friction depends upon",
     "options": [
       "The particle shape and roughness",
       "The amount of interlocking",
@@ -473,7 +451,7 @@
     "explain": "Friction angle is influenced by particle shape/roughness, degree of interlocking (density/angularity), and the normal stress level — all these factors jointly affect φ."
   },
   {
-    "q": "44. Taylor's stability number is equal to Sn = c/(PHc) = c/(PH×FOS). For Hc, FOS=1",
+    "q": "42. Taylor's stability number is equal to Sn = c/(PHc) = c/(PH×FOS). For Hc, FOS=1",
     "options": [
       "C/(FcH)",
       "C/(FcHc)",
@@ -484,7 +462,7 @@
     "explain": "When FOS = 1 (i.e., the critical/failure condition), the stability number simplifies to Sn = c/Hc, using the critical height Hc directly."
   },
   {
-    "q": "45. According to ISS the minimum depths of foundation in sand and clay should be respectively",
+    "q": "43. According to ISS the minimum depths of foundation in sand and clay should be respectively",
     "options": [
       "60 cm to 70 cm",
       "80 cm to 90 cm",
@@ -495,7 +473,7 @@
     "explain": "As per Indian Standard code recommendations, minimum foundation depth in sand and clay generally falls in the range of about 80 cm to 90 cm, considering seasonal moisture variation and frost/shrinkage effects."
   },
   {
-    "q": "46. Darcy's law is applicable if a soil is .............",
+    "q": "44. Darcy's law is applicable if a soil is .............",
     "options": [
       "homogeneous",
       "incompressible",
@@ -506,7 +484,7 @@
     "explain": "Darcy's law assumptions require the soil to be homogeneous, incompressible, and isotropic for validity of the linear flow relation."
   },
   {
-    "q": "47. The maximum differential settlement is isolated footings on clayey soils should be limited to",
+    "q": "45. The maximum differential settlement is isolated footings on clayey soils should be limited to",
     "options": [
       "25 mm",
       "40 mm",
@@ -517,7 +495,7 @@
     "explain": "As per IS code guidance for isolated footings on clayey soils, the permissible differential settlement is typically limited to about 40 mm to avoid structural distress."
   },
   {
-    "q": "48. According to Darcy's law, the flow velocity can be obtained by .............",
+    "q": "46. According to Darcy's law, the flow velocity can be obtained by .............",
     "options": [
       "Ki/A",
       "KiA",
@@ -528,7 +506,7 @@
     "explain": "Darcy's law states discharge velocity v = Ki (permeability times hydraulic gradient)."
   },
   {
-    "q": "49. A combined footing is generally used when",
+    "q": "47. A combined footing is generally used when",
     "options": [
       "Number of columns is more than two and they are spaced far apart",
       "Number of columns is two and they are spaced far close to each other",
@@ -539,7 +517,7 @@
     "explain": "A combined footing is provided when two columns are close enough that their individual isolated footings would overlap, so a single combined footing supports both."
   },
   {
-    "q": "50. Coefficient of percolation has a value .............",
+    "q": "48. Coefficient of percolation has a value .............",
     "options": [
       "less than the coefficient of permeability",
       "equal to the coefficient of permeability",
@@ -548,5 +526,27 @@
     ],
     "correct": 2,
     "explain": "Percolation velocity uses the effective (void) area rather than the gross area, making the coefficient of percolation greater than the coefficient of permeability."
+  },
+  {
+    "q": "49. A plate load test is useful to estimate",
+    "options": [
+      "Has low bearing capacity",
+      "Settlement of foundation",
+      "Both bearing capacity and settlement of foundation",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explain": "The plate load test provides a load-settlement curve from which both the safe bearing capacity and the expected settlement of the actual foundation can be estimated."
+  },
+  {
+    "q": "50. A shallow foundation is defined as a foundation which",
+    "options": [
+      "Has low bearing capacity",
+      "Has a depth of embedment less than its width",
+      "Is resting on the ground surface",
+      "Causes less settlement"
+    ],
+    "correct": 1,
+    "explain": "By Terzaghi's definition, a foundation is 'shallow' when its depth of embedment (Df) is less than or approximately equal to its width (B), typically Df ≤ B."
   }
 ]

@@ -495,18 +495,7 @@
     "explain": "An overhanging beam with two supports has three reaction components, which can be solved with three equilibrium equations."
   },
   {
-    "q": "46. A plane structure is a structure",
-    "options": [
-      "the various members of which lie in a plane",
-      "the thickness of various members of which will be very small",
-      "in which there will not be any bending moment",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "A plane (2D) structure is one where all members and loads lie within a single plane."
-  },
-  {
-    "q": "47. A plane structure when subjected to a force lying outside the plane will be",
+    "q": "46. A plane structure when subjected to a force lying outside the plane will be",
     "options": [
       "stable",
       "unstable",
@@ -517,7 +506,7 @@
     "explain": "A plane structure is designed to resist in-plane forces; a force acting out of its plane (out-of-plane) causes instability since it cannot properly resist such loading."
   },
   {
-    "q": "48. A three hinged arch is generally hinged at its supports and",
+    "q": "47. A three hinged arch is generally hinged at its supports and",
     "options": [
       "at one quarter of span",
       "at the crown",
@@ -528,7 +517,7 @@
     "explain": "A three-hinged arch has hinges at both supports (springing) plus a third hinge typically placed at the crown (highest point) for symmetry and constructional convenience."
   },
   {
-    "q": "49. The maximum bending moment due to an isolated load in a three hinged parabolic arch (span l, rise h) having one of its hinges at the crown, occurs on either side of the crown at a distance",
+    "q": "48. The maximum bending moment due to an isolated load in a three hinged parabolic arch (span l, rise h) having one of its hinges at the crown, occurs on either side of the crown at a distance",
     "options": [
       "l/4",
       "h/4",
@@ -539,7 +528,7 @@
     "explain": "For a three-hinged parabolic arch with crown hinge, standard analysis shows the maximum bending moment due to an isolated load occurs at a distance l/(2√3) from the crown."
   },
   {
-    "q": "50. The ordinates of influence line diagram for bending moment always has the dimensions of",
+    "q": "49. The ordinates of influence line diagram for bending moment always has the dimensions of",
     "options": [
       "force",
       "length",
@@ -548,5 +537,16 @@
     ],
     "correct": 1,
     "explain": "An influence line for bending moment plots the moment produced at a section per unit load moving across the span; since moment = force×length, per unit force this ratio has dimensions of length."
+  },
+  {
+    "q": "50. A cantilever carrying a uniformly distributed load W over its full length is propped at its free end such that it is at the level of the fixed end. The bending moment will be zero at its free end also at",
+    "options": [
+      "mind pint of the cantilever",
+      "fixed point of the cantilever",
+      "1/4th length from free end",
+      "3/4th length from free end"
+    ],
+    "correct": 3,
+    "explain": "For a propped cantilever with UDL and prop bringing the free end to the fixed-end level, analysis shows the bending moment is zero at the free end and again at 3/4 of the length measured from the free end."
   }
 ]

@@ -77,7 +77,8 @@ const DRIVE = {
         "part 2": "1iCiH8dq3yFT3gsWJ0buHzc_TnFwCpe_j"
       },
       "1.5 SCIENCE & TECH": {
-        "All": "1TGPCmD-l8uWdaxp4dFksP3tTzSdfg6US"
+        "part 1": "1TGPCmD-l8uWdaxp4dFksP3tTzSdfg6US",
+        "part 2": "1qyvHC9oUK0Pg7-cyO4KCQdo4yNqMfYAT"
       },
       "1.6 PUBLIC HEALTH": {
         "All": "12-fQNgW5z4ffwNfYtIrcGPpd37peODVq"
@@ -97,8 +98,10 @@ const DRIVE = {
         "part 3": "1n094gPoSsqLYFWT0gI_5wAsrQq_s2oXD"
       },
       "1.12 Original Questions": {
+        "Asoj gorkhapatra_mcq_1-20_english": "1a39wiEFIDn2iQBAqwVvVag9-UpTUYZvz",
         "constitution": "1HRlsrjjxF8tW89R4fT9wTGjAnFt0gfVS",
         "Current Plan": "1S39S--nt9QVepKlcszdpntB8rRgAEqfd",
+        "gorkhapatra_asoj21_mcq_1-17_en": "1qioOBHc0tqVy0ILDG762xmRenhajczgD",
         "international affairs": "1pomfoXhK1mWU7QAO-oihx2SMsPJqxOCh",
         "international relations 101-150": "1TTD1aKKl_P6nGcUxzyyDkpbH2O7hPx_u",
         "international relations 151-180": "1dEdvbPuxrSKys_jlMAJkaHGLuSHQ47fF",
@@ -227,8 +230,7 @@ const DRIVE = {
         "part 2": "1klS7m64A9741f6Sm1BswA0nX4sHMTIml",
         "part 3": "1EZ0gJhlMVuDsWF341-p6cf6Emjka-140",
         "part 4": "1cCB3OX0H1PxXsc9tFL3Yt5gwXxUDQbFH",
-        "part 5": "13HlrGv9VHa3nPpwXqoZVQalGzsDvjbEl",
-        "part 6": "1O15MBCQjGI3G0xfjbldXGLEyOxWWCOud"
+        "part 5": "13HlrGv9VHa3nPpwXqoZVQalGzsDvjbEl"
       },
       "3.2 Mechanics of Beams": {
         "part 1": "11nyasGMxa8JCAanNh9jRSRa-NZv-oTJ0",
@@ -493,8 +495,7 @@ const DRIVE = {
       "11.1 General": {
         "part 1": "1DX395wZnUf-TfZehyGrOwztXTomkiyRv",
         "part 2": "15HmShOpp6kqbNogX70sgx22JVM9RAO6t",
-        "part 3": "1IdBDxs2ZilPbHZ_H9ccKSU_BXccVpkbs",
-        "part 4": "16sIKbTnI34A3oNrDUaQDB8AX4uwRiFdi"
+        "part 3": "1IdBDxs2ZilPbHZ_H9ccKSU_BXccVpkbs"
       },
       "11.2 Rate Analysis": {
         "All": "14b6cJ-lSW-mvNJMtWP9MnCdkw2DphisQ"
@@ -571,8 +572,7 @@ const DRIVE = {
         "part 2": "1t9gbPvDMnXEtn7UtcR0oe4v7MwHm3LX7",
         "part 3": "1sImmMkK0ivOlmWb0sM-cDg8BKf6SwDSf",
         "part 4": "1LxKBO_ppCoFiqzb4yd9ba_npSiK3ZcQF",
-        "part 5": "1xheF4Di-RdkMDJxpJ21m1y3vdvNEq3Hp",
-        "part 6": "1vTKFu-Y-36FTur9V7Iz1N-OzsRfZX8Wn"
+        "part 5": "1xheF4Di-RdkMDJxpJ21m1y3vdvNEq3Hp"
       },
       "3.3 BEAM&FRAME": {
         "part 1": "1hValUmDeveADXR6iEdKeAsHqODOrAVdc",
@@ -734,8 +734,7 @@ const DRIVE = {
         "part 5": "1rv6WmJdwQ2l0l2ShAIUKFX9ImYDDeWDA",
         "part 6": "160yttwSKiZkCe-Xa0w50gIpmT94UQuWj",
         "part 7": "1BhZXE1F9GUHa5wS0CgYX0YHX75NRbh4R",
-        "part 8": "1vcmX5gpz0hQqgmFlYlG8qwKK8bW6gdap",
-        "part 9": "1XaIDsbVlWPUBXlMXafZeS3bFth4jZgJm"
+        "part 8": "1vcmX5gpz0hQqgmFlYlG8qwKK8bW6gdap"
       },
       "6.2 W-C RATIO": {
         "part 1": "1ml574dyLARbk7fUogRpn3eCkKg7pLJE2",
@@ -983,7 +982,7 @@ const DRIVE = {
         "RK SHRESTHA.143-213": "1EvRKn9B2I8jjT1UeWzB8IYiDKRhz0NSs",
         "RK SHRESTHA.72-142": "1YrxxoZ0IPON3ycUL0sa8sjiRHEtKip5r",
         "Sunil Sah.1-60": "1qz_zUBjdwFUwL5Sf2ZsRitj2a-YLyJiO",
-        "Sunil Sah.61-120": "1KJE8TdtH2npCFgnT9aqh7OL-Bxie5gOI",
+        "Sunil Sah.61-120": "14OpnjLYWybGOrFfSGSZxKCcrtR25zPWd",
         "Sunil Sah.121-180": "1zljfSHkMsHIX0U7EikqQEQBclmjuZpmc",
         "Sunil Sah.181-240": "1USkoAe4X5fAaESnqG7dgMg_Uj9vMsR7Y",
         "Sunil Sah.241-300": "1_O1LBXaP2hzAyqPtuTqVCoCBVdZ-AJoK",
@@ -992,8 +991,7 @@ const DRIVE = {
     },
     "9": {
       "11.1 INTEREST&TIME VALUE": {
-        "part 1": "1XhDDMvyll_5lRBUELNoThYe_qal8JrTz",
-        "part 2": "1P-kbr6pzpAqhb44ACGzfagD8-YcEWrLN"
+        "All": "1XhDDMvyll_5lRBUELNoThYe_qal8JrTz"
       },
       "11.2 ANNUITIES&SINKING FUND": {
         "All": "1IdU7eESWluEeFeyka58ngKD7muHFFz7s"

@@ -1,17 +1,6 @@
 [
   {
-    "q": "1. The intercept between a given arch and a linear arch at a section is proportional to",
-    "options": [
-      "the horizontal thrust",
-      "the shear force at the section",
-      "the vertical reaction at the support",
-      "the bending moment at the section"
-    ],
-    "correct": 3,
-    "explain": "The vertical distance (intercept) between an actual arch axis and the linear (funicular/thrust-line) arch at any section is proportional to the bending moment at that section (M = H×intercept)."
-  },
-  {
-    "q": "2. The reaction locus a two hinged parabolic arch is",
+    "q": "1. The reaction locus a two hinged parabolic arch is",
     "options": [
       "a horizontal line parallel to the span",
       "a parabolic curve",
@@ -22,7 +11,7 @@
     "explain": "As a point load moves across a two-hinged parabolic arch, the locus of resultant reaction traces a parabolic curve."
   },
   {
-    "q": "3. The maximum tension in a cable occurs",
+    "q": "2. The maximum tension in a cable occurs",
     "options": [
       "at the highest point in the cable",
       "at the lowest point in the cable",
@@ -33,7 +22,7 @@
     "explain": "In a suspended cable, tension is a combination of horizontal component (constant) and vertical component (varying with slope); it is maximum at the supports (highest points), where the cable's slope is steepest."
   },
   {
-    "q": "4. A parabolic cable is subjected to a rise of t°C in temperature. Then the increase in dip of the cable is proportional to",
+    "q": "3. A parabolic cable is subjected to a rise of t°C in temperature. Then the increase in dip of the cable is proportional to",
     "options": [
       "span length",
       "square of span length",
@@ -44,7 +33,7 @@
     "explain": "The extra length gained due to thermal expansion relates to dip change through a relation involving the square of the span, giving increase in dip proportional to (span)²."
   },
   {
-    "q": "5. A three hinged girder is used to stiffen a cable of a suspension bridge. Then the bending moment in the girder due to loads will be",
+    "q": "4. A three hinged girder is used to stiffen a cable of a suspension bridge. Then the bending moment in the girder due to loads will be",
     "options": [
       "maximum at mid span",
       "maximum at quarter span",
@@ -55,7 +44,7 @@
     "explain": "In an ideal stiffened suspension system with a three-hinged girder matching the cable's thrust line, the girder carries zero bending moment throughout, all load being carried by cable tension."
   },
   {
-    "q": "6. A cable subjected to udl over its entire span assumes a shape of",
+    "q": "5. A cable subjected to udl over its entire span assumes a shape of",
     "options": [
       "semi circle",
       "an isosceles triangle",
@@ -66,7 +55,7 @@
     "explain": "A cable under a uniformly distributed load (per unit horizontal length, like a suspension bridge deck) takes the shape of a parabola."
   },
   {
-    "q": "7. Which of the following methods of structure analysis is a force method?",
+    "q": "6. Which of the following methods of structure analysis is a force method?",
     "options": [
       "slope deflection method",
       "column analogy method",
@@ -77,7 +66,7 @@
     "explain": "Column Analogy and Method of Consistent Deformation are Force Methods (Flexibility Methods), where redundant forces are the unknowns. Slope Deflection and Moment Distribution are Displacement Methods."
   },
   {
-    "q": "8. Degree of static indeterminacy of the frame is equal to (refer to image 1666)",
+    "q": "7. Degree of static indeterminacy of the frame is equal to (refer to image 1666)",
     "options": [
       "18",
       "15",
@@ -88,7 +77,7 @@
     "explain": "Calculated using $D_s = 3c - r'$, where 'c' is the number of closed loops and 'r' represents the releases at supports or hinges."
   },
   {
-    "q": "9. Portal method of framed analysis for horizontal loads is appropriate for a frame:",
+    "q": "8. Portal method of framed analysis for horizontal loads is appropriate for a frame:",
     "options": [
       "that has a width greater than its height",
       "that has a height greater than its width",
@@ -99,7 +88,7 @@
     "explain": "The portal method is an approximate method suitable for low-rise frames where the width is significant relative to the height."
   },
   {
-    "q": "10. The effective length of a column with both ends fixed is",
+    "q": "9. The effective length of a column with both ends fixed is",
     "options": [
       "l/2",
       "2l",
@@ -110,7 +99,7 @@
     "explain": "For a column fixed at both ends, the effective length is Le = L/2, per Euler's standard end-condition factors."
   },
   {
-    "q": "11. Which of the following structural analysis is a force method?",
+    "q": "10. Which of the following structural analysis is a force method?",
     "options": [
       "slope deflection",
       "column analogy",
@@ -121,7 +110,7 @@
     "explain": "Column analogy treats the redundants as forces, making it a force-based method."
   },
   {
-    "q": "12. Stiffness factor is calculated in structural members for analyzing it by",
+    "q": "11. Stiffness factor is calculated in structural members for analyzing it by",
     "options": [
       "moment distribution method",
       "slope deflection method",
@@ -132,18 +121,7 @@
     "explain": "The moment distribution method relies heavily on member stiffness to distribute unbalanced moments."
   },
   {
-    "q": "13. The effective length of a column with one end fixed and the other end hinged is",
-    "options": [
-      "l/2",
-      "2l",
-      "l/√2",
-      "l"
-    ],
-    "correct": 2,
-    "explain": "For a column fixed at one end and hinged at the other, the effective length is Le = L/√2."
-  },
-  {
-    "q": "14. In the case of long columns the maximum permissible stress depends on",
+    "q": "12. In the case of long columns the maximum permissible stress depends on",
     "options": [
       "the ultimate crushing strength of the material",
       "the maximum slenderness ratio",
@@ -154,7 +132,7 @@
     "explain": "For long columns, buckling (governed by slenderness ratio, combining both length and radius of gyration) controls failure, so permissible stress depends on the maximum slenderness ratio."
   },
   {
-    "q": "15. Unequal settlement in the supports of statically indeterminate structure develop",
+    "q": "13. Unequal settlement in the supports of statically indeterminate structure develop",
     "options": [
       "member force",
       "reactions from supports",
@@ -165,7 +143,7 @@
     "explain": "Settlement in indeterminate structures induces internal forces and reactions that wouldn't exist in a determinate structure."
   },
   {
-    "q": "16. The moment distribution method is best suited for",
+    "q": "14. The moment distribution method is best suited for",
     "options": [
       "trussed beam",
       "space frames",
@@ -176,7 +154,7 @@
     "explain": "as per key 1 MDM is specifically designed for rigid frames and continuous beams where joint rotations occur."
   },
   {
-    "q": "17. In the moment distribution method, the sum of distribution factors of all the members meeting at any joint is always :",
+    "q": "15. In the moment distribution method, the sum of distribution factors of all the members meeting at any joint is always :",
     "options": [
       "zero",
       "less than 1",
@@ -187,7 +165,7 @@
     "explain": "The total unbalanced moment must be 100% distributed, so $\\sum DF = 1$."
   },
   {
-    "q": "18. The stiffness method in structural analysis is also known as :",
+    "q": "16. The stiffness method in structural analysis is also known as :",
     "options": [
       "unit load method",
       "consistent deformation method",
@@ -198,7 +176,7 @@
     "explain": "The stiffness method uses displacements as the primary unknowns, hence it is a displacement method."
   },
   {
-    "q": "19. In the Euler's theory for long columns it is assumed that",
+    "q": "17. In the Euler's theory for long columns it is assumed that",
     "options": [
       "the failure occurs by crushing of the material",
       "the failure occurs by buckling only",
@@ -209,7 +187,7 @@
     "explain": "Euler's column theory is based purely on elastic instability (buckling) failure, ignoring crushing/direct stress effects, applicable to long columns."
   },
   {
-    "q": "20. Euler's formulae for columns can be used if the slenderness ratio is",
+    "q": "18. Euler's formulae for columns can be used if the slenderness ratio is",
     "options": [
       "<100",
       "0",
@@ -220,7 +198,7 @@
     "explain": "Euler's formula is valid for long columns with high slenderness ratio, generally taken as greater than about 120, where buckling (not crushing) governs failure."
   },
   {
-    "q": "21. What is principle of virtual work?",
+    "q": "19. What is principle of virtual work?",
     "options": [
       "work done by external forces > internal forces",
       "work done by external forces < internal forces",
@@ -231,7 +209,7 @@
     "explain": "For a system in equilibrium, the virtual work done by external forces equals the virtual work done by internal forces."
   },
   {
-    "q": "22. The statically indeterminate structures can be solved by",
+    "q": "20. The statically indeterminate structures can be solved by",
     "options": [
       "using equations of static alone",
       "equations of compatibility alone",
@@ -242,7 +220,7 @@
     "explain": "Statically indeterminate structures require both the equilibrium (static) equations and additional compatibility equations (based on deformation) to be solved fully."
   },
   {
-    "q": "23. The equations of compatibility are based on",
+    "q": "21. The equations of compatibility are based on",
     "options": [
       "the geometry of the deformed structure under the action of several forces acting",
       "the nature of external forces",
@@ -253,7 +231,7 @@
     "explain": "Compatibility equations ensure that displacements/deformations throughout a structure remain geometrically consistent (continuous) under the applied loading."
   },
   {
-    "q": "24. A dam is a",
+    "q": "22. A dam is a",
     "options": [
       "one dimensional structure",
       "two dimensional structure",
@@ -264,7 +242,7 @@
     "explain": "A dam has all three dimensions (length, height, and thickness/width) of comparable significant magnitude, making it a three-dimensional structure."
   },
   {
-    "q": "25. An internally indeterminate structure",
+    "q": "23. An internally indeterminate structure",
     "options": [
       "must be externally indeterminate",
       "must be externally determinate",
@@ -275,7 +253,7 @@
     "explain": "Internal indeterminacy (redundant members) is independent of external support conditions; depending on the supports provided, the overall structure may even be unstable."
   },
   {
-    "q": "26. A concentrated load P is supported by the free end of a quadrantal ring AB whose end B is fixed. The ratio of the vertical to horizontal deflections of the end A is",
+    "q": "24. A concentrated load P is supported by the free end of a quadrantal ring AB whose end B is fixed. The ratio of the vertical to horizontal deflections of the end A is",
     "options": [
       "π",
       "π/2",
@@ -286,7 +264,7 @@
     "explain": "For a quadrant ring under an end load, applying Castigliano's theorem to find vertical and horizontal deflection components gives a ratio of π/2."
   },
   {
-    "q": "27. A two hinged parabolic arch of span l and rise h carries a load varying from zero at the left end to w per unit run at the right end. The horizontal thrust is",
+    "q": "25. A two hinged parabolic arch of span l and rise h carries a load varying from zero at the left end to w per unit run at the right end. The horizontal thrust is",
     "options": [
       "wl²/4h",
       "wl²/8h",
@@ -297,18 +275,7 @@
     "explain": "For a two-hinged parabolic arch under a linearly varying (triangular) load, the derived horizontal thrust expression is wl²/12h."
   },
   {
-    "q": "28. In compression test, the fracture in cast in cast iron specimen would occur along",
-    "options": [
-      "the axis of load",
-      "an oblique plane",
-      "at right angles to the axis of specimen",
-      "would not occur"
-    ],
-    "correct": 1,
-    "explain": "Cast iron, being weak in shear, typically fails in compression tests along an oblique (diagonal) plane where shear stress is maximum, rather than perpendicular to the load axis."
-  },
-  {
-    "q": "29. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being simply supported is given by",
+    "q": "26. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being simply supported is given by",
     "options": [
       "3EI/L",
       "4EI/L",
@@ -319,7 +286,7 @@
     "explain": "The rotational stiffness of a prismatic member with the far end simply supported (pinned) is 3EI/L, a standard slope-deflection method coefficient."
   },
   {
-    "q": "30. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being fixed is given by",
+    "q": "27. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being fixed is given by",
     "options": [
       "3EI/L",
       "4EI/L",
@@ -330,7 +297,7 @@
     "explain": "The rotational stiffness of a prismatic member with the far end fixed is 4EI/L, the standard slope-deflection stiffness coefficient."
   },
   {
-    "q": "31. If M is the external moment which rotates the near end of a prismatic beam without translation ( the far end being fixed), then the moment induced at the far end is",
+    "q": "28. If M is the external moment which rotates the near end of a prismatic beam without translation ( the far end being fixed), then the moment induced at the far end is",
     "options": [
       "M/2 in same direction as M",
       "M/2 in opposite direction as M",
@@ -341,7 +308,7 @@
     "explain": "The carry-over factor for a prismatic member with the far end fixed is 1/2, meaning half the applied moment M is carried over to the far end in the same rotational sense."
   },
   {
-    "q": "32. A simply supported beam carrying a uniformly distributed load over its whole span, is propped at the centre of the span so that the beam is held to the level of the end supports. The reaction of the prop will be",
+    "q": "29. A simply supported beam carrying a uniformly distributed load over its whole span, is propped at the centre of the span so that the beam is held to the level of the end supports. The reaction of the prop will be",
     "options": [
       "half the distributed load",
       "3/8th distributed load",
@@ -352,7 +319,7 @@
     "explain": "For a beam propped at midspan and brought level with the end supports under UDL, standard analysis gives the prop reaction as 5/8 of the total distributed load."
   },
   {
-    "q": "33. The locus of reaction of a two hinged semi circular arch is",
+    "q": "30. The locus of reaction of a two hinged semi circular arch is",
     "options": [
       "straight line",
       "parabola",
@@ -363,7 +330,7 @@
     "explain": "As a moving load traverses a two-hinged semicircular arch, the locus of the resultant reaction at the support traces a straight line."
   },
   {
-    "q": "34. A rigid jointed plane frame is stable and statically determinate ............. .",
+    "q": "31. A rigid jointed plane frame is stable and statically determinate ............. .",
     "options": [
       "m + r = 2j",
       "m + r = 3j",
@@ -374,7 +341,7 @@
     "explain": "For a rigid-jointed plane frame (each joint with 3 dof), the condition for stable and statically determinate structure is 3m + r = 3j."
   },
   {
-    "q": "35. The number of independent equations to be satisfied for static equilibrium in a space structure is",
+    "q": "32. The number of independent equations to be satisfied for static equilibrium in a space structure is",
     "options": [
       "2",
       "3",
@@ -385,7 +352,7 @@
     "explain": "A three-dimensional (space) structure requires 6 independent equilibrium equations: 3 force equations (ΣFx, ΣFy, ΣFz) and 3 moment equations (ΣMx, ΣMy, ΣMz)."
   },
   {
-    "q": "36. The degree of static indeterminacy of a pin jointed space frame is given by",
+    "q": "33. The degree of static indeterminacy of a pin jointed space frame is given by",
     "options": [
       "m + r − 2j",
       "m + r − 3j",
@@ -396,7 +363,7 @@
     "explain": "For a pin-jointed space frame, each joint has 3 equilibrium equations (3D translation), giving static indeterminacy Ds = m + r − 3j."
   },
   {
-    "q": "37. The degree of static indeterminacy of a rigid jointed space frame is given by",
+    "q": "34. The degree of static indeterminacy of a rigid jointed space frame is given by",
     "options": [
       "m + r − 2j",
       "m + r − 3j",
@@ -407,7 +374,7 @@
     "explain": "For a rigid-jointed space frame, each member has 6 internal force components and each joint provides 6 equilibrium equations, giving static indeterminacy = 6m + r − 6j."
   },
   {
-    "q": "38. The degree of kinematic indeterminacy of a pin jointed space frame is",
+    "q": "35. The degree of kinematic indeterminacy of a pin jointed space frame is",
     "options": [
       "2j − r",
       "3j − r",
@@ -418,7 +385,7 @@
     "explain": "Each joint of a pin-jointed space frame has 3 possible translational displacements, so kinematic indeterminacy = 3j − r (subtracting restrained reaction components)."
   },
   {
-    "q": "39. The number of independent displacement components at each joint of a rigid jointed space frame is",
+    "q": "36. The number of independent displacement components at each joint of a rigid jointed space frame is",
     "options": [
       "1",
       "2",
@@ -429,7 +396,7 @@
     "explain": "A rigid joint in 3D space can have 3 translations and 3 rotations, giving 6 independent displacement components per joint."
   },
   {
-    "q": "40. The principle of virtual work can be applied to elastic system by considering the virtual work of",
+    "q": "37. The principle of virtual work can be applied to elastic system by considering the virtual work of",
     "options": [
       "internal forces only",
       "external forces only",
@@ -440,7 +407,7 @@
     "explain": "The principle of virtual work for elastic systems equates the virtual work done by external forces to the virtual work (strain energy) done by internal forces, so both must be considered."
   },
   {
-    "q": "41. Castigliano's first theorem is applicable",
+    "q": "38. Castigliano's first theorem is applicable",
     "options": [
       "for statically determinate structures only",
       "when the system behaves elastically",
@@ -451,7 +418,7 @@
     "explain": "Castigliano's first theorem, which relates partial derivatives of strain energy to displacements, is applicable specifically when the principle of superposition (linear elastic behavior) holds."
   },
   {
-    "q": "42. A bar l meter long and having its area of cross section A, is subjected to a gradually applied load W. the strain energy stored in the bar is",
+    "q": "39. A bar l meter long and having its area of cross section A, is subjected to a gradually applied load W. the strain energy stored in the bar is",
     "options": [
       "WL/2AE",
       "WL/AE",
@@ -462,7 +429,7 @@
     "explain": "Strain energy stored in a bar under a gradually applied axial load W is U = W²L/2AE, the standard formula (area under the linear load-deformation curve)."
   },
   {
-    "q": "43. The ILD for horizontal thrust at the support of a three hinged arch when a concentrated load passes over the span is",
+    "q": "40. The ILD for horizontal thrust at the support of a three hinged arch when a concentrated load passes over the span is",
     "options": [
       "a triangle with maximum ordinate at the center",
       "a triangle with maximum ordinate at one of the supports",
@@ -473,7 +440,7 @@
     "explain": "As a unit load moves across a three-hinged arch, the influence line for horizontal thrust is a triangle peaking at the crown (mid-span), i.e., maximum ordinate at the center."
   },
   {
-    "q": "44. A multi span continuous beam is simply supported at the two ends. One of the intermediate supports sinks with respect to other supports. Due to this settlement, the bending moment will get modified at",
+    "q": "41. A multi span continuous beam is simply supported at the two ends. One of the intermediate supports sinks with respect to other supports. Due to this settlement, the bending moment will get modified at",
     "options": [
       "only the two supports adjacent to the one that sinks",
       "only the support that sinks",
@@ -484,7 +451,7 @@
     "explain": "Support settlement in a continuous beam affects the bending moments at all intermediate supports (due to the continuity/redundancy), but the two simply supported end supports (already zero moment) remain unaffected."
   },
   {
-    "q": "45. For a two hinged arch, if one of the support settles horizontally, then the horizontal thrust .............",
+    "q": "42. For a two hinged arch, if one of the support settles horizontally, then the horizontal thrust .............",
     "options": [
       "is increased",
       "is decreased",
@@ -495,7 +462,7 @@
     "explain": "A horizontal settlement (moving the supports apart) reduces the strain energy stored due to the thrust, effectively decreasing the induced horizontal thrust."
   },
   {
-    "q": "46. In column analogy method, the area of an analogous column for a fixed beam of span L and flexural rigidity EI is taken as",
+    "q": "43. In column analogy method, the area of an analogous column for a fixed beam of span L and flexural rigidity EI is taken as",
     "options": [
       "L/EI",
       "L/2EL",
@@ -506,7 +473,7 @@
     "explain": "In the column analogy method, the analogous column's cross-sectional area is taken as L/EI, corresponding to the M/EI diagram base."
   },
   {
-    "q": "47. The degree of static indeterminacy up to which column analogy method can be used is",
+    "q": "44. The degree of static indeterminacy up to which column analogy method can be used is",
     "options": [
       "2",
       "3",
@@ -517,7 +484,7 @@
     "explain": "The column analogy method is practically limited to structures with static indeterminacy up to degree 3 (e.g., single-span fixed or portal frames), beyond which it becomes cumbersome."
   },
   {
-    "q": "48. The deflection at any point of a perfect frame can be obtained by applying a unit load at the joint in",
+    "q": "45. The deflection at any point of a perfect frame can be obtained by applying a unit load at the joint in",
     "options": [
       "vertical direction",
       "horizontal direction",
@@ -528,7 +495,7 @@
     "explain": "The unit load method (virtual work) requires the unit load to be applied at the point and in the exact direction of the deflection being sought."
   },
   {
-    "q": "49. In slope deflection equations, the deformations are considered to be caused by",
+    "q": "46. In slope deflection equations, the deformations are considered to be caused by",
     "options": [
       "bending moment only",
       "shear force only",
@@ -539,7 +506,7 @@
     "explain": "The slope-deflection method idealizes members as being deformed (bent) due to bending moment only, neglecting shear and axial deformations."
   },
   {
-    "q": "50. The three moments equation is applicable only when",
+    "q": "47. The three moments equation is applicable only when",
     "options": [
       "the beam is prismatic",
       "there is no settlement of supports",
@@ -548,5 +515,38 @@
     ],
     "correct": 2,
     "explain": "Clapeyron's three-moment theorem requires continuity of the beam (no internal hinges/discontinuities) between the spans considered, though it can handle varying EI, unequal spans, and support settlements with modified forms."
+  },
+  {
+    "q": "48. Which of the following is a relatively ductile material?",
+    "options": [
+      "Mild steel",
+      "Cast iron",
+      "High carbon steel",
+      "Bronze"
+    ],
+    "correct": 0,
+    "explain": "Mild steel, with its low carbon content, exhibits significant ductility (large elongation before failure) compared to the more brittle options listed."
+  },
+  {
+    "q": "49. For structural carbon steel the ratio of yield stress to ultimate strength will be about",
+    "options": [
+      "0.55 to 0.6",
+      "0.2 to 0.3",
+      "1.0",
+      "1.2 to 1.5"
+    ],
+    "correct": 0,
+    "explain": "For typical structural carbon (mild) steel, the yield-to-ultimate strength ratio is commonly around 0.55 to 0.6."
+  },
+  {
+    "q": "50. In moment distribution method, the sum of distribution factors of all the members meeting at any joint is always",
+    "options": [
+      "zero",
+      "less than one",
+      "1",
+      "greater than one"
+    ],
+    "correct": 2,
+    "explain": "By definition, distribution factors at a joint are proportional shares of the total stiffness, and their sum must always equal 1 (100% of the unbalanced moment is distributed)."
   }
 ]
