@@ -1,61 +1,281 @@
 [
   {
-    "q": "1. The free board in a channel is governed by the",
+    "q": "1. The type of canal meant for diversion of flood waters of river is .............",
     "options": [
-      "size of the canal",
-      "location of the canal",
-      "water surface fluctuations",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Freeboard is the safety margin between the full supply level and the top of the bank to prevent overtopping."
-  },
-  {
-    "q": "2. The saturation gradient in an ordinary loam soils is, usually, kept from",
-    "options": [
-      "1:1",
-      "2:1",
-      "3:1",
-      "4:1"
-    ],
-    "correct": 3,
-    "explain": "The saturation line (phreatic line) in loam soil banks is typically assumed to have a slope of 4:1 for design stability."
-  },
-  {
-    "q": "3. The height of dowel above the road level should not be more than",
-    "options": [
-      "10 cm",
-      "20 cm",
-      "30 cm",
-      "40 cm"
-    ],
-    "correct": 2,
-    "explain": "A dowel is a small curb on the canal bank road to prevent vehicles from falling; 30 cm is the standard maximum height."
-  },
-  {
-    "q": "4. The width of dowel is, usually, kept from",
-    "options": [
-      "0.1 m to 0.3 m",
-      "0.3 m to 0.6 m",
-      "0.6 m to 0.9 m",
-      "0.9 m to 1.2 m"
+      "ridge canal",
+      "inundation canal",
+      "perennial canal",
+      "permanent canal"
     ],
     "correct": 1,
-    "explain": "Dowels typically range from 0.3 to 0.6 meters in width to remain stable and functional as a safety curb."
+    "explain": "Inundation canals do not have a permanent headwork (like a weir or barrage) and only draw water when the river level rises during floods."
   },
   {
-    "q": "5. A spoil bank is formed when the",
+    "q": "2. An irrigation canal which is designed to irrigate all round the year may be called .............",
     "options": [
-      "canal has steep bed slope",
-      "canal section is too large",
-      "volume of excavation is in excess of the embankment filling",
-      "canal alignment is meandrous"
+      "permanent canal",
+      "continuous canal",
+      "perennial canal",
+      "all weather canal"
     ],
     "correct": 2,
-    "explain": "When the earth excavated from the canal is more than what is needed for the banks, the surplus is piled into 'spoil banks'."
+    "explain": "Perennial canals are supplied by a permanent source (like a dam or a river with a weir) that ensures water availability throughout the year, including the dry season."
   },
   {
-    "q": "6. The borrow pits should, preferably, be taken from",
+    "q": "3. Canals which are excavated directly from the rivers with or without head regulator are called .............",
+    "options": [
+      "natural canals",
+      "ditch canals",
+      "seasonal canals",
+      "inundation canals"
+    ],
+    "correct": 3,
+    "explain": "Inundation canals are simple channels dug from the river bank to divert floodwater without the complex masonry control structures found in perennial systems."
+  },
+  {
+    "q": "4. According to Kennedy's theory the silt is kept in suspension due to the eddies generated from .............",
+    "options": [
+      "the entire perimeter",
+      "from the sides only",
+      "from the bed only",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Kennedy assumed that the upward force (eddies) keeping silt in suspension is generated only from the bed of the canal, not the sides."
+  },
+  {
+    "q": "5. The counter berm for a canal is provided .............",
+    "options": [
+      "to increase the stability of the bank",
+      "to increase the cross-sectional area of the canal",
+      "to contain the saturation gradient line within the bank",
+      "to be used as an inspection track"
+    ],
+    "correct": 2,
+    "explain": "A counter berm is an extra horizontal strip of earth added to the outer slope of a canal bank to ensure the seepage (phreatic) line does not exit the bank face, preventing erosion and failure."
+  },
+  {
+    "q": "6. Gibb's module is a type of .............",
+    "options": [
+      "non-modular outlet",
+      "semi-module outlet",
+      "rigid module outlet",
+      "open flume outlet"
+    ],
+    "correct": 2,
+    "explain": "Gibb's module is a rigid module because it maintains a constant discharge regardless of the water level fluctuations in either the distributary or the field channel."
+  },
+  {
+    "q": "7. In the case of a notch type of canal fall, the surplus energy is dissipated .............",
+    "options": [
+      "over the glacis",
+      "in the cistern",
+      "in the hydraulic jump",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In notch falls, a water cushion (cistern) is provided at the downstream bed level to absorb the impact and dissipate the energy of the falling water."
+  },
+  {
+    "q": "8. A canal escape is a structure constructed for the purpose of .............",
+    "options": [
+      "dissipating excess energy",
+      "acting as a forebay",
+      "discharging waste water from the canal",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "An escape acts as a 'safety valve' for the canal, allowing excess water (from rain or sudden closure of outlets) to be discharged safely into a natural drain."
+  },
+  {
+    "q": "9. Syphon aqueduct is selected as the cross drainage work when the canal bed level .............",
+    "options": [
+      "is below the maximum flood level in the drain",
+      "is above the maximum flood level in the drain",
+      "is below the bed level of the drain",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "If the canal bed is lower than the High Flood Level (HFL) of the drain, the drain water must be depressed and passed under pressure (syphonic action) beneath the canal."
+  },
+  {
+    "q": "10. The length of water way required for the drain at a cross drainage work is obtained as .............",
+    "options": [
+      "L = 475 * sqrt(Q)",
+      "L = 47.5 * sqrt(Q)",
+      "L = 4.75 * sqrt(Q)",
+      "L = 0.475 * sqrt(Q)"
+    ],
+    "correct": 2,
+    "explain": "According to Lacey's regime perimeter formula, the waterway (L) is given by $4.75\\sqrt{Q}$, where Q is the maximum flood discharge."
+  },
+  {
+    "q": "11. The difference in elevations of top of bank and full supply level of a canal is called .............",
+    "options": [
+      "berm",
+      "free board",
+      "critical depth",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Freeboard is the vertical distance provided as a safety margin to prevent water from overtopping the banks due to waves or sudden discharge increases."
+  },
+  {
+    "q": "12. The full supply level of a canal at its head regulator should be kept .............",
+    "options": [
+      "at the same F.S.L. of parent canal",
+      "15 cm below the F.S.L. of parent canal",
+      "15 cm above the F.S.L. of parent canal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "To ensure a smooth gravity flow into the off-take canal even during slight fluctuations, the F.S.L. of the off-take is typically kept 15 cm to 30 cm lower than the parent canal."
+  },
+  {
+    "q": "13. The difference between the level of the top of the bank and the F.S.L. is known as .............",
+    "options": [
+      "safe margin depth",
+      "berm",
+      "free board",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Freeboard is the safety vertical distance provided to prevent overtopping of the banks due to waves, sudden discharge increases, or wind action."
+  },
+  {
+    "q": "14. The minimum free board to be provided should be 90 cm if the discharge in the canal is between .............",
+    "options": [
+      "100 and 150 m3/s",
+      "60 and 100 m3/s",
+      "30 and 60 m3/s",
+      "30 and 33 m3/s"
+    ],
+    "correct": 1,
+    "explain": "As discharge increases, the risk of wave height and surge increases. Standards recommend a 0.9m freeboard for discharges in the range of 60 to 150 cumecs."
+  },
+  {
+    "q": "15. A canal has a length of L km and the perimeter of its cross-section is P m. The amount required to line the canal, if the cost of lining per sq. m is C, will be .............",
+    "options": [
+      "10000 PLC",
+      "PLC / 10000",
+      "1000 PLC",
+      "PLC / 1000"
+    ],
+    "correct": 2,
+    "explain": "Area to be lined = Perimeter (P) x Length (L). Converting L km to meters: $L \\times 1000$. Total Cost = $P \\times (L \\times 1000) \\times C = 1000 PLC$."
+  },
+  {
+    "q": "16. A triangular channel section has side slopes of 1 vertical : z horizontal. If the depth of flow is y, what is the hydraulic depth?",
+    "options": [
+      "y",
+      "y / 3",
+      "y / 4",
+      "y / 2"
+    ],
+    "correct": 3,
+    "explain": "Hydraulic Depth (D) = Area / Top Width. For a triangle: $Area = z y^2$; $Top Width = 2zy$. $D = (zy^2) / (2zy) = y/2$."
+  },
+  {
+    "q": "17. The most desirable section for a lined canal is .............",
+    "options": [
+      "trapezoidal with rounded corners for large sections",
+      "triangular with round bottom for small sections",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Rounded corners reduce friction and prevent silt deposition in corners. Trapezoidal is best for large flows, while triangular is efficient for small discharges."
+  },
+  {
+    "q": "18. The uplift pressure on the roof of an inverted siphon will be maximum when .............",
+    "options": [
+      "drain is running with H.F.L.",
+      "drain is running dry",
+      "canal is running with F.S.L.",
+      "canal is running dry"
+    ],
+    "correct": 0,
+    "explain": "The roof of an inverted siphon (where the drain passes under the canal) experiences maximum upward force when the drain is at its High Flood Level (HFL), exerting maximum hydrostatic pressure."
+  },
+  {
+    "q": "19. The crest level of a barrage is kept .............",
+    "options": [
+      "almost at the river bed level with large gates",
+      "high with no gates",
+      "high with large gates",
+      "low with no gates"
+    ],
+    "correct": 0,
+    "explain": "Unlike a weir, a barrage keeps its crest low (near river bed level) to offer less obstruction to floods. The ponding of water is achieved almost entirely by large adjustable gates."
+  },
+  {
+    "q": "20. Stone pitching, or any other material laid on a sloping face of an earthen bank to maintain its slope or to protect it from erosion is called",
+    "options": [
+      "filter",
+      "revetment",
+      "shrouding",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Revetment is a facing of stone, concrete units, or slabs built to protect a scarp, the foot of a cliff, or a bank against erosion by wave action or currents."
+  },
+  {
+    "q": "21. A weir in which the tail water level is more than the crest level is called",
+    "options": [
+      "stalled weir",
+      "submerged weir",
+      "flooded weir",
+      "all the above"
+    ],
+    "correct": 1,
+    "explain": "A weir is considered submerged or 'drowned' when the water level on the downstream side (tail water) rises above the elevation of the weir crest."
+  },
+  {
+    "q": "22. In Montague type fall",
+    "options": [
+      "a straight glacis is used",
+      "a parabolic glacis is used",
+      "a cycloidal glacis is used",
+      "no glacis is used"
+    ],
+    "correct": 1,
+    "explain": "The Montague fall is characterized by a profile following a parabolic curve, which helps in increasing the velocity and ensuring the formation of a hydraulic jump for energy dissipation."
+  },
+  {
+    "q": "23. In the case of flow over a rectangular suppressed weir, the pressure underneath the nappe will be",
+    "options": [
+      "very high",
+      "moderately high",
+      "negative",
+      "atmospheric"
+    ],
+    "correct": 2,
+    "explain": "In suppressed weirs, air cannot enter the space under the nappe. As water carries away air, a partial vacuum (negative pressure) is created, which can cause the nappe to 'cling'."
+  },
+  {
+    "q": "24. A canal aligned at right angles to contour of a country, is known as",
+    "options": [
+      "side slope canal",
+      "contour canal",
+      "water shed canal",
+      "branch canal"
+    ],
+    "correct": 0,
+    "explain": "Side slope canals run roughly at right angles to the contours."
+  },
+  {
+    "q": "25. The berms when fully formed",
+    "options": [
+      "reduce the absorption losses and prevents leaks",
+      "protect the bank from erosion because of wave action",
+      "provide a scope for future widening the channel",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Berms collect silt over time, which helps in lining the canal naturally (reducing seepage) and strengthening the banks."
+  },
+  {
+    "q": "26. The borrow pits should, preferably, be taken from",
     "options": [
       "the field on the right side of canal",
       "the field on the left side of the canal",
@@ -66,51 +286,7 @@
     "explain": "Taking borrow pits from the canal bed (central width) is preferred because they will eventually fill with silt, making the canal bed smoother."
   },
   {
-    "q": "7. In case of small channels, the borrow pits should start from a distance not less than ............. from the toe of the embankment.",
-    "options": [
-      "2 m",
-      "3 m",
-      "4 m",
-      "5 m"
-    ],
-    "correct": 3,
-    "explain": "A safe distance (minimum 5m) is maintained to prevent the borrow pit from undermining the stability of the canal embankment."
-  },
-  {
-    "q": "8. When the quantity of the earth is much in excess of the quantity required for filling, it has to be deposited in the form of spoil banks. The spoil banks are made on",
-    "options": [
-      "the right side",
-      "the left side",
-      "both the sides",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Depending on available land and the volume of excess soil, spoil banks can be constructed on either or both sides of the canal alignment."
-  },
-  {
-    "q": "9. Lining of a canal is necessary",
-    "options": [
-      "to minimize the seepage losses in canal",
-      "to prevent erosion of bed and sides due to high velocities",
-      "to increase the discharge in canal section by increasing the velocity",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Lining creates a smooth, impermeable surface that saves water, allows for higher non-erodible velocities, and improves discharge capacity."
-  },
-  {
-    "q": "10. Lining of canal ............. the maintenance of the canal.",
-    "options": [
-      "increases",
-      "decreases",
-      "does not effects",
-      "none"
-    ],
-    "correct": 1,
-    "explain": "Lining prevents weed growth and silting, which significantly reduces the frequency and cost of annual maintenance."
-  },
-  {
-    "q": "11. Lining of a canal",
+    "q": "27. Lining of a canal",
     "options": [
       "assures economical water distribution",
       "reduces possibility of breaching",
@@ -121,40 +297,7 @@
     "explain": "A lined canal is more stable, loses less water to seepage, and maintains a steeper energy gradient useful for small-scale hydro projects."
   },
   {
-    "q": "12. The sodium carbonate lining consists of at least",
-    "options": [
-      "6% sodium carbonate and 10% clay",
-      "10% sodium carbonate and 6% clay",
-      "1% sodium carbonate and 6% clay",
-      "1% clay and 6% sodium carbonate"
-    ],
-    "correct": 2,
-    "explain": "A low-cost lining method involves mixing approximately 1% sodium carbonate with 6% clay into the soil to reduce permeability."
-  },
-  {
-    "q": "13. For the repairing of an old but sound concrete lining, the lining preferred is",
-    "options": [
-      "shotcrete lining",
-      "precast concrete lining",
-      "soil cement lining",
-      "sodium carbonate lining"
-    ],
-    "correct": 0,
-    "explain": "Shotcrete (pneumatically applied mortar) is ideal for repairing cracks or resurfacing existing concrete structures."
-  },
-  {
-    "q": "14. The weed growth in a canal leads to",
-    "options": [
-      "decrease in silting",
-      "decrease in discharge",
-      "increase in discharge",
-      "increase in velocity of flow"
-    ],
-    "correct": 1,
-    "explain": "Weeds increase the rugosity (roughness) of the channel, which slows down the water velocity and reduces the overall discharge capacity."
-  },
-  {
-    "q": "15. Kennedy, in his silt theory, assumed that the silt is kept in suspension because of eddies generated from the",
+    "q": "28. Kennedy, in his silt theory, assumed that the silt is kept in suspension because of eddies generated from the",
     "options": [
       "bed only",
       "sides only",
@@ -165,84 +308,7 @@
     "explain": "Kennedy's theory simplified the mechanics by assuming only the vertical eddies rising from the canal bed support the silt particles."
   },
   {
-    "q": "16. Kennedy gave a relation between",
-    "options": [
-      "velocity and hydraulic mean depth",
-      "area and velocity",
-      "critical velocity and the depth of flowing water",
-      "all of the above"
-    ],
-    "correct": 2,
-    "explain": "Kennedy's fundamental equation ($V_0 = 0.55D^{0.64}$) relates the critical velocity (no silting, no scouring) to the depth of water ($D$)."
-  },
-  {
-    "q": "17. The relation given by Kennedy for critical velocity in m/s is",
-    "options": [
-      "V0 = 0.55 m x D^0.64",
-      "V0 = 0.64 m x D^0.55",
-      "V0 = 0.74 m x D^0.84",
-      "V0 = 0.84 m x D^0.74"
-    ],
-    "correct": 0,
-    "explain": "This is the standard formula where 'm' is the critical velocity ratio and 'D' is the depth."
-  },
-  {
-    "q": "18. A channel is said to be in scouring when the critical velocity ratio is ............. one.",
-    "options": [
-      "equal to",
-      "less than",
-      "greater than",
-      "all"
-    ],
-    "correct": 2,
-    "explain": "If the CVR ($m$) is greater than 1, the actual velocity is higher than the critical velocity required to prevent scouring, leading to bed erosion."
-  },
-  {
-    "q": "19. According to Kennedy, the silt transporting power of a channel is proportional to",
-    "options": [
-      "V0^1/2",
-      "V0^3/2",
-      "V0^5/2",
-      "V0^7/2"
-    ],
-    "correct": 2,
-    "explain": "Kennedy derived that the silt carrying capacity of a channel varies with the 2.5 (or 5/2) power of its velocity."
-  },
-  {
-    "q": "20. According to Lacey, a channel is said to be in regime, if",
-    "options": [
-      "it flows in incoherent unlimited alluvium of the same character as that transported material",
-      "its discharge is constant",
-      "the silt grade and the silt charge are constant",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Lacey's 'True Regime' conditions require constant discharge, constant silt properties, and flow through an unlimited alluvial bed."
-  },
-  {
-    "q": "21. The main cause of silting in channel is",
-    "options": [
-      "non-regime section",
-      "inadequate slope",
-      "defective head regular",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Silting occurs when velocity drops (due to poor slope or design) or when excessive silt enters through the head regulator."
-  },
-  {
-    "q": "22. According to Lacey",
-    "options": [
-      "the silt is kept in suspension due to the force of vertical eddies",
-      "the eddies are generated from bed and sides, both normal to the surface of generation",
-      "the vertical component of eddies generated from sides will also support the silt",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Unlike Kennedy, Lacey accounted for eddies generated from the entire wetted perimeter (bed and sides)."
-  },
-  {
-    "q": "23. Lacey assumed that silt is kept in suspension because of the normal components of eddies generated from the",
+    "q": "29. Lacey assumed that silt is kept in suspension because of the normal components of eddies generated from the",
     "options": [
       "bed only",
       "side only",
@@ -253,40 +319,7 @@
     "explain": "Lacey's theory improved upon Kennedy's by stating that eddies arise from the whole perimeter, including the sides."
   },
   {
-    "q": "24. Lacey gave a relation between",
-    "options": [
-      "velocity and hydraulic mean depth",
-      "area and velocity",
-      "both 'a' and 'b'",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Lacey provided a comprehensive set of equations relating $V$, $R$, $A$, $Q$, and $S$ for regime channels."
-  },
-  {
-    "q": "25. The channel after attaining its section and longitudinal slope, will be said to be in ............. regime.",
-    "options": [
-      "initial",
-      "final",
-      "permanent",
-      "all"
-    ],
-    "correct": 1,
-    "explain": "Final regime is the state reached when a channel has adjusted its perimeter, depth, and slope to become stable in alluvium."
-  },
-  {
-    "q": "26. The general regime flow equation is",
-    "options": [
-      "V = 10.8 R^(2/3) S^(1/3)",
-      "V = 10.8 R^(1/3) S^(2/3)",
-      "V = 10.8 R^(3/2) S^(1/3)",
-      "V = 10.8 R^(3/2) S^(1/2)"
-    ],
-    "correct": 0,
-    "explain": "This is Lacey's general flow equation derived for regime channels in alluvium."
-  },
-  {
-    "q": "27. If m is the mean particle diameter of the silt in mm, the Lacey's silt factor (f) is given by",
+    "q": "30. If m is the mean particle diameter of the silt in mm, the Lacey's silt factor (f) is given by",
     "options": [
       "f = 1.76 m^1/2",
       "f = 1.76 m^3/2",
@@ -297,73 +330,7 @@
     "explain": "The silt factor $f$ determines the roughness and required velocity of the channel based on the bed material size."
   },
   {
-    "q": "28. Distributary head regulators are provided",
-    "options": [
-      "to control the supplies to the off-taking channel",
-      "to control the silt entry in the off-taking canal",
-      "to stop the supply, when not needed, in the off-taking canal",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "These regulators act as valves to manage discharge, sediment intake, and closure for the smaller off-taking canal."
-  },
-  {
-    "q": "29. Cross regulators are provided",
-    "options": [
-      "to raise the water level to its upstream during the periods of low discharges in the parent channel",
-      "to help in closing the supply to downstream of the parent channel",
-      "to absorb fluctuation in various sections of the canal system",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Cross regulators are built across the main canal to back up water for off-takes and control flow downstream."
-  },
-  {
-    "q": "30. A structure constructed in an irrigation canal for the purpose of wasting some of its water, is known as a",
-    "options": [
-      "fall",
-      "escape",
-      "regulator",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Escapes act as safety valves to discharge excess water caused by heavy rain or sudden closures of off-takes."
-  },
-  {
-    "q": "31. Escapes are also known as ............. for the canals.",
-    "options": [
-      "outlet",
-      "safety valves",
-      "regulators",
-      "none"
-    ],
-    "correct": 1,
-    "explain": "They protect the canal banks from overtopping and breaching during emergency conditions."
-  },
-  {
-    "q": "32. The capacity of escape channel should not be less than ............. of the capacity of the parent channel at that point.",
-    "options": [
-      "20%",
-      "30%",
-      "40%",
-      "50%"
-    ],
-    "correct": 3,
-    "explain": "To be effective as an emergency safety structure, an escape must be able to handle at least 50% of the canal's design discharge."
-  },
-  {
-    "q": "33. A fall, which maintains the depth is a",
-    "options": [
-      "trapezoidal notch fall",
-      "rectangular notch fall",
-      "low weir fall",
-      "all of these"
-    ],
-    "correct": 0,
-    "explain": "A trapezoidal notch fall is designed so that the depth-discharge relationship of the fall matches the canal itself, maintaining constant depth."
-  },
-  {
-    "q": "34. The Sarda canal has a",
+    "q": "31. The Sarda canal has a",
     "options": [
       "glacis type fall",
       "vertical drop fall",
@@ -374,29 +341,7 @@
     "explain": "The Sarda type fall is a classic example of a vertical drop fall, used when the discharge is small and the drop is around 1 to 1.5 meters."
   },
   {
-    "q": "35. In Sarda type fall, the length of the crest is kept ............. the bed width of the canal.",
-    "options": [
-      "more than",
-      "equal to",
-      "less than",
-      "all of these"
-    ],
-    "correct": 1,
-    "explain": "Standard design for a Sarda fall keeps the crest length equal to the bed width of the incoming canal."
-  },
-  {
-    "q": "36. In a Sarda type fall, the width of the trapezoidal crest (B) is given by",
-    "options": [
-      "B = 0.44 sqrt(H+d)",
-      "B = 0.44 sqrt(H-d)",
-      "B = 0.55 sqrt(H+d)",
-      "B = 0.55 sqrt(H-d)"
-    ],
-    "correct": 2,
-    "explain": "This empirical formula is used to calculate the stable top width of the crest for a trapezoidal Sarda fall."
-  },
-  {
-    "q": "37. The relation for discharge (Q) over a rectangular crest of a Sarda fall is",
+    "q": "32. The relation for discharge (Q) over a rectangular crest of a Sarda fall is",
     "options": [
       "Q = 1.835 LH^1.5 (H/B)^1/6",
       "Q = 1.835 LH^1.5 (H/B)^1/3",
@@ -407,7 +352,7 @@
     "explain": "This is the modified weir formula used for the rectangular crest design of a Sarda type fall."
   },
   {
-    "q": "38. A baffle wall is a sort of low weir constructed at the end of the cistern to",
+    "q": "33. A baffle wall is a sort of low weir constructed at the end of the cistern to",
     "options": [
       "head up water to its upstream to such a high that hydraulic jump is formed",
       "withstand the actual impact of the high velocity jet to dissipate the energy",
@@ -418,95 +363,7 @@
     "explain": "The baffle wall (or baffle platform) helps ensure the hydraulic jump occurs within the paved cistern to protect the bed."
   },
   {
-    "q": "39. A parabolic glacis type fall is commonly known as",
-    "options": [
-      "Montague fall",
-      "Inglis fall",
-      "Sarda fall",
-      "vertical type fall"
-    ],
-    "correct": 0,
-    "explain": "The Montague fall utilizes a parabolic glacis to efficiently guide water into the cistern and promote energy dissipation."
-  },
-  {
-    "q": "40. When the water is thrown into a well over a crest from where it escapes near its bottom, the type of fall is called",
-    "options": [
-      "rapid fall",
-      "cylinder fall",
-      "pipe fall",
-      "glacis fall"
-    ],
-    "correct": 1,
-    "explain": "A cylinder fall (well fall) uses a vertical shaft to drop water, making it suitable for very large drops and small discharges."
-  },
-  {
-    "q": "41. A sudden fall of level of ground along the alignment of a canal joined by an inclined bed is called a",
-    "options": [
-      "rapid fall",
-      "cylinder fall",
-      "sudden fall",
-      "glacis fall"
-    ],
-    "correct": 0,
-    "explain": "Rapid falls consist of a long sloping glacis and are used where the natural ground slope is steeper than the canal bed slope."
-  },
-  {
-    "q": "42. The cylinder or well fall is quite suitable and economical for",
-    "options": [
-      "low discharge sand low drops",
-      "low discharges and high drops",
-      "high discharges and low drops",
-      "high discharges and high drops"
-    ],
-    "correct": 1,
-    "explain": "Well falls are ideal for dropping small amounts of water over high vertical distances, such as in hilly terrain."
-  },
-  {
-    "q": "43. The discharge (Q) over trapezoidal crest of Sarda fall is ............. as compared to rectangular crest of identical parameters.",
-    "options": [
-      "same",
-      "less",
-      "more",
-      "none"
-    ],
-    "correct": 2,
-    "explain": "Due to the wider side area in a trapezoidal shape, the discharge capacity is slightly higher than a rectangular crest of the same base width."
-  },
-  {
-    "q": "44. The Ingles type fall makes use of ............. impact for energy dissipation.",
-    "options": [
-      "straight",
-      "horizontal",
-      "vertical",
-      "all"
-    ],
-    "correct": 2,
-    "explain": "The Ingles (or baffle) fall uses a vertical impact of the water jet against a baffle wall to dissipate kinetic energy."
-  },
-  {
-    "q": "45. The fall which can be used as meter fall, is",
-    "options": [
-      "vertical drop fall",
-      "flumed glacis fall",
-      "un-flumed glacis fall",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "A flumed glacis fall can be calibrated to accurately measure the discharge passing through it."
-  },
-  {
-    "q": "46. A canal outlet should",
-    "options": [
-      "be so designed that the farmer cannot temper with its functioning",
-      "be simple so that it can be constructed or fabricated by local masons",
-      "draw its fair share of silt carried by the distributing channel",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "A good outlet (module) must be tamper-proof, simple, and proportional in silt and water distribution."
-  },
-  {
-    "q": "47. A device which ensures a constant discharge of water passing from one channel to another irrespective of water level in each within certain specified limits, is called",
+    "q": "34. A device which ensures a constant discharge of water passing from one channel to another irrespective of water level in each within certain specified limits, is called",
     "options": [
       "flume",
       "module",
@@ -517,18 +374,7 @@
     "explain": "This is the definition of a rigid module, which provides a constant discharge regardless of water level fluctuations."
   },
   {
-    "q": "48. An outlet in which the discharge depends upon the difference in level between the water levels in distributing channel and the water course, is known as",
-    "options": [
-      "non-modular outlet",
-      "semi-module outlet",
-      "modular outlet",
-      "rigid module"
-    ],
-    "correct": 0,
-    "explain": "Non-modular outlets (like a simple pipe) vary their discharge based on the water levels of both the parent canal and the field channel."
-  },
-  {
-    "q": "49. In a flexible outlet, the discharge depends upon the",
+    "q": "35. In a flexible outlet, the discharge depends upon the",
     "options": [
       "water level in distributary",
       "water level in water course",
@@ -539,7 +385,7 @@
     "explain": "A semi-module (flexible outlet) depends only on the water level in the parent distributary, not on the field channel level."
   },
   {
-    "q": "50. When discharge of an outlet is independent of the water levels in the water course and the distributary, the outlet is termed as a",
+    "q": "36. When discharge of an outlet is independent of the water levels in the water course and the distributary, the outlet is termed as a",
     "options": [
       "flexible outlet",
       "non-modular outlet",
@@ -548,5 +394,181 @@
     ],
     "correct": 3,
     "explain": "A rigid module is designed to provide a fixed flow rate even if water levels change in either channel."
+  },
+  {
+    "q": "37. The ratio of the head recovered to the head put in an outlet, is called",
+    "options": [
+      "proportionality",
+      "flexibility",
+      "sensitivity",
+      "efficiency"
+    ],
+    "correct": 3,
+    "explain": "Efficiency of an outlet refers to how much energy (head) is maintained after the water passes through the module."
+  },
+  {
+    "q": "38. The sensitivity of a rigid module is ............",
+    "options": [
+      "equal to zero",
+      "less than unity",
+      "equal to unity",
+      "more than unity"
+    ],
+    "correct": 0,
+    "explain": "A rigid module maintains a constant discharge regardless of the water level in the distributary or the watercourse; therefore, its sensitivity to changes in the supply level is zero."
+  },
+  {
+    "q": "39. The flexibility of a hyper-proportional outlet is .......... one.",
+    "options": [
+      "greater than",
+      "equal to",
+      "less than",
+      "all"
+    ],
+    "correct": 0,
+    "explain": "An outlet is hyper-proportional when its flexibility is greater than unity, meaning the discharge of the outlet changes more rapidly than the discharge of the distributary."
+  },
+  {
+    "q": "40. When the difference in weir crest and downstream river bed is limited into 3 meters, the weir generally used is .............",
+    "options": [
+      "vertical drop weir",
+      "drystone slope weir",
+      "concrete slope weir",
+      "parabolic weir"
+    ],
+    "correct": 2,
+    "explain": "For moderate drops (up to 3m), a concrete slope (or glacis) weir is preferred to safely guide the water and dissipate energy."
+  },
+  {
+    "q": "41. In Bligh's creep theory .............",
+    "options": [
+      "there is no distinction between horizontal and vertical creep",
+      "loss of head does not take place in the same proportion as creep length",
+      "the uplift pressure distribution is not linear, but follows a sine curve",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Unlike Lane's theory, Bligh's theory treats horizontal and vertical creep paths as equally effective in reducing head loss."
+  },
+  {
+    "q": "42. For smooth entry, the regulators are aligned at an angle of ............. to the water.",
+    "options": [
+      "60°",
+      "80°",
+      "110°",
+      "130°"
+    ],
+    "correct": 2,
+    "explain": "Aligning the head regulator at an angle of 110° to the weir/barrage axis helps in smooth entry of water and effectively reduces silt entry into the canal."
+  },
+  {
+    "q": "43. The level of a canal diversion head work depends upon .............",
+    "options": [
+      "discharge perimeter",
+      "pond level",
+      "full supply level of canal",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "The pond level is the most critical factor as it must be high enough to ensure the required Full Supply Level (FSL) in the canal even during low river flow."
+  },
+  {
+    "q": "44. When the drain is over the canal, the structure provided is known as .............",
+    "options": [
+      "aqueduct",
+      "super-passage",
+      "canal siphon",
+      "siphon aqueduct"
+    ],
+    "correct": 1,
+    "explain": "A super-passage is the opposite of an aqueduct; here, the natural drainage (stream) is carried in a trough across and above the canal."
+  },
+  {
+    "q": "45. Lacey's regime condition is obtained if .............",
+    "options": [
+      "silt grade in the channel is variable",
+      "discharge in the channel is variable",
+      "silt charge in the channel is variable",
+      "channel flows in unlimited, incoherent alluvium of the same character as that transported material"
+    ],
+    "correct": 3,
+    "explain": "Lacey's theory assumes the channel is flowing in an infinite depth of the same material it is transporting (incoherent alluvium)."
+  },
+  {
+    "q": "46. The scour depth D of a river during flood, may be calculated from the Lacey's equation .............",
+    "options": [
+      "D=0.47(Q/f)",
+      "D=0.47(Q/f)^1/2",
+      "D=0.47(Q/f)^1/3",
+      "D=0.47(Q/f)^1/5"
+    ],
+    "correct": 2,
+    "explain": "The regime scour depth ($R$) for a wide channel is given by $R = 0.47 (Q/f)^{1/3}$."
+  },
+  {
+    "q": "47. Finally formed berms in canals are provided for .............",
+    "options": [
+      "protection of banks erosion by the waves",
+      "control of seepage losses",
+      "strengthening of banks",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Berms act as a buffer, reducing wave impact, providing space for sediment to settle (which seals the banks), and widening the bank base for stability."
+  },
+  {
+    "q": "48. An outlet which maintains a constant discharge irrespective of fluctuation in the water levels of supplying channel or water course, is known as .............",
+    "options": [
+      "non-modular outlet",
+      "semi-modular outlet",
+      "flexible modular outlet",
+      "rigid modular outlet"
+    ],
+    "correct": 3,
+    "explain": "Rigid modules (like the Gibb's module) are designed to provide a fixed discharge regardless of the water levels in the parent canal or the field channel."
+  },
+  {
+    "q": "49. The sensitivity of a rigid module, is .............",
+    "options": [
+      "2.00",
+      "1.50",
+      "1.00",
+      "zero"
+    ],
+    "correct": 3,
+    "explain": "Sensitivity is the ratio of change in outlet discharge to change in canal level. Since a rigid module's discharge is constant, its sensitivity is zero."
+  },
+  {
+    "q": "50. Bligh's theory of seepage assumes .............",
+    "options": [
+      "equal weightage to the horizontal and vertical creep",
+      "more weightage to horizontal creep than vertical creep",
+      "less weightage to horizontal creep than vertical creep",
+      "loss of head following the sine curve"
+    ],
+    "correct": 0,
+    "explain": "Bligh's Creep Theory famously makes no distinction between horizontal and vertical creep paths regarding head loss."
+  },
+  {
+    "q": "51. Process of meandering is due to .............",
+    "options": [
+      "sediment load of streams",
+      "discharge and hydraulic properties of streams",
+      "relative erodibility of the bed and banks",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Meandering is the result of excess energy in the flow interacting with erodible banks and varying sediment loads."
+  },
+  {
+    "q": "52. The downstream expansion head of a guide bank is extended to subtend an angle at the center, equal to .............",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correct": 1,
+    "explain": "For efficient flow expansion downstream, a guide bank is usually curved with an arc subtending 45 degrees."
   }
 ]

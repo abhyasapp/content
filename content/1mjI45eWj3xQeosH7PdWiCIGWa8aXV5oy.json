@@ -1,6 +1,237 @@
 [
   {
-    "q": "1. The density of soil can be increased",
+    "q": "1. The degree of saturation in soils can be defined as the ratio of",
+    "options": [
+      "water by weight to the dry soil weight",
+      "vol. of water to the gross vol. of soil",
+      "vol. of water to vol. of voids in soils",
+      "wt. of the water to wt. of soil"
+    ],
+    "correct": 2,
+    "explain": "Degree of saturation Sr = Volume of water / Volume of voids, expressed as a percentage; it tells how much of the void space is filled with water."
+  },
+  {
+    "q": "2. The most accurate method of determining the water content in a sample of soil is",
+    "options": [
+      "oven drying method",
+      "sand bath method",
+      "alcohol method",
+      "calcium carbide method"
+    ],
+    "correct": 0,
+    "explain": "Oven drying at 105-110°C to constant weight removes only free/pore water precisely, making it the standard, most accurate laboratory method (IS: 2720 Part 2)."
+  },
+  {
+    "q": "3. Generally soils is considered as",
+    "options": [
+      "single phase system",
+      "two phase system",
+      "three phase system",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Soil is a three-phase system consisting of solid particles, water, and air voids."
+  },
+  {
+    "q": "4. Fully saturated soil is considered as",
+    "options": [
+      "single phase system",
+      "two phase system",
+      "three phase system",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In a fully saturated soil, all voids are filled with water, leaving only two phases: solids and water."
+  },
+  {
+    "q": "5. Degree of saturation of a soil is generally",
+    "options": [
+      "above 100%",
+      "below zero",
+      "between 0% and 100%",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The degree of saturation (S) represents the ratio of water volume to void volume, ranging from 0% (dry) to 100% (saturated)."
+  },
+  {
+    "q": "6. The most commonly used specific gravity of a soil in soil mechanics is .............",
+    "options": [
+      "mass specific gravity",
+      "apparent specific gravity",
+      "grain specific gravity",
+      "bulk specific gravity"
+    ],
+    "correct": 2,
+    "explain": "Grain (true) specific gravity of the solid particles is the value most commonly used and reported in soil mechanics."
+  },
+  {
+    "q": "7. You are given a sample of soil containing coarse grains to determine its water content, you will use",
+    "options": [
+      "pycnometer",
+      "oven-drying method",
+      "calcium carbide method",
+      "alcohol method"
+    ],
+    "correct": 0,
+    "explain": "For coarse-grained soils, the pycnometer method (using known specific gravity) is the standard quick technique to back-calculate water content."
+  },
+  {
+    "q": "8. The void ratio for saturated soil is equal to the ......... of water content and specific gravity of solid",
+    "options": [
+      "sum",
+      "difference",
+      "product",
+      "ratio"
+    ],
+    "correct": 2,
+    "explain": "For saturated soil, e = wG, i.e. void ratio equals the product of water content and specific gravity."
+  },
+  {
+    "q": "9. The ratio of the volume of air voids to the volume of voids, is called .............",
+    "options": [
+      "void ratio",
+      "air content",
+      "degree of saturation",
+      "porosity"
+    ],
+    "correct": 1,
+    "explain": "Air content is defined as the ratio of the volume of air voids to the total volume of voids."
+  },
+  {
+    "q": "10. The ratio of volume of air void to the volume of voids, is known",
+    "options": [
+      "air content",
+      "wet porosity",
+      "percentage voids",
+      "degree of saturation"
+    ],
+    "correct": 0,
+    "explain": "Air content (ac) is the ratio of the volume of air to the total volume of voids."
+  },
+  {
+    "q": "11. The change of moisture content of soils, changes the",
+    "options": [
+      "value of the angle of repose",
+      "amount of compaction required",
+      "cohesive strength of soil",
+      "All the above"
+    ],
+    "correct": 3,
+    "explain": "Moisture content influences frictional/angle-of-repose behaviour, compaction effort needed, and cohesive strength — hence all listed properties are affected."
+  },
+  {
+    "q": "12. The ratio of weight of water to the weight of solids in a given mass of soil, is known as",
+    "options": [
+      "void ratio",
+      "porosity",
+      "specific gravity",
+      "water content"
+    ],
+    "correct": 3,
+    "explain": "Water content (w) is the ratio of the weight of water to the dry weight of solids, usually expressed as a percentage."
+  },
+  {
+    "q": "13. If a soil undergoes a change in shape and volume by application of external loads over it, but recovers its shape and volume immediately after removal of the load, the property of the soil to be",
+    "options": [
+      "Resilience of soils",
+      "Elasticity of soils",
+      "Compressibility of soils",
+      "None of these"
+    ],
+    "correct": 1,
+    "explain": "Immediate and complete recovery of shape/volume after unloading is the defining characteristic of elastic behaviour."
+  },
+  {
+    "q": "14. The degree of saturation in soils can be defined as the ratio of",
+    "options": [
+      "water by weight to the dry soil weight",
+      "volume of water to the gross volume of soil",
+      "volume of water to volume of voids in soil",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Degree of saturation (S) specifically measures how much of the void space is occupied by water."
+  },
+  {
+    "q": "15. The relationship between void ratio (e) and porosity ratio (n) is",
+    "options": [
+      "n = e / (1-e)",
+      "e = n / (1-n)",
+      "e = (1+n) / (1-e)",
+      "(1+e) / (1-e)"
+    ],
+    "correct": 1,
+    "explain": "The standard relationship between these two parameters is e = n / (1-n) or n = e / (1+e)."
+  },
+  {
+    "q": "16. The fundamental relation between percentage Air voids na, specific gravity (G), water content (w) and dry density (gamma_d) is",
+    "options": [
+      "gamma_d = G(1-na) / (1+wG)",
+      "WS = Ge",
+      "We = SG",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The formula relates dry density to air voids and specific gravity; the options in the image are slightly different, but 'a' is the intended answer key choice."
+  },
+  {
+    "q": "17. The specific gravity of sandy soils is",
+    "options": [
+      "1.5",
+      "2.0",
+      "2.2",
+      "2.6"
+    ],
+    "correct": 3,
+    "explain": "The specific gravity of most inorganic soils like sand typically falls around 2.65."
+  },
+  {
+    "q": "18. The percentage of the porosity of clay is in the range of",
+    "options": [
+      "10 to 20%",
+      "20 to 30%",
+      "30 to 40%",
+      "40 to 50%"
+    ],
+    "correct": 1,
+    "explain": "The answer key indicates 'b' (20-30%) for the specific range of clay porosity in this context."
+  },
+  {
+    "q": "19. The soil sample contains volume of void 0.2 and volume of soil is 0.30 then find the void ratio & porosity of soil",
+    "options": [
+      "0.67, 0.40",
+      "0.40, 0.67",
+      "0.67, 0.80",
+      "0.80, 0.67"
+    ],
+    "correct": 0,
+    "explain": "Void ratio e = Vv/Vs = 0.2/0.3 = 0.67. Porosity n = Vv/Vt = 0.2/(0.2+0.3) = 0.40."
+  },
+  {
+    "q": "20. The water content in a soil sample when it continues to loose weight without loosing the volume, is called",
+    "options": [
+      "Shrinkage limit",
+      "plastic limit",
+      "liquid limit",
+      "semi- solid limit"
+    ],
+    "correct": 0,
+    "explain": "Shrinkage limit is the water content below which further loss of moisture does not cause any further reduction in volume — i.e., weight reduces but volume stays constant."
+  },
+  {
+    "q": "21. The shearing strength of the following soil will be excellent when compacted and saturated .............",
+    "options": [
+      "SW",
+      "SP",
+      "SM",
+      "SC"
+    ],
+    "correct": 0,
+    "explain": "Well-graded sand (SW) compacts to high density with good interlocking, retaining good shear strength even when saturated."
+  },
+  {
+    "q": "22. The density of soil can be increased",
     "options": [
       "by reducing the space occupied by air",
       "by elastic compression of soil grains",
@@ -11,40 +242,7 @@
     "explain": "Densification (compaction) can occur through expulsion of air, compression of grains, and expulsion of water — all mechanisms contribute to increasing density."
   },
   {
-    "q": "2. The maximum water content at which a reduction in water content does not cause a decrease in volume of soil mass is known as",
-    "options": [
-      "liquid limit",
-      "plastic limit",
-      "shrinkage limit",
-      "regular limit"
-    ],
-    "correct": 2,
-    "explain": "The shrinkage limit is the water content below which the soil volume remains constant even if the soil is dried further."
-  },
-  {
-    "q": "3. Standard proctor test is used for determining .............",
-    "options": [
-      "optimum moisture content (OMC)",
-      "void ratio",
-      "co-efficient of consolidation",
-      "pavement thickness"
-    ],
-    "correct": 0,
-    "explain": "The Standard Proctor compaction test determines the optimum moisture content and maximum dry density of a soil."
-  },
-  {
-    "q": "4. Compaction of soil is aimed at .............",
-    "options": [
-      "decreasing dry density",
-      "increasing porosity",
-      "decreasing void ratio",
-      "decreasing shear strength"
-    ],
-    "correct": 2,
-    "explain": "Compaction densifies soil by reducing air voids, which decreases the void ratio and increases dry density."
-  },
-  {
-    "q": "5. In Geotechnical Engineering, soil is considered as a phase material.",
+    "q": "23. In Geotechnical Engineering, soil is considered as a phase material.",
     "options": [
       "3",
       "2",
@@ -55,7 +253,7 @@
     "explain": "Soil is treated as a 3-phase material consisting of solids, water, and air."
   },
   {
-    "q": "6. Compaction of soil .............",
+    "q": "24. Compaction of soil .............",
     "options": [
       "increases dry density",
       "decreases porosity",
@@ -66,18 +264,7 @@
     "explain": "Compaction simultaneously increases dry density and decreases porosity as air voids are expelled."
   },
   {
-    "q": "7. Saturated clay test for shear strength can be performed by",
-    "options": [
-      "Triaxial compression test",
-      "Direct shear test",
-      "Unconfined compression test",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "For saturated clay, the unconfined compression test directly gives the undrained shear strength without needing confining pressure, making it the simplest suitable test."
-  },
-  {
-    "q": "8. The ratio of dry density ............. in the field to the proctor's maximum dry density is called",
+    "q": "25. The ratio of dry density ............. in the field to the proctor's maximum dry density is called",
     "options": [
       "compaction energy",
       "compactive effort",
@@ -88,7 +275,7 @@
     "explain": "Relative compaction is defined as the ratio of field dry density to the laboratory (Proctor) maximum dry density, usually expressed as a percentage."
   },
   {
-    "q": "9. The soil involved in the compaction is .............",
+    "q": "26. The soil involved in the compaction is .............",
     "options": [
       "perfectly saturated soil",
       "partly saturated soil",
@@ -99,18 +286,7 @@
     "explain": "Compaction is a mechanical process applied to partly saturated (moist, unsaturated) soil to expel air from voids."
   },
   {
-    "q": "10. The maximum compaction for any given water content corresponds to a per cent air-voids equal to .............",
-    "options": [
-      "0",
-      "1.0",
-      "0.1",
-      "can't say"
-    ],
-    "correct": 0,
-    "explain": "Maximum theoretical compaction (the zero air voids line) corresponds to 0% air voids for a given water content."
-  },
-  {
-    "q": "11. The admixture used in soil stabilization is .............",
+    "q": "27. The admixture used in soil stabilization is .............",
     "options": [
       "cement",
       "lime",
@@ -121,7 +297,7 @@
     "explain": "Cement, lime, and bitumen are all commonly used admixtures for soil stabilization, depending on soil type and application."
   },
   {
-    "q": "12. The bearing capacity of a soil does not depend on .............",
+    "q": "28. The bearing capacity of a soil does not depend on .............",
     "options": [
       "applied load",
       "size of the footing",
@@ -132,18 +308,7 @@
     "explain": "Bearing capacity is a soil/footing property (depends on footing size, shape, depth, and soil shear parameters), not on the load applied to it."
   },
   {
-    "q": "13. Three phase system is concerned with",
-    "options": [
-      "partially saturated soil",
-      "saturated soil",
-      "dry soil",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "A three-phase system (solids + water + air) exists only in partially saturated soil, where both water and air occupy the voids."
-  },
-  {
-    "q": "14. A fully saturated soil is called",
+    "q": "29. A fully saturated soil is called",
     "options": [
       "one phase system",
       "two phase system with soil and air",
@@ -154,40 +319,7 @@
     "explain": "When all voids are filled with water and none with air, the soil has only two phases: solids and water."
   },
   {
-    "q": "15. The relation between dry density, (γd), bulk density, (γ) and water content (w) is",
-    "options": [
-      "γ = γd/(1+w)",
-      "γd = γ/(1+w)",
-      "w = γ/(1+γd)",
-      "w = γ/(1-γd)"
-    ],
-    "correct": 1,
-    "explain": "Dry density γd = γ/(1+w), derived from the definitions of bulk density and water content, since dry weight = total weight/(1+w)."
-  },
-  {
-    "q": "16. The void ratio of soil is",
-    "options": [
-      "the ratio of voids to solids in volume",
-      "the ratio of voids to gross volume",
-      "the ratio os solid to voids in volume",
-      "the ratio of solid volume to gross volume"
-    ],
-    "correct": 0,
-    "explain": "Void ratio e = Volume of voids / Volume of solids, by definition (distinct from porosity, which uses gross/total volume)."
-  },
-  {
-    "q": "17. Water content is defined as the ratio of",
-    "options": [
-      "weight of water to weight of solids",
-      "weight of solids to weight of water",
-      "total amount of water in soil",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "Water content w = Weight of water / Weight of solids, the standard geotechnical definition (expressed as %)."
-  },
-  {
-    "q": "18. The type of shear failure that can be expected for a cohesionless soil whose angle of internal friction is less than 29° is .............",
+    "q": "30. The type of shear failure that can be expected for a cohesionless soil whose angle of internal friction is less than 29° is .............",
     "options": [
       "general shear failure",
       "local shear failure",
@@ -198,7 +330,7 @@
     "explain": "A relatively high friction angle threshold (~29°) is associated with denser sand behaviour leading to general shear failure per the reference classification used here."
   },
   {
-    "q": "19. The ratio of volume of air voids to the total volume of the given soil mass is known as",
+    "q": "31. The ratio of volume of air voids to the total volume of the given soil mass is known as",
     "options": [
       "air content",
       "percentage of air voids",
@@ -209,18 +341,7 @@
     "explain": "Percentage of air voids = Volume of air voids / Total volume of soil mass, distinguishing it from air content which is relative to total void volume only."
   },
   {
-    "q": "20. The type of shear failure that can be expected for a soil whose relative density is less than 35% is .............",
-    "options": [
-      "general shear failure",
-      "local shear failure",
-      "punching shear failure",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "Per the reference key, a loose soil (relative density < 35%) is associated with a failure mode covered under 'all of the above' in this classification."
-  },
-  {
-    "q": "21. The deformations of soils under a strip footing are .............",
+    "q": "32. The deformations of soils under a strip footing are .............",
     "options": [
       "one dimensional",
       "two dimensional",
@@ -231,18 +352,7 @@
     "explain": "A strip (continuous) footing is long in one direction, so stress and deformation are essentially two-dimensional (plane strain)."
   },
   {
-    "q": "22. The relationship between void ratio (e) and porosity ratio (n) is",
-    "options": [
-      "n = e/(1-e)",
-      "e = n/(1-n)",
-      "e = (1+e)/(1-e)",
-      "e = (1+e)/(1-e)"
-    ],
-    "correct": 1,
-    "explain": "Since n = e/(1+e), solving for e gives e = n/(1-n); the book's answer key lists option (c) as correct among the given (partly duplicated/typo) choices."
-  },
-  {
-    "q": "23. The deformations of soils under a circular or square footing are .............",
+    "q": "33. The deformations of soils under a circular or square footing are .............",
     "options": [
       "one dimensional",
       "two dimensional",
@@ -253,7 +363,7 @@
     "explain": "Circular or square footings load the soil symmetrically in all directions, producing three-dimensional stress and deformation patterns."
   },
   {
-    "q": "24. If a soil suffers a change in volume by the application of external loads but recovers its volume immediately after the load gets removed, such a soil is termed as .............",
+    "q": "34. If a soil suffers a change in volume by the application of external loads but recovers its volume immediately after the load gets removed, such a soil is termed as .............",
     "options": [
       "compressible soil",
       "plastic soil",
@@ -264,29 +374,7 @@
     "explain": "Immediate and complete volume recovery upon unloading is the defining characteristic of elastic behaviour."
   },
   {
-    "q": "25. For a cohesive soil, the modulus of elasticity .............",
-    "options": [
-      "varies linearly with depth",
-      "is constant with depth",
-      "can't say",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Cohesive soils derive stiffness mainly from cohesion rather than confining pressure, so their modulus of elasticity is roughly constant with depth."
-  },
-  {
-    "q": "26. The maximum dry density occurs at a particular water content which is known as",
-    "options": [
-      "optimum moisture content",
-      "maximum moisture content",
-      "low moisture content",
-      "water content"
-    ],
-    "correct": 0,
-    "explain": "In a compaction (Proctor) curve, the peak dry density occurs at the optimum moisture content (OMC)."
-  },
-  {
-    "q": "27. For a cohesion less soil, the modulus of elasticity .............",
+    "q": "35. For a cohesion less soil, the modulus of elasticity .............",
     "options": [
       "varies linearly with depth",
       "is constant with depth",
@@ -297,73 +385,7 @@
     "explain": "In cohesionless soils, stiffness depends on confining pressure, which increases with depth, so modulus of elasticity varies roughly linearly with depth."
   },
   {
-    "q": "28. The ratio of volume of voids to the total volume of a given soil is .............",
-    "options": [
-      "void ratio",
-      "porosity",
-      "air content",
-      "air ratio"
-    ],
-    "correct": 1,
-    "explain": "Porosity (n) is defined as the ratio of volume of voids to the total volume of soil."
-  },
-  {
-    "q": "29. The ratio of total weight of saturated soil to its total volume is called .............",
-    "options": [
-      "saturated unit weight",
-      "submerged unit weight",
-      "buoyant unit weight",
-      "wet unit weight"
-    ],
-    "correct": 0,
-    "explain": "Saturated unit weight is the total weight of soil (solids plus water filling all voids) per unit total volume."
-  },
-  {
-    "q": "30. The ratio of volume of water present in a given soil mass to the volume of voids in it is known as .............",
-    "options": [
-      "percentage voids",
-      "porosity",
-      "degree of saturation",
-      "water content"
-    ],
-    "correct": 2,
-    "explain": "Degree of saturation is defined as the ratio of the volume of water to the total volume of voids in the soil."
-  },
-  {
-    "q": "31. Density index for a natural soil is used to express .............",
-    "options": [
-      "percentage voids",
-      "relative compactness",
-      "shear strength of clays",
-      "specific gravity"
-    ],
-    "correct": 1,
-    "explain": "Density index (relative density) expresses how compact a cohesionless soil is relative to its loosest and densest states."
-  },
-  {
-    "q": "32. Core-cutter method is used for .............",
-    "options": [
-      "determining density of soil",
-      "obtaining samples for direct shear test",
-      "determining bearing capacity of soil",
-      "compacting soil"
-    ],
-    "correct": 0,
-    "explain": "The core-cutter method extracts an undisturbed soil sample of known volume, used to determine in-situ density."
-  },
-  {
-    "q": "33. Theoretically, the void ratio in a soil can have a value of .............",
-    "options": [
-      "more than one only",
-      "less than one only",
-      "equal to one",
-      "can be less (or) more than one"
-    ],
-    "correct": 3,
-    "explain": "Depending on packing arrangement and soil type, void ratio can be less than, equal to, or greater than one."
-  },
-  {
-    "q": "34. The property of a soil which enables to regain its strength lost on remoulding in a short time, without change of moisture content, is called .............",
+    "q": "36. The property of a soil which enables to regain its strength lost on remoulding in a short time, without change of moisture content, is called .............",
     "options": [
       "unconfined compressive strength",
       "sensitivity",
@@ -374,18 +396,7 @@
     "explain": "Thixotropy is the time-dependent regain of strength after remoulding, occurring without any change in water content."
   },
   {
-    "q": "35. Equation for bulk unit weight γ in terms of specific gravity G, specific weight of water γw, voids ratio e, and degree of saturation S is written as",
-    "options": [
-      "γ = γw(G+eS)/(1+e)",
-      "γ = γw(G-eS)/(1+e)",
-      "γ = γw(G+eS)/(1-e)",
-      "γ = γw(G-eS)/(1-e)"
-    ],
-    "correct": 0,
-    "explain": "The standard phase relationship gives bulk unit weight γ = γw(G+eS)/(1+e), combining the weight of solids and water per unit total volume."
-  },
-  {
-    "q": "36. The maximum over consolidation ratio of normally consolidated soil is .............",
+    "q": "37. The maximum over consolidation ratio of normally consolidated soil is .............",
     "options": [
       "one",
       "two",
@@ -396,84 +407,7 @@
     "explain": "By definition, a normally consolidated soil has OCR = 1, the maximum value consistent with 'normally consolidated'."
   },
   {
-    "q": "37. Soil 'X' has e = 0.8 and another soil 'Y' has e = 1.2; which is more porous?",
-    "options": [
-      "soil X",
-      "soil Y",
-      "both",
-      "none"
-    ],
-    "correct": 1,
-    "explain": "Since porosity n = e/(1+e) increases with void ratio e, soil Y with the higher void ratio (1.2 > 0.8) is more porous."
-  },
-  {
-    "q": "38. The minimum water content at which the soil just begins to crumble when rolled into threads 3 mm in diameter is known as .............",
-    "options": [
-      "Shrinkage limit",
-      "plastic limit",
-      "liquid limit",
-      "consistency limit"
-    ],
-    "correct": 1,
-    "explain": "This is the standard definition of the plastic limit, determined by the thread-rolling test."
-  },
-  {
-    "q": "39. The minimum water content at which the soil just begins to crumble when rolled into threads 3 mm in diameter, is known",
-    "options": [
-      "liquid limit",
-      "plastic limit",
-      "shrinkage limit",
-      "permeability limit"
-    ],
-    "correct": 1,
-    "explain": "This is the classic Atterberg definition of the plastic limit test procedure (rolling a 3 mm thread until it crumbles)."
-  },
-  {
-    "q": "40. Which of the following is responsible for shear resistance in soils?",
-    "options": [
-      "Inter granular friction",
-      "Cohesion and adhesion between the soil particles",
-      "Both 'a' and 'b'",
-      "None of the above"
-    ],
-    "correct": 2,
-    "explain": "Shear strength in soils arises from both inter-particle friction and cohesion/adhesion, combined in the Mohr-Coulomb equation."
-  },
-  {
-    "q": "41. Through a point in a loaded soil, the normal stress is maximum on .............",
-    "options": [
-      "major principal plane",
-      "minor principal plane",
-      "plane making an angle of 45 with principal planes",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "By definition, principal planes carry zero shear, and the major principal plane carries the maximum normal stress."
-  },
-  {
-    "q": "42. The bearing capacity of a strip footing on a saturated clay is 120 kN/m². The bearing capacity of a circular footing (diameter = width) will be",
-    "options": [
-      "more than 120 kN/m²",
-      "equal to 120 kN/m²",
-      "less than 120kN/m²",
-      "any of the above"
-    ],
-    "correct": 0,
-    "explain": "For saturated clay (φ=0 condition), the shape factor increases bearing capacity for circular/square footings compared to a strip footing (Nc for circular > Nc for strip), so it will be more than 120 kN/m²."
-  },
-  {
-    "q": "43. Three phase diagram of soil represents",
-    "options": [
-      "Solids, pebbles and clay",
-      "Dust, fine sand and coarse sand",
-      "Solids, water and clay",
-      "Solids, water and air"
-    ],
-    "correct": 3,
-    "explain": "The standard three-phase diagram used in soil mechanics divides soil mass into solids, water, and air — the three fundamental constituents."
-  },
-  {
-    "q": "44. In a triaxial compression test on a soil specimen, the intermediate principal stress is equal to",
+    "q": "38. In a triaxial compression test on a soil specimen, the intermediate principal stress is equal to",
     "options": [
       "Major principal stress",
       "Minor principal stress",
@@ -484,18 +418,7 @@
     "explain": "In the standard axisymmetric triaxial test, the confining (cell) pressure acts equally in both horizontal directions, so the intermediate principal stress equals the minor principal stress (σ2 = σ3)."
   },
   {
-    "q": "45. Which of the following earth pressure theories is directly applicable to bulk-heads?",
-    "options": [
-      "Rankine's theory",
-      "Coulomb theory",
-      "Both",
-      "None of the above"
-    ],
-    "correct": 3,
-    "explain": "Neither Rankine's nor Coulomb's classical earth pressure theory directly accounts for the flexible, anchored/embedded behaviour of sheet-pile bulkheads, which require specialized bulkhead design methods."
-  },
-  {
-    "q": "46. The compressibility of the following soil will be excellent when compacted and saturated .............",
+    "q": "39. The compressibility of the following soil will be excellent when compacted and saturated .............",
     "options": [
       "GW",
       "GP",
@@ -506,29 +429,7 @@
     "explain": "Clayey gravel (GC) exhibits the highest compressibility among these coarse-grained classifications due to its clay fraction."
   },
   {
-    "q": "47. The densification of a soil by means of mechanical manipulation is",
-    "options": [
-      "Consolidation",
-      "Compression",
-      "Compaction",
-      "Soil stabilization"
-    ],
-    "correct": 2,
-    "explain": "Compaction is the process of densifying soil by mechanical means (rolling, tamping, vibration) to expel air, distinct from consolidation which involves expulsion of water over time."
-  },
-  {
-    "q": "48. The curve showing the relationship between the dry unit weight and the water content of a soil for a given compactive effort, is called",
-    "options": [
-      "Compression curve",
-      "Moisture-density curve",
-      "Settlement curve",
-      "Porosity curve"
-    ],
-    "correct": 1,
-    "explain": "This is precisely the definition of the compaction (moisture-density) curve obtained from a Proctor test."
-  },
-  {
-    "q": "49. Standard Proctor test is used for determining",
+    "q": "40. Standard Proctor test is used for determining",
     "options": [
       "Optimum moisture content",
       "Void ratio",
@@ -539,14 +440,256 @@
     "explain": "The Standard Proctor compaction test establishes the relationship between dry density and moisture content, identifying the optimum moisture content for maximum compaction."
   },
   {
-    "q": "50. Compaction or Soil is aimed at",
+    "q": "41. The most effective method for compacting sands is by",
     "options": [
-      "Decreasing dry density",
-      "Increasing porosity",
-      "Decreasing voids ratio",
-      "Decreasing shear strength"
+      "Pneumatic rollers",
+      "Sheep-foot rollers",
+      "Steel tyred rollers",
+      "Vibrators"
+    ],
+    "correct": 3,
+    "explain": "Cohesionless sandy soils compact best under vibratory action (vibrating rollers/plates), which rearranges the granular particles into a denser packing."
+  },
+  {
+    "q": "42. If the volume of voids is equal to the volume of solids in a soil mass, then the values of porosity and voids ratio respectively are",
+    "options": [
+      "1.0 and 0.0",
+      "0.0 and 1.0",
+      "0.5 and 1.0",
+      "1.0 and 0.5"
     ],
     "correct": 2,
-    "explain": "Compaction packs soil particles more closely together, reducing the void ratio (and expelling air), which in turn increases dry density and shear strength."
+    "explain": "If Vv = Vs, then void ratio e = Vv/Vs = 1.0, and porosity n = Vv/(Vv+Vs) = 1/2 = 0.5, giving porosity=0.5 and void ratio=1.0."
+  },
+  {
+    "q": "43. Which of the following methods is most accurate for the determination of the water content of soil'",
+    "options": [
+      "Oven drying method",
+      "Calcium Carbide",
+      "Alcohol method",
+      "Sand bath method"
+    ],
+    "correct": 0,
+    "explain": "The oven drying method (at 105-110°C to constant weight) remains the standard reference/most accurate laboratory method for water content determination."
+  },
+  {
+    "q": "44. The relative density of the soil is given by .............",
+    "options": [
+      "(emax-e)/(emax+e)",
+      "(emax-e)/(emax-emin)",
+      "(emax+e)/(emax+emin)",
+      "emax/emin"
+    ],
+    "correct": 1,
+    "explain": "Relative density Dr = (emax - e)/(emax - emin), comparing the natural void ratio to the loosest and densest states."
+  },
+  {
+    "q": "45. The process of compaction of soil may involve",
+    "options": [
+      "rolling",
+      "tamping",
+      "vibration",
+      "all of above"
+    ],
+    "correct": 3,
+    "explain": "Field/lab compaction can be achieved through rolling, tamping (ramming), or vibration — the method chosen depends on soil type, but all are recognized compaction techniques."
+  },
+  {
+    "q": "46. Bitumen, when added to soil, mainly .............",
+    "options": [
+      "increases cohesion",
+      "accelerated compaction",
+      "acts as water proofing agent",
+      "fills voids in soils"
+    ],
+    "correct": 2,
+    "explain": "Bitumen primarily coats soil particles and acts as a waterproofing agent, reducing moisture infiltration."
+  },
+  {
+    "q": "47. The safe bearing capacity of a soil can be defined as .............",
+    "options": [
+      "maximum pressure which the soil can carry safely without shear failure",
+      "ultimate load on the bearing area",
+      "pressure at which the settlement will not exceed the allowable settlement",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Safe bearing capacity is the maximum pressure the soil can safely sustain without risk of shear failure, incorporating a factor of safety."
+  },
+  {
+    "q": "48. The failure envelope for a clayey soil will be horizontal in the case of .............",
+    "options": [
+      "unconsolidated undrained test",
+      "consolidated undrained test",
+      "consolidated drained test",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "In the unconsolidated undrained (UU) test on saturated clay, the failure envelope is horizontal (phi=0 condition)."
+  },
+  {
+    "q": "49. Water content of a soil can .............",
+    "options": [
+      "take a value only from 0% to 100%",
+      "less than 0%",
+      "be greater than 100%",
+      "never be greater than 100%"
+    ],
+    "correct": 2,
+    "explain": "Because water content is defined relative to weight of solids (not total weight), highly organic or soft clays can have water content exceeding 100%."
+  },
+  {
+    "q": "50. A moist sample of soil weighs 24 g in a tin lid. The tin lid above weighs 14 g. Oven dry weight of tin and sample is 22 g. What is the water content of the soil?",
+    "options": [
+      "12.5%",
+      "37.5%",
+      "25%",
+      "50%"
+    ],
+    "correct": 2,
+    "explain": "Weight of water = 24-22 = 2 g; weight of dry solids = 22-14 = 8 g; water content = 2/8 = 25%."
+  },
+  {
+    "q": "51. The ratio of volume of air Va to the volume of voids Vv is called .............",
+    "options": [
+      "degree of saturation",
+      "degree of aeration",
+      "air content",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Air content is precisely defined as the ratio of air-void volume to total void volume."
+  },
+  {
+    "q": "52. Which of the following methods give accurate determination of water content?",
+    "options": [
+      "sand bath method",
+      "alcohol method",
+      "calcium carbide method",
+      "oven drying method"
+    ],
+    "correct": 3,
+    "explain": "Per the reference key, the calcium carbide method is marked as giving accurate results; oven drying is also a standard reference method."
+  },
+  {
+    "q": "53. The relation between void ratio e, specific gravity G, water content w, and degree of saturation S is given by .............",
+    "options": [
+      "e = wG/S",
+      "e = SG/w",
+      "e = wS/G",
+      "e = wGS"
+    ],
+    "correct": 0,
+    "explain": "Per the reference key this relation is given as e = wGS; note the commonly used phase relation is eS = wG."
+  },
+  {
+    "q": "54. The water content of a saturated soil is 50%. If the specific gravity of the solids is 2.4, what is its void ratio?",
+    "options": [
+      "0.6",
+      "1.2",
+      "1.8",
+      "2.4"
+    ],
+    "correct": 1,
+    "explain": "For saturated soil, e = wG = 0.5 x 2.4 = 1.2."
+  },
+  {
+    "q": "55. The water content at which the soil changes from liquid state to plastic state is known as .............",
+    "options": [
+      "plastic limit",
+      "liquid limit",
+      "shrinkage limit",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Per the reference key this is marked 'none of the above'; the standard definition of this exact transition water content is the liquid limit."
+  },
+  {
+    "q": "56. Berms are used to .............",
+    "options": [
+      "increase the weight of dam",
+      "reduce seepage losses",
+      "increase shear strength",
+      "increase factor of safety"
+    ],
+    "correct": 3,
+    "explain": "Berms add mass and width at the toe of an embankment, increasing shear resistance and stability against slope failure."
+  },
+  {
+    "q": "57. The ratio of weight of water to the weight of solids is called .............",
+    "options": [
+      "degree of saturation",
+      "water content",
+      "void ratio",
+      "porosity"
+    ],
+    "correct": 1,
+    "explain": "Per the reference key this is marked 'porosity'; the standard definition of weight of water to weight of solids is actually water content."
+  },
+  {
+    "q": "58. Valid range for degree of saturations of a soil in percentage .............",
+    "options": [
+      "0 < S < 100",
+      "0 <= S <= 100",
+      "0 > S > 100",
+      "S <= 0"
+    ],
+    "correct": 1,
+    "explain": "Per the reference key this option is marked; the physically valid range for degree of saturation is actually 0 <= S <= 100%."
+  },
+  {
+    "q": "59. The maximum water content of a saturated soil at which a reduction in its moisture does not cause a decrease in volume of the soil, is called .............",
+    "options": [
+      "liquid limit",
+      "plastic limit",
+      "elastic limit",
+      "shrinkage limit"
+    ],
+    "correct": 3,
+    "explain": "This is the standard definition of the shrinkage limit, the boundary below which further drying causes no further volume decrease."
+  },
+  {
+    "q": "60. If the pores of a soil are completely full of air only, the soil is said to be .............",
+    "options": [
+      "wet soil",
+      "dry soil",
+      "fully saturated soil",
+      "partially saturated soil"
+    ],
+    "correct": 1,
+    "explain": "A soil with only air (no water) in its voids is classified as dry soil."
+  },
+  {
+    "q": "61. The unit weight of a soil at zero air voids depends upon .............",
+    "options": [
+      "unit weight of water",
+      "water content",
+      "specific gravity",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "The zero-air-voids unit weight formula combines unit weight of water, water content, and specific gravity of solids together."
+  },
+  {
+    "q": "62. Compression of soils occurs rapidly if voids are occupied by .............",
+    "options": [
+      "air",
+      "water",
+      "partly air and partly water",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Air is highly compressible and escapes voids almost instantly under load, so soils with air-filled voids compress much faster than saturated soils."
+  },
+  {
+    "q": "63. A clay deposit subjected to pressure in the past which is more than the present overburden pressure is known as .............",
+    "options": [
+      "normally consolidated soil",
+      "over-consolidated soil",
+      "under-consolidated soil",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "When past pressure exceeded the present overburden, the clay is classified as over-consolidated (OCR > 1)."
   }
 ]

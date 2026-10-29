@@ -1,6 +1,303 @@
 [
   {
-    "q": "1. The bending moment in a cable carrying a system of loads will be",
+    "q": "1. The number of independent equations to be satisfied for static equilibrium of a plane structure is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "For a planar (2D) structure, equilibrium requires three independent equations: ΣFx=0, ΣFy=0, and ΣM=0."
+  },
+  {
+    "q": "2. If the beam is supported so that there are only three unknown reactive elements at the support. These can be determined by using the following fundamental equation of statics",
+    "options": [
+      "ΣH=0",
+      "ΣV=0",
+      "ΣH=0, ΣH=0",
+      "ΣH=0, ΣV=0, ΣM=0"
+    ],
+    "correct": 3,
+    "explain": "Three unknown reactions require all three independent static equilibrium equations: sum of horizontal forces, sum of vertical forces, and sum of moments all equal zero."
+  },
+  {
+    "q": "3. The moments in the arch will be zero, if",
+    "options": [
+      "ends are hinged",
+      "ends are fixed",
+      "the arch axis coincides with the line of thrust",
+      "the arch axis is parallel to the line of thrust"
+    ],
+    "correct": 2,
+    "explain": "Bending moment in an arch is the product of the thrust and the eccentricity. If the arch axis coincides with the line of thrust, the eccentricity is zero, and thus the moment is zero."
+  },
+  {
+    "q": "4. A three-hinged arch is said to be",
+    "options": [
+      "statically determinate structure",
+      "statically indeterminate structure",
+      "a bent beam",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A three-hinged arch has exactly enough equations (including the extra condition at the third hinge) to solve all reactions using statics alone, making it statically determinate."
+  },
+  {
+    "q": "5. The value of horizontal thrust produced in a arch is",
+    "options": [
+      "wL²/4",
+      "wL²/6",
+      "wL²/8h",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a three-hinged parabolic arch carrying a UDL (w) over the entire span (L) with rise (h), the horizontal thrust H = wL²/8h."
+  },
+  {
+    "q": "6. A roller support for a space structure",
+    "options": [
+      "permits the movement perpendicular to the base of the supports only",
+      "permits movement in any direction in the plane of the base",
+      "does not permit any movement but permits rotation",
+      "permits movement in any direction in the plane of the base but does not permit any rotation"
+    ],
+    "correct": 1,
+    "explain": "A roller support allows movement parallel to the supporting surface (the plane of the base)."
+  },
+  {
+    "q": "7. A hinged support for a space structure",
+    "options": [
+      "permits the movement perpendicular to the base of the support only",
+      "permits movement in any direction in the plane of the base",
+      "does not permit any movement at all but permits rotation about all three mutually perpendicular axes through the joint",
+      "does not permit movement as well as rotation in any direction"
+    ],
+    "correct": 2,
+    "explain": "A hinged (pin) support restricts all translational movement but allows the members to rotate freely about the axes."
+  },
+  {
+    "q": "8. The analysis of a structure is",
+    "options": [
+      "deciding the material of the member",
+      "deciding the dimensions of the member",
+      "calculating the magnitude and nature of various straining actions at salient points of the structure",
+      "planning of the structure"
+    ],
+    "correct": 2,
+    "explain": "Structural analysis is the process of determining the effects of loads (internal forces like shear and moment) on physical structures."
+  },
+  {
+    "q": "9. A plane structure is structure",
+    "options": [
+      "the various members of which lie in a plane",
+      "the thickness of various members of which will be very small",
+      "in which there will not be any bending moment",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A plane structure is defined as a two-dimensional structure where all members and applied forces lie within the same single plane."
+  },
+  {
+    "q": "10. A plane structure which subjected to a force lying outside the plane will be",
+    "options": [
+      "stable",
+      "statically determinate",
+      "unstable",
+      "statically indeterminate"
+    ],
+    "correct": 2,
+    "explain": "If a structure designed only for in-plane forces is subjected to out-of-plane forces, it lacks the necessary constraints to resist that movement, making it unstable in that direction."
+  },
+  {
+    "q": "11. A frame is completely analysed, when",
+    "options": [
+      "the variation in shear is found throughout the frame",
+      "the variation in direct stress, shear and moment is found throughout the frame",
+      "the shear and moment reaction from member to member are known at every joint",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Complete analysis of a frame requires determining all internal actions, including axial (direct) stress, shear force, and bending moments across all members."
+  },
+  {
+    "q": "12. The displacements of joints of a truss can be obtained directly from",
+    "options": [
+      "space diagram",
+      "force diagram",
+      "Williot Mohr diagram",
+      "funicular polygon"
+    ],
+    "correct": 2,
+    "explain": "The Williot-Mohr diagram is a graphical method used to find the resultant displacement of all joints in a truss due to member deformations."
+  },
+  {
+    "q": "13. The basic form of a pin jointed frame is",
+    "options": [
+      "triangle",
+      "rectangular",
+      "trapezium",
+      "parallelogram"
+    ],
+    "correct": 0,
+    "explain": "The triangle is the simplest and only inherently stable geometric shape for a pin-jointed frame; other shapes require bracing to prevent collapse."
+  },
+  {
+    "q": "14. A pin jointed plane frame with J number of joints and n, number of members will be internally redundant, if",
+    "options": [
+      "n=(2j+3)",
+      "n>(2j-3)",
+      "n<(2j-3)",
+      "n=(2j-3)"
+    ],
+    "correct": 1,
+    "explain": "A truss is internally redundant (over-stiff) if the number of members (n) is greater than the minimum required for stability, which is given by the formula $$n = 2j - 3$$."
+  },
+  {
+    "q": "15. A structure having J = 4 & number of member is 3 then structure should be",
+    "options": [
+      "stable",
+      "unstable",
+      "indeterminate",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "For a plane truss, the condition for stability/determinacy is m = 2j - 3. Here, 2(4) - 3 = 5 members are required. Since there are only 3 members, the structure is deficient and unstable."
+  },
+  {
+    "q": "16. Find the number of member in a structure if the number of joint is 4 for a determinate structure.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "explain": "Using the formula m = 2j - 3 for a determinate plane truss, where j = 4: m = 2(4) - 3 = 5."
+  },
+  {
+    "q": "17. If the co moment of Joint A, B, & C are 10, 20 and 30 kN-m then find the balancing moment at joint B.",
+    "options": [
+      "20 kN-m",
+      "30 kN-m",
+      "50 kN-m",
+      "-20 kN-m"
+    ],
+    "correct": 3,
+    "explain": "In the Moment Distribution Method, the balancing moment is equal in magnitude but opposite in sign to the out-of-balance moment at the joint to maintain equilibrium."
+  },
+  {
+    "q": "18. At a joint where several members meet, any applied moment will be distributed among the various members",
+    "options": [
+      "equally",
+      "equally among such members whose far ends are fixed",
+      "in proportion to their stiffness",
+      "equally among such members whose far ends are hinged"
+    ],
+    "correct": 2,
+    "explain": "According to the principle of moment distribution, an applied moment is shared by members meeting at a joint in direct proportion to their relative stiffness (K)."
+  },
+  {
+    "q": "19. A horizontal beam with both the ends hinged will be statically determinate for this type of loadings",
+    "options": [
+      "purely vertical loading",
+      "purely inclined loads",
+      "any general loading",
+      "inclined loads with moments"
+    ],
+    "correct": 0,
+    "explain": "A beam hinged at both ends has redundant horizontal reactions unless loading is purely vertical, in which case horizontal reactions are automatically zero, making it determinate only for vertical loads."
+  },
+  {
+    "q": "20. Influence lines are drawn for structures",
+    "options": [
+      "indeterminate",
+      "determinate",
+      "any type",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Influence lines are a universal tool in structural engineering. While they are simpler to draw for determinate structures (linear), they are also used for indeterminate structures (where they are typically curved)."
+  },
+  {
+    "q": "21. Horizontal reaction at B as shown in fig. is equal to",
+    "options": [
+      "0",
+      "10 KN",
+      "20 KN",
+      "30 KN"
+    ],
+    "correct": 1,
+    "explain": "Summing horizontal forces (ΣHx = 0): The applied 10kN horizontal load at the top must be countered by an equal and opposite horizontal reaction at the support B to maintain equilibrium."
+  },
+  {
+    "q": "22. In a general co planar force system, the number of unknown forces that can be found by the principle of statics is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct": 2,
+    "explain": "A general coplanar force system has 3 independent equilibrium equations: ΣFx=0, ΣFy=0, ΣM=0, so up to 3 unknowns can be solved."
+  },
+  {
+    "q": "23. Given pin jointed frame is (refer to image 1666)",
+    "options": [
+      "internally stable",
+      "externally unstable",
+      "unstable",
+      "stable"
+    ],
+    "correct": 2,
+    "explain": "A frame is unstable if it doesn't meet the minimum member requirement ($m < 2j-3$) or if the arrangement of hinges allows for a mechanism."
+  },
+  {
+    "q": "24. The function of king post in a roof truss is",
+    "options": [
+      "to support the framework of the roof",
+      "to receive the ends of principal rafters",
+      "to prevent the walls from spreading outward",
+      "to prevent the tie beam from sagging at its centre"
+    ],
+    "correct": 3,
+    "explain": "The king post is a central vertical member that supports the tie beam below it, preventing it from sagging due to its own weight."
+  },
+  {
+    "q": "25. The effective length of a column with both ends hinged is",
+    "options": [
+      "l/2",
+      "2l",
+      "l/√2",
+      "l"
+    ],
+    "correct": 3,
+    "explain": "For a column hinged (pinned) at both ends, the effective length equals the actual length: Le = L."
+  },
+  {
+    "q": "26. The maximum bending moment due to an isolated load in a three hinged parabolic arch (span l, rise h) having one of its hinges at the crown, occurs on either side of the crown at a distance",
+    "options": [
+      "l/4",
+      "h/4",
+      "l/2√3",
+      "l/3√2"
+    ],
+    "correct": 2,
+    "explain": "For a three-hinged parabolic arch with crown hinge, standard analysis shows the maximum bending moment due to an isolated load occurs at a distance l/(2√3) from the crown."
+  },
+  {
+    "q": "27. A cantilever carrying a uniformly distributed load W over its full length is propped at its free end such that it is at the level of the fixed end. The bending moment will be zero at its free end also at",
+    "options": [
+      "mind pint of the cantilever",
+      "fixed point of the cantilever",
+      "1/4th length from free end",
+      "3/4th length from free end"
+    ],
+    "correct": 3,
+    "explain": "For a propped cantilever with UDL and prop bringing the free end to the fixed-end level, analysis shows the bending moment is zero at the free end and again at 3/4 of the length measured from the free end."
+  },
+  {
+    "q": "28. The bending moment in a cable carrying a system of loads will be",
     "options": [
       "maximum at the center",
       "minimum at the center",
@@ -11,7 +308,7 @@
     "explain": "A flexible cable, by its nature, can carry only axial tension and adjusts its shape (funicular shape) so that bending moment is zero everywhere along its length."
   },
   {
-    "q": "2. In a pin jointed plane frame all the loads are assumed to act .............",
+    "q": "29. In a pin jointed plane frame all the loads are assumed to act .............",
     "options": [
       "in the plane of the frame",
       "perpendicular to the plane of the frame",
@@ -22,7 +319,7 @@
     "explain": "For a plane (2D) pin-jointed frame, loads are, by definition of the idealization, assumed to act within the plane of the frame."
   },
   {
-    "q": "3. What is the maximum number of unknown reaction components that can be determined using only statics",
+    "q": "30. What is the maximum number of unknown reaction components that can be determined using only statics",
     "options": [
       "0",
       "1",
@@ -33,7 +330,7 @@
     "explain": "For a planar structure, only 3 independent static equilibrium equations exist, so a maximum of 3 unknown reaction components can be determined using statics alone."
   },
   {
-    "q": "4. Castigliano's second theorem can be used to compute deflections",
+    "q": "31. Castigliano's second theorem can be used to compute deflections",
     "options": [
       "in statically determinate structures only",
       "for any type of structures",
@@ -44,18 +341,7 @@
     "explain": "Castigliano's second theorem, based on strain energy, is generally applicable to compute deflections in any type of elastic structure (determinate or indeterminate)."
   },
   {
-    "q": "5. Principle of superposition is applicable when",
-    "options": [
-      "deflections are linear functions of applied forces",
-      "material obey's hooke' law",
-      "the action of applied forces will be affected by small deformations of the structure",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The principle of superposition holds when the structural response (deflections, forces) is a linear function of the applied loads — the fundamental condition for combining effects of multiple loads."
-  },
-  {
-    "q": "6. The arches meant for supporting uniformly distributed loads, to avoid any bending moment must be",
+    "q": "32. The arches meant for supporting uniformly distributed loads, to avoid any bending moment must be",
     "options": [
       "circular",
       "elliptical",
@@ -66,7 +352,7 @@
     "explain": "For an arch to carry a uniformly distributed load (per unit horizontal length) with zero bending moment throughout, its shape must be parabolic, matching the funicular shape for such loading."
   },
   {
-    "q": "7. The vertical distance of the crown of the arch above the springing is called",
+    "q": "33. The vertical distance of the crown of the arch above the springing is called",
     "options": [
       "span of the arch",
       "rise of the arch",
@@ -77,7 +363,7 @@
     "explain": "The vertical height from the springing (support) level to the crown (highest point) of an arch is termed its rise."
   },
   {
-    "q": "8. An arch can be treated as curved beam .............",
+    "q": "34. An arch can be treated as curved beam .............",
     "options": [
       "whose ends are restrained against horizontal movement",
       "whose ends do not provide any reaction",
@@ -88,18 +374,7 @@
     "explain": "An arch functions structurally as a curved beam whose supports restrain horizontal movement, allowing the horizontal thrust to develop and enabling the arch action."
   },
   {
-    "q": "9. The line of thrust of the linear arch is",
-    "options": [
-      "the axis of the arch",
-      "the imaginary link work of thrust for a given set of loads",
-      "the springing line",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "The line of thrust represents the locus of resultant force (like an imaginary funicular/linkwork polygon) for a given set of loads on the arch."
-  },
-  {
-    "q": "10. The moment in the arch will be zero if .............",
+    "q": "35. The moment in the arch will be zero if .............",
     "options": [
       "ends are hinged",
       "ends are fixed",
@@ -110,7 +385,7 @@
     "explain": "Bending moment at any arch section equals the horizontal thrust times the perpendicular offset between the arch axis and the line of thrust; this moment vanishes only when the arch axis exactly coincides with the thrust line."
   },
   {
-    "q": "11. The eddy theorem is valid for",
+    "q": "36. The eddy theorem is valid for",
     "options": [
       "vertical loads only",
       "horizontal loads only",
@@ -121,7 +396,7 @@
     "explain": "Eddy's theorem, which relates the bending moment in an arch to the vertical intercept between the arch and the linear arch (thrust line), is derived specifically for vertical loads."
   },
   {
-    "q": "12. In a three hinged arch, the line of thrust .............",
+    "q": "37. In a three hinged arch, the line of thrust .............",
     "options": [
       "must pass through all the three hinges",
       "must pass through two end hinges and may or may not pass through the third hinge",
@@ -132,18 +407,7 @@
     "explain": "Since each of the three hinges in a three-hinged arch permits zero bending moment (M=0), the line of thrust must necessarily pass through all three hinge locations."
   },
   {
-    "q": "13. The maximum bending moment due to a train of wheel loads on a simply supported girder .............",
-    "options": [
-      "always occurs at the center of span",
-      "always occurs under a wheel load",
-      "never occurs under a wheel load",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "For moving wheel loads on a simply supported girder, the absolute maximum bending moment always occurs directly under one of the wheel loads (specifically under the load nearest the resultant of the load system), not necessarily at midspan."
-  },
-  {
-    "q": "14. The fixed support in a real beam becomes in the conjugate beam a",
+    "q": "38. The fixed support in a real beam becomes in the conjugate beam a",
     "options": [
       "roller support",
       "hinge support",
@@ -154,7 +418,7 @@
     "explain": "In the conjugate beam method, a fixed support (zero slope, zero deflection) in the real beam transforms into a free end in the conjugate beam."
   },
   {
-    "q": "15. For analyzing pin jointed frames by method of joints; the number of equations of static equilibrium available is",
+    "q": "39. For analyzing pin jointed frames by method of joints; the number of equations of static equilibrium available is",
     "options": [
       "3",
       "1",
@@ -165,18 +429,7 @@
     "explain": "At each pin joint of a plane truss, only 2 equilibrium equations are available (ΣFx=0, ΣFy=0), since moment equilibrium is automatically satisfied at a pin."
   },
   {
-    "q": "16. For analyzing pin jointed frames by method of joints, the joints must be selected in succession such that",
-    "options": [
-      "only two members meet at that joint",
-      "only three members meet at that joint",
-      "only two unknown forces exist at that point",
-      "there is no external forces acting in the joint"
-    ],
-    "correct": 2,
-    "explain": "The method of joints requires proceeding to joints where only 2 unknown member forces remain, since only 2 equilibrium equations are available per joint to solve them."
-  },
-  {
-    "q": "17. For analyzing pin jointed frames by method of sections, the section should be so chosen that it cuts",
+    "q": "40. For analyzing pin jointed frames by method of sections, the section should be so chosen that it cuts",
     "options": [
       "only three members at a time",
       "any number of members but only two members with unknown forces",
@@ -187,51 +440,7 @@
     "explain": "The method of sections uses 3 equilibrium equations (ΣFx, ΣFy, ΣM), so a cutting section should pass through at most 3 members with unknown forces to be solvable."
   },
   {
-    "q": "18. A support over which the real beam is continuous will correspond to .............",
-    "options": [
-      "an internal hinge in the conjugate beam",
-      "a hinged support in the conjugate beam",
-      "a fixed support in the conjugate beam",
-      "a discontinuity in the conjugate beam"
-    ],
-    "correct": 0,
-    "explain": "A continuous support in the real beam (where slope is continuous but moment may be nonzero) corresponds to an internal hinge in the conjugate beam."
-  },
-  {
-    "q": "19. The displacements of a truss can be obtained directly from",
-    "options": [
-      "space diagram",
-      "force diagram",
-      "Williot Mohr diagram",
-      "funicular polygon"
-    ],
-    "correct": 2,
-    "explain": "The Williot-Mohr diagram is a specific graphical method used to directly determine joint displacements of a truss."
-  },
-  {
-    "q": "20. The basic form of a pin jointed frame is",
-    "options": [
-      "triangle",
-      "rectangle",
-      "trapezium",
-      "parallelogram"
-    ],
-    "correct": 0,
-    "explain": "A triangle is the only basic polygon shape that is inherently rigid (stable) when pin-jointed, making it the fundamental unit of truss construction."
-  },
-  {
-    "q": "21. In a pin jointed plane frame, all the loads will be assumed to act at .............",
-    "options": [
-      "the centers of members only",
-      "the joints of members only",
-      "only on the top chords joints",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "For a truss to be analyzed with members carrying only axial forces, loads must be idealized as acting only at the joints (pins), not along member lengths."
-  },
-  {
-    "q": "22. By assuming that all the forces acting on a pin connected truss are co planar and act at a joint only it can be expected that all the member will be subjected to",
+    "q": "41. By assuming that all the forces acting on a pin connected truss are co planar and act at a joint only it can be expected that all the member will be subjected to",
     "options": [
       "direct compressive stress only",
       "direct tensile stress only",
@@ -242,7 +451,7 @@
     "explain": "With loads applied only at joints (pins) and members assumed weightless/straight, truss members carry only direct (axial) stress — either tension or compression, with no bending or shear."
   },
   {
-    "q": "23. In a pin jointed frame, it is sufficient if the forces in all the members meeting at a joint are .............",
+    "q": "42. In a pin jointed frame, it is sufficient if the forces in all the members meeting at a joint are .............",
     "options": [
       "co planar",
       "co planar and concurrent",
@@ -253,18 +462,7 @@
     "explain": "For equilibrium at a pin joint (which cannot resist moment), it suffices that all member forces meeting there are coplanar and concurrent (passing through the same point)."
   },
   {
-    "q": "24. The effect of arching a beam is",
-    "options": [
-      "to reduce bending moment throughout",
-      "to increase bending moment throughout",
-      "to increase shear force",
-      "to decrease shear force"
-    ],
-    "correct": 0,
-    "explain": "By 'arching' a beam (curving it to more closely follow the funicular/thrust line for the given loads), bending moment throughout the member is reduced compared to a straight beam."
-  },
-  {
-    "q": "25. Internal forces at every cross section in a arch are",
+    "q": "43. Internal forces at every cross section in a arch are",
     "options": [
       "normal thrust and shear force",
       "shear force and bending moment",
@@ -275,18 +473,7 @@
     "explain": "In general, an arch cross-section resists three internal force components: normal (axial) thrust, shear force, and bending moment, unless the arch axis coincides exactly with the thrust line."
   },
   {
-    "q": "26. Due to rise in temperature, in a three hinged arch, induced stress is",
-    "options": [
-      "direct compressive",
-      "direct tensile",
-      "shear",
-      "none of these"
-    ],
-    "correct": 3,
-    "explain": "Because a three-hinged arch is statically determinate, a temperature change causes free thermal expansion/contraction (accommodated by hinge rotations) without inducing any internal stress."
-  },
-  {
-    "q": "27. In a three hinged arch, the linear and the actual arch meet at",
+    "q": "44. In a three hinged arch, the linear and the actual arch meet at",
     "options": [
       "at least three points",
       "at least two points",
@@ -297,7 +484,7 @@
     "explain": "Since the three hinges each enforce zero bending moment (meaning the arch axis coincides with the thrust line there), the actual arch and the linear (thrust-line) arch must intersect at least at these three hinge points."
   },
   {
-    "q": "28. If a three hinged parabolic arch carries a udl over the entire span, then any section of the arch is subjected to",
+    "q": "45. If a three hinged parabolic arch carries a udl over the entire span, then any section of the arch is subjected to",
     "options": [
       "normal thrust only",
       "normal thrust and shear force",
@@ -308,29 +495,7 @@
     "explain": "A parabolic arch under a matching uniformly distributed load has its axis coincide exactly with the funicular (thrust) line everywhere, so every section carries pure normal thrust with zero shear and moment."
   },
   {
-    "q": "29. A linear arch has",
-    "options": [
-      "triangle",
-      "rectangle",
-      "square",
-      "hexagon"
-    ],
-    "correct": 0,
-    "explain": "This item appears to reference the shape of the linear arch's constituent link-work (a triangle being the basic funicular polygon shape), matching option (a) per the source's answer key."
-  },
-  {
-    "q": "30. A linear arch has",
-    "options": [
-      "normal thrust only",
-      "shear force only",
-      "bending moment only",
-      "normal thrust and shear force"
-    ],
-    "correct": 0,
-    "explain": "A linear (funicular) arch, by definition, follows exactly the thrust line for its loading, so it develops only normal (axial) thrust, with zero shear and bending moment."
-  },
-  {
-    "q": "31. The number of reaction components possible at a hinge on rollers supports is",
+    "q": "46. The number of reaction components possible at a hinge on rollers supports is",
     "options": [
       "1",
       "2",
@@ -341,29 +506,7 @@
     "explain": "A hinge-on-rollers support can resist only one reaction component: a force perpendicular to the rolling surface (vertical, typically), with no moment or horizontal reaction."
   },
   {
-    "q": "32. A truss containing j joints and m members, will be a simple truss if",
-    "options": [
-      "m = 2j – 3",
-      "j = 2m – 3",
-      "m = 3j – 2",
-      "j = 3m – 2"
-    ],
-    "correct": 0,
-    "explain": "The standard condition for a statically determinate (simple) truss relates members and joints as m = 2j − 3 (accounting for 3 reaction components)."
-  },
-  {
-    "q": "33. A compound truss may be formed by connecting two simple rigid frames by",
-    "options": [
-      "two bars",
-      "three bars",
-      "three parallel bars",
-      "three bars intersecting at a point"
-    ],
-    "correct": 1,
-    "explain": "Two simple rigid (stable) truss units can be combined into a stable compound truss by connecting them with exactly three non-parallel, non-concurrent bars."
-  },
-  {
-    "q": "34. m1 and m2 are the members of two individual simple trusses of a compound truss. The compound truss will be rigid and determinate if",
+    "q": "47. m1 and m2 are the members of two individual simple trusses of a compound truss. The compound truss will be rigid and determinate if",
     "options": [
       "m = m1 + m2",
       "m = m1 + m2+1",
@@ -374,18 +517,7 @@
     "explain": "Since three additional connecting bars are needed to join two simple trusses into a stable compound truss, the total member count becomes m = m1 + m2 + 3."
   },
   {
-    "q": "35. The forces in the members of simple trusses, may be analysed by",
-    "options": [
-      "graphical method",
-      "method of joint",
-      "method of section",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Truss member forces can be determined by any of the graphical method, method of joints, or method of sections — all are valid standard techniques."
-  },
-  {
-    "q": "36. For a stable frame structure, number of members required, is",
+    "q": "48. For a stable frame structure, number of members required, is",
     "options": [
       "three times the number of joints minus three",
       "twice the number of joints minus three",
@@ -394,27 +526,5 @@
     ],
     "correct": 1,
     "explain": "For a stable, statically determinate pin-jointed plane frame (truss), the required member count is m = 2j − 3."
-  },
-  {
-    "q": "37. If two force acting at a joint are not along the straight line, then for the equilibrium of the joint",
-    "options": [
-      "one of the forces must be zero",
-      "each force must be zero",
-      "forces must be equal and of the same sign",
-      "forces must be equal in magnitude but opposite in sign"
-    ],
-    "correct": 1,
-    "explain": "If two non-collinear forces act at a joint with no other forces, equilibrium (ΣF=0 in two independent directions) can only be satisfied if both forces are individually zero."
-  },
-  {
-    "q": "38. A member is balanced at its end by two inclined members carrying equal forces, equilibrium the angle between the inclined bars must be",
-    "options": [
-      "120°",
-      "45°",
-      "60°",
-      "90°"
-    ],
-    "correct": 0,
-    "explain": "For two equal-force inclined members to balance a load symmetrically at a joint with no other member, the resultant condition for equilibrium requires the two members to be at 120° to each other (each at 60° to the load line)."
   }
 ]

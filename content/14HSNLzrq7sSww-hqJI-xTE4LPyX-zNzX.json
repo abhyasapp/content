@@ -1,50 +1,402 @@
 [
   {
-    "q": "1. In a public building, the stairs should be located near the .......... of building.",
+    "q": "1. The bearing capacity of soil depends on",
     "options": [
-      "entrance",
-      "center",
-      "end",
-      "toilet"
+      "load intensity",
+      "rate of loading",
+      "independ on load",
+      "grain size of soil"
+    ],
+    "correct": 3,
+    "explain": "The grain size, shape, and grading of soil particles directly influence internal friction and cohesion, which are primary factors in determining ultimate bearing capacity."
+  },
+  {
+    "q": "2. The safe bearing capacity of the soil is equal to",
+    "options": [
+      "normal strength × factor of safety",
+      "ultimate bearing power / factor of safety",
+      "ultimate tensile strength / factor of safety",
+      "ultimate compressive strength / factor of safety"
+    ],
+    "correct": 1,
+    "explain": "Safe Bearing Capacity (SBC) is calculated by dividing the Ultimate Bearing Capacity (the maximum pressure soil can take before shear failure) by a Factor of Safety (usually 2.5 to 3)."
+  },
+  {
+    "q": "3. The plate loading test gives .........",
+    "options": [
+      "the ultimate bearing capacity of the soil",
+      "safe bearing capacity of the soil",
+      "the depth of underlying rock",
+      "none of above"
     ],
     "correct": 0,
-    "explain": "In public buildings, stairs should be near the entrance for easy accessibility and fire safety evacuation."
+    "explain": "The plate load test is used to determine the ultimate bearing capacity of soil at a specific depth and to estimate the likely settlement under a given load."
   },
   {
-    "q": "2. Pile foundation are provided ..........",
+    "q": "4. According to Rankine's formula, the minimum depth of foundation should be",
     "options": [
-      "on soft rocks",
-      "on water logged soils",
-      "on compact soil",
-      "for multistoried building only"
+      "(p/w) * [(1+sinθ)/(1-sinθ)]²",
+      "(p/w) * [(1-sinθ)/(1+sinθ)]²",
+      "(p/w) * [(1+cosθ)/(1-cosθ)]²",
+      "(p/w) * [(1-cosθ)/(1+cosθ)]²"
     ],
     "correct": 1,
-    "explain": "Piles are deep foundations used when surface soil is weak, water-logged, or compressible, to transfer loads to deeper, firmer strata."
+    "explain": "Rankine's formula for minimum depth (h) is $h = \frac{p}{w} \\left( \frac{1-\\sin\\phi}{1+\\sin\\phi} \right)^2$. It ensures the weight of the soil at that depth provides enough lateral pressure to prevent the soil under the footing from heaving."
   },
   {
-    "q": "3. In pile foundation when the load is supported by friction between the pile and surrounding soil and also by resting the pile on hard stratum, such a pile is known as ..........",
+    "q": "5. The minimum depth of foundation for the load bearing wall of a building is restricted to",
     "options": [
-      "friction pile",
-      "bearing pile",
-      "friction and bearing pile",
-      "sheet pile"
+      "600 mm",
+      "700 mm",
+      "800 mm",
+      "900 mm"
+    ],
+    "correct": 3,
+    "explain": "For load-bearing masonry walls in standard climatic conditions, 900 mm is the widely accepted minimum depth to ensure the foundation sits below the frost line and the zone of seasonal moisture variation."
+  },
+  {
+    "q": "6. The type of foundation recommended for heavily loaded steel stanchions in soils with poor bearing capacity",
+    "options": [
+      "grillage foundation",
+      "pile foundation",
+      "raft foundation",
+      "well foundation"
+    ],
+    "correct": 0,
+    "explain": "Grillage foundations are specifically designed to spread heavy concentrated loads from steel columns over a large area using layers of steel beams."
+  },
+  {
+    "q": "7. The most commonly used deep foundation in buildings .........",
+    "options": [
+      "raft foundation",
+      "pile foundation",
+      "well foundation",
+      "grillage foundation"
+    ],
+    "correct": 1,
+    "explain": "Pile foundations are the most common deep foundation used for building structures to transfer loads to deeper, more stable soil layers."
+  },
+  {
+    "q": "8. Type of foundation most suitable for bridges is",
+    "options": [
+      "pier foundation",
+      "raft foundation",
+      "pile foundation",
+      "strap"
     ],
     "correct": 2,
-    "explain": "Most piles rely on a combination of skin friction along the sides and end-bearing at the tip."
+    "explain": "Pile foundations are ideal for bridges because they can reach deep, stable soil layers or bedrock, bypassing erodible riverbed material (scour) that would undermine shallower foundations."
   },
   {
-    "q": "4. A type of foundation in which a cantilever beam is used for joining the two footings is ..........",
+    "q": "9. A pile commonly used to reduce seepage and control the uplift pressures under hydraulic structure is known as .........",
     "options": [
-      "raft footing",
-      "strap footing",
-      "combined footing",
-      "any of the above"
+      "sheet pile",
+      "friction pile",
+      "bearing pile",
+      "compaction pile"
+    ],
+    "correct": 0,
+    "explain": "Sheet piles are thin, interlocking plates driven into the ground to create a continuous barrier (cutoff wall) to prevent water seepage under dams or weirs."
+  },
+  {
+    "q": "10. The maximum permissible eccentricity of load on a rectangular foundation with width B is equal to ---",
+    "options": [
+      "B/3",
+      "B/6",
+      "B/2",
+      "B/4"
     ],
     "correct": 1,
-    "explain": "A strap footing connects two individual footings with a rigid beam (strap), often used when one footing is on a property line."
+    "explain": "According to the 'Middle Third Rule,' to avoid tension in the base of a foundation, the eccentricity (e) must not exceed B/6."
   },
   {
-    "q": "5. For supporting a heavy structure in a sandy soil, the type of foundation generally preferred is ..........",
+    "q": "11. A foundation could fail due to ..........",
+    "options": [
+      "unequal settlement of foundations",
+      "unequal distribution of weight of the structure",
+      "horizontal movement of earth adjoining the structure",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "Foundations fail when the soil's bearing capacity is exceeded, when the soil moves laterally, or when differential settlement creates internal stresses."
+  },
+  {
+    "q": "12. A footing which supports two columns is known as .........",
+    "options": [
+      "strip footing",
+      "combined footing",
+      "strap footing",
+      "step footing"
+    ],
+    "correct": 1,
+    "explain": "A combined footing is a single foundation slab that carries the load of two or more columns, usually used when columns are close together."
+  },
+  {
+    "q": "13. If footing supports more than two columns, it is called .........",
+    "options": [
+      "continuous footing",
+      "combined footing",
+      "strip footing",
+      "strap footing"
+    ],
+    "correct": 0,
+    "explain": "A continuous footing supports a long wall or a row of three or more columns in a line."
+  },
+  {
+    "q": "14. The safe bearing capacity of medium clay which can be readily intended with a thumb nail is taken as ............",
+    "options": [
+      "10 t/m²",
+      "15 t/m²",
+      "25 t/m²",
+      "45 t/m²"
+    ],
+    "correct": 2,
+    "explain": "Soil consistency can be field-tested by hand; medium clay, which is moderately firm, typically has a bearing capacity around 25 t/m²."
+  },
+  {
+    "q": "15. The piles used in the construction of coffer dams .........",
+    "options": [
+      "bearing piles",
+      "sheet piles",
+      "friction piles",
+      "compaction piles"
+    ],
+    "correct": 1,
+    "explain": "Coffer dams are temporary water-tight structures; sheet piles are used to create the walls that hold back the water."
+  },
+  {
+    "q": "16. An arrangement supporting an existing structure by providing supports underneath is known as ........",
+    "options": [
+      "underpinning",
+      "scaffolding",
+      "lifting",
+      "jacking"
+    ],
+    "correct": 0,
+    "explain": "Underpinning is the process of strengthening or deepening the foundation of an existing building by adding supports underneath."
+  },
+  {
+    "q": "17. A plate load test is useful to determine",
+    "options": [
+      "bearing capacity",
+      "settlement of foundation",
+      "both of above (a) and (b)",
+      "none of above"
+    ],
+    "correct": 2,
+    "explain": "The plate load test provides data on both the ultimate bearing capacity of the soil and the anticipated settlement under load."
+  },
+  {
+    "q": "18. Raft foundation are generally preferred to when the area required for individual footing is more than",
+    "options": [
+      "25% of total area",
+      "30% of total area",
+      "40% of total area",
+      "50% of total area"
+    ],
+    "correct": 3,
+    "explain": "When individual footings cover more than 50% of the building area, a continuous raft (mat) becomes more economical and better at preventing differential settlement."
+  },
+  {
+    "q": "19. Pile foundation is generally provided if soil is",
+    "options": [
+      "compressible",
+      "water logged",
+      "made up",
+      "all of above"
+    ],
+    "correct": 3,
+    "explain": "Piles are deep foundations used when surface soil is weak, highly compressible, or waterlogged, transferring the load to deeper, more stable strata."
+  },
+  {
+    "q": "20. The arrangement of supporting an existing structure by providing supports underneath is known as",
+    "options": [
+      "shoring",
+      "jacking",
+      "piling",
+      "under pinning"
+    ],
+    "correct": 3,
+    "explain": "Underpinning is the method used to strengthen or deepen the foundation of an existing building or structure."
+  },
+  {
+    "q": "21. The load of furniture stored in a building is termed as",
+    "options": [
+      "Dead load",
+      "Live load",
+      "Both are correct",
+      "Both are wrong"
+    ],
+    "correct": 1,
+    "explain": "Live loads (imposed loads) are movable loads, such as people, furniture, and movable equipment."
+  },
+  {
+    "q": "22. The safe bearing capacity for hard rock should be",
+    "options": [
+      "110 t/m²",
+      "above 250 t/m²",
+      "above 50 t/m²",
+      "2 to 5 t/m²"
+    ],
+    "correct": 1,
+    "explain": "Hard, massive rock has very high bearing capacity, typically exceeding 250 t/m² (2500 kN/m²)."
+  },
+  {
+    "q": "23. While constructing a bridge upon a river, the foundation to be adopted in pillars should be",
+    "options": [
+      "well foundation",
+      "pile foundation",
+      "grillage foundation",
+      "raft foundation"
+    ],
+    "correct": 0,
+    "explain": "Well (Caisson) foundations are standard for bridge piers in rivers due to their ability to withstand scour and provide high load capacity."
+  },
+  {
+    "q": "24. For a bridge pier, in very deep water the foundation to be used should be",
+    "options": [
+      "well foundation",
+      "pile foundation",
+      "caisson foundation",
+      "coffer dam"
+    ],
+    "correct": 2,
+    "explain": "In very deep water where a standard well foundation is difficult, a pneumatic or floating caisson is used."
+  },
+  {
+    "q": "25. Which of the following has the lowest bearing capacity?",
+    "options": [
+      "black cotton soil",
+      "soft clay",
+      "fine sandy soil",
+      "hard rock"
+    ],
+    "correct": 1,
+    "explain": "Soft clay has very low shear strength and high compressibility, giving it one of the lowest safe bearing capacities."
+  },
+  {
+    "q": "26. The foundations are placed below ground level, to increase",
+    "options": [
+      "strength",
+      "workability",
+      "stability of structure",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "Embedding foundations below ground level provides lateral support and prevents sliding, increasing stability."
+  },
+  {
+    "q": "27. The type of steel pile which is generally sunk in soft clay and loose sand of low bearing capacity is ........",
+    "options": [
+      "screw pile",
+      "disc pile",
+      "H-pile",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Screw piles consist of a hollow shaft with a screw-like blade at the bottom, making them ideal for soft clays and loose sands."
+  },
+  {
+    "q": "28. Black cotton soil is unsuitable for foundations because its",
+    "options": [
+      "bearing capacity is low",
+      "permeability is uncertain",
+      "particles are cohesive",
+      "property to undergo a volumetric change due to variation of moisture content"
+    ],
+    "correct": 3,
+    "explain": "Black cotton soil swells significantly when wet and shrinks when dry, which can cause foundation failure."
+  },
+  {
+    "q": "29. The size of the plate used in plate loading test in clayey soils is ..........",
+    "options": [
+      "30 cm x 30 cm",
+      "45 cm x 45 cm",
+      "60 cm x 60 cm",
+      "75 cm x 75 cm"
+    ],
+    "correct": 2,
+    "explain": "For cohesive (clayey) soils, a larger plate size of 60 cm x 60 cm is preferred to capture the settlement behavior accurately."
+  },
+  {
+    "q": "30. Columns in a workshop supporting Gantry Cranes will have ..........",
+    "options": [
+      "pile foundations",
+      "grillage foundations",
+      "raft foundations",
+      "well foundations"
+    ],
+    "correct": 1,
+    "explain": "Grillage foundations are ideal for heavy isolated column loads in industrial buildings where a large bearing area is required to prevent settlement."
+  },
+  {
+    "q": "31. In made-up ground having a low value of its bearing power, heavy concentrated structural loads are generally supported by providing ..........",
+    "options": [
+      "combined footing",
+      "strap footing",
+      "raft footing",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "Raft (mat) foundations are best for 'made-up' or soft ground as they bridge over weak spots and prevent differential settlement."
+  },
+  {
+    "q": "32. When two or more footings are connected by a beam, it is called ..........",
+    "options": [
+      "beam footing",
+      "combined footing",
+      "strap footing",
+      "mat footing"
+    ],
+    "correct": 2,
+    "explain": "A strap footing consists of two isolated footings joined by a structural 'strap' beam to transfer eccentric loads."
+  },
+  {
+    "q": "33. A type of cast-in-situ pile which has an enlarged base and a corrugated stem, is ..........",
+    "options": [
+      "simplex pile",
+      "franki pile",
+      "vibro-pile",
+      "Raymond pile"
+    ],
+    "correct": 1,
+    "explain": "Franki piles feature a 'mushroom' base formed by ramming dry concrete into the soil, significantly increasing the end-bearing area."
+  },
+  {
+    "q": "34. A screw pile consists of cast iron or steel shaft of external diameter varying from ..........",
+    "options": [
+      "0 to 150 mm",
+      "150 to 300 mm",
+      "300 to 450 mm",
+      "450 to 600 mm"
+    ],
+    "correct": 1,
+    "explain": "The central shaft of a screw pile is typically between 150 mm and 300 mm, though the helix blade diameter is much larger."
+  },
+  {
+    "q": "35. A watertight structure constructed in connection with excavations for foundations of bridges, piers etc., is known as ..........",
+    "options": [
+      "caisson",
+      "cofferdam",
+      "well foundation",
+      "raft foundation"
+    ],
+    "correct": 0,
+    "explain": "A caisson is a permanent, watertight retaining structure used for foundations of bridges and other heavy structures in water or wet ground."
+  },
+  {
+    "q": "36. A raking shore is a system of ..........",
+    "options": [
+      "giving temporary lateral support to an unsafe wall",
+      "providing temporary support to the party walls of two buildings where the intermediate building is to be pulled down and rebuilt",
+      "providing vertical support to walls and roofs, floors etc. when the lower part of a wall has to be removed for the purpose of providing an opening in the wall",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Raking shores consist of inclined timber members (rakers) used to provide lateral support to walls that are bulging or out of plumb."
+  },
+  {
+    "q": "37. For supporting a heavy structure in a sandy soil, the type of foundation generally preferred is ..........",
     "options": [
       "strap footing",
       "pier footing",
@@ -55,40 +407,7 @@
     "explain": "A raft (mat) foundation covers the entire area under the building, which helps reduce differential settlement in sandy or weak soils."
   },
   {
-    "q": "6. The depth of excavation for foundation is usually checked with a ..........",
-    "options": [
-      "tape",
-      "levelling staff",
-      "ranging rod",
-      "boning rod"
-    ],
-    "correct": 3,
-    "explain": "Boning rods are T-shaped wooden rods used in sets to maintain or check the correct levels and depths of trenches."
-  },
-  {
-    "q": "7. Pile are usually not made of ..........",
-    "options": [
-      "steel",
-      "stainless steel",
-      "timber",
-      "R.C.C."
-    ],
-    "correct": 1,
-    "explain": "Stainless steel is too expensive for structural foundation piles; standard steel, timber, and reinforced concrete are used instead."
-  },
-  {
-    "q": "8. Different types of pitched roofs are ...........",
-    "options": [
-      "mansard type",
-      "gable type",
-      "both of the above",
-      "thatch type"
-    ],
-    "correct": 2,
-    "explain": "Pitched roofs are categorized by their shape and slope; Gable roofs have two sloping sides meeting at a ridge, while Mansard roofs have four sides with two different slopes on each side."
-  },
-  {
-    "q": "9. A temporary rigid structure having platforms to enable masons to work at different stages of a building is known as ...........",
+    "q": "38. A temporary rigid structure having platforms to enable masons to work at different stages of a building is known as ...........",
     "options": [
       "under pinning",
       "shoring",
@@ -97,16 +416,5 @@
     ],
     "correct": 3,
     "explain": "Scaffolding is the temporary framework used to support workers and materials during construction or repair."
-  },
-  {
-    "q": "10. The arrangement of supporting an existing structure by providing supports underneath, is known as ...........",
-    "options": [
-      "under pinning",
-      "shoring",
-      "jacking",
-      "scaffolding"
-    ],
-    "correct": 0,
-    "explain": "Underpinning is the process of strengthening or deepening the foundation of an existing building or structure."
   }
 ]

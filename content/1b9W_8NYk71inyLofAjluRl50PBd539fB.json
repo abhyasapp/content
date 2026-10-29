@@ -1,39 +1,501 @@
 [
   {
-    "q": "1. The type of transition curve recommended by the IRC is ............",
+    "q": "1. Camber depends on .............",
     "options": [
-      "cubic parabola",
-      "cubic spiral",
-      "lamniscate",
-      "none of these"
+      "smoothness of base coarse",
+      "permeability of sub grade",
+      "amount of rainfall",
+      "grade of wearing coarse"
+    ],
+    "correct": 2,
+    "explain": "Camber selection depends on two main factors: the type of pavement surface (wearing course) and the intensity of rainfall."
+  },
+  {
+    "q": "2. Ruling gradient in plains is .............",
+    "options": [
+      "1 in 20",
+      "1 in 30",
+      "1 in 40",
+      "1 in 50"
     ],
     "correct": 1,
-    "explain": "The Spiral (specifically the cubic spiral) is the transition curve recommended by the Indian Roads Congress (IRC) because it satisfies the requirement of a linear change in curvature."
+    "explain": "The ruling gradient is the maximum gradient a designer aims to keep. For plain terrain, IRC recommends 1 in 30 (3.3%)."
   },
   {
-    "q": "2. Which of the following is not a transition curve?",
+    "q": "3. Limiting gradient in plains is .............",
     "options": [
-      "Compound curve",
-      "Cubic spiral",
-      "Cubic parabola",
-      "True spiral"
+      "1 in 15",
+      "1 in 20",
+      "1 in 30",
+      "1 in 40"
+    ],
+    "correct": 1,
+    "explain": "Limiting gradient is used where the topography makes the ruling gradient impractical. For plains, it is 1 in 20 (5%)."
+  },
+  {
+    "q": "4. Grade compensation on curves is a maximum of .............",
+    "options": [
+      "56/R",
+      "76/R",
+      "100/R",
+      "156/R"
+    ],
+    "correct": 1,
+    "explain": "The IRC formula for grade compensation is (30+R)/R, but the maximum allowed value is 75/R (often rounded to 76/R in textbooks)."
+  },
+  {
+    "q": "5. Higher values of super elevation is dangerous in case of .............",
+    "options": [
+      "a fast moving motor cycle",
+      "heavily loaded (but with a light material as cotton) bullock cart",
+      "a road that is always dry",
+      "a long truck with a trailer"
+    ],
+    "correct": 1,
+    "explain": "Heavily loaded, slow-moving vehicles with a high center of gravity (like cotton-loaded carts) are at risk of overturning inward on steep super-elevations."
+  },
+  {
+    "q": "6. While negotiating a curve .............",
+    "options": [
+      "wheels of both axles tread the same path",
+      "front wheels follow a less radius than rear wheels",
+      "rear wheels follow a less radius than the front wheels",
+      "depending on right hand or left hand curve it varies"
+    ],
+    "correct": 2,
+    "explain": "This phenomenon is called 'off-tracking.' Due to the rigid wheelbase, rear wheels follow a shorter path (smaller radius) than the steered front wheels."
+  },
+  {
+    "q": "7. Stopping distance is given by .............",
+    "options": [
+      "vt + v²/2g(μ±i)",
+      "vt ± v²/2gi",
+      "vtμ + v²/2g",
+      "(vt + v²/2g)μ"
     ],
     "correct": 0,
-    "explain": "A compound curve is a series of circular arcs; it does not feature a transition (gradual change from straight to circular)."
+    "explain": "Stopping Sight Distance (SSD) = Lag Distance (vt) + Braking Distance (v²/2g(f±n)), where 'i' or 'n' is the gradient."
   },
   {
-    "q": "3. The intrinsic equation of an ideal transition curve representing a clothoid is given by ............",
+    "q": "8. Traffic density is .............",
     "options": [
-      "φ = l²/2RL",
-      "φ = l²/4RL",
-      "φ = l²/8RL",
-      "φ = l²/16RL"
+      "number of vehicles moving in a specific direction per lane per day",
+      "number of vehicles moving in a specific direction per hour",
+      "number of vehicles per unit length",
+      "maximum number of vehicles passing a given point"
+    ],
+    "correct": 2,
+    "explain": "Density refers to the number of vehicles occupying a unit length of lane or roadway at a given instant (usually vehicles/km)."
+  },
+  {
+    "q": "9. 67% of the accidents take place because of .............",
+    "options": [
+      "traffic moving in opposite directions",
+      "traffic changing lanes",
+      "right turning traffic",
+      "left turning traffic"
+    ],
+    "correct": 2,
+    "explain": "Right-turning movements (in left-hand drive countries) cross oncoming traffic lanes, creating high-conflict points and more accidents."
+  },
+  {
+    "q": "10. Traffic signs and devices should be placed within a cone of .............",
+    "options": [
+      "3°",
+      "10°",
+      "15°",
+      "20°"
+    ],
+    "correct": 1,
+    "explain": "Signs should be placed within a 10-degree cone of the driver's central line of sight to be easily noticed without taking eyes off the road."
+  },
+  {
+    "q": "11. The crossing angle should be a minimum of .............",
+    "options": [
+      "20°",
+      "30°",
+      "60°",
+      "80°"
+    ],
+    "correct": 2,
+    "explain": "At intersections, roads should meet at an angle as close to 90° as possible; 60° is generally the minimum acceptable angle to maintain visibility."
+  },
+  {
+    "q": "12. A three level round about is preferred to a clover left junction when .............",
+    "options": [
+      "less area is available",
+      "left turn traffic has a direct path",
+      "heavy traffic is to be handled",
+      "construction of an over bridge is very difficult"
     ],
     "correct": 0,
-    "explain": "The spiral angle φ for a clothoid/spiral is given by l²/(2RL), where l is the distance from the start of the curve."
+    "explain": "Cloverleaf interchanges require vast amounts of land for loops. A three-level roundabout is a more compact solution for high-capacity grade separation."
   },
   {
-    "q": "4. The length of the tangent of a simple curve having angle of deflection θ and radius of curvature R, is equal to ............",
+    "q": "13. Regulatory signs are .............",
+    "options": [
+      "red circular dies 60 cm dia. placed 2.8 m above G.L.",
+      "red triangle 45 cm side with a rectangular plate below",
+      "rectangular yellow plates 75 cm x 120 cm with black letters",
+      "rectangular in shape but no definite size"
+    ],
+    "correct": 0,
+    "explain": "Mandatory or Regulatory signs (except Stop and Give Way) are circular in shape with a red border, standardizing their appearance for quick recognition."
+  },
+  {
+    "q": "14. If L is the length of vehicles in metres, C is the clear distance between two consecutive vehicles (stopping sight distance), V is the speed of vehicles in km/hour, the maximum number N of vehicles/hour, is .............",
+    "options": [
+      "N = 1000V / (L + C)",
+      "N = (L + C) / 1000V",
+      "N = 1000L / (C + V)",
+      "N = 1000C / (L + V)"
+    ],
+    "correct": 0,
+    "explain": "The formula for basic capacity is C = 1000 * V / S, where S is the space headway (L + clear gap). Substituting L+C for S gives 1000V/(L+C)."
+  },
+  {
+    "q": "15. If the elevations along a road increase, the slope of the road along the longitudinal direction, is known as .............",
+    "options": [
+      "gradient",
+      "grade",
+      "positive grade",
+      "negative grade"
+    ],
+    "correct": 2,
+    "explain": "An upward slope in the direction of travel is defined as a positive grade (upgrade), while a downward slope is a negative grade."
+  },
+  {
+    "q": "16. Any gradient on a road is said to be an exceptional gradient, if it is .............",
+    "options": [
+      "more than ruling gradient",
+      "less than average gradient",
+      "more than floating gradient",
+      "less than minimum gradient or more than maximum gradient"
+    ],
+    "correct": 0,
+    "explain": "Exceptional gradients exceed both ruling and limiting gradients; they are used only for very short stretches in extreme terrain."
+  },
+  {
+    "q": "17. floating gradients are generally provided .............",
+    "options": [
+      "along maximum gradients",
+      "along minimum gradients",
+      "at summit curves",
+      "at valley curves"
+    ],
+    "correct": 2,
+    "explain": "A floating gradient allows a vehicle to maintain its speed using its momentum without additional power, typically designed into summit curves."
+  },
+  {
+    "q": "18. For a properly designed vehicle, the resistance generally ignored, is .............",
+    "options": [
+      "wind resistance",
+      "rolling resistance",
+      "grade resistance",
+      "axle resistance"
+    ],
+    "correct": 0,
+    "explain": "At standard highway speeds for commercial vehicles, wind resistance is often considered negligible compared to rolling and grade resistances in basic design calculations."
+  },
+  {
+    "q": "19. For calculating the tractive force along an upgrade of an asphalt road, the most probable value of the co-efficient of traction resistance μ is assumed .............",
+    "options": [
+      "1/10",
+      "1/20",
+      "1/30",
+      "1/100"
+    ],
+    "correct": 2,
+    "explain": "For smooth asphalt roads, the rolling resistance coefficient ($\\mu$) is typically taken as 1/30 (approx 0.033)."
+  },
+  {
+    "q": "20. The super-elevation on roads is .............",
+    "options": [
+      "directly proportional to width of pavement",
+      "directly proportional to velocity of vehicles",
+      "inversely proportional to acceleration due to gravity",
+      "inversely proportional to the radius of curvature"
+    ],
+    "correct": 3,
+    "explain": "From the formula $e = V^2 / 127R$, it is mathematically clear that super-elevation ($e$) is inversely proportional to the radius ($R$)."
+  },
+  {
+    "q": "21. The maximum safe speed on roads, depends on the .............",
+    "options": [
+      "type of the highway",
+      "type of road surface",
+      "type of curves",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Safe speed is a function of the road classification (highway vs urban), the friction of the surface, and the geometric design of the curves."
+  },
+  {
+    "q": "22. Non-passing sight distance along a road is the longest distance at which the driver of a moving vehicle, may see an obstacle on the pavement",
+    "options": [
+      "10 cm high",
+      "25 cm high",
+      "50 cm high",
+      "100 cm high"
+    ],
+    "correct": 1,
+    "explain": "According to IRC standards, for calculating Stopping Sight Distance (Non-passing sight distance), the height of the object is taken as 0.15m (15cm) in some codes, but in this specific technical context/book, 25 cm is the standard provided value for the obstacle height."
+  },
+  {
+    "q": "23. For a vehicle moving with a speed of 80 km per hour, the brake reaction time, in ordinary cases, is",
+    "options": [
+      "1 sec",
+      "1.5 sec",
+      "2.0 sec",
+      "2.5 sec"
+    ],
+    "correct": 3,
+    "explain": "The Indian Roads Congress (IRC) recommends a standard total reaction time of 2.5 seconds for the design of stopping sight distance."
+  },
+  {
+    "q": "24. If degree of a road curve is defined by assuming the standard length of an arc as 30 metres, the radius of 1° curve is equal",
+    "options": [
+      "1719 m",
+      "1146 m",
+      "1046 m",
+      "1619 m"
+    ],
+    "correct": 0,
+    "explain": "The formula is $R = (30 \\times 180) / (\\pi \times D)$. For $D=1$, $R \\approx 1718.87$ m, rounded to 1719 m."
+  },
+  {
+    "q": "25. If the ruling gradient on any highway is 3%, the gradient provided on the curve of 300 metre radius, is",
+    "options": [
+      "2.00%",
+      "2.25%",
+      "2.50%",
+      "2.75%"
+    ],
+    "correct": 3,
+    "explain": "Grade compensation = $75/300 = 0.25\\%$. Compensated gradient = $3\\% - 0.25\\% = 2.75\\%$."
+  },
+  {
+    "q": "26. In an ideal transition curve, the radius of curvature",
+    "options": [
+      "is constant",
+      "is directly proportional to its distance from the point of commencement",
+      "is inversely proportional to the radius of main curve",
+      "is inversely proportional to the radius of main curve"
+    ],
+    "correct": 3,
+    "explain": "The fundamental property of a transition spiral is that the radius (r) is inversely proportional to the length (l) from the start ($rl = \text{constant}$)."
+  },
+  {
+    "q": "27. The standard equation of a cubic parabolic transition curve provided on roads, is",
+    "options": [
+      "x^3 / 6RL",
+      "l^3 / 6RL",
+      "x^2 / 6RL",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Repeated question; the answer remains the cubic offset formula $x^3 / 6RL$."
+  },
+  {
+    "q": "28. Maximum super-elevation of hill roads should not exceed",
+    "options": [
+      "5%",
+      "7%",
+      "8%",
+      "10%"
+    ],
+    "correct": 3,
+    "explain": "For hilly terrain (not snow-bound), the maximum super-elevation allowed is $10\\%$."
+  },
+  {
+    "q": "29. Super-elevation on roads in snow bound areas, should generally not exceed",
+    "options": [
+      "15%",
+      "12%",
+      "10%",
+      "7%"
+    ],
+    "correct": 3,
+    "explain": "In snow-bound areas, super-elevation is restricted to $7\\%$ to prevent slow-moving vehicles from sliding inward on ice."
+  },
+  {
+    "q": "30. Hill roads are",
+    "options": [
+      "provided camber along spur curves",
+      "provided camber along valley curves",
+      "seldom provided a camber",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In many hill road designs, cross-slope is provided as a single inward slope (super-elevation) toward the drain rather than a bidirectional camber."
+  },
+  {
+    "q": "31. Minimum permissible speed on high speed roads, is decided on the basis of",
+    "options": [
+      "15 percentile cumulative frequency",
+      "20 percentile cumulative frequency",
+      "30 percentile cumulative frequency",
+      "40 percentile cumulative frequency"
+    ],
+    "correct": 0,
+    "explain": "The 15th percentile speed is used to set the lower speed limit to prevent slow-moving vehicles from creating hazards or bottlenecks."
+  },
+  {
+    "q": "32. The maximum comfortable retardation applied to moving vehicles, is",
+    "options": [
+      "3.42 m/sec^2",
+      "4.42 m/sec^2",
+      "5.56 m/sec^2",
+      "1.80 m/sec^2"
+    ],
+    "correct": 0,
+    "explain": "A deceleration rate of 3.4 m/s² is generally considered the threshold for passenger comfort during braking."
+  },
+  {
+    "q": "33. Traffic surveys are carried out",
+    "options": [
+      "to know the type of traffic",
+      "to determine the facilities to traffic regulations",
+      "to design proper drainage system",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Surveys provide data for every aspect of highway design, from structural capacity (traffic types) to geometric safety and auxiliary systems."
+  },
+  {
+    "q": "34. Passing zones are generally not provided on",
+    "options": [
+      "summit curves",
+      "horizontal curves",
+      "two lane highways",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Passing is restricted anywhere visibility is limited (curves/summits) or where the road is too narrow to permit safe overtaking."
+  },
+  {
+    "q": "35. If cross slope of a country is greater than 60%, the terrain is classified as",
+    "options": [
+      "rolling",
+      "mountainous",
+      "steep",
+      "plain"
+    ],
+    "correct": 2,
+    "explain": "Terrain with a cross-slope exceeding 60% is classified as 'Steep'."
+  },
+  {
+    "q": "36. If the designed speed on a circular curve of radius 1400 m is 80 km/hour, no superelevation is provided, if the camber, is ............",
+    "options": [
+      "4%",
+      "5%",
+      "2%",
+      "1.7%"
+    ],
+    "correct": 3,
+    "explain": "If the calculated superelevation is less than or equal to the road's camber, only the camber is provided. For V=80 and R=1400, the value is low enough to be covered by a standard 1.7% to 2% camber."
+  },
+  {
+    "q": "37. The traffic manoeuvre means ............",
+    "options": [
+      "diverging",
+      "merging",
+      "crossing",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Traffic manoeuvres include any change in the direction or speed of a vehicle, such as merging into a lane, diverging from a flow, or crossing another path."
+  },
+  {
+    "q": "38. The city roads which are meant for through traffic usually on a continuous route are known as ............",
+    "options": [
+      "carriage way express way",
+      "express way",
+      "arterial streets",
+      "sub-arterial stress"
+    ],
+    "correct": 2,
+    "explain": "Arterial streets are the highest level of urban roads, designed primarily for through traffic connecting major areas of a city."
+  },
+  {
+    "q": "39. In order to give satisfactory service throughout the year, the road surface should ............",
+    "options": [
+      "have a good carriage-way",
+      "have smooth gradient",
+      "have a good wearing surface",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "An all-weather road requires a stable carriage-way, appropriate longitudinal gradients, and a durable wearing surface to resist traffic and weather."
+  },
+  {
+    "q": "40. The main object of providing a camber is ............",
+    "options": [
+      "to make the road surface impervious",
+      "to make the road surface durable",
+      "to drain off rain water from road surface, as quickly as possible",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "While it contributes to durability, the primary functional reason for camber is to ensure quick drainage of surface water to prevent skidding and seepage."
+  },
+  {
+    "q": "41. In the absence of super-elevation on road along curves, pot holes are likely to occur at the ............ of the road.",
+    "options": [
+      "centre",
+      "outer edge",
+      "inner edge",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Without superelevation, centrifugal force pushes vehicles toward the outside, causing excessive pressure and wear on the outer edge, leading to pot holes."
+  },
+  {
+    "q": "42. Superelevation balances the centrifugal force corresponding to ............",
+    "options": [
+      "full design speed",
+      "half of the design speed",
+      "three-fourth of the design speed",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "IRC recommends designing superelevation to balance the full centrifugal force for 75% (three-fourth) of the design speed, assuming friction is zero."
+  },
+  {
+    "q": "43. The total rise or fall between any two points chosen on the alignment divided by the horizontal distance between the two points, is called ............",
+    "options": [
+      "average gradient",
+      "exceptional gradient",
+      "ruling gradient",
+      "floating gradient"
+    ],
+    "correct": 0,
+    "explain": "Average gradient is calculated by taking the net elevation difference and dividing it by the total horizontal length."
+  },
+  {
+    "q": "44. The rate of change of radial acceleration governs the ............",
+    "options": [
+      "length of a transition curve",
+      "extra width of pavement on the curve",
+      "length of the tangent of a simple circular curve",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "To ensure passenger comfort, the length of a transition curve is designed such that the radial (centrifugal) acceleration is introduced at a gradual, controlled rate (C)."
+  },
+  {
+    "q": "45. In case of a cubic spiral, the polar deflection angle may be assumed equal to ............",
+    "options": [
+      "φ/2",
+      "φ/3",
+      "φ/4",
+      "φ/6"
+    ],
+    "correct": 1,
+    "explain": "For a cubic spiral, the deflection angle (α) is approximately one-third of the spiral angle (φ) at that point."
+  },
+  {
+    "q": "46. The length of the tangent of a simple curve having angle of deflection θ and radius of curvature R, is equal to ............",
     "options": [
       "R sin θ/2",
       "R cos θ/2",
@@ -44,7 +506,7 @@
     "explain": "The tangent length (T) is a basic trigonometric property of a circle: T = R tan(θ/2)."
   },
   {
-    "q": "5. Alignment of a road is finally decided on the basis of ............",
+    "q": "47. Alignment of a road is finally decided on the basis of ............",
     "options": [
       "selection of route",
       "field survey",
@@ -55,7 +517,7 @@
     "explain": "Detailed field surveys (preliminary and final location surveys) provide the precise data needed to fix the center line of the road."
   },
   {
-    "q": "6. The gradients of trace cuts for hill roads are kept ............",
+    "q": "48. The gradients of trace cuts for hill roads are kept ............",
     "options": [
       "10 to 20% easier than the ruling gradient",
       "20 to 25% easier than the ruling gradient",
@@ -66,40 +528,7 @@
     "explain": "Trace cut gradients are kept easier (less steep) than the final ruling gradient to allow for adjustments during the actual road construction."
   },
   {
-    "q": "7. A terrain with cross-slope less than 10 percent, is called ............",
-    "options": [
-      "steep terrain",
-      "mountainous terrain",
-      "level terrain",
-      "rolling terrain"
-    ],
-    "correct": 2,
-    "explain": "According to IRC terrain classification, 'Level' terrain has a cross slope of 0-10%."
-  },
-  {
-    "q": "8. A curve at the ridge of a hill having a convex shape is called a ............",
-    "options": [
-      "valley curve",
-      "summit curve",
-      "re-entrant curve",
-      "salient curve"
-    ],
-    "correct": 1,
-    "explain": "A summit curve is a vertical curve with convexity upwards, occurring when a rising grade meets a falling grade or a flatter grade."
-  },
-  {
-    "q": "9. A gradient at which no tractive force is required to maintain constant speed by a vehicle is called ............",
-    "options": [
-      "average gradient",
-      "limiting gradient",
-      "exceptional gradient",
-      "floating gradient"
-    ],
-    "correct": 3,
-    "explain": "A floating gradient is a downward slope that allows a vehicle to maintain a constant speed using its own momentum without using engine power."
-  },
-  {
-    "q": "10. In hill roads, minimum sight distance required is ............",
+    "q": "49. In hill roads, minimum sight distance required is ............",
     "options": [
       "stopping sight distance",
       "passing sight distance",
@@ -110,117 +539,7 @@
     "explain": "In difficult hilly terrain, it is often impossible to provide OSD, so the absolute minimum requirement is the Stopping Sight Distance (SSD)."
   },
   {
-    "q": "11. In the initial stage of construction of hill roads, no curve should have a radius less than ............",
-    "options": [
-      "20 m",
-      "30 m",
-      "40 m",
-      "50 m"
-    ],
-    "correct": 0,
-    "explain": "For safety and vehicle maneuverability, the minimum radius for hairpin bends or sharp curves in hill roads is typically set at 20 m."
-  },
-  {
-    "q": "12. For walls less than 6 m in height, the thickness of the retaining wall at the bottom is equal to ............",
-    "options": [
-      "0.2 times the height",
-      "0.3 times the height",
-      "0.4 times the height",
-      "0.5 times the height"
-    ],
-    "correct": 2,
-    "explain": "An empirical rule for the base width of a gravity retaining wall is approximately 0.4 times the total height (H)."
-  },
-  {
-    "q": "13. A wall constructed to retain the earth from slippage on the hill side of the roadway is called ............",
-    "options": [
-      "breast wall",
-      "retaining wall",
-      "parapet wall",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "A breast wall is built on the uphill side to prevent the natural slope from sliding onto the road."
-  },
-  {
-    "q": "14. The height of the parapet wall is usually kept as ............ above the berm level.",
-    "options": [
-      "25 cm",
-      "50 cm",
-      "75 cm",
-      "100 cm"
-    ],
-    "correct": 2,
-    "explain": "A height of 75 cm (0.75 m) is a standard safety height for parapet walls on the valley side of hill roads."
-  },
-  {
-    "q": "15. The parapet walls are usually required on the valley side of the roadway, in order to ............",
-    "options": [
-      "retain the earth from slippage",
-      "properly guide the vehicles to the roadway",
-      "provide a good drainage system",
-      "keep the road dry"
-    ],
-    "correct": 1,
-    "explain": "Parapet walls act as a safety barrier and visual guide for drivers to prevent vehicles from going off the edge on the valley side."
-  },
-  {
-    "q": "16. The theoretical capacity of a highway depends upon the ............",
-    "options": [
-      "average length of the vehicles",
-      "average spacing of the moving vehicles",
-      "either 'a' or 'b'",
-      "both 'a' and 'b'"
-    ],
-    "correct": 1,
-    "explain": "Theoretical capacity is derived based on the minimum safe headway or spacing between vehicles moving in a single lane."
-  },
-  {
-    "q": "17. The endoscope is used to determine ............",
-    "options": [
-      "running speed",
-      "spot speed",
-      "travel time",
-      "average speed"
-    ],
-    "correct": 1,
-    "explain": "An Enoscope (L-shaped mirror box) is a simple tool used by traffic engineers to measure spot speeds by timing vehicles over a short base distance."
-  },
-  {
-    "q": "18. The theoretical capacity (C) of a highway (i.e., the number of vehicles passing any point in one hour per lane) is given by ............",
-    "options": [
-      "C = 100V/S",
-      "C = 500V/S",
-      "C = 1000V/S",
-      "C = 2000V/S"
-    ],
-    "correct": 2,
-    "explain": "C = (1000 × V) / S, where V is speed in kmph and S is the average center-to-center spacing of vehicles in meters."
-  },
-  {
-    "q": "19. The number of vehicles passing at a point on the highway in unit time is known as ............",
-    "options": [
-      "traffic capacity",
-      "traffic volume",
-      "traffic density",
-      "all of these"
-    ],
-    "correct": 1,
-    "explain": "Traffic volume is the measure of the quantity of traffic, usually expressed as vehicles per hour or per day."
-  },
-  {
-    "q": "20. The maximum number of vehicles that can pass a given point on a lane or a roadway during one hour under the prevailing roadway and traffic conditions, is known as ............",
-    "options": [
-      "basic capacity of a traffic lane",
-      "possible capacity of a traffic lane",
-      "practical capacity of a traffic lane",
-      "all of these"
-    ],
-    "correct": 1,
-    "explain": "Possible capacity is the maximum traffic flow achievable under prevailing conditions; if conditions are ideal, it equals basic capacity."
-  },
-  {
-    "q": "21. The known traffic manoeuvre means ............",
+    "q": "50. The known traffic manoeuvre means ............",
     "options": [
       "diverging",
       "merging",
@@ -231,40 +550,7 @@
     "explain": "All interactions between vehicles, such as splitting from a lane (diverging), joining a lane (merging), or crossing paths, are traffic manoeuvres."
   },
   {
-    "q": "22. The purpose of traffic surveys is to ............",
-    "options": [
-      "know the type of traffic",
-      "determine the facilities to traffic regulations",
-      "design proper drainage system",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "Traffic surveys provide the data necessary to plan traffic regulations, signals, and road improvements to manage flow effectively."
-  },
-  {
-    "q": "23. The traffic census is carried out to study ............",
-    "options": [
-      "speed and delay",
-      "traffic volume",
-      "road parking",
-      "origin and destination"
-    ],
-    "correct": 1,
-    "explain": "A traffic census primarily involves counting the number and types of vehicles to determine traffic volume."
-  },
-  {
-    "q": "24. Traffic-actuated signals may be ............",
-    "options": [
-      "full traffic-actuated signals",
-      "semi-traffic actuated signals",
-      "speed control signals",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Traffic-actuated signals use sensors to adjust light timings based on real-time vehicle arrivals on the road approaches."
-  },
-  {
-    "q": "25. If the traffic detectors are used on all the approaches to the intersection, the control signal is known as ............",
+    "q": "51. If the traffic detectors are used on all the approaches to the intersection, the control signal is known as ............",
     "options": [
       "full traffic-actuated signal",
       "semi-traffic actuated signal",
@@ -275,18 +561,7 @@
     "explain": "Full traffic-actuated signals monitor all directions of an intersection to optimize green time for everyone based on demand."
   },
   {
-    "q": "26. A complete signal-time cycle constitutes ............",
-    "options": [
-      "red timing",
-      "yellow timing",
-      "green timing",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "One complete cycle includes the full sequence of red, yellow (amber), and green lights for all directions."
-  },
-  {
-    "q": "27. Flashing yellow beam are sometimes employed as ............",
+    "q": "52. Flashing yellow beam are sometimes employed as ............",
     "options": [
       "stopping signal",
       "proceeding signal",
@@ -297,84 +572,7 @@
     "explain": "A flashing yellow light warns drivers to proceed with caution, typically at intersections with low traffic or during late-night hours."
   },
   {
-    "q": "28. In case of multi-lane road, overtaking is generally permitted from ............",
-    "options": [
-      "left side",
-      "right side",
-      "both sides",
-      "any one of these"
-    ],
-    "correct": 1,
-    "explain": "In 'Keep Left' driving systems (like Nepal/India), overtaking is standardly performed from the right side of the slower vehicle."
-  },
-  {
-    "q": "29. At a road junction, ............ cross conflict points are severe if both are two-way roads.",
-    "options": [
-      "5",
-      "7",
-      "9",
-      "16"
-    ],
-    "correct": 3,
-    "explain": "At a standard four-legged intersection between two two-way roads, there are a total of 24 conflict points, of which 16 are major 'cross' conflicts."
-  },
-  {
-    "q": "30. 'Dead slow' is a ............",
-    "options": [
-      "regulatory sign",
-      "warning sign",
-      "informatory sign",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "Signs that command a driver to follow a specific rule (like speed limits or stopping) are categorized as mandatory or regulatory signs."
-  },
-  {
-    "q": "31. 'End of speed limit' is a ............",
-    "options": [
-      "regulatory sign",
-      "warning sign",
-      "informatory sign",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "This sign provides the driver with information about the road status rather than a specific warning or a strict command."
-  },
-  {
-    "q": "32. A road sign is generally installed above the ground at a height of ............",
-    "options": [
-      "2.75 m to 2.80 m",
-      "2.95 m to 3.00 m",
-      "3.15 m to 3.5 m",
-      "more than 3.5 m"
-    ],
-    "correct": 0,
-    "explain": "To ensure visibility while remaining clear of vehicles, signs are typically mounted around 2.8 meters above the roadway surface."
-  },
-  {
-    "q": "33. The maximum number of vehicles can be parked with ............",
-    "options": [
-      "parallel parking",
-      "right angle parking",
-      "45° angle parking",
-      "75° angle parking"
-    ],
-    "correct": 1,
-    "explain": "Right-angle (90-degree) parking allows the most vehicles per unit length of curb, though it requires the most width for maneuvering."
-  },
-  {
-    "q": "34. The colour of light used for visibility during fog is ............",
-    "options": [
-      "red",
-      "yellow",
-      "green",
-      "white"
-    ],
-    "correct": 1,
-    "explain": "Yellow (amber) light has a longer wavelength that scatters less in fog compared to white light, providing better visibility for the driver."
-  },
-  {
-    "q": "35. The length of the side of warning sign boards of roads is ............",
+    "q": "53. The length of the side of warning sign boards of roads is ............",
     "options": [
       "30 cm",
       "45 cm",
@@ -383,16 +581,5 @@
     ],
     "correct": 1,
     "explain": "As noted previously (Question 311), standard warning signs are equilateral triangles with a 45 cm side length."
-  },
-  {
-    "q": "36. The most efficient traffic signal system is ............",
-    "options": [
-      "simultaneous system",
-      "alternate system",
-      "flexible progressive system",
-      "simple progressive system"
-    ],
-    "correct": 2,
-    "explain": "The Flexible Progressive System allows signals along a corridor to be coordinated and adjusted individually to maintain a 'green wave' for traffic flow."
   }
 ]

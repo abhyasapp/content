@@ -1,17 +1,6 @@
 [
   {
-    "q": "1. Closed traverse is suitable in the survey of",
-    "options": [
-      "River",
-      "Road",
-      "Coast lines",
-      "Ponds"
-    ],
-    "correct": 3,
-    "explain": "A closed traverse, which returns to its starting point, is suitable for surveying areas that form a closed loop, like the boundary of a pond/lake; rivers, roads and coastlines are elongated features better surveyed by open traverses."
-  },
-  {
-    "q": "2. For the locating a distant object visible from two transit stations, the method usually preferred to, is",
+    "q": "1. For the locating a distant object visible from two transit stations, the method usually preferred to, is",
     "options": [
       "angles and distance from transit stations",
       "angles from two transit stations",
@@ -22,18 +11,7 @@
     "explain": "For a distant, inaccessible object visible from two transit stations, the method of intersection (angles observed from both known stations) is generally preferred since distances to the object are unknown/inaccessible."
   },
   {
-    "q": "3. The most reliable method of plotting a theodolite traverse is",
-    "options": [
-      "by consecutive co-ordinates of each station",
-      "by independent co-ordinate of each station",
-      "by plotting included angles and scaling off each traverse",
-      "by the tangent method of plotting"
-    ],
-    "correct": 1,
-    "explain": "Plotting by independent (total) co-ordinates of each station, computed from a common origin, is the most reliable method since errors do not accumulate progressively as they would with consecutive co-ordinates."
-  },
-  {
-    "q": "4. The orthographical projection of a traverse leg upon the reference meridian is known as",
+    "q": "2. The orthographical projection of a traverse leg upon the reference meridian is known as",
     "options": [
       "departure of leg",
       "latitude to the leg",
@@ -44,51 +22,7 @@
     "explain": "The projection of a traverse leg onto the north-south reference meridian (parallel to the meridian) is called its latitude."
   },
   {
-    "q": "5. The co-ordinate of a point measured perpendicular to the parallel is called",
-    "options": [
-      "total latitude",
-      "meridian distance",
-      "total departure",
-      "consecutive co-ordinate"
-    ],
-    "correct": 1,
-    "explain": "The perpendicular distance of a point from a reference meridian, measured parallel to the parallel (east-west), is called the meridian distance (or total departure) of that point."
-  },
-  {
-    "q": "6. Total latitude of a point is positive if it lies",
-    "options": [
-      "north of the reference parallel",
-      "south of the reference parallel",
-      "east of the reference parallel",
-      "west of the reference parallel"
-    ],
-    "correct": 0,
-    "explain": "By convention, latitude is taken as positive (northing) when the point lies north of the reference parallel, and negative (southing) when south."
-  },
-  {
-    "q": "7. The altitude of a traverse leg is obtained by multiplying its length by",
-    "options": [
-      "tangent of its reduced bearing",
-      "sign of its reduced bearing",
-      "cosine of its reduced bearing",
-      "cosecant of its reduced bearing"
-    ],
-    "correct": 2,
-    "explain": "Latitude of a traverse leg = length x cosine of its reduced bearing, since latitude is the projection along the north-south meridian direction."
-  },
-  {
-    "q": "8. The operation of making the algebraic sum of latitudes and departures of a closed traverse, each equal to zero, is known",
-    "options": [
-      "balancing the sights",
-      "balancing the departures",
-      "balancing the latitudes",
-      "balancing the traverse"
-    ],
-    "correct": 3,
-    "explain": "Adjusting all latitudes and departures so their algebraic sums each equal zero (removing closing error) is collectively known as 'balancing the traverse'."
-  },
-  {
-    "q": "9. The distance between terminal points computed from a subsidiary traverse run between them, is generally known as",
+    "q": "3. The distance between terminal points computed from a subsidiary traverse run between them, is generally known as",
     "options": [
       "traverse leg",
       "a base",
@@ -99,7 +33,7 @@
     "explain": "When a subsidiary (auxiliary) traverse is run between two points to establish the distance between them, the computed distance is called the traverse base."
   },
   {
-    "q": "10. The included angles of a theodolite traverse, are generally measured",
+    "q": "4. The included angles of a theodolite traverse, are generally measured",
     "options": [
       "clockwise from the forward station",
       "anti-clockwise from the back station",
@@ -110,40 +44,7 @@
     "explain": "Included angles in a theodolite traverse are conventionally measured clockwise, starting the observation from the back (previous) station and swinging to the forward station."
   },
   {
-    "q": "11. A plumb bob is required",
-    "options": [
-      "when measuring distances along slopes in a hilly country",
-      "for accurate centering of a theodolite over a station mark",
-      "for testing the verticality of ranging poles",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "A plumb bob is a versatile tool used for centering instruments, checking verticality of poles, and transferring points down slopes - so all the listed uses are valid."
-  },
-  {
-    "q": "12. Under ordinary conditions, the precision of a theodolite traverse is affected by",
-    "options": [
-      "systematic angular errors",
-      "accidental linear errors",
-      "systematic linear errors",
-      "accidental angular errors"
-    ],
-    "correct": 2,
-    "explain": "Under normal conditions, angular measurements with a theodolite are quite precise and accidental errors in angle are small; it is the systematic (cumulative) errors in the linear (chain/tape) measurements that mainly govern the overall precision of the traverse."
-  },
-  {
-    "q": "13. The most reliable method of plotting a theodolite traverse is",
-    "options": [
-      "by consecutive co-ordinates of each station",
-      "by independent co-ordinates of each station",
-      "by plotting included angles and scaling off each traverse leg",
-      "by the tangent method of plotting"
-    ],
-    "correct": 1,
-    "explain": "Plotting by independent (total) co-ordinates of each station, computed from the origin, avoids the accumulation of plotting errors that occurs when each point is plotted relative to the previous one (consecutive co-ordinates), making it the most reliable method."
-  },
-  {
-    "q": "14. The latitude of a traverse leg is obtained by multiplying its length by",
+    "q": "5. The latitude of a traverse leg is obtained by multiplying its length by",
     "options": [
       "tangent of its reduced bearing",
       "sign of its reduced bearing",
@@ -154,7 +55,7 @@
     "explain": "Latitude (the north-south component) of a traverse leg = Length x cosine(reduced bearing), since latitude is the projection of the line onto the north-south axis."
   },
   {
-    "q": "15. In a closed traverse, sum of south latitudes exceeds the sum of north latitudes and the sum of east departures exceeds the sum of west departures, then, the closing line will lie in",
+    "q": "6. In a closed traverse, sum of south latitudes exceeds the sum of north latitudes and the sum of east departures exceeds the sum of west departures, then, the closing line will lie in",
     "options": [
       "north-west quadrant",
       "north east quadrant",
@@ -165,51 +66,7 @@
     "explain": "The closing error (line needed to close the traverse) runs opposite to the net imbalance; since the traverse itself trends south and east, the closing line to bring it back runs north and west, i.e. lies in the north-west quadrant."
   },
   {
-    "q": "16. The operation of making the algebraic sum of latitudes and departures of a closed traverse, each equal to zero, is known",
-    "options": [
-      "balancing the sights",
-      "balancing the longitudes",
-      "balancing the latitudes",
-      "balancing the traverse"
-    ],
-    "correct": 3,
-    "explain": "Adjusting all the latitudes and departures of a closed traverse so that their algebraic sums each become zero (removing the closing error) is called balancing the traverse."
-  },
-  {
-    "q": "17. If the angular measurements of a traverse are more precise than its linear measurements, balancing of the traverse, is done by",
-    "options": [
-      "Bowditch's rule",
-      "Transit rule",
-      "Empirical rule",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "The Transit rule is used to balance a traverse when angular measurements are considered more precise/reliable than the linear measurements, since it corrects latitudes and departures independently in proportion to their own magnitudes rather than the total leg length."
-  },
-  {
-    "q": "18. In a closed traverse",
-    "options": [
-      "the difference between fore bearing & back bearing should be 90°",
-      "the sum of included angles should be (2N-4) right angle, where N is the number of sides",
-      "the sum of inclined angles should be (2N-1), where N is the number of sides",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "The geometric property of a closed polygon dictates that the sum of the interior angles is given by the formula (2N - 4) x 90 degrees."
-  },
-  {
-    "q": "19. In a theodolite the line of collimation is",
-    "options": [
-      "parallel to axes of plate level",
-      "parallel to the vertical axis",
-      "perpendicular to the trunnion axis",
-      "parallel to the horizontal axis"
-    ],
-    "correct": 2,
-    "explain": "For correct instrument geometry, the line of collimation of a theodolite telescope must be exactly perpendicular to the trunnion (horizontal) axis about which the telescope rotates."
-  },
-  {
-    "q": "20. Axis of altitude level is",
+    "q": "7. Axis of altitude level is",
     "options": [
       "parallel to trunnion axis",
       "perpendicular to the vertical axis",
@@ -220,18 +77,7 @@
     "explain": "The altitude level (attached to the telescope) has its axis parallel to the line of collimation of the telescope, so it can be used to check/set the line of sight horizontal even when the telescope's own bubble is out of adjustment."
   },
   {
-    "q": "21. A 15 cm theodolite means",
-    "options": [
-      "length of the telescope is 15 cm",
-      "height of standards is 15 cm",
-      "diameter of lower plate is 15 cm",
-      "radius of upper plate is 15 cm."
-    ],
-    "correct": 2,
-    "explain": "The size of a theodolite is designated by the diameter of its lower (graduated horizontal) plate; thus a '15 cm theodolite' has a lower plate 15 cm in diameter."
-  },
-  {
-    "q": "22. The most commonly used set of theodolite operations are",
+    "q": "8. The most commonly used set of theodolite operations are",
     "options": [
       "right face and right swing",
       "right face and left swing",
@@ -242,40 +88,7 @@
     "explain": "The standard convention for taking a 'set' of theodolite observations is to start with the face-left position swinging right (clockwise), then observe face-right swinging left."
   },
   {
-    "q": "23. left swing is not much favoured in theodolite survey because",
-    "options": [
-      "most of the surveyors are accustomed to right hand",
-      "it is inconvenient to turn the telescope anti-clockwise",
-      "the readings increase clockwise",
-      "vertical scale comes to an inconvenient position to be read."
-    ],
-    "correct": 2,
-    "explain": "Since the horizontal circle of a theodolite is graduated to increase in the clockwise direction, swinging the telescope anti-clockwise (left swing) causes the readings to decrease, which is inconvenient for booking and computation."
-  },
-  {
-    "q": "24. In a closed traverse the algebraic sum of deflection angle is",
-    "options": [
-      "0",
-      "360",
-      "(2n-4)x90",
-      "(2n+4)x90"
-    ],
-    "correct": 1,
-    "explain": "For a closed traverse, the algebraic sum of all the deflection angles (right deflections positive, left negative) is always equal to 360 degrees."
-  },
-  {
-    "q": "25. When internal angles are to be subtended by a theodolite survey for closed traverse",
-    "options": [
-      "traverse should run clockwise",
-      "traverse should go counter clockwise",
-      "traverse may go either way",
-      "exterior angles are measured when the traverse goes anti-clockwise."
-    ],
-    "correct": 1,
-    "explain": "To measure the internal (interior) angles of a closed traverse correctly and consistently, the traverse should be run in the counter-clockwise direction."
-  },
-  {
-    "q": "26. When the first object is to be focused, the scale, is set to 0 deg 00'00\" and then",
+    "q": "9. When the first object is to be focused, the scale, is set to 0 deg 00'00\" and then",
     "options": [
       "the upper screw is fixed , lower screw released, the object sighted, lower screw fixed and lower tangent screw operated",
       "both the clamp screw fixed, to tangent screw operated",
@@ -286,7 +99,7 @@
     "explain": "The standard procedure to set an initial zero reading is: fix the upper clamp, release the lower clamp, roughly sight the object, then fix the lower clamp and use the lower tangent screw to bisect the object exactly."
   },
   {
-    "q": "27. In precision theodolite traverse for roads and railways, the angular error of closure should not exceed",
+    "q": "10. In precision theodolite traverse for roads and railways, the angular error of closure should not exceed",
     "options": [
       "15 sq rt N",
       "30 sq rt N",
@@ -297,7 +110,7 @@
     "explain": "For precision theodolite traverses used in road/railway alignment, the permissible angular error of closure is taken as 30 seconds multiplied by the square root of the number of stations (N)."
   },
   {
-    "q": "28. The projection of a traverse line on a line perpendicular to the meridian is known as",
+    "q": "11. The projection of a traverse line on a line perpendicular to the meridian is known as",
     "options": [
       "latitude of the line",
       "departure of the line",
@@ -308,18 +121,7 @@
     "explain": "As per the book's printed answer key, this projection (onto a line perpendicular to the meridian) is designated as the latitude of the line in this text, though standard convention typically calls this the departure - readers should verify against their copy."
   },
   {
-    "q": "29. The projection of a traverse line on a line parallel to the meridian is known as ... of the line",
-    "options": [
-      "latitude",
-      "departure",
-      "bearing",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "As per the book's printed answer key, this projection (onto a line parallel to the meridian) is designated departure in this text, though standard convention typically calls this the latitude - readers should verify against their copy."
-  },
-  {
-    "q": "30. The process of turning the telescope about the vertical axis in horizontal plane is known as",
+    "q": "12. The process of turning the telescope about the vertical axis in horizontal plane is known as",
     "options": [
       "transiting",
       "reversing",
@@ -330,29 +132,7 @@
     "explain": "Rotating the telescope about the vertical axis in a horizontal plane (left or right) is called swinging the telescope."
   },
   {
-    "q": "31. For which of the following permanent adjustments of theodolite, the spire test is used?",
-    "options": [
-      "Adjustment of plate levels",
-      "Adjustment of line of sights",
-      "Adjustment of horizontal axis",
-      "Adjustment of altitude bubble and vertical index frame"
-    ],
-    "correct": 2,
-    "explain": "The spire test is used to check and adjust the horizontal (trunnion) axis of a theodolite, ensuring it is truly perpendicular to the vertical axis, by sighting a high point in both faces."
-  },
-  {
-    "q": "32. A traverse survey can be plotted",
-    "options": [
-      "by rectangular coordinates or plotting by tangents",
-      "by paper protractor or by included angles",
-      "by parallel meridian method or plotting by chords",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "All the mentioned methods are valid ways to transfer field traverse data onto paper."
-  },
-  {
-    "q": "33. Traversing is generally done by",
+    "q": "13. Traversing is generally done by",
     "options": [
       "chain",
       "compass or theodolite",
@@ -363,29 +143,7 @@
     "explain": "A traverse survey can be carried out using a chain (chain traversing), a compass, a theodolite, or a plane table, depending on the accuracy required, so all methods are applicable."
   },
   {
-    "q": "34. The angular error of closure or summation error should not exceed",
-    "options": [
-      "15'√N",
-      "15\"√N",
-      "√N",
-      "3√N where N is number of stations or sides."
-    ],
-    "correct": 0,
-    "explain": "The standard permissible angular closure error in compass surveying is typically defined as 15' multiplied by the square root of the number of stations."
-  },
-  {
-    "q": "35. If 'n' is the number of sides, then the total sum of interior angles of a closed traverse should be",
-    "options": [
-      "n +2",
-      "2n -4",
-      "2n + 4",
-      "4n -2"
-    ],
-    "correct": 1,
-    "explain": "The sum of interior angles of a closed polygon of n sides is given by the standard geometric formula (2n - 4) x 90 degrees."
-  },
-  {
-    "q": "36. If 'n' is the number of sides, then the total sum of exterior angles of a closed traverse should be",
+    "q": "14. If 'n' is the number of sides, then the total sum of exterior angles of a closed traverse should be",
     "options": [
       "n +2",
       "2n -4",
@@ -396,7 +154,7 @@
     "explain": "Since interior and exterior angles at each vertex are supplementary and their total for all n vertices is 4 right angles more than the interior sum, the sum of exterior angles works out to (2n + 4) x 90 degrees."
   },
   {
-    "q": "37. In locating the details of inaccessible objects visible at least from transit stations, the method used is",
+    "q": "15. In locating the details of inaccessible objects visible at least from transit stations, the method used is",
     "options": [
       "by angles and distances from the same station",
       "by angle from one station and distance from the other station",
@@ -407,18 +165,7 @@
     "explain": "Note: this answer-key entry appears mismatched with the adjacent question in the book. The standard method for locating inaccessible objects visible from two transit stations is by angles from both stations (intersection); please verify this entry visually against your copy."
   },
   {
-    "q": "38. In a transit theodolite error due to eccentricity of verniers is counteracted by",
-    "options": [
-      "reading both the verniers",
-      "reading different parts of main scale",
-      "reading right and left faces",
-      "taking both right swing and left swing reading"
-    ],
-    "correct": 0,
-    "explain": "The error due to eccentricity of verniers (misalignment of the vernier scale centre with the instrument's rotation axis) is counteracted by reading both verniers (typically 180 degrees apart) and averaging the results."
-  },
-  {
-    "q": "39. Right face and left reading are taken to",
+    "q": "16. Right face and left reading are taken to",
     "options": [
       "get the correct reading",
       "eliminate error of trunnion axis not exactly horizontal",
@@ -429,29 +176,7 @@
     "explain": "Taking readings on both faces (face left and face right) of the theodolite and averaging eliminates multiple instrumental errors together - collimation error, trunnion axis error, and other index errors - so all of the above apply."
   },
   {
-    "q": "40. According to Bowditch Rule, the correction to latitude (or departure) of any side is equal to",
-    "options": [
-      "Length of the side / Perimeter of traverse",
-      "Perimeter of traverse / Length of the side",
-      "Total error in latitude / Perimeter of traverse",
-      "Total error in latitude x Length of that side / Perimeter of traverse"
-    ],
-    "correct": 3,
-    "explain": "Bowditch's rule states that the correction to the latitude (or departure) of a side is proportional to the length of that side: Correction = Total error in latitude x (Length of that side / Perimeter of traverse)."
-  },
-  {
-    "q": "41. Which of the following methods of theodolite traversing is suitable for locating the details which are far away from transit stations?",
-    "options": [
-      "by measuring angle to the point from at least three stations",
-      "by measuring angles to the point from at least two stations",
-      "by measuring angel at one station and distance from other",
-      "by measuring distance from two points on traverse line"
-    ],
-    "correct": 1,
-    "explain": "Distant details, which cannot be directly chained, are located by the method of intersection, measuring angles to the point from at least two known theodolite stations."
-  },
-  {
-    "q": "42. An angle measured clockwise from the proceeding survey line to the following survey line is called",
+    "q": "17. An angle measured clockwise from the proceeding survey line to the following survey line is called",
     "options": [
       "direct angle",
       "vertical angle",
@@ -462,51 +187,7 @@
     "explain": "A deflection angle is measured from the prolongation of the preceding line to the following line, and when the direction is clockwise, it is a right deflection angle."
   },
   {
-    "q": "43. In precision theodolite traverse for roads and railways, the angular error of closure should not exceed",
-    "options": [
-      "15\" sqrt(N)",
-      "30\" sqrt(N)",
-      "45\" sqrt(N)",
-      "1' sqrt(N)"
-    ],
-    "correct": 3,
-    "explain": "For a precision theodolite traverse suitable for roads and railways, the permissible angular error of closure is 1 minute multiplied by the square root of the number of stations (N)."
-  },
-  {
-    "q": "44. The length of a traverse line (L) may be obtained by",
-    "options": [
-      "L = sqrt((Latitude)^2 x (Departure)^2)",
-      "L = Latitude x secant of reduced bearing",
-      "L = Departure x cosecant of reduced bearing",
-      "any one of the above"
-    ],
-    "correct": 3,
-    "explain": "The length of a traverse line can be computed from its latitude and departure using any of several equivalent trigonometric relations, hence any one of the above methods gives the correct length."
-  },
-  {
-    "q": "45. A traverse deflection angle is",
-    "options": [
-      "less than 90",
-      "more than 90 but less than 180",
-      "the difference between the included angle and 180",
-      "the difference between 360 and the included angle"
-    ],
-    "correct": 2,
-    "explain": "A deflection angle is defined as the angle by which a survey line deviates from the prolongation of the preceding line, calculated as the difference between the included angle and 180 degrees."
-  },
-  {
-    "q": "46. An angle of deflection right, may be directly obtained by setting the instrument to read",
-    "options": [
-      "Zero on back station",
-      "180 on back station",
-      "90",
-      "270 on back station"
-    ],
-    "correct": 1,
-    "explain": "To directly obtain a deflection angle right, the theodolite is set to read 180 degrees when backsighted to the previous station, so that the forward reading directly gives the deflection angle."
-  },
-  {
-    "q": "47. Centering error of a theodolite produces an error",
+    "q": "18. Centering error of a theodolite produces an error",
     "options": [
       "in all angles equally",
       "which does not vary with the direction or pointing",
@@ -517,18 +198,7 @@
     "explain": "A centering error causes an angular error that varies depending on the direction of pointing and is inversely proportional to the length of the sight - shorter sights are affected more severely."
   },
   {
-    "q": "48. Which of the following errors can be eliminated by taking mean of both face observations?",
-    "options": [
-      "Errors due to imperfect graduations",
-      "Errors due to eccentricity of verniers",
-      "Errors due to imperfect adjustments of plate levels",
-      "Errors due to line of collimation not being perpendicular to horizontal axis"
-    ],
-    "correct": 3,
-    "explain": "Taking the mean of face left and face right observations eliminates errors due to the line of collimation not being perfectly perpendicular to the horizontal axis, since this error reverses sign between the two faces."
-  },
-  {
-    "q": "49. For which of the following permanent adjustments of theodolite, the spire test is used?",
+    "q": "19. For which of the following permanent adjustments of theodolite, the spire test is used?",
     "options": [
       "adjustment of plate levels",
       "adjustment of line of sight",
@@ -539,14 +209,267 @@
     "explain": "The spire test is specifically used to check and adjust the horizontal (trunnion) axis of a theodolite, ensuring it is truly horizontal by sighting a high point from both faces."
   },
   {
-    "q": "50. Which of the following error is not eliminated by the method of repetition of horizontal angle measurement?",
+    "q": "20. The angle between the prolongation of the preceding line and the forward line of a traverse is called",
     "options": [
-      "Error due to eccentricity of verniers",
-      "Error due to displacement of station signals",
-      "Error due to wrong adjustment of line of collimation and trunnion axis",
-      "Error due to inaccurate graduation"
+      "deflection angle",
+      "included angle",
+      "direct angle",
+      "none of the above"
     ],
     "correct": 0,
-    "explain": "The method of repetition eliminates errors due to inaccurate graduation and instrumental maladjustments by accumulating readings around the circle, but it does not eliminate the error due to eccentricity of verniers."
+    "explain": "As defined earlier (Q210), this angle between the prolongation of the preceding survey line and the following line is the deflection angle."
+  },
+  {
+    "q": "21. After levelling of an instrument is done what is the next up?",
+    "options": [
+      "Releasing all clamps",
+      "Loosing the lower clamp",
+      "Turning plates",
+      "Clamping the plates"
+    ],
+    "correct": 0,
+    "explain": "After the temporary adjustment of levelling the instrument is complete, the next step is to release all the clamping screws so that the instrument is free for sighting."
+  },
+  {
+    "q": "22. Theodolite is an instrument used for measuring",
+    "options": [
+      "horizontal angles",
+      "vertical angles",
+      "deflection angle",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Theodolites are versatile instruments designed for precise angular measurements in both planes."
+  },
+  {
+    "q": "23. A 20 cm theodolite means",
+    "options": [
+      "length of theodolite is 20 cm",
+      "diameter of the lower plate is 20 cm",
+      "diameter of the upper plate is 20 cm",
+      "total height of theodolite plate is 20 cm"
+    ],
+    "correct": 1,
+    "explain": "As per standard nomenclature, the measurement refers to the diameter of the lower graduated horizontal plate."
+  },
+  {
+    "q": "24. The projection of a line on a plane perpendicular to meridian is known as",
+    "options": [
+      "parallax",
+      "aberration",
+      "latitude",
+      "departure"
+    ],
+    "correct": 3,
+    "explain": "Departure is the orthographic projection of a line onto the East-West axis (L sin θ), which is perpendicular to the meridian."
+  },
+  {
+    "q": "25. The outer spindle attached to the lower plate in a transit theodolite known is",
+    "options": [
+      "vernier plate",
+      "scale plate",
+      "alidade",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The lower plate carries the main graduated scale and is attached to the outer spindle; hence it is called the scale plate."
+  },
+  {
+    "q": "26. The telescope is said to be normal when the",
+    "options": [
+      "bubble of the telescope is down and the face of the vertical circle is right",
+      "bubble of the telescope is up and the face of the vertical circle is left",
+      "bubble of the telescope is up and the face of the vertical circle is right",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Telescope Normal (or Face Left) is the standard position where the vertical circle is to the left of the observer and the bubble is on top."
+  },
+  {
+    "q": "27. The process of bringing the vertical circle to the right of the observer is called",
+    "options": [
+      "face left",
+      "face right",
+      "changing face",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Changing face is the operation of transiting the telescope and swinging it 180 degrees to switch from Face Left to Face Right (or vice versa)."
+  },
+  {
+    "q": "28. The error eliminated by taking mean of both face observations is",
+    "options": [
+      "error due to eccentricity of verniers",
+      "error due to imperfect adjustment of levels",
+      "error due to line of collimation not being perpendicular to horizontal axis",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Taking the mean of Face Left and Face Right cancels out errors caused by the line of collimation not being perfectly perpendicular to the horizontal axis."
+  },
+  {
+    "q": "29. The difference between the sum of the measured angles and the theoretical sum of the angles of a closed traverse is called the",
+    "options": [
+      "angular closing error",
+      "closing error in bearing",
+      "relative closing error",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The error found by comparing the sum of observed angles with (2N ± 4) × 90° is the angular closing error."
+  },
+  {
+    "q": "30. The difference between the two bearings of the last line as observed at the first and the last station of a traverse is known as",
+    "options": [
+      "angular closing error",
+      "closing error in bearing",
+      "relative closing error",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "If the computed bearing of the final line doesn't match its measured bearing, the difference is the closing error in bearing."
+  },
+  {
+    "q": "31. A traverse consists of six side, then the sum of external angle must be",
+    "options": [
+      "1080°",
+      "540°",
+      "720°",
+      "1440°"
+    ],
+    "correct": 3,
+    "explain": "The sum of exterior angles is (2N + 4) × 90°. For N=6, (12 + 4) × 90 = 16 × 90 = 1440°."
+  },
+  {
+    "q": "32. The distance between terminal points computed from a subsidiary traverse run between them is known as",
+    "options": [
+      "traverse base",
+      "transverse base",
+      "corrected base",
+      "traverse length"
+    ],
+    "correct": 0,
+    "explain": "A traverse base refers to the line connecting the start and end points of a traverse segment."
+  },
+  {
+    "q": "33. Axis method of traverse correction is used when",
+    "options": [
+      "the angles are measured very accurately",
+      "the lengths are measured very accurately",
+      "both (a) and (b) are not measured very accurately",
+      "any of the above"
+    ],
+    "correct": 0,
+    "explain": "The Axis method is specialized for cases where angular precision far exceeds linear precision."
+  },
+  {
+    "q": "34. Right face and left face reading are taken to",
+    "options": [
+      "get the correct reading",
+      "eliminate error of trunnion axis not exactly horizontal",
+      "eliminate error in vertical axis",
+      "eliminate error in the line of collimation"
+    ],
+    "correct": 1,
+    "explain": "While it also helps with collimation (Q319), the provided answer specifically highlights the trunnion (horizontal) axis error."
+  },
+  {
+    "q": "35. The theodolite is an instrument used for measuring very accurately",
+    "options": [
+      "horizontal angles only",
+      "vertical angles only",
+      "horizontal and vertical angles",
+      "linear measurements"
+    ],
+    "correct": 2,
+    "explain": "A theodolite is the primary precision instrument used for accurately measuring both horizontal and vertical angles."
+  },
+  {
+    "q": "36. When the latitudes and departures are so adjusted that the algebraic sum of the latitudes and departures are equal to zero, the operation is called",
+    "options": [
+      "balancing the latitude",
+      "balancing the departure",
+      "balancing the traverse",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "This overall adjustment process, applied to both latitudes and departures to remove closing error, is known as balancing the traverse."
+  },
+  {
+    "q": "37. The direct angles may have any value between",
+    "options": [
+      "0 and 90",
+      "0 and 120",
+      "0 and 180",
+      "0 and 360"
+    ],
+    "correct": 3,
+    "explain": "Direct angles (measured directly in the field between two lines at a station, typically clockwise from the previous station) may range anywhere from 0 to 360 degrees."
+  },
+  {
+    "q": "38. The distance between terminal points computed from known, as",
+    "options": [
+      "traverse leg",
+      "a base",
+      "traverse base",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The distance between terminal points, once computed from known data, may be referred to by any of these equivalent terms - traverse leg, base, or traverse base - depending on context, so all of the above apply."
+  },
+  {
+    "q": "39. To avoid large centering error with very short legs, observations are generally made",
+    "options": [
+      "to chain pins",
+      "by using optical system for centering the theodolite",
+      "to a target fixed on theodolite tripod on which theodolite may be fitted easily",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "To minimize centering errors on short traverse legs, any of these techniques may be applied together - sighting to chain pins, using optical centering systems, or using targets fixed on the tripod - so all of the above apply."
+  },
+  {
+    "q": "40. When the first object is to be focused, the scale is set to 0 00'00 and then",
+    "options": [
+      "the upper screw is fixed, lower screw released, the object sighted, lower screw fixed and lower tangent screw operated",
+      "both the clamp screw fixed, top tangent screw operated",
+      "bottom clamp screw fixed, top screw released, object sighted and upper tangent screw operated",
+      "object is exactly bisected by operating both the upper and lower tangent screws whichever is convenient"
+    ],
+    "correct": 2,
+    "explain": "To focus on the first object with the scale set at zero, the lower (bottom) clamp screw is fixed and the upper screw is released to sight the object, then the upper tangent screw is used for fine adjustment."
+  },
+  {
+    "q": "41. While rotating the theodolite in the horizontal plane, the bubble of the bubble tube takes the same position in its tube, it indicates",
+    "options": [
+      "the rotation axis is vertical",
+      "the trunnion axis is horizontal",
+      "the line of collimation is perpendicular to vertical axis",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "If the bubble remains centred (same position) throughout a full horizontal rotation of the theodolite, it indicates that the vertical (rotation) axis is truly vertical."
+  },
+  {
+    "q": "42. Can the vertical axis coincide with any other axis in any position of telescope?",
+    "options": [
+      "Yes, with the geometric centre of level head",
+      "Yes, with the axis of altitude levels",
+      "Yes, with line of collimation",
+      "No impossible"
+    ],
+    "correct": 3,
+    "explain": "The vertical axis is a fixed reference axis distinct from the trunnion axis and line of collimation, and it is not possible for it to coincide with any other axis in any telescope position."
+  },
+  {
+    "q": "43. For a closed traverse the omitted measurements may be calculated",
+    "options": [
+      "length of one side only",
+      "bearing of one side only",
+      "length or bearing of adjacent side",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "For a closed traverse with one measurement omitted, computation can determine any missing quantity - length only, bearing only, or both length and bearing of an adjacent side - so all of the above are valid, depending on which data is missing."
   }
 ]

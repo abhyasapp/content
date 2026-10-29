@@ -1,6 +1,282 @@
 [
   {
-    "q": "1. The paper size of A4 is .............",
+    "q": "1. Working/ drawing space on the paper is determined by",
+    "options": [
+      "working line",
+      "drawing line",
+      "border line",
+      "deader line"
+    ],
+    "correct": 2,
+    "explain": "Border lines are drawn on the sheet to define the actual area available for the technical drawing and to provide a frame for the work."
+  },
+  {
+    "q": "2. Which of the following is preferred containing the statement \"All dimensions are in millimeters unless otherwise specified\" .............",
+    "options": [
+      "frames and borders",
+      "title block",
+      "item list",
+      "revision table"
+    ],
+    "correct": 1,
+    "explain": "General notes such as the units statement are conventionally placed within the title block of the drawing sheet."
+  },
+  {
+    "q": "3. Size of A4 size paper is",
+    "options": [
+      "148 x 210 mm",
+      "210 x 297 mm",
+      "297 x 210 mm",
+      "320 x 460 mm"
+    ],
+    "correct": 1,
+    "explain": "A4 is the most common paper size, measuring exactly 210mm by 297mm."
+  },
+  {
+    "q": "4. \"A\" series of paper has length of width ratio of approximately .............",
+    "options": [
+      "3 : 2",
+      "√3 : 1",
+      "√2 : 1",
+      "5 : 3"
+    ],
+    "correct": 2,
+    "explain": "ISO A-series paper sizes maintain a constant aspect ratio of √2:1, which allows each size to be halved into the next smaller size while preserving the same proportions."
+  },
+  {
+    "q": "5. Number of equal pieces of A4 size paper from A0 is equal to",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correct": 3,
+    "explain": "Each step in the A-series halves the area. $A0 \\rightarrow A1 \\rightarrow A2 \\rightarrow A3 \\rightarrow A4$. That is $2^4 = 16$ sheets."
+  },
+  {
+    "q": "6. The area occupied by A0 (drawing sheet) is ............ times the area occupied by A1 (drawing sheet).",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correct": 0,
+    "explain": "One A0 sheet is equivalent to two A1 sheets placed side-by-side."
+  },
+  {
+    "q": "7. The area occupied by A0 (drawing sheet) is ............ times the area occupied by A3 (drawing sheet).",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correct": 2,
+    "explain": "Following the division rule ($2^3$), A0 is eight times the size of A3."
+  },
+  {
+    "q": "8. During draw a drawing we start from",
+    "options": [
+      "top to bottom of drawing paper",
+      "bottom to top of drawing paper",
+      "right to left of drawing paper",
+      "left to right of drawing paper",
+      "both (a) and (d) of above"
+    ],
+    "correct": 4,
+    "explain": "Drawing from top-to-bottom and left-to-right (for right-handed users) prevents the hand or tools from smudging lines that were already drawn."
+  },
+  {
+    "q": "9. The size of title block of all size drawing sheet is",
+    "options": [
+      "185×65",
+      "120×60",
+      "100×50",
+      "200×50"
+    ],
+    "correct": 0,
+    "explain": "As per standard drafting practice, the title block occupies a fixed area of 185 mm × 65 mm regardless of sheet size."
+  },
+  {
+    "q": "10. The ratio of distance on the drawing sheet and corresponding actual distance of the object is known as",
+    "options": [
+      "reducing size scale",
+      "full size scale",
+      "Representative Factor (RF)",
+      "all of above"
+    ],
+    "correct": 2,
+    "explain": "This ratio, drawing distance to actual distance, is by definition called the Representative Factor (RF)."
+  },
+  {
+    "q": "11. Which of the following is the largest size of a engineering drawing sheet?",
+    "options": [
+      "A3",
+      "A2",
+      "A1",
+      "A0"
+    ],
+    "correct": 3,
+    "explain": "In the ISO A-series, the sheet number decreases as size increases; A0 (841×1189 mm) is the largest of the options listed."
+  },
+  {
+    "q": "12. Tracing paper is also named as .............",
+    "options": [
+      "drafting vellum",
+      "drafting film",
+      "drafting media",
+      "drafting line"
+    ],
+    "correct": 0,
+    "explain": "Tracing paper used in drafting is also generically referred to as drafting media, a term covering various transparent/translucent sheet materials used for tracing drawings."
+  },
+  {
+    "q": "13. In standard A series drawing sheet, the ratio of length of shorter side to longer side is equal to:",
+    "options": [
+      "1:2",
+      "3:4",
+      "1:√2",
+      "√3 : 2"
+    ],
+    "correct": 2,
+    "explain": "The A-series sheets maintain a constant aspect ratio of shorter side to longer side equal to 1:√2."
+  },
+  {
+    "q": "14. The measurement of standard A2 size drawing sheet in mm is .............",
+    "options": [
+      "594 × 891",
+      "297 × 420",
+      "210 × 297",
+      "420 × 594"
+    ],
+    "correct": 3,
+    "explain": "Standard ISO A2 sheet size is 420 mm × 594 mm, consistent with the halving pattern of the A-series from A0 downward."
+  },
+  {
+    "q": "15. The included angle of a pentagon is .............",
+    "options": [
+      "66°",
+      "72°",
+      "108°",
+      "112°"
+    ],
+    "correct": 2,
+    "explain": "Note: per the answer key, option (b) 72° is marked correct; this corresponds to the central (apex) angle of a regular pentagon when divided into 5 equal triangles from its center (360°/5 = 72°), while the interior angle of a pentagon is actually 108°."
+  },
+  {
+    "q": "16. \"Title Block\" is placed at bottom right hand corner of the drawing which gives information about",
+    "options": [
+      "title of drawing",
+      "scale of the drawing",
+      "serial no of drawing",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The title block is the metadata center of a drawing, containing names, dates, scales, and identification numbers."
+  },
+  {
+    "q": "17. *In standard A series drawing sheet, the ratio of length of shorter side to longer side",
+    "options": [
+      "1:2",
+      "3:4",
+      "1: √2",
+      "√3: 2"
+    ],
+    "correct": 2,
+    "explain": "ISO 216 standard (A series) uses a constant aspect ratio of 1 to the square root of 2 ($1:\\sqrt{2}$) so that the proportions remain the same when the sheet is folded in half."
+  },
+  {
+    "q": "18. The best drawing paper used for water colour is :",
+    "options": [
+      "hand made drawing paper",
+      "tracing drawing sheet",
+      "ordinary drawing sheet",
+      "ammonia paper"
+    ],
+    "correct": 1,
+    "explain": "Though handmade paper is traditionally used, the answer key specifies tracing/technical sheets in this specific engineering context."
+  },
+  {
+    "q": "19. The size of the title block of all sizes of drawing sheet is :",
+    "options": [
+      "420 mm, 65 mm",
+      "185 mm, 65 mm",
+      "297 mm, 65 mm",
+      "185 mm, 50 mm"
+    ],
+    "correct": 1,
+    "explain": "According to Bureau of Indian Standards (BIS), the standard size for a title block is 185 mm x 65 mm."
+  },
+  {
+    "q": "20. The normal size of drawing sheet referred as 'A1' is:",
+    "options": [
+      "1165×817",
+      "594 × 841",
+      "570 × 396",
+      "396 × 273"
+    ],
+    "correct": 1,
+    "explain": "As per ISO A-series, A1 measures 594 mm × 841 mm."
+  },
+  {
+    "q": "21. *Working drawings:",
+    "options": [
+      "must provide complete information to produce the object",
+      "need not provide complete information",
+      "should be supplemented by further details",
+      "should be supplemented by specifications"
+    ],
+    "correct": 0,
+    "explain": "A working drawing must contain all necessary dimensions, notes, and views for a manufacturer to build the part without further questions."
+  },
+  {
+    "q": "22. The point of intersection of co-ordinate axis is called .............",
+    "options": [
+      "zero-zero",
+      "origin",
+      "cross point",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "The point where the coordinate axes (X, Y, Z) intersect, representing the reference point (0,0,0), is universally called the origin."
+  },
+  {
+    "q": "23. Church in a drawing sheet is symbolized as:",
+    "options": [
+      "point",
+      "Figure",
+      "both of above",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "On maps/plans, a church is conventionally shown as a small figure/symbol (often a cross-topped icon) rather than a plain point."
+  },
+  {
+    "q": "24. The paper size of A4 is (in mm)",
+    "options": [
+      "297 × 420",
+      "210 × 297",
+      "215 × 290",
+      "420 × 850"
+    ],
+    "correct": 1,
+    "explain": "As per ISO A-series, A4 measures 210 mm × 297 mm."
+  },
+  {
+    "q": "25. The ISO A0 size of drawing is defined as having an area of .............",
+    "options": [
+      "1 m²",
+      "0.75 m²",
+      "1.5 m²",
+      "1.25 m²"
+    ],
+    "correct": 0,
+    "explain": "The ISO A0 sheet size is defined such that its area equals exactly 1 square meter, from which all other A-series sizes are derived by successive halving."
+  },
+  {
+    "q": "26. The paper size of A4 is .............",
     "options": [
       "297 × 420",
       "210 × 297",
@@ -11,29 +287,18 @@
     "explain": "The standard ISO A4 paper size is 210 mm × 297 mm, the most commonly used sheet size for general documents and smaller drawings."
   },
   {
-    "q": "2. The title block is provided in a drawing sheet at .............",
+    "q": "27. Working drawings are prepared at the stage of .............",
     "options": [
-      "bottom right hand corner",
-      "top left hand corner",
-      "top right hand corner",
-      "bottom left hand corner"
+      "feasibility study",
+      "conceptual design",
+      "detail design",
+      "construction supervision"
     ],
-    "correct": 0,
-    "explain": "As per standard drawing sheet layout conventions, the title block is placed in the bottom right-hand corner of the sheet for easy identification when the sheet is folded or filed."
+    "correct": 2,
+    "explain": "Working drawings, containing full dimensions and construction details, are produced during the detail design stage, after the concept has been finalized and before construction execution."
   },
   {
-    "q": "3. Title block in drawing sheets gives the information about .............",
-    "options": [
-      "title of the drawing",
-      "scales used for the drawing",
-      "serial number of the drawing",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "The title block consolidates key reference information — drawing title, scale, drawing number, and other details — making 'all of these' the correct comprehensive answer."
-  },
-  {
-    "q": "4. The size of drawing board required for A0 sheet size in mm is .............",
+    "q": "28. The size of drawing board required for A0 sheet size in mm is .............",
     "options": [
       "1500 × 1000 × 25",
       "700 × 500 × 15",

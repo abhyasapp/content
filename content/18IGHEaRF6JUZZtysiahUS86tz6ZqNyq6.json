@@ -1,6 +1,391 @@
 [
   {
-    "q": "1. In a proportional outlet, the rate of change of its discharge is ............. the rate of change of the discharge of the distributing channel.",
+    "q": "1. The canals meant for the purpose of draining off water from water logged areas are called .............",
+    "options": [
+      "seepage canals",
+      "percolation canals",
+      "drains",
+      "ditch canals"
+    ],
+    "correct": 2,
+    "explain": "Drains (or drainage canals) are specifically designed to lower the water table and remove excess surface or sub-surface water to prevent waterlogging."
+  },
+  {
+    "q": "2. For effective control of silt entry into the canal the sill of the head regulator should be .............",
+    "options": [
+      "below the sill of the under sluices",
+      "above the sill of the under sluices",
+      "at the same level as the sill of the under sluices",
+      "at the maximum flood level"
+    ],
+    "correct": 1,
+    "explain": "By keeping the head regulator sill higher than the under-sluice sill, the heavier silt-laden water stays at the bottom and passes through the sluices, while cleaner surface water enters the canal."
+  },
+  {
+    "q": "3. According to Kennedy's theory the critical velocity is proportional to (if D is the depth of flow) .............",
+    "options": [
+      "D^0.6",
+      "D^0.64",
+      "D^0.68",
+      "D^1.64"
+    ],
+    "correct": 1,
+    "explain": "Kennedy's equation for critical velocity is V0 = 0.55 * m * D^0.64, where m is the critical velocity ratio and D is the depth of water."
+  },
+  {
+    "q": "4. If Q is the discharge and f is the silt factor, the regime scour depth according to Lacey's theory is given by .............",
+    "options": [
+      "R = 4.75 * sqrt(Q)",
+      "R = 1.35 * (Q^2/f)",
+      "R = 0.47 * (Q/f)^(1/3)",
+      "R = 1.35 * (Q^2/f)^(1/3)"
+    ],
+    "correct": 3,
+    "explain": "Lacey's regime scour depth formula for a wide channel is R = 1.35 * (q^2/f)^(1/3), where q is discharge per unit width."
+  },
+  {
+    "q": "5. If w is the unit weight of water, S is the bed slope and R is the hydraulic radius, the average tractive force on the canal bed is given by .............",
+    "options": [
+      "tau0 = wR * sqrt(S)",
+      "tau0 = wR * S^1.5",
+      "tau0 = wR * S^2.5",
+      "tau0 = wRS"
+    ],
+    "correct": 3,
+    "explain": "Tractive force (or shear stress) is calculated as Tau = Gamma * R * S, which represents the force exerted by flowing water on the wetted surface."
+  },
+  {
+    "q": "6. The purpose of the cross-regulator is .............",
+    "options": [
+      "to control the discharge into the off-take canal",
+      "to maintain proper levels in the main canal",
+      "to control the silt entry into the off-take canal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A cross-regulator is built across the main canal (downstream of an off-take) to head up water and maintain sufficient depth to feed the off-taking canal during low flow."
+  },
+  {
+    "q": "7. When canal runs above the drain, the cross drainage work provided is .............",
+    "options": [
+      "aqueduct",
+      "super passage",
+      "canal siphon",
+      "level crossing"
+    ],
+    "correct": 0,
+    "explain": "An aqueduct is a bridge-like structure where the canal water is carried over a natural drainage stream."
+  },
+  {
+    "q": "8. When the canal runs below the drain, the cross drainage work provided is called .............",
+    "options": [
+      "aqueduct",
+      "super passage",
+      "level crossing",
+      "siphon aqueduct"
+    ],
+    "correct": 1,
+    "explain": "A super passage is the reverse of an aqueduct; here, the natural drain water is carried in a trough over the canal."
+  },
+  {
+    "q": "9. In the case of an aqueduct if the canal section (including banks) is not changed, then it is called .............",
+    "options": [
+      "type I aqueduct",
+      "type II aqueduct",
+      "type III aqueduct",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In Type I aqueducts, the canal section remains unaltered as it crosses the drain, usually requiring a very long structure."
+  },
+  {
+    "q": "10. In the type III aqueduct, the splay of the d/s transition canal is .............",
+    "options": [
+      "4:1",
+      "3:1",
+      "2:1",
+      "1:1"
+    ],
+    "correct": 1,
+    "explain": "The downstream transition (expansion) is made more gradual than the upstream one to minimize head loss and turbulence, typically using a splay of 3:1."
+  },
+  {
+    "q": "11. According to Lacey's theory the regime velocity is proportional to .............",
+    "options": [
+      "R^(2/3) S^(1/2)",
+      "R^(1/3) S^(1/2)",
+      "R^(2/3) S^(1/3)",
+      "R^(1/3) S^(1/3)"
+    ],
+    "correct": 0,
+    "explain": "The regime velocity in Lacey's theory is expressed as V = (R^(2/3) * S^(1/2)) / n, which is similar to the Manning's formula for flow."
+  },
+  {
+    "q": "12. The ratio of rate of change of discharge in the outlet to the rate of change of the water level in the distributory with respect to the normal depth of flow is called .............",
+    "options": [
+      "setting",
+      "sensitivity",
+      "efficiency",
+      "drowning ratio"
+    ],
+    "correct": 1,
+    "explain": "Sensitivity measures how an outlet's discharge responds to changes in the supply canal's water level."
+  },
+  {
+    "q": "13. The full supply level (F.S.L.) of a gravity canal is .............",
+    "options": [
+      "slightly above the ground level",
+      "exactly at the ground level",
+      "always below the ground level",
+      "about 4 to 5 m above the ground level"
+    ],
+    "correct": 0,
+    "explain": "For gravity irrigation to be effective, the water level in the canal must be slightly higher than the fields it intends to irrigate."
+  },
+  {
+    "q": "14. The berms formed finally in the canals will serve the purpose of .............",
+    "options": [
+      "strengthening of banks",
+      "controlling seepage loss",
+      "protecting the banks from erosion",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Berms provide a horizontal transition that acts as a cushion for waves, reduces the pressure on the outer banks, and helps the phreatic line stay within the bank section."
+  },
+  {
+    "q": "15. Disposal of excess excavated earth is used to make spoil bank on .............",
+    "options": [
+      "left side",
+      "right side",
+      "both the sides",
+      "all the above"
+    ],
+    "correct": 2,
+    "explain": "Spoil banks are constructed on both or either side of the canal when the volume of cutting significantly exceeds the volume of bank filling required."
+  },
+  {
+    "q": "16. A weir in which the tail water level is less than the crest level is called",
+    "options": [
+      "free weir",
+      "normal weir",
+      "aerated weir",
+      "natural weir"
+    ],
+    "correct": 0,
+    "explain": "In a free-flow (or free) weir, the tail water level is below the crest, allowing the nappe to discharge freely into the air."
+  },
+  {
+    "q": "17. A fall in which the crest is kept at or near the canal bed without any glacis, is",
+    "options": [
+      "natural fall",
+      "notch fall",
+      "gravity fall",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A trapezoidal notch fall consists of a wall across the canal with one or more notches; it is designed to maintain the depth-discharge relationship without a sloping glacis."
+  },
+  {
+    "q": "18. The degree of sinuosity is the ratio between the",
+    "options": [
+      "meander length and width of meander",
+      "meander length and width of river",
+      "curved length and straight air distance",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Sinuosity is a measure of how much a river meanders; it is calculated as the ratio of the actual channel length (curved) to the shortest axial distance (straight line)."
+  },
+  {
+    "q": "19. In Lanes weighted creep theory the weights proposed for horizontal and vertical creeps are in the ratio of",
+    "options": [
+      "1H:3V",
+      "3H:1V",
+      "2H:1V",
+      "1H:2V"
+    ],
+    "correct": 1,
+    "explain": "Lane suggested that horizontal creep is less effective in reducing uplift than vertical creep. He gave a weight of 1/3 to horizontal creep and 1 to vertical creep (3H:1V)."
+  },
+  {
+    "q": "20. Outlet discharge for a particular crop is given by",
+    "options": [
+      "Area/Outlet factor",
+      "Outlet factor/Area",
+      "Area x Outlet factor",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Discharge = Area / Duty. In this context, 'Outlet factor' is another term for duty at the outlet."
+  },
+  {
+    "q": "21. The fall of moisture from the atmosphere to the earth surface in any form, is called",
+    "options": [
+      "evaporation",
+      "transpiration",
+      "precipitation",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Precipitation includes rain, snow, hail, and sleet—essentially any moisture falling from the clouds."
+  },
+  {
+    "q": "22. A canal aligned nearly parallel to the contours of a country, is known is",
+    "options": [
+      "side slope canal",
+      "contour canal",
+      "water shed canal",
+      "ridge canal"
+    ],
+    "correct": 1,
+    "explain": "A contour canal follows the natural contours, allowing it to irrigate the land on the downhill side."
+  },
+  {
+    "q": "23. Which of the following is the correct sequence of the parts of a canal system?",
+    "options": [
+      "Head works, distributary, branch canals and minor",
+      "Head works, main canal, branch canal, distributary and minor",
+      "Head works, main canal, branch canal, branch canal, minor and distributary",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The standard hierarchy is Main Canal → Branch Canal → Distributary → Minor → Watercourse."
+  },
+  {
+    "q": "24. The saturation gradient in an ordinary loam soils is, usually, kept from",
+    "options": [
+      "1:1",
+      "2:1",
+      "3:1",
+      "4:1"
+    ],
+    "correct": 3,
+    "explain": "The saturation line (phreatic line) in loam soil banks is typically assumed to have a slope of 4:1 for design stability."
+  },
+  {
+    "q": "25. A spoil bank is formed when the",
+    "options": [
+      "canal has steep bed slope",
+      "canal section is too large",
+      "volume of excavation is in excess of the embankment filling",
+      "canal alignment is meandrous"
+    ],
+    "correct": 2,
+    "explain": "When the earth excavated from the canal is more than what is needed for the banks, the surplus is piled into 'spoil banks'."
+  },
+  {
+    "q": "26. When the quantity of the earth is much in excess of the quantity required for filling, it has to be deposited in the form of spoil banks. The spoil banks are made on",
+    "options": [
+      "the right side",
+      "the left side",
+      "both the sides",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Depending on available land and the volume of excess soil, spoil banks can be constructed on either or both sides of the canal alignment."
+  },
+  {
+    "q": "27. Lining of a canal is necessary",
+    "options": [
+      "to minimize the seepage losses in canal",
+      "to prevent erosion of bed and sides due to high velocities",
+      "to increase the discharge in canal section by increasing the velocity",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Lining creates a smooth, impermeable surface that saves water, allows for higher non-erodible velocities, and improves discharge capacity."
+  },
+  {
+    "q": "28. Lining of canal ............. the maintenance of the canal.",
+    "options": [
+      "increases",
+      "decreases",
+      "does not effects",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Lining prevents weed growth and silting, which significantly reduces the frequency and cost of annual maintenance."
+  },
+  {
+    "q": "29. According to Lacey",
+    "options": [
+      "the silt is kept in suspension due to the force of vertical eddies",
+      "the eddies are generated from bed and sides, both normal to the surface of generation",
+      "the vertical component of eddies generated from sides will also support the silt",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Unlike Kennedy, Lacey accounted for eddies generated from the entire wetted perimeter (bed and sides)."
+  },
+  {
+    "q": "30. Lacey gave a relation between",
+    "options": [
+      "velocity and hydraulic mean depth",
+      "area and velocity",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Lacey provided a comprehensive set of equations relating $V$, $R$, $A$, $Q$, and $S$ for regime channels."
+  },
+  {
+    "q": "31. The general regime flow equation is",
+    "options": [
+      "V = 10.8 R^(2/3) S^(1/3)",
+      "V = 10.8 R^(1/3) S^(2/3)",
+      "V = 10.8 R^(3/2) S^(1/3)",
+      "V = 10.8 R^(3/2) S^(1/2)"
+    ],
+    "correct": 0,
+    "explain": "This is Lacey's general flow equation derived for regime channels in alluvium."
+  },
+  {
+    "q": "32. Cross regulators are provided",
+    "options": [
+      "to raise the water level to its upstream during the periods of low discharges in the parent channel",
+      "to help in closing the supply to downstream of the parent channel",
+      "to absorb fluctuation in various sections of the canal system",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Cross regulators are built across the main canal to back up water for off-takes and control flow downstream."
+  },
+  {
+    "q": "33. The capacity of escape channel should not be less than ............. of the capacity of the parent channel at that point.",
+    "options": [
+      "20%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "correct": 3,
+    "explain": "To be effective as an emergency safety structure, an escape must be able to handle at least 50% of the canal's design discharge."
+  },
+  {
+    "q": "34. In Sarda type fall, the length of the crest is kept ............. the bed width of the canal.",
+    "options": [
+      "more than",
+      "equal to",
+      "less than",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "Standard design for a Sarda fall keeps the crest length equal to the bed width of the incoming canal."
+  },
+  {
+    "q": "35. A sudden fall of level of ground along the alignment of a canal joined by an inclined bed is called a",
+    "options": [
+      "rapid fall",
+      "cylinder fall",
+      "sudden fall",
+      "glacis fall"
+    ],
+    "correct": 0,
+    "explain": "Rapid falls consist of a long sloping glacis and are used where the natural ground slope is steeper than the canal bed slope."
+  },
+  {
+    "q": "36. In a proportional outlet, the rate of change of its discharge is ............. the rate of change of the discharge of the distributing channel.",
     "options": [
       "equal to",
       "more than",
@@ -11,18 +396,7 @@
     "explain": "Proportionality means that if the parent canal discharge increases by 10%, the outlet discharge also increases by 10%."
   },
   {
-    "q": "2. The ratio of the head recovered to the head put in an outlet, is called",
-    "options": [
-      "proportionality",
-      "flexibility",
-      "sensitivity",
-      "efficiency"
-    ],
-    "correct": 3,
-    "explain": "Efficiency of an outlet refers to how much energy (head) is maintained after the water passes through the module."
-  },
-  {
-    "q": "3. An outlet is said to be proportional, if its flexibility is",
+    "q": "37. An outlet is said to be proportional, if its flexibility is",
     "options": [
       "equal to zero",
       "less than unity",
@@ -33,51 +407,7 @@
     "explain": "Flexibility is defined as the ratio of the rate of change of discharge of an outlet to the rate of change of discharge of the distributing channel. When this ratio is 1 (unity), the outlet is proportional."
   },
   {
-    "q": "4. The sensitivity of a rigid module is ............",
-    "options": [
-      "equal to zero",
-      "less than unity",
-      "equal to unity",
-      "more than unity"
-    ],
-    "correct": 0,
-    "explain": "A rigid module maintains a constant discharge regardless of the water level in the distributary or the watercourse; therefore, its sensitivity to changes in the supply level is zero."
-  },
-  {
-    "q": "5. The flexibility of a hyper-proportional outlet is .......... one.",
-    "options": [
-      "greater than",
-      "equal to",
-      "less than",
-      "all"
-    ],
-    "correct": 0,
-    "explain": "An outlet is hyper-proportional when its flexibility is greater than unity, meaning the discharge of the outlet changes more rapidly than the discharge of the distributary."
-  },
-  {
-    "q": "6. For the pipe outlet to be proportional, the outlet is set at .......... the depth below the water surface.",
-    "options": [
-      "0.3 times",
-      "0.5 times",
-      "0.8 times",
-      "all"
-    ],
-    "correct": 0,
-    "explain": "For a pipe outlet to achieve proportionality, the depth of its center below the water surface should be roughly 0.3 times the depth of the channel."
-  },
-  {
-    "q": "7. The ratio between the depths of water levels over crest on the downstream and upstream of the module, is known as .............",
-    "options": [
-      "flexibility",
-      "sensitivity",
-      "drowning ratio",
-      "module ratio"
-    ],
-    "correct": 2,
-    "explain": "The drowning ratio refers to the ratio of the depth of water on the downstream side of the crest to the depth on the upstream side."
-  },
-  {
-    "q": "8. Which of the following is a type of non-modular outlet?",
+    "q": "38. Which of the following is a type of non-modular outlet?",
     "options": [
       "Submerged pipe outlet",
       "Open-flume outlet",
@@ -88,7 +418,7 @@
     "explain": "A submerged pipe outlet is a non-modular outlet because its discharge depends on the difference in water levels between the distributary and the watercourse."
   },
   {
-    "q": "9. Which of the following is a type of semi-module outlet?",
+    "q": "39. Which of the following is a type of semi-module outlet?",
     "options": [
       "Submerged pipe outlet",
       "Open flume outlet",
@@ -99,73 +429,7 @@
     "explain": "Semi-modules (or flexible modules) like open flume outlets and Kennedy's gauge outlets have discharges that depend only on the water level in the distributary, independent of the watercourse level."
   },
   {
-    "q": "10. The slope of a canal, for a discharge of 300 cumec, should be .............",
-    "options": [
-      "1 in 4000",
-      "1 in 6000",
-      "1 in 8000",
-      "1 in 10000"
-    ],
-    "correct": 1,
-    "explain": "For large discharges like 300 cumecs, the canal slope is generally flatter; 1 in 6000 is a standard design value for such high-capacity main canals."
-  },
-  {
-    "q": "11. A diversion head work is constructed to .............",
-    "options": [
-      "raise water level at the head of the canal",
-      "regulate the intake of water into the canal",
-      "reduce fluctuations in the supply level of the river",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Diversion head works serve multiple purposes: raising water level for gravity flow, regulating intake, and controlling silt and river fluctuations."
-  },
-  {
-    "q": "12. A weir is generally aligned at right angle to the direction of the main river flow because .............",
-    "options": [
-      "it is economical",
-      "less length of weir is required",
-      "it gives better discharge capacity",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "A perpendicular alignment is the most efficient and economical way to span a river, providing the shortest length and uniform discharge across the crest."
-  },
-  {
-    "q": "13. A weir fails due to .............",
-    "options": [
-      "rupture of floor due to uplift",
-      "rupture of floor due to suction caused by standing wave",
-      "scour on the upstream and downstream of the weir",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Weirs can fail through subsurface causes (uplift/piping) or surface causes (scouring and impact from hydraulic jumps/standing waves)."
-  },
-  {
-    "q": "14. A solid construction put across the river to raise its water level and divert the water into the canal is known as .............",
-    "options": [
-      "marginal bund",
-      "weir",
-      "barrage",
-      "dam"
-    ],
-    "correct": 1,
-    "explain": "A weir is a low-height solid obstruction used to raise the water level. While a barrage also does this, the primary definition for a solid construction of this nature is a weir."
-  },
-  {
-    "q": "15. When the difference in weir crest and downstream river bed is limited into 3 meters, the weir generally used is .............",
-    "options": [
-      "vertical drop weir",
-      "drystone slope weir",
-      "concrete slope weir",
-      "parabolic weir"
-    ],
-    "correct": 2,
-    "explain": "For moderate drops (up to 3m), a concrete slope (or glacis) weir is preferred to safely guide the water and dissipate energy."
-  },
-  {
-    "q": "16. In Bligh's creep theory, it is assumed that the percolation water creep .............",
+    "q": "40. In Bligh's creep theory, it is assumed that the percolation water creep .............",
     "options": [
       "along the contact of the base profile of the apron with the sub-soil",
       "in a straight path under the floor",
@@ -176,7 +440,7 @@
     "explain": "Bligh's theory assumes water 'creeps' along the entire length of the contact surface between the structure's base and the soil."
   },
   {
-    "q": "17. In Lane's weighted creep theory, he proposed a weight of .............",
+    "q": "41. In Lane's weighted creep theory, he proposed a weight of .............",
     "options": [
       "three for vertical creep and one for horizontal creep",
       "three for horizontal creep and one for vertical creep",
@@ -187,18 +451,7 @@
     "explain": "Lane suggested that vertical surfaces are three times more effective in resisting piping than horizontal surfaces, thus weightage is 3 for vertical and 1 for horizontal creep."
   },
   {
-    "q": "18. In Bligh's creep theory .............",
-    "options": [
-      "there is no distinction between horizontal and vertical creep",
-      "loss of head does not take place in the same proportion as creep length",
-      "the uplift pressure distribution is not linear, but follows a sine curve",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "Unlike Lane's theory, Bligh's theory treats horizontal and vertical creep paths as equally effective in reducing head loss."
-  },
-  {
-    "q": "19. In a barrage, crest level is kept .............",
+    "q": "42. In a barrage, crest level is kept .............",
     "options": [
       "low with large gates",
       "high with large gates",
@@ -209,7 +462,7 @@
     "explain": "Barrages typically have a low crest level to allow maximum flood discharge; large gates are then used to control and raise the water level when needed."
   },
   {
-    "q": "20. The loss of head per unit length of creep is called .............",
+    "q": "43. The loss of head per unit length of creep is called .............",
     "options": [
       "coefficient of creep",
       "percolation coefficient",
@@ -220,18 +473,7 @@
     "explain": "This represents the hydraulic gradient under the structure. Bligh defined the reciprocal of this (length/head) as the Coefficient of Creep (C), but head loss per unit length is the percolation coefficient."
   },
   {
-    "q": "21. According to Khosla's theory, the undermining of the floor starts from the .............",
-    "options": [
-      "starting end",
-      "tail end",
-      "intermediate point",
-      "foundation bed"
-    ],
-    "correct": 1,
-    "explain": "Undermining or piping starts from the downstream (tail) end where the exit gradient is highest and water emerges from the soil."
-  },
-  {
-    "q": "22. According to Khosla's theory, the exit gradient in the absence of a downstream cut-off is .............",
+    "q": "44. According to Khosla's theory, the exit gradient in the absence of a downstream cut-off is .............",
     "options": [
       "zero",
       "unity",
@@ -242,139 +484,7 @@
     "explain": "Without a vertical cut-off at the end of the floor, the exit gradient becomes theoretically infinite, leading to immediate piping and failure."
   },
   {
-    "q": "23. A hydraulic jump is formed when .............",
-    "options": [
-      "a sub-critical flow strikes against a super-critical flow",
-      "a super-critical flow strikes against a sub-critical flow",
-      "the two flows of super-critical velocity meet each other",
-      "the two flows of sub-critical velocity meet each other"
-    ],
-    "correct": 1,
-    "explain": "A hydraulic jump occurs when rapid, super-critical flow transitions to a slower, sub-critical flow state, resulting in energy dissipation."
-  },
-  {
-    "q": "24. For low navigation dams, the type of gate used is .............",
-    "options": [
-      "rolling gate",
-      "bear trap gate",
-      "vertical lift gate",
-      "drum gate"
-    ],
-    "correct": 1,
-    "explain": "Bear trap gates are often used in navigation because they can be lowered completely to allow vessels to pass over them."
-  },
-  {
-    "q": "25. The loss of head in the hydraulic jump is given by .............",
-    "options": [
-      "(D1 - D2) / 4D1D2",
-      "(D1 - D2)² / 4D1D2",
-      "(D1 - D2)³ / 4D1D2",
-      "(D1 - D2)⁴ / 4D1D2"
-    ],
-    "correct": 2,
-    "explain": "The energy loss ($H_L$) in a hydraulic jump in a rectangular channel is mathematically expressed as $(D_2 - D_1)^3 / (4 D_1 D_2)$."
-  },
-  {
-    "q": "26. The crest level in a barrage is kept at a ............. level.",
-    "options": [
-      "low",
-      "high",
-      "moderate",
-      "all"
-    ],
-    "correct": 0,
-    "explain": "As noted in 317, the physical crest of a barrage is kept low to prevent significant obstruction during high floods."
-  },
-  {
-    "q": "27. The crest of the under-sluices should be lower than the crest of the head regulator (if silt excluder is provided) by at least .............",
-    "options": [
-      "1 to 1.2 m",
-      "1.8 to 2 m",
-      "2 to 2.5 m",
-      "4 to 5 m"
-    ],
-    "correct": 0,
-    "explain": "The under-sluice pocket is kept lower (usually 1.0 to 1.2m) to create a 'still pond' which helps in settling silt before water enters the canal."
-  },
-  {
-    "q": "28. For smooth entry, the regulators are aligned at an angle of ............. to the water.",
-    "options": [
-      "60°",
-      "80°",
-      "110°",
-      "130°"
-    ],
-    "correct": 2,
-    "explain": "Aligning the head regulator at an angle of 110° to the weir/barrage axis helps in smooth entry of water and effectively reduces silt entry into the canal."
-  },
-  {
-    "q": "29. The level of a canal diversion head work depends upon .............",
-    "options": [
-      "discharge perimeter",
-      "pond level",
-      "full supply level of canal",
-      "all of these"
-    ],
-    "correct": 1,
-    "explain": "The pond level is the most critical factor as it must be high enough to ensure the required Full Supply Level (FSL) in the canal even during low river flow."
-  },
-  {
-    "q": "30. When the bed level of the canal is higher than the highest flood level (H.F.L.) of the drainage, then the cross drainage work is said to be .............",
-    "options": [
-      "aqueduct",
-      "super-passage",
-      "canal siphon",
-      "siphon aqueduct"
-    ],
-    "correct": 0,
-    "explain": "In a simple aqueduct, the canal passes over the drainage with enough clearance that the drainage water never touches the canal bottom."
-  },
-  {
-    "q": "31. When the drain is over the canal, the structure provided is known as .............",
-    "options": [
-      "aqueduct",
-      "super-passage",
-      "canal siphon",
-      "siphon aqueduct"
-    ],
-    "correct": 1,
-    "explain": "A super-passage is the opposite of an aqueduct; here, the natural drainage (stream) is carried in a trough across and above the canal."
-  },
-  {
-    "q": "32. When the levels are such that the F.S.L. of the canal is much above the bed level of the drainage trough, so that the canal runs under syphonic action under the trough, the structure provided is known as .............",
-    "options": [
-      "siphon aqueduct",
-      "level crossing",
-      "canal siphon",
-      "super-aqueduct"
-    ],
-    "correct": 0,
-    "explain": "When the drainage HFL is higher than the canal bed and the canal is forced to dip under the drainage trough, it is a siphon aqueduct."
-  },
-  {
-    "q": "33. In case of siphon aqueduct, the H.F.L. of the drain is .............",
-    "options": [
-      "much below the bottom of the canal trough",
-      "much higher above the canal bed",
-      "in level with the canal bed",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "For syphonic action to occur in the drainage water passing under a canal, the drainage HFL must be higher than the canal bed (or underside of the trough)."
-  },
-  {
-    "q": "34. In a super-passage, the F.S.L. of the canal is .............",
-    "options": [
-      "lower than the underside of the trough carrying drainage water",
-      "above the bed level of the drainage trough",
-      "in level with the drainage trough",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "In a super-passage, the canal flow is at atmospheric pressure and its Full Supply Level (FSL) must remain below the bottom of the drainage trough."
-  },
-  {
-    "q": "35. In a siphon, the underside of the trough carrying drainage water is ............. the F.S.L. of the canal.",
+    "q": "45. In a siphon, the underside of the trough carrying drainage water is ............. the F.S.L. of the canal.",
     "options": [
       "lower than",
       "higher than",
@@ -385,18 +495,7 @@
     "explain": "In a canal siphon (or siphon aqueduct), the structure is designed such that the canal FSL is actually higher than the bottom of the crossing trough, forcing water to flow under pressure."
   },
   {
-    "q": "36. The bed of a canal is lowered in case of .............",
-    "options": [
-      "siphon aqueduct",
-      "canal siphon",
-      "level crossing",
-      "all of these"
-    ],
-    "correct": 1,
-    "explain": "In a canal siphon, the canal bed is depressed or lowered below its normal grade to pass under the drainage/obstruction."
-  },
-  {
-    "q": "37. The floor of the aqueduct is subjected to uplift pressure due to .............",
+    "q": "46. The floor of the aqueduct is subjected to uplift pressure due to .............",
     "options": [
       "seepage of water from the canal to the drainage",
       "sub-soil water table in the drainage bed",
@@ -407,29 +506,7 @@
     "explain": "Uplift on the floor can be caused by both the static water table in the surrounding soil and the seepage of water from the canal itself."
   },
   {
-    "q": "38. Canals taken off from ice-fed perennial rivers, are known .............",
-    "options": [
-      "permanent canals",
-      "ridge canals",
-      "perennial canals",
-      "inundation canals"
-    ],
-    "correct": 2,
-    "explain": "Perennial canals receive a constant supply of water year-round because their source rivers are fed by melting glaciers/snow."
-  },
-  {
-    "q": "39. If water table is comparatively high, the irrigation canal becomes useless, due to .............",
-    "options": [
-      "large amount of seepage",
-      "water logging of the cultivated areas",
-      "uncertain water demand",
-      "all the above"
-    ],
-    "correct": 1,
-    "explain": "When the water table is high, additional irrigation leads to waterlogging (saturation of the root zone), which prevents aeration and destroys crop productivity."
-  },
-  {
-    "q": "40. Pick up the incorrect statement from the following. Culturable commanded area is the gross area of an irrigation canal system less .............",
+    "q": "47. Pick up the incorrect statement from the following. Culturable commanded area is the gross area of an irrigation canal system less .............",
     "options": [
       "populated area",
       "alkaline area",
@@ -440,95 +517,7 @@
     "explain": "Fallow land is technically culturable. CCA is GCA minus non-culturable areas like towns, roads, forests, and barren (alkaline) lands."
   },
   {
-    "q": "41. If V0 is the critical velocity of a channel, its silt transporting power, according to Kennedy, is proportional to .............",
-    "options": [
-      "V0^1/2",
-      "V0^3/2",
-      "V0^5/2",
-      "V0^7/2"
-    ],
-    "correct": 2,
-    "explain": "Kennedy's theory suggests that the silt-carrying capacity (silt load) of a channel is proportional to $V_0^{2.5}$ or $V_0^{5/2}$."
-  },
-  {
-    "q": "42. Regime conditions in a channel may occur if .............",
-    "options": [
-      "discharge is constant",
-      "channel flows uniformly in incoherent alluvium as that transported in suspension",
-      "silt grade and silt charge are constant",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "A 'true regime' channel requires stability in discharge, sediment type, and sediment volume to prevent silting or scouring."
-  },
-  {
-    "q": "43. Lacey's regime condition is obtained if .............",
-    "options": [
-      "silt grade in the channel is variable",
-      "discharge in the channel is variable",
-      "silt charge in the channel is variable",
-      "channel flows in unlimited, incoherent alluvium of the same character as that transported material"
-    ],
-    "correct": 3,
-    "explain": "Lacey's theory assumes the channel is flowing in an infinite depth of the same material it is transporting (incoherent alluvium)."
-  },
-  {
-    "q": "44. If average particle size of the silt in millimeters is m, the Lacey's silt factor f is proportional to .............",
-    "options": [
-      "m",
-      "m³",
-      "m¹/2",
-      "m²/³"
-    ],
-    "correct": 2,
-    "explain": "Lacey's silt factor formula is $f = 1.76 \\sqrt{m}$, meaning it is proportional to the square root of the mean particle size."
-  },
-  {
-    "q": "45. According to Lacey, in regime conditions .............",
-    "options": [
-      "silt is kept in suspension by vertical components of eddies",
-      "entire cross-section of the channel is generated at all points by the forces normal to the wetted perimeter",
-      "both 'a' and 'b'",
-      "neither 'a' nor 'b'"
-    ],
-    "correct": 1,
-    "explain": "Unlike Kennedy (who only considered vertical eddies from the bed), Lacey stated that eddies are generated from the entire wetted perimeter."
-  },
-  {
-    "q": "46. The scour depth D of a river during flood, may be calculated from the Lacey's equation .............",
-    "options": [
-      "D=0.47(Q/f)",
-      "D=0.47(Q/f)^1/2",
-      "D=0.47(Q/f)^1/3",
-      "D=0.47(Q/f)^1/5"
-    ],
-    "correct": 2,
-    "explain": "The regime scour depth ($R$) for a wide channel is given by $R = 0.47 (Q/f)^{1/3}$."
-  },
-  {
-    "q": "47. The main cause of silting up a channel, is .............",
-    "options": [
-      "non-regime section",
-      "inadequate slope",
-      "defective head regulator",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "Silting occurs when the velocity is too low to keep sediment in suspension, caused by poor design, low slopes, or excessive silt entry at the head."
-  },
-  {
-    "q": "48. F.S.L. of a canal at its head with respect to parent channel is kept .............",
-    "options": [
-      "at the same level",
-      "15 cm lower",
-      "15 cm higher",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "The Full Supply Level (FSL) of the taking-off canal is usually kept about 15 cm lower than the parent canal to ensure draw-off even when the parent canal is not at full supply."
-  },
-  {
-    "q": "49. In gravity canals, F.S.L. is .............",
+    "q": "48. In gravity canals, F.S.L. is .............",
     "options": [
       "always at the ground level",
       "always below the ground level",
@@ -539,14 +528,91 @@
     "explain": "For efficient gravity flow into fields, the canal water level (FSL) should be slightly higher than the surrounding ground level."
   },
   {
-    "q": "50. Side slope generally kept for canals in loam soil are .............",
+    "q": "49. If d1 is the depth of cutting, d2 is the height of the bank... the horizontal distance n between the bed and bank, is .............",
     "options": [
-      "1:1 in cutting and 1.5:1 in filling",
-      "1.5:1 in cutting and 2:1 in filling",
-      "neither 'a' nor 'b'",
-      "both 'a' and 'b'"
+      "x = r1d1",
+      "x = r2d2",
+      "x = d1/r1",
+      "x = d2/r2"
+    ],
+    "correct": 1,
+    "explain": "The horizontal distance depends on the slope ($r$) and the height ($d$) of the bank; hence $x = r_2 \\times d_2$."
+  },
+  {
+    "q": "50. The saturation line is the line up to which banks get saturated after the canal runs for some time. The saturation gradient in ordinary loam soil, is generally .............",
+    "options": [
+      "2:1",
+      "3:1",
+      "4:1",
+      "5:1"
+    ],
+    "correct": 2,
+    "explain": "In ordinary loam, the phreatic line (seepage line) usually follows a gradient of 4 horizontal to 1 vertical."
+  },
+  {
+    "q": "51. If the straight sides... make an angle θ with horizontal, the perimeter of the canal is .............",
+    "options": [
+      "R(θ + tan θ)",
+      "2R(θ + tan θ)",
+      "R(θ + cos θ)",
+      "2R(θ + cot θ)"
+    ],
+    "correct": 3,
+    "explain": "For the same rounded triangular section, the wetted perimeter $P = 2R (\\theta + \\cot \\theta)$."
+  },
+  {
+    "q": "52. The ratio of the discharge over a trapezoidal crest to a rectangular crest of Sarda falls of identical parameters, is .............",
+    "options": [
+      "1.084",
+      "1.074",
+      "1.064",
+      "1.054"
     ],
     "correct": 0,
-    "explain": "Slopes in cutting can be steeper (1:1) because the natural soil is compact, whereas filling requires flatter slopes (1.5:1) for stability."
+    "explain": "A trapezoidal crest has a slightly higher discharge coefficient due to its shape, resulting in a ratio of approximately 1.084 compared to a rectangular crest."
+  },
+  {
+    "q": "53. The depth of the crest of a scouring sluice below the crest of a head regulator, is generally kept .............",
+    "options": [
+      "0.20 m",
+      "1.20 m",
+      "2.20 m",
+      "3.20 m"
+    ],
+    "correct": 1,
+    "explain": "A difference of 1.2 meters is standard to allow for a 'silt pocket' where heavier sediment can settle and be flushed out."
+  },
+  {
+    "q": "54. According to Khosla, the exists gradient of surface flow .............",
+    "options": [
+      "depends upon the b/d ratio",
+      "is independent of the b/d ratio",
+      "is independent of the depths of d/s cut off walls",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Exit gradient depends on the ratio of floor length (b) to the depth of the downstream end pile (d)."
+  },
+  {
+    "q": "55. The width of a meander belt is the transverse distance between .............",
+    "options": [
+      "apex point of one curve and apex point of the reserve curve",
+      "apex point and the crossing",
+      "two banks of meandering river",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Meander belt width is the total width of the valley occupied by the river as it swings from one extreme apex to the other."
+  },
+  {
+    "q": "56. A deficit of sediments in flowing water may cause a river .............",
+    "options": [
+      "meandering type",
+      "aggrading type",
+      "degrading type",
+      "sub-critical type"
+    ],
+    "correct": 2,
+    "explain": "If the water has less sediment than its carrying capacity, it will scour the bed to pick up more, leading to 'degradation'."
   }
 ]

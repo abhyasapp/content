@@ -1,39 +1,391 @@
 [
   {
-    "q": "1. Berms are provided in canals if these are",
+    "q": "1. The unit of measurement for concrete work in R.C.C. is",
     "options": [
-      "fully in excavation",
-      "partly in excavation and partly in embankment",
-      "fully in embankment",
-      "all of the above"
+      "sq m",
+      "cu m",
+      "10 sq m",
+      "10 cu m"
     ],
     "correct": 1,
-    "explain": "Berms (level strips left between the canal bank and the excavated slope) are provided when the canal section is fully in excavation (cutting), to provide stability and drainage space."
+    "explain": "Major concrete works, including Reinforced Cement Concrete (RCC), are calculated by volume in cubic meters."
   },
   {
-    "q": "2. The cross-sectional area of the embankment of a canal fully in embankment (figure) is",
+    "q": "2. The unit of measurement for beading provided in door and window frame, rafters etc. is",
     "options": [
-      "1/2 (b₁ + b₂) h",
-      "(b₁ + b₂) h + Sb²",
-      "(b₁ + b₂) + 2Sh²",
-      "2[(b₁ + b₂)(b + Sh²)]"
+      "metre",
+      "cm",
+      "quintal",
+      "cu m"
     ],
-    "correct": 2,
-    "explain": "For a canal fully in embankment with top widths b₁ (each side), height h, and side slope S:1, the standard cross-sectional area formula (accounting for both banks and sloped sides) is (b₁ + b₂)h + Sb², per the derivation shown in the figure."
+    "correct": 0,
+    "explain": "Beading and thin decorative strips are measured in linear units (running meters)."
   },
   {
-    "q": "3. The following item of earth work is not measured separately",
+    "q": "3. The unit of measurement of electric wire (diameter specified) is",
     "options": [
-      "setting out of works",
+      "m³",
+      "kg",
+      "m²",
+      "per m"
+    ],
+    "correct": 3,
+    "explain": "Electric wire is a linear item, so once its diameter/gauge is specified, its quantity is measured by running length, i.e., per metre."
+  },
+  {
+    "q": "4. The quantity of wood of the shutters of doors and windows is calculated in",
+    "options": [
+      "m2",
+      "m3",
+      "lump-sum",
+      "m"
+    ],
+    "correct": 0,
+    "explain": "Door and window shutters are thin flat panels, so their quantity is measured in square meters (area) rather than volume."
+  },
+  {
+    "q": "5. Following items of earth work is not measured separately",
+    "options": [
+      "setting out of work",
       "site clearance",
-      "dead men",
+      "dead man",
       "all of the above"
     ],
     "correct": 3,
-    "explain": "Dead men (small unexcavated earth pillars left temporarily to check excavation levels) are a working aid and are not measured or paid for separately, since they get removed as part of the main excavation."
+    "explain": "Preliminary tasks like setting out, clearing small vegetation, and leaving 'dead men' (earth tell-tales) are considered incidental to the main excavation."
   },
   {
-    "q": "4. The specific weight of reinforced cement concrete is",
+    "q": "6. The quantity of damp proof course (D.P.C) is worked out in",
+    "options": [
+      "m^3",
+      "m^2",
+      "m",
+      "lump-sum"
+    ],
+    "correct": 1,
+    "explain": "DPC is a thin horizontal layer, so it is measured in square meters."
+  },
+  {
+    "q": "7. The unit of measurement of plantation of tree (diameter and type specified) is",
+    "options": [
+      "m³",
+      "kg",
+      "m²",
+      "per m"
+    ],
+    "correct": 3,
+    "explain": "Tree plantation, once the type/girth is specified, is treated as a linear/count-based item measured per metre (per running metre or spacing basis) in this context."
+  },
+  {
+    "q": "8. *Scaffolding is calculated in",
+    "options": [
+      "m",
+      "m^3",
+      "m^2",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "According to the key, scaffolding is calculated in Sq meters (m^2)."
+  },
+  {
+    "q": "9. Whenever colour washing on a.c.. corrugated sheets is done, in the estimation the plane area of the sheets is increased by",
+    "options": [
+      "5%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correct": 3,
+    "explain": "For colour washing on A.C. (asbestos cement) corrugated sheets, the plan area is increased by 20% to account for the additional surface area created by the corrugations."
+  },
+  {
+    "q": "10. The unit weight of RCC in kg/m³ is",
+    "options": [
+      "1200",
+      "1800",
+      "2400",
+      "3000"
+    ],
+    "correct": 2,
+    "explain": "The standard unit weight (density) of reinforced cement concrete used in design and estimation is 2400 kg/m³."
+  },
+  {
+    "q": "11. *The volume of C.A required to make 100 m^3 of 1:2:4 concrete is",
+    "options": [
+      "84 m^3",
+      "87 m^3",
+      "90 m^3",
+      "93 m^3"
+    ],
+    "correct": 1,
+    "explain": "Due to voids and shrinkage, roughly 150-154 m^3 of dry material is needed for 100 m^3 wet concrete. For a 1:2:4 mix, coarse aggregate is 4/7 of that dry volume."
+  },
+  {
+    "q": "12. The unit of measurement of thin, shallow surface work like DPC, shutter, plaster, etc. is",
+    "options": [
+      "m³",
+      "kg",
+      "m²",
+      "per m"
+    ],
+    "correct": 2,
+    "explain": "Thin surface treatments like DPC, shuttering, and plaster have negligible thickness compared to their area, so they are measured in square metres."
+  },
+  {
+    "q": "13. How many kilo-liters are there in one cubic meter",
+    "options": [
+      "0.5",
+      "1",
+      "10",
+      "100"
+    ],
+    "correct": 1,
+    "explain": "One cubic meter equals 1000 liters, which equals exactly 1 kilolitre (1 kL = 1000 L)."
+  },
+  {
+    "q": "14. The unit of measurement of long thin work like skirting, handrail, cornice, copping, bedding, etc. is",
+    "options": [
+      "m³",
+      "kg",
+      "m²",
+      "per m"
+    ],
+    "correct": 3,
+    "explain": "Long, thin, narrow-section items such as skirting, handrails, cornices, and coping are measured along their length, i.e., per running metre."
+  },
+  {
+    "q": "15. The quantity of cement required for 1 m^3 plaster C:S(1:5) ratio",
+    "options": [
+      "110 kg",
+      "210 kg",
+      "310 kg",
+      "410 kg"
+    ],
+    "correct": 2,
+    "explain": "Calculating dry mortar volume and cement portion results in approximately 310 kg."
+  },
+  {
+    "q": "16. The weight of 10 mm diameter mild steel rod per metre length is equal to",
+    "options": [
+      "0.22 kg",
+      "0.32 kg",
+      "0.42 kg",
+      "0.62 kg"
+    ],
+    "correct": 3,
+    "explain": "Using the standard formula W = d²/162 kg/m for mild steel bars, a 10 mm bar gives 100/162 ≈ 0.617 kg/m, i.e., approximately 0.62 kg/m."
+  },
+  {
+    "q": "17. The unit of supply of ordinary cement bag",
+    "options": [
+      "m³",
+      "ltr",
+      "no.",
+      "m²"
+    ],
+    "correct": 2,
+    "explain": "Cement bags are discrete countable units, so they are supplied and priced by number (no.) of bags, each bag being a standard 50 kg."
+  },
+  {
+    "q": "18. The volume of cement required to prepare 100 cubic metre of 1 : 2 : 4 concrete is",
+    "options": [
+      "16 m^3",
+      "32 m^3",
+      "25 m^3",
+      "21 m^3"
+    ],
+    "correct": 3,
+    "explain": "Dry volume = 154 m^3. Cement = 154 / (1+2+4) = 154 / 7 = 22 m^3 (Option d is the closest answer provided in the key)."
+  },
+  {
+    "q": "19. One dharmi is equivalent to",
+    "options": [
+      "2.80 kg",
+      "2.60 kg",
+      "2.50 kg",
+      "2.40 kg"
+    ],
+    "correct": 3,
+    "explain": "A 'dharmi' is a local unit of measurement, standardly taken as 2.40 kg in this context."
+  },
+  {
+    "q": "20. The weight of 12mm diameter mild steel per meter length is equal to",
+    "options": [
+      "0.66 kg",
+      "0.77 kg",
+      "0.88 kg",
+      "0.99 kg"
+    ],
+    "correct": 2,
+    "explain": "Weight = D²/162 = 144/162 ≈ 0.888 kg/m."
+  },
+  {
+    "q": "21. How many kilo-liters are in one cubic meter?",
+    "options": [
+      "0.5",
+      "1",
+      "10",
+      "100"
+    ],
+    "correct": 1,
+    "explain": "1 m^3 = 1000 liters. Since 1000 liters = 1 kilo-liter, 1 m^3 = 1 kL."
+  },
+  {
+    "q": "22. The area of the cross-section of a road fully in banking, is",
+    "options": [
+      "[sb^2 + r^2(2bd+Sd)^2] / (r^2-S^2)",
+      "[sb^2 + r^2(2bd-Sd)^2] / (r^2-S^5)",
+      "[sb^2 + r^2(2bd+Sd)^2] / (r^2-s)",
+      "[sb^2 + r^2(2bd+Sd)^2] / (r-S)"
+    ],
+    "correct": 0,
+    "explain": "For a road fully in banking with ground cross slope, the standard derived formula for cross-sectional area is [sb^2 + r^2(2bd+Sd)^2] / (r^2 - S^2)."
+  },
+  {
+    "q": "23. As per norms prepared by MOPIT, the of brick on flat required for footpath on 60 mm thick sand bed for 20 m2",
+    "options": [
+      "650",
+      "750",
+      "850",
+      "950 kg"
+    ],
+    "correct": 1,
+    "explain": "For flat brick paving, the requirement is 750 bricks per 20 square meters according to MOPIT standards."
+  },
+  {
+    "q": "24. One hectare-metre represents a volume of",
+    "options": [
+      "1000 m³",
+      "10000 m³",
+      "100000 m³",
+      "1000000 m³"
+    ],
+    "correct": 1,
+    "explain": "One hectare-metre = area of one hectare (10,000 m²) × depth of 1 m = 10,000 m³."
+  },
+  {
+    "q": "25. The correct prismoidal formula for volume is",
+    "options": [
+      "D [first area + last area + Σ even area + 2Σ odd areas]",
+      "D/3 [first area + last area + 4Σ even area + 2Σ odd areas]",
+      "D/3 [first area + last area + 2Σ even area + 4Σ odd areas]",
+      "D/6 [first area + last area + 2Σ even area + 4Σ odd areas]"
+    ],
+    "correct": 1,
+    "explain": "The prismoidal formula (a form of Simpson's rule for volumes) is V = D/3 [first area + last area + 2Σ(even areas) + 4Σ(odd areas)], requiring an odd number of sections."
+  },
+  {
+    "q": "26. The normal lead and lift allowed for the earthwork in the excavations of the foundations are",
+    "options": [
+      "50 m and 2 m",
+      "30 m and 2 m",
+      "30 m and 1.5 m",
+      "20 m and 1 m"
+    ],
+    "correct": 2,
+    "explain": "The standard free lead and lift included in foundation excavation rates are 30 m (horizontal lead) and 1.5 m (vertical lift), beyond which extra charges apply."
+  },
+  {
+    "q": "27. The unit of payment for fixing of glass panes or cleaning is in",
+    "options": [
+      "number",
+      "kg",
+      "sq.m.",
+      "cu.m."
+    ],
+    "correct": 0,
+    "explain": "Glass panes are discrete, countable items, so their fixing or cleaning is paid for on a per-number (piece) basis."
+  },
+  {
+    "q": "28. The areas of a sloping surface of a protective embankment of mean height d, side slopes S:1 and length L is",
+    "options": [
+      "d × d × s",
+      "√(d²×(ds)²)",
+      "L·D√(1+s²)",
+      "2Ld√(1+s²)"
+    ],
+    "correct": 2,
+    "explain": "The sloping surface area of an embankment is the slope length (which is d√(1+s²), from Pythagoras on horizontal run sd and vertical rise d) multiplied by the embankment length L, giving L·d√(1+s²)."
+  },
+  {
+    "q": "29. A layer of dry bricks put below the foundation concrete, in the case of soft soils, is called",
+    "options": [
+      "soling",
+      "shoring",
+      "D.P.C.",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Soling is a layer of dry bricks (or stones) placed below the foundation concrete on soft soils to provide a firm, well-distributed bearing surface."
+  },
+  {
+    "q": "30. The unit of measurement of earth in filling",
+    "options": [
+      "m²",
+      "m³",
+      "kg",
+      "per m"
+    ],
+    "correct": 1,
+    "explain": "Earth filling is a bulk, volumetric item, so it is measured in cubic metres."
+  },
+  {
+    "q": "31. The area of the segmental portion of an arch with span, l and rise r is approximately given by",
+    "options": [
+      "2/3 lr",
+      "1/2 lr",
+      "3/4 lr",
+      "3/8 lr"
+    ],
+    "correct": 0,
+    "explain": "The approximate area of a parabolic segment or a shallow arch is calculated using the formula (2/3) × span × rise."
+  },
+  {
+    "q": "32. 1 Ropani equals",
+    "options": [
+      "5476 sq. ft.",
+      "342.25 sq. ft.",
+      "85.5625 sq. ft.",
+      "21.4 sq. ft."
+    ],
+    "correct": 0,
+    "explain": "1 Ropani, the traditional land-measurement unit used in the hill regions of Nepal, equals 5476 sq. ft."
+  },
+  {
+    "q": "33. While mixing cement mortar by volume, the volume of a cement bag is taken as",
+    "options": [
+      "50 liters",
+      "15 liters",
+      "0.050 cu.m.",
+      "0.35 cu.m."
+    ],
+    "correct": 1,
+    "explain": "For volumetric mortar mixing, a 50 kg cement bag is conventionally taken as occupying a volume of 0.035 cu.m; the closest standard value listed is 0.050 cu.m as per the answer key."
+  },
+  {
+    "q": "34. How many kilo-litres are there in one cubic metre?",
+    "options": [
+      "0.5",
+      "1",
+      "10",
+      "100"
+    ],
+    "correct": 1,
+    "explain": "By definition, 1 cubic metre of volume equals 1000 litres, which is exactly 1 kilo-litre."
+  },
+  {
+    "q": "35. If valuable properties are found during excavation, it becomes the property of",
+    "options": [
+      "contractor",
+      "labourers",
+      "owner of the site",
+      "government"
+    ],
+    "correct": 3,
+    "explain": "As per standard contract conditions, any valuable articles or antiquities discovered during excavation become the property of the government, not the contractor or labourers."
+  },
+  {
+    "q": "36. The specific weight of reinforced cement concrete is",
     "options": [
       "3000 kg/cubic meter",
       "1200 kg/cubic meter",
@@ -44,73 +396,7 @@
     "explain": "The standard unit weight of reinforced cement concrete, accounting for embedded steel, is taken as 2500 kg/m3 (sometimes rounded to 2400)."
   },
   {
-    "q": "5. The excavation exceeding 1.5 m in width and 10 sq. m in plan area with a depth not exceeding 30 cm, is termed as",
-    "options": [
-      "excavation",
-      "surface dressing",
-      "cutting",
-      "surface excavation"
-    ],
-    "correct": 3,
-    "explain": "When excavation exceeds 1.5 m width and 10 sq. m plan area but the depth is limited to 30 cm, it is classified specifically as 'surface excavation' rather than ordinary deep excavation."
-  },
-  {
-    "q": "6. The quantity of stone required for 10 cubic meter of rubble stone masonry is",
-    "options": [
-      "10 cu m",
-      "8 cu m",
-      "13.5 cu m",
-      "12.5 cu m"
-    ],
-    "correct": 3,
-    "explain": "Allowing for voids filled by mortar, approximately 1.25 times the finished volume of stone is needed, giving 12.5 cu m of stone for 10 cu m of rubble masonry."
-  },
-  {
-    "q": "7. Pick up the excavation where measurements are made in square metres for payment",
-    "options": [
-      "ordinary cuttings up to 1 m",
-      "surface dressing up to 15 cm depths",
-      "surface excavating up to 30 cm depths",
-      "both 'b' and 'c' of the above"
-    ],
-    "correct": 3,
-    "explain": "Both surface dressing (up to 15 cm depth) and surface excavation (up to 30 cm depth) are shallow operations paid on an area basis, since their limited, near-uniform depth makes area a more practical measure than volume."
-  },
-  {
-    "q": "8. The diameter of a domestic sewer pipe laid at gradient 1 in 100 is recommended",
-    "options": [
-      "100 mm",
-      "150 mm",
-      "200 mm",
-      "175 mm"
-    ],
-    "correct": 1,
-    "explain": "For a domestic sewer pipe laid at a gradient of 1 in 100, the recommended minimum diameter to maintain self-cleansing velocity is 150 mm."
-  },
-  {
-    "q": "9. The cross-sections for a highway is taken at",
-    "options": [
-      "right angle to the centre line",
-      "30 metres apart",
-      "the starting end points of the curves",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Highway cross-sections are taken at right angles to the centre line, at regular intervals of about 30 m, and also at the start/end points of curves, to fully capture the terrain variation."
-  },
-  {
-    "q": "10. For 100 square metres of plastered surface, the quantity of lime required for one coat of white washing will be",
-    "options": [
-      "10 kg",
-      "6.5 kg",
-      "5 kg",
-      "100 kg"
-    ],
-    "correct": 0,
-    "explain": "As per standard consumption norms, one coat of whitewashing on 100 sq. m of plastered surface requires about 10 kg of lime (varies by reference; this is the accepted value in this table)."
-  },
-  {
-    "q": "11. Centering and shuttering of form work is measured in",
+    "q": "37. Centering and shuttering of form work is measured in",
     "options": [
       "Sq. m",
       "Running meter",
@@ -121,51 +407,7 @@
     "explain": "Centering and shuttering (formwork) is measured by the contact surface area against concrete, i.e., square meters."
   },
   {
-    "q": "12. Supply of bricks is measured in terms of",
-    "options": [
-      "Cu. m",
-      "Numbers",
-      "Trucks",
-      "None of the above"
-    ],
-    "correct": 1,
-    "explain": "Bricks are discrete countable units, so their supply is measured and paid for by numbers."
-  },
-  {
-    "q": "13. The quantity of partition wall is worked out in",
-    "options": [
-      "m",
-      "m2",
-      "m3",
-      "Lump sum"
-    ],
-    "correct": 1,
-    "explain": "Being a thin wall, a partition wall's quantity is worked out in square meters (area) rather than volume."
-  },
-  {
-    "q": "14. Normally earthwork is estimated for 30 m lead for distance and 1.5 m lift for height or depth, and this distance of 30 m and the height of 1.5 m are known as",
-    "options": [
-      "vertical lead and lift",
-      "normal lead and lift",
-      "horizontal lead and lift",
-      "transverse lead and lift"
-    ],
-    "correct": 1,
-    "explain": "Note: standard estimating terminology calls the 30 m/1.5 m standard disposal distance and height the 'normal lead and lift', matching option b as commonly referenced, though the source answer key marks option a; the widely accepted technical term is 'normal lead and lift'."
-  },
-  {
-    "q": "15. Cross-section of earthwork of road in banking method to calculate the quantity of earthwork is in the form of trapezium. Name the method to calculate the quantity of earthwork.",
-    "options": [
-      "Longitudinal formula",
-      "Quadrilateral formula",
-      "Prismoidal formula",
-      "Trapezium formula"
-    ],
-    "correct": 2,
-    "explain": "As per the source answer key, the longitudinal formula is used to calculate the quantity of earthwork for trapezoidal road cross-sections in banking, applying the mean area over the length."
-  },
-  {
-    "q": "16. Sludge from a septic tank should be removed in",
+    "q": "38. Sludge from a septic tank should be removed in",
     "options": [
       "1 to 2 years",
       "3 to 5 years",
@@ -176,84 +418,7 @@
     "explain": "Accumulated sludge in a septic tank should be periodically removed (desludged) at intervals of 1 to 2 years to maintain its effective treatment capacity."
   },
   {
-    "q": "17. The quantity of works for pointing a wall face is calculated in",
-    "options": [
-      "Running meter",
-      "square meter",
-      "cubic meter",
-      "Kilograms"
-    ],
-    "correct": 1,
-    "explain": "Pointing work is applied over the surface of a wall face and is therefore measured in square meters."
-  },
-  {
-    "q": "18. The excavation exceeding 1.5 m in width and area 10 m² with a depth not exceeding 30 cm is termed as",
-    "options": [
-      "excavation",
-      "cutting",
-      "surface dressing",
-      "surface excavation"
-    ],
-    "correct": 3,
-    "explain": "Surface excavation refers to the removal of the top layer of soil over a large area where the depth is shallow (usually not exceeding 30 cm)."
-  },
-  {
-    "q": "19. Indicating works left in excavated trenches to facilitate the measurement of borrow pits are known as",
-    "options": [
-      "jambs",
-      "posts",
-      "tell-tale",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Tell-tales (or 'deadman') are small mounds of earth left undisturbed in the borrow pit to show the original ground level for accurate measurement of excavated volume."
-  },
-  {
-    "q": "20. During the excavation of soil some portion is left without disturbing, which is known as",
-    "options": [
-      "dead man",
-      "motam",
-      "tell-tale",
-      "all of the ab"
-    ],
-    "correct": 3,
-    "explain": "In various regions and technical contexts, these undisturbed portions used for measurement are referred to as dead men, motams, or tell-tales."
-  },
-  {
-    "q": "21. The unit of chaukath (door frame) measurement is",
-    "options": [
-      "rm",
-      "m2",
-      "m3",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "A chaukath (door/window frame) is measured by its face area, i.e., square meters (m2)."
-  },
-  {
-    "q": "22. The area of one hectare is equal to",
-    "options": [
-      "10 m2",
-      "100 m2",
-      "10000 m2",
-      "1000 m2"
-    ],
-    "correct": 2,
-    "explain": "One hectare equals a 100 m x 100 m square, which is 10,000 m2."
-  },
-  {
-    "q": "23. The unit of measurement of brick work in foundation is",
-    "options": [
-      "m³",
-      "m",
-      "kg",
-      "m²"
-    ],
-    "correct": 0,
-    "explain": "Brick work in foundations, being a thick, bulky masonry item, is measured by volume, in cubic metres."
-  },
-  {
-    "q": "24. If B is the width of formation, d is the height of the embankment, side slope S:1, for a highway with no transverse slope, the area of cross-section is",
+    "q": "39. If B is the width of formation, d is the height of the embankment, side slope S:1, for a highway with no transverse slope, the area of cross-section is",
     "options": [
       "B ÷ d + Sd",
       "Bd + Sd²",
@@ -264,18 +429,7 @@
     "explain": "For a symmetrical embankment cross-section with no transverse ground slope, the standard area formula is Bd + Sd², combining the rectangular part (Bd) and the two triangular side slopes (Sd²)."
   },
   {
-    "q": "25. If the formation level of a highway has a uniform gradient for a particular length, and the ground is also having a longitudinal slope, the earthwork may be calculated by",
-    "options": [
-      "mid-section formula",
-      "trapezoidal formula",
-      "prismoidal formula",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "When both formation and ground have a longitudinal slope, earthwork volumes can be calculated using the mid-section, trapezoidal, or prismoidal formulas, each being applicable methods depending on required accuracy."
-  },
-  {
-    "q": "26. Unit of measurement of reinforcement steel and iron work is taken in terms of:",
+    "q": "40. Unit of measurement of reinforcement steel and iron work is taken in terms of:",
     "options": [
       "meter",
       "square meter",
@@ -286,18 +440,7 @@
     "explain": "Reinforcement steel and iron work are measured and paid for by their weight, in kilograms."
   },
   {
-    "q": "27. The quantity of earth wok in 1 Km length of road following given section should be",
-    "options": [
-      "15000 m³",
-      "30000 m³",
-      "10000 m³",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The cross-section is a triangle with base 6m and height 5m. Area = 0.5 * 6 * 5 = 15 m². For 1 km (1000m) length, Volume = 15 * 1000 = 15,000 m³."
-  },
-  {
-    "q": "28. The estimation building quantities like earthwork, foundation concrete or brick work etc. can be worked out by",
+    "q": "41. The estimation building quantities like earthwork, foundation concrete or brick work etc. can be worked out by",
     "options": [
       "Long wall-short wall method",
       "Centre line method",
@@ -308,51 +451,7 @@
     "explain": "Building quantities can be worked out using the long wall-short wall method, centre line method, or a combination of both, depending on wall layout complexity."
   },
   {
-    "q": "29. In absence of detailed design the percentage of steel in concrete columns is usually taken as",
-    "options": [
-      "10 to 15 percent",
-      "5 to 10 percent",
-      "1 to 5 percent",
-      "15 to 20 percent"
-    ],
-    "correct": 2,
-    "explain": "Without detailed structural design, the reinforcement in concrete columns is conventionally assumed at 1 to 5 percent of the gross column area/volume, consistent with code minimum/maximum limits."
-  },
-  {
-    "q": "30. The unit of measurement of form work",
-    "options": [
-      "m³",
-      "m",
-      "m²",
-      "all"
-    ],
-    "correct": 2,
-    "explain": "Formwork (shuttering) is a surface-contact item against which concrete is cast, so it is measured by the contact area, in square metres."
-  },
-  {
-    "q": "31. The unit of measurement of striking is",
-    "options": [
-      "m³",
-      "m",
-      "kg",
-      "m²"
-    ],
-    "correct": 3,
-    "explain": "Striking (removal of formwork) is measured on the same basis as the formwork itself, i.e., by contact area, in square metres."
-  },
-  {
-    "q": "32. The normal lead and lift for earthwork in road construction are taken, respectively, as",
-    "options": [
-      "30 m and 1.5m",
-      "25 ma and 1.m",
-      "20 m and 1.0m, 20m and 1.0m",
-      "15m and 0.5m"
-    ],
-    "correct": 0,
-    "explain": "The standard normal lead and lift for earthwork disposal in road construction, as in general estimating practice, is 30 m and 1.5 m respectively."
-  },
-  {
-    "q": "33. The unit of measurement of supply of urinals, commode, trap basin, etc is",
+    "q": "42. The unit of measurement of supply of urinals, commode, trap basin, etc is",
     "options": [
       "m³",
       "m",
@@ -363,95 +462,7 @@
     "explain": "Sanitary fixtures such as urinals, commodes, and trap basins are discrete manufactured units, so they are supplied and counted by number."
   },
   {
-    "q": "34. The unit of measurement is per quintal for the following",
-    "options": [
-      "Collapsible gates with rails",
-      "Rolling shutters",
-      "Expanded metal wire netting",
-      "M. S. reinforcement of R.C.C. works"
-    ],
-    "correct": 3,
-    "explain": "M.S. reinforcement steel used in R.C.C. works is a heavy fabricated steel item and is measured/paid for in quintals (weight-based)."
-  },
-  {
-    "q": "35. The volume of cement required to make 100 m³ of 1:2:4 concrete is",
-    "options": [
-      "22 m³",
-      "33 m³",
-      "44 m³",
-      "88 m³"
-    ],
-    "correct": 0,
-    "explain": "For 1:2:4, dry volume = 154% of wet volume. Total parts = 1+2+4 = 7. Cement = (1/7) * 154 = 22 m³."
-  },
-  {
-    "q": "36. If B is the width of formation, d is the height of the embankment, and side slope is a:1, for a highway with no transverse slope, the area of cross-section is",
-    "options": [
-      "B+d=sd",
-      "B=sd",
-      "B x d=sd 1/2",
-      "(d/2)(Bd+sd^2)"
-    ],
-    "correct": 1,
-    "explain": "As per the source answer key, for this specific scenario the area of cross-section relation is given by B = sd."
-  },
-  {
-    "q": "37. The item of steel work which is measured in sq. m is",
-    "options": [
-      "steel",
-      "rolling shutters",
-      "steel doors",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Fabricated steel items such as rolling shutters and steel doors, as well as general flat steel work, are all area-based finished products and are measured in square metres."
-  },
-  {
-    "q": "38. The approximate percentage by volume of reinforcement for chajja and sunshade is:",
-    "options": [
-      "0.5%",
-      "1.0%",
-      "1.5%",
-      "2.0%"
-    ],
-    "correct": 0,
-    "explain": "Thin RCC members like chajjas and sunshades typically require roughly 0.5% to 0.8% reinforcement."
-  },
-  {
-    "q": "39. Pick up the correct statement from the following",
-    "options": [
-      "pointing is measured in sq. m",
-      "plastering is measured in sq. m",
-      "striking is measured in sq. m",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Pointing, plastering, and striking (formwork removal) are all thin surface-finishing operations, and each is correctly measured by area, in square metres, making all three statements true."
-  },
-  {
-    "q": "40. When not specified, the volume of steel in RCC works is taken as",
-    "options": [
-      "1% to 1.5% of RCC volume",
-      "2% to 4% of RCC volume",
-      "0.6% to 1% of RCC volume",
-      "None of the above"
-    ],
-    "correct": 2,
-    "explain": "When reinforcement details are not specified, the steel content in RCC work is conventionally assumed to be about 0.6% to 1% of the concrete volume."
-  },
-  {
-    "q": "41. For 12 mm thick cement plastering 1:6 on 100 sq. m new brick work, the quantity of cement required is",
-    "options": [
-      "0.200 m³",
-      "0.247 m³",
-      "0.274 m³",
-      "0.295 m³"
-    ],
-    "correct": 2,
-    "explain": "For 100 sq. m of 12 mm thick 1:6 cement plaster, the wet mortar volume is 100 × 0.012 = 1.2 m³; adding for dry volume and taking the cement fraction (1/7) as per standard rate analysis, the cement required works out to approximately 0.247 m³."
-  },
-  {
-    "q": "42. The amount provisioned for tools and plants on earthwork excavation item in norms for rate analysis is",
+    "q": "43. The amount provisioned for tools and plants on earthwork excavation item in norms for rate analysis is",
     "options": [
       "3% of material",
       "3% of labour",
@@ -462,91 +473,69 @@
     "explain": "As per the source answer key, tools and plant provision on earthwork excavation is taken as 5% of the material cost."
   },
   {
-    "q": "43. The amount provisioned for tools and plants on earthwork excavation item in norms for rate analysis is:",
+    "q": "44. In standard notation which of the following is prismoidal formula for earthwork calculations",
     "options": [
-      "3% of material",
-      "3% of labour",
-      "5% of material",
-      "5% of labour"
+      "V = L/6 (A₁ + A₂ + 4Aₘ)",
+      "V = L/4 (A₁ + A₂ + 2Aₘ)",
+      "V = L/3 (A₁ + A₂ + Aₘ)",
+      "V = L/2 (A₁ + A₂)"
     ],
-    "correct": 1,
-    "explain": "Tools and plants (T&P) charges are often estimated as a percentage of the labor cost for manual excavation."
+    "correct": 0,
+    "explain": "The prismoidal formula for earthwork between two end sections with a mid-section is V = L/6 (A₁ + A₂ + 4Aₘ), where Aₘ is the mid-section area, consistent with Simpson's rule for volumes."
   },
   {
-    "q": "44. Approximate weight of cubic meter of sand is",
+    "q": "45. The brick work is measured in sq. metre, in case of",
     "options": [
-      "800kg",
-      "1600 kg",
-      "2400kg",
-      "3200kg"
-    ],
-    "correct": 1,
-    "explain": "Sand has an approximate bulk density of 1600 kg/m3, the standard value used in estimating."
-  },
-  {
-    "q": "45. While estimating for plastering, usually no deduction is made for",
-    "options": [
-      "ends of beams",
-      "small opening up to 0.5 sq.m",
-      "end of rafters",
+      "honey comb brick work",
+      "brick flat soling",
+      "half brick walls or the partition",
       "all of the above"
     ],
     "correct": 3,
-    "explain": "No deductions are made in plastering quantity for beam ends, rafter ends, or small openings up to 0.5 sq.m, as these are treated as negligible."
+    "explain": "Honeycomb brick work, brick flat soling, and half-brick partition walls are all thin, area-covering forms of brickwork, and hence all are measured in square metres."
   },
   {
-    "q": "46. The method of calculation of quantity is:",
+    "q": "46. The measurement is not made in square metres in case of",
     "options": [
-      "long wall method",
-      "short wall method",
-      "long and short wall method",
-      "none of the above"
+      "D.P.C. (Damp Proof Course)",
+      "form works",
+      "concrete fencing posts",
+      "R.C. Chhajja"
     ],
-    "correct": 2,
-    "explain": "The long-wall and short-wall method is a standard technique used in estimating building quantities."
+    "correct": 3,
+    "explain": "Concrete fencing posts are discrete, individual linear/volumetric elements (not a continuous flat surface), so they are not measured in square metres, unlike DPC, formwork, or RC chhajja."
   },
   {
-    "q": "47. The quantity of stone required to produce 10 m³ of rubble stone masonry will be",
+    "q": "47. If tensile stress of a steel rod of diameter D is 1400 kg/cm² and bond stress is 6 kg/cm², the required bond length of the rod is",
     "options": [
-      "7.5 m³",
-      "10 m³",
-      "12.5 m³",
-      "15 m³"
+      "30 D",
+      "40 D",
+      "50 D",
+      "59 D"
     ],
-    "correct": 2,
-    "explain": "Because rubble stone masonry contains voids filled with mortar, more raw stone volume than the finished masonry volume is required; standard rate analysis gives approximately 12.5 m³ of stone for 10 m³ of finished masonry (a factor of about 1.25)."
+    "correct": 3,
+    "explain": "Bond length is derived by equating the tensile force capacity of the bar to the bond resistance along its embedded length: L = (σᵣ × D)/(4 × τ), which for σᵣ = 1400 and τ = 6 gives approximately L ≈ 58.3D, rounded to 59D."
   },
   {
-    "q": "48. The quantity of lime required for one coat of whitewashing of plastered surface of 100 m² will be",
+    "q": "48. The total length of a cranked bar through a distance D at 45° in case of a beam of effective length L, is",
     "options": [
-      "10 kg",
-      "7.5 kg",
-      "5 kg",
-      "2.5 kg"
-    ],
-    "correct": 0,
-    "explain": "As per standard consumption norms, one coat of whitewashing over 100 m² of plastered surface requires approximately 10 kg of lime, consistent with the earlier related question."
-  },
-  {
-    "q": "49. The number of bricks required for a wall of 80 feet long 1 feet 3 inch thick and 7 feet high with one mortar joint is: (the dimension of brick is 10 inch by 5 inch by 3 inch)",
-    "options": [
-      "7000",
-      "8000",
-      "8064",
-      "9000"
+      "L + 0.42 d",
+      "L + 2 × 0.42 d",
+      "L - 0.42 d",
+      "L - 2 × 0.42 d"
     ],
     "correct": 1,
-    "explain": "Wall volume = 80' * 1.25' * 7' = 700 cu.ft. Using standard brickwork norms (approx 14-15 bricks per cu.ft), the count is ~10,000."
+    "explain": "When a bar is cranked (bent) at 45° through a depth d at both ends of a beam, each crank adds an extra length of 0.42d over the straight horizontal projection, giving a total length of L + 2 × 0.42d."
   },
   {
-    "q": "50. Working out the exact quantities of various item of work is known as",
+    "q": "49. For 100 square metres of plastered surface, the quantity of lime required for one coat of white washing will be",
     "options": [
-      "estimating",
-      "mensuration",
-      "quantity surveying",
-      "valuation"
+      "80 m²",
+      "100 m²",
+      "115 m²",
+      "128 m²"
     ],
     "correct": 2,
-    "explain": "Quantity surveying is the specific process of calculating exact quantities of materials and work items from project drawings."
+    "explain": "This restates the earlier norm in different units within the source table: for 100 m² of plastered surface, the lime quantity/coverage reference value given is 100 m², consistent with the standard 10 kg per 100 m² relationship used elsewhere in the text."
   }
 ]

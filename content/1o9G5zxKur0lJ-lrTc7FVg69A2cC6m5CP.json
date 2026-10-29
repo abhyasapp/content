@@ -1,50 +1,149 @@
 [
   {
-    "q": "1. The total thickness of flat slab, in no case, should be less than",
+    "q": "1. The property of the ingredients to separate from each other while placing the concrete is called ...........",
     "options": [
-      "125 mm",
-      "200 mm",
-      "275 mm",
-      "350 mm"
+      "segregation",
+      "compaction",
+      "shrinkage",
+      "bulking"
     ],
     "correct": 0,
-    "explain": "IS 456 specifies that the thickness of a flat slab shall be at least 125 mm to provide adequate stiffness and fire resistance."
+    "explain": "Segregation is the separation of constituent materials of concrete, usually resulting in the coarse aggregate settling or separating from the matrix."
   },
   {
-    "q": "2. In four-way system of arranging the reinforcement, the reinforcement is provided in",
+    "q": "2. In a combined footing for two columns carrying unequal loads, the maximum hogging bending moment will occur ...........",
     "options": [
-      "column strip",
-      "diagonal strips",
-      "either 'a' or 'b'",
-      "both 'a' and 'b'"
+      "under the lighter column",
+      "under the heavier column",
+      "in between the two columns",
+      "at the edges"
     ],
-    "correct": 3,
-    "explain": "In a four-way reinforcement system for flat slabs, bars are placed in two sets of strips parallel to the center lines of columns and in two sets of diagonal strips."
+    "correct": 1,
+    "explain": "In combined footings, the shear force diagram typically crosses zero (maximum moment) near the heavier load point."
   },
   {
-    "q": "3. When a circular slab simply supported at the edge is loaded with uniformly distributed load, the stresses are developed in",
+    "q": "3. To ensure uniform pressure distribution, the thickness of the foundation, is ...........",
     "options": [
-      "radial direction only",
-      "circumferential direction only",
-      "both radial and circumferential direction",
-      "none of these"
+      "kept uniform throughout",
+      "increased gradually towards the edge",
+      "decreased gradually towards the edge",
+      "kept zero at the edge"
     ],
     "correct": 2,
-    "explain": "A loaded circular slab experiences bending in all directions, resulting in both radial and circumferential (hoop) moments and stresses."
+    "explain": "Varying the thickness (as in sloped or stepped footings) helps distribute the stiffness and pressure more effectively."
   },
   {
-    "q": "4. For a circular slab carrying a uniformly distributed load, the ratio of maximum negative radial moment and the maximum positive radial moment is equal to",
+    "q": "4. As per I.S. 456: 2000, the vertical deflection limits in a cantilever beam may generally be assumed to be satisfied provided that (span/depth) ratio does not exceed ...........",
     "options": [
-      "2",
-      "4",
-      "6",
-      "7"
+      "26",
+      "20",
+      "7",
+      "3"
+    ],
+    "correct": 2,
+    "explain": "To control deflection, IS 456 specifies basic span-to-effective-depth ratios: 7 for cantilevers, 20 for simply supported, and 26 for continuous beams."
+  },
+  {
+    "q": "5. The spacing of vertical stirrups in a rectangular beam is ............",
+    "options": [
+      "maximum near the supports",
+      "minimum near the supports",
+      "maximum near the centre",
+      "minimum near the centre"
+    ],
+    "correct": 1,
+    "explain": "Since shear force is highest at supports, stirrups are needed most there, resulting in the minimum (closest) spacing."
+  },
+  {
+    "q": "6. A T-beam behaves like a rectangular beam of width equal to its flange, if neutral axis",
+    "options": [
+      "remains outside the flange",
+      "remains within the flange",
+      "remains below the slab",
+      "both 'a' and 'b'"
+    ],
+    "correct": 1,
+    "explain": "When the neutral axis is within the flange, the entire compression zone is rectangular (width = Bf). Since concrete in tension is ignored, the shape of the web doesn't affect the stress calculation."
+  },
+  {
+    "q": "7. A T-beam behaves as a rectangular beam of a width equal to its flange if its neutral axis",
+    "options": [
+      "within the flange",
+      "at the bottom edge of the slab",
+      "below the slab",
+      "all the above"
     ],
     "correct": 0,
-    "explain": "For a circular slab with fixed edges, the ratio of the negative moment at the support to the positive moment at the center is 2.0."
+    "explain": "If the compression zone (neutral axis) is contained entirely within the top flange, the calculation is identical to that of a rectangular beam of flange width."
   },
   {
-    "q": "5. A ribbed slab is provided where",
+    "q": "8. At continuous supports, the lower portion of",
+    "options": [
+      "the slab is in tension",
+      "the slab is in compression",
+      "the slab experience neither the tension nor compression",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "At supports of a continuous beam, hogging occurs. This means the top is in tension and the bottom (lower portion) is in compression."
+  },
+  {
+    "q": "9. The maximum diameter of the reinforcement bars in R.C.C. slabs is",
+    "options": [
+      "20 mm",
+      "16 mm",
+      "span / 100",
+      "thickness of slab / 8"
+    ],
+    "correct": 3,
+    "explain": "IS 456 specifies that the maximum diameter of reinforcing bars shall not exceed 1/8th of the total thickness of the slab."
+  },
+  {
+    "q": "10. In a slab, the transverse reinforcement is provided at... to the span of the slab",
+    "options": [
+      "45°",
+      "60°",
+      "75°",
+      "90°"
+    ],
+    "correct": 3,
+    "explain": "Transverse reinforcement is placed perpendicular (90 degrees) to the main span reinforcement."
+  },
+  {
+    "q": "11. According to I.S.: 456-1978, the deflection of reinforced concrete slab or beam, for the purpose of design, is limited to... of span",
+    "options": [
+      "0.2%",
+      "0.25%",
+      "0.4%",
+      "0.45%"
+    ],
+    "correct": 1,
+    "explain": "The span/250 limit is equivalent to 0.4%, but the question refers to the 1978 version where specific limits for finishes were set at 0.25% (span/400)."
+  },
+  {
+    "q": "12. In a simply supported slab, alternate bars are curtailed at",
+    "options": [
+      "one-fifth of the span",
+      "one-sixth of the span",
+      "one-seventh of the span",
+      "one-eighth of the span"
+    ],
+    "correct": 2,
+    "explain": "In simply supported slabs, bending moment reduces towards the ends, so bars are often cranked or curtailed at L/7 from the center of the support."
+  },
+  {
+    "q": "13. In case of two-way slab, the limiting deflection of the slab is",
+    "options": [
+      "primarily a function of the long span",
+      "primarily a function of the short span",
+      "independent of long or short spans",
+      "dependent on both long and short spans"
+    ],
+    "correct": 1,
+    "explain": "Deflection control for two-way slabs is based on the shorter span because it is the stiffer direction that carries more load."
+  },
+  {
+    "q": "14. A ribbed slab is provided where",
     "options": [
       "plain ceiling is required",
       "thermal insulation is required",
@@ -55,29 +154,7 @@
     "explain": "Ribbed slabs are efficient for long spans and provide voids that can be used for acoustic/thermal insulation or to hide services while maintaining a flat ceiling profile if covered."
   },
   {
-    "q": "6. The thickness of the topping of a ribbed slab is kept from",
-    "options": [
-      "10 to 30 mm",
-      "30 to 50 mm",
-      "50 to 80 mm",
-      "80 to 110 mm"
-    ],
-    "correct": 2,
-    "explain": "The topping (the thin slab on top of the ribs) typically varies between 50 mm to 80 mm depending on the spacing of the ribs."
-  },
-  {
-    "q": "7. In a ribbed slab, the clear spacing between the ribs should not be more than",
-    "options": [
-      "300 mm",
-      "450 mm",
-      "600 mm",
-      "800 mm"
-    ],
-    "correct": 1,
-    "explain": "Standard practice limits the clear spacing between ribs to 450 mm to ensure the topping slab can span between them effectively."
-  },
-  {
-    "q": "8. For a ribbed slab, the overall depth, slab, should not be less than 75 mm...",
+    "q": "15. For a ribbed slab, the overall depth, slab, should not be less than 75 mm...",
     "options": [
       "two times",
       "three times",
@@ -88,18 +165,7 @@
     "explain": "To ensure lateral stability of the ribs, the depth of the rib should not exceed four times its width."
   },
   {
-    "q": "9. The diameter of a bar used in ribbed slab should not be more than",
-    "options": [
-      "12 mm",
-      "18 mm",
-      "22 mm",
-      "30 mm"
-    ],
-    "correct": 2,
-    "explain": "Due to the narrow width of the ribs, the diameter of reinforcement is restricted; 22 mm is generally the maximum used to allow for proper concrete cover and flow."
-  },
-  {
-    "q": "10. Enlarged head of a supporting column of a flat slab, is known as",
+    "q": "16. Enlarged head of a supporting column of a flat slab, is known as",
     "options": [
       "column head",
       "drop panel",
@@ -110,40 +176,7 @@
     "explain": "The flared or enlarged top of a column in a flat slab system is technically called the column capital."
   },
   {
-    "q": "11. Thickened part of the flat slab over its supporting column is known as",
-    "options": [
-      "column head",
-      "drop panel",
-      "capital",
-      "column strip"
-    ],
-    "correct": 1,
-    "explain": "The drop panel is the portion of the slab that is thickened around the column to resist high shear and negative moments."
-  },
-  {
-    "q": "12. The minimum amount of bottom reinforcement that should be continued over the entire length of the beam in R.C.C. continuous beam is",
-    "options": [
-      "50%",
-      "40%",
-      "33.33 %",
-      "25%"
-    ],
-    "correct": 2,
-    "explain": "At least one-third (33.33%) of the positive moment reinforcement must extend into the support to ensure structural integrity."
-  },
-  {
-    "q": "13. The minimum amount of negative moment reinforcement in R.C.C. beams that should extend beyond the point of inflection is",
-    "options": [
-      "one-third of the total",
-      "one-fourth of the total",
-      "zero",
-      "half of the total"
-    ],
-    "correct": 0,
-    "explain": "Standard practice requires at least 1/3 of the negative reinforcement to be extended beyond the point of inflection."
-  },
-  {
-    "q": "14. The splicing of the reinforcement bars in R.C.C. beams can be done at a section where",
+    "q": "17. The splicing of the reinforcement bars in R.C.C. beams can be done at a section where",
     "options": [
       "shear force is zero",
       "bending moment is zero",
@@ -154,7 +187,7 @@
     "explain": "Splices should ideally be located away from sections of maximum stress; usually where the BM is less than 50% of the maximum BM."
   },
   {
-    "q": "15. Lap splices in tension reinforcement are permitted for bars",
+    "q": "18. Lap splices in tension reinforcement are permitted for bars",
     "options": [
       "larger than 36 mm",
       "less than 36 mm",
@@ -163,39 +196,6 @@
     ],
     "correct": 1,
     "explain": "Lap splices are not recommended for bars larger than 36 mm; such bars should be welded or joined by mechanical couplers."
-  },
-  {
-    "q": "16. The lap length of a direct, tension reinforcement bar in a R.C.C. beams should be more than",
-    "options": [
-      "30 times the diameter of the bar",
-      "twice the development length or 30 times the diameter of the bar",
-      "48 times the diameter of the bar",
-      "24 times the diameter of the bar or development length"
-    ],
-    "correct": 1,
-    "explain": "For direct tension, the lap length is taken as 2Ld or 30φ, whichever is greater, to ensure safety against sudden failure."
-  },
-  {
-    "q": "17. The minimum horizontal distance between two main reinforcement bars should be",
-    "options": [
-      "diameter of the larger bar or 5 mm more than the nominal maximum size of coarse aggregate",
-      "5 mm more than the nominal size of the aggregate",
-      "5 mm more than the diameter of the bar",
-      "size of the aggregate of 5 mm more than the diameter of the bars"
-    ],
-    "correct": 0,
-    "explain": "To allow concrete to flow between bars, the gap must be at least the diameter of the bar or 5 mm more than the aggregate size."
-  },
-  {
-    "q": "18. The minimum vertical space of the main reinforcement in R.C.C. beams is",
-    "options": [
-      "diameter of the larger bar or 5 mm more than the nominal maximum size of coarse aggregate",
-      "diameter of the larger bar or two-third the nominal maximum size of coarse aggregate",
-      "15 mm",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "Vertical spacing is governed by several factors to ensure proper compaction; it should be at least 15mm, 2/3 aggregate size, or bar diameter."
   },
   {
     "q": "19. The maximum horizontal distance between parallel main reinforcement in beams is",
@@ -209,51 +209,7 @@
     "explain": "The code specifies maximum spacing limits to control crack widths; for Fe415, it is typically around 180mm, falling in the 125-235 range."
   },
   {
-    "q": "20. The maximum horizontal distance between parallel main reinforcement bars in solid slabs is",
-    "options": [
-      "5 times the effective depth or 450 mm whichever is smaller",
-      "3 times the effective depth or 450 mm whichever is less",
-      "200 mm or 3 times the effective depth whichever is more",
-      "200 mm or 5 times the effective depth whichever is more"
-    ],
-    "correct": 1,
-    "explain": "For main reinforcement in slabs, IS 456 limits spacing to 3d or 300mm (the image says 450mm which was a value in older versions or for distribution bars)."
-  },
-  {
-    "q": "21. The minimum cover to the main bars in R.C.C. beam must be",
-    "options": [
-      "15 mm or diameter of the bar",
-      "25 mm or diameter of the bar",
-      "40 mm or diameter of the bar",
-      "25 mm or size of the coarse aggregate"
-    ],
-    "correct": 1,
-    "explain": "For beams, a nominal cover of 25 mm or the bar diameter (whichever is greater) is standard for moderate exposure."
-  },
-  {
-    "q": "22. The minimum cover to the main reinforcement in R.C.C. solid slabs is",
-    "options": [
-      "15 mm or diameter of the bar",
-      "25 mm or diameter of the bar",
-      "40 mm or diameter of the bar",
-      "25 mm or size of the coarse aggregate"
-    ],
-    "correct": 0,
-    "explain": "Slabs have smaller cover requirements, typically 15 mm or the bar diameter."
-  },
-  {
-    "q": "23. The final deflection due to all loads including the effects of temperature, creep and shrinkage should not normally exceed",
-    "options": [
-      "span/250 or 20 mm whichever is less",
-      "span/250",
-      "span/350 or 20 mm whichever is less",
-      "span/350"
-    ],
-    "correct": 0,
-    "explain": "IS 456 limits the final deflection (including long-term effects) to Span/250 to prevent structural and aesthetic issues."
-  },
-  {
-    "q": "24. The deflection including the effects of temperature, creep and shrinkage occurring after erection of partitions and the applications of finishes should not normally exceed",
+    "q": "20. The deflection including the effects of temperature, creep and shrinkage occurring after erection of partitions and the applications of finishes should not normally exceed",
     "options": [
       "span/250 or 20 mm whichever is less",
       "span/250",
@@ -264,29 +220,7 @@
     "explain": "For the safety of finishes and partitions, the deflection occurring after their application is strictly limited to Span/350 or 20 mm."
   },
   {
-    "q": "25. For simply supported two way slabs of small spans with H.Y.S.D. bars of grade Fe415 the span to over all depth ratio is limited to",
-    "options": [
-      "20",
-      "26",
-      "28",
-      "35"
-    ],
-    "correct": 2,
-    "explain": "For Fe415 steel in two-way slabs, the L/d ratio of 35 is multiplied by a factor (roughly 0.8), resulting in approximately 28."
-  },
-  {
-    "q": "26. The minimum cover to the reinforcement of precast concrete piles is",
-    "options": [
-      "15 mm",
-      "25 mm",
-      "40 mm",
-      "60 mm"
-    ],
-    "correct": 2,
-    "explain": "Piles are buried in soil (aggressive environment), requiring a higher cover of at least 40 mm."
-  },
-  {
-    "q": "27. Which of the following is not a method for analyzing two way slabs with fixed edges?",
+    "q": "21. Which of the following is not a method for analyzing two way slabs with fixed edges?",
     "options": [
       "Hardy-cross method",
       "Pigeaud's method",
@@ -297,7 +231,7 @@
     "explain": "Hardy-Cross is a moment distribution method primarily used for continuous beams and rigid frames, not specifically for two-way slab analysis."
   },
   {
-    "q": "28. The drop of a flat slab may have thickness........ more than the rest of the slab",
+    "q": "22. The drop of a flat slab may have thickness........ more than the rest of the slab",
     "options": [
       "5 to 10%",
       "10 to 15%",
@@ -308,18 +242,7 @@
     "explain": "The drop panel is a thickened portion of the slab around the column designed to resist negative moments and punching shear; it typically increases slab thickness by 25% to 50%."
   },
   {
-    "q": "29. The pitch of the main bars in a simply supported slab, should not exceed its effective depth by",
-    "options": [
-      "three times",
-      "four times",
-      "five times",
-      "six times"
-    ],
-    "correct": 0,
-    "explain": "IS 456 specifies that the maximum spacing (pitch) for main tension reinforcement in slabs must not exceed 3 times the effective depth (3d) or 300 mm."
-  },
-  {
-    "q": "30. Distribution reinforcement in a simply supported slab, is provided to distribute",
+    "q": "23. Distribution reinforcement in a simply supported slab, is provided to distribute",
     "options": [
       "load",
       "temperature stress",
@@ -330,62 +253,7 @@
     "explain": "Secondary reinforcement (distribution bars) helps spread concentrated loads and controls cracking caused by temperature changes and concrete shrinkage."
   },
   {
-    "q": "31. If the maximum bending moment of a simply supported slab is M kg. cm, the effective depth of the slab is",
-    "options": [
-      "M / 100Q",
-      "M / 10√Q",
-      "M / Q",
-      "√(M / 100Q)"
-    ],
-    "correct": 3,
-    "explain": "From the formula M = Qbd², for unit width (b=100cm), d = √(M / 100Q)."
-  },
-  {
-    "q": "32. The floor slab of a building is supported on reinforced cement floor beams. The ratio of the end and intermediate spans is kept",
-    "options": [
-      "0.7",
-      "0.8",
-      "0.9",
-      "0.6"
-    ],
-    "correct": 2,
-    "explain": "To achieve a more uniform bending moment across continuous spans, the end span is typically made slightly shorter (around 0.9 of intermediate span)."
-  },
-  {
-    "q": "33. The maximum ratio of span to depth of a cantilever slab, is",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "correct": 2,
-    "explain": "For deflection control, the span-to-effective depth ratio for a cantilever is restricted to 7 (for basic values) or up to 12 depending on loading/reinforcement."
-  },
-  {
-    "q": "34. The amount of reinforcement for main bars in a slab, is based upon",
-    "options": [
-      "minimum bending moment",
-      "maximum bending moment",
-      "maximum shear force",
-      "minimum shear force"
-    ],
-    "correct": 1,
-    "explain": "Design reinforcement is always calculated to resist the maximum bending moment occurring at any critical section of the slab."
-  },
-  {
-    "q": "35. In a slab, the pitch of the main reinforcement should not exceed its effective depth",
-    "options": [
-      "three times",
-      "four times",
-      "five times",
-      "two times"
-    ],
-    "correct": 0,
-    "explain": "To ensure proper load distribution and crack control, the spacing of main bars is limited to 3 times the effective depth."
-  },
-  {
-    "q": "36. The transverse reinforcement provided at right angles to the main reinforcement",
+    "q": "24. The transverse reinforcement provided at right angles to the main reinforcement",
     "options": [
       "distribute the load",
       "resist the temperature stresses",
@@ -396,18 +264,7 @@
     "explain": "Transverse reinforcement (distribution steel) performs all these functions: load spreading, temperature resistance, and shrinkage control."
   },
   {
-    "q": "37. If the diameter of the main reinforcement in a slab is 16 mm, the concrete cover to main bars is",
-    "options": [
-      "12 mm",
-      "13 mm",
-      "14 mm",
-      "16 mm"
-    ],
-    "correct": 3,
-    "explain": "Nominal cover should generally not be less than the diameter of the bar (16 mm in this case) or the specified environmental cover (usually 15-20mm for slabs)."
-  },
-  {
-    "q": "38. If the ratio of long and short spans of a two way slab with corners held down is r, the actual reduction of B.M. is given by",
+    "q": "25. If the ratio of long and short spans of a two way slab with corners held down is r, the actual reduction of B.M. is given by",
     "options": [
       "5 / (61 + r²) M",
       "5r² / (61 + r²) M",
@@ -418,7 +275,7 @@
     "explain": "Based on Marcus's method for two-way slabs, the reduction factor involves the span ratio raised to the fourth power."
   },
   {
-    "q": "39. According to I.S. 456, slabs which span in two directions with corners held down, are assumed to be divided in each direction into middle strips and edge strips such that the width of the middle strip, is",
+    "q": "26. According to I.S. 456, slabs which span in two directions with corners held down, are assumed to be divided in each direction into middle strips and edge strips such that the width of the middle strip, is",
     "options": [
       "half of the width of the slab",
       "two-third of the width of the slab",
@@ -429,18 +286,7 @@
     "explain": "IS 456 defines the middle strip as the central 3/4th (75%) of the span in each direction."
   },
   {
-    "q": "40. If the sides of a slab simply supported on edges and spanning in two directions are equal, the maximum bending moment is multiplied by",
-    "options": [
-      "0.2",
-      "0.3",
-      "0.4",
-      "0.5"
-    ],
-    "correct": 3,
-    "explain": "For a square slab (r=1), the load is shared equally in both directions, effectively halving the moment compared to a one-way slab."
-  },
-  {
-    "q": "41. Design of a two way slab simply supported on edge and having no provision to prevent the corners from lifting is made by",
+    "q": "27. Design of a two way slab simply supported on edge and having no provision to prevent the corners from lifting is made by",
     "options": [
       "Rankine formula",
       "Marcus formula",
@@ -451,7 +297,7 @@
     "explain": "The Rankine-Grashoff theory is used for slabs where corners are free to lift, which assumes no torsional resistance at corners."
   },
   {
-    "q": "42. The effective width of a column strip of flat slab, is",
+    "q": "28. The effective width of a column strip of flat slab, is",
     "options": [
       "one-fourth the width of the panel",
       "half the width of the panel",
@@ -462,7 +308,7 @@
     "explain": "In flat slab design, the column strip is defined as having a width equal to 50% (half) of the panel width."
   },
   {
-    "q": "43. A circular slab subjected to external loading deflects to form a",
+    "q": "29. A circular slab subjected to external loading deflects to form a",
     "options": [
       "semi-hemisphere",
       "ellipsoid",
@@ -473,29 +319,7 @@
     "explain": "Due to uniform loading and radial symmetry, the elastic deflection curve of a circular plate/slab follows a paraboloid of revolution."
   },
   {
-    "q": "44. For initial estimate for a beam design, the width is assumed",
-    "options": [
-      "1/15 of span",
-      "1/20 of span",
-      "1/25 of span",
-      "1/30 of span"
-    ],
-    "correct": 3,
-    "explain": "A common rule of thumb for initial sizing of beam width is approximately 1/30th of the span."
-  },
-  {
-    "q": "45. The maximum permissible size of aggregate to be used in casing the ribs of a slab, is",
-    "options": [
-      "5 mm",
-      "7.5 mm",
-      "10 mm",
-      "15 mm"
-    ],
-    "correct": 2,
-    "explain": "In ribbed slabs with thin sections, 10 mm aggregate is used to ensure the concrete can flow around the closely spaced reinforcement."
-  },
-  {
-    "q": "46. A very comfortable type of stairs is",
+    "q": "30. A very comfortable type of stairs is",
     "options": [
       "straight",
       "dog legged",
@@ -506,29 +330,7 @@
     "explain": "Open newel stairs provide a central well for ventilation and light, making them more spacious and comfortable for users."
   },
   {
-    "q": "47. The minimum head room over a stair must be",
-    "options": [
-      "200 cm",
-      "205 cm",
-      "210 cm",
-      "200 mm"
-    ],
-    "correct": 3,
-    "explain": "Note: In the options provided '200 mm' is marked as 'd' in the key, though technically 200 cm (2m) is the standard clearance for safety."
-  },
-  {
-    "q": "48. For stairs spanning horizontally, the minimum waist provided is",
-    "options": [
-      "4 cm",
-      "6 cm",
-      "8 cm",
-      "12 cm"
-    ],
-    "correct": 2,
-    "explain": "The waist slab thickness for horizontally spanning stairs is typically kept at a minimum of 8 cm to ensure structural rigidity."
-  },
-  {
-    "q": "49. For stairs spanning l meters longitudinally between supports at the bottom and of a flight carrying a load w per unit horizontal area, the maximum bending moment per metre width, is",
+    "q": "31. For stairs spanning l meters longitudinally between supports at the bottom and of a flight carrying a load w per unit horizontal area, the maximum bending moment per metre width, is",
     "options": [
       "wl² / 4",
       "wl² / 8",
@@ -539,7 +341,7 @@
     "explain": "Like a simply supported beam, a longitudinally spanning stair flight experiences a maximum moment of wl²/8."
   },
   {
-    "q": "50. If longitudinally spanning stairs are casted along with their landings, the maximum bending moment per metre width, is taken as",
+    "q": "32. If longitudinally spanning stairs are casted along with their landings, the maximum bending moment per metre width, is taken as",
     "options": [
       "wl² / 4",
       "wl² / 8",
@@ -548,5 +350,27 @@
     ],
     "correct": 2,
     "explain": "Casting with landings creates partial continuity, which reduces the effective maximum bending moment to approximately wl²/10."
+  },
+  {
+    "q": "33. The number of treads in a flight is equal to",
+    "options": [
+      "risers in the flight",
+      "risers plus one",
+      "risers minus one",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In a flight of stairs, there is always one less tread than there are risers because the top tread is often part of the landing."
+  },
+  {
+    "q": "34. Design of R.C.C. cantilever beams, is based on the resultant force at",
+    "options": [
+      "fixed end",
+      "free end",
+      "mid span",
+      "mid span and fixed support"
+    ],
+    "correct": 0,
+    "explain": "In a cantilever beam, both the maximum bending moment and maximum shear force occur at the fixed support (the 'fixed end')."
   }
 ]

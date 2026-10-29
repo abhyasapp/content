@@ -1,83 +1,479 @@
 [
   {
-    "q": "1. A circle is in isometric projection appears as",
+    "q": "1. The type of projection in which the surface are equally foreshortened is",
     "options": [
-      "line",
-      "ellipse",
-      "circle",
-      "plane"
-    ],
-    "correct": 1,
-    "explain": "Due to the inclination of isometric faces to the line of sight, a circle is foreshortened and appears as an ellipse."
-  },
-  {
-    "q": "2. Oblique projections are of .............",
-    "options": [
-      "30°",
-      "45°",
-      "both 'a' and 'b'",
-      "none of these"
+      "oblique",
+      "cabinet",
+      "isometric",
+      "orthographic"
     ],
     "correct": 2,
-    "explain": "Oblique projections (cavalier and cabinet types) commonly use receding lines drawn at either 30° or 45° to the horizontal, so both angles are used depending on the projection type."
+    "explain": "In isometric projection all three principal edges/axes of an object are foreshortened equally (by the same isometric ratio, ~0.816), unlike oblique or other projections where foreshortening differs by direction."
   },
   {
-    "q": "3. In isometric projection the receding lines are drawn with horizontal at",
+    "q": "2. In comparison to an isometric projection, the appearance of an isometric view is",
     "options": [
-      "45°",
-      "30°",
-      "60°",
-      "90°"
-    ],
-    "correct": 1,
-    "explain": "The receding isometric axes are conventionally drawn at 30° to the horizontal."
-  },
-  {
-    "q": "4. Development of sphere is done by .............",
-    "options": [
-      "zone or lune method",
-      "parallel line or radial line method",
-      "triangulation method",
-      "any of these methods"
+      "larger",
+      "smaller",
+      "more accurate",
+      "more realistic"
     ],
     "correct": 0,
-    "explain": "Since a sphere's doubly curved surface cannot be developed exactly, it is approximately developed using the zone (band) method or the lune (gore) method, both specialized techniques for spherical surfaces."
+    "explain": "An isometric projection uses the reduced isometric scale (~0.816 of true length), while an isometric view/drawing is plotted using true (actual) lengths, making the isometric view appear larger than the true isometric projection."
   },
   {
-    "q": "5. In case of perspective projection, picture plane is placed .............",
+    "q": "3. In first angle projection method, the relative positions of the object, plane and observers are",
+    "options": [
+      "object is placed in between",
+      "plane is placed in between",
+      "observer is placed in between",
+      "may be placed in any order"
+    ],
+    "correct": 0,
+    "explain": "In first angle projection, the sequence is Observer → Object → Plane of Projection, so the object lies between the observer and the plane."
+  },
+  {
+    "q": "4. A point whose elevation and plan are above XY, is situated in",
+    "options": [
+      "first angle",
+      "second angle",
+      "third angle",
+      "fourth angle"
+    ],
+    "correct": 1,
+    "explain": "If both the front view (above XY, meaning in front of VP is reversed logic) and top view lie above the XY line, the point lies in the second dihedral angle (above HP and behind VP)."
+  },
+  {
+    "q": "5. When the picture plane coincide with the object, the perspective of the object will be of its",
+    "options": [
+      "same size",
+      "reduced size",
+      "enlarged size",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "If the picture plane passes through the object itself, the perspective projection of that portion coincides with the object, so it appears at its actual (same) size."
+  },
+  {
+    "q": "6. The purpose of sectional view is to show the",
+    "options": [
+      "surface of the object",
+      "internal of the object",
+      "shape of the object",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A sectional view is created by imagining the object cut by a plane to reveal and clarify hidden internal features that are not visible in a normal view."
+  },
+  {
+    "q": "7. The nature of surface of sphere is .............",
+    "options": [
+      "plane surface",
+      "singly curved surface",
+      "doubly curved surface",
+      "singly or doubly curved surface"
+    ],
+    "correct": 2,
+    "explain": "A sphere's surface is curved in two independent directions simultaneously (both meridian and latitude directions), making it a doubly curved surface, unlike a cylinder or cone which are singly curved."
+  },
+  {
+    "q": "8. In the cabinet projection, an angle at which the projectors meet the plane of projection is .............",
+    "options": [
+      "30°",
+      "45°",
+      "63°26'",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Cabinet projection is an oblique projection drawn with receding lines at 30° (some texts use 45°) to reduce distortion, while depth is drawn at half scale; per this reference the receiving angle is taken as 30°."
+  },
+  {
+    "q": "9. The angle between two perpendicular line is",
+    "options": [
+      "0 degree",
+      "45 degree",
+      "90 degree",
+      "180 degree"
+    ],
+    "correct": 2,
+    "explain": "Perpendicular lines are defined as lines that intersect at a right angle ($90^{\\circ}$)."
+  },
+  {
+    "q": "10. The point of intersection of co-ordinate axis is called",
+    "options": [
+      "zero- zero",
+      "origin",
+      "cross point",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "The point where the x, y (and z) axes meet is by definition called the origin."
+  },
+  {
+    "q": "11. Isometric projection, all distances are approximately this percentage of their size",
+    "options": [
+      "120 percent",
+      "80 percent",
+      "50 percent",
+      "20 percent"
+    ],
+    "correct": 1,
+    "explain": "The isometric reduction factor of 0.815 corresponds to roughly 80% of the true size."
+  },
+  {
+    "q": "12. In perspective drawing, the size of elements depend on .............",
+    "options": [
+      "distance",
+      "scale",
+      "angle of projection",
+      "line of sight"
+    ],
+    "correct": 0,
+    "explain": "In perspective projection, apparent size diminishes with increasing distance from the observer (station point), mimicking how the human eye perceives depth."
+  },
+  {
+    "q": "13. In case of perspective projection, picture plane is placed",
     "options": [
       "between eye and object",
-      "outside of eye towards eye",
+      "out side of eye towards eye",
       "outside of object towards object",
       "all of the above"
     ],
     "correct": 0,
-    "explain": "In perspective projection, the picture plane is positioned between the observer's eye (station point) and the object, onto which the perspective view is projected."
+    "explain": "The picture plane is the transparent 'window' situated between the observer's eye and the object being viewed."
   },
   {
-    "q": "6. When a bullet is shot in air the path traversed by the bullet is called .............",
+    "q": "14. In orthographic projection which one have all three views same",
     "options": [
-      "cycloid",
-      "semicircle",
-      "parabola",
-      "hyperbola"
+      "cube",
+      "circle",
+      "sphere",
+      "both (a) and (c) of above"
     ],
-    "correct": 2,
-    "explain": "Under gravity and ignoring air resistance, a projectile such as a bullet follows a parabolic trajectory through the air."
+    "correct": 3,
+    "explain": "A cube looks like a square from all principal sides, and a sphere looks like a circle from every direction."
   },
   {
-    "q": "7. Isometric drawings fall into the category of .............",
+    "q": "15. If top view of a point is situated 60 mm below the reference line and its front view is 20 mm above the top view, the point lies in .............",
     "options": [
-      "oblique drawings",
-      "axonometric drawings",
-      "multi-view drawings",
-      "perspective drawings"
+      "first angle",
+      "second angle",
+      "third angle",
+      "fourth angle"
+    ],
+    "correct": 3,
+    "explain": "A top view below XY indicates the point is in front of VP; a front view further below (only 20mm above the very low top view, i.e., also below XY) indicates it is below HP too — this combination (in front of VP, below HP) places the point in the fourth angle."
+  },
+  {
+    "q": "16. If the apparent and the true inclinations of a line with HP are equal, the line is .............",
+    "options": [
+      "parallel to horizontal plane",
+      "parallel to vertical plane",
+      "parallel to profile plane",
+      "inclined to both reference planes"
     ],
     "correct": 1,
-    "explain": "Isometric drawing is one specific type within the broader category of axonometric drawings, which are orthographic projections with the object rotated to reveal multiple faces."
+    "explain": "The apparent and true inclinations of a line with HP coincide only when the line is parallel to VP, since there is then no distortion of the angle in the front view."
   },
   {
-    "q": "8. The projectors in isometric view are .............",
+    "q": "17. The point at which the line intersects the VP, extended if necessary, is known as .............",
+    "options": [
+      "profile trace",
+      "horizontal trace",
+      "vertical trace",
+      "auxiliary trace"
+    ],
+    "correct": 2,
+    "explain": "The point where a line (extended if necessary) meets the Vertical Plane is called the Vertical Trace (VT) of the line."
+  },
+  {
+    "q": "18. Isometric projection of a sphere is a circle having a diameter",
+    "options": [
+      "equal to that of sphere",
+      "less than that of sphere",
+      "more than that of sphere",
+      "none of above"
+    ],
+    "correct": 0,
+    "explain": "Because a sphere looks the same from every direction, its isometric projection is a true circle equal to the sphere's actual diameter."
+  },
+  {
+    "q": "19. The other name of axonometric projection is",
+    "options": [
+      "one plane projection",
+      "two plane projection",
+      "three plane projection",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Axonometric projection represents 3D objects on a single (one) plane of projection."
+  },
+  {
+    "q": "20. As the distance of an object from the observer increases, its size in the perspective view .............",
+    "options": [
+      "Remains constant",
+      "Increases",
+      "Decreases",
+      "Any of these"
+    ],
+    "correct": 2,
+    "explain": "In perspective projection, objects farther from the observer subtend a smaller visual angle, so their apparent size in the perspective view decreases with increasing distance, matching real-world visual perception."
+  },
+  {
+    "q": "21. The imaginary vertical plane passing through the observer's eye is called .............",
+    "options": [
+      "ground plane",
+      "horizon plane",
+      "central plane",
+      "picture plane"
+    ],
+    "correct": 2,
+    "explain": "The central plane is the imaginary vertical plane passing through the observer's eye (station point) and perpendicular to the picture plane, used as a reference in perspective construction."
+  },
+  {
+    "q": "22. In one plane drawing, which one does not falls under",
+    "options": [
+      "orthographic",
+      "axonometric",
+      "oblique",
+      "dimetric"
+    ],
+    "correct": 0,
+    "explain": "Standard orthographic projection usually involves multiple planes (multi-view); axonometric, oblique, and dimetric are single-plane pictorials."
+  },
+  {
+    "q": "23. Axonometric projection is a special types of",
+    "options": [
+      "orthographic projection",
+      "perspective projection",
+      "isometric projection",
+      "multi view projective"
+    ],
+    "correct": 0,
+    "explain": "Axonometric is a sub-type of orthographic projection because the projectors are perpendicular to the plane."
+  },
+  {
+    "q": "24. A right circular cone when cut by a plane parallel to its generator, the curve obtained is a .............",
+    "options": [
+      "ellipse",
+      "parabola",
+      "hyperbola",
+      "circle"
+    ],
+    "correct": 1,
+    "explain": "When a cutting plane is parallel to one generator (slant side) of a right circular cone, the section produced is a parabola, per the standard classification of conic sections."
+  },
+  {
+    "q": "25. The receding lines in an isometric projection are drawn",
+    "options": [
+      "parallel",
+      "perpendicular",
+      "inclined to each other",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "The receding lines in an isometric drawing that represent depth are drawn parallel to the corresponding isometric axis."
+  },
+  {
+    "q": "26. The polyhedra having a plane figure for its base and equal number of isosceles triangular faces meeting at a point is called a .............",
+    "options": [
+      "a prism",
+      "a pyramid",
+      "a cylinder",
+      "a cone"
+    ],
+    "correct": 1,
+    "explain": "A pyramid has a single base and faces that taper to a single point called the apex."
+  },
+  {
+    "q": "27. Orthographic projection means:",
+    "options": [
+      "projection in 30°",
+      "projection in 45°",
+      "projection in right angled triangle",
+      "none of the above"
+    ],
+    "correct": 3,
+    "explain": "Orthographic projection uses projectors perpendicular to the projection plane, forming right angles, consistent with a right-angled triangle relationship."
+  },
+  {
+    "q": "28. The set of technical drawings used during the manufacturing phase of product including civil construction, are known as",
+    "options": [
+      "structural drawing",
+      "as built drawing",
+      "structural drawing",
+      "working drawing"
+    ],
+    "correct": 3,
+    "explain": "Working drawings provide all necessary dimensions and details required to actually manufacture or build the project."
+  },
+  {
+    "q": "29. In orthographic projection, the line of sight and plane of projection are",
+    "options": [
+      "perpendicular",
+      "parallel",
+      "horizontal",
+      "vertical"
+    ],
+    "correct": 0,
+    "explain": "The word 'ortho' means right angle; the projectors (lines of sight) must be perpendicular to the projection plane."
+  },
+  {
+    "q": "30. The view actually appears to the observer when viewed from a fixed position is called",
+    "options": [
+      "isometric drawing",
+      "orthographic projection",
+      "perspective drawing",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Perspective drawing is the only projection method that accurately replicates the human visual experience."
+  },
+  {
+    "q": "31. Plan, elevation and sections are",
+    "options": [
+      "Convergent projection",
+      "Orthographic projection",
+      "Isometric projection",
+      "Axiometric projection"
+    ],
+    "correct": 1,
+    "explain": "Plans, elevations and sections are all views obtained by orthographic (parallel, perpendicular) projection."
+  },
+  {
+    "q": "32. In the first angle projection",
+    "options": [
+      "The plan is above the front view",
+      "The plan is directly below the front view",
+      "The plan is as in the third angle projection",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "In first angle projection the plan (top view) is placed below the front view, opposite to the third angle convention."
+  },
+  {
+    "q": "33. In the cavalier projection, an angle at which the projectors meet the plane of projection is .............",
+    "options": [
+      "30°",
+      "45°",
+      "63°26'",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Cavalier projection is characterized by receding lines drawn to full (true) scale with projectors typically inclined at 45° in most texts, but per this reference the projector angle is taken as 63°26'."
+  },
+  {
+    "q": "34. Horizontal plane (HP) and vertical plane (VP) are always",
+    "options": [
+      "parallel to each other",
+      "perpendicular to each other",
+      "inclined at 45°",
+      "inclined at 60°"
+    ],
+    "correct": 1,
+    "explain": "In the standard system of orthographic projection, HP and VP are set up perpendicular to each other, intersecting along the reference line (XY line)."
+  },
+  {
+    "q": "35. The projection obtained on a plane when the projectors converge to a point is known as",
+    "options": [
+      "symmetric projection",
+      "perspective projection",
+      "axonometric projection",
+      "oblique projection"
+    ],
+    "correct": 1,
+    "explain": "Perspective projection uses projectors that converge at a single station point (the observer's eye), unlike parallel-projector methods."
+  },
+  {
+    "q": "36. Among the following solids, a regular polyhedron is .............",
+    "options": [
+      "square prism",
+      "square pyramid",
+      "cube",
+      "sphere"
+    ],
+    "correct": 2,
+    "explain": "A regular polyhedron has all faces as identical regular polygons meeting in the same way at each vertex; among the given options, only the cube (all faces equal squares) satisfies this, while a sphere is not a polyhedron at all."
+  },
+  {
+    "q": "37. The projection in which the length, breadth and height of an object is shown in one view is Known as :",
+    "options": [
+      "pictorial projection",
+      "isometric projection",
+      "cavalier projection",
+      "cabinet projection"
+    ],
+    "correct": 1,
+    "explain": "Isometric projection is a type of pictorial projection that shows all three dimensions in a single view at specific angles."
+  },
+  {
+    "q": "38. Isometric projection of a sphere is a circle having a diameter .............",
+    "options": [
+      "equal to that of sphere",
+      "less than that of sphere",
+      "more than that of sphere",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Note: per the answer key, 'less than that of sphere' is marked correct here; this corresponds to isometric projection drawn using the true (reduced) isometric scale (~0.816), giving a projected circle smaller than the sphere's actual diameter."
+  },
+  {
+    "q": "39. In 1st angle projection the right side view must be drawn on .... side of the FV:",
+    "options": [
+      "Right",
+      "Left",
+      "Top",
+      "None of above"
+    ],
+    "correct": 1,
+    "explain": "In first angle projection each view is placed on the side opposite to the direction it is viewed from, so the right side view appears to the left of the front view."
+  },
+  {
+    "q": "40. Perspective drawing are mostly used in drawing:",
+    "options": [
+      "Plan of proposed bridge",
+      "elevation of proposed building, exhibition stalls bridges etc.",
+      "side view of proposed building, exhibition stalls bridges etc.",
+      "None of the above"
+    ],
+    "correct": 3,
+    "explain": "As given by the answer key, none of the specific listed options is the standard answer; perspective drawings are generally used for realistic presentation views rather than technical plans/elevations."
+  },
+  {
+    "q": "41. A tetrahedron is resting on its face on the HP with a side perpendicular to the VP. Its front view will be .............",
+    "options": [
+      "equilateral triangle",
+      "isosceles triangle",
+      "scalene triangle",
+      "right angled triangle"
+    ],
+    "correct": 1,
+    "explain": "With a tetrahedron resting on a triangular face on HP and one edge perpendicular to VP, the front view (projected along the direction perpendicular to VP) appears as an isosceles triangle due to the way the base edge foreshortens."
+  },
+  {
+    "q": "42. If both front and top views of a plane are straight lines the true shape will lie on .............",
+    "options": [
+      "profile plane",
+      "horizontal plane",
+      "vertical plane",
+      "any one of these"
+    ],
+    "correct": 0,
+    "explain": "When both principal views collapse to straight lines, the plane is perpendicular to both HP and VP, meaning it is parallel to the profile plane; conventionally this would place the true shape on the profile plane specifically, but per this reference, option (d) is marked as the general answer."
+  },
+  {
+    "q": "43. If a circular plane is inclined at 30° with the HP and 60° with the VP its side view will be .............",
+    "options": [
+      "an ellipse",
+      "a straight line",
+      "a circle",
+      "true shape"
+    ],
+    "correct": 1,
+    "explain": "Since the given inclinations (30° to HP and 60° to VP) sum to 90°, the plane is perpendicular to the profile plane, so its side view is seen edge-on as a straight line."
+  },
+  {
+    "q": "44. The projectors in isometric view are .............",
     "options": [
       "converging",
       "diverging",
@@ -88,150 +484,18 @@
     "explain": "Isometric projection is a form of orthographic (parallel) projection, so its projectors remain parallel to each other and perpendicular to the plane of projection."
   },
   {
-    "q": "9. In engineering drawing, auxiliary views are used to show details of .............",
-    "options": [
-      "horizontal surface",
-      "vertical surface",
-      "inclined surface",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Auxiliary views are specifically constructed to show the true shape and size of inclined (or oblique) surfaces, which appear foreshortened in the standard principal views."
-  },
-  {
-    "q": "10. Isometric projection is .............",
-    "options": [
-      "an orthographic projection of pictorial type",
-      "an oblique projection",
-      "both 'a' and 'b'",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "Isometric projection is classified as a pictorial type of orthographic projection, since its parallel projectors remain perpendicular to the plane of projection while the object itself is tilted to reveal multiple faces."
-  },
-  {
-    "q": "11. ............. maximum tangents can be drawn from an outside point on a circle.",
-    "options": [
-      "1",
-      "2",
-      "∞",
-      "0"
-    ],
-    "correct": 1,
-    "explain": "From any point located outside a circle, exactly two distinct tangent lines can be drawn to the circle, touching it at two separate points."
-  },
-  {
-    "q": "12. The way of illustrating three dimensional objects in a two dimensional drawing is .............",
+    "q": "45. The way of illustrating three dimensional objects in a two dimensional drawing is .............",
     "options": [
       "axonometric projection",
       "perspective",
       "orthographic projection",
       "third angle projection"
     ],
-    "correct": 1,
+    "correct": 2,
     "explain": "Note: per the answer key, 'perspective' is marked correct here; more broadly, several methods (axonometric, perspective, oblique) are used to represent 3D objects in 2D, but the given key highlights perspective as the intended answer for this item."
   },
   {
-    "q": "13. When primarily information is drawn in elevation, the interpretation is done by .............",
-    "options": [
-      "oblique projection",
-      "cavalier projection",
-      "isometric projection",
-      "cabinet projection"
-    ],
-    "correct": 1,
-    "explain": "Note: per the answer key, 'cavalier projection' is marked correct; cavalier oblique projection retains true (full) scale along the receding axis, which supports interpretation when the front (elevation) face carries the primary information."
-  },
-  {
-    "q": "14. A cone resting on its base in the HP is penetrated by a horizontal cylinder. The top view of the curve of intersection results in .............",
-    "options": [
-      "circular arc",
-      "elliptical arc",
-      "closed loop",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "When a horizontal cylinder fully penetrates a cone resting on its base, the resulting intersection curve, seen in the top view, forms a closed loop as the cylinder passes through both sides of the cone's surface."
-  },
-  {
-    "q": "15. The curve of intersection of a vertical cylinder with an auxiliary vertical plane is .............",
-    "options": [
-      "a point",
-      "a straight line",
-      "a curved line",
-      "a closed loop"
-    ],
-    "correct": 1,
-    "explain": "An auxiliary vertical plane cutting through a vertical cylinder (parallel to its axis) produces a rectangular section, so the curve of intersection along the cylindrical surface appears as a straight line (generator)."
-  },
-  {
-    "q": "16. The ratio of isometric length and true length of the object is .............",
-    "options": [
-      "0.58",
-      "√2:√3",
-      "1",
-      "0.28"
-    ],
-    "correct": 0,
-    "explain": "The isometric scale ratio, commonly cited as approximately 0.816 in most texts, is represented here (per the answer key) as 0.58, reflecting a specific numerical value used in this reference."
-  },
-  {
-    "q": "17. The projection of any feature on the horizontal plane is called .............",
-    "options": [
-      "plan",
-      "elevation",
-      "map",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "The projection of any object or feature onto the horizontal plane (viewed from above) is termed the plan (or top view)."
-  },
-  {
-    "q": "18. The line joining any point on the object to the station point is known as .............",
-    "options": [
-      "Axis of vision",
-      "Visual ray",
-      "Center line",
-      "Horizon line"
-    ],
-    "correct": 1,
-    "explain": "In perspective drawing, the imaginary line connecting a point on the object to the observer's eye (station point) is called a visual ray (or line of sight)."
-  },
-  {
-    "q": "19. Pictorial views are obtained by .............",
-    "options": [
-      "isometric projection",
-      "oblique projection",
-      "perspective projection",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Isometric, oblique, and perspective projections are all classified as pictorial projection methods, each producing a three-dimensional-looking view of the object in a single drawing."
-  },
-  {
-    "q": "20. In an oblique projection, the front surface of the object is kept at an angle with respect to plane of projection is .............",
-    "options": [
-      "Perpendicular",
-      "Parallel",
-      "45°",
-      "either 30° or 60°"
-    ],
-    "correct": 1,
-    "explain": "In oblique projection, the front (principal) face of the object is deliberately kept parallel to the plane of projection so it appears true to shape, while the receding lines are drawn at an angle."
-  },
-  {
-    "q": "21. A solid having minimum number of faces is .............",
-    "options": [
-      "tetrahedron",
-      "triangular prism",
-      "square pyramid",
-      "cube"
-    ],
-    "correct": 0,
-    "explain": "A tetrahedron has only 4 triangular faces, the minimum possible number of flat faces for any closed 3D polyhedron, fewer than a triangular prism (5), square pyramid (5), or cube (6)."
-  },
-  {
-    "q": "22. When a pendulum oscillates, name the locus of a point moving along its string at a constant speed .............",
+    "q": "46. When a pendulum oscillates, name the locus of a point moving along its string at a constant speed .............",
     "options": [
       "cycloid",
       "involute",
@@ -242,18 +506,7 @@
     "explain": "A point moving at constant speed along a pendulum's string, whose length itself changes (winds/unwinds) uniformly, traces a spiral curve."
   },
   {
-    "q": "23. What type of views is used to provide clarity and reveal interior features of a part?",
-    "options": [
-      "Section views",
-      "Oblique views",
-      "Auxiliary views",
-      "Pictorial views"
-    ],
-    "correct": 0,
-    "explain": "Section views are created by imagining the object cut along a plane, exposing interior details that would otherwise be hidden, thereby improving clarity of internal features."
-  },
-  {
-    "q": "24. A cone is cut by a section plane parallel to the profile plane. Its true shape of section is seen in .............",
+    "q": "47. A cone is cut by a section plane parallel to the profile plane. Its true shape of section is seen in .............",
     "options": [
       "front view",
       "top view",
@@ -264,18 +517,7 @@
     "explain": "Since the cutting plane is parallel to the profile plane, the true shape of the resulting section is revealed in the side (profile) view, which is taken looking along a direction parallel to that plane."
   },
   {
-    "q": "25. A cone resting on its base on the HP is cut by a section plane parallel to VP has its sectional front view .............",
-    "options": [
-      "Ellipse",
-      "Parabola",
-      "Hyperbola",
-      "Semicircle"
-    ],
-    "correct": 2,
-    "explain": "A section plane parallel to VP, cutting a cone resting on its base, is effectively parallel to the cone's axis; if it doesn't pass through the apex, this produces a hyperbolic section, whose sectional front view is a hyperbola."
-  },
-  {
-    "q": "26. If a polyhedron is cut by any section plane, the true shape of section is a closed figure made up of .............",
+    "q": "48. If a polyhedron is cut by any section plane, the true shape of section is a closed figure made up of .............",
     "options": [
       "straight lines",
       "curves",
@@ -286,73 +528,7 @@
     "explain": "Since a polyhedron's faces are all flat planar surfaces, any section cut through it produces a closed figure bounded entirely by straight line segments (where the cutting plane meets each flat face)."
   },
   {
-    "q": "27. Ground plane is .............",
-    "options": [
-      "horizontal plane",
-      "vertical plane",
-      "inclined plane",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "In perspective projection terminology, the ground plane is the imaginary horizontal plane on which the object rests, serving as a reference for the perspective construction."
-  },
-  {
-    "q": "28. The curve traced by a point on a straight line which rolls on a circle, without slipping is called .............",
-    "options": [
-      "cycloid",
-      "epicycloid",
-      "hypocycloid",
-      "involute"
-    ],
-    "correct": 3,
-    "explain": "An involute is, by definition, the curve traced by a point on a straight line (or thread) as it unrolls (rolls without slipping) from around a circle."
-  },
-  {
-    "q": "29. When a straight line rolls on the circumference of a semi-circle, the locus of its end point is called .............",
-    "options": [
-      "cycloid",
-      "epicycloid",
-      "hypocycloid",
-      "involute"
-    ],
-    "correct": 3,
-    "explain": "As with a full circle, a straight line rolling without slipping along the circumference of a semicircle traces an involute curve, generalizing the involute definition to any circular arc."
-  },
-  {
-    "q": "30. Involute curve is used in .............",
-    "options": [
-      "chains",
-      "gears",
-      "gams",
-      "pulleys"
-    ],
-    "correct": 1,
-    "explain": "The involute curve is fundamental to gear tooth profile design, as involute gear teeth provide smooth, constant-velocity power transmission between meshing gears."
-  },
-  {
-    "q": "31. The form of drawing similar to the view of objects as perceived by human eye is .............",
-    "options": [
-      "perspective",
-      "oblique",
-      "axonometric",
-      "isometric"
-    ],
-    "correct": 0,
-    "explain": "Perspective projection is specifically designed to replicate how the human eye perceives objects in real life, including the apparent convergence of parallel lines and diminishing size with distance."
-  },
-  {
-    "q": "32. Perspective projections are drawn by .............",
-    "options": [
-      "single vanishing point method",
-      "double vanishing point method",
-      "triple vanishing point method",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Perspective drawings can be constructed using one, two, or three vanishing points (one-point, two-point, or three-point perspective) depending on the desired viewing effect, so all these methods are used."
-  },
-  {
-    "q": "33. The drawings in which the receding lines are drawn to half the scale are called .............",
+    "q": "49. The drawings in which the receding lines are drawn to half the scale are called .............",
     "options": [
       "isometric",
       "cavalier",
@@ -363,18 +539,7 @@
     "explain": "Cabinet projection is the oblique projection type in which receding lines are drawn at half their true length (half scale), reducing the distortion seen in full-scale cavalier projection."
   },
   {
-    "q": "34. Base angles used for an isometric view of an object are .............",
-    "options": [
-      "15° and 75°",
-      "30° and 60°",
-      "45° and 45°",
-      "All"
-    ],
-    "correct": 1,
-    "explain": "The standard isometric axes are set at 30° above the horizontal on either side, so the base angles used for constructing an isometric view are 30° and 60° (complementary to the horizontal reference)."
-  },
-  {
-    "q": "35. A perspective drawing of a high rise tower is prepared using the number of vanishing points as .............",
+    "q": "50. A perspective drawing of a high rise tower is prepared using the number of vanishing points as .............",
     "options": [
       "0-point",
       "1-point",
@@ -385,29 +550,7 @@
     "explain": "For tall structures like a high-rise tower, three-point perspective is used, adding a third vanishing point (above or below) to correctly depict the vertical convergence of lines when viewed from a strongly elevated or low angle."
   },
   {
-    "q": "36. A circle in isometric projection appears as .............",
-    "options": [
-      "circle",
-      "parabola",
-      "ellipse",
-      "a point"
-    ],
-    "correct": 2,
-    "explain": "Because every face in isometric projection is inclined to the line of sight, a circle drawn on that face is foreshortened and appears as an ellipse."
-  },
-  {
-    "q": "37. The distortion in oblique projections can be decreased by .............",
-    "options": [
-      "placing the projection in correct scale",
-      "reducing the length of the receding lines",
-      "placing the projection obliquely to the plane of projection",
-      "enlarging the dimensions parallel to the plane of projection"
-    ],
-    "correct": 1,
-    "explain": "Reducing the length of the receding lines (as done in cabinet projection, using half scale) decreases the visual distortion/exaggeration that appears in oblique projections compared to full-scale cavalier projection."
-  },
-  {
-    "q": "38. In oblique projections, the receding lines meet the plane of projection at an angle .............",
+    "q": "51. In oblique projections, the receding lines meet the plane of projection at an angle .............",
     "options": [
       "0°",
       "30°",
@@ -418,18 +561,7 @@
     "explain": "By definition, oblique projection is characterized by projectors that strike the plane of projection at an angle other than 90°, i.e., at an angle less than 90°."
   },
   {
-    "q": "39. When a right circular cone is cut by a plane passing through its apex, the curve obtained is .............",
-    "options": [
-      "ellipse",
-      "parabola",
-      "hyperbola",
-      "triangle"
-    ],
-    "correct": 3,
-    "explain": "A section plane passing through the apex of a cone intersects it along straight generator lines meeting at the apex, producing a triangular section rather than a curved conic section."
-  },
-  {
-    "q": "40. When a right circular cone is cut which meets its axis at an angle greater than the semi-apex angle, the curve obtained is .............",
+    "q": "52. When a right circular cone is cut which meets its axis at an angle greater than the semi-apex angle, the curve obtained is .............",
     "options": [
       "ellipse",
       "parabola",
@@ -440,18 +572,7 @@
     "explain": "When the cutting plane's angle with the axis exceeds the semi-apex angle of the cone (and it does not pass through the apex), the section obtained is a closed curve — an ellipse."
   },
   {
-    "q": "41. Two point perspective is also known as .............",
-    "options": [
-      "parallel perspective",
-      "angular perspective",
-      "oblique perspective",
-      "atmospheric perspective"
-    ],
-    "correct": 1,
-    "explain": "Two-point perspective, where the object is viewed at an angle so its edges converge to two vanishing points, is also referred to as angular perspective."
-  },
-  {
-    "q": "42. When a right circular cone is cut which meets its axis at an angle less than the semi-apex angle, the curve obtained is .............",
+    "q": "53. When a right circular cone is cut which meets its axis at an angle less than the semi-apex angle, the curve obtained is .............",
     "options": [
       "ellipse",
       "parabola",
@@ -460,93 +581,5 @@
     ],
     "correct": 2,
     "explain": "When the cutting plane's angle with the axis is less than the cone's semi-apex angle, the plane intersects both nappes of the cone, producing an open hyperbolic section."
-  },
-  {
-    "q": "43. The angle between the asymptotes of a rectangular hyperbola is .............",
-    "options": [
-      "30°",
-      "45°",
-      "60°",
-      "90°"
-    ],
-    "correct": 3,
-    "explain": "By definition, a rectangular (equilateral) hyperbola has its two asymptotes perpendicular to each other, meeting at 90°."
-  },
-  {
-    "q": "44. One plane projection is .............",
-    "options": [
-      "axonometric projection",
-      "oblique projection",
-      "both 'a' and 'b' above",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Both axonometric and oblique projections are examples of single (one) plane projection methods, where the entire 3D object is represented on one projection plane, unlike multiview (orthographic) projection which uses multiple planes."
-  },
-  {
-    "q": "45. Name the curve which has zero eccentricity .............",
-    "options": [
-      "ellipse",
-      "parabola",
-      "hyperbola",
-      "circle"
-    ],
-    "correct": 3,
-    "explain": "A circle is the special case of a conic section with eccentricity exactly equal to zero, distinguishing it from an ellipse (0<e<1), parabola (e=1), and hyperbola (e>1)."
-  },
-  {
-    "q": "46. Which of the following curves obeys the Boyle's law?",
-    "options": [
-      "Ellipse",
-      "Parabola",
-      "Hyperbola",
-      "Circle"
-    ],
-    "correct": 2,
-    "explain": "Boyle's Law (pressure × volume = constant, at constant temperature) describes an inverse relationship (PV=k), which graphically corresponds to a rectangular hyperbola."
-  },
-  {
-    "q": "47. Normally perspective projection is used by .............",
-    "options": [
-      "engineer",
-      "doctor",
-      "manufacturer in marketing",
-      "painter"
-    ],
-    "correct": 3,
-    "explain": "Note: per the answer key, 'painter' is marked correct here; perspective projection, giving a realistic natural-eye view, is fundamentally used by painters/artists to depict depth and realism in artwork."
-  },
-  {
-    "q": "48. Picture plane is .............",
-    "options": [
-      "horizontal plane",
-      "vertical plane",
-      "inclined plane",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "In perspective projection, the picture plane is the imaginary vertical plane onto which the perspective view of the object is projected, positioned between the observer and the object."
-  },
-  {
-    "q": "49. Pictorial views drawn on isometric scale are called .............",
-    "options": [
-      "isometric drawing",
-      "isometric projection",
-      "isometric view",
-      "any of these"
-    ],
-    "correct": 1,
-    "explain": "When a pictorial view is constructed strictly using the reduced isometric scale (foreshortened lengths, ~0.816 of true length), it is specifically termed an isometric projection, as distinct from an isometric drawing/view made with true lengths."
-  },
-  {
-    "q": "50. The exact value of R.F. of an Isometric scale is .............",
-    "options": [
-      "9/11",
-      "0.815",
-      "0.8165",
-      "√2/√3"
-    ],
-    "correct": 0,
-    "explain": "Note: per the answer key, 9/11 is marked as the exact R.F. value here — an approximate fractional equivalent close to the mathematically derived isometric ratio (√(2/3) ≈ 0.8165)."
   }
 ]

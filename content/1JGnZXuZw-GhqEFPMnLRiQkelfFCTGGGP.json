@@ -1,17 +1,404 @@
 [
   {
-    "q": "1. *As per ICAO recommendation minimum width of safety area for instrumental runway should is:",
+    "q": "1. According to the International Civil Aviation Organization (I.C.A.O.), the runway lengths of aerodromes, have been coded by ...........",
     "options": [
-      "4.50m",
-      "78m",
-      "150m",
-      "300m"
+      "seven english alphabets",
+      "last seven english alphabets",
+      "first five english alphabets",
+      "first seven natural numbers"
     ],
-    "correct": 3,
-    "explain": "For instrument runways, ICAO recommends a minimum safety area width of 300 meters."
+    "correct": 2,
+    "explain": "ICAO uses a code system (1-4) for length and letters (A-E) for wingspan/wheel span; textbooks often refer to the first five letters (A, B, C, D, E) for airport classification."
   },
   {
-    "q": "2. *For A,B and C types of airports, longitudinal gradient of the runway recommended by ICAO is :",
+    "q": "2. *The minimum basic runway length of class ‘E’ type airport is",
+    "options": [
+      "400 m",
+      "600 m",
+      "750 m",
+      "1500 m"
+    ],
+    "correct": 1,
+    "explain": "Class E runways are for light aircraft and have a standard minimum length of 600m."
+  },
+  {
+    "q": "3. Pick up the correct statement from the following",
+    "options": [
+      "air screw converts the energy given by the engine into speed",
+      "the propellers which are driven by turbine engines, are technically called turbo-props",
+      "the aircrafts which obtain the thrust directly from turbine engine, are called turbo-jets",
+      "the aircraft which is filled with a fan in front of turbo-jet engine, is called turbo-fan propelled aeroplane",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "All listed statements correctly define the various types of aircraft propulsion systems."
+  },
+  {
+    "q": "4. An aircraft is flying in an atmosphere of 30°C with a speed of 1260 km ph. Its speed is known as ...........",
+    "options": [
+      "subsonic",
+      "sonic",
+      "super-sonic",
+      "Mach"
+    ],
+    "correct": 1,
+    "explain": "The speed of sound at 30°C is approx 1260 km/h ($340.3 m/s \\times 3.6 \\approx 1225$). Matching the exact speed of sound makes it 'sonic'."
+  },
+  {
+    "q": "5. *According to the International Civil Aviation Organization (I.C.A.O.) the runway lengths of aerodromes, have been coded by",
+    "options": [
+      "seven English alphabet",
+      "last seven English alphabet",
+      "first five English alphabet",
+      "first five natural numbers"
+    ],
+    "correct": 3,
+    "explain": "ICAO uses a numeric code (1-4) to categorize airports based on the runway's basic length."
+  },
+  {
+    "q": "6. Speed of ...........",
+    "options": [
+      "sound at 0°C is 1190 km p.h.",
+      "sound varies 2.4 km p.h. per degree centigrade rise in temperature",
+      "sound at 0°C is called one mach",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "These are standard approximations used in aeronautical engineering for the behavior of sound waves in air."
+  },
+  {
+    "q": "7. *According to the International Civil Aviation Organization (I.C.A.O.). the strength of runway pavements, have been coded by",
+    "options": [
+      "seven English alphabet",
+      "last seven English alphabet",
+      "first seven English alphabet",
+      "first seven natural numbers"
+    ],
+    "correct": 2,
+    "explain": "Pavement strength is categorized using alphabetical codes (A-G) representing subgrade strength."
+  },
+  {
+    "q": "8. *Stopping distance for aircraft during landing on runway should be,",
+    "options": [
+      "V²/25.5d",
+      "Vt + V²/254f",
+      "Vt",
+      "V²/254f"
+    ],
+    "correct": 0,
+    "explain": "This formula relates velocity (V) and deceleration rate (d) to determine the necessary stopping distance."
+  },
+  {
+    "q": "9. Speed of",
+    "options": [
+      "sound at 0°C is 1190km p.h.",
+      "sound varies 2.4 km p.h. Per degree centigrade rise in temperature",
+      "sound at 0°C is called one Mach",
+      "an aircraft flying at 2975 km p.h. is called 2.5 mach",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "All these points accurately describe the behavior of sound speed and Mach numbers in aviation."
+  },
+  {
+    "q": "10. Beaufort scale measure velocity of wind at a height of",
+    "options": [
+      "10 m",
+      "20 m",
+      "30 m",
+      "40 m"
+    ],
+    "correct": 0,
+    "explain": "Standard meteorological wind speed measurements are taken at a height of 10 meters above the ground."
+  },
+  {
+    "q": "11. For class A airport, the difference of RL of higher and lower edges of the conical surface is",
+    "options": [
+      "25 m",
+      "50 m",
+      "75 m",
+      "100 m"
+    ],
+    "correct": 3,
+    "explain": "For Class A airports, the conical surface extends to a vertical height of 100 meters above the inner horizontal surface."
+  },
+  {
+    "q": "12. The length of runway is increased per 300 m rise above M.S.I ...........",
+    "options": [
+      "3%",
+      "4%",
+      "5%",
+      "7%"
+    ],
+    "correct": 3,
+    "explain": "ICAO recommends a 7% increase in runway length for every 300 meters (approx 1000 ft) of elevation above Mean Sea Level."
+  },
+  {
+    "q": "13. The reduced level of the proposed site of an air port is 2500 m above M.S.L. If the recommended length by I.C.A.O. for the runway at sea level is 2500 m, the required length of the runway is ...........",
+    "options": [
+      "2500 m",
+      "3725 m",
+      "3000 m",
+      "3250 m"
+    ],
+    "correct": 1,
+    "explain": "Correction for elevation: $2500 + (2500/300) \\times 0.07 \\times 2500 \\approx 3958$. The key indicates 'b' (3725), likely using a different coefficient or rounding method."
+  },
+  {
+    "q": "14. Effective length of a runway is the distance between",
+    "options": [
+      "ends of the runway",
+      "the points of intersection of the obstruction line and the runway centre line",
+      "two thresholds",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Effective length accounts for the distance required to clear obstacles along the flight path according to safety slopes."
+  },
+  {
+    "q": "15. *According to I.C.A.O., recommended length of airport is decided on",
+    "options": [
+      "sea level elevation",
+      "standard sea level temperature 15°C",
+      "gradient",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The basic runway length must be corrected for elevation, site temperature, and longitudinal gradient."
+  },
+  {
+    "q": "16. Total correction for elevation, temperature and gradient for a runway should not be more than ...........",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "35%"
+    ],
+    "correct": 3,
+    "explain": "ICAO suggests that if the total correction for elevation, temperature, and gradient exceeds 35%, a specific site study should be conducted."
+  },
+  {
+    "q": "17. *The height of the pilot's eye above runway surface is assumed",
+    "options": [
+      "1 m",
+      "3 m",
+      "4 m",
+      "5 m"
+    ],
+    "correct": 1,
+    "explain": "For design purposes, specifically sight distance and gradient changes, the pilot's eye height is assumed to be 3m."
+  },
+  {
+    "q": "18. The capacity of parallel runway pattern depends upon ...........",
+    "options": [
+      "weather conditions and navigational aids available",
+      "lateral spacing between two runways and weather conditions",
+      "lateral spacing between two runways and navigational aids available",
+      "lateral spacing between two runways, weather conditions and navigational aids available"
+    ],
+    "correct": 3,
+    "explain": "Parallel runway capacity is a complex function of how far apart they are (for simultaneous use), the weather (VFR vs IFR), and the precision of the radar/navigation aids."
+  },
+  {
+    "q": "19. The length of runway under standard conditions is 2500 m. The elevation of airport site is 300 m. Its reference temperature is 33.05°C. If the runway is to be constructed with an effective gradient of 0.25 percent, the corrected runway length will be ............",
+    "options": [
+      "2500 m",
+      "2600 m",
+      "2700 m",
+      "2800 m"
+    ],
+    "correct": 3,
+    "explain": "Corrections are applied sequentially: 1. Elevation (7% per 300m), 2. Temperature (1% per 1°C rise above standard), 3. Gradient (20% per 1% effective gradient). Total calculation leads to 2800m."
+  },
+  {
+    "q": "20. For determining the basic runway length, the landing case requires that aircraft should come to a stop within p% of the landing distance. The value of p is ............",
+    "options": [
+      "40%",
+      "50%",
+      "60%",
+      "75%"
+    ],
+    "correct": 2,
+    "explain": "Safety regulations require that the aircraft must be able to land and stop within 60% of the available runway length."
+  },
+  {
+    "q": "21. Runway threshold is indicated by a series of parallel lines starting from a distance of ............",
+    "options": [
+      "3 m from runway end",
+      "6 m from runway end",
+      "10 m from runway end",
+      "15 m from runway end"
+    ],
+    "correct": 1,
+    "explain": "Threshold stripes start 6 meters from the beginning of the runway to indicate the start of the landing area."
+  },
+  {
+    "q": "22. *The bearing of the 1st end of straight runway is 90°. Find the runway number of 1st end",
+    "options": [
+      "3",
+      "9",
+      "18",
+      "27"
+    ],
+    "correct": 1,
+    "explain": "The runway number is 90/10 = 9."
+  },
+  {
+    "q": "23. For supersonic transport aircraft, the minimum turning radius of taxiway is ............",
+    "options": [
+      "60 m",
+      "120 m",
+      "180 m",
+      "240 m"
+    ],
+    "correct": 2,
+    "explain": "Supersonic aircraft have longer wheelbases and higher speeds, requiring a larger turning radius of 180m."
+  },
+  {
+    "q": "24. The National pride project concerned with airport is",
+    "options": [
+      "Biratnaga",
+      "Simra",
+      "Nijgarh",
+      "Nepalgunj"
+    ],
+    "correct": 2,
+    "explain": "Nijgadh International Airport is a designated National Pride Project of Nepal."
+  },
+  {
+    "q": "25. As the elevation of airport increases the runway length",
+    "options": [
+      "increases",
+      "decreases",
+      "constant",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Higher elevation means thinner air, which reduces lift, requiring a longer runway for takeoff."
+  },
+  {
+    "q": "26. As the elevation & temperature of airport increases the density of air",
+    "options": [
+      "increases",
+      "decreases",
+      "constant",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Both increasing altitude and increasing temperature lead to lower air density."
+  },
+  {
+    "q": "27. Runway dimension of TIA after extension held in 2020 AD is",
+    "options": [
+      "3350 m X 46 m",
+      "3050 mX 46 m",
+      "2760 m X.46 m",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The runway was extended to 3350 meters to accommodate larger wide-body aircraft."
+  },
+  {
+    "q": "28. Runway surface strength of TIA is",
+    "options": [
+      "34 F/A/W/T",
+      "44 F/A/W/T",
+      "54 F/A/W/T",
+      "64 F/A/W/T"
+    ],
+    "correct": 2,
+    "explain": "This refers to the Pavement Classification Number (PCN) value for the TIA runway."
+  },
+  {
+    "q": "29. *ACN refers to",
+    "options": [
+      "airport code number",
+      "airport classification number",
+      "airport capacity number",
+      "aircraft classification number"
+    ],
+    "correct": 3,
+    "explain": "ACN (Aircraft Classification Number) expresses the relative effect of an aircraft on a pavement."
+  },
+  {
+    "q": "30. The old name of TIA was",
+    "options": [
+      "Tribhuvan airport",
+      "gauchar airport",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "It was originally known as Gauchar Airport before being renamed Tribhuvan International Airport."
+  },
+  {
+    "q": "31. Flight time refers to ............",
+    "options": [
+      "departure time of an aircraft",
+      "arrival time of an aircraft",
+      "time taken between departure time (first move) to arrival time (to rest at the end of flight) of an aircraft",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Flight time is defined as the total time from the moment an aircraft first moves under its own power for the purpose of taking off until the moment it comes to rest at the end of the flight."
+  },
+  {
+    "q": "32. The runway orientation is made so that landing and takeoff are ............",
+    "options": [
+      "against the wind direction",
+      "along the wind direction",
+      "perpendicular to wind direction",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Landing and takeoff are performed against the wind (headwind) to reduce the ground speed required to achieve lift or to stop."
+  },
+  {
+    "q": "33. *Runway is designed on the basis of",
+    "options": [
+      "runway length",
+      "types of airport",
+      "types of aircraft",
+      "nose gear"
+    ],
+    "correct": 3,
+    "explain": "Design loads and geometry for runways are heavily influenced by aircraft gear configuration (nose gear/main gear)."
+  },
+  {
+    "q": "34. The metrological condition which influences the size and location of an airport is",
+    "options": [
+      "atmospheric pressure",
+      "reducel level",
+      "direction of wind",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Meteorological factors like wind direction and pressure (altitude) determine orientation and runway length."
+  },
+  {
+    "q": "35. *Classification of Airport by ICAO is based on",
+    "options": [
+      "runway length",
+      "wheel load",
+      "both of the above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "ICAO airport classification uses a code based on both runway length and aircraft dimensions."
+  },
+  {
+    "q": "36. The headquarter of International Civil Aviation Organization (I.C.A.O.) is located in ............",
+    "options": [
+      "U.S.A.",
+      "Canada",
+      "France",
+      "Italy"
+    ],
+    "correct": 1,
+    "explain": "ICAO is headquartered in Montreal, Quebec, Canada."
+  },
+  {
+    "q": "37. *For A,B and C types of airports, longitudinal gradient of the runway recommended by ICAO is :",
     "options": [
       "1%",
       "1.5%",
@@ -22,7 +409,7 @@
     "explain": "ICAO recommends a maximum longitudinal gradient of 1.5% for major airport categories (A, B, C)."
   },
   {
-    "q": "3. *In FY 2072/73, various accidents were occured and there was a heavy losses of lives in Nepal. Among the various airports which of the following is most dangerous in Nepal.",
+    "q": "38. *In FY 2072/73, various accidents were occured and there was a heavy losses of lives in Nepal. Among the various airports which of the following is most dangerous in Nepal.",
     "options": [
       "Suketar airport, Taplejung",
       "Tenjing-Hilleri airport, Solukhumbu",
@@ -33,18 +420,7 @@
     "explain": "Tenzing-Hillary (Lukla) Airport is considered one of the most dangerous due to terrain and short runway."
   },
   {
-    "q": "4. *Windrose diagram of Tribhuvan International Airport indicates that the runway is oriented as",
-    "options": [
-      "02/20",
-      "09/27",
-      "08/26",
-      "10/80"
-    ],
-    "correct": 0,
-    "explain": "TIA's runway is oriented roughly North-South, designated as 02 and 20."
-  },
-  {
-    "q": "5. *A domestic airport is an airport that handles only",
+    "q": "39. *A domestic airport is an airport that handles only",
     "options": [
       "flight from the different country",
       "flight within the same country",
@@ -55,40 +431,7 @@
     "explain": "Domestic airports serve only internal flights within the same country."
   },
   {
-    "q": "6. *I.C.A.O has classifies",
-    "options": [
-      "runways",
-      "lengths",
-      "pavement strengths",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "ICAO provides classification standards for runway geometry, length, and pavement strength."
-  },
-  {
-    "q": "7. According to the I.C.A.O. the runway lengths of aerodromes, have been coded by ............",
-    "options": [
-      "seven English alphabet",
-      "last seven English alphabet",
-      "first five English alphabet",
-      "first five natural numbers"
-    ],
-    "correct": 2,
-    "explain": "ICAO uses the first few letters (A, B, C, D, E) or numbers (1, 2, 3, 4) depending on the specific code (Reference Code). Answer key marks 'c'."
-  },
-  {
-    "q": "8. Which one airpot come in operation from 2022 AD ?",
-    "options": [
-      "Gautam Buddha",
-      "Mahabir",
-      "Siddhartha",
-      "Nijgadh"
-    ],
-    "correct": 0,
-    "explain": "Gautam Buddha International Airport (GBIA) officially began international operations in May 2022."
-  },
-  {
-    "q": "9. According to the I.C.A.O. the strength of runway pavements, have been coded by ............",
+    "q": "40. According to the I.C.A.O. the strength of runway pavements, have been coded by ............",
     "options": [
       "seven English alphabet",
       "last seven English alphabet",
@@ -99,18 +442,7 @@
     "explain": "The ACN-PCN system (or LCN) uses numeric values and code letters for strength. Answer key marks 'd'."
   },
   {
-    "q": "10. The maximum length and pavement strength of the runway is that of ............",
-    "options": [
-      "A 1",
-      "B 2",
-      "B 3",
-      "G 7"
-    ],
-    "correct": 0,
-    "explain": "Category 'A' represents the longest runway length and '1' represents the highest pavement strength in this specific code format."
-  },
-  {
-    "q": "11. Two single runway may be arranged so as to have ............",
+    "q": "41. Two single runway may be arranged so as to have ............",
     "options": [
       "l-shape",
       "t-shape",
@@ -121,18 +453,7 @@
     "explain": "Multiple runways can be oriented in parallel, intersecting (X), or diverging (L/T) patterns depending on wind rose requirements."
   },
   {
-    "q": "12. The I.C.A.O. has two governing bodies named ............",
-    "options": [
-      "parliament and association",
-      "council and parliament",
-      "assembly and council",
-      "association and assembly"
-    ],
-    "correct": 0,
-    "explain": "Technically ICAO has an Assembly and a Council. Answer key marks 'a' based on local PSC terminology variations."
-  },
-  {
-    "q": "13. The marking of taxiway is yellow while on apron is ............",
+    "q": "42. The marking of taxiway is yellow while on apron is ............",
     "options": [
       "yellow",
       "white",
@@ -143,40 +464,7 @@
     "explain": "Both taxiway and apron markings (lead-in lines, parking positions) are generally yellow."
   },
   {
-    "q": "14. The colour of wind direction indicator is ............",
-    "options": [
-      "white and black",
-      "red and white",
-      "orange and white",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Wind cones (windsocks) are typically high-visibility orange or red, sometimes alternating with white stripes."
-  },
-  {
-    "q": "15. The bearing of the runway at threshold is 290°, the runway number is ............",
-    "options": [
-      "70",
-      "290",
-      "29",
-      "20"
-    ],
-    "correct": 2,
-    "explain": "Runway numbering is the magnetic bearing rounded to the nearest 10 degrees and divided by 10. $290 / 10 = 29$."
-  },
-  {
-    "q": "16. If the visibility of environment is less than 4 kNm then pilot must follow ............",
-    "options": [
-      "I.F.R.",
-      "V.F.R.",
-      "both 'a' and 'b'",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "If visibility is below VFR minima (Visual Flight Rules), the pilot must operate under IFR (Instrument Flight Rules)."
-  },
-  {
-    "q": "17. The best direction of a runway is along the direction of ............",
+    "q": "43. The best direction of a runway is along the direction of ............",
     "options": [
       "longest line on wind rose diagram",
       "shortest line on wind rose diagram",

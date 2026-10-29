@@ -1,50 +1,457 @@
 [
   {
-    "q": "1. The compression resulting from long term static load and resulting expulsion of water is known as .............",
+    "q": "1. Permeability of soil varies",
     "options": [
-      "compaction",
-      "inverses swelling",
-      "consolidation",
-      "none of the above"
+      "inversely as square of grain size",
+      "inversely as grain size",
+      "as grain size",
+      "square of grain size"
     ],
-    "correct": 2,
-    "explain": "Consolidation is precisely the gradual volume reduction from long-term static load causing pore water expulsion."
+    "correct": 3,
+    "explain": "From Hazen's/Kozeny-type relations (k = C·D10²), coefficient of permeability is proportional to the square of the effective grain size."
   },
   {
-    "q": "2. The compressibility of a field deposit is .............",
+    "q": "2. The coefficient of permeability is proportional to void ratio (e) as K = 100 D10² i.e., K ∝ D10²",
     "options": [
-      "the same as that shown by a laboratory sample",
-      "greater than that shown by a laboratory sample",
-      "smaller than that shown by a laboratory sample",
+      "1/e",
+      "e",
+      "e²",
+      "e³/(1+e)"
+    ],
+    "correct": 3,
+    "explain": "The Kozeny-Carman equation shows permeability is proportional to the function e³/(1+e), which accounts for void ratio's effect on flow paths."
+  },
+  {
+    "q": "3. The soil moisture driven off by heat, is called",
+    "options": [
+      "free water",
+      "hydroscopic water",
+      "gravity water",
       "none of these"
     ],
     "correct": 1,
-    "explain": "Field deposits often contain natural discontinuities/fissures and larger-scale heterogeneity, making them generally more compressible than small intact lab samples."
+    "explain": "Hygroscopic (adsorbed) water is held tightly around particles by molecular attraction and is removed only by heating (oven drying), unlike free/gravity water."
   },
   {
-    "q": "3. Mathematically speaking, the time taken for 100% consolidation is .............",
+    "q": "4. The capillary rise of water",
     "options": [
-      "5 years",
-      "10 years",
-      "zero",
-      "infinite"
+      "depends upon the force responsible",
+      "increases as the size of the soil particles increases",
+      "decreases as the size of the soil particles decreases",
+      "is less in wet soil than in dry soil"
+    ],
+    "correct": 0,
+    "explain": "Capillary rise is governed by surface tension forces (menisci) at the air-water interface within the pores; hence it fundamentally depends on the responsible surface-tension force, and inversely on pore size."
+  },
+  {
+    "q": "5. The phreatic line in an earth dam may be",
+    "options": [
+      "circular",
+      "elliptical",
+      "parabolic",
+      "a straight line"
+    ],
+    "correct": 2,
+    "explain": "The top flow line (phreatic line) of seepage through an earth dam closely approximates a parabola (Casagrande's basic parabola method)."
+  },
+  {
+    "q": "6. The ratio of settlement at any time 't' to the final settlement, is known as",
+    "options": [
+      "co-efficient of consolidation",
+      "degree of consolidation",
+      "consolidation index",
+      "consolidation of undisturbed soil"
+    ],
+    "correct": 1,
+    "explain": "Degree of consolidation U = settlement at time t / ultimate (final) settlement, a dimensionless fraction describing consolidation progress."
+  },
+  {
+    "q": "7. One dimensional theory of Consolidation of Terzaghi is based on the assumption that",
+    "options": [
+      "coefficient of permeability is constant",
+      "excess water is drained out only in the vertical direction",
+      "head is applied in one direction",
+      "all of above"
     ],
     "correct": 3,
-    "explain": "Terzaghi's consolidation theory is an exponential/asymptotic process, so 100% consolidation is mathematically reached only at infinite time."
+    "explain": "Terzaghi's 1-D consolidation theory assumes constant permeability, purely vertical drainage, and one-directional head/flow — all these assumptions together define the theory."
   },
   {
-    "q": "4. If consolidation experiments are conducted on two soil samples of the same soil but having different thickness (thick and thin) then the deformations will be higher in .............",
+    "q": "8. Active earth pressure is",
     "options": [
-      "thick",
-      "thin",
-      "constant",
+      "always less than passive earth pressure",
+      "always greater than passive earth pressure",
+      "sometimes greater than passive earth pressure",
+      "equal to passive earth pressure"
+    ],
+    "correct": 0,
+    "explain": "Since active pressure coefficient Ka = (1-sinφ)/(1+sinφ) is always less than passive coefficient Kp = (1+sinφ)/(1-sinφ), active pressure is always less than passive pressure."
+  },
+  {
+    "q": "9. When the steady seepage occurs in an isotropic soil, the head causing the flow satisfies the following equation .............",
+    "options": [
+      "Darcy's equation",
+      "Hazen's equation",
+      "Laplace's equation",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Steady seepage through an isotropic, homogeneous soil is governed by Laplace's equation, the basis for flow net construction."
+  },
+  {
+    "q": "10. In Mohr's stress circle, the co-ordinates of the center of the circle are",
+    "options": [
+      "(0, 0)",
+      "(σ1, σ3)",
+      "((σ1+σ3)/2, 0)",
+      "((σ1+σ3)/2, (σ1-σ3)/2)"
+    ],
+    "correct": 2,
+    "explain": "Mohr's circle has its centre on the normal-stress axis at the average of major and minor principal stresses, i.e., ((σ1+σ3)/2, 0)."
+  },
+  {
+    "q": "11. In a flownet, which of the following statement is true?",
+    "options": [
+      "Flow lines and equipotential lines intersect at oblique angles",
+      "Flow lines and equipotential lines intersect orthogonally",
+      "Flow rate through each flow channel is different",
+      "The head along each flow line is constant"
+    ],
+    "correct": 1,
+    "explain": "By construction, flow lines and equipotential lines in a properly drawn flow net always intersect at right angles (orthogonally)."
+  },
+  {
+    "q": "12. The permeability of a soil deposit-in-situ can be best obtained by .............",
+    "options": [
+      "falling head permeameter",
+      "constant head permeameter",
+      "pumping test",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A field pumping test captures the actual in-situ permeability of a soil deposit, accounting for natural heterogeneity that lab tests cannot."
+  },
+  {
+    "q": "13. Over-consolidation may be due to .............",
+    "options": [
+      "the weight of ice sheet or glacier which is melted away",
+      "weight of the land side which is removed",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Over-consolidation results from removal of a previously applied overburden, whether from a melted glacier or an eroded/removed landmass — both mechanisms apply."
+  },
+  {
+    "q": "14. Bleeder wells are required to .............",
+    "options": [
+      "increase discharge from main well",
+      "stone drainage water",
+      "collect seepage water in dams",
+      "relieve pressure in impervious layers"
+    ],
+    "correct": 3,
+    "explain": "Bleeder wells relieve excess pore water pressure trapped beneath impervious layers, preventing uplift or blowout."
+  },
+  {
+    "q": "15. Taylor's stability number is equal to Sn = c/(PHc) = c/(PH×FOS). For Hc, FOS=1",
+    "options": [
+      "C/(FcH)",
+      "C/(FcHc)",
+      "C/H",
+      "C/Hc"
+    ],
+    "correct": 3,
+    "explain": "When FOS = 1 (i.e., the critical/failure condition), the stability number simplifies to Sn = c/Hc, using the critical height Hc directly."
+  },
+  {
+    "q": "16. A plate load test is useful to estimate",
+    "options": [
+      "Has low bearing capacity",
+      "Settlement of foundation",
+      "Both bearing capacity and settlement of foundation",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explain": "The plate load test provides a load-settlement curve from which both the safe bearing capacity and the expected settlement of the actual foundation can be estimated."
+  },
+  {
+    "q": "17. The expression for critical gradient is .............",
+    "options": [
+      "ic = (G-1)/(1+e)",
+      "ic = (G+1)/(1+e)",
+      "ic = (1-e)/(G-1)",
+      "ic = (1+e)/(G+1)"
+    ],
+    "correct": 0,
+    "explain": "Critical hydraulic gradient is derived by equating upward seepage force to submerged weight: ic = (G-1)/(1+e)."
+  },
+  {
+    "q": "18. Graphical method for the determination of earth pressure",
+    "options": [
+      "Taylor's method",
+      "Culmann's method",
+      "Mohr diagram method",
+      "Newmark's influence chat method"
+    ],
+    "correct": 1,
+    "explain": "Culmann's graphical method is a well-known trial-wedge construction technique for determining active/passive earth pressure, especially for irregular backfill conditions."
+  },
+  {
+    "q": "19. The value of coefficient of permeability of clays is .............",
+    "options": [
+      "< 10^-6",
+      "10^-4 to 10^-6",
+      "10^-2 to 10^-4",
+      "10^-2 to 1"
+    ],
+    "correct": 0,
+    "explain": "Clays, with their very fine pores, have extremely low permeability, typically less than 10^-6 cm/s."
+  },
+  {
+    "q": "20. The angle that Coulomb's failure envelope makes with the horizontal is called",
+    "options": [
+      "Cohesive",
+      "Angle of internal friction",
+      "Angle of repose",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "In a Mohr-Coulomb shear strength plot, the slope of the failure envelope line with the horizontal (normal stress) axis is the angle of internal friction, φ."
+  },
+  {
+    "q": "21. The angle between the abscissa and the tangent to the curve representing the relationship of shearing resistance to normal stress acting within a soil is called",
+    "options": [
+      "Angle of repose",
+      "Angle of internal friction",
+      "Cohesiveness",
+      "Hydra The gradient"
+    ],
+    "correct": 1,
+    "explain": "The slope of the shear stress vs normal stress curve (Mohr-Coulomb envelope) with the horizontal axis is, by definition, the angle of internal friction."
+  },
+  {
+    "q": "22. The constant of proportionality between seepage velocity and hydraulic gradient is called .............",
+    "options": [
+      "coefficient of permeability",
+      "coefficient of percolation",
+      "coefficient of transmissibility",
+      "seepage coefficient"
+    ],
+    "correct": 1,
+    "explain": "Seepage (percolation) velocity relates to hydraulic gradient through the coefficient of percolation, which uses the net (void) cross-sectional area."
+  },
+  {
+    "q": "23. The zone of soil mass above the water table which is saturated by capillary moisture is called .............",
+    "options": [
+      "capillary fringe",
+      "capillary soil",
+      "submerged soil",
       "none of these"
     ],
     "correct": 0,
-    "explain": "Total settlement is proportional to layer thickness under the same effective stress increment, so the thicker sample undergoes greater overall deformation."
+    "explain": "The capillary fringe is the zone directly above the water table kept saturated by capillary action."
   },
   {
-    "q": "5. As the length of drainage path increases the time required for consolidation .............",
+    "q": "24. Hydraulic gradient provided at the downstream side of a hydraulic structures such as dam is called",
+    "options": [
+      "downstream gradient",
+      "tail water gradient",
+      "exit gradient",
+      "any of these"
+    ],
+    "correct": 3,
+    "explain": "The hydraulic gradient at the point where seepage water exits the ground on the downstream side of a dam/structure is called the exit gradient, critical for piping/uplift checks."
+  },
+  {
+    "q": "25. Falling head permeability test is preferable when soil sample is",
+    "options": [
+      "Sandy",
+      "Clayey",
+      "Silty sand",
+      "sandy gravel"
+    ],
+    "correct": 1,
+    "explain": "The falling head test suits fine-grained soils (clays) with low permeability, where the small, slow water flow can be accurately measured by the falling head in a standpipe, unlike the constant head test used for sandy soils."
+  },
+  {
+    "q": "26. A soil which does not permit the passage or seepage of any permeant through its voids, is known as .............",
+    "options": [
+      "solid soil",
+      "heard soil",
+      "impermeable soil",
+      "honey comb soil"
+    ],
+    "correct": 2,
+    "explain": "A soil that blocks all seepage flow through its voids is, by definition, an impermeable soil."
+  },
+  {
+    "q": "27. Consolidation is a process involving",
+    "options": [
+      "sudden compression of soil",
+      "tilting and failure of structure",
+      "abnormal sinking of structure",
+      "gradual expulsion of pore water"
+    ],
+    "correct": 3,
+    "explain": "Consolidation is defined by the slow, time-dependent, gradual expulsion of pore water from saturated soil under sustained load, not sudden or abnormal effects."
+  },
+  {
+    "q": "28. The maximum size of plate for plate load test is",
+    "options": [
+      "30 cm2",
+      "45 cm2",
+      "60 cm2",
+      "75 cm2"
+    ],
+    "correct": 3,
+    "explain": "As per standard plate load test procedure, the test plate size typically ranges up to about 60 cm (square/circular), used to simulate the foundation's bearing behaviour."
+  },
+  {
+    "q": "29. Expansion of soils under shear is known as .............",
+    "options": [
+      "liquefaction",
+      "volumetric deformation",
+      "critical expansion",
+      "dilatancy"
+    ],
+    "correct": 3,
+    "explain": "Dilatancy is the tendency of dense granular soils to expand in volume when subjected to shear."
+  },
+  {
+    "q": "30. Coefficient of permeability of a soil .............",
+    "options": [
+      "increases with the decrease in temperature",
+      "increases with the increase in temperature",
+      "does not depend upon temperature",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Permeability increases with temperature because higher temperature reduces water's viscosity, allowing easier flow."
+  },
+  {
+    "q": "31. The value of Reynold's number for laminar flow through soil is .............",
+    "options": [
+      "less than 20,000",
+      "less than 2,000",
+      "less than 200",
+      "less than 20"
+    ],
+    "correct": 1,
+    "explain": "Flow through soil is generally laminar as long as the Reynolds number stays below about 2,000, well within Darcy's law's valid range."
+  },
+  {
+    "q": "32. Permeability of soil varies .............",
+    "options": [
+      "inversely as square of grain size",
+      "as square of grain size",
+      "as grain size",
+      "inversely as grain size"
+    ],
+    "correct": 1,
+    "explain": "Per typical permeability relations (e.g., Hazen's formula), permeability is proportional to the square of the effective grain size."
+  },
+  {
+    "q": "33. The equi-potential line in a seepage through a soil medium is defined as the .............",
+    "options": [
+      "path of particles of water through a saturated soil mass",
+      "line connecting points of equal head of water",
+      "flow of movement of fine particles of soil",
+      "direction of the flow particle"
+    ],
+    "correct": 1,
+    "explain": "An equipotential line connects all points in the seepage domain that share the same total head."
+  },
+  {
+    "q": "34. Rise in the water table position upto the ground surface causes .............",
+    "options": [
+      "increase in effective stress",
+      "decrease in effective stress",
+      "increase in total stress",
+      "decrease in total stress"
+    ],
+    "correct": 0,
+    "explain": "A rising water table increases pore water pressure and total stress at a given point, while effective stress typically decreases due to buoyant unit weight replacing dry/moist unit weight."
+  },
+  {
+    "q": "35. Electrical analogy method is used to .............",
+    "options": [
+      "find electrical conductivity of soil",
+      "draw flow net",
+      "find the depth to water table",
+      "find the water content in a soil"
+    ],
+    "correct": 1,
+    "explain": "The electrical analogy method uses the similarity between Darcy's and Ohm's laws to experimentally construct flow nets."
+  },
+  {
+    "q": "36. Find out the correct statement about shape factor .............",
+    "options": [
+      "dependent on permeability",
+      "independent of permeability",
+      "not related to permeability",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The shape factor of a flow net depends only on geometry, not on the permeability value of the soil."
+  },
+  {
+    "q": "37. The pheriatic line is .............",
+    "options": [
+      "the u/s face of the earth dam",
+      "d/s face of the earth dam",
+      "the top flow line",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The phreatic line is defined as the top flow line (free surface) of seepage through an earth dam."
+  },
+  {
+    "q": "38. Quick sand is .............",
+    "options": [
+      "pure silica sand",
+      "a condition in which cohesion is decreased quickly",
+      "a sand which can act as a quick filter",
+      "condition in which cohesion less soil looses its shear strength due to upward flow of water"
+    ],
+    "correct": 3,
+    "explain": "Quicksand describes the condition where upward seepage force equals or exceeds submerged weight, eliminating effective stress and shear strength in cohesionless soil."
+  },
+  {
+    "q": "39. Flow net consists of a number of stream lines and equipotential lines which are .............",
+    "options": [
+      "parallel to each other",
+      "perpendicular to each other",
+      "orthogonal to each other",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Flow lines and equipotential lines in a flow net are drawn orthogonal (at right angles) to each other by construction."
+  },
+  {
+    "q": "40. The seepage force in soils at exit is proportional to .............",
+    "options": [
+      "the head of water at d/s",
+      "the head of water at u/s",
+      "the head causing flow",
+      "the exit gradient"
+    ],
+    "correct": 3,
+    "explain": "Seepage force per unit volume at the exit point is directly proportional to the exit hydraulic gradient."
+  },
+  {
+    "q": "41. Generally, when compacted the GW type of soils will be .............",
+    "options": [
+      "pervious",
+      "very pervious",
+      "non-pervious",
+      "cannot say"
+    ],
+    "correct": 0,
+    "explain": "Even when well compacted, well-graded gravel (GW) retains interconnected voids large enough to remain pervious."
+  },
+  {
+    "q": "42. As the length of drainage path increases the time required for consolidation .............",
     "options": [
       "decreases",
       "increases",
@@ -55,29 +462,7 @@
     "explain": "Since time factor Tv = Cv.t/d^2, a longer drainage path (d) requires proportionally more time (as d^2) to reach the same degree of consolidation."
   },
   {
-    "q": "6. The ratio of settlement at any time t, to the final settlement is called as .............",
-    "options": [
-      "percentage settlement",
-      "partial settlement ratio",
-      "degree of consolidation",
-      "residual consolidation"
-    ],
-    "correct": 2,
-    "explain": "Degree of consolidation (Uz) is defined as the ratio of settlement achieved at time t to the eventual final (total) settlement."
-  },
-  {
-    "q": "7. Falling head permeameter is preferable when soil sample is .............",
-    "options": [
-      "clayey",
-      "silty sand",
-      "sandy",
-      "sandy gravel"
-    ],
-    "correct": 0,
-    "explain": "Falling head permeameters are suited for low-permeability (clayey) soils, where flow rates are too slow for the constant head method to measure accurately."
-  },
-  {
-    "q": "8. In the case of stratified soils, the permeabilities Kx and Kz along and across stratification are related as .............",
+    "q": "43. In the case of stratified soils, the permeabilities Kx and Kz along and across stratification are related as .............",
     "options": [
       "Kx < Kz",
       "Kx = Kz",
@@ -88,40 +473,7 @@
     "explain": "Stratified soils have higher permeability parallel to layering (Kx, horizontal) than across it (Kz, vertical), since flow along layers avoids crossing low-permeability lenses."
   },
   {
-    "q": "9. The range of coefficient of permeability of sands is about .............",
-    "options": [
-      "< 10^-6",
-      "10^-4 to 10^-6",
-      "10^-2 to 10^-4",
-      "10^-2 to 1"
-    ],
-    "correct": 3,
-    "explain": "Sands typically have permeability in the range of 10^-2 to 10^-4 cm/s, higher than silts and clays."
-  },
-  {
-    "q": "10. The neutral stress on the soil is due to .............",
-    "options": [
-      "Weight of water present in soil pores",
-      "deformation of soil grains",
-      "external load acting on the soil",
-      "weight of the soil grains"
-    ],
-    "correct": 0,
-    "explain": "Neutral stress (pore water pressure) is caused by the water present in the soil voids, exerting hydrostatic pressure on grains."
-  },
-  {
-    "q": "11. Consolidation is generally considered to be a function of .............",
-    "options": [
-      "total stress",
-      "neutral stress",
-      "effective stress",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Consolidation behaviour (compression) is governed by changes in effective stress, per Terzaghi's principle."
-  },
-  {
-    "q": "12. In the Terzaghi's theory of one dimensional consolidation it is assumed that .............",
+    "q": "44. In the Terzaghi's theory of one dimensional consolidation it is assumed that .............",
     "options": [
       "soil particles are compressible",
       "soil is non-homogeneous",
@@ -130,16 +482,5 @@
     ],
     "correct": 3,
     "explain": "A core assumption of Terzaghi's theory is that both flow and compression occur strictly in one dimension (vertical)."
-  },
-  {
-    "q": "13. The unit of the coefficient of consolidation is .............",
-    "options": [
-      "cm2/cm",
-      "cm/sec",
-      "cm2/sec",
-      "gm-cm2/sec"
-    ],
-    "correct": 2,
-    "explain": "Coefficient of consolidation Cv has units of area per time, i.e., cm2/sec."
   }
 ]

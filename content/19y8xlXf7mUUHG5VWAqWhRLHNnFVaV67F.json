@@ -1,6 +1,347 @@
 [
   {
-    "q": "1. A simply supported beam of length l carries a load varying uniformly from zero at left end to maximum at right end. Maximum bending moment occurs at a distance of",
+    "q": "1. Moment of inertia of a circular section about an axis perpendicular to the section is",
+    "options": [
+      "πd³ / 16",
+      "πd³ / 32",
+      "πd⁴ / 32",
+      "πd⁴ / 64"
+    ],
+    "correct": 2,
+    "explain": "This refers to the Polar Moment of Inertia (J). According to the perpendicular axis theorem, J = Ixx + Iyy = πd⁴/64 + πd⁴/64 = πd⁴/32."
+  },
+  {
+    "q": "2. Moment of inertia of a rectangular section having b = Width and d = Depth about x-axis is given by",
+    "options": [
+      "Ix = bd³ / 12",
+      "Ix = b³d / 12",
+      "Ix = b³d³ / 12",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The standard formula for MI of a rectangle about its centroidal X-X axis (parallel to width b) is bd³/12."
+  },
+  {
+    "q": "3. The maximum deflection of a simply supported beam of length L with a central load W, is",
+    "options": [
+      "WL² / 48EI",
+      "W²L / 24EI",
+      "WL³ / 48EI",
+      "WL² / 8EI"
+    ],
+    "correct": 2,
+    "explain": "Standard deflection formula for a SS beam with central point load: δ = WL³ / 48EI."
+  },
+  {
+    "q": "4. A cantilever beam... load at free end. If the width of the beam is doubled, the deflection... will be changed in the ratio of",
+    "options": [
+      "8",
+      "1/8",
+      "1/2",
+      "2"
+    ],
+    "correct": 2,
+    "explain": "Deflection is inversely proportional to Moment of Inertia (I). For a rectangle, I = bd³/12. If width 'b' is doubled, I doubles, and deflection becomes 1/2."
+  },
+  {
+    "q": "5. If the depth of a simply supported beam carrying an isolated load at its centre, is doubled, the deflection... will be changed by a factor of",
+    "options": [
+      "2",
+      "1/2",
+      "8",
+      "1/8"
+    ],
+    "correct": 3,
+    "explain": "Deflection is inversely proportional to I, which is proportional to d³. Doubling depth d makes deflection 1 / (2³) = 1/8."
+  },
+  {
+    "q": "6. A beam which is fixed at one end and free at the other is called",
+    "options": [
+      "simply supported beam",
+      "fixed beam",
+      "overhanging beam",
+      "cantilever beam"
+    ],
+    "correct": 3,
+    "explain": "A cantilever is a rigid structural element that extends horizontally and is supported at only one end."
+  },
+  {
+    "q": "7. The bending moment at the free end of a cantilever beam is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Since there are no forces or moments acting beyond the free end, the internal bending moment at that point must be zero."
+  },
+  {
+    "q": "8. The shear force and bending moment are zero at the free end of a cantilever beam, if it carries a",
+    "options": [
+      "point load at the free end",
+      "point load at the middle of its length",
+      "uniformly distributed load over the whole length",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "If a load is at the middle, the section from the middle to the free end has no load acting on it, resulting in zero SF and BM in that portion."
+  },
+  {
+    "q": "9. The shear force of a cantilever beam... carrying a gradually varying load from zero at the free end and w per unit length at the fixed end is... at the fixed end.",
+    "options": [
+      "zero",
+      "wl/4",
+      "wl/2",
+      "wl"
+    ],
+    "correct": 2,
+    "explain": "The total load is the area of the triangular loading diagram: 1/2 * base * height = 1/2 * l * w = wl/2."
+  },
+  {
+    "q": "10. The bending moment diagram for a simply supported beam loaded in its centre is",
+    "options": [
+      "a right angled triangle",
+      "an isosceles triangle",
+      "an equilateral triangle",
+      "a rectangle"
+    ],
+    "correct": 1,
+    "explain": "The BM increases linearly from zero at both supports to wl/4 at the center, forming an isosceles triangle."
+  },
+  {
+    "q": "11. The bending moment diagram for a simply supported beam carrying a uniformly distributed load of w per unit length, will be",
+    "options": [
+      "a horizontal line",
+      "a vertical line",
+      "an inclined line",
+      "a parabolic curve"
+    ],
+    "correct": 3,
+    "explain": "Since the shear force varies linearly (1st degree) for a UDL, the bending moment (which is the integral of SF) varies parabolically (2nd degree)."
+  },
+  {
+    "q": "12. The point of contra flexure is a point where",
+    "options": [
+      "shear force change sign",
+      "bending moment changes sign",
+      "shear force is maximum",
+      "bending moment is maximum"
+    ],
+    "correct": 1,
+    "explain": "The point of contraflexure (or inflection) is the location in a structural member where the bending moment changes from positive (sagging) to negative (hogging) or vice versa."
+  },
+  {
+    "q": "13. When the shear force diagram is a parabolic curve between two points, it indicates that there is a",
+    "options": [
+      "point load at the two points",
+      "no loading between the two points",
+      "uniformly distributed load between the two points",
+      "uniformly varying load between the two points"
+    ],
+    "correct": 3,
+    "explain": "If the loading is linear (uniformly varying), the shear force (its integral) will be a 2nd-degree parabolic curve."
+  },
+  {
+    "q": "14. A simply supported beam is subjected to a uniformly varying load with zero intensity at the two ends increasing to W/m at the centre. The max. B.M. will occur at",
+    "options": [
+      "1/3 from centre",
+      "l/2 from end",
+      "at the two ends",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For a symmetrical loading on a simply supported beam, the maximum bending moment always occurs at the mid-span (l/2 from either end)."
+  },
+  {
+    "q": "15. The slope of the B.M. diagram change its sign when",
+    "options": [
+      "B.M. change its sign",
+      "S.F. is maximum.",
+      "S.F. changes its sign",
+      "rate of loading changes suddenly"
+    ],
+    "correct": 2,
+    "explain": "The slope of BMD is the Shear Force. If SF changes sign (from positive to negative), the slope of the BM curve changes from increasing to decreasing."
+  },
+  {
+    "q": "16. The maximum bending moment due to a moving load on a simply supported beam, occurs",
+    "options": [
+      "at the mid span",
+      "at the supports",
+      "under the load",
+      "anywhere on the beam"
+    ],
+    "correct": 2,
+    "explain": "For a single concentrated moving load, the absolute maximum bending moment at any section always occurs when the load is placed directly over that section."
+  },
+  {
+    "q": "17. For a beam, if fundamental equations of statics are not sufficient to determine all the reactive forces at the supports, the structure is said to be",
+    "options": [
+      "determinate",
+      "statically determinate",
+      "statically indeterminate",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Statically indeterminate structures have more unknown support reactions or internal forces than the available equations of equilibrium (ΣH=0, ΣV=0, ΣM=0)."
+  },
+  {
+    "q": "18. Two beams, one of circular cross-section and the other of square cross-section, have equal areas of cross-sections. When these beams are subjected to bending",
+    "options": [
+      "both beams are equally economical",
+      "square beam is more economical",
+      "circular beam is more economical",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For the same cross-sectional area, a square section has a higher section modulus than a circular section, making it more efficient (economical) in resisting bending."
+  },
+  {
+    "q": "19. The bending stress in a beam is ............ bending moment.",
+    "options": [
+      "equal to",
+      "less than",
+      "more than",
+      "directly proportional to"
+    ],
+    "correct": 3,
+    "explain": "From the equation σ = My/I, it is clear that for a given section, the stress is directly proportional to the applied bending moment."
+  },
+  {
+    "q": "20. At the neutral axis of a beam, the shear stress is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "For standard sections like rectangles and circles, the shear stress distribution is parabolic, reaching its maximum value at the neutral axis."
+  },
+  {
+    "q": "21. The minimum moment of resistance of a beam with material of allowable stress σ, is given by",
+    "options": [
+      "(σ * I) / Distance of farthest fibre from neutral axis",
+      "σ * I",
+      "(σ * I) / distance of nearer extreme fibre",
+      "σ * I * ratio of distances of the two extreme fibres"
+    ],
+    "correct": 0,
+    "explain": "Moment of Resistance M = σ * Z. Since Z = I / y_max (farthest fiber), the formula is (σ * I) / y_max."
+  },
+  {
+    "q": "22. Polar moment of inertia of a hollow circular section with external diameter D and internal diameter d is ............",
+    "options": [
+      "π/64 (D⁴ - d⁴)",
+      "π/32 (D³ - d³)",
+      "π/32 (D⁴ - d⁴)",
+      "πD²/32 (D² - d²)"
+    ],
+    "correct": 2,
+    "explain": "The polar moment of inertia ($J$) for a hollow section is the difference between the $J$ of the outer circle and the $J$ of the inner circle: $\\frac{\\pi D^4}{32} - \\frac{\\pi d^4}{32}$."
+  },
+  {
+    "q": "23. The section modulus of a rectangular section is proportional to",
+    "options": [
+      "area of the section",
+      "square of the area of the section",
+      "product of the area & depth",
+      "half moment of inertia of the section"
+    ],
+    "correct": 0,
+    "explain": "Z = bd²/6 for a rectangular section — it scales with the section's area and depth together."
+  },
+  {
+    "q": "24. The reaction at end A of the beam shown (UDL of 2 kN/m over a beam with overhangs of l/2 on each side of a central support arrangement) is",
+    "options": [
+      "9 KN",
+      "3 KN",
+      "18 KN",
+      "zero"
+    ],
+    "correct": 3,
+    "explain": "Based on the symmetric overhang/support arrangement shown in the figure, the reaction at A works out to zero."
+  },
+  {
+    "q": "25. Find the bending moment at center and also find the maximum bending moment for a simply supported beam of span 5 m with a 10 KN point load located 2 m from one support and 3 m from the other",
+    "options": [
+      "10 KN-m, 12 KN-m",
+      "15 KN-m, 10 KN-m",
+      "20 KN-m, 12 KN-m",
+      "10 KN-m, 15 KN-m"
+    ],
+    "correct": 0,
+    "explain": "RA = 10×3/5 = 6 kN. BM at load point (max) = 6×2 = 12 kN-m. BM at center (2.5 m from A) = 6×2.5 − 10×0.5 = 10 kN-m."
+  },
+  {
+    "q": "26. The maximum bending moment in a simply supported beam is where the UDL is applied",
+    "options": [
+      "ends",
+      "mid",
+      "1/2 distance",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Under a full-span UDL, maximum BM occurs at mid-span."
+  },
+  {
+    "q": "27. If y is the deflection of the beam, then shear force is",
+    "options": [
+      "y",
+      "dy/dx",
+      "d²y/dx²",
+      "d³y/dx³"
+    ],
+    "correct": 3,
+    "explain": "V = EI·d³y/dx³ — shear force is the third derivative of deflection (times EI)."
+  },
+  {
+    "q": "28. Along the neutral axis of a simply supported beam",
+    "options": [
+      "fibres do not undergo strain",
+      "fibers undergo very little strain",
+      "the fibres are subjected to maximum stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the locus of zero bending stress/strain."
+  },
+  {
+    "q": "29. Simple bending equation is",
+    "options": [
+      "M/y = f/I = E/R",
+      "M/I = f/y = E/R",
+      "M/R = f/y = E/R",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The standard bending equation: M/I = f/y = E/R."
+  },
+  {
+    "q": "30. Shape of bending moment diagram for a simply supported beam having point load at centre is",
+    "options": [
+      "parabolic",
+      "square",
+      "rectangle",
+      "triangle"
+    ],
+    "correct": 3,
+    "explain": "BM varies linearly from zero at supports to maximum under the point load — forming a triangle."
+  },
+  {
+    "q": "31. Bending moment diagram of simply supported beam having uniformly distributed load is",
+    "options": [
+      "rectangular",
+      "parabolic",
+      "triangular",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "BM under UDL varies as a second-degree curve (parabola), zero at supports, maximum at mid-span."
+  },
+  {
+    "q": "32. A simply supported beam of length l carries a load varying uniformly from zero at left end to maximum at right end. Maximum bending moment occurs at a distance of",
     "options": [
       "1/√3 from left end",
       "1/3 from left end",
@@ -11,51 +352,7 @@
     "explain": "For a triangular (0 to max) UDL, the max BM occurs at x = L/√3 measured from the zero-load end."
   },
   {
-    "q": "2. Determinate beam can be analyzed with the help of",
-    "options": [
-      "two equations of statics",
-      "three equations of statics",
-      "four equations of statics",
-      "five equations of statics"
-    ],
-    "correct": 1,
-    "explain": "A statically determinate beam can be fully solved using the three equations of static equilibrium (ΣFx=0, ΣFy=0, ΣM=0)."
-  },
-  {
-    "q": "3. A beam fixed at both ends with a central load W in the middle will have zero bending moment at",
-    "options": [
-      "one place",
-      "two places",
-      "three places",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "A fixed-fixed beam with central point load develops two points of contraflexure (zero BM), symmetric about mid-span."
-  },
-  {
-    "q": "4. The maximum bending moment caused on a simply supported beam subjected to two equal concentrated loads (W/2) spaced at equal distance (L/3) over the span is",
-    "options": [
-      "WL/8",
-      "WL/6",
-      "WL/4",
-      "WL/2"
-    ],
-    "correct": 1,
-    "explain": "For this standard two-point-load arrangement at the third-points, max BM = WL/6."
-  },
-  {
-    "q": "5. A beam is said to be of uniform strength if",
-    "options": [
-      "bending moment is same throughout the beam",
-      "deflection is same throughout the beam",
-      "bending stress is same throughout the beam",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "As per the answer key for this set (note: the classic textbook definition of 'uniform strength' is usually stated as constant bending stress throughout — worth double-checking against your source book if this seems inconsistent)."
-  },
-  {
-    "q": "6. A section of a beam is said to be in pure bending if it is subjected to",
+    "q": "33. A section of a beam is said to be in pure bending if it is subjected to",
     "options": [
       "constant bending moment and constant shear force",
       "constant bending moment and zero shear force",
@@ -66,84 +363,7 @@
     "explain": "As per the answer key for this set (note: the standard textbook definition of pure bending is constant BM with zero shear force — worth double-checking against your source book, as this may be a possible key erratum)."
   },
   {
-    "q": "7. The maximum deflection of a beam occurs at",
-    "options": [
-      "zero shear force location",
-      "zero slope location",
-      "zero bending moment location",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Maximum deflection occurs where the slope of the elastic curve (dy/dx) is zero."
-  },
-  {
-    "q": "8. The slope of an elastic curve at the point of contraflexure",
-    "options": [
-      "must be equal to zero",
-      "greater than zero",
-      "need not equal to zero",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "At a contraflexure point, only BM=0 is guaranteed; the slope can take any value there."
-  },
-  {
-    "q": "9. If the length of a simply supported beam carrying a concentrated load at the centre is doubled, the deflection at the center will become",
-    "options": [
-      "two times",
-      "four times",
-      "eight times",
-      "sixteen times"
-    ],
-    "correct": 2,
-    "explain": "Since δ ∝ L³, doubling the span increases deflection by a factor of 2³ = 8."
-  },
-  {
-    "q": "10. The maximum deflection in a cantilever beam carrying a concentrated load 'w' at the free end",
-    "options": [
-      "Wl³/8EI",
-      "Wl³/5EI",
-      "Wl³/3EI",
-      "3Wl³/2EI"
-    ],
-    "correct": 2,
-    "explain": "Standard formula: δ_max = WL³/3EI for a cantilever with a point load at the free end."
-  },
-  {
-    "q": "11. The maximum deflection in a cantilever beam carrying uniformly distributed load (w) over its span",
-    "options": [
-      "Wl³/8EI",
-      "Wl³/5EI",
-      "Wl³/3EI",
-      "3Wl³/2EI"
-    ],
-    "correct": 0,
-    "explain": "Standard formula: δ_max = WL³/8EI for a cantilever under UDL (W = total load = wL)."
-  },
-  {
-    "q": "12. The maximum deflection of a simply supported beam subjected to uniformly distributed load (w) over the span is",
-    "options": [
-      "Wl³/8EI",
-      "Wl³/48EI",
-      "5Wl³/48EI",
-      "5Wl³/384EI"
-    ],
-    "correct": 3,
-    "explain": "Standard formula: δ_max = 5WL³/384EI for UDL on a simply supported beam (W = total load = wL)."
-  },
-  {
-    "q": "13. The diagram showing the variation of BM along the span of a beam is called",
-    "options": [
-      "BMD",
-      "SFD",
-      "thrust diagram",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "By definition, a Bending Moment Diagram (BMD) plots BM variation along the span. (Double-check this against your printed key — some editions mismark this answer.)"
-  },
-  {
-    "q": "14. A diagram which shows the variation of axial force is called",
+    "q": "34. A diagram which shows the variation of axial force is called",
     "options": [
       "BMD",
       "SFD",
@@ -154,62 +374,7 @@
     "explain": "A thrust diagram plots the variation of axial (normal) force along a member."
   },
   {
-    "q": "15. A beam of uniform strength will have at every cross-section the same",
-    "options": [
-      "deflection",
-      "stiffness",
-      "BM",
-      "bending stress"
-    ],
-    "correct": 3,
-    "explain": "A beam of uniform strength is designed so bending stress remains constant at every section, by varying the section dimensions."
-  },
-  {
-    "q": "16. In a beam, the neutral plane",
-    "options": [
-      "may be at its centre",
-      "passes through the c.g. of the area of c/s",
-      "does not change during deformation",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "As per the answer key for this set (note: the standard textbook fact is that the neutral axis passes through the centroid of the cross-section — worth double-checking against your source book)."
-  },
-  {
-    "q": "17. Longitudinal cracks observed in timber beams are due to",
-    "options": [
-      "high bending stresses",
-      "application of concentrated loads over the beam",
-      "shear failure between the layers",
-      "timber not being in compression"
-    ],
-    "correct": 0,
-    "explain": "As per the answer key for this set (note: longitudinal splitting along the grain in timber is classically attributed to horizontal shear failure between layers — worth double-checking against your source book)."
-  },
-  {
-    "q": "18. The expression EI d⁴y/dx⁴ at any section for a beam is equal to",
-    "options": [
-      "load intensity at the section",
-      "shear force at the section",
-      "BM at the section",
-      "slope of the section"
-    ],
-    "correct": 0,
-    "explain": "Differentiating the beam equation twice more: EI·d⁴y/dx⁴ = w, the load intensity."
-  },
-  {
-    "q": "19. The slope of curve of B.M. diagram at any section will be equal to",
-    "options": [
-      "the slope of loading at that section",
-      "the slope of shear force diagram at that section",
-      "the ordinate of shear force diagram at that section",
-      "the area of shear force diagram starting from any one end"
-    ],
-    "correct": 2,
-    "explain": "Since dM/dx = V, the slope of the BM curve at any point equals the SF value (ordinate) there."
-  },
-  {
-    "q": "20. The slope of curve of S.F. diagram at any section will be equal to",
+    "q": "35. The slope of curve of S.F. diagram at any section will be equal to",
     "options": [
       "the slope of loading at that section",
       "the ordinate of loading diagram at that section",
@@ -220,18 +385,7 @@
     "explain": "Since dV/dx = -w, the slope of the SF curve equals the load intensity ordinate at that section."
   },
   {
-    "q": "21. The difference between BM values at any two sections will be equal to",
-    "options": [
-      "the area of SF diagram between those two sections",
-      "the area of loading diagram between the two sections",
-      "the area of loading diagram",
-      "the area of bending moment between the two sections"
-    ],
-    "correct": 0,
-    "explain": "ΔM between two sections equals the area under the shear force diagram between them (∫V dx)."
-  },
-  {
-    "q": "22. The difference between SF values at any two sections will be equal to",
+    "q": "36. The difference between SF values at any two sections will be equal to",
     "options": [
       "the area of bending moment between the two sections",
       "the difference between the slopes of the curve of loading diagram at two sections",
@@ -242,128 +396,7 @@
     "explain": "ΔV between two sections equals the area under the load intensity diagram between them (∫w dx)."
   },
   {
-    "q": "23. The bending moment in a cable carrying a system of loads will be",
-    "options": [
-      "zero at all points",
-      "minimum at the centre",
-      "maximum at the centre",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "A flexible cable carries load purely by axial tension along its curved shape — it develops no bending moment anywhere."
-  },
-  {
-    "q": "24. The number of points of contraflexure in a simply supported beam carrying UDL, is",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "0"
-    ],
-    "correct": 3,
-    "explain": "A simply supported beam under UDL sags throughout its span, so BM never changes sign — zero contraflexure points."
-  },
-  {
-    "q": "25. BM in a cantilever beam having span 1.8m and uniformly distributed load of 4kg/m",
-    "options": [
-      "4.48 kg-m",
-      "5.48 kg-m",
-      "6.48 kg-m",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "M = wL²/2 = 4×(1.8)²/2 = 6.48 kg-m."
-  },
-  {
-    "q": "26. A point where SF is zero, BM is",
-    "options": [
-      "maximum",
-      "minimum",
-      "either maximum or minimum",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Where SF=0, BM reaches a local extremum — this could be either a maximum (sagging peak) or minimum (hogging peak) depending on the loading."
-  },
-  {
-    "q": "27. The rate of change of shear force is called",
-    "options": [
-      "bending moment",
-      "slope",
-      "deflection",
-      "intensity of load"
-    ],
-    "correct": 3,
-    "explain": "dV/dx = -w — the rate of change of shear force equals the load intensity."
-  },
-  {
-    "q": "28. Find the value of thrust, if the member (beam) is subjected to an inclined force having magnitude 5 kN and inclination with vertical is 30°",
-    "options": [
-      "2.5 kN",
-      "5 kN",
-      "2.5√3 kN",
-      "7.5 kN"
-    ],
-    "correct": 0,
-    "explain": "Thrust (component along the horizontal beam axis) = 5 × sin30° = 2.5 kN."
-  },
-  {
-    "q": "29. At the point of application of a concentrated load on a beam, there is",
-    "options": [
-      "maximum BM",
-      "sudden change of slope of BM",
-      "point of contraflexure",
-      "maximum deflection"
-    ],
-    "correct": 1,
-    "explain": "A point load causes a sudden jump (discontinuity) in the shear force diagram, which produces a sudden change in the slope of the BM diagram at that point."
-  },
-  {
-    "q": "30. The number of reaction components at a hinge on rollers support is",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "4"
-    ],
-    "correct": 1,
-    "explain": "A roller support provides only one reaction component, perpendicular to the rolling surface."
-  },
-  {
-    "q": "31. A cantilever beam is the one which is supported with",
-    "options": [
-      "one end hinge and other on rollers",
-      "one end fixed and other on rollers",
-      "both ends on rollers",
-      "one end fixed and the other free"
-    ],
-    "correct": 3,
-    "explain": "A cantilever has one fixed end providing full restraint, and a completely free other end."
-  },
-  {
-    "q": "32. Which of the following end conditions permits the displacement in any direction and also rotation?",
-    "options": [
-      "fixed end",
-      "hinge end",
-      "free end",
-      "roller end"
-    ],
-    "correct": 2,
-    "explain": "A free end has no restraint at all — it permits both translation and rotation."
-  },
-  {
-    "q": "33. A beam is supported over three rollers lying in the same plane. The beam is stable for",
-    "options": [
-      "any general loading",
-      "loading with no component in the direction of the beam",
-      "loading with no component perpendicular to the direction of beam",
-      "only when no load except self weight acts"
-    ],
-    "correct": 3,
-    "explain": "Three rollers alone provide no horizontal restraint and are generally unstable except under special/self-weight-only loading conditions."
-  },
-  {
-    "q": "34. The beam strongest in flexure will have maximum",
+    "q": "37. The beam strongest in flexure will have maximum",
     "options": [
       "moment of inertia",
       "section modulus",
@@ -374,29 +407,7 @@
     "explain": "Bending strength (moment capacity) is governed by section modulus Z = I/y_max, not I alone."
   },
   {
-    "q": "35. Moment of inertia of a rectangular beam b×d is",
-    "options": [
-      "bd³/12",
-      "bd³/6",
-      "db³/12",
-      "db³/6"
-    ],
-    "correct": 0,
-    "explain": "Standard formula: I = bd³/12 about the centroidal axis parallel to b, with d as the depth."
-  },
-  {
-    "q": "36. The ratio of moment of inertia of a square section to that of a circular section for a given depth is given by",
-    "options": [
-      "<1",
-      ">1",
-      "=1",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "For the same depth (square side = circle diameter), the square section has more material further from the axis, giving I_square/I_circle > 1."
-  },
-  {
-    "q": "37. The section modulus of a circular section about an axis through its C.G. is",
+    "q": "38. The section modulus of a circular section about an axis through its C.G. is",
     "options": [
       "πd²/16",
       "πd³/32",
@@ -407,40 +418,7 @@
     "explain": "Standard formula: Z = I/y_max = (πd⁴/64)/(d/2) = πd³/32."
   },
   {
-    "q": "38. The shear force in a concrete beam is assumed to act",
-    "options": [
-      "along the longitudinal axis",
-      "perpendicular to the longitudinal axis",
-      "on a plane normal to the longitudinal axis",
-      "vertically downward"
-    ],
-    "correct": 1,
-    "explain": "Transverse shear force acts perpendicular to the beam's longitudinal axis."
-  },
-  {
-    "q": "39. The shear force on a beam is proportional to",
-    "options": [
-      "curvature of the axis",
-      "displacement of the axis",
-      "sum of the forces",
-      "sum of the transverse forces"
-    ],
-    "correct": 3,
-    "explain": "Shear force at a section equals the algebraic sum of all transverse forces on one side of that section."
-  },
-  {
-    "q": "40. Rate of change of bending moment is equal to",
-    "options": [
-      "shear force",
-      "slope",
-      "deflection",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "dM/dx = V — the fundamental beam relation between bending moment and shear force."
-  },
-  {
-    "q": "41. The rate of change of shear force is called",
+    "q": "39. The rate of change of shear force is called",
     "options": [
       "BM",
       "point load",
@@ -451,40 +429,7 @@
     "explain": "dV/dx = -w — the rate of change of shear force equals (negative) load intensity."
   },
   {
-    "q": "42. The amount of shear force at the maximum bending moment is",
-    "options": [
-      "minimum",
-      "medium",
-      "maximum",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "Since dM/dx = V, bending moment is maximum where shear force is zero (i.e. minimum)."
-  },
-  {
-    "q": "43. In case of a simply supported beam subjected to UDL the maximum shear force occurs at a point",
-    "options": [
-      "support",
-      "centre",
-      "1/3",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "For UDL on a simply supported beam, shear force is maximum at the supports and zero at mid-span."
-  },
-  {
-    "q": "44. Shear force diagram for a cantilever carrying a UDL over its whole length is",
-    "options": [
-      "rectangle",
-      "triangle",
-      "parabola",
-      "cubic parabola"
-    ],
-    "correct": 1,
-    "explain": "SF varies linearly from zero at the free end to wL at the fixed end — a triangle."
-  },
-  {
-    "q": "45. The difference in ordinate of the shear force between any two sections is equal to the area under",
+    "q": "40. The difference in ordinate of the shear force between any two sections is equal to the area under",
     "options": [
       "shear curve between these two sections",
       "load curve between these two sections",
@@ -495,58 +440,14 @@
     "explain": "ΔV between two sections = area under the load intensity diagram between them."
   },
   {
-    "q": "46. In an I section almost all the shear force is taken by",
+    "q": "41. The magnitude of a shear force at a distance of L/4 from either end of a simply supported beam with load P applied at mid span is equal to:",
     "options": [
-      "top flange",
-      "web",
-      "bottom flange",
-      "none of the above"
+      "P",
+      "P/2",
+      "P/4",
+      "P/8"
     ],
     "correct": 1,
-    "explain": "The web carries the vast majority (~90%+) of the transverse shear force in an I-section."
-  },
-  {
-    "q": "47. A Prismatic bar when subjected to pure bending assumes the shape of",
-    "options": [
-      "catenary",
-      "parabola",
-      "cubic parabola",
-      "arc of a circle"
-    ],
-    "correct": 3,
-    "explain": "Under pure (constant) bending moment, a prismatic bar bends into a circular arc of constant curvature."
-  },
-  {
-    "q": "48. If a constant section is subjected to a uniform/pure bending moment throughout, its length bends to",
-    "options": [
-      "circular arc",
-      "parabolic arc",
-      "catenary",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "Constant bending moment produces constant curvature — hence a circular arc."
-  },
-  {
-    "q": "49. A shear force diagram of a simply supported beam shows constant shear force throughout the span. It is subjected to",
-    "options": [
-      "two concentrated loads spaced at points",
-      "a couple at mid span",
-      "a uniformly distributed load",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "A pure applied couple (no other transverse loads) produces a constant shear force with a jump in the moment diagram, but constant SF throughout."
-  },
-  {
-    "q": "50. The shear force on a beam and the displacement are related by",
-    "options": [
-      "V = EI d²y/dx²",
-      "V = EI d³y/dx²",
-      "V = EI d³y/dx³",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "As per the answer key; the standard beam relation is V = EI·d³y/dx³ (third derivative of deflection)."
+    "explain": "Between each support and the mid-span load, the shear force stays constant and equal to the support reaction, P/2."
   }
 ]

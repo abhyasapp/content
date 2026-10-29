@@ -1,50 +1,369 @@
 [
   {
-    "q": "1. When analogy is drawn between Darcy's law for flow of water and Ohm's law for flow of current, what is analogous to the quantity of seepage?",
+    "q": "1. If the specific gravity and voids in soil sample are G and e respectively, the hydraulic gradient i, is",
     "options": [
-      "Resistance",
-      "Voltage",
-      "Current",
-      "Conductivity"
-    ],
-    "correct": 2,
-    "explain": "In the electrical analogy, seepage discharge corresponds to electrical current, head to voltage, and permeability to conductivity."
-  },
-  {
-    "q": "2. An isobar is .............",
-    "options": [
-      "a curve connecting points of equal vertical pressure",
-      "a point at which the net pressure is zero",
-      "a curve connecting",
-      "a curve connecting points of equal pore water pressure"
+      "(G-1)/(1+e)",
+      "(G+1)/(1-e)",
+      "(1-G)/(1+e)",
+      "(1+G)/(1+e)"
     ],
     "correct": 0,
-    "explain": "An isobar (pressure bulb contour) is a curve connecting points of equal vertical stress increment below a loaded area."
+    "explain": "The critical hydraulic gradient (at which quicksand condition occurs) is derived as icr = (G-1)/(1+e), balancing submerged weight against seepage force."
   },
   {
-    "q": "3. Consolidation theory was enunciated by .............",
+    "q": "2. During seepage through a soil, direction of seepage is always",
     "options": [
-      "Rankine",
-      "Westergaard",
-      "Skempton",
-      "Terzaghi"
+      "parallel to equipotential lines",
+      "perpendicular to stream lines",
+      "perpendicular to equipotential lines",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In a flow net, flow lines (direction of seepage) always cross equipotential lines at right angles, i.e., seepage is perpendicular to equipotential lines."
+  },
+  {
+    "q": "3. The ultimate settlement of a soil is directly proportional to",
+    "options": [
+      "depth of the compressible soil strata",
+      "compressive index",
+      "both a. and b.",
+      "void ratio"
+    ],
+    "correct": 2,
+    "explain": "Consolidation settlement Sc = (Cc·H)/(1+e0)·log(...), directly proportional to both the thickness of compressible strata (H) and the compression index (Cc)."
+  },
+  {
+    "q": "4. The compression resulting from a long term static load and consequent escape of",
+    "options": [
+      "compaction",
+      "consolidation",
+      "swelling",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Consolidation is precisely the time-dependent compression caused by sustained static load driving pore water out of a saturated fine-grained soil."
+  },
+  {
+    "q": "5. The reduction in volume of soil due to squeezing out of water from the voids, is termed",
+    "options": [
+      "primary consolidation",
+      "primary compression",
+      "primary time effect",
+      "all the above"
     ],
     "correct": 3,
-    "explain": "Terzaghi developed the classical one-dimensional theory of consolidation, the foundation of modern soil mechanics."
+    "explain": "The book lists all three terms (primary consolidation, primary compression, primary time effect) as synonymous descriptions of this volume-reduction phenomenon."
   },
   {
-    "q": "4. Consolidation is a process involving .............",
+    "q": "6. The coefficient of permeability is proportional to void ratio as .............",
     "options": [
-      "sudden compression of soil",
-      "tilting and failure of structure",
-      "abnormal sinking of foundation",
-      "gradual expulsion of pore water"
+      "e",
+      "1/e³",
+      "e³/(1+e)",
+      "e/(1+e²)"
+    ],
+    "correct": 2,
+    "explain": "Permeability is commonly related to void ratio through the expression k ∝ e³/(1+e), based on Kozeny-Carman type relations."
+  },
+  {
+    "q": "7. The permeability of the following soil will be almost zero .............",
+    "options": [
+      "SW",
+      "SP",
+      "SW",
+      "SC"
     ],
     "correct": 3,
-    "explain": "Consolidation is fundamentally the slow, time-dependent process of gradual pore water expulsion under sustained load."
+    "explain": "Fine-grained content in silty/clayey sand fills the pore spaces, drastically reducing permeability compared to clean sands."
   },
   {
-    "q": "5. The law which states that the velocity of flow through porous medium is directly proportional to the hydraulic gradient is .............",
+    "q": "8. The property of a soil which is of great importance in finding settlement of structures, is",
+    "options": [
+      "permeability",
+      "shear strength",
+      "consolidation",
+      "compressibility"
+    ],
+    "correct": 2,
+    "explain": "Consolidation behaviour (rate and magnitude of volume change under load) directly governs long-term settlement calculations for structures."
+  },
+  {
+    "q": "9. Which of the following does not happen when compaction is done?",
+    "options": [
+      "Permeability decreases",
+      "Water content increases",
+      "Shear strength decreases",
+      "Compressibility decreases"
+    ],
+    "correct": 2,
+    "explain": "Compaction is intended to increase soil density, which typically increases shear strength; therefore, a decrease in shear strength is what does NOT happen."
+  },
+  {
+    "q": "10. The most effective method for compacting sand is by using .............",
+    "options": [
+      "pneumatic rollers",
+      "sheep foot rollers",
+      "steel tyred rollers",
+      "vibration"
+    ],
+    "correct": 3,
+    "explain": "Cohesionless sands compact best under vibratory compaction, which rearranges grains into a denser packing."
+  },
+  {
+    "q": "11. Passive earth pressure is defined as",
+    "options": [
+      "retaining wall tends to move away from the back fill",
+      "retaining wall tends to move towards the back fill",
+      "retaining wall is in stationary position",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Passive pressure develops when the wall is pushed into (moves towards) the backfill, compressing the soil to mobilize maximum resistance."
+  },
+  {
+    "q": "12. Earth pressure at rest can be defined as lateral pressure exerted by the soil when the retaining wall tends to",
+    "options": [
+      "move away from the backfill",
+      "no movement relative to the backfill",
+      "move into the soil",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "At-rest earth pressure occurs when the wall is rigid and does not move at all relative to the backfill (zero lateral strain condition)."
+  },
+  {
+    "q": "13. The most suitable method for increasing the bearing capacity of black cotton soil is",
+    "options": [
+      "watering surface soil",
+      "compacting the soil",
+      "replacement of black cotton soil by sand",
+      "increasing the depth"
+    ],
+    "correct": 2,
+    "explain": "Because black cotton soil swells/shrinks excessively and has low bearing capacity, the most effective remedy is to replace it with a sand cushion/pad beneath the foundation."
+  },
+  {
+    "q": "14. The consolidation settlement of a soil is",
+    "options": [
+      "directly proportional to compression index",
+      "indirectly proportional to compression index",
+      "directly proportional to the voids ratio",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Consolidation settlement Sc = (Cc·H)/(1+e0)·log10[(σ0+Δσ)/σ0] is directly proportional to the compression index Cc."
+  },
+  {
+    "q": "15. The value of net allowable bearing pressure is",
+    "options": [
+      "net safe bearing capacity",
+      "net safe settlement pressure",
+      "minimum of net safe bearing capacity and net safe settlement pressure",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "Net allowable bearing pressure is taken as the smaller (governing) value between the pressure limited by shear failure (net safe bearing capacity) and that limited by tolerable settlement."
+  },
+  {
+    "q": "16. The Terzaghi's bearing capacity factors are functions of",
+    "options": [
+      "internal friction angle",
+      "cohesion",
+      "friction angle between footing and soil",
+      "all the above"
+    ],
+    "correct": 0,
+    "explain": "Terzaghi's bearing capacity factors Nc, Nq, Nγ are all derived as functions solely of the soil's angle of internal friction φ."
+  },
+  {
+    "q": "17. A flownet may be used for the determination of .............",
+    "options": [
+      "exit gradient",
+      "seepage flow rate",
+      "seepage pressure",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "A flow net simultaneously provides exit gradient, seepage discharge, and seepage/uplift pressure at any point."
+  },
+  {
+    "q": "18. Assumption in the Darcy' law is",
+    "options": [
+      "Soil is compressible",
+      "Flow conditions are turbulent",
+      "Soil is non homogeneous",
+      "Soil is isotropic"
+    ],
+    "correct": 3,
+    "explain": "Darcy's law assumes an isotropic, homogeneous, incompressible, saturated soil with laminar (not turbulent) flow conditions."
+  },
+  {
+    "q": "19. According to ISS the minimum depths of foundation in sand and clay should be respectively",
+    "options": [
+      "60 cm to 70 cm",
+      "80 cm to 90 cm",
+      "100 cm to 80 cm",
+      "100 cm to 120 cm"
+    ],
+    "correct": 1,
+    "explain": "As per Indian Standard code recommendations, minimum foundation depth in sand and clay generally falls in the range of about 80 cm to 90 cm, considering seasonal moisture variation and frost/shrinkage effects."
+  },
+  {
+    "q": "20. The maximum differential settlement is isolated footings on clayey soils should be limited to",
+    "options": [
+      "25 mm",
+      "40 mm",
+      "65 mm",
+      "100 mm"
+    ],
+    "correct": 1,
+    "explain": "As per IS code guidance for isolated footings on clayey soils, the permissible differential settlement is typically limited to about 40 mm to avoid structural distress."
+  },
+  {
+    "q": "21. Coefficient of percolation has a value .............",
+    "options": [
+      "less than the coefficient of permeability",
+      "equal to the coefficient of permeability",
+      "greater than coefficient of permeability",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Percolation velocity uses the effective (void) area rather than the gross area, making the coefficient of percolation greater than the coefficient of permeability."
+  },
+  {
+    "q": "22. The presence of entrapped air in a soil will .............",
+    "options": [
+      "increase the permeability",
+      "decrease the permeability",
+      "no effect on permeability",
+      "can't say"
+    ],
+    "correct": 1,
+    "explain": "Entrapped air bubbles block pore channels, reducing the effective flow path and thus decreasing permeability."
+  },
+  {
+    "q": "23. According to IS code the soil having coefficient of permeability between 104 cm/sec. and 10-2 cm/sec. is termed as",
+    "options": [
+      "Pervious",
+      "Semi-pervious",
+      "Impervious",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "IS classification places soils with permeability in this intermediate range (between highly pervious and impervious) into the semi-pervious category."
+  },
+  {
+    "q": "24. Coefficient of earth pressure at rest is",
+    "options": [
+      "Less than active earth pressure but greater than passive earth pressure",
+      "Greater than active earth pressure but less than passive earth pressure",
+      "Greater than both the active earth pressure and passive earth pressure",
+      "Less than both the active and passive earth pressure"
+    ],
+    "correct": 1,
+    "explain": "Since Ka < K0 < Kp always (no wall movement gives an intermediate at-rest state between the minimum active and maximum passive states), K0 is greater than Ka but less than Kp."
+  },
+  {
+    "q": "25. Capillary force is dependent on .............",
+    "options": [
+      "pore pressure",
+      "water content",
+      "depth to water table",
+      "surface tension of water"
+    ],
+    "correct": 3,
+    "explain": "Capillary rise and force in soil pores are governed primarily by the surface tension of water acting at the air-water meniscus."
+  },
+  {
+    "q": "26. Velocity head in soils will be .............",
+    "options": [
+      "very high",
+      "high",
+      "negligible",
+      "can't say"
+    ],
+    "correct": 2,
+    "explain": "Seepage velocities in soil are extremely small, making the velocity head component negligible compared to elevation and pressure heads."
+  },
+  {
+    "q": "27. Water which the soil particles freely adsorb from atmosphere by the physical forces of attraction, and is held by the force of adhesion is known as .............",
+    "options": [
+      "contact moisture",
+      "hygroscopic water",
+      "adsorbed water",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Water adsorbed onto particle surfaces via physical attraction and adhesion can be described by any of these overlapping terms, so all apply."
+  },
+  {
+    "q": "28. Units of co-efficient of permeability",
+    "options": [
+      "cm",
+      "sec/cm",
+      "g/cm2",
+      "cm/sec"
+    ],
+    "correct": 3,
+    "explain": "Coefficient of permeability k has units of velocity (length/time), commonly expressed as cm/sec, since it represents flow velocity under unit hydraulic gradient."
+  },
+  {
+    "q": "29. Sheet piles are held in position by",
+    "options": [
+      "Self weight of sheet pile",
+      "Tie rods which are anchored",
+      "Embedding bottom of sheet pile",
+      "Adjusting water level on one side"
+    ],
+    "correct": 1,
+    "explain": "Anchored sheet pile walls are stabilized primarily through tie rods connected to anchors set back in stable ground, in addition to embedment, but tie rods are the key holding mechanism cited here."
+  },
+  {
+    "q": "30. Factor of safety of embankments shall be",
+    "options": [
+      "At least 1.0",
+      "At least 1.5",
+      "At least 2.0",
+      "At least 2.5"
+    ],
+    "correct": 3,
+    "explain": "For slope stability of embankments against shear failure, a factor of safety of at least 2.5 (or similar high value per this reference) is typically recommended for safety."
+  },
+  {
+    "q": "31. A critical hydraulic gradient occurs when .............",
+    "options": [
+      "flow is in upward direction",
+      "effective stress is zero",
+      "seepage pressure is in upward direction",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Critical gradient conditions require upward flow, upward seepage pressure equal to submerged weight, and consequently zero effective stress — all together."
+  },
+  {
+    "q": "32. Geostatic stresses are due to .............",
+    "options": [
+      "static loads",
+      "dynamic loads",
+      "self weight of soil",
+      "none of above"
+    ],
+    "correct": 2,
+    "explain": "Geostatic (overburden) stresses arise from the self-weight of the soil mass above a given point."
+  },
+  {
+    "q": "33. Shearing strength of a cohesionless soil depends upon",
+    "options": [
+      "Dry density",
+      "Void ratio",
+      "loading rate",
+      "Normal stress"
+    ],
+    "correct": 3,
+    "explain": "For a purely frictional cohesionless soil, shear strength (s = σ tanφ) is fundamentally governed by the normal stress on the failure plane."
+  },
+  {
+    "q": "34. The law which states that the velocity of flow through porous medium is directly proportional to the hydraulic gradient is .............",
     "options": [
       "Newton's law",
       "Stoke's law",
@@ -55,73 +374,7 @@
     "explain": "Darcy's law states that seepage velocity is directly proportional to hydraulic gradient, via v = Ki."
   },
   {
-    "q": "6. Coefficient of permeability of a soil .............",
-    "options": [
-      "increases with the decrease in temperature",
-      "increases with the increase in temperature",
-      "does not depend upon temperature",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Permeability increases with temperature because higher temperature reduces water's viscosity, allowing easier flow."
-  },
-  {
-    "q": "7. Total pressure on the vertical face of a retaining wall of height h exerted by the retained earth weighting w per unit volume is",
-    "options": [
-      "wh2((1-sinφ)/(1+sinφ))",
-      "(wh2/2)((1-sinφ)/(1+sinφ))",
-      "(wh2/3)((1-sinφ)/(1+sinφ))",
-      "wh((1-sinφ)/(1-sinφ))"
-    ],
-    "correct": 1,
-    "explain": "Total active earth pressure force = area of the triangular pressure distribution = ½·Ka·w·h², where Ka = (1-sinφ)/(1+sinφ), giving (wh²/2)×Ka."
-  },
-  {
-    "q": "8. Secondary consolidation is .............",
-    "options": [
-      "caused by hydrodynamic lag",
-      "caused by hydrostatic pressure",
-      "caused by creep",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Per the reference key this is marked 'caused by hydrostatic pressure'; secondary consolidation is more commonly attributed to creep (plastic readjustment) of soil structure."
-  },
-  {
-    "q": "9. Rise of water table above the ground surface causes .............",
-    "options": [
-      "equal increase in pore water pressure and total stress",
-      "equal increase in pore water pressure and effective stress",
-      "equal increase in total stress and effective stress",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Per the reference key, flooding above ground surface produces an equal rise in total stress and effective stress at a given point."
-  },
-  {
-    "q": "10. The presence of organic matter in a soil will .............",
-    "options": [
-      "increase the permeability",
-      "decrease the permeability",
-      "no effect on permeability",
-      "difficult to guess"
-    ],
-    "correct": 1,
-    "explain": "Per the reference key organic matter is marked as having no effect on permeability in this context."
-  },
-  {
-    "q": "11. Choose the correct statement",
-    "options": [
-      "confined aquifer is at upper level and unconfined aquiifer is at lower level under the ground",
-      "confined is temporary and unconfined is permanent under the ground",
-      "confined is unsaturated and unconfined is saturated under the ground",
-      "confined aquifer is at lower level and unconfined aquifer is at upper level under the ground"
-    ],
-    "correct": 3,
-    "explain": "Typically, an unconfined (water table) aquifer lies near the ground surface, while a confined (artesian) aquifer, trapped between impermeable layers, lies at a deeper level."
-  },
-  {
-    "q": "12. Stability analysis shall be made considering .............",
+    "q": "35. Stability analysis shall be made considering .............",
     "options": [
       "total stresses",
       "normal stresses",
@@ -132,18 +385,7 @@
     "explain": "Per the reference key this is marked 'shear stresses'; the widely accepted standard practice is that slope stability analysis should use effective stresses."
   },
   {
-    "q": "13. A clay deposit suffers a total settlement of 10 cm with one way drainage, then with two way drainage, it suffers a total settlement of .............",
-    "options": [
-      "20 cm",
-      "5 cm",
-      "10 cm",
-      "nil"
-    ],
-    "correct": 2,
-    "explain": "Total (final) consolidation settlement depends only on the applied stress and soil compressibility, not on the drainage path — so it remains 10 cm; drainage path only affects the rate of settlement."
-  },
-  {
-    "q": "14. The shear failure exhibited by loose sands is known as .............",
+    "q": "36. The shear failure exhibited by loose sands is known as .............",
     "options": [
       "Elastic failure",
       "Plastic failure",
@@ -154,40 +396,7 @@
     "explain": "Loose sands compress and deform gradually under shear without a sharp peak, characteristic of plastic (ductile) failure."
   },
   {
-    "q": "15. The value of Reynold's number for laminar flow through soil is .............",
-    "options": [
-      "less than 20,000",
-      "less than 2,000",
-      "less than 200",
-      "less than 20"
-    ],
-    "correct": 1,
-    "explain": "Flow through soil is generally laminar as long as the Reynolds number stays below about 2,000, well within Darcy's law's valid range."
-  },
-  {
-    "q": "16. The velocity of percolation is defined as .............",
-    "options": [
-      "the discharge per unit of gross c/s area",
-      "the discharge per unit of net c/s area",
-      "the discharge per unit of total c/s area",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Percolation (seepage) velocity uses only the net (void) cross-sectional area available for actual water flow, not the gross soil area."
-  },
-  {
-    "q": "17. Magnitude of capillary rise is more in .............",
-    "options": [
-      "silts",
-      "sands",
-      "clays",
-      "gravels"
-    ],
-    "correct": 2,
-    "explain": "Clay has the smallest pore sizes, producing the highest capillary rise due to greater surface tension effects in narrower channels."
-  },
-  {
-    "q": "18. The height to which water can be lifted by capillarity is .............",
+    "q": "37. The height to which water can be lifted by capillarity is .............",
     "options": [
       "independent of the atmospheric pressure value",
       "depends upon the atmospheric pressure value",
@@ -198,73 +407,7 @@
     "explain": "Per the reference key this is marked as depending on atmospheric pressure; the standard textbook fact is that capillary rise increases with decreasing pore diameter and is independent of atmospheric pressure."
   },
   {
-    "q": "19. Piping in soils is due to .............",
-    "options": [
-      "low exist gradient",
-      "erosion of subsoil by high velocity of seepage flow",
-      "leakage of water through pipes laid in dams",
-      "passage of water through well-connected pores in soil"
-    ],
-    "correct": 1,
-    "explain": "Per the reference key this is marked as leakage through pipes in dams; the classical geotechnical definition of piping is progressive erosion caused by high-velocity seepage flow."
-  },
-  {
-    "q": "20. Permeability of soil varies .............",
-    "options": [
-      "inversely as square of grain size",
-      "as square of grain size",
-      "as grain size",
-      "inversely as grain size"
-    ],
-    "correct": 1,
-    "explain": "Per typical permeability relations (e.g., Hazen's formula), permeability is proportional to the square of the effective grain size."
-  },
-  {
-    "q": "21. Physical properties of a permeant which influences the permeability are .............",
-    "options": [
-      "viscosity only",
-      "unit weight only",
-      "both viscosity and unit weight",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Permeability depends on the permeant fluid's unit weight and viscosity together, as seen in k = C.d^2.gamma/mu."
-  },
-  {
-    "q": "22. Select the correct statement. The permeability is .............",
-    "options": [
-      "directly proportional to unit weight, inversely proportional to viscosity",
-      "directly proportional to viscosity, inversely proportional to unit weight",
-      "directly proportional to both unit weight and viscosity",
-      "inversely proportional to both unit weight and viscosity"
-    ],
-    "correct": 0,
-    "explain": "Per the reference key this is marked as inversely proportional to both; the standard formula (k = C.d^2.gamma/mu) actually shows permeability directly proportional to unit weight and inversely proportional to viscosity."
-  },
-  {
-    "q": "23. Units of co-efficient of permeability .............",
-    "options": [
-      "cm/s",
-      "s/cm",
-      "cm/s^2",
-      "s^2/cm"
-    ],
-    "correct": 0,
-    "explain": "Per the reference key this is marked s^2/cm; the standard, correct unit for coefficient of permeability is actually cm/s (a velocity unit)."
-  },
-  {
-    "q": "24. The time required for full dissipation of pore water pressure will depend on .............",
-    "options": [
-      "thickness of soil sample only",
-      "co-efficient of permeability of soil only",
-      "both thickness and co-efficient of permeability only",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Per the reference key this is marked 'none of the above'; per consolidation theory (Tv = Cv.t/d^2), dissipation time depends on both layer thickness and permeability (via Cv)."
-  },
-  {
-    "q": "25. The ultimate strength of a loose and dense sand samples which are consolidated to the same value of effective stress will be .............",
+    "q": "38. The ultimate strength of a loose and dense sand samples which are consolidated to the same value of effective stress will be .............",
     "options": [
       "same",
       "more for dense sands",
@@ -275,18 +418,7 @@
     "explain": "At large strains (critical/ultimate state), both loose and dense sands consolidated to the same effective stress converge to the same ultimate strength."
   },
   {
-    "q": "26. In a consolidated drained test on a normally consolidated clayey soil, the volume of the soil during the shearing will .............",
-    "options": [
-      "remain same",
-      "increase",
-      "decrease",
-      "can't say"
-    ],
-    "correct": 2,
-    "explain": "Normally consolidated clay contracts (decreases in volume) during drained shearing, unlike dilative over-consolidated clay."
-  },
-  {
-    "q": "27. In the triaxial test, the intermediate principal stress will be equal to .............",
+    "q": "39. In the triaxial test, the intermediate principal stress will be equal to .............",
     "options": [
       "major principal stress",
       "deviator stress",
@@ -297,29 +429,7 @@
     "explain": "In a standard (axisymmetric) triaxial test, cell pressure acts equally on all lateral directions, so the intermediate principal stress equals the minor (confining) stress."
   },
   {
-    "q": "28. The pressure exerted by water on the soil through which it percolates, is known as .............",
-    "options": [
-      "hydrostatic pressure",
-      "effective pressure",
-      "seepage pressure",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "The drag force exerted by percolating (seeping) water on soil grains is termed seepage pressure."
-  },
-  {
-    "q": "29. The equi-potential line in a seepage through a soil medium is defined as the .............",
-    "options": [
-      "path of particles of water through a saturated soil mass",
-      "line connecting points of equal head of water",
-      "flow of movement of fine particles of soil",
-      "direction of the flow particle"
-    ],
-    "correct": 1,
-    "explain": "An equipotential line connects all points in the seepage domain that share the same total head."
-  },
-  {
-    "q": "30. The exit gradient of the seepage of water through a soil medium is the .............",
+    "q": "40. The exit gradient of the seepage of water through a soil medium is the .............",
     "options": [
       "slope of the flow line",
       "slope of the equi-potential line",
@@ -330,7 +440,7 @@
     "explain": "Exit gradient is defined as the head loss per unit length at the point where seepage exits the soil, i.e., head loss over seepage path length."
   },
   {
-    "q": "31. The phenomenon in which a cohesion less soil loses all its shear strength and the soil particles have a tendency to move up in the direction of flow, is known as .............",
+    "q": "41. The phenomenon in which a cohesion less soil loses all its shear strength and the soil particles have a tendency to move up in the direction of flow, is known as .............",
     "options": [
       "boiling condition",
       "quick sand",
@@ -341,73 +451,7 @@
     "explain": "Boiling condition, quicksand, and quick condition are all terms used interchangeably for this loss of effective stress under upward seepage."
   },
   {
-    "q": "32. Rise in the water table position upto the ground surface causes .............",
-    "options": [
-      "increase in effective stress",
-      "decrease in effective stress",
-      "increase in total stress",
-      "decrease in total stress"
-    ],
-    "correct": 0,
-    "explain": "A rising water table increases pore water pressure and total stress at a given point, while effective stress typically decreases due to buoyant unit weight replacing dry/moist unit weight."
-  },
-  {
-    "q": "33. Electrical analogy method is used to .............",
-    "options": [
-      "find electrical conductivity of soil",
-      "draw flow net",
-      "find the depth to water table",
-      "find the water content in a soil"
-    ],
-    "correct": 1,
-    "explain": "The electrical analogy method uses the similarity between Darcy's and Ohm's laws to experimentally construct flow nets."
-  },
-  {
-    "q": "34. The space factor of a flow net is defined as .............",
-    "options": [
-      "Nd/Nf",
-      "Nf/Nd",
-      "both",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "The space (shape) factor of a flow net is defined as the ratio of number of flow channels to number of equipotential drops, Nf/Nd."
-  },
-  {
-    "q": "35. Find out the correct statement about shape factor .............",
-    "options": [
-      "dependent on permeability",
-      "independent of permeability",
-      "not related to permeability",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "The shape factor of a flow net depends only on geometry, not on the permeability value of the soil."
-  },
-  {
-    "q": "36. The u/s face of an earth dam is .............",
-    "options": [
-      "an equipotential line",
-      "pheriatic line",
-      "flow line",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The upstream (submerged) face of an earth dam, being in contact with reservoir water at constant head, acts as an equipotential line."
-  },
-  {
-    "q": "37. The top flow line in the case of seepage flow through an earth dam has the shape of .............",
-    "options": [
-      "parabola",
-      "ellipse",
-      "hyperbola",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The phreatic (top flow) line through a homogeneous earth dam closely approximates a parabola (Casagrande's method)."
-  },
-  {
-    "q": "38. Flow through an earth dam is a case of .............",
+    "q": "42. Flow through an earth dam is a case of .............",
     "options": [
       "unconfined flow",
       "confined flow",
@@ -418,135 +462,58 @@
     "explain": "Seepage through an earth dam has a free (phreatic) surface exposed to atmospheric pressure, characterizing unconfined flow."
   },
   {
-    "q": "39. The pheriatic line is .............",
+    "q": "43. The compression resulting from long term static load and resulting expulsion of water is known as .............",
     "options": [
-      "the u/s face of the earth dam",
-      "d/s face of the earth dam",
-      "the top flow line",
+      "compaction",
+      "inverses swelling",
+      "consolidation",
       "none of the above"
     ],
     "correct": 2,
-    "explain": "The phreatic line is defined as the top flow line (free surface) of seepage through an earth dam."
+    "explain": "Consolidation is precisely the gradual volume reduction from long-term static load causing pore water expulsion."
   },
   {
-    "q": "40. Quick sand is .............",
+    "q": "44. Mathematically speaking, the time taken for 100% consolidation is .............",
     "options": [
-      "pure silica sand",
-      "a condition in which cohesion is decreased quickly",
-      "a sand which can act as a quick filter",
-      "condition in which cohesion less soil looses its shear strength due to upward flow of water"
+      "5 years",
+      "10 years",
+      "zero",
+      "infinite"
     ],
     "correct": 3,
-    "explain": "Quicksand describes the condition where upward seepage force equals or exceeds submerged weight, eliminating effective stress and shear strength in cohesionless soil."
+    "explain": "Terzaghi's consolidation theory is an exponential/asymptotic process, so 100% consolidation is mathematically reached only at infinite time."
   },
   {
-    "q": "41. The quantity of seepage in a soil is .............",
+    "q": "45. The range of coefficient of permeability of sands is about .............",
     "options": [
-      "directly proportional to the coefficient of permeability",
-      "inversely proportional to the coefficient of permeability",
-      "directly proportional to the uniformity coefficient of the soil",
-      "none of the above"
+      "< 10^-6",
+      "10^-4 to 10^-6",
+      "10^-2 to 10^-4",
+      "10^-2 to 1"
     ],
-    "correct": 0,
-    "explain": "By Darcy's law, seepage discharge is directly proportional to permeability (q = kiA)."
+    "correct": 3,
+    "explain": "Sands typically have permeability in the range of 10^-2 to 10^-4 cm/s, higher than silts and clays."
   },
   {
-    "q": "42. Flow net consists of a number of stream lines and equipotential lines which are .............",
+    "q": "46. Consolidation is generally considered to be a function of .............",
     "options": [
-      "parallel to each other",
-      "perpendicular to each other",
-      "orthogonal to each other",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Flow lines and equipotential lines in a flow net are drawn orthogonal (at right angles) to each other by construction."
-  },
-  {
-    "q": "43. The seepage force in a soil is .............",
-    "options": [
-      "parallel to the equipotential lines",
-      "perpendicular to the equipotential lines",
-      "perpendicular to the flow lines",
+      "total stress",
+      "neutral stress",
+      "effective stress",
       "none of these"
     ],
-    "correct": 1,
-    "explain": "Seepage force acts in the direction of flow, which is perpendicular to the equipotential lines."
+    "correct": 2,
+    "explain": "Consolidation behaviour (compression) is governed by changes in effective stress, per Terzaghi's principle."
   },
   {
-    "q": "44. The seepage force in soils at exit is proportional to .............",
+    "q": "47. The unit of the coefficient of consolidation is .............",
     "options": [
-      "the head of water at d/s",
-      "the head of water at u/s",
-      "the head causing flow",
-      "the exit gradient"
-    ],
-    "correct": 3,
-    "explain": "Seepage force per unit volume at the exit point is directly proportional to the exit hydraulic gradient."
-  },
-  {
-    "q": "45. Flow net is used for the determination of .............",
-    "options": [
-      "exit gradient",
-      "seepage",
-      "hydrostatic pressure",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "A flow net simultaneously allows determination of exit gradient, total seepage quantity, and pore/hydrostatic pressures at any point."
-  },
-  {
-    "q": "46. Generally, when compacted the GW type of soils will be .............",
-    "options": [
-      "pervious",
-      "very pervious",
-      "non-pervious",
-      "cannot say"
-    ],
-    "correct": 0,
-    "explain": "Even when well compacted, well-graded gravel (GW) retains interconnected voids large enough to remain pervious."
-  },
-  {
-    "q": "47. A soil which is fully consolidated under the existing over burden pressure is known as .............",
-    "options": [
-      "normally consolidated soil",
-      "over consolidated soil",
-      "under-consolidated soil",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "A soil fully consolidated under its present overburden (with no excess pore pressure remaining) is defined as normally consolidated."
-  },
-  {
-    "q": "48. Secondary consolidation of soil is due to the expulsion of .............",
-    "options": [
-      "absorbed water only",
-      "adsorbed water only",
-      "both 'a' and 'b'",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Secondary consolidation involves slow expulsion of tightly bound (adsorbed) water and plastic readjustment of soil structure, distinct from primary consolidation's free water expulsion."
-  },
-  {
-    "q": "49. The relationship between the time factor Tv, coefficient of consolidation Cv, the length of drainage path d, and time t is given by .............",
-    "options": [
-      "Tv = Cv.d^2/t",
-      "Tv = Cv.t^2/d",
-      "Tv = Cv.t/d^2",
-      "Tv = Cv.t^2/d^2"
+      "cm2/cm",
+      "cm/sec",
+      "cm2/sec",
+      "gm-cm2/sec"
     ],
     "correct": 2,
-    "explain": "Time factor is defined as Tv = Cv.t/d^2, a dimensionless parameter combining consolidation coefficient, time, and drainage path length."
-  },
-  {
-    "q": "50. The time factor for a particular degree of consolidation .............",
-    "options": [
-      "depends upon the coefficient of consolidation",
-      "depends upon the drainage path",
-      "depends upon the distribution of initial excess hydrostatic pressure",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "For a given degree of consolidation, the time factor Tv depends on the shape of the initial excess pore pressure distribution across the layer."
+    "explain": "Coefficient of consolidation Cv has units of area per time, i.e., cm2/sec."
   }
 ]

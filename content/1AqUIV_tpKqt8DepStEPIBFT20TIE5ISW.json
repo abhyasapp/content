@@ -1,6 +1,215 @@
 [
   {
-    "q": "1. Which of the following is the correct statement for dimensioning a view?",
+    "q": "1. Which of the following methods is not used for drawing elliptical curves?",
+    "options": [
+      "Intersecting arcs method",
+      "Concentric circles method",
+      "Oblong method",
+      "Tangent method"
+    ],
+    "correct": 3,
+    "explain": "Ellipses are commonly constructed by the intersecting-arcs, concentric-circles, or oblong (rectangle) methods; there is no standard 'tangent method' for drawing an ellipse."
+  },
+  {
+    "q": "2. In case of aligned method of dimensioning, they can be readable form .............",
+    "options": [
+      "bottoms and right side of drawing sheet",
+      "bottoms and left side of drawing sheet",
+      "bottoms and top side of drawing sheet",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "In the aligned system, dimensions are placed so they can be read from the bottom edge and the right-hand edge of the drawing sheet."
+  },
+  {
+    "q": "3. To facilitate extension, entries in the table should begin form .............",
+    "options": [
+      "bottom to upward",
+      "top to downward",
+      "horizontal",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Tables designed for future additions are conventionally filled starting from the bottom row upward, leaving room to extend entries above as needed."
+  },
+  {
+    "q": "4. In full sectional view, the object is imagined to be cut off .............",
+    "options": [
+      "one third",
+      "one half",
+      "one forth",
+      "one fifth"
+    ],
+    "correct": 1,
+    "explain": "A full section is obtained by passing a cutting plane completely through the object, conceptually removing (cutting away) one half of it to reveal the interior."
+  },
+  {
+    "q": "5. The lines which are drawn to represent visible edges and surface boundaries of objects are called ............",
+    "options": [
+      "outlines",
+      "principle lines",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Visible edges are represented by continuous thick lines known as object lines, outlines, or principal lines."
+  },
+  {
+    "q": "6. The unseen/inner edge of an object is represented by",
+    "options": [
+      "solid line",
+      "dotted line",
+      "hatch line",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Similar to hidden lines, these are represented by short dashes (often referred to as 'dotted' in older textbooks)."
+  },
+  {
+    "q": "7. Dimension lines and projection line in the drawing are shown by .............",
+    "options": [
+      "dotted thin line",
+      "continuous thin line",
+      "continuous thick line",
+      "zig-zag thin line"
+    ],
+    "correct": 1,
+    "explain": "As per drawing conventions, both dimension lines and projection (extension) lines are drawn as continuous thin lines, distinguishing them from thick outlines and dashed hidden lines."
+  },
+  {
+    "q": "8. System of placing dimension on a drawing work is .............",
+    "options": [
+      "aligned",
+      "unidirectional",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Dimensions can be placed using either the aligned system (figures aligned with the dimension line) or the unidirectional system (figures always read from the bottom); both are recognized methods."
+  },
+  {
+    "q": "9. Hatching line is a line which makes an angle of 45 degree with",
+    "options": [
+      "horizontal",
+      "vertical",
+      "main line of the section",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Hatching (section lines) should be drawn at $45^{\\circ}$ relative to the main boundaries or center lines of the object."
+  },
+  {
+    "q": "10. Art of writing title, notes etc. on a drawing is called .............",
+    "options": [
+      "font",
+      "lettering",
+      "title block",
+      "sheet"
+    ],
+    "correct": 1,
+    "explain": "The skill/art of writing titles, notes, and dimensions on engineering drawings in a standardized, legible style is called lettering."
+  },
+  {
+    "q": "11. Working drawing is prepared not for .............",
+    "options": [
+      "bill of quantities",
+      "estimation",
+      "layout",
+      "specification"
+    ],
+    "correct": 3,
+    "explain": "Working drawings are used to prepare bills of quantities, cost estimation, and construction layout on site, but they themselves are drawings, not written specifications (specifications are a separate document)."
+  },
+  {
+    "q": "12. The locus of a point lying on the circumference of the circle which rolls on a straight line is known as .............",
+    "options": [
+      "cycloid",
+      "hypocycloid",
+      "epicycloid",
+      "circle"
+    ],
+    "correct": 0,
+    "explain": "A cycloid is, by definition, the curve traced by a point on the circumference of a circle as it rolls without slipping along a straight line."
+  },
+  {
+    "q": "13. The locus of a point is a ......... when it moves in a plane in such a way that its distance from a fixed line is always a constant.",
+    "options": [
+      "parabola",
+      "ellipse",
+      "circle",
+      "straight line"
+    ],
+    "correct": 3,
+    "explain": "A point that maintains a constant perpendicular distance from a fixed line traces a straight line parallel to it."
+  },
+  {
+    "q": "14. When two graphic entities are at a constant distance apart along the length, commonly referred to as .............",
+    "options": [
+      "concentricity",
+      "parallelism",
+      "perpendicularity",
+      "chordality"
+    ],
+    "correct": 1,
+    "explain": "Two entities maintaining a constant distance apart along their length are, by geometric definition, described as parallel to each other — hence 'parallelism.'"
+  },
+  {
+    "q": "15. CAD in engineering drawing represent for:",
+    "options": [
+      "calculation and design",
+      "computer and design",
+      "computer aided design",
+      "computer aided dimension"
+    ],
+    "correct": 2,
+    "explain": "CAD stands for Computer Aided Design."
+  },
+  {
+    "q": "16. The regular polygon called nonagon has ....... members of equal sides:",
+    "options": [
+      "6",
+      "9",
+      "5",
+      "11"
+    ],
+    "correct": 1,
+    "explain": "A nonagon is a nine-sided regular polygon, with nine equal sides."
+  },
+  {
+    "q": "17. Name the curve traced out by a point moving in a place such that the difference between its distances from two fixed points is constant .............",
+    "options": [
+      "ellipse",
+      "parabola",
+      "hyperbola",
+      "any of these"
+    ],
+    "correct": 2,
+    "explain": "By definition, a hyperbola is the locus of points where the difference (not sum) of distances from two fixed foci remains constant."
+  },
+  {
+    "q": "18. Dimension lines and projection lines are shown as .............",
+    "options": [
+      "continuous thin lines",
+      "continuous thick lines",
+      "continuous thin lines with zig zag",
+      "continuous thin and wary lines"
+    ],
+    "correct": 0,
+    "explain": "As per standard line conventions, both dimension lines and projection (extension) lines are drawn as continuous thin lines."
+  },
+  {
+    "q": "19. The two recommended systems of placing the dimensions are .............",
+    "options": [
+      "unidirectional and aligned systems",
+      "upright and inclined systems",
+      "linear and oblique systems",
+      "linear and inclined systems"
+    ],
+    "correct": 0,
+    "explain": "The two standard, recommended methods for orienting and reading dimension figures on a drawing are the aligned system and the unidirectional system."
+  },
+  {
+    "q": "20. Which of the following is the correct statement for dimensioning a view?",
     "options": [
       "All of them should be placed within a view",
       "All of them should be placed close to the parts being dimensioned",
@@ -11,18 +220,7 @@
     "explain": "Good dimensioning practice requires dimensions to be taken/marked from visible outlines rather than from hidden (dashed) lines, since hidden-line dimensions are less reliable and clear."
   },
   {
-    "q": "2. The dimension lines are marked in a building drawing with .............",
-    "options": [
-      "arrows",
-      "ticks or dots",
-      "arrows or ticks",
-      "arrows or dots"
-    ],
-    "correct": 2,
-    "explain": "In building drawings, dimension line terminators are conventionally shown using either arrowheads or oblique ticks (short diagonal strokes), so 'arrows or ticks' is correct."
-  },
-  {
-    "q": "3. The line connecting a view to note is called .............",
+    "q": "21. The line connecting a view to note is called .............",
     "options": [
       "dimension line",
       "projection line",
@@ -33,7 +231,7 @@
     "explain": "A leader line is a thin line (often ending in an arrowhead or dot) used to connect a note, label, or dimension to the specific feature it refers to on the drawing."
   },
   {
-    "q": "4. Which type of line has precedence over all other types of lines?",
+    "q": "22. Which type of line has precedence over all other types of lines?",
     "options": [
       "A hidden line",
       "A center line",
@@ -44,18 +242,7 @@
     "explain": "Per line-precedence conventions in drafting, a visible (continuous, outline) line always takes precedence over hidden lines and center lines when they coincide on a drawing."
   },
   {
-    "q": "5. In an engineering drawing, dimension should be expressed in .............",
-    "options": [
-      "any number of unit",
-      "one unit only",
-      "maximum of two units only",
-      "maximum of three units only"
-    ],
-    "correct": 1,
-    "explain": "For clarity and consistency, engineering drawing convention requires all dimensions on a single drawing to be expressed in one unit only (typically millimeters), avoiding mixed units."
-  },
-  {
-    "q": "6. Which of following publications made by Bureau of Indian Standards includes standard techniques for line conventions and lettering in detail?",
+    "q": "23. Which of following publications made by Bureau of Indian Standards includes standard techniques for line conventions and lettering in detail?",
     "options": [
       "SP 46",
       "BIS 9609",
@@ -66,40 +253,7 @@
     "explain": "SP 46 (Engineering Drawing Practice for Schools and Colleges), published by the Bureau of Indian Standards, is the comprehensive reference document detailing line conventions, lettering standards, and other drawing practices."
   },
   {
-    "q": "7. Center lines are drawn as .............",
-    "options": [
-      "continuous narrow lines",
-      "dashed narrow line",
-      "long-dashed dotted narrow line",
-      "long-dashed double dotted narrow line"
-    ],
-    "correct": 2,
-    "explain": "As per standard line-type conventions, center lines are drawn as long-dashed dotted (chain) narrow lines, distinguishing them visually from continuous outlines and dashed hidden lines."
-  },
-  {
-    "q": "8. Which of the following is not a specified method for dimensioning?",
-    "options": [
-      "Parallel dimensioning",
-      "Perpendicular dimensioning",
-      "Continuous Dimensioning",
-      "Dimensioning by coordinates"
-    ],
-    "correct": 1,
-    "explain": "Standard dimensioning methods include parallel (chain from a common baseline), continuous (chain, end-to-end), and coordinate dimensioning; 'perpendicular dimensioning' is not a recognized standard method."
-  },
-  {
-    "q": "9. Rounded interior corner is called .............",
-    "options": [
-      "round",
-      "chamfer",
-      "fillet",
-      "countersink"
-    ],
-    "correct": 2,
-    "explain": "A fillet is the term for a rounded interior corner (concave curve) at the junction of two surfaces, as opposed to a 'round' which refers to a rounded exterior/convex corner."
-  },
-  {
-    "q": "10. Working drawing are also referred to as .............",
+    "q": "24. Working drawing are also referred to as .............",
     "options": [
       "concept design drawing",
       "design drawing",
@@ -110,18 +264,7 @@
     "explain": "Working drawings, being the detailed drawings used directly for building/manufacturing, are also commonly referred to as construction drawings."
   },
   {
-    "q": "11. The drawing constructed after completion of the construction work is .............",
-    "options": [
-      "working drawing",
-      "concept drawing",
-      "as built drawing",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "An as-built drawing is specifically prepared after construction is complete, recording the actual final condition of the built structure, including any deviations from the original design."
-  },
-  {
-    "q": "12. Section lining is drawn with line at .............",
+    "q": "25. Section lining is drawn with line at .............",
     "options": [
       "15°",
       "30°",
@@ -132,18 +275,7 @@
     "explain": "As per standard hatching conventions, section lining (hatching) is typically drawn at 45° to the main outline/axis of the sectioned part."
   },
   {
-    "q": "13. Working drawings are prepared at the stage of .............",
-    "options": [
-      "feasibility study",
-      "conceptual design",
-      "detail design",
-      "construction supervision"
-    ],
-    "correct": 2,
-    "explain": "Working drawings, containing full dimensions and construction details, are produced during the detail design stage, after the concept has been finalized and before construction execution."
-  },
-  {
-    "q": "14. The set of technical drawings used during the manufacturing phase of a product including civil construction are known as .............",
+    "q": "26. The set of technical drawings used during the manufacturing phase of a product including civil construction are known as .............",
     "options": [
       "guideline drawing",
       "structural drawing",
@@ -154,7 +286,7 @@
     "explain": "Working drawings are, by definition, the complete technical drawing set used during the actual manufacturing/construction phase of a product or building."
   },
   {
-    "q": "15. Hatching line is a line which makes an angle of 45° with .............",
+    "q": "27. Hatching line is a line which makes an angle of 45° with .............",
     "options": [
       "horizontal",
       "vertical",
@@ -165,7 +297,18 @@
     "explain": "Standard hatching convention draws section lines at 45° to the main outline or principal axis of the sectioned component, rather than to a fixed horizontal/vertical reference."
   },
   {
-    "q": "16. The representation of any matter by some sign or marks on the drawing is known as .............",
+    "q": "28. Which of the following curves obeys the Boyle's law?",
+    "options": [
+      "Ellipse",
+      "Parabola",
+      "Hyperbola",
+      "Circle"
+    ],
+    "correct": 3,
+    "explain": "Boyle's Law (pressure × volume = constant, at constant temperature) describes an inverse relationship (PV=k), which graphically corresponds to a rectangular hyperbola."
+  },
+  {
+    "q": "29. The representation of any matter by some sign or marks on the drawing is known as .............",
     "options": [
       "lettering",
       "title block",
@@ -174,16 +317,5 @@
     ],
     "correct": 2,
     "explain": "Standardized signs, symbols, or marks used to represent specific materials, features, or information on a drawing are collectively called conventions."
-  },
-  {
-    "q": "17. Minimum area of opening for natural ventilation in patient room of hospital and class room is ............. of room area.",
-    "options": [
-      "1/5",
-      "1/6",
-      "1/7",
-      "1/8"
-    ],
-    "correct": 1,
-    "explain": "Building ventilation norms in this reference specify that the minimum openable area for natural ventilation in hospital patient rooms and classrooms should be at least 1/6 of the room's floor area."
   }
 ]

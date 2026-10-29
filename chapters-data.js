@@ -592,9 +592,9 @@ const DRIVE = {
         "All": "1FJR2g_0O4JsCQy2Q1MUN3e_8Ta310YjL"
       },
       "3.8 Original Questions": {
-        "DPARSAD.1-70": "1h3NQ9AL7DSx-5K3uU7XSb9Q7CvPiRwPD",
-        "DPARSAD.141-228": "1ulh8RD7_hHeBUyrRD95kW_bgyvKQsk51",
-        "DPARSAD.71-140": "1mgOsZkjGqWZ1AOhu1oQ6ZWtIOA-R3RwS",
+        "Dprasad.1-70": "1h3NQ9AL7DSx-5K3uU7XSb9Q7CvPiRwPD",
+        "Dprasad.141-228": "1ulh8RD7_hHeBUyrRD95kW_bgyvKQsk51",
+        "Dprasad.71-140": "1mgOsZkjGqWZ1AOhu1oQ6ZWtIOA-R3RwS",
         "Sunil Sah": "1pUm2R7pXdID7pjlTvmRlDui7FfltBr0x",
         "Sunil Sah (2)": "1b4NXQw7DeiADVpjEoAfrien4treBAhbF",
         "Sunil Sah (3)": "1bUTZE558TRwHny7bIKVt5O0rDNOfAYUo",
@@ -655,11 +655,11 @@ const DRIVE = {
         "All": "1CYuU8BkfvWl7HG1LhofnwedO18Wz-obU"
       },
       "4.13 Original Questions": {
-        "DPARSAD.350-455": "1K1C4cyYliqsH84pwlxrBmux8HNUtv9Ra",
-        "DPARSAD.1-100": "1yXZHd56UGxIi5RGl4XA-600dDaq8PpDR",
-        "DPARSAD.101-175": "14zRkZBGZnFXkxGylMqplHxDgq53CWayc",
-        "DPARSAD.175-250": "1TzBMpOzm-Qp5-yqB5T7y7J3cS06Kt8vs",
-        "DPARSAD.251-350": "1jw4nzypzxqQo7xO9JcRUUtyVL1U6kbDq",
+        "Dprasad.350-455": "1K1C4cyYliqsH84pwlxrBmux8HNUtv9Ra",
+        "Dprasad.1-100": "1yXZHd56UGxIi5RGl4XA-600dDaq8PpDR",
+        "Dprasad.101-175": "14zRkZBGZnFXkxGylMqplHxDgq53CWayc",
+        "Dprasad.175-250": "1TzBMpOzm-Qp5-yqB5T7y7J3cS06Kt8vs",
+        "Dprasad.251-350": "1jw4nzypzxqQo7xO9JcRUUtyVL1U6kbDq",
         "RK SHRESTHA.1-77": "1oGLIdes_EzZHxP43jZ_hyge25tTnJJ87",
         "RK SHRESTHA.78-154": "1Iu7aiQBT7gl1B1iZQuRe0uROkct5ILqM",
         "RK SHRESTHA.155-231": "1qZwLo-rZKd20FsDMy3fIcuoYp5EX8C4y",
@@ -713,11 +713,11 @@ const DRIVE = {
         "All": "1J6EQe64MHWL9zY5h_QBNIIUxaqyOmqq2"
       },
       "5.11 Original Questions": {
-        "DPARSAD.255-350": "1Z-kyfriVVY8ROCOK7_jrzVg2SuL2xP29",
-        "DPARSAD.101-175": "1xXcFMVIymWnuTOJF-nh9SSJzuXNQYfWr",
-        "DPARSAD.176-255": "1-XkoaqH9T6hRKec8j-dfuJwPKQDKYpFt",
-        "DPARSAD.1-100": "1v1LXYwzNF2TafCQKunBOrxl_UHn8W7NO",
-        "DPARSAD.351-447": "1jTaYfKLulzd7heCGJc4BLR5kaaQA0mX2",
+        "Dprasad.255-350": "1Z-kyfriVVY8ROCOK7_jrzVg2SuL2xP29",
+        "Dprasad.101-175": "1xXcFMVIymWnuTOJF-nh9SSJzuXNQYfWr",
+        "Dprasad.176-255": "1-XkoaqH9T6hRKec8j-dfuJwPKQDKYpFt",
+        "Dprasad.1-100": "1v1LXYwzNF2TafCQKunBOrxl_UHn8W7NO",
+        "Dprasad.351-447": "1jTaYfKLulzd7heCGJc4BLR5kaaQA0mX2",
         "RK SHRESTHA.1-75": "149Jiv13N8z5n2UdmhfE8RaXnGiQPz21z",
         "RK SHRESTHA.151-225": "1MKSdWQ_63uRElC6Zlr4cMIru1csvwEdQ",
         "RK SHRESTHA.226-300": "1rDmevr2rOcf894F7agAPNtN_ku6i8HWU",
@@ -765,14 +765,14 @@ const DRIVE = {
         "part 1": "1qZqGf-yaaXuR-ompna0VuyIQ2H0BR6lE"
       },
       "6.9 Original Questions": {
-        "DPARSAD.201-250": "1hAP5zyfL5MaK1EqS_J-ZSWQXAX3J0UOB",
-        "DPARSAD.250-300": "1sRb5evs5CLiK0xDn6wHP0qQmi2sY8f4s",
-        "DPARSAD.301-350": "1Bug0gYU7UcILpX9je5xtgfWfHZIEN4W6",
-        "DPARSAD.350-405": "1UoQ5GoTD_ggx9AJqAaqYgfLARb10pqOp",
-        "DPARSAD.1-50": "1jhAs_3b61Cn6YjY45hHqwO2ceJuygbr_",
-        "DPARSAD.101-150": "13T28p8WnYFPqNguu_4YsRnFJ5zOlaQ5B",
-        "DPARSAD.151-200": "1OjdrC5yQ4x8jTijTNm6VmOWG5bqoBpQ5",
-        "DPARSAD.50-100": "11UWRoG-JKMxE28HF44iUGYidJ46XIi17",
+        "Dprasad.201-250": "1hAP5zyfL5MaK1EqS_J-ZSWQXAX3J0UOB",
+        "Dprasad.250-300": "1sRb5evs5CLiK0xDn6wHP0qQmi2sY8f4s",
+        "Dprasad.301-350": "1Bug0gYU7UcILpX9je5xtgfWfHZIEN4W6",
+        "Dprasad.350-405": "1UoQ5GoTD_ggx9AJqAaqYgfLARb10pqOp",
+        "Dprasad.1-50": "1jhAs_3b61Cn6YjY45hHqwO2ceJuygbr_",
+        "Dprasad.101-150": "13T28p8WnYFPqNguu_4YsRnFJ5zOlaQ5B",
+        "Dprasad.151-200": "1OjdrC5yQ4x8jTijTNm6VmOWG5bqoBpQ5",
+        "Dprasad.50-100": "11UWRoG-JKMxE28HF44iUGYidJ46XIi17",
         "RK SHRESTHA.1-80": "1ogn7X2qg57YbNVu_ExzsW4aas-8TKEU_",
         "RK SHRESTHA.161-240": "1GgimqtgDGbUjdXAVP6J4KXdfEx5NcFhF",
         "RK SHRESTHA.81-160": "1EaAqgiwXjaXsiwP9NBB2Vn07RhIBfPTZ",
@@ -873,15 +873,15 @@ const DRIVE = {
         "All": "1NnZbn4knlrjOPqgJgvh0tNLxvUsCXqIR"
       },
       "8.11 Original Questions": {
-        "DPARSAD.150-200": "18HnjG1-leT6OXk5mYPGTJluMw2yiFUEy",
-        "DPARSAD.100-150": "1KY9GTqB8sTJpGha_JnYYE9Pvnnzotf9h",
-        "DPARSAD.200-205": "1KA-3P2cmmQKQRmr_-UU74ik_MmNsJ8F2",
-        "DPARSAD.1-100": "1IYG4gFrvXBJ8n2kJRFL1UCRZdUOZsZCv",
-        "DPARSAD.50-100": "1981sMj5WNTZeKsghbz4N_eEqqxm1XbT5",
-        "DPARSAD.1-75": "1cQGpQHGzekcDnE2duOkYzx3NAoeuPv5h",
-        "DPARSAD.151-225": "1tro7AirSkoOm9zYvJyQo5W_hlUvoqvlg",
-        "DPARSAD.226-310": "12jhiq9Jbp3EwvqJgW_bxyPq77IYfUEAa",
-        "DPARSAD.75-150": "1T2tghXwm_6Dqy5FkQgs0wiRrhl0NQuGM",
+        "D parsad old book.150-200": "18HnjG1-leT6OXk5mYPGTJluMw2yiFUEy",
+        "D parsad old book.100-150": "1KY9GTqB8sTJpGha_JnYYE9Pvnnzotf9h",
+        "D parsad old book.200-205": "1KA-3P2cmmQKQRmr_-UU74ik_MmNsJ8F2",
+        "D parsad old book.1-100": "1IYG4gFrvXBJ8n2kJRFL1UCRZdUOZsZCv",
+        "D parsad old book.50-100": "1981sMj5WNTZeKsghbz4N_eEqqxm1XbT5",
+        "D prasad New Book.1-75": "1cQGpQHGzekcDnE2duOkYzx3NAoeuPv5h",
+        "D prasad New Book.151-225": "1tro7AirSkoOm9zYvJyQo5W_hlUvoqvlg",
+        "D prasad New Book.226-310": "12jhiq9Jbp3EwvqJgW_bxyPq77IYfUEAa",
+        "D prasad New Book.75-150": "1T2tghXwm_6Dqy5FkQgs0wiRrhl0NQuGM",
         "RK SHRESTHA": "1_KH4l09hI0GeH6J5tGd6vGCQZzNjj7_J",
         "RK SHRESTHA (2)": "1V9EtSiGB2_jaOpTdna_0VGt6iSVh6WmG",
         "RK SHRESTHA (3)": "1vdN4MvatiJJ-7Qjz4epjV6FluEVf5a-m",
@@ -927,11 +927,11 @@ const DRIVE = {
         "part 1": "1t0Wf3EqAMdZh88CNSv2A49wez-QdORqH"
       },
       "9.8 Original Questions": {
-        "DPARSAD.1-50": "1WR0c-cQrD6ZNrpW31pgFTrhekyT_0n4K",
-        "DPARSAD.101-151": "1O3bhzDvGZfUTy1T9guFuq_aAn3PAq7Xi",
-        "DPARSAD.151-200": "1E22sJNC6miJwVNDD5cz8EW3OXTWKc4XT",
-        "DPARSAD.201-250": "1-VeNFb81ynETihERKfWNUOZSqrYopyOH",
-        "DPARSAD.51-100": "1RjkK83GYpLncIqJJ2FGYkHh0FGGksJ_J",
+        "Dprasad.1-50": "1WR0c-cQrD6ZNrpW31pgFTrhekyT_0n4K",
+        "Dprasad.101-151": "1O3bhzDvGZfUTy1T9guFuq_aAn3PAq7Xi",
+        "Dprasad.151-200": "1E22sJNC6miJwVNDD5cz8EW3OXTWKc4XT",
+        "Dprasad.201-250": "1-VeNFb81ynETihERKfWNUOZSqrYopyOH",
+        "Dprasad.51-100": "1RjkK83GYpLncIqJJ2FGYkHh0FGGksJ_J",
         "RK SHRESTHA.1-81": "1x38YE2cp5xh0HDOS4MxJ4lvPqu3BdGdc",
         "RK SHRESTHA.82-162": "1XNc9kD0zGUJ1x3c-0wmL71XalNg46W42",
         "RK SHRESTHA.163-242": "1_QL2BkJ0KasZes4mlPqRdxygRCctGMS5",
@@ -957,8 +957,7 @@ const DRIVE = {
         "part 2": "1oPZAqoQdIMR6PFFxaroPurS5vu4bOzyy",
         "part 3": "1FS5yiVFZitgwZ5VNK04Q2edNCdk4aGt2",
         "part 4": "1tihj5ht_jOixsY1vSHk3IeLxDLuH29Ih",
-        "part 5": "1oEqjC5StHGBUNeIxS1StG5xV4xwchM1r",
-        "part 6": "1OsmQ4d0qluJRNZL3KFJr8_jofahzXxhd"
+        "part 5": "1oEqjC5StHGBUNeIxS1StG5xV4xwchM1r"
       },
       "10.4 DRAFTING TOOLS": {
         "part 1": "102SbDKK3uFrbveB2fIRavtAo-tBfw9xr",
@@ -975,18 +974,21 @@ const DRIVE = {
       "10.7 FREEHAND DRAWING": {
         "All": "1w9DjF6dx3JIPGw0fOBaKnUALjDDtwmnQ"
       },
+      "10.8 Mixed Questions": {
+        "part 1": "1V5BpwU7kxTXaaieaCZHj5zlARWFA1QnM"
+      },
       "10.9 Original Questions": {
-        "DPARSAD.1-100": "1WqQPC_gqQ8gM43tMEatrpvFb91Rzfb5k",
-        "DPARSAD.101-183": "1AXIlR6OKS9cG65HU5xZvyJWeNj6-MJk1",
+        "Dprasad.1-100": "1WqQPC_gqQ8gM43tMEatrpvFb91Rzfb5k",
+        "Dprasad.101-183": "1AXIlR6OKS9cG65HU5xZvyJWeNj6-MJk1",
         "RK SHRESTHA.1-71": "172V_845Zdr84U69dr0bmMDbxz56Ya74M",
         "RK SHRESTHA.143-213": "1EvRKn9B2I8jjT1UeWzB8IYiDKRhz0NSs",
         "RK SHRESTHA.72-142": "1YrxxoZ0IPON3ycUL0sa8sjiRHEtKip5r",
-        "Sunil Sah.1-60": "1qz_zUBjdwFUwL5Sf2ZsRitj2a-YLyJiO",
-        "Sunil Sah.61-120": "14OpnjLYWybGOrFfSGSZxKCcrtR25zPWd",
-        "Sunil Sah.121-180": "1zljfSHkMsHIX0U7EikqQEQBclmjuZpmc",
-        "Sunil Sah.181-240": "1USkoAe4X5fAaESnqG7dgMg_Uj9vMsR7Y",
-        "Sunil Sah.241-300": "1_O1LBXaP2hzAyqPtuTqVCoCBVdZ-AJoK",
-        "Sunil Sah.301-338": "1eiMPR4upitzO4epzLJ0droxwn9LBIYdK"
+        "Sunil Sah.1-60": "1eDIQ22-Myn1O9P8UoUHIOtoob8TE6avv",
+        "Sunil Sah.61-120": "1nJjubNOB9ZPePWk7wF77N74KBTIUl9xI",
+        "Sunil Sah.121-180": "1963IVZzt3VQS0aKau_BYfxTfcp50y7eK",
+        "Sunil Sah.181-240": "1iAruFIxOWf04iXxO3Ib4V4ngdk8EOd5r",
+        "Sunil Sah.241-300": "1Qn57XzooYN2TWpjrE-jVrNas_9Pifft5",
+        "Sunil Sah.301-338": "1z1G-5c8Jg7afH5oRE7oD65dp-SHKPDFI"
       }
     },
     "9": {
@@ -1013,8 +1015,8 @@ const DRIVE = {
         "part 2": "1GSc_yDjznSu7crKJGmUlcBEYjZL_GXBK"
       },
       "11.8 Original Questions": {
-        "DPARSAD.1-75": "1vzp6vp3jscMoDEsNwLTAdX6fw2qoOe55",
-        "DPARSAD": "1abshceD1-c5wygd9L32gAoLpuYdBqkd8",
+        "Dprasad.1-75": "1vzp6vp3jscMoDEsNwLTAdX6fw2qoOe55",
+        "Dprasad": "1abshceD1-c5wygd9L32gAoLpuYdBqkd8",
         "RK SHRESTHA.1-54": "1OJYDYMCCYbayimPJzRlf7ZNI3C48YJIw",
         "RK SHRESTHA.55-108": "1VBxr0CbRm7LYah9FBTC3Cnl2-ddyIV39",
         "Sunil Sah.1-73": "1aRxux9NDAvRNxN_nqM4Gv6QilYG5ZwVD",
@@ -1049,11 +1051,11 @@ const DRIVE = {
         "part 1": "1bMvkTZEdwDElNorAF8VmxUPdk9phQ7QN"
       },
       "12.8 Original Questions": {
-        "DPARSAD": "16Yw0SALw-Vk1KR-7HnRZdetJFqarj7S2",
+        "Dprasad": "16Yw0SALw-Vk1KR-7HnRZdetJFqarj7S2",
         "RK SHRESTHA": "1TsbaxhfnQdqsR31Qc0m48q3aIO2rqHfy",
         "RK SHRESTHA (2)": "1hTK4XCovy30ZCZ5j5AmCOcTdfQCYLsTq",
-        "Sunil Sah.1-60": "1j8Qy9YyM7s-1w-qfyqoDzpXia1gumgaq",
-        "Sunil Sah.61-120": "1bzgiKA9qYcxqkYdKT0lJzvlra6XWe0oE"
+        "SunilSah.1-60": "1j8Qy9YyM7s-1w-qfyqoDzpXia1gumgaq",
+        "SunilSah.61-120": "1bzgiKA9qYcxqkYdKT0lJzvlra6XWe0oE"
       }
     }
   }

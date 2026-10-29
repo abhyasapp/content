@@ -1,6 +1,369 @@
 [
   {
-    "q": "1. Property of soil which allows water to flow through the soil is known as ...........",
+    "q": "1. China clay is also called",
+    "options": [
+      "kaolin",
+      "illite",
+      "montmorillonite",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Kaolin is commonly referred to as China clay and is used extensively in ceramics and paper industries."
+  },
+  {
+    "q": "2. Bentonite contains predominantly",
+    "options": [
+      "kaolinite",
+      "illite",
+      "montmorillonite",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Bentonite is a highly expansive volcanic ash-derived clay that consists mainly of the mineral montmorillonite."
+  },
+  {
+    "q": "3. In the unit phase diagram for a soil mass",
+    "options": [
+      "total volume is taken as unity",
+      "volume of water is taken as unity",
+      "volume of soil solids is taken as unity",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "In standard phase diagrams for deriving weight-volume relationships, the volume of solids ($V_s$) is often taken as 1 (unity)."
+  },
+  {
+    "q": "4. The principle involved in the relation γsub = γsat - γw is",
+    "options": [
+      "Stoke's law",
+      "Archimedes' principle",
+      "Darcy's law",
+      "All of the above"
+    ],
+    "correct": 1,
+    "explain": "The reduction in weight of a saturated soil when submerged is due to the buoyant force, as defined by Archimedes' principle."
+  },
+  {
+    "q": "5. If kerosene is used instead of water in the Pycnometer method, the expression for grain specific gravity",
+    "options": [
+      "should be added to the specific gravity of kerosene",
+      "should be multiplied by the specific gravity of kerosene",
+      "should be divided by the specific gravity of kerosene",
+      "should be subtracted by the specific gravity of kerosene"
+    ],
+    "correct": 1,
+    "explain": "When using a liquid other than water, the calculated relative density must be multiplied by the specific gravity of that liquid to get $G_s$."
+  },
+  {
+    "q": "6. Valid range for degree of saturation of a soil in percentage",
+    "options": [
+      "0 < S < 100",
+      "0 ≤ S ≤ 100",
+      "0 > S > 100",
+      "S ≤ 0"
+    ],
+    "correct": 1,
+    "explain": "Saturation ranges from 0% (completely dry) to 100% (fully saturated)."
+  },
+  {
+    "q": "7. The deflocculating agent which is used in the sedimentation analysis is",
+    "options": [
+      "Hydrochloric acid",
+      "Hydrogen peroxide",
+      "Sodium hexametaphosphate",
+      "sodium chlorite"
+    ],
+    "correct": 2,
+    "explain": "Sodium hexametaphosphate (Calgon) is used to neutralize the charge on clay particles, preventing them from clumping (flocculating) during the test."
+  },
+  {
+    "q": "8. The range of values printed on a hydrometer are",
+    "options": [
+      "1.0 to 1.04",
+      "0.995 to 1.04",
+      "0.995 to 1.04",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Standard soil hydrometers (like 151H) are typically calibrated to read specific gravity in the range of 0.995 to 1.038 or 1.040."
+  },
+  {
+    "q": "9. The composite correction to be applied for in a hydrometer reading is",
+    "options": [
+      "C = Cₜ - Cₘ ± C_d",
+      "C = Cₜ + Cₘ - C_d",
+      "C = Cₘ - C_d ± Cₜ",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The composite correction accounts for the positive meniscus correction ($C_m$), the negative dispersing agent correction ($-C_d$), and a temperature correction ($C_t$) that can be positive or negative."
+  },
+  {
+    "q": "10. Equation for bulk unit weight γ in terms of specific gravity G, unit weight of water γw, voids ratio e, and degree of saturation S is",
+    "options": [
+      "γ = γw(G + eS)/(1 + e)",
+      "γ = γw(G - eS)/(1 + e)",
+      "γ = γw(G + eS)/(1 - e)",
+      "γ = γw(G - eS)/(1 - e)"
+    ],
+    "correct": 0,
+    "explain": "This is a fundamental derived relationship: $\\gamma = \\frac{(G + Se)\\gamma_w}{1+e}$."
+  },
+  {
+    "q": "11. A moist sample of soil weighs 24 g in a tin lid. The tin lid weighs 14 g. Oven dry weight of tin and sample is 22 g. What is the water content?",
+    "options": [
+      "12.5%",
+      "37.5%",
+      "25%",
+      "50%"
+    ],
+    "correct": 2,
+    "explain": "Weight of water = $24 - 22 = 2g$. Weight of solids = $22 - 14 = 8g$. Water content ($w$) = $(2/8) \\times 100 = 25\\%$."
+  },
+  {
+    "q": "12. Using standard notation, the degree of saturation is given by",
+    "options": [
+      "S = Vw/Vv",
+      "Vv/Vw",
+      "Vw/V",
+      "V/Vw"
+    ],
+    "correct": 0,
+    "explain": "Degree of saturation is the ratio of the volume of water ($V_w$) to the total volume of voids ($V_v$)."
+  },
+  {
+    "q": "13. If W and Ws denote the total weight and weight of solids in the sample, the water content is given by",
+    "options": [
+      "1 - W/Ws",
+      "1 + W/Ws",
+      "W/Ws - 1",
+      "W/Ws + 1"
+    ],
+    "correct": 2,
+    "explain": "Water content $w = (W - W_s)/W_s$, which simplifies to $(W/W_s) - 1$."
+  },
+  {
+    "q": "14. Percentage air voids and porosity are related by",
+    "options": [
+      "na = n * ac",
+      "na = n / ac",
+      "ac = n + na",
+      "ac = n - na"
+    ],
+    "correct": 0,
+    "explain": "Percentage air voids ($n_a = V_a/V$) is equal to porosity ($n = V_v/V$) multiplied by air content ($a_c = V_a/V_v$)."
+  },
+  {
+    "q": "15. A soil has a bulk density of 2.4 g/cm³ and water content of 20%. What is its dry density?",
+    "options": [
+      "2 g/cm³",
+      "1.2 g/cm³",
+      "1.4 g/cm³",
+      "1.6 g/cm³"
+    ],
+    "correct": 0,
+    "explain": "Dry density $\\gamma_d = \\gamma / (1 + w) = 2.4 / (1 + 0.20) = 2.4 / 1.2 = 2.0 \\, g/cm^3$."
+  },
+  {
+    "q": "16. The maximum size of clay particle is",
+    "options": [
+      "0.002 mm",
+      "0.04 mm",
+      "0.06 mm",
+      "0.08 mm"
+    ],
+    "correct": 0,
+    "explain": "Clay is defined as the fraction of soil with a particle size smaller than 0.002 mm (2 microns)."
+  },
+  {
+    "q": "17. The relative density of the soil is given by",
+    "options": [
+      "(emax - e) / (emax + emin)",
+      "(emax - e) / (emax - emin)",
+      "(emax + e) / (emax + emin)",
+      "emax / emin"
+    ],
+    "correct": 1,
+    "explain": "Relative density ($I_D$) or Density Index relates the in-situ void ratio to the maximum and minimum possible void ratios."
+  },
+  {
+    "q": "18. Textural classification is merely based on",
+    "options": [
+      "grain size",
+      "plasticity index",
+      "shape of particles",
+      "consistency limits"
+    ],
+    "correct": 0,
+    "explain": "Textural classification systems (like the USDA triangle) categorize soil based solely on the relative percentages of sand, silt, and clay."
+  },
+  {
+    "q": "19. Uniformity co-efficient is the ratio of",
+    "options": [
+      "D10 to D60",
+      "D60 to D10",
+      "D30 to D60",
+      "D60 to D30"
+    ],
+    "correct": 1,
+    "explain": "Uniformity coefficient ($C_u$) is calculated as $D_{60} / D_{10}$ and indicates the range of particle sizes."
+  },
+  {
+    "q": "20. (D30)² / (D60 * D10) is known as",
+    "options": [
+      "uniformity co-efficient",
+      "co-efficient of curvature",
+      "gradation co-efficient",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "This formula defines the Coefficient of Curvature ($C_c$), which helps identify if a soil is well-graded or poorly-graded."
+  },
+  {
+    "q": "21. For a soil mass, void ratio 0.6, water content 18%, G = 2.6. The degree of saturation is",
+    "options": [
+      "30%",
+      "50%",
+      "78%",
+      "82%"
+    ],
+    "correct": 2,
+    "explain": "$S = wG/e = (0.18 \\times 2.6) / 0.6 = 0.468 / 0.6 = 0.78$ or $78\\%$."
+  },
+  {
+    "q": "22. The specific gravity of sandy soil is",
+    "options": [
+      "1.2",
+      "1.8",
+      "2.2",
+      "2.7"
+    ],
+    "correct": 3,
+    "explain": "Quartz, the main constituent of sand, has a specific gravity of approximately 2.65 to 2.7."
+  },
+  {
+    "q": "23. The density of soil mass is expressed in",
+    "options": [
+      "kg/m²",
+      "kg/m³",
+      "N/m²",
+      "N/m³"
+    ],
+    "correct": 1,
+    "explain": "Density is mass per unit volume, typically expressed in $kg/m^3$ or $g/cm^3$."
+  },
+  {
+    "q": "24. If the volume of voids is equal to the volume of soil solids, then the values of porosity and void ratio are respectively",
+    "options": [
+      "0 and 0.5",
+      "0 and 1",
+      "0.5 and 1",
+      "1 and 0.5"
+    ],
+    "correct": 2,
+    "explain": "If $V_v = V_s$, then $e = V_v/V_s = 1$. Porosity $n = e / (1+e) = 1/2 = 0.5$."
+  },
+  {
+    "q": "25. Shaking test is also called as ...........",
+    "options": [
+      "dilatancy test",
+      "dispersion test",
+      "rolling test",
+      "all"
+    ],
+    "correct": 0,
+    "explain": "Dilatancy (or shaking) test involves observing the reaction of a wet soil pat when shaken in the palm; it helps identify silts."
+  },
+  {
+    "q": "26. In the field, Dilatancy test is used to differentiate clay from ...........",
+    "options": [
+      "gravels",
+      "sands",
+      "silts",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Silts show a quick reaction (dilatant) to shaking, while clays show a slow or no reaction."
+  },
+  {
+    "q": "27. The basis for the classification of the fine grained soils is ...........",
+    "options": [
+      "liquid limit",
+      "grain size",
+      "water content",
+      "plasticity chart"
+    ],
+    "correct": 3,
+    "explain": "The Plasticity Chart (A-line chart) is the standard tool for classifying silts and clays based on their Plasticity Index and Liquid Limit."
+  },
+  {
+    "q": "28. The dry density of soil can be defined as the ratio of ...........",
+    "options": [
+      "weight of solids to the total volume of the soil",
+      "weight of the soil to the volume of the soil",
+      "unit weight of the soil to the unit weight of water",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Dry density (ρd) is mass of solids divided by total volume; dry unit weight (γd) is weight of solids divided by total volume."
+  },
+  {
+    "q": "29. The thickness of adsorbed layers of soil is measured in ...........",
+    "options": [
+      "angstroms",
+      "cm",
+      "mm",
+      "micro"
+    ],
+    "correct": 0,
+    "explain": "Adsorbed water layers on clay particles are extremely thin, typically measured in Angstroms (10^-10 meters)."
+  },
+  {
+    "q": "30. Three phase diagram of soil represents ...........",
+    "options": [
+      "solids, pebbles and clay",
+      "dust, fine sand and coarse sand",
+      "solids, water and air",
+      "solid, volume and mass"
+    ],
+    "correct": 2,
+    "explain": "A standard soil phase diagram models the three constituents: solid particles, liquid (water), and gas (air)."
+  },
+  {
+    "q": "31. Two soils A and B: LL (A: 40%, B: 60%), PL (A: 20%, B: 25%). Which soil is more plastic?",
+    "options": [
+      "A",
+      "B",
+      "both",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "PI for A = 40-20 = 20. PI for B = 60-25 = 35. Soil B has a higher Plasticity Index, so it is more plastic."
+  },
+  {
+    "q": "32. Two soils P and Q have toughness index 4 and 10. Which soil has better strength at plastic limit?",
+    "options": [
+      "P",
+      "Q",
+      "both",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Higher toughness index indicates higher shear strength at the plastic limit."
+  },
+  {
+    "q": "33. Deforming soil rapidly without volume change, rupture or elastic rebound is termed as ...........",
+    "options": [
+      "ductility",
+      "malleability",
+      "elasticity",
+      "plasticity"
+    ],
+    "correct": 3,
+    "explain": "Plasticity is the unique property of clay-water systems that allows permanent deformation without cracking."
+  },
+  {
+    "q": "34. Property of soil which allows water to flow through the soil is known as ...........",
     "options": [
       "capillarity",
       "permeability",
@@ -11,29 +374,7 @@
     "explain": "Permeability (or hydraulic conductivity) is the measure of the ease with which water can flow through the pore spaces of a soil."
   },
   {
-    "q": "2. Void ratio of soil 'A' = 0.80, Void ratio of soil 'B' = 1.20. Which soil is more pervious?",
-    "options": [
-      "soil A",
-      "soil B",
-      "both A and B",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Permeability increases with the void ratio. Therefore, soil B, with a higher void ratio (1.20), is more pervious than soil A (0.80)."
-  },
-  {
-    "q": "3. A sand has e= 0.8 and another clay has e = 1.2, which is more pervious?",
-    "options": [
-      "sand",
-      "clay",
-      "both",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "Although the clay has a higher void ratio, sand is more pervious because its individual pores are much larger and more interconnected compared to the microscopic, poorly connected pores in clay."
-  },
-  {
-    "q": "4. The hydraulic head that would produce a quick condition in a sand stratum of thickness 1.5 m and of specific gravity 2.67 and void ratio of 0.67 is equal to ............",
+    "q": "35. The hydraulic head that would produce a quick condition in a sand stratum of thickness 1.5 m and of specific gravity 2.67 and void ratio of 0.67 is equal to ............",
     "options": [
       "1.0 m",
       "2.0 m",
@@ -44,7 +385,7 @@
     "explain": "The critical gradient $i_c = (G-1)/(1+e) = (2.67-1)/(1+0.67) = 1.0$. The required head $h = i_c \\cdot L = 1.0 \\cdot 1.5 = 1.5 \text{ m}$."
   },
   {
-    "q": "5. Quick sand is ............",
+    "q": "36. Quick sand is ............",
     "options": [
       "pure silica sand",
       "a condition in which cohesion is decreased quickly",
@@ -55,7 +396,7 @@
     "explain": "Quick sand is not a type of sand but a hydraulic condition where upward seepage pressure equals the submerged weight of the soil, nullifying shear strength."
   },
   {
-    "q": "6. The modified co-efficient of permeability k' in the case of an anisotropic soil is given by ............",
+    "q": "37. The modified co-efficient of permeability k' in the case of an anisotropic soil is given by ............",
     "options": [
       "k' = kx - kz",
       "k' = √(kx · kz)",
@@ -66,40 +407,7 @@
     "explain": "To analyze anisotropic soils, the coordinates are transformed, and the equivalent (modified) coefficient of permeability is taken as the geometric mean: $\\sqrt{k_x \\cdot k_z}$."
   },
   {
-    "q": "7. The rate of flow of water through a vertical strip of aquifer of unit width and extending the full saturation height under unit hydraulic gradient is known as ............",
-    "options": [
-      "Coefficient of permeability",
-      "Storage coefficient",
-      "specific retention",
-      "Coefficient of transmissibility"
-    ],
-    "correct": 3,
-    "explain": "Transmissibility ($T$) is defined as $T = k \\cdot b$, where $k$ is permeability and $b$ is the aquifer thickness. It represents the capacity of the entire aquifer thickness to transmit water."
-  },
-  {
-    "q": "8. In a stratified soil deposit with number of layer having different permeability, the average permeability along the bedding planes is given by ............",
-    "options": [
-      "kx = (z1 + z2 + ... + zn) / (k1 + k2 + ... + kn)",
-      "kx = (k1z1 + k2z2 + ... + knzn) / (z1 + z2 + ... + zn)",
-      "kx = (k1 + k2 + ... + kn) / (z1 + z2 + ... + zn)",
-      "kx = (z1 + z2 + ... + zn) / (k1z1 + k2z2 + ... + knzn)"
-    ],
-    "correct": 1,
-    "explain": "For flow parallel to the layers, the total discharge is the sum of discharges in each layer. This leads to a weighted average formula based on the thickness of each layer."
-  },
-  {
-    "q": "9. In a stratified soil deposit the average permeability normal to the bedding planes is given by ............",
-    "options": [
-      "kx = (z1 + z2 + ... + zn) / (k1 + k2 + ... + kn)",
-      "kz = (k1 + k2 + ... + kn) / (z1 + z2 + ... + zn)",
-      "kz = (z1 + z2 + ... + zn) / (z1/k1 + z2/k2 + ... + zn/kn)",
-      "kz = (z1 + z2 + ... + zn) / (k1z1 + k2z2 + ... + knzn)"
-    ],
-    "correct": 2,
-    "explain": "For flow perpendicular to layers, the velocity is constant through all layers but the head loss varies. This results in an equivalent permeability calculated via the harmonic mean."
-  },
-  {
-    "q": "10. Which of the following is correct?",
+    "q": "38. Which of the following is correct?",
     "options": [
       "kx = kz",
       "kx < kz",
@@ -110,7 +418,7 @@
     "explain": "In nature, soil particles tend to orient horizontally. Combined with the mathematical relationship between arithmetic and harmonic means, the horizontal permeability ($k_x$) is always greater than or equal to the vertical permeability ($k_z$)."
   },
   {
-    "q": "11. The aim of doubling the pressure each time in the consolidation test is to see that the soil is always ............",
+    "q": "39. The aim of doubling the pressure each time in the consolidation test is to see that the soil is always ............",
     "options": [
       "over consolidated condition",
       "normally consolidated condition",
@@ -121,18 +429,7 @@
     "explain": "By doubling the load (e.g., 0.5, 1, 2, 4 kg/cm²), we ensure the new pressure quickly exceeds the previous maximum, keeping the soil in a 'normally consolidated' state for analysis."
   },
   {
-    "q": "12. The coefficient of consolidation of a soil is affected by ............",
-    "options": [
-      "compressibility only",
-      "permeability only",
-      "both compressibility and permeability",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "The coefficient of consolidation ($C_v$) is mathematically related to permeability ($k$) and volume compressibility ($m_v$) by the equation $C_v = k / (m_v \\cdot \\gamma_w)$."
-  },
-  {
-    "q": "13. Compressibility of a clayey soils will be ............",
+    "q": "40. Compressibility of a clayey soils will be ............",
     "options": [
       "equal to that of sandy soils",
       "greater than sandy soils",
@@ -143,7 +440,7 @@
     "explain": "Clays are much more compressible than sands because they have higher void ratios and the plate-like particles can rearrange significantly under load."
   },
   {
-    "q": "14. The relationship between the time factor Tv, coefficient of consolidation Cv, the length of drainage path d, and time t is given by ............",
+    "q": "41. The relationship between the time factor Tv, coefficient of consolidation Cv, the length of drainage path d, and time t is given by ............",
     "options": [
       "Tv = Cv · d² / t",
       "Tv = Cv · t² / d",
@@ -154,7 +451,7 @@
     "explain": "The dimensionless time factor $T_v$ is defined as $T_v = (C_v \\cdot t) / d^2$, where $d$ is the drainage path length."
   },
   {
-    "q": "15. A clay deposit subjected to pressure in the past is more than the present over burden pressure is known as ............",
+    "q": "42. A clay deposit subjected to pressure in the past is more than the present over burden pressure is known as ............",
     "options": [
       "normally consolidated soil",
       "over-consolidated soil",
@@ -165,7 +462,7 @@
     "explain": "Over-consolidated (OC) soils have experienced a vertical effective stress in their geological history higher than what is currently acting on them, often due to erosion or ice melting."
   },
   {
-    "q": "16. Over-consolidation may be due to ............",
+    "q": "43. Over-consolidation may be due to ............",
     "options": [
       "the weight of ice sheet or glacier which is melted away",
       "weight of the land slide which is removed",
@@ -176,40 +473,7 @@
     "explain": "Any process that removes previously existing overburden—such as glacial melting, erosion, or excavations—results in an over-consolidated state."
   },
   {
-    "q": "17. For a soil layer with double drainage and thickness H, the drainage path is equal to ............",
-    "options": [
-      "2H",
-      "H/2",
-      "H²",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "In double drainage, water at the center has to travel a maximum distance of H/2 to reach either the top or bottom drainage boundary."
-  },
-  {
-    "q": "18. The pressure-void ratio curve will be ............",
-    "options": [
-      "linear when plotted on ordinary paper",
-      "linear when plotted on semi-log paper",
-      "linear when plotted on log-log paper",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "In the $e$ vs $\\log(p)$ plot, the compression of normally consolidated soil appears as a straight line, the slope of which is $C_c$."
-  },
-  {
-    "q": "19. The maximum dry density upto which any soil can be compacted depends upon ............",
-    "options": [
-      "water content only",
-      "amount of compactive effort only",
-      "both water content and compactive effort",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Density is a function of both the lubrication provided by water and the mechanical energy (effort) applied to the soil."
-  },
-  {
-    "q": "20. The coefficient of sub-grade reaction of a soil is ............",
+    "q": "44. The coefficient of sub-grade reaction of a soil is ............",
     "options": [
       "load per unit deformation",
       "pressure per unit deformation",
@@ -220,18 +484,7 @@
     "explain": "Coefficient of sub-grade reaction (k) is the ratio of applied pressure to the resulting settlement ($p/s$), measured in $kg/cm^3$."
   },
   {
-    "q": "21. Total number of stress components at a particular point within a soil mass because of the load is ..",
-    "options": [
-      "3",
-      "6",
-      "9",
-      "12"
-    ],
-    "correct": 2,
-    "explain": "In 3D stress analysis, there are 3 normal stresses ($\\sigma_x, \\sigma_y, \\sigma_z$) and 6 shear stresses ($\tau_{xy}, \tau_{yx}$, etc.), totaling 9 components (of which 6 are independent)."
-  },
-  {
-    "q": "22. The value of Poisson's ratio for an elastic material generally varies from ............",
+    "q": "45. The value of Poisson's ratio for an elastic material generally varies from ............",
     "options": [
       "0 to 1.0",
       "0.0 to 0.5",
@@ -242,7 +495,7 @@
     "explain": "For most engineering materials, Poisson's ratio ranges from 0 to 0.5. A value of 0.5 represents a perfectly incompressible material."
   },
   {
-    "q": "23. Geostatic stresses are due to ............",
+    "q": "46. Geostatic stresses are due to ............",
     "options": [
       "static loads",
       "dynamic loads",
@@ -253,29 +506,7 @@
     "explain": "Geostatic stress is the stress exerted by the weight of the overlying soil at a given depth in the ground."
   },
   {
-    "q": "24. Adits are also known as ............",
-    "options": [
-      "test pits",
-      "trenches",
-      "shafts",
-      "drifts"
-    ],
-    "correct": 3,
-    "explain": "Adits or drifts are horizontal or nearly horizontal passages driven into a hill or underground for exploration or drainage."
-  },
-  {
-    "q": "25. Drifts are naturally made in ............",
-    "options": [
-      "horizontal direction",
-      "vertical direction",
-      "inclined direction",
-      "vertical direction"
-    ],
-    "correct": 0,
-    "explain": "As noted, drifts are horizontal exploration tunnels."
-  },
-  {
-    "q": "26. Shafts are naturally made in ............",
+    "q": "47. Shafts are naturally made in ............",
     "options": [
       "horizontal direction",
       "vertical direction",
@@ -286,7 +517,7 @@
     "explain": "A shaft is a vertical or steeply inclined passage from the surface used for exploration or access."
   },
   {
-    "q": "27. For a sandy soil below the water table, the presence of a casing is ............",
+    "q": "48. For a sandy soil below the water table, the presence of a casing is ............",
     "options": [
       "required",
       "not required",
@@ -297,40 +528,7 @@
     "explain": "In loose sand below water level, the bore hole walls will cave in instantly. A casing pipe is essential to keep the hole open."
   },
   {
-    "q": "28. An undisturbed sample is that in which ............",
-    "options": [
-      "neither the natural structure nor the properties are preserved",
-      "both the natural structure and the properties are preserved",
-      "natural structure is disturbed but the water content is retained",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Undisturbed samples are obtained using special samplers to maintain the soil's original structure, void ratio, and moisture for accurate lab testing."
-  },
-  {
-    "q": "29. For undisturbed samples, the area ratio should be less than ...............",
-    "options": [
-      "1%",
-      "5%",
-      "7%",
-      "10%"
-    ],
-    "correct": 3,
-    "explain": "The area ratio (Ar) should be kept as low as possible to minimize disturbance. For undisturbed sampling, it is generally recommended to be less than 10%."
-  },
-  {
-    "q": "30. The strength theory applicable to a C-φ soil is ...............",
-    "options": [
-      "Darcy's law",
-      "Terzaghi's theory",
-      "Mohr-Coulomb theory",
-      "all of the above"
-    ],
-    "correct": 2,
-    "explain": "Mohr-Coulomb theory is the fundamental theory used to describe the shear strength of soils having both cohesion (c) and internal friction (φ)."
-  },
-  {
-    "q": "31. If a clayey soil specimen is subjected to a vertical compressive load, the angle by the tracks (failure planes) with the horizontal is ...............",
+    "q": "49. If a clayey soil specimen is subjected to a vertical compressive load, the angle by the tracks (failure planes) with the horizontal is ...............",
     "options": [
       "zero",
       "45°",
@@ -341,18 +539,7 @@
     "explain": "For a purely cohesive soil (φ = 0), the failure plane occurs at α = 45° + φ/2. Since φ=0, α = 45°."
   },
   {
-    "q": "32. If the stress-strain curve of a clayey soil showed a peak, it can be ...............",
-    "options": [
-      "normally consolidated clay",
-      "under consolidated clay",
-      "over consolidated clay",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Over-consolidated (OC) clays exhibit a peak stress followed by strain-softening, similar to dense sands."
-  },
-  {
-    "q": "33. For a saturated soil, Skempton's constant 'B' value is ...............",
+    "q": "50. For a saturated soil, Skempton's constant 'B' value is ...............",
     "options": [
       "zero",
       "1.0",
@@ -361,16 +548,5 @@
     ],
     "correct": 1,
     "explain": "The B-parameter measures how much the pore pressure changes with cell pressure. In fully saturated soil, B = 1."
-  },
-  {
-    "q": "34. The type of shear failure that can be expected for a soil whose void ratio is less than 0.55 is ...............",
-    "options": [
-      "general shear failure",
-      "local shear failure",
-      "punching shear failure",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "A low void ratio indicates a dense soil, which is prone to general shear failure."
   }
 ]

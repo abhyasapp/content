@@ -1,6 +1,105 @@
 [
   {
-    "q": "1. A separate provision for a right turn lane is to be provided when right turning traffic is more than .............",
+    "q": "1. The minimum co-efficient of lateral friction for a highway is .............",
+    "options": [
+      "1",
+      "0.5",
+      "0.4",
+      "0.15"
+    ],
+    "correct": 3,
+    "explain": "For the design of horizontal curves and super-elevation, the lateral friction coefficient is taken as a constant 0.15."
+  },
+  {
+    "q": "2. For earthen roads the most Common Camber is .............",
+    "options": [
+      "1 in 20",
+      "1 in 24",
+      "1 in 36",
+      "1 in 48"
+    ],
+    "correct": 1,
+    "explain": "Earthen roads require a steeper camber (around 3% to 4%) to prevent water from soaking into the surface. 1 in 24 (approx 4%) is common for heavy rain."
+  },
+  {
+    "q": "3. Psychological widening width is .............",
+    "options": [
+      "V²/9.5R",
+      "V/9.5√R",
+      "V/9.8R",
+      "V²/9.8√R"
+    ],
+    "correct": 1,
+    "explain": "Psychological widening (to account for driver tendency to keep distance from the edge) is given by the formula V / 9.5√R."
+  },
+  {
+    "q": "4. On sharp curves widening of the carriage way is done by .............",
+    "options": [
+      "providing more width on the inner curve",
+      "providing more width on the outer curve",
+      "distributing half on inner and half on the outer",
+      "distributing 3/4 on the outer and 1/4 on the inner"
+    ],
+    "correct": 2,
+    "explain": "For regular curves, widening is usually provided on the inner side, but on very sharp curves, it is distributed equally on both sides for better alignment."
+  },
+  {
+    "q": "5. Generally the time of perception in simple cases is taken as .............",
+    "options": [
+      "2 seconds",
+      "30 seconds",
+      "60 seconds",
+      "120 seconds"
+    ],
+    "correct": 0,
+    "explain": "For most design purposes (SSD), the total reaction time (including perception) is taken as 2.5 seconds, with 2 seconds often cited as the perception component."
+  },
+  {
+    "q": "6. For an earthen road the min desirable gradient is .............",
+    "options": [
+      "1 in 12",
+      "1 in 20",
+      "1 in 120",
+      "1 in 200"
+    ],
+    "correct": 2,
+    "explain": "For earthen roads, a minimum longitudinal gradient of about 1 in 120 is needed to prevent water from ponding and softening the road surface."
+  },
+  {
+    "q": "7. AADT is .............",
+    "options": [
+      "total traffic in a day",
+      "total traffic of a month/28, 29, 30 or 31",
+      "total traffic in an year/365 or 366",
+      "total traffic in an year/365 (or 366) x 24"
+    ],
+    "correct": 2,
+    "explain": "Annual Average Daily Traffic (AADT) is calculated by taking the total volume of traffic in a year and dividing it by 365 days."
+  },
+  {
+    "q": "8. 30th highest hourly volume means .............",
+    "options": [
+      "AADT exceeded it 29 times in an hour",
+      "AADT exceeded it 29 times in a day",
+      "AADT exceeded it 29 times in a month",
+      "AADT exceeded it 29 times in an year"
+    ],
+    "correct": 3,
+    "explain": "This is a design standard; it is the hourly volume that is exceeded only 29 times in a full year (the 30th busiest hour)."
+  },
+  {
+    "q": "9. 'Fixed delay' in a highway is due to .............",
+    "options": [
+      "pedestrians crossing the rod",
+      "parked vehicles",
+      "traffic signals",
+      "road repairs"
+    ],
+    "correct": 2,
+    "explain": "Fixed delays occur regardless of traffic volume, such as time lost waiting at red traffic signals or stop signs."
+  },
+  {
+    "q": "10. A separate provision for a right turn lane is to be provided when right turning traffic is more than .............",
     "options": [
       "25% of total traffic",
       "33 1/3% of total traffic",
@@ -11,40 +110,7 @@
     "explain": "When more than one-third (33.3%) of traffic is turning right, a dedicated lane is required to prevent blocking the through-traffic flow."
   },
   {
-    "q": "2. The purpose of a 'divisional island' is to eliminate .............",
-    "options": [
-      "none to tail collision",
-      "head on collision",
-      "side swipe",
-      "tail to tail collision"
-    ],
-    "correct": 1,
-    "explain": "Divisional islands (medians) physically separate opposing traffic streams, making head-on collisions virtually impossible."
-  },
-  {
-    "q": "3. A channelization island provides .............",
-    "options": [
-      "equal entry and exit widths",
-      "funnel shaped entry and wider exit",
-      "wider entrance and funnel shaped exit",
-      "high relative speed at entry and low speed at exit"
-    ],
-    "correct": 2,
-    "explain": "Islands are shaped to 'funnel' exiting traffic into the correct lane while providing a wide, clear entrance for ease of turning."
-  },
-  {
-    "q": "4. A channelization island should have .............",
-    "options": [
-      "small entry radius and large exit radius",
-      "large entry radius and small exit radius",
-      "equal radii for entry and exit",
-      "large entry and exit radii"
-    ],
-    "correct": 0,
-    "explain": "A small entry radius forces vehicles to slow down when entering the intersection, while a large exit radius allows them to accelerate away safely."
-  },
-  {
-    "q": "5. The traffic island that segregates the left turning from the rest is .............",
+    "q": "11. The traffic island that segregates the left turning from the rest is .............",
     "options": [
       "channelization island",
       "divisional island",
@@ -55,18 +121,7 @@
     "explain": "Channelizing islands create dedicated paths (slips) for specific movements, such as free-left turns."
   },
   {
-    "q": "6. Pedestrian loading island is located in between .............",
-    "options": [
-      "up and down lanes",
-      "left turning and other streams",
-      "foot path and cycle tracks",
-      "cycle lane and motor vehicle vane"
-    ],
-    "correct": 1,
-    "explain": "These islands provide a refuge for pedestrians and are typically placed where traffic streams diverge or merge."
-  },
-  {
-    "q": "7. The advantage of a rotary is .............",
+    "q": "12. The advantage of a rotary is .............",
     "options": [
       "traffic is in continuous motion",
       "no waiting by traffic",
@@ -77,106 +132,7 @@
     "explain": "The main benefit of a rotary (roundabout) is that it converts crossing movements into weaving movements where all vehicles move in the same direction."
   },
   {
-    "q": "8. The crossing angle should be a minimum of .............",
-    "options": [
-      "20°",
-      "30°",
-      "60°",
-      "80°"
-    ],
-    "correct": 2,
-    "explain": "At intersections, roads should meet at an angle as close to 90° as possible; 60° is generally the minimum acceptable angle to maintain visibility."
-  },
-  {
-    "q": "9. Rotary is ideally suited .............",
-    "options": [
-      "when traffic is more than 4 streams join at the junction",
-      "when traffic is very heavy",
-      "when the pedestrian traffic is heavy",
-      "for congested areas"
-    ],
-    "correct": 0,
-    "explain": "Rotaries (roundabouts) work best when multiple roads (more than 4) meet at a single junction, as they eliminate complex signal phases and multiple crossing conflicts."
-  },
-  {
-    "q": "10. An elliptical rotary island is provided when .............",
-    "options": [
-      "most of the traffic is along its major axis",
-      "most of the traffic is along its minor axis",
-      "right turning traffic is more than 25%",
-      "traffic density is more than 3000 vehicles/h"
-    ],
-    "correct": 0,
-    "explain": "Elliptical shapes are used when the traffic flow is significantly higher in one direction (the major axis), providing more weaving length for those primary streams."
-  },
-  {
-    "q": "11. Grade separation had the advantage of .............",
-    "options": [
-      "easy right turn",
-      "no speed restriction",
-      "number of points of conflicts is nil",
-      "occupying the least space"
-    ],
-    "correct": 2,
-    "explain": "Grade separation (flyovers/underpasses) physically separates crossing traffic, thereby reducing the number of intersection conflict points to zero."
-  },
-  {
-    "q": "12. A disadvantage of 'Diamond junction' is .............",
-    "options": [
-      "no provision for easy right turn",
-      "two over bridges are required",
-      "two parallel roads are required",
-      "crossing angle is 90°"
-    ],
-    "correct": 0,
-    "explain": "In a standard diamond interchange, right-turning vehicles must still cross oncoming traffic at the terminal intersections on the minor road."
-  },
-  {
-    "q": "13. A three level round about is preferred to a clover left junction when .............",
-    "options": [
-      "less area is available",
-      "left turn traffic has a direct path",
-      "heavy traffic is to be handled",
-      "construction of an over bridge is very difficult"
-    ],
-    "correct": 0,
-    "explain": "Cloverleaf interchanges require vast amounts of land for loops. A three-level roundabout is a more compact solution for high-capacity grade separation."
-  },
-  {
-    "q": "14. For the most effective traffic control, adopt .............",
-    "options": [
-      "more number of traffic signs",
-      "limited number of traffic signs",
-      "more varieties of traffic signs",
-      "more 'warning' and less 'informatory' signs"
-    ],
-    "correct": 1,
-    "explain": "Too many signs can lead to information overload and driver distraction. Effective control relies on a limited number of clear, essential signs."
-  },
-  {
-    "q": "15. Regulatory signs are .............",
-    "options": [
-      "red circular dies 60 cm dia. placed 2.8 m above G.L.",
-      "red triangle 45 cm side with a rectangular plate below",
-      "rectangular yellow plates 75 cm x 120 cm with black letters",
-      "rectangular in shape but no definite size"
-    ],
-    "correct": 0,
-    "explain": "Mandatory or Regulatory signs (except Stop and Give Way) are circular in shape with a red border, standardizing their appearance for quick recognition."
-  },
-  {
-    "q": "16. An advantage of traffic signal is .............",
-    "options": [
-      "no rear end collision",
-      "easy segregation of traffic",
-      "quick movement of vehicles",
-      "orderly movement of vehicles"
-    ],
-    "correct": 3,
-    "explain": "Traffic signals ensure the orderly flow of traffic by allocating right-of-way to different movements in a predictable, timed sequence."
-  },
-  {
-    "q": "17. A disadvantage of Traffic Signals is .............",
+    "q": "13. A disadvantage of Traffic Signals is .............",
     "options": [
       "traffic along one or two directions is permitted while the remaining has to wait",
       "waiting vehicles let off exhaust gases into the environment",
@@ -187,106 +143,7 @@
     "explain": "Idling vehicles at red lights contribute significantly to local air pollution through increased exhaust emissions while waiting."
   },
   {
-    "q": "18. Yellow colour of a 'Coloured light traffic signal' indicates .............",
-    "options": [
-      "go",
-      "stop",
-      "be ready to go",
-      "clearance time"
-    ],
-    "correct": 3,
-    "explain": "The amber (yellow) light provides 'clearance time' for vehicles already in or near the intersection to pass through safely before the cross-traffic starts."
-  },
-  {
-    "q": "19. Thick white and black lines of 2 m to 4 m long provided along the width of a highway indicates ...........",
-    "options": [
-      "lane line",
-      "centre lien",
-      "cycle track",
-      "pedestrian crossing"
-    ],
-    "correct": 3,
-    "explain": "These longitudinal stripes (often called Zebra crossings) mark the legal area for pedestrians to cross the roadway."
-  },
-  {
-    "q": "20. The full width of land acquired before finalizing a highway, alignment is known .............",
-    "options": [
-      "width of formation",
-      "right of way",
-      "carriage way",
-      "roadway"
-    ],
-    "correct": 1,
-    "explain": "The Right of Way (ROW) is the total width of land acquired for the road, including the pavement, shoulders, and future expansion areas."
-  },
-  {
-    "q": "21. The width of the right-of-way is decided so as to accommodate .............",
-    "options": [
-      "formation width",
-      "side slopes",
-      "horizontal curve",
-      "vertical curve"
-    ],
-    "correct": 0,
-    "explain": "The primary component of the ROW is the formation width (the width of the top of the embankment or bottom of the cutting)."
-  },
-  {
-    "q": "22. The width formation of a road means the width of .............",
-    "options": [
-      "carriageway",
-      "pavement and shoulders",
-      "embankment at ground level",
-      "embankment at the top level"
-    ],
-    "correct": 3,
-    "explain": "Formation width is the finished top width of the embankment or the bottom width of a cutting, excluding side drains."
-  },
-  {
-    "q": "23. The pavement width of a road depends upon .............",
-    "options": [
-      "terrain",
-      "type of traffic",
-      "number of lanes",
-      "all of the above"
-    ],
-    "correct": 2,
-    "explain": "Pavement width is mathematically determined by multiplying the standard width of a single lane by the total number of lanes required for the traffic volume."
-  },
-  {
-    "q": "24. The traffic carrying capacity of a single lane, depends on .............",
-    "options": [
-      "type of the vehicles",
-      "level crossings",
-      "road intersections",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Lane capacity is influenced by vehicle speed and size, as well as external interruptions like intersections and railway crossings."
-  },
-  {
-    "q": "25. If L is the length of vehicles in metres, C is the clear distance between two consecutive vehicles (stopping sight distance), V is the speed of vehicles in km/hour, the maximum number N of vehicles/hour, is .............",
-    "options": [
-      "N = 1000V / (L + C)",
-      "N = (L + C) / 1000V",
-      "N = 1000L / (C + V)",
-      "N = 1000C / (L + V)"
-    ],
-    "correct": 0,
-    "explain": "The formula for basic capacity is C = 1000 * V / S, where S is the space headway (L + clear gap). Substituting L+C for S gives 1000V/(L+C)."
-  },
-  {
-    "q": "26. The convexity provided to the carriageway between the crown and edge of the pavement, is known as .............",
-    "options": [
-      "super-elevation",
-      "camber",
-      "height of the pavement",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Camber (or cross-slope) is the transverse convexity provided to ensure water drains off the road surface."
-  },
-  {
-    "q": "27. If the difference in elevation of an edge of the pavement 9 m wide and its crown is 15 cm, the camber o the pavement, is .............",
+    "q": "14. If the difference in elevation of an edge of the pavement 9 m wide and its crown is 15 cm, the camber o the pavement, is .............",
     "options": [
       "1 in 60",
       "1 in 45",
@@ -297,40 +154,7 @@
     "explain": "Camber is Rise / (Half-width). Rise = 0.15m. Half-width = 9/2 = 4.5m. Slope = 0.15 / 4.5 = 1 / 30."
   },
   {
-    "q": "28. In scanty rainfall regions, the camber provided will be .............",
-    "options": [
-      "nil",
-      "flatter",
-      "steeper",
-      "None of these"
-    ],
-    "correct": 1,
-    "explain": "Where rainfall is low, a flatter camber is sufficient for drainage and provides better safety and comfort for vehicles."
-  },
-  {
-    "q": "29. On concrete roads, the camber generally provided, is .............",
-    "options": [
-      "1 in 20 to 1 in 24",
-      "1 in 30 to 1 in 48",
-      "1 in 36 to 1 in 48",
-      "1 in 60 to 1 in 72"
-    ],
-    "correct": 3,
-    "explain": "Concrete roads are smooth and impervious, so they require the flattest camber (1.3% to 1.7%), typically 1 in 60 to 1 in 72."
-  },
-  {
-    "q": "30. On earth roads, the camber should preferably be .............",
-    "options": [
-      "1 in 20 to 1 in 24",
-      "1 in 30 to 1 in 48",
-      "1 in 15 to 1 in 20",
-      "1 in 10 to 1 in 15"
-    ],
-    "correct": 2,
-    "explain": "Earthen roads are highly porous and susceptible to erosion, requiring a steep camber (5% to 6%) to shed water rapidly."
-  },
-  {
-    "q": "31. Excessive camber on pavements may cause .............",
+    "q": "15. Excessive camber on pavements may cause .............",
     "options": [
       "deterioration of central portion",
       "slip of the speedy vehicles towards the edges",
@@ -341,7 +165,7 @@
     "explain": "Too much camber concentrates traffic in the center (causing wear), increases the risk of side-slipping, and speeds up runoff which erodes road shoulders (berms)."
   },
   {
-    "q": "32. Camber in pavements is provided by .............",
+    "q": "16. Camber in pavements is provided by .............",
     "options": [
       "straight line method",
       "parabola method",
@@ -352,18 +176,7 @@
     "explain": "Depending on the pavement type, camber can be straight (for concrete), parabolic (for fast traffic), or a composite of both."
   },
   {
-    "q": "33. On a pavement with parabolic camber, the angle of inclination of the vehicles will be .............",
-    "options": [
-      "more at the crown",
-      "less at the edges",
-      "more at the edges",
-      "same at the edges as well as at the crown"
-    ],
-    "correct": 2,
-    "explain": "In a parabolic shape, the slope increases as you move from the center (crown) toward the edges, meaning vehicles at the edge are tilted more."
-  },
-  {
-    "q": "34. The camber on pavements, is provided by .............",
+    "q": "17. The camber on pavements, is provided by .............",
     "options": [
       "straight line method",
       "Parabolic method",
@@ -374,106 +187,7 @@
     "explain": "The parabolic method is widely preferred for fast-moving traffic because it is very flat near the crown, making lane changes easier."
   },
   {
-    "q": "35. If the elevations along a road increase, the slope of the road along the longitudinal direction, is known as .............",
-    "options": [
-      "gradient",
-      "grade",
-      "positive grade",
-      "negative grade"
-    ],
-    "correct": 2,
-    "explain": "An upward slope in the direction of travel is defined as a positive grade (upgrade), while a downward slope is a negative grade."
-  },
-  {
-    "q": "36. The best compromise between the increase of the length of a highway and reduction in its load carrying capacity, is the ruling gradient .............",
-    "options": [
-      "1 in 10",
-      "1 in 15",
-      "1 in 20",
-      "1 in 25"
-    ],
-    "correct": 2,
-    "explain": "1 in 20 (5%) is often considered the ideal balance in hilly terrain, providing a decent gradient without significantly penalizing vehicle load capacity."
-  },
-  {
-    "q": "37. Reduction of load capacity in a ruling gradient of .............",
-    "options": [
-      "1 in 10, is 10%",
-      "11 in 25, is 25%",
-      "1 in 20, is 10%",
-      "1 in 25, is 25%"
-    ],
-    "correct": 2,
-    "explain": "A 1 in 20 gradient is estimated to reduce the effective load-carrying capacity of a standard commercial vehicle by approximately 10% compared to a flat road."
-  },
-  {
-    "q": "38. The steepest gradient permitted on roads which, in ordinary conditions, does not exceed, is known .............",
-    "options": [
-      "ruling gradient",
-      "maximum gradient",
-      "exceptional gradient",
-      "floating gradient"
-    ],
-    "correct": 1,
-    "explain": "The maximum (limiting) gradient is the steepest slope used when the ruling gradient is not feasible due to terrain or cost."
-  },
-  {
-    "q": "39. Any gradient on a road is said to be an exceptional gradient, if it is .............",
-    "options": [
-      "more than ruling gradient",
-      "less than average gradient",
-      "more than floating gradient",
-      "less than minimum gradient or more than maximum gradient"
-    ],
-    "correct": 0,
-    "explain": "Exceptional gradients exceed both ruling and limiting gradients; they are used only for very short stretches in extreme terrain."
-  },
-  {
-    "q": "40. floating gradients are generally provided .............",
-    "options": [
-      "along maximum gradients",
-      "along minimum gradients",
-      "at summit curves",
-      "at valley curves"
-    ],
-    "correct": 2,
-    "explain": "A floating gradient allows a vehicle to maintain its speed using its momentum without additional power, typically designed into summit curves."
-  },
-  {
-    "q": "41. If A is the projected area of a vehicle in square metres, V is speed of the vehicles in kilometers per hour and C is a constant, then the wind resistance R to the moving vehicles, is given by ...........",
-    "options": [
-      "R = CAV",
-      "R = CAV²",
-      "R = CAV³",
-      "R = AV²/C"
-    ],
-    "correct": 1,
-    "explain": "Aerodynamic (wind) resistance is proportional to the square of the velocity ($V^2$) and the frontal area of the vehicle."
-  },
-  {
-    "q": "42. For a properly designed vehicle, the resistance generally ignored, is .............",
-    "options": [
-      "wind resistance",
-      "rolling resistance",
-      "grade resistance",
-      "axle resistance"
-    ],
-    "correct": 0,
-    "explain": "At standard highway speeds for commercial vehicles, wind resistance is often considered negligible compared to rolling and grade resistances in basic design calculations."
-  },
-  {
-    "q": "43. For calculating the tractive force along an upgrade of an asphalt road, the most probable value of the co-efficient of traction resistance μ is assumed .............",
-    "options": [
-      "1/10",
-      "1/20",
-      "1/30",
-      "1/100"
-    ],
-    "correct": 2,
-    "explain": "For smooth asphalt roads, the rolling resistance coefficient ($\\mu$) is typically taken as 1/30 (approx 0.033)."
-  },
-  {
-    "q": "44. Raising of outer edge of a road with respect to inner edges, is known .............",
+    "q": "18. Raising of outer edge of a road with respect to inner edges, is known .............",
     "options": [
       "super elevation",
       "cant",
@@ -484,7 +198,7 @@
     "explain": "Super-elevation, cant, and banking are all synonymous terms for the tilting of the roadway on a curve to counter centrifugal force."
   },
   {
-    "q": "45. Raising of outer edge of a road with respect to inner edge, is known .............",
+    "q": "19. Raising of outer edge of a road with respect to inner edge, is known .............",
     "options": [
       "super elevation",
       "cant",
@@ -495,51 +209,7 @@
     "explain": "This is a repetition of Q.142; all terms refer to the transverse slope on a horizontal curve."
   },
   {
-    "q": "46. If no super elevation is provided on a road along curves, pot holes may develop at .............",
-    "options": [
-      "inner edge of the road",
-      "outer edge of the road",
-      "centre of the road",
-      "nowhere on the road"
-    ],
-    "correct": 1,
-    "explain": "Centrifugal force pushes the vehicle outward, increasing the pressure and wear on the outer edge of the pavement, leading to premature failure."
-  },
-  {
-    "q": "47. The advantage of providing super-elevation on roads, is .............",
-    "options": [
-      "higher speed of vehicles",
-      "increased volume of traffic",
-      "reduced maintenance cost of the roads",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Super-elevation allows for higher safe speeds, which increases lane capacity (volume) and reduces lateral wear/tear on the pavement (maintenance)."
-  },
-  {
-    "q": "48. For a comfortable travel on Highways, the centrifugal ratio should not exceed .............",
-    "options": [
-      "0.10",
-      "0.15",
-      "0.20",
-      "0.25"
-    ],
-    "correct": 3,
-    "explain": "The centrifugal ratio ($P/W$) is kept at a maximum of 0.25 for highways to ensure stability against overturning and comfort for passengers."
-  },
-  {
-    "q": "49. The most commonly adopted method to provide super elevation on roads, is by pivoting the road surface about .............",
-    "options": [
-      "outer edge so that the inner edge is lowered",
-      "crown so that outer edge is raised and inner edge is lowered",
-      "inner edge so that outer edge is raised",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Revolving the pavement about the inner edge is preferred because it doesn't change the drainage profile of the inner side and is easier to construct."
-  },
-  {
-    "q": "50. Before providing super-elevation on roads, the portion of the carriageway between the crown and the outer edge is made .............",
+    "q": "20. Before providing super-elevation on roads, the portion of the carriageway between the crown and the outer edge is made .............",
     "options": [
       "to have a reduced fall",
       "horizontal",
@@ -548,5 +218,434 @@
     ],
     "correct": 1,
     "explain": "The first step in super-elevation transition is eliminating the outer camber by raising the outer edge until the outer half of the road is horizontal."
+  },
+  {
+    "q": "21. Horizontal curves on highways are provided",
+    "options": [
+      "to break the monotony of driving",
+      "to discourage the tendency to increase speed",
+      "to decrease the mental strain on drivers",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Curves are not just for terrain changes; they serve psychological purposes like preventing highway hypnosis and controlling speed."
+  },
+  {
+    "q": "22. When an up gradient of a highway meets a downgrade, the vertical curve provided, is known as",
+    "options": [
+      "valley curve",
+      "sag curve",
+      "summit curve",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "A summit curve (convex upwards) is formed when an ascending gradient meets a descending gradient."
+  },
+  {
+    "q": "23. Degree of a road curve is defined as the angle in degrees subtended at the centre by an arc of",
+    "options": [
+      "10 metres",
+      "20 metres",
+      "25 metres",
+      "30 metres"
+    ],
+    "correct": 3,
+    "explain": "In road works (IRC), the degree of curve is traditionally defined based on a 30-meter arc or chord length."
+  },
+  {
+    "q": "24. If the radii of a compound curve and a reverse curve are respectively the same, the length of common tangent",
+    "options": [
+      "of compound curve will be more",
+      "of reverse curve will be more",
+      "of both curves will be equal",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Because the reverse curve turns in opposite directions, the geometry requires a longer common tangent to facilitate the change in direction compared to a compound curve."
+  },
+  {
+    "q": "25. Widening of the roads on curves in hilly region, is done",
+    "options": [
+      "on the outer side",
+      "on the inner side",
+      "on the outer and inner sides equally",
+      "less on outer side and more on inner side"
+    ],
+    "correct": 1,
+    "explain": "In hilly terrain, extra widening is usually provided entirely on the inner side of the curve due to topographical constraints."
+  },
+  {
+    "q": "26. The standard equation of a cubic parabolic transition curve provided on roads, is",
+    "options": [
+      "x^3 / 6RL",
+      "l^3 / 6RL",
+      "x^2 / 6RL",
+      "l^2 / 6RL"
+    ],
+    "correct": 0,
+    "explain": "The offset $y$ for a cubic parabola is given by $y = x^3 / (6RL)$."
+  },
+  {
+    "q": "27. The ratio of maximum deviation angle and maximum polar deflection angle of a Lemniscate curve, is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "explain": "For a Lemniscate curve, the deviation angle ($\\Delta$) is three times the polar deflection angle ($\\alpha$)."
+  },
+  {
+    "q": "28. The maximum radial distance of a Lemniscate curve, having maximum polar angle α, is",
+    "options": [
+      "3 R sin α",
+      "3 R sin^2 α",
+      "3 R sin 2α",
+      "3 R sin α/2"
+    ],
+    "correct": 2,
+    "explain": "The polar equation of a Lemniscate is $r^2 = a^2 \\cos 2\theta$, leading to the radial distance relation involving $\\sin 2\\alpha$."
+  },
+  {
+    "q": "29. If a Lemniscate curve of transition throughout is introduced to connect two parallel roads, the maximum polar angle of the curve, is",
+    "options": [
+      "10°",
+      "15°",
+      "20°",
+      "30°"
+    ],
+    "correct": 3,
+    "explain": "Parallel roads involve a $180^\\circ$ total turn. Applying the Lemniscate properties to this geometry results in a maximum polar angle of $30^\\circ$."
+  },
+  {
+    "q": "30. Setting out of Lemniscate transition curves, is done with",
+    "options": [
+      "perpendicular offsets",
+      "radius offsets",
+      "deflection angles",
+      "polar deflection angles"
+    ],
+    "correct": 3,
+    "explain": "Lemniscate curves are defined by polar coordinates, making polar deflection angles the natural choice for setting them out."
+  },
+  {
+    "q": "31. The width of road pavements, depends upon",
+    "options": [
+      "width of traffic lane",
+      "number of traffic",
+      "width of median strip",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Pavement width is a function of how many lanes are needed (traffic volume) and the width of each lane/median."
+  },
+  {
+    "q": "32. Selection of the routes, of highways depends upon",
+    "options": [
+      "feasibility of attaining ruling gradient",
+      "avoidance of cutting hard rocks",
+      "minimum number of bridges",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All these factors influence the cost and functionality of the highway."
+  },
+  {
+    "q": "33. During last phase of the reconnaissance, details of the grade line is recorded on 2 metre poles to indicate",
+    "options": [
+      "direction of the proposed alignment",
+      "distance between the previous and forward pegs",
+      "relative elevations of pegs",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The poles help visualize the vertical and horizontal path before moving to the 'trace-out' stage."
+  },
+  {
+    "q": "34. If the radius of curvature of a hill road is 50 m, the percentage grade compensation should be",
+    "options": [
+      "60/R",
+      "70/R",
+      "75/R",
+      "80/R"
+    ],
+    "correct": 2,
+    "explain": "IRC recommends grade compensation as 75/R percent, subject to a maximum of 4% total compensation."
+  },
+  {
+    "q": "35. If N is the net difference of grades, S is the minimum overtaken sight distance in metres, the length (L) of a summit curve, is",
+    "options": [
+      "NS/4",
+      "NS^2/4",
+      "NS^2/4.8",
+      "NS^2/9.6"
+    ],
+    "correct": 3,
+    "explain": "For Overtaking Sight Distance (OSD), the height of the eye and object are both taken as 1.2m, leading to the formula L = NS²/9.6."
+  },
+  {
+    "q": "36. The wall constructed for the stability of an excavated portion of a road on the hill side, is known as",
+    "options": [
+      "retaining wall",
+      "breast wall",
+      "parapet wall",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Breast walls are specifically used to support the soil on the uphill side (cut side) of the road."
+  },
+  {
+    "q": "37. Width of vehicles affects the width of",
+    "options": [
+      "lanes",
+      "shoulders",
+      "parking spaces",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The physical width of a vehicle (standard 2.44m or 2.5m) directly dictates the necessary width of the traffic lane (standard 3.5m or 3.75m)."
+  },
+  {
+    "q": "38. Along horizontal curves, if centrifugal force exceeds lateral friction, vehicles may",
+    "options": [
+      "skid",
+      "slip",
+      "not be affected",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A skid occurs when the tires lose traction and the vehicle slides laterally because the outward centrifugal force is higher than the sideways resistance."
+  },
+  {
+    "q": "39. One-way streets are generally provided in crowded cities as, these",
+    "options": [
+      "are inexpensive means of traffic flow",
+      "reduce delays to vehicles",
+      "permit higher speed",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "One-way systems eliminate head-on conflicts, simplify signal timing, and generally improve flow and safety in dense grids."
+  },
+  {
+    "q": "40. Round-about are not suitable if number of vehicles exceed",
+    "options": [
+      "3000",
+      "4000",
+      "5000",
+      "6000"
+    ],
+    "correct": 0,
+    "explain": "Conventional roundabouts lose efficiency when total entering traffic exceeds 3000 vehicles per hour, leading to excessive weaving delays."
+  },
+  {
+    "q": "41. For the movement of vehicles at an intersection of two roads, without any interference, the type of grade separator generally preferred to, is",
+    "options": [
+      "delta",
+      "trumpet",
+      "diamond interchange",
+      "clover leaf"
+    ],
+    "correct": 3,
+    "explain": "The full cloverleaf interchange allows for all possible turns between two crossing highways without any traffic signals or crossing conflicts."
+  },
+  {
+    "q": "42. The minimum design speed of various types of highways in plain terrain is the same as the ruling design speed of",
+    "options": [
+      "rolling terrain",
+      "mountainous terrain",
+      "steep terrain",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The minimum speed requirement for a higher-tier terrain (plain) often aligns with the ruling (standard) speed of the next most difficult tier (rolling)."
+  },
+  {
+    "q": "43. Set-back distance is the distance between",
+    "options": [
+      "road land boundary and building line",
+      "road land boundary and control line",
+      "building line and control line",
+      "road land boundary and control line"
+    ],
+    "correct": 0,
+    "explain": "The set-back distance ensures that no permanent structures are built too close to the road boundary for safety and future expansion."
+  },
+  {
+    "q": "44. The desirable camber for straight roads with thin bituminous surfacing, is",
+    "options": [
+      "1 in 33 to 1 in 25",
+      "1 in 40 to 1 in 33",
+      "1 in 150 to 1 in 140",
+      "1 in 160 to 1 in 140"
+    ],
+    "correct": 1,
+    "explain": "For thin bituminous layers, a camber of 2.5% to 3% (1 in 40 to 1 in 33) is the standard requirement."
+  },
+  {
+    "q": "45. While calculating the overtaking sight distance, the height of the object above road surface, is assumed ............",
+    "options": [
+      "zero",
+      "50 cm",
+      "75 cm",
+      "120 cm"
+    ],
+    "correct": 3,
+    "explain": "Unlike stopping sight distance (where the object is 0.15m), for Overtaking Sight Distance (OSD), the object is another vehicle, so its height is also taken as 1.2 meters (120 cm)."
+  },
+  {
+    "q": "46. Super-elevation is expressed as ............",
+    "options": [
+      "the difference of heights of two edges of the carriage-way to the width of the carriage-way",
+      "the difference of radii of curves",
+      "the difference of the road gradients",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Superelevation (e) is defined as the ratio of the height of the outer edge above the inner edge (h) to the horizontal width of the pavement (W)."
+  },
+  {
+    "q": "47. The main advantage of providing super-elevation is ............",
+    "options": [
+      "to decrease the intensity of stresses on the foundation",
+      "to increase the stability of the fast moving vehicles, when they negotiate a horizontal curve",
+      "to achieve higher speed of vehicles",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Superelevation counteracts centrifugal force, keeping vehicles stable at higher speeds and preventing uneven stress on the road base."
+  },
+  {
+    "q": "48. If the width of carriage way is 10 m and the outer edge is 40 cm higher than the inner edge, then the super-elevation required is ............",
+    "options": [
+      "1 in 25",
+      "1 in 100",
+      "1 in 400",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Superelevation = Height / Width = 0.4m / 10m = 0.04. Converting to '1 in X' format: 0.04 = 1/25, so 1 in 25."
+  },
+  {
+    "q": "49. The stopping sight distance is the ............ of reaction distance and the braking distance.",
+    "options": [
+      "sum",
+      "difference",
+      "product",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "SSD = Lag Distance (distance traveled during reaction time) + Braking Distance (distance traveled after applying brakes)."
+  },
+  {
+    "q": "50. The reaction time of a driver ............ with the increase in speed.",
+    "options": [
+      "remains constant",
+      "increases",
+      "decreases",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "As speed increases, drivers tend to be more alert, effectively decreasing their reaction time compared to low-speed driving where they might be more relaxed."
+  },
+  {
+    "q": "51. The opportunities to cross slow moving traffic at intervals is not provided in case of ............",
+    "options": [
+      "two-lane highways",
+      "three-lane highways",
+      "four lane highways",
+      "all of these"
+    ],
+    "correct": 0,
+    "explain": "On two-lane highways without extra passing lanes or adequate OSD, drivers have limited opportunities to pass slow-moving vehicles safely."
+  },
+  {
+    "q": "52. A horizontal curve on a road provides ............",
+    "options": [
+      "change in the direction",
+      "change in the gradient of road",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Horizontal curves are specifically introduced to allow a change in the direction of the road alignment in a plan view."
+  },
+  {
+    "q": "53. Which of the following is not a transition curve?",
+    "options": [
+      "Compound curve",
+      "Cubic spiral",
+      "Cubic parabola",
+      "True spiral"
+    ],
+    "correct": 0,
+    "explain": "A compound curve is a series of circular arcs; it does not feature a transition (gradual change from straight to circular)."
+  },
+  {
+    "q": "54. The intrinsic equation of an ideal transition curve representing a clothoid is given by ............",
+    "options": [
+      "φ = l²/2RL",
+      "φ = l²/4RL",
+      "φ = l²/8RL",
+      "φ = l²/16RL"
+    ],
+    "correct": 0,
+    "explain": "The spiral angle φ for a clothoid/spiral is given by l²/(2RL), where l is the distance from the start of the curve."
+  },
+  {
+    "q": "55. In the initial stage of construction of hill roads, no curve should have a radius less than ............",
+    "options": [
+      "20 m",
+      "30 m",
+      "40 m",
+      "50 m"
+    ],
+    "correct": 0,
+    "explain": "For safety and vehicle maneuverability, the minimum radius for hairpin bends or sharp curves in hill roads is typically set at 20 m."
+  },
+  {
+    "q": "56. The number of vehicles passing at a point on the highway in unit time is known as ............",
+    "options": [
+      "traffic capacity",
+      "traffic volume",
+      "traffic density",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "Traffic volume is the measure of the quantity of traffic, usually expressed as vehicles per hour or per day."
+  },
+  {
+    "q": "57. The purpose of traffic surveys is to ............",
+    "options": [
+      "know the type of traffic",
+      "determine the facilities to traffic regulations",
+      "design proper drainage system",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Traffic surveys provide the data necessary to plan traffic regulations, signals, and road improvements to manage flow effectively."
+  },
+  {
+    "q": "58. The traffic census is carried out to study ............",
+    "options": [
+      "speed and delay",
+      "traffic volume",
+      "road parking",
+      "origin and destination"
+    ],
+    "correct": 1,
+    "explain": "A traffic census primarily involves counting the number and types of vehicles to determine traffic volume."
+  },
+  {
+    "q": "59. The most efficient traffic signal system is ............",
+    "options": [
+      "simultaneous system",
+      "alternate system",
+      "flexible progressive system",
+      "simple progressive system"
+    ],
+    "correct": 2,
+    "explain": "The Flexible Progressive System allows signals along a corridor to be coordinated and adjusted individually to maintain a 'green wave' for traffic flow."
   }
 ]

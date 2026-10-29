@@ -1,6 +1,216 @@
 [
   {
-    "q": "1. The compressive strength of an ordinary Portland cement cube after 7 days test should not be less than",
+    "q": "1. Specified compressive strength of concrete is obtained from cube tests at the end of",
+    "options": [
+      "7 days",
+      "14 days",
+      "21 days",
+      "28 days"
+    ],
+    "correct": 3,
+    "explain": "By convention and IS code practice, the characteristic/specified compressive strength of concrete is defined based on 28-day cube test results, by which time hydration has developed most of the strength."
+  },
+  {
+    "q": "2. The strength of concrete after one year as compared to 28 days strength is about",
+    "options": [
+      "10 to 15% more",
+      "15 to 20% more",
+      "20 to 25% more",
+      "25 to 30% more"
+    ],
+    "correct": 2,
+    "explain": "Continued hydration over time increases strength beyond the 28-day value; typical long-term gain at one year is about 20-25% more than the 28-day strength."
+  },
+  {
+    "q": "3. The ratio of various ingredients in concrete of grade M20 is",
+    "options": [
+      "1:2:4",
+      "1:3:4",
+      "1:1.5:3",
+      "1:1:2"
+    ],
+    "correct": 2,
+    "explain": "M20 grade concrete corresponds to the nominal mix proportion of 1:1.5:3 (cement:fine aggregate:coarse aggregate) as per traditional nominal mix classification."
+  },
+  {
+    "q": "4. In concrete mix design, allowance for bulking of sand is necessary in case of",
+    "options": [
+      "volume batching only",
+      "weight batching only",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Bulking changes the apparent volume of sand due to moisture, so a correction is required only when proportioning is done by volume (volume batching), not by weight."
+  },
+  {
+    "q": "5. In concrete mix design, allowance for surface water carried by aggregate is necessary in case of",
+    "options": [
+      "volume batching only",
+      "weight batching only",
+      "both 'a' and 'b'",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Surface moisture on aggregate adds extra water to the mix and affects the effective water-cement ratio regardless of whether batching is done by volume or by weight, so an allowance is needed in both cases."
+  },
+  {
+    "q": "6. According to I.S. : 456, the number of grades of concrete mixes, is",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "correct": 3,
+    "explain": "As per IS:456, concrete mixes were historically classified into 7 grades based on specified compressive strengths (though modern codes list more, this classic reference lists 7)."
+  },
+  {
+    "q": "7. The preliminary test is repeated if the difference of compressive strength of three test specimens, exceeds",
+    "options": [
+      "5kg/cm2",
+      "10kg/cm2",
+      "12 kg/cm2",
+      "15kg/cm2"
+    ],
+    "correct": 3,
+    "explain": "If the compressive strength results of three specimens from a preliminary test vary by more than 15 kg/cm², the test is considered unreliable and must be repeated."
+  },
+  {
+    "q": "8. The approximate ratio of direct tensile strength to direct compressive strength test of concrete",
+    "options": [
+      "0.65",
+      "0.40",
+      "0.15",
+      "0.10"
+    ],
+    "correct": 3,
+    "explain": "Concrete is inherently weak in tension compared to compression; its direct tensile strength is only about 1/10th (approximately 0.10) of its direct compressive strength."
+  },
+  {
+    "q": "9. The concrete in which preliminary tests are performed for designing the mix is called",
+    "options": [
+      "rich concrete",
+      "controlled concrete",
+      "lean concrete",
+      "ordinary concrete"
+    ],
+    "correct": 1,
+    "explain": "Controlled concrete is that for which preliminary trial mixes and tests are conducted to design and control the exact proportions for target strength."
+  },
+  {
+    "q": "10. The workability of concrete by slump test is expressed as",
+    "options": [
+      "Minutes",
+      "mm/hr",
+      "mm2/hr",
+      "mm"
+    ],
+    "correct": 3,
+    "explain": "The result of a slump test is simply the vertical subsidence of the concrete cone, measured and expressed in millimetres (mm)."
+  },
+  {
+    "q": "11. Allowable shear strength of concrete, depends upon",
+    "options": [
+      "shear strength",
+      "tensile strength",
+      "compressive strength",
+      "none of these."
+    ],
+    "correct": 0,
+    "explain": "The allowable (permissible) shear strength value used in design is directly based on the concrete's own inherent shear strength characteristics."
+  },
+  {
+    "q": "12. Minimum number of test specimens required for finding the compressive strength of concrete are",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "9"
+    ],
+    "correct": 0,
+    "explain": "As per standard practice, a minimum of 3 test specimens (cubes) are cast and tested to determine the compressive strength of a concrete batch."
+  },
+  {
+    "q": "13. For the construction of the retaining structures, the type of concrete mix to be used, is",
+    "options": [
+      "1:3:6",
+      "1: 1½ :3",
+      "1:2:4",
+      "1:1:2"
+    ],
+    "correct": 1,
+    "explain": "For retaining structures which require higher strength due to lateral earth pressures, a richer mix of 1:1½:3 (M20 grade) is typically used."
+  },
+  {
+    "q": "14. The correct proportion of ingredients of concrete, depends upon",
+    "options": [
+      "bulking of sand",
+      "water content",
+      "absorption",
+      "workability",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "Correct mix proportioning must account for all these factors - bulking of sand, water content, absorption of aggregates, and desired workability - to achieve an accurate and effective concrete mix."
+  },
+  {
+    "q": "15. The concrete shrinkage is more pronounced in",
+    "options": [
+      "rich mix",
+      "lean mix",
+      "very lean mix",
+      "normal mix"
+    ],
+    "correct": 0,
+    "explain": "A rich mix contains a higher proportion of cement paste (which is the shrinking component), so shrinkage is more pronounced in rich mixes compared to lean mixes."
+  },
+  {
+    "q": "16. For finding compressive strength of concrete, the minimum number of cubes required is",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correct": 0,
+    "explain": "As per standard testing practice, a minimum of 3 concrete cubes are cast and tested to determine the average compressive strength for a given sample."
+  },
+  {
+    "q": "17. The 28 days cube strength of mass concrete using aggregates of maximum size 5 cm for gravity dams should be",
+    "options": [
+      "between 150 to 300 kg/cm2",
+      "between 350 to 600kg/cm2",
+      "between 150 to 500 kg/cm2",
+      "below 200 kg/cm2"
+    ],
+    "correct": 3,
+    "explain": "For mass concrete in gravity dams using large aggregate (5 cm max size), the required 28-day cube strength is relatively modest, typically specified as below 200 kg/cm², since strength requirements are lower than structural concrete."
+  },
+  {
+    "q": "18. The behavior of concrete under instantaneous loads is",
+    "options": [
+      "elastic",
+      "plastic",
+      "inelastic",
+      "visco-elastic"
+    ],
+    "correct": 0,
+    "explain": "Under instantaneous (short-duration) loading, concrete behaves approximately as an elastic material, following a near-linear stress-strain relationship."
+  },
+  {
+    "q": "19. Concrete can take tension up to",
+    "options": [
+      "10% of its compressive strength",
+      "10% of the compressive strength of steel",
+      "10% of the combined compressive strength of concrete & R/F",
+      "10% of the total tensile strength of the section"
+    ],
+    "correct": 0,
+    "explain": "Concrete's tensile strength is generally only about 10% of its own compressive strength, reflecting its characteristic weakness in tension relative to compression."
+  },
+  {
+    "q": "20. The compressive strength of an ordinary Portland cement cube after 7 days test should not be less than",
     "options": [
       "11 N/mm2",
       "17.5 N/mm2",
@@ -11,29 +221,7 @@
     "explain": "As per IS 269 specifications, the minimum 7-day compressive strength requirement for OPC mortar cubes is 17.5 N/mm²."
   },
   {
-    "q": "2. The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M 200, is",
-    "options": [
-      "1: 2:4",
-      "1: 3: 6",
-      "1: 1.5:3",
-      "1: 1: 2"
-    ],
-    "correct": 2,
-    "explain": "The nominal mix proportion associated with grade M200 concrete (equivalent to M20 in modern notation) is 1 : 1.5 : 3 (cement : sand : coarse aggregate)."
-  },
-  {
-    "q": "3. The cube strength of concrete exceeds the cylinder strength by (in percent)",
-    "options": [
-      "10 to 50",
-      "10 to 15",
-      "15 to 20",
-      "20 to 25"
-    ],
-    "correct": 3,
-    "explain": "Due to the difference in specimen geometry and the resulting confinement/end effects during testing, cube strength typically exceeds cylinder strength by about 20 to 25%."
-  },
-  {
-    "q": "4. For cylindrical specimens, the dimension of cylinder generally used",
+    "q": "21. For cylindrical specimens, the dimension of cylinder generally used",
     "options": [
       "D = 15 cm, H = 30 cm",
       "D = 30 cm, H = 30 cm",
@@ -44,73 +232,7 @@
     "explain": "The standard cylindrical test specimen used for compressive strength testing has a diameter of 15 cm and a height of 30 cm, giving the standard height-to-diameter ratio of 2."
   },
   {
-    "q": "5. Cube test is used to determine",
-    "options": [
-      "Compressive strength",
-      "Tensile strength of concrete",
-      "water cement ratio",
-      "None of the above"
-    ],
-    "correct": 0,
-    "explain": "The standard cube test is specifically designed to determine the compressive strength of concrete, the most commonly required strength parameter."
-  },
-  {
-    "q": "6. For cylindrical specimens, minimum strength required should be",
-    "options": [
-      "0.20 times the strength of 15 cm cubes",
-      "0.40 times the strength of 15 cm cubes",
-      "0.60 times the strength of 15 cm cubes",
-      "0.80 times the strength of 15 cm cubes"
-    ],
-    "correct": 3,
-    "explain": "The compressive strength obtained from a standard cylinder is typically about 0.80 times the strength of an equivalent 15 cm cube, due to the difference in specimen shape and testing conditions."
-  },
-  {
-    "q": "7. The surface area of standard cube used for finding compressive strength of concrete is",
-    "options": [
-      "225 cm2",
-      "22500 mm2",
-      "0.0225 m2",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "The standard cube face is 15cm x 15cm = 225 cm² = 22500 mm² = 0.0225 m² - all these are equivalent expressions of the same area in different units, so all of the above is correct."
-  },
-  {
-    "q": "8. During application of load on cylindrical specimen the failure plane makes an angle of .........with the horizontal.",
-    "options": [
-      "30 deg",
-      "45 deg",
-      "60 deg",
-      "75 deg"
-    ],
-    "correct": 2,
-    "explain": "Under compressive load, cylindrical concrete specimens typically fail along a shear plane inclined at approximately 60 degrees to the horizontal (or about 30 degrees to the vertical axis of loading)."
-  },
-  {
-    "q": "9. The ultimate load of a balanced reinforced concrete beam is proportional to",
-    "options": [
-      "crushing strength of concrete",
-      "tensile strength of concrete",
-      "tensile strength of steel",
-      "crushing strength of concrete and/or tensile strength of the steel"
-    ],
-    "correct": 3,
-    "explain": "In a balanced section, both the concrete's crushing (compressive) strength and the steel's tensile strength reach their limiting values simultaneously, so the ultimate load depends on both."
-  },
-  {
-    "q": "10. The grade of concrete M 150 means that compressive strength of 15 cm cube after 28 days is",
-    "options": [
-      "100 kg/cm2",
-      "150 kg/cm2",
-      "200 kg/cm2",
-      "250 kg/cm2"
-    ],
-    "correct": 1,
-    "explain": "By definition, the grade designation M150 directly specifies a characteristic compressive strength of 150 kg/cm² for a 15cm cube tested after 28 days."
-  },
-  {
-    "q": "11. The test conducted in the labouratory on the specimen made out of trial concrete mix is called",
+    "q": "22. The test conducted in the labouratory on the specimen made out of trial concrete mix is called",
     "options": [
       "preliminary test",
       "slump test",
@@ -121,7 +243,7 @@
     "explain": "A preliminary test is carried out in the laboratory on specimens made from trial concrete mixes to establish suitable proportions before actual construction begins."
   },
   {
-    "q": "12. Allowable shear strength of concrete, depends upon",
+    "q": "23. Allowable shear strength of concrete, depends upon",
     "options": [
       "shear strength",
       "tensile strength",
@@ -132,62 +254,7 @@
     "explain": "The allowable shear strength of concrete is generally derived as a function of, and depends upon, its compressive strength, as per design code provisions."
   },
   {
-    "q": "13. The strength of concrete is decreased by",
-    "options": [
-      "vibration",
-      "impact",
-      "fatigue",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Excessive vibration (over-vibration), impact loading, and fatigue (repeated cyclic loading) can all contribute to a decrease in the effective strength of concrete over time."
-  },
-  {
-    "q": "14. The most appropriate method to specify the concrete mix is by",
-    "options": [
-      "the nominal mix ratio",
-      "the designed mix ratio",
-      "the degree of control",
-      "the grade of concrete"
-    ],
-    "correct": 3,
-    "explain": "Specifying concrete by its grade (e.g., M20, M25) is considered the most appropriate and standardized method, as it directly denotes the required characteristic compressive strength."
-  },
-  {
-    "q": "15. The total number of grades of ordinary concrete stipulated in IS 456:2000 are",
-    "options": [
-      "3",
-      "6",
-      "9",
-      "12"
-    ],
-    "correct": 0,
-    "explain": "IS 456:2000 stipulates a total of 6 grades under the ordinary concrete category (M10, M15, M20, M25, M30... within the ordinary grade group)."
-  },
-  {
-    "q": "16. The standard size of a concrete cube for compressive strength test is",
-    "options": [
-      "50 mm",
-      "100 mm",
-      "150 mm",
-      "200 mm"
-    ],
-    "correct": 2,
-    "explain": "The standard concrete cube specimen size used for compressive strength testing is 150 mm x 150 mm x 150 mm (15 cm cube)."
-  },
-  {
-    "q": "17. If the various concrete ingredients i.e. cement, sand and aggregates are in the ratio of 1:3:6, the grade of concrete, is",
-    "options": [
-      "M100",
-      "M150",
-      "M200",
-      "M250"
-    ],
-    "correct": 0,
-    "explain": "The nominal mix ratio 1:3:6 corresponds to the M150 grade of concrete as per standard grade-mix ratio correlations."
-  },
-  {
-    "q": "18. Permissible compressive strength of M150 concrete grade is",
+    "q": "24. Permissible compressive strength of M150 concrete grade is",
     "options": [
       "100 kg/cm2",
       "150 kg/cm2",
@@ -198,18 +265,7 @@
     "explain": "As indicated by its designation, the M150 grade of concrete has a characteristic (permissible) compressive strength of 150 kg/cm²."
   },
   {
-    "q": "19. Permissible compressive strength of M150 concrete grade is",
-    "options": [
-      "100 kg/m2",
-      "15 kg/cm2",
-      "15 N/mm2",
-      "25 kg/mm2"
-    ],
-    "correct": 2,
-    "explain": "150 kg/cm² is equivalent to approximately 15 N/mm² (since 1 N/mm² ≈ 10.2 kg/cm²), making 15 N/mm² the correct equivalent expression of the M150 grade strength."
-  },
-  {
-    "q": "20. Permissible compressive strength of M200 concrete grade is",
+    "q": "25. Permissible compressive strength of M200 concrete grade is",
     "options": [
       "100 kg/cm2",
       "150 kg/cm2",
@@ -220,18 +276,7 @@
     "explain": "By definition, the M200 grade concrete has a characteristic (permissible) compressive strength of 200 kg/cm²."
   },
   {
-    "q": "21. The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M 200, is",
-    "options": [
-      "1:2:4",
-      "1:3:6",
-      "1:1.5:3",
-      "1:1:2"
-    ],
-    "correct": 2,
-    "explain": "The M200 grade of concrete typically corresponds to a nominal mix ratio of 1:1.5:3 (cement:sand:aggregate)."
-  },
-  {
-    "q": "22. Permissible compressive strength of M250 concrete grade is",
+    "q": "26. Permissible compressive strength of M250 concrete grade is",
     "options": [
       "100 kg/cm2",
       "150 kg/cm2",
@@ -242,40 +287,7 @@
     "explain": "By definition, the M250 grade concrete has a characteristic (permissible) compressive strength of 250 kg/cm²."
   },
   {
-    "q": "23. Permissible compressive strength of M300 concrete grade is",
-    "options": [
-      "100 kg/cm2",
-      "150 kg/cm2",
-      "200 kg/cm2",
-      "300 kg/cm2"
-    ],
-    "correct": 3,
-    "explain": "By definition, the M300 grade concrete has a characteristic (permissible) compressive strength of 300 kg/cm²."
-  },
-  {
-    "q": "24. The concrete mixes are designated into",
-    "options": [
-      "4 grades",
-      "5 grades",
-      "6 grades",
-      "7 grades"
-    ],
-    "correct": 3,
-    "explain": "As per the classification used in this text (older IS 456 provisions), concrete mixes are designated into seven standard grades."
-  },
-  {
-    "q": "25. Which of the following grade is not recommended by IS 456:1978",
-    "options": [
-      "M10",
-      "M20",
-      "M40",
-      "M55"
-    ],
-    "correct": 3,
-    "explain": "M55 grade is not among the standard grades listed/recommended under the (older) IS 456:1978 provisions referenced in this text."
-  },
-  {
-    "q": "26. The test conducted in the laboratory on the specimen made out of trial concrete mix is called",
+    "q": "27. The test conducted in the laboratory on the specimen made out of trial concrete mix is called",
     "options": [
       "preliminary test",
       "slump test",
@@ -284,17 +296,6 @@
     ],
     "correct": 0,
     "explain": "A preliminary test is a laboratory test performed on trial mix specimens to determine and finalize the mix design before actual site work begins."
-  },
-  {
-    "q": "27. In preliminary test, the concrete is placed in the mould in ......... layers of equal volume.",
-    "options": [
-      "two",
-      "three",
-      "four",
-      "five"
-    ],
-    "correct": 1,
-    "explain": "As per standard cube/cylinder casting procedure for preliminary tests, concrete is placed and compacted in three equal layers."
   },
   {
     "q": "28. The preliminary test should be repeated if the difference of compressive strength of three test specimen exceeds.",
@@ -319,40 +320,7 @@
     "explain": "Concrete mix design is influenced jointly by aggregate fineness modulus, water-cement ratio, and required workability (slump) — hence all of these factors are relevant."
   },
   {
-    "q": "30. For the construction of RCC slab, column, beam and walls, the minimum grade of concrete mixed is used for",
-    "options": [
-      "1:3:6",
-      "1:1:2",
-      "1:1.5:3",
-      "1:2:4"
-    ],
-    "correct": 2,
-    "explain": "The minimum recommended nominal mix for general RCC construction (slabs, columns, beams, walls) is 1:2:4, corresponding to M15 grade concrete."
-  },
-  {
-    "q": "31. M100 grade of concrete approximates",
-    "options": [
-      "1:3:6",
-      "1:1:2",
-      "1:2:4",
-      "1:1.5:3"
-    ],
-    "correct": 0,
-    "explain": "The M100 grade of concrete (lowest strength grade) approximately corresponds to a lean nominal mix ratio of 1:3:6."
-  },
-  {
-    "q": "32. The number of bags of cement required per cubic meter of 1:2:4 concrete will be approximately",
-    "options": [
-      "2 to 3",
-      "3 to 4",
-      "4 to 5",
-      "5 to 6"
-    ],
-    "correct": 3,
-    "explain": "For a nominal 1:2:4 concrete mix, standard calculations show that approximately 4 to 5 bags of cement (50 kg each) are needed per cubic metre of concrete."
-  },
-  {
-    "q": "33. M150 grade of concrete approximates",
+    "q": "30. M150 grade of concrete approximates",
     "options": [
       "1:3:6",
       "1:1:2",
@@ -363,29 +331,7 @@
     "explain": "The M150 grade of concrete approximately corresponds to a nominal mix ratio of 1:2:4 (cement:sand:aggregate)."
   },
   {
-    "q": "34. The increase in strength of concrete after 6 months",
-    "options": [
-      "5%",
-      "10%",
-      "15%",
-      "20%"
-    ],
-    "correct": 2,
-    "explain": "As per the strength-gain data referenced in this text, concrete strength increases by about 20% beyond the 28-day value after 6 months of curing."
-  },
-  {
-    "q": "35. To determine modulus of rupture, the size of test specimen used is",
-    "options": [
-      "150 × 150 × 500 mm",
-      "150 × 150 × 700 mm",
-      "100 × 100 × 500 mm",
-      "100 × 100 × 700 mm"
-    ],
-    "correct": 1,
-    "explain": "As per IS 516, the standard flexural (modulus of rupture) test beam specimen size is 150 × 150 × 700 mm."
-  },
-  {
-    "q": "36. Workability of concrete is directly proportional to",
+    "q": "31. Workability of concrete is directly proportional to",
     "options": [
       "aggregate cement ratio",
       "time of transit",
@@ -396,18 +342,7 @@
     "explain": "Well-graded aggregate reduces void content and improves the flow characteristics of the mix, thereby directly improving workability."
   },
   {
-    "q": "37. The relation between modulus of rupture fcr and characteristic strength fck is given by",
-    "options": [
-      "fcr = 0.35√fck",
-      "fcr = 0.5√fck",
-      "fcr = 0.7√fck",
-      "fcr = 1.2√fck"
-    ],
-    "correct": 2,
-    "explain": "As per IS 456, the flexural strength (modulus of rupture) of concrete is related to its characteristic compressive strength by fcr = 0.7√fck."
-  },
-  {
-    "q": "38. The compressive strength of 100 mm cube as compared to 150 mm cube is always",
+    "q": "32. The compressive strength of 100 mm cube as compared to 150 mm cube is always",
     "options": [
       "less",
       "more",
@@ -418,73 +353,7 @@
     "explain": "Due to the size effect in concrete testing, smaller 100 mm cube specimens generally record a higher apparent compressive strength than standard 150 mm cubes."
   },
   {
-    "q": "39. The modulus of elasticity E of concrete can be taken as",
-    "options": [
-      "E = 5700√fck",
-      "E = 570√fck",
-      "E = 5700√fck",
-      "E = 700√fck"
-    ],
-    "correct": 0,
-    "explain": "As per IS 456, the static modulus of elasticity of concrete is commonly estimated using the empirical formula E = 5700√fck (in N/mm²)."
-  },
-  {
-    "q": "40. The concrete mix which causes difficulty in obtaining a smooth finish, possess",
-    "options": [
-      "segregation",
-      "internal friction",
-      "hardness",
-      "bleeding"
-    ],
-    "correct": 2,
-    "explain": "A harsh concrete mix, characterized by excessive hardness/lack of fines, makes it difficult to achieve a smooth surface finish."
-  },
-  {
-    "q": "41. The top diameter, bottom diameter, and the height of slump mould are",
-    "options": [
-      "10 cm, 20 cm, 30 cm",
-      "20 cm, 10 cm, 30 cm",
-      "30 cm, 20 cm, 10 cm",
-      "20 cm, 30 cm, 10 cm"
-    ],
-    "correct": 0,
-    "explain": "As per IS 1199, the standard slump cone mould has a top diameter of 10 cm, bottom diameter of 20 cm, and a height of 30 cm."
-  },
-  {
-    "q": "42. In slump test, each layer of concrete is compacted by a steel rod 60 cm long and 16 m diameter for ......",
-    "options": [
-      "20 times",
-      "25 times",
-      "30 times",
-      "35 times"
-    ],
-    "correct": 1,
-    "explain": "As per IS 1199, each of the three layers in the slump test mould is tamped 25 times using the standard 16 mm diameter, 60 cm long steel rod."
-  },
-  {
-    "q": "43. The grade of concrete not recommended by IS 456 is",
-    "options": [
-      "M20",
-      "M30",
-      "M40",
-      "M50"
-    ],
-    "correct": 3,
-    "explain": "As per the classification referenced in this text, M30 does not appear among the listed standard grades recommended by IS 456."
-  },
-  {
-    "q": "44. The grade of concrete M150 means that compressive strength of a 15 cm cube after 28 days is",
-    "options": [
-      "100 kg/cm2",
-      "150 kg/cm2",
-      "200 kg/cm2",
-      "250 kg/cm2"
-    ],
-    "correct": 1,
-    "explain": "In the older grade-naming convention (M followed by a number in kg/cm²), M150 directly denotes a 28-day cube compressive strength of 150 kg/cm²."
-  },
-  {
-    "q": "45. According to IS 456, the number of grades of concrete mix is",
+    "q": "33. According to IS 456, the number of grades of concrete mix is",
     "options": [
       "4",
       "5",
@@ -495,51 +364,7 @@
     "explain": "As per the classification referenced in this text (older IS 456 provisions), concrete mixes are designated into seven standard grades."
   },
   {
-    "q": "46. The preliminary test is repeated if the difference of compressive strength of three test specimen exceeds",
-    "options": [
-      "8 kg/cm2",
-      "10 kg/cm2",
-      "12 kg/cm2",
-      "15 kg/cm2"
-    ],
-    "correct": 3,
-    "explain": "As per the acceptance criteria in this text, the preliminary test must be repeated if the difference in compressive strength among the three test specimens exceeds 15 kg/cm²."
-  },
-  {
-    "q": "47. The main purpose of concrete design mix is",
-    "options": [
-      "economise the cost of concrete",
-      "mixing the concrete in better way",
-      "selection of ingredients of concrete",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Design mixing proportions the ingredients scientifically to achieve the required strength and durability at the most economical cement content, making cost economy its main purpose."
-  },
-  {
-    "q": "48. For the construction of RCC slabs, columns, beams, walls etc, the grade of concrete mix used is",
-    "options": [
-      "1:3:6",
-      "1:2:4",
-      "1:1:2",
-      "1:4:8"
-    ],
-    "correct": 1,
-    "explain": "For general RCC structural elements like slabs, columns, beams and walls, the nominal mix commonly used is 1:2:4 (equivalent to M15 grade)."
-  },
-  {
-    "q": "49. Generally nominal mix is done by volume while design mix is done by",
-    "options": [
-      "volume",
-      "weight",
-      "both (a) and (b) of above",
-      "consolidation"
-    ],
-    "correct": 1,
-    "explain": "Design mixes require accurate proportioning of ingredients, which is achieved by batching materials by weight rather than the less precise volume batching used in nominal mixes."
-  },
-  {
-    "q": "50. For the construction of the retaining structures, the type of concrete mix to be used is",
+    "q": "34. For the construction of the retaining structures, the type of concrete mix to be used is",
     "options": [
       "1:3:6",
       "1:1.5:3",
@@ -548,5 +373,93 @@
     ],
     "correct": 1,
     "explain": "For retaining structures, a richer mix of proportion 1:1.5:3 (equivalent to M20 grade) is recommended for adequate strength and durability."
+  },
+  {
+    "q": "35. If the average compressive strength is 4000 kg/cm2 and standard deviation is 500, the coefficient of variation is",
+    "options": [
+      "10%",
+      "12.5%",
+      "15%",
+      "18.5%"
+    ],
+    "correct": 1,
+    "explain": "Coefficient of variation = (standard deviation / mean) x 100 = (500/4000) x 100 = 12.5%."
+  },
+  {
+    "q": "36. Gel space ratio is defined as the ratio of",
+    "options": [
+      "volume of hydrated cement to the sum of volume of hydrated cement and capillary pores",
+      "the sum of volume of hydrated cement and capillary pores to volume of hydrated cement",
+      "both a) and b) of above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Gel-space ratio is defined by Powers as the volume of the gel (hydration products) divided by the sum of the volume of the gel and the capillary pore space it occupies."
+  },
+  {
+    "q": "37. For batching 1:3:6 concrete mix by volume, the ingredients required per bag of 50 kg cement are",
+    "options": [
+      "70 litres of sand and 120 litres of aggregates",
+      "70 kg of sand and 140 litres of aggregates",
+      "105 litres of sand and 140 litres of aggregates",
+      "105 litres of sand and 210 litres of aggregates"
+    ],
+    "correct": 3,
+    "explain": "For a 1:3:6 mix, with one bag of cement corresponding to about 35 litres, the sand requirement (3×35=105 litres) and coarse aggregate requirement (6×35=210 litres) work out to 105 litres of sand and 210 litres of aggregate."
+  },
+  {
+    "q": "38. The dimensions of 35 litres forma for measuring aggregates by volume are",
+    "options": [
+      "length 30 cm, breadth 25 cm, height 30 cm",
+      "length 39 cm, breadth 25 cm, height 32 cm",
+      "length 27 cm, breadth 27 cm, height 48 cm",
+      "length 22 cm, breadth 25 cm, height 40 cm"
+    ],
+    "correct": 2,
+    "explain": "As per the standard farma box dimensions given in this text, a box measuring 22 cm × 25 cm × 40 cm gives a volume corresponding to 35 litres."
+  },
+  {
+    "q": "39. Light weight concrete is used in",
+    "options": [
+      "heat resistance",
+      "air conditioning of buildings",
+      "non load bearing wall",
+      "reducing thickness"
+    ],
+    "correct": 2,
+    "explain": "Because of its lower strength and density, light weight concrete finds its principal application in non-load-bearing wall construction such as partition walls."
+  },
+  {
+    "q": "40. For mass concrete in piers and abutments, the concrete mix used is of proportion.",
+    "options": [
+      "1:1:2",
+      "1:1.5:3",
+      "1:2:4",
+      "1:3:6"
+    ],
+    "correct": 3,
+    "explain": "For mass concrete work such as piers and abutments, a leaner mix of proportion 1:3:6 is generally used, as high strength is not the primary requirement."
+  },
+  {
+    "q": "41. The correct proportioning of various ingredients of concrete largely depend upon.............",
+    "options": [
+      "bulking of sand",
+      "water content",
+      "absorption",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Correct mix proportioning must account for bulking of sand, water content, and aggregate absorption together — all of these factors affect the actual quantities batched."
+  },
+  {
+    "q": "42. The concrete in which preliminary tests are preformed for designing the mix is called:",
+    "options": [
+      "ordinary concrete",
+      "rich concrete",
+      "controlled concrete",
+      "lean concrete"
+    ],
+    "correct": 2,
+    "explain": "Controlled concrete refers to concrete whose mix proportions are determined and controlled through preliminary laboratory tests to meet specified strength and durability requirements."
   }
 ]

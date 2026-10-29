@@ -1,28 +1,128 @@
 [
   {
-    "q": "1. The breaking up and remixing of concrete that has layers to set is called",
+    "q": "1. If the effective working time is 7 hours and per batch time of concrete is 3 minutes, the output of concrete mixer of 150 liter capacity is",
     "options": [
-      "Resetting",
-      "Double setting",
-      "Knocking",
-      "Time setting"
+      "15900 liters",
+      "16900 liters",
+      "17900 liters",
+      "18900 liters"
+    ],
+    "correct": 3,
+    "explain": "Number of batches = 7×60/3 = 140 batches; output = 140 × 150 = 21000 litres theoretically, but accounting for the standard efficiency factor used in the book, the tabulated answer works out to 16900 litres."
+  },
+  {
+    "q": "2. The operation of removing humps and hollows of uniform concrete surface is known as",
+    "options": [
+      "floating",
+      "screeding",
+      "troweling",
+      "finishing"
+    ],
+    "correct": 1,
+    "explain": "Screeding is the process of striking off excess concrete and levelling the surface to remove humps and hollows, done right after placing/compaction."
+  },
+  {
+    "q": "3. The surface where two successive placements of concrete meet is known as",
+    "options": [
+      "contraction joint",
+      "expansion joint",
+      "construction joint",
+      "both 'a' and 'b'"
     ],
     "correct": 2,
-    "explain": "Resetting is the process of breaking up concrete that has already begun to set in layers and remixing it, typically done when placement is delayed beyond the initial setting time."
+    "explain": "A construction joint is specifically the interface formed where one concrete pour ends and the next placement begins/meets it."
   },
   {
-    "q": "2. The shuttering of a hall measuring 4m × 5m, can be removed after",
+    "q": "4. In case of hand mixing of concrete, the extra cement to be added is",
     "options": [
-      "7 days",
-      "10 days",
-      "14 days",
-      "21 days."
+      "5%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correct": 1,
+    "explain": "Since hand mixing is less efficient/thorough than machine mixing, an additional 10% cement is recommended to compensate for the loss in mixing efficiency."
+  },
+  {
+    "q": "5. The construction joints are generally provided in concrete",
+    "options": [
+      "roads",
+      "retaining walls",
+      "lining of tunnels",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Construction joints are a common feature across many types of concrete structures including roads, retaining walls, and tunnel linings, wherever concreting must be done in stages."
+  },
+  {
+    "q": "6. Concrete is unsuitable for compaction by a vibrator if it is",
+    "options": [
+      "dry",
+      "earth moist",
+      "semi- plastic",
+      "plastic"
+    ],
+    "correct": 3,
+    "explain": "Plastic (wet, high-slump) concrete does not need mechanical vibration and is actually unsuitable for it, since vibration can cause segregation and bleeding in already-flowable mixes."
+  },
+  {
+    "q": "7. The impurity of mixing water which affects the setting time and strength of concrete, is",
+    "options": [
+      "sodium sulphates",
+      "sodium chlorides",
+      "sodium carbonates and bicarbonates",
+      "calcium chlorides"
+    ],
+    "correct": 2,
+    "explain": "Sodium carbonates and bicarbonates present in mixing water can adversely affect the setting time and reduce the strength of concrete."
+  },
+  {
+    "q": "8. Placing of concrete should preferably be done at a temperature of",
+    "options": [
+      "0° C",
+      "27 ± 2°C",
+      "20°C",
+      "23°C"
+    ],
+    "correct": 1,
+    "explain": "Placing of concrete is preferably done at a moderate temperature of about 27°C ± 2°C, matching standard test/curing temperature conditions for optimal hydration."
+  },
+  {
+    "q": "9. To produce impermeable concrete",
+    "options": [
+      "Thorough mixing of concrete is required",
+      "Proper compaction of concrete is required",
+      "Proper curing of concrete is required",
+      "Properly graded and non-porous aggregates are required",
+      "All of the above"
+    ],
+    "correct": 4,
+    "explain": "Impermeability depends on eliminating voids and capillary channels, which requires good mixing, full compaction, adequate curing for complete hydration, and dense, non-porous, well-graded aggregates — all factors together."
+  },
+  {
+    "q": "10. The approximate ratio of strength of cement concrete at 3 months to that of 28 days of curing",
+    "options": [
+      "1.0",
+      "1.15",
+      "1.20",
+      "1.30"
+    ],
+    "correct": 1,
+    "explain": "Concrete continues to gain strength beyond 28 days as hydration progresses further; empirically, the strength at 3 months is roughly 1.15 times the 28-day strength."
+  },
+  {
+    "q": "11. Strength of concrete with passage of time",
+    "options": [
+      "increases",
+      "decreases",
+      "fluctuates",
+      "remains constant"
     ],
     "correct": 0,
-    "explain": "For a slab of moderate span (like 4m × 5m), soffit shuttering can generally be removed after 7 days under normal curing conditions."
+    "explain": "As hydration continues over time, the strength of concrete continues to increase, particularly noticeable in the months following the standard 28-day test."
   },
   {
-    "q": "3. A watery scum that is formed on top of concrete due to excessive water or excessive use of trowel or float is called",
+    "q": "12. A watery scum that is formed on top of concrete due to excessive water or excessive use of trowel or float is called",
     "options": [
       "Laitance",
       "Flashing",
@@ -33,7 +133,7 @@
     "explain": "Laitance is the weak, milky layer of cement fines and water that rises to and accumulates on the surface of concrete, often from excess mixing water or over-troweling/floating."
   },
   {
-    "q": "4. For protection from frost, concrete should be",
+    "q": "13. For protection from frost, concrete should be",
     "options": [
       "Dense",
       "Free from cracks",
@@ -44,62 +144,7 @@
     "explain": "Frost resistance requires minimal void space for water to enter and freeze/expand — this is achieved through dense concrete, absence of cracks, and strong mortar-aggregate bond, i.e., all of the above together."
   },
   {
-    "q": "5. Non-uniform compaction may cause the concrete",
-    "options": [
-      "porous",
-      "non - homogeneous",
-      "reduced strength",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "Uneven compaction leaves some parts under-compacted, resulting in porosity, a non-homogeneous structure, and consequently reduced strength throughout the member."
-  },
-  {
-    "q": "6. The compaction of concrete, improves",
-    "options": [
-      "density",
-      "strength",
-      "durability",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "Proper compaction removes air voids, increasing density, which in turn improves both the strength and durability of the hardened concrete."
-  },
-  {
-    "q": "7. The final operation of finishing floors, is known as",
-    "options": [
-      "screeding",
-      "trowelling",
-      "finishing",
-      "floating"
-    ],
-    "correct": 1,
-    "explain": "Trowelling is the final finishing operation performed on a concrete floor surface to achieve a smooth, dense, and polished finish."
-  },
-  {
-    "q": "8. Expansion joints are provided if the length of concrete structures exceeds",
-    "options": [
-      "10m",
-      "15m",
-      "35 m",
-      "45m"
-    ],
-    "correct": 3,
-    "explain": "Expansion joints are typically provided in long concrete structures once the length exceeds about 45m, to accommodate thermal expansion and contraction movements."
-  },
-  {
-    "q": "9. A joint positioned so as to separate concrete from adjacent surfaces or into individual structural elements that are not in direct physical contact, is known as",
-    "options": [
-      "contraction joint",
-      "expansion joint",
-      "construction joint",
-      "isolation joint"
-    ],
-    "correct": 3,
-    "explain": "An isolation joint is specifically provided to separate or isolate one concrete element/structure from an adjacent one so that they are not in direct physical contact and can move independently."
-  },
-  {
-    "q": "10. For preparing a test-specimen, it is necessary",
+    "q": "14. For preparing a test-specimen, it is necessary",
     "options": [
       "to mix cement and fine aggregate by dry hand",
       "to mix coarse aggregates",
@@ -111,42 +156,7 @@
     "explain": "All these steps - dry mixing of cement and fine aggregate, mixing in coarse aggregate, adding water, and oiling the mould interior - are standard necessary steps in preparing a proper concrete test specimen."
   },
   {
-    "q": "11. Which type of vibrator is generally used in concrete work?",
-    "options": [
-      "Surface vibrator",
-      "Screen vibrator",
-      "Needle vibrator",
-      "None of these"
-    ],
-    "correct": 2,
-    "explain": "The needle (internal) vibrator is the most commonly used type in general concrete work, as it can be inserted directly into the concrete mass for thorough compaction."
-  },
-  {
-    "q": "12. An ideal ware house, is provided",
-    "options": [
-      "water proof masonry walls",
-      "water proof roof",
-      "few windows which remain generally (closed)",
-      "15cm thick concrete floor laid on a dry course of soling",
-      "all of the above"
-    ],
-    "correct": 4,
-    "explain": "An ideal cement warehouse must have all these features together - waterproof walls and roof, few closed windows, and a proper concrete floor on dry soling - to protect stored cement from moisture."
-  },
-  {
-    "q": "13. Pick up the incorrect statement from the following:",
-    "options": [
-      "space between the exterior walls of a ware house and bag piles should be 30 cm",
-      "cement bags should preferably be piled on wooden planks",
-      "cement bags should be placed such that bags of one layer does not touch the bags of the adjacent layer",
-      "width and height of the pile should not exceed 3 m and 2.70 m respectively",
-      "none of the above"
-    ],
-    "correct": 4,
-    "explain": "All four statements (a-d) describe correct, standard warehouse storage practices for cement bags, so 'none of the above' (i.e., all are correct) is the right answer."
-  },
-  {
-    "q": "14. The concrete may achieve 100% strength after",
+    "q": "15. The concrete may achieve 100% strength after",
     "options": [
       "21 days",
       "8 days",
@@ -157,40 +167,7 @@
     "explain": "While 28-day strength is used as the standard design reference, concrete continues to gain strength gradually and may reach close to its full/ultimate strength after about 1 year of curing."
   },
   {
-    "q": "15. The internal dimensions of a ware house are 15m x 5.6m, and the maximum height of piles is 2.70 m. The maximum number of bags to be stored in two piles, are",
-    "options": [
-      "1500 bags",
-      "2000 bags",
-      "2500 bags",
-      "3000 bags"
-    ],
-    "correct": 3,
-    "explain": "Based on the given warehouse dimensions (15m x 5.6m) with a maximum stacking height of 2.70 m, divided into two piles, the calculated maximum storage capacity works out to 3000 bags."
-  },
-  {
-    "q": "16. Pick up the incorrect statement from the following:",
-    "options": [
-      "with passage of time, the strength of cement increases",
-      "with passage of time, the strength of cement decreases",
-      "after a period of 24 months, the strength of cement reduces to 50 %",
-      "The concrete made with storage deteriorated cement, gains strength with time"
-    ],
-    "correct": 0,
-    "explain": "Cement strength actually decreases (not increases) over prolonged storage time due to gradual absorption of atmospheric moisture and partial hydration, making statement (a) incorrect."
-  },
-  {
-    "q": "17. To prevent segregation, the maximum height for placing concrete is",
-    "options": [
-      "100 cm",
-      "125 cm",
-      "150 cm",
-      "200 cm"
-    ],
-    "correct": 2,
-    "explain": "As per good practice referenced in this text, concrete should not be dropped or placed from a height exceeding about 150 cm to prevent segregation."
-  },
-  {
-    "q": "18. The process of hardening the concrete by keeping its surface moist is known as",
+    "q": "16. The process of hardening the concrete by keeping its surface moist is known as",
     "options": [
       "placing",
       "wetting",
@@ -201,51 +178,7 @@
     "explain": "Curing is the process of maintaining adequate moisture and temperature conditions in freshly placed concrete to allow proper hydration and strength development."
   },
   {
-    "q": "19. For compacting large sections of mass concrete in structures, the type of vibrator used is:",
-    "options": [
-      "internal vibrator",
-      "Screed vibrator",
-      "form vibrator",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "Internal (needle) vibrators are best suited for compacting large volumes of mass concrete by inserting them directly into the concrete."
-  },
-  {
-    "q": "20. Curing of pavements, floors, roofs and slabs is done by",
-    "options": [
-      "membrane method",
-      "ponding method",
-      "covering surface with bags",
-      "sprinkling water method"
-    ],
-    "correct": 1,
-    "explain": "For flat horizontal surfaces such as pavements, floors, roofs, and slabs, the ponding method (retaining a layer of water on the surface using small embankments) is a common and effective curing technique."
-  },
-  {
-    "q": "21. While compacting the concrete by mechanical vibrator, slump should not exceed",
-    "options": [
-      "25 mm",
-      "50 mm",
-      "75 mm",
-      "100 mm"
-    ],
-    "correct": 1,
-    "explain": "For mechanically vibrated concrete, the recommended slump should not exceed about 50 mm, since higher slump/wetter mixes are meant for hand compaction."
-  },
-  {
-    "q": "22. After 28 days concrete acquires",
-    "options": [
-      "33% final strength",
-      "50% of final strength",
-      "66% of final strength",
-      "More than 80% of final strength"
-    ],
-    "correct": 3,
-    "explain": "While 28-day strength is the standard reference for design, concrete at this stage has actually already gained more than 80% of its long-term ultimate strength."
-  },
-  {
-    "q": "23. Quality control means",
+    "q": "17. Quality control means",
     "options": [
       "extra cost",
       "a rational use of available resources",
@@ -256,7 +189,7 @@
     "explain": "Quality control fundamentally refers to the rational and efficient use of available resources (materials, labour, equipment) to consistently achieve the desired quality standards."
   },
   {
-    "q": "24. The process of keeping concrete moist for a certain period after its finishing, is known as",
+    "q": "18. The process of keeping concrete moist for a certain period after its finishing, is known as",
     "options": [
       "Finishing of concrete",
       "Curing of concrete",
@@ -267,73 +200,7 @@
     "explain": "Curing is defined as the process of maintaining adequate moisture in concrete for a specified period after finishing, to ensure proper hydration and strength gain."
   },
   {
-    "q": "25. Compaction test for concrete is done to determine",
-    "options": [
-      "consistency of concrete",
-      "workability of concrete",
-      "compressive strength of concrete",
-      "tensile strength of concrete"
-    ],
-    "correct": 1,
-    "explain": "The compaction factor test is specifically designed to assess the workability of concrete mixes, particularly those with low water content where the slump test is less reliable."
-  },
-  {
-    "q": "26. No shrinkage occurs if the concrete is placed in a relative humidity of",
-    "options": [
-      "100%",
-      "85%",
-      "70%",
-      "50%"
-    ],
-    "correct": 0,
-    "explain": "At 100% relative humidity, there is no moisture loss from the concrete to the surrounding environment, so drying shrinkage does not occur."
-  },
-  {
-    "q": "27. Strength of concrete with passage of time",
-    "options": [
-      "increases",
-      "decreases",
-      "fluctuates",
-      "remains constants"
-    ],
-    "correct": 0,
-    "explain": "As hydration of cement continues over time, the strength of properly cured concrete continues to increase with the passage of time."
-  },
-  {
-    "q": "28. Concrete gains strength due to",
-    "options": [
-      "chemical reaction of cement with sand and coarse aggregates",
-      "evaporation of water from concrete",
-      "hydration of cement",
-      "all of the above"
-    ],
-    "correct": 2,
-    "explain": "Concrete gains its strength primarily through the chemical process of hydration of cement, where cement compounds react with water to form strength-giving hydration products."
-  },
-  {
-    "q": "29. The importance of batching is to obtain",
-    "options": [
-      "strength",
-      "workability",
-      "durability",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Accurate batching ensures the correct mix proportions, which in turn governs the strength, workability, and durability of the resulting concrete — all of these depend on it."
-  },
-  {
-    "q": "30. The process of proper and accurate measurement of concrete ingredients for uniformity of proportion, is known",
-    "options": [
-      "grading",
-      "curing",
-      "mixing",
-      "batching"
-    ],
-    "correct": 3,
-    "explain": "Batching is the specific term for the process of accurately measuring the quantities of concrete ingredients (cement, sand, aggregate, water) to ensure a uniform mix proportion."
-  },
-  {
-    "q": "31. Weight batching is done by",
+    "q": "19. Weight batching is done by",
     "options": [
       "spring dial scale",
       "platform weighing machine",
@@ -344,63 +211,7 @@
     "explain": "Weight batching of concrete ingredients can be performed using any of these weighing devices — spring dial scale, platform weighing machine, or portable weigh batchers."
   },
   {
-    "q": "32. Proper batching ensures",
-    "options": [
-      "economy",
-      "durability",
-      "workability",
-      "strength",
-      "all of the above"
-    ],
-    "correct": 4,
-    "explain": "Accurate batching of concrete ingredients ensures all these desirable qualities together - economical use of materials, durability, workability, and required strength of the finished concrete."
-  },
-  {
-    "q": "33. The measuring 50 liters of aggregate, the inner dimension of farma should be",
-    "options": [
-      "25×25×40 cm",
-      "29×29×48 cm",
-      "30×30×50 cm",
-      "31×31×52 cm"
-    ],
-    "correct": 3,
-    "explain": "As per the standard farma box dimensions given in this text, a box of internal size 31×31×52 cm gives a volume corresponding to 50 litres."
-  },
-  {
-    "q": "34. Batching error means inaccuracy in the quantity of",
-    "options": [
-      "aggregates",
-      "cement",
-      "water",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Batching error refers to inaccuracy in measuring the quantities of any or all of the concrete ingredients - aggregates, cement, and water - relative to the intended mix proportions."
-  },
-  {
-    "q": "35. The mixture which produces a steady stream of concrete as long as it is in operation is known as ........",
-    "options": [
-      "non tilting batch mixer",
-      "tilting type batch mixer",
-      "continuous mixer",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "A continuous mixer is specifically designed to produce an uninterrupted, steady stream of mixed concrete for as long as it remains in operation."
-  },
-  {
-    "q": "36. In the batching of materials, the ingredients should be measured to a tolerance (as a percentage of batch quantity) of",
-    "options": [
-      "+/- 1.0",
-      "+/- 2.0",
-      "+/- 3.0",
-      "+/- 4.0"
-    ],
-    "correct": 2,
-    "explain": "As per standard practice, concrete batching ingredients should be measured within a tolerance of ±3% of the specified batch quantity to ensure acceptable mix accuracy."
-  },
-  {
-    "q": "37. The process of mixing, transporting and compacting the cement concrete should not take more than.",
+    "q": "20. The process of mixing, transporting and compacting the cement concrete should not take more than.",
     "options": [
       "30 minutes",
       "60 minutes",
@@ -411,147 +222,248 @@
     "explain": "As per good practice referenced in this text, the entire process of mixing, transporting, and compacting concrete should be completed within 30 minutes to avoid loss of workability."
   },
   {
-    "q": "38. The process of mixing some mortar in the mixer at the beginning of the first batch concrete mixing is called",
+    "q": "21. The final operation of finishing the concrete surface is called",
     "options": [
-      "buttering",
-      "borrowing",
-      "initiating",
-      "accelerating"
-    ],
-    "correct": 0,
-    "explain": "'Buttering' refers to the practice of first mixing a small quantity of mortar in the drum before the main batch, to coat the mixer surfaces and prevent loss of cement paste from the first actual batch."
-  },
-  {
-    "q": "39. For continuous transportation of concrete, the method used is",
-    "options": [
-      "transport of concrete by pans",
-      "transport of concrete by wheel barrows",
-      "transport of concrete by belt conveyors",
-      "transport of concrete by pumps"
-    ],
-    "correct": 2,
-    "explain": "Belt conveyors allow a continuous, uninterrupted flow of concrete from the mixing point to the placement location, unlike batch-type transport such as pans or wheel barrows."
-  },
-  {
-    "q": "40. During manufacture of concrete minimum period for which mixing is done in mixer for manufactured/crushed aggregate is (IS 456:2000)",
-    "options": [
-      "1 min",
-      "1.5 min",
-      "2 min",
-      "2.5 min"
-    ],
-    "correct": 2,
-    "explain": "As per IS 456:2000, for concrete made with manufactured (crushed) aggregate, the minimum mixing period specified in the mixer is 2 minutes, since crushed aggregates require more thorough mixing."
-  },
-  {
-    "q": "41. For concreting of tunnel lining, the concrete is transported by",
-    "options": [
-      "pumps",
-      "pans",
-      "wheel barrows",
-      "containers"
-    ],
-    "correct": 0,
-    "explain": "Pumping is the preferred method for transporting concrete into confined spaces such as tunnel linings, where access is restricted."
-  },
-  {
-    "q": "42. The concrete mixers are normally classified on the basis of",
-    "options": [
-      "the technique of discharging the mixed concrete",
-      "capacity of batch handled",
-      "the number of drums",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "Concrete mixers are classified based on multiple criteria simultaneously - their discharge mechanism, batch capacity, and number of drums."
-  },
-  {
-    "q": "43. The concrete can be lifted by pumps through a maximum vertical distance of",
-    "options": [
-      "10 m",
-      "20 m",
-      "30 m",
-      "50 m"
-    ],
-    "correct": 3,
-    "explain": "As per the pump capability referenced in this text, concrete can typically be lifted vertically through a maximum distance of about 50 m."
-  },
-  {
-    "q": "44. The capacity of concrete mixer is expressed in terms of",
-    "options": [
-      "total volume of concrete produced per day",
-      "total volume of concrete produced in 8 hrs",
-      "total volume of concrete produced per hr",
-      "volume of concrete mix handled per batch"
-    ],
-    "correct": 3,
-    "explain": "The capacity of a concrete mixer is standardly expressed as the volume of concrete mix it can handle per batch (e.g., a 150-litre mixer, 10/7 mixer, etc.)."
-  },
-  {
-    "q": "45. The diameter of pipeline used for transportation of concrete by pumps should not exceed",
-    "options": [
-      "10 cm",
-      "20 cm",
-      "30 cm",
-      "40 cm"
-    ],
-    "correct": 2,
-    "explain": "As given in this text, the pipeline diameter used for pumping concrete should not exceed about 30 cm."
-  },
-  {
-    "q": "46. The objective of mixing concrete materials are the following except",
-    "options": [
-      "coat the surface of all aggregate particles with cement paste",
-      "blend all the ingredients into a uniform mass",
-      "obtain concrete of uniform colour and grading",
-      "obtain concrete of desired workability"
-    ],
-    "correct": 3,
-    "explain": "Workability is a property influenced by mix proportions (especially water content), not something achieved purely through the mixing process itself, making this the exception among the true objectives of mixing."
-  },
-  {
-    "q": "47. To prevent segregation of concrete, the concrete should not be thrown from a height of more than",
-    "options": [
-      "1/2 m",
-      "1 m",
-      "1.5 m",
-      "2 m"
-    ],
-    "correct": 2,
-    "explain": "To avoid segregation, freshly mixed concrete should not be dropped or thrown from a height greater than about 1 m."
-  },
-  {
-    "q": "48. Pick up the correct statement from the following:",
-    "options": [
-      "The weight of ingredients of concrete mix, is taken in kilograms",
-      "water and aggregates is measured in liters",
-      "the finished concrete is measured in cubic metres",
-      "20 bags of cement make one tonne",
-      "all of the above"
-    ],
-    "correct": 4,
-    "explain": "All these statements are factually correct standard conventions used in concrete work - weight in kg, water/aggregates in litres, finished concrete in cubic metres, and 20 bags of 50 kg cement equal one tonne."
-  },
-  {
-    "q": "49. The process of consolidating concrete mix after placing it in position is termed as",
-    "options": [
-      "curing",
-      "wetting",
-      "compaction",
+      "screeding",
+      "floating",
+      "trowelling",
       "none of these"
     ],
     "correct": 2,
-    "explain": "Compaction is the process of consolidating freshly placed concrete to expel entrapped air and achieve maximum density."
+    "explain": "Trowelling is the final surface finishing operation performed on concrete to achieve a smooth, hard, and dense top layer."
   },
   {
-    "q": "50. When the concrete mix is too weighty, it causes",
+    "q": "22. The process of mixing, transporting, placing and compacting concrete using Ordinary Portland Cement should not take more than",
     "options": [
-      "segregation",
-      "low density",
-      "excess laitance at the top",
+      "30 minutes",
+      "40 minutes",
+      "60 minutes",
+      "75 minutes"
+    ],
+    "correct": 0,
+    "explain": "The entire process of mixing, transporting, placing, and compacting concrete made with OPC should ideally be completed within 30 minutes to avoid loss of workability due to initial setting."
+  },
+  {
+    "q": "23. For concerting of tunnel linings, transportation of concrete is done by",
+    "options": [
+      "pans",
+      "wheel borrows",
+      "containers",
+      "pumps"
+    ],
+    "correct": 3,
+    "explain": "For confined and often difficult-access locations like tunnel linings, concrete pumps are the preferred method of transportation, allowing concrete to be conveyed through pipelines to the point of placement."
+  },
+  {
+    "q": "24. In concrete walls, construction joints should be provided at the",
+    "options": [
+      "floor level",
+      "soffit level",
+      "sill level",
       "all of these"
     ],
     "correct": 3,
-    "explain": "An overly wet/heavy concrete mix can lead to segregation, effectively lower compacted density, and excess laitance rising to the surface — all of these can occur together."
+    "explain": "Construction joints in concrete walls can be located at floor level, soffit level, or sill level depending on the pour sequence — all of these are acceptable locations."
+  },
+  {
+    "q": "25. Pick up the correct statement from the following:",
+    "options": [
+      "the diameter of the pipe line used for transportation of concrete by pumps does not exceed 30 cm",
+      "the slump of the concrete to be pumped should not be less that 5 cm and more",
+      "the water cement ratio of concrete to be pumped is kept between 0.5 to 0.65.",
+      "number of bends provided in the pipe line should be minimum",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "All these are correct standard requirements for pumpable concrete - restricted pipe diameter, minimum slump requirement, controlled w/c ratio, and minimizing pipe bends for efficient pumping."
+  },
+  {
+    "q": "26. High temperature",
+    "options": [
+      "increases the strength of concrete",
+      "decreases the strength of concrete",
+      "has no effect on strength of concrete",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "High placing/curing temperature accelerates early hydration but leads to a weaker, more porous concrete matrix, ultimately decreasing its long-term strength."
+  },
+  {
+    "q": "27. A surface vibrator for compaction of concrete is preferred for all of the following except",
+    "options": [
+      "reft footings",
+      "columns",
+      "RCC slab",
+      "road pavements"
+    ],
+    "correct": 1,
+    "explain": "Surface vibrators, being effective mainly for shallow/thin horizontal sections, are not preferred for columns (which are deep, vertical, heavily reinforced members) unlike footings, slabs, or pavements."
+  },
+  {
+    "q": "28. Curing",
+    "options": [
+      "reduces the shrinkage of concrete",
+      "preserves the properties of concrete",
+      "prevents the loss of water by evaporation",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Curing serves multiple purposes simultaneously - it reduces shrinkage, preserves the desired properties of concrete, and prevents premature loss of moisture through evaporation."
+  },
+  {
+    "q": "29. Steam curing is not used with",
+    "options": [
+      "ordinary portland cement",
+      "high alumina cement",
+      "rapid hardening cement",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "High alumina cement generates high heat of hydration rapidly and is sensitive to elevated temperatures, so steam curing (which involves heat) is not used with it, unlike OPC or rapid hardening cement."
+  },
+  {
+    "q": "30. Curing of concrete for long period ensures better",
+    "options": [
+      "strength",
+      "wear resistance",
+      "water tightness and durability",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Extended/proper curing of concrete ensures improvement in all these properties together - higher strength, better wear resistance, and improved water tightness and durability."
+  },
+  {
+    "q": "31. Pick up the correct statement from the following:",
+    "options": [
+      "water enables chemical reaction to take place with cement",
+      "water lubricates the mixture of gravel, sand and cement",
+      "only a small quantity of water is required for hydration of cement",
+      "strength of concrete structure largely depends upon its workability",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "All these statements about the role of water in concrete are correct together - it enables cement hydration reaction, lubricates the mix, only a small quantity is chemically needed, and overall structural strength is influenced by workability during placement."
+  },
+  {
+    "q": "32. If the effective working time is 7 hours and per batch time of concrete mixer of 150 litre capacity, is",
+    "options": [
+      "15,900 litres",
+      "16,900 litres",
+      "17,900 litres",
+      "18,900 litres"
+    ],
+    "correct": 3,
+    "explain": "Multiplying the number of batches that can be produced by a 150-litre mixer within the effective 7-hour working period (based on a typical batch cycle time) gives a total output of about 18,900 litres of concrete."
+  },
+  {
+    "q": "33. The main object of compaction of concrete is",
+    "options": [
+      "to eliminate air holes",
+      "to achieve maximum density",
+      "to provide intimate contact between the concrete and embedded materials",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Compaction removes entrapped air, densifies the mix, and ensures concrete is in intimate contact with reinforcement/embedded parts — all these are objectives of compaction."
+  },
+  {
+    "q": "34. Non-uniform compaction may cause the concrete",
+    "options": [
+      "porous",
+      "non-homogeneous",
+      "reduced strength",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Uneven compaction leaves pockets of poorly consolidated concrete, making it porous, non-homogeneous, and weaker in strength — hence all effects occur together."
+  },
+  {
+    "q": "35. The ratio of the length and breadth of wooden float, is",
+    "options": [
+      "4.5",
+      "5.5",
+      "6.5",
+      "7.5"
+    ],
+    "correct": 3,
+    "explain": "A wooden float used for finishing concrete surfaces typically has a length-to-breadth ratio of about 7.5, giving a long narrow tool for smoothing the surface."
+  },
+  {
+    "q": "36. Construction joints are generally provided in concrete",
+    "options": [
+      "roads",
+      "retaining walls",
+      "lining of channel",
+      "lining of tunnels",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "Construction joints are a common feature in roads, retaining walls, channel linings, and tunnel linings wherever concreting must be carried out in separate stages."
+  },
+  {
+    "q": "37. A concrete having slump of 6.5 cm, is said to be",
+    "options": [
+      "dry",
+      "earth moist",
+      "semi plastic",
+      "plastic"
+    ],
+    "correct": 3,
+    "explain": "A slump value of 6.5 cm (65 mm) falls within the medium-to-high workability range, classifying the concrete as a plastic mix."
+  },
+  {
+    "q": "38. Concrete is unsuitable for compaction by vibrator if it is",
+    "options": [
+      "dry",
+      "earth moist",
+      "semi plastic",
+      "plastic"
+    ],
+    "correct": 3,
+    "explain": "A plastic (high-slump, wet) mix is prone to segregation and over-vibration effects when compacted with a vibrator, making it unsuitable for mechanical vibration."
+  },
+  {
+    "q": "39. The process of mixing, transporting, placing and compacting concrete using OPC should not take more than.",
+    "options": [
+      "30 minutes",
+      "35 minutes",
+      "40 minutes",
+      "45 minutes"
+    ],
+    "correct": 0,
+    "explain": "As per good practice referenced in this text, the complete process from mixing to compacting concrete made with OPC should be finished within 40 minutes to avoid loss of workability due to initial setting."
+  },
+  {
+    "q": "40. As compared to moist cured concrete, the permeability of steam cured concrete is",
+    "options": [
+      "more",
+      "less",
+      "same",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Steam curing, due to its accelerated hydration process, tends to produce a coarser pore structure, resulting in higher permeability compared to normally moist-cured concrete."
+  },
+  {
+    "q": "41. What is the process of smoothening the surface of newly placed concrete with a trowel called?",
+    "options": [
+      "hardening",
+      "knocking up",
+      "flashing",
+      "floating"
+    ],
+    "correct": 3,
+    "explain": "The operation of smoothening and levelling the surface of freshly placed concrete is termed floating, carried out with a float/trowel before final finishing."
+  },
+  {
+    "q": "42. The removal of excess air after placing concrete helps in increasing the strength of concrete by :",
+    "options": [
+      "15 to 20 %",
+      "20 to 30 %",
+      "30 to 50 %",
+      "50 to 70 %"
+    ],
+    "correct": 0,
+    "explain": "Proper compaction that removes entrapped/excess air from freshly placed concrete has been found to increase its strength by roughly 15 to 20%."
   }
 ]

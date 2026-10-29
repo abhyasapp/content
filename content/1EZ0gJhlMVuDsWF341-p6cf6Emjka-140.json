@@ -1,28 +1,380 @@
 [
   {
-    "q": "1. The resultant stress on an inclined plane which is inclined at an angle θ to the normal cross-section... is",
+    "q": "1. The moment of inertia of a square of side (a) about an axis through its centre of gravity is",
     "options": [
-      "σ sin θ",
-      "σ cos θ",
-      "σ sin 2θ",
-      "σ cos 2θ"
+      "a^4 / 4",
+      "a^4 / 8",
+      "a^4 / 12",
+      "a^4 / 36"
+    ],
+    "correct": 2,
+    "explain": "Using the formula for a rectangle (bd³/12), where b=a and d=a, the MI of a square is (a * a³) / 12 = a^4 / 12."
+  },
+  {
+    "q": "2. The C.G. of a solid right circular cone lies on the axis at a height",
+    "options": [
+      "half of the total height above the base",
+      "one-third of the total height above the base",
+      "one-fourth of the total height above the base",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "As established in Q6, the CG of a solid cone is located at h/4 from the base."
+  },
+  {
+    "q": "3. The C.G. of a thin hollow hemisphere is at a distance of",
+    "options": [
+      "r / 3 from base",
+      "r / 2 from base",
+      "r / 4 from base",
+      "none of the above"
     ],
     "correct": 1,
-    "explain": "The resultant stress on a plane inclined at θ is the vector sum of normal and tangential stress, which simplifies to σ cosθ for a single axial stress."
+    "explain": "The CG of a hollow hemispherical shell lies exactly at the midpoint of the central radius, which is r/2 from the base."
   },
   {
-    "q": "2. When a body is subjected to a direct tensile stress (σ) in one plane, then maximum normal stress occurs at a section inclined at",
+    "q": "4. The C.G. of a solid cone lies on the central axis at a distance of",
     "options": [
-      "0°",
-      "30°",
-      "45°",
-      "90°"
+      "1/3 of the total height above base",
+      "half the total height above base",
+      "1/4 of the total height above base",
+      "2/5 of the total height above base"
+    ],
+    "correct": 2,
+    "explain": "Repeated concept: Solid cone CG is at h/4 from the base."
+  },
+  {
+    "q": "5. The C.G. of a hollow cylinder lies on the vertical axis above base at a distance of",
+    "options": [
+      "1/4th of the total height",
+      "1/3rd of the total height",
+      "half of the total height",
+      "2/5th of the total height"
+    ],
+    "correct": 2,
+    "explain": "Due to symmetry, the CG of any cylinder (solid or hollow) lies at the geometric center, which is h/2 from the base."
+  },
+  {
+    "q": "6. M.O.I. of a triangular section about an axis passing through its base is given by",
+    "options": [
+      "I = bh³ / 12",
+      "I = bh³ / 32",
+      "I = bh² / 36",
+      "none of the above"
     ],
     "correct": 0,
-    "explain": "Normal stress is σ cos²θ. This is maximum when cos θ = 1, which occurs at θ = 0° (the plane perpendicular to the force)."
+    "explain": "While the MI about the centroidal axis is bh³/36, using the parallel axis theorem, the MI about the base is bh³/12."
   },
   {
-    "q": "3. A body is subjected to a direct tensile stress (σ) in one plane. The shear stress is maximum at a section inclined at ............ to the normal of the section.",
+    "q": "7. M.O.I. of a solid cone about its vertical axis is",
+    "options": [
+      "10/3 Mr²",
+      "5/3 Mr²",
+      "3/10 Mr²",
+      "3/5 Mr²"
+    ],
+    "correct": 2,
+    "explain": "The mass moment of inertia of a solid right circular cone about its longitudinal (vertical) axis is (3/10)Mr²."
+  },
+  {
+    "q": "8. M.O.I. of a solid circular cylinder about vertical axis is",
+    "options": [
+      "3/10 Mr²",
+      "3/5 Mr²",
+      "3/2 Mr²",
+      "Mr² / 2"
+    ],
+    "correct": 3,
+    "explain": "A cylinder viewed from the top is a circle; its mass moment of inertia about the central longitudinal axis is the same as a disk: (1/2)Mr²."
+  },
+  {
+    "q": "9. M.O.I. of elliptical section, of major axis = D and minor axis = B, is",
+    "options": [
+      "π/64 D⁴",
+      "π/64 d⁴",
+      "π/64 BD³",
+      "π/64 B²2³"
+    ],
+    "correct": 2,
+    "explain": "For an ellipse with axes B and D, the area MI about the major axis (D) is πBD³/64 (analogous to bd³/12)."
+  },
+  {
+    "q": "10. The moment of inertia of a triangle (having base = b and height = h) with respect to an axis through the apex and parallel to the base is",
+    "options": [
+      "bh³ / 12",
+      "bh³ / 36",
+      "bh³ / 4",
+      "bh³ / 10"
+    ],
+    "correct": 2,
+    "explain": "Using Parallel Axis Theorem: I_apex = I_cg + A(d)². d = 2h/3. I_apex = bh³/36 + (1/2 bh)(2h/3)² = bh³/36 + 2bh³/9 = 9bh³/36 = bh³/4."
+  },
+  {
+    "q": "11. The property of a material by which it can be drawn to smaller section, due to tension, is called",
+    "options": [
+      "plasticity",
+      "ductility",
+      "elasticity",
+      "malleability"
+    ],
+    "correct": 1,
+    "explain": "Ductility is the property that allows a material to undergo significant plastic deformation under tensile stress, commonly observed when drawing metal into wires."
+  },
+  {
+    "q": "12. As the elastic limit reaches, tensile strain",
+    "options": [
+      "increases more rapidly",
+      "decreases more rapidly",
+      "increases in proportion",
+      "decreases in proportion"
+    ],
+    "correct": 0,
+    "explain": "Once the material surpasses the limit of proportionality and reaches the elastic limit/yield point, the strain increases significantly even with small increases in stress due to plastic flow."
+  },
+  {
+    "q": "13. The stress necessary to initiate yielding, is considerably",
+    "options": [
+      "more than that necessary to continue it",
+      "less than that to continue",
+      "more than that to stop",
+      "less than that to stop"
+    ],
+    "correct": 0,
+    "explain": "In materials like mild steel, there is an Upper Yield Point (to initiate yielding) and a Lower Yield Point (to continue it). The stress to start yielding is higher than the stress required to maintain the yielding process."
+  },
+  {
+    "q": "14. The deformation per unit length is called",
+    "options": [
+      "tensile stress",
+      "compressive stress",
+      "shear stress",
+      "strain"
+    ],
+    "correct": 3,
+    "explain": "Strain is the dimensionless measure of deformation, calculated as the change in dimension divided by the original dimension."
+  },
+  {
+    "q": "15. Strain is equal to",
+    "options": [
+      "l / δl",
+      "δl / l",
+      "l . δl",
+      "l + δl"
+    ],
+    "correct": 1,
+    "explain": "By definition, strain (ε) is the ratio of change in length (δl) to the original length (l)."
+  },
+  {
+    "q": "16. When a body is subjected to two equal and opposite pulls and as a result the body tends to extend its length, the stress and strain induced is",
+    "options": [
+      "compressive stress and strain",
+      "tensile stress and compressive strain",
+      "tensile stress and strain",
+      "compressive stress and compressive strain"
+    ],
+    "correct": 2,
+    "explain": "An external 'pull' results in a tensile internal resistance (stress) and a corresponding elongation (tensile strain)."
+  },
+  {
+    "q": "17. When a body is subjected to two equal and opposite forces, acting tangentially across the resisting section, as a result of which the body tends to shear off across the section, the stress and strain induced is",
+    "options": [
+      "tensile stress and strain",
+      "compressive stress and strain",
+      "shear stress and tensile strain",
+      "shear stress and strain"
+    ],
+    "correct": 2,
+    "explain": "Tangential forces acting across a section produce shear stress and a resulting angular deformation known as shear strain."
+  },
+  {
+    "q": "18. Which of the following is a proper sequence?",
+    "options": [
+      "proportional limit, elastic limit, yielding, failure",
+      "elastic limit, proportional limit, yielding, failure",
+      "both a and b",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "In a standard stress-strain curve for mild steel, the material first reaches the limit of proportionality, then the elastic limit, followed by yielding, and finally fracture/failure."
+  },
+  {
+    "q": "19. Whenever a material is loaded within elastic limit, stress is ................ strain.",
+    "options": [
+      "equal to",
+      "directly proportional to",
+      "inversely proportional to",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "This is the core definition of Hooke's Law: within the elastic range, stress varies linearly with strain."
+  },
+  {
+    "q": "20. When a change in length takes place, the strain is known as",
+    "options": [
+      "linear strain",
+      "lateral strain",
+      "volumetric strain",
+      "shear strain"
+    ],
+    "correct": 0,
+    "explain": "Linear strain (or longitudinal strain) refers to the deformation occurring along the axis of the applied force."
+  },
+  {
+    "q": "21. The change in length due to a tensile or compressive force acting on a body is given by",
+    "options": [
+      "(P . l . A) / E",
+      "Pl / AE",
+      "E / (P . l . A)",
+      "AE / Pl"
+    ],
+    "correct": 1,
+    "explain": "From $\\sigma = E \\epsilon$, we get $P/A = E(\\delta l/l)$. Rearranging for change in length gives $\\delta l = Pl/AE$."
+  },
+  {
+    "q": "22. The elongation of a conical bar under its own weight is ................ that of a prismatic bar of same length.",
+    "options": [
+      "equal to",
+      "half",
+      "one-third",
+      "two-third"
+    ],
+    "correct": 2,
+    "explain": "The elongation of a conical bar due to self-weight is $\\gamma l^2 / 6E$, which is exactly $1/3$ of the prismatic bar's elongation ($\\gamma l^2 / 2E$)."
+  },
+  {
+    "q": "23. Every direct stress is always accompanied by a strain in its own direction and an opposite kind of strain in every direction at right angles to it. Such a strain is known as",
+    "options": [
+      "linear strain",
+      "lateral strain",
+      "volumetric strain",
+      "shear strain"
+    ],
+    "correct": 1,
+    "explain": "Lateral strain occurs perpendicular to the direction of the applied load. If a bar is stretched, it shortens in its transverse dimensions."
+  },
+  {
+    "q": "24. The ratio of shear modulus to the modulus of elasticity for a Poisson's ratio of 0.4 will be",
+    "options": [
+      "5/7",
+      "7/5",
+      "5/14",
+      "14/5"
+    ],
+    "correct": 2,
+    "explain": "Using the relation E = 2G(1 + μ). If μ = 0.4, then E = 2G(1.4) = 2.8G. Therefore, G/E = 1/2.8 = 5/14."
+  },
+  {
+    "q": "25. In a bar of large length when held vertically, its own weight produces additional stress. The maximum stress will be",
+    "options": [
+      "at the lower cross-section",
+      "at the built-in upper cross-section",
+      "at the central cross-section",
+      "at every point of the bar"
+    ],
+    "correct": 1,
+    "explain": "The top cross-section must support the weight of the entire bar below it, making the stress maximum at the support."
+  },
+  {
+    "q": "26. If the stress produced by a prismatic bar is equal to the working stress, the area of the cross-section becomes",
+    "options": [
+      "zero",
+      "infinite",
+      "maximum",
+      "minimum"
+    ],
+    "correct": 1,
+    "explain": "This refers to the theoretical 'limit of length' for a bar under its own weight; if the self-weight stress equals the allowed stress, any increase in length would require an infinite area to maintain that stress level."
+  },
+  {
+    "q": "27. If all the dimensions of a bar are increased in the proportion n:1, the proportion of maximum stress will increase in the ratio",
+    "options": [
+      "1:n",
+      "n:1",
+      "1:1/n",
+      "1/n:1"
+    ],
+    "correct": 1,
+    "explain": "Stress due to self-weight is σ = γL. If all dimensions increase by n, the new length is nL, so stress becomes n(γL), a ratio of n:1."
+  },
+  {
+    "q": "28. The percentage elongation of a material from a direct tensile test indicates",
+    "options": [
+      "ductility",
+      "strength",
+      "yield stress",
+      "unlimited strength"
+    ],
+    "correct": 0,
+    "explain": "Ductility is the property that allows a material to undergo significant plastic deformation before rupture, measured by percentage elongation."
+  },
+  {
+    "q": "29. The product of Young's modulus (E) and moment of inertia (I) is known as",
+    "options": [
+      "modulus of rigidity",
+      "bulk modulus",
+      "flexural rigidity",
+      "torsional rigidity"
+    ],
+    "correct": 2,
+    "explain": "Flexural rigidity (EI) represents the resistance offered by a beam section against bending deformation."
+  },
+  {
+    "q": "30. The region of the cross-section of a column in which compressive load may be applied without producing any tensile stress, is known as the core... in circular columns the radius of the core, is",
+    "options": [
+      "one-half of the radius",
+      "one-third of the radius",
+      "one-quarter of the radius",
+      "one-fifth of the radius"
+    ],
+    "correct": 2,
+    "explain": "To avoid tension in a circular section (Middle Fourth Rule), the eccentricity must not exceed D/8 from the center, making the radius of the core R/4 (or D/8)."
+  },
+  {
+    "q": "31. A principal plane is a plane which carries",
+    "options": [
+      "maximum shear stress",
+      "the given of higher magnitude acting",
+      "no shear stress",
+      "plane inclined at 45° to x-axis"
+    ],
+    "correct": 2,
+    "explain": "By definition, principal planes are those on which the shear stress is zero; they only carry normal stresses (principal stresses)."
+  },
+  {
+    "q": "32. A prismatic bar is supported at top and is subjected to its own weight... the total elongation of the bar is given by",
+    "options": [
+      "ρl² / E",
+      "ρl² / 2E",
+      "ρAL / 2E",
+      "ρl² / 2EA"
+    ],
+    "correct": 1,
+    "explain": "The elongation due to self-weight is WL/2AE. Substituting W = ρAL, we get (ρAL)L/2AE = ρl²/2E."
+  },
+  {
+    "q": "33. The ratio of maximum shear stress to average shear stress in the case of a rectangular section is",
+    "options": [
+      "4/3",
+      "3/2",
+      "1",
+      "2"
+    ],
+    "correct": 1,
+    "explain": "As noted in Q. 301, the maximum shear stress for a rectangle is 1.5 times (3/2) the average shear stress."
+  },
+  {
+    "q": "34. An element is subjected to two normal stress σ1 and σ2... The max shear stress is given by",
+    "options": [
+      "(σ1 - σ2) / 2",
+      "(σ1 + σ2) / 2",
+      "σ1 + σ2",
+      "σ1 - σ2"
+    ],
+    "correct": 0,
+    "explain": "The maximum in-plane shear stress is equal to half the difference between the principal stresses: τ_max = (σ1 - σ2)/2."
+  },
+  {
+    "q": "35. A body is subjected to a direct tensile stress (σ) in one plane. The shear stress is maximum at a section inclined at ............ to the normal of the section.",
     "options": [
       "45° and 90°",
       "45° and 135°",
@@ -33,62 +385,7 @@
     "explain": "Shear stress is (σ/2) sin 2θ. This is maximum when sin 2θ = 1 (at 2θ = 90° or 270°), giving θ = 45° and 135°."
   },
   {
-    "q": "4. When a body is subjected to a direct tensile stress (σ) in one plane, the maximum shear stress is ............ the maximum normal stress.",
-    "options": [
-      "equal to",
-      "one-half",
-      "two-third",
-      "twice"
-    ],
-    "correct": 1,
-    "explain": "Maximum normal stress is σ (at 0°), and maximum shear stress is σ/2 (at 45°). Therefore, max shear is half of max normal stress."
-  },
-  {
-    "q": "5. Principle plane is a plane on which the shear stress is",
-    "options": [
-      "zero",
-      "minimum",
-      "maximum",
-      "all of these"
-    ],
-    "correct": 0,
-    "explain": "Principal planes are defined as planes where the shear stress component is zero."
-  },
-  {
-    "q": "6. In Mohr's circle, the centre of circle from Y-axis is taken as",
-    "options": [
-      "(σx - σy) / 2",
-      "(σx + σy) / 2",
-      "(σx - σy) / 2 + τ",
-      "(σx + σy) / 2 + τ"
-    ],
-    "correct": 1,
-    "explain": "The center of the Mohr's circle on the σ-axis is always the average of the two normal stresses: (σx + σy)/2."
-  },
-  {
-    "q": "7. The energy stored in a body when strained within elastic limit is known as",
-    "options": [
-      "resilience",
-      "proof resilience",
-      "strain energy",
-      "impact energy"
-    ],
-    "correct": 2,
-    "explain": "Strain energy is the internal work done by the force to deform a body, stored as potential energy while within the elastic limit."
-  },
-  {
-    "q": "8. The total strain energy stored in a body is termed as",
-    "options": [
-      "resilience",
-      "proof resilience",
-      "impact energy",
-      "modulus of resilience"
-    ],
-    "correct": 0,
-    "explain": "Resilience is the total strain energy stored in a body within its elastic limit."
-  },
-  {
-    "q": "9. Strain energy is the",
+    "q": "36. Strain energy is the",
     "options": [
       "energy stored in a body when strained within elastic limits",
       "energy stored in a body when strained upto the breaking of a specimen",
@@ -99,117 +396,7 @@
     "explain": "As defined in Q. 327, it is the energy absorbed by a material when it is deformed elastically."
   },
   {
-    "q": "10. Resilience is the",
-    "options": [
-      "energy stored in a body when strained within elastic limits",
-      "energy stored in a body when strained upto the breaking of the specimen",
-      "maximum strain energy which can be stored in a body",
-      "none of the above"
-    ],
-    "correct": 3,
-    "explain": "as per key d Resilience is the general capacity of a material to absorb energy when it is deformed elastically and release that energy upon unloading."
-  },
-  {
-    "q": "11. The stress induced in a body, when suddenly loaded, is ............ the stress induced when the same load is applied gradually.",
-    "options": [
-      "equal to",
-      "one-half",
-      "twice",
-      "four times"
-    ],
-    "correct": 2,
-    "explain": "For a suddenly applied load, the instantaneous stress reached is twice the value of the static stress produced by the same load."
-  },
-  {
-    "q": "12. The strain energy stored in a spring, when subjected to maximum load, without suffering permanent distortion, is known as",
-    "options": [
-      "impact energy",
-      "proof resilience",
-      "proof stress",
-      "modulus of resilience"
-    ],
-    "correct": 1,
-    "explain": "Proof resilience is the maximum strain energy a body can store without undergoing permanent (plastic) deformation."
-  },
-  {
-    "q": "13. The capacity of a strained body for doing work on the removal of the straining force, is called",
-    "options": [
-      "strain energy",
-      "resilience",
-      "proof resilience",
-      "impact energy"
-    ],
-    "correct": 1,
-    "explain": "This is another definition of resilience, emphasizing the ability to return to the original state and release stored energy."
-  },
-  {
-    "q": "14. If the strains in the three principal directions are εx, εy and εz, the volumetric strain will be",
-    "options": [
-      "1/3(εx + εy + εz)",
-      "(εx + εy + εz)",
-      "3(εx + εy + εz)",
-      "(εx + εy + εz)³"
-    ],
-    "correct": 1,
-    "explain": "Volumetric strain (e_v) is the sum of the linear strains in three mutually perpendicular directions."
-  },
-  {
-    "q": "15. In a stressed body the minimum normal stress at any point is always",
-    "options": [
-      "average of two normal stresses acting in the two principal directions",
-      "a principal stress",
-      "difference of two normal stresses in the two principal directions plus shear stresses on those planes",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "As noted in Q. 340, both the maximum and minimum normal stresses are referred to as principal stresses."
-  },
-  {
-    "q": "16. The maximum shear stress will be equal to",
-    "options": [
-      "one half of the algebraic difference of the maximum and minimum principal stresses at the point",
-      "the intensity of shear stress acting on the major principal plane",
-      "the shear stress acting on the planes in the direction of two principal directions",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "τ_max = (σ1 - σ2) / 2, where σ1 and σ2 are the major and minor principal stresses."
-  },
-  {
-    "q": "17. The ratio of strengths of a rivet in double shear to that in a single shear will be",
-    "options": [
-      "1",
-      "1/2",
-      "2",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "In double shear, there are two planes resisting the shear force, effectively doubling the strength compared to a single shear plane."
-  },
-  {
-    "q": "18. An isotropic material is the one which",
-    "options": [
-      "has same structure at all the points",
-      "has Young's modulus equal to modulus of rigidity",
-      "has the elastic constants, identical in all the directions",
-      "obeys Hooke's law upto failure"
-    ],
-    "correct": 2,
-    "explain": "As established in Q. 277, isotropic materials exhibit the same elastic properties regardless of the direction of measurement."
-  },
-  {
-    "q": "19. When a member is subjected to a twisting moment, the material will be subjected to ............",
-    "options": [
-      "axial tension",
-      "shear stresses",
-      "bending stresses",
-      "axial compressive stress"
-    ],
-    "correct": 1,
-    "explain": "Torsion creates internal resistance in the form of shear stresses that act on the cross-sectional planes and longitudinal planes."
-  },
-  {
-    "q": "20. When a member is subjected to twisting moment the stress in any elemental ring will be proportional to ............",
+    "q": "37. When a member is subjected to twisting moment the stress in any elemental ring will be proportional to ............",
     "options": [
       "Its radial distance from centre",
       "area of cross-section",
@@ -220,40 +407,7 @@
     "explain": "According to the torsion formula $\\frac{\\tau}{r} = \\frac{T}{J}$, shear stress ($\\tau$) is directly proportional to the radial distance ($r$) from the center."
   },
   {
-    "q": "21. In a shaft subjected to pure torsion, maximum shear stress will occur at ............",
-    "options": [
-      "centre of shaft",
-      "periphery",
-      "a distance of semi-radius from centre",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Since shear stress is proportional to the radius ($r$), it is zero at the center and reaches its maximum value at the outer boundary (periphery) where $r=R$."
-  },
-  {
-    "q": "22. What are the units of torque?",
-    "options": [
-      "Nm",
-      "N",
-      "N/m",
-      "N/m²"
-    ],
-    "correct": 0,
-    "explain": "Torque is defined as Force $\\times$ perpendicular distance, hence its SI unit is Newton-meter (Nm)."
-  },
-  {
-    "q": "23. The torsional formula is valid if the shearing stresses ............",
-    "options": [
-      "are uniform throughout the cross-section",
-      "are within the shearing proportional limit",
-      "are zero throughout the cross-section",
-      "are caused due to twisting moment applied only at the free end"
-    ],
-    "correct": 1,
-    "explain": "The torsion formula assumes linear elastic behavior, meaning the shear stress must be within the proportional limit of the material."
-  },
-  {
-    "q": "24. The diamond quadrilateral pyramid indenter is used in ............",
+    "q": "38. The diamond quadrilateral pyramid indenter is used in ............",
     "options": [
       "Rockwell hardness test",
       "Brinell hardness test",
@@ -264,51 +418,7 @@
     "explain": "The Vickers hardness test uses a square-based diamond pyramid indenter with an angle of 136° between opposite faces."
   },
   {
-    "q": "25. In Brinell Hardness test, the type of indenter used is ............",
-    "options": [
-      "hard steel cone",
-      "hard steel ball",
-      "mild steel ball",
-      "diamond cone"
-    ],
-    "correct": 1,
-    "explain": "The Brinell test uses a hardened steel (or tungsten carbide) ball of a specified diameter (usually 10mm) as the indenter."
-  },
-  {
-    "q": "26. Glass will obey Hooke's law upto ............",
-    "options": [
-      "yield point",
-      "proof stress",
-      "fracture",
-      "50% of stress at fracture"
-    ],
-    "correct": 2,
-    "explain": "Glass is a perfectly brittle material. It shows almost no plastic deformation and fails (fractures) suddenly while still in the linear elastic range."
-  },
-  {
-    "q": "27. The proportional limit of mild steel specimen is taken as the stress corresponding to a permanent set of ............",
-    "options": [
-      "0.2%",
-      "0.1%",
-      "0.25%",
-      "0.01%"
-    ],
-    "correct": 3,
-    "explain": "While proof stress is often 0.2%, the limit of proportionality is very sensitive and is often associated with a very small permanent set like 0.01%."
-  },
-  {
-    "q": "28. Within the elastic range of a tensile test the deviation from Hooke's law and some after effects may be noticed. This is due to ............",
-    "options": [
-      "thermo elastic effect",
-      "material does not at all obey Hooke's law",
-      "yield stress is crossed",
-      "elastic limit is greater than ultimate strength"
-    ],
-    "correct": 0,
-    "explain": "Thermo-elastic effects involve small temperature changes during loading/unloading that can cause slight non-linearity even within the elastic range."
-  },
-  {
-    "q": "29. The compression test is commonly used for testing ............",
+    "q": "39. The compression test is commonly used for testing ............",
     "options": [
       "ductile materials",
       "rubber",
@@ -319,18 +429,7 @@
     "explain": "Brittle materials (like concrete, cast iron, or stone) are much stronger in compression than tension, making compression tests standard for them."
   },
   {
-    "q": "30. When a cylindrical specimen of a ductile material is subjected to compression ............",
-    "options": [
-      "it ultimately assumes the shape of a flat disc",
-      "it fails by fracture like a brittle material",
-      "it fails immediately after starting of loading",
-      "diameter of the specimen decreases"
-    ],
-    "correct": 0,
-    "explain": "Ductile materials under compression undergo significant plastic deformation (bulging) without fracturing, eventually flattening into a disc shape."
-  },
-  {
-    "q": "31. What is strain energy?",
+    "q": "40. What is strain energy?",
     "options": [
       "the energy stored in a body because of being strained",
       "the energy that is spent for straining a body",
@@ -341,212 +440,355 @@
     "explain": "Strain energy is the internal work done by external forces while deforming a body, which is stored as potential energy."
   },
   {
-    "q": "32. The strain energy stored in a body due to an axial stress is ............",
+    "q": "41. Dead load of a member is the",
     "options": [
-      "(stress² × volume) / 2E",
-      "stress × strain × area",
-      "(stress² / 2E) × area",
-      "stress × strain × volume"
+      "one that remains constant",
+      "one that occurs due to dead body",
+      "one that comes all of a sudden",
+      "one that comes due to self weight of the object"
     ],
-    "correct": 0,
-    "explain": "The formula for strain energy ($U$) under axial load is $U = \\frac{\\sigma^2}{2E} \\times V$."
+    "correct": 3,
+    "explain": "Dead load is the permanent self-weight of the structure/member itself."
   },
   {
-    "q": "33. Strain energy due to bending stress is ............",
+    "q": "42. If all the dimensions of a bar are increased in the proportion n:1, the maximum stress produced in the prismatic bar by its own weight will increase in the ratio",
     "options": [
-      "∫ (M²dx / 2EI)",
-      "∫ (Mdx / 2EI)",
-      "∫ (M²dx / 4EI)",
-      "∫ (Mdx / 4E²I²)"
+      "1:n",
+      "n:1",
+      "1:1/n",
+      "1/n:1"
     ],
-    "correct": 0,
-    "explain": "For a beam subjected to a bending moment $M$, the total strain energy is obtained by integrating $\\frac{M^2}{2EI}$ over the length of the beam."
+    "correct": 1,
+    "explain": "Self-weight stress scales linearly with the linear dimension scale factor n, giving a ratio of n:1."
   },
   {
-    "q": "34. What is the core of a section ............",
+    "q": "43. If magnitude and direction of a load does not change with respect to time, this type of load is called",
     "options": [
-      "portion where a compressive force applied causes no tension anywhere",
-      "the central portion of the cross-section of similar shape but half the area",
-      "area where compressive force will not cause any compressive stress",
+      "point load",
+      "static load",
+      "dynamic load",
+      "wind load"
+    ],
+    "correct": 1,
+    "explain": "A load constant in magnitude and direction over time is a static load."
+  },
+  {
+    "q": "44. The compression test is commonly used for testing",
+    "options": [
+      "ductile materials",
+      "rubber",
+      "brittle materials",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Brittle materials (like cast iron, concrete) are typically much stronger in compression, so compression tests are standard for them."
+  },
+  {
+    "q": "45. The brittle materials have low toughness because they",
+    "options": [
+      "undergo large plastic deformation before failure",
+      "undergo small plastic deformation before failure",
+      "undergo no plastic deformation before failure",
+      "can absorb impact load also"
+    ],
+    "correct": 1,
+    "explain": "Low toughness in brittle materials results from very limited plastic deformation absorbing energy before fracture."
+  },
+  {
+    "q": "46. Centre of gravity of a semi circle is ___ above the base AB (diameter)",
+    "options": [
+      "2r/π",
+      "4r/3π",
+      "r/8",
+      "r/4"
+    ],
+    "correct": 1,
+    "explain": "Standard result: centroid of a semicircular area lies at 4r/3π from the diameter."
+  },
+  {
+    "q": "47. The algebraic sum of the shear flow of a section in any direction must be equal to",
+    "options": [
+      "zero",
+      "net shear force",
+      "total shear stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Shear flow forms a self-balancing internal system, summing to zero around a closed section."
+  },
+  {
+    "q": "48. The maximum number of transverse shear forces possible at one end of an element of a plane frame are",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "correct": 2,
+    "explain": "At each joint of a plane frame element, up to two transverse shear components can exist (in-plane, general loading)."
+  },
+  {
+    "q": "49. As per elastic theory of design the factor of safety is the ratio of",
+    "options": [
+      "working stress to field stress",
+      "yield stress to working stress",
+      "ultimate stress to yield stress",
+      "ultimate load to load at yield"
+    ],
+    "correct": 1,
+    "explain": "Factor of safety (elastic design) = yield stress / working (permissible) stress."
+  },
+  {
+    "q": "50. The value of Poisson's ratio always remains",
+    "options": [
+      "greater than one",
+      "lesser than one",
+      "equal to one",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For all real engineering materials, Poisson's ratio lies between 0 and 0.5, always less than one."
+  },
+  {
+    "q": "51. Normally the numerical value of Poisson's ratio is",
+    "options": [
+      "0.3 for steel",
+      "0.15 for concrete",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Typical values: steel ≈ 0.3, concrete ≈ 0.15."
+  },
+  {
+    "q": "52. Which of the following is a relatively ductile material?",
+    "options": [
+      "cast iron",
+      "wrought iron",
+      "mild steel",
+      "bronze"
+    ],
+    "correct": 2,
+    "explain": "Mild steel shows large plastic elongation before fracture, making it relatively ductile compared to the brittle options listed."
+  },
+  {
+    "q": "53. A member which is subjected to reversible tensile or compressible stress may fail at a stress lower than the ultimate stress of the material. The property of metal, is called",
+    "options": [
+      "plasticity of the metal",
+      "elasticity of the metal",
+      "fatigue of the metal",
+      "workability of the metal"
+    ],
+    "correct": 2,
+    "explain": "Failure under repeated/reversed stress below the ultimate stress is the fatigue phenomenon."
+  },
+  {
+    "q": "54. If the value of Young's Modulus of elasticity for a material is zero, it implies that the material is",
+    "options": [
+      "incompressible",
+      "compressible",
+      "plastic",
+      "visco elastic"
+    ],
+    "correct": 2,
+    "explain": "Zero stiffness against elastic deformation implies the material deforms permanently/plastically under any stress."
+  },
+  {
+    "q": "55. Limit of proportionality depends upon",
+    "options": [
+      "area of cross section",
+      "types of loading",
+      "types of material",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "The proportional limit is a material property, varying with the type of material."
+  },
+  {
+    "q": "56. Which of the following is dimensionless?",
+    "options": [
+      "bulk modulus",
+      "strain",
+      "shear stress",
+      "coefficient of linear expansion"
+    ],
+    "correct": 1,
+    "explain": "Strain is a ratio of length change to original length — dimensionless."
+  },
+  {
+    "q": "57. The Young's Modulus of elasticity is defined as a ratio of stress & strain within the",
+    "options": [
+      "yield limit",
+      "elastic limit",
+      "plastic limit",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Hooke's Law (and hence E) is valid only within the elastic limit."
+  },
+  {
+    "q": "58. Which of the following gives Modulus of Rigidity?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 1,
+    "explain": "Modulus of Rigidity (N/G) = shear stress / shear strain."
+  },
+  {
+    "q": "59. Which of the following gives Bulk Modulus?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress of equal magnitude on all six faces on a solid cube to the volumetric strain"
+    ],
+    "correct": 3,
+    "explain": "Bulk Modulus (K) = uniform normal stress / volumetric strain."
+  },
+  {
+    "q": "60. Identify the correct relationship that exists among the modulus of elasticity (E), modulus of rigidity (N) and bulk modulus (k)",
+    "options": [
+      "E = (3K+N)/9KN",
+      "E = 3KN/(3K+N)",
+      "E = 9KN/(3K+N)",
+      "E = K/N"
+    ],
+    "correct": 2,
+    "explain": "Standard elastic-constants relation: E = 9KN / (3K + N)."
+  },
+  {
+    "q": "61. Normal strain is defined as",
+    "options": [
+      "rate of change of length",
+      "strain that normally occurs",
+      "strain that is normal to shear strain",
+      "deformation normal to the force"
+    ],
+    "correct": 0,
+    "explain": "Normal (linear) strain = change in length / original length."
+  },
+  {
+    "q": "62. Shear strain is defined as",
+    "options": [
+      "change in angle between planes at right angles",
+      "distortion of fibre",
+      "change in angles between two angles",
+      "strain that normally occurs"
+    ],
+    "correct": 0,
+    "explain": "Shear strain is the change in the right angle between two originally perpendicular planes/lines."
+  },
+  {
+    "q": "63. What is strain energy?",
+    "options": [
+      "stress x strain",
+      "volume x stress x strain",
+      "energy that is spent for straining a body",
+      "energy stored in a body because of being strained"
+    ],
+    "correct": 3,
+    "explain": "Strain energy is the elastic energy stored within a body as a result of deformation."
+  },
+  {
+    "q": "64. The strain energy stored by a member when strained within elastic limit, is known as",
+    "options": [
+      "resilience",
+      "proof resilience",
+      "potential strain",
+      "none"
+    ],
+    "correct": 0,
+    "explain": "Resilience is the strain energy stored (and recoverable) within the elastic range."
+  },
+  {
+    "q": "65. When equal and opposite forces applied to a body tend to elongate it, the stress produced is called",
+    "options": [
+      "compressive stress",
+      "tensile stress",
+      "shear stress",
+      "longitudinal stress"
+    ],
+    "correct": 1,
+    "explain": "Forces that pull a body apart (elongating it) produce tensile stress."
+  },
+  {
+    "q": "66. The ratio of change in volume to the original volume is called:",
+    "options": [
+      "linear strain",
+      "lateral strain",
+      "volumetric strain",
+      "poison's ratio"
+    ],
+    "correct": 2,
+    "explain": "Volumetric strain = change in volume / original volume, by definition."
+  },
+  {
+    "q": "67. Fatigue is the failure of a material under:",
+    "options": [
+      "constant loads but occasionally well above static load",
+      "varying loads well below ultimate static load",
+      "constant loads well below ultimate static load",
+      "varying loads well above ultimate static load"
+    ],
+    "correct": 1,
+    "explain": "Fatigue failure occurs from repeated/varying stress cycles, even when each individual cycle's stress is well below the material's ultimate static strength."
+  },
+  {
+    "q": "68. If a rod is simultaneously pulled at both of its ends, it will be a case of:",
+    "options": [
+      "axial loading",
+      "vertical loading",
+      "horizontal loading",
       "none of these"
     ],
     "correct": 0,
-    "explain": "The 'core' or 'kern' is the area within which an eccentric load can be applied without inducing any tensile stress in the section."
+    "explain": "Equal and opposite pulling forces along the rod's axis constitute axial (tensile) loading."
   },
   {
-    "q": "35. To avoid any possibility of tension occurring in masonry structures, the resultant of various forces at any level must pass through ............",
+    "q": "69. Tensile internal force tends to:",
     "options": [
-      "the section",
-      "the centre of the section",
-      "middle third of the width or depth of the section",
-      "a corner of the section"
-    ],
-    "correct": 2,
-    "explain": "For rectangular sections (like masonry walls), the 'middle-third rule' states that the resultant must stay within the middle third to prevent tension."
-  },
-  {
-    "q": "36. The ratio of the moment of inertia of a circular plate and that of a square plate for equal depth, is ............",
-    "options": [
-      "less than one",
-      "equal to one",
-      "more than one",
-      "equal to 3π / 16"
-    ],
-    "correct": 3,
-    "explain": "For depth (dimension) 'd': I(circle) = πd⁴/64, I(square) = d⁴/12. Ratio = (πd⁴/64) / (d⁴/12) = 12π/64 = 3π/16."
-  },
-  {
-    "q": "37. The intensity of direct longitudinal stress in the cross-section at any point distant r from the neutral axis, is proportional to ............",
-    "options": [
-      "r",
-      "1 / r",
-      "r²",
-      "1 / r²"
-    ],
-    "correct": 0,
-    "explain": "According to the bending equation (M/I = σ/y), the bending stress (σ) is directly proportional to the distance (y or r) from the neutral axis."
-  },
-  {
-    "q": "38. The limit of eccentricity for no tensile conditions for a column of circular section of diameter (d) is ............",
-    "options": [
-      "d / 4",
-      "d / 8",
-      "d / 12",
-      "d / 16"
-    ],
-    "correct": 0,
-    "explain": "To ensure no tension at any point in a circular section, the load must fall within the middle quarter of the diameter, meaning the eccentricity e ≤ d/8."
-  },
-  {
-    "q": "39. In a tensile test, when the material is stressed beyond elastic limit, the tensile strain ............ as compared to the stress.",
-    "options": [
-      "decreases slowly",
-      "increases slowly",
-      "decreases more quickly",
-      "increases more quickly"
-    ],
-    "correct": 3,
-    "explain": "Beyond the elastic limit (in the plastic region), the material undergoes large deformations for very small increments in stress."
-  },
-  {
-    "q": "40. The breaking stress is ............ the ultimate stress.",
-    "options": [
-      "equal to",
-      "less than",
-      "greater than",
-      "all of these"
+      "crush the member",
+      "elongate the member",
+      "shorten the member",
+      "smash the member"
     ],
     "correct": 1,
-    "explain": "In a nominal stress-strain curve for ductile materials, 'necking' occurs after the ultimate stress, causing the load (and nominal stress) to drop before breaking."
+    "explain": "Tensile force pulls the member apart, causing elongation."
   },
   {
-    "q": "41. The ratio of the largest load in a test to the original cross-sectional area of the test piece is called ............",
+    "q": "70. The forces which meet at one point but their lines of action do not lie in a plane, are called:",
     "options": [
-      "elastic limit",
-      "yield stress",
-      "ultimate stress",
-      "breaking stress"
-    ],
-    "correct": 2,
-    "explain": "Ultimate tensile strength (UTS) is defined as the maximum load reached during the test divided by the original area."
-  },
-  {
-    "q": "42. A tensile test is performed on a mild steel round bar. Its diameter after fracture will ............",
-    "options": [
-      "remain same",
-      "increase",
-      "decrease",
-      "depend upon rate of loading"
-    ],
-    "correct": 2,
-    "explain": "Mild steel is ductile; before it breaks, it undergoes 'necking,' which is a localized reduction in the cross-sectional area."
-  },
-  {
-    "q": "43. A tensile test is performed on a round bar. After fracture it has been found that the diameter remains approximately same at fracture. The material under test was ............",
-    "options": [
-      "mild steel",
-      "cast iron",
-      "glass",
-      "copper"
-    ],
-    "correct": 1,
-    "explain": "Cast iron is a brittle material. It fails by sudden fracture with very little plastic deformation or necking, so the diameter remains nearly unchanged."
-  },
-  {
-    "q": "44. In compression test, the fracture in cast iron specimen would occur along ............",
-    "options": [
-      "the axis of load",
-      "an oblique plane",
-      "at right angles to the axis of specimen",
-      "would not occur"
-    ],
-    "correct": 1,
-    "explain": "Brittle materials in compression often fail due to shear on an oblique plane (typically around 45 degrees) because they are weaker in shear than in pure compression."
-  },
-  {
-    "q": "45. A column that fails primarily due to direct stress is called",
-    "options": [
-      "long column",
-      "short column",
-      "weak column",
+      "co-planer non-concurrent forces",
+      "non coplanar concurrent forces",
+      "none coplanar non-current forces",
       "none of the above"
     ],
     "correct": 1,
-    "explain": "Short columns fail by crushing (direct compressive stress) rather than buckling."
+    "explain": "Forces meeting at a single point (concurrent) but spread across different planes (non-coplanar) are non-coplanar concurrent forces."
   },
   {
-    "q": "46. For keeping the stress wholly compressive, the load may be applied on a circular column anywhere within a concentric circle of diameter",
+    "q": "71. The total time of collision and restitution of two bodies, is called",
     "options": [
-      "d/2",
-      "d/3",
-      "d/4",
-      "d/5"
+      "time of collision",
+      "period of collision",
+      "period of impact",
+      "all of the above"
     ],
     "correct": 2,
-    "explain": "The kern of a solid circular section of diameter d is a concentric circle of diameter d/4."
+    "explain": "The combined duration of the compression and restitution phases of a collision is called the period of impact."
   },
   {
-    "q": "47. A truss is completely analyzed, when",
+    "q": "72. Mathematically, strain may be defined as",
     "options": [
-      "the direct stress in all the members are found",
-      "all the external reactions components are determined",
-      "the equilibrium is satisfied",
-      "none of the above"
+      "the deformation per unit volume",
+      "the deformation per unit area",
+      "the deformation per unit length",
+      "all of the above"
     ],
-    "correct": 0,
-    "explain": "A truss analysis is complete once the axial (direct) force/stress in every member has been determined."
-  },
-  {
-    "q": "48. A tie is a member which",
-    "options": [
-      "is subjected to axial compression only",
-      "is subjected to axial tension only",
-      "is subjected to moment tension only",
-      "is subjected to two equal and opposite forces"
-    ],
-    "correct": 1,
-    "explain": "A tie carries axial tension only, as opposed to a strut which carries compression."
-  },
-  {
-    "q": "49. In simple bending theory, the assumption that plane section before bending remains plane after bending implies that",
-    "options": [
-      "stress is proportional to strain at all sections",
-      "strain is proportional to the distance from the natural axis",
-      "stress is uniform in the cross-section",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "The plane-sections assumption directly implies a linear strain distribution across the depth, proportional to distance from the neutral axis."
-  },
-  {
-    "q": "50. If a beam is loaded transversely, the maximum compressive stress develops on",
-    "options": [
-      "top fibre",
-      "neutral axis",
-      "bottom fibre",
-      "every cross-section"
-    ],
-    "correct": 0,
-    "explain": "For typical sagging (downward transverse load), the top fiber is in maximum compression."
+    "correct": 2,
+    "explain": "Linear strain = change in length / original length, i.e. deformation per unit length."
   }
 ]

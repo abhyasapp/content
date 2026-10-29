@@ -1,6 +1,213 @@
 [
   {
-    "q": "1. The flow is called rotational if its velocity normal to the plane of area is equal to ...............",
+    "q": "1. The flow in a pipe or channel is said to be uniform when",
+    "options": [
+      "the liquid particles at all sections have the same velocities",
+      "the liquid particles at different sections have different velocities"
+    ],
+    "correct": 0,
+    "explain": "Uniform flow is defined by velocity (and other flow parameters) remaining constant with respect to distance along the flow path."
+  },
+  {
+    "q": "2. A flow through an expanding tube at constant rate is called",
+    "options": [
+      "steady uniform flow",
+      "steady non-uniform flow",
+      "unsteady uniform flow",
+      "unsteady non-uniform flow"
+    ],
+    "correct": 1,
+    "explain": "It is steady (constant rate), but non-uniform because the expanding area causes velocity to change along the length."
+  },
+  {
+    "q": "3. A flow whose streamline is represented by a curve, is called",
+    "options": [
+      "one-dimensional flow",
+      "two-dimensional flow",
+      "three-dimensional flow",
+      "four-dimensional flow"
+    ],
+    "correct": 1,
+    "explain": "When flow velocity is a function of two space coordinates (e.g., x and y), the streamlines become curves in a plane."
+  },
+  {
+    "q": "4. In one dimensional flow, the flow",
+    "options": [
+      "is steady and uniform",
+      "takes place in straight line",
+      "takes place in curve",
+      "takes place in one direction"
+    ],
+    "correct": 1,
+    "explain": "The key characteristic is that the flow parameters only change along the direction of flow, which is typically a straight line path."
+  },
+  {
+    "q": "5. The total head of a liquid particle in motion is equal to",
+    "options": [
+      "pressure head + kinetic head + potential head",
+      "pressure head - (kinetic head + potential head)",
+      "potential head - (pressure head + kinetic head)",
+      "kinetic head - (pressure head + potential head)"
+    ],
+    "correct": 0,
+    "explain": "Total head (H) = P/w + v²/2g + Z. It represents the energy per unit weight of the fluid."
+  },
+  {
+    "q": "6. For a perfect incompressible liquid, flowing in a continuous stream, the total energy of a particle remains the same... This statement is called",
+    "options": [
+      "Continuity equation",
+      "Bernoulli's equation",
+      "Pascal's law",
+      "Archimedes' principle"
+    ],
+    "correct": 1,
+    "explain": "This is the core definition of Bernoulli's theorem for ideal fluid flow."
+  },
+  {
+    "q": "7. Bernoulli's equation is applied to",
+    "options": [
+      "venturimeter",
+      "orifice meter",
+      "pitot tube",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "All three listed devices work by measuring pressure/velocity changes based on Bernoulli's principle."
+  },
+  {
+    "q": "8. When the flow in an open channel is gradually varied, the flow is said to be ............",
+    "options": [
+      "steady uniform flow",
+      "steady non-uniform flow",
+      "unsteady uniform flow",
+      "unsteady non-uniform flow"
+    ],
+    "correct": 1,
+    "explain": "Gradually Varied Flow (GVF) is a type of steady non-uniform flow where the depth of flow changes gradually along the length of the channel."
+  },
+  {
+    "q": "9. The tangential velocity of the water element having a free vortex is ............",
+    "options": [
+      "directly proportional to its distance from the centre",
+      "inversely proportional to its distance from the centre",
+      "directly proportional to its (distance)^2 from the centre",
+      "inversely proportional to its (distance)^2 from the centre"
+    ],
+    "correct": 1,
+    "explain": "In a free vortex, the velocity $v$ is inversely proportional to the radius $r$ ($vr = constant$)."
+  },
+  {
+    "q": "10. A flow in which ............ force is dominating over the viscosity is called turbulent flow.",
+    "options": [
+      "elastic",
+      "surface tension",
+      "viscous",
+      "inertia"
+    ],
+    "correct": 3,
+    "explain": "Turbulent flow is characterized by high inertia forces that overcome the damping effect of viscosity."
+  },
+  {
+    "q": "11. When the mach number is between ............... the flow is called super-sonic flow.",
+    "options": [
+      "1 and 2.5",
+      "2.5 and 4",
+      "4 and 6",
+      "1 and 6"
+    ],
+    "correct": 3,
+    "explain": "Supersonic flow occurs when 1 < Mach number < 6. Beyond M=6, the flow is typically classified as hypersonic."
+  },
+  {
+    "q": "12. When the Mach number is more than 6, the flow is called ...............",
+    "options": [
+      "sub-sonic flow",
+      "sonic flow",
+      "super-sonic flow",
+      "hyper-sonic flow"
+    ],
+    "correct": 3,
+    "explain": "Flows with a Mach number greater than 5 or 6 are characterized by high temperature and dissociation effects, known as hyper-sonic flow."
+  },
+  {
+    "q": "13. A flow is called super-sonic if the ...............",
+    "options": [
+      "velocity of flow is very high",
+      "discharge is difficult to measure",
+      "mach number is between 1 and 6",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Super-sonic flow is specifically defined by a Mach number greater than 1 but less than the hypersonic threshold (typically 6)."
+  },
+  {
+    "q": "14. A flow is called hyper-sonic, if the Mach number is ...............",
+    "options": [
+      "less than unity",
+      "unity",
+      "between 1 and 6",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "Since hyper-sonic flow requires a Mach number > 6, none of the specific ranges (M<1, M=1, or 1<M<6) apply."
+  },
+  {
+    "q": "15. The ratio of the inertia force to the elastic force is called ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Weber's number",
+      "Mach number"
+    ],
+    "correct": 3,
+    "explain": "The Mach number can also be defined as the square root of the ratio of inertia force to elastic force in a fluid."
+  },
+  {
+    "q": "16. In fluids, steady, flow occurs when ...............",
+    "options": [
+      "conditions of flow change steadily with time",
+      "conditions of flow do not change with time at a point",
+      "conditions of flow remain the same at adjacent point",
+      "velocity vector remains constant at a point"
+    ],
+    "correct": 1,
+    "explain": "Steady flow is defined as the type of flow in which the fluid properties (velocity, pressure, etc.) at any point do not change with time."
+  },
+  {
+    "q": "17. A non-uniform steady flow is through ...............",
+    "options": [
+      "a long tube at a decreasing rate",
+      "an expanding tube at constant rate",
+      "an expanding tube at increasing rate",
+      "a long pipe at increasing rate"
+    ],
+    "correct": 1,
+    "explain": "It is non-uniform because the cross-section changes (expanding tube) and steady because the discharge rate remains constant over time."
+  },
+  {
+    "q": "18. Equation of continuity of fluids is applicable only if ...............",
+    "options": [
+      "flow is steady and velocity is uniform",
+      "flow is compressive",
+      "flow is one dimensional",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "While general forms exist, the standard engineering version (A1V1 = A2V2) assumes steady, one-dimensional, and usually incompressible flow."
+  },
+  {
+    "q": "19. For the two dimensional flow, the stream functions is given by Ψ = 2xy. The velocity at a point (3, 4) is ...............",
+    "options": [
+      "6 m/sec",
+      "8 m/sec",
+      "10 m/sec",
+      "12 m/sec"
+    ],
+    "correct": 2,
+    "explain": "u = -∂Ψ/∂y = -2x = -6; v = ∂Ψ/∂x = 2y = 8. Resultant velocity V = √(u² + v²) = √((-6)² + 8²) = 10 m/sec."
+  },
+  {
+    "q": "20. The flow is called rotational if its velocity normal to the plane of area is equal to ...............",
     "options": [
       "angular velocity vector",
       "twice the angular velocity vector",
@@ -11,106 +218,7 @@
     "explain": "Vorticity is defined as the curl of the velocity vector, which is equal to twice the angular velocity (ω)."
   },
   {
-    "q": "2. For an irrotational flow, the equation (δ²φ/δx²) + (δ²φ/δy²) = 0 given by ...............",
-    "options": [
-      "Cauchy-Riemann",
-      "Reynold",
-      "Laplaces",
-      "Bernoulli"
-    ],
-    "correct": 2,
-    "explain": "This is the Laplace equation. If a velocity potential (φ) satisfies this equation, the flow is irrotational and incompressible."
-  },
-  {
-    "q": "3. 'Flow net' can be drawn only if the flow is ...............",
-    "options": [
-      "turbulent",
-      "rotational",
-      "distortion",
-      "none of these"
-    ],
-    "correct": 3,
-    "explain": "A flow net is applicable only for irrotational (potential) flow where both stream functions and velocity potentials exist."
-  },
-  {
-    "q": "4. If u, v, w are the components of the velocity v of moving particle, the equation u/dx = v/dy = w/dz represents ...............",
-    "options": [
-      "one dimensional flow",
-      "two dimensional flow",
-      "three dimensional flow",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "This is the general differential form for the path of a particle in three-dimensional space."
-  },
-  {
-    "q": "5. In two dimensional flow the components of velocity are given by u = ax, v = by. The stream lines will be ...............",
-    "options": [
-      "circular",
-      "parabolic",
-      "hyperbolic",
-      "elliptical"
-    ],
-    "correct": 2,
-    "explain": "By integrating dy/dx = v/u = (by)/(ax), we get a power relationship that represents a hyperbolic shape for the streamlines."
-  },
-  {
-    "q": "6. In a two dimensional flow if the components of the velocity are u = ax, v = by, the point where no motion occurs, is known as ...............",
-    "options": [
-      "critical point",
-      "neutral point",
-      "stagnation point",
-      "stationary point"
-    ],
-    "correct": 2,
-    "explain": "A stagnation point is defined as a point in the flow field where all velocity components (u, v, w) are zero."
-  },
-  {
-    "q": "7. Energy equation is usually applicable to ...............",
-    "options": [
-      "non-uniform flow",
-      "turbulent flow",
-      "laminar flow",
-      "steady flow"
-    ],
-    "correct": 3,
-    "explain": "Bernoulli's energy equation is derived assuming steady flow, meaning conditions at a point do not change with time."
-  },
-  {
-    "q": "8. Bernoulli's equation assumes that ...............",
-    "options": [
-      "fluid is non-viscous",
-      "fluid is homogeneous",
-      "flow is steady",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "Bernoulli's principle relies on the assumptions of steady, irrotational, incompressible, and non-viscous (frictionless) flow."
-  },
-  {
-    "q": "9. In a centriyugal pump casing, the flow of water leaving the impeller, is ...............",
-    "options": [
-      "rectilinear flow",
-      "radial flow",
-      "free vortex motion",
-      "forced vertex"
-    ],
-    "correct": 2,
-    "explain": "Once the water leaves the impeller and enters the volute casing, it follows a free vortex path to convert kinetic energy into pressure energy."
-  },
-  {
-    "q": "10. A pitot tube is used to measure ...............",
-    "options": [
-      "pressure",
-      "difference in pressure",
-      "velocity of flow",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "A pitot tube converts kinetic energy into potential energy at the stagnation point to determine the local velocity of the fluid."
-  },
-  {
-    "q": "11. If the forces are due to inertia and gravity, and frictional resistance plays only a minor role, the design of the channels is made by comparing ...............",
+    "q": "21. If the forces are due to inertia and gravity, and frictional resistance plays only a minor role, the design of the channels is made by comparing ...............",
     "options": [
       "Reynold number",
       "Froude number",
@@ -121,51 +229,7 @@
     "explain": "Froude number is used for open channel designs where gravity is the primary driving force (e.g., spillways, canals)."
   },
   {
-    "q": "12. The following is not a laminar flow ...............",
-    "options": [
-      "flow in beds in ground water",
-      "rise of water in plants through roots",
-      "flow of blood in the arteries of human body",
-      "flow in water pipe lines"
-    ],
-    "correct": 3,
-    "explain": "Flow in typical water supply pipe lines is usually turbulent due to high velocities and large diameters."
-  },
-  {
-    "q": "13. The value of kinetic energy correction factor (α) for a laminar flow through a circular pipe, is ...............",
-    "options": [
-      "0.5",
-      "1.0",
-      "1.5",
-      "2.0"
-    ],
-    "correct": 3,
-    "explain": "For laminar flow in a pipe, the velocity distribution is parabolic, leading to a kinetic energy correction factor (α) of exactly 2.0."
-  },
-  {
-    "q": "14. The value of momentum correction factor (β) for a laminar flow through a circular pipe, is ...............",
-    "options": [
-      "1/2",
-      "2/3",
-      "3/4",
-      "4/3"
-    ],
-    "correct": 3,
-    "explain": "The momentum correction factor (β) for laminar flow in a pipe is calculated as 4/3 (~1.33)."
-  },
-  {
-    "q": "15. To avoid vapourisation, pipe lines are laid over the ridge so that these are above the hydraulic gradient line not more than ...............",
-    "options": [
-      "2.4 m",
-      "6.4 m",
-      "10.0 m",
-      "5.0 m"
-    ],
-    "correct": 1,
-    "explain": "To prevent cavitation and the release of dissolved air (which causes air locks), the summit of a pipeline (siphon) should not be more than 6.4 meters above the hydraulic gradient line."
-  },
-  {
-    "q": "16. The phenomenon occurring in an open channel when a rapidly flowing stream abruptly changes to slowly flowing stream causing rise in water surface ...............",
+    "q": "22. The phenomenon occurring in an open channel when a rapidly flowing stream abruptly changes to slowly flowing stream causing rise in water surface ...............",
     "options": [
       "water hammer",
       "hydraulic jump",
@@ -176,7 +240,7 @@
     "explain": "A hydraulic jump occurs when supercritical flow (high velocity) transitions to subcritical flow (low velocity), resulting in significant energy dissipation and a rise in water level."
   },
   {
-    "q": "17. The gases are considered incompressible when mach number ...............",
+    "q": "23. The gases are considered incompressible when mach number ...............",
     "options": [
       "is equal to 1.0",
       "is equal to 0.50",
@@ -187,7 +251,7 @@
     "explain": "Gas flow is generally treated as incompressible if the Mach number is less than about 0.3, as density variations are negligible below this speed."
   },
   {
-    "q": "18. The necessary condition for the flow to be steady is that",
+    "q": "24. The necessary condition for the flow to be steady is that",
     "options": [
       "the velocity does not change from place to place",
       "the velocity is constant at a point with respect to time",
@@ -198,62 +262,7 @@
     "explain": "Steady flow is defined as the type of flow in which fluid characteristics like velocity, pressure, and density at a point do not change with time (dv/dt = 0)."
   },
   {
-    "q": "19. The necessary condition for the flow to be uniform is that",
-    "options": [
-      "the velocity is constant at a point with respect to time",
-      "the velocity is constant in the flow field with respect to space",
-      "the velocity changes at a point with respect to time",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Uniform flow occurs when the velocity of flow does not change with respect to space (distance) at any given time (dv/ds = 0)."
-  },
-  {
-    "q": "20. A stream line is a line",
-    "options": [
-      "which is along the path of a particle",
-      "which is always parallel to the main direction of flow",
-      "across which there is no flow",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "By definition, the velocity vector is tangent to the streamline at every point; therefore, there is no component of velocity perpendicular to the streamline, meaning no flow crosses it."
-  },
-  {
-    "q": "21. Bernoulli's theorem deals with the law of conservation of",
-    "options": [
-      "mass",
-      "momentum",
-      "energy",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Bernoulli's theorem states that for an incompressible, non-viscous fluid in steady flow, the sum of pressure energy, kinetic energy, and potential energy per unit mass remains constant, following the law of conservation of energy."
-  },
-  {
-    "q": "22. Continuity equation deals with the law of conservation of",
-    "options": [
-      "mass",
-      "momentum",
-      "energy",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The continuity equation (A1V1 = A2V2) is based on the principle that mass can neither be created nor destroyed in a flow system, representing the conservation of mass."
-  },
-  {
-    "q": "23. Irrotational flow means",
-    "options": [
-      "the fluid does not rotate while moving",
-      "the fluid moves in straight lines",
-      "the net rotation of fluid-particles about their mass centres is zero",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Irrotational flow is a flow in which the fluid particles do not rotate about their own axes, meaning the curl of the velocity vector is zero."
-  },
-  {
-    "q": "24. Bernoulli's equation is derived making assumptions that",
+    "q": "25. Bernoulli's equation is derived making assumptions that",
     "options": [
       "the flow is uniform, steady and incompressible",
       "the flow is non-viscous, uniform and steady",
@@ -264,7 +273,7 @@
     "explain": "The standard derivation of Bernoulli's equation assumes the fluid is ideal (non-viscous), the flow is steady, incompressible, and occurs along a streamline (irrotational)."
   },
   {
-    "q": "25. If the velocity, pressure, density etc, do not change at a point with respect to time, the flow is called",
+    "q": "26. If the velocity, pressure, density etc, do not change at a point with respect to time, the flow is called",
     "options": [
       "uniform",
       "incompressible",
@@ -275,29 +284,7 @@
     "explain": "When fluid properties at a specific point remain constant regardless of time, the flow is categorized as steady flow."
   },
   {
-    "q": "26. If the velocity, pressure, density etc., change at a point with respect to time, the flow is called",
-    "options": [
-      "uniform",
-      "compressible",
-      "unsteady",
-      "incompressible"
-    ],
-    "correct": 2,
-    "explain": "If fluid parameters at any point vary as time progresses, the flow is known as unsteady flow."
-  },
-  {
-    "q": "27. Vorticity is given by",
-    "options": [
-      "two times the rotation",
-      "1.5 times the rotation",
-      "three times the rotation",
-      "equal to the rotation"
-    ],
-    "correct": 0,
-    "explain": "Vorticity is defined mathematically as the curl of the velocity vector, which is exactly equal to twice the angular velocity (rotation)."
-  },
-  {
-    "q": "28. The term V²/2g is known as",
+    "q": "27. The term V²/2g is known as",
     "options": [
       "kinetic energy",
       "pressure energy",
@@ -308,51 +295,7 @@
     "explain": "In the Bernoulli equation, the term V²/2g represents the Kinetic Head, which is the kinetic energy of the fluid per unit weight."
   },
   {
-    "q": "29. The term p/ρg is known as",
-    "options": [
-      "kinetic energy per unit weight",
-      "pressure energy",
-      "pressure energy per unit weight",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "The term p/ρg represents the 'Pressure Head', which is the pressure energy of the fluid per unit weight of the fluid."
-  },
-  {
-    "q": "30. The term Z is known as",
-    "options": [
-      "potential energy",
-      "pressure energy",
-      "potential energy per unit weight",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "In Bernoulli's equation, Z represents the 'Datum Head' or 'Elevation Head', which is the potential energy per unit weight of the fluid."
-  },
-  {
-    "q": "31. A flow is said to be laminar when",
-    "options": [
-      "the fluid particles move in a zig-zag way",
-      "the Reynold number is high",
-      "the fluid particles move in layers parallel to the boundary",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Laminar flow occurs when fluid particles move in smooth, well-defined paths or layers that do not cross each other."
-  },
-  {
-    "q": "32. For the laminar flow through a circular pipe",
-    "options": [
-      "the max velocity = 1.5 times the average velocity",
-      "the max velocity = 2.0 times the average velocity",
-      "the max velocity = 2.5 times the average velocity",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "In fully developed laminar pipe flow (Hagen-Poiseuille flow), the maximum velocity at the center is exactly twice the average velocity across the section."
-  },
-  {
-    "q": "33. The loss of pressure head for the laminar flow through pipes varies",
+    "q": "28. The loss of pressure head for the laminar flow through pipes varies",
     "options": [
       "as the square of velocity",
       "directly as the velocity",
@@ -363,29 +306,7 @@
     "explain": "According to the Hagen-Poiseuille equation for laminar flow, the head loss (hf) is given by (32μVL)/(ρgD²). This shows that head loss is directly proportional to the first power of the velocity (V)."
   },
   {
-    "q": "34. For the laminar flow through a pipe, the shear stress over the cross-section",
-    "options": [
-      "varies inversely as the distance from the centre",
-      "varies directly as the distance from the surface",
-      "varies directly as the distance from the centre",
-      "remains constant"
-    ],
-    "correct": 2,
-    "explain": "In a circular pipe, the shear stress distribution is linear, starting from zero at the center and reaching a maximum at the pipe wall. It is directly proportional to the radial distance (r) from the center."
-  },
-  {
-    "q": "35. For the laminar flow between two parallel plate",
-    "options": [
-      "max velocity = 2.0 times average",
-      "max velocity = 2.5 times average",
-      "max velocity = 1.5 times average",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "For laminar flow between two stationary parallel plates, the velocity distribution is parabolic, and the maximum velocity (at the midpoint) is 1.5 times the average velocity."
-  },
-  {
-    "q": "36. The value of the kinetic energy correction factor (α) for the viscous flow through a circular pipe is",
+    "q": "29. The value of the kinetic energy correction factor (α) for the viscous flow through a circular pipe is",
     "options": [
       "1.33",
       "1.50",
@@ -396,7 +317,7 @@
     "explain": "The kinetic energy correction factor (α) accounts for the non-uniform velocity distribution. For laminar (viscous) flow in a circular pipe, α is equal to 2.0."
   },
   {
-    "q": "37. The value of the momentum correction factor (β) for the viscous flow through a circular pipe is",
+    "q": "30. The value of the momentum correction factor (β) for the viscous flow through a circular pipe is",
     "options": [
       "1.33",
       "1.50",
@@ -407,40 +328,7 @@
     "explain": "The momentum correction factor (β) for laminar flow in a circular pipe is calculated as 4/3, which is approximately 1.33."
   },
   {
-    "q": "38. Hydraulic gradient line (H.G.L.) represents the sum of",
-    "options": [
-      "pressure head and kinetic head",
-      "kinetic head and datum head",
-      "pressure head, kinetic head and datum head",
-      "pressure head and datum head"
-    ],
-    "correct": 3,
-    "explain": "The Hydraulic Gradient Line (HGL) connects points representing the Piezometric Head, which is the sum of the Pressure Head (p/w) and the Datum Head (z)."
-  },
-  {
-    "q": "39. Total Energy Line (T.E.L.) represents the sum of",
-    "options": [
-      "pressure head and kinetic head",
-      "kinetic head and datum head",
-      "pressure head and datum head",
-      "pressure head, kinetic head and datum head"
-    ],
-    "correct": 3,
-    "explain": "The Total Energy Line (TEL) represents the total head of the fluid, which is the sum of Pressure Head (p/w), Datum Head (z), and Velocity/Kinetic Head (V²/2g)."
-  },
-  {
-    "q": "40. Mach number is defined as the ratio of",
-    "options": [
-      "inertia force to viscous force",
-      "viscous force to surface tension force",
-      "viscous force to elastic force",
-      "inertia force to elastic force"
-    ],
-    "correct": 3,
-    "explain": "Mach number is a dimensionless parameter representing the ratio of the inertia force to the elastic force (or the ratio of the velocity of the fluid to the velocity of sound in that fluid)."
-  },
-  {
-    "q": "41. Models are known undistorted model, if",
+    "q": "31. Models are known undistorted model, if",
     "options": [
       "prototype and model have different scale ratios",
       "prototype and model have same scale ratio",
@@ -451,7 +339,7 @@
     "explain": "An undistorted model is one that is geometrically similar to its prototype, meaning the scale ratio for all linear dimensions (length, width, height) is the same."
   },
   {
-    "q": "42. Geometric similarity between model and prototype means",
+    "q": "32. Geometric similarity between model and prototype means",
     "options": [
       "the similarity of discharge",
       "the similarity of linear dimensions",
@@ -462,7 +350,7 @@
     "explain": "Geometric similarity exists when the ratio of all corresponding linear dimensions in the model and prototype are equal."
   },
   {
-    "q": "43. Kinematic similarity between model and prototype means",
+    "q": "33. Kinematic similarity between model and prototype means",
     "options": [
       "the similarity of forces",
       "the similarity of shape",
@@ -473,18 +361,7 @@
     "explain": "Kinematic similarity means the similarity of motion; it occurs when the ratios of velocities and accelerations at corresponding points in the model and prototype are equal."
   },
   {
-    "q": "44. Dynamic similarity between model and prototype means",
-    "options": [
-      "the similarity of forces",
-      "the similarity of motion",
-      "the similarity of shape",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Dynamic similarity is the similarity of forces; it exists when the ratios of corresponding forces (inertia, viscous, gravity, etc.) at corresponding points are the same."
-  },
-  {
-    "q": "45. Mach number (M) is given by",
+    "q": "34. Mach number (M) is given by",
     "options": [
       "M = C/V",
       "M = V × C",
@@ -495,7 +372,7 @@
     "explain": "The Mach number is the ratio of the local flow velocity (V) to the local speed of sound (C) in that medium."
   },
   {
-    "q": "46. A body is called stream-lined body when it is placed in a flow and the surface",
+    "q": "35. A body is called stream-lined body when it is placed in a flow and the surface",
     "options": [
       "coincides with the streamlines",
       "does not coincide with the streamlines",
@@ -506,7 +383,7 @@
     "explain": "A streamlined body is shaped such that its surface aligns with the streamlines of the flow, minimizing separation and pressure drag."
   },
   {
-    "q": "47. The skin friction drag on a sphere (for Reynolds number less than 0.2) is equal to",
+    "q": "36. The skin friction drag on a sphere (for Reynolds number less than 0.2) is equal to",
     "options": [
       "one-third of the total drag",
       "half of the total drag",
@@ -517,7 +394,7 @@
     "explain": "In Stokes' flow (Re < 0.2), the total drag is 6πηrv. Mathematically, 2/3 of this is due to skin friction and 1/3 is due to pressure."
   },
   {
-    "q": "48. The pressure drag on a sphere (for Reynolds number less than 0.2) is equal to",
+    "q": "37. The pressure drag on a sphere (for Reynolds number less than 0.2) is equal to",
     "options": [
       "one-third of the total drag",
       "half of the total drag",
@@ -528,18 +405,7 @@
     "explain": "As derived in Stokes' law, for very low Reynolds numbers, pressure drag accounts for exactly one-third of the total resistance force."
   },
   {
-    "q": "49. If the depth of flow along the length of the channel is constant, then flow is known as",
-    "options": [
-      "laminar",
-      "uniform",
-      "non-uniform",
-      "steady"
-    ],
-    "correct": 1,
-    "explain": "Uniform flow in an open channel occurs when the depth, discharge, and velocity remain constant at every section along the channel's length."
-  },
-  {
-    "q": "50. If the depth of flow along the length of the channel is a variable, then flow is known as",
+    "q": "38. If the depth of flow along the length of the channel is a variable, then flow is known as",
     "options": [
       "laminar",
       "uniform",
@@ -548,5 +414,16 @@
     ],
     "correct": 2,
     "explain": "Non-uniform flow (or varied flow) occurs when the depth of flow changes from one section to another along the channel."
+  },
+  {
+    "q": "39. If the velocity at a section of a channel is variable with respect to time, then the flow in the channel is known as",
+    "options": [
+      "uniform",
+      "laminar",
+      "steady",
+      "unsteady"
+    ],
+    "correct": 3,
+    "explain": "Unsteady flow occurs when fluid properties at a section change over time."
   }
 ]

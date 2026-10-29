@@ -1,17 +1,149 @@
 [
   {
-    "q": "1. For a cantilever with a uniformly distributed load, w over its entire length L, the maximum bending moment is",
+    "q": "1. A simply supported beam which carries a uniformly distributed load has two equal overhangs. To have maximum B.M. produced in the beam least possible, the ratio of length of the overhang to the total length of the beam is",
     "options": [
-      "wL²",
-      "wL²/2",
-      "wL²/3",
-      "wL²/4"
+      "0.207",
+      "0.307",
+      "0.407",
+      "0.507"
     ],
-    "correct": 1,
-    "explain": "The total load is wL acting at a distance L/2 from the fixed support. Thus, M = (wL) * (L/2) = wL²/2 at the fixed end."
+    "correct": 0,
+    "explain": "For a beam with equal overhangs under UDL, equating the numerically equal midspan sagging moment and overhang hogging moment gives an optimum overhang ratio of approximately 0.207 (i.e., 0.5(√2 − 1) of the span between supports)."
   },
   {
-    "q": "2. If the width b and depth d of a beam simply supported with a central load are interchanged, the deflection at the centre of the beam will be changed in the ratio of",
+    "q": "2. The point of contraflexure is the point where",
+    "options": [
+      "B.M. changes sign",
+      "B.M. is maximum",
+      "B.M. is minimum",
+      "SF is zero"
+    ],
+    "correct": 0,
+    "explain": "By definition, the point of contraflexure is where the bending moment diagram crosses zero, i.e. where the bending moment changes sign from sagging to hogging or vice versa."
+  },
+  {
+    "q": "3. A simply supported uniform rectangular bar breadth b, depth d and length L, carries an isolated load W at its mid span. The same bar experiences an extension e under same tensile load. The ratio of the maximum deflection to the elongation is",
+    "options": [
+      "L/d",
+      "L/2d",
+      "(L/2d)^2",
+      "(L/2d)^2"
+    ],
+    "correct": 2,
+    "explain": "Comparing the standard bending deflection formula (WL³/48EI) to the axial elongation formula (WL/AE) for the same bar and load leads to a ratio proportional to (L/2d)², as given in option (c); note options c and d are printed identically in the source book."
+  },
+  {
+    "q": "4. Along the neutral axis of a simply supported beam",
+    "options": [
+      "fibres do not undergo strain",
+      "fibres undergo minimum strain",
+      "fibres undergo maximum strain",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the layer where bending stress and strain are zero."
+  },
+  {
+    "q": "5. A simply supported beam carries a varying load from zero at one end to w at the other end. If the length of the beam is a, the shear force will be zero at a distance x from least loaded point where x is",
+    "options": [
+      "a/2",
+      "a/3",
+      "a/√3",
+      "a√3/2"
+    ],
+    "correct": 2,
+    "explain": "For a triangularly (linearly) varying load, the shear force becomes zero at x = a/√3 measured from the zero-load end, a standard result for such loading."
+  },
+  {
+    "q": "6. The algebraic sum of the vertical forces on either side of the section of a loaded beam is known as",
+    "options": [
+      "shear force",
+      "bending moment",
+      "deformed force",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Shear force at any section is the net vertical force acting on one side of that section."
+  },
+  {
+    "q": "7. Find the shear force produced in the member BC due to load shown in fig.",
+    "options": [
+      "4 kN",
+      "50 kN",
+      "25 kN",
+      "75 kN"
+    ],
+    "correct": 0,
+    "explain": "Based on the figure, the vertical load applied at C is 4 kN, which remains constant through the member BC."
+  },
+  {
+    "q": "8. The algebraic sum of the moments of the forces on either side of the section of a loaded beam is known as",
+    "options": [
+      "shear force",
+      "bending moment",
+      "deformed force",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "This is the formal definition of the internal bending moment at a specific point in a beam."
+  },
+  {
+    "q": "9. The shear force on a beam and the displacement are related by",
+    "options": [
+      "V = EI d²y/dx²",
+      "V = EI d³y/dx³",
+      "V = EI d⁴y/dx⁴",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Bending Moment M = EI(d²y/dx²). Since V = dM/dx, it follows that V = EI(d³y/dx³)."
+  },
+  {
+    "q": "10. Calculate the maximum BM introduced due to a udl of 4KN/m, if the span of the cantilever is 1.8m",
+    "options": [
+      "2.16 KN-M",
+      "6.48 KN-M",
+      "1.08 KN-M",
+      "5.48 KN-M"
+    ],
+    "correct": 1,
+    "explain": "Maximum BM for a cantilever with UDL is wL²/2. (4 × 1.8²) / 2 = 6.48 KN-M."
+  },
+  {
+    "q": "11. The difference in placing the end of a beam simply over a support and the supporting end through a hinge on rollers is that the roller support",
+    "options": [
+      "can offer reaction in the plane of rollers",
+      "can offer moment reaction",
+      "will not allowed the end to lift up the deflection",
+      "will not offer reaction normal to the plane of rollers"
+    ],
+    "correct": 2,
+    "explain": "A roller support allows horizontal movement and rotation but constrains vertical movement; however, in standard civil engineering contexts, it prevents the beam from lifting off the support surface."
+  },
+  {
+    "q": "12. Bending moment at any section in a conjugate beam gives in the actual beam",
+    "options": [
+      "slope",
+      "curvature",
+      "deflection",
+      "bending moment"
+    ],
+    "correct": 2,
+    "explain": "By the conjugate beam method, the bending moment computed on the conjugate beam at any section corresponds to the deflection at that section in the real (actual) beam."
+  },
+  {
+    "q": "13. A simply supported beam of span L carries two equal concentrated loads, W at a distance of L/3 from either support. The maximum bending moment, M is",
+    "options": [
+      "WL/2",
+      "WL/3",
+      "WL/4",
+      "WL/5"
+    ],
+    "correct": 1,
+    "explain": "The reaction at each support is W. The maximum moment occurs between the two loads and is equal to Reaction × Distance = W × (L/3)."
+  },
+  {
+    "q": "14. If the width b and depth d of a beam simply supported with a central load are interchanged, the deflection at the centre of the beam will be changed in the ratio of",
     "options": [
       "b/d",
       "d/b",
@@ -22,18 +154,7 @@
     "explain": "Since I ∝ bd³, swapping b and d changes I from bd³ to db³; the deflection ratio (inversely proportional to I) works out to (b/d)²."
   },
   {
-    "q": "3. The maximum deflection in the cantilever beam carrying a point load (W) at end is",
-    "options": [
-      "WL³/3EI",
-      "WL³/8EI",
-      "WL³/16EI",
-      "WL³/32EI"
-    ],
-    "correct": 0,
-    "explain": "Standard structural formula for a cantilever with a point load at the free end: δ = WL³ / 3EI."
-  },
-  {
-    "q": "4. The deflection of any rectangular beam simply supported, is",
+    "q": "15. The deflection of any rectangular beam simply supported, is",
     "options": [
       "directly proportional to its weight",
       "inversely proportional to its width",
@@ -44,18 +165,7 @@
     "explain": "Since deflection δ ∝ 1/I and I ∝ d³ for a rectangular section, deflection is inversely proportional to the cube of the beam's depth."
   },
   {
-    "q": "5. In a cantilever beam a point load is applied at the free end. Which one is correct?",
-    "options": [
-      "SF is uniform throughout the beam",
-      "SF varies linearly from free end to fixed end",
-      "BM is uniform throughout the beam",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Since there is only one load at the end and no other loads, the shear force remains constant (uniform) at value W across the entire length."
-  },
-  {
-    "q": "6. Which of the following section is the most efficient in carrying bending moments?",
+    "q": "16. Which of the following section is the most efficient in carrying bending moments?",
     "options": [
       "I-section",
       "rectangular-section",
@@ -66,18 +176,7 @@
     "explain": "An I-section is most efficient because most of its area is located in the flanges, far from the neutral axis, providing a high Section Modulus (Z) for a given area."
   },
   {
-    "q": "7. The bending moment is maximum on a section where shear force",
-    "options": [
-      "is maximum",
-      "is minimum",
-      "is equal",
-      "changes sign"
-    ],
-    "correct": 3,
-    "explain": "Mathematically, dM/dx = V. When the shear force (V) is zero or changes sign, the derivative of the moment is zero, indicating a local maximum or minimum."
-  },
-  {
-    "q": "8. In a continuous bending moment curve the point where its changes sign is called",
+    "q": "17. In a continuous bending moment curve the point where its changes sign is called",
     "options": [
       "point of inflexion",
       "point of contraflexture",
@@ -88,62 +187,7 @@
     "explain": "The point where the bending moment changes sign (from sagging to hogging or vice versa) is known by all these terms in structural engineering."
   },
   {
-    "q": "9. For any types of loading, the no. of point of contraflexture in a simply supported beam is",
-    "options": [
-      "one",
-      "two",
-      "zero",
-      "three"
-    ],
-    "correct": 2,
-    "explain": "In a simply supported beam, the bending moment usually maintains the same sign (sagging) throughout the span, so there are zero points of contraflexure."
-  },
-  {
-    "q": "10. The moment diagram for a cantilever carrying concentrated load at its free end will be",
-    "options": [
-      "triangle",
-      "rectangle",
-      "parabola",
-      "cubic parabola"
-    ],
-    "correct": 0,
-    "explain": "The moment varies linearly from 0 at the free end to WL at the fixed end, creating a triangular shape."
-  },
-  {
-    "q": "11. Shear force for a cantilever carrying a uniformly distributed load over its whole length is",
-    "options": [
-      "triangle",
-      "rectangle",
-      "parabola",
-      "cubic parabola"
-    ],
-    "correct": 0,
-    "explain": "The shear force varies linearly from 0 at the free end to wL at the fixed end, resulting in a triangular Shear Force Diagram."
-  },
-  {
-    "q": "12. When a rectangular beam is loaded longitudinally, shear develops",
-    "options": [
-      "bottom fibre",
-      "top fibre",
-      "neutral axis",
-      "every horizontal plane"
-    ],
-    "correct": 3,
-    "explain": "Longitudinal loading (axial) typically creates uniform stress, but internal shear can be considered present across horizontal planes depending on the distribution of load."
-  },
-  {
-    "q": "13. If the shear force along a section of a beam is zero, the bending moment at the section is",
-    "options": [
-      "zero",
-      "minimum",
-      "maximum",
-      "all of the above"
-    ],
-    "correct": 2,
-    "explain": "As dM/dx = V, if V=0, the bending moment is at a stationary point, which is typically the maximum (or minimum) value in the region."
-  },
-  {
-    "q": "14. The arch meant for supporting uniformly distributed loads, to avoid any bending moment must be",
+    "q": "18. The arch meant for supporting uniformly distributed loads, to avoid any bending moment must be",
     "options": [
       "circular",
       "elliptical",
@@ -154,7 +198,7 @@
     "explain": "A parabolic arch is the 'funicular' shape for a uniformly distributed load, meaning it carries the load purely through compression with zero bending moment."
   },
   {
-    "q": "15. The amount of bending moment induced in a cable is",
+    "q": "19. The amount of bending moment induced in a cable is",
     "options": [
       "unity",
       "zero",
@@ -165,29 +209,7 @@
     "explain": "A perfectly flexible cable cannot resist bending; it carries loads through pure tension."
   },
   {
-    "q": "16. For a beam of uniform strength, if width is constant",
-    "options": [
-      "depth ∝ M",
-      "depth ∝ √M",
-      "depth ∝ 3√M",
-      "depth ∝ 1/M"
-    ],
-    "correct": 1,
-    "explain": "Since bending stress σ ∝ M/(bd²) must remain constant with b fixed, d must vary as √M for uniform strength."
-  },
-  {
-    "q": "17. Beams of composed of more than one material, rigidly connected together so as to be one piece are known as",
-    "options": [
-      "compound beams",
-      "indeterminate beams",
-      "determinate beams",
-      "composite beams"
-    ],
-    "correct": 3,
-    "explain": "Beams made of two or more different materials rigidly bonded together to act as a single unit are termed composite beams."
-  },
-  {
-    "q": "18. The maximum deflection due due to load W at the free end of a cantilever of length L and having flexural rigidity EI is",
+    "q": "20. The maximum deflection due due to load W at the free end of a cantilever of length L and having flexural rigidity EI is",
     "options": [
       "WL²/2EI",
       "WL²/3EI",
@@ -196,28 +218,6 @@
     ],
     "correct": 3,
     "explain": "For a cantilever with a point load W at the free end, the standard maximum tip deflection formula is WL³/3EI."
-  },
-  {
-    "q": "19. Find the DSI of propped cantilever beam",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "correct": 0,
-    "explain": "A propped cantilever has 4 reaction components (3 at fixed end + 1 at prop). With 3 equilibrium equations, the Degree of Static Indeterminacy (DSI) is $$4 - 3 = 1$$."
-  },
-  {
-    "q": "20. The simultaneous equations of slope deflection method can be solved by iteration in",
-    "options": [
-      "moment distribution method",
-      "consistent deformation method",
-      "force method",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The Moment Distribution Method is essentially an iterative procedure for solving the same equations found in the slope-deflection method."
   },
   {
     "q": "21. Slope deflection method is",
@@ -231,18 +231,7 @@
     "explain": "The Slope Deflection method is a displacement (deflection) method of structural analysis that relates end moments to joint rotations and displacements."
   },
   {
-    "q": "22. Slope deflection method is",
-    "options": [
-      "energy method",
-      "deflection method",
-      "unit load method",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "The slope deflection method is a 'displacement method' or 'deflection method' where unknown joint displacements (slopes and deflections) are treated as the primary unknowns."
-  },
-  {
-    "q": "23. A simply supported beam is subjected to a pure moment. This will be resisted through",
+    "q": "22. A simply supported beam is subjected to a pure moment. This will be resisted through",
     "options": [
       "a moment reaction at hinged end",
       "a moment reaction at hinge on rollers end",
@@ -253,40 +242,7 @@
     "explain": "Since hinge/roller supports cannot resist moment directly, an applied pure moment on a simply supported beam is instead balanced by a couple formed from equal and opposite vertical reactions at the two supports."
   },
   {
-    "q": "24. A cantilever beam is the one which is supported with",
-    "options": [
-      "one end hinge and other on rollers",
-      "one end fixed and the other on rollers",
-      "both on rollers",
-      "one end fixed and the other free"
-    ],
-    "correct": 3,
-    "explain": "By definition, a cantilever beam is fixed (built-in) at one end while the other end is completely free."
-  },
-  {
-    "q": "25. Which of the following beams will have points of contraflexure?",
-    "options": [
-      "A simply supported beam with udl over entire span",
-      "An overhanging beam with loading only over supported span and not on overhangs",
-      "Fixed beam subjected to concentrated load",
-      "Cantilever subjected to uniformly varying loads"
-    ],
-    "correct": 2,
-    "explain": "A fixed beam under a concentrated load develops both hogging moments near supports and sagging moment mid-span, so the bending moment changes sign, creating points of contraflexure."
-  },
-  {
-    "q": "26. A beam is said to have been subjected to a pure bending moment, when",
-    "options": [
-      "S.F. is maximum",
-      "the load is applied as a udl throughout the span",
-      "S.F. in a length is zero",
-      "the load is applied at the mid-span section only"
-    ],
-    "correct": 2,
-    "explain": "Pure bending occurs over a length where shear force is zero (since dM/dx = SF), leaving only a constant bending moment."
-  },
-  {
-    "q": "27. The assumption that the cross-sections plane before bending remain plane even after bending means",
+    "q": "23. The assumption that the cross-sections plane before bending remain plane even after bending means",
     "options": [
       "the strains in the fibers are proportional to their distances from neutral axis",
       "the bending moment will be resisted by the central core of the section",
@@ -297,18 +253,7 @@
     "explain": "Plane sections remaining plane implies a linear variation of strain with distance from the neutral axis, which is the fundamental Bernoulli-Euler bending assumption."
   },
   {
-    "q": "28. The line of thrust of the linear arch is",
-    "options": [
-      "the axis of the arch",
-      "the imaginary line of thrust for a given set of loads",
-      "the Springing Line",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "For a given set of loads, the linear arch (or theoretical arch) follows the shape of the funicular polygon, which represents the imaginary line of thrust."
-  },
-  {
-    "q": "29. The assumption in the theory of bending that the material is homogeneous and isotropic has the same value of Young's Modulus in tension and compression implies that",
+    "q": "24. The assumption in the theory of bending that the material is homogeneous and isotropic has the same value of Young's Modulus in tension and compression implies that",
     "options": [
       "the stresses are proportional to strains at all fibres",
       "the strains are proportional to distances of the fibres from neutral axis",
@@ -319,40 +264,7 @@
     "explain": "Equal E in tension and compression (homogeneous, isotropic material) combined with Hooke's law implies stress is proportional to strain uniformly at all fibres of the section."
   },
   {
-    "q": "30. If there is a cantilever beam joined with the edge of the span, then it is",
-    "options": [
-      "determinate",
-      "indeterminate",
-      "2nd degree",
-      "3rd degree"
-    ],
-    "correct": 1,
-    "explain": "Joining a cantilever to an existing span introduces additional redundant constraints or internal forces that cannot be solved by simple static equilibrium equations alone, making the structure indeterminate."
-  },
-  {
-    "q": "31. Influence line is",
-    "options": [
-      "the line showing stress function due to unit moving load",
-      "the line showing stress function due to unit load",
-      "the line showing stress function due to udl",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "By definition, an Influence Line Diagram (ILD) represents the variation of a specific response (stress function like shear, moment, or reaction) at a fixed section as a unit load moves across the structure."
-  },
-  {
-    "q": "32. Which one is right w.r.t. ILD?",
-    "options": [
-      "it is the BMD due to unit load",
-      "it is the BMD due to static unit load",
-      "it is the BMD due to moving unit load",
-      "it is the BMD due to impacting unit load"
-    ],
-    "correct": 2,
-    "explain": "The ILD specifically captures the effects of a moving unit load. Unlike a standard BMD which shows the effect of a fixed load along the whole beam, the ILD shows the effect at one spot for all possible load positions."
-  },
-  {
-    "q": "33. The influence line diagram for S.F. or BM at a section is",
+    "q": "25. The influence line diagram for S.F. or BM at a section is",
     "options": [
       "the value of S.F. or B.M. at that section when the unit load is placed over that section only",
       "the value of S.F. or B.M. at that section when the unit load is at the centre of the span",
@@ -363,18 +275,7 @@
     "explain": "An ILD for a section must show the full range of variation (the 'influence') as the unit load moves from the start of the span to the end."
   },
   {
-    "q": "34. The influence line diagram for reaction at a support of a simply supported beam is",
-    "options": [
-      "a triangle with ordinate 1 at that support",
-      "a triangle with ordinate 1 at the other support",
-      "a rectangle with ordinate 1",
-      "a rectangle with ordinate 1/2"
-    ],
-    "correct": 0,
-    "explain": "For a support reaction $R_A$, the reaction is 1 when the unit load is exactly at A, and 0 when it is at the other support B. This creates a right-angled triangle with a peak (ordinate) of 1 at support A."
-  },
-  {
-    "q": "35. The influence line diagram for reaction at the support of a cantilever will be a",
+    "q": "26. The influence line diagram for reaction at the support of a cantilever will be a",
     "options": [
       "triangle with zero ordinate at fixed end and unit ordinate at free end",
       "triangle with unit ordinate at fixed end and zero ordinate at free end",
@@ -385,7 +286,7 @@
     "explain": "In a cantilever, any vertical load placed anywhere on the beam must be fully resisted by the single vertical reaction at the fixed support. Therefore, the reaction is always 1, resulting in a rectangle with unit ordinate."
   },
   {
-    "q": "36. The influence line diagram for shear force at a section on a cantilever will be",
+    "q": "27. The influence line diagram for shear force at a section on a cantilever will be",
     "options": [
       "a rectangle of length equal to full length of span with unit ordinate",
       "a rectangle extending between free end and the section with unit ordinate",
@@ -396,18 +297,7 @@
     "explain": "Shear force at a section in a cantilever only exists when the load is between the free end and that section. If the load is between the fixed support and the section, the shear at that section is zero. This creates a rectangle from the section to the free end."
   },
   {
-    "q": "37. The influence line diagram for BM at a section in a cantilever will be a triangle extending between the section and the",
-    "options": [
-      "fixed end with maximum ordinate under the section",
-      "fixed end with maximum ordinate under the fixed end",
-      "unsupported end with maximum ordinate at the section",
-      "unsupported end with maximum ordinate at the supported end"
-    ],
-    "correct": 3,
-    "explain": "The bending moment at a section is created by the load multiplied by its distance from that section. The maximum moment occurs when the unit load is at the farthest possible point from the support (the free/unsupported end)."
-  },
-  {
-    "q": "38. The influence line diagram for BM at a section of a simply supported beam will be a",
+    "q": "28. The influence line diagram for BM at a section of a simply supported beam will be a",
     "options": [
       "triangle with maximum ordinate at the section and zero at the two supports",
       "triangle with maximum ordinate at the support nearer to the section and zero at the other support",
@@ -418,84 +308,7 @@
     "explain": "For a simply supported beam, the B.M. at a section 'C' is zero when the load is at either support and reaches its maximum value (ab/L) when the load is directly on the section."
   },
   {
-    "q": "39. A beam is a structural member predominantly subjected to",
-    "options": [
-      "transverse loads",
-      "axial forces",
-      "twisting moment",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "A beam, by definition, is a structural member designed to primarily resist transverse (perpendicular to its axis) loads, developing shear and bending."
-  },
-  {
-    "q": "40. A beam is completely analyzed when",
-    "options": [
-      "support reactions are determined",
-      "shear and moment diagrams are found",
-      "the moment of inertia is uniform throughout the length",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "A beam analysis is considered complete once the shear force and bending moment diagrams (which describe internal forces along the entire length) are obtained."
-  },
-  {
-    "q": "41. In general equation for the deflection of the beam: M=EI*  where EI is",
-    "options": [
-      "young's modulus of elasticity",
-      "flexural strength",
-      "stifness modulus",
-      "sectional rigidity"
-    ],
-    "correct": 1,
-    "explain": "EI represent the flexural strength."
-  },
-  {
-    "q": "42. A rigid frame is a structure composed of members which are connected by",
-    "options": [
-      "rigid joints",
-      "simple bearing",
-      "a single rivet",
-      "none"
-    ],
-    "correct": 0,
-    "explain": "By definition, a rigid frame has members connected by rigid (moment-resisting) joints, as opposed to pin-jointed trusses."
-  },
-  {
-    "q": "43. When the load does not pass through the shear centre of the steel beam. It produces",
-    "options": [
-      "torsional moment only ",
-      "bending moment only ",
-      "shear force only ",
-      "torsional moment along with bending moment "
-    ],
-    "correct": 3,
-    "explain": "Loads not passing through the shear center cause twisting (torsion). The resistance to this is related to the torsional and sectional rigidity of the beam."
-  },
-  {
-    "q": "44. A frame is completely analyzed when",
-    "options": [
-      "the variation in shear is found throughout the frame",
-      "the variation in direct stress, shear and moment is found throughout the frame",
-      "the shear and moment reaction from member to member are known at every joint",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "A rigid frame analysis is complete only when all three internal force quantities—axial (direct) force, shear force, and bending moment—are known throughout every member."
-  },
-  {
-    "q": "45. When a cantilever beam of length l is loaded with a uniformly varying load of maximum intensity w at free end, the shape of bending moment diagram is",
-    "options": [
-      "a straight line",
-      "a triangle",
-      "a simple parabola",
-      "a cubic parabola"
-    ],
-    "correct": 3,
-    "explain": "Since the load is linear (varying), the shear force is parabolic ($x^2$), and the bending moment is a cubic function ($x^3$)."
-  },
-  {
-    "q": "46. Bending moment at A of the following beam is equal to (refer to image 1666)",
+    "q": "29. Bending moment at A of the following beam is equal to (refer to image 1666)",
     "options": [
       "0",
       "20KN-m",
@@ -506,7 +319,7 @@
     "explain": "At a simple end support or hinge, the internal bending moment is zero."
   },
   {
-    "q": "47. The slope and the deflection at a section in a loaded beam cannot be found out by :",
+    "q": "30. The slope and the deflection at a section in a loaded beam cannot be found out by :",
     "options": [
       "Rankine's method",
       "virtual work method",
@@ -517,29 +330,7 @@
     "explain": "Rankine's method is typically used for earth pressure or column buckling, not for determining beam deflection."
   },
   {
-    "q": "48. For the beam shown in figure, the shear force at A is equal to (refer to image 1667):",
-    "options": [
-      "wl/6",
-      "wl/3",
-      "wl",
-      "2wl/3"
-    ],
-    "correct": 0,
-    "explain": "For a beam with a triangular load (zero at A, peak at B), the total load is $wl/2$ and the reaction at the lighter end A is $wl/6$."
-  },
-  {
-    "q": "49. Prestressing to a large extent removes the disadvantages which a conventional reinforced concrete structure suffers as compared to a comparable :",
-    "options": [
-      "steel structure",
-      "plain concrete structure",
-      "composite structure",
-      "reinforced concrete structure"
-    ],
-    "correct": 3,
-    "explain": "Prestressing allows concrete to span longer distances and remain crack-free, making it competitive with steel structures."
-  },
-  {
-    "q": "50. For a cantilever with a uniformly distributed load of total W over entire length L, the max bending moment is :",
+    "q": "31. For a cantilever with a uniformly distributed load of total W over entire length L, the max bending moment is :",
     "options": [
       "WL",
       "WL/2",
@@ -548,5 +339,104 @@
     ],
     "correct": 1,
     "explain": "If W is the total load ($w \\cdot L$), the moment at the fixed end is $W \\cdot (L/2) = WL/2$."
+  },
+  {
+    "q": "32. In approximate analysis of building frames under lateral loads, the point of contraflexure in columns is assumed at",
+    "options": [
+      "storey height/2",
+      "storey height/3",
+      "storey height/10",
+      "storey height/12"
+    ],
+    "correct": 0,
+    "explain": "Methods like the Portal and Cantilever methods assume the point of zero moment (contraflexure) is at the mid-height of the column."
+  },
+  {
+    "q": "33. A beam is a",
+    "options": [
+      "one dimensional structure",
+      "two dimensional structure",
+      "three dimensional structure",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A beam's length is much larger than its cross-sectional dimensions, classifying it as a one-dimensional structure."
+  },
+  {
+    "q": "34. The bending moment diagram for a simply supported beam loaded in its centre is",
+    "options": [
+      "a right angled triangle",
+      "an isosceles triangles",
+      "an equilateral triangle",
+      "a rectangle"
+    ],
+    "correct": 1,
+    "explain": "For a simply supported beam with a central point load, the BMD is a symmetric (isosceles) triangle peaking at midspan."
+  },
+  {
+    "q": "35. A flitched beam is used to",
+    "options": [
+      "change the shape of the beam",
+      "effect the saving in material",
+      "equalize the strength in tension and compression",
+      "increase the cross-section of the beam"
+    ],
+    "correct": 2,
+    "explain": "A flitched beam (composite timber-and-steel beam) is used to equalize/balance the strength characteristics in tension and compression by combining materials with complementary properties."
+  },
+  {
+    "q": "36. The expression EI d⁴y/dx⁴ at any section for a beam is equal to",
+    "options": [
+      "load intensity at the section",
+      "S.F. at the section",
+      "B.M. at the section",
+      "slope at the section"
+    ],
+    "correct": 0,
+    "explain": "Differentiating the beam bending equation EI(d²y/dx²)=M twice gives EI(d⁴y/dx⁴) = d²M/dx² = load intensity (since dM/dx=V and dV/dx=-w), so this expression equals the load intensity at the section."
+  },
+  {
+    "q": "37. The maximum deflection of a simply supported beam of span L, carrying an isolated load at the center of the span",
+    "options": [
+      "wl³/3EI",
+      "wl³/8EI",
+      "wl³/24EI",
+      "wl³/48EI"
+    ],
+    "correct": 3,
+    "explain": "The standard formula for maximum deflection of a simply supported beam under a central point load W is WL³/48EI."
+  },
+  {
+    "q": "38. Ties are load carrying members of a frame, which are subjected to",
+    "options": [
+      "transverse loads",
+      "axial tension loads",
+      "axial compressive loads",
+      "torsional loads"
+    ],
+    "correct": 1,
+    "explain": "A tie is a truss/frame member specifically subjected to axial tension loads."
+  },
+  {
+    "q": "39. Beams of uniform strength are preferred to those of uniform section because these are economical for",
+    "options": [
+      "Large spans",
+      "Heavy weights",
+      "Light weights",
+      "Short spans"
+    ],
+    "correct": 0,
+    "explain": "Beams of uniform strength save material by removing unnecessary cross-section where bending moment is low, making them more economical particularly for lighter load applications where material savings matter proportionally more."
+  },
+  {
+    "q": "40. The moment diagram for a cantilever carrying linearly varying load from zero at its free end and to maximum at the fixed end will be",
+    "options": [
+      "triangle",
+      "rectangle",
+      "parabola",
+      "cubic parabola"
+    ],
+    "correct": 3,
+    "explain": "Integrating a linearly varying (triangular) load twice to get the bending moment produces a cubic variation, giving a cubic parabola moment diagram."
   }
 ]

@@ -1,39 +1,534 @@
 [
   {
-    "q": "1. If d1 is the depth of cutting, d2 is the height of the bank... the horizontal distance n between the bed and bank, is .............",
+    "q": "1. The most desirable alignment of an irrigation canal is along .............",
     "options": [
-      "x = r1d1",
-      "x = r2d2",
-      "x = d1/r1",
-      "x = d2/r2"
+      "the ridge line",
+      "a contour line",
+      "the valley line",
+      "a straight line"
     ],
-    "correct": 1,
-    "explain": "The horizontal distance depends on the slope ($r$) and the height ($d$) of the bank; hence $x = r_2 \\times d_2$."
+    "correct": 0,
+    "explain": "A ridge canal (watershed canal) is ideal because it allows gravity irrigation on both sides of the canal and avoids the need for cross-drainage works."
   },
   {
-    "q": "2. Finally formed berms in canals are provided for .............",
+    "q": "2. The cone formula to compute the storage volume V between two contours with an elevation difference of h m is given by .............",
     "options": [
-      "protection of banks erosion by the waves",
-      "control of seepage losses",
-      "strengthening of banks",
+      "V = h/2(A1 + A2)",
+      "V = h/3(A1 + A2 + sqrt(A1 A2))",
+      "V = h/3(A1 + 2A2)",
+      "V = h/3(2A1 + A2)"
+    ],
+    "correct": 1,
+    "explain": "The Prismoidal (or Cone) formula is used to calculate the volume between two parallel areas A1 and A2 separated by a vertical distance h."
+  },
+  {
+    "q": "3. Which of the following canal has the command area only on one side?",
+    "options": [
+      "ridge canal",
+      "side slope canal",
+      "contour canal",
+      "feeder canal"
+    ],
+    "correct": 2,
+    "explain": "Contour canals follow the contour of the land; because the ground on the uphill side is higher than the canal, irrigation is only possible on the downhill side."
+  },
+  {
+    "q": "4. If V0 is the critical velocity, according to Kennedy's theory the silt supporting velocity of a canal is proportional to .............",
+    "options": [
+      "V0^0.64",
+      "V0^1.5",
+      "V0^2.5",
+      "V0"
+    ],
+    "correct": 2,
+    "explain": "While the relationship is complex, empirical observations in the theory suggest the silt-carrying capacity is related to the velocity raised to a higher power (approx 2.5)."
+  },
+  {
+    "q": "5. The balanced depth of cutting of a canal is one in which .............",
+    "options": [
+      "the volume of cutting is equal to the volume of embankment",
+      "the volume of cutting is less than the volume of embankment",
+      "there is no cutting but only embankment",
+      "there is only cutting and no embankment"
+    ],
+    "correct": 0,
+    "explain": "Balanced depth (or economical depth) is the specific depth of excavation where the earth removed from cutting exactly matches the amount needed to construct the banks (filling), minimizing cost."
+  },
+  {
+    "q": "6. A spoil bank is formed when .............",
+    "options": [
+      "the canal section is too large",
+      "the canal has steep bed slope",
+      "the canal alignment is meandrous",
+      "the volume of excavation is in excess of embankment filling"
+    ],
+    "correct": 3,
+    "explain": "When the earth excavated from the canal is more than what is required for the banks, the surplus soil is deposited in heaps parallel to the canal, called spoil banks."
+  },
+  {
+    "q": "7. In non-modular outlet the discharge is affected by .............",
+    "options": [
+      "the fluctuations both in the distributory and field channels",
+      "the fluctuations only in the field channel",
+      "is independent of fluctuations in the distribution and field channels",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Non-modular outlets (like a simple pipe) function like a submerged orifice; therefore, the discharge depends on the water level difference between the supply canal and the receiving field channel."
+  },
+  {
+    "q": "8. Syphon well drop (or cylindrical fall) in the canals is provided when the discharge in the canal .............",
+    "options": [
+      "is large and the drop is small",
+      "is large and the drop is also large",
+      "is small and the drop is also small",
+      "is small but the drop is large"
+    ],
+    "correct": 3,
+    "explain": "Syphon well drops are economical and efficient for small discharges (like in tail-end distributaries) combined with a high vertical drop."
+  },
+  {
+    "q": "9. In the case of an aqueduct, if the canal section is flumed then it is called .............",
+    "options": [
+      "type I aqueduct",
+      "type II aqueduct",
+      "type III aqueduct",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A Type III aqueduct involves fluming (narrowing) the canal section and providing concrete or masonry sides to reduce the overall cost of the structure across the drain."
+  },
+  {
+    "q": "10. A canal meant to convey water from one source to the other is known as .............",
+    "options": [
+      "feeder canal",
+      "perennial canal",
+      "commuter canal",
+      "link canal"
+    ],
+    "correct": 3,
+    "explain": "A link canal is used to connect two different rivers or systems (like the Indus-Jhelum link) to transfer surplus water to a water-deficient area."
+  },
+  {
+    "q": "11. The weed growth in a canal leads to .............",
+    "options": [
+      "reduction in silting",
+      "reduction in discharge",
+      "increase in velocity of flow",
+      "reduction in depths of flow"
+    ],
+    "correct": 1,
+    "explain": "Weeds increase the roughness of the channel (n), which decreases the velocity and consequently reduces the discharge capacity (Q = AV)."
+  },
+  {
+    "q": "12. The shape of a lined canal recommended by ISI is .............",
+    "options": [
+      "triangular",
+      "parabolic",
+      "trapezoidal",
+      "semi-circular"
+    ],
+    "correct": 2,
+    "explain": "The trapezoidal section with rounded corners is standard for large canals because it is hydraulically efficient and easier to construct with lining materials."
+  },
+  {
+    "q": "13. The purpose of a cross regulator is .............",
+    "options": [
+      "to increase the depth of flow u/s when the main canal is running with low flow",
+      "to regulate the flow in the distributaries",
+      "to pass excess flood water",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "A cross regulator is built across the main canal to 'head up' water. This ensures that even when the main canal has low discharge, the water level is high enough to feed an off-taking distributary canal."
+  },
+  {
+    "q": "14. The proportion of silt in water is called .............",
+    "options": [
+      "silt density",
+      "silt factor",
+      "silt ratio",
+      "silt charge"
+    ],
+    "correct": 3,
+    "explain": "Silt charge is the technical term for the concentration of suspended sediment in a stream, usually measured in parts per million (ppm) or grams per liter."
+  },
+  {
+    "q": "15. In a homogeneous earth dam without d/s horizontal filter, portion of the d/s face through which seepage flow comes out is",
+    "options": [
+      "stream line",
+      "equipotential line",
+      "neither a stream line nor an equipotential line",
+      "both 'a' and 'b'"
+    ],
+    "correct": 2,
+    "explain": "The discharge face (seepage surface) on the downstream side is neither a flow line (streamline) nor a constant head line (equipotential line)."
+  },
+  {
+    "q": "16. A canal carries a discharge of 5 m³/s with a slope of 1/100. For the same depth of flow its discharge carrying capacity will be doubled by increasing its slope to",
+    "options": [
+      "1/50",
+      "1/25",
+      "1/10",
+      "1/75"
+    ],
+    "correct": 1,
+    "explain": "According to Manning's formula, $V \\propto \\sqrt{S}$. To double the discharge ($Q=AV$), the velocity must double, meaning the slope must increase by $2^2 = 4$ times. $(1/100) \\times 4 = 1/25$."
+  },
+  {
+    "q": "17. The source from which the soil is obtained to make up for the difference between the soil required for embankment and the soil available from the canal excavation is known as",
+    "options": [
+      "Borrow pit",
+      "spoil bank",
+      "dowel",
+      "soil extractor"
+    ],
+    "correct": 0,
+    "explain": "When earthwork in cutting is less than earthwork in filling, the extra soil is dug from 'Borrow Pits'."
+  },
+  {
+    "q": "18. The canal breach may occur when",
+    "options": [
+      "piping takes place through the canal bank",
+      "canal banks are over-topped by excess flows",
+      "cultivator cut the embankment to derive additional supply",
       "all the above"
     ],
     "correct": 3,
-    "explain": "Berms act as a buffer, reducing wave impact, providing space for sediment to settle (which seals the banks), and widening the bank base for stability."
+    "explain": "Canal breaches (structural failures of the bank) can be caused by internal erosion (piping), overtopping, or human interference/intentional cuts."
   },
   {
-    "q": "3. The saturation line is the line up to which banks get saturated after the canal runs for some time. The saturation gradient in ordinary loam soil, is generally .............",
+    "q": "19. When the length of the body wall of the fall is less than the normal width of the canal, the fall is then called",
     "options": [
-      "2:1",
-      "3:1",
-      "4:1",
-      "5:1"
+      "Notch fall",
+      "flumed fall",
+      "Sarda fall",
+      "ogee fall"
+    ],
+    "correct": 1,
+    "explain": "A fall is 'flumed' when the crest length is narrower than the canal's bed width, usually requiring transitions to prevent turbulence."
+  },
+  {
+    "q": "20. The proportional weir is also called as",
+    "options": [
+      "Sutro weir",
+      "cippoletti weir",
+      "contractionless weir",
+      "suppressed weir"
+    ],
+    "correct": 0,
+    "explain": "A Sutro weir is a specially shaped weir where the discharge is directly proportional to the head ($Q \\propto H$)."
+  },
+  {
+    "q": "21. If m is the average particle size of silt in mm, then the silt factor is proportional to",
+    "options": [
+      "m",
+      "sqrt(m)",
+      "m^(2/3)",
+      "m^(2/5)"
+    ],
+    "correct": 1,
+    "explain": "Lacey's silt factor formula is $f = 1.76\\sqrt{m}$, where $m$ is the particle size in mm."
+  },
+  {
+    "q": "22. A contour canal",
+    "options": [
+      "is most suitable is hilly areas",
+      "irrigates only on one side",
+      "is aligned parallel to the contour of the country",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Contour canals are common in hills; since they follow the terrain elevation, they can only deliver water to the side that is lower in elevation."
+  },
+  {
+    "q": "23. The narrow strip of land left at the ground level between the inner toe of the bank and top edge of the cutting, is known as",
+    "options": [
+      "free board",
+      "dowel",
+      "inspection roadway",
+      "berm"
+    ],
+    "correct": 3,
+    "explain": "Berms act as a buffer to prevent bank erosion and provide space for future widening of the canal."
+  },
+  {
+    "q": "24. The height of dowel above the road level should not be more than",
+    "options": [
+      "10 cm",
+      "20 cm",
+      "30 cm",
+      "40 cm"
     ],
     "correct": 2,
-    "explain": "In ordinary loam, the phreatic line (seepage line) usually follows a gradient of 4 horizontal to 1 vertical."
+    "explain": "A dowel is a small curb on the canal bank road to prevent vehicles from falling; 30 cm is the standard maximum height."
   },
   {
-    "q": "4. A counter berm is .............",
+    "q": "25. The width of dowel is, usually, kept from",
+    "options": [
+      "0.1 m to 0.3 m",
+      "0.3 m to 0.6 m",
+      "0.6 m to 0.9 m",
+      "0.9 m to 1.2 m"
+    ],
+    "correct": 1,
+    "explain": "Dowels typically range from 0.3 to 0.6 meters in width to remain stable and functional as a safety curb."
+  },
+  {
+    "q": "26. The sodium carbonate lining consists of at least",
+    "options": [
+      "6% sodium carbonate and 10% clay",
+      "10% sodium carbonate and 6% clay",
+      "1% sodium carbonate and 6% clay",
+      "1% clay and 6% sodium carbonate"
+    ],
+    "correct": 2,
+    "explain": "A low-cost lining method involves mixing approximately 1% sodium carbonate with 6% clay into the soil to reduce permeability."
+  },
+  {
+    "q": "27. The weed growth in a canal leads to",
+    "options": [
+      "decrease in silting",
+      "decrease in discharge",
+      "increase in discharge",
+      "increase in velocity of flow"
+    ],
+    "correct": 1,
+    "explain": "Weeds increase the rugosity (roughness) of the channel, which slows down the water velocity and reduces the overall discharge capacity."
+  },
+  {
+    "q": "28. A channel is said to be in scouring when the critical velocity ratio is ............. one.",
+    "options": [
+      "equal to",
+      "less than",
+      "greater than",
+      "all"
+    ],
+    "correct": 2,
+    "explain": "If the CVR ($m$) is greater than 1, the actual velocity is higher than the critical velocity required to prevent scouring, leading to bed erosion."
+  },
+  {
+    "q": "29. The main cause of silting in channel is",
+    "options": [
+      "non-regime section",
+      "inadequate slope",
+      "defective head regular",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Silting occurs when velocity drops (due to poor slope or design) or when excessive silt enters through the head regulator."
+  },
+  {
+    "q": "30. The channel after attaining its section and longitudinal slope, will be said to be in ............. regime.",
+    "options": [
+      "initial",
+      "final",
+      "permanent",
+      "all"
+    ],
+    "correct": 1,
+    "explain": "Final regime is the state reached when a channel has adjusted its perimeter, depth, and slope to become stable in alluvium."
+  },
+  {
+    "q": "31. Distributary head regulators are provided",
+    "options": [
+      "to control the supplies to the off-taking channel",
+      "to control the silt entry in the off-taking canal",
+      "to stop the supply, when not needed, in the off-taking canal",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "These regulators act as valves to manage discharge, sediment intake, and closure for the smaller off-taking canal."
+  },
+  {
+    "q": "32. A structure constructed in an irrigation canal for the purpose of wasting some of its water, is known as a",
+    "options": [
+      "fall",
+      "escape",
+      "regulator",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Escapes act as safety valves to discharge excess water caused by heavy rain or sudden closures of off-takes."
+  },
+  {
+    "q": "33. The cylinder or well fall is quite suitable and economical for",
+    "options": [
+      "low discharge sand low drops",
+      "low discharges and high drops",
+      "high discharges and low drops",
+      "high discharges and high drops"
+    ],
+    "correct": 1,
+    "explain": "Well falls are ideal for dropping small amounts of water over high vertical distances, such as in hilly terrain."
+  },
+  {
+    "q": "34. The discharge (Q) over trapezoidal crest of Sarda fall is ............. as compared to rectangular crest of identical parameters.",
+    "options": [
+      "same",
+      "less",
+      "more",
+      "none"
+    ],
+    "correct": 2,
+    "explain": "Due to the wider side area in a trapezoidal shape, the discharge capacity is slightly higher than a rectangular crest of the same base width."
+  },
+  {
+    "q": "35. The fall which can be used as meter fall, is",
+    "options": [
+      "vertical drop fall",
+      "flumed glacis fall",
+      "un-flumed glacis fall",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A flumed glacis fall can be calibrated to accurately measure the discharge passing through it."
+  },
+  {
+    "q": "36. An outlet in which the discharge depends upon the difference in level between the water levels in distributing channel and the water course, is known as",
+    "options": [
+      "non-modular outlet",
+      "semi-module outlet",
+      "modular outlet",
+      "rigid module"
+    ],
+    "correct": 0,
+    "explain": "Non-modular outlets (like a simple pipe) vary their discharge based on the water levels of both the parent canal and the field channel."
+  },
+  {
+    "q": "37. A diversion head work is constructed to .............",
+    "options": [
+      "raise water level at the head of the canal",
+      "regulate the intake of water into the canal",
+      "reduce fluctuations in the supply level of the river",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Diversion head works serve multiple purposes: raising water level for gravity flow, regulating intake, and controlling silt and river fluctuations."
+  },
+  {
+    "q": "38. A weir is generally aligned at right angle to the direction of the main river flow because .............",
+    "options": [
+      "it is economical",
+      "less length of weir is required",
+      "it gives better discharge capacity",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "A perpendicular alignment is the most efficient and economical way to span a river, providing the shortest length and uniform discharge across the crest."
+  },
+  {
+    "q": "39. According to Khosla's theory, the undermining of the floor starts from the .............",
+    "options": [
+      "starting end",
+      "tail end",
+      "intermediate point",
+      "foundation bed"
+    ],
+    "correct": 1,
+    "explain": "Undermining or piping starts from the downstream (tail) end where the exit gradient is highest and water emerges from the soil."
+  },
+  {
+    "q": "40. A hydraulic jump is formed when .............",
+    "options": [
+      "a sub-critical flow strikes against a super-critical flow",
+      "a super-critical flow strikes against a sub-critical flow",
+      "the two flows of super-critical velocity meet each other",
+      "the two flows of sub-critical velocity meet each other"
+    ],
+    "correct": 1,
+    "explain": "A hydraulic jump occurs when rapid, super-critical flow transitions to a slower, sub-critical flow state, resulting in energy dissipation."
+  },
+  {
+    "q": "41. For low navigation dams, the type of gate used is .............",
+    "options": [
+      "rolling gate",
+      "bear trap gate",
+      "vertical lift gate",
+      "drum gate"
+    ],
+    "correct": 1,
+    "explain": "Bear trap gates are often used in navigation because they can be lowered completely to allow vessels to pass over them."
+  },
+  {
+    "q": "42. The crest level in a barrage is kept at a ............. level.",
+    "options": [
+      "low",
+      "high",
+      "moderate",
+      "all"
+    ],
+    "correct": 0,
+    "explain": "As noted in 317, the physical crest of a barrage is kept low to prevent significant obstruction during high floods."
+  },
+  {
+    "q": "43. The crest of the under-sluices should be lower than the crest of the head regulator (if silt excluder is provided) by at least .............",
+    "options": [
+      "1 to 1.2 m",
+      "1.8 to 2 m",
+      "2 to 2.5 m",
+      "4 to 5 m"
+    ],
+    "correct": 0,
+    "explain": "The under-sluice pocket is kept lower (usually 1.0 to 1.2m) to create a 'still pond' which helps in settling silt before water enters the canal."
+  },
+  {
+    "q": "44. When the bed level of the canal is higher than the highest flood level (H.F.L.) of the drainage, then the cross drainage work is said to be .............",
+    "options": [
+      "aqueduct",
+      "super-passage",
+      "canal siphon",
+      "siphon aqueduct"
+    ],
+    "correct": 0,
+    "explain": "In a simple aqueduct, the canal passes over the drainage with enough clearance that the drainage water never touches the canal bottom."
+  },
+  {
+    "q": "45. When the levels are such that the F.S.L. of the canal is much above the bed level of the drainage trough, so that the canal runs under syphonic action under the trough, the structure provided is known as .............",
+    "options": [
+      "siphon aqueduct",
+      "level crossing",
+      "canal siphon",
+      "super-aqueduct"
+    ],
+    "correct": 0,
+    "explain": "When the drainage HFL is higher than the canal bed and the canal is forced to dip under the drainage trough, it is a siphon aqueduct."
+  },
+  {
+    "q": "46. In case of siphon aqueduct, the H.F.L. of the drain is .............",
+    "options": [
+      "much below the bottom of the canal trough",
+      "much higher above the canal bed",
+      "in level with the canal bed",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "For syphonic action to occur in the drainage water passing under a canal, the drainage HFL must be higher than the canal bed (or underside of the trough)."
+  },
+  {
+    "q": "47. In a super-passage, the F.S.L. of the canal is .............",
+    "options": [
+      "lower than the underside of the trough carrying drainage water",
+      "above the bed level of the drainage trough",
+      "in level with the drainage trough",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In a super-passage, the canal flow is at atmospheric pressure and its Full Supply Level (FSL) must remain below the bottom of the drainage trough."
+  },
+  {
+    "q": "48. If water table is comparatively high, the irrigation canal becomes useless, due to .............",
+    "options": [
+      "large amount of seepage",
+      "water logging of the cultivated areas",
+      "uncertain water demand",
+      "all the above"
+    ],
+    "correct": 1,
+    "explain": "When the water table is high, additional irrigation leads to waterlogging (saturation of the root zone), which prevents aeration and destroys crop productivity."
+  },
+  {
+    "q": "49. A counter berm is .............",
     "options": [
       "a horizontal benching provided on the inside slope",
       "a horizontal benching provided on the outside slope",
@@ -44,7 +539,7 @@
     "explain": "A counter berm is added to the outside of a canal bank to keep the saturation line well within the body of the bank, preventing leaks."
   },
   {
-    "q": "5. A minimum of 90 cm free board is provided if the discharge in the canal is between .............",
+    "q": "50. A minimum of 90 cm free board is provided if the discharge in the canal is between .............",
     "options": [
       "30 to 33 cumec",
       "30 to 60 cumec",
@@ -55,18 +550,7 @@
     "explain": "Freeboard increases with discharge capacity. For large canals (>60 cumecs), 90 cm (0.9m) is standard."
   },
   {
-    "q": "6. The width of a dowla is generally kept between 30 to 60 cm and its height above the road level should invariably be more than .............",
-    "options": [
-      "10 cm",
-      "20 cm",
-      "30 cm",
-      "40 cm"
-    ],
-    "correct": 2,
-    "explain": "A dowla is a small protective ridge on the edge of the service road. A height of 30 cm is required for safety and to prevent runoff into the canal."
-  },
-  {
-    "q": "7. If straight sides of a triangular section of a lined canal with circular bottom of radius R, make an angle θ with horizontal, the area of its cross-section, is .............",
+    "q": "51. If straight sides of a triangular section of a lined canal with circular bottom of radius R, make an angle θ with horizontal, the area of its cross-section, is .............",
     "options": [
       "R^2(θ + tan θ)",
       "R(θ + cot θ)",
@@ -77,183 +561,7 @@
     "explain": "Based on the geometric properties of a standard triangular canal section with a rounded bottom, the area $A = R^2 (\\theta + \\cot \\theta)$."
   },
   {
-    "q": "8. If the straight sides... make an angle θ with horizontal, the perimeter of the canal is .............",
-    "options": [
-      "R(θ + tan θ)",
-      "2R(θ + tan θ)",
-      "R(θ + cos θ)",
-      "2R(θ + cot θ)"
-    ],
-    "correct": 3,
-    "explain": "For the same rounded triangular section, the wetted perimeter $P = 2R (\\theta + \\cot \\theta)$."
-  },
-  {
-    "q": "9. If the straight sides of a triangular section of a lined canal with circular bottom of radius D, make an angle θ with horizontal, the hydraulic mean depth is .............",
-    "options": [
-      "D",
-      "D/2",
-      "D/3",
-      "D/4"
-    ],
-    "correct": 1,
-    "explain": "For a triangular section with a rounded bottom, the hydraulic mean depth (Area/Perimeter) simplifies to R/2 (or D/2 if D is the radius)."
-  },
-  {
-    "q": "10. An outlet which maintains a constant discharge irrespective of fluctuation in the water levels of supplying channel or water course, is known as .............",
-    "options": [
-      "non-modular outlet",
-      "semi-modular outlet",
-      "flexible modular outlet",
-      "rigid modular outlet"
-    ],
-    "correct": 3,
-    "explain": "Rigid modules (like the Gibb's module) are designed to provide a fixed discharge regardless of the water levels in the parent canal or the field channel."
-  },
-  {
-    "q": "11. A fall in a canal bed is generally provided, if .............",
-    "options": [
-      "ground slope exceeds the designed bed slope",
-      "designed bed slope exceeds the ground slope",
-      "ground slope is practically the same as the designed bed slope",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "When the natural ground falls more steeply than the required canal bed slope, a 'fall' or 'drop' structure is built to step the water down safely."
-  },
-  {
-    "q": "12. In concrete canal the approximate permissible velocity of water should not exceed .............",
-    "options": [
-      "0.5 m/sec",
-      "1 m/sec",
-      "1.5 m/sec",
-      "2 m/sec"
-    ],
-    "correct": 3,
-    "explain": "Concrete lining can withstand higher velocities without erosion; the typical upper limit to prevent damage is around 2 to 2.5 m/sec."
-  },
-  {
-    "q": "13. The sensitivity of a rigid module, is .............",
-    "options": [
-      "2.00",
-      "1.50",
-      "1.00",
-      "zero"
-    ],
-    "correct": 3,
-    "explain": "Sensitivity is the ratio of change in outlet discharge to change in canal level. Since a rigid module's discharge is constant, its sensitivity is zero."
-  },
-  {
-    "q": "14. A current meter measures the velocity of flow, if it is held .............",
-    "options": [
-      "on the surface of water",
-      "at the bottom of channel",
-      "at any point within the cross-section",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Current meters are versatile instruments designed to measure local flow velocity at any specific depth or horizontal position in a channel."
-  },
-  {
-    "q": "15. If the height of the hydraulic gradient line above the floor of thickness l is h and the specific gravity of the material of the floor is G, the minimum thickness t of the floor downstream of the crest is given by the equation .............",
-    "options": [
-      "t = (h+1)/(G+t)",
-      "t = (h-1)/(G+1)",
-      "t = (h-1)/(G-1)",
-      "t = (h+1)/G"
-    ],
-    "correct": 2,
-    "explain": "The floor thickness must counter the uplift pressure. The formula $t = (h-1)/(G-1)$ ensures the weight of the concrete balances the net upward force."
-  },
-  {
-    "q": "16. Bligh's theory of seepage assumes .............",
-    "options": [
-      "equal weightage to the horizontal and vertical creep",
-      "more weightage to horizontal creep than vertical creep",
-      "less weightage to horizontal creep than vertical creep",
-      "loss of head following the sine curve"
-    ],
-    "correct": 0,
-    "explain": "Bligh's Creep Theory famously makes no distinction between horizontal and vertical creep paths regarding head loss."
-  },
-  {
-    "q": "17. For the design of major hydraulic structures on the canals, the method generally preferred is based on .............",
-    "options": [
-      "Bligh's theory",
-      "Electrical analogy method",
-      "The relaxation method",
-      "Khosla's method of independent variables"
-    ],
-    "correct": 3,
-    "explain": "Khosla's method is the modern standard because it accounts for the actual flow net and the influence of various floor components independently."
-  },
-  {
-    "q": "18. The ratio of the discharge over a trapezoidal crest to a rectangular crest of Sarda falls of identical parameters, is .............",
-    "options": [
-      "1.084",
-      "1.074",
-      "1.064",
-      "1.054"
-    ],
-    "correct": 0,
-    "explain": "A trapezoidal crest has a slightly higher discharge coefficient due to its shape, resulting in a ratio of approximately 1.084 compared to a rectangular crest."
-  },
-  {
-    "q": "19. In a Sarda type fall, the rectangular crest, may be used for discharge upto .............",
-    "options": [
-      "6 cumec",
-      "10 cumec",
-      "14 cumec",
-      "20 cumec"
-    ],
-    "correct": 2,
-    "explain": "Rectangular crests are efficient for lower discharges; once the discharge exceeds 14 cumecs, a trapezoidal crest is usually preferred."
-  },
-  {
-    "q": "20. In Montague type fall .............",
-    "options": [
-      "a straight glacis is provided",
-      "a circular glacis is provided",
-      "a parabolic glacis is provided",
-      "no glacis is provided"
-    ],
-    "correct": 2,
-    "explain": "Montague falls use a parabolic glacis to ensure the water profile follows the structure closely, increasing energy dissipation efficiency."
-  },
-  {
-    "q": "21. To hold hydraulic jumps, baffle walls are provided in .............",
-    "options": [
-      "Sarda type falls",
-      "English type falls",
-      "Montague type falls",
-      "Vertical type falls"
-    ],
-    "correct": 1,
-    "explain": "The English (or Baffle) fall uses a specific wall on the floor to stabilize the hydraulic jump and dissipate energy."
-  },
-  {
-    "q": "22. Bed bars in a canal are provided .............",
-    "options": [
-      "to watch the general behavior of canal",
-      "to measure the discharge",
-      "to raise the supply level",
-      "all the above"
-    ],
-    "correct": 0,
-    "explain": "Bed bars are masonry or concrete strips built across the canal bed at intervals to serve as permanent benchmarks for monitoring siltation or scour."
-  },
-  {
-    "q": "23. In a canal siphon, the flow is .............",
-    "options": [
-      "under atmospheric pressure",
-      "pipe flow",
-      "with critical velocity",
-      "under negative pressure"
-    ],
-    "correct": 1,
-    "explain": "In a siphon, the canal is enclosed in a barrel and flows full under pressure, similar to flow in a pipe."
-  },
-  {
-    "q": "24. The main function of a diversion head works of canal from a river, is .............",
+    "q": "52. The main function of a diversion head works of canal from a river, is .............",
     "options": [
       "to remove silt",
       "to control floods",
@@ -264,18 +572,7 @@
     "explain": "The primary role is to raise the river's water level (pond level) so that water can flow into the off-taking canal by gravity."
   },
   {
-    "q": "25. The depth of the crest of a scouring sluice below the crest of a head regulator, is generally kept .............",
-    "options": [
-      "0.20 m",
-      "1.20 m",
-      "2.20 m",
-      "3.20 m"
-    ],
-    "correct": 1,
-    "explain": "A difference of 1.2 meters is standard to allow for a 'silt pocket' where heavier sediment can settle and be flushed out."
-  },
-  {
-    "q": "26. The crest level of a canal diversion head work, depends upon .............",
+    "q": "53. The crest level of a canal diversion head work, depends upon .............",
     "options": [
       "F.S.L. of the canal",
       "discharge perimeters",
@@ -286,51 +583,7 @@
     "explain": "The crest level of the weir is dictated by the required pond level needed to feed the canal at its Full Supply Level."
   },
   {
-    "q": "27. Retrogression of the bed level of a river downstream a weir, occurs due to .............",
-    "options": [
-      "heavy impact of water",
-      "increase of the bed level",
-      "less percentage of silt",
-      "soft soil strata"
-    ],
-    "correct": 2,
-    "explain": "When clear water (silt-free) is discharged over a weir, it has high capacity to pick up sediment, causing the downstream bed to scour or retrogress."
-  },
-  {
-    "q": "28. According to Lacey, depth of scour in a river depends upon the straightness of the reach. If D is the depth of scour in regime flow in a right angled bend, it is .............",
-    "options": [
-      "1.25 D",
-      "1.50 D",
-      "1.75 D",
-      "2.00 D"
-    ],
-    "correct": 3,
-    "explain": "Lacey suggested multipliers for scour depth based on river curvature; for sharp right-angled bends, the scour depth is taken as 2.0 times the normal regime depth."
-  },
-  {
-    "q": "29. According to Khosla, the exists gradient of surface flow .............",
-    "options": [
-      "depends upon the b/d ratio",
-      "is independent of the b/d ratio",
-      "is independent of the depths of d/s cut off walls",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "Exit gradient depends on the ratio of floor length (b) to the depth of the downstream end pile (d)."
-  },
-  {
-    "q": "30. The width of a meander belt is the transverse distance between .............",
-    "options": [
-      "apex point of one curve and apex point of the reserve curve",
-      "apex point and the crossing",
-      "two banks of meandering river",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "Meander belt width is the total width of the valley occupied by the river as it swings from one extreme apex to the other."
-  },
-  {
-    "q": "31. The length of a meander is the distance along the river between the tangent point of one curve to the tangent point of .............",
+    "q": "54. The length of a meander is the distance along the river between the tangent point of one curve to the tangent point of .............",
     "options": [
       "reverse curve",
       "next curve of the same order",
@@ -341,18 +594,7 @@
     "explain": "Meander length is measured as the axial distance between two corresponding points (like consecutive crests) on the same side of the meander."
   },
   {
-    "q": "32. Process of meandering is due to .............",
-    "options": [
-      "sediment load of streams",
-      "discharge and hydraulic properties of streams",
-      "relative erodibility of the bed and banks",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "Meandering is the result of excess energy in the flow interacting with erodible banks and varying sediment loads."
-  },
-  {
-    "q": "33. A river is said to be of .............",
+    "q": "55. A river is said to be of .............",
     "options": [
       "aggrading type if it builds up its bed",
       "degrading type if it cuts its bed",
@@ -361,27 +603,5 @@
     ],
     "correct": 3,
     "explain": "These are the three primary morphological classifications of alluvial rivers based on their bed-level trends and planform."
-  },
-  {
-    "q": "34. A deficit of sediments in flowing water may cause a river .............",
-    "options": [
-      "meandering type",
-      "aggrading type",
-      "degrading type",
-      "sub-critical type"
-    ],
-    "correct": 2,
-    "explain": "If the water has less sediment than its carrying capacity, it will scour the bed to pick up more, leading to 'degradation'."
-  },
-  {
-    "q": "35. The downstream expansion head of a guide bank is extended to subtend an angle at the center, equal to .............",
-    "options": [
-      "30°",
-      "45°",
-      "60°",
-      "90°"
-    ],
-    "correct": 1,
-    "explain": "For efficient flow expansion downstream, a guide bank is usually curved with an arc subtending 45 degrees."
   }
 ]

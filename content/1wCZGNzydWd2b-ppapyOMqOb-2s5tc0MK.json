@@ -1,28 +1,446 @@
 [
   {
-    "q": "1. Standard penetration test is best suited for .............",
+    "q": "1. In hydrometer analysis the principle used is .............",
     "options": [
-      "cohesionless soils",
-      "clayey soils",
-      "silty soils",
-      "none of these"
+      "Newton's law",
+      "Darcy's law",
+      "Stoke's law",
+      "Reynold's law"
+    ],
+    "correct": 2,
+    "explain": "Stoke's Law relates the settling velocity of fine particles in suspension to their size, forming the basis of hydrometer analysis."
+  },
+  {
+    "q": "2. Clay can be classified as",
+    "options": [
+      "highly cohesive soil",
+      "limited cohesive soil",
+      "cohesionless soil",
+      "all of above"
     ],
     "correct": 0,
-    "explain": "Per the reference key this is marked 'silty soils'; SPT is most classically and widely used for cohesionless (sandy) soils."
+    "explain": "Clay particles are extremely fine (<0.002 mm) with strong electro-chemical inter-particle attraction, making clay a highly cohesive soil."
   },
   {
-    "q": "2. For very soft and sensitive clayee soils, the best exploration method is .............",
+    "q": "3. At liquid limit a soil has .............",
     "options": [
-      "hand auger",
-      "mechanical auger",
-      "wash boring",
-      "vane shear test"
+      "high shear strength",
+      "no shear strength",
+      "negligible (or) very small shear strength",
+      "nothing to do with shear strength"
+    ],
+    "correct": 2,
+    "explain": "The liquid limit marks the water content at which soil has negligible shear strength, transitioning from plastic to liquid state."
+  },
+  {
+    "q": "4. A soil consisting of approximately equal percentage of sand, silt and clay is referred to as .............",
+    "options": [
+      "well soil",
+      "perfect soil",
+      "poor soil",
+      "loam"
     ],
     "correct": 3,
-    "explain": "The vane shear test directly measures in-situ undrained shear strength without disturbing very soft, sensitive clays."
+    "explain": "Loam is defined as soil with roughly equal proportions of sand, silt, and clay-sized particles."
   },
   {
-    "q": "3. The range of water content between the liquid limit and plastic limit is called",
+    "q": "5. Maximum size of clay particle is",
+    "options": [
+      "1mm",
+      "0.06mm",
+      "0.002mm",
+      "0.08mm"
+    ],
+    "correct": 2,
+    "explain": "By the standard grain-size classification, particles finer than 0.002 mm (2 microns) are classed as clay."
+  },
+  {
+    "q": "6. Hydrometer is a device which is used to measure .............",
+    "options": [
+      "temperature of liquids",
+      "density of liquids",
+      "specific gravity of liquids",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "A hydrometer measures the specific gravity (relative density) of a liquid or suspension."
+  },
+  {
+    "q": "7. The basis for all soil classification system is .............",
+    "options": [
+      "permeability characteristics",
+      "specific gravity of solids",
+      "grain size and plasticity characteristics",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Engineering soil classification systems (like USCS) are built on grain size distribution and plasticity characteristics."
+  },
+  {
+    "q": "8. The maximum size of clay particle is",
+    "options": [
+      "0.10 mm",
+      "0.30 mm",
+      "0.002 mm",
+      "0.005 mm"
+    ],
+    "correct": 2,
+    "explain": "By standard definition, clay consists of particles with a diameter smaller than 0.002 mm (2 microns)."
+  },
+  {
+    "q": "9. When the hydrometer analysis is performed, it requires correction for .............",
+    "options": [
+      "temperature only",
+      "meniscus only",
+      "dispersing agent only",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Hydrometer readings must be corrected for temperature, meniscus, and dispersing agent effects — all three corrections apply."
+  },
+  {
+    "q": "10. The shear strength in plastic untrained clay, is due to",
+    "options": [
+      "inter-granular friction",
+      "internal friction",
+      "cohesion",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "In saturated plastic (undrained) clay tested quickly, pore pressures prevent frictional resistance from developing, so shear strength is essentially due to cohesion alone (φ=0 condition)."
+  },
+  {
+    "q": "11. A soil having uniformity co-efficient more than 10, is called .............",
+    "options": [
+      "uniform soil",
+      "poor soil",
+      "well graded soil",
+      "coarse soil"
+    ],
+    "correct": 2,
+    "explain": "A high uniformity coefficient (Cu > 10) indicates a wide range of particle sizes, characteristic of a well graded soil."
+  },
+  {
+    "q": "12. The angle of internal friction of clays, is usually",
+    "options": [
+      "0° to 5°",
+      "5° to 20°",
+      "20° to 30°",
+      "30° to 45°"
+    ],
+    "correct": 1,
+    "explain": "Because of their platy, fine particles and high cohesion, clays typically show a low drained friction angle in the range of about 5° to 20°."
+  },
+  {
+    "q": "13. The effective size of particle of soil is given by",
+    "options": [
+      "D10",
+      "D20",
+      "D30",
+      "D60"
+    ],
+    "correct": 0,
+    "explain": "Effective size is defined as the diameter (D10) for which 10% of the soil particles are finer."
+  },
+  {
+    "q": "14. D10 of soil is the diameter in mm such that",
+    "options": [
+      "10% of the soil is coarser than this value",
+      "10% of the soil is finer than this value",
+      "this value has no bearing on particle size distribution",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "D10 represents the size at which 10 percent of the sample by weight consists of smaller particles."
+  },
+  {
+    "q": "15. The coefficient of curvature is defined as",
+    "options": [
+      "D60/D10",
+      "D10/D60",
+      "D30²/(D60D10)",
+      "D10²/(D30D60)"
+    ],
+    "correct": 2,
+    "explain": "Coefficient of curvature Cc = (D30)² / (D60 × D10), used along with Cu to assess gradation of a soil."
+  },
+  {
+    "q": "16. The ratio of plasticity index to percentage of clay finer than 2 micron, is known as",
+    "options": [
+      "activity number",
+      "flow index",
+      "liquidity index",
+      "toughness index"
+    ],
+    "correct": 0,
+    "explain": "Activity number (A) measures the plasticity of the clay fraction; it is the ratio of the plasticity index to the percentage of clay-sized particles."
+  },
+  {
+    "q": "17. Liquid and plastic limit exists in the soil type",
+    "options": [
+      "Gravel",
+      "Clay",
+      "Silty",
+      "sandy"
+    ],
+    "correct": 1,
+    "explain": "Atterberg limits (liquid limit, plastic limit) are meaningful only for fine-grained, plastic soils such as clay, which exhibit plastic behaviour with changing moisture."
+  },
+  {
+    "q": "18. The type of shear failure that is expected for a dense sand (or) a stiff clay is .............",
+    "options": [
+      "general shear failure",
+      "local shear failure",
+      "punching shear failure",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Dense sands and stiff clays, being incompressible and strong, exhibit general shear failure with a well-defined failure surface and peak resistance."
+  },
+  {
+    "q": "19. The shear failure for which a peak can be observed for the load-settlement curve is .............",
+    "options": [
+      "general shear failure",
+      "local shear failure",
+      "punching shear failure",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Per the reference key, this is attributed to punching shear failure characteristics in the load-settlement response."
+  },
+  {
+    "q": "20. The unconfined compressive strength of a very soft clay is .............",
+    "options": [
+      "10 to 25 kN/m2",
+      "25 to 150 kN/m2",
+      "150 to 400 kN/m2",
+      "above 400 kN/m2"
+    ],
+    "correct": 0,
+    "explain": "Very soft clays have unconfined compressive strength in the lowest range, typically about 10-25 kN/m2."
+  },
+  {
+    "q": "21. The relative density of the soil is given by",
+    "options": [
+      "(emax-e)/(emax+emin)",
+      "(emax-e)/(emax-emin)",
+      "(emax+e)/(emax+emin)",
+      "emax/emin"
+    ],
+    "correct": 1,
+    "explain": "Relative density Dr = (emax - e)/(emax - emin), comparing the actual void ratio to the loosest and densest possible states."
+  },
+  {
+    "q": "22. The value of compression index for a remoulded sample whose liquid limit is 30% is .............",
+    "options": [
+      "0.021",
+      "0.027",
+      "0.21",
+      "0.27"
+    ],
+    "correct": 2,
+    "explain": "Using Skempton's relation for remoulded clay, Cc = 0.007(LL-10) = 0.007(20) = 0.14... per the reference key the accepted value here is 0.21."
+  },
+  {
+    "q": "23. In a 2 mm sieve",
+    "options": [
+      "There are 100 holes in 2 mm square area",
+      "Each hole is a square and its side is 2 mm",
+      "Each hole has 2 mm diameter",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "Standard test sieves used in soil analysis have square woven openings, so a '2 mm sieve' means each square aperture has a 2 mm side length."
+  },
+  {
+    "q": "24. Lime stabilization is very effective in treating",
+    "options": [
+      "Sandy soils",
+      "Silty soils",
+      "Non plastic soils",
+      "Plastic clayey soils"
+    ],
+    "correct": 3,
+    "explain": "Lime reacts with clay minerals (pozzolanic reaction) to reduce plasticity and swelling, making it most effective for plastic clayey soils."
+  },
+  {
+    "q": "25. The symbol GM indicates .............",
+    "options": [
+      "gravels",
+      "gravelly silts",
+      "silty gravels",
+      "silts"
+    ],
+    "correct": 2,
+    "explain": "In USCS notation, GM denotes silty gravel."
+  },
+  {
+    "q": "26. In hydrometer analysis, equation is derived based on",
+    "options": [
+      "Darcy's law",
+      "Stoke's law",
+      "Newton's law",
+      "Parkinson's law"
+    ],
+    "correct": 1,
+    "explain": "Hydrometer analysis (for fine-grained particle-size distribution) uses Stoke's law, which relates the terminal settling velocity of spherical particles in a fluid to their diameter."
+  },
+  {
+    "q": "27. The ratio of plasticity index to clay fraction is known as .............",
+    "options": [
+      "activity ratio",
+      "flow index",
+      "liquidity index",
+      "toughness index"
+    ],
+    "correct": 0,
+    "explain": "Activity of clay is defined as plasticity index divided by the percentage of clay-sized fraction (Skempton's activity)."
+  },
+  {
+    "q": "28. Van Shear test is used for",
+    "options": [
+      "Measuring shear strength of Cohesive soil of low shear strength",
+      "Measuring void ratio of sandy soils",
+      "Measuring bearing capacity of soils",
+      "None of the above"
+    ],
+    "correct": 0,
+    "explain": "The vane shear test is specifically designed to measure the undrained shear strength of soft, saturated cohesive soils with low shear strength, in-situ or in the lab."
+  },
+  {
+    "q": "29. In the field, Rolling test is used to differentiate clay from .............",
+    "options": [
+      "gravels",
+      "sands",
+      "silts",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The rolling (toughness) test helps distinguish clay's plasticity from the low or non-plastic behaviour of silts."
+  },
+  {
+    "q": "30. For classification purposes, fine grained soils shall be divided into following number of sub-divisions based on liquid limit .............",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 2,
+    "explain": "Fine-grained soils are divided into three sub-divisions based on liquid limit: low, intermediate, and high compressibility."
+  },
+  {
+    "q": "31. Stoke's law is valid only if the size of particle is",
+    "options": [
+      "Less than 0.0002 mm",
+      "Greater than 0.2 mm",
+      "Between 0.2 mm and 0.0002 mm",
+      "All the above"
+    ],
+    "correct": 2,
+    "explain": "Stoke's law (for laminar settling used in hydrometer analysis) is valid within the particle size range of roughly 0.2 mm down to 0.0002 mm; outside this range turbulence or Brownian motion invalidates it."
+  },
+  {
+    "q": "32. The effective size of the soil is .............",
+    "options": [
+      "D15",
+      "D85",
+      "D10",
+      "D90"
+    ],
+    "correct": 2,
+    "explain": "The effective size of a soil is conventionally defined as D10, the sieve size through which 10% of particles pass."
+  },
+  {
+    "q": "33. In the laboratory determination of SL the volume of the dry soil pat is determined by .............",
+    "options": [
+      "oven dry method",
+      "sand bath method",
+      "radiation method",
+      "mercury replacement method"
+    ],
+    "correct": 3,
+    "explain": "In shrinkage limit determination, the volume of the oven-dried soil pat is measured (often via mercury displacement, but per key here noted under oven dry method)."
+  },
+  {
+    "q": "34. Shrinkage ratio will be equal to .............",
+    "options": [
+      "mass specific gravity",
+      "absolute specific gravity",
+      "grain specific gravity",
+      "specific gravity of water"
+    ],
+    "correct": 0,
+    "explain": "Shrinkage ratio numerically equals the mass specific gravity (dry unit weight/unit weight of water), closely related to grain specific gravity in these formulations."
+  },
+  {
+    "q": "35. The ratio of plasticity index to flow index is called .............",
+    "options": [
+      "activity ratio",
+      "liquidity index",
+      "toughness index",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Toughness index is defined as the ratio of plasticity index to flow index."
+  },
+  {
+    "q": "36. More hygroscopicity will be observed in .............",
+    "options": [
+      "gravels",
+      "sands",
+      "silts",
+      "clays"
+    ],
+    "correct": 3,
+    "explain": "Clay's high specific surface and mineral structure make it absorb the most moisture from the atmosphere (hygroscopicity)."
+  },
+  {
+    "q": "37. When the consistency index is zero, then the soil s at its .............",
+    "options": [
+      "elastic limit",
+      "plastic limit",
+      "liquid limit",
+      "semi-solid state"
+    ],
+    "correct": 2,
+    "explain": "Consistency index CI = 0 means natural water content equals the liquid limit, so the soil is at its liquid limit."
+  },
+  {
+    "q": "38. The liquid limit minus plastic limit is termed as .............",
+    "options": [
+      "flow index",
+      "plasticity index",
+      "shrinkage index",
+      "liquidity index"
+    ],
+    "correct": 1,
+    "explain": "Plasticity index PI = LL - PL, the range of water content over which soil behaves plastically."
+  },
+  {
+    "q": "39. The correction to be applied to hydrometer reading is .............",
+    "options": [
+      "meniscus correction",
+      "temperature correction",
+      "deflocculating agent correction",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "All three corrections — meniscus, temperature, and dispersing agent — must be applied to raw hydrometer readings."
+  },
+  {
+    "q": "40. Hydrometers are usually calibrated at a temperature of .............",
+    "options": [
+      "4°C",
+      "20°C",
+      "24°C",
+      "27°C"
+    ],
+    "correct": 3,
+    "explain": "Standard soil hydrometers are factory-calibrated at 24°C, requiring correction if the test is run at a different temperature."
+  },
+  {
+    "q": "41. The range of water content between the liquid limit and plastic limit is called",
     "options": [
       "Liquidity index",
       "Plasticity index",
@@ -33,62 +451,7 @@
     "explain": "Plasticity index PI = LL - PL, representing the range of water content over which the soil remains in a plastic state."
   },
   {
-    "q": "4. Plasticity index is obtained as the difference between .............",
-    "options": [
-      "liquid limit and shrinkage limit",
-      "shrinkage limit and plastic limit",
-      "liquid limit and plastic limit",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Plasticity index PI = LL - PL, the standard definition."
-  },
-  {
-    "q": "5. Two soils P and Q are having a toughness index of 4 and 10 respectively. Which soil has better strength at plastic limit .............",
-    "options": [
-      "P",
-      "Q",
-      "both 'a' and 'b'",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Per the reference key, this is marked as applying to both, since toughness index alone doesn't fully determine which has definitively better strength without more context."
-  },
-  {
-    "q": "6. With reference to shrinkage and swelling, the most active clay mineral is .............",
-    "options": [
-      "kaolinite",
-      "montmorillonite",
-      "illite",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Per the reference key this is marked 'none of these'; the standard, well-established fact is that montmorillonite is the most active (highest swelling/shrinkage) clay mineral."
-  },
-  {
-    "q": "7. In a soil if the water content is equal to the liquid limit, its relative consistency is .............",
-    "options": [
-      "1",
-      "0",
-      "10",
-      "5"
-    ],
-    "correct": 1,
-    "explain": "Relative (liquidity) consistency of 0 occurs when natural water content equals the liquid limit, i.e., soil is at the liquid limit boundary."
-  },
-  {
-    "q": "8. The difference between plastic limit and shrinkage limit is called .............",
-    "options": [
-      "fluidity index",
-      "relative consistency",
-      "plasticity index",
-      "shrinkage index"
-    ],
-    "correct": 3,
-    "explain": "Per the reference key, PL - SL is termed relative consistency in this classification (note: some texts call this the shrinkage index)."
-  },
-  {
-    "q": "9. Cohesionless soils are .............",
+    "q": "42. Cohesionless soils are .............",
     "options": [
       "sands",
       "clays",
@@ -99,7 +462,7 @@
     "explain": "Sand particles lack cohesive bonding forces, making sand the classic cohesionless soil among these options."
   },
   {
-    "q": "10. The soil which contains 'finest particles' is .............",
+    "q": "43. The soil which contains 'finest particles' is .............",
     "options": [
       "silt",
       "gravel",
@@ -110,51 +473,7 @@
     "explain": "Per the reference key this is marked 'gravel'; the standard fact is that clay contains the finest particles among common soil types."
   },
   {
-    "q": "11. To obtain grain size distribution, hydrometer analysis is appropriate for .............",
-    "options": [
-      "peats",
-      "sands and gravels",
-      "silts and clays",
-      "all soils"
-    ],
-    "correct": 2,
-    "explain": "Hydrometer (sedimentation) analysis is used specifically for fine-grained soils (silts and clays) too small to sieve."
-  },
-  {
-    "q": "12. The minimum size of silt particles is .............",
-    "options": [
-      "0.002 mm",
-      "0.04 mm",
-      "0.06 mm",
-      "0.03 mm"
-    ],
-    "correct": 0,
-    "explain": "The lower size boundary of silt particles (above clay-size) is conventionally taken as 0.002 mm."
-  },
-  {
-    "q": "13. For a well graded soil the co-efficient of curvature will be between .............",
-    "options": [
-      "1 and 10",
-      "2 and 8",
-      "3 and 7",
-      "1 and 3"
-    ],
-    "correct": 3,
-    "explain": "A well-graded soil requires a coefficient of curvature (Cc) between 1 and 3, per standard classification criteria."
-  },
-  {
-    "q": "14. The groove which is cut for the determination of liquid limit has to flow a distance of .............",
-    "options": [
-      "10 mm",
-      "11 mm",
-      "12 mm",
-      "13 mm"
-    ],
-    "correct": 2,
-    "explain": "In the Casagrande liquid limit test, the two halves of the soil pat must flow together and close over a distance of 11 mm (1/2 inch)."
-  },
-  {
-    "q": "15. Kaolinite, Illite and Montmorillonite represent .............",
+    "q": "44. Kaolinite, Illite and Montmorillonite represent .............",
     "options": [
       "residual soils",
       "cohesionless soils",
@@ -165,7 +484,7 @@
     "explain": "Kaolinite, illite, and montmorillonite are the three primary groups of clay minerals defined by their crystal structure."
   },
   {
-    "q": "16. When water content in a soil is reduced beyond the shrinkage limit, the soil will be in a .............",
+    "q": "45. When water content in a soil is reduced beyond the shrinkage limit, the soil will be in a .............",
     "options": [
       "solid state",
       "liquid state",
@@ -176,7 +495,7 @@
     "explain": "Per the reference key this is marked 'liquid state'; the standard fact is that below the shrinkage limit, soil enters the solid state."
   },
   {
-    "q": "17. The consistency index is given by .............",
+    "q": "46. The consistency index is given by .............",
     "options": [
       "(wp-w)/Ip",
       "(wL-w)/Ip",
@@ -187,62 +506,7 @@
     "explain": "Consistency index CI = (wL - w)/Ip, comparing liquid limit to natural water content, normalized by plasticity index."
   },
   {
-    "q": "18. The shear failure exhibited by dense sands is known as .............",
-    "options": [
-      "elastic",
-      "plastic failure",
-      "brittle failure",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Dense sands show a distinct peak strength followed by strength drop upon further strain, characteristic of brittle failure."
-  },
-  {
-    "q": "19. Clays generally exhibit plasticity property when they are mixed with .............",
-    "options": [
-      "kerosene",
-      "oil",
-      "HCl",
-      "water"
-    ],
-    "correct": 3,
-    "explain": "Water is the medium that activates plasticity in clay by allowing particles to slide relative to one another while maintaining cohesion."
-  },
-  {
-    "q": "20. The shear strength of sands with the following shape will be more .............",
-    "options": [
-      "sharp edged particles",
-      "rounded edged particles",
-      "flat particles",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "Angular, sharp-edged particles interlock more effectively than rounded grains, giving higher shear strength."
-  },
-  {
-    "q": "21. The stress-strain curve of an over consolidated clay is similar to that of .............",
-    "options": [
-      "normal consolidated clay",
-      "loose sands",
-      "silts",
-      "dense sands"
-    ],
-    "correct": 3,
-    "explain": "Over-consolidated clay shows peak-strength, dilative behaviour under shear similar to dense sand."
-  },
-  {
-    "q": "22. The stress-strain curve of a normal consolidated clay is similar to that of .............",
-    "options": [
-      "gravels",
-      "loose sands",
-      "silts",
-      "dense sands"
-    ],
-    "correct": 1,
-    "explain": "Normally consolidated clay shows a gradually rising, contractive stress-strain curve similar to loose sand."
-  },
-  {
-    "q": "23. Vane shear test is a .............",
+    "q": "47. Vane shear test is a .............",
     "options": [
       "field test",
       "laboratory test",
@@ -253,40 +517,7 @@
     "explain": "The vane shear test can be performed both in-situ in the field and on samples in the laboratory."
   },
   {
-    "q": "24. When the plastic limit is equal to or greater than the liquid limit, then the plasticity index is .............",
-    "options": [
-      "negative",
-      "zero",
-      "one",
-      "more than one"
-    ],
-    "correct": 1,
-    "explain": "By convention, plasticity index is reported as zero (not negative) when PL >= LL, since PI = LL - PL cannot be negative."
-  },
-  {
-    "q": "25. The shrinkage index is equal to .............",
-    "options": [
-      "liquid limit + plastic limit",
-      "plastic limit - liquid limit",
-      "liquid limit - shrinkage limit",
-      "shrinkage limit - liquid limit"
-    ],
-    "correct": 2,
-    "explain": "Per the reference key, shrinkage index is expressed as liquid limit minus shrinkage limit in this classification."
-  },
-  {
-    "q": "26. The flow index in soils indicates the .............",
-    "options": [
-      "ratio of liquid limit to plastic limit",
-      "variation of liquid limit",
-      "variation of plastic limit",
-      "shear strength variation with water content"
-    ],
-    "correct": 3,
-    "explain": "Flow index reflects how shear strength (resistance to flow) changes with water content, based on the liquid limit test's flow curve."
-  },
-  {
-    "q": "27. The clays which exhibit high activity .............",
+    "q": "48. The clays which exhibit high activity .............",
     "options": [
       "contain montmorillonite",
       "have high plasticity index",
@@ -297,62 +528,7 @@
     "explain": "Highly active clays typically both contain montmorillonite and exhibit high plasticity index, since activity relates PI to clay fraction."
   },
   {
-    "q": "28. The activity of clay is defined as the ratio of .............",
-    "options": [
-      "liquid limit to plastic limit",
-      "liquidity index to plasticity index",
-      "plasticity index to clay fraction",
-      "plasticity index to shrinkage index"
-    ],
-    "correct": 2,
-    "explain": "Skempton's activity is defined as plasticity index divided by the percentage of clay-sized (<2 micron) fraction."
-  },
-  {
-    "q": "29. The ratio of the liquid limit minus the natural content of a soil to its plasticity index, is known as .............",
-    "options": [
-      "toughness index",
-      "liquidity index",
-      "flow index",
-      "relative consistency"
-    ],
-    "correct": 3,
-    "explain": "This ratio, (LL - w)/PI, defines relative consistency (also related to consistency index)."
-  },
-  {
-    "q": "30. Bentonite contains predominantly .............",
-    "options": [
-      "kaolinite",
-      "illite",
-      "montmorillonite",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Bentonite is a clay predominantly composed of montmorillonite, giving it its characteristic high swelling capacity."
-  },
-  {
-    "q": "31. Loam means .............",
-    "options": [
-      "silt with little sand",
-      "sand with little clay",
-      "clay with little silt",
-      "mixture of sand, silt and clay sized particles in equal proportions"
-    ],
-    "correct": 3,
-    "explain": "Per the reference key this is marked 'silt with little sand'; loam is more commonly defined (as seen earlier for Q10) as a balanced mixture of sand, silt, and clay."
-  },
-  {
-    "q": "32. Compressibility of a clayey soils will be .............",
-    "options": [
-      "equal to that of sandy soils",
-      "greater than sandy soils",
-      "less than clayee soils",
-      "can't say"
-    ],
-    "correct": 1,
-    "explain": "Per the reference key this is marked 'equal to sandy soils'; the standard geotechnical fact is that clayey soils are typically far more compressible than sandy soils."
-  },
-  {
-    "q": "33. The co-efficient of compressibility of an over consolidated clay will be .............",
+    "q": "49. The co-efficient of compressibility of an over consolidated clay will be .............",
     "options": [
       "equal to that of a normally consolidated clay",
       "greater than that of a normally consolidated clay",
@@ -363,84 +539,7 @@
     "explain": "Per the reference key this is marked 'equal to'; standard geotechnical understanding is that over-consolidated clay has a lower compressibility coefficient than normally consolidated clay at the same stress increment (within the recompression range)."
   },
   {
-    "q": "34. The maximum size of grains of silts is about .............",
-    "options": [
-      "0.06 mm",
-      "0.2 mm",
-      "0.5 mm",
-      "1 mm"
-    ],
-    "correct": 0,
-    "explain": "The upper size boundary for silt-sized particles (below fine sand) is conventionally taken as about 0.06 mm (per some classification systems)."
-  },
-  {
-    "q": "35. Silt is a .............",
-    "options": [
-      "material deposited by a glacier",
-      "soil composed of two different soils",
-      "fine grained soil with little or no plasticity",
-      "clay with a high percentage of the clay mineral"
-    ],
-    "correct": 2,
-    "explain": "Silt is defined as a fine-grained soil that exhibits little to no plasticity, distinguishing it from clay."
-  },
-  {
-    "q": "36. Black cotton soil .............",
-    "options": [
-      "is inorganic in nature",
-      "contains large percentage of clay mineral",
-      "exhibits high compressibility",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Black cotton soil is inorganic, rich in montmorillonite clay, and highly compressible/expansive — all these characteristics apply."
-  },
-  {
-    "q": "37. A fine grained soil .............",
-    "options": [
-      "has low permeability",
-      "has high compressibility",
-      "may or may not be plastic",
-      "all of these"
-    ],
-    "correct": 3,
-    "explain": "Fine-grained soils generally exhibit low permeability, high compressibility, and variable plasticity (from non-plastic silt to highly plastic clay) — all apply."
-  },
-  {
-    "q": "38. The symbol CL indicates .............",
-    "options": [
-      "silts",
-      "clays",
-      "inorganic clays",
-      "organic clays"
-    ],
-    "correct": 2,
-    "explain": "In USCS notation, CL denotes inorganic clay of low to medium plasticity."
-  },
-  {
-    "q": "39. The symbol OH indicates .............",
-    "options": [
-      "other soils",
-      "clay of high plasticity",
-      "silt of high plasticity",
-      "organic silts and organic silts of high plasticity"
-    ],
-    "correct": 3,
-    "explain": "In USCS notation, OH denotes organic clay/silt of high plasticity."
-  },
-  {
-    "q": "40. When a shear stress is applied on a dense sand, then the volume of sand will .............",
-    "options": [
-      "remain constant",
-      "increase",
-      "decrease",
-      "can't say"
-    ],
-    "correct": 1,
-    "explain": "Dense sand dilates (increases in volume) under shear as densely packed grains ride over one another."
-  },
-  {
-    "q": "41. Sensitivity of a clayey soil is defined as .............",
+    "q": "50. Sensitivity of a clayey soil is defined as .............",
     "options": [
       "ratio of strength of an undisturbed soil sample to that of a remoulded sample",
       "ratio of strength of remoulded soil sample to that of an undisturbed soil sample",
@@ -451,7 +550,7 @@
     "explain": "Sensitivity is defined as undisturbed strength divided by remoulded strength, quantifying strength loss upon disturbance."
   },
   {
-    "q": "42. In the field, coarse grained soils and fine grained soils are distinguished based on .............",
+    "q": "51. In the field, coarse grained soils and fine grained soils are distinguished based on .............",
     "options": [
       "the water content",
       "the specific gravity",

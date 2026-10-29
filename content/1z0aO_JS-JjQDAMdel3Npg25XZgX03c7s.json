@@ -1,61 +1,292 @@
 [
   {
-    "q": "1. Hydrostatic pressure on a dam depends upon its ...............",
+    "q": "1. A vessel of 4 m³ contains an oil which weights 30 kN. The specific weight of the oil is",
     "options": [
-      "length",
-      "depth",
-      "shape",
-      "both 'b' and 'c'"
+      "4.5 kN/m³",
+      "6 kN/m³",
+      "7.5 kN/m³",
+      "10 kN/m³"
     ],
-    "correct": 1,
-    "explain": "According to the hydrostatic law (P = ρgh), the pressure depends solely on the vertical depth below the free surface and the density of the liquid."
+    "correct": 2,
+    "explain": "Specific weight = Total Weight / Total Volume = 30 kN / 4 m³ = 7.5 kN/m³."
   },
   {
-    "q": "2. Piezometers are used to measure ...............",
+    "q": "2. The pressure intensity in kN/m² (or kPa) at any point in a liquid is",
     "options": [
-      "pressure in water channels, pipes etc",
-      "difference in pressure at two points",
+      "w",
+      "wh",
+      "w/h",
+      "h/w"
+    ],
+    "correct": 1,
+    "explain": "Pressure (P) is the product of specific weight (w) and depth (h)."
+  },
+  {
+    "q": "3. The pressure at a point 4 m below the free surface of water is",
+    "options": [
+      "19.24 kPa",
+      "29.24 kPa",
+      "39.24 kPa",
+      "49.24 kPa"
+    ],
+    "correct": 2,
+    "explain": "P = wh = 9.81 kN/m³ * 4 m = 39.24 kN/m² (kPa)."
+  },
+  {
+    "q": "4. A manometer is used to measure",
+    "options": [
       "atmospheric pressure",
-      "very low pressure"
-    ],
-    "correct": 0,
-    "explain": "A piezometer is the simplest form of manometer used for measuring moderate pressures of liquids in pipes or containers."
-  },
-  {
-    "q": "3. To measure very low pressure, we use ...............",
-    "options": [
-      "barometers",
-      "piezometers",
-      "manometers",
-      "differential manometers"
+      "pressure in pipes and channels",
+      "pressure in venturimeter",
+      "difference of pressures between two points in a pipe"
     ],
     "correct": 1,
-    "explain": "Piezometers are highly sensitive to small pressure changes because they use the height of the actual liquid column being measured."
+    "explain": "While differential manometers measure pressure differences, a standard manometer (like a U-tube) is used for point pressure in pipes/channels."
   },
   {
-    "q": "4. Gauge pressure is ...............",
+    "q": "5. A differential manometer is used to measure",
     "options": [
-      "absolute pressure - atmospheric pressure",
-      "absolute pressure + atmospheric pressure",
-      "atmospheric pressure - absolute pressure",
-      "none of these"
+      "atmospheric pressure",
+      "pressure in pipes and channels",
+      "pressure in venturimeter",
+      "difference of pressures between two points in a pipe"
+    ],
+    "correct": 3,
+    "explain": "The specific purpose of a differential manometer is to determine the pressure head difference between two distinct points."
+  },
+  {
+    "q": "6. A vertical wall is subjected to a pressure due to one kind of liquid, on one of its sides. The total pressure on the wall per unit length is",
+    "options": [
+      "wH",
+      "wH / 2",
+      "wH² / 2",
+      "wH² / 3"
+    ],
+    "correct": 2,
+    "explain": "P = w * Area * x̄. For unit length (1m) and depth H, Area = H * 1 and x̄ = H/2. Thus, P = wH²/2."
+  },
+  {
+    "q": "7. A water tank contains 1.3 m deep water. The pressure exerted by the water per metre length of the tank is",
+    "options": [
+      "2.89 kN",
+      "8.29 kN",
+      "9.28 kN",
+      "28.9 kN"
+    ],
+    "correct": 1,
+    "explain": "P = wH²/2 = (9.81 * 1.3²) / 2 ≈ 8.29 kN."
+  },
+  {
+    "q": "8. When a body is placed over a liquid, it will float if",
+    "options": [
+      "gravitational force is equal to the upthrust of the liquid",
+      "gravitational force is less than the upthrust of the liquid",
+      "gravitational force is more than the upthrust of the liquid",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A body floats when its weight is less than or equal to the maximum possible upthrust (weight of the fully displaced volume)."
+  },
+  {
+    "q": "9. The buoyancy depends upon the",
+    "options": [
+      "weight of the liquid displaced",
+      "pressure with which the liquid is displaced",
+      "viscosity of the liquid",
+      "compressibility of the liquid"
     ],
     "correct": 0,
-    "explain": "Gauge pressure is measured relative to atmospheric pressure. Therefore, Absolute Pressure = Gauge Pressure + Atmospheric Pressure."
+    "explain": "According to Archimedes' Principle, the magnitude of the buoyant force is exactly equal to the weight of the fluid displaced."
   },
   {
-    "q": "5. Atmospheric pressure varies with ...............",
+    "q": "10. The metacentric heights of two floating bodies A and B are 1 m and 1.5 m respectively. Select the correct statement",
     "options": [
-      "altitude",
-      "temperature",
-      "weather conditions",
-      "none of these"
+      "The bodies A and B have equal stability",
+      "The body A is more stable than body B",
+      "The body B is more stable than body A",
+      "The bodies A and B are unstable"
+    ],
+    "correct": 2,
+    "explain": "Stability of a floating body is directly proportional to its metacentric height (GM). A higher GM provides a larger restoring couple."
+  },
+  {
+    "q": "11. The time of oscillation of a floating body is given by",
+    "options": [
+      "2π√(k² / (h·g))",
+      "2π√(h·g / k²)",
+      "1/2π√(k² / (h·g))",
+      "1/2π√(h·g / k²)"
     ],
     "correct": 0,
-    "explain": "As altitude increases, the weight of the air above decreases, leading to a decrease in atmospheric pressure."
+    "explain": "The time period (T) formula is T = 2π√(k² / (GM·g)), where k is the radius of gyration and h (or GM) is the metacentric height."
   },
   {
-    "q": "6. Mercury is generally used in barometers because ...............",
+    "q": "12. One cubic metre of water weighs",
+    "options": [
+      "100 litres",
+      "250 litres",
+      "500 litres",
+      "1000 litres"
+    ],
+    "correct": 3,
+    "explain": "By standard metric definition, 1 cubic metre (m³) of volume is equivalent to 1000 litres of liquid."
+  },
+  {
+    "q": "13. The imaginary line drawn in the fluid in such a way that the tangent to any point gives the direction of motion at that point, is known as",
+    "options": [
+      "path line",
+      "stream line",
+      "steak line",
+      "potential line"
+    ],
+    "correct": 1,
+    "explain": "A streamline is a curve that is everywhere tangent to the local velocity vector of the fluid flow."
+  },
+  {
+    "q": "14. The frictional resistance of a pipe varies approximately with ............ of the liquid.",
+    "options": [
+      "pressure",
+      "velocity",
+      "square of velocity",
+      "cube of velocity"
+    ],
+    "correct": 2,
+    "explain": "According to Froude's experiments on fluid friction, for turbulent flow, the frictional resistance is proportional to the square of the velocity ($v^2$)."
+  },
+  {
+    "q": "15. The pressure of fluid due to hammer blow is ............",
+    "options": [
+      "directly proportional to density of fluid",
+      "inversely proportional to density of fluid",
+      "directly proportional to (density)^(1/2) of fluid",
+      "inversely proportional to (density)^(1/2) of fluid"
+    ],
+    "correct": 2,
+    "explain": "Water hammer pressure $P = \rho v C$, where $C$ (velocity of pressure wave) involves $\\sqrt{K/\rho}$, making $P$ proportional to $\\sqrt{\rho}$."
+  },
+  {
+    "q": "16. When a cylindrical vessel containing liquid is revolved, the surface of the liquid takes the shape of ............",
+    "options": [
+      "a triangle",
+      "a paraboloid",
+      "an ellipse",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The free surface of a liquid in a forced vortex takes the shape of a paraboloid of revolution."
+  },
+  {
+    "q": "17. The total pressure on the top of a closed cylindrical vessel completely filled up with a liquid is ............",
+    "options": [
+      "directly proportional to (radius)^2",
+      "inversely proportional to (radius)^2",
+      "directly proportional to (radius)^4",
+      "inversely proportional to (radius)^4"
+    ],
+    "correct": 2,
+    "explain": "By integrating the pressure over the top surface area, the total force (or pressure) is found to be proportional to $R^4$."
+  },
+  {
+    "q": "18. When a cylindrical vessel of radius (r) containing liquid is revolved about its vertical axis ω rad/s then depth of parabola which the liquid assumes is ............",
+    "options": [
+      "ω·r / 2g",
+      "ω^2·r^2 / 2g",
+      "ω·r / 4g",
+      "ω^2·r^2 / 4g"
+    ],
+    "correct": 1,
+    "explain": "The height of the paraboloid (rise at the edges) is given by $Z = v^2/2g = \\omega^2 r^2 / 2g$."
+  },
+  {
+    "q": "19. The unit of dynamic viscosity in S.I. units is ............",
+    "options": [
+      "N-m/s^2",
+      "N-s/m^2",
+      "poise",
+      "stoke"
+    ],
+    "correct": 1,
+    "explain": "Dynamic viscosity ($\\mu$) in SI units is Pascal-seconds (Pa·s), which is equivalent to $N \\cdot s/m^2$."
+  },
+  {
+    "q": "20. One poise is equal to ............",
+    "options": [
+      "0.1 N-s/m^2",
+      "1 N-s/m^2",
+      "10 N-s/m^2",
+      "100 N-s/m^2"
+    ],
+    "correct": 0,
+    "explain": "1 Poise = 1 dyne-s/cm² = 0.1 N·s/m² (or 0.1 Pa·s)."
+  },
+  {
+    "q": "21. The kinematic viscosity is the ............",
+    "options": [
+      "ratio of absolute viscosity to the density of the liquid",
+      "ratio of density of the liquid to the absolute viscosity",
+      "product of absolute viscosity and density of the liquid",
+      "product of absolute viscosity and mass of the liquid"
+    ],
+    "correct": 0,
+    "explain": "Kinematic viscosity ($\nu$) is defined as $\\mu/\rho$."
+  },
+  {
+    "q": "22. The viscosity of water at 20°C is ............",
+    "options": [
+      "one stoke",
+      "one centistroke",
+      "one poise",
+      "one centipoise"
+    ],
+    "correct": 3,
+    "explain": "At 20°C, the dynamic viscosity of water is approximately 1.0 centipoise (0.001 Pa·s)."
+  },
+  {
+    "q": "23. A fluid which obeys the Newton's law of viscosity is termed as ............",
+    "options": [
+      "real fluid",
+      "ideal fluid",
+      "Newtonian fluid",
+      "non-newtonian fluid"
+    ],
+    "correct": 2,
+    "explain": "By definition, Newtonian fluids follow the linear relationship $\tau = \\mu (du/dy)$."
+  },
+  {
+    "q": "24. When a tank containing liquid moves with an acceleration in the horizontal direction, then the free surface of the liquid ...............",
+    "options": [
+      "remains horizontal",
+      "becomes curved",
+      "falls on the front end",
+      "falls on the back end"
+    ],
+    "correct": 2,
+    "explain": "Due to horizontal acceleration, the liquid surface tilts. The depth increases at the rear (back) end and decreases (falls) at the front end."
+  },
+  {
+    "q": "25. Bulk modulus of a fluid is the ratio of ...............",
+    "options": [
+      "shear stress to shear strain",
+      "increase in volume to the viscosity of fluid",
+      "increase in pressure to the volumetric strain",
+      "critical velocity to the viscosity of fluid"
+    ],
+    "correct": 2,
+    "explain": "Bulk modulus (K) measures a fluid's resistance to compression and is defined as the ratio of compressive stress (pressure increase) to volumetric strain."
+  },
+  {
+    "q": "26. The value of bulk modulus of a fluid is required to determine ...............",
+    "options": [
+      "Reynold's number",
+      "Froude's number",
+      "Mach number",
+      "Euler's number"
+    ],
+    "correct": 2,
+    "explain": "The Mach number relates flow velocity to the speed of sound, which itself is calculated using the Bulk Modulus (K) and density (ρ)."
+  },
+  {
+    "q": "27. Mercury is generally used in barometers because ...............",
     "options": [
       "its vapour pressure is practically zero",
       "the height of the barometer will be les",
@@ -66,40 +297,7 @@
     "explain": "Mercury's high density allows for a manageable column height (~760mm), and its low vapor pressure prevents error in the vacuum space."
   },
   {
-    "q": "7. To avoid the force of surface tension in an inclined manometer, the minimum angle of inclination is ...............",
-    "options": [
-      "2°",
-      "3°",
-      "4°",
-      "5°"
-    ],
-    "correct": 2,
-    "explain": "Standard practice in fluid mechanics suggests a minimum angle of 4 degrees to minimize the inaccuracies caused by surface tension/capillarity."
-  },
-  {
-    "q": "8. The total pressure force on a plane area is equal to the area multiplied by the intensity of pressure at its centroid if ...............",
-    "options": [
-      "area is horizontal",
-      "area is vertical",
-      "area is inclined",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "The total force F = P_avg × A. For any submerged plane, the average pressure occurs at the depth of the centroid (h_bar), regardless of orientation."
-  },
-  {
-    "q": "9. The centre of pressure of a vertical plane immersed in a liquid is at ...............",
-    "options": [
-      "centre of higher edge",
-      "centre of lower edge",
-      "centroid of the area",
-      "none of these"
-    ],
-    "correct": 3,
-    "explain": "The center of pressure (h_p) is always located below the centroid of the area because pressure increases with depth."
-  },
-  {
-    "q": "10. The depth of the centre of pressure on a vertical rectangular gate (4 m wide, 3 m high) with water upto top surface is ...............",
+    "q": "28. The depth of the centre of pressure on a vertical rectangular gate (4 m wide, 3 m high) with water upto top surface is ...............",
     "options": [
       "1.0 m",
       "1.5 m",
@@ -110,18 +308,7 @@
     "explain": "For a rectangle of height 'h' with the top at the surface, the center of pressure is at (2/3)h. (2/3) * 3m = 2.0m."
   },
   {
-    "q": "11. On an inclined plane, centre of pressure is located ...............",
-    "options": [
-      "at the centroid",
-      "above the centroid",
-      "below the centroid",
-      "anywhere"
-    ],
-    "correct": 2,
-    "explain": "Similar to a vertical plane, the pressure distribution is deeper at the bottom, shifting the resultant force (center of pressure) below the centroid."
-  },
-  {
-    "q": "12. When a body is totally or partially immersed in a fluid it is buoyed up by a force equal to ...............",
+    "q": "29. When a body is totally or partially immersed in a fluid it is buoyed up by a force equal to ...............",
     "options": [
       "weight of the body",
       "weight of the fluid displaced by the body",
@@ -132,29 +319,7 @@
     "explain": "This is Archimedes' Principle, which defines the buoyant force as the weight of the volume of fluid that the body displaces."
   },
   {
-    "q": "13. A floating body attains stable equilibrium if its metacentre is ...............",
-    "options": [
-      "at the centroid",
-      "above the centroid",
-      "below the centroid",
-      "anywhere"
-    ],
-    "correct": 1,
-    "explain": "Stability is achieved when the Metacentre (M) is above the Centre of Gravity (G). If M is above G, a restoring couple is formed."
-  },
-  {
-    "q": "14. Centre of buoyancy is ...............",
-    "options": [
-      "centroid of the floating body",
-      "centroid of the fluid displaced",
-      "centroid of pressure of the displaced liquid",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "The center of buoyancy is the point through which the upward buoyant force acts, coinciding with the geometric center (centroid) of the displaced liquid volume."
-  },
-  {
-    "q": "15. A water tank partially filled with water is being carried on a truck moving with a constant horizontal acceleration. The level of the water ...............",
+    "q": "30. A water tank partially filled with water is being carried on a truck moving with a constant horizontal acceleration. The level of the water ...............",
     "options": [
       "rises on the front side of the tank",
       "falls on the back side of the tank",
@@ -165,51 +330,7 @@
     "explain": "The inertia of the water causes it to move toward the rear of the tank, resulting in a higher water level at the back and a lower level at the front."
   },
   {
-    "q": "16. For mountaneous regions having steep slope, wagons for carrying liquid are made with bottom ...............",
-    "options": [
-      "parallel to the road surface",
-      "parallel to the horizontal surface",
-      "inclined upward while moving upwards",
-      "inclined downward while moving downwards"
-    ],
-    "correct": 1,
-    "explain": "Keeping the bottom horizontal ensures that the liquid remains stable relative to gravity and reduces the risk of spills or excessive pressure on the tank ends."
-  },
-  {
-    "q": "17. A cylindrical vessel 40 cm high is revolved about its vertical axis so that the water touches the bottom when it just spills out. If the radius of the cylinder if √5 cm, the angular velocity of rotation is ...............",
-    "options": [
-      "2 rad/sec",
-      "3 rad/sec",
-      "4 rad/sec",
-      "5 rad/sec"
-    ],
-    "correct": 0,
-    "explain": "Using the vortex formula h = (ω²r²)/(2g). Given h = 0.4m, r = √0.05m. Solving for ω gives approximately 2 rad/sec (assuming g is 10)."
-  },
-  {
-    "q": "18. The rise of the liquid along the walls of a revolving cylinder above the initial level, is ...............",
-    "options": [
-      "greater than the depression of the liquid at the axis of rotation",
-      "lesser than the depression of the liquid at the axis of rotation",
-      "the same as the depression of the liquid at the axis of rotation",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "In a forced vortex (solid body rotation), the volume of the paraboloid of revolution is half the volume of the circumscribing cylinder, meaning rise = fall."
-  },
-  {
-    "q": "19. When a liquid rotates at constant angular velocity about a vertical axis of a rigid body, the pressure ...............",
-    "options": [
-      "increases linearly to its radial distance",
-      "varies inversely as the altitude along any vertical line",
-      "varies as the square of the radial distance",
-      "decreases as the square of the radial distance"
-    ],
-    "correct": 2,
-    "explain": "The pressure head in a forced vortex increases with the square of the radius (v²/2g = ω²r²/2g)."
-  },
-  {
-    "q": "20. The imaginary line drawn such that the tangents at its all points indicate the direction of the velocity of the fluid particles at each point, is called ...............",
+    "q": "31. The imaginary line drawn such that the tangents at its all points indicate the direction of the velocity of the fluid particles at each point, is called ...............",
     "options": [
       "path line",
       "stream line",
@@ -220,29 +341,7 @@
     "explain": "A streamline is a curve that is everywhere tangent to the instantaneous local velocity vector."
   },
   {
-    "q": "21. If velocities of fluid particles vary from point to point in magnitude and direction, as well as form instant to instant, the flow is said to be ...............",
-    "options": [
-      "laminar",
-      "turbulent flow",
-      "uniform flow",
-      "non-uniform flow"
-    ],
-    "correct": 1,
-    "explain": "Turbulent flow is characterized by chaotic changes in pressure and flow velocity, varying both in space and time."
-  },
-  {
-    "q": "22. An ideal flow of a liquid obeys ...............",
-    "options": [
-      "Continuity equation",
-      "Newton's law of viscosity",
-      "Newton's second law of motion",
-      "dynamic viscosity law"
-    ],
-    "correct": 0,
-    "explain": "All fluid flows, including ideal (non-viscous, incompressible) flows, must satisfy the principle of conservation of mass, represented by the continuity equation."
-  },
-  {
-    "q": "23. The acceleration f required to accelerate a rectangular tank containing water horizontally so that the slope of its free surface is 45°, is ...............",
+    "q": "32. The acceleration f required to accelerate a rectangular tank containing water horizontally so that the slope of its free surface is 45°, is ...............",
     "options": [
       "g/2",
       "g",
@@ -253,40 +352,7 @@
     "explain": "Since tan θ = a/g, and tan 45° = 1, then a/g = 1, which means the acceleration (f) must equal g."
   },
   {
-    "q": "24. The flow in which each liquid particle has a definite path and the paths of adjacent particles do not cross each other, is called ...............",
-    "options": [
-      "stream line flow",
-      "uniform flow",
-      "steady flow",
-      "turbulent flow"
-    ],
-    "correct": 0,
-    "explain": "In streamline (or laminar) flow, fluid particles move in smooth layers or paths without macroscopic mixing."
-  },
-  {
-    "q": "25. To avoid the tendency of separation of liquid flow, the most suitable ratio of the diameters of the throat and the pipe, is ...............",
-    "options": [
-      "1/4 to 1/3",
-      "1/3 to 1/2",
-      "1/2 to 3/4",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "A throat diameter ratio between 1/3 and 1/2 is standard to balance sensitivity of pressure measurement with the prevention of cavitation/separation."
-  },
-  {
-    "q": "26. The velocity of the fluid particle at the centre of the paper section, is ...............",
-    "options": [
-      "minimum",
-      "maximum",
-      "equal throughout",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "In pipe flow, especially laminar, the velocity profile is parabolic with the maximum velocity occurring at the centerline."
-  },
-  {
-    "q": "27. A fluid particle may possess the displacement or ...............",
+    "q": "33. A fluid particle may possess the displacement or ...............",
     "options": [
       "translation",
       "rotation",
@@ -297,62 +363,7 @@
     "explain": "Fluid motion can involve translation (moving), rotation (spinning), and deformation/distortion (changing shape)."
   },
   {
-    "q": "28. An independent mass of a fluid does not posses ...............",
-    "options": [
-      "elevation energy",
-      "kinetic energy",
-      "pressure energy",
-      "none of these"
-    ],
-    "correct": 3,
-    "explain": "A fluid in motion potentially possesses all three forms of energy: potential (elevation), kinetic (velocity), and pressure energy."
-  },
-  {
-    "q": "29. The differential equation dp/ρ + gdz + vdv = 0 for a fluid motion is suggested by ...............",
-    "options": [
-      "Bernoulli",
-      "Cauchy-riemann",
-      "Laplace",
-      "Leonhard Euler"
-    ],
-    "correct": 3,
-    "explain": "This is Euler's equation of motion. When integrated along a streamline, it yields the Bernoulli equation."
-  },
-  {
-    "q": "30. The line joining the points to which the liquid rises in vertical piezometer tubes fitted at different cross-section of a conduit, is known as ...............",
-    "options": [
-      "hydraulic gradient",
-      "piezoemetric line",
-      "pressure grade line or hydraulic grade line",
-      "all the above"
-    ],
-    "correct": 3,
-    "explain": "The Hydraulic Grade Line (HGL) represents the sum of the pressure head and datum head (P/w + z) along the pipeline."
-  },
-  {
-    "q": "31. From a nozzle exposed to atmosphere, the liquid jet traverses ...............",
-    "options": [
-      "a straight line",
-      "a circular path",
-      "an elliptical path",
-      "a parabolic path"
-    ],
-    "correct": 3,
-    "explain": "A free jet acts as a projectile; under the influence of gravity, its trajectory follows a parabolic path."
-  },
-  {
-    "q": "32. The ratio of the maximum height to which a jet inclined through θ rises to its total horizontal span is ...............",
-    "options": [
-      "1/4 sin θ",
-      "1/4 cos θ",
-      "1/4 tan θ",
-      "1/4 cot θ"
-    ],
-    "correct": 2,
-    "explain": "Maximum height H = (u² sin²θ)/2g and Range R = (u² sin2θ)/g. The ratio H/R simplifies to 1/4 tan θ."
-  },
-  {
-    "q": "33. A jet projected at an angle of 45°, 40 m from the foot of a vertical column, just reaches the top of the column. The height of the column is ...............",
+    "q": "34. A jet projected at an angle of 45°, 40 m from the foot of a vertical column, just reaches the top of the column. The height of the column is ...............",
     "options": [
       "15 m",
       "20 m",
@@ -363,40 +374,7 @@
     "explain": "Using the trajectory equation y = x tanθ - [gx² / (2u² cos²θ)]. For a project reaching its max height at 40m distance at 45°, the height is 20m."
   },
   {
-    "q": "34. When the whole fluid mass rotates either due to fluid pressure or gravity or rotation previously imparted, the motion is known as ...............",
-    "options": [
-      "free vortex",
-      "forced vortex",
-      "non-potential vortex",
-      "rotational vortex"
-    ],
-    "correct": 0,
-    "explain": "In a free vortex, fluid rotates without external torque (like water draining from a bathtub). External energy is not continuously applied."
-  },
-  {
-    "q": "35. The dimensionless parameter not applicable to flowing liquids, is ...............",
-    "options": [
-      "Reynold number",
-      "Weber number",
-      "Pressure coefficient",
-      "Kinematic viscosity"
-    ],
-    "correct": 3,
-    "explain": "Kinematic viscosity (ν) has units of m²/s; it is a physical property, not a dimensionless parameter."
-  },
-  {
-    "q": "36. For the flow of liquid from an open ended tube (or nozzle) leading to the formation of spray of liquid drops, the number generally applied, is ...............",
-    "options": [
-      "Forude number",
-      "Weber number",
-      "Reynold number",
-      "Mach number"
-    ],
-    "correct": 1,
-    "explain": "Weber number (We) relates inertial force to surface tension, which is the dominant force in drop formation and atomization."
-  },
-  {
-    "q": "37. A piezometer opening in pipes measures ...............",
+    "q": "35. A piezometer opening in pipes measures ...............",
     "options": [
       "velocity head",
       "static pressure",
@@ -407,128 +385,7 @@
     "explain": "A piezometer tube measures the static pressure (P/w) at the point of connection."
   },
   {
-    "q": "38. Hydraulic ram is a device ...............",
-    "options": [
-      "for lifting water without an electric motor",
-      "for accelerating water flow",
-      "for lifting heavy loads",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "A hydraulic ram uses the energy of a large quantity of water falling through a small height to lift a small quantity of water to a much greater height without external power."
-  },
-  {
-    "q": "39. An ideal fluid ...............",
-    "options": [
-      "is frictionless and incompressible",
-      "obeys Newton's law of velocity",
-      "is similar to gas",
-      "is very viscous"
-    ],
-    "correct": 0,
-    "explain": "An ideal fluid is a theoretical concept where the fluid has no viscosity (frictionless) and is perfectly incompressible."
-  },
-  {
-    "q": "40. Though angle of deviation of liquid is more in internal mouth piece, the contraction of the jet, is",
-    "options": [
-      "more in the internal mouth piece",
-      "less in the internal mouth piece",
-      "equal to external mouth piece",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "In a Borda’s (internal) mouthpiece running full, the coefficient of contraction is actually higher (less contraction of the final jet) compared to when it's running free."
-  },
-  {
-    "q": "41. The intensity of pressure due to sudden closure of a valve... is directly proportional to ...............",
-    "options": [
-      "square root of the bulk modulus",
-      "bulk modulus",
-      "specific weight of water",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "The pressure rise ($p$) due to water hammer is given by $p = \rho v C$, where the wave velocity $C$ is $\\sqrt{K/\rho}$. Thus, pressure is proportional to $\\sqrt{K}$ (square root of bulk modulus)."
-  },
-  {
-    "q": "42. The horizontal component of the force on a curved surface is equal to ...............",
-    "options": [
-      "weight of liquid vertically below the surface",
-      "force on a vertical projection of the curved surface",
-      "product of pressure at its centroid and the area",
-      "weight of liquid retained by the curved area"
-    ],
-    "correct": 1,
-    "explain": "The horizontal component of hydrostatic force on any curved surface is the same as the force exerted on a vertical plane surface formed by the projection of the curved surface."
-  },
-  {
-    "q": "43. In order to avoid capillary correction, the minimum diameter of a manometer for measuring pressure should be....",
-    "options": [
-      "2 mm",
-      "4 mm",
-      "6 mm",
-      "8 mm"
-    ],
-    "correct": 2,
-    "explain": "To minimize the effect of surface tension (capillary rise or depression), the glass tube of a manometer should have an internal diameter of at least 6 mm."
-  },
-  {
-    "q": "44. If H is the depth of water retained by a vertical wall, the height of centre of pressure above the bottom is ...............",
-    "options": [
-      "H/2",
-      "H/3",
-      "2H/3",
-      "H/5"
-    ],
-    "correct": 1,
-    "explain": "The centre of pressure for a rectangular surface (vertical wall) is at $2/3 H$ from the top, which is $1/3 H$ (H/3) from the bottom."
-  },
-  {
-    "q": "45. The moment of inertia of a floating body... are I and V respectively. The height of the metacentre above centre of buoyancy of the body, is ...............",
-    "options": [
-      "1/2V",
-      "2I/V",
-      "I/V",
-      "3I/V"
-    ],
-    "correct": 2,
-    "explain": "The distance between the centre of buoyancy (B) and the metacentre (M) is known as the BM distance, calculated as $BM = I/V$."
-  },
-  {
-    "q": "46. The radius of gyration of the water line... is 4 m and its metacentric height is 72.5 cm. The period of oscillation of the ship, is ...............",
-    "options": [
-      "π",
-      "2π",
-      "3π",
-      "4π"
-    ],
-    "correct": 2,
-    "explain": "The time period of oscillation is $T = 2\\pi \\sqrt{k^2 / (g \\cdot GM)}$. Using $k=4$, $GM=0.725$, and $g=9.81$, $T$ calculates roughly to $3\\pi$."
-  },
-  {
-    "q": "47. The equation τ = μ (dv/dy) for the viscosity, is suggested ...............",
-    "options": [
-      "Bernoulli",
-      "Newton",
-      "Chezy",
-      "Bezin"
-    ],
-    "correct": 1,
-    "explain": "This is Newton's Law of Viscosity, where shear stress is proportional to the rate of shear strain (velocity gradient)."
-  },
-  {
-    "q": "48. An open container filled with water is moved vertically upward with a uniform linear acceleration. The pressure at its bottom will be ...............",
-    "options": [
-      "greater than static pressure",
-      "equal to static pressure",
-      "lesser than static pressure",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "The effective acceleration becomes $(g + a)$. Therefore, the pressure $P = \rho(g+a)h$, which is greater than the static pressure $\rho gh$."
-  },
-  {
-    "q": "49. An open container filled with water is moved vertically downward with a uniform linear acceleration. The pressure at its bottom will be ...............",
+    "q": "36. An open container filled with water is moved vertically downward with a uniform linear acceleration. The pressure at its bottom will be ...............",
     "options": [
       "greater than static pressure",
       "equal to static pressure",
@@ -539,14 +396,179 @@
     "explain": "The effective acceleration becomes $(g - a)$. Therefore, the pressure $P = \rho(g-a)h$, which is less than the static pressure."
   },
   {
-    "q": "50. Cavitation is caused by ...............",
+    "q": "37. Shear stress is directly proportional to ...............",
     "options": [
-      "Low pressure",
-      "High pressure",
-      "Low velocity",
-      "High velocity"
+      "the velocity",
+      "the shear strain",
+      "the viscosity",
+      "the velocity gradient"
+    ],
+    "correct": 3,
+    "explain": "According to Newton's Law of Viscosity, shear stress ($\tau$) is directly proportional to the velocity gradient ($dv/dy$)."
+  },
+  {
+    "q": "38. Poise is the unit of ...............",
+    "options": [
+      "viscosity",
+      "velocity gradient",
+      "mass density",
+      "kinematic viscous"
     ],
     "correct": 0,
-    "explain": "Cavitation occurs when the local pressure in a liquid drops below its vapor pressure, causing vapor bubbles to form and then collapse violently."
+    "explain": "Poise is the CGS unit of dynamic viscosity ($1 Poise = 0.1 N\\cdot s/m^2$)."
+  },
+  {
+    "q": "39. Kinematic viscosity (ν) is equal to ...............",
+    "options": [
+      "μ × ρ",
+      "μ / ρ",
+      "π / μ",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Kinematic viscosity is the fluid's resistance to flow under gravity, defined as $\nu = \\mu / \rho$."
+  },
+  {
+    "q": "40. Monometer is a device used for measuring ...............",
+    "options": [
+      "velocity at a point in a fluid",
+      "pressure at a point in a fluid",
+      "discharge of a fluid",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A manometer is a simple device that uses a column of liquid to measure the pressure at a specific point in a fluid system."
+  },
+  {
+    "q": "41. Differential manometers are used for measuring ...............",
+    "options": [
+      "velocity at a point in a fluid",
+      "pressure at a point in a fluid",
+      "difference of pressure between two points",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Differential manometers are specifically designed to measure the pressure drop or difference between two distinct points in a pipeline."
+  },
+  {
+    "q": "42. The centre of pressure for a plane vertical surface lies at a depth of ...............",
+    "options": [
+      "half the height",
+      "one-third the height",
+      "two-third the height",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "For a vertical rectangular surface starting at the liquid surface, the centre of pressure is located at $2/3$ of the total depth ($H$)."
+  },
+  {
+    "q": "43. Flow of a fluid in a pipe takes place form ...............",
+    "options": [
+      "higher level to lower level",
+      "higher pressure to lower pressure",
+      "higher energy to lower energy",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Fluid flow is always driven by the gradient of total energy (head). Fluid moves from points of high total energy to low total energy."
+  },
+  {
+    "q": "44. A submerged body will be in stable equilibrium if ...............",
+    "options": [
+      "B is below G",
+      "B coincides with G",
+      "B is above metacentre M",
+      "B is above G"
+    ],
+    "correct": 3,
+    "explain": "For a fully submerged body, the centre of buoyancy ($B$) must be above the centre of gravity ($G$) for stability."
+  },
+  {
+    "q": "45. The meta-centric height (GM) is given by ...............",
+    "options": [
+      "GM = BG - I/V",
+      "GM = V/I - BG",
+      "GM = I/V - BG",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Mathematically, $GM = BM - BG$, where $BM = I/V$. Therefore, $GM = (I/V) - BG$."
+  },
+  {
+    "q": "46. If the density of a fluid is constant from point to point in a flow region, it is called",
+    "options": [
+      "steady flow",
+      "incompressible flow",
+      "uniform flow",
+      "rotational flow"
+    ],
+    "correct": 1,
+    "explain": "Incompressible flow is a flow where the density of the fluid remains constant throughout the flow process."
+  },
+  {
+    "q": "47. If the fluid particles move in straight lines and all the lines are parallel to the surface, the flow is called",
+    "options": [
+      "steady",
+      "uniform",
+      "compressible",
+      "laminar"
+    ],
+    "correct": 3,
+    "explain": "Laminar flow (also known as streamline flow) is characterized by fluid particles moving in smooth, parallel layers or 'laminae'."
+  },
+  {
+    "q": "48. For a sub-merged curved surface, the component of force due to static liquid is equal to",
+    "options": [
+      "weight of the liquid supported by curved surface",
+      "force on a projection of the curved surface on a vertical plane",
+      "area of curved surface × pressure at the centroid",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The vertical component of hydrostatic force on a curved surface is equal to the weight of the liquid vertically above the curved surface up to the free surface."
+  },
+  {
+    "q": "49. The square root of the ratio of inertia force to pressure force is known as",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 3,
+    "explain": "The Euler number is the square root of the ratio of the inertia force to the pressure force."
+  },
+  {
+    "q": "50. Model analysis of aeroplanes and projectile moving at super-sonic speed are based on",
+    "options": [
+      "Reynold number",
+      "Froude number",
+      "Mach number",
+      "Euler number"
+    ],
+    "correct": 2,
+    "explain": "For high-speed flows where compressibility effects are significant (supersonic), the Mach number is the primary similarity parameter used for model testing."
+  },
+  {
+    "q": "51. The drag force exerted by a fluid on a body immersed in the fluid is due to",
+    "options": [
+      "pressure and viscous force",
+      "pressure and gravity forces",
+      "pressure and turbulence forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Drag is the combined effect of shear stress (viscous force) and the pressure distribution (pressure force) acting on the surface of the body."
+  },
+  {
+    "q": "52. Numerical value of gauge pressure is",
+    "options": [
+      "more than absolute pressure",
+      "less than absolute pressure",
+      "equal to the absolute pressure",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Absolute Pressure = Gauge Pressure + Atmospheric Pressure. Therefore, gauge pressure is always less than absolute pressure by the amount of atmospheric pressure."
   }
 ]

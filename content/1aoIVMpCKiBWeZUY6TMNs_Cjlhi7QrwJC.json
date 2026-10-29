@@ -1,17 +1,325 @@
 [
   {
-    "q": "1. Sludge from a Biological treatment unit is ............",
+    "q": "1. The pipe through which liquid waste carrying human excreta flows, is called",
     "options": [
-      "harmless inorganic sediment",
-      "rich in organic matter and bacteria",
-      "rich in inorganic matter and micro organisms",
-      "rich in bigger inert solids"
+      "waste pipe",
+      "soil pipe",
+      "vent pipe",
+      "all of these"
     ],
     "correct": 1,
-    "explain": "This sludge (secondary sludge) is primarily composed of the excess microorganisms that have grown by eating the organic waste."
+    "explain": "A soil pipe is the plumbing component designed specifically to carry discharge from WCs (water closets) or urinals."
   },
   {
-    "q": "2. A treatment unit development on algal-bacteria mutual symbiosis is ............",
+    "q": "2. In high rate activated sludge treatment, bacteria are removed from",
+    "options": [
+      "20 to 40%",
+      "40 to 60%",
+      "60 to 80%",
+      "80 to 95%"
+    ],
+    "correct": 3,
+    "explain": "Activated sludge plants are highly efficient, typically achieving 80-95% removal of bacteria and BOD."
+  },
+  {
+    "q": "3. Biological action is used in",
+    "options": [
+      "screens",
+      "sedimentation tanks",
+      "trickling filters",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "Trickling filters rely on a biological slime layer (biofilm) of aerobic bacteria to consume organic contaminants."
+  },
+  {
+    "q": "4. A septic tank is a",
+    "options": [
+      "sedimentation tank",
+      "digestion tank",
+      "combination of sedimentation and digestion tank",
+      "aeration tank"
+    ],
+    "correct": 2,
+    "explain": "A septic tank performs two functions: it allows solids to settle (sedimentation) and then allows anaerobic bacteria to break them down (digestion)."
+  },
+  {
+    "q": "5. The effluents from the septic tank are discharged into",
+    "options": [
+      "soak pit",
+      "drainage",
+      "oxidation pond",
+      "sewer"
+    ],
+    "correct": 0,
+    "explain": "Because septic tank effluent is still partially polluted, it is typically discharged into a soak pit or dispersion trench for ground absorption."
+  },
+  {
+    "q": "6. Disposal by dilution will be suitable where",
+    "options": [
+      "there are strong forward currents",
+      "there is no back currents",
+      "the sewage arriving at the out fall points is fresh",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Dilution works best when water is moving away, not returning to the shore, and when the sewage is fresh (hasn't become septic/odorous)."
+  },
+  {
+    "q": "7. The effluent of a biological treatment unit should have a B.O.D. less than",
+    "options": [
+      "10 mg/l",
+      "30 mg/l",
+      "50 mg/l",
+      "0 mg/l"
+    ],
+    "correct": 1,
+    "explain": "Standard secondary treatment regulations (like the Royal Commission Standard) often require an effluent BOD of 30 mg/L or less."
+  },
+  {
+    "q": "8. Conservation system is best suited ............",
+    "options": [
+      "in slums",
+      "in densely",
+      "for people of low morale",
+      "when man power is cheap"
+    ],
+    "correct": 3,
+    "explain": "The 'Conservancy' (dry) system involves manual collection and removal of waste, which is only economically feasible where labor is very inexpensive."
+  },
+  {
+    "q": "9. Water carriage system needs more ............",
+    "options": [
+      "men",
+      "area",
+      "water",
+      "money"
+    ],
+    "correct": 2,
+    "explain": "As the name suggests, the water carriage system uses water as the medium to transport waste through sewers, requiring a significant volume of water to function."
+  },
+  {
+    "q": "10. The bacteria that flourish at high temperature (greater than 45°C) are called ............",
+    "options": [
+      "cryptophilic",
+      "psychrophilic",
+      "mesophilic",
+      "thermophilic"
+    ],
+    "correct": 3,
+    "explain": "Thermophilic bacteria are 'heat-loving' organisms used in high-temperature sludge digestion processes to speed up decomposition."
+  },
+  {
+    "q": "11. A unit working purely on anaerobiosis is ............",
+    "options": [
+      "septic tank",
+      "activated sludge process",
+      "trickling filter",
+      "contact bed"
+    ],
+    "correct": 0,
+    "explain": "A septic tank is an enclosed, airtight chamber where solids settle and undergo anaerobic digestion without the presence of dissolved oxygen."
+  },
+  {
+    "q": "12. Sewage farming is best suited for Nepal because ............",
+    "options": [
+      "it is abundantly available",
+      "it is a cheap method of sewage disposal",
+      "it is hygienic method",
+      "nutrients and trace elements required by plants are available in sewage"
+    ],
+    "correct": 3,
+    "explain": "Sewage contains Nitrogen, Phosphorus, and Potassium (NPK). In agricultural regions, this 'liquid fertilizer' provides essential nutrients for crop growth."
+  },
+  {
+    "q": "13. A septic tank is a water tight tank where the following operation(s) take place ............",
+    "options": [
+      "sedimentation",
+      "sedimentation + digestion (anaerobic)",
+      "digestion (aerobic)",
+      "decomposition of organic and inorganic matter by bacteria"
+    ],
+    "correct": 1,
+    "explain": "Septic tanks provide two-stage treatment: first, solids settle (sedimentation), and second, the settled solids are broken down by bacteria in the absence of air (anaerobic digestion)."
+  },
+  {
+    "q": "14. Mostly adopted detention period for a septic tank is ............",
+    "options": [
+      "12 hours",
+      "24 hours",
+      "48 hours",
+      "72 hours"
+    ],
+    "correct": 1,
+    "explain": "A 24-hour detention period is the standard design to ensure adequate time for both settling and the start of biological activity."
+  },
+  {
+    "q": "15. The gases given out of a septic tank are ............",
+    "options": [
+      "CO2 + SO2 + N",
+      "CO2 + PH3 + NH3",
+      "CO2 + CH4 + H2S",
+      "CH4 + O2 + H2"
+    ],
+    "correct": 2,
+    "explain": "Anaerobic digestion produces a mixture of Carbon Dioxide, Methane (fuel gas), and Hydrogen Sulphide (the source of the smell)."
+  },
+  {
+    "q": "16. Usual size of media in standard rate trickling filter is ............",
+    "options": [
+      "6 mm to 30 mm",
+      "10 mm to 20 mm",
+      "25 mm to 100 mm",
+      "100 mm to 250 mm"
+    ],
+    "correct": 2,
+    "explain": "Standard rate filters use larger media (25-100mm) to ensure large enough voids to prevent clogging from the growth of biological slime (zoogleal film)."
+  },
+  {
+    "q": "17. Depth of standard rate trickling filter is ............",
+    "options": [
+      "0.5 to 1 m",
+      "1 to 2 m",
+      "1.5 to 4.8 m",
+      "1 to 8 m"
+    ],
+    "correct": 2,
+    "explain": "Trickling filters are generally deep enough to allow for sufficient contact time between the sewage and the biofilm; 1.5 to 4.8m is the common design range."
+  },
+  {
+    "q": "18. An extension of trickling filter is ............",
+    "options": [
+      "rotating biological contactor",
+      "intermittent sand filter",
+      "bio tower",
+      "contact bed"
+    ],
+    "correct": 2,
+    "explain": "A Bio-tower is essentially a very tall trickling filter (up to 12m or more) using lightweight plastic media instead of stone."
+  },
+  {
+    "q": "19. The primary operations in a trickling filter are ............",
+    "options": [
+      "absorption + biological oxidation",
+      "filtration + aeration",
+      "oxidation + nitrification",
+      "aerobic + anaerobic oxidation"
+    ],
+    "correct": 0,
+    "explain": "Organic matter is first adsorbed/absorbed by the biological film and then broken down (oxidized) by the aerobic bacteria within that film."
+  },
+  {
+    "q": "20. Recirculation ratio for a standard rate trickling filter is ............",
+    "options": [
+      "0",
+      "0.5 to 3",
+      "3 to 6",
+      "20"
+    ],
+    "correct": 0,
+    "explain": "Standard rate filters typically do not use recirculation; the sewage passes through the filter only once."
+  },
+  {
+    "q": "21. A high rate biological treatment unit has a F/M ratio of ............",
+    "options": [
+      "less than 0.1",
+      "0.2 to 0.5",
+      "0.1 to 1",
+      "greater than 1"
+    ],
+    "correct": 1,
+    "explain": "The Food-to-Microorganism (F/M) ratio for conventional high-rate systems generally falls between 0.2 and 0.5 for stable operation."
+  },
+  {
+    "q": "22. Effluent from a high rate trickling filter is ............",
+    "options": [
+      "black and highly oxidized",
+      "light grey and oxidized",
+      "brown and not fully oxidized",
+      "well nitrified and free from odours"
+    ],
+    "correct": 2,
+    "explain": "High-rate filters process sewage faster, which means the effluent is often less nitrified and slightly more turbid/brown compared to standard rate filters."
+  },
+  {
+    "q": "23. Psychoda alternata is found in ............",
+    "options": [
+      "septic tanks",
+      "standard rate trickling filter",
+      "sedimentation tank",
+      "activated sludge process"
+    ],
+    "correct": 1,
+    "explain": "Psychoda alternata (the Filter Fly) is a common nuisance pest that breeds in the moist, organic environment of trickling filters."
+  },
+  {
+    "q": "24. Filter unloading is ............",
+    "options": [
+      "downward trickling of sewage",
+      "removal of sludge",
+      "emptying of trickling filter media",
+      "detachment of zoogleal slime"
+    ],
+    "correct": 3,
+    "explain": "Also known as 'sloughing', this is the process where the biological film becomes too heavy and detaches from the media, washing out with the effluent."
+  },
+  {
+    "q": "25. To improve efficiency recirculation of the following is done in H.R. trickling filters ............",
+    "options": [
+      "sludge",
+      "zoogleal slime",
+      "effluent",
+      "raw sewage"
+    ],
+    "correct": 2,
+    "explain": "In High-Rate filters, a portion of the treated effluent is pumped back to the inlet to dilute high-strength waste and keep the filter wet."
+  },
+  {
+    "q": "26. Activated sludge process is a biological process involving ............",
+    "options": [
+      "aerobic + anaerobic bacteria",
+      "aerobic bacteria + protozoa + algae",
+      "anaerobic bacteria + fungii",
+      "facultative bacteria + algae"
+    ],
+    "correct": 1,
+    "explain": "ASP is a 'suspended growth' process that uses a diverse community of aerobic organisms to break down waste in an oxygen-rich environment."
+  },
+  {
+    "q": "27. Media provided in A.S.P. is ............",
+    "options": [
+      "broken stone",
+      "anthracite coal",
+      "plastics",
+      "none"
+    ],
+    "correct": 3,
+    "explain": "ASP does not use fixed media. The bacteria are kept in suspension through mechanical agitation or air bubbling."
+  },
+  {
+    "q": "28. Efficiency of activated sludge process is ............",
+    "options": [
+      "30 to 40%",
+      "50 to 60%",
+      "60 to 98%",
+      "90 to 95%"
+    ],
+    "correct": 3,
+    "explain": "When properly operated, ASP is highly efficient, typically removing 90-95% of the BOD from the influent sewage."
+  },
+  {
+    "q": "29. Conventional ASP is not suited to ............",
+    "options": [
+      "strong loading and varying quality of influent",
+      "shock loading and varying quality of influent",
+      "very dilute wastes",
+      "high recirculation"
+    ],
+    "correct": 1,
+    "explain": "Conventional ASP is sensitive; a 'shock' of toxic chemicals or a sudden surge in volume can kill the bacteria or wash them out of the system."
+  },
+  {
+    "q": "30. A treatment unit development on algal-bacteria mutual symbiosis is ............",
     "options": [
       "activated sludge process",
       "rotating biological contactor",
@@ -22,7 +330,7 @@
     "explain": "In oxidation ponds (WSP), algae produce oxygen through photosynthesis which is used by bacteria, while bacteria produce CO2 used by algae."
   },
   {
-    "q": "3. Sludge digestion is ............",
+    "q": "31. Sludge digestion is ............",
     "options": [
       "disposal of sludge",
       "dilution of sludge",
@@ -33,18 +341,7 @@
     "explain": "Digestion is the process of 'stabilizing' the sludge—making it non-putrescible and reducing its volume and pathogen content."
   },
   {
-    "q": "4. Anaerobic sludge digestion mainly yields ............",
-    "options": [
-      "methane",
-      "hydrogen sulphide",
-      "ammonia",
-      "carbon dioxide"
-    ],
-    "correct": 0,
-    "explain": "The most significant byproduct is Methane (approx 65%), which is a useful fuel gas (biogas)."
-  },
-  {
-    "q": "5. Usually the digesters have a dia of ............",
+    "q": "32. Usually the digesters have a dia of ............",
     "options": [
       "2 to 6 m",
       "6 to 35 m",
@@ -55,7 +352,7 @@
     "explain": "Standard circular sludge digesters are typically built within the diameter range of 6 to 35 meters."
   },
   {
-    "q": "6. Supernatant from a digester will be having a B.O.D. of ............",
+    "q": "33. Supernatant from a digester will be having a B.O.D. of ............",
     "options": [
       "less than 20 mg/l",
       "greater than 200 mg/l",
@@ -66,18 +363,7 @@
     "explain": "The liquor (supernatant) that settles on top of the digesting sludge is extremely polluted, often exceeding 5000 mg/l BOD."
   },
   {
-    "q": "7. Dried sludge is a good ............",
-    "options": [
-      "fuel",
-      "soil builder",
-      "manure",
-      "filler of a low lying area"
-    ],
-    "correct": 1,
-    "explain": "Digested and dried sludge contains organic matter that improves soil structure and moisture retention, acting as a 'soil builder' or conditioner."
-  },
-  {
-    "q": "8. Pedestal type commode is ............",
+    "q": "34. Pedestal type commode is ............",
     "options": [
       "completely above floor level",
       "partly above and partly below floor level",
@@ -88,40 +374,7 @@
     "explain": "The pedestal (Western-style) toilet sits entirely on top of the finished floor level."
   },
   {
-    "q": "9. Any trap is intended to trap ............",
-    "options": [
-      "water",
-      "sewage of sullage",
-      "any liquid waste",
-      "fowl gases"
-    ],
-    "correct": 3,
-    "explain": "The sole purpose of a plumbing trap is to prevent foul-smelling and toxic sewer gases from entering the building."
-  },
-  {
-    "q": "10. Any trap should necessarily have ............",
-    "options": [
-      "water seal",
-      "sewage or sullage",
-      "a bent shape",
-      "grating"
-    ],
-    "correct": 0,
-    "explain": "A water seal (the standing water in the 'U' bend) is what physically blocks the passage of gases."
-  },
-  {
-    "q": "11. The last trap provided in a house drainage system is ............",
-    "options": [
-      "Q-trap",
-      "floor trap",
-      "nahani trap",
-      "intercepting trap"
-    ],
-    "correct": 3,
-    "explain": "The intercepting trap is located at the point where the house drain connects to the public sewer to keep public sewer gases out of the house pipes."
-  },
-  {
-    "q": "12. Stall type urinals are best suited to ............",
+    "q": "35. Stall type urinals are best suited to ............",
     "options": [
       "high schools",
       "residential houses",
@@ -132,7 +385,7 @@
     "explain": "Stall urinals extend to the floor, making them robust and suitable for high-traffic public areas."
   },
   {
-    "q": "13. Bowl type urinals are ideal for ............",
+    "q": "36. Bowl type urinals are ideal for ............",
     "options": [
       "people of the same height",
       "commercial areas",
@@ -143,7 +396,7 @@
     "explain": "Bowl urinals can be mounted at varying heights to accommodate both adults and children."
   },
   {
-    "q": "14. Soil stack collects waste waters from ............",
+    "q": "37. Soil stack collects waste waters from ............",
     "options": [
       "baths",
       "sinks and wash basins",
@@ -154,51 +407,7 @@
     "explain": "A 'soil pipe' is specifically designed to carry 'night soil' or waste containing human excreta from toilets."
   },
   {
-    "q": "15. Waste pipe collects liquid waste from ............",
-    "options": [
-      "toilets and urinals",
-      "wash basins and baths",
-      "urinals and kitchens",
-      "from any room"
-    ],
-    "correct": 1,
-    "explain": "Waste pipes carry 'sullage'—wastewater that does not contain human excreta, such as from sinks, basins, and showers."
-  },
-  {
-    "q": "16. The pipe having min. dia. in plumbing system is ............",
-    "options": [
-      "waste pipe",
-      "soil pipe",
-      "ventilation pipe",
-      "anti-syphonage pipe"
-    ],
-    "correct": 3,
-    "explain": "Anti-syphonage pipes are smaller air vents (usually 32-50mm) that preserve the water seal in traps by preventing vacuum formation."
-  },
-  {
-    "q": "17. Anti-syphonage pipe need not be provided in ............",
-    "options": [
-      "single-storied buildings",
-      "multistoried buildings",
-      "residential flats",
-      "anti-syphonage pipe"
-    ],
-    "correct": 0,
-    "explain": "In single-story houses with a simple drain layout, the risk of 'siphoning' a trap dry is much lower, so air vents are sometimes omitted."
-  },
-  {
-    "q": "18. The object of cowl is to ............",
-    "options": [
-      "given ornamental look",
-      "prevent entry of rainfall into the waste pipe",
-      "quickly dispel fowl gases",
-      "prevent nest building"
-    ],
-    "correct": 3,
-    "explain": "A cowl or wire balloon is placed on top of vent pipes to prevent birds from building nests and clogging the airway."
-  },
-  {
-    "q": "19. The solid waste resulting from growing, handling, preparation, cooking and consumption of putrescible organic matter is called ............",
+    "q": "38. The solid waste resulting from growing, handling, preparation, cooking and consumption of putrescible organic matter is called ............",
     "options": [
       "refuse",
       "rubbish",
@@ -209,18 +418,7 @@
     "explain": "Garbage is the technical term for biodegradable organic waste that can rot and cause odors."
   },
   {
-    "q": "20. Pieces of papers, crockery, scrap metals etc., are classified as ............",
-    "options": [
-      "refuse",
-      "rubbish",
-      "garbage",
-      "ashes and cinders"
-    ],
-    "correct": 1,
-    "explain": "Rubbish refers to non-putrescible (non-rotting) solid waste, which can be either combustible (paper) or non-combustible (metal/glass)."
-  },
-  {
-    "q": "21. Salvaging is ............",
+    "q": "39. Salvaging is ............",
     "options": [
       "dumping of solid waste",
       "sanitary land filling of solid waste",

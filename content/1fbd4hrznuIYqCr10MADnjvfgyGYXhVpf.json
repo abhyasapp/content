@@ -1,6 +1,325 @@
 [
   {
-    "q": "1. The deflection angle may have any value between",
+    "q": "1. The shape of vertical curve generally provided is",
+    "options": [
+      "circular",
+      "parabolic",
+      "spiral",
+      "elliptical"
+    ],
+    "correct": 1,
+    "explain": "Vertical curves connecting two gradients are generally designed as parabolic curves because they provide a constant rate of change of grade and are easy to compute and set out."
+  },
+  {
+    "q": "2. Designation of a curve is made by",
+    "options": [
+      "angle subtended by a chord of any length",
+      "angle subtended by an arc of specified length",
+      "radius of the curve",
+      "curvature of the curve"
+    ],
+    "correct": 2,
+    "explain": "In practice (as per the book's answer key), a curve is designated by its radius, though in many other references degree of curve (angle subtended by a standard chord) is also used."
+  },
+  {
+    "q": "3. Point of tangency is the",
+    "options": [
+      "beginning of the curve",
+      "end of the curve",
+      "common point where the radius changes",
+      "common point where the radius and direction changes"
+    ],
+    "correct": 1,
+    "explain": "The point of tangency is where the circular curve ends and merges back into the straight (forward tangent), i.e., the end of the curve."
+  },
+  {
+    "q": "4. Let the angular value of one graduation of a tube of length x be theta seconds and R be the radius of its internal curved surface, than",
+    "options": [
+      "theta = x/206265R",
+      "theta = R/206265x",
+      "theta = 206265/xR",
+      "theta = xR/206265"
+    ],
+    "correct": 0,
+    "explain": "The angular value theta (in seconds) subtended by one division of length x on a bubble tube of radius R is given by theta = x/(206265 R), converting radians to seconds via the constant 206265."
+  },
+  {
+    "q": "5. The approximate formula for radial or perpendicular offsets from the tangent, is",
+    "options": [
+      "x/2R",
+      "x^2/2R",
+      "x/R",
+      "x^2/R"
+    ],
+    "correct": 2,
+    "explain": "As per the book's answer key, the approximate offset formula from the tangent to the curve is given as x/R, used for small offsets in curve setting out."
+  },
+  {
+    "q": "6. Rankine's deflection angle in minutes is obtained by multiplying the length of the chord by",
+    "options": [
+      "degree of the curve",
+      "square of the degree of the curve",
+      "inverse of the degree of the curve",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Rankine's method computes the deflection angle (in minutes) for setting out a curve by multiplying the chord length by the degree of the curve, using a simplified tangential angle formula."
+  },
+  {
+    "q": "7. Shift of a curve, is",
+    "options": [
+      "L^2/6R",
+      "L/24R",
+      "L^2/24R",
+      "L^2/6R"
+    ],
+    "correct": 2,
+    "explain": "The shift of a curve (the perpendicular distance the circular curve is shifted inward to accommodate a transition curve) is given by the formula L^2/24R, where L is the transition curve length and R the radius."
+  },
+  {
+    "q": "8. The spiral angle of a transition curve will be given by the equation",
+    "options": [
+      "L2/2R",
+      "L/2R",
+      "2R/L",
+      "l/2"
+    ],
+    "correct": 1,
+    "explain": "The spiral (deflection) angle of a transition curve at any point is given by the formula phi = L2/(2*R*Ls) which, at the end of a full transition curve of length L, reduces to the standard form L2/2R (for the total spiral length)."
+  },
+  {
+    "q": "9. A simple circular curve is designated by",
+    "options": [
+      "radius of the curve",
+      "curvature of the curve",
+      "angle subtended at the centre by a chord of any length",
+      "angle subtended at the centre by a chord of particular length"
+    ],
+    "correct": 3,
+    "explain": "A simple circular curve is designated by its degree of curve, which is the angle subtended at the centre by a chord of a specified (particular) standard length."
+  },
+  {
+    "q": "10. An imaginary line tangent to the longitudinal curve of the bubble tube at its middle points is called",
+    "options": [
+      "axis of telescope",
+      "axis of level tube",
+      "level line",
+      "line of collimation"
+    ],
+    "correct": 1,
+    "explain": "This is the definition of the axis of the level tube - the imaginary line tangent to the bubble tube's curved surface at its centre point."
+  },
+  {
+    "q": "11. The tangent to the liquid surface in a level tube, is parallel to the axis of the bubble",
+    "options": [
+      "every point of the bubble",
+      "either end of the bubble",
+      "the mid-point of the bubble",
+      "no where"
+    ],
+    "correct": 2,
+    "explain": "The tangent to the curved liquid surface of the level tube is parallel to the bubble tube's axis specifically at the mid-point of the bubble."
+  },
+  {
+    "q": "12. A reverse curve consists of",
+    "options": [
+      "a single curve of a circle connecting two straights",
+      "two arcs of different radii bending in the same direction",
+      "two arcs of equal radii bending in the same direction",
+      "two arcs of equal or different radii bending in the opposite directions"
+    ],
+    "correct": 3,
+    "explain": "A reverse curve is composed of two circular arcs (of equal or different radii) that curve in opposite directions, joined at a common tangent point."
+  },
+  {
+    "q": "13. When the centers of the arcs lie on the opposite sides of the common tangent at the junction of the two curves, it is known as a",
+    "options": [
+      "simple curve",
+      "vertical curve",
+      "compound curve",
+      "reverse curve"
+    ],
+    "correct": 3,
+    "explain": "This specific geometric arrangement, where the centres of curvature of the two joined arcs lie on opposite sides of their common tangent, defines a reverse curve."
+  },
+  {
+    "q": "14. The angle between the back tangent and forward tangent of a curve is known as",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The angle subtended at the centre of the curve between the back tangent and the forward tangent (or equivalently between the two radii to the tangent points) is called the central angle."
+  },
+  {
+    "q": "15. The angle by which the forward tangent deflects from the back tangent of a curve is called",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The deflection angle is, by definition, the angle by which the forward tangent direction deflects from the direction of the back tangent."
+  },
+  {
+    "q": "16. The length of peg interval for flat curves is",
+    "options": [
+      "15 m",
+      "20 m",
+      "25 m",
+      "30 m"
+    ],
+    "correct": 3,
+    "explain": "For flat (large radius) curves, pegs are usually set out at the full standard chord interval of 30 m, as used for the degree-of-curve definition."
+  },
+  {
+    "q": "17. Different grades are jointed together by",
+    "options": [
+      "transition curve",
+      "horizontal curve",
+      "vertical curve",
+      "compound curve"
+    ],
+    "correct": 2,
+    "explain": "Vertical curves are used to smoothly join two different longitudinal gradients (grades) on a road or railway alignment."
+  },
+  {
+    "q": "18. When the curve is to be set out over a rough ground, the method used is",
+    "options": [
+      "Rankine's method",
+      "Two theodolite method",
+      "Tacheometric method",
+      "either 'b' or 'c'"
+    ],
+    "correct": 3,
+    "explain": "For setting out curves over rough or obstructed ground where linear (chain/tape) methods are impractical, either the two-theodolite method or the tacheometric method can be used, both relying primarily on angular/optical measurement."
+  },
+  {
+    "q": "19. The theodolite method of setting out a curve involves",
+    "options": [
+      "linear measurements only",
+      "angular measurements only",
+      "both linear and angular measurements",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Setting out a curve using a theodolite (with the chord/deflection angle method) requires both linear measurements (chord lengths) and angular measurements (deflection angles)."
+  },
+  {
+    "q": "20. The angle of intersection of a curve is the angle between",
+    "options": [
+      "forward tangent and back tangent",
+      "forward tangent and long chord",
+      "both of above",
+      "none of above"
+    ],
+    "correct": 0,
+    "explain": "As stated in Q12, the angle of intersection of a curve is the angle between the (prolongation of) back tangent and the forward tangent."
+  },
+  {
+    "q": "21. Overturning of vehicles on a curve can be avoided by using",
+    "options": [
+      "compound curve",
+      "vertical curve",
+      "transition curve",
+      "reverse curve"
+    ],
+    "correct": 2,
+    "explain": "A transition curve gradually introduces superelevation and centrifugal force, preventing sudden lateral forces that could cause vehicles to overturn when entering a circular curve."
+  },
+  {
+    "q": "22. Different grades are joined together by",
+    "options": [
+      "compound curve",
+      "transition curve",
+      "reverse curve",
+      "vertical curve"
+    ],
+    "correct": 3,
+    "explain": "Two different longitudinal gradients (grades) meeting at a summit or valley are smoothly joined together using a vertical curve."
+  },
+  {
+    "q": "23. The curve composed of two arcs of different radii having their centers on the opposite side of the curve, is known",
+    "options": [
+      "a simple curve",
+      "a compound curve",
+      "a reverse curve",
+      "a vertical curve"
+    ],
+    "correct": 2,
+    "explain": "A reverse curve consists of two arcs of different (or equal) radii with their centres of curvature on opposite sides of the common tangent point, causing the curve to reverse direction."
+  },
+  {
+    "q": "24. Perpendicular offset from a tangent to the junction of a transition curve and circular curve equal to",
+    "options": [
+      "shift",
+      "twice the shift",
+      "thrice the shift",
+      "four times the shift"
+    ],
+    "correct": 0,
+    "explain": "The perpendicular offset from the tangent to the point where the transition curve meets the circular curve is, by definition, equal to the shift of the curve."
+  },
+  {
+    "q": "25. The properties of autogenous curve for automobiles are given by",
+    "options": [
+      "true spiral",
+      "cubic parabola",
+      "bernoulli's lemniscate",
+      "clothoid spiral"
+    ],
+    "correct": 3,
+    "explain": "The path naturally traced by a vehicle turning at constant speed with uniformly changing steering angle corresponds closely to the properties of the clothoid spiral, making it the ideal transition curve for automobiles."
+  },
+  {
+    "q": "26. If D is the degree of the curve of radius R, the exact length of its specified chord, is",
+    "options": [
+      "radius of the curve x sine of half the degree",
+      "diameter of the curve x sine of half the degree",
+      "diameter of the curve x cosine of half the degree",
+      "diameter of the curve x tangent of half the degree"
+    ],
+    "correct": 1,
+    "explain": "The exact chord length corresponding to the degree of curve D is given by the diameter of the curve multiplied by the sine of half the degree of curve (2R sin(D/2))."
+  },
+  {
+    "q": "27. The angle between the back tangent and forward tangent of a curve (in degrees) and length of the chord is 30 m, then the relation between R and D is",
+    "options": [
+      "deflection angle",
+      "central angle",
+      "angle of intersection",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "The angle between the back tangent and forward tangent of a curve is, by definition, the central angle (angle subtended at the centre) of the curve."
+  },
+  {
+    "q": "28. In a lemniscate curve, the angle between the tangent at the end of the polar ray and the tangent at the commencement of the curve (i.e., straight) is ... the angle between the polar ray and the straight",
+    "options": [
+      "equal to",
+      "double",
+      "three times",
+      "four times"
+    ],
+    "correct": 1,
+    "explain": "For a lemniscate curve, the angle between the tangent at the end of the polar ray and the initial tangent is exactly double the angle between the polar ray itself and the straight, per the geometric properties of the lemniscate."
+  },
+  {
+    "q": "29. A reverse curve consists of",
+    "options": [
+      "a single curve of a circle connecting two straights",
+      "two arcs of different radii bending in the same direction",
+      "two arcs of equal radii bending in the same direction",
+      "two arcs of equal or different radii bending in the same direction"
+    ],
+    "correct": 3,
+    "explain": "A reverse curve is made up of two circular arcs, of equal or different radii, that bend in the same direction relative to their own tangents, reversing overall alignment direction."
+  },
+  {
+    "q": "30. The deflection angle may have any value between",
     "options": [
       "0 and 45",
       "0 and 90",
@@ -11,7 +330,7 @@
     "explain": "A deflection angle, measured as the deviation of a survey line from the prolongation of the previous line, may take any value between 0 and 180 degrees."
   },
   {
-    "q": "2. The angle by which the forward tangent deflects from the back tangent of a curve is known as",
+    "q": "31. The angle by which the forward tangent deflects from the back tangent of a curve is known as",
     "options": [
       "deflection angle",
       "central angle",
@@ -22,7 +341,7 @@
     "explain": "This angle, by which the forward tangent deviates from the back tangent, is by definition the deflection angle of the curve."
   },
   {
-    "q": "3. A deflection angle is",
+    "q": "32. A deflection angle is",
     "options": [
       "less than 90",
       "more than 90 but less than 180",
@@ -33,51 +352,7 @@
     "explain": "As per the book's answer key, a deflection angle generally falls between 90 and 180 degrees in typical usage described here."
   },
   {
-    "q": "4. The perpendicular offset from a tangent to the junction of transition curve and circular curve is equal to",
-    "options": [
-      "L/6R",
-      "L/24R",
-      "L^2/6R",
-      "L^2/24R"
-    ],
-    "correct": 3,
-    "explain": "The perpendicular offset from the tangent to the junction point of the transition and circular curve equals L^2/(24R), which is the shift of the curve, where L is the transition curve length and R is the radius."
-  },
-  {
-    "q": "5. The shift of a curve is equal to",
-    "options": [
-      "L/6R",
-      "L/24R",
-      "L^2/6R",
-      "L^2/24R"
-    ],
-    "correct": 3,
-    "explain": "The shift of a curve, needed to accommodate the insertion of a transition curve, is given by the standard formula L^2/(24R)."
-  },
-  {
-    "q": "6. The polar equation for a lemniscate curve is",
-    "options": [
-      "l = k*sqrt(sin theta)",
-      "l = k*sqrt(sin 2theta)",
-      "l = k*sqrt(cos theta)",
-      "l = k*sqrt(cos 2theta)"
-    ],
-    "correct": 1,
-    "explain": "The polar equation of a lemniscate curve, used in curve transition design, is given by l = k*sqrt(sin 2theta), where theta is the polar deflection angle."
-  },
-  {
-    "q": "7. A lemniscate curve between the tangents is transitional throughout, if the polar deflection angle of its apex is equal to",
-    "options": [
-      "phi/3",
-      "phi/4",
-      "phi/5",
-      "phi/6"
-    ],
-    "correct": 1,
-    "explain": "A lemniscate curve remains fully transitional throughout its length between the tangents if the polar deflection angle at its apex equals phi/4, where phi is the total angle of deflection."
-  },
-  {
-    "q": "8. If the radius of a simple curve is 600 m, the maximum length of the chord for calculating offsets, is taken",
+    "q": "33. If the radius of a simple curve is 600 m, the maximum length of the chord for calculating offsets, is taken",
     "options": [
       "10 m",
       "15 m",
@@ -86,16 +361,5 @@
     ],
     "correct": 3,
     "explain": "Using the rule that chord length should not exceed R/20, for R=600m the maximum chord works out to 30 m, matching the book's answer key."
-  },
-  {
-    "q": "9. A lemniscate curve will not be transitional throughout, if its deflection angle, is",
-    "options": [
-      "45",
-      "60",
-      "90",
-      "120"
-    ],
-    "correct": 2,
-    "explain": "A lemniscate curve fails to remain fully transitional throughout its length if the deflection angle equals 90 degrees, per the specific geometric limitation of the curve."
   }
 ]

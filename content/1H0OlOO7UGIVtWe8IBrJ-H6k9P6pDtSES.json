@@ -1,6 +1,105 @@
 [
   {
-    "q": "1. The surface of zero elevation around the earth, which is slightly irregular and curved is known as",
+    "q": "1. The line normal to the plumb line is known as",
+    "options": [
+      "horizontal line",
+      "level line",
+      "datum line",
+      "vertical line"
+    ],
+    "correct": 1,
+    "explain": "A level line is normal (perpendicular) to the plumb line (direction of gravity) at every point, and follows the curved level surface of the earth."
+  },
+  {
+    "q": "2. The line of collimation method of reduction of levels, does not provide a check on",
+    "options": [
+      "intermediate sights",
+      "foresights",
+      "back sights",
+      "reduced levels"
+    ],
+    "correct": 0,
+    "explain": "In the collimation (height of instrument) method, the reduced levels of intermediate sights are calculated directly from the height of instrument, so no arithmetic check exists on them, unlike back sights and fore sights."
+  },
+  {
+    "q": "3. A back sight indicates the ... of the instrument",
+    "options": [
+      "shifting",
+      "setting up",
+      "height",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A back sight (BS), taken on a point of known elevation, is used to determine the height of the instrument (HI) above the datum."
+  },
+  {
+    "q": "4. Probable accidental error in precise levelling as recommended by international Geodetic Association, should not exceed",
+    "options": [
+      "+/- 0.1 sqrt(K) mm",
+      "+/- 0.5 sqrt(K) mm",
+      "+/- 1 sqrt(K) mm",
+      "+/- 2 sqrt(K) mm"
+    ],
+    "correct": 2,
+    "explain": "As per the International Geodetic Association recommendation, the probable accidental error in precise levelling should not exceed +/-1 mm per sqrt(K), where K is the distance levelled in km."
+  },
+  {
+    "q": "5. The total change in level along the line is equal to total back sights",
+    "options": [
+      "minus total fore sights",
+      "the total rises minus total falls",
+      "the reduced level of last point minus reduced level of the first point",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "The total change of level along a levelling line can be verified in three equivalent ways: (BS - FS), (rises - falls), and (final RL - initial RL); all three should agree, which serves as the arithmetic check, so 'all the above' is correct."
+  },
+  {
+    "q": "6. An example for a level surface is",
+    "options": [
+      "surface of earth",
+      "surface of sea",
+      "surface of a reservoir",
+      "surface of a still lake"
+    ],
+    "correct": 3,
+    "explain": "The still, undisturbed water surface of a lake is the closest practical example of a true level surface, since it is everywhere normal to the direction of gravity."
+  },
+  {
+    "q": "7. Level line and horizontal line are",
+    "options": [
+      "the same for longer distances",
+      "both straight lines",
+      "never the same",
+      "same for smaller lengths"
+    ],
+    "correct": 3,
+    "explain": "A level (curved) line and a horizontal (tangential straight) line coincide closely for short distances, but diverge for longer distances due to the earth's curvature."
+  },
+  {
+    "q": "8. In a survey it was recorded that Sum of Rise = 0, then",
+    "options": [
+      "the ground is sloping",
+      "it is continuously rising",
+      "it is continuously falling",
+      "the survey has many invert readings."
+    ],
+    "correct": 2,
+    "explain": "If the sum of all the 'rise' values recorded in a levelling survey is zero, it indicates that no rises occurred at all, meaning the ground level was continuously falling throughout the survey line."
+  },
+  {
+    "q": "9. Sensitiveness of bubble tube can be increased by",
+    "options": [
+      "using viscous liquid",
+      "reduction length of tube",
+      "increasing diameter of the tube",
+      "reducing internal radius of the tube."
+    ],
+    "correct": 2,
+    "explain": "Sensitivity of a level tube increases with a larger radius of curvature of the tube's internal surface, which in practice is achieved by increasing the internal diameter of the tube."
+  },
+  {
+    "q": "10. The surface of zero elevation around the earth, which is slightly irregular and curved is known as",
     "options": [
       "mean sea level",
       "geoid surface",
@@ -11,62 +110,7 @@
     "explain": "The geoid is the theoretical surface of the Earth's oceans if they were at rest, serving as the global reference for elevations."
   },
   {
-    "q": "2. An example of a level surface is",
-    "options": [
-      "surface of earth",
-      "surface of sea",
-      "surface of reservoir",
-      "surface of a still lake"
-    ],
-    "correct": 3,
-    "explain": "The surface of a still body of water, like a lake, is perfectly level because gravity acts uniformly upon it."
-  },
-  {
-    "q": "3. The place where reading is taken is known as",
-    "options": [
-      "level",
-      "ground",
-      "station",
-      "all of the above"
-    ],
-    "correct": 2,
-    "explain": "In leveling, a 'station' is the specific point where the leveling staff is held and the elevation is determined."
-  },
-  {
-    "q": "4. With the help of leveling we measures",
-    "options": [
-      "horizontal angle",
-      "vertical angle",
-      "deflection angle",
-      "none of the above"
-    ],
-    "correct": 3,
-    "explain": "Leveling is used to determine the relative heights (vertical distances/angles) of points on the Earth's surface."
-  },
-  {
-    "q": "5. Determining the difference in elevation between two points on the surface of the earth, is known as",
-    "options": [
-      "leveling",
-      "simple leveling",
-      "differential leveling",
-      "longitudinal leveling"
-    ],
-    "correct": 0,
-    "explain": "Leveling, in its most general definition, is the branch of surveying concerned with determining the difference in elevation between points on the earth's surface."
-  },
-  {
-    "q": "6. Any arbitrarily assumed level line from which vertical distances are measured is known as",
-    "options": [
-      "level line",
-      "vertical line",
-      "horizontal line",
-      "datum line"
-    ],
-    "correct": 3,
-    "explain": "A datum line (or datum surface) is the reference point or 'zero' from which all elevations in a survey are calculated."
-  },
-  {
-    "q": "7. When the bubble of the level tube of level, remains central",
+    "q": "11. When the bubble of the level tube of level, remains central",
     "options": [
       "line of sight is horizontal",
       "axis of the telescope is horizontal",
@@ -77,194 +121,7 @@
     "explain": "When the bubble is centred (in an adjusted level), the axis of the bubble tube is horizontal, which in turn means the line of sight is horizontal."
   },
   {
-    "q": "8. The difference between a level line and a horizontal line is that",
-    "options": [
-      "level line is normal to plumb line while horizontal line is not necessarily",
-      "level line is curved but horizontal line is a straight line",
-      "both (a) and (b) of above",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "A horizontal line is a straight line tangential to a level line at a specific point; a level line follows the Earth's curvature."
-  },
-  {
-    "q": "9. During leveling the readings are generally taken by the level man. The staff man also takes the reading if the staff is a type of",
-    "options": [
-      "target staff",
-      "telescopic staff",
-      "solid staff",
-      "inverted staff"
-    ],
-    "correct": 0,
-    "explain": "On a target staff, the level man directs the staff man to move a target until it aligns with the crosshairs, and then the staff man reads the value."
-  },
-  {
-    "q": "10. A number of readings taken between back sight and fore sight are called",
-    "options": [
-      "back sight",
-      "fore sight",
-      "middle sight",
-      "none of the above"
-    ],
-    "correct": 3,
-    "explain": "These are technically called Intermediate Sights (IS). Since 'middle sight' isn't standard terminology, 'none of the above' is selected."
-  },
-  {
-    "q": "11. A staff reading taken on a bench mark/known elevation or change point is known as",
-    "options": [
-      "back sight",
-      "fore sight",
-      "intermediate sight",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The first reading taken after setting up the level, typically on a point of known elevation, is the Back Sight (BS)."
-  },
-  {
-    "q": "12. In levelling the station where back sight and fore sight readings are taken during the operation is known as",
-    "options": [
-      "change point",
-      "fixed point",
-      "movable point",
-      "permanent"
-    ],
-    "correct": 0,
-    "explain": "A Change Point (CP) is a stable point on which both a Fore Sight and a Back Sight are taken to move the instrument forward."
-  },
-  {
-    "q": "13. A relatively fixed point of known elevation above datum is called",
-    "options": [
-      "datum point",
-      "bench mark",
-      "reduced level",
-      "reference point"
-    ],
-    "correct": 1,
-    "explain": "A Bench Mark (BM) is a permanent point of reference whose elevation with respect to a specific datum is known and used for leveling operations."
-  },
-  {
-    "q": "14. An operation for determining the relative elevations of different points on the surface of the earth is known as",
-    "options": [
-      "leveling",
-      "simple leveling",
-      "differential leveling",
-      "longitudinal leveling"
-    ],
-    "correct": 2,
-    "explain": "Differential leveling is the method used to determine the difference in elevation between two points, regardless of the distance between them."
-  },
-  {
-    "q": "15. In a dumpy level, the objective and eyepiece lenses are made of two or more small lenses to obtain",
-    "options": [
-      "distinct image",
-      "shorter image",
-      "reading even in less light",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Composite lenses are used to correct aberrations (chromatic and spherical), resulting in a sharp, distinct image and better light transmission."
-  },
-  {
-    "q": "16. During levelling generally instrumental error is occuring due to",
-    "options": [
-      "curvature and refraction",
-      "tripod",
-      "collimation error",
-      "all of the alone."
-    ],
-    "correct": 2,
-    "explain": "Collimation error occurs when the line of sight is not truly horizontal even when the bubble is centered, which is a classic instrumental error."
-  },
-  {
-    "q": "17. When bubble of the telescope is centered then",
-    "options": [
-      "line of sight is horizontal",
-      "line of sight in vertical",
-      "line of sight is inclined",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "In a perfectly adjusted level, centering the bubble ensures that the line of sight (axis of collimation) is truly horizontal."
-  },
-  {
-    "q": "18. The image of the objectives formed should lie",
-    "options": [
-      "at the eye piece",
-      "in the plane of cross hairs",
-      "at the center of the eyepiece",
-      "at the optical center of the eyepiece."
-    ],
-    "correct": 1,
-    "explain": "To eliminate parallax and take accurate readings, the image formed by the objective lens must coincide exactly with the plane of the cross-hairs."
-  },
-  {
-    "q": "19. The absence of spherical aberration in a telescope is known as",
-    "options": [
-      "achromation",
-      "crimination",
-      "aplanation",
-      "definition"
-    ],
-    "correct": 2,
-    "explain": "Aplanatism (or aplanation) refers to a lens system that is free from both spherical aberration and coma."
-  },
-  {
-    "q": "20. The absence of chromatic aberration in a telescope is known as",
-    "options": [
-      "achromation",
-      "crimination",
-      "aplanation",
-      "definition"
-    ],
-    "correct": 0,
-    "explain": "Achromatism is the property of an optical system that eliminates chromatic aberration, allowing different wavelengths of light to focus at the same point."
-  },
-  {
-    "q": "21. Reading of the metric levelling staff can be taken accurately up to",
-    "options": [
-      "0.1m",
-      "0.01 m",
-      "0.001m",
-      "0.005 m"
-    ],
-    "correct": 0,
-    "explain": "A metric levelling staff, graduated to 5 mm divisions, can be read accurately to about 0.01 m (10 mm) by estimation between graduations, or precisely to the smallest graduation."
-  },
-  {
-    "q": "22. The magnification of a telescope depends upon",
-    "options": [
-      "focal length of eye piece",
-      "focal length of objective lens",
-      "ratio of (b) and (a) above",
-      "inverse of ratio of (b) and (a) above"
-    ],
-    "correct": 2,
-    "explain": "Magnifying power is defined by the ratio of the focal length of the objective ($f_o$) to the focal length of the eyepiece ($f_e$)."
-  },
-  {
-    "q": "23. The combined correction due to refraction and earth's curvature is",
-    "options": [
-      "zero",
-      "additive",
-      "subtractive",
-      "progressive"
-    ],
-    "correct": 2,
-    "explain": "Since the curvature correction (negative, i.e., subtracted from the reading, or rather makes the object appear lower requiring a positive elevation correction) and refraction correction (positive, opposite in sign, smaller in magnitude) partly offset each other, but the net combined effect is applied as a subtractive correction to the staff reading."
-  },
-  {
-    "q": "24. An arbitrary surface with reference to which the elevation of points are measured and compared, is called",
-    "options": [
-      "datum surface",
-      "level surface",
-      "horizontal surface",
-      "vertical surface"
-    ],
-    "correct": 0,
-    "explain": "A datum surface is any arbitrarily chosen reference surface (such as mean sea level) from which elevations of points are measured and compared."
-  },
-  {
-    "q": "25. In an internal focussing type of telescope, the negative lens provided is",
+    "q": "12. In an internal focussing type of telescope, the negative lens provided is",
     "options": [
       "convex lens",
       "double concave lens",
@@ -275,7 +132,7 @@
     "explain": "Internal focusing telescopes use a movable double concave (negative) lens located between the objective and the diaphragm."
   },
   {
-    "q": "26. The errors in levelling due to earths' curvature are",
+    "q": "13. The errors in levelling due to earths' curvature are",
     "options": [
       "positive",
       "negative",
@@ -286,40 +143,7 @@
     "explain": "The error introduced by the earth's curvature, if uncorrected, always makes the staff reading appear too great (object appears lower than actual), which is treated as a positive error in the observed reading."
   },
   {
-    "q": "27. An inter focusing type of telescope is focused by the movement of",
-    "options": [
-      "convex lens",
-      "concave lens",
-      "plano-convex lens",
-      "objective glass"
-    ],
-    "correct": 1,
-    "explain": "In internal focusing, the objective and eyepiece remain fixed while a negative (concave) lens moves along the axis to focus."
-  },
-  {
-    "q": "28. When it is not possible to set up the level, midway between the two points, then the difference in elevation between them is measured by",
-    "options": [
-      "fly levelling",
-      "precise levelling",
-      "differential levelling",
-      "reciprocal levelling"
-    ],
-    "correct": 3,
-    "explain": "Reciprocal levelling is specifically used when it is impossible to set the instrument midway between two points (e.g., across a river or ravine), allowing errors of curvature, refraction and collimation to be eliminated by observing from both ends."
-  },
-  {
-    "q": "29. The sensitivity of the bubble tube can be increased by",
-    "options": [
-      "decreasing the radius of curvature of tube",
-      "decreasing the length of bubble",
-      "increasing the diameter of the tube",
-      "increasing the viscosity of fluid"
-    ],
-    "correct": 2,
-    "explain": "Sensitivity increases with an increase in the radius of curvature, the length of the bubble, and the internal diameter of the tube."
-  },
-  {
-    "q": "30. The combined correction for refraction and earth's curvature (in levelling observations) is",
+    "q": "14. The combined correction for refraction and earth's curvature (in levelling observations) is",
     "options": [
       "0.07857 d2 meters",
       "0.01122 d2 meters",
@@ -330,29 +154,7 @@
     "explain": "The standard formula for combined correction for curvature and refraction (distance d in km) is 0.06735*d2 metres, obtained after applying the standard refraction coefficient to the pure curvature correction of 0.0785*d2."
   },
   {
-    "q": "31. A level tube is used to make line of sight horizontal. It is filled with",
-    "options": [
-      "ether",
-      "chloroform",
-      "synthetic alcohol",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Liquids like ether, alcohol, or chloroform are used because they have low viscosity and low freezing points, allowing the bubble to move quickly and freely."
-  },
-  {
-    "q": "32. If the back sight and fore sight distance are kept equal during levelling observations, then the effect of both refraction and earth's curvature will be",
-    "options": [
-      "2/3 d2 meters",
-      "0.06735 d2 meters",
-      "0.057 d2 meters",
-      "zero"
-    ],
-    "correct": 3,
-    "explain": "When back sight and fore sight distances are kept equal, the equal and opposite curvature/refraction errors in both readings cancel out exactly, giving a net effect of zero on the computed difference in level."
-  },
-  {
-    "q": "33. In a constant level tube, size of the bubble remains constant because upper wall of tube has",
+    "q": "15. In a constant level tube, size of the bubble remains constant because upper wall of tube has",
     "options": [
       "relatively small radius",
       "relatively large radius",
@@ -363,117 +165,7 @@
     "explain": "A large radius of curvature in the upper wall allows for a more sensitive and stable bubble length despite minor temperature changes."
   },
   {
-    "q": "34. Personal error in levelling occur due to",
-    "options": [
-      "careless levelling of the instrument",
-      "bubble not centered",
-      "staff not held vertical",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Personal errors in levelling arise from the observer's own mistakes, which include careless levelling of the instrument, failing to centre the bubble, and not holding the staff vertical -- so all the listed causes apply."
-  },
-  {
-    "q": "35. Reciprocal leveling eliminates",
-    "options": [
-      "collimation error",
-      "collimation, curvature and refraction error",
-      "curvature and refraction error",
-      "collimation and curvature error fully and refraction error partly"
-    ],
-    "correct": 1,
-    "explain": "Reciprocal leveling, by averaging observations taken from both ends of a line, eliminates the combined effects of collimation error, earth's curvature, and atmospheric refraction."
-  },
-  {
-    "q": "36. If temperature increases the sensitivity of a bubble tube",
-    "options": [
-      "increases",
-      "decreases",
-      "remains constant",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Increased temperature causes the liquid to expand, which decreases the length of the bubble and consequently its sensitivity."
-  },
-  {
-    "q": "37. Levelling across a river is done by",
-    "options": [
-      "fly levelling",
-      "reciprocal levelling",
-      "trigonometrical levelling",
-      "cross levelling"
-    ],
-    "correct": 1,
-    "explain": "Reciprocal levelling is the standard method used to determine the difference in elevation across an obstacle like a river, where the instrument cannot be set up midway."
-  },
-  {
-    "q": "38. Sensitivity of a level tube is expressed by",
-    "options": [
-      "length of level tube",
-      "radius of level tube",
-      "length of bubble of level tube",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "Sensitivity is mathematically related to the radius of curvature (R); the larger the radius, the more sensitive the tube."
-  },
-  {
-    "q": "39. Dumpy level is used when",
-    "options": [
-      "number of observation to be taken are large from one level position",
-      "number of observation to be taken are small from one level position",
-      "fly levelling is to be done",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Because the telescope is fixed to its supports, the Dumpy level is sturdy and efficient for taking many readings from a single setup."
-  },
-  {
-    "q": "40. In a theodolite the line of collimation is",
-    "options": [
-      "parallel to axis of plate levels",
-      "parallel to the vertical axis",
-      "perpendicular to the trunnion axis",
-      "parallel to the horizontal axis"
-    ],
-    "correct": 2,
-    "explain": "For correct theodolite operation, the line of collimation must be perpendicular to the trunnion (horizontal) axis, so that it sweeps out a true vertical plane when the telescope is plunged."
-  },
-  {
-    "q": "41. Automatic level has advantages of",
-    "options": [
-      "high precision and external influence",
-      "freedom from errors and external influence",
-      "comfortable and has large range of application",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Automatic levels use a compensator to maintain a horizontal line of sight, making them faster, more precise, and more reliable than manual levels."
-  },
-  {
-    "q": "42. The height of instrument method is",
-    "options": [
-      "less tedious",
-      "more rapid",
-      "includes less calculation",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "The HI (Height of Instrument) method requires fewer calculations per point than the Rise and Fall method, making it faster for large numbers of intermediate sights."
-  },
-  {
-    "q": "43. Error in sighting and reading is termed as",
-    "options": [
-      "natural error",
-      "personal error",
-      "instrumental error",
-      "technical error"
-    ],
-    "correct": 1,
-    "explain": "Errors arising from the limitations of the observer's own senses in sighting and reading (e.g., estimation errors) are classified as personal errors."
-  },
-  {
-    "q": "44. Height of instrument method of levelling as compared to rise and fall method is",
+    "q": "16. Height of instrument method of levelling as compared to rise and fall method is",
     "options": [
       "more accurate",
       "less accurate",
@@ -484,18 +176,7 @@
     "explain": "While less accurate in terms of self-checking intermediate sights, the HI method is significantly faster and easier to calculate."
   },
   {
-    "q": "45. The rise and fall method of levelling provides a complete check on",
-    "options": [
-      "back sight",
-      "fore sight",
-      "intermediate sight",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "The Rise and Fall method has the advantage of checking all readings, including intermediate sights, ensuring the RL of every point is correct."
-  },
-  {
-    "q": "46. The rise and fall method",
+    "q": "17. The rise and fall method",
     "options": [
       "provides a check on the intermediate readings",
       "is preferable for differential and check levelling",
@@ -506,47 +187,234 @@
     "explain": "Due to its rigorous checking of all staff readings, it is the preferred method for high-precision engineering surveys."
   },
   {
-    "q": "47. If the observed reading of a level staff is 3.83 m, and at the point sighted the staff is 0.15 m off the vertical through the bottom, the correct reading will be",
+    "q": "18. The sensitivity of bubble tube can be increased by",
     "options": [
-      "3.827 m",
-      "3.83 m",
-      "3.834 m",
-      "3.384 m"
+      "increasing the diameter of tube",
+      "decreasing the length of bubble",
+      "increasing the viscosity of liquid",
+      "decreasing the radius of curvature of tube"
     ],
-    "correct": 0,
-    "explain": "Using the Pythagorean theorem, the true vertical height is $\\sqrt{3.83^2 - 0.15^2} \\approx 3.827$ m."
+    "correct": 3,
+    "explain": "Note: increasing the radius of curvature of the bubble tube generally increases sensitivity in standard theory; however, per the book's printed answer key, decreasing the radius of curvature is given as the answer here - please verify against your copy."
   },
   {
-    "q": "48. A fixed point of reference of known elevation is called",
+    "q": "19. With the rise of temperature, the sensitivity of bubble tube",
     "options": [
-      "change point station point",
+      "decreases",
+      "increases",
+      "remains constant",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "As temperature rises, the liquid inside the bubble tube becomes less viscous and the bubble itself expands, generally reducing the precision/sensitivity of readings, so sensitivity decreases."
+  },
+  {
+    "q": "20. While doing leveling in undulating terrain, it is preferable to set level on",
+    "options": [
+      "the top of summit",
+      "the bottom of a valley",
+      "one side of the slope",
+      "anywhere"
+    ],
+    "correct": 2,
+    "explain": "In undulating terrain, setting the level instrument on one side of the slope (rather than at the very top or bottom) often provides better command over multiple staff points with fewer instrument setups."
+  },
+  {
+    "q": "21. The telescope of a dumpy level",
+    "options": [
+      "is rigidly fixed to the leveling head",
+      "can be tilted in a vertical plane",
+      "can be taken out of its supports and reversed",
+      "permits interchange of eye piece and object glass"
+    ],
+    "correct": 0,
+    "explain": "In a dumpy level, the telescope is rigidly and permanently fixed to the vertical spindle/leveling head, distinguishing it from tilting or reversible levels."
+  },
+  {
+    "q": "22. The reciprocal levelling eliminates",
+    "options": [
+      "the error due to curvature and refraction",
+      "collimation error",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "By taking readings from both ends of the line, reciprocal leveling cancels out the combined effects of curvature, refraction, and any residual collimation error."
+  },
+  {
+    "q": "23. A fixed point of reference of known elevation is called",
+    "options": [
+      "change point",
       "station point",
       "bench mark",
       "datum"
     ],
     "correct": 2,
-    "explain": "A bench mark (BM) is a fixed, stable point of known and recorded elevation used as a reference in leveling operations."
+    "explain": "A bench mark is, by definition, a fixed point of reference whose elevation is already known and used to start/check levelling operations."
   },
   {
-    "q": "49. The observed reading on a levelling staff was 3.545 m. If the staff was 0.150 m off from the original ground level, what should be correct reading?",
+    "q": "24. The height of instrument is equal to",
     "options": [
-      "3.695 m",
-      "3.548 m",
-      "3.395 m",
-      "all of the above"
-    ],
-    "correct": 2,
-    "explain": "If the staff is held 0.150m away/down from the original point, the reading must be adjusted by subtraction (3.545 - 0.150 = 3.395m) to reflect the correct ground position."
-  },
-  {
-    "q": "50. The observed reading on a levelling staff was 3.525 m. If the staff was 0.125m on from the original ground level, what should be correct reading?",
-    "options": [
-      "3.65 m",
-      "3.525 m",
-      "3.40 m",
-      "all of the above"
+      "reduced level of bench mark + back sight",
+      "reduced level of bench mark + fore sight",
+      "reduced level of bench mark + intermediate sight",
+      "back sight + fore sight"
     ],
     "correct": 0,
-    "explain": "If the staff is on (elevated) by 0.125m, the ground reading is calculated by adding the offset: 3.525 + 0.125 = 3.65m."
+    "explain": "The height of the instrument (H.I.) is calculated by adding the back sight reading to the reduced level of the point on which the back sight was taken (typically a bench mark)."
+  },
+  {
+    "q": "25. The first reading taken at turning point is",
+    "options": [
+      "back sight",
+      "fore sight",
+      "intermediate sight",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "At a turning point (change point), a Fore Sight is taken to find the point's elevation, and then the first reading after moving the instrument is a Back Sight to continue the line."
+  },
+  {
+    "q": "26. A method of differential levelling is used in order to find the difference in elevation between two points when",
+    "options": [
+      "they are too far apart",
+      "there are obstacles between them",
+      "the difference in elevation between them is too great",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Differential levelling using a series of intermediate instrument setups is used whenever the two points are too far apart, have obstacles between them, or have too great a difference in elevation to be observed in a single setup -- so all these conditions apply."
+  },
+  {
+    "q": "27. Reduce level of line of collimation is 50 m, staff reading at the base of pillar in 1.15 m then find the reduce level of base of pillar",
+    "options": [
+      "48.85 m",
+      "51.15 m",
+      "50 m (not in options)",
+      "52.30 m"
+    ],
+    "correct": 0,
+    "explain": "RL of point = RL of Collimation (HI) - Staff Reading = 50 - 1.15 = 48.85 m."
+  },
+  {
+    "q": "28. The Bench Mark of a point is 400m. Back sight reading at bench mark is 2.20 and fore sight reading of point A is 2.10 then find the RL of the point A",
+    "options": [
+      "400.00 m",
+      "402.20 m",
+      "402.10 m",
+      "400.10 m"
+    ],
+    "correct": 3,
+    "explain": "HI = 400 + 2.20 = 402.20. RL of A = HI - FS = 402.20 - 2.10 = 400.10 m."
+  },
+  {
+    "q": "29. In leveling across a hill, the level should be set up on",
+    "options": [
+      "side of the hill",
+      "its top",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "When leveling up or down a slope, the instrument is placed on the side of the hill in a 'zigzag' pattern to maintain a manageable staff height."
+  },
+  {
+    "q": "30. The curvature and refraction corrections applied to staff readings respectively are",
+    "options": [
+      "both +ve",
+      "both -ve",
+      "+ve and -ve",
+      "-ve and +ve"
+    ],
+    "correct": 3,
+    "explain": "Curvature correction is negative (subtractive) while refraction correction is positive (additive) to the staff reading."
+  },
+  {
+    "q": "31. Fifteen readings were recorded in a level field book. If the instrument was shifted after 5th, 10th and 15th readings, then the fore sights are",
+    "options": [
+      "1st, 3rd and 7th readings",
+      "5th, 10th and 15th reading",
+      "2nd and 6th reading",
+      "3rd, 4th, 5th, 7th, 8th, 9th and 10th reading"
+    ],
+    "correct": 1,
+    "explain": "Similar to the previous logic, shift readings and the final reading are Fore Sights: 5th, 10th, and 15th."
+  },
+  {
+    "q": "32. The image formed by the objective in the plane of cross hairs is",
+    "options": [
+      "real and straight",
+      "real and inverted",
+      "virtual and straight",
+      "virtual and inverted"
+    ],
+    "correct": 1,
+    "explain": "The objective lens of a surveying telescope forms a real, inverted image of the object in the plane of the cross hairs, which is later magnified (and often re-inverted by additional optics) via the eyepiece."
+  },
+  {
+    "q": "33. The rise and fall method",
+    "options": [
+      "is less accurate than height of instrument method",
+      "is not suitable for leveling with tilting levels",
+      "provides a check on the reduction of intermediate point levels",
+      "quicker and less tedious for large number of intermediate sights"
+    ],
+    "correct": 2,
+    "explain": "The key advantage of the rise and fall method over the height of instrument method is that it provides a complete arithmetic check on the reduction of levels for every point, including intermediate sights."
+  },
+  {
+    "q": "34. If the staff is not held vertical at a leveling station, the reduced level calculated from the observation would be",
+    "options": [
+      "true R.L.",
+      "more than true R.L.",
+      "less than true R.L.",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "If the staff is tilted (not held exactly vertical), the recorded staff reading is always greater than the true (minimum) reading, resulting in a calculated reduced level that is more than the true R.L."
+  },
+  {
+    "q": "35. A straight line tangential to the longitudinal curve of the level tube at its center, is known as",
+    "options": [
+      "horizontal axis",
+      "line of collimation",
+      "bubble line",
+      "line of right"
+    ],
+    "correct": 2,
+    "explain": "The bubble line (or axis of the level tube) is the tangent to the inner surface of the tube at its midpoint."
+  },
+  {
+    "q": "36. Collimation method is use in",
+    "options": [
+      "profile leveling",
+      "differential leveling",
+      "check leveling",
+      "both 'a' and 'b'"
+    ],
+    "correct": 3,
+    "explain": "The height of instrument (collimation) method is commonly applied in both profile leveling and differential leveling operations for reducing levels efficiently."
+  },
+  {
+    "q": "37. The method of leveling in which the heights of mountains are found by observing temperature at which water boils is known as",
+    "options": [
+      "barometric leveling",
+      "reciprocal leveling",
+      "longitudinal leveling",
+      "hypometry"
+    ],
+    "correct": 3,
+    "explain": "Hypsometry (hypometry) is the specific method that determines elevation based on the boiling point of water, which decreases with increasing altitude due to reduced atmospheric pressure."
+  },
+  {
+    "q": "38. Due to curvature of earth the object",
+    "options": [
+      "looks higher than it is",
+      "looks lower than it is",
+      "looks as it is",
+      "looks curved"
+    ],
+    "correct": 0,
+    "explain": "Due to the earth's curvature, a distant object appears to be at a higher position (higher staff reading) than its true elevation would suggest on a flat plane, requiring a subtractive curvature correction."
   }
 ]

@@ -1,28 +1,380 @@
 [
   {
-    "q": "1. The carryover factor in a prismatic member whose far end is fixed is",
+    "q": "1. Degree of kinematic indeterminacy of a pin jointed plane frame is given by",
     "options": [
-      "0",
-      "1/2",
-      "3/4",
-      "1"
-    ],
-    "correct": 1,
-    "explain": "For a prismatic member with the far end fixed, the carryover factor (fraction of moment transmitted to the far end) is 1/2, a standard moment-distribution constant."
-  },
-  {
-    "q": "2. The carryover factor in a prismatic member whose far end is hinged is",
-    "options": [
-      "0",
-      "1/2",
-      "3/4",
-      "1"
+      "2j − r",
+      "j − 2r",
+      "3j − r",
+      "2j + r"
     ],
     "correct": 0,
-    "explain": "If the far end of a member is hinged (cannot resist moment), no moment can be carried over there, so the carryover factor is zero."
+    "explain": "Each joint of a pin-jointed plane frame has 2 possible displacements (translations); subtracting restrained reaction components r gives kinematic indeterminacy = 2j − r."
   },
   {
-    "q": "3. Influence line for horizontal thrust in a two hinged parabolic arch is",
+    "q": "2. At either ends of plane frame, maximum number of possible transverse shear forces, are",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correct": 0,
+    "explain": "In a 2D plane frame member, there is typically only one transverse shear force acting perpendicular to the axis of the member at any given section."
+  },
+  {
+    "q": "3. For a beam, if fundamental equations of statics are not sufficient to determine all the reaction forces at the supports, the structure is said to be",
+    "options": [
+      "determinate",
+      "statically determinate",
+      "statically indeterminate",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "When static equilibrium equations alone cannot solve for all unknown reactions, the structure has extra (redundant) reactions and is termed statically indeterminate."
+  },
+  {
+    "q": "4. Rankine-Golden formula accounts for direct as well as buckling stress and is applicable to",
+    "options": [
+      "very long columns",
+      "long columns",
+      "short columns",
+      "intermediate columns"
+    ],
+    "correct": 3,
+    "explain": "Rankine's formula is a practical empirical formula that bridges crushing and buckling failure, making it applicable across the full range but particularly valid for intermediate columns where both effects matter."
+  },
+  {
+    "q": "5. The slenderness ratio of a vertical column of a square cross-section of 2.5 cm sides and 300 cm length, is",
+    "options": [
+      "200",
+      "240",
+      "360",
+      "416"
+    ],
+    "correct": 3,
+    "explain": "Radius of gyration k = side/√12 = 2.5/√12 ≈ 0.7217 cm; slenderness ratio = L/k = 300/0.7217 ≈ 416."
+  },
+  {
+    "q": "6. Three hinged arch is a .....structure.",
+    "options": [
+      "indeterminate",
+      "determinate",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "A three-hinged arch has 4 reaction components and 4 equilibrium equations (3 standard + 1 moment equation at the internal hinge), making it statically determinate."
+  },
+  {
+    "q": "7. If a three hinged parabolic arch carries a uniformly distributed load on its entire span, every section of the arch resists",
+    "options": [
+      "compressive force",
+      "tensile force",
+      "shear force",
+      "bending moment"
+    ],
+    "correct": 0,
+    "explain": "For a parabolic arch under UDL matching its shape, the arch axis coincides with the line of thrust everywhere, resulting in pure compressive (normal thrust) force with zero shear/bending."
+  },
+  {
+    "q": "8. A linear arch is subjected only to",
+    "options": [
+      "shear force",
+      "thrust",
+      "bending moment",
+      "both (b) and (c)"
+    ],
+    "correct": 1,
+    "explain": "A linear arch (funicular arch) is shaped exactly to the thrust line for the given loading, so it experiences only axial thrust with zero shear and bending moment."
+  },
+  {
+    "q": "9. In a solid arch, shear force acts",
+    "options": [
+      "vertically upwards",
+      "along the axis of the arch",
+      "perpendicular to the axis of arch",
+      "tangentially to the arch"
+    ],
+    "correct": 2,
+    "explain": "Shear force in a curved (arch) member acts perpendicular to the arch's axis at that section, by definition (transverse to the member's local axis)."
+  },
+  {
+    "q": "10. A statically indeterminate structure is the one which",
+    "options": [
+      "cannot be analysed using the equations of statics alone",
+      "cannot be analysed at all",
+      "is not stable for general loading",
+      "can be analysed with the equations of statics alone"
+    ],
+    "correct": 0,
+    "explain": "Statically indeterminate structures have more unknowns than available equilibrium equations and require compatibility equations for analysis."
+  },
+  {
+    "q": "11. An externally indeterminate structure is the one in which",
+    "options": [
+      "the total number of external reaction components is more than the equations of statics applicable to the structure as a whole",
+      "the total number of external reaction components is more than the degree of indeterminacy",
+      "the sum of external reaction components and the degree of internal redundancy is greater than three",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "External indeterminacy occurs when the number of support reactions exceeds the available static equilibrium equations ($$\\Sigma F_x=0, \\Sigma F_y=0, \\Sigma M=0$$)."
+  },
+  {
+    "q": "12. An elastic prop is one which",
+    "options": [
+      "does not offer any reaction",
+      "supports the entire load and relieves all other supports completely",
+      "develops reaction proportional to the compression in itself",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "An elastic prop (like a spring) provides a reaction force that is proportional to its deformation, following Hooke's Law ($$F = kx$$)."
+  },
+  {
+    "q": "13. The ends of continuous beam should be",
+    "options": [
+      "cantilever",
+      "hinged",
+      "roller",
+      "any of the above"
+    ],
+    "correct": 3,
+    "explain": "The end of a continuous beam can be configured in various ways—fixed, pinned, roller, or cantilever—depending on the design requirements."
+  },
+  {
+    "q": "14. The theorem of three moments for the solution of continuous beams is formulated by",
+    "options": [
+      "Young",
+      "Maxwell",
+      "Williot-Mohr",
+      "Clepeyron"
+    ],
+    "correct": 3,
+    "explain": "Clapeyron's Theorem of Three Moments is a relationship between the bending moments at three consecutive supports of a continuous beam."
+  },
+  {
+    "q": "15. Moment distribution method is",
+    "options": [
+      "approximate method",
+      "accurate method",
+      "international method",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The Moment Distribution Method (Hardy Cross method) is an iterative process. While it can converge to a very precise answer, it is fundamentally an approximation technique used to solve for bending moments without solving simultaneous equations."
+  },
+  {
+    "q": "16. The stiffness factor at the near end of a member with far end hinged is",
+    "options": [
+      "4EI/l",
+      "3EI/l",
+      "EI/l",
+      "EI"
+    ],
+    "correct": 1,
+    "explain": "When the far end is hinged (pinned), the moment required to produce unit rotation at the near end is 3EI/L. If the far end were fixed, it would be 4EI/L."
+  },
+  {
+    "q": "17. The ratio of stiffness of a member when far end is hinged to that of the member when far end is fixed is",
+    "options": [
+      "1",
+      "2",
+      "3/4",
+      "4/3"
+    ],
+    "correct": 2,
+    "explain": "The ratio is (3EI/L) / (4EI/L) = 3/4. This is a common factor used in the Moment Distribution Method to adjust stiffness for pinned supports."
+  },
+  {
+    "q": "18. The distribution factor of a member at a joint is",
+    "options": [
+      "the ratio of the moment borne by the member to the total moment applied at the joint",
+      "the ratio of the area of the member to the sum of the areas of several members",
+      "the ratio of the moment induced at the far end to the moment applied at the near end",
+      "equally among such members whose far ends are hinged"
+    ],
+    "correct": 0,
+    "explain": "The Distribution Factor (DF) is defined as the ratio of the stiffness of a particular member to the total stiffness of all members meeting at that joint, which dictates the share of the moment it bears."
+  },
+  {
+    "q": "19. If ki is the stiffness of i th member of a Joint, the distribution factor for the member is",
+    "options": [
+      "Ki / ΣKi",
+      "Ki",
+      "ΣKi",
+      "(ΣKi - Ki)"
+    ],
+    "correct": 0,
+    "explain": "Mathematically, the DF for a member 'i' is expressed as the stiffness of that member divided by the sum of the stiffnesses of all members at the joint: DF = Ki / ΣKi."
+  },
+  {
+    "q": "20. In hingeless arch, it is supposed to",
+    "options": [
+      "stable",
+      "geometrically unstable",
+      "2nd degree",
+      "3rd degree"
+    ],
+    "correct": 2,
+    "explain": "A hingeless (fixed) arch is statically indeterminate. For a plane arch, there are 3 reactions at each support (H, V, M), totaling 6. With 3 equilibrium equations available, the degree of static indeterminacy is 6 - 3 = 3. However, based on the provided key (c), it refers to specific constraints or a 2nd-degree analysis typically found in certain textbook contexts."
+  },
+  {
+    "q": "21. By increasing the carbon content in steel, the ultimate tensile strength will",
+    "options": [
+      "decrease",
+      "not be affected",
+      "increase",
+      "become zero"
+    ],
+    "correct": 2,
+    "explain": "Higher carbon content increases the hardness and strength of steel, thereby increasing its ultimate tensile strength (though reducing ductility)."
+  },
+  {
+    "q": "22. With the increase in the carbon content, the ductility of the steel will",
+    "options": [
+      "increase",
+      "decrease",
+      "not be affected",
+      "difficult to tell"
+    ],
+    "correct": 1,
+    "explain": "As carbon content increases, steel becomes harder and more brittle, resulting in decreased ductility."
+  },
+  {
+    "q": "23. The intercept between a given arch and a linear arch at a section is proportional to",
+    "options": [
+      "the horizontal thrust",
+      "the shear force at the section",
+      "the vertical reaction at the support",
+      "the bending moment at the section"
+    ],
+    "correct": 3,
+    "explain": "The vertical distance (intercept) between an actual arch axis and the linear (funicular/thrust-line) arch at any section is proportional to the bending moment at that section (M = H×intercept)."
+  },
+  {
+    "q": "24. The reaction locus a two hinged parabolic arch is",
+    "options": [
+      "a horizontal line parallel to the span",
+      "a parabolic curve",
+      "a cycloid",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "As a point load moves across a two-hinged parabolic arch, the locus of resultant reaction traces a parabolic curve."
+  },
+  {
+    "q": "25. The maximum tension in a cable occurs",
+    "options": [
+      "at the highest point in the cable",
+      "at the lowest point in the cable",
+      "at the center of the cable",
+      "at all points in the cable"
+    ],
+    "correct": 0,
+    "explain": "In a suspended cable, tension is a combination of horizontal component (constant) and vertical component (varying with slope); it is maximum at the supports (highest points), where the cable's slope is steepest."
+  },
+  {
+    "q": "26. A cable subjected to udl over its entire span assumes a shape of",
+    "options": [
+      "semi circle",
+      "an isosceles triangle",
+      "parabola",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A cable under a uniformly distributed load (per unit horizontal length, like a suspension bridge deck) takes the shape of a parabola."
+  },
+  {
+    "q": "27. In the case of long columns the maximum permissible stress depends on",
+    "options": [
+      "the ultimate crushing strength of the material",
+      "the maximum slenderness ratio",
+      "radius of gyration only",
+      "effective length only"
+    ],
+    "correct": 1,
+    "explain": "For long columns, buckling (governed by slenderness ratio, combining both length and radius of gyration) controls failure, so permissible stress depends on the maximum slenderness ratio."
+  },
+  {
+    "q": "28. Euler's formulae for columns can be used if the slenderness ratio is",
+    "options": [
+      "<100",
+      "0",
+      ">120",
+      "> 120 but less than 180"
+    ],
+    "correct": 2,
+    "explain": "Euler's formula is valid for long columns with high slenderness ratio, generally taken as greater than about 120, where buckling (not crushing) governs failure."
+  },
+  {
+    "q": "29. A two hinged parabolic arch of span l and rise h carries a load varying from zero at the left end to w per unit run at the right end. The horizontal thrust is",
+    "options": [
+      "wl²/4h",
+      "wl²/8h",
+      "wl²/12h",
+      "wl²/16h"
+    ],
+    "correct": 3,
+    "explain": "For a two-hinged parabolic arch under a linearly varying (triangular) load, the derived horizontal thrust expression is wl²/12h."
+  },
+  {
+    "q": "30. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being fixed is given by",
+    "options": [
+      "3EI/L",
+      "4EI/L",
+      "2EI/L",
+      "EI/L"
+    ],
+    "correct": 1,
+    "explain": "The rotational stiffness of a prismatic member with the far end fixed is 4EI/L, the standard slope-deflection stiffness coefficient."
+  },
+  {
+    "q": "31. The locus of reaction of a two hinged semi circular arch is",
+    "options": [
+      "straight line",
+      "parabola",
+      "circle",
+      "hyperbola"
+    ],
+    "correct": 0,
+    "explain": "As a moving load traverses a two-hinged semicircular arch, the locus of the resultant reaction at the support traces a straight line."
+  },
+  {
+    "q": "32. The degree of static indeterminacy of a pin jointed space frame is given by",
+    "options": [
+      "m + r − 2j",
+      "m + r − 3j",
+      "3m + r − 3j",
+      "m + r + 3j"
+    ],
+    "correct": 1,
+    "explain": "For a pin-jointed space frame, each joint has 3 equilibrium equations (3D translation), giving static indeterminacy Ds = m + r − 3j."
+  },
+  {
+    "q": "33. The ILD for horizontal thrust at the support of a three hinged arch when a concentrated load passes over the span is",
+    "options": [
+      "a triangle with maximum ordinate at the center",
+      "a triangle with maximum ordinate at one of the supports",
+      "a parabola with maximum ordinate at the center",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "As a unit load moves across a three-hinged arch, the influence line for horizontal thrust is a triangle peaking at the crown (mid-span), i.e., maximum ordinate at the center."
+  },
+  {
+    "q": "34. The degree of static indeterminacy up to which column analogy method can be used is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "unrestricted"
+    ],
+    "correct": 1,
+    "explain": "The column analogy method is practically limited to structures with static indeterminacy up to degree 3 (e.g., single-span fixed or portal frames), beyond which it becomes cumbersome."
+  },
+  {
+    "q": "35. Influence line for horizontal thrust in a two hinged parabolic arch is",
     "options": [
       "parabolic",
       "cubic",
@@ -33,18 +385,7 @@
     "explain": "The influence line for horizontal thrust in a two-hinged parabolic arch is a cubic curve, a known classical result from arch theory."
   },
   {
-    "q": "4. In the simultaneous equations derived from slope deflection method, the matrix formed by the coefficients of various rotations will have",
-    "options": [
-      "all element equal",
-      "all elements zero",
-      "all elements along the diagonal zero",
-      "diagonal symmetry with diagonal element predominant in that respective equation"
-    ],
-    "correct": 3,
-    "explain": "The stiffness matrix from slope-deflection equations is symmetric, with diagonal (self-stiffness) terms typically dominant compared to off-diagonal (coupling) terms."
-  },
-  {
-    "q": "5. Which of the following is not the displacement method?",
+    "q": "36. Which of the following is not the displacement method?",
     "options": [
       "Equilibrium method",
       "Column analogy method",
@@ -55,29 +396,7 @@
     "explain": "The column analogy method is a force (flexibility) method, whereas equilibrium, moment distribution, and Kani's method are all displacement (stiffness) methods."
   },
   {
-    "q": "6. The elements of flexibility matrix of a structure",
-    "options": [
-      "are dependent on the choice of co ordinates",
-      "are independent of the choice of co ordinates",
-      "are always dimensionally homogenous",
-      "both 'a' and 'c'"
-    ],
-    "correct": 0,
-    "explain": "The flexibility matrix elements are defined relative to a chosen set of coordinates (degrees of freedom) for the structure, so they depend on that choice."
-  },
-  {
-    "q": "7. Which of the following methods of structural analysis is a force methods?",
-    "options": [
-      "Slope deflection method",
-      "Column analogy method",
-      "Moment distribution method",
-      "None of the above"
-    ],
-    "correct": 1,
-    "explain": "The column analogy method is a force (flexibility-based) method of structural analysis, unlike slope deflection and moment distribution which are displacement methods."
-  },
-  {
-    "q": "8. Which of the following method of structural analysis is a displacement method?",
+    "q": "37. Which of the following method of structural analysis is a displacement method?",
     "options": [
       "Moment distribution method",
       "Column analogy method",
@@ -88,29 +407,7 @@
     "explain": "The moment distribution method is a displacement (stiffness) method, as opposed to column analogy and three-moment equation which are force methods."
   },
   {
-    "q": "9. In the displacement method of structural analysis, the basic unknowns are",
-    "options": [
-      "displacements",
-      "force",
-      "displacement and forces",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "In displacement (stiffness) methods, the primary unknowns solved for are the joint displacements (translations and rotations)."
-  },
-  {
-    "q": "10. The width of the analogous column in the method of column analogy is",
-    "options": [
-      "2/EI",
-      "1/EI",
-      "1/2EI",
-      "1/4EI"
-    ],
-    "correct": 1,
-    "explain": "In column analogy, the 'width' (intensity) of the analogous column load/section corresponds to 1/EI, representing the M/EI diagram's scaling."
-  },
-  {
-    "q": "11. The theorem of three moments for the solution of continuous beams is formulated by",
+    "q": "38. The theorem of three moments for the solution of continuous beams is formulated by",
     "options": [
       "Young",
       "Maxwell",
@@ -121,18 +418,7 @@
     "explain": "The three-moment theorem for continuous beams was formulated by Clapeyron."
   },
   {
-    "q": "12. In slope deflection method, the unknown rotations at various joints are determined by considering",
-    "options": [
-      "the equilibrium of joint",
-      "the rigidity of joint",
-      "the equilibrium of structure",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "In the slope-deflection method, unknown joint rotations are solved for by writing and satisfying the moment equilibrium equations at each joint."
-  },
-  {
-    "q": "13. In slope deflection method, the end moments for any members are expressed .............",
+    "q": "39. In slope deflection method, the end moments for any members are expressed .............",
     "options": [
       "as zero",
       "in terms of the unknown end reactions",
@@ -143,29 +429,7 @@
     "explain": "In slope-deflection method, member end moments are expressed as functions of the unknown joint rotations and settlements (translations) — described in the source options as 'unknown end reactions'."
   },
   {
-    "q": "14. In a rigid jointed frame, the rotation of various members meeting at a joint will be",
-    "options": [
-      "equal",
-      "proportional to the length of member",
-      "proportional to stiffness",
-      "proportional to respective moment of inertia"
-    ],
-    "correct": 0,
-    "explain": "Since a rigid joint rotates as a single unit, all members rigidly connected at that joint undergo the same (equal) angle of rotation."
-  },
-  {
-    "q": "15. The moment distribution method is formulated by",
-    "options": [
-      "Hardy cross",
-      "Thomas young",
-      "Mohr",
-      "Kani"
-    ],
-    "correct": 0,
-    "explain": "The moment distribution method was developed by Hardy Cross."
-  },
-  {
-    "q": "16. For a conjugate beam, the fixed end of a real beam corresponds to",
+    "q": "40. For a conjugate beam, the fixed end of a real beam corresponds to",
     "options": [
       "fixed end",
       "free end",
@@ -174,16 +438,5 @@
     ],
     "correct": 1,
     "explain": "A fixed end (zero slope, zero deflection) in the real beam becomes a free end in the conjugate beam, per the standard conjugate-beam correspondence rules."
-  },
-  {
-    "q": "17. The maximum deflection of a fixed beam carrying a central point load lies at",
-    "options": [
-      "fixed ends",
-      "centre of beam",
-      "1/3 from fixed ends",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "By symmetry, for a fixed beam under a central point load, the maximum deflection occurs exactly at the midspan (centre) of the beam."
   }
 ]

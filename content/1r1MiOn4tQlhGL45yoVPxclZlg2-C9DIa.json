@@ -1,17 +1,6 @@
 [
   {
-    "q": "1. Venturimeter is used to",
-    "options": [
-      "measure the velocity of a flowing liquid",
-      "measure the pressure of a flowing liquid",
-      "measure the discharge of liquid flowing in a pipe",
-      "measure the pressure difference of liquid flowing between two points"
-    ],
-    "correct": 2,
-    "explain": "A venturimeter is a standard device used to calculate the volume flow rate (discharge) in a pipeline."
-  },
-  {
-    "q": "2. The length of the divergent cone in a venturimeter is _________ that of the convergent cone.",
+    "q": "1. The length of the divergent cone in a venturimeter is _________ that of the convergent cone.",
     "options": [
       "equal to",
       "double",
@@ -22,18 +11,7 @@
     "explain": "The divergent cone is longer (angle of 5-7°) to prevent flow separation and minimize energy loss."
   },
   {
-    "q": "3. The velocity of the liquid flowing through the divergent portion of a venturimeter",
-    "options": [
-      "remains constant",
-      "increases",
-      "decreases",
-      "depends upon mass of liquid"
-    ],
-    "correct": 2,
-    "explain": "As the cross-sectional area increases in the divergent part, the velocity must decrease per the continuity equation."
-  },
-  {
-    "q": "4. The divergent portion of a venturimeter is made longer than convergent portion in order to",
+    "q": "2. The divergent portion of a venturimeter is made longer than convergent portion in order to",
     "options": [
       "avoid the tendency of breaking away the stream of liquid",
       "to minimize frictional losses",
@@ -44,84 +22,7 @@
     "explain": "A gradual expansion (longer length) ensures the flow stays attached to the walls, preventing turbulence and boundary layer separation."
   },
   {
-    "q": "5. In order to measure the flow with a venturimeter, it is installed in",
-    "options": [
-      "horizontal line",
-      "inclined line with flow upwards",
-      "inclined line with flow downwards",
-      "any direction and in any location"
-    ],
-    "correct": 3,
-    "explain": "A venturimeter works accurately in any orientation as long as the Bernoulli equation accounts for the change in elevation (Z)."
-  },
-  {
-    "q": "6. Coefficient of resistance is the ratio of",
-    "options": [
-      "actual velocity to theoretical velocity",
-      "area at vena contracta to area of orifice",
-      "loss of head in the orifice to the head available at exit",
-      "actual discharge to theoretical discharge"
-    ],
-    "correct": 2,
-    "explain": "Coefficient of resistance (Cr) relates the energy loss due to friction to the available kinetic head."
-  },
-  {
-    "q": "7. A jet of water discharging from a 40 mm diameter orifice has a diameter of 32 mm at its vena contracta. The coefficient of contraction is",
-    "options": [
-      "0.46",
-      "0.64",
-      "0.78",
-      "0.87"
-    ],
-    "correct": 1,
-    "explain": "Cc = Area of jet / Area of orifice = (32/40)² = 0.8² = 0.64."
-  },
-  {
-    "q": "8. Coefficient of velocity is defined as the ratio of",
-    "options": [
-      "actual velocity of jet at vena contracta to the theoretical velocity",
-      "area of jet at vena contracta to the area of orifice",
-      "actual discharge through an orifice to the theoretical discharge",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "Cv = Actual Velocity / Theoretical Velocity. It accounts for losses due to friction."
-  },
-  {
-    "q": "9. The theoretical velocity of jet at vena contracta is",
-    "options": [
-      "2gH",
-      "H√2g",
-      "2g√H",
-      "√2gH"
-    ],
-    "correct": 3,
-    "explain": "Derived from Bernoulli's equation (v = √2gh), assuming no losses."
-  },
-  {
-    "q": "10. Coefficient of discharge Cd is equal to",
-    "options": [
-      "Cc x Cv",
-      "Cv x Cr",
-      "Cv x Cr",
-      "Cc / Cr"
-    ],
-    "correct": 0,
-    "explain": "The overall discharge coefficient is the product of the contraction and velocity coefficients."
-  },
-  {
-    "q": "11. An average value of coefficient of velocity is",
-    "options": [
-      "0.62",
-      "0.76",
-      "0.84",
-      "0.97"
-    ],
-    "correct": 3,
-    "explain": "For a standard sharp-edged orifice, Cv typically ranges from 0.95 to 0.99."
-  },
-  {
-    "q": "12. The coefficient of velocity is determined experimentally by using the relation",
+    "q": "3. The coefficient of velocity is determined experimentally by using the relation",
     "options": [
       "Cv = √(x² / (4yH))",
       "Cv = √(x² / (4yH))",
@@ -132,18 +33,7 @@
     "explain": "Using the trajectory of the jet, where x is horizontal distance and y is vertical drop, this formula solves for actual velocity."
   },
   {
-    "q": "13. An orifice is said to be large, if",
-    "options": [
-      "the size of orifice is large",
-      "the velocity of flow is large",
-      "the available head is more than 5 times the height of orifice",
-      "the available head is less than 5 times the height of orifice"
-    ],
-    "correct": 3,
-    "explain": "If head H < 5d, the pressure variation across the orifice is significant, and it is classified as a 'large orifice'."
-  },
-  {
-    "q": "14. A pipe of length more than double the diameter of orifice fitted externally or internally to the orifice is called a",
+    "q": "4. A pipe of length more than double the diameter of orifice fitted externally or internally to the orifice is called a",
     "options": [
       "notch",
       "weir",
@@ -154,7 +44,7 @@
     "explain": "A mouthpiece is a short tube used to increase the discharge through an orifice."
   },
   {
-    "q": "15. In a short cylindrical external mouthpiece, the vena contracta occurs at a distance _________ the diameter of the orifice from the outlet of orifice.",
+    "q": "5. In a short cylindrical external mouthpiece, the vena contracta occurs at a distance _________ the diameter of the orifice from the outlet of orifice.",
     "options": [
       "equal to",
       "one-fourth",
@@ -165,18 +55,7 @@
     "explain": "For an external mouthpiece, the jet contracts to its minimum area at approximately 0.25d from the inlet."
   },
   {
-    "q": "16. The discharge through an external mouth piece is given by",
-    "options": [
-      "0.855 a √2gH",
-      "1.855 aH √2g",
-      "1.585 a √2gH",
-      "5.85 aH √2g"
-    ],
-    "correct": 0,
-    "explain": "The average Cd for an external mouthpiece is 0.855, significantly higher than a simple orifice (0.62)."
-  },
-  {
-    "q": "17. The coefficient of discharge for an external mouthpiece depends upon",
+    "q": "6. The coefficient of discharge for an external mouthpiece depends upon",
     "options": [
       "velocity of liquid",
       "pressure of liquid",
@@ -187,18 +66,7 @@
     "explain": "The length relative to diameter determines whether the mouthpiece runs full, affecting the Cd."
   },
   {
-    "q": "18. In an internal mouthpiece, if the jet after contraction does not touch the sides of the mouthpiece, then the mouthpiece is said to be",
-    "options": [
-      "running full",
-      "running free",
-      "partially running full",
-      "partially running free"
-    ],
-    "correct": 1,
-    "explain": "When the jet discharges without wetting the internal walls, it is in a 'running free' condition."
-  },
-  {
-    "q": "19. The coefficient of discharge for an external mouthpiece is",
+    "q": "7. The coefficient of discharge for an external mouthpiece is",
     "options": [
       "0.375",
       "0.5",
@@ -209,18 +77,7 @@
     "explain": "For an external cylindrical mouthpiece, the coefficient of discharge ($C_d$) is approximately 0.855, which is higher than a sharp-edged orifice due to the reduction in contraction."
   },
   {
-    "q": "20. An internal mouthpiece is said to be running free if the length of the mouthpiece is ............ the diameter of the orifice.",
-    "options": [
-      "less than twice",
-      "more than twice",
-      "less than three times",
-      "more than three times"
-    ],
-    "correct": 0,
-    "explain": "In a Borda's mouthpiece (internal), if the length is less than twice the diameter, the jet of liquid does not touch the sides, and it is said to be 'running free'."
-  },
-  {
-    "q": "21. When an internal mouthpiece is running free, the discharge through the mouthpiece is ............",
+    "q": "8. When an internal mouthpiece is running free, the discharge through the mouthpiece is ............",
     "options": [
       "0.5a√(2gH)",
       "0.707a√(2gH)",
@@ -231,40 +88,7 @@
     "explain": "For an internal mouthpiece running free, the theoretical coefficient of discharge is 0.5. Therefore, $Q = 0.5a\\sqrt{2gH}$."
   },
   {
-    "q": "22. The discharge through a convergent mouthpiece is ............ the discharge through an internal mouthpiece of the same diameter and head of water.",
-    "options": [
-      "equal to",
-      "one-half",
-      "three fourth",
-      "double"
-    ],
-    "correct": 3,
-    "explain": "A convergent mouthpiece has a $C_d$ near 1.0, while a Borda's mouthpiece running free has a $C_d$ of 0.5. Thus, the discharge through the convergent one is roughly double."
-  },
-  {
-    "q": "23. A notch is used to measure ............ of liquids.",
-    "options": [
-      "pressure",
-      "discharge",
-      "velocity",
-      "volume"
-    ],
-    "correct": 1,
-    "explain": "Notches and weirs are standard hydraulic structures used to measure the rate of flow (discharge) of liquids in open channels."
-  },
-  {
-    "q": "24. The discharge over a rectangular notch is ............",
-    "options": [
-      "2/3 Cd x b√(2gH)",
-      "2/3 Cd x b√(2g) x H",
-      "2/3 Cd x b√(2g) x H^(3/2)",
-      "2/3 Cd x b√(2g) x H^2"
-    ],
-    "correct": 2,
-    "explain": "The standard formula for discharge over a rectangular notch is $Q = \\frac{2}{3} C_d \\cdot b \\sqrt{2g} \\cdot H^{3/2}$."
-  },
-  {
-    "q": "25. The discharge over a right angled notch is ............",
+    "q": "9. The discharge over a right angled notch is ............",
     "options": [
       "8/15 Cd√(2g) x H",
       "8/15 Cd√(2g) x H^(3/2)",
@@ -275,18 +99,7 @@
     "explain": "For a V-notch (triangular notch), the discharge formula is $Q = \\frac{8}{15} C_d \\tan(\\theta/2) \\sqrt{2g} \\cdot H^{5/2}$. For a right-angled notch, $\\theta = 90°$, so $\tan(45°) = 1$."
   },
   {
-    "q": "26. If the coefficient of discharge is 0.6, then the discharge over a right angled notch is ............",
-    "options": [
-      "0.417 H^(5/2)",
-      "1.417 H^(5/2)",
-      "4.171 H^(5/2)",
-      "7.141 H^(5/2)"
-    ],
-    "correct": 1,
-    "explain": "Plugging $C_d = 0.6$ into the V-notch formula $Q = \\frac{8}{15} \\times 0.6 \times \\sqrt{2 \times 9.81} \times H^{5/2}$ results in approximately $1.417 H^{5/2}$."
-  },
-  {
-    "q": "27. The discharge over a rectangular notch is ............",
+    "q": "10. The discharge over a rectangular notch is ............",
     "options": [
       "inversely proportional to H^(3/2)",
       "directly proportional to H^(3/2)",
@@ -297,7 +110,7 @@
     "explain": "Based on the formula $Q = \frac{2}{3} C_d b \\sqrt{2g} H^{3/2}$, discharge is directly proportional to the head raised to the power of 1.5."
   },
   {
-    "q": "28. The discharge over a triangular notch is ............",
+    "q": "11. The discharge over a triangular notch is ............",
     "options": [
       "inversely proportional to H^(3/2)",
       "directly proportional to H^(3/2)",
@@ -308,7 +121,7 @@
     "explain": "Based on the formula $Q = \frac{8}{15} C_d \tan(\theta/2) \\sqrt{2g} H^{5/2}$, discharge is directly proportional to $H^{2.5}$."
   },
   {
-    "q": "29. The error in discharge (dQ/Q) to the error in measurement of head (dH/H) over a rectangular notch is given by ............",
+    "q": "12. The error in discharge (dQ/Q) to the error in measurement of head (dH/H) over a rectangular notch is given by ............",
     "options": [
       "dQ/Q = 1/2 x dH/H",
       "dQ/Q = 3/4 x dH/H",
@@ -319,18 +132,7 @@
     "explain": "By differentiating $Q = kH^{3/2}$, we get $dQ/Q = 1.5 (dH/H)$."
   },
   {
-    "q": "30. The error in discharge (dQ/Q) to the error in measurement of head (dH/H) over a triangular notch is given by ............",
-    "options": [
-      "dQ/Q = 3/2 x dH/H",
-      "dQ/Q = 2 x dH/H",
-      "dQ/Q = 5/2 x dH/H",
-      "3 x dH/H"
-    ],
-    "correct": 2,
-    "explain": "By differentiating $Q = kH^{5/2}$, we get $dQ/Q = 2.5 (dH/H)$."
-  },
-  {
-    "q": "31. An error of 1% in measuring head over the crest of the notch (H) will produce an error of ............ in discharge over a rectangular notch.",
+    "q": "13. An error of 1% in measuring head over the crest of the notch (H) will produce an error of ............ in discharge over a rectangular notch.",
     "options": [
       "1%",
       "1.5%",
@@ -341,7 +143,7 @@
     "explain": "Using $dQ/Q = 1.5 (dH/H)$, a 1% error in head results in $1.5 \times 1\\% = 1.5\\%$ error in discharge."
   },
   {
-    "q": "32. An error of 1% in measuring head over the apex of the notch (H) will produce an error of ............ in discharge over a triangular notch.",
+    "q": "14. An error of 1% in measuring head over the apex of the notch (H) will produce an error of ............ in discharge over a triangular notch.",
     "options": [
       "1%",
       "1.5%",
@@ -352,18 +154,7 @@
     "explain": "Using $dQ/Q = 2.5 (dH/H)$, a 1% error in head results in $2.5 \times 1\\% = 2.5\\%$ error in discharge."
   },
   {
-    "q": "33. A structure used to dam up a stream or river over which the water flows is called ............",
-    "options": [
-      "orifice",
-      "notch",
-      "weir",
-      "dam"
-    ],
-    "correct": 2,
-    "explain": "While a dam holds water, a 'weir' is specifically the structure built across a river over which water flows for measurement or regulation."
-  },
-  {
-    "q": "34. The sheet of water flowing over a notch or a weir is known as ............",
+    "q": "15. The sheet of water flowing over a notch or a weir is known as ............",
     "options": [
       "sill or crest",
       "nappe or vein",
@@ -374,7 +165,7 @@
     "explain": "The continuous sheet of water that overflows the weir or notch is technically called the 'nappe' or 'vein'."
   },
   {
-    "q": "35. The top of the weir over which the water flows is known as ............",
+    "q": "16. The top of the weir over which the water flows is known as ............",
     "options": [
       "sill or crest",
       "nappe or vein",
@@ -385,40 +176,7 @@
     "explain": "The top edge or surface of a weir or notch over which the water flows is called the 'crest' or 'sill'."
   },
   {
-    "q": "36. According to Francis formula, the discharge over a rectangular weir is ............",
-    "options": [
-      "2/3 Cd (L - nH) √(2gH)",
-      "2/3 Cd (L - 0.1nH) √(2g) H^(3/2)",
-      "2/3 Cd (L - nH) √(2g) H^2",
-      "2/3 Cd (L - 0.2nH) √(2g) H^(5/2)"
-    ],
-    "correct": 1,
-    "explain": "Francis formula accounts for end contractions: $Q = \frac{2}{3} C_d (L - 0.1nH) \\sqrt{2g} H^{3/2}$, where $n$ is the number of end contractions."
-  },
-  {
-    "q": "37. When the coefficient of discharge (Cd) is 0.623, then the general equation for discharge over a rectangular weir is ............",
-    "options": [
-      "1.84 (L - 0.1 nH) H^(3/2)",
-      "1.84 (L - nH) H^2",
-      "1.84 (L - 0.1nH) H^(5/2)",
-      "1.84 (L - nH) H^3"
-    ],
-    "correct": 0,
-    "explain": "Substituting $C_d = 0.623$ and $g = 9.81$ into the Francis formula $\frac{2}{3} C_d \\sqrt{2g}$ yields the constant 1.84."
-  },
-  {
-    "q": "38. The Cippoletti is a ............ weir.",
-    "options": [
-      "rectangular",
-      "triangular",
-      "trapezoidal",
-      "circular"
-    ],
-    "correct": 2,
-    "explain": "A Cippoletti weir is a trapezoidal weir with a side slope of 1 horizontal to 4 vertical (1:4)."
-  },
-  {
-    "q": "39. The Francis formula for the discharge over Cippoletti weir is ............",
+    "q": "17. The Francis formula for the discharge over Cippoletti weir is ............",
     "options": [
       "1.84 LH^(1/2)",
       "1.84 LH",
@@ -429,7 +187,7 @@
     "explain": "The Cippoletti weir is designed to compensate for end contractions, simplifying the formula to $Q = 1.84 LH^{3/2}$."
   },
   {
-    "q": "40. In a broad-crested weir, the discharge is maximum if the head of water on the downstream side of weir is ............ the head of water on the upstream side of weir.",
+    "q": "18. In a broad-crested weir, the discharge is maximum if the head of water on the downstream side of weir is ............ the head of water on the upstream side of weir.",
     "options": [
       "equal to",
       "one-third",
@@ -440,73 +198,7 @@
     "explain": "For maximum discharge over a broad-crested weir, the depth of water over the crest ($h$) should be $\frac{2}{3} H$."
   },
   {
-    "q": "41. The maximum discharge over a broad crested weir is ............",
-    "options": [
-      "0.384 Cd x L x H^(1/2)",
-      "0.384 Cd x L x H^(3/2)",
-      "1.71 Cd x L x H^(1/2)",
-      "1.71 Cd x L x H^(3/2)"
-    ],
-    "correct": 3,
-    "explain": "The maximum discharge is $Q_{max} = 1.71 C_d L H^{3/2}$, derived using the critical depth condition."
-  },
-  {
-    "q": "42. A weir, generally, used as a spillway of a dam is ............",
-    "options": [
-      "narrow crested weir",
-      "broad crested weir",
-      "Ogee weir",
-      "submerged weir"
-    ],
-    "correct": 2,
-    "explain": "An Ogee weir is shaped to follow the profile of the lower nappe of a ventilated jet, making it the most efficient and common shape for dam spillways."
-  },
-  {
-    "q": "43. When the water level on the downstream side of a weir is above the top surface of a weir, the weir is known as ............",
-    "options": [
-      "narrow-crested weir",
-      "broad-crested weir",
-      "Ogee weir",
-      "submerged weir"
-    ],
-    "correct": 3,
-    "explain": "A weir is considered submerged or drowned when the water level on the downstream side is higher than the crest of the weir."
-  },
-  {
-    "q": "44. In a free nappe ............",
-    "options": [
-      "the pressure below the nappe is atmospheric",
-      "the pressure below the nappe is negative",
-      "the pressure above the nappe is atmospheric",
-      "the pressure above the nappe is negative"
-    ],
-    "correct": 0,
-    "explain": "For a nappe to be 'free', air must circulate freely underneath it, maintaining atmospheric pressure below the water sheet."
-  },
-  {
-    "q": "45. In a depressed nappe ............",
-    "options": [
-      "the pressure below the nappe is atmospheric",
-      "the pressure below the nappe is negative",
-      "the pressure above the nappe is atmospheric",
-      "the pressure above the nappe is negative"
-    ],
-    "correct": 1,
-    "explain": "In a depressed nappe, air is trapped and partially exhausted by the flowing water, creating a partial vacuum (negative pressure) underneath."
-  },
-  {
-    "q": "46. The discharge through a siphon spillway is ............",
-    "options": [
-      "Cd x a√(2gH)",
-      "Cd x a√(2g) x H^(3/2)",
-      "Cd x a√(2g) x H^2",
-      "Cd x a√(2g) x H^(5/2)"
-    ],
-    "correct": 0,
-    "explain": "A siphon spillway acts like a large submerged orifice or pipe under a head $H$, where $H$ is the difference between upstream and downstream water levels."
-  },
-  {
-    "q": "47. According to Chezy's formula, the discharge through an open channel is ............",
+    "q": "19. According to Chezy's formula, the discharge through an open channel is ............",
     "options": [
       "A√(m x i)",
       "C√(m x i)",
@@ -517,36 +209,223 @@
     "explain": "Chezy's formula for velocity is $v = C\\sqrt{mi}$. Discharge $Q = Av$, so $Q = AC\\sqrt{mi}$."
   },
   {
-    "q": "48. According to Manning's formula, the discharge through an open channel is ............",
+    "q": "20. A venturiflume is used to measure ............",
     "options": [
-      "A x M x m^(1/2) x i^(2/3)",
-      "A x M x m^(2/3) x i^(1/2)",
-      "A^(1/2) x M^(2/3) x m x i",
-      "A^(2/3) x M^(1/3) x m x i"
+      "pressure of liquid",
+      "discharge of liquid",
+      "pressure difference between two points in a channel",
+      "pressure difference between two points in a pipe"
     ],
     "correct": 1,
-    "explain": "Manning's formula for velocity is $v = M \\cdot m^{2/3} \\cdot i^{1/2}$. Therefore, $Q = A \\cdot M \\cdot m^{2/3} \\cdot i^{1/2}$."
+    "explain": "A venturiflume is the open-channel equivalent of a venturi meter, used specifically to measure the discharge ($Q$)."
   },
   {
-    "q": "49. The discharge through a channel of rectangular section will be maximum, if ............",
+    "q": "21. The coefficient of venturiflume, generally, lies between ............",
     "options": [
-      "its depth is twice the breadth",
-      "its breadth is twice the depth",
-      "its depth is thrice the breadth",
-      "its breadth is thrice the depth"
+      "0.3 to 0.45",
+      "0.50 to 0.75",
+      "0.75 to 0.95",
+      "0.95 to 1.0"
     ],
-    "correct": 1,
-    "explain": "For a rectangular channel to be most economical, the hydraulic radius should be half the depth ($R = y/2$), which occurs when the width $b$ is twice the depth $y$ ($b = 2y$)."
+    "correct": 3,
+    "explain": "Venturiflumes are very efficient with minimal energy loss, so their coefficient of discharge ($C_d$) is typically between 0.95 and 1.0."
   },
   {
-    "q": "50. The discharge through a channel of trapezoidal section is maximum when ............",
+    "q": "22. In a venturimeter, the divergent cone is kept ...............",
     "options": [
-      "width of channel at the top is equal to twice the width at the bottom",
-      "depth of channel is equal to the width at the bottom",
-      "the sloping side is equal to half the width at the top",
-      "the sloping side is equal to the width at the bottom"
+      "shorter than convergent cone",
+      "equal to convergent cone",
+      "longer than convergent cone",
+      "none of these"
     ],
     "correct": 2,
-    "explain": "A trapezoidal section is most economical when the length of the sloping side is equal to half of the top width."
+    "explain": "The divergent cone is made longer with a smaller angle (5°-7°) to prevent flow separation and minimize energy loss due to eddy formation."
+  },
+  {
+    "q": "23. Hydraulic coefficient of an orifice means the coefficient of ...............",
+    "options": [
+      "velocity",
+      "contraction",
+      "resistance",
+      "all the above"
+    ],
+    "correct": 3,
+    "explain": "Hydraulic coefficients include Cv (velocity), Cc (contraction), and Cd (discharge), along with Cr (resistance)."
+  },
+  {
+    "q": "24. In a short cylindrical external mouthpiece, the venacontracta occurs at a distance from the outlet of orifice equal to ...............",
+    "options": [
+      "diameter of the orifice",
+      "one-fourth the diameter of the orifice",
+      "one-third the diameter of the orifice",
+      "tow-third the diameter of the orifice"
+    ],
+    "correct": 3,
+    "explain": "In an external mouthpiece, the vena contracta typically forms at a distance of about 0.5 to 0.67 times the diameter from the entrance."
+  },
+  {
+    "q": "25. In an inclined position, a venturimeter records ...............",
+    "options": [
+      "more reading",
+      "less reading",
+      "same reading",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "A venturimeter is independent of orientation (horizontal, vertical, or inclined) because it measures the differential head (h), which remains constant for the same flow."
+  },
+  {
+    "q": "26. An orifice is called a large orifice if water head, is ...............",
+    "options": [
+      "twice the diameter of the orifice",
+      "thrice the diameter of the orifice",
+      "four times the diameter of the orifice",
+      "five times the diameter of the orifice"
+    ],
+    "correct": 3,
+    "explain": "An orifice is considered 'large' if the head of water is less than 5 times the depth or diameter of the orifice, as the velocity variation across the opening becomes significant."
+  },
+  {
+    "q": "27. Discharge through a totally submerged orifice, is directly proportional to ...............",
+    "options": [
+      "difference in elevation of water surfaces",
+      "square root of the difference in elevation of water surface",
+      "square root of the opening",
+      "reciprocal of the area of the opening"
+    ],
+    "correct": 1,
+    "explain": "For a submerged orifice, the discharge $Q$ is given by $Q = C_d \\cdot A \\sqrt{2g(H_1 - H_2)}$, where $(H_1 - H_2)$ is the difference in liquid levels."
+  },
+  {
+    "q": "28. The upper surface of the weir over which water flows, is known as ...............",
+    "options": [
+      "vein",
+      "nappe",
+      "sill",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "The 'sill' or 'crest' is the top edge of the weir over which water flows. The 'nappe' refers to the actual sheet of water flowing over it."
+  },
+  {
+    "q": "29. The notch angle for maximum discharge over a triangular notch, is ...............",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correct": 2,
+    "explain": "A 90° V-notch (triangular notch) is standard for maximum efficiency and ease of calculation in water measurement."
+  },
+  {
+    "q": "30. If H is height of the liquid above the sill, the effect of end contractions, according to Francis formula, is ...............",
+    "options": [
+      "0.1 H",
+      "0.2 H",
+      "0.3 H",
+      "0.4 H"
+    ],
+    "correct": 0,
+    "explain": "Francis formula states that each end contraction reduces the effective length of the weir by $0.1H$."
+  },
+  {
+    "q": "31. The discharge through an internal mouth piece is more if its length is ...............",
+    "options": [
+      "< 1/2 diameter",
+      "< diameter",
+      "≥ diameter",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "When the length is at least 3 times the diameter (running full), the mouthpiece acts like a short pipe, increasing the coefficient of discharge ($C_d$) to about 0.707."
+  },
+  {
+    "q": "32. Pitot-tube is used to measure",
+    "options": [
+      "discharge",
+      "average velocity",
+      "velocity at a point",
+      "pressure at a point"
+    ],
+    "correct": 2,
+    "explain": "A Pitot tube is a primary instrument used to measure the local or point velocity of flow by converting kinetic energy into pressure energy at the stagnation point."
+  },
+  {
+    "q": "33. The rate of flow through a venturimeter varies as",
+    "options": [
+      "H",
+      "√H",
+      "H³/²",
+      "H⁵/²"
+    ],
+    "correct": 1,
+    "explain": "The discharge formula for a venturimeter is Q = [Cd × A1 × A2 × √(2gh)] / √(A1² - A2²). Thus, Q is proportional to the square root of the head (√H)."
+  },
+  {
+    "q": "34. The rate of flow through a V-notch varies as",
+    "options": [
+      "H",
+      "√H",
+      "H³/²",
+      "H⁵/²"
+    ],
+    "correct": 3,
+    "explain": "For a triangular notch (V-notch), the discharge Q is proportional to H^(5/2), where H is the head over the notch."
+  },
+  {
+    "q": "35. The range for co-efficient of discharge (Cd) for a venturimeter is",
+    "options": [
+      "0.6 to 0.7",
+      "0.7 to 0.8",
+      "0.8 to 0.9",
+      "0.95 to 0.99"
+    ],
+    "correct": 3,
+    "explain": "Venturimeters are highly efficient with streamlined flow, leading to a very high coefficient of discharge, typically between 0.95 and 0.99."
+  },
+  {
+    "q": "36. The ratio of actual discharge of a jet of water to its theoretical discharge is known as",
+    "options": [
+      "co-efficient of discharge",
+      "co-efficient of velocity",
+      "co-efficient of contraction",
+      "co-efficient of viscosity"
+    ],
+    "correct": 0,
+    "explain": "The Coefficient of Discharge (Cd) is defined as the ratio of Actual Discharge (Qact) to Theoretical Discharge (Qth)."
+  },
+  {
+    "q": "37. The velocity with which the water approaches a notch is called",
+    "options": [
+      "velocity of flow",
+      "velocity of approach",
+      "velocity of whirl",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Velocity of approach is the average velocity of the liquid in the channel just upstream of the notch or weir."
+  },
+  {
+    "q": "38. Francis's formula for a rectangular weir with end contraction suppressed is given as",
+    "options": [
+      "Q = 1.84 L H⁵/²",
+      "Q = 2/3 L × H³/²",
+      "Q = 1.84 L H³/²",
+      "Q = 2/3 L × H⁵/²"
+    ],
+    "correct": 2,
+    "explain": "For a suppressed rectangular weir (where length L equals channel width), Francis's formula simplifies to Q = 1.84 L H^(3/2)."
+  },
+  {
+    "q": "39. A section of a channel is most efficient if the discharge through the channel is maximum for a given",
+    "options": [
+      "area of flow",
+      "surface resistance",
+      "slope of the bed of channel",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "An efficient or economical section provides maximum discharge for a given area, resistance, and bed slope by minimizing the wetted perimeter."
   }
 ]
