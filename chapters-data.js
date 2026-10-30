@@ -628,8 +628,7 @@ const DRIVE = {
       },
       "4.4 PLANE TABLE": {
         "part 1": "15yDFFcERQirMITe1jkjdErvKmOmP1Jaz",
-        "part 2": "1u81hMmnRsqiBHHfaC8D2uxGS321wRqLI",
-        "part 3": "1EDTao8tNjFEBO9PpL6Cu3BBKh-C0QTuH"
+        "part 2": "1u81hMmnRsqiBHHfaC8D2uxGS321wRqLI"
       },
       "4.5 LEVELING": {
         "part 1": "1KljWj_IZISrSe3_fKSvmXs052atrUOue",

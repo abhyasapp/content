@@ -176,18 +176,7 @@
     "explain": "Henry Gantt developed the bar chart technique around 1900, well before CPM/PERT were developed."
   },
   {
-    "q": "17. The total cost verses time curve of an activity is",
-    "options": [
-      "a straight line",
-      "a parabola",
-      "U shaped curve",
-      "∩ shaped curve"
-    ],
-    "correct": 1,
-    "explain": "The total cost curve is generally represented as a parabola or U-shaped because it is the summation of a decreasing indirect cost and an increasing direct cost curve."
-  },
-  {
-    "q": "18. PERT adopts",
+    "q": "17. PERT adopts",
     "options": [
       "deterministic approach",
       "probabilistic approach",
@@ -198,7 +187,7 @@
     "explain": "PERT uses three time estimates and probability, so it is probabilistic."
   },
   {
-    "q": "19. PERT is",
+    "q": "18. PERT is",
     "options": [
       "activity oriented",
       "event oriented",
@@ -209,7 +198,7 @@
     "explain": "PERT focuses on milestones or 'events' (reaching a specific stage), whereas CPM focuses on the 'activities' or tasks themselves."
   },
   {
-    "q": "20. Select the incorrect statement",
+    "q": "19. Select the incorrect statement",
     "options": [
       "earliest start of an activity is the early event time of the node it leaves",
       "latest finish of an activity is the late event time of the node it enters",
@@ -220,7 +209,7 @@
     "explain": "All three statements are correct, so 'none of the above' is the answer."
   },
   {
-    "q": "21. Which one of the following represents an activity",
+    "q": "20. Which one of the following represents an activity",
     "options": [
       "curing of concrete",
       "setting of question paper",
@@ -231,7 +220,7 @@
     "explain": "All listed tasks (curing concrete, setting a question paper, preparing breakfast) are processes that take time and resources, hence all represent activities."
   },
   {
-    "q": "22. CPM family includes",
+    "q": "21. CPM family includes",
     "options": [
       "CPA (Critical Path Analysis)",
       "CPP (Critical Path Plotted)",
@@ -242,7 +231,7 @@
     "explain": "The CPM family of techniques includes Critical Path Analysis, Critical Path Plotted diagrams, and Critical Path Scheduling variants - all the above."
   },
   {
-    "q": "23. Bar chart is used for minor project, CPM is used for repetitive work while PERT is used for",
+    "q": "22. Bar chart is used for minor project, CPM is used for repetitive work while PERT is used for",
     "options": [
       "repetitive type of work",
       "limited time and unlimited resources types of work",
@@ -253,7 +242,7 @@
     "explain": "PERT is specifically designed for non-repetitive projects where time and resource requirements are uncertain."
   },
   {
-    "q": "24. Line of balance technique is used for",
+    "q": "23. Line of balance technique is used for",
     "options": [
       "planning of an project",
       "planning of an activity",
@@ -264,7 +253,7 @@
     "explain": "Line of Balance (LOB) is a management control process used for highly repetitive projects to compare actual progress against the plan."
   },
   {
-    "q": "25. Total float for any activity is defined as the difference between",
+    "q": "24. Total float for any activity is defined as the difference between",
     "options": [
       "its latest finish time and earliest start time for its successor activity",
       "its latest start time and earliest start time",
@@ -275,7 +264,7 @@
     "explain": "Total float is calculated as the difference between an activity's latest start time and its earliest start time (or equivalently, LFT - EFT)."
   },
   {
-    "q": "26. In PERT, pessimistic time is",
+    "q": "25. In PERT, pessimistic time is",
     "options": [
       "the minimum time in which any activity can possibly be accomplished",
       "the maximum time which an activity might require",
@@ -286,7 +275,7 @@
     "explain": "Pessimistic time ($t_p$) assumes everything goes wrong (excluding major disasters), representing the maximum duration."
   },
   {
-    "q": "27. In the network shown in Fig., activity 4-5 can be started only when",
+    "q": "26. In the network shown in Fig., activity 4-5 can be started only when",
     "options": [
       "activity 3-4 is completed",
       "activity 2-4 is completed",
@@ -297,7 +286,7 @@
     "explain": "From the given network, node 4 is reached only after both activities 2-4 and 3-4 are complete, so activity 4-5 requires both to finish first."
   },
   {
-    "q": "28. The latest allowable time for any event i is equal to",
+    "q": "27. The latest allowable time for any event i is equal to",
     "options": [
       "minimum of (TLj - tEij)",
       "maximum (TLj - tEij)",
@@ -308,7 +297,7 @@
     "explain": "To ensure no following activities are delayed, the latest allowable time is the minimum of the late finishes of succeeding activities minus their durations."
   },
   {
-    "q": "29. The technique which is activity oriented is",
+    "q": "28. The technique which is activity oriented is",
     "options": [
       "PERT",
       "CPM",
@@ -319,7 +308,7 @@
     "explain": "CPM is activity-oriented, focusing on individual activities and their durations, unlike PERT which is event-oriented."
   },
   {
-    "q": "30. Which one of the following represents an event?",
+    "q": "29. Which one of the following represents an event?",
     "options": [
       "Fixing of doors",
       "plastering of walls",
@@ -330,7 +319,7 @@
     "explain": "'Concrete cured' represents a completed milestone/state (an event), while the others describe ongoing activities."
   },
   {
-    "q": "31. The area under the beta-curve is divided into two equal parts by",
+    "q": "30. The area under the beta-curve is divided into two equal parts by",
     "options": [
       "expected time",
       "optimistic time",
@@ -341,7 +330,7 @@
     "explain": "The expected time ($t_e$) is the mean of the distribution, which bisects the area under the probability curve."
   },
   {
-    "q": "32. If t_o, t_p and t_L represent the optimistic, pessimistic and most likely time estimates, the expected time of completion of the activity is given by",
+    "q": "31. If t_o, t_p and t_L represent the optimistic, pessimistic and most likely time estimates, the expected time of completion of the activity is given by",
     "options": [
       "t_E = (t_o + t_L + t_p) / 3",
       "t_E = (t_o + 2t_L + t_p) / 4",
@@ -352,7 +341,7 @@
     "explain": "PERT (beta distribution) gives t_E = (t_o + 4t_L + t_p)/6."
   },
   {
-    "q": "33. In a CPM/PERT network, the number of event is",
+    "q": "32. In a CPM/PERT network, the number of event is",
     "options": [
       "less than number of activity",
       "more than the number of activity",
@@ -363,7 +352,7 @@
     "explain": "The relationship between the number of events and activities depends entirely on the network topology and the use of dummy activities."
   },
   {
-    "q": "34. In resource levelling",
+    "q": "33. In resource levelling",
     "options": [
       "total duration of project is reduced",
       "total duration of project is increased",
@@ -374,7 +363,7 @@
     "explain": "Resource levelling aims to smooth out resource demand fluctuations over the project duration, achieving a more uniform resource requirement, potentially extending duration."
   },
   {
-    "q": "35. Variance is",
+    "q": "34. Variance is",
     "options": [
       "Sum of time duration / number of jobs",
       "difference between time and mean time",
@@ -385,7 +374,7 @@
     "explain": "Mathematically, variance is the average of the squared differences from the mean."
   },
   {
-    "q": "36. Negative slack indicates",
+    "q": "35. Negative slack indicates",
     "options": [
       "ahead of schedule condition",
       "behind the schedule condition",
@@ -396,7 +385,7 @@
     "explain": "Negative slack means the event is behind schedule."
   },
   {
-    "q": "37. If \\sigma_1, \\sigma_2, \\sigma_3 \\dots are the standard deviations of completion for the activities along the critical path, the standard deviations of the time of completion of the project is given by",
+    "q": "36. If \\sigma_1, \\sigma_2, \\sigma_3 \\dots are the standard deviations of completion for the activities along the critical path, the standard deviations of the time of completion of the project is given by",
     "options": [
       "\\sigma_{tE} = \\sqrt{\\frac{\\sigma_1^2 + \\sigma_2^2 + \\sigma_3^2 \\dots}{n}}",
       "\\sigma_{tE} = \\sqrt{\\frac{\\sigma_1 + \\sigma_2 + \\sigma_3 \\dots}{n}}",
@@ -407,7 +396,7 @@
     "explain": "Standard deviation for the total project duration is computed using the square root of variances[cite: 1]."
   },
   {
-    "q": "38. The technique for establishing and maintaining priorites among the various jobs of a project, is known as",
+    "q": "37. The technique for establishing and maintaining priorites among the various jobs of a project, is known as",
     "options": [
       "event flow scheduling technique",
       "critical ratio scheduling",
@@ -418,7 +407,7 @@
     "explain": "Critical ratio scheduling evaluates priority based on remaining time versus remaining work[cite: 1]."
   },
   {
-    "q": "39. Variance is",
+    "q": "38. Variance is",
     "options": [
       "(sum of time durations for various job)/number of jobs",
       "difference between time under consideration and mean time",
@@ -429,7 +418,7 @@
     "explain": "Variance is statistically defined as the mean (average) of the squared deviations from the mean value."
   },
   {
-    "q": "40. The independent float affects only",
+    "q": "39. The independent float affects only",
     "options": [
       "preceding activities",
       "succeeding activities",
@@ -440,7 +429,7 @@
     "explain": "Independent float is the slack that affects neither predecessors nor successors, only the activity itself."
   },
   {
-    "q": "41. Float is",
+    "q": "40. Float is",
     "options": [
       "the earliest time by which an activity may commence",
       "latest time by which an activity can be delayed without hampering the completion of the project",
@@ -451,7 +440,7 @@
     "explain": "Float (slack) is precisely defined as the difference between latest allowable time and earliest expected time."
   },
   {
-    "q": "42. The free float is equal to",
+    "q": "41. The free float is equal to",
     "options": [
       "latest allowable event occurrence time + early finish time",
       "earliest event occurrence time + early finish time",
@@ -462,7 +451,7 @@
     "explain": "Free float = earliest event time of the head event – early finish time of the activity, which is option d."
   },
   {
-    "q": "43. When float or slack of an activity is positive",
+    "q": "42. When float or slack of an activity is positive",
     "options": [
       "it represents a situation where extra resources are available and the completion of project is not delayed",
       "it represents that a programme falls behind schedule and additional resources are required to complete the project in time",
@@ -473,7 +462,7 @@
     "explain": "Positive float means spare time, so the project is not delayed."
   },
   {
-    "q": "44. Construction site planning is concerned with",
+    "q": "43. Construction site planning is concerned with",
     "options": [
       "work progress at site",
       "minimize the chances of wastages, deterioration and losses",
@@ -484,7 +473,7 @@
     "explain": "Effective site planning addresses progress tracking, material management to reduce waste, and safety protocols for workers."
   },
   {
-    "q": "45. The time by which activity completion time can be delayed without affecting the start of succeeding activities, is known as:",
+    "q": "44. The time by which activity completion time can be delayed without affecting the start of succeeding activities, is known as:",
     "options": [
       "Interfering float.",
       "Total float",
@@ -495,7 +484,7 @@
     "explain": "Free float specifically measures delay possible in an activity without affecting the succeeding activity's start."
   },
   {
-    "q": "46. Completion of an activity on CPM network diagram, is generally known",
+    "q": "45. Completion of an activity on CPM network diagram, is generally known",
     "options": [
       "event",
       "node",
@@ -506,7 +495,7 @@
     "explain": "The completion point of an activity is called an event, represented as a node/connector point - all the above terms apply."
   },
   {
-    "q": "47. Variance is",
+    "q": "46. Variance is",
     "options": [
       "(Sum of time duration for various job) / number of jobs",
       "difference between time under consideration and mean time",
@@ -517,7 +506,7 @@
     "explain": "Per the answer key, c. Standard theory defines variance as the mean of squared deviations, so the key and options look garbled."
   },
   {
-    "q": "48. The total float for any activity along the critical path in CPM is",
+    "q": "47. The total float for any activity along the critical path in CPM is",
     "options": [
       "positive",
       "negative",
@@ -528,7 +517,7 @@
     "explain": "Critical activities have zero total float."
   },
   {
-    "q": "49. Critical path moves along the activities having total float?",
+    "q": "48. Critical path moves along the activities having total float?",
     "options": [
       "positive",
       "negative",
@@ -539,7 +528,7 @@
     "explain": "By definition, the critical path consists of activities with zero total float."
   },
   {
-    "q": "50. Number of pre-operation associated with an operation may be",
+    "q": "49. Number of pre-operation associated with an operation may be",
     "options": [
       "one only",
       "two only",
@@ -550,7 +539,7 @@
     "explain": "An operation can have one or more predecessors."
   },
   {
-    "q": "51. The post-operations in CPM are marked",
+    "q": "50. The post-operations in CPM are marked",
     "options": [
       "right to an operation",
       "left to an operation",
@@ -561,7 +550,7 @@
     "explain": "Successors are marked to the right."
   },
   {
-    "q": "52. Dummy activities are used to",
+    "q": "51. Dummy activities are used to",
     "options": [
       "determine the critical path",
       "determine the project completion tome",
@@ -572,7 +561,7 @@
     "explain": "Dummies maintain the required logic of the network."
   },
   {
-    "q": "53. Completion of an activity on CPM network diagram, is generally known",
+    "q": "52. Completion of an activity on CPM network diagram, is generally known",
     "options": [
       "Event",
       "Node",
@@ -583,7 +572,7 @@
     "explain": "Completion of an activity is marked by an event, represented as a node/connector point - all of above apply."
   },
   {
-    "q": "54. The flow of time in a net work is generally",
+    "q": "53. The flow of time in a net work is generally",
     "options": [
       "from left to right",
       "from right to left",
@@ -594,7 +583,7 @@
     "explain": "Time flows left to right."
   },
   {
-    "q": "55. When float or slack of an activity is positive, it represents",
+    "q": "54. When float or slack of an activity is positive, it represents",
     "options": [
       "The availability of extra resources",
       "The requirement of additional resource",
