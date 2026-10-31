@@ -176,18 +176,7 @@
     "explain": "Compatibility equations ensure that the deformed shape of the structure is geometrically continuous and consistent with the supports."
   },
   {
-    "q": "17. An internally indeterminate structure",
-    "options": [
-      "must be externally indeterminate",
-      "must be externally determinate",
-      "may be an unstable structure based on supports",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Internal indeterminacy refers to the redundancy of internal members. Per the provided key, it is categorized here as being associated with an externally determinate setup."
-  },
-  {
-    "q": "18. A sinking prop is one which",
+    "q": "17. A sinking prop is one which",
     "options": [
       "permits any amount of deflection",
       "does not permit any deflection at all",
@@ -198,7 +187,7 @@
     "explain": "A sinking prop refers to a support that undergoes a predetermined settlement or only engages once the structure has deflected to a certain point."
   },
   {
-    "q": "19. A suspension cable, supporting loads will be under",
+    "q": "18. A suspension cable, supporting loads will be under",
     "options": [
       "tension",
       "bending",
@@ -209,7 +198,7 @@
     "explain": "A flexible suspension cable can only carry axial tension (it cannot resist bending or compression), so it is always under pure tension."
   },
   {
-    "q": "20. A three hinged girder is used to stiffen a cable of a suspension bridge. Then the bending moment in the girder due to loads will be",
+    "q": "19. A three hinged girder is used to stiffen a cable of a suspension bridge. Then the bending moment in the girder due to loads will be",
     "options": [
       "maximum at mid span",
       "maximum at quarter span",
@@ -220,7 +209,7 @@
     "explain": "In an ideal stiffened suspension system with a three-hinged girder matching the cable's thrust line, the girder carries zero bending moment throughout, all load being carried by cable tension."
   },
   {
-    "q": "21. Which of the following structural analysis is a force method?",
+    "q": "20. Which of the following structural analysis is a force method?",
     "options": [
       "slope deflection",
       "column analogy",
@@ -231,7 +220,7 @@
     "explain": "Column analogy treats the redundants as forces, making it a force-based method."
   },
   {
-    "q": "22. Stiffness factor is calculated in structural members for analyzing it by",
+    "q": "21. Stiffness factor is calculated in structural members for analyzing it by",
     "options": [
       "moment distribution method",
       "slope deflection method",
@@ -242,7 +231,7 @@
     "explain": "The moment distribution method relies heavily on member stiffness to distribute unbalanced moments."
   },
   {
-    "q": "23. The stiffness method in structural analysis is also known as :",
+    "q": "22. The stiffness method in structural analysis is also known as :",
     "options": [
       "unit load method",
       "consistent deformation method",
@@ -253,7 +242,7 @@
     "explain": "The stiffness method uses displacements as the primary unknowns, hence it is a displacement method."
   },
   {
-    "q": "24. The equations of compatibility are based on",
+    "q": "23. The equations of compatibility are based on",
     "options": [
       "the geometry of the deformed structure under the action of several forces acting",
       "the nature of external forces",
@@ -264,7 +253,7 @@
     "explain": "Compatibility equations ensure that displacements/deformations throughout a structure remain geometrically consistent (continuous) under the applied loading."
   },
   {
-    "q": "25. A concentrated load P is supported by the free end of a quadrantal ring AB whose end B is fixed. The ratio of the vertical to horizontal deflections of the end A is",
+    "q": "24. A concentrated load P is supported by the free end of a quadrantal ring AB whose end B is fixed. The ratio of the vertical to horizontal deflections of the end A is",
     "options": [
       "π",
       "π/2",
@@ -275,7 +264,7 @@
     "explain": "For a quadrant ring under an end load, applying Castigliano's theorem to find vertical and horizontal deflection components gives a ratio of π/2."
   },
   {
-    "q": "26. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being simply supported is given by",
+    "q": "25. The moment required to rotate the near end of a prismatic beam through a unit angle without translation, the far end being simply supported is given by",
     "options": [
       "3EI/L",
       "4EI/L",
@@ -286,7 +275,7 @@
     "explain": "The rotational stiffness of a prismatic member with the far end simply supported (pinned) is 3EI/L, a standard slope-deflection method coefficient."
   },
   {
-    "q": "27. The degree of kinematic indeterminacy of a pin jointed space frame is",
+    "q": "26. The degree of kinematic indeterminacy of a pin jointed space frame is",
     "options": [
       "2j − r",
       "3j − r",
@@ -297,7 +286,7 @@
     "explain": "Each joint of a pin-jointed space frame has 3 possible translational displacements, so kinematic indeterminacy = 3j − r (subtracting restrained reaction components)."
   },
   {
-    "q": "28. The number of independent displacement components at each joint of a rigid jointed space frame is",
+    "q": "27. The number of independent displacement components at each joint of a rigid jointed space frame is",
     "options": [
       "1",
       "2",
@@ -308,7 +297,7 @@
     "explain": "A rigid joint in 3D space can have 3 translations and 3 rotations, giving 6 independent displacement components per joint."
   },
   {
-    "q": "29. A bar l meter long and having its area of cross section A, is subjected to a gradually applied load W. the strain energy stored in the bar is",
+    "q": "28. A bar l meter long and having its area of cross section A, is subjected to a gradually applied load W. the strain energy stored in the bar is",
     "options": [
       "WL/2AE",
       "WL/AE",
@@ -319,7 +308,7 @@
     "explain": "Strain energy stored in a bar under a gradually applied axial load W is U = W²L/2AE, the standard formula (area under the linear load-deformation curve)."
   },
   {
-    "q": "30. Which of the following is a relatively ductile material?",
+    "q": "29. Which of the following is a relatively ductile material?",
     "options": [
       "Mild steel",
       "Cast iron",
@@ -330,7 +319,7 @@
     "explain": "Mild steel, with its low carbon content, exhibits significant ductility (large elongation before failure) compared to the more brittle options listed."
   },
   {
-    "q": "31. In the simultaneous equations derived from slope deflection method, the matrix formed by the coefficients of various rotations will have",
+    "q": "30. In the simultaneous equations derived from slope deflection method, the matrix formed by the coefficients of various rotations will have",
     "options": [
       "all element equal",
       "all elements zero",
@@ -341,7 +330,7 @@
     "explain": "The stiffness matrix from slope-deflection equations is symmetric, with diagonal (self-stiffness) terms typically dominant compared to off-diagonal (coupling) terms."
   },
   {
-    "q": "32. The elements of flexibility matrix of a structure",
+    "q": "31. The elements of flexibility matrix of a structure",
     "options": [
       "are dependent on the choice of co ordinates",
       "are independent of the choice of co ordinates",
@@ -352,7 +341,7 @@
     "explain": "The flexibility matrix elements are defined relative to a chosen set of coordinates (degrees of freedom) for the structure, so they depend on that choice."
   },
   {
-    "q": "33. Which of the following methods of structural analysis is a force methods?",
+    "q": "32. Which of the following methods of structural analysis is a force methods?",
     "options": [
       "Slope deflection method",
       "Column analogy method",
@@ -363,7 +352,7 @@
     "explain": "The column analogy method is a force (flexibility-based) method of structural analysis, unlike slope deflection and moment distribution which are displacement methods."
   },
   {
-    "q": "34. In the displacement method of structural analysis, the basic unknowns are",
+    "q": "33. In the displacement method of structural analysis, the basic unknowns are",
     "options": [
       "displacements",
       "force",
@@ -374,7 +363,7 @@
     "explain": "In displacement (stiffness) methods, the primary unknowns solved for are the joint displacements (translations and rotations)."
   },
   {
-    "q": "35. The width of the analogous column in the method of column analogy is",
+    "q": "34. The width of the analogous column in the method of column analogy is",
     "options": [
       "2/EI",
       "1/EI",
@@ -385,7 +374,7 @@
     "explain": "In column analogy, the 'width' (intensity) of the analogous column load/section corresponds to 1/EI, representing the M/EI diagram's scaling."
   },
   {
-    "q": "36. The moment distribution method is formulated by",
+    "q": "35. The moment distribution method is formulated by",
     "options": [
       "Hardy cross",
       "Thomas young",
@@ -396,7 +385,7 @@
     "explain": "The moment distribution method was developed by Hardy Cross."
   },
   {
-    "q": "37. The maximum deflection of a fixed beam carrying a central point load lies at",
+    "q": "36. The maximum deflection of a fixed beam carrying a central point load lies at",
     "options": [
       "fixed ends",
       "centre of beam",

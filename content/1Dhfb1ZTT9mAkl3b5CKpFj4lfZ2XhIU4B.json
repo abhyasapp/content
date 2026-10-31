@@ -353,18 +353,7 @@
     "explain": "The starting event is the tail event."
   },
   {
-    "q": "33. A dual role event",
-    "options": [
-      "is the head events as well as a tail event",
-      "consumes no time",
-      "is the beginning of one event and the end of another",
-      "is any event other than the initial and final events"
-    ],
-    "correct": 3,
-    "explain": "Per the answer key, d. A dual role event is any event other than the first and last, since it is the head of some activities and the tail of others."
-  },
-  {
-    "q": "34. tij and tEij indicates the time required for completion of an activity in CPM and PERT respectively. Here the subscript E stands for",
+    "q": "33. tij and tEij indicates the time required for completion of an activity in CPM and PERT respectively. Here the subscript E stands for",
     "options": [
       "uncertainty factor concerned with PERT",
       "certainty factor concerned with PERT",
@@ -375,7 +364,7 @@
     "explain": "The 'E' in $t_E$ stands for 'Expected' time, which incorporates the uncertainty inherent in PERT."
   },
   {
-    "q": "35. In PERT analysis is the duration of the activities is taken as",
+    "q": "34. In PERT analysis is the duration of the activities is taken as",
     "options": [
       "optimistic time",
       "pessimistic time",
@@ -386,7 +375,7 @@
     "explain": "PERT uses the expected (mean) time, calculated from the three estimates, as the duration for each activity in scheduling calculations."
   },
   {
-    "q": "36. Find the variance if tp = 14 days, tm = 6 days and to = 2 days.",
+    "q": "35. Find the variance if tp = 14 days, tm = 6 days and to = 2 days.",
     "options": [
       "2/3",
       "2",
@@ -397,7 +386,7 @@
     "explain": "Standard deviation $\\sigma = (t_p - t_o) / 6 = (14 - 2) / 6 = 2$. Variance is $\\sigma^2$, so $2^2 = 4$."
   },
   {
-    "q": "37. Higher standard deviations means",
+    "q": "36. Higher standard deviations means",
     "options": [
       "lower uncertainity",
       "medium uncertainity",
@@ -408,7 +397,7 @@
     "explain": "Standard deviation measures dispersion; higher values indicate greater uncertainty in duration estimates[cite: 1]."
   },
   {
-    "q": "38. The mean coincides with the node, if frequency distribution curve is",
+    "q": "37. The mean coincides with the node, if frequency distribution curve is",
     "options": [
       "symmetrical",
       "unsymmetrical",
@@ -419,7 +408,7 @@
     "explain": "In a perfectly symmetrical distribution, the mean, median, and mode all coincide at the center point."
   },
   {
-    "q": "39. If the height of the frequency-distribution underneath is equal to unity, then curve is known as",
+    "q": "38. If the height of the frequency-distribution underneath is equal to unity, then curve is known as",
     "options": [
       "distribution curve",
       "skew curve",
@@ -430,7 +419,7 @@
     "explain": "A standard distribution curve where the total area (or cumulative frequency normalized) represents the whole unit."
   },
   {
-    "q": "40. The start or completion of task is called",
+    "q": "39. The start or completion of task is called",
     "options": [
       "an event",
       "an activity",
@@ -441,7 +430,7 @@
     "explain": "The start or completion of a task is an event."
   },
   {
-    "q": "41. In construction planning, an activity is",
+    "q": "40. In construction planning, an activity is",
     "options": [
       "something that required construction material",
       "an element of work which constitutes the project",
@@ -452,18 +441,7 @@
     "explain": "An activity in construction planning is defined as any identifiable element of work that constitutes part of the overall project."
   },
   {
-    "q": "42. Critical path is",
-    "options": [
-      "shortest path for the earliest completion of the project",
-      "longest path of the network from the first event to the last event",
-      "ideal path by preceding along which the project can be completed as per the schedule",
-      "the path which takes into account the completion of all the parallel activities"
-    ],
-    "correct": 2,
-    "explain": "Per the answer key, c. Standard theory says the longest path (b)."
-  },
-  {
-    "q": "43. Interfering float is the difference between",
+    "q": "41. Interfering float is the difference between",
     "options": [
       "total float and free float",
       "total float and independent float",
@@ -474,7 +452,7 @@
     "explain": "Interfering float is defined as the difference between total float and free float of an activity."
   },
   {
-    "q": "44. Pick up the incorrect statement from the following:",
+    "q": "42. Pick up the incorrect statement from the following:",
     "options": [
       "The activity which consumes maximum time, is called a node",
       "The activity is the time consuming part of a project",
@@ -485,7 +463,7 @@
     "explain": "This statement is incorrect - a 'node' represents an event (start/end point), not the activity consuming maximum time."
   },
   {
-    "q": "45. Which of the following is one of the assumptions of PERT?",
+    "q": "43. Which of the following is one of the assumptions of PERT?",
     "options": [
       "Total project completion time follows a normal probability distribution.",
       "Activity times are dependent and correlated.",
@@ -496,7 +474,7 @@
     "explain": "PERT assumes that the sum of many independent activity durations along the critical path leads to an overall project completion time following a normal distribution (by central limit theorem)."
   },
   {
-    "q": "46. Negative float for any activity means that the activity is",
+    "q": "44. Negative float for any activity means that the activity is",
     "options": [
       "super-critical",
       "sub-critical",
@@ -507,7 +485,7 @@
     "explain": "Negative float means super-critical."
   },
   {
-    "q": "47. A dummy activity",
+    "q": "45. A dummy activity",
     "options": [
       "has no tail event but only a head event",
       "has only head event but tail event",
@@ -518,7 +496,7 @@
     "explain": "A dummy consumes no time or resources."
   },
   {
-    "q": "48. Critical path",
+    "q": "46. Critical path",
     "options": [
       "is the shortest path",
       "bad 'null' slack",
@@ -529,7 +507,7 @@
     "explain": "The critical path has the minimum slack (zero or negative)."
   },
   {
-    "q": "49. An activity of the project is graphically represented by ……… on the network.",
+    "q": "47. An activity of the project is graphically represented by ……… on the network.",
     "options": [
       "a circle",
       "a straight line",
@@ -540,7 +518,7 @@
     "explain": "Activities are arrows; events are circles."
   },
   {
-    "q": "50. Which operation must complete first?",
+    "q": "48. Which operation must complete first?",
     "options": [
       "Right of the line joining two circles",
       "Left of the line joining two circle",
@@ -551,7 +529,7 @@
     "explain": "The operation on the left (the predecessor) completes first."
   },
   {
-    "q": "51. Critical path method (CPM) requires:",
+    "q": "49. Critical path method (CPM) requires:",
     "options": [
       "single time estimate",
       "double time estimate",
@@ -562,7 +540,7 @@
     "explain": "CPM uses a single deterministic time estimate for each activity, unlike PERT's three estimates."
   },
   {
-    "q": "52. Which of the following are the guidelines for the construction of a network diagram?",
+    "q": "50. Which of the following are the guidelines for the construction of a network diagram?",
     "options": [
       "Each activity is represented by one only arrow in the network",
       "Dangling must be avoided in a network diagram",
@@ -573,7 +551,7 @@
     "explain": "All three are network-construction guidelines."
   },
   {
-    "q": "53. Which of the following is not a PERT event?",
+    "q": "51. Which of the following is not a PERT event?",
     "options": [
       "Site investigation started",
       "Sessional work completed",

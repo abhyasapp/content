@@ -89,7 +89,18 @@
     "explain": "Drawing from top-to-bottom and left-to-right (for right-handed users) prevents the hand or tools from smudging lines that were already drawn."
   },
   {
-    "q": "9. The size of title block of all size drawing sheet is",
+    "q": "9. The point of intersection of co-ordinate axis is called",
+    "options": [
+      "zero- zero",
+      "origin",
+      "cross point",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "The point where the x, y (and z) axes meet is by definition called the origin."
+  },
+  {
+    "q": "10. The size of title block of all size drawing sheet is",
     "options": [
       "185×65",
       "120×60",
@@ -100,7 +111,7 @@
     "explain": "As per standard drafting practice, the title block occupies a fixed area of 185 mm × 65 mm regardless of sheet size."
   },
   {
-    "q": "10. The ratio of distance on the drawing sheet and corresponding actual distance of the object is known as",
+    "q": "11. The ratio of distance on the drawing sheet and corresponding actual distance of the object is known as",
     "options": [
       "reducing size scale",
       "full size scale",
@@ -111,7 +122,7 @@
     "explain": "This ratio, drawing distance to actual distance, is by definition called the Representative Factor (RF)."
   },
   {
-    "q": "11. Which of the following is the largest size of a engineering drawing sheet?",
+    "q": "12. Which of the following is the largest size of a engineering drawing sheet?",
     "options": [
       "A3",
       "A2",
@@ -122,7 +133,7 @@
     "explain": "In the ISO A-series, the sheet number decreases as size increases; A0 (841×1189 mm) is the largest of the options listed."
   },
   {
-    "q": "12. Tracing paper is also named as .............",
+    "q": "13. Tracing paper is also named as .............",
     "options": [
       "drafting vellum",
       "drafting film",
@@ -133,7 +144,7 @@
     "explain": "Tracing paper used in drafting is also generically referred to as drafting media, a term covering various transparent/translucent sheet materials used for tracing drawings."
   },
   {
-    "q": "13. In standard A series drawing sheet, the ratio of length of shorter side to longer side is equal to:",
+    "q": "14. In standard A series drawing sheet, the ratio of length of shorter side to longer side is equal to:",
     "options": [
       "1:2",
       "3:4",
@@ -144,7 +155,7 @@
     "explain": "The A-series sheets maintain a constant aspect ratio of shorter side to longer side equal to 1:√2."
   },
   {
-    "q": "14. The measurement of standard A2 size drawing sheet in mm is .............",
+    "q": "15. The measurement of standard A2 size drawing sheet in mm is .............",
     "options": [
       "594 × 891",
       "297 × 420",
@@ -155,7 +166,7 @@
     "explain": "Standard ISO A2 sheet size is 420 mm × 594 mm, consistent with the halving pattern of the A-series from A0 downward."
   },
   {
-    "q": "15. The included angle of a pentagon is .............",
+    "q": "16. The included angle of a pentagon is .............",
     "options": [
       "66°",
       "72°",
@@ -166,7 +177,7 @@
     "explain": "Note: per the answer key, option (b) 72° is marked correct; this corresponds to the central (apex) angle of a regular pentagon when divided into 5 equal triangles from its center (360°/5 = 72°), while the interior angle of a pentagon is actually 108°."
   },
   {
-    "q": "16. \"Title Block\" is placed at bottom right hand corner of the drawing which gives information about",
+    "q": "17. \"Title Block\" is placed at bottom right hand corner of the drawing which gives information about",
     "options": [
       "title of drawing",
       "scale of the drawing",
@@ -177,7 +188,7 @@
     "explain": "The title block is the metadata center of a drawing, containing names, dates, scales, and identification numbers."
   },
   {
-    "q": "17. *In standard A series drawing sheet, the ratio of length of shorter side to longer side",
+    "q": "18. *In standard A series drawing sheet, the ratio of length of shorter side to longer side",
     "options": [
       "1:2",
       "3:4",
@@ -188,7 +199,7 @@
     "explain": "ISO 216 standard (A series) uses a constant aspect ratio of 1 to the square root of 2 ($1:\\sqrt{2}$) so that the proportions remain the same when the sheet is folded in half."
   },
   {
-    "q": "18. The best drawing paper used for water colour is :",
+    "q": "19. The best drawing paper used for water colour is :",
     "options": [
       "hand made drawing paper",
       "tracing drawing sheet",
@@ -199,7 +210,7 @@
     "explain": "Though handmade paper is traditionally used, the answer key specifies tracing/technical sheets in this specific engineering context."
   },
   {
-    "q": "19. The size of the title block of all sizes of drawing sheet is :",
+    "q": "20. The size of the title block of all sizes of drawing sheet is :",
     "options": [
       "420 mm, 65 mm",
       "185 mm, 65 mm",
@@ -210,7 +221,7 @@
     "explain": "According to Bureau of Indian Standards (BIS), the standard size for a title block is 185 mm x 65 mm."
   },
   {
-    "q": "20. The normal size of drawing sheet referred as 'A1' is:",
+    "q": "21. The normal size of drawing sheet referred as 'A1' is:",
     "options": [
       "1165×817",
       "594 × 841",
@@ -221,7 +232,7 @@
     "explain": "As per ISO A-series, A1 measures 594 mm × 841 mm."
   },
   {
-    "q": "21. *Working drawings:",
+    "q": "22. *Working drawings:",
     "options": [
       "must provide complete information to produce the object",
       "need not provide complete information",
@@ -230,17 +241,6 @@
     ],
     "correct": 0,
     "explain": "A working drawing must contain all necessary dimensions, notes, and views for a manufacturer to build the part without further questions."
-  },
-  {
-    "q": "22. The point of intersection of co-ordinate axis is called .............",
-    "options": [
-      "zero-zero",
-      "origin",
-      "cross point",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "The point where the coordinate axes (X, Y, Z) intersect, representing the reference point (0,0,0), is universally called the origin."
   },
   {
     "q": "23. Church in a drawing sheet is symbolized as:",
@@ -296,16 +296,5 @@
     ],
     "correct": 2,
     "explain": "Working drawings, containing full dimensions and construction details, are produced during the detail design stage, after the concept has been finalized and before construction execution."
-  },
-  {
-    "q": "28. The size of drawing board required for A0 sheet size in mm is .............",
-    "options": [
-      "1500 × 1000 × 25",
-      "700 × 500 × 15",
-      "500 × 300 × 15",
-      "100 × 50 × 10"
-    ],
-    "correct": 0,
-    "explain": "To accommodate an A0 sheet (841×1189 mm) with margins for pinning and T-square movement, a larger drawing board of approximately 1500×1000×25 mm is required."
   }
 ]
