@@ -739,8 +739,7 @@ const DRIVE = {
         "part 4": "1Wz_h_eGns-25t0sWwgv7KUe9y06c--4j",
         "part 5": "1rv6WmJdwQ2l0l2ShAIUKFX9ImYDDeWDA",
         "part 6": "160yttwSKiZkCe-Xa0w50gIpmT94UQuWj",
-        "part 7": "1BhZXE1F9GUHa5wS0CgYX0YHX75NRbh4R",
-        "part 8": "1vcmX5gpz0hQqgmFlYlG8qwKK8bW6gdap"
+        "part 7": "1BhZXE1F9GUHa5wS0CgYX0YHX75NRbh4R"
       },
       "6.2 W-C RATIO": {
         "part 1": "1ml574dyLARbk7fUogRpn3eCkKg7pLJE2",
@@ -755,8 +754,7 @@ const DRIVE = {
       "6.4 MIXING&CURING": {
         "part 1": "17tK1VOP_-qF2b1JQ7bUQkBYQNEurAw6o",
         "part 2": "1XQUsz85hfF88T7wLFLnQ0-u_8VQxON5u",
-        "part 3": "1AB6C8lxwVgYAjnEQ0LtJGt2aHWLhTX9P",
-        "part 4": "1st2ifQGlERkT-fR9XmG_7fnCqieoSUpz"
+        "part 3": "1AB6C8lxwVgYAjnEQ0LtJGt2aHWLhTX9P"
       },
       "6.5 ADMIXTURES": {
         "All": "1b4ZthzA_g51O4NdrdbQjqC-8q8eOpKtU"
@@ -1004,8 +1002,7 @@ const DRIVE = {
       },
       "11.3 NPV IRR WORTH METHODS": {
         "part 1": "1GJWNpofUhbU7AQ8XHDVDx8aAyLv0bMRu",
-        "part 2": "1QgymQ-VlwmY4ij2yGUCe-5wdmoMGegL8",
-        "part 3": "1SItSfY3zEKsc3REoOHQXV_mpHXSS5jxf"
+        "part 2": "1QgymQ-VlwmY4ij2yGUCe-5wdmoMGegL8"
       },
       "11.4 COST CONCEPTS": {
         "part 1": "10aGgsobAhi8nZSXj9cZOqxs_Z5gcwOnQ",

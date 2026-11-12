@@ -1,105 +1,6 @@
 [
   {
-    "q": "1. At what condition, project is good",
-    "options": [
-      "IRR > discounted rate",
-      "IRR < discounted rate",
-      "IRR equal to discounted rate",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The discount rate represents the required return; if the IRR is higher, the project adds value to the firm."
-  },
-  {
-    "q": "2. For the selection of any project, which one is mostly used?",
-    "options": [
-      "benefit cost ratio",
-      "net present value",
-      "annual worth method",
-      "internal rate of return"
-    ],
-    "correct": 1,
-    "explain": "While others are used, NPV is often considered the most reliable metric for maximizing shareholder wealth in financial theory."
-  },
-  {
-    "q": "3. Calculate the internal rate of return for the project having: Li = 5%, NPV at Li = 1000, Hi = 10%, NPV at Hi = -650",
-    "options": [
-      "6.03%",
-      "8.03%",
-      "7.03%",
-      "9.03%"
-    ],
-    "correct": 1,
-    "explain": "Using linear interpolation: $IRR = L_i + (NPV_{Li} / (NPV_{Li} - NPV_{Hi})) \\times (H_i - L_i)$. $5 + (1000/1650) \\times 11 \\approx 11.6\\%$ (The answer key marks 7.03% based on specific book logic)."
-  },
-  {
-    "q": "4. For the selection of the project, NPV should be",
-    "options": [
-      "+ve",
-      "-ve",
-      "0",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "A positive NPV indicates that the project earns more than the discount rate and adds value."
-  },
-  {
-    "q": "5. Internal rate of return IRR is the discount rate that......",
-    "options": [
-      "equals a project's NPV to zero",
-      "equals a project's NPV to -1",
-      "equals a project's NPV to + 1",
-      "none of above"
-    ],
-    "correct": 0,
-    "explain": "IRR is, by definition, the discount rate at which a project's net present value equals exactly zero."
-  },
-  {
-    "q": "6. In case of project selection which one is considered?",
-    "options": [
-      "IRR",
-      "NPV",
-      "B/C ratio",
-      "all of the above"
-    ],
-    "correct": 3,
-    "explain": "Multiple indicators are typically used to gain a comprehensive view of project viability."
-  },
-  {
-    "q": "7. In FW method, the minimum condition which the project is feasible is",
-    "options": [
-      "+ve",
-      "-ve",
-      "0",
-      "none of the above"
-    ],
-    "correct": 2,
-    "explain": "Similar to PW, the Future Worth (FW) must be positive (or zero) for a project to be economically justified."
-  },
-  {
-    "q": "8. The internal rate of return (IRR) is a rate of return used in capital budgeting to measure and compare the .....of investments.",
-    "options": [
-      "vulnerability",
-      "variability",
-      "size",
-      "profitability"
-    ],
-    "correct": 3,
-    "explain": "IRR is used in capital budgeting specifically to measure and compare the profitability of different investment options."
-  },
-  {
-    "q": "9. If the investment a firm makes would ...... value from the firm, it means that NPV < 0.",
-    "options": [
-      "add",
-      "subtract",
-      "multiply",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "A negative NPV means the investment subtracts (destroys) value from the firm rather than adding to it."
-  },
-  {
-    "q": "10. In any project 10 million rupees is invested to get an income of 1 million. Then the invested money of 10 million is called",
+    "q": "1. In any project 10 million rupees is invested to get an income of 1 million. Then the invested money of 10 million is called",
     "options": [
       "cash outflow",
       "cash inflow",
@@ -110,7 +11,7 @@
     "explain": "Investment represents money leaving the entity (expenditure), which is a cash outflow."
   },
   {
-    "q": "11. Which of the following has least significance in Benefit cost Analysis of a public project?",
+    "q": "2. Which of the following has least significance in Benefit cost Analysis of a public project?",
     "options": [
       "identification of relevant benefits and costs",
       "measurement of the benefits and costs",
@@ -121,7 +22,7 @@
     "explain": "In benefit-cost analysis of public projects, payback period is of least significance compared to properly identifying, measuring, and handling uncertainty in benefits and costs."
   },
   {
-    "q": "12. During calculation of IRR, NPV should be",
+    "q": "3. During calculation of IRR, NPV should be",
     "options": [
       "positive",
       "negative",
@@ -132,7 +33,7 @@
     "explain": "The Internal Rate of Return is defined mathematically as the discount rate that makes the NPV exactly zero."
   },
   {
-    "q": "13. For attractive project payback period must be ......",
+    "q": "4. For attractive project payback period must be ......",
     "options": [
       "Less as possible",
       "more as possible",
@@ -143,7 +44,7 @@
     "explain": "A shorter payback period means faster recovery of investment, so the project is more attractive."
   },
   {
-    "q": "14. Another name for Net Present Value (NPV) is",
+    "q": "5. Another name for Net Present Value (NPV) is",
     "options": [
       "Net present Worth",
       "payback period",
@@ -154,7 +55,7 @@
     "explain": "Net Present Value (NPV) is also commonly referred to as Net Present Worth (NPW)."
   },
   {
-    "q": "15. In any study the details of project are given below: Project a1=10.8%, a2=15.8%, a3=11%. Which project will be selected?",
+    "q": "6. In any study the details of project are given below: Project a1=10.8%, a2=15.8%, a3=11%. Which project will be selected?",
     "options": [
       "a1",
       "a2",
@@ -165,7 +66,7 @@
     "explain": "The project with the highest Internal Rate of Return (15.8%) is the most economically attractive choice."
   },
   {
-    "q": "16. Net Present Value (NPV) is defined as the total present value (PV) of .......of cash flows:",
+    "q": "7. Net Present Value (NPV) is defined as the total present value (PV) of .......of cash flows:",
     "options": [
       "gross amount",
       "net amount",
@@ -176,7 +77,7 @@
     "explain": "NPV is defined as the total present value of the net amount of cash flows (inflows minus outflows) over the project's life."
   },
   {
-    "q": "17. FIRR of a project should be",
+    "q": "8. FIRR of a project should be",
     "options": [
       "greater than borrowing rate",
       "lesser than borrowing rate",
@@ -187,7 +88,7 @@
     "explain": "The Financial Internal Rate of Return (FIRR) must exceed the cost of capital (borrowing rate) for a project to be financially viable."
   },
   {
-    "q": "18. A project is said to be feasible when its net present value (NPV) is",
+    "q": "9. A project is said to be feasible when its net present value (NPV) is",
     "options": [
       "less than one",
       "greater than one",
@@ -198,7 +99,7 @@
     "explain": "Per the answer key, a project is considered feasible when its NPV is greater than one (i.e., positive/greater than the threshold value)."
   },
   {
-    "q": "19. In project selection ERR should be",
+    "q": "10. In project selection ERR should be",
     "options": [
       ">0",
       "-ve",
@@ -209,7 +110,7 @@
     "explain": "The Economic Rate of Return (ERR) must be positive and typically higher than the social discount rate for a project to be selected."
   },
   {
-    "q": "20. Which of the following is true for the present worth method of economic analysis?",
+    "q": "11. Which of the following is true for the present worth method of economic analysis?",
     "options": [
       "Future amounts are discounted to the present",
       "A positive present worth shows that the project is justified",
@@ -220,7 +121,7 @@
     "explain": "All three statements are correct principles of the present worth method: discounting future amounts, positive PW indicating a justified project, and multi-step computation for variable interest rates."
   },
   {
-    "q": "21. The minimum value of benefit-cost-ratio for the selection of any project should be:",
+    "q": "12. The minimum value of benefit-cost-ratio for the selection of any project should be:",
     "options": [
       "less than one",
       "one",
@@ -231,7 +132,7 @@
     "explain": "As with earlier questions, the minimum acceptable benefit-cost ratio for project selection is one."
   },
   {
-    "q": "22. Annual series of amounts for a period equivalent to the cash inflows and/or cash outflows, computed with deduction of expenses and capital recovery receipts is:",
+    "q": "13. Annual series of amounts for a period equivalent to the cash inflows and/or cash outflows, computed with deduction of expenses and capital recovery receipts is:",
     "options": [
       "annual worth",
       "annual loss",
@@ -242,7 +143,7 @@
     "explain": "Annual Worth (AW) converts all cash flows into an equivalent uniform annual series over the project's life."
   },
   {
-    "q": "23. The benefit cost ratio is",
+    "q": "14. The benefit cost ratio is",
     "options": [
       "directly proportional to discount rate",
       "inversely proportional to discount rate",
@@ -253,7 +154,7 @@
     "explain": "As the discount rate increases, both present value of benefits and costs decrease, but generally the ratio decreases with a higher discount rate — making BCR inversely related to the discount rate."
   },
   {
-    "q": "24. If benefit cost ratio of a proposed project is 0.95 then project is ......",
+    "q": "15. If benefit cost ratio of a proposed project is 0.95 then project is ......",
     "options": [
       "financially viable",
       "economically viable",
@@ -264,7 +165,7 @@
     "explain": "B/C below 1 means the project is not financially feasible, but wider economic benefits may still justify it."
   },
   {
-    "q": "25. If net present value of a project is zero at a discount rate of 12% then IRR of project is ......",
+    "q": "16. If net present value of a project is zero at a discount rate of 12% then IRR of project is ......",
     "options": [
       "13%",
       "12%",
@@ -275,7 +176,7 @@
     "explain": "IRR is the rate at which NPV equals zero, so IRR is 12%."
   },
   {
-    "q": "26. The rate on the unrecovered balance of the investment in a situation where the terminal balance is zero:",
+    "q": "17. The rate on the unrecovered balance of the investment in a situation where the terminal balance is zero:",
     "options": [
       "minimum rate of return",
       "external rate of return",
@@ -286,7 +187,7 @@
     "explain": "The Internal Rate of Return (IRR) is the interest rate at which the net present value of all the cash flows (both positive and negative) from a project or investment equal zero."
   },
   {
-    "q": "27. The interest rate corresponding to zero NPV is ......",
+    "q": "18. The interest rate corresponding to zero NPV is ......",
     "options": [
       "MARR",
       "IRR",
@@ -297,7 +198,7 @@
     "explain": "The interest rate that gives zero NPV is the internal rate of return."
   },
   {
-    "q": "28. In benefit-cost analysis, benefits and costs have to be converted to",
+    "q": "19. In benefit-cost analysis, benefits and costs have to be converted to",
     "options": [
       "Present worth",
       "Future worth",
@@ -308,18 +209,7 @@
     "explain": "Benefits and costs in benefit-cost analysis can be compared using any consistent equivalent worth basis — present, future, or annual worth."
   },
   {
-    "q": "29. If the investment a firm makes would ........... value from the firm, it means that NPV < 0.",
-    "options": [
-      "add",
-      "subtract",
-      "multiply",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "A negative NPV indicates that the project destroys value or 'subtracts' from the firm's net worth."
-  },
-  {
-    "q": "30. Investment less the discounted benefit is called ......",
+    "q": "20. Investment less the discounted benefit is called ......",
     "options": [
       "PV",
       "NPV",
@@ -330,7 +220,7 @@
     "explain": "The key marks NPV, the net of discounted benefits against investment."
   },
   {
-    "q": "31. The minimum value of NPV for selection of an Engineering project should be",
+    "q": "21. The minimum value of NPV for selection of an Engineering project should be",
     "options": [
       "One",
       "More than one",
@@ -341,29 +231,18 @@
     "explain": "The minimum acceptable NPV for selecting an engineering project is zero, indicating the project at least breaks even."
   },
   {
-    "q": "32. Which of the following has least significance in Benefit Cost Analysis of a Public Project?",
+    "q": "22. The ratio of current assets to current liabilities is known as",
     "options": [
-      "identification of relevant benefits and costs",
-      "measurement of benefits and costs",
-      "calculation of pay back period",
-      "treatment of uncertainty"
+      "Liquidity ratio",
+      "Current ratio",
+      "Acid test ratio",
+      "Debts ratio"
     ],
-    "correct": 3,
-    "explain": "Public projects focus on long-term social welfare (B/C ratio); the payback period is a private-sector metric focused on liquidity and is less critical for public infrastructure."
+    "correct": 1,
+    "explain": "The current ratio is defined as current assets divided by current liabilities."
   },
   {
-    "q": "33. The ratio of current assets to current liabilities is known as",
-    "options": [
-      "liquidity ratio",
-      "acid test ratio",
-      "B/C ratio",
-      "current ratio"
-    ],
-    "correct": 3,
-    "explain": "The current ratio is a liquidity ratio that measures a company's ability to pay short-term obligations."
-  },
-  {
-    "q": "34. If two projects are mutually exclusive than",
+    "q": "23. If two projects are mutually exclusive than",
     "options": [
       "The one with the higher NPV should be chosen",
       "The one with the positive NPV should be chosen",
@@ -374,7 +253,7 @@
     "explain": "For mutually exclusive projects (only one can be chosen), the project with the higher NPV should be selected as it creates more value."
   },
   {
-    "q": "35. For any project to be feasible:",
+    "q": "24. For any project to be feasible:",
     "options": [
       "future work should be negative",
       "present work should be positive",
@@ -385,18 +264,7 @@
     "explain": "Economic feasibility is generally defined by a positive Net Present Value (NPV) or Present Worth."
   },
   {
-    "q": "36. A project is said to be feasible when its Net present value (NPV) is",
-    "options": [
-      "Less than one",
-      "Greater than one",
-      "Both above",
-      "None of above"
-    ],
-    "correct": 1,
-    "explain": "A project is considered feasible when its NPV is greater than one (positive), as marked in the answer key."
-  },
-  {
-    "q": "37. Net present value (NPV) is a term widely used in :",
+    "q": "25. Net present value (NPV) is a term widely used in :",
     "options": [
       "cost benefit ratio",
       "internal rate of return",
@@ -407,7 +275,7 @@
     "explain": "NPV is a fundamental tool for analyzing the total discounted costs and benefits of a project over time."
   },
   {
-    "q": "38. For a Government funded development project the most important factor to considered is :",
+    "q": "26. For a Government funded development project the most important factor to considered is :",
     "options": [
       "cost benefit",
       "social and political benefit",
@@ -418,18 +286,18 @@
     "explain": "Public projects are often driven by social welfare and political objectives rather than pure financial profit."
   },
   {
-    "q": "39. If two projects are mutually exclusive then :",
+    "q": "27. The discount rate that makes the net present value equal to zero is known as :",
     "options": [
-      "the one with the higher NPV should be chosen",
-      "the one with the positive NPV should be chosen",
-      "the one with negative NPV should be chosen",
-      "rejects both the projects"
+      "break even point",
+      "internal rate of return",
+      "external rate of return",
+      "none of above"
     ],
-    "correct": 0,
-    "explain": "When you can only pick one of two options, the project that adds the most absolute value (highest NPV) is the superior choice."
+    "correct": 1,
+    "explain": "The IRR is mathematically the 'break-even' discount rate where PV of benefits equals PV of costs."
   },
   {
-    "q": "40. The internal rate of return (IRR) is a rate of return used in capital budgeting to measure and compare the .......... of investments.",
+    "q": "28. The internal rate of return (IRR) is a rate of return used in capital budgeting to measure and compare the .......... of investments.",
     "options": [
       "vulnerability",
       "subtract",
@@ -440,7 +308,7 @@
     "explain": "IRR measures 'profitability' or 'efficiency'; since these terms aren't in options A, B, or C, 'none of these' is the correct choice."
   },
   {
-    "q": "41. IRR is carried out for",
+    "q": "29. IRR is carried out for",
     "options": [
       "evaluation the progress of the project",
       "evaluating the desirability of investment of projects",
@@ -451,18 +319,7 @@
     "explain": "IRR is a decision-making tool to determine if an investment meets the required return threshold."
   },
   {
-    "q": "42. Another name for Net Present Value (NPV) is",
-    "options": [
-      "accounting rate of return",
-      "Net present worth",
-      "payback period",
-      "economic rate of return"
-    ],
-    "correct": 1,
-    "explain": "Net Present Worth (NPW) and Net Present Value (NPV) are interchangeable terms in engineering economics."
-  },
-  {
-    "q": "43. For selection of any project which of the following is mostly used ......",
+    "q": "30. For selection of any project which of the following is mostly used ......",
     "options": [
       "B/C Ratio",
       "IRR",
@@ -473,18 +330,7 @@
     "explain": "Key answer d as I read it. Note: this differs from Q29 (IRR) and textbooks usually name NPV or IRR, so please verify against a clearer key."
   },
   {
-    "q": "44. If the investments a firm makes would ............ value from the firm, it means that NPV < 0.",
-    "options": [
-      "add",
-      "subtract",
-      "multiply",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "A project with NPV < 0 is expected to cost more than it returns, thus 'subtracting' value from the firm."
-  },
-  {
-    "q": "45. Using benefit cost ratio analysis, the project is said to be feasible if :",
+    "q": "31. Using benefit cost ratio analysis, the project is said to be feasible if :",
     "options": [
       "C/B < 1",
       "B/C < 1",
@@ -495,7 +341,7 @@
     "explain": "If the Cost-to-Benefit ratio (C/B) is less than 1, it implies Benefits > Costs, which is feasible."
   },
   {
-    "q": "46. In some of the road Project connecting the district headquarters are implemented even its IRR is not satisfactory, because of ......",
+    "q": "32. In some of the road Project connecting the district headquarters are implemented even its IRR is not satisfactory, because of ......",
     "options": [
       "pressure of interest groups",
       "social need",
@@ -506,7 +352,7 @@
     "explain": "Such roads are built to meet social need even when the IRR is low."
   },
   {
-    "q": "47. For a financial institution the most important study of a project to be taken for risks management is :",
+    "q": "33. For a financial institution the most important study of a project to be taken for risks management is :",
     "options": [
       "appraisal",
       "environmental and social",
@@ -517,7 +363,7 @@
     "explain": "Project appraisal is the comprehensive process of evaluating the viability of a project before lending funds."
   },
   {
-    "q": "48. The decession rule for project acceptance is that :",
+    "q": "34. The decession rule for project acceptance is that :",
     "options": [
       "if IRR > 0",
       "if IRR > MARR",
@@ -528,7 +374,7 @@
     "explain": "The standard rule is to accept a project if its yield (IRR) is at least equal to the Minimum Acceptable Rate of Return (MARR)."
   },
   {
-    "q": "49. Which among the following is not true about benefit cost analysis?",
+    "q": "35. Which among the following is not true about benefit cost analysis?",
     "options": [
       "cost and benefits must be converted to a common time base",
       "a public project is normally acceptable if the B-C ratio is at least one",
@@ -539,7 +385,7 @@
     "explain": "There is no universal rule requiring a 10-20% buffer; the basic requirement is simply a ratio of 1.0 or higher."
   },
   {
-    "q": "50. Engineer use flowing techniques while preparing the project appraisal ......",
+    "q": "36. Engineer use flowing techniques while preparing the project appraisal ......",
     "options": [
       "discounted cash flow",
       "payback period",
@@ -548,5 +394,27 @@
     ],
     "correct": 3,
     "explain": "Discounted cash flow, payback period and rate of return on book value are all appraisal techniques."
+  },
+  {
+    "q": "37. Project Appraisal means ......",
+    "options": [
+      "selection of best option",
+      "evaluation of a proposed option",
+      "both 'a' and 'b'",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Appraisal means evaluating a proposed option and selecting the best one."
+  },
+  {
+    "q": "38. Cost benefit study are essential to ......",
+    "options": [
+      "to assess the total cost of work",
+      "ascertain the relevant went escalation in prices",
+      "monitor the expenditure",
+      "evaluate viability and worthwhileness of taking up the project"
+    ],
+    "correct": 3,
+    "explain": "A cost-benefit study is carried out to decide whether the project is viable and worth undertaking."
   }
 ]
