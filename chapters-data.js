@@ -947,8 +947,7 @@ const DRIVE = {
     },
     "8": {
       "10.1 DRAWING SHEET": {
-        "part 1": "1HyhZoMrl9z1bsX_bXiQ0FMOuc8SAZyHc",
-        "part 2": "1EPoDukkS23EOd-HBkvqzSyKrNaqJiT26"
+        "All": "1HyhZoMrl9z1bsX_bXiQ0FMOuc8SAZyHc"
       },
       "10.2 SCALES&SITE PLANS": {
         "part 1": "1DpNL51689FyxVmvkA_CV1f81oyUXcyQK",
@@ -963,8 +962,7 @@ const DRIVE = {
       },
       "10.4 DRAFTING TOOLS": {
         "part 1": "102SbDKK3uFrbveB2fIRavtAo-tBfw9xr",
-        "part 2": "1DVPbhfiMEWKCOopJLw9MVPPCVQXYHlp6",
-        "part 3": "1e3e0Nn-dpUb6ApKesY7ko1lmVMpOVSMh"
+        "part 2": "1DVPbhfiMEWKCOopJLw9MVPPCVQXYHlp6"
       },
       "10.5 DRAFTING CONVENTIONS": {
         "part 1": "1pev2qgAmlLd7Y7Oe0lFunIW7kmo__5mS",
