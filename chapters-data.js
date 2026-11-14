@@ -947,7 +947,8 @@ const DRIVE = {
     },
     "8": {
       "10.1 DRAWING SHEET": {
-        "All": "1HyhZoMrl9z1bsX_bXiQ0FMOuc8SAZyHc"
+        "part 1": "1HyhZoMrl9z1bsX_bXiQ0FMOuc8SAZyHc",
+        "part 2": "19HQoaqaJTxhr0YPdMqEFS4aO3A_kQ9zX"
       },
       "10.2 SCALES&SITE PLANS": {
         "part 1": "1DpNL51689FyxVmvkA_CV1f81oyUXcyQK",
@@ -983,7 +984,7 @@ const DRIVE = {
         "RK SHRESTHA.1-71": "172V_845Zdr84U69dr0bmMDbxz56Ya74M",
         "RK SHRESTHA.143-213": "1EvRKn9B2I8jjT1UeWzB8IYiDKRhz0NSs",
         "RK SHRESTHA.72-142": "1YrxxoZ0IPON3ycUL0sa8sjiRHEtKip5r",
-        "Sunil Sah.1-60": "1eDIQ22-Myn1O9P8UoUHIOtoob8TE6avv",
+        "Sunil Sah.1-60": "1NGdcUY61BDfDqniZwKxqNDIWEW8ZDHGf",
         "Sunil Sah.61-120": "1nJjubNOB9ZPePWk7wF77N74KBTIUl9xI",
         "Sunil Sah.121-180": "1963IVZzt3VQS0aKau_BYfxTfcp50y7eK",
         "Sunil Sah.181-240": "1iAruFIxOWf04iXxO3Ib4V4ngdk8EOd5r",
