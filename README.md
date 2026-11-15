@@ -25,7 +25,7 @@ Empty buckets are omitted.
 
 ## Question schema
 
-Every question is normalized by `scripts/sync.py` to exactly this shape:
+Every question is normalized by `scripts/sync.py` to this shape:
 
 ```json
 {
@@ -33,7 +33,8 @@ Every question is normalized by `scripts/sync.py` to exactly this shape:
   "q": "1. How many bird species are currently recorded in Nepal?",
   "options": ["884", "912", "925", "904"],
   "correct": 3,
-  "explain": "The 904th species is the Collared Kingfisher..."
+  "explain": "The 904th species is the Collared Kingfisher...",
+  "public_qn": "50011.110001"
 }
 ```
 
@@ -44,6 +45,7 @@ Every question is normalized by `scripts/sync.py` to exactly this shape:
 | `options` | string[] | Usually 4, not always — matching-type questions can have 2 or 5 |
 | `correct` | int \| null | 0-based index into `options`. `null` only when the source has no usable answer key |
 | `explain` | string | `""` when the source has no explanation |
+| `public_qn` | string | Optional. The stable public question id the pipeline assigns (`LCCCSSSFQQQQ`, published dotted like `50011.110001`, `G0011.110001`, or with a word subtopic like `5002mixedqn10001`). This is what the app keys progress, reports and corrections on, so it must be unique across the whole corpus — `--check` enforces that. An unusable value is dropped and counted rather than passed through. |
 
 Extra keys present in a source record (`image`, `images`, …) are preserved as-is.
 
@@ -53,17 +55,26 @@ Legacy shapes are folded into the above on every sync: `answer` becomes
 ## Running it locally
 
 ```bash
+# Validate the checked-in mirror (no credentials needed). Exit 1 on problems:
+# missing files, truncated arrays, bad ids, unusable or duplicated public_qn,
+# a manifest checksum that no longer matches.
+python scripts/sync.py --check
+
 # Re-normalize the checked-in content/ tree, no credentials needed
 python scripts/sync.py --normalize-local
 
 # Full sync (needs GDRIVE_CREDENTIALS and CHAPTERS_FILE_ID)
 pip install google-api-python-client google-auth
 python scripts/sync.py
+
+# Schema and mirror check tests
+python -m unittest discover -s tests
 ```
 
 `manifest.json` checksums are computed over the normalized text with LF line
 endings, and files are written with LF, so the checksums verify byte-for-byte on
-any platform.
+any platform. `size` is the byte length of that same text — it counts bytes, not
+characters, so a file full of Devanagari is measured correctly.
 
 ## Behavior worth knowing
 

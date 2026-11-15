@@ -28,6 +28,15 @@ jobs:
           CHAPTERS_FILE_ID: "10_YqLKsxxIUR8TlTA5vmOKK5xcOIeI8C"
         run: python scripts/sync.py
 
+      # Never commit a mirror the app cannot trust: this fails the job (and so
+      # skips the commit) on a missing file, a bad id, or a duplicated public
+      # question id.
+      - name: Validate the mirror
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s tests
+          python scripts/sync.py --check
+
       - name: Commit changes
         run: |
           git config user.name  "sync-bot"

@@ -3,6 +3,7 @@
 Usage:
   python scripts/sync.py                    # full sync from Drive
   python scripts/sync.py --normalize-local  # re-normalize files already in content/ (no Drive access)
+  python scripts/sync.py --check            # validate the local mirror, exit 1 on problems
 
 Full sync needs these environment variables:
   GDRIVE_CREDENTIALS  service-account JSON (secret in CI)
@@ -33,6 +34,13 @@ CHAPTERS_PATH = Path('chapters-data.js')
 # Options that carry no real answer text (match-the-column tables that were
 # not captured during extraction).
 PLACEHOLDER_OPTIONS = {'', '...', '\u2026', 'refer to table', 'refer to the table'}
+
+# The stable public qn id the pipeline writes to `public_qn`: level token,
+# chapter, subtopic and sequence, either dotted ("50011.110001",
+# "G0011.110001") or flat, which is the only shape that can carry a word
+# subtopic ("5002mixedqn10001"). Kept in step with qidString() in the backend
+# and normalizeQReportQid_() in Apps Script.
+PUBLIC_QN_RE = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._]{3,63}$')
 
 
 # --------------------------------------------------------------------------
@@ -104,6 +112,22 @@ def _as_index(value, option_count):
     return candidate if 0 <= candidate < option_count else None
 
 
+def clean_public_qn(value, stats):
+    """The question's stable public qn id, or None when absent or unusable.
+
+    The id is what the app keys progress, reports and corrections on, so a
+    malformed one is dropped and counted rather than passed through as an
+    identity nothing can resolve.
+    """
+    if value is None or value == '':
+        return None
+    text = value.strip() if isinstance(value, str) else ''
+    if not text or not PUBLIC_QN_RE.match(text) or not re.search(r'\d', text):
+        stats['bad_public_qn'] = stats.get('bad_public_qn', 0) + 1
+        return None
+    return text
+
+
 def normalize_question(question, fid, index, stats):
     """Return one question in the canonical shape: id, q, options, correct, explain.
 
@@ -143,6 +167,8 @@ def normalize_question(question, fid, index, stats):
     if any(isinstance(o, str) and o.strip().lower() in PLACEHOLDER_OPTIONS for o in options):
         stats['placeholder_options'] = stats.get('placeholder_options', 0) + 1
 
+    public_qn = clean_public_qn(question.get('public_qn'), stats)
+
     out = {
         'id': qid,
         'q': question.get('q') if isinstance(question.get('q'), str) else '',
@@ -150,8 +176,11 @@ def normalize_question(question, fid, index, stats):
         'correct': correct,
         'explain': explain if isinstance(explain, str) else '',
     }
+    if public_qn:
+        out['public_qn'] = public_qn
     for key, value in question.items():
-        if key in ('id', 'q', 'options', 'correct', 'answer', 'explain', 'explanation'):
+        if key in ('id', 'q', 'options', 'correct', 'answer', 'explain',
+                   'explanation', 'public_qn'):
             continue
         out[key] = value
         stats[f'extra_key:{key}'] = stats.get(f'extra_key:{key}', 0) + 1
@@ -191,9 +220,13 @@ def write_text(path, text):
 
 
 def entry_for(text, drive_md5=''):
+    """Manifest entry for one file. `size` is the byte length, matching the
+    bytes `md5` is taken over, so the pair verifies the file on disk. It used to
+    count characters, which under-reported every file holding Devanagari text."""
+    raw = text.encode('utf-8')
     return {
-        'md5': hashlib.md5(text.encode('utf-8')).hexdigest(),
-        'size': len(text),
+        'md5': hashlib.md5(raw).hexdigest(),
+        'size': len(raw),
         'drive_md5': drive_md5,
     }
 
@@ -340,8 +373,126 @@ def normalize_local():
     return 0
 
 
+def check_local():
+    """Validate the checked-in mirror offline. Exit 1 on any problem.
+
+    The app trusts this tree, so a missing file, a truncated array or a
+    duplicated public id is a user-visible fault: a duplicated public qn id is
+    two different questions sharing one identity, which is exactly what the id
+    scheme exists to prevent.
+    """
+    problems = []
+    notes = []
+    if not CHAPTERS_PATH.exists():
+        print('chapters-data.js not found', file=sys.stderr)
+        return 1
+
+    ids = extract_ids(CHAPTERS_PATH.read_text(encoding='utf-8'))
+    if not ids:
+        problems.append('chapters-data.js references no Drive files')
+
+    questions = 0
+    id_owner = {}
+    public_owner = {}
+
+    for fid in ids:
+        path = CONTENT_DIR / f'{fid}.json'
+        if not path.exists():
+            problems.append(f'{fid}: referenced by chapters-data.js but missing from content/')
+            continue
+        try:
+            data = json.loads(path.read_text(encoding='utf-8'))
+        except Exception as exc:
+            problems.append(f'{fid}: not valid JSON ({exc})')
+            continue
+        if not isinstance(data, list):
+            problems.append(f'{fid}: expected a JSON array of questions')
+            continue
+
+        questions += len(data)
+        local_ids = set()
+        for position, question in enumerate(data):
+            where = f'{fid}[{position}]'
+            if not isinstance(question, dict):
+                problems.append(f'{where}: not an object')
+                continue
+
+            qid = question.get('id')
+            if qid is None or qid == '':
+                problems.append(f'{where}: has no id')
+            else:
+                key = str(qid)
+                if key in local_ids:
+                    problems.append(f'{where}: duplicate id {key} in the same file')
+                local_ids.add(key)
+                owner = id_owner.setdefault(key, fid)
+                if owner != fid:
+                    notes.append(f'{where}: id {key} also appears in {owner}')
+
+            options = question.get('options')
+            if not isinstance(options, list):
+                problems.append(f'{where}: options is not a list')
+            if not isinstance(question.get('q'), str) or not question['q'].strip():
+                problems.append(f'{where}: empty question text')
+            correct = question.get('correct')
+            if (not isinstance(correct, int) or isinstance(correct, bool)
+                    or not isinstance(options, list)
+                    or not 0 <= correct < len(options)):
+                problems.append(f'{where}: correct={correct!r} is not an index into its options')
+
+            public = question.get('public_qn')
+            if public is not None:
+                if (not isinstance(public, str) or not PUBLIC_QN_RE.match(public)
+                        or not re.search(r'\d', public)):
+                    problems.append(f'{where}: unusable public_qn {public!r}')
+                elif public in public_owner:
+                    problems.append(f'{where}: public_qn {public} is already used by {public_owner[public]}')
+                else:
+                    public_owner[public] = where
+
+    manifest = load_manifest().get('files', {})
+    for fid in ids:
+        path = CONTENT_DIR / f'{fid}.json'
+        if not path.exists():
+            continue
+        entry = manifest.get(fid)
+        if not entry:
+            problems.append(f'{fid}: missing from manifest.json')
+            continue
+        raw = path.read_bytes()
+        if hashlib.md5(raw).hexdigest() != entry.get('md5'):
+            problems.append(f'{fid}: md5 in manifest.json does not match the file')
+        elif len(raw) != entry.get('size'):
+            problems.append(
+                f'{fid}: size in manifest.json is {entry.get("size")} but the file is {len(raw)} bytes')
+
+    stale = sorted(p.name for p in CONTENT_DIR.glob('*.json')
+                   if p.stem not in set(ids))
+    if stale:
+        notes.append(f'{len(stale)} file(s) in content/ are not referenced by chapters-data.js: '
+                     + ', '.join(stale[:5]) + (' ...' if len(stale) > 5 else ''))
+
+    print(f'files        : {len(ids)}')
+    print(f'questions    : {questions}')
+    print(f'public qn ids: {len(public_owner)}')
+    if notes:
+        print(f'\nnotes ({len(notes)}):')
+        for item in notes[:20]:
+            print(f'  {item}')
+    if problems:
+        print(f'\nPROBLEMS ({len(problems)}):', file=sys.stderr)
+        for item in problems[:50]:
+            print(f'  {item}', file=sys.stderr)
+        return 1
+    print('\nContent check passed')
+    return 0
+
+
 def main():
-    if '--normalize-local' in sys.argv[1:]:
+    args = sys.argv[1:]
+    if '--check' in args:
+        return check_local()
+    if '--normalize-local' in args:
         return normalize_local()
     return full_sync()
 
