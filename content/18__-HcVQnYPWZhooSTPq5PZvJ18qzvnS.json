@@ -1,5 +1,6 @@
 [
   {
+    "id": 31247,
     "q": "1. The total cost versus time curve is ............",
     "options": [
       "a straight line",
@@ -11,6 +12,7 @@
     "explain": "The total cost curve is U-shaped because it is the sum of direct costs (which decrease with more time) and indirect costs (which increase over time)."
   },
   {
+    "id": 31271,
     "q": "2. According to Beta distribution, the standard deviation of the time of completion is given by ............",
     "options": [
       "(tp - to)/3",
@@ -22,6 +24,7 @@
     "explain": "Standard deviation ($σ$) in PERT is calculated as $(t_p - t_o) / 6$, where $t_p$ is pessimistic time and $t_o$ is optimistic time."
   },
   {
+    "id": 31297,
     "q": "3. Technical planning is carried out for the ............",
     "options": [
       "preparation of detailed drawings",
@@ -33,6 +36,7 @@
     "explain": "Technical planning bridges the gap between the concept and execution by producing the precise drawings and cost calculations (estimates) needed."
   },
   {
+    "id": 31304,
     "q": "4. Variance is ............",
     "options": [
       "sum of time duration for various job / number of jobs",
@@ -44,6 +48,7 @@
     "explain": "In the context of PERT, variance ($σ^2$) is the square of the standard deviation, representing the mean of the squared deviations from the expected time."
   },
   {
+    "id": 31312,
     "q": "5. Positive float for any activity means that the activity is ............",
     "options": [
       "super-critical",
@@ -55,6 +60,7 @@
     "explain": "Positive float indicates a 'Sub-critical' or non-critical activity with some flexibility in its timing."
   },
   {
+    "id": 31318,
     "q": "6. Identify the odd man out ............",
     "options": [
       "mix concrete",
@@ -66,6 +72,7 @@
     "explain": "'Design completed' is an Event (a point in time), whereas the others are Activities (actions that consume time)."
   },
   {
+    "id": 31319,
     "q": "7. An important principle in drawing a network is ............",
     "options": [
       "no activity can start until all the previous activities in the same chain are completed",
@@ -77,6 +84,7 @@
     "explain": "This is the principle of logical precedence; a successor cannot begin until its predecessors are finished."
   },
   {
+    "id": 31326,
     "q": "8. Latest starts of an activity is always ............",
     "options": [
       "greater than or equal to latest event time of preceding node",
@@ -88,6 +96,7 @@
     "explain": "The Latest Start ($LS$) must occur at or after the latest possible completion of the previous activity to maintain logic."
   },
   {
+    "id": 31328,
     "q": "9. An activity of the project is graphically represented by ............ on the network",
     "options": [
       "a circle",
@@ -99,6 +108,7 @@
     "explain": "In Activity-on-Arrow (AOA) diagrams, arrows represent tasks (activities)."
   },
   {
+    "id": 31336,
     "q": "10. For excavating solid rocks, the most suitable equipment?",
     "options": [
       "dragline",
@@ -110,6 +120,7 @@
     "explain": "The power shovel provides the highest breakout force, making it the best choice for digging hard or blasted rock."
   },
   {
+    "id": 31338,
     "q": "11. Which one of the following does not from a part of Derrick crane?",
     "options": [
       "Mast",
@@ -121,6 +132,7 @@
     "explain": "A Derrick crane consists of a mast, a boom (incorrectly spelled 'book' in text), and guy wires. A jack is a separate lifting tool."
   },
   {
+    "id": 31122,
     "q": "12. Which of the following is the correct from of representation of an event?",
     "options": [
       "Circle",
@@ -132,6 +144,7 @@
     "explain": "In a network diagram, an event (a point in time marking the start or end of an activity) is standardly represented by a circle or a node."
   },
   {
+    "id": 31131,
     "q": "13. The essential condition for the decompression of an activity is that ............",
     "options": [
       "the project time should change due to decompression",
@@ -143,6 +156,7 @@
     "explain": "Decompression is the reverse of crashing. You can only expand an activity's duration back to its original 'Normal Time' but not beyond it."
   },
   {
+    "id": 31132,
     "q": "14. Dummy activities are used to ............",
     "options": [
       "determine the critical path",
@@ -154,6 +168,7 @@
     "explain": "Dummies are structural tools in a network diagram used to show relationships (logic) when two activities share the same start and end nodes."
   },
   {
+    "id": 31148,
     "q": "15. An activity is .............",
     "options": [
       "an element of work entailed in the project",
@@ -165,6 +180,7 @@
     "explain": "In network analysis, an activity is a specific task or element of work that consumes time and resources."
   },
   {
+    "id": 31173,
     "q": "16. In P.E.R.T. analysis, the time estimates of activities and probability of their occurrence follow .............",
     "options": [
       "normal distribution curve",
@@ -176,6 +192,7 @@
     "explain": "PERT assumes activity durations follow a Beta distribution to account for skewness in optimistic/pessimistic times."
   },
   {
+    "id": 31178,
     "q": "17. Free float is mainly used to .............",
     "options": [
       "identify the activities which can be delayed without affecting the total float of succeeding activity",
@@ -187,6 +204,7 @@
     "explain": "Free float is the amount of time an activity can be delayed without delaying the Earliest Start (ES) of any immediate successor."
   },
   {
+    "id": 31184,
     "q": "18. The variance of the P.E.R.T. critical path is equal to .............",
     "options": [
       "sum of variance of activities lying on critical path",
@@ -198,6 +216,7 @@
     "explain": "According to the central limit theorem, the variance of the whole path is the sum of the variances of the individual activities on that path."
   },
   {
+    "id": 31185,
     "q": "19. In case of burst event the latest permissible occurrence time is .............",
     "options": [
       "maximum of LSTs of the bursting activities",
@@ -209,6 +228,7 @@
     "explain": "When moving backward through a network (backward pass), the TL (Latest Time) of a burst node is the minimum of the Latest Start Times of all outgoing activities."
   },
   {
+    "id": 31186,
     "q": "20. There are three parallel paths in part of a network between a bursting node and the next merging node with only one activity in each path. The minimum number of dummy arrows needed will be .............",
     "options": [
       "zero",
@@ -220,6 +240,7 @@
     "explain": "To keep the identity of activities unique (since they share the same start and end nodes), 2 dummies are required for 3 parallel activities."
   },
   {
+    "id": 31189,
     "q": "21. Whenever an activity has zero total float, then .............",
     "options": [
       "free float must be zero but independent float need not be zero",
@@ -231,6 +252,7 @@
     "explain": "Since Independent Float ≤ Free Float ≤ Total Float, if Total Float is zero, the others must also be zero (assuming non-negative values)."
   },
   {
+    "id": 31190,
     "q": "22. Total float for any activity is defined as the difference between .............",
     "options": [
       "its latest finish time and earliest start time for its successor activity",
@@ -242,6 +264,7 @@
     "explain": "Total Float = Latest Start Time - Earliest Start Time (or LFT - EFT)."
   },
   {
+    "id": 31191,
     "q": "23. Which one of the following is associated with a critical activity in a A-O-A network?",
     "options": [
       "Maximum float",
@@ -253,6 +276,7 @@
     "explain": "By definition, a critical activity is one that has zero float, meaning any delay in it will delay the entire project."
   },
   {
+    "id": 30893,
     "q": "24. Selected the incorrect statements ..............",
     "options": [
       "a critical path always begins at the very first event",
@@ -264,6 +288,7 @@
     "explain": "A critical activity is defined by having a Total Float of zero. While its free float will also be zero, the primary defining characteristic used in network analysis is the zero total float."
   },
   {
+    "id": 30922,
     "q": "25. Milestones are ..............",
     "options": [
       "the events specifying the beginning and /or the end of subdivided activities",
@@ -275,6 +300,7 @@
     "explain": "In project management, milestones are key events that represent significant points of progress, such as the start or completion of a major phase."
   },
   {
+    "id": 30942,
     "q": "26. The cost slope is defined as ..............",
     "options": [
       "(crash cost - normal cost) / crash time",
@@ -286,6 +312,7 @@
     "explain": "Cost slope represents the increase in cost per unit of time saved. It is calculated as the change in cost divided by the change in time: (Crash Cost - Normal Cost) / (Normal Time - Crash Time)."
   },
   {
+    "id": 30948,
     "q": "27. If an activity has its optimistic, most likely and pessimistic times as 2, 3 and 7 respectively, than its expected time and variance are respectively ............",
     "options": [
       "3.5 and 5/6",
@@ -297,6 +324,7 @@
     "explain": "Expected time $t_e = (2 + 4(3) + 7) / 6 = 21/6 = 3.5$. Variance $\\sigma^2 = [(t_p - t_o) / 6]^2 = [(7 - 2) / 6]^2 = (5/6)^2 = 25/36$."
   },
   {
+    "id": 30966,
     "q": "28. The scheduling of project activities is done in such a way that it consumes resources ............",
     "options": [
       "greater at the start, lesser at the end",
@@ -308,6 +336,7 @@
     "explain": "Ideal resource scheduling aims for a uniform distribution to avoid idle time and sudden spikes in labor/equipment needs."
   },
   {
+    "id": 31213,
     "q": "29. The optimistic time represent the",
     "options": [
       "shortest possible time in which an activity can be completed if everything goes exceptionally well",
@@ -319,6 +348,7 @@
     "explain": "Optimistic time ($t_o$) assumes ideal conditions where no delays or setbacks occur during the execution of an activity."
   },
   {
+    "id": 31217,
     "q": "30. The early finish time of an activity is the ______ of early start time and duration of activity.",
     "options": [
       "sum",
@@ -330,6 +360,7 @@
     "explain": "Formula: $EF = ES + d$. The Earliest Finish time is simply the Earliest Start time plus the duration of the task."
   },
   {
+    "id": 31229,
     "q": "31. When float of an activity is negative",
     "options": [
       "it represents a situation where extra resources are available and the completion of project is delayed",

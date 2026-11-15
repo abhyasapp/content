@@ -1,5 +1,6 @@
 [
   {
+    "id": 32053,
     "q": "1. The loss of head due to sudden enlargement is",
     "options": [
       "(v₁ - v₂)² / g",
@@ -11,6 +12,7 @@
     "explain": "This loss represents energy dissipated through turbulence as flow transitions to a larger pipe."
   },
   {
+    "id": 32054,
     "q": "2. The loss of head due to sudden contraction, assuming coefficient of contraction as 0.62, is",
     "options": [
       "v₂² / 2g",
@@ -22,6 +24,7 @@
     "explain": "Based on (1/Cc - 1)² * (v₂²/2g). With Cc = 0.62, the factor is approx 0.375."
   },
   {
+    "id": 32055,
     "q": "3. The loss of head at entrance in a pipe is",
     "options": [
       "v² / 2g",
@@ -33,6 +36,7 @@
     "explain": "Standard minor loss coefficient for a sharp-edged entrance is K = 0.5."
   },
   {
+    "id": 32056,
     "q": "4. The loss of head at exit of a pipe is",
     "options": [
       "v² / 2g",
@@ -44,6 +48,7 @@
     "explain": "At the exit, the entire kinetic energy (v²/2g) is lost as the fluid enters the reservoir."
   },
   {
+    "id": 32090,
     "q": "5. According to Darcy's formula, the loss of head due to friction in the pipe is ............",
     "options": [
       "flv^2 / 2gd",
@@ -55,6 +60,7 @@
     "explain": "The standard Darcy-Weisbach equation is often expressed as $h_f = \frac{4flv^2}{2gd}$ where $f$ is the friction factor."
   },
   {
+    "id": 32091,
     "q": "6. The hydraulic mean depth or the hydraulic radius is the ratio of ............",
     "options": [
       "area of flow and wetted perimeter",
@@ -66,6 +72,7 @@
     "explain": "Hydraulic mean depth ($m$ or $R$) is defined as the cross-sectional area of flow ($A$) divided by the wetted perimeter ($P$)."
   },
   {
+    "id": 32092,
     "q": "7. The hydraulic mean depth for a circular pipe of diameter (d) is ............",
     "options": [
       "d/6",
@@ -77,6 +84,7 @@
     "explain": "For a full pipe: $A = \frac{\\pi d^2}{4}$ and $P = \\pi d$. Thus, $m = A/P = (\frac{\\pi d^2}{4}) / \\pi d = d/4$."
   },
   {
+    "id": 32095,
     "q": "8. The efficiency of power transmission through pipe is ............",
     "options": [
       "(H - hf) / H",
@@ -88,6 +96,7 @@
     "explain": "Efficiency is the ratio of available head at the outlet ($H - h_f$) to the total head supplied at the inlet ($H$)."
   },
   {
+    "id": 32096,
     "q": "9. The power transmitted through a pipe is ............",
     "options": [
       "w x Q x H",
@@ -99,6 +108,7 @@
     "explain": "Power is given by $P = \\gamma Q H_{net}$, where $H_{net}$ is the total head minus friction losses ($H - h_f$)."
   },
   {
+    "id": 32097,
     "q": "10. The power transmitted through the pipe is maximum when the head lost due to friction is equal to ............",
     "options": [
       "one-fourth of the total supply head",
@@ -110,6 +120,7 @@
     "explain": "By differentiating the power equation with respect to velocity, we find that maximum power occurs when $h_f = H/3$."
   },
   {
+    "id": 32098,
     "q": "11. The maximum efficiency of transmission through a pipe is ............",
     "options": [
       "50%",
@@ -121,6 +132,7 @@
     "explain": "At maximum power transmission ($h_f = H/3$), efficiency $\\eta = (H - H/3) / H = 2/3$, which is 66.67%."
   },
   {
+    "id": 32099,
     "q": "12. A compound pipe is required to be replaced by a new pipe. The two pipes are said to be equivalent, if ............",
     "options": [
       "length of both the pipes is same",
@@ -132,6 +144,7 @@
     "explain": "An equivalent pipe must carry the same discharge ($Q$) with the same total head loss ($h_f$) as the original system of pipes."
   },
   {
+    "id": 32100,
     "q": "13. A compound pipe of diameter d1, d2 and d3 having lengths l1, l2 and l3 is to be replaced by an equivalent pipe of uniform diameter d and of the same length (l) as that of the compound pipe. The size of the equivalent pipe is given by ............",
     "options": [
       "l/d^2 = l1/d1^2 + l2/d2^2 + l3/d3^2",
@@ -143,6 +156,7 @@
     "explain": "This is known as Dupuit’s equation: $\frac{l}{d^5} = \\sum \frac{l_i}{d_i^5}$, derived from equating friction losses."
   },
   {
+    "id": 32101,
     "q": "14. An air vessel is provided at the summit in a siphon to ............",
     "options": [
       "avoid interruption in the flow",
@@ -154,6 +168,7 @@
     "explain": "Air vessels at the summit collect air that comes out of solution at low pressure, preventing an air lock which would interrupt the siphonic action."
   },
   {
+    "id": 32102,
     "q": "15. A nozzle is generally made of ............",
     "options": [
       "cylindrical shape",
@@ -165,6 +180,7 @@
     "explain": "Nozzles are designed to increase the velocity of fluid at the expense of pressure; a convergent shape achieves this for incompressible fluids."
   },
   {
+    "id": 32103,
     "q": "16. A nozzle placed at the end of a water pipe line discharges water at a ............",
     "options": [
       "low pressure",
@@ -176,6 +192,7 @@
     "explain": "The primary function of a nozzle is to convert pressure energy into kinetic energy, resulting in a high-velocity jet."
   },
   {
+    "id": 32104,
     "q": "17. The power transmitted through the nozzle is maximum when the head lost due to friction in the pipe is ............ of the total supply head.",
     "options": [
       "one-half",
@@ -187,6 +204,7 @@
     "explain": "Similar to pipe transmission, the maximum power through a nozzle is achieved when head loss $h_f = H/3$."
   },
   {
+    "id": 32105,
     "q": "18. The diameter of the nozzle (d) for maximum transmission of power is given by ............",
     "options": [
       "d = (D^5 / 8fl)^(1/2)",
@@ -198,6 +216,7 @@
     "explain": "For maximum power, the optimal nozzle diameter is $d = (\frac{D^5}{8fl})^{1/4}$."
   },
   {
+    "id": 32107,
     "q": "19. The hammer blow in pipes occurs when ............",
     "options": [
       "there is excessive leakage in the pipe",
@@ -209,6 +228,7 @@
     "explain": "Water hammer (hammer blow) is a pressure surge caused when a fluid in motion is forced to stop or change direction suddenly."
   },
   {
+    "id": 32111,
     "q": "20. A channel is said to be of most economical cross-section, if ............",
     "options": [
       "it gives maximum discharge for a given cross-section",
@@ -220,6 +240,7 @@
     "explain": "The most economical section (or most efficient section) is designed to minimize the wetted perimeter for a given area, which maximizes discharge and minimizes excavation costs."
   },
   {
+    "id": 32114,
     "q": "21. The discharge through a channel of circular section will be maximum when the depth of water is ............ the diameter of the circular channel.",
     "options": [
       "0.34 times",
@@ -231,6 +252,7 @@
     "explain": "While velocity is maximum at 0.81d, the maximum discharge in a circular channel occurs when the depth $y = 0.95d$ due to the large increase in area."
   },
   {
+    "id": 32115,
     "q": "22. The velocity through a channel of circular section will be maximum when the depth of water is ............ the diameter of the circular channel.",
     "options": [
       "0.34 times",
@@ -242,6 +264,7 @@
     "explain": "Maximum velocity in a circular pipe occurs when the depth of flow is 0.81 times the diameter."
   },
   {
+    "id": 32116,
     "q": "23. The highest efficiency is obtained with a channel of ............ section.",
     "options": [
       "circular",
@@ -253,6 +276,7 @@
     "explain": "Among the common polygonal shapes, the trapezoidal section (specifically a half-hexagon) is the most efficient open channel section."
   },
   {
+    "id": 32117,
     "q": "24. In open channels, the specific energy is the ............",
     "options": [
       "total energy per unit discharge",
@@ -264,6 +288,7 @@
     "explain": "Specific energy ($E$) is the energy of flow per unit weight of water measured with the channel bed as the datum: $E = y + v^2/2g$."
   },
   {
+    "id": 32118,
     "q": "25. The critical depth for a channel is given by ............",
     "options": [
       "(q/g)^(1/2)",
@@ -275,6 +300,7 @@
     "explain": "For a rectangular channel, the critical depth ($y_c$) is calculated as $\\sqrt[3]{q^2/g}$, where $q$ is the discharge per unit width."
   },
   {
+    "id": 32119,
     "q": "26. If the depth of water in an open channel is greater than the critical depth, the flow is called ............",
     "options": [
       "critical flow",
@@ -286,6 +312,7 @@
     "explain": "When $y > y_c$, the velocity is low and the flow is described as tranquil, subcritical, or streaming flow."
   },
   {
+    "id": 32120,
     "q": "27. If the depth of water in an open channel is less than the critical depth, the flow is called ............",
     "options": [
       "critical flow",
@@ -297,6 +324,7 @@
     "explain": "When $y < y_c$, the velocity is high and the flow is described as torrential, supercritical, or shooting flow."
   },
   {
+    "id": 32121,
     "q": "28. The most efficient section of a channel is ............",
     "options": [
       "triangular",
@@ -308,6 +336,7 @@
     "explain": "The trapezoidal section is generally considered the most efficient because it can most closely approximate a semi-circle, which has the minimum wetted perimeter."
   },
   {
+    "id": 32122,
     "q": "29. The critical depth meter is used to measure ............",
     "options": [
       "velocity of flow in an open channel",
@@ -319,6 +348,7 @@
     "explain": "A critical depth meter is a device used in open channels to measure the depth of flow by creating a critical flow condition."
   },
   {
+    "id": 32155,
     "q": "30. The flow in a pipe is turbulent when Reynold number is ............",
     "options": [
       "less than 2000",
@@ -330,6 +360,7 @@
     "explain": "In pipe flow, $Re > 2800$ (or often cited as 4000 in some texts) is generally considered turbulent."
   },
   {
+    "id": 32156,
     "q": "31. The flow in a pipe is neither laminar nor turbulent when Reynold number is ............",
     "options": [
       "less than 2000",
@@ -341,6 +372,7 @@
     "explain": "This range is known as the 'transition zone' where the flow is unstable."
   },
   {
+    "id": 32159,
     "q": "32. The loss of head due to viscosity for laminar flow in pipes is ............",
     "options": [
       "4μvl / wd^2",
@@ -352,6 +384,7 @@
     "explain": "From the Hagen-Poiseuille equation, $h_f = 32 \\mu v L / \\gamma D^2$."
   },
   {
+    "id": 32533,
     "q": "33. The loss of head due to friction in a pipe of uniform diameter in which a viscous flow is taking place, is ............... where, Rn = Reynold number",
     "options": [
       "1/Rn",
@@ -363,6 +396,7 @@
     "explain": "For laminar (viscous) flow in a pipe, the friction factor 'f' is given by 64/Re. Therefore, the head loss is directly related to this coefficient."
   },
   {
+    "id": 32604,
     "q": "34. Frictional loss of head includes the loss of energy due to ...............",
     "options": [
       "viscosity",
@@ -374,6 +408,7 @@
     "explain": "Head loss occurs due to internal friction between fluid layers (viscosity) and mixing/eddies in the flow (turbulence)."
   },
   {
+    "id": 32609,
     "q": "35. Hydraulic grade line ...............",
     "options": [
       "remains above the centre line of conduit",
@@ -385,6 +420,7 @@
     "explain": "While usually above the conduit, the HGL can fall below the pipe centerline if there is negative (vacuum) pressure in the system."
   },
   {
+    "id": 32610,
     "q": "36. If the total head of the nozzle of a pipe is 37.5 m and discharge is 1 cumec, the power generated is ...............",
     "options": [
       "400 H.P.",
@@ -396,6 +432,7 @@
     "explain": "Power (P) = (wQH)/75 in metric HP. (1000 * 1 * 37.5) / 75 = 500 H.P."
   },
   {
+    "id": 32623,
     "q": "37. The ratio of frictional factor and coefficient of friction used in general equation for a equation for a head loss in a pipe, is ...............",
     "options": [
       "1",
@@ -407,6 +444,7 @@
     "explain": "Friction factor (f) is typically defined as 4 times the coefficient of friction (f'). f = 4f'."
   },
   {
+    "id": 31820,
     "q": "38. Manning's formula is used for ...............",
     "options": [
       "flow in open channels",
@@ -418,6 +456,7 @@
     "explain": "Manning's formula ($V = \frac{1}{n} R^{2/3} S^{1/2}$) is the most widely used empirical formula for uniform flow in open channels."
   },
   {
+    "id": 31828,
     "q": "39. In an inclined pipe, the pressure differentiate its two ends is due to ...............",
     "options": [
       "sudden head drop at inlet",
@@ -429,6 +468,7 @@
     "explain": "While gravity affects the pressure at different elevations, the continuous pressure 'differentiation' or loss as fluid flows between two points in a pipe is primarily caused by friction against the pipe walls."
   },
   {
+    "id": 31830,
     "q": "40. A siphon is used ...............",
     "options": [
       "to connect water reservoirs at different levels intervened by a hill",
@@ -440,6 +480,7 @@
     "explain": "A siphon is a long bent pipe used to carry water from a higher reservoir to a lower reservoir when the two are separated by a high ridge or hill."
   },
   {
+    "id": 31831,
     "q": "41. To avoid an interruption in the flow of a siphon, a vessel is provided ...............",
     "options": [
       "at the inlet",
@@ -451,6 +492,7 @@
     "explain": "An air vessel is provided at the summit to collect any air that comes out of solution due to low pressure, preventing an air lock that would stop the flow."
   },
   {
+    "id": 31832,
     "q": "42. For a long pipe, the head loss ...............",
     "options": [
       "at the entrance is ignored",
@@ -462,6 +504,7 @@
     "explain": "In 'long pipes' (usually where $L > 1000D$), minor losses like entrance and exit losses are negligible compared to the major loss caused by friction."
   },
   {
+    "id": 31833,
     "q": "43. To replace a pipe of diameter D by n parallel pipes of diameter d, the formula is ...............",
     "options": [
       "d = D/n",
@@ -473,6 +516,7 @@
     "explain": "Equating the discharges and using Darcy's equation for both cases results in the relation $D^5 = n^2 \\cdot d^5$, which simplifies to $d = D / n^{2/5}$."
   },
   {
+    "id": 31834,
     "q": "44. For solving network problems of pipes, necessary condition is ...............",
     "options": [
       "continuity equation",
@@ -484,6 +528,7 @@
     "explain": "Solving pipe networks (like Hardy Cross method) requires satisfying flow continuity at junctions, energy conservation in loops, and using head loss formulas like Darcy-Weisbach."
   },
   {
+    "id": 31835,
     "q": "45. Power transmitted through a pipe is maximum when friction head loss, is ...............",
     "options": [
       "one-half of the total head supplied",
@@ -495,6 +540,7 @@
     "explain": "The condition for maximum power transmission efficiency occurs when the head lost due to friction ($h_f$) is equal to $H/3$, where $H$ is the total head."
   },
   {
+    "id": 31836,
     "q": "46. Maximum efficiency of transmission of power through a pipe, is ...............",
     "options": [
       "25%",
@@ -506,6 +552,7 @@
     "explain": "Efficiency is given by $(H - h_f)/H$. Substituting the maximum power condition ($h_f = H/3$), we get $(H - H/3)/H = 2/3$, which is approximately 66.67%."
   },
   {
+    "id": 31837,
     "q": "47. For maximum horse power of a nozzle, the head supplied must be equal to ...............",
     "options": [
       "head loss in the pipe due to friction",
@@ -517,6 +564,7 @@
     "explain": "Similar to power transmission in pipes, the power at the nozzle is maximum when the friction head loss is one-third of the total head, meaning $H = 3h_f$."
   },
   {
+    "id": 31838,
     "q": "48. Hydraulic gradient is equal ...............",
     "options": [
       "difference in water surfaces / total length of the channel",
@@ -528,6 +576,7 @@
     "explain": "The Hydraulic Gradient Line (HGL) represents the slope of the piezometric head, calculated as the head loss per unit length of the pipe or channel ($h_f/L$)."
   },
   {
+    "id": 31839,
     "q": "49. The ratio of the hydraulic radius of a pipe running full to the hydraulic radius of a square section of a channel whose side is equal to the diameter of the pipe, is ...............",
     "options": [
       "1",
@@ -539,6 +588,7 @@
     "explain": "Hydraulic radius of pipe ($D/4$) and square ($a^2/4a = a/4$). Since side $a = D$, the ratio is $(D/4) / (D/4) = 1$."
   },
   {
+    "id": 31840,
     "q": "50. Hydraulic radius is equal to ...............",
     "options": [
       "area divided by square of wetted perimeter",

@@ -1,5 +1,6 @@
 [
   {
+    "id": 51896,
     "q": "1. Maximum bending moment in a beam occurs where",
     "options": [
       "deflection is zero",
@@ -11,6 +12,7 @@
     "explain": "Since dM/dx = Shear Force, the bending moment is maximum (or minimum) where the shear force is zero, i.e. where the SF diagram changes sign."
   },
   {
+    "id": 51897,
     "q": "2. Rate of change of bending moment is equal to",
     "options": [
       "shear force",
@@ -22,6 +24,7 @@
     "explain": "From beam theory, dM/dx = V (Shear Force); hence rate of change of bending moment along the span equals the shear force at that section."
   },
   {
+    "id": 44833,
     "q": "3. The product EI is called",
     "options": [
       "flexural rigidity",
@@ -33,6 +36,7 @@
     "explain": "The product of Young's modulus (E) and Moment of Inertia (I) defines the bending resistance of a beam, known as flexural rigidity."
   },
   {
+    "id": 51913,
     "q": "4. A bending moment may be defined as",
     "options": [
       "arithmetic sum of the moments of all the forces on either side of the section",
@@ -44,6 +48,7 @@
     "explain": "Bending moment at a section is defined as the algebraic (signed) sum of moments of all forces acting on either side of that section, since signs (sagging/hogging) matter."
   },
   {
+    "id": 51914,
     "q": "5. At either end of a plane frame, maximum number of possible transverse shear forces, are",
     "options": [
       "one",
@@ -55,6 +60,7 @@
     "explain": "At a joint/end of a 2D (plane) frame member, there is only one transverse (shear) direction perpendicular to the member axis, so only one possible transverse shear force."
   },
   {
+    "id": 51915,
     "q": "6. At either end of a plane frame, maximum number of possible bending moments, are",
     "options": [
       "one",
@@ -66,6 +72,7 @@
     "explain": "At a hinge/free end of a plane frame member, no bending moment can be resisted, hence the number of possible bending moments at such an end is zero (though for a fixed connection it can be one — as per book's stated answer for this variant, zero)."
   },
   {
+    "id": 51917,
     "q": "7. In a continuous bending moment curve he point where it changes sign, is called",
     "options": [
       "point of inflexion",
@@ -77,6 +84,7 @@
     "explain": "All three terms — point of inflexion, point of contraflexure, and point of virtual hinge — refer to the same location where the bending moment changes sign (crosses zero)."
   },
   {
+    "id": 51921,
     "q": "8. The shear force on a simply supported beam is proportional to",
     "options": [
       "displacement of the neutral axis",
@@ -88,6 +96,7 @@
     "explain": "Shear force at a section is defined as the algebraic sum of all transverse forces acting on one side of that section (signs matter for direction)."
   },
   {
+    "id": 51922,
     "q": "9. A reinforced concrete beam is assumed to be made of",
     "options": [
       "homogeneous material",
@@ -99,6 +108,7 @@
     "explain": "RCC combines two different materials (concrete and steel) with different properties, so it is treated as a heterogeneous (composite) material in analysis."
   },
   {
+    "id": 44845,
     "q": "10. Stress in a beam due to simple bending is",
     "options": [
       "directly proportional",
@@ -110,6 +120,7 @@
     "explain": "Bending stress is directly proportional to the distance from the neutral axis (y)."
   },
   {
+    "id": 51923,
     "q": "11. If a constant section beam is subjected to a uniform bending moment throughout, its length bends to",
     "options": [
       "a circular arc",
@@ -121,6 +132,7 @@
     "explain": "Under a uniform (constant) bending moment, the curvature (1/R = M/EI) is constant along the length, so the beam deforms into a circular arc of constant radius."
   },
   {
+    "id": 51932,
     "q": "12. A simply supported beam which carries a uniformly distributed load has two equal overhangs. To have maximum B.M. produced in the beam least possible, the ratio of length of the overhang to the total length of the beam is",
     "options": [
       "0.207",
@@ -132,6 +144,7 @@
     "explain": "For a beam with equal overhangs under UDL, equating the numerically equal midspan sagging moment and overhang hogging moment gives an optimum overhang ratio of approximately 0.207 (i.e., 0.5(√2 − 1) of the span between supports)."
   },
   {
+    "id": 51933,
     "q": "13. The point of contraflexure is the point where",
     "options": [
       "B.M. changes sign",
@@ -143,6 +156,7 @@
     "explain": "By definition, the point of contraflexure is where the bending moment diagram crosses zero, i.e. where the bending moment changes sign from sagging to hogging or vice versa."
   },
   {
+    "id": 44859,
     "q": "14. The amount of temperature stress is .......... in fixed beam if compared with propped cantilever.",
     "options": [
       "more",
@@ -154,6 +168,7 @@
     "explain": "A fixed beam provides total constraint at both ends, whereas a propped cantilever may allow some relief of stress depending on the specific support conditions and degrees of freedom."
   },
   {
+    "id": 51943,
     "q": "15. A simply supported uniform rectangular bar breadth b, depth d and length L, carries an isolated load W at its mid span. The same bar experiences an extension e under same tensile load. The ratio of the maximum deflection to the elongation is",
     "options": [
       "L/d",
@@ -165,6 +180,7 @@
     "explain": "Comparing the standard bending deflection formula (WL³/48EI) to the axial elongation formula (WL/AE) for the same bar and load leads to a ratio proportional to (L/2d)², as given in option (c); note options c and d are printed identically in the source book."
   },
   {
+    "id": 51944,
     "q": "16. The deflection of a uniform circular bar of diameter d and length l, which extends by an amount e under a tensile pull W, when it carries the same load at its mid span is",
     "options": [
       "el/2d",
@@ -176,6 +192,7 @@
     "explain": "Comparing the bending deflection (from flexure formula) to the axial elongation e of the same circular bar under the same load W gives a deflection expression proportional to e²l/3d², matching option (c)."
   },
   {
+    "id": 51945,
     "q": "17. A cantilever of length L is subjected to a bending moment M at its free end. If EI is the flexural rigidity of the section, the deflection of the free end is",
     "options": [
       "ML/EI",
@@ -187,6 +204,7 @@
     "explain": "For a cantilever under a pure end moment M, standard deflection formula gives free-end deflection = ML²/2EI."
   },
   {
+    "id": 51946,
     "q": "18. The maximum bending moment for a simply supported beam with a uniformly distributed load w/unit length is",
     "options": [
       "wl/2",
@@ -198,6 +216,7 @@
     "explain": "For a simply supported beam under UDL w per unit length, the maximum bending moment (at midspan) is wl²/8, a standard result."
   },
   {
+    "id": 44869,
     "q": "19. Along the neutral axis of a simply supported beam",
     "options": [
       "fibres do not undergo strain",
@@ -209,6 +228,7 @@
     "explain": "By definition, the neutral axis is the layer where bending stress and strain are zero."
   },
   {
+    "id": 51947,
     "q": "20. A simply supported beam carries a varying load from zero at one end to w at the other end. If the length of the beam is a, the shear force will be zero at a distance x from least loaded point where x is",
     "options": [
       "a/2",
@@ -220,6 +240,7 @@
     "explain": "For a triangularly (linearly) varying load, the shear force becomes zero at x = a/√3 measured from the zero-load end, a standard result for such loading."
   },
   {
+    "id": 51948,
     "q": "21. A simply supported beam carries varying load from zero at one end and w at the other end, the length of the beam is a, the maximum bending moment will be",
     "options": [
       "Wa/27",
@@ -231,6 +252,7 @@
     "explain": "For a linearly varying load, maximum bending moment occurs at x=a/√3 from the zero-load end and evaluates to Wa²/(9√3), the standard closed-form result."
   },
   {
+    "id": 44872,
     "q": "22. The algebraic sum of the vertical forces on either side of the section of a loaded beam is known as",
     "options": [
       "shear force",
@@ -242,6 +264,7 @@
     "explain": "Shear force at any section is the net vertical force acting on one side of that section."
   },
   {
+    "id": 44873,
     "q": "23. Find the shear force produced in the member BC due to load shown in fig.",
     "options": [
       "4 kN",
@@ -253,6 +276,7 @@
     "explain": "Based on the figure, the vertical load applied at C is 4 kN, which remains constant through the member BC."
   },
   {
+    "id": 44876,
     "q": "24. Find the bending moment at fixed end of cantilever as shown in fig.",
     "options": [
       "0",
@@ -264,6 +288,7 @@
     "explain": "The moment is calculated by the sum of forces times their distances (5T × 2m + 10 Tm = 20 Tm)."
   },
   {
+    "id": 51955,
     "q": "25. A portion of beam between two sections is said to be in pure bending when there is",
     "options": [
       "constant bending moment and zero shear force",
@@ -275,6 +300,7 @@
     "explain": "Pure bending occurs over a beam segment where the bending moment is constant and the shear force is zero (since dM/dx = V = 0 implies M is constant)."
   },
   {
+    "id": 44878,
     "q": "26. A rectangular beam carries a maximum bending moment of M. If its depth is doubled, its moment carrying capacity will be",
     "options": [
       "M",
@@ -286,6 +312,7 @@
     "explain": "Moment capacity is proportional to the Section Modulus Z (BD²/6). If D is doubled (2D), Z becomes B(2D)²/6 = 4BD²/6, increasing capacity 4 times."
   },
   {
+    "id": 51956,
     "q": "27. Of the several prismatic beams of equal lengths, the strongest in flexure is one having the maximum",
     "options": [
       "moment of inertia",
@@ -297,6 +324,7 @@
     "explain": "Bending strength (moment carrying capacity for a given allowable stress) is M = σ×Z, so the beam with maximum section modulus Z is the strongest in flexure."
   },
   {
+    "id": 44879,
     "q": "28. The algebraic sum of the moments of the forces on either side of the section of a loaded beam is known as",
     "options": [
       "shear force",
@@ -308,6 +336,7 @@
     "explain": "This is the formal definition of the internal bending moment at a specific point in a beam."
   },
   {
+    "id": 51957,
     "q": "29. A prismatic bar when subjected to pure bending assumes the shape of",
     "options": [
       "catenary",
@@ -319,6 +348,7 @@
     "explain": "Under pure (constant) bending moment, curvature 1/R = M/EI is constant, so the beam bends into a circular arc."
   },
   {
+    "id": 44880,
     "q": "30. The shear force and bending moment are related by",
     "options": [
       "V = M/Z",
@@ -330,6 +360,7 @@
     "explain": "The rate of change of the bending moment (dM/dx) at any section is equal to the shear force (V) at that section."
   },
   {
+    "id": 44881,
     "q": "31. The shear force on a beam and the displacement are related by",
     "options": [
       "V = EI d²y/dx²",
@@ -341,6 +372,7 @@
     "explain": "Bending Moment M = EI(d²y/dx²). Since V = dM/dx, it follows that V = EI(d³y/dx³)."
   },
   {
+    "id": 44882,
     "q": "32. Which one is correct if the deflection of a beam is y",
     "options": [
       "θ = dy/dx",
@@ -352,6 +384,7 @@
     "explain": "The slope (θ) of a beam's elastic curve is the first derivative of the deflection (y) with respect to x."
   },
   {
+    "id": 44883,
     "q": "33. Calculate the maximum BM introduced due to a udl of 4KN/m, if the span of the cantilever is 1.8m",
     "options": [
       "2.16 KN-M",
@@ -363,6 +396,7 @@
     "explain": "Maximum BM for a cantilever with UDL is wL²/2. (4 × 1.8²) / 2 = 6.48 KN-M."
   },
   {
+    "id": 44884,
     "q": "34. Find the bending moment at 1/4th of the span having simply supported beam with following data: point load = 200 kg at centre, span = 20m",
     "options": [
       "250 kg-m",
@@ -374,6 +408,7 @@
     "explain": "Reaction at support is 100 kg. At x = 5m (1/4th span), BM = 100 kg × 5m = 500 kg-m."
   },
   {
+    "id": 44885,
     "q": "35. The maximum deflection in the cantilever beam subjected to an udl of W /m throughout the span is",
     "options": [
       "Wl⁴/8EI",
@@ -385,6 +420,7 @@
     "explain": "This is a standard deflection formula for a cantilever beam under a uniformly distributed load."
   },
   {
+    "id": 44886,
     "q": "36. A simply supported beam of length l carries a load varying uniformly from zero at left end to maximum at right end maximum bending moment occurs at a distance of",
     "options": [
       "l/√3 from left end",
@@ -396,6 +432,7 @@
     "explain": "For a triangular load, the maximum moment occurs where shear force is zero, which is at a distance of l/√3 from the apex (zero load end)."
   },
   {
+    "id": 44672,
     "q": "37. Load carrying capacity of fixed beam is",
     "options": [
       "lesser than simply supported beam",
@@ -407,6 +444,7 @@
     "explain": "A fixed beam has a higher degree of redundancy and smaller maximum bending moments compared to simply supported or cantilever beams for the same span and loading, allowing it to carry more load."
   },
   {
+    "id": 44673,
     "q": "38. The difference in placing the end of a beam simply over a support and the supporting end through a hinge on rollers is that the roller support",
     "options": [
       "can offer reaction in the plane of rollers",
@@ -418,6 +456,7 @@
     "explain": "A roller support allows horizontal movement and rotation but constrains vertical movement; however, in standard civil engineering contexts, it prevents the beam from lifting off the support surface."
   },
   {
+    "id": 44676,
     "q": "39. At either ends of plane frame, maximum number of possible bending moment, are",
     "options": [
       "one",
@@ -429,6 +468,7 @@
     "explain": "According to the provided answer key, the value is zero; this typically refers to idealized hinged or pinned connections at the ends of a frame where no moment is transferred."
   },
   {
+    "id": 44677,
     "q": "40. A simply supported beam of span L carries a uniformly distributed load, w. The maximum shear force, V is",
     "options": [
       "wL/2",
@@ -440,6 +480,7 @@
     "explain": "For a simply supported beam with UDL, the total load is wL. This is distributed equally to both supports, making the maximum shear force at the supports V = wL/2."
   },
   {
+    "id": 44678,
     "q": "41. A simply supported beam of span L carries a uniformly distributed load, w. The maximum bending moment, M is",
     "options": [
       "wL²/2",
@@ -451,6 +492,7 @@
     "explain": "The maximum bending moment for a simply supported beam with a UDL occurs at the center and is calculated as M = wL²/8."
   },
   {
+    "id": 51971,
     "q": "42. Bending moment at any section in a conjugate beam gives in the actual beam",
     "options": [
       "slope",
@@ -462,6 +504,7 @@
     "explain": "By the conjugate beam method, the bending moment computed on the conjugate beam at any section corresponds to the deflection at that section in the real (actual) beam."
   },
   {
+    "id": 44679,
     "q": "43. A simply supported beam of span L carries two equal concentrated loads, W at a distance of L/3 from either support. The maximum bending moment, M is",
     "options": [
       "WL/2",
@@ -473,6 +516,7 @@
     "explain": "The reaction at each support is W. The maximum moment occurs between the two loads and is equal to Reaction × Distance = W × (L/3)."
   },
   {
+    "id": 44680,
     "q": "44. A beam is hinged at both ends and loaded with a triangular load having maximum intensity (W) at centre. Find the maximum bending moment & shear force",
     "options": [
       "WL²/12, WL/10",
@@ -484,6 +528,7 @@
     "explain": "For a triangular load (reaching peak W at center) on a simply supported span L, the total load is WL/2, the reactions are WL/4, and the peak moment at the center is WL²/12."
   },
   {
+    "id": 44681,
     "q": "45. The shape of bending moment diagram over the length of a beam, having no external load is",
     "options": [
       "linear",
@@ -495,6 +540,7 @@
     "explain": "When there is no external load (only point loads or moments at ends), the shear force is constant and the bending moment varies linearly."
   },
   {
+    "id": 44682,
     "q": "46. The shape of bending moment diagram over the length of a beam, carrying a uniformly distributed load is",
     "options": [
       "linear",
@@ -506,6 +552,7 @@
     "explain": "The bending moment is the integral of the shear force. For a UDL, the shear force is linear, so the bending moment diagram follows a second-degree (parabolic) curve."
   },
   {
+    "id": 44683,
     "q": "47. In any beam, there is acting uniformly moment then its curve is",
     "options": [
       "circular arch",
@@ -517,6 +564,7 @@
     "explain": "The key indicates 'parabolic arch', though pure bending (constant moment) typically results in a circular elastic curve; however, in the context of load diagrams, 'parabolic' is often associated with distributed forces."
   },
   {
+    "id": 44684,
     "q": "48. The shape of bending moment diagram over the length of a beam, carrying a uniformly increasing load is",
     "options": [
       "linear",
@@ -528,6 +576,7 @@
     "explain": "A uniformly increasing load (triangular) results in a parabolic shear force (2nd degree) and a cubical bending moment diagram (3rd degree)."
   },
   {
+    "id": 44685,
     "q": "49. The maximum bending moment due to moving load on a simply supported beam occurs",
     "options": [
       "at the mid span",
@@ -539,6 +588,7 @@
     "explain": "For a single moving point load on a simply supported beam, the maximum bending moment always occurs directly under the load position."
   },
   {
+    "id": 44686,
     "q": "50. For a simply supported beam with a central load, the bending moment is",
     "options": [
       "least at the centre",
