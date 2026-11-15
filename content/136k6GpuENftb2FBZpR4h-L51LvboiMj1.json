@@ -9,7 +9,8 @@
       "external support capable of resisting moment"
     ],
     "correct": 2,
-    "explain": "Since simple supports cannot provide moment reactions, the applied moment is balanced by a couple consisting of two equal and opposite vertical reactions at the supports."
+    "explain": "Since simple supports cannot provide moment reactions, the applied moment is balanced by a couple consisting of two equal and opposite vertical reactions at the supports.",
+    "public_qn": "50033.220001"
   },
   {
     "id": 39723,
@@ -21,7 +22,8 @@
       "3"
     ],
     "correct": 3,
-    "explain": "In 2D space, there are 3 equations of equilibrium (ΣFx, ΣFy, ΣM). A structure with 3 independent reaction components is statically determinate."
+    "explain": "In 2D space, there are 3 equations of equilibrium (ΣFx, ΣFy, ΣM). A structure with 3 independent reaction components is statically determinate.",
+    "public_qn": "50033.220002"
   },
   {
     "id": 39725,
@@ -33,7 +35,8 @@
       "3/4 length from free end"
     ],
     "correct": 3,
-    "explain": "For a propped cantilever with UDL, the point of zero bending moment (contraflexure) occurs at a distance of 3/4L from the fixed end (or 1/4L from the prop)."
+    "explain": "For a propped cantilever with UDL, the point of zero bending moment (contraflexure) occurs at a distance of 3/4L from the fixed end (or 1/4L from the prop).",
+    "public_qn": "50033.220003"
   },
   {
     "id": 39726,
@@ -45,7 +48,8 @@
       "distributed load"
     ],
     "correct": 2,
-    "explain": "By equating the downward deflection of a SS beam due to UDL (5wL⁴/384EI) to the upward deflection due to the prop (PL³/48EI), the prop reaction is found to be 5/8 of the total load W."
+    "explain": "By equating the downward deflection of a SS beam due to UDL (5wL⁴/384EI) to the upward deflection due to the prop (PL³/48EI), the prop reaction is found to be 5/8 of the total load W.",
+    "public_qn": "50033.220004"
   },
   {
     "id": 39727,
@@ -57,7 +61,8 @@
       "WL/32"
     ],
     "correct": 3,
-    "explain": "With a prop reaction of 5/8W, the net BM at the center becomes (WL/8) - (5/8W * L/4) = WL/32."
+    "explain": "With a prop reaction of 5/8W, the net BM at the center becomes (WL/8) - (5/8W * L/4) = WL/32.",
+    "public_qn": "50033.220005"
   },
   {
     "id": 39305,
@@ -69,7 +74,8 @@
       "parabola with wl/4 maximum ordinate"
     ],
     "correct": 2,
-    "explain": "A UDL produces a 2nd-degree curve (parabola) for the bending moment, with the peak value at the center being wl²/8."
+    "explain": "A UDL produces a 2nd-degree curve (parabola) for the bending moment, with the peak value at the center being wl²/8.",
+    "public_qn": "50033.220006"
   },
   {
     "id": 39306,
@@ -81,7 +87,8 @@
       "none of these"
     ],
     "correct": 2,
-    "explain": "The maximum bending moment occurs at the section where the shear force is zero or changes its sign."
+    "explain": "The maximum bending moment occurs at the section where the shear force is zero or changes its sign.",
+    "public_qn": "50033.220007"
   },
   {
     "id": 39308,
@@ -93,7 +100,8 @@
       "the area of S.F. diagram starting from any one end"
     ],
     "correct": 2,
-    "explain": "The rate of change of bending moment (dM/dx) at a section is equal to the shear force (V) at that section."
+    "explain": "The rate of change of bending moment (dM/dx) at a section is equal to the shear force (V) at that section.",
+    "public_qn": "50033.220008"
   },
   {
     "id": 39309,
@@ -105,7 +113,8 @@
       "wl²/4"
     ],
     "correct": 1,
-    "explain": "The total load is (1/2 * l * w). Since the loading is symmetrical, each reaction (Max SF) is half the total load: (1/2 * wl/2) = wl/4."
+    "explain": "The total load is (1/2 * l * w). Since the loading is symmetrical, each reaction (Max SF) is half the total load: (1/2 * wl/2) = wl/4.",
+    "public_qn": "50033.220009"
   },
   {
     "id": 39310,
@@ -117,7 +126,8 @@
       "none of these"
     ],
     "correct": 1,
-    "explain": "For a symmetrical loading on a simply supported beam, the maximum bending moment always occurs at the mid-span (l/2 from either end)."
+    "explain": "For a symmetrical loading on a simply supported beam, the maximum bending moment always occurs at the mid-span (l/2 from either end).",
+    "public_qn": "50033.220010"
   },
   {
     "id": 39311,
@@ -129,7 +139,8 @@
       "w²l/8"
     ],
     "correct": 0,
-    "explain": "For this specific triangular loading (apex at center), the maximum bending moment at the mid-span is calculated as wl²/12."
+    "explain": "For this specific triangular loading (apex at center), the maximum bending moment at the mid-span is calculated as wl²/12.",
+    "public_qn": "50033.220011"
   },
   {
     "id": 39312,
@@ -141,7 +152,8 @@
       "roller end"
     ],
     "correct": 2,
-    "explain": "A free end has no constraints; it can move horizontally, vertically, and rotate freely under load."
+    "explain": "A free end has no constraints; it can move horizontally, vertically, and rotate freely under load.",
+    "public_qn": "50033.220012"
   },
   {
     "id": 39313,
@@ -153,7 +165,8 @@
       "cantilever subjected to uniformly varying loads"
     ],
     "correct": 2,
-    "explain": "Fixed beams develop hogging moments at the supports and sagging moments in the center, necessitating points of contraflexure where the BM is zero."
+    "explain": "Fixed beams develop hogging moments at the supports and sagging moments in the center, necessitating points of contraflexure where the BM is zero.",
+    "public_qn": "50033.220013"
   },
   {
     "id": 39315,
@@ -165,7 +178,8 @@
       "rate of loading changes suddenly"
     ],
     "correct": 2,
-    "explain": "The slope of BMD is the Shear Force. If SF changes sign (from positive to negative), the slope of the BM curve changes from increasing to decreasing."
+    "explain": "The slope of BMD is the Shear Force. If SF changes sign (from positive to negative), the slope of the BM curve changes from increasing to decreasing.",
+    "public_qn": "50033.220014"
   },
   {
     "id": 39317,
@@ -177,7 +191,8 @@
       "F = ∫ M dx"
     ],
     "correct": 2,
-    "explain": "The fundamental differential relationship between bending moment and shear force is that F (or V) is the derivative of M with respect to distance x."
+    "explain": "The fundamental differential relationship between bending moment and shear force is that F (or V) is the derivative of M with respect to distance x.",
+    "public_qn": "50033.220015"
   },
   {
     "id": 39320,
@@ -189,7 +204,8 @@
       "circular"
     ],
     "correct": 0,
-    "explain": "With no external load between two points, the shear force is constant (horizontal line), making the bending moment linear (inclined line)."
+    "explain": "With no external load between two points, the shear force is constant (horizontal line), making the bending moment linear (inclined line).",
+    "public_qn": "50033.220016"
   },
   {
     "id": 39321,
@@ -201,7 +217,8 @@
       "circular"
     ],
     "correct": 1,
-    "explain": "UDL (constant) leads to a linear SFD, which integrates into a 2nd-degree parabolic curve for the BMD."
+    "explain": "UDL (constant) leads to a linear SFD, which integrates into a 2nd-degree parabolic curve for the BMD.",
+    "public_qn": "50033.220017"
   },
   {
     "id": 39322,
@@ -213,7 +230,8 @@
       "circular"
     ],
     "correct": 2,
-    "explain": "A uniformly increasing load (1st degree) leads to a parabolic SFD (2nd degree) and a cubical parabolic BMD (3rd degree)."
+    "explain": "A uniformly increasing load (1st degree) leads to a parabolic SFD (2nd degree) and a cubical parabolic BMD (3rd degree).",
+    "public_qn": "50033.220018"
   },
   {
     "id": 39323,
@@ -225,7 +243,8 @@
       "anywhere on the beam"
     ],
     "correct": 2,
-    "explain": "For a single concentrated moving load, the absolute maximum bending moment at any section always occurs when the load is placed directly over that section."
+    "explain": "For a single concentrated moving load, the absolute maximum bending moment at any section always occurs when the load is placed directly over that section.",
+    "public_qn": "50033.220019"
   },
   {
     "id": 39324,
@@ -237,7 +256,8 @@
       "maximum at the centre"
     ],
     "correct": 3,
-    "explain": "For a simply supported beam of length L with a central point load P, the bending moment increases linearly from zero at the supports to a maximum value of PL/4 at the center."
+    "explain": "For a simply supported beam of length L with a central point load P, the bending moment increases linearly from zero at the supports to a maximum value of PL/4 at the center.",
+    "public_qn": "50033.220020"
   },
   {
     "id": 39325,
@@ -249,7 +269,8 @@
       "1/2 W^2L"
     ],
     "correct": 1,
-    "explain": "In a cantilever beam with a UDL, the maximum bending moment occurs at the fixed support and is calculated as (Total Load × Distance to CG), which is W × (L/2) = WL/2."
+    "explain": "In a cantilever beam with a UDL, the maximum bending moment occurs at the fixed support and is calculated as (Total Load × Distance to CG), which is W × (L/2) = WL/2.",
+    "public_qn": "50033.220021"
   },
   {
     "id": 39326,
@@ -261,7 +282,8 @@
       "changes sign"
     ],
     "correct": 3,
-    "explain": "According to the relationship dM/dx = V, the bending moment (M) reaches a local maximum or minimum value where the shear force (V) is zero or changes its sign."
+    "explain": "According to the relationship dM/dx = V, the bending moment (M) reaches a local maximum or minimum value where the shear force (V) is zero or changes its sign.",
+    "public_qn": "50033.220022"
   },
   {
     "id": 39328,
@@ -273,7 +295,8 @@
       "all the above"
     ],
     "correct": 3,
-    "explain": "The point where the bending moment changes from sagging (+) to hogging (-) or vice versa is known by all these terms; it is the location where the curvature of the beam changes."
+    "explain": "The point where the bending moment changes from sagging (+) to hogging (-) or vice versa is known by all these terms; it is the location where the curvature of the beam changes.",
+    "public_qn": "50033.220023"
   },
   {
     "id": 39329,
@@ -285,7 +308,8 @@
       "none of these"
     ],
     "correct": 2,
-    "explain": "Statically indeterminate structures have more unknown support reactions or internal forces than the available equations of equilibrium (ΣH=0, ΣV=0, ΣM=0)."
+    "explain": "Statically indeterminate structures have more unknown support reactions or internal forces than the available equations of equilibrium (ΣH=0, ΣV=0, ΣM=0).",
+    "public_qn": "50033.220024"
   },
   {
     "id": 39330,
@@ -297,7 +321,8 @@
       "ΣH = 0, ΣV = 0, ΣM = 0"
     ],
     "correct": 3,
-    "explain": "For a 2D structure, the three independent equations of equilibrium are the summation of horizontal forces, vertical forces, and moments about any point."
+    "explain": "For a 2D structure, the three independent equations of equilibrium are the summation of horizontal forces, vertical forces, and moments about any point.",
+    "public_qn": "50033.220025"
   },
   {
     "id": 39347,
@@ -309,7 +334,8 @@
       "all the above"
     ],
     "correct": 0,
-    "explain": "Arching action converts some of the bending moments into axial thrust, thereby reducing the net bending moment that the material must resist."
+    "explain": "Arching action converts some of the bending moments into axial thrust, thereby reducing the net bending moment that the material must resist.",
+    "public_qn": "50033.220026"
   },
   {
     "id": 39349,
@@ -321,7 +347,8 @@
       "at all the three hinges"
     ],
     "correct": 3,
-    "explain": "By definition, a hinge cannot resist or transfer bending moment; therefore, the BM is zero at every hinge location."
+    "explain": "By definition, a hinge cannot resist or transfer bending moment; therefore, the BM is zero at every hinge location.",
+    "public_qn": "50033.220027"
   },
   {
     "id": 39350,
@@ -333,7 +360,8 @@
       "none of these"
     ],
     "correct": 0,
-    "explain": "To maintain symmetry and structural efficiency, the internal hinge is usually placed at the highest point of the arch, known as the crown."
+    "explain": "To maintain symmetry and structural efficiency, the internal hinge is usually placed at the highest point of the arch, known as the crown.",
+    "public_qn": "50033.220028"
   },
   {
     "id": 39354,
@@ -345,7 +373,8 @@
       "structurally sound but indeterminate"
     ],
     "correct": 0,
-    "explain": "As established in Q. 250, the three hinges provide enough equations to solve for all reactions using statics alone."
+    "explain": "As established in Q. 250, the three hinges provide enough equations to solve for all reactions using statics alone.",
+    "public_qn": "50033.220029"
   },
   {
     "id": 39357,
@@ -357,7 +386,8 @@
       "thrust, shear force and bending moment"
     ],
     "correct": 3,
-    "explain": "Unlike a funicular arch, a general arch structure under arbitrary loading must resist axial compression (thrust), transverse shear, and bending moments."
+    "explain": "Unlike a funicular arch, a general arch structure under arbitrary loading must resist axial compression (thrust), transverse shear, and bending moments.",
+    "public_qn": "50033.220030"
   },
   {
     "id": 39359,
@@ -369,7 +399,8 @@
       "forces must be equal in magnitude but opposite in sign"
     ],
     "correct": 1,
-    "explain": "If only two non-collinear members meet at a joint with no external load, both must carry zero force to satisfy ΣH=0 and ΣV=0."
+    "explain": "If only two non-collinear members meet at a joint with no external load, both must carry zero force to satisfy ΣH=0 and ΣV=0.",
+    "public_qn": "50033.220031"
   },
   {
     "id": 39361,
@@ -381,7 +412,8 @@
       "120°"
     ],
     "correct": 3,
-    "explain": "For three equal forces to be in equilibrium at a joint, the angle between each pair of forces must be 120° (Lami's Theorem)."
+    "explain": "For three equal forces to be in equilibrium at a joint, the angle between each pair of forces must be 120° (Lami's Theorem).",
+    "public_qn": "50033.220032"
   },
   {
     "id": 39367,
@@ -393,7 +425,8 @@
       "the neutral axis lies at the centre"
     ],
     "correct": 0,
-    "explain": "Homogeneity and isotropy imply consistent elastic properties throughout, which allows Hooke's Law (Stress ∝ Strain) to be applied uniformly."
+    "explain": "Homogeneity and isotropy imply consistent elastic properties throughout, which allows Hooke's Law (Stress ∝ Strain) to be applied uniformly.",
+    "public_qn": "50033.220033"
   },
   {
     "id": 39368,
@@ -405,7 +438,8 @@
       "1/6 bd²"
     ],
     "correct": 1,
-    "explain": "Using Parallel Axis Theorem: I_base = I_cg + Ah² = (1/12 bd³) + (bd)(d/2)² = 1/3 bd³."
+    "explain": "Using Parallel Axis Theorem: I_base = I_cg + Ah² = (1/12 bd³) + (bd)(d/2)² = 1/3 bd³.",
+    "public_qn": "50033.220034"
   },
   {
     "id": 39369,
@@ -417,7 +451,8 @@
       "will be passing through point of intersection... and perpendicular to the plane"
     ],
     "correct": 3,
-    "explain": "Izz represents the polar moment of inertia, which is the sum of Ixx and Iyy (Perpendicular Axis Theorem), passing through the centroid perpendicular to the section."
+    "explain": "Izz represents the polar moment of inertia, which is the sum of Ixx and Iyy (Perpendicular Axis Theorem), passing through the centroid perpendicular to the section.",
+    "public_qn": "50033.220035"
   },
   {
     "id": 39374,
@@ -429,7 +464,8 @@
       "elastic modulus"
     ],
     "correct": 2,
-    "explain": "Bending stress (or flexural stress) is the internal resistance developed by the fibers of a beam to counteract the external bending moment."
+    "explain": "Bending stress (or flexural stress) is the internal resistance developed by the fibers of a beam to counteract the external bending moment.",
+    "public_qn": "50033.220036"
   },
   {
     "id": 39375,
@@ -441,7 +477,8 @@
       "elastic constants varies linearly in the material"
     ],
     "correct": 2,
-    "explain": "An isotropic material has identical physical and elastic properties (like Young's Modulus and Poisson's ratio) in all directions at any given point."
+    "explain": "An isotropic material has identical physical and elastic properties (like Young's Modulus and Poisson's ratio) in all directions at any given point.",
+    "public_qn": "50033.220037"
   },
   {
     "id": 39376,
@@ -453,7 +490,8 @@
       "elliptically"
     ],
     "correct": 0,
-    "explain": "According to the flexure formula (σ = My/I), the bending stress is directly proportional to the distance from the neutral axis, resulting in a linear distribution."
+    "explain": "According to the flexure formula (σ = My/I), the bending stress is directly proportional to the distance from the neutral axis, resulting in a linear distribution.",
+    "public_qn": "50033.220038"
   },
   {
     "id": 39377,
@@ -465,7 +503,8 @@
       "independent of"
     ],
     "correct": 1,
-    "explain": "The fundamental assumption that 'plane sections remain plane' implies that longitudinal strain (ε) varies linearly with the distance (y) from the neutral axis."
+    "explain": "The fundamental assumption that 'plane sections remain plane' implies that longitudinal strain (ε) varies linearly with the distance (y) from the neutral axis.",
+    "public_qn": "50033.220039"
   },
   {
     "id": 39378,
@@ -477,7 +516,8 @@
       "T/r = τ/J = Cθ/l"
     ],
     "correct": 0,
-    "explain": "The Bernoulli-Euler bending equation relates the internal moment (M), moment of inertia (I), stress (σ), distance from neutral axis (y), modulus (E), and radius of curvature (R)."
+    "explain": "The Bernoulli-Euler bending equation relates the internal moment (M), moment of inertia (I), stress (σ), distance from neutral axis (y), modulus (E), and radius of curvature (R).",
+    "public_qn": "50033.220040"
   },
   {
     "id": 39379,
@@ -489,7 +529,8 @@
       "none of the above"
     ],
     "correct": 2,
-    "explain": "Pure bending (or simple bending) occurs in a region where the bending moment is constant, which mathematically implies the shear force (dM/dx) must be zero."
+    "explain": "Pure bending (or simple bending) occurs in a region where the bending moment is constant, which mathematically implies the shear force (dM/dx) must be zero.",
+    "public_qn": "50033.220041"
   },
   {
     "id": 39380,
@@ -501,7 +542,8 @@
       "independent of"
     ],
     "correct": 1,
-    "explain": "As per the flexure formula σ = (M/I)y, for a given section, stress increases linearly as you move further away from the neutral axis."
+    "explain": "As per the flexure formula σ = (M/I)y, for a given section, stress increases linearly as you move further away from the neutral axis.",
+    "public_qn": "50033.220042"
   },
   {
     "id": 39382,
@@ -513,7 +555,8 @@
       "M/I"
     ],
     "correct": 0,
-    "explain": "Section modulus (Z) is defined as the ratio of the moment of inertia (I) to the distance of the extreme fiber from the neutral axis (y_max)."
+    "explain": "Section modulus (Z) is defined as the ratio of the moment of inertia (I) to the distance of the extreme fiber from the neutral axis (y_max).",
+    "public_qn": "50033.220043"
   },
   {
     "id": 39383,
@@ -525,7 +568,8 @@
       "bd²/6"
     ],
     "correct": 3,
-    "explain": "For a rectangle, I = bd³/12 and y_max = d/2. Thus, Z = (bd³/12) / (d/2) = bd²/6."
+    "explain": "For a rectangle, I = bd³/12 and y_max = d/2. Thus, Z = (bd³/12) / (d/2) = bd²/6.",
+    "public_qn": "50033.220044"
   },
   {
     "id": 39384,
@@ -537,7 +581,8 @@
       "none of these"
     ],
     "correct": 2,
-    "explain": "Since σ = M/Z, bending stress is inversely proportional to the section modulus. A higher Z indicates a stronger section with lower stress for the same moment."
+    "explain": "Since σ = M/Z, bending stress is inversely proportional to the section modulus. A higher Z indicates a stronger section with lower stress for the same moment.",
+    "public_qn": "50033.220045"
   },
   {
     "id": 39385,
@@ -549,7 +594,8 @@
       "none of these"
     ],
     "correct": 1,
-    "explain": "For the same cross-sectional area, a square section has a higher section modulus than a circular section, making it more efficient (economical) in resisting bending."
+    "explain": "For the same cross-sectional area, a square section has a higher section modulus than a circular section, making it more efficient (economical) in resisting bending.",
+    "public_qn": "50033.220046"
   },
   {
     "id": 39386,
@@ -561,7 +607,8 @@
       "centre of gravity"
     ],
     "correct": 0,
-    "explain": "In a cantilever beam loaded downwards, the top fibers undergo tension (stretching) and the bottom fibers undergo compression (shortening)."
+    "explain": "In a cantilever beam loaded downwards, the top fibers undergo tension (stretching) and the bottom fibers undergo compression (shortening).",
+    "public_qn": "50033.220047"
   },
   {
     "id": 39388,
@@ -573,7 +620,8 @@
       "M³"
     ],
     "correct": 0,
-    "explain": "σ = M / (bd²/6). If σ and d are constant, then b must be directly proportional to M (b ∝ M)."
+    "explain": "σ = M / (bd²/6). If σ and d are constant, then b must be directly proportional to M (b ∝ M).",
+    "public_qn": "50033.220048"
   },
   {
     "id": 39389,
@@ -585,7 +633,8 @@
       "same shear stress at every section"
     ],
     "correct": 1,
-    "explain": "The core definition of a beam of uniform strength is that the maximum fiber stress is constant across every cross-section along its longitudinal axis."
+    "explain": "The core definition of a beam of uniform strength is that the maximum fiber stress is constant across every cross-section along its longitudinal axis.",
+    "public_qn": "50033.220049"
   },
   {
     "id": 39390,
@@ -597,6 +646,7 @@
       "directly proportional to"
     ],
     "correct": 3,
-    "explain": "From the equation σ = My/I, it is clear that for a given section, the stress is directly proportional to the applied bending moment."
+    "explain": "From the equation σ = My/I, it is clear that for a given section, the stress is directly proportional to the applied bending moment.",
+    "public_qn": "50033.220050"
   }
 ]

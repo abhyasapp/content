@@ -1,19 +1,19 @@
-/* ══════════════════════════════════════════════════════════════════════
-   CHAPTERS-DATA.JS — ABHYAS AUTO-GENERATED
-   ──────────────────────────────────────────────────────────────────────
+/* ----------------------------------------------------------------------
+   CHAPTERS-DATA.JS -- ABHYAS AUTO-GENERATED
+   ??????????????????????????????????????????????????????????????????????
    Four-level shape:  level -> chapter -> subtopic -> file(s)
 
    Every chapter ends with:
-     • '<prefix>.<N+1> Mixed Questions'    — pooled unclassified, part N
-     • '<prefix>.<N+2> Original Questions' — every unique source file
+     ? '<prefix>.<N+1> Mixed Questions'    -- pooled unclassified, part N
+     ? '<prefix>.<N+2> Original Questions' -- every unique source file
 
    Classified subtopics use leaves 'All' or 'part N'.
-   Mixed Questions uses 'part 1', 'part 2', …
+   Mixed Questions uses 'part 1', 'part 2', ...
    Original Questions:
-     – L5 / L7 : '<Book>.<range>'         e.g. 'DPARSAD.1-100'
-     – GK      : '<topic>'                e.g. 'constitution'
+     -- L5 / L7 : '<Book>.<range>'         e.g. 'DPARSAD.1-100'
+     -- GK      : '<topic>'                e.g. 'constitution'
    Empty Mixed/Original buckets are omitted entirely.
-   ══════════════════════════════════════════════════════════════════════ */
+   ---------------------------------------------------------------------- */
 
 const CH_NAMES = {
   "gk": {
@@ -440,9 +440,6 @@ const DRIVE = {
         "part 3": "1z8j43eNcF5AMJKbwo7OQXKCzQthnpG8q",
         "part 4": "13quzqOk5yqgsBjBMZ6JN17FS23srsebb",
         "part 5": "1pHjmKdz2GMiZwpWYDoc2cSAAcq-6bSnC"
-      },
-      "9.4 Mixed Questions": {
-        "part 1": "1svAQTt-a61s9o4NvJHzjuHuNCWtx9Eds"
       },
       "9.5 Original Questions": {
         "DPARSAD.1-100": "1SFVGZBZCmcsMlBRLuv3rKjOr-ocKuJTy",
@@ -975,9 +972,6 @@ const DRIVE = {
       "10.7 FREEHAND DRAWING": {
         "All": "1dzM1MWyNulb7bjPLM5rbqGavY-Jeq31s"
       },
-      "10.8 Mixed Questions": {
-        "part 1": "16nLw4TVakU3BTjTzZIIOBNyNNgTuOX06"
-      },
       "10.9 Original Questions": {
         "Dprasad.1-100": "1WqQPC_gqQ8gM43tMEatrpvFb91Rzfb5k",
         "Dprasad.101-183": "1AXIlR6OKS9cG65HU5xZvyJWeNj6-MJk1",
@@ -1047,9 +1041,6 @@ const DRIVE = {
       "12.6 BUILDING BYLAWS": {
         "All": "11vPa9pcax1Sx2qb-xfKoXEcX5chP1eGo"
       },
-      "12.7 Mixed Questions": {
-        "part 1": "1MDOziU_WFpS7PRvVZn7HEuEsa9IfUN20"
-      },
       "12.8 Original Questions": {
         "Dprasad": "16Yw0SALw-Vk1KR-7HnRZdetJFqarj7S2",
         "RK SHRESTHA": "1TsbaxhfnQdqsR31Qc0m48q3aIO2rqHfy",
@@ -1061,10 +1052,10 @@ const DRIVE = {
   }
 };
 
-/* ══════════════════════════════════════════════════════════════════════
-   CHAPTERDATA — accessor API used by app.js / objective.js / admin.html.
+/* ----------------------------------------------------------------------
+   CHAPTERDATA -- accessor API used by app.js / objective.js / admin.html.
    Signatures unchanged from the previous version.
-   ══════════════════════════════════════════════════════════════════════ */
+   ---------------------------------------------------------------------- */
 (function(){
 'use strict';
 
@@ -1097,7 +1088,7 @@ function chapterFileRefs(lv, ch){
         subtopic: fileLabel,
         fid:      String(fid),
         key:      `${lv}_${ch}_${subLabel}_${fileLabel}`,
-        name:     `${chLabel} — ${subLabel} — ${fileLabel}`
+        name:     `${chLabel} -- ${subLabel} -- ${fileLabel}`
       });
     });
   });

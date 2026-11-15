@@ -9,7 +9,8 @@
       "v₁² - v₂² / 2g"
     ],
     "correct": 2,
-    "explain": "This loss represents energy dissipated through turbulence as flow transitions to a larger pipe."
+    "explain": "This loss represents energy dissipated through turbulence as flow transitions to a larger pipe.",
+    "public_qn": "50044.410001"
   },
   {
     "id": 32054,
@@ -21,7 +22,8 @@
       "0.375v₂² / 2g"
     ],
     "correct": 3,
-    "explain": "Based on (1/Cc - 1)² * (v₂²/2g). With Cc = 0.62, the factor is approx 0.375."
+    "explain": "Based on (1/Cc - 1)² * (v₂²/2g). With Cc = 0.62, the factor is approx 0.375.",
+    "public_qn": "50044.410002"
   },
   {
     "id": 32055,
@@ -33,7 +35,8 @@
       "0.75v² / 2g"
     ],
     "correct": 1,
-    "explain": "Standard minor loss coefficient for a sharp-edged entrance is K = 0.5."
+    "explain": "Standard minor loss coefficient for a sharp-edged entrance is K = 0.5.",
+    "public_qn": "50044.410003"
   },
   {
     "id": 32056,
@@ -45,7 +48,8 @@
       "0.75v² / 2g"
     ],
     "correct": 0,
-    "explain": "At the exit, the entire kinetic energy (v²/2g) is lost as the fluid enters the reservoir."
+    "explain": "At the exit, the entire kinetic energy (v²/2g) is lost as the fluid enters the reservoir.",
+    "public_qn": "50044.410004"
   },
   {
     "id": 32090,
@@ -57,7 +61,8 @@
       "4flv^2 / 2gd"
     ],
     "correct": 3,
-    "explain": "The standard Darcy-Weisbach equation is often expressed as $h_f = \frac{4flv^2}{2gd}$ where $f$ is the friction factor."
+    "explain": "The standard Darcy-Weisbach equation is often expressed as $h_f = \frac{4flv^2}{2gd}$ where $f$ is the friction factor.",
+    "public_qn": "50044.410005"
   },
   {
     "id": 32091,
@@ -69,7 +74,8 @@
       "none of these"
     ],
     "correct": 0,
-    "explain": "Hydraulic mean depth ($m$ or $R$) is defined as the cross-sectional area of flow ($A$) divided by the wetted perimeter ($P$)."
+    "explain": "Hydraulic mean depth ($m$ or $R$) is defined as the cross-sectional area of flow ($A$) divided by the wetted perimeter ($P$).",
+    "public_qn": "50044.410006"
   },
   {
     "id": 32092,
@@ -81,7 +87,8 @@
       "d"
     ],
     "correct": 1,
-    "explain": "For a full pipe: $A = \frac{\\pi d^2}{4}$ and $P = \\pi d$. Thus, $m = A/P = (\frac{\\pi d^2}{4}) / \\pi d = d/4$."
+    "explain": "For a full pipe: $A = \frac{\\pi d^2}{4}$ and $P = \\pi d$. Thus, $m = A/P = (\frac{\\pi d^2}{4}) / \\pi d = d/4$.",
+    "public_qn": "50044.410007"
   },
   {
     "id": 32095,
@@ -93,7 +100,8 @@
       "H / (H + hf)"
     ],
     "correct": 0,
-    "explain": "Efficiency is the ratio of available head at the outlet ($H - h_f$) to the total head supplied at the inlet ($H$)."
+    "explain": "Efficiency is the ratio of available head at the outlet ($H - h_f$) to the total head supplied at the inlet ($H$).",
+    "public_qn": "50044.410008"
   },
   {
     "id": 32096,
@@ -105,7 +113,8 @@
       "w x Q (H + hf)"
     ],
     "correct": 2,
-    "explain": "Power is given by $P = \\gamma Q H_{net}$, where $H_{net}$ is the total head minus friction losses ($H - h_f$)."
+    "explain": "Power is given by $P = \\gamma Q H_{net}$, where $H_{net}$ is the total head minus friction losses ($H - h_f$).",
+    "public_qn": "50044.410009"
   },
   {
     "id": 32097,
@@ -117,7 +126,8 @@
       "two-third of the total supply head"
     ],
     "correct": 1,
-    "explain": "By differentiating the power equation with respect to velocity, we find that maximum power occurs when $h_f = H/3$."
+    "explain": "By differentiating the power equation with respect to velocity, we find that maximum power occurs when $h_f = H/3$.",
+    "public_qn": "50044.410010"
   },
   {
     "id": 32098,
@@ -129,7 +139,8 @@
       "76.66%"
     ],
     "correct": 2,
-    "explain": "At maximum power transmission ($h_f = H/3$), efficiency $\\eta = (H - H/3) / H = 2/3$, which is 66.67%."
+    "explain": "At maximum power transmission ($h_f = H/3$), efficiency $\\eta = (H - H/3) / H = 2/3$, which is 66.67%.",
+    "public_qn": "50044.410011"
   },
   {
     "id": 32099,
@@ -141,7 +152,8 @@
       "loss of head and velocity of flow in both the pipes is same"
     ],
     "correct": 2,
-    "explain": "An equivalent pipe must carry the same discharge ($Q$) with the same total head loss ($h_f$) as the original system of pipes."
+    "explain": "An equivalent pipe must carry the same discharge ($Q$) with the same total head loss ($h_f$) as the original system of pipes.",
+    "public_qn": "50044.410012"
   },
   {
     "id": 32100,
@@ -153,7 +165,8 @@
       "l/d^5 = l1/d1^5 + l2/d2^5 + l3/d3^5"
     ],
     "correct": 3,
-    "explain": "This is known as Dupuit’s equation: $\frac{l}{d^5} = \\sum \frac{l_i}{d_i^5}$, derived from equating friction losses."
+    "explain": "This is known as Dupuit’s equation: $\frac{l}{d^5} = \\sum \frac{l_i}{d_i^5}$, derived from equating friction losses.",
+    "public_qn": "50044.410013"
   },
   {
     "id": 32101,
@@ -165,7 +178,8 @@
       "maintain pressure difference"
     ],
     "correct": 0,
-    "explain": "Air vessels at the summit collect air that comes out of solution at low pressure, preventing an air lock which would interrupt the siphonic action."
+    "explain": "Air vessels at the summit collect air that comes out of solution at low pressure, preventing an air lock which would interrupt the siphonic action.",
+    "public_qn": "50044.410014"
   },
   {
     "id": 32102,
@@ -177,7 +191,8 @@
       "convergent-divergent shape"
     ],
     "correct": 1,
-    "explain": "Nozzles are designed to increase the velocity of fluid at the expense of pressure; a convergent shape achieves this for incompressible fluids."
+    "explain": "Nozzles are designed to increase the velocity of fluid at the expense of pressure; a convergent shape achieves this for incompressible fluids.",
+    "public_qn": "50044.410015"
   },
   {
     "id": 32103,
@@ -189,7 +204,8 @@
       "high velocity"
     ],
     "correct": 3,
-    "explain": "The primary function of a nozzle is to convert pressure energy into kinetic energy, resulting in a high-velocity jet."
+    "explain": "The primary function of a nozzle is to convert pressure energy into kinetic energy, resulting in a high-velocity jet.",
+    "public_qn": "50044.410016"
   },
   {
     "id": 32104,
@@ -201,7 +217,8 @@
       "none"
     ],
     "correct": 1,
-    "explain": "Similar to pipe transmission, the maximum power through a nozzle is achieved when head loss $h_f = H/3$."
+    "explain": "Similar to pipe transmission, the maximum power through a nozzle is achieved when head loss $h_f = H/3$.",
+    "public_qn": "50044.410017"
   },
   {
     "id": 32105,
@@ -213,7 +230,8 @@
       "d = (D^5 / 8fl)^(1/5)"
     ],
     "correct": 2,
-    "explain": "For maximum power, the optimal nozzle diameter is $d = (\frac{D^5}{8fl})^{1/4}$."
+    "explain": "For maximum power, the optimal nozzle diameter is $d = (\frac{D^5}{8fl})^{1/4}$.",
+    "public_qn": "50044.410018"
   },
   {
     "id": 32107,
@@ -225,7 +243,8 @@
       "the flow of fluid through the pipe is gradually brought to rest by closing of the valve"
     ],
     "correct": 2,
-    "explain": "Water hammer (hammer blow) is a pressure surge caused when a fluid in motion is forced to stop or change direction suddenly."
+    "explain": "Water hammer (hammer blow) is a pressure surge caused when a fluid in motion is forced to stop or change direction suddenly.",
+    "public_qn": "50044.410019"
   },
   {
     "id": 32111,
@@ -237,7 +256,8 @@
       "all of the above"
     ],
     "correct": 3,
-    "explain": "The most economical section (or most efficient section) is designed to minimize the wetted perimeter for a given area, which maximizes discharge and minimizes excavation costs."
+    "explain": "The most economical section (or most efficient section) is designed to minimize the wetted perimeter for a given area, which maximizes discharge and minimizes excavation costs.",
+    "public_qn": "50044.410020"
   },
   {
     "id": 32114,
@@ -249,7 +269,8 @@
       "0.95 times"
     ],
     "correct": 3,
-    "explain": "While velocity is maximum at 0.81d, the maximum discharge in a circular channel occurs when the depth $y = 0.95d$ due to the large increase in area."
+    "explain": "While velocity is maximum at 0.81d, the maximum discharge in a circular channel occurs when the depth $y = 0.95d$ due to the large increase in area.",
+    "public_qn": "50044.410021"
   },
   {
     "id": 32115,
@@ -261,7 +282,8 @@
       "0.95 times"
     ],
     "correct": 2,
-    "explain": "Maximum velocity in a circular pipe occurs when the depth of flow is 0.81 times the diameter."
+    "explain": "Maximum velocity in a circular pipe occurs when the depth of flow is 0.81 times the diameter.",
+    "public_qn": "50044.410022"
   },
   {
     "id": 32116,
@@ -273,7 +295,8 @@
       "trapezoidal"
     ],
     "correct": 3,
-    "explain": "Among the common polygonal shapes, the trapezoidal section (specifically a half-hexagon) is the most efficient open channel section."
+    "explain": "Among the common polygonal shapes, the trapezoidal section (specifically a half-hexagon) is the most efficient open channel section.",
+    "public_qn": "50044.410023"
   },
   {
     "id": 32117,
@@ -285,7 +308,8 @@
       "kinetic energy plotted above the free surface of water"
     ],
     "correct": 1,
-    "explain": "Specific energy ($E$) is the energy of flow per unit weight of water measured with the channel bed as the datum: $E = y + v^2/2g$."
+    "explain": "Specific energy ($E$) is the energy of flow per unit weight of water measured with the channel bed as the datum: $E = y + v^2/2g$.",
+    "public_qn": "50044.410024"
   },
   {
     "id": 32118,
@@ -297,7 +321,8 @@
       "(q^4/g)^(1/5)"
     ],
     "correct": 1,
-    "explain": "For a rectangular channel, the critical depth ($y_c$) is calculated as $\\sqrt[3]{q^2/g}$, where $q$ is the discharge per unit width."
+    "explain": "For a rectangular channel, the critical depth ($y_c$) is calculated as $\\sqrt[3]{q^2/g}$, where $q$ is the discharge per unit width.",
+    "public_qn": "50044.410025"
   },
   {
     "id": 32119,
@@ -309,7 +334,8 @@
       "torrential flow"
     ],
     "correct": 2,
-    "explain": "When $y > y_c$, the velocity is low and the flow is described as tranquil, subcritical, or streaming flow."
+    "explain": "When $y > y_c$, the velocity is low and the flow is described as tranquil, subcritical, or streaming flow.",
+    "public_qn": "50044.410026"
   },
   {
     "id": 32120,
@@ -321,7 +347,8 @@
       "torrential flow"
     ],
     "correct": 3,
-    "explain": "When $y < y_c$, the velocity is high and the flow is described as torrential, supercritical, or shooting flow."
+    "explain": "When $y < y_c$, the velocity is high and the flow is described as torrential, supercritical, or shooting flow.",
+    "public_qn": "50044.410027"
   },
   {
     "id": 32121,
@@ -333,7 +360,8 @@
       "trapezoidal"
     ],
     "correct": 3,
-    "explain": "The trapezoidal section is generally considered the most efficient because it can most closely approximate a semi-circle, which has the minimum wetted perimeter."
+    "explain": "The trapezoidal section is generally considered the most efficient because it can most closely approximate a semi-circle, which has the minimum wetted perimeter.",
+    "public_qn": "50044.410028"
   },
   {
     "id": 32122,
@@ -345,7 +373,8 @@
       "depth of channel"
     ],
     "correct": 1,
-    "explain": "A critical depth meter is a device used in open channels to measure the depth of flow by creating a critical flow condition."
+    "explain": "A critical depth meter is a device used in open channels to measure the depth of flow by creating a critical flow condition.",
+    "public_qn": "50044.410029"
   },
   {
     "id": 32155,
@@ -357,7 +386,8 @@
       "none of these"
     ],
     "correct": 2,
-    "explain": "In pipe flow, $Re > 2800$ (or often cited as 4000 in some texts) is generally considered turbulent."
+    "explain": "In pipe flow, $Re > 2800$ (or often cited as 4000 in some texts) is generally considered turbulent.",
+    "public_qn": "50044.410030"
   },
   {
     "id": 32156,
@@ -369,7 +399,8 @@
       "none of these"
     ],
     "correct": 1,
-    "explain": "This range is known as the 'transition zone' where the flow is unstable."
+    "explain": "This range is known as the 'transition zone' where the flow is unstable.",
+    "public_qn": "50044.410031"
   },
   {
     "id": 32159,
@@ -381,7 +412,8 @@
       "32μvl / wd^2"
     ],
     "correct": 3,
-    "explain": "From the Hagen-Poiseuille equation, $h_f = 32 \\mu v L / \\gamma D^2$."
+    "explain": "From the Hagen-Poiseuille equation, $h_f = 32 \\mu v L / \\gamma D^2$.",
+    "public_qn": "50044.410032"
   },
   {
     "id": 32533,
@@ -393,7 +425,8 @@
       "64/Rn"
     ],
     "correct": 3,
-    "explain": "For laminar (viscous) flow in a pipe, the friction factor 'f' is given by 64/Re. Therefore, the head loss is directly related to this coefficient."
+    "explain": "For laminar (viscous) flow in a pipe, the friction factor 'f' is given by 64/Re. Therefore, the head loss is directly related to this coefficient.",
+    "public_qn": "50044.410033"
   },
   {
     "id": 32604,
@@ -405,7 +438,8 @@
       "none of these"
     ],
     "correct": 2,
-    "explain": "Head loss occurs due to internal friction between fluid layers (viscosity) and mixing/eddies in the flow (turbulence)."
+    "explain": "Head loss occurs due to internal friction between fluid layers (viscosity) and mixing/eddies in the flow (turbulence).",
+    "public_qn": "50044.410034"
   },
   {
     "id": 32609,
@@ -417,7 +451,8 @@
       "may be above or below the centre line of conduit"
     ],
     "correct": 3,
-    "explain": "While usually above the conduit, the HGL can fall below the pipe centerline if there is negative (vacuum) pressure in the system."
+    "explain": "While usually above the conduit, the HGL can fall below the pipe centerline if there is negative (vacuum) pressure in the system.",
+    "public_qn": "50044.410035"
   },
   {
     "id": 32610,
@@ -429,7 +464,8 @@
       "550 H.P."
     ],
     "correct": 2,
-    "explain": "Power (P) = (wQH)/75 in metric HP. (1000 * 1 * 37.5) / 75 = 500 H.P."
+    "explain": "Power (P) = (wQH)/75 in metric HP. (1000 * 1 * 37.5) / 75 = 500 H.P.",
+    "public_qn": "50044.410036"
   },
   {
     "id": 32623,
@@ -441,7 +477,8 @@
       "4"
     ],
     "correct": 3,
-    "explain": "Friction factor (f) is typically defined as 4 times the coefficient of friction (f'). f = 4f'."
+    "explain": "Friction factor (f) is typically defined as 4 times the coefficient of friction (f'). f = 4f'.",
+    "public_qn": "50044.410037"
   },
   {
     "id": 31820,
@@ -453,7 +490,8 @@
       "flow in pipes"
     ],
     "correct": 0,
-    "explain": "Manning's formula ($V = \frac{1}{n} R^{2/3} S^{1/2}$) is the most widely used empirical formula for uniform flow in open channels."
+    "explain": "Manning's formula ($V = \frac{1}{n} R^{2/3} S^{1/2}$) is the most widely used empirical formula for uniform flow in open channels.",
+    "public_qn": "50044.410038"
   },
   {
     "id": 31828,
@@ -465,7 +503,8 @@
       "all the above"
     ],
     "correct": 2,
-    "explain": "While gravity affects the pressure at different elevations, the continuous pressure 'differentiation' or loss as fluid flows between two points in a pipe is primarily caused by friction against the pipe walls."
+    "explain": "While gravity affects the pressure at different elevations, the continuous pressure 'differentiation' or loss as fluid flows between two points in a pipe is primarily caused by friction against the pipe walls.",
+    "public_qn": "50044.410039"
   },
   {
     "id": 31830,
@@ -477,7 +516,8 @@
       "none of these"
     ],
     "correct": 0,
-    "explain": "A siphon is a long bent pipe used to carry water from a higher reservoir to a lower reservoir when the two are separated by a high ridge or hill."
+    "explain": "A siphon is a long bent pipe used to carry water from a higher reservoir to a lower reservoir when the two are separated by a high ridge or hill.",
+    "public_qn": "50044.410040"
   },
   {
     "id": 31831,
@@ -489,7 +529,8 @@
       "at any point between inlet and outlet"
     ],
     "correct": 2,
-    "explain": "An air vessel is provided at the summit to collect any air that comes out of solution due to low pressure, preventing an air lock that would stop the flow."
+    "explain": "An air vessel is provided at the summit to collect any air that comes out of solution due to low pressure, preventing an air lock that would stop the flow.",
+    "public_qn": "50044.410041"
   },
   {
     "id": 31832,
@@ -501,7 +542,8 @@
       "due to friction is ignored"
     ],
     "correct": 2,
-    "explain": "In 'long pipes' (usually where $L > 1000D$), minor losses like entrance and exit losses are negligible compared to the major loss caused by friction."
+    "explain": "In 'long pipes' (usually where $L > 1000D$), minor losses like entrance and exit losses are negligible compared to the major loss caused by friction.",
+    "public_qn": "50044.410042"
   },
   {
     "id": 31833,
@@ -513,7 +555,8 @@
       "d = D/n^(2/5)"
     ],
     "correct": 3,
-    "explain": "Equating the discharges and using Darcy's equation for both cases results in the relation $D^5 = n^2 \\cdot d^5$, which simplifies to $d = D / n^{2/5}$."
+    "explain": "Equating the discharges and using Darcy's equation for both cases results in the relation $D^5 = n^2 \\cdot d^5$, which simplifies to $d = D / n^{2/5}$.",
+    "public_qn": "50044.410043"
   },
   {
     "id": 31834,
@@ -525,7 +568,8 @@
       "all the above"
     ],
     "correct": 3,
-    "explain": "Solving pipe networks (like Hardy Cross method) requires satisfying flow continuity at junctions, energy conservation in loops, and using head loss formulas like Darcy-Weisbach."
+    "explain": "Solving pipe networks (like Hardy Cross method) requires satisfying flow continuity at junctions, energy conservation in loops, and using head loss formulas like Darcy-Weisbach.",
+    "public_qn": "50044.410044"
   },
   {
     "id": 31835,
@@ -537,7 +581,8 @@
       "equal to the total head supplied"
     ],
     "correct": 1,
-    "explain": "The condition for maximum power transmission efficiency occurs when the head lost due to friction ($h_f$) is equal to $H/3$, where $H$ is the total head."
+    "explain": "The condition for maximum power transmission efficiency occurs when the head lost due to friction ($h_f$) is equal to $H/3$, where $H$ is the total head.",
+    "public_qn": "50044.410045"
   },
   {
     "id": 31836,
@@ -549,7 +594,8 @@
       "66.67%"
     ],
     "correct": 3,
-    "explain": "Efficiency is given by $(H - h_f)/H$. Substituting the maximum power condition ($h_f = H/3$), we get $(H - H/3)/H = 2/3$, which is approximately 66.67%."
+    "explain": "Efficiency is given by $(H - h_f)/H$. Substituting the maximum power condition ($h_f = H/3$), we get $(H - H/3)/H = 2/3$, which is approximately 66.67%.",
+    "public_qn": "50044.410046"
   },
   {
     "id": 31837,
@@ -561,7 +607,8 @@
       "four times the head loss in the pipe due to friction"
     ],
     "correct": 2,
-    "explain": "Similar to power transmission in pipes, the power at the nozzle is maximum when the friction head loss is one-third of the total head, meaning $H = 3h_f$."
+    "explain": "Similar to power transmission in pipes, the power at the nozzle is maximum when the friction head loss is one-third of the total head, meaning $H = 3h_f$.",
+    "public_qn": "50044.410047"
   },
   {
     "id": 31838,
@@ -573,7 +620,8 @@
       "area of the cross-section / total length of the channel"
     ],
     "correct": 1,
-    "explain": "The Hydraulic Gradient Line (HGL) represents the slope of the piezometric head, calculated as the head loss per unit length of the pipe or channel ($h_f/L$)."
+    "explain": "The Hydraulic Gradient Line (HGL) represents the slope of the piezometric head, calculated as the head loss per unit length of the pipe or channel ($h_f/L$).",
+    "public_qn": "50044.410048"
   },
   {
     "id": 31839,
@@ -585,7 +633,8 @@
       "3/4"
     ],
     "correct": 0,
-    "explain": "Hydraulic radius of pipe ($D/4$) and square ($a^2/4a = a/4$). Since side $a = D$, the ratio is $(D/4) / (D/4) = 1$."
+    "explain": "Hydraulic radius of pipe ($D/4$) and square ($a^2/4a = a/4$). Since side $a = D$, the ratio is $(D/4) / (D/4) = 1$.",
+    "public_qn": "50044.410049"
   },
   {
     "id": 31840,
@@ -597,6 +646,7 @@
       "square root of the area"
     ],
     "correct": 1,
-    "explain": "The hydraulic radius (R or m) is a measure of channel efficiency, defined as the ratio of the cross-sectional area (A) to the wetted perimeter (P): $R = A/P$."
+    "explain": "The hydraulic radius (R or m) is a measure of channel efficiency, defined as the ratio of the cross-sectional area (A) to the wetted perimeter (P): $R = A/P$.",
+    "public_qn": "50044.410050"
   }
 ]
