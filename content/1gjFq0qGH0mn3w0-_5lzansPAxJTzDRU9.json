@@ -1,0 +1,602 @@
+[
+  {
+    "id": 45073,
+    "q": "1. When a thin cylindrical shell is subjected to internal fluid pressure, which of the following stress is developed in its wall ?",
+    "options": [
+      "circumferential and longitudinal stress",
+      "longitudinal stress",
+      "normal stress",
+      "circumferential"
+    ],
+    "correct": 0,
+    "explain": "Internal pressure in cylinders creates both hoop (circumferential) and longitudinal stresses."
+  },
+  {
+    "id": 52114,
+    "q": "2. If a shaft subjected to pure torsion cracks, the crack will start",
+    "options": [
+      "at centre of cross section",
+      "on the periphery",
+      "throughout the cross-section simultaneously",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Since shear stress due to torsion is maximum at the outer surface (periphery) and zero at the centre, cracks in a shaft under torsion initiate at the periphery."
+  },
+  {
+    "id": 52115,
+    "q": "3. Shear strain theory for the failure of a material at elastic limit is due to",
+    "options": [
+      "Rankine",
+      "Guest or Trecas",
+      "St. Venant",
+      "Von Mises"
+    ],
+    "correct": 3,
+    "explain": "The shear strain energy (distortion energy) theory of failure is attributed to Von Mises (also known as the Von Mises-Hencky theory)."
+  },
+  {
+    "id": 52116,
+    "q": "4. Gradually applied static loads do not change with time their",
+    "options": [
+      "magnitude",
+      "direction",
+      "point of application",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "A static load, by definition, is applied gradually and remains constant in magnitude, direction, and point of application over time — hence 'all of these'."
+  },
+  {
+    "id": 52118,
+    "q": "5. The sum of normal stress is",
+    "options": [
+      "constant",
+      "variable",
+      "dependent on the planes",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "The sum of normal stresses on two mutually perpendicular planes at a point (σx + σy) is a stress invariant — it remains constant regardless of the orientation of the planes chosen."
+  },
+  {
+    "id": 52119,
+    "q": "6. The radius of Mohr's circle for two equal unlike principle stresses of magnitude P is",
+    "options": [
+      "P",
+      "P/2",
+      "Zero",
+      "None of these"
+    ],
+    "correct": 0,
+    "explain": "For two equal but unlike (opposite sign) principal stresses +P and −P, the radius of Mohr's circle = (σ1−σ2)/2 = (P−(−P))/2 = P."
+  },
+  {
+    "id": 52120,
+    "q": "7. Shear stress on principal planes is",
+    "options": [
+      "zero",
+      "maximum",
+      "minimum",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "By definition, principal planes are those on which shear stress is zero (only normal stress acts)."
+  },
+  {
+    "id": 51754,
+    "q": "8. The bending moment at a section tends to bend or deflect the beam and the internal stresses resist bending. The resistance offered by the internal stresses, to the bending, is called",
+    "options": [
+      "compressive stress",
+      "shear stress",
+      "bending stress",
+      "elastic modulus"
+    ],
+    "correct": 2,
+    "explain": "The internal resisting stress developed within a beam's cross-section to counter the external bending moment is termed bending stress."
+  },
+  {
+    "id": 51755,
+    "q": "9. The neutral axis of the cross-section of a beam is that axis at which the bending stress is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 0,
+    "explain": "By definition, the neutral axis is the axis in the cross-section where bending stress (and strain) is zero."
+  },
+  {
+    "id": 51757,
+    "q": "10. A beam of uniform strength may be obtained by",
+    "options": [
+      "keeping the width uniform and varying the depth",
+      "keeping the depth uniform and varying the width",
+      "varying the width and depth both",
+      "any one of the above"
+    ],
+    "correct": 3,
+    "explain": "A beam of uniform strength can be achieved by varying depth alone, width alone, or both together, as long as the section modulus varies appropriately with the moment — hence any of these approaches works."
+  },
+  {
+    "id": 51758,
+    "q": "11. At the neutral axis of a beam",
+    "options": [
+      "the layers are subjected to maximum bending stress",
+      "the layers are subjected to minimum bending stress",
+      "the layers are subjected to compression",
+      "the layers do not undergo any strain"
+    ],
+    "correct": 3,
+    "explain": "Fibres along the neutral axis experience zero strain (neither elongation nor compression) during bending, by definition of the neutral axis."
+  },
+  {
+    "id": 51759,
+    "q": "12. The neutral axis of a beam is subjected to ............. stress.",
+    "options": [
+      "zero",
+      "maximum tensile",
+      "minimum tensile",
+      "maximum compressive"
+    ],
+    "correct": 0,
+    "explain": "Since strain at the neutral axis is zero, and stress is proportional to strain (Hooke's law), the bending stress there is also zero."
+  },
+  {
+    "id": 51760,
+    "q": "13. The neutral axis of a transverse section of a beam passes through the centre of gravity of the section and is",
+    "options": [
+      "in the vertical plane",
+      "in the horizontal plane",
+      "in the same plane in which the beam bends",
+      "at right angle to the plane in which the beam bends"
+    ],
+    "correct": 3,
+    "explain": "The neutral axis lies perpendicular to the plane of bending (the plane containing the applied loads and curvature), while passing through the section's centroid."
+  },
+  {
+    "id": 51761,
+    "q": "14. In a beam subjected to pure bending, the intensity of stress in any fibre is ............. the distance of the fibre from the neutral axis.",
+    "options": [
+      "equal to",
+      "less than",
+      "more than",
+      "directly proportional to"
+    ],
+    "correct": 3,
+    "explain": "From the flexure formula σ = My/I, bending stress varies linearly (directly proportional) with distance y from the neutral axis."
+  },
+  {
+    "id": 51763,
+    "q": "15. The ratio of maximum shear stress developed in a rectangular beam and a circular beam of the same cross-sectional area is",
+    "options": [
+      "2/3",
+      "3/4",
+      "1",
+      "9/8"
+    ],
+    "correct": 3,
+    "explain": "Comparing the maximum shear stress factors of a rectangle (1.5×average) and circle (1.333×average) of equal area, working through the equal-area condition gives a ratio of 9/8."
+  },
+  {
+    "id": 51764,
+    "q": "16. A beam of triangular section is placed with its base horizontal. The maximum shear stress occurs at",
+    "options": [
+      "apex of the triangle",
+      "mid of the height",
+      "centre of gravity of the triangle",
+      "base of the triangle"
+    ],
+    "correct": 1,
+    "explain": "For a triangular section with base horizontal, detailed analysis shows the maximum shear stress occurs at mid-height, not exactly at the centroid or base."
+  },
+  {
+    "id": 51774,
+    "q": "17. Coefficient of wind resistance of a circular surface is",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "3/2"
+    ],
+    "correct": 2,
+    "explain": "The standard coefficient of wind resistance (pressure coefficient) for a circular (cylindrical) surface, as used in practical wind load calculations, is taken as 2/3."
+  },
+  {
+    "id": 51777,
+    "q": "18. The ratio of circumferential stress to the longitudinal stress in the walls of a cylindrical shell due to flowing liquid is",
+    "options": [
+      "1/2",
+      "1",
+      "3/2",
+      "2"
+    ],
+    "correct": 3,
+    "explain": "For a thin cylindrical shell under internal pressure, circumferential (hoop) stress = pd/2t while longitudinal stress = pd/4t, giving a ratio of 2:1."
+  },
+  {
+    "id": 51778,
+    "q": "19. Shear center of a half circular section of radius r and a constant thickness, lies at a distance of from the center where x is",
+    "options": [
+      "r/π",
+      "2r/π",
+      "3r/π",
+      "4r/π"
+    ],
+    "correct": 3,
+    "explain": "For a thin semicircular section, the shear centre lies at a distance of 4r/π from the centre of the circle, a standard derived result."
+  },
+  {
+    "id": 51781,
+    "q": "20. Euler's formula holds good only for",
+    "options": [
+      "short columns",
+      "long columns",
+      "both short and long columns",
+      "weak columns"
+    ],
+    "correct": 1,
+    "explain": "Euler's buckling formula is derived assuming purely elastic instability and is valid only for long, slender columns (high slenderness ratio)."
+  },
+  {
+    "id": 51782,
+    "q": "21. The Rankine's formula holds good for",
+    "options": [
+      "short columns",
+      "long columns",
+      "both short and long columns",
+      "weak columns"
+    ],
+    "correct": 2,
+    "explain": "Rankine's empirical formula was developed specifically to bridge the gap between crushing (short column) and buckling (long column) failure, making it applicable across both ranges."
+  },
+  {
+    "id": 51783,
+    "q": "22. In case of eccentrically loaded struts ............. is preferred",
+    "options": [
+      "solid section",
+      "hollow section",
+      "composite section",
+      "reinforced section"
+    ],
+    "correct": 2,
+    "explain": "For eccentrically loaded struts, a composite section is preferred as it can be tailored (e.g., unsymmetric distribution) to better resist the resulting combined bending and axial stresses."
+  },
+  {
+    "id": 51785,
+    "q": "23. The stress at which the extension of the material takes place more quickly as compared to the increase in load, is called",
+    "options": [
+      "elastic limit",
+      "yield point",
+      "ultimate point",
+      "breaking point"
+    ],
+    "correct": 1,
+    "explain": "This describes the yield point, where strain increases disproportionately compared to the increase in load/stress."
+  },
+  {
+    "id": 51786,
+    "q": "24. The stress developed in the material without any permanent set is called",
+    "options": [
+      "elastic limit",
+      "yield stress",
+      "ultimate stress",
+      "breaking stress"
+    ],
+    "correct": 0,
+    "explain": "The elastic limit is defined as the maximum stress up to which the material returns to its original shape completely (no permanent set) after unloading."
+  },
+  {
+    "id": 51787,
+    "q": "25. The tensile test is carried on ............. materials.",
+    "options": [
+      "ductile",
+      "brittle",
+      "malleable",
+      "plastic"
+    ],
+    "correct": 0,
+    "explain": "Tensile tests (measuring elongation, necking, ductile yielding behavior) are primarily meaningful and carried out on ductile materials."
+  },
+  {
+    "id": 51788,
+    "q": "26. The compression test is carried on ............. materials.",
+    "options": [
+      "ductile",
+      "brittle",
+      "malleable",
+      "plastic"
+    ],
+    "correct": 1,
+    "explain": "Compression tests are the standard test method for brittle materials (like cast iron, concrete), which are weak in tension but strong in compression."
+  },
+  {
+    "id": 51789,
+    "q": "27. Factor of safety is defined as the ratio of",
+    "options": [
+      "ultimate stress to working stress",
+      "working stress to ultimate stress",
+      "breaking stress to ultimate stress",
+      "ultimate stress to breaking stress"
+    ],
+    "correct": 0,
+    "explain": "Factor of safety is standardly defined as the ratio of the ultimate (or yield) stress to the permissible working stress used in design."
+  },
+  {
+    "id": 51808,
+    "q": "28. The ratio of lateral strain to axial strain of a homogenous material is known as",
+    "options": [
+      "Yield ratio",
+      "Hooke's ratio",
+      "Poisson's ratio",
+      "Plastic ratio"
+    ],
+    "correct": 2,
+    "explain": "By definition, Poisson's ratio is the ratio of lateral strain to axial (longitudinal) strain."
+  },
+  {
+    "id": 51809,
+    "q": "29. The normal and tangential components of stress on an inclined plane through to the direction of the force will be equal to",
+    "options": [
+      "45°",
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "correct": 0,
+    "explain": "For a uniaxial stress acting on an inclined plane, the normal and tangential (shear) stress components become equal when the plane is inclined at 45° to the force direction."
+  },
+  {
+    "id": 51810,
+    "q": "30. The locus of the end point of the resultant of the normal and tangential components of the stress on an inclined plane is",
+    "options": [
+      "circle",
+      "parabola",
+      "ellipse",
+      "straight line"
+    ],
+    "correct": 2,
+    "explain": "As the inclination of the plane varies, the resultant stress vector's endpoint traces out an ellipse (the stress ellipse), similar to the momental ellipse for inertia."
+  },
+  {
+    "id": 51811,
+    "q": "31. Principal planes are subjected to",
+    "options": [
+      "normal stresses only",
+      "tangential stresses only",
+      "normal stresses as well as tangential stresses",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By definition, a principal plane carries only normal stress with zero shear (tangential) stress."
+  },
+  {
+    "id": 51672,
+    "q": "32. The maximum shear stress will always occur at",
+    "options": [
+      "neutral axis",
+      "the top extreme fibre",
+      "the bottom extreme fibre",
+      "a fibre in the cross-section depending on the configuration"
+    ],
+    "correct": 3,
+    "explain": "While maximum shear stress is at the neutral axis for symmetric sections like rectangles and circles, for unsymmetrical sections (like T-sections) it can occur elsewhere, so it depends on the section's configuration."
+  },
+  {
+    "id": 51673,
+    "q": "33. In an I section almost all the shear force is taken by",
+    "options": [
+      "web",
+      "top flange",
+      "bottom flange",
+      "half the depth of each flange"
+    ],
+    "correct": 0,
+    "explain": "In an I-section, due to its geometry, the thin web carries the vast majority (typically over 90%) of the total shear force, while the flanges carry very little."
+  },
+  {
+    "id": 51675,
+    "q": "34. Twisting moment is a moment applied in the plane of cross-section acting about",
+    "options": [
+      "longitudinal axis",
+      "neutral axis",
+      "yy-axis",
+      "xx-axis"
+    ],
+    "correct": 0,
+    "explain": "Twisting (torsional) moment acts about the longitudinal axis of the member, causing rotation of cross-sections relative to each other."
+  },
+  {
+    "id": 51676,
+    "q": "35. If a shaft is subjected to pure twisting moment, an element on the surface is subjected to",
+    "options": [
+      "normal tensile stress",
+      "normal compressive stress",
+      "pure shear stress",
+      "bending stress"
+    ],
+    "correct": 2,
+    "explain": "Under pure torsion, an element on the surface of a shaft experiences pure shear stress (with associated principal stresses at 45° being tension/compression)."
+  },
+  {
+    "id": 51677,
+    "q": "36. A brittle material will",
+    "options": [
+      "fail after giving ample warning",
+      "fail suddenly",
+      "never fail",
+      "never be used for structural purposes"
+    ],
+    "correct": 1,
+    "explain": "Brittle materials fracture suddenly with little to no prior plastic deformation or visible warning, unlike ductile materials."
+  },
+  {
+    "id": 51679,
+    "q": "37. Glass will obey Hooke's law up to",
+    "options": [
+      "yield point",
+      "proof stress",
+      "fracture",
+      "50% of stress at fracture"
+    ],
+    "correct": 2,
+    "explain": "Being a brittle material with no distinct yield point, glass behaves elastically (obeying Hooke's law) right up until sudden fracture."
+  },
+  {
+    "id": 51680,
+    "q": "38. The effect of the size of the specimen on ultimate strength will be more serious for",
+    "options": [
+      "ductile materials",
+      "brittle materials",
+      "hard materials",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Brittle materials are more sensitive to flaws/defects that scale with specimen size, so size effects on ultimate strength are more pronounced for brittle materials."
+  },
+  {
+    "id": 51683,
+    "q": "39. If a material has identical properties in all directions, it is said to be",
+    "options": [
+      "homogenous",
+      "isotropic",
+      "elastic",
+      "orthotropic"
+    ],
+    "correct": 1,
+    "explain": "Isotropic means having identical mechanical properties in every direction at a point, as opposed to homogeneous (uniform properties throughout the material, but possibly directionally dependent)."
+  },
+  {
+    "id": 51684,
+    "q": "40. When a member is subjected to axial tensile load, the greatest normal stress is equal to",
+    "options": [
+      "half the maximum shear stress",
+      "maximum shear stress",
+      "twice the maximum shear stress",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Under uniaxial tension σ, the maximum shear stress is σ/2, so the greatest normal stress (σ) is twice the maximum shear stress."
+  },
+  {
+    "id": 51698,
+    "q": "41. Hooke's law states that stress and strain are",
+    "options": [
+      "directly proportional",
+      "inversely proportional",
+      "curvilinearly related",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Hooke's law states that within the elastic limit, stress is directly proportional to strain."
+  },
+  {
+    "id": 51703,
+    "q": "42. A shaft is subjected to bending moment M and a torque T simultaneously. The ratio of the maximum bending stress to maximum shear stress developed in the shaft is",
+    "options": [
+      "M/T",
+      "T/M",
+      "2M/T",
+      "2T/M"
+    ],
+    "correct": 2,
+    "explain": "Comparing bending stress (σ = 32M/πd³) to shear stress (τ = 16T/πd³) for a circular shaft gives a ratio σ/τ = 2M/T."
+  },
+  {
+    "id": 51704,
+    "q": "43. The greatest load which a spring can carry without getting permanently distorted is called",
+    "options": [
+      "stiffness",
+      "proof resilience",
+      "proof stress",
+      "proof load"
+    ],
+    "correct": 3,
+    "explain": "Proof load is defined as the maximum load a spring can withstand without undergoing permanent deformation."
+  },
+  {
+    "id": 51706,
+    "q": "44. Limit of proportionality depends upon",
+    "options": [
+      "area of cross section",
+      "type of loading",
+      "type of material",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "The limit of proportionality (where Hooke's law ceases to apply) is an intrinsic material property, depending on the type of material rather than its geometry or loading type."
+  },
+  {
+    "id": 51707,
+    "q": "45. If the Young's modulus of elasticity of a material is twice of its modulus of rigidity, the Poisson's ratio of the material is",
+    "options": [
+      "−1",
+      "−0.5",
+      "0.5",
+      "Zero"
+    ],
+    "correct": 3,
+    "explain": "Using E = 2G(1+μ), if E = 2G, then 2G = 2G(1+μ), giving 1+μ=1, so μ = 0 (zero)."
+  },
+  {
+    "id": 51708,
+    "q": "46. For an isotropic, homogenous and elastic material obeying Hooke's law, number of independent elastic constant is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "For an isotropic homogeneous elastic material, only 2 independent elastic constants (e.g., E and G, or E and Poisson's ratio) are needed, since all others can be derived from these."
+  },
+  {
+    "id": 51729,
+    "q": "47. A close coil helical spring when subjected to a moment M having its axis along the axis of helix is",
+    "options": [
+      "it is subjected to pure bending",
+      "its mean diameter will increase",
+      "its number of coil will increase",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "When a closed-coil spring is subjected to a moment about its own (helix) axis, the wire experiences pure bending (as opposed to axial loading which causes torsion)."
+  },
+  {
+    "id": 51739,
+    "q": "48. The stress below which a material has a high probability of not failing under reversal of stress is known as",
+    "options": [
+      "tolerance limit",
+      "elastic limit",
+      "proportional limit",
+      "endurance limit"
+    ],
+    "correct": 3,
+    "explain": "The endurance limit (fatigue limit) is defined as the maximum stress below which a material can withstand an infinite number of stress reversals (cycles) without fatigue failure."
+  },
+  {
+    "id": 51457,
+    "q": "49. In a rectangular shaft subjected to torsion, the maximum shear stress occurs at",
+    "options": [
+      "center",
+      "corner",
+      "middle of the smaller side",
+      "middle of longer side"
+    ],
+    "correct": 3,
+    "explain": "For a rectangular (non-circular) shaft under torsion, the maximum shear stress occurs at the midpoint of the longer side, per membrane analogy/torsion theory for non-circular sections."
+  },
+  {
+    "id": 51458,
+    "q": "50. The specimen in Charpy impact test is supported as a",
+    "options": [
+      "cantilever beam",
+      "simply supported beam",
+      "fixed beam",
+      "continuous beam"
+    ],
+    "correct": 1,
+    "explain": "In the Charpy impact test, the notched specimen is supported horizontally at both ends (as a simply supported beam) and struck at the center opposite the notch."
+  }
+]

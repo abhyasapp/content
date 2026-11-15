@@ -1,0 +1,194 @@
+[
+  {
+    "id": 51696,
+    "q": "1. The carryover factor in a prismatic member whose far end is hinged is",
+    "options": [
+      "0",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "correct": 0,
+    "explain": "If the far end of a member is hinged (cannot resist moment), no moment can be carried over there, so the carryover factor is zero."
+  },
+  {
+    "id": 51701,
+    "q": "2. Influence line for horizontal thrust in a two hinged parabolic arch is",
+    "options": [
+      "parabolic",
+      "cubic",
+      "triangular",
+      "rectangle"
+    ],
+    "correct": 0,
+    "explain": "The influence line for horizontal thrust in a two-hinged parabolic arch is a cubic curve, a known classical result from arch theory."
+  },
+  {
+    "id": 51705,
+    "q": "3. In the simultaneous equations derived from slope deflection method, the matrix formed by the coefficients of various rotations will have",
+    "options": [
+      "all element equal",
+      "all elements zero",
+      "all elements along the diagonal zero",
+      "diagonal symmetry with diagonal element predominant in that respective equation"
+    ],
+    "correct": 3,
+    "explain": "The stiffness matrix from slope-deflection equations is symmetric, with diagonal (self-stiffness) terms typically dominant compared to off-diagonal (coupling) terms."
+  },
+  {
+    "id": 51710,
+    "q": "4. Which of the following is not the displacement method?",
+    "options": [
+      "Equilibrium method",
+      "Column analogy method",
+      "Moment distribution method",
+      "Kani method"
+    ],
+    "correct": 1,
+    "explain": "The column analogy method is a force (flexibility) method, whereas equilibrium, moment distribution, and Kani's method are all displacement (stiffness) methods."
+  },
+  {
+    "id": 51711,
+    "q": "5. The elements of flexibility matrix of a structure",
+    "options": [
+      "are dependent on the choice of co ordinates",
+      "are independent of the choice of co ordinates",
+      "are always dimensionally homogenous",
+      "both 'a' and 'c'"
+    ],
+    "correct": 0,
+    "explain": "The flexibility matrix elements are defined relative to a chosen set of coordinates (degrees of freedom) for the structure, so they depend on that choice."
+  },
+  {
+    "id": 51713,
+    "q": "6. Which of the following methods of structural analysis is a force methods?",
+    "options": [
+      "Slope deflection method",
+      "Column analogy method",
+      "Moment distribution method",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explain": "The column analogy method is a force (flexibility-based) method of structural analysis, unlike slope deflection and moment distribution which are displacement methods."
+  },
+  {
+    "id": 51714,
+    "q": "7. Which of the following method of structural analysis is a displacement method?",
+    "options": [
+      "Moment distribution method",
+      "Column analogy method",
+      "Three moment equation",
+      "None of the above"
+    ],
+    "correct": 0,
+    "explain": "The moment distribution method is a displacement (stiffness) method, as opposed to column analogy and three-moment equation which are force methods."
+  },
+  {
+    "id": 51715,
+    "q": "8. In the displacement method of structural analysis, the basic unknowns are",
+    "options": [
+      "displacements",
+      "force",
+      "displacement and forces",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In displacement (stiffness) methods, the primary unknowns solved for are the joint displacements (translations and rotations)."
+  },
+  {
+    "id": 51717,
+    "q": "9. The width of the analogous column in the method of column analogy is",
+    "options": [
+      "2/EI",
+      "1/EI",
+      "1/2EI",
+      "1/4EI"
+    ],
+    "correct": 1,
+    "explain": "In column analogy, the 'width' (intensity) of the analogous column load/section corresponds to 1/EI, representing the M/EI diagram's scaling."
+  },
+  {
+    "id": 51721,
+    "q": "10. The theorem of three moments for the solution of continuous beams is formulated by",
+    "options": [
+      "Young",
+      "Maxwell",
+      "Williot-Mohr",
+      "Clapeyron"
+    ],
+    "correct": 3,
+    "explain": "The three-moment theorem for continuous beams was formulated by Clapeyron."
+  },
+  {
+    "id": 51725,
+    "q": "11. In slope deflection method, the unknown rotations at various joints are determined by considering",
+    "options": [
+      "the equilibrium of joint",
+      "the rigidity of joint",
+      "the equilibrium of structure",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "In the slope-deflection method, unknown joint rotations are solved for by writing and satisfying the moment equilibrium equations at each joint."
+  },
+  {
+    "id": 51726,
+    "q": "12. In slope deflection method, the end moments for any members are expressed .............",
+    "options": [
+      "as zero",
+      "in terms of the unknown end reactions",
+      "as equal",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "In slope-deflection method, member end moments are expressed as functions of the unknown joint rotations and settlements (translations) — described in the source options as 'unknown end reactions'."
+  },
+  {
+    "id": 51727,
+    "q": "13. In a rigid jointed frame, the rotation of various members meeting at a joint will be",
+    "options": [
+      "equal",
+      "proportional to the length of member",
+      "proportional to stiffness",
+      "proportional to respective moment of inertia"
+    ],
+    "correct": 0,
+    "explain": "Since a rigid joint rotates as a single unit, all members rigidly connected at that joint undergo the same (equal) angle of rotation."
+  },
+  {
+    "id": 51728,
+    "q": "14. The moment distribution method is formulated by",
+    "options": [
+      "Hardy cross",
+      "Thomas young",
+      "Mohr",
+      "Kani"
+    ],
+    "correct": 0,
+    "explain": "The moment distribution method was developed by Hardy Cross."
+  },
+  {
+    "id": 51732,
+    "q": "15. For a conjugate beam, the fixed end of a real beam corresponds to",
+    "options": [
+      "fixed end",
+      "free end",
+      "hinged end",
+      "hinged end on rollers"
+    ],
+    "correct": 1,
+    "explain": "A fixed end (zero slope, zero deflection) in the real beam becomes a free end in the conjugate beam, per the standard conjugate-beam correspondence rules."
+  },
+  {
+    "id": 51502,
+    "q": "16. The maximum deflection of a fixed beam carrying a central point load lies at",
+    "options": [
+      "fixed ends",
+      "centre of beam",
+      "1/3 from fixed ends",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "By symmetry, for a fixed beam under a central point load, the maximum deflection occurs exactly at the midspan (centre) of the beam."
+  }
+]

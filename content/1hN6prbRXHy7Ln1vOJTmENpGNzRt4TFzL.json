@@ -1,0 +1,494 @@
+[
+  {
+    "id": 51459,
+    "q": "1. Impact test enables to estimate the property of",
+    "options": [
+      "hardness",
+      "toughness",
+      "strength",
+      "creep"
+    ],
+    "correct": 1,
+    "explain": "Impact tests (like Charpy/Izod) measure the energy absorbed during fracture, which is a direct measure of a material's toughness."
+  },
+  {
+    "id": 51460,
+    "q": "2. The phenomenon of decreased resistance of a material to reversal of stress is called",
+    "options": [
+      "creep",
+      "fatigue",
+      "resilience",
+      "plasticity"
+    ],
+    "correct": 1,
+    "explain": "Fatigue is defined as the progressive reduction in a material's strength/resistance under repeated or reversed cyclic stress, even below its static strength."
+  },
+  {
+    "id": 51461,
+    "q": "3. The property of metal which allows it to deform continuously at slow rate without any further increase in stress is known as",
+    "options": [
+      "fatigue",
+      "creep",
+      "plasticity",
+      "resilience"
+    ],
+    "correct": 1,
+    "explain": "Creep is the property allowing continuous, slow deformation of a material under sustained constant stress over time."
+  },
+  {
+    "id": 51465,
+    "q": "4. The flexure formula is valid only for",
+    "options": [
+      "static loads",
+      "dynamic loads",
+      "static loads with no residual stresses",
+      "dynamic loads with no residual stresses"
+    ],
+    "correct": 2,
+    "explain": "The standard flexure formula assumes purely static loading conditions and that the material is free from pre-existing (residual) stresses, for the derived linear stress distribution to hold accurately."
+  },
+  {
+    "id": 51466,
+    "q": "5. For the materials which do not have a pronounced yield point from a tension test the yield point is taken to be",
+    "options": [
+      "stress corresponding to 0.2% strain from the stress strain curve",
+      "the stress at which the permanent set reaches the value 0.2%",
+      "ultimate strength",
+      "average of ultimate strength and actual breaking stress"
+    ],
+    "correct": 1,
+    "explain": "For materials without a clear yield point, the 'proof stress' (offset yield strength) is conventionally defined as the stress at which the permanent set reaches 0.2% strain."
+  },
+  {
+    "id": 51468,
+    "q": "6. If the Poisson's ratio of a material is 0.25, the ratio of Modulus of rigidity to the Young's Modulus is",
+    "options": [
+      "2",
+      "0.4",
+      "2.5",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "Using G/E = 1/[2(1+μ)], substituting μ=0.25 gives G/E = 1/2.5 = 0.4."
+  },
+  {
+    "id": 51469,
+    "q": "7. The actual breaking stress of a ductile material from a tension test will be",
+    "options": [
+      "greater than ultimate strength",
+      "equal to ultimate strength",
+      "equal to nominal breaking stress",
+      "less than the ultimate strength but greater than nominal breaking stress"
+    ],
+    "correct": 0,
+    "explain": "Due to necking (reduction in cross-sectional area) before fracture in ductile materials, the true (actual) breaking stress based on the reduced area is greater than the nominal ultimate strength based on original area."
+  },
+  {
+    "id": 51472,
+    "q": "8. How does the elastic limit vary with increase in temperature?",
+    "options": [
+      "Will increase",
+      "Will not change",
+      "Will decrease",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explain": "As temperature increases, most metals soften and their elastic limit (and generally strength properties) decrease."
+  },
+  {
+    "id": 51473,
+    "q": "9. How does the Young's Modulus vary with increase in temperature?",
+    "options": [
+      "Will not be affected",
+      "Will decrease",
+      "Will increase",
+      "Difficult to tell"
+    ],
+    "correct": 1,
+    "explain": "Young's modulus of most metals decreases as temperature increases, due to increased atomic vibration weakening interatomic bonding stiffness."
+  },
+  {
+    "id": 51474,
+    "q": "10. Which of the following materials is suitable for transverse test for modulus of rupture?",
+    "options": [
+      "Mild steel",
+      "Timber",
+      "Aluminium",
+      "Rubber"
+    ],
+    "correct": 1,
+    "explain": "Timber, being a brittle-ish material in bending with limited ductility, is commonly tested via the transverse (bending) test to determine its modulus of rupture, unlike ductile metals which are usually tested in tension."
+  },
+  {
+    "id": 51475,
+    "q": "11. What is the number of basic elements of a force?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correct": 3,
+    "explain": "A force is characterized by 4 basic elements: magnitude, direction, line of action, and point of application."
+  },
+  {
+    "id": 51476,
+    "q": "12. A plane section before twisting will remain plane after twisting if the cross-section is",
+    "options": [
+      "rectangular",
+      "circular",
+      "square",
+      "triangular"
+    ],
+    "correct": 1,
+    "explain": "Only circular (and hollow circular) shafts maintain plane cross-sections after twisting because of their rotational symmetry; non-circular sections warp under torsion."
+  },
+  {
+    "id": 51478,
+    "q": "13. Within the elastic range of a tensile test the deviation from Hooke's law and some after effect may be noticed. This is due to",
+    "options": [
+      "thermo elastic effect",
+      "material does not at all obey hooke's law",
+      "yield stress is crossed",
+      "elastic limit is greater than ultimate strength"
+    ],
+    "correct": 0,
+    "explain": "Minor deviations and after-effects within the nominally elastic range are typically attributed to thermo-elastic effects (temperature changes accompanying rapid elastic deformation)."
+  },
+  {
+    "id": 51479,
+    "q": "14. Who introduced the terms upper and lower yield points?",
+    "options": [
+      "Robert Hooke",
+      "Thomas Young",
+      "Mohr",
+      "Bach"
+    ],
+    "correct": 3,
+    "explain": "The terms 'upper yield point' and 'lower yield point' were introduced by Bach, based on his stress-strain testing observations."
+  },
+  {
+    "id": 51480,
+    "q": "15. The lower yield point is more significant than upper yield point because",
+    "options": [
+      "it is less than upper yield point",
+      "it is less influenced by shape of the specimen",
+      "it occurs before upper yield point",
+      "strain is more at this point"
+    ],
+    "correct": 1,
+    "explain": "The lower yield point is considered more reliable/significant for design purposes because, unlike the upper yield point, it is less sensitive to specimen shape, testing speed, and surface conditions."
+  },
+  {
+    "id": 51482,
+    "q": "16. The core of a rectangular section b × d is",
+    "options": [
+      "a rhombus with diagonals b/3 and d/3",
+      "a rectangle with sides b/3 and d/3",
+      "a rectangle with sides b/6 and d/6",
+      "a rhombus with diagonals b/6 and d/6"
+    ],
+    "correct": 0,
+    "explain": "For a rectangular section b×d, the core is a rhombus with diagonals of length b/3 and d/3 in general (per middle-third rule) — the book states this variant with diagonals b/6 and d/6 as the correct choice."
+  },
+  {
+    "id": 51486,
+    "q": "17. The ratio of the length and diameter of a simply supported uniform circular beam which experiences maximum bending stress equal to tensile stress due to same load at its mid span is",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/2",
+      "1/3"
+    ],
+    "correct": 2,
+    "explain": "Equating the bending stress formula (from flexure) to the direct tensile stress formula (from axial elongation test) for the same circular bar and load leads to a length-to-diameter ratio of 1/2."
+  },
+  {
+    "id": 51487,
+    "q": "18. The ratio of the length and depth of a simply supported rectangular beam which experiences maximum bending stress equal to tensile stress, due to same load at its mid span is",
+    "options": [
+      "1/2",
+      "2/3",
+      "1/4",
+      "1/3"
+    ],
+    "correct": 1,
+    "explain": "Similarly equating bending stress to tensile stress for a rectangular bar of the same load gives a length-to-depth ratio of 2/3."
+  },
+  {
+    "id": 51492,
+    "q": "19. In a shaft, the shear stress is not directly proportional to",
+    "options": [
+      "radius of the shaft",
+      "angle of twist",
+      "length of the shaft",
+      "modulus of rigidity"
+    ],
+    "correct": 2,
+    "explain": "From τ = Gθr/L, shear stress is proportional to radius, angle of twist, and modulus of rigidity, but is inversely (not directly) proportional to the length of the shaft."
+  },
+  {
+    "id": 51498,
+    "q": "20. Struts are load carrying members of a frame structure which are subjected to",
+    "options": [
+      "axial tension loads",
+      "axial compressive loads",
+      "torsional loads",
+      "transverse loads"
+    ],
+    "correct": 1,
+    "explain": "A strut is a truss/frame member specifically subjected to axial compressive loads."
+  },
+  {
+    "id": 51499,
+    "q": "21. The shear stress at any section of a shaft is maximum",
+    "options": [
+      "at the centre of the section",
+      "at a distance r/2 from the centre",
+      "at the top of the surface",
+      "at a distance 3/4r from the centre"
+    ],
+    "correct": 2,
+    "explain": "For a circular shaft under torsion, shear stress increases linearly from zero at the centre to a maximum at the outer surface."
+  },
+  {
+    "id": 51501,
+    "q": "22. Which of the following is a proper sequence?",
+    "options": [
+      "Proportional limit, elastic limit, yielding, failure",
+      "Elastic limit, proportional limit, elastic limit, failure",
+      "Yielding, proportional limit, elastic limit, failure",
+      "None of the above"
+    ],
+    "correct": 0,
+    "explain": "On a typical stress-strain curve for a ductile material, the sequence of milestones as stress increases is: proportional limit, then elastic limit, then yielding, then eventual failure."
+  },
+  {
+    "id": 51503,
+    "q": "23. The product of the tangential force acting on the shaft and its distance from the axis of the shaft (i.e., radius of shaft) is known as",
+    "options": [
+      "bending moment",
+      "twisting moment",
+      "torsional rigidity",
+      "flexural rigidity"
+    ],
+    "correct": 1,
+    "explain": "By definition, the twisting (torsional) moment on a shaft equals the tangential force multiplied by its radial distance from the shaft axis."
+  },
+  {
+    "id": 51504,
+    "q": "24. When a shaft is subjected to a twisting moment, every cross-section of the shaft will be under",
+    "options": [
+      "tensile stress",
+      "compressive stress",
+      "shear stress",
+      "bending stress"
+    ],
+    "correct": 2,
+    "explain": "Torsion (twisting moment) on a shaft induces shear stress across every cross-section, varying from zero at the centre to maximum at the surface."
+  },
+  {
+    "id": 51505,
+    "q": "25. The shear stress at the centre of a circular shaft under torsion is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 0,
+    "explain": "Since shear stress under torsion varies linearly with radius (τ = Gθr/L), it is exactly zero at the centre (r=0)."
+  },
+  {
+    "id": 51506,
+    "q": "26. The shear stress at the outermost fibres of a circular shaft under torsion is",
+    "options": [
+      "zero",
+      "minimum",
+      "maximum",
+      "infinity"
+    ],
+    "correct": 2,
+    "explain": "Shear stress under torsion is maximum at the outer surface (largest radius) of the circular shaft."
+  },
+  {
+    "id": 51507,
+    "q": "27. The torsional rigidity of a shafts given by",
+    "options": [
+      "T/J",
+      "T/φ",
+      "T/r",
+      "T/G"
+    ],
+    "correct": 1,
+    "explain": "Torsional rigidity is defined as the torque required to produce a unit angle of twist, given by T/φ (equivalently GJ)."
+  },
+  {
+    "id": 51508,
+    "q": "28. When a shaft is subjected to torsion, the shear stress induced in the shaft varies from",
+    "options": [
+      "minimum at the centre to maximum at the circumference",
+      "maximum at the centre to minimum at the circumference",
+      "zero at the centre to maximum at the circumference",
+      "maximum at the centre to zero at the circumference"
+    ],
+    "correct": 2,
+    "explain": "Shear stress under torsion in a circular shaft varies linearly from zero at the centre to a maximum value at the outer circumference."
+  },
+  {
+    "id": 51509,
+    "q": "29. When a column is subjected to an eccentric load, the stress induced in the column will be",
+    "options": [
+      "direct stress only",
+      "bending stress only",
+      "shear stress only",
+      "direct and bending stress both"
+    ],
+    "correct": 3,
+    "explain": "An eccentric load on a column can be resolved into an axial load (causing direct stress) plus a moment (causing bending stress), so the combined stress includes both components."
+  },
+  {
+    "id": 51510,
+    "q": "30. For no tension condition in the base of a short column of circular section, the line of action of the load should be within a circle of diameter equal to ............. of the main circle.",
+    "options": [
+      "one-half",
+      "one-third",
+      "one-fourth",
+      "one-eight"
+    ],
+    "correct": 2,
+    "explain": "As established (core of circular section), the no-tension zone for a circular column is a concentric circle of diameter equal to one-fourth of the main section's diameter."
+  },
+  {
+    "id": 51511,
+    "q": "31. The limit of eccentricity for no tensile conditions for a column of circular section of diameter (d) is",
+    "options": [
+      "d/4",
+      "d/8",
+      "d/12",
+      "d/16"
+    ],
+    "correct": 1,
+    "explain": "The eccentricity limit (core radius) for a circular column of diameter d is d/8 (i.e., radius r/4 = d/8), beyond which tension develops."
+  },
+  {
+    "id": 51512,
+    "q": "32. The load at which the column just buckles, is known as",
+    "options": [
+      "buckling load",
+      "critical load",
+      "crippling load",
+      "any one of these"
+    ],
+    "correct": 3,
+    "explain": "The load at which a column just begins to buckle is referred to interchangeably as the buckling load, critical load, or crippling load — all are equivalent terms."
+  },
+  {
+    "id": 51513,
+    "q": "33. Compression members always tend to buckle in the direction of the",
+    "options": [
+      "axis of load",
+      "perpendicular to the axis of load",
+      "minimum cross section",
+      "least radius of gyration"
+    ],
+    "correct": 3,
+    "explain": "A compression member buckles about the axis corresponding to its least radius of gyration (weakest bending stiffness direction), since that requires the smallest load to induce instability."
+  },
+  {
+    "id": 51514,
+    "q": "34. The direct stress induced in a long column is ............. as compared to bending stress.",
+    "options": [
+      "same",
+      "more",
+      "less",
+      "negligible"
+    ],
+    "correct": 3,
+    "explain": "For long, slender columns where buckling (bending) effects dominate, the direct (axial) stress component is comparatively negligible relative to the bending stress induced by buckling."
+  },
+  {
+    "id": 51515,
+    "q": "35. A column that fails due to direct stress, is called",
+    "options": [
+      "short column",
+      "long column",
+      "weak column",
+      "medium column"
+    ],
+    "correct": 0,
+    "explain": "A column that fails primarily by crushing (direct compressive stress reaching material strength, without significant buckling) is classified as a short column."
+  },
+  {
+    "id": 51516,
+    "q": "36. A vertical column has two moments of inertia (i.e., Ixx and Iyy). The column will tend to buckle in the direction of the",
+    "options": [
+      "axis of load",
+      "perpendicular to the axis of load",
+      "maximum moment of inertia",
+      "minimum moment of inertia"
+    ],
+    "correct": 3,
+    "explain": "A column buckles about the axis with the minimum moment of inertia (and correspondingly minimum radius of gyration), since that direction offers the least resistance to bending/buckling."
+  },
+  {
+    "id": 51517,
+    "q": "37. The slenderness ratio is the ratio of",
+    "options": [
+      "area of column to least radius of gyration",
+      "length of column to least radius of gyration",
+      "least radius of gyration to area of column",
+      "least radius of gyration to length of column"
+    ],
+    "correct": 1,
+    "explain": "By definition, slenderness ratio = effective length of column / least radius of gyration."
+  },
+  {
+    "id": 51518,
+    "q": "38. The column whose slenderness ratio is less than 80, are known as",
+    "options": [
+      "short columns",
+      "long columns",
+      "weak columns",
+      "medium columns"
+    ],
+    "correct": 0,
+    "explain": "Columns with a relatively low slenderness ratio (below about 80) are classified as short columns, where crushing rather than buckling governs failure."
+  },
+  {
+    "id": 51519,
+    "q": "39. A column with maximum equivalent length has",
+    "options": [
+      "both ends hinged",
+      "both ends fixed",
+      "one end fixed and the other end hinged",
+      "one end fixed and the other end free"
+    ],
+    "correct": 3,
+    "explain": "A column with one end fixed and the other completely free has the largest effective length (Le = 2L), the maximum among the standard end conditions."
+  },
+  {
+    "id": 51524,
+    "q": "40. When a rectangular beam is loaded longitudinally, shear develops on",
+    "options": [
+      "bottom fibre",
+      "top fibre",
+      "middle fibre",
+      "every-horizontal plane"
+    ],
+    "correct": 3,
+    "explain": "Horizontal (longitudinal) shear stress exists on every horizontal plane within a beam's depth (complementary to the vertical transverse shear), varying parabolically with depth."
+  },
+  {
+    "id": 51525,
+    "q": "41. When a rectangular beam is loaded transversely, the maximum compressive stress develops on",
+    "options": [
+      "bottom fibre",
+      "top fibre",
+      "neutral axis",
+      "every cross-section"
+    ],
+    "correct": 1,
+    "explain": "For a simply supported rectangular beam under a typical downward transverse load, the beam sags, causing the top fibre to experience maximum compressive stress."
+  }
+]
