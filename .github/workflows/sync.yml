@@ -24,7 +24,7 @@ jobs:
       - name: Run sync
         env:
           GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
-          CHAPTERS_FILE_ID: "1wr_2W4UHotzWe6djopAXxmPIaNGBhLqM"
+          CHAPTERS_FILE_ID: "10_YqLKsxxIUR8TlTA5vmOKK5xcOIeI8C"
         run: python scripts/sync.py
 
       - name: Commit changes
