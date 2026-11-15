@@ -45,7 +45,7 @@ Every question is normalized by `scripts/sync.py` to this shape:
 | `options` | string[] | Usually 4, not always — matching-type questions can have 2 or 5 |
 | `correct` | int \| null | 0-based index into `options`. `null` only when the source has no usable answer key |
 | `explain` | string | `""` when the source has no explanation |
-| `public_qn` | string | Optional. The stable public question id the pipeline assigns (`LCCCSSSFQQQQ`, published dotted like `50011.110001`, `G0011.110001`, or with a word subtopic like `5002mixedqn10001`). This is what the app keys progress, reports and corrections on, so it must be unique across the whole corpus — `--check` enforces that. An unusable value is dropped and counted rather than passed through. |
+| `public_qn` | string | Optional. The stable public question id the pipeline assigns (`LCCCSSSFQQQQ`, published dotted like `50011.110001`, `G0011.110001`, or with a word subtopic like `5002mixedqn10001`). This is what the app keys progress, reports and corrections on, so one id must always name exactly one question: `--check` rejects an id shared by two *different* questions. A question repeated in a pooled file and in the chapter file it came from keeps the same id, which is why a repeat is allowed when the text (ignoring the file's own item number), options and answer match. An unusable value is dropped and counted rather than passed through. |
 
 Extra keys present in a source record (`image`, `images`, …) are preserved as-is.
 

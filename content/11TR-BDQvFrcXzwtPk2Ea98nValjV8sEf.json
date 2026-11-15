@@ -9,7 +9,8 @@
       "is subjected to bending moment"
     ],
     "correct": 2,
-    "explain": "A strut is a structural component designed to resist longitudinal compression, often found in trusses and frames."
+    "explain": "A strut is a structural component designed to resist longitudinal compression, often found in trusses and frames.",
+    "public_qn": "50033.310001"
   },
   {
     "id": 39332,
@@ -21,7 +22,8 @@
       "a stanchion"
     ],
     "correct": 0,
-    "explain": "While struts and stanchions are also compressive members, a 'column' specifically refers to a vertical structural member whose primary function is to support axial compressive loads."
+    "explain": "While struts and stanchions are also compressive members, a 'column' specifically refers to a vertical structural member whose primary function is to support axial compressive loads.",
+    "public_qn": "50033.310002"
   },
   {
     "id": 39335,
@@ -33,7 +35,8 @@
       "rhombus of diagonals b/3 and h/3"
     ],
     "correct": 3,
-    "explain": "For a rectangular section, the Middle Third Rule applies. The 'kern' or core is a rhombus with diagonals equal to b/3 and h/3."
+    "explain": "For a rectangular section, the Middle Third Rule applies. The 'kern' or core is a rhombus with diagonals equal to b/3 and h/3.",
+    "public_qn": "50033.310003"
   },
   {
     "id": 39336,
@@ -45,7 +48,8 @@
       "160 and 180"
     ],
     "correct": 1,
-    "explain": "Columns are generally classified as short (λ < 32), medium/intermediate (32 < λ < 120), and long (λ > 120)."
+    "explain": "Columns are generally classified as short (λ < 32), medium/intermediate (32 < λ < 120), and long (λ > 120).",
+    "public_qn": "50033.310004"
   },
   {
     "id": 39337,
@@ -57,7 +61,8 @@
       "P = π²EI / l³"
     ],
     "correct": 0,
-    "explain": "Euler’s critical load formula for a column hinged at both ends uses the full length l as the effective length, resulting in P = π²EI/l²."
+    "explain": "Euler’s critical load formula for a column hinged at both ends uses the full length l as the effective length, resulting in P = π²EI/l².",
+    "public_qn": "50033.310005"
   },
   {
     "id": 39338,
@@ -69,7 +74,8 @@
       "both the ends are fixed"
     ],
     "correct": 3,
-    "explain": "A column with both ends fixed has the shortest effective length (0.5L), which results in the highest buckling load capacity compared to other end conditions."
+    "explain": "A column with both ends fixed has the shortest effective length (0.5L), which results in the highest buckling load capacity compared to other end conditions.",
+    "public_qn": "50033.310006"
   },
   {
     "id": 39339,
@@ -81,7 +87,8 @@
       "intermediate columns"
     ],
     "correct": 3,
-    "explain": "Rankine's formula is an empirical formula that works for the entire range of columns but is specifically valuable for intermediate columns where both crushing and buckling occur."
+    "explain": "Rankine's formula is an empirical formula that works for the entire range of columns but is specifically valuable for intermediate columns where both crushing and buckling occur.",
+    "public_qn": "50033.310007"
   },
   {
     "id": 39340,
@@ -93,7 +100,8 @@
       "2 l"
     ],
     "correct": 0,
-    "explain": "When both ends are fixed, the points of contraflexure occur at 0.25L from each end, making the effective length equal to 0.5L."
+    "explain": "When both ends are fixed, the points of contraflexure occur at 0.25L from each end, making the effective length equal to 0.5L.",
+    "public_qn": "50033.310008"
   },
   {
     "id": 39341,
@@ -105,7 +113,8 @@
       "2 l"
     ],
     "correct": 3,
-    "explain": "For a cantilever-type column (one end fixed, one free), the member behaves like half of a hinged-hinged column of double the length, so Le = 2L."
+    "explain": "For a cantilever-type column (one end fixed, one free), the member behaves like half of a hinged-hinged column of double the length, so Le = 2L.",
+    "public_qn": "50033.310009"
   },
   {
     "id": 39346,
@@ -117,7 +126,8 @@
       "(D²-d²) / 8D"
     ],
     "correct": 2,
-    "explain": "For a hollow circular section, the kern radius is (D²+d²)/8D to maintain purely compressive stresses."
+    "explain": "For a hollow circular section, the kern radius is (D²+d²)/8D to maintain purely compressive stresses.",
+    "public_qn": "50033.310010"
   },
   {
     "id": 39442,
@@ -129,7 +139,8 @@
       "bearing stresses"
     ],
     "correct": 3,
-    "explain": "The compressive interaction between the column base and the plate is classified as bearing stress."
+    "explain": "The compressive interaction between the column base and the plate is classified as bearing stress.",
+    "public_qn": "50033.310011"
   },
   {
     "id": 39475,
@@ -141,7 +152,8 @@
       "2π²EI / l²"
     ],
     "correct": 0,
-    "explain": "This is the fundamental Euler buckling case where the effective length ($L_e$) equals the actual length ($l$). Formula: $P = \\frac{\\pi^2 EI}{L_e^2}$."
+    "explain": "This is the fundamental Euler buckling case where the effective length ($L_e$) equals the actual length ($l$). Formula: $P = \\frac{\\pi^2 EI}{L_e^2}$.",
+    "public_qn": "50033.310012"
   },
   {
     "id": 39476,
@@ -153,7 +165,8 @@
       "2π²EI / l²"
     ],
     "correct": 1,
-    "explain": "For fixed ends, the effective length $L_e = l/2$. Plugging this into Euler's formula gives $P = \\frac{\\pi^2 EI}{(l/2)^2} = \\frac{4\\pi^2 EI}{l^2}$."
+    "explain": "For fixed ends, the effective length $L_e = l/2$. Plugging this into Euler's formula gives $P = \\frac{\\pi^2 EI}{(l/2)^2} = \\frac{4\\pi^2 EI}{l^2}$.",
+    "public_qn": "50033.310013"
   },
   {
     "id": 39477,
@@ -165,7 +178,8 @@
       "2π²EI / L²"
     ],
     "correct": 2,
-    "explain": "For a cantilever column, the effective length $L_e = 2L$. Thus, $P = \\frac{\\pi^2 EI}{(2L)^2} = \\frac{\\pi^2 EI}{4L^2}$."
+    "explain": "For a cantilever column, the effective length $L_e = 2L$. Thus, $P = \\frac{\\pi^2 EI}{(2L)^2} = \\frac{\\pi^2 EI}{4L^2}$.",
+    "public_qn": "50033.310014"
   },
   {
     "id": 39478,
@@ -177,7 +191,8 @@
       "2π²EI / L²"
     ],
     "correct": 3,
-    "explain": "For this condition, the effective length $L_e = L / \\sqrt{2}$. Thus, $P = \\frac{\\pi^2 EI}{(L/\\sqrt{2})^2} = \\frac{2\\pi^2 EI}{L^2}$."
+    "explain": "For this condition, the effective length $L_e = L / \\sqrt{2}$. Thus, $P = \\frac{\\pi^2 EI}{(L/\\sqrt{2})^2} = \\frac{2\\pi^2 EI}{L^2}$.",
+    "public_qn": "50033.310015"
   },
   {
     "id": 39479,
@@ -189,7 +204,8 @@
       "l"
     ],
     "correct": 2,
-    "explain": "For a column fixed at one end and hinged at the other, the distance between points of zero moment (inflection points) is approximately 0.707L, which is L/√2."
+    "explain": "For a column fixed at one end and hinged at the other, the distance between points of zero moment (inflection points) is approximately 0.707L, which is L/√2.",
+    "public_qn": "50033.310016"
   },
   {
     "id": 39484,
@@ -201,7 +217,8 @@
       "> 120 but less than 180"
     ],
     "correct": 2,
-    "explain": "Euler's formula is valid only for long columns. For mild steel, this typically applies when the slenderness ratio is greater than approximately 80-120, where buckling stress is less than the proportional limit."
+    "explain": "Euler's formula is valid only for long columns. For mild steel, this typically applies when the slenderness ratio is greater than approximately 80-120, where buckling stress is less than the proportional limit.",
+    "public_qn": "50033.310017"
   },
   {
     "id": 39485,
@@ -213,7 +230,8 @@
       "very much safe"
     ],
     "correct": 2,
-    "explain": "Thick cylinder theory (Lame's equations) accounts for the variation of stress through the wall thickness, whereas thin theory assumes uniform stress. Using the more rigorous thick theory for a thin wall provides a more conservative (safer) design."
+    "explain": "Thick cylinder theory (Lame's equations) accounts for the variation of stress through the wall thickness, whereas thin theory assumes uniform stress. Using the more rigorous thick theory for a thin wall provides a more conservative (safer) design.",
+    "public_qn": "50033.310018"
   },
   {
     "id": 39486,
@@ -225,7 +243,8 @@
       "difficult to tell"
     ],
     "correct": 0,
-    "explain": "Thin cylinder theory underestimates the high peak stresses that occur at the inner surface of a thick-walled cylinder, leading to an unsafe design."
+    "explain": "Thin cylinder theory underestimates the high peak stresses that occur at the inner surface of a thick-walled cylinder, leading to an unsafe design.",
+    "public_qn": "50033.310019"
   },
   {
     "id": 39509,
@@ -237,7 +256,8 @@
       "all of the above"
     ],
     "correct": 3,
-    "explain": "Euler's theory assumes the material is isotropic and elastic, the column is initially straight, and failure is due purely to elastic buckling."
+    "explain": "Euler's theory assumes the material is isotropic and elastic, the column is initially straight, and failure is due purely to elastic buckling.",
+    "public_qn": "50033.310020"
   },
   {
     "id": 39513,
@@ -249,7 +269,8 @@
       "one end fixed and the other end free"
     ],
     "correct": 3,
-    "explain": "For one end fixed and one end free, Le = 2L, which is the highest possible multiplier for a given actual length."
+    "explain": "For one end fixed and one end free, Le = 2L, which is the highest possible multiplier for a given actual length.",
+    "public_qn": "50033.310021"
   },
   {
     "id": 39515,
@@ -261,7 +282,8 @@
       "the ratio of its length to the least radius of gyration is more than 80"
     ],
     "correct": 2,
-    "explain": "The classification of short vs long columns is strictly based on the slenderness ratio (L/k), typically with a cutoff around 80."
+    "explain": "The classification of short vs long columns is strictly based on the slenderness ratio (L/k), typically with a cutoff around 80.",
+    "public_qn": "50033.310022"
   },
   {
     "id": 39516,
@@ -273,7 +295,8 @@
       "1 / 9000"
     ],
     "correct": 2,
-    "explain": "The Rankine constant 'a' for mild steel is standardly taken as 1/7500 for hinged ends."
+    "explain": "The Rankine constant 'a' for mild steel is standardly taken as 1/7500 for hinged ends.",
+    "public_qn": "50033.310023"
   },
   {
     "id": 39519,
@@ -285,7 +308,8 @@
       "any one of the above"
     ],
     "correct": 3,
-    "explain": "Dams are subject to multiple failure modes including stability issues (overturning), material strength (crushing), or joint separation (tension)."
+    "explain": "Dams are subject to multiple failure modes including stability issues (overturning), material strength (crushing), or joint separation (tension).",
+    "public_qn": "50033.310024"
   },
   {
     "id": 40073,
@@ -297,7 +321,8 @@
       "tanchion"
     ],
     "correct": 0,
-    "explain": "A long vertical compression member is classically termed a column."
+    "explain": "A long vertical compression member is classically termed a column.",
+    "public_qn": "50033.310025"
   },
   {
     "id": 40075,
@@ -309,7 +334,8 @@
       "medium column"
     ],
     "correct": 0,
-    "explain": "Long, slender columns fail by lateral buckling well before reaching the crushing stress."
+    "explain": "Long, slender columns fail by lateral buckling well before reaching the crushing stress.",
+    "public_qn": "50033.310026"
   },
   {
     "id": 40076,
@@ -321,7 +347,8 @@
       "none of the above"
     ],
     "correct": 2,
-    "explain": "Euler's buckling load depends on slenderness ratio, which combines both effective length and the section's least radius of gyration (lateral dimension)."
+    "explain": "Euler's buckling load depends on slenderness ratio, which combines both effective length and the section's least radius of gyration (lateral dimension).",
+    "public_qn": "50033.310027"
   },
   {
     "id": 40077,
@@ -333,7 +360,8 @@
       "4L"
     ],
     "correct": 0,
-    "explain": "Both-ends-hinged is the reference case: effective length Le = L."
+    "explain": "Both-ends-hinged is the reference case: effective length Le = L.",
+    "public_qn": "50033.310028"
   },
   {
     "id": 40078,
@@ -345,7 +373,8 @@
       "tension area"
     ],
     "correct": 0,
-    "explain": "This region is the 'core' or 'kern' of the section — loads applied within it produce no tensile stress anywhere on the section."
+    "explain": "This region is the 'core' or 'kern' of the section — loads applied within it produce no tensile stress anywhere on the section.",
+    "public_qn": "50033.310029"
   },
   {
     "id": 40080,
@@ -357,7 +386,8 @@
       "rhombus of diagonals b/3 and h/3"
     ],
     "correct": 1,
-    "explain": "As per the answer key for this set (note: the standard textbook result for a rectangular section's kern is a rhombus with diagonals b/3 and h/3 — worth double-checking against your source book, as option (d) is the classically expected answer)."
+    "explain": "As per the answer key for this set (note: the standard textbook result for a rectangular section's kern is a rhombus with diagonals b/3 and h/3 — worth double-checking against your source book, as option (d) is the classically expected answer).",
+    "public_qn": "50033.310030"
   },
   {
     "id": 40081,
@@ -369,7 +399,8 @@
       "P/16"
     ],
     "correct": 1,
-    "explain": "Both-ends-fixed Euler load is 4× the both-ends-hinged reference load P."
+    "explain": "Both-ends-fixed Euler load is 4× the both-ends-hinged reference load P.",
+    "public_qn": "50033.310031"
   },
   {
     "id": 40082,
@@ -381,7 +412,8 @@
       "4π²EI/L²"
     ],
     "correct": 2,
-    "explain": "Standard Euler formula for the pinned-pinned reference case: Pcr = π²EI/L²."
+    "explain": "Standard Euler formula for the pinned-pinned reference case: Pcr = π²EI/L².",
+    "public_qn": "50033.310032"
   },
   {
     "id": 40083,
@@ -393,7 +425,8 @@
       "none of the above"
     ],
     "correct": 0,
-    "explain": "Standard result (approximate factor of 2): fixed-hinged Euler load ≈ 2π²EI/L²."
+    "explain": "Standard result (approximate factor of 2): fixed-hinged Euler load ≈ 2π²EI/L².",
+    "public_qn": "50033.310033"
   },
   {
     "id": 40084,
@@ -405,7 +438,8 @@
       "π²EI/l"
     ],
     "correct": 0,
-    "explain": "Standard Euler formula for a fixed-free column: Pcr = π²EI/4L²."
+    "explain": "Standard Euler formula for a fixed-free column: Pcr = π²EI/4L².",
+    "public_qn": "50033.310034"
   },
   {
     "id": 40085,
@@ -417,7 +451,8 @@
       "none of the above"
     ],
     "correct": 0,
-    "explain": "For long, slender columns, the Euler buckling load is reached well before the crushing (yield) load — that's precisely why long columns fail by buckling first."
+    "explain": "For long, slender columns, the Euler buckling load is reached well before the crushing (yield) load — that's precisely why long columns fail by buckling first.",
+    "public_qn": "50033.310035"
   },
   {
     "id": 40086,
@@ -429,7 +464,8 @@
       "3l"
     ],
     "correct": 0,
-    "explain": "As per the standard end-condition tables for this specific restraint case."
+    "explain": "As per the standard end-condition tables for this specific restraint case.",
+    "public_qn": "50033.310036"
   },
   {
     "id": 40087,
@@ -441,7 +477,8 @@
       "2L"
     ],
     "correct": 1,
-    "explain": "Standard result: fixed-hinged effective length Le = L/√2 ≈ 0.707L."
+    "explain": "Standard result: fixed-hinged effective length Le = L/√2 ≈ 0.707L.",
+    "public_qn": "50033.310037"
   },
   {
     "id": 40088,
@@ -453,7 +490,8 @@
       "1.25L"
     ],
     "correct": 0,
-    "explain": "Standard result: fixed-free (cantilever) effective length Le = 2L."
+    "explain": "Standard result: fixed-free (cantilever) effective length Le = 2L.",
+    "public_qn": "50033.310038"
   },
   {
     "id": 40089,
@@ -465,7 +503,8 @@
       "none of the above"
     ],
     "correct": 1,
-    "explain": "Slenderness ratio λ = Le/k_min, by definition."
+    "explain": "Slenderness ratio λ = Le/k_min, by definition.",
+    "public_qn": "50033.310039"
   },
   {
     "id": 40090,
@@ -477,7 +516,8 @@
       "262"
     ],
     "correct": 1,
-    "explain": "k = side/√12 = 2.5/√12 = 0.722 cm. λ = 175/0.722 ≈ 242."
+    "explain": "k = side/√12 = 2.5/√12 = 0.722 cm. λ = 175/0.722 ≈ 242.",
+    "public_qn": "50033.310040"
   },
   {
     "id": 40091,
@@ -489,7 +529,8 @@
       "40"
     ],
     "correct": 1,
-    "explain": "k = √(I/A) = √(10000/100) = 10 cm. λ = 300/10 = 30."
+    "explain": "k = √(I/A) = √(10000/100) = 10 cm. λ = 300/10 = 30.",
+    "public_qn": "50033.310041"
   },
   {
     "id": 40092,
@@ -501,7 +542,8 @@
       "137.2"
     ],
     "correct": 2,
-    "explain": "k = 10/√12 = 2.887 cm. λ = 500/2.887 ≈ 173.2."
+    "explain": "k = 10/√12 = 2.887 cm. λ = 500/2.887 ≈ 173.2.",
+    "public_qn": "50033.310042"
   },
   {
     "id": 40093,
@@ -513,7 +555,8 @@
       "pine"
     ],
     "correct": 0,
-    "explain": "Among common Nepali timber species, sal wood has the highest strength/load-carrying capacity for a given section — worth confirming against your specific course material, as this is a regional/material-knowledge question rather than a pure mechanics formula."
+    "explain": "Among common Nepali timber species, sal wood has the highest strength/load-carrying capacity for a given section — worth confirming against your specific course material, as this is a regional/material-knowledge question rather than a pure mechanics formula.",
+    "public_qn": "50033.310043"
   },
   {
     "id": 40094,
@@ -525,7 +568,8 @@
       "none of the above"
     ],
     "correct": 3,
-    "explain": "Rankine's constant (1/a = σc/π²E) depends only on the material's crushing stress and modulus of elasticity — not on the column's length, diameter, or moment of inertia."
+    "explain": "Rankine's constant (1/a = σc/π²E) depends only on the material's crushing stress and modulus of elasticity — not on the column's length, diameter, or moment of inertia.",
+    "public_qn": "50033.310044"
   },
   {
     "id": 40096,
@@ -537,7 +581,8 @@
       "compression member"
     ],
     "correct": 3,
-    "explain": "A strut is defined by its function (carrying compression), not its orientation — it may be horizontal, vertical, or inclined."
+    "explain": "A strut is defined by its function (carrying compression), not its orientation — it may be horizontal, vertical, or inclined.",
+    "public_qn": "50033.310045"
   },
   {
     "id": 40172,
@@ -549,7 +594,8 @@
       "least cross section"
     ],
     "correct": 2,
-    "explain": "Buckling occurs about the axis of least radius of gyration, since that's the weakest bending direction."
+    "explain": "Buckling occurs about the axis of least radius of gyration, since that's the weakest bending direction.",
+    "public_qn": "50033.310046"
   },
   {
     "id": 40309,
@@ -561,6 +607,7 @@
       "column"
     ],
     "correct": 2,
-    "explain": "An inclined compression member in a truss/frame is called a strut."
+    "explain": "An inclined compression member in a truss/frame is called a strut.",
+    "public_qn": "50033.310047"
   }
 ]

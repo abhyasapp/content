@@ -9,7 +9,8 @@
       "1"
     ],
     "correct": 0,
-    "explain": "If the far end of a member is hinged (cannot resist moment), no moment can be carried over there, so the carryover factor is zero."
+    "explain": "If the far end of a member is hinged (cannot resist moment), no moment can be carried over there, so the carryover factor is zero.",
+    "public_qn": "70013.530001"
   },
   {
     "id": 51701,
@@ -21,7 +22,8 @@
       "rectangle"
     ],
     "correct": 0,
-    "explain": "The influence line for horizontal thrust in a two-hinged parabolic arch is a cubic curve, a known classical result from arch theory."
+    "explain": "The influence line for horizontal thrust in a two-hinged parabolic arch is a cubic curve, a known classical result from arch theory.",
+    "public_qn": "70013.530002"
   },
   {
     "id": 51705,
@@ -33,7 +35,8 @@
       "diagonal symmetry with diagonal element predominant in that respective equation"
     ],
     "correct": 3,
-    "explain": "The stiffness matrix from slope-deflection equations is symmetric, with diagonal (self-stiffness) terms typically dominant compared to off-diagonal (coupling) terms."
+    "explain": "The stiffness matrix from slope-deflection equations is symmetric, with diagonal (self-stiffness) terms typically dominant compared to off-diagonal (coupling) terms.",
+    "public_qn": "70013.530003"
   },
   {
     "id": 51710,
@@ -45,7 +48,8 @@
       "Kani method"
     ],
     "correct": 1,
-    "explain": "The column analogy method is a force (flexibility) method, whereas equilibrium, moment distribution, and Kani's method are all displacement (stiffness) methods."
+    "explain": "The column analogy method is a force (flexibility) method, whereas equilibrium, moment distribution, and Kani's method are all displacement (stiffness) methods.",
+    "public_qn": "70013.530004"
   },
   {
     "id": 51711,
@@ -57,7 +61,8 @@
       "both 'a' and 'c'"
     ],
     "correct": 0,
-    "explain": "The flexibility matrix elements are defined relative to a chosen set of coordinates (degrees of freedom) for the structure, so they depend on that choice."
+    "explain": "The flexibility matrix elements are defined relative to a chosen set of coordinates (degrees of freedom) for the structure, so they depend on that choice.",
+    "public_qn": "70013.530005"
   },
   {
     "id": 51713,
@@ -69,7 +74,8 @@
       "None of the above"
     ],
     "correct": 1,
-    "explain": "The column analogy method is a force (flexibility-based) method of structural analysis, unlike slope deflection and moment distribution which are displacement methods."
+    "explain": "The column analogy method is a force (flexibility-based) method of structural analysis, unlike slope deflection and moment distribution which are displacement methods.",
+    "public_qn": "70013.530006"
   },
   {
     "id": 51714,
@@ -81,7 +87,8 @@
       "None of the above"
     ],
     "correct": 0,
-    "explain": "The moment distribution method is a displacement (stiffness) method, as opposed to column analogy and three-moment equation which are force methods."
+    "explain": "The moment distribution method is a displacement (stiffness) method, as opposed to column analogy and three-moment equation which are force methods.",
+    "public_qn": "70013.530007"
   },
   {
     "id": 51715,
@@ -93,7 +100,8 @@
       "none of the above"
     ],
     "correct": 0,
-    "explain": "In displacement (stiffness) methods, the primary unknowns solved for are the joint displacements (translations and rotations)."
+    "explain": "In displacement (stiffness) methods, the primary unknowns solved for are the joint displacements (translations and rotations).",
+    "public_qn": "70013.530008"
   },
   {
     "id": 51717,
@@ -105,7 +113,8 @@
       "1/4EI"
     ],
     "correct": 1,
-    "explain": "In column analogy, the 'width' (intensity) of the analogous column load/section corresponds to 1/EI, representing the M/EI diagram's scaling."
+    "explain": "In column analogy, the 'width' (intensity) of the analogous column load/section corresponds to 1/EI, representing the M/EI diagram's scaling.",
+    "public_qn": "70013.530009"
   },
   {
     "id": 51721,
@@ -117,7 +126,8 @@
       "Clapeyron"
     ],
     "correct": 3,
-    "explain": "The three-moment theorem for continuous beams was formulated by Clapeyron."
+    "explain": "The three-moment theorem for continuous beams was formulated by Clapeyron.",
+    "public_qn": "70013.530010"
   },
   {
     "id": 51725,
@@ -129,7 +139,8 @@
       "none of the above"
     ],
     "correct": 0,
-    "explain": "In the slope-deflection method, unknown joint rotations are solved for by writing and satisfying the moment equilibrium equations at each joint."
+    "explain": "In the slope-deflection method, unknown joint rotations are solved for by writing and satisfying the moment equilibrium equations at each joint.",
+    "public_qn": "70013.530011"
   },
   {
     "id": 51726,
@@ -141,7 +152,8 @@
       "none of the above"
     ],
     "correct": 1,
-    "explain": "In slope-deflection method, member end moments are expressed as functions of the unknown joint rotations and settlements (translations) — described in the source options as 'unknown end reactions'."
+    "explain": "In slope-deflection method, member end moments are expressed as functions of the unknown joint rotations and settlements (translations) — described in the source options as 'unknown end reactions'.",
+    "public_qn": "70013.530012"
   },
   {
     "id": 51727,
@@ -153,7 +165,8 @@
       "proportional to respective moment of inertia"
     ],
     "correct": 0,
-    "explain": "Since a rigid joint rotates as a single unit, all members rigidly connected at that joint undergo the same (equal) angle of rotation."
+    "explain": "Since a rigid joint rotates as a single unit, all members rigidly connected at that joint undergo the same (equal) angle of rotation.",
+    "public_qn": "70013.530013"
   },
   {
     "id": 51728,
@@ -165,7 +178,8 @@
       "Kani"
     ],
     "correct": 0,
-    "explain": "The moment distribution method was developed by Hardy Cross."
+    "explain": "The moment distribution method was developed by Hardy Cross.",
+    "public_qn": "70013.530014"
   },
   {
     "id": 51732,
@@ -177,7 +191,8 @@
       "hinged end on rollers"
     ],
     "correct": 1,
-    "explain": "A fixed end (zero slope, zero deflection) in the real beam becomes a free end in the conjugate beam, per the standard conjugate-beam correspondence rules."
+    "explain": "A fixed end (zero slope, zero deflection) in the real beam becomes a free end in the conjugate beam, per the standard conjugate-beam correspondence rules.",
+    "public_qn": "70013.530015"
   },
   {
     "id": 51502,
@@ -189,6 +204,7 @@
       "none of these"
     ],
     "correct": 1,
-    "explain": "By symmetry, for a fixed beam under a central point load, the maximum deflection occurs exactly at the midspan (centre) of the beam."
+    "explain": "By symmetry, for a fixed beam under a central point load, the maximum deflection occurs exactly at the midspan (centre) of the beam.",
+    "public_qn": "70013.530016"
   }
 ]

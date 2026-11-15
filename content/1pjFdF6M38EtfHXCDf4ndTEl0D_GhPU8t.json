@@ -9,7 +9,8 @@
       "(b-a)/8"
     ],
     "correct": 0,
-    "explain": "This is a simplified geometric approximation used for determining effective width in sloped footing calculations."
+    "explain": "This is a simplified geometric approximation used for determining effective width in sloped footing calculations.",
+    "public_qn": "50066.310001"
   },
   {
     "id": 20922,
@@ -21,7 +22,8 @@
       "90°"
     ],
     "correct": 1,
-    "explain": "A 45-degree dispersion is commonly assumed for the distribution of loads and stresses in thick concrete elements like footings."
+    "explain": "A 45-degree dispersion is commonly assumed for the distribution of loads and stresses in thick concrete elements like footings.",
+    "public_qn": "50066.310002"
   },
   {
     "id": 20927,
@@ -33,7 +35,8 @@
       "pb(b+a)/8"
     ],
     "correct": 0,
-    "explain": "Derived from treating the cantilever portion of the footing as a beam: $M = \frac{p \\cdot (\frac{b-a}{2})^2}{2}$ per unit width."
+    "explain": "Derived from treating the cantilever portion of the footing as a beam: $M = \frac{p \\cdot (\frac{b-a}{2})^2}{2}$ per unit width.",
+    "public_qn": "50066.310003"
   },
   {
     "id": 20938,
@@ -45,7 +48,8 @@
       "no limit"
     ],
     "correct": 2,
-    "explain": "If the slenderness ratio (Le/d) is less than 3, the member is considered a pedestal rather than a column."
+    "explain": "If the slenderness ratio (Le/d) is less than 3, the member is considered a pedestal rather than a column.",
+    "public_qn": "50066.310004"
   },
   {
     "id": 20941,
@@ -57,7 +61,8 @@
       "40 mm"
     ],
     "correct": 1,
-    "explain": "Even if a column is nominally axially loaded, a minimum eccentricity of 20 mm must be considered to account for construction tolerances."
+    "explain": "Even if a column is nominally axially loaded, a minimum eccentricity of 20 mm must be considered to account for construction tolerances.",
+    "public_qn": "50066.310005"
   },
   {
     "id": 20942,
@@ -69,7 +74,8 @@
       "all of these"
     ],
     "correct": 1,
-    "explain": "While 'strut' is a general term for compression members, 'column' specifically refers to vertical compression members in buildings."
+    "explain": "While 'strut' is a general term for compression members, 'column' specifically refers to vertical compression members in buildings.",
+    "public_qn": "50066.310006"
   },
   {
     "id": 20943,
@@ -81,7 +87,8 @@
       "any one of these"
     ],
     "correct": 3,
-    "explain": "Columns can be designed in any shape (square, rectangle, circle, L-shape, T-shape) depending on the architectural and structural needs."
+    "explain": "Columns can be designed in any shape (square, rectangle, circle, L-shape, T-shape) depending on the architectural and structural needs.",
+    "public_qn": "50066.310007"
   },
   {
     "id": 20944,
@@ -93,7 +100,8 @@
       "none of these"
     ],
     "correct": 1,
-    "explain": "A column is classified as short if its slenderness ratio (Le/d) is 12 or less (Note: some older texts used 15, but 12 is the standard)."
+    "explain": "A column is classified as short if its slenderness ratio (Le/d) is 12 or less (Note: some older texts used 15, but 12 is the standard).",
+    "public_qn": "50066.310008"
   },
   {
     "id": 20945,
@@ -105,7 +113,8 @@
       "none of the above"
     ],
     "correct": 0,
-    "explain": "R.C.C. poles are generally embedded deep in the ground, providing a fixed-end condition at the base and continuity at the top."
+    "explain": "R.C.C. poles are generally embedded deep in the ground, providing a fixed-end condition at the base and continuity at the top.",
+    "public_qn": "50066.310009"
   },
   {
     "id": 20946,
@@ -117,7 +126,8 @@
       "increase the load carrying capacity of the column"
     ],
     "correct": 2,
-    "explain": "Lateral ties provide lateral support to the longitudinal bars to prevent them from buckling outward under high axial loads."
+    "explain": "Lateral ties provide lateral support to the longitudinal bars to prevent them from buckling outward under high axial loads.",
+    "public_qn": "50066.310010"
   },
   {
     "id": 20947,
@@ -129,7 +139,8 @@
       "20"
     ],
     "correct": 2,
-    "explain": "If the ratio of effective length to least lateral dimension (Le/d) exceeds 12, it is classified as a long (slender) column."
+    "explain": "If the ratio of effective length to least lateral dimension (Le/d) exceeds 12, it is classified as a long (slender) column.",
+    "public_qn": "50066.310011"
   },
   {
     "id": 20948,
@@ -141,7 +152,8 @@
       "one-fourth the diameter of core"
     ],
     "correct": 0,
-    "explain": "In a helically reinforced column, the 'core' is the concrete area enclosed within the center-line of the helical reinforcement, and its diameter defines the least lateral dimension for specific calculations."
+    "explain": "In a helically reinforced column, the 'core' is the concrete area enclosed within the center-line of the helical reinforcement, and its diameter defines the least lateral dimension for specific calculations.",
+    "public_qn": "50066.310012"
   },
   {
     "id": 20949,
@@ -153,7 +165,8 @@
       "both 'a' and 'b'"
     ],
     "correct": 3,
-    "explain": "IS:456 mandates a minimum of 0.8% (to prevent buckling and shrinkage cracks) and a maximum of 6% (to avoid congestion, though 4% is preferred for practical casting)."
+    "explain": "IS:456 mandates a minimum of 0.8% (to prevent buckling and shrinkage cracks) and a maximum of 6% (to avoid congestion, though 4% is preferred for practical casting).",
+    "public_qn": "50066.310013"
   },
   {
     "id": 20950,
@@ -165,7 +178,8 @@
       "none"
     ],
     "correct": 2,
-    "explain": "To provide adequate lateral restraint, the tie diameter must be at least one-fourth (1/4) the diameter of the largest longitudinal bar."
+    "explain": "To provide adequate lateral restraint, the tie diameter must be at least one-fourth (1/4) the diameter of the largest longitudinal bar.",
+    "public_qn": "50066.310014"
   },
   {
     "id": 20951,
@@ -177,7 +191,8 @@
       "20 mm"
     ],
     "correct": 0,
-    "explain": "Regardless of the longitudinal bar size, the minimum absolute diameter for lateral ties is 5 mm (often rounded to 6 mm or 8 mm in modern practice)."
+    "explain": "Regardless of the longitudinal bar size, the minimum absolute diameter for lateral ties is 5 mm (often rounded to 6 mm or 8 mm in modern practice).",
+    "public_qn": "50066.310015"
   },
   {
     "id": 20952,
@@ -189,7 +204,8 @@
       "40 mm"
     ],
     "correct": 3,
-    "explain": "A clear cover of 40 mm is required for columns to protect the steel from corrosion and fire, or the diameter of the bar if it is larger than 40 mm."
+    "explain": "A clear cover of 40 mm is required for columns to protect the steel from corrosion and fire, or the diameter of the bar if it is larger than 40 mm.",
+    "public_qn": "50066.310016"
   },
   {
     "id": 20953,
@@ -201,7 +217,8 @@
       "16"
     ],
     "correct": 0,
-    "explain": "A column is classified as short if the ratio of effective length to the corresponding lateral dimension is less than 12."
+    "explain": "A column is classified as short if the ratio of effective length to the corresponding lateral dimension is less than 12.",
+    "public_qn": "50066.310017"
   },
   {
     "id": 20954,
@@ -213,7 +230,8 @@
       "0.65l"
     ],
     "correct": 3,
-    "explain": "For a column with both ends fixed against rotation and position, the theoretical value is 0.5l, but the design (recommended) value is 0.65l."
+    "explain": "For a column with both ends fixed against rotation and position, the theoretical value is 0.5l, but the design (recommended) value is 0.65l.",
+    "public_qn": "50066.310018"
   },
   {
     "id": 20955,
@@ -225,7 +243,8 @@
       "0.65l"
     ],
     "correct": 2,
-    "explain": "For a column with both ends hinged (held in position but free to rotate), the effective length is equal to the unsupported length 'l'."
+    "explain": "For a column with both ends hinged (held in position but free to rotate), the effective length is equal to the unsupported length 'l'.",
+    "public_qn": "50066.310019"
   },
   {
     "id": 20956,
@@ -237,7 +256,8 @@
       "40"
     ],
     "correct": 2,
-    "explain": "A slenderness ratio (l/r) greater than 60 indicates a long column likely to fail by buckling before reaching its crushing strength."
+    "explain": "A slenderness ratio (l/r) greater than 60 indicates a long column likely to fail by buckling before reaching its crushing strength.",
+    "public_qn": "50066.310020"
   },
   {
     "id": 20957,
@@ -249,7 +269,8 @@
       "unsupported length/500 + lateral dimension/30"
     ],
     "correct": 3,
-    "explain": "IS:456 specifies emin = (L/500) + (D/30), but not less than 20 mm, to account for misalignments."
+    "explain": "IS:456 specifies emin = (L/500) + (D/30), but not less than 20 mm, to account for misalignments.",
+    "public_qn": "50066.310021"
   },
   {
     "id": 20958,
@@ -261,7 +282,8 @@
       "4.0"
     ],
     "correct": 1,
-    "explain": "A minimum of 0.8% steel is necessary to help handle accidental eccentricity and shrinkage stresses in the concrete."
+    "explain": "A minimum of 0.8% steel is necessary to help handle accidental eccentricity and shrinkage stresses in the concrete.",
+    "public_qn": "50066.310022"
   },
   {
     "id": 20959,
@@ -273,7 +295,8 @@
       "6.0"
     ],
     "correct": 3,
-    "explain": "Though 4% is common in practice to allow for lapping, the maximum theoretical limit is 6.0% of the gross cross-sectional area."
+    "explain": "Though 4% is common in practice to allow for lapping, the maximum theoretical limit is 6.0% of the gross cross-sectional area.",
+    "public_qn": "50066.310023"
   },
   {
     "id": 20960,
@@ -285,7 +308,8 @@
       "12 mm"
     ],
     "correct": 3,
-    "explain": "Main longitudinal bars in a column must have a minimum diameter of 12 mm to ensure sufficient stiffness for the cage."
+    "explain": "Main longitudinal bars in a column must have a minimum diameter of 12 mm to ensure sufficient stiffness for the cage.",
+    "public_qn": "50066.310024"
   },
   {
     "id": 20961,
@@ -297,7 +321,8 @@
       "all of these"
     ],
     "correct": 3,
-    "explain": "Accidental eccentricity accounts for construction defects, non-homogeneity of concrete, and uncertainty in end fixation."
+    "explain": "Accidental eccentricity accounts for construction defects, non-homogeneity of concrete, and uncertainty in end fixation.",
+    "public_qn": "50066.310025"
   },
   {
     "id": 20962,
@@ -309,7 +334,8 @@
       "both 'a' and 'b'"
     ],
     "correct": 1,
-    "explain": "Ties/links primarily prevent buckling of the main bars and confine the core; they are not directly accounted for in axial load capacity calculations."
+    "explain": "Ties/links primarily prevent buckling of the main bars and confine the core; they are not directly accounted for in axial load capacity calculations.",
+    "public_qn": "50066.310026"
   },
   {
     "id": 20963,
@@ -321,7 +347,8 @@
       "four times its lateral dimension"
     ],
     "correct": 1,
-    "explain": "By definition, if the ratio of the effective length to the least lateral dimension is less than 3, it's a pedestal, not a column."
+    "explain": "By definition, if the ratio of the effective length to the least lateral dimension is less than 3, it's a pedestal, not a column.",
+    "public_qn": "50066.310027"
   },
   {
     "id": 20964,
@@ -333,7 +360,8 @@
       "the distance between the points of contra flexure"
     ],
     "correct": 3,
-    "explain": "The effective length (Le) is the distance between adjacent points of zero moment (points of contraflexure) in the buckling shape."
+    "explain": "The effective length (Le) is the distance between adjacent points of zero moment (points of contraflexure) in the buckling shape.",
+    "public_qn": "50066.310028"
   },
   {
     "id": 20966,
@@ -345,7 +373,8 @@
       "1:125"
     ],
     "correct": 3,
-    "explain": "Since the minimum percentage is 0.8%, this corresponds to 0.8/100, which simplifies to 1/125."
+    "explain": "Since the minimum percentage is 0.8%, this corresponds to 0.8/100, which simplifies to 1/125.",
+    "public_qn": "50066.310029"
   },
   {
     "id": 20967,
@@ -357,7 +386,8 @@
       "16 mm in diameter"
     ],
     "correct": 2,
-    "explain": "Bars smaller than 12 mm lack the structural rigidity required to withstand the forces of concrete pouring and vibration without shifting."
+    "explain": "Bars smaller than 12 mm lack the structural rigidity required to withstand the forces of concrete pouring and vibration without shifting.",
+    "public_qn": "50066.310030"
   },
   {
     "id": 20768,
@@ -369,7 +399,8 @@
       "4/3"
     ],
     "correct": 1,
-    "explain": "Rectangular columns require a minimum of 4 bars (one in each corner), while circular columns require a minimum of 6 bars. The ratio is 4/6, which simplifies to 2/3."
+    "explain": "Rectangular columns require a minimum of 4 bars (one in each corner), while circular columns require a minimum of 6 bars. The ratio is 4/6, which simplifies to 2/3.",
+    "public_qn": "50066.310031"
   },
   {
     "id": 20769,
@@ -381,7 +412,8 @@
       "300 mm"
     ],
     "correct": 3,
-    "explain": "As per IS 456, the maximum spacing between longitudinal bars along the periphery of the column is limited to 300 mm to prevent local buckling of the concrete face."
+    "explain": "As per IS 456, the maximum spacing between longitudinal bars along the periphery of the column is limited to 300 mm to prevent local buckling of the concrete face.",
+    "public_qn": "50066.310032"
   },
   {
     "id": 20770,
@@ -393,7 +425,8 @@
       "0.25% of cross section area"
     ],
     "correct": 1,
-    "explain": "For pedestals (where length is less than 3 times the least lateral dimension), the minimum longitudinal reinforcement is 0.15% of the gross cross-sectional area."
+    "explain": "For pedestals (where length is less than 3 times the least lateral dimension), the minimum longitudinal reinforcement is 0.15% of the gross cross-sectional area.",
+    "public_qn": "50066.310033"
   },
   {
     "id": 20771,
@@ -405,7 +438,8 @@
       "none of these"
     ],
     "correct": 1,
-    "explain": "A vertical compression member is classified as a pedestal if its effective length is less than or equal to 3 times its least lateral dimension."
+    "explain": "A vertical compression member is classified as a pedestal if its effective length is less than or equal to 3 times its least lateral dimension.",
+    "public_qn": "50066.310034"
   },
   {
     "id": 20772,
@@ -417,7 +451,8 @@
       "135°"
     ],
     "correct": 3,
-    "explain": "To ensure effective lateral restraint and prevent the tie from 'opening' under pressure, the internal angle of a polygonal link should not exceed 135°."
+    "explain": "To ensure effective lateral restraint and prevent the tie from 'opening' under pressure, the internal angle of a polygonal link should not exceed 135°.",
+    "public_qn": "50066.310035"
   },
   {
     "id": 20773,
@@ -429,7 +464,8 @@
       "1/5"
     ],
     "correct": 2,
-    "explain": "The diameter of transverse or helical reinforcement must be at least one-fourth (1/4) the diameter of the largest longitudinal bar, with a minimum of 5 mm (or 6mm in modern practice)."
+    "explain": "The diameter of transverse or helical reinforcement must be at least one-fourth (1/4) the diameter of the largest longitudinal bar, with a minimum of 5 mm (or 6mm in modern practice).",
+    "public_qn": "50066.310036"
   },
   {
     "id": 20774,
@@ -441,7 +477,8 @@
       "unsupported length of column/400 plus lateral dimension/30 subject to a minimum of 20 mm"
     ],
     "correct": 0,
-    "explain": "IS 456 defines minimum eccentricity as (L/500) + (D/30), where L is unsupported length and D is lateral dimension, but it cannot be less than 20 mm."
+    "explain": "IS 456 defines minimum eccentricity as (L/500) + (D/30), where L is unsupported length and D is lateral dimension, but it cannot be less than 20 mm.",
+    "public_qn": "50066.310037"
   },
   {
     "id": 20775,
@@ -453,7 +490,8 @@
       "8"
     ],
     "correct": 1,
-    "explain": "Every corner of a rectangular or square column must have a bar to provide symmetrical reinforcement and tie the cage, necessitating at least 4 bars."
+    "explain": "Every corner of a rectangular or square column must have a bar to provide symmetrical reinforcement and tie the cage, necessitating at least 4 bars.",
+    "public_qn": "50066.310038"
   },
   {
     "id": 20776,
@@ -465,7 +503,8 @@
       "8"
     ],
     "correct": 2,
-    "explain": "For circular columns, 6 bars are required to properly maintain the circular shape of the reinforcement cage and provide uniform confinement."
+    "explain": "For circular columns, 6 bars are required to properly maintain the circular shape of the reinforcement cage and provide uniform confinement.",
+    "public_qn": "50066.310039"
   },
   {
     "id": 20777,
@@ -477,7 +516,8 @@
       "8"
     ],
     "correct": 2,
-    "explain": "Helical reinforcement is typically used in circular columns, which requires a minimum of 6 longitudinal bars for stability of the helix."
+    "explain": "Helical reinforcement is typically used in circular columns, which requires a minimum of 6 longitudinal bars for stability of the helix.",
+    "public_qn": "50066.310040"
   },
   {
     "id": 20778,
@@ -489,7 +529,8 @@
       "300 mm"
     ],
     "correct": 3,
-    "explain": "The 300 mm maximum spacing rule applies to all column shapes, including circular ones, to ensure the concrete surface is effectively reinforced."
+    "explain": "The 300 mm maximum spacing rule applies to all column shapes, including circular ones, to ensure the concrete surface is effectively reinforced.",
+    "public_qn": "50066.310041"
   },
   {
     "id": 20779,
@@ -501,7 +542,8 @@
       "48 phi_tr"
     ],
     "correct": 0,
-    "explain": "If bars are not effectively tied (i.e., the tie only wraps alternate bars), the maximum distance between a tied bar and an untied bar is 150 mm."
+    "explain": "If bars are not effectively tied (i.e., the tie only wraps alternate bars), the maximum distance between a tied bar and an untied bar is 150 mm.",
+    "public_qn": "50066.310042"
   },
   {
     "id": 20780,
@@ -513,7 +555,8 @@
       "48 phi_tr"
     ],
     "correct": 3,
-    "explain": "Specific detailing requirements for secondary ties/links often relate spacing to the diameter of the transverse reinforcement (48 times the tie diameter)."
+    "explain": "Specific detailing requirements for secondary ties/links often relate spacing to the diameter of the transverse reinforcement (48 times the tie diameter).",
+    "public_qn": "50066.310043"
   },
   {
     "id": 20781,
@@ -525,7 +568,8 @@
       "10 mm"
     ],
     "correct": 1,
-    "explain": "While 5mm was the older standard, current practice (and many code versions) specifies a 6 mm minimum for transverse ties to ensure cage rigidity."
+    "explain": "While 5mm was the older standard, current practice (and many code versions) specifies a 6 mm minimum for transverse ties to ensure cage rigidity.",
+    "public_qn": "50066.310044"
   },
   {
     "id": 20782,
@@ -537,7 +581,8 @@
       "all of the above"
     ],
     "correct": 3,
-    "explain": "IS 456 pitch requirements for ties: Spacing should be the least of: 1) Least lateral dimension, 2) 16x smallest longitudinal bar diameter, or 3) 48x tie diameter."
+    "explain": "IS 456 pitch requirements for ties: Spacing should be the least of: 1) Least lateral dimension, 2) 16x smallest longitudinal bar diameter, or 3) 48x tie diameter.",
+    "public_qn": "50066.310045"
   },
   {
     "id": 20783,
@@ -549,7 +594,8 @@
       "both 'b' and 'c'"
     ],
     "correct": 3,
-    "explain": "Bars can be cranked (bent) inward if the offset is small (slope 1 in 6); otherwise, they are terminated and new starter bars are lapped."
+    "explain": "Bars can be cranked (bent) inward if the offset is small (slope 1 in 6); otherwise, they are terminated and new starter bars are lapped.",
+    "public_qn": "50066.310046"
   },
   {
     "id": 21001,
@@ -561,7 +607,8 @@
       "top and bottom fibres"
     ],
     "correct": 1,
-    "explain": "Side face reinforcement is required in deep beams (web > 750mm) to control cracking due to shrinkage and temperature."
+    "explain": "Side face reinforcement is required in deep beams (web > 750mm) to control cracking due to shrinkage and temperature.",
+    "public_qn": "50066.310047"
   },
   {
     "id": 21050,
@@ -573,7 +620,8 @@
       "6"
     ],
     "correct": 1,
-    "explain": "At least one longitudinal bar must be placed in each corner of the stirrups to resist torsion, total of 4 bars."
+    "explain": "At least one longitudinal bar must be placed in each corner of the stirrups to resist torsion, total of 4 bars.",
+    "public_qn": "50066.310048"
   },
   {
     "id": 21055,
@@ -585,7 +633,8 @@
       "0.6% of gross concrete area"
     ],
     "correct": 1,
-    "explain": "Specific codes for bridges often require higher distribution steel, typically 0.3% of the gross area."
+    "explain": "Specific codes for bridges often require higher distribution steel, typically 0.3% of the gross area.",
+    "public_qn": "50066.310049"
   },
   {
     "id": 21086,
@@ -597,6 +646,7 @@
       "24 times the diameter of the bar or development length"
     ],
     "correct": 3,
-    "explain": "In compression, the lap length is equal to the development length in compression but not less than 24φ."
+    "explain": "In compression, the lap length is equal to the development length in compression but not less than 24φ.",
+    "public_qn": "50066.310050"
   }
 ]

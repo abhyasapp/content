@@ -108,10 +108,28 @@ class MirrorCheckTests(unittest.TestCase):
         self.assertEqual(sync.entry_for(text)["size"], len(text.encode("utf-8")))
         self.assertGreater(len(text.encode("utf-8")), len(text))
 
-    def test_a_duplicated_public_qn_id_fails(self):
+    def test_one_public_qn_on_two_different_questions_fails(self):
         self.write({
             FID: [question(public_qn="50011.110001")],
-            OTHER_FID: [question(id=2, public_qn="50011.110001")],
+            OTHER_FID: [question(id=2, q="2. A different question?",
+                                 public_qn="50011.110001")],
+        })
+        self.assertEqual(sync.check_local(), 1)
+
+    def test_the_same_question_pooled_and_in_its_chapter_file_is_allowed(self):
+        # Same question, numbered differently by the two files that carry it.
+        self.write({
+            FID: [question(public_qn="50011.110001")],
+            OTHER_FID: [question(id=2, q="7. How many species?",
+                                 public_qn="50011.110001")],
+        })
+        self.assertEqual(sync.check_local(), 0)
+
+    def test_the_same_public_qn_with_a_different_answer_fails(self):
+        self.write({
+            FID: [question(public_qn="50011.110001")],
+            OTHER_FID: [question(id=2, q="7. How many species?", correct=0,
+                                 public_qn="50011.110001")],
         })
         self.assertEqual(sync.check_local(), 1)
 

@@ -373,13 +373,36 @@ def normalize_local():
     return 0
 
 
+QUESTION_NUMBER_RE = re.compile(r'^\s*\d+\s*[.)]\s*')
+
+
+def question_signature(question):
+    """What makes two rows the same question, ignoring the item number.
+
+    A question legitimately appears twice in the corpus: once in a pooled file
+    and once in the chapter file it was drawn from. Each file numbers its own
+    items, so the text differs by its "12." prefix but the question, its
+    options and its answer are identical — and it keeps one public id.
+    """
+    text = question.get('q')
+    if isinstance(text, str):
+        text = QUESTION_NUMBER_RE.sub('', text)
+    else:
+        text = ''
+    options = question.get('options')
+    options = tuple(str(o) for o in options) if isinstance(options, list) else ()
+    return (text.strip(), options, question.get('correct'))
+
+
 def check_local():
     """Validate the checked-in mirror offline. Exit 1 on any problem.
 
-    The app trusts this tree, so a missing file, a truncated array or a
-    duplicated public id is a user-visible fault: a duplicated public qn id is
-    two different questions sharing one identity, which is exactly what the id
-    scheme exists to prevent.
+    The app trusts this tree, so a missing file, a truncated array or a public
+    id shared by two different questions is a user-visible fault: the id scheme
+    exists precisely so one id names one question. A public id is allowed to
+    repeat when it repeats the *same* question, which the corpus does on purpose
+    (a pooled file and the chapter file it came from); only a repeat across
+    different question text, options or answers is a collision.
     """
     problems = []
     notes = []
@@ -446,9 +469,12 @@ def check_local():
                         or not re.search(r'\d', public)):
                     problems.append(f'{where}: unusable public_qn {public!r}')
                 elif public in public_owner:
-                    problems.append(f'{where}: public_qn {public} is already used by {public_owner[public]}')
+                    first_where, first_signature = public_owner[public]
+                    if first_signature != question_signature(question):
+                        problems.append(
+                            f'{where}: public_qn {public} names a different question than {first_where}')
                 else:
-                    public_owner[public] = where
+                    public_owner[public] = (where, question_signature(question))
 
     manifest = load_manifest().get('files', {})
     for fid in ids:
