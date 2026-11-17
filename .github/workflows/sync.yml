@@ -5,12 +5,28 @@ on:
     - cron: '0 5 * * *'
     - cron: '0 17 * * *'
   workflow_dispatch:
+    inputs:
+      force_full:
+        description: 'Re-download every file, even unchanged ones'
+        type: boolean
+        default: false
+      allow_shrink:
+        description: 'Allow chapters-data.js to drop most of its files'
+        type: boolean
+        default: false
+
+# One sync at a time; a manual run waits for a scheduled one instead of racing it.
+concurrency:
+  group: drive-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -18,29 +34,53 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install libraries
-        run: pip install google-api-python-client google-auth
+        run: pip install -r requirements.txt
 
-      - name: Run sync
+      # Cheap offline tests first: a broken script should never touch the mirror.
+      - name: Run tests
+        run: python -m unittest discover -s tests
+
+      - name: Sync from Drive
         env:
           GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
-          CHAPTERS_FILE_ID: "10_YqLKsxxIUR8TlTA5vmOKK5xcOIeI8C"
+          CHAPTERS_FILE_ID: ${{ vars.CHAPTERS_FILE_ID || '10_YqLKsxxIUR8TlTA5vmOKK5xcOIeI8C' }}
+          SYNC_WORKERS: ${{ vars.SYNC_WORKERS || '8' }}
+          FORCE_FULL: ${{ inputs.force_full && '1' || '' }}
+          ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '' }}
         run: python scripts/sync.py
 
-      # Never commit a mirror the app cannot trust: this fails the job (and so
-      # skips the commit) on a missing file, a bad id, or a duplicated public
-      # question id.
+      # Never commit a mirror the app cannot trust: a failure here skips the commit.
       - name: Validate the mirror
+        run: python scripts/sync.py --check
+
+      - name: Commit and push
         run: |
           set -euo pipefail
-          python -m unittest discover -s tests
-          python scripts/sync.py --check
-
-      - name: Commit changes
-        run: |
           git config user.name  "sync-bot"
           git config user.email "sync-bot@users.noreply.github.com"
-          git add -A
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-sync $(date -u +%FT%TZ)"
-          git push
+          git add -A -- content manifest.json chapters-data.js
+
+          if git diff --staged --quiet; then
+            echo "No content changes."
+            # GitHub pauses scheduled workflows after 60 days without repo activity.
+            # Idle mirror? Make one tiny commit every ~45 days to keep the schedule alive.
+            last=$(git log -1 --format=%ct)
+            if [ $(( $(date +%s) - last )) -gt $(( 45 * 24 * 3600 )) ]; then
+              git commit --allow-empty -m "Keepalive $(date -u +%F)"
+            else
+              exit 0
+            fi
+          else
+            git commit -m "Auto-sync $(date -u +%FT%TZ)"
+          fi
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push attempt ${attempt} failed, retrying..."
+            sleep $(( attempt * 5 ))
+          done
+          exit 1

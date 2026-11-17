@@ -1,10 +1,35 @@
-# Local tool metadata
-.freebuff/
+# ---- Secrets: never commit these ------------------------------------------
+.env
+.env.*
+!.env.example
+service-account*.json
+*-service-account*.json
+credentials*.json
+gdrive*.json
+*.pem
+*.p12
 
-# Python
+# ---- Python ---------------------------------------------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# OS cruft
+# ---- Editors and OS -------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
+
+# ---- Local leftovers ------------------------------------------------------
+.freebuff/
+*.log
+*.tmp
+.sync-tmp/

@@ -1,31 +1,89 @@
-# Question bank — Drive mirror
+# Abhyas question bank - Drive mirror
 
 Auto-synced mirror of the Abhyas question bank. Twice a day a GitHub Action pulls
 `chapters-data.js` from Google Drive, downloads every question file it references
-into `content/`, and commits the result.
-
-There is no app here: this repository is the data layer.
+into `content/`, validates the result and commits it. There is no app here: this
+repository is the data layer.
 
 ## Layout
 
 | Path | What it is |
 |---|---|
-| `chapters-data.js` | The navigation tree, copied verbatim from Drive: `level` → `chapter` → `subtopic` → `leaf: driveFileId` |
+| `chapters-data.js` | Navigation tree, copied from Drive: `level` -> `chapter` -> `subtopic` -> `leaf: driveFileId` |
 | `content/<fileId>.json` | One file per Drive file ID: an array of questions |
-| `manifest.json` | Per-file `md5`, `size`, Drive `drive_md5`, plus `updated` timestamp |
-| `scripts/sync.py` | The sync. Also normalizes and validates every question |
-| `.github/workflows/sync.yml` | Runs the sync at 05:00 and 17:00 UTC and commits |
+| `manifest.json` | Per-file `md5`, `size`, `drive_md5`; a `chapters` checksum; `updated` timestamp |
+| `scripts/sync.py` | The sync, plus normalization and validation |
+| `tests/` | Offline tests (no Drive access needed) |
+| `.github/workflows/sync.yml` | Scheduled sync at 05:00 and 17:00 UTC |
+| `.env.example` | Template for local configuration |
 
-The structure is three levels — `gk` (general knowledge), `level5` (Diploma),
-`level7` (Engineering) — with 26 chapters and 187 subtopics in total.
+Three levels - `gk` (general knowledge), `level5` (Diploma), `level7` (Engineering) -
+with 26 chapters. Each chapter ends with two generated buckets: `Mixed Questions`
+and `Original Questions`; empty buckets are omitted.
 
-Each chapter ends with two generated buckets: `Mixed Questions` (pooled
-unclassified questions) and `Original Questions` (one leaf per source file).
-Empty buckets are omitted.
+## How the sync works
+
+1. Download `chapters-data.js` first. It decides which content exists.
+2. Read the file IDs it references.
+3. One Drive listing call fetches every checksum; unchanged files are skipped.
+4. Changed files download in parallel (default 8 workers), with retry and backoff.
+5. Only if everything succeeded is anything written: `content/`, `chapters-data.js`,
+   then `manifest.json`. A failed run leaves the working tree untouched.
+
+`manifest.json` only changes when something really changed, so an idle sync makes no commit.
+
+Safety rails:
+
+- **Fail loudly.** One missing or corrupted file fails the run; nothing is committed.
+- **Shrink guard.** If the tree suddenly references less than half of the previous
+  file count, the run refuses to prune. Override with `--allow-shrink`.
+- **Self-healing.** A file deleted or edited on disk no longer matches the manifest
+  checksum and is downloaded again.
+- **Stale files are pruned** when `chapters-data.js` stops referencing them.
+
+## Setup for GitHub Actions
+
+Repository -> Settings -> Secrets and variables -> Actions.
+
+| Kind | Name | Required | Value |
+|---|---|---|---|
+| Secret | `GDRIVE_CREDENTIALS` | yes | The complete service-account JSON key (paste the whole file) |
+| Variable | `CHAPTERS_FILE_ID` | no | Drive ID of `chapters-data.js`. Defaults to the ID in the workflow |
+| Variable | `SYNC_WORKERS` | no | Parallel downloads, 1-32 (default 8) |
+
+Getting the key (once):
+
+1. Google Cloud Console -> create or pick a project -> **enable the Google Drive API**.
+2. IAM & Admin -> Service Accounts -> create one -> Keys -> Add key -> JSON.
+3. Open the Drive folder holding `chapters-data.js` and every question file ->
+   **Share** it with the service account's `client_email` as **Viewer**.
+4. Paste the JSON file's full contents into the `GDRIVE_CREDENTIALS` secret.
+
+Also check Settings -> Actions -> General -> Workflow permissions is **Read and write**
+(the workflow requests `contents: write` itself, but an organization policy can override it).
+
+Manual runs: Actions -> *Sync Drive to GitHub* -> Run workflow, with optional
+*force_full* (re-download everything) and *allow_shrink*.
+
+## Running locally
+
+```bash
+python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env                                   # then fill it in
+
+python scripts/sync.py --dry-run     # see what would change, write nothing
+python scripts/sync.py               # real sync
+python scripts/sync.py --force       # re-download everything
+python scripts/sync.py --check       # validate the mirror, offline
+python scripts/sync.py --normalize-local   # re-normalize content/, offline
+python -m unittest discover -s tests       # offline tests
+```
+
+`.env` is git-ignored and is read by the script automatically. Real environment
+variables always win over `.env`.
 
 ## Question schema
-
-Every question is normalized by `scripts/sync.py` to this shape:
 
 ```json
 {
@@ -40,53 +98,21 @@ Every question is normalized by `scripts/sync.py` to this shape:
 
 | Field | Type | Notes |
 |---|---|---|
-| `id` | int or string | Source id when the file has one. Otherwise a stable string `<driveFileId>-<position>`. Ids are unique per question, not per corpus: the same question can appear in pooled and original files. |
+| `id` | int or string | Source id when the file has one, otherwise a stable `<driveFileId>-<position>`. Unique per question, not per corpus: the same question can appear in pooled and original files |
 | `q` | string | Question text |
-| `options` | string[] | Usually 4, not always — matching-type questions can have 2 or 5 |
-| `correct` | int \| null | 0-based index into `options`. `null` only when the source has no usable answer key |
+| `options` | string[] | Usually 4; matching-type questions can have 2, 3 or 5 |
+| `correct` | int \| null | 0-based index into `options` |
 | `explain` | string | `""` when the source has no explanation |
-| `public_qn` | string | Optional. The stable public question id the pipeline assigns (`LCCCSSSFQQQQ`, published dotted like `50011.110001`, `G0011.110001`, or with a word subtopic like `5002mixedqn10001`). This is what the app keys progress, reports and corrections on, so one id must always name exactly one question: `--check` rejects an id shared by two *different* questions. A question repeated in a pooled file and in the chapter file it came from keeps the same id, which is why a repeat is allowed when the text (ignoring the file's own item number), options and answer match. An unusable value is dropped and counted rather than passed through. |
+| `public_qn` | string | Optional stable public id (`50011.110001`, `G0011.110001`, `5002mixedqn10001`). The app keys progress, reports and corrections on it. `--check` rejects one id shared by two *different* questions; a repeat of the *same* question (pooled + chapter file) is allowed |
 
-Extra keys present in a source record (`image`, `images`, …) are preserved as-is.
+Extra keys in a source record (`image`, `images`, ...) are preserved. Legacy shapes are
+folded in on every sync: `answer` -> `correct`, `explanation` -> `explain`, missing ids backfilled.
 
-Legacy shapes are folded into the above on every sync: `answer` becomes
-`correct`, `explanation` becomes `explain`, and missing ids are backfilled.
+Checksums in `manifest.json` are computed over the normalized text with LF endings; `size`
+is in bytes, so Devanagari text is measured correctly.
 
-## Running it locally
+## Known source gaps
 
-```bash
-# Validate the checked-in mirror (no credentials needed). Exit 1 on problems:
-# missing files, truncated arrays, bad ids, unusable or duplicated public_qn,
-# a manifest checksum that no longer matches.
-python scripts/sync.py --check
-
-# Re-normalize the checked-in content/ tree, no credentials needed
-python scripts/sync.py --normalize-local
-
-# Full sync (needs GDRIVE_CREDENTIALS and CHAPTERS_FILE_ID)
-pip install google-api-python-client google-auth
-python scripts/sync.py
-
-# Schema and mirror check tests
-python -m unittest discover -s tests
-```
-
-`manifest.json` checksums are computed over the normalized text with LF line
-endings, and files are written with LF, so the checksums verify byte-for-byte on
-any platform. `size` is the byte length of that same text — it counts bytes, not
-characters, so a file full of Devanagari is measured correctly.
-
-## Behavior worth knowing
-
-- **Stale files are pruned.** Any `content/*.json` not referenced by
-  `chapters-data.js` is deleted on every sync.
-- **Unchanged files are not re-downloaded.** The Drive `md5Checksum` is stored as
-  `drive_md5`; matching files are reused.
-- **Partial syncs fail loudly.** A refused or failed download makes the run exit
-  non-zero with the manifest untouched, so the workflow commits nothing rather
-  than a snapshot that looks complete but is missing files. Retries with backoff
-  cover transient Drive errors.
-- **Known source gaps.** `gk` chapter 3 (IQ) has no content, and a couple of
-  match-the-column questions lost their table during extraction, leaving
-  placeholder options. Both originate upstream in Drive and cannot be repaired
-  here.
+- `gk` chapter 3 (IQ) has no content.
+- A couple of match-the-column questions lost their table during extraction and have
+  placeholder options. Both come from Drive and cannot be repaired here.
