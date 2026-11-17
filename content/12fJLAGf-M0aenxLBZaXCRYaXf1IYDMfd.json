@@ -1,0 +1,652 @@
+[
+  {
+    "id": 40158,
+    "q": "1. A member with a cross section of a mm² is subjected to a force of P N. It is L mm long and of Young's Modulus, E N/mm². The strain will be",
+    "options": [
+      "PL/AE N/mm",
+      "PA/LE N/mm²",
+      "P/AE mm/mm",
+      "AP/LE mm/mm"
+    ],
+    "correct": 2,
+    "explain": "Strain = stress/E = (P/A)/E = P/AE, a dimensionless ratio (mm/mm).",
+    "public_qn": "50033.140001"
+  },
+  {
+    "id": 40159,
+    "q": "2. Find the elongation of a bar if c/s area of bar is A, length l, applied load p, modulus of elasticity of material is E",
+    "options": [
+      "Pl/AE",
+      "AE/Pl",
+      "PA/lE",
+      "PE/Al"
+    ],
+    "correct": 0,
+    "explain": "Standard elongation formula: δ = PL/AE.",
+    "public_qn": "50033.140002"
+  },
+  {
+    "id": 40160,
+    "q": "3. If α is the coefficient of linear expansion, T is the rise in temperature then thermal stress is given by",
+    "options": [
+      "ETα",
+      "ET/α",
+      "Eα/T",
+      "Tα/E"
+    ],
+    "correct": 0,
+    "explain": "Thermal stress (fully restrained) = E·α·T.",
+    "public_qn": "50033.140003"
+  },
+  {
+    "id": 40161,
+    "q": "4. Thrust is induced in case of",
+    "options": [
+      "vertical load",
+      "inclined load",
+      "vertical & inclined load",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Thrust (axial force along the member) develops from the component of an inclined load along the member's axis.",
+    "public_qn": "50033.140004"
+  },
+  {
+    "id": 40162,
+    "q": "5. The diagram showing the variation of axial load along the span is called",
+    "options": [
+      "thrust diagram",
+      "shear force diagram",
+      "bending moment diagram",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Axial load variation along a member's length is plotted as a thrust diagram.",
+    "public_qn": "50033.140005"
+  },
+  {
+    "id": 40170,
+    "q": "6. Dead load of a member is the",
+    "options": [
+      "one that remains constant",
+      "one that occurs due to dead body",
+      "one that comes all of a sudden",
+      "one that comes due to self weight of the object"
+    ],
+    "correct": 3,
+    "explain": "Dead load is the permanent self-weight of the structure/member itself.",
+    "public_qn": "50033.140006"
+  },
+  {
+    "id": 40171,
+    "q": "7. Stress in a beam due to simple bending, is",
+    "options": [
+      "inversely proportional",
+      "directly proportional",
+      "curvilinear related",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Bending stress varies linearly (directly proportional) with distance from the neutral axis, σ = My/I.",
+    "public_qn": "50033.140007"
+  },
+  {
+    "id": 40173,
+    "q": "8. The maximum shear stress will always occur at",
+    "options": [
+      "neutral axis",
+      "top extreme fibre",
+      "a fibre in the cross-section depending on configuration",
+      "bottom extreme fibre"
+    ],
+    "correct": 2,
+    "explain": "For a rectangular section max shear stress is at the neutral axis, but for other shapes (I, T, etc.) the maximum location depends on the section's geometry.",
+    "public_qn": "50033.140008"
+  },
+  {
+    "id": 40174,
+    "q": "9. In the case of H section the maximum shear stress will occur at",
+    "options": [
+      "top fibres",
+      "neutral axis",
+      "bottom fibres",
+      "at the junction of web and flanges"
+    ],
+    "correct": 3,
+    "explain": "In H/I sections, shear stress peaks at the web-flange junction due to the sudden width change.",
+    "public_qn": "50033.140009"
+  },
+  {
+    "id": 40176,
+    "q": "10. If all the dimensions of a bar are increased in the proportion n:1, the maximum stress produced in the prismatic bar by its own weight will increase in the ratio",
+    "options": [
+      "1:n",
+      "n:1",
+      "1:1/n",
+      "1/n:1"
+    ],
+    "correct": 1,
+    "explain": "Self-weight stress scales linearly with the linear dimension scale factor n, giving a ratio of n:1.",
+    "public_qn": "50033.140010"
+  },
+  {
+    "id": 40177,
+    "q": "11. If magnitude and direction of a load does not change with respect to time, this type of load is called",
+    "options": [
+      "point load",
+      "static load",
+      "dynamic load",
+      "wind load"
+    ],
+    "correct": 1,
+    "explain": "A load constant in magnitude and direction over time is a static load.",
+    "public_qn": "50033.140011"
+  },
+  {
+    "id": 40179,
+    "q": "12. The number of reaction components at a hinged end of a general loading is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "explain": "A hinge (pin) support provides two reaction components (horizontal and vertical) but no moment.",
+    "public_qn": "50033.140012"
+  },
+  {
+    "id": 40183,
+    "q": "13. If the elasticity of the material is zero then the material is said to be",
+    "options": [
+      "rigid",
+      "perfect",
+      "plastic",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Zero elasticity means the material shows no elastic recovery — it deforms plastically.",
+    "public_qn": "50033.140013"
+  },
+  {
+    "id": 40184,
+    "q": "14. An orthotropic material has",
+    "options": [
+      "inelastic properties",
+      "non homogeneous properties",
+      "same properties in orthogonal direction",
+      "different properties in three perpendicular directions"
+    ],
+    "correct": 3,
+    "explain": "Orthotropic materials have distinct material properties along three mutually perpendicular axes (e.g. wood).",
+    "public_qn": "50033.140014"
+  },
+  {
+    "id": 40185,
+    "q": "15. If a material has identical properties in all directions, it is said to be",
+    "options": [
+      "homogeneous",
+      "isotropic",
+      "elastic",
+      "orthotropic"
+    ],
+    "correct": 1,
+    "explain": "Isotropic means direction-independent material properties.",
+    "public_qn": "50033.140015"
+  },
+  {
+    "id": 40186,
+    "q": "16. An isotropic material has",
+    "options": [
+      "elastic mass",
+      "homogeneous mass",
+      "elasto plastic mass",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Isotropy is typically associated with homogeneous material composition throughout.",
+    "public_qn": "50033.140016"
+  },
+  {
+    "id": 40187,
+    "q": "17. A visco elastic material",
+    "options": [
+      "is elastic material",
+      "has a small plastic zone",
+      "has a time-dependent stress-strain relation",
+      "has a viscous surface"
+    ],
+    "correct": 2,
+    "explain": "Viscoelastic materials exhibit both viscous and elastic behavior, meaning their stress-strain response depends on time/rate.",
+    "public_qn": "50033.140017"
+  },
+  {
+    "id": 40188,
+    "q": "18. A brittle material has",
+    "options": [
+      "no plastic zone",
+      "no inelastic zone",
+      "very little plastic zone",
+      "large plastic zone"
+    ],
+    "correct": 2,
+    "explain": "Brittle materials fracture with minimal plastic deformation, i.e. a very little plastic zone.",
+    "public_qn": "50033.140018"
+  },
+  {
+    "id": 40189,
+    "q": "19. The compression test is commonly used for testing",
+    "options": [
+      "ductile materials",
+      "rubber",
+      "brittle materials",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Brittle materials (like cast iron, concrete) are typically much stronger in compression, so compression tests are standard for them.",
+    "public_qn": "50033.140019"
+  },
+  {
+    "id": 40190,
+    "q": "20. A brittle material will",
+    "options": [
+      "fail suddenly",
+      "fail after giving warning",
+      "never fail",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Brittle materials fracture suddenly with little to no prior warning (no significant plastic deformation).",
+    "public_qn": "50033.140020"
+  },
+  {
+    "id": 40191,
+    "q": "21. The brittle materials have low toughness because they",
+    "options": [
+      "undergo large plastic deformation before failure",
+      "undergo small plastic deformation before failure",
+      "undergo no plastic deformation before failure",
+      "can absorb impact load also"
+    ],
+    "correct": 1,
+    "explain": "Low toughness in brittle materials results from very limited plastic deformation absorbing energy before fracture.",
+    "public_qn": "50033.140021"
+  },
+  {
+    "id": 40192,
+    "q": "22. A body having similar properties throughout its volume is said to be",
+    "options": [
+      "homogeneous",
+      "isomorphic",
+      "isotropic",
+      "anisotropic"
+    ],
+    "correct": 0,
+    "explain": "Homogeneity means identical properties at every point/volume of the body.",
+    "public_qn": "50033.140022"
+  },
+  {
+    "id": 40193,
+    "q": "23. The moment of inertia of an area will be least with respect to",
+    "options": [
+      "central axis",
+      "horizontal axis",
+      "vertical axis",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "By the parallel axis theorem, moment of inertia about the centroidal (central) axis is always the minimum for any set of parallel axes.",
+    "public_qn": "50033.140023"
+  },
+  {
+    "id": 40194,
+    "q": "24. The square root of ratio of moment of inertia and cross section area of a member is known as",
+    "options": [
+      "least lateral dimension",
+      "second moment of inertia",
+      "radius of gyration",
+      "section modulus"
+    ],
+    "correct": 2,
+    "explain": "Radius of gyration k = √(I/A) by definition.",
+    "public_qn": "50033.140024"
+  },
+  {
+    "id": 40195,
+    "q": "25. The radius of gyration of a rectangular section is not proportional to",
+    "options": [
+      "square root of the moment of inertia",
+      "square root of the inverse of the area",
+      "square root of the moment of inertia divided by area of the section",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "k = √(I/A) — it depends jointly on I and A together, not on 1/A alone.",
+    "public_qn": "50033.140025"
+  },
+  {
+    "id": 40198,
+    "q": "26. The moment of inertia of a square section is given by",
+    "options": [
+      "I = b⁴/12",
+      "I = b³/12",
+      "I = b⁴",
+      "I = b⁴/3"
+    ],
+    "correct": 0,
+    "explain": "For a square of side b, I = b⁴/12 (special case of bd³/12 with b=d).",
+    "public_qn": "50033.140026"
+  },
+  {
+    "id": 40199,
+    "q": "27. The moment of inertia of a rectangular (B×D) section about its base is",
+    "options": [
+      "BD³/12",
+      "DB³/12",
+      "BD³/3",
+      "DB³/3"
+    ],
+    "correct": 2,
+    "explain": "About the base (not centroid), using parallel axis theorem: I_base = BD³/12 + BD(D/2)² = BD³/3.",
+    "public_qn": "50033.140027"
+  },
+  {
+    "id": 40200,
+    "q": "28. The moment of inertia of triangular section b×h about the base is",
+    "options": [
+      "bh³/12",
+      "bh³/18",
+      "bh³/36",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Standard formula: I_base = bh³/12 for a triangle of base b and height h.",
+    "public_qn": "50033.140028"
+  },
+  {
+    "id": 40201,
+    "q": "29. The moment of inertia of triangular section b×h about the c.g. is",
+    "options": [
+      "bh³/12",
+      "bh³/18",
+      "bh³/36",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Standard formula: I_cg = bh³/36 for a triangular section.",
+    "public_qn": "50033.140029"
+  },
+  {
+    "id": 40203,
+    "q": "30. Centre of gravity of a semi circle is ___ above the base AB (diameter)",
+    "options": [
+      "2r/π",
+      "4r/3π",
+      "r/8",
+      "r/4"
+    ],
+    "correct": 1,
+    "explain": "Standard result: centroid of a semicircular area lies at 4r/3π from the diameter.",
+    "public_qn": "50033.140030"
+  },
+  {
+    "id": 40204,
+    "q": "31. The c.g. of a semi-circular arc is",
+    "options": [
+      "r/π",
+      "r/2π",
+      "r/3π",
+      "2r/π"
+    ],
+    "correct": 1,
+    "explain": "As per the answer key for this set.",
+    "public_qn": "50033.140031"
+  },
+  {
+    "id": 40206,
+    "q": "32. Centrifugal force acts at a curve",
+    "options": [
+      "along center line",
+      "towards center",
+      "away from center",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Centrifugal force is the outward pseudo-force acting away from the center of curvature.",
+    "public_qn": "50033.140032"
+  },
+  {
+    "id": 40207,
+    "q": "33. Centrifugal force is given by",
+    "options": [
+      "v²/R",
+      "mv²/R",
+      "m×a",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Centrifugal acceleration/specific force = v²/R (per unit mass form used in this option set).",
+    "public_qn": "50033.140033"
+  },
+  {
+    "id": 40208,
+    "q": "34. Centrifugal force acts away from the center of the path while centripetal force",
+    "options": [
+      "does not act",
+      "acts away from the center of path",
+      "acts towards the centre of path",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "As per the answer key for this set.",
+    "public_qn": "50033.140034"
+  },
+  {
+    "id": 40220,
+    "q": "35. A cable subjected to U.D.L. over its entire span assumes a shape of",
+    "options": [
+      "semi-circle",
+      "an isosceles triangle",
+      "parabola",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "A cable under uniformly distributed load (per horizontal length) hangs in a parabolic shape.",
+    "public_qn": "50033.140035"
+  },
+  {
+    "id": 40222,
+    "q": "36. The algebraic sum of the shear flow of a section in any direction must be equal to",
+    "options": [
+      "zero",
+      "net shear force",
+      "total shear stress",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Shear flow forms a self-balancing internal system, summing to zero around a closed section.",
+    "public_qn": "50033.140036"
+  },
+  {
+    "id": 40223,
+    "q": "37. The shear center may be defined as",
+    "options": [
+      "the point through which the resultant of the shear stress passes",
+      "the point about which the moment of shear flow of section is zero",
+      "the shear force in that direction",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "The shear center is the point of application of transverse load through which no twisting occurs — the resultant shear stress passes through it.",
+    "public_qn": "50033.140037"
+  },
+  {
+    "id": 40224,
+    "q": "38. The shear center in the case of a T-beam section is",
+    "options": [
+      "at the C.G. of the section",
+      "at the neutral axis of the section",
+      "on the C.G. horizontal plane and away from C.G. within the leg projections",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "For a T-section, the shear center coincides with the centroid due to its axis of symmetry.",
+    "public_qn": "50033.140038"
+  },
+  {
+    "id": 40228,
+    "q": "39. The maximum number of transverse shear forces possible at one end of an element of a plane frame are",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "correct": 2,
+    "explain": "At each joint of a plane frame element, up to two transverse shear components can exist (in-plane, general loading).",
+    "public_qn": "50033.140039"
+  },
+  {
+    "id": 40229,
+    "q": "40. The maximum number of transverse shear forces possible at one end of an element of a plane truss are",
+    "options": [
+      "zero",
+      "one",
+      "two",
+      "three"
+    ],
+    "correct": 0,
+    "explain": "Truss members carry only axial force (two-force members) — no transverse shear develops at the ends.",
+    "public_qn": "50033.140040"
+  },
+  {
+    "id": 40233,
+    "q": "41. The law \"Stress is proportional to strain within certain limits\" is formulated by",
+    "options": [
+      "Thomas Youngs",
+      "Poisson",
+      "Mohr",
+      "Robert Hook"
+    ],
+    "correct": 3,
+    "explain": "Hooke's Law states stress ∝ strain within the elastic limit.",
+    "public_qn": "50033.140041"
+  },
+  {
+    "id": 40234,
+    "q": "42. According to Hooke's law which one is correct?",
+    "options": [
+      "σ = E",
+      "σE = 1",
+      "σ = Eε",
+      "all of the above"
+    ],
+    "correct": 2,
+    "explain": "Hooke's Law: stress = Modulus of Elasticity × strain, i.e. σ = Eε.",
+    "public_qn": "50033.140042"
+  },
+  {
+    "id": 40235,
+    "q": "43. The zone between elastic limit and proportional limit on the elastic curve of an elastic material is known as",
+    "options": [
+      "linear elastic zone",
+      "non-linear elastic zone",
+      "plastic zone",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "Beyond the proportional limit but still within the elastic limit, stress-strain is no longer linear — this is the non-linear elastic zone.",
+    "public_qn": "50033.140043"
+  },
+  {
+    "id": 40236,
+    "q": "44. As per elastic theory of design the factor of safety is the ratio of",
+    "options": [
+      "working stress to field stress",
+      "yield stress to working stress",
+      "ultimate stress to yield stress",
+      "ultimate load to load at yield"
+    ],
+    "correct": 1,
+    "explain": "Factor of safety (elastic design) = yield stress / working (permissible) stress.",
+    "public_qn": "50033.140044"
+  },
+  {
+    "id": 40237,
+    "q": "45. Which of the following gives Poisson's ratio?",
+    "options": [
+      "ratio of linear stress to linear strain",
+      "ratio of shear stress to shear strain",
+      "ratio of lateral strain to longitudinal strain",
+      "ratio of the normal stress"
+    ],
+    "correct": 2,
+    "explain": "Poisson's ratio μ = lateral strain / longitudinal strain.",
+    "public_qn": "50033.140045"
+  },
+  {
+    "id": 40238,
+    "q": "46. The value of Poisson's ratio always remains",
+    "options": [
+      "greater than one",
+      "lesser than one",
+      "equal to one",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "For all real engineering materials, Poisson's ratio lies between 0 and 0.5, always less than one.",
+    "public_qn": "50033.140046"
+  },
+  {
+    "id": 40239,
+    "q": "47. Normally the numerical value of Poisson's ratio is",
+    "options": [
+      "0.3 for steel",
+      "0.15 for concrete",
+      "both (a) and (b) of above",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Typical values: steel ≈ 0.3, concrete ≈ 0.15.",
+    "public_qn": "50033.140047"
+  },
+  {
+    "id": 40243,
+    "q": "48. The phenomenon of decreased resistance of material due to reversal of stress is called",
+    "options": [
+      "creep",
+      "fatigue",
+      "elasticity",
+      "plasticity"
+    ],
+    "correct": 1,
+    "explain": "Repeated/reversed stress cycles progressively weaken a material — this is fatigue.",
+    "public_qn": "50033.140048"
+  },
+  {
+    "id": 40244,
+    "q": "49. The property of a material by which a body returns to its original shape after removal of the force, is called",
+    "options": [
+      "plasticity",
+      "elasticity",
+      "ductility",
+      "malleability"
+    ],
+    "correct": 1,
+    "explain": "Elasticity is the ability to recover original shape/size after unloading.",
+    "public_qn": "50033.140049"
+  },
+  {
+    "id": 40245,
+    "q": "50. A perfectly elastic body is",
+    "options": [
+      "that body which recovers its original shape completely after removal of force",
+      "a body of such a material with a lot of extensibility",
+      "a body made of rubber only",
+      "a body whose cross sectional dimensions are very small"
+    ],
+    "correct": 0,
+    "explain": "By definition, perfect elasticity means complete shape recovery on unloading, regardless of material or size.",
+    "public_qn": "50033.140050"
+  }
+]
