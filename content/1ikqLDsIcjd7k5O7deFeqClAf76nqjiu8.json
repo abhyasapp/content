@@ -1,111 +1,618 @@
 [
   {
-    "id": 54155,
-    "q": "1. Surkhi is added to lime mortar to .....",
+    "id": 54325,
+    "q": "1. The final setting time of ordinary Portland cement should not be less than .....",
     "options": [
-      "prevent shrinkage",
-      "decreases setting time",
-      "increase bulk",
-      "impart hydraulicity"
-    ],
-    "correct": 3,
-    "explain": "Surkhi is a pozzolana; it gives hydraulic properties to lime mortar.",
-    "public_qn": "70035.450001"
-  },
-  {
-    "id": 54156,
-    "q": "2. The role of super plasticizers in a cement paste is to .....",
-    "options": [
-      "disperse the particles",
-      "disperse the particles and to remove air bubbles",
-      "disperse the particles, removes air bubbles and to retard setting",
-      "retard setting"
+      "5 h",
+      "7.5 h",
+      "10 h",
+      "12.5 h"
     ],
     "correct": 2,
-    "explain": "As per the answer key, option c. Super plasticizers disperse cement particles, release trapped air and can retard setting.",
-    "public_qn": "70035.450002"
+    "explain": "As per the answer key, option c (10 h). Note: the usual code limit is that final setting time should not be MORE than 10 hours, so this question is worded oddly in the book.",
+    "public_qn": "70035.410006"
   },
   {
-    "id": 54161,
-    "q": "3. The lime which contains mainly calcium oxide and slacks with water is .....",
+    "id": 54327,
+    "q": "2. The initial and final setting times of quick setting cement are .....",
     "options": [
-      "fat lime",
-      "quick lime",
-      "hydraulic lime",
-      "poor lime"
+      "15 minutes and 45 minutes",
+      "20 minutes and 1 hour",
+      "10 minutes and 30 minutes",
+      "5 minutes and 30 minutes"
+    ],
+    "correct": 3,
+    "explain": "Quick setting cement has an initial setting time of about 5 minutes and a final setting time of about 30 minutes.",
+    "public_qn": "70035.410008"
+  },
+  {
+    "id": 54334,
+    "q": "3. Excessive free lime and excessive magnesia present in the cement make the cement .....",
+    "options": [
+      "unsound",
+      "to have very low initial setting time",
+      "to have very low compressive strength",
+      "gain strength faster"
+    ],
+    "correct": 0,
+    "explain": "Free lime and magnesia hydrate slowly after setting and expand, causing cracks and disintegration; such cement is unsound.",
+    "public_qn": "70035.410011"
+  },
+  {
+    "id": 1540,
+    "q": "4. In the cement the compound quickest to react with water, is",
+    "options": [
+      "Tricalcium aluminate",
+      "Tetra-calcium alumino-ferrite",
+      "Tricalcium silicate",
+      "Dicalcium silicate"
+    ],
+    "correct": 0,
+    "explain": "Tricalcium aluminate (C3A) reacts almost instantly with water, causing flash set if not controlled by gypsum.",
+    "public_qn": "70035.410015"
+  },
+  {
+    "id": 1541,
+    "q": "5. Rapid hardening cement contains",
+    "options": [
+      "Tri-calcium silicate",
+      "Tri-calcium aluminate",
+      "Tetra-calcium alumino-ferrite",
+      "Dicalcium silicate"
+    ],
+    "correct": 0,
+    "explain": "Rapid hardening cement has a higher C3S content, which speeds up early strength development.",
+    "public_qn": "70035.410016"
+  },
+  {
+    "id": 54355,
+    "q": "6. The percentage of the residue left after sieving good Portland cement in 90 micron sieve should not exceed .....",
+    "options": [
+      "5%",
+      "10%",
+      "20%",
+      "30%"
     ],
     "correct": 1,
-    "explain": "As per the answer key, quick lime, which is mainly calcium oxide and slakes with water.",
-    "public_qn": "70035.450003"
+    "explain": "For fineness, the residue on a 90 micron IS sieve should not exceed 10%.",
+    "public_qn": "70035.410026"
   },
   {
-    "id": 1722,
-    "q": "4. The constituent of cement which is responsible for all the undesirable properties of cement is",
+    "id": 1552,
+    "q": "7. White cement should have least percentage of",
+    "options": [
+      "Aluminium",
+      "Silica",
+      "Iron oxide colouring agent",
+      "Magnesium oxide"
+    ],
+    "correct": 2,
+    "explain": "Iron oxide imparts grey/brown color to ordinary cement, so white cement is made with minimal iron oxide.",
+    "public_qn": "70035.410030"
+  },
+  {
+    "id": 54358,
+    "q": "8. The sand is mixed with lime mortar to .....",
+    "options": [
+      "reduce cost",
+      "reduce setting time",
+      "improve strength",
+      "prevent shrinkage and cracking"
+    ],
+    "correct": 3,
+    "explain": "Sand is an inert filler that reduces shrinkage and cracking of lime mortar and makes it porous so CO2 can reach it.",
+    "public_qn": "70035.410031"
+  },
+  {
+    "id": 1553,
+    "q": "9. The insoluble residue in cement is less than",
+    "options": [
+      "15%",
+      "10%",
+      "1.5%",
+      "1%"
+    ],
+    "correct": 2,
+    "explain": "Specifications limit the insoluble residue (impurities) in cement to less than about 1.5%.",
+    "public_qn": "70035.410032"
+  },
+  {
+    "id": 1565,
+    "q": "10. Quick lime is",
+    "options": [
+      "calcium oxide",
+      "calcium carbonate",
+      "calcium hydroxide",
+      "none to these"
+    ],
+    "correct": 0,
+    "explain": "Quicklime is chemically calcium oxide (CaO), produced by burning (calcining) limestone.",
+    "public_qn": "70035.410035"
+  },
+  {
+    "id": 54259,
+    "q": "11. The aggregate is called coarse aggregate if it is completely retained on .....",
+    "options": [
+      "10 mm sieve",
+      "15 mm sieve",
+      "29 mm sieve",
+      "4.75 mm sieve"
+    ],
+    "correct": 3,
+    "explain": "Aggregate retained on the 4.75 mm IS sieve is coarse aggregate. (The book prints option d with an 's)' label.)",
+    "public_qn": "70035.410038"
+  },
+  {
+    "id": 1821,
+    "q": "12. The volume of one bag of cement weighing 50 kg is",
+    "options": [
+      "0.05 m3",
+      "0.0345 m3",
+      "0.025 m3",
+      "0.04m3"
+    ],
+    "correct": 1,
+    "explain": "A standard 50 kg bag of cement occupies a volume of about 0.0345 cubic meters, based on cement's bulk density.",
+    "public_qn": "70035.410042"
+  },
+  {
+    "id": 54285,
+    "q": "13. To retard the initial setting time of cement, the compound responsible, is .....",
+    "options": [
+      "tricalcium silicate",
+      "gypsum",
+      "di-calcium silicate",
+      "tri calcium aluminate"
+    ],
+    "correct": 1,
+    "explain": "Gypsum is added (about 2 to 3%) to control the quick setting caused by C3A.",
+    "public_qn": "70035.410048"
+  },
+  {
+    "id": 54177,
+    "q": "14. Oilwell cement is generally used for .....",
+    "options": [
+      "road works",
+      "plastening",
+      "cementing oil wells",
+      "none of the above"
+    ],
+    "correct": 2,
+    "explain": "Oil well cement is specially made to set properly at the high temperature and pressure found in oil wells.",
+    "public_qn": "70035.420011"
+  },
+  {
+    "id": 54191,
+    "q": "15. The main constituents which imparts hydraulicity to hydraulic lime is .....",
+    "options": [
+      "Calcium oxide",
+      "Silica",
+      "Clay",
+      "Water"
+    ],
+    "correct": 2,
+    "explain": "As per the answer key, clay (silica, alumina and iron oxide in clay) gives lime its hydraulicity.",
+    "public_qn": "70035.420018"
+  },
+  {
+    "id": 54199,
+    "q": "16. The lime which contains high percentage of calcium oxide, is generally called .....",
+    "options": [
+      "fat lime",
+      "rich lime",
+      "white lime",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "As per the answer key, fat lime, which is high in calcium oxide and slakes vigorously with a large increase in volume. 'Rich lime' also describes it, but the key gives a.",
+    "public_qn": "70035.420022"
+  },
+  {
+    "id": 44595,
+    "q": "17. Stetting time of hydraulic lime is",
+    "options": [
+      "21 days",
+      "7 days",
+      "2-48hr",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "The setting time for hydraulic lime varies significantly based on its classification (feebly, moderately, or eminently hydraulic), often spanning from hours to weeks.",
+    "public_qn": "70035.420032"
+  },
+  {
+    "id": 44597,
+    "q": "18. Lime having high calcium oxide content, which can set and become hard only in the presence of CO2 from the atmosphere is known as",
+    "options": [
+      "hydraulic lime",
+      "fat lime",
+      "quick lime",
+      "lump lime"
+    ],
+    "correct": 1,
+    "explain": "Fat lime (or rich lime) consists of high CaO content and hardens through carbonation, a process requiring CO2 from the air.",
+    "public_qn": "70035.420034"
+  },
+  {
+    "id": 44598,
+    "q": "19. Sand is mixed with lime mortar to",
+    "options": [
+      "helps the pure lime to set by allowing penetration of air",
+      "reduce cost by increasing volume",
+      "prevent shrinkage",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Sand acts as an inert filler that improves workability, prevents shrinkage cracks, reduces costs, and allows CO2 to penetrate for setting.",
+    "public_qn": "70035.420035"
+  },
+  {
+    "id": 1609,
+    "q": "20. The lime mortar in which ash or cinder is used as fine aggregate is called",
+    "options": [
+      "black mortar",
+      "lime mortar",
+      "gauged mortar",
+      "compo mortar"
+    ],
+    "correct": 0,
+    "explain": "When ash or cinder replaces sand as fine aggregate in lime mortar, it is termed black mortar due to its dark color.",
+    "public_qn": "70035.420038"
+  },
+  {
+    "id": 44604,
+    "q": "21. A dry powder obtained on treating quick lime with just enough water... is called",
+    "options": [
+      "hydraulic lime",
+      "hydrated lime",
+      "milk of lime",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "When just enough water is added to quicklime to complete the chemical reaction without making it a paste, it results in a dry powder called hydrated lime.",
+    "public_qn": "70035.420043"
+  },
+  {
+    "id": 44610,
+    "q": "22. Plaster of paris can be obtained from the calcinations of",
+    "options": [
+      "lime stone",
+      "gypsum",
+      "dolomite",
+      "bauxite"
+    ],
+    "correct": 1,
+    "explain": "Heating gypsum ($CaSO_4 cdot 2H_2O$) to approximately $150^{circ}C$ removes most of its water, creating Plaster of Paris ($CaSO_4 cdot 0.5H_2O$).",
+    "public_qn": "70035.420049"
+  },
+  {
+    "id": 44614,
+    "q": "23. Gypsum is added to cement for reducing the fast reacting property of",
     "options": [
       "dicalcium silicate",
       "tricalcium silicate",
       "tricalcium aluminate",
-      "tetra calcium alumino ferrite"
+      "tetra calcium aluminoferrite"
     ],
     "correct": 2,
-    "explain": "Tricalcium aluminate (C3A) is associated with undesirable properties such as flash setting, high heat of hydration, and poor sulphate resistance.",
-    "public_qn": "70035.450004"
+    "explain": "Tricalcium aluminate ($C_3A$) reacts very quickly with water. Gypsum is added to control this reaction and prevent 'flash set'.",
+    "public_qn": "70035.430003"
   },
   {
-    "id": 1724,
-    "q": "5. Gypsum consists of",
+    "id": 44620,
+    "q": "24. The constituents of cement, which act as binder are",
     "options": [
-      "H2S and CO2",
-      "CaSO4 and H2O",
-      "Lime and H2O",
-      "CO2 and Calcium"
-    ],
-    "correct": 1,
-    "explain": "Gypsum is chemically calcium sulfate dihydrate, composed of CaSO4 combined with water (H2O).",
-    "public_qn": "70035.450005"
-  },
-  {
-    "id": 1726,
-    "q": "6. The most commonly used retarder in cement is (Accelerator: CaCl2, Retarder: Gypsum)",
-    "options": [
-      "gypsum",
-      "calcium chloride",
-      "calcium carbonate",
+      "dicalcium silicate, tricalcium silicate and carbon",
+      "tricalcium aluminate, tricalcium silicate and carbon",
+      "silica and carbon",
       "none of the above"
     ],
     "correct": 0,
-    "explain": "Gypsum is added during clinker grinding specifically to retard the fast setting reaction of tricalcium aluminate.",
-    "public_qn": "70035.450006"
+    "explain": "While the option mentions carbon (likely an error in the source text), Silicates (C2S and C3S) are the primary binding agents responsible for strength.",
+    "public_qn": "70035.430009"
   },
   {
-    "id": 1734,
-    "q": "7. The initial setting time of lime -pozzolana is",
+    "id": 44623,
+    "q": "25. When water is added to cement... an increase in temperature occurs... is called",
     "options": [
-      "30 minutes",
-      "1hr",
-      "1.5hrs",
-      "2hrs"
+      "heating of cement",
+      "hydration of cement",
+      "watering of cement",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Hydration is an exothermic chemical reaction; the heat released during this process is specifically called the 'heat of hydration'.",
+    "public_qn": "70035.430016"
+  },
+  {
+    "id": 44624,
+    "q": "26. Dormant period (2-5hr) is concerned with",
+    "options": [
+      "hydration of cement",
+      "fineness of cement",
+      "soundness of cement",
+      "workability of cement"
+    ],
+    "correct": 0,
+    "explain": "The dormant period is a stage in the hydration process where the reaction rate slows down significantly, allowing for the placement and finishing of concrete.",
+    "public_qn": "70035.430018"
+  },
+  {
+    "id": 44626,
+    "q": "27. The amount of loss of ignition, insoluble residue & residual retained (OPC) on IS sieve",
+    "options": [
+      "4%, 1.5% & 10%",
+      "1.5%, 4% & 10%",
+      "4%, 10% & 1.5%",
+      "10%, 1.5% & 4%"
+    ],
+    "correct": 0,
+    "explain": "Standard limits for OPC: Loss on Ignition (<4%), Insoluble Residue (<1.5%), and Sieve Residue (<10%).",
+    "public_qn": "70035.430021"
+  },
+  {
+    "id": 44628,
+    "q": "28. The strength of RHPC for one day is equal to... day of PPC",
+    "options": [
+      "2 days",
+      "3 days",
+      "4 days",
+      "5 days"
+    ],
+    "correct": 1,
+    "explain": "Rapid Hardening Portland Cement (RHPC) is designed to achieve the 3-day strength of ordinary cement in just 1 day.",
+    "public_qn": "70035.430023"
+  },
+  {
+    "id": 44630,
+    "q": "29. The possibility of bleeding, segregation and laitance is reduced by",
+    "options": [
+      "colouring agent",
+      "bleeding agent",
+      "water proofer",
+      "air entraining agent"
     ],
     "correct": 3,
-    "explain": "Lime-pozzolana mixtures typically have a longer initial setting time of about 2 hours.",
-    "public_qn": "70035.450007"
+    "explain": "Air entraining agents create tiny bubbles that improve workability and cohesion, thereby reducing bleeding and segregation.",
+    "public_qn": "70035.430025"
   },
   {
-    "id": 1746,
-    "q": "8. A mortar joint in masonry which is normal to the face of wall is known as",
+    "id": 44631,
+    "q": "30. Workability is tested by",
     "options": [
-      "bed joint",
-      "wall joint",
-      "cross joint",
-      "bonded joint"
+      "slump test",
+      "vee bee test",
+      "C.F. test",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Workability is measured using several methods including Slump, Compacting Factor (C.F.), and Vee-Bee consistometer tests.",
+    "public_qn": "70035.430026"
+  },
+  {
+    "id": 44633,
+    "q": "31. The most commonly used accelerator for concreting is",
+    "options": [
+      "gypsum",
+      "calcium chloride",
+      "calcium oxide",
+      "calcium sulphate"
+    ],
+    "correct": 1,
+    "explain": "Calcium chloride is the most widely used and cheapest accelerator for increasing the rate of hydration.",
+    "public_qn": "70035.430028"
+  },
+  {
+    "id": 54109,
+    "q": "32. The minimum percentage of silica, alumina and ferric oxide in lime for white washing, is .....",
+    "options": [
+      "20",
+      "15",
+      "10",
+      "0"
+    ],
+    "correct": 3,
+    "explain": "Fat lime for white-washing is pure, so it needs no clayey impurities; the minimum is 0.",
+    "public_qn": "70035.430043"
+  },
+  {
+    "id": 54111,
+    "q": "33. The initial setting time of lime-pozzolana, is .....",
+    "options": [
+      "30 minutes",
+      "60 minutes",
+      "90 minutes",
+      "120 minutes"
+    ],
+    "correct": 3,
+    "explain": "As per the answer key, the initial setting time of lime-pozzolana is 120 minutes.",
+    "public_qn": "70035.430047"
+  },
+  {
+    "id": 44648,
+    "q": "34. Excessive free lime and excessive magnesia present in the cement make the cement",
+    "options": [
+      "unsound",
+      "to have very low initial setting time",
+      "to have very light compressive strength",
+      "gain strength faster"
+    ],
+    "correct": 0,
+    "explain": "Free lime and magnesia hydrate very slowly, causing expansion and cracking after the cement has set, making it 'unsound'.",
+    "public_qn": "70035.440005"
+  },
+  {
+    "id": 44651,
+    "q": "35. Portland cement manufactured from pure white chalk and clay but free from iron oxide, is known as",
+    "options": [
+      "low heat portland cement",
+      "quick setting cement",
+      "white cement",
+      "none of the above"
     ],
     "correct": 2,
-    "explain": "A cross joint runs perpendicular (normal) to the face of the wall, connecting adjacent bricks in a course.",
-    "public_qn": "70035.450008"
+    "explain": "Iron oxide provides the grey color to cement; by removing it, white cement is produced for architectural use.",
+    "public_qn": "70035.440010"
+  },
+  {
+    "id": 1661,
+    "q": "36. Le Chatelier's device is used for determining the",
+    "options": [
+      "compressive strength of cement",
+      "tensile strength of cement",
+      "setting time of cement",
+      "soundness of cement"
+    ],
+    "correct": 3,
+    "explain": "Le Chatelier's apparatus measures the expansion of cement paste, which indicates its soundness.",
+    "public_qn": "70035.440012"
+  },
+  {
+    "id": 1662,
+    "q": "37. The initial setting time for ordinary Portland cement should not be less than",
+    "options": [
+      "10 minutes",
+      "30 minutes",
+      "60 minutes",
+      "600 minutes"
+    ],
+    "correct": 1,
+    "explain": "As per IS specification, OPC must have an initial setting time of not less than 30 minutes to allow adequate working time.",
+    "public_qn": "70035.440015"
+  },
+  {
+    "id": 44653,
+    "q": "38. The quality of cement is good if it has more of",
+    "options": [
+      "tri-calcium silicate",
+      "tri-calcium aluminate",
+      "di-calcium silicate",
+      "free lime"
+    ],
+    "correct": 0,
+    "explain": "High C3S content ensures better early strength and binding quality in Portland cement.",
+    "public_qn": "70035.440016"
+  },
+  {
+    "id": 44655,
+    "q": "39. Quick setting cement is used",
+    "options": [
+      "for under water construction",
+      "to obtain very light strength",
+      "where resistance to acidic water is required",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Quick-setting cement is essential for underwater work where the cement must set before being washed away by currents.",
+    "public_qn": "70035.440018"
+  },
+  {
+    "id": 1667,
+    "q": "40. Snowcem is",
+    "options": [
+      "a cement paint",
+      "a cellulose paint",
+      "an oil paint",
+      "a synthetic enamel paint"
+    ],
+    "correct": 0,
+    "explain": "Snowcem is a well-known brand of waterproof cement paint used on exterior masonry surfaces.",
+    "public_qn": "70035.440021"
+  },
+  {
+    "id": 44658,
+    "q": "41. Compared to the ordinary portland cement, the ultimate strength of the pozzolona portland cement is",
+    "options": [
+      "same",
+      "more",
+      "less",
+      "very much less"
+    ],
+    "correct": 1,
+    "explain": "While slow to start, PPC eventually achieves a higher ultimate strength due to the formation of additional calcium silicate hydrates.",
+    "public_qn": "70035.440022"
+  },
+  {
+    "id": 44660,
+    "q": "42. In the chemical composition of test for loss on ignition, the cement is treated to a temperature of",
+    "options": [
+      "100°C",
+      "200°C",
+      "500°C",
+      "1000°C"
+    ],
+    "correct": 3,
+    "explain": "Loss on ignition involves heating a sample to 900-1000°C until constant weight is reached.",
+    "public_qn": "70035.440024"
+  },
+  {
+    "id": 44661,
+    "q": "43. Loss on ignition in cement should not exceed",
+    "options": [
+      "1%",
+      "4%",
+      "8%",
+      "12%"
+    ],
+    "correct": 1,
+    "explain": "Standard specifications limit Loss on Ignition to a maximum of 4% for OPC.",
+    "public_qn": "70035.440025"
+  },
+  {
+    "id": 44662,
+    "q": "44. The insoluble residues in good cement should be",
+    "options": [
+      "between 4 and 8%",
+      "less than 8%",
+      "between 8 and 10%",
+      "less than 1.5%"
+    ],
+    "correct": 3,
+    "explain": "Insoluble residue indicates the purity of the cement and should be less than 1.5%.",
+    "public_qn": "70035.440027"
+  },
+  {
+    "id": 44663,
+    "q": "45. During the test of portland cement for “loss of ignition” the loss in weight occurs due to",
+    "options": [
+      "chemical reactions",
+      "burning of ingredients",
+      "evaporation of moisture and CO2",
+      "melting of tricalcium aluminate"
+    ],
+    "correct": 2,
+    "explain": "High temperature drives off moisture and CO2 from carbonates present in the sample.",
+    "public_qn": "70035.440028"
+  },
+  {
+    "id": 44669,
+    "q": "46. Storage of cement should be done on",
+    "options": [
+      "brick soling",
+      "the ground",
+      "wet platform",
+      "dry platform"
+    ],
+    "correct": 3,
+    "explain": "Cement must be kept on a raised, dry platform away from walls to prevent moisture absorption.",
+    "public_qn": "70035.440035"
+  },
+  {
+    "id": 44399,
+    "q": "47. The cement mortar mix generally used for internal plaster",
+    "options": [
+      "1:3",
+      "1:4",
+      "1:5",
+      "1:6"
+    ],
+    "correct": 2,
+    "explain": "For internal plastering, a 1:4 mix (one part cement to four parts sand) is standard as it provides a good balance of workability and strength without excessive shrinkage.",
+    "public_qn": "70035.440038"
   },
   {
     "id": 1748,
-    "q": "9. The proportions of lime and sand in the mortar normally used in brick construction are",
+    "q": "48. The proportions of lime and sand in the mortar normally used in brick construction are",
     "options": [
       "1:2",
       "1:4",
@@ -117,21 +624,8 @@
     "public_qn": "70035.450009"
   },
   {
-    "id": 1750,
-    "q": "10. The seven days compressive strength of a good portland cement, as obtained from the compressive test of cement sand mortar should not be less than",
-    "options": [
-      "125 kg/cm2",
-      "150 kg/cm2",
-      "175 kg/cm2",
-      "200 kg/cm2"
-    ],
-    "correct": 2,
-    "explain": "A good Portland cement should achieve a 7-day compressive strength of at least about 175 kg/cm2 in a standard mortar test.",
-    "public_qn": "70035.450010"
-  },
-  {
     "id": 1777,
-    "q": "11. The main constituent of a Portland cement is:",
+    "q": "49. The main constituent of a Portland cement is:",
     "options": [
       "lime",
       "alumina",
@@ -143,138 +637,8 @@
     "public_qn": "70035.450011"
   },
   {
-    "id": 1783,
-    "q": "12. Quick setting cement is used:",
-    "options": [
-      "to obtain very light strength",
-      "for the construction of structures under water",
-      "where resistance to acidic water is required",
-      "none of the above"
-    ],
-    "correct": 1,
-    "explain": "Quick setting cement, which hardens rapidly, is useful for underwater construction where fast setting is advantageous.",
-    "public_qn": "70035.450012"
-  },
-  {
-    "id": 1788,
-    "q": "13. An impermeable concrete is produced by",
-    "options": [
-      "Proper compaction",
-      "Proper mixing",
-      "Proper curing",
-      "All of the above"
-    ],
-    "correct": 3,
-    "explain": "Achieving impermeable concrete requires proper mixing, compaction, and curing together to minimize voids and ensure complete hydration.",
-    "public_qn": "70035.450013"
-  },
-  {
-    "id": 1789,
-    "q": "14. As the cement sets and hardens it generates heat. This is called",
-    "options": [
-      "Latent heat",
-      "Sensible heat",
-      "heat of hydration",
-      "Heat of vaporization"
-    ],
-    "correct": 2,
-    "explain": "The heat released during the chemical hydration reactions of cement is termed the heat of hydration.",
-    "public_qn": "70035.450014"
-  },
-  {
-    "id": 44511,
-    "q": "15. The solvent used in cement paints is",
-    "options": [
-      "turpentine",
-      "water",
-      "spirit",
-      "kerosene"
-    ],
-    "correct": 1,
-    "explain": "Cement paint is supplied in powder form and mixed with water for application.",
-    "public_qn": "70035.450015"
-  },
-  {
-    "id": 1793,
-    "q": "16. The required number of bricks (size 9\" x 4.5\" x 2.25\") for 1 cubic meter of cement masonry work is",
-    "options": [
-      "1000",
-      "875",
-      "560",
-      "250"
-    ],
-    "correct": 2,
-    "explain": "For standard-sized bricks (9 x 4.5 x 2.25 inches), about 560 bricks are required per cubic meter of masonry, accounting for mortar joints.",
-    "public_qn": "70035.450016"
-  },
-  {
-    "id": 1794,
-    "q": "17. The final setting time of ordinary portland cement should not be more than",
-    "options": [
-      "5 hours",
-      "7.5 hours",
-      "10 hours",
-      "12.5 hours"
-    ],
-    "correct": 2,
-    "explain": "As per specification, the final setting time of OPC should not exceed 10 hours.",
-    "public_qn": "70035.450017"
-  },
-  {
-    "id": 44514,
-    "q": "18. The commonly used cement in making cement paints is",
-    "options": [
-      "portland cement",
-      "alumina cement",
-      "white cement",
-      "any of the above"
-    ],
-    "correct": 2,
-    "explain": "White cement is used as the base for cement paints to allow for a wide range of pigment colors.",
-    "public_qn": "70035.450018"
-  },
-  {
-    "id": 1798,
-    "q": "19. The seven days compressive strength of a good portland cement, as obtained form the compressive test of cement sand mortar should not be less than for tensile test: 20 and 25 kg/cm2 respectively.",
-    "options": [
-      "125 kg/cm2",
-      "150 kg/cm2",
-      "175 kg/cm2",
-      "200 kg/cm2"
-    ],
-    "correct": 2,
-    "explain": "A good Portland cement should achieve a 7-day compressive strength of at least about 175 kg/cm2 in the standard mortar test.",
-    "public_qn": "70035.450019"
-  },
-  {
-    "id": 1799,
-    "q": "20. Gypsum is added in the manufacture of Portland cement",
-    "options": [
-      "while mixing the raw materials",
-      "during burning in the rotary kiln",
-      "at the beginning of grinding the clinker",
-      "at the end of grinding the clinker into powder"
-    ],
-    "correct": 3,
-    "explain": "Gypsum is added toward the end of the clinker grinding process, just before the cement is finished, to control setting time.",
-    "public_qn": "70035.450020"
-  },
-  {
-    "id": 44564,
-    "q": "21. The most effective method to reduce the cracking tendency of the concrete is to reduce the",
-    "options": [
-      "cement",
-      "coarse aggregate",
-      "fine aggregate",
-      "water cement ratio"
-    ],
-    "correct": 0,
-    "explain": "Lowering the water-cement ratio reduces the amount of free water that evaporates, which in turn reduces drying shrinkage and cracking.",
-    "public_qn": "70035.450021"
-  },
-  {
     "id": 44565,
-    "q": "22. Humidity causes...........of cement in bag.",
+    "q": "50. Humidity causes...........of cement in bag.",
     "options": [
       "decaying",
       "setting",
@@ -287,7 +651,7 @@
   },
   {
     "id": 44566,
-    "q": "23. Reduction in aggregate cement ratio while keeping W/C ratio constant causes",
+    "q": "51. Reduction in aggregate cement ratio while keeping W/C ratio constant causes",
     "options": [
       "increase in workability",
       "decrease in workability",
@@ -299,47 +663,8 @@
     "public_qn": "70035.450023"
   },
   {
-    "id": 44567,
-    "q": "24. Concreting should be stopped when temperature falls below",
-    "options": [
-      "4.5°C",
-      "10°C",
-      "15°C",
-      "20°C"
-    ],
-    "correct": 0,
-    "explain": "At low temperatures, the hydration process of cement slows down significantly; generally, precautions or stops are needed below 10°C (or 4.5°C depending on specific codes). The book key specifies 10°C.",
-    "public_qn": "70035.450024"
-  },
-  {
-    "id": 44569,
-    "q": "25. All burnt bricks should be soaked in water for at least ............ hours to be used with cement mortar.",
-    "options": [
-      "1",
-      "1/4",
-      "1/2",
-      "3/4"
-    ],
-    "correct": 0,
-    "explain": "The key indicates 1/4 (0.25 hours or 15 minutes), though field practice often recommends longer, this value is extracted from the provided answer key.",
-    "public_qn": "70035.450025"
-  },
-  {
-    "id": 44572,
-    "q": "26. The chemical formula for slaked or hydrated lime is",
-    "options": [
-      "CaO",
-      "CaCO3",
-      "Ca(OH)2",
-      "CaCl2"
-    ],
-    "correct": 2,
-    "explain": "The key indicates 'a' (CaO), which is technically Quick Lime. Note: Hydrated lime is chemically $Ca(OH)_2$. I am following the provided key strictly.",
-    "public_qn": "70035.450026"
-  },
-  {
     "id": 44583,
-    "q": "27. Thermal characteristics is observed when",
+    "q": "52. Thermal characteristics is observed when",
     "options": [
       "water is added to stones",
       "water is added to bricks",

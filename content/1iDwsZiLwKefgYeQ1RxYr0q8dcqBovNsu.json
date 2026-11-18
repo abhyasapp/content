@@ -1,20 +1,423 @@
 [
   {
-    "id": 54993,
-    "q": "1. If x is the smallest division on the main scale and n are the number of divisions on the vernier, then the least count of the vernier is",
+    "id": 52136,
+    "q": "1. A tape of length l and weight 'w' kg/m is suspended at its ends with a pull of P kg, the sag correction is,",
     "options": [
-      "x + n",
-      "x - n",
-      "x × n",
-      "x / n"
+      "l3w2/24p2",
+      "l2w2/24p2",
+      "l2w2/24p3",
+      "lw2/24p"
+    ],
+    "correct": 0,
+    "explain": "The standard sag correction formula for a tape hanging in a catenary between supports is Cs = L*W2/(24P2) per span, where W = w*L is the total weight of the span.",
+    "public_qn": "70024.210011"
+  },
+  {
+    "id": 52141,
+    "q": "2. A well conditioned triangle has no angle less than",
+    "options": [
+      "20 deg",
+      "30 deg",
+      "45 deg",
+      "60 deg"
+    ],
+    "correct": 1,
+    "explain": "A well-conditioned triangle keeps all its angles between 30 deg and 120 deg so that a small error in angle measurement causes only a small error in the plotted position of the point.",
+    "public_qn": "70024.210019"
+  },
+  {
+    "id": 52150,
+    "q": "3. A clinometer is used for",
+    "options": [
+      "measuring angle of slope",
+      "correcting line of collimation",
+      "setting out right angle",
+      "defining natural features"
+    ],
+    "correct": 0,
+    "explain": "A clinometer is a simple instrument used to measure the angle of slope (inclination) of the ground.",
+    "public_qn": "70024.210032"
+  },
+  {
+    "id": 46308,
+    "q": "4. Invar tapes are made of an alloy of:",
+    "options": [
+      "nickel and steel",
+      "copper and steel",
+      "tin and steel",
+      "aluminium and steel"
+    ],
+    "correct": 0,
+    "explain": "A) **nickel and steel**: Invar consists of 36% nickel and 64% steel. Its extremely low coefficient of thermal expansion makes it ideal for precise baseline measurements.",
+    "public_qn": "70024.220007"
+  },
+  {
+    "id": 54516,
+    "q": "5. Normal tension is that pull which ...............",
+    "options": [
+      "is used at the time of standardizing the tape",
+      "neutralizes the effect due to pull and sag",
+      "makes the correction due to sag equal to zero",
+      "makes the correction due to pull equal to zero"
+    ],
+    "correct": 1,
+    "explain": "Normal tension is the specific amount of pull where the positive correction for pull exactly equals the negative correction for sag.",
+    "public_qn": "70024.220024"
+  },
+  {
+    "id": 54518,
+    "q": "6. Which of the following instrument is generally used for base line measurements?",
+    "options": [
+      "Chain",
+      "Metallic tape",
+      "Steel tape",
+      "Invar tape"
     ],
     "correct": 3,
-    "explain": "The least count is the difference between the smallest division of the main scale and the vernier scale, which mathematically simplifies to $x/n$.",
-    "public_qn": "70024.250022"
+    "explain": "Invar tapes are used for primary baseline measurements because their low thermal expansion ensures high precision.",
+    "public_qn": "70024.220030"
+  },
+  {
+    "id": 54519,
+    "q": "7. An invar tape is made of an alloy of ...............",
+    "options": [
+      "copper and steel",
+      "brass and nickel",
+      "brass and steel",
+      "nickel and steel"
+    ],
+    "correct": 3,
+    "explain": "Invar is an alloy consisting of approximately 36% nickel and 64% steel.",
+    "public_qn": "70024.220032"
+  },
+  {
+    "id": 54550,
+    "q": "8. The index glass in an optical square is ...............",
+    "options": [
+      "wholly silvered",
+      "wholly un silvered",
+      "one-fourth silvered and half un silvered",
+      "half silvered and half un silvered"
+    ],
+    "correct": 0,
+    "explain": "The index glass is completely silvered to ensure a strong reflection of the object onto the horizon glass.",
+    "public_qn": "70024.230003"
+  },
+  {
+    "id": 54555,
+    "q": "9. Check lines (or proof lines) in Chain Surveying are essentially required ...............",
+    "options": [
+      "to plot the chain lines",
+      "to plot the offsets",
+      "to indicate the accuracy of the survey work",
+      "to increase the out-turn"
+    ],
+    "correct": 2,
+    "explain": "Check lines are measured to verify the accuracy of the framework and plotting; if the check line distance matches the plot, the work is correct.",
+    "public_qn": "70024.230020"
+  },
+  {
+    "id": 54559,
+    "q": "10. An instrument used to find slopes of ground is ...............",
+    "options": [
+      "planimeter",
+      "clinometer",
+      "box sextant",
+      "pantograph"
+    ],
+    "correct": 1,
+    "explain": "A clinometer is specifically designed to measure angles of slope, elevation, or depression.",
+    "public_qn": "70024.230023"
+  },
+  {
+    "id": 54662,
+    "q": "11. The construction of optical square is based on the principle of optical",
+    "options": [
+      "reflection",
+      "refraction",
+      "double refraction",
+      "double reflection"
+    ],
+    "correct": 3,
+    "explain": "An optical square consists of two mirrors placed at 45° to each other. The ray of light undergoes reflection from both mirrors (double reflection) to deviate the line of sight by exactly 90°.",
+    "public_qn": "70024.230029"
+  },
+  {
+    "id": 54668,
+    "q": "12. For taking offsets with an optical square on the right hand side of the chain line, it is held",
+    "options": [
+      "by right hand upside down",
+      "by left hand upright",
+      "by right hand upright",
+      "by left hand upside down"
+    ],
+    "correct": 1,
+    "explain": "Standard practice for an optical square requires it to be held in the left hand to view the range pole along the chain line while looking for the object at the right through the mirrors.",
+    "public_qn": "70024.230035"
+  },
+  {
+    "id": 54669,
+    "q": "13. Correction for pull is",
+    "options": [
+      "(P - P0)l / AE",
+      "(P - P0)A * l / E",
+      "(P - P0)EAL",
+      "(P - P0)A / lE"
+    ],
+    "correct": 0,
+    "explain": "The correction for pull ($C_p$) is calculated using the formula $C_p = \\frac{(P - P_0)L}{AE}$, where P is applied pull, $P_0$ is standard pull, L is measured length, A is cross-sectional area, and E is Young's modulus.",
+    "public_qn": "70024.230036"
+  },
+  {
+    "id": 54686,
+    "q": "14. A chain is made up of mild steel or galvanized iron wire of diameter",
+    "options": [
+      "1 mm",
+      "4 mm",
+      "5 mm",
+      "1 cm"
+    ],
+    "correct": 2,
+    "explain": "Standard metric chains are constructed from 4 mm diameter galvanized mild steel wire.",
+    "public_qn": "70024.230044"
+  },
+  {
+    "id": 54696,
+    "q": "15. An invar tape is generally used... because it possesses ___ coefficient of thermal expansion.",
+    "options": [
+      "zero",
+      "low",
+      "high",
+      "none"
+    ],
+    "correct": 1,
+    "explain": "Invar (an alloy of nickel and steel) has an extremely low coefficient of thermal expansion, making it highly stable during temperature changes.",
+    "public_qn": "70024.230045"
+  },
+  {
+    "id": 54697,
+    "q": "16. The instrument attached to the wheel of a vehicle in order to measure the distance travelled, is called",
+    "options": [
+      "passometer",
+      "pedometer",
+      "odometer",
+      "speedometer"
+    ],
+    "correct": 2,
+    "explain": "An odometer (or wheel-pedometer) measures distance based on the number of revolutions of a wheel of known circumference.",
+    "public_qn": "70024.230046"
+  },
+  {
+    "id": 52264,
+    "q": "17. Offsets are",
+    "options": [
+      "chain lines out of alignment",
+      "small measurements from chain line",
+      "measurements taken in chain surveying",
+      "none of the above"
+    ],
+    "correct": 1,
+    "explain": "An offset is defined as a short lateral measurement taken from the chain line to locate a detail point lying off the chain line.",
+    "public_qn": "70024.240003"
+  },
+  {
+    "id": 52266,
+    "q": "18. When a chain is used at a temperature more than the temperature it was calibrated, the error in measured length will be",
+    "options": [
+      "cumulative",
+      "compensating",
+      "negative",
+      "observational error"
+    ],
+    "correct": 0,
+    "explain": "A chain used at a higher temperature than its standardisation temperature expands, so it becomes effectively too long for every measurement, making the resulting error cumulative (in one consistent direction).",
+    "public_qn": "70024.240006"
+  },
+  {
+    "id": 52271,
+    "q": "19. The permissible limits of error in chaining for measurement on rough of hilly ground is",
+    "options": [
+      "1 : 2000",
+      "1: 1000",
+      "1: 500",
+      "1 : 250"
+    ],
+    "correct": 3,
+    "explain": "For chaining on rough or hilly ground, where conditions are difficult, a comparatively lower precision of about 1 in 250 is considered permissible.",
+    "public_qn": "70024.240011"
+  },
+  {
+    "id": 54711,
+    "q": "20. The obstacle, which obstructs vision but not chaining is a",
+    "options": [
+      "river",
+      "pond",
+      "hill",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "A hill or rising ground prevents you from seeing the other station (obstructs vision), but you can still walk over it and measure the distance with a chain (chaining is possible).",
+    "public_qn": "70024.230053"
+  },
+  {
+    "id": 52277,
+    "q": "21. The length of a ranging rod should be",
+    "options": [
+      "1.5 to 2 m",
+      "2 to 3 m",
+      "3 to 4 m",
+      "2.5 to 4.5 m"
+    ],
+    "correct": 1,
+    "explain": "A standard ranging rod is generally made 2 to 3 m long, painted in alternate red and white (or black) bands of 20 cm each for visibility.",
+    "public_qn": "70024.240019"
+  },
+  {
+    "id": 52278,
+    "q": "22. The principle of optics used in the construction of an optical square is",
+    "options": [
+      "reflection measures by",
+      "double reflection principle",
+      "refraction",
+      "double refraction"
+    ],
+    "correct": 1,
+    "explain": "An optical square works on the principle of double reflection, using two mirrors inclined at 45 deg to each other to deviate a ray of light through exactly 90 deg.",
+    "public_qn": "70024.240021"
+  },
+  {
+    "id": 54718,
+    "q": "23. The least count of a vernier scale is",
+    "options": [
+      "sum of the smallest divisions of main and vernier scales",
+      "value of one division of the primary scale divided by total number of divisions of vernier scale",
+      "value of one division of vernier scale divided by total number of divisions of primary scale",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Least Count (LC) = $s/n$, where 's' is the value of the smallest division on the main scale and 'n' is the number of divisions on the vernier scale.",
+    "public_qn": "70024.240008"
+  },
+  {
+    "id": 54722,
+    "q": "24. Ranging is an operation of",
+    "options": [
+      "reconnaissance",
+      "judging the distance",
+      "determination of slope",
+      "establishing intermediate points between terminals"
+    ],
+    "correct": 3,
+    "explain": "Ranging is the process of locating intermediate points on a straight line between two fixed end stations so that the distance can be measured accurately.",
+    "public_qn": "70024.240018"
+  },
+  {
+    "id": 54737,
+    "q": "25. The maximum tolerance in 20 m chain is",
+    "options": [
+      "+- 2 mm",
+      "+- 3 mm",
+      "+- 5 mm",
+      "+- 8 mm"
+    ],
+    "correct": 2,
+    "explain": "According to standard specifications, the permissible error for a 20 m metric chain is $pm 5$ mm.",
+    "public_qn": "70024.240029"
+  },
+  {
+    "id": 52330,
+    "q": "26. The error in measured length due to incorrect holding of chain is",
+    "options": [
+      "compensating error",
+      "cumulative error",
+      "instrumental error",
+      "negative error"
+    ],
+    "correct": 0,
+    "explain": "Incorrect holding of the chain (not exactly along the line) sometimes lengthens and sometimes shortens the measured length randomly, so it is classified as a compensating (accidental) error.",
+    "public_qn": "70024.240026"
+  },
+  {
+    "id": 52020,
+    "q": "27. One mile equals to",
+    "options": [
+      "60 Gunter's Chain",
+      "80 Gunter's Chain",
+      "100 Gunter's Chain",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "Since a Gunter's chain is 66 feet long and one mile is 5280 feet, one mile equals 5280/66 = 80 Gunter's chains.",
+    "public_qn": "70024.240032"
+  },
+  {
+    "id": 54922,
+    "q": "28. The distances AC and BC are measured from two fixed points A and B whose distance AB is known. The point C is plotted by intersection. This method is generally adopted in .............",
+    "options": [
+      "chain surveying",
+      "traverse method of surveying",
+      "triangulation",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Locating a point by measuring two linear distances from two known points is the fundamental principle of offset measurement in chain surveying.",
+    "public_qn": "70024.240053"
+  },
+  {
+    "id": 54925,
+    "q": "29. The method of reversal .............",
+    "options": [
+      "is usually directed to examine whether a certain part is truly parallel or perpendicular to another",
+      "makes the erroneous relationship between parts evident",
+      "both 'a' and 'b'",
+      "neither 'a' nor 'b'"
+    ],
+    "correct": 2,
+    "explain": "Reversing the instrument (like face left/face right) doubles the instrumental error, making it clearly visible so it can be corrected or averaged out.",
+    "public_qn": "70024.240055"
+  },
+  {
+    "id": 54926,
+    "q": "30. The apparent error on reversal is .............",
+    "options": [
+      "equal to the actual error",
+      "twice the actual error",
+      "thrice the actual error",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "When you reverse an instrument, the existing error is applied in the opposite direction, making the apparent gap between the two readings twice the actual error.",
+    "public_qn": "70024.240056"
+  },
+  {
+    "id": 54967,
+    "q": "31. Metric chains are generally available in .............",
+    "options": [
+      "10 m and 20 m length",
+      "15 m and 20 m length",
+      "20 m and 30 m length",
+      "25 m and 100 m length"
+    ],
+    "correct": 2,
+    "explain": "Standard IS metric chains are manufactured in lengths of 5, 10, 20, and 30 meters. 20m and 30m are the most common in field work.",
+    "public_qn": "70024.250004"
+  },
+  {
+    "id": 54974,
+    "q": "32. A tie line in a chain surveying .............",
+    "options": [
+      "checks the accuracy of the framework",
+      "enables the surveyor to locate the interior details which are far away from the main chain lines",
+      "fixed up the directions of all other lines",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Tie lines are secondary lines used to pick up interior details that are too far from the main survey lines to be accurately measured by offsets.",
+    "public_qn": "70024.250007"
   },
   {
     "id": 54994,
-    "q": "2. An average length of a pace is",
+    "q": "33. An average length of a pace is",
     "options": [
       "60 cm",
       "80 cm",
@@ -26,21 +429,8 @@
     "public_qn": "70024.250029"
   },
   {
-    "id": 55002,
-    "q": "3. The distance between steps for measuring downhill to obtain better accuracy",
-    "options": [
-      "decreases with decrease of slope",
-      "increases with increase of slope",
-      "decreases with increase of slope",
-      "decreases with decrease of weight of the chain"
-    ],
-    "correct": 2,
-    "explain": "In the 'stepping method' of chaining on sloping ground, steps must be shorter as the slope gets steeper to maintain a horizontal chain and minimize errors.",
-    "public_qn": "70024.250030"
-  },
-  {
     "id": 55007,
-    "q": "4. An instrument used for ranging is",
+    "q": "34. An instrument used for ranging is",
     "options": [
       "optical square",
       "line ranger",
@@ -52,125 +442,8 @@
     "public_qn": "70024.250031"
   },
   {
-    "id": 54563,
-    "q": "5. The correction for sag is",
-    "options": [
-      "always additive",
-      "always subtractive",
-      "always zero",
-      "sometimes additive and sometimes subtractive"
-    ],
-    "correct": 1,
-    "explain": "Sag makes the measured distance between two points appear longer than the actual horizontal distance; therefore, the correction is always negative (subtractive).",
-    "public_qn": "70024.250023"
-  },
-  {
-    "id": 54564,
-    "q": "6. Number of links per metre length of a chain are",
-    "options": [
-      "2",
-      "5",
-      "8",
-      "10"
-    ],
-    "correct": 1,
-    "explain": "In a metric chain (like 20m or 30m), each link is 20cm (0.2m) long, meaning there are 5 links per meter.",
-    "public_qn": "70024.250024"
-  },
-  {
-    "id": 54576,
-    "q": "7. The cross staff is carried out for",
-    "options": [
-      "city surveys",
-      "topographical survey",
-      "revenue surveys",
-      "canal surveys"
-    ],
-    "correct": 2,
-    "explain": "Revenue surveys (dealing with land boundaries and property) often use simple tools like the cross-staff for setting out perpendicular offsets from chain lines.",
-    "public_qn": "70024.250025"
-  },
-  {
-    "id": 54584,
-    "q": "8. If a chain is used at a temperature .....the tempr at which it was calibrated one, the error in measured length is negative",
-    "options": [
-      "equal to",
-      "lower than",
-      "higher than",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "Heat causes the metal chain to expand (become longer). Since the chain is longer than it should be, it records a measurement smaller than the actual distance, resulting in a positive error (higher than expected).",
-    "public_qn": "70024.250026"
-  },
-  {
-    "id": 54585,
-    "q": "9. The error in measured length due to sag of chain or tape is known as",
-    "options": [
-      "positive error",
-      "negative error",
-      "compensating error",
-      "instrumental error"
-    ],
-    "correct": 0,
-    "explain": "Sag makes the chain follow a curve rather than a straight line. The measured distance recorded is thus greater than the actual straight-line distance, which is a positive error.",
-    "public_qn": "70024.250027"
-  },
-  {
-    "id": 54586,
-    "q": "10. When the measured length is less than the actual length, the error is known as",
-    "options": [
-      "positive error",
-      "negative error",
-      "compensating error",
-      "instrumental error"
-    ],
-    "correct": 1,
-    "explain": "If the result of the measurement is smaller than the true value, the error is defined as negative.",
-    "public_qn": "70024.250028"
-  },
-  {
-    "id": 54614,
-    "q": "11. The position of point can be fixed more accurately by .............",
-    "options": [
-      "cross staff",
-      "optical square",
-      "oblique offsets",
-      "perpendicular offsets"
-    ],
-    "correct": 3,
-    "explain": "Perpendicular offsets are generally more accurate and easier to plot than oblique offsets because they provide the shortest distance from the chain line to the object.",
-    "public_qn": "70024.250032"
-  },
-  {
-    "id": 54615,
-    "q": "12. A 20 m long chain when should not show an error exceeding .............",
-    "options": [
-      "2 mm per meter length and 5 mm in the overall length",
-      "2 mm per meter length and 8 mm in the overall length",
-      "2 mm per meter length and 20 mm in the overall length",
-      "2 mm per meter length and 40 mm in the overall length"
-    ],
-    "correct": 0,
-    "explain": "Standard tolerance for a 20m chain is ±5mm, while for a 30m chain it is ±8mm.",
-    "public_qn": "70024.250033"
-  },
-  {
-    "id": 54621,
-    "q": "13. Ranging in chain survey means .............",
-    "options": [
-      "looking at an isolated",
-      "establishing an intermediate point on the line",
-      "determining the distance between end points",
-      "determining the offset distance"
-    ],
-    "correct": 1,
-    "explain": "Ranging is the process of locating intermediate points on a straight line between two fixed stations so that the distance can be measured accurately.",
-    "public_qn": "70024.250034"
-  },
-  {
     "id": 54624,
-    "q": "14. Chain surveying consists of the arrangement of framework of triangles because a triangle is the only simple plane figure which can be plotted uniquely if ............. of the triangle are known.",
+    "q": "35. Chain surveying consists of the arrangement of framework of triangles because a triangle is the only simple plane figure which can be plotted uniquely if ............. of the triangle are known.",
     "options": [
       "three sides",
       "three angles",
@@ -182,86 +455,8 @@
     "public_qn": "70024.250035"
   },
   {
-    "id": 54626,
-    "q": "15. If the length of a chain line along a slope of θ° is l, the required slope correction is .............",
-    "options": [
-      "2l cos² θ/2",
-      "2l sin² θ/2",
-      "l tan² θ/2",
-      "l cos² θ"
-    ],
-    "correct": 1,
-    "explain": "The correction is $l(1 - \\cos \\theta)$, which simplifies using trigonometric identity $1 - \\cos \\theta = 2 \\sin^2 (\\theta/2)$.",
-    "public_qn": "70024.250036"
-  },
-  {
-    "id": 54627,
-    "q": "16. A tape of length l and weight W kg/m is suspended at its ends with a pull of p kg, the sag correction is .............",
-    "options": [
-      "l³ W² / 24 P²",
-      "l² W³ / 24 P²",
-      "l² W² / 24 P³",
-      "l W² / 24 P"
-    ],
-    "correct": 0,
-    "explain": "The standard formula for sag correction is $C_s = \frac{W^2 L}{24 P^2}$, where $W$ is the total weight ($w \times L$). If $W$ is weight per unit length, the formula is $\frac{w^2 L^3}{24 P^2}$.",
-    "public_qn": "70024.250037"
-  },
-  {
-    "id": 54628,
-    "q": "17. Accidental or compensating errors of length L are proportional to .............",
-    "options": [
-      "L",
-      "√L",
-      "∛L",
-      "1/√L"
-    ],
-    "correct": 1,
-    "explain": "According to the law of probability, accidental errors (which are as likely to be positive as negative) tend to increase in proportion to the square root of the number of observations or length.",
-    "public_qn": "70024.250038"
-  },
-  {
-    "id": 54629,
-    "q": "18. While measuring a chain line between two stations A and B intervened by a raised ground .............",
-    "options": [
-      "vision gets obstructed",
-      "chaining gets obstructed",
-      "both vision and chaining get obstructed",
-      "all the above"
-    ],
-    "correct": 0,
-    "explain": "Raised ground primarily obstructs vision (intervisibility), necessitating indirect ranging, although the actual physical chaining (measurement) might still be possible.",
-    "public_qn": "70024.250039"
-  },
-  {
-    "id": 54630,
-    "q": "19. Prolongation of chain line across an obstruction chain surveying, is done by .............",
-    "options": [
-      "making angular measurements",
-      "drawing perpendiculars with a chain",
-      "solution of triangles",
-      "all the above"
-    ],
-    "correct": 1,
-    "explain": "In pure chain surveying (without a theodolite), obstructions are bypassed using geometric constructions like perpendiculars or parallel lines created only with the chain.",
-    "public_qn": "70024.250040"
-  },
-  {
-    "id": 54634,
-    "q": "20. A clinometer is used for .............",
-    "options": [
-      "measuring angle of slope",
-      "correcting line of collimation",
-      "setting out right angles",
-      "defining natural features"
-    ],
-    "correct": 0,
-    "explain": "A clinometer is a simple instrument used to measure angles of slope, elevation, or depression of an object with respect to gravity.",
-    "public_qn": "70024.250041"
-  },
-  {
     "id": 54642,
-    "q": "21. The ranging of the line between two stations across raised ground is called .............",
+    "q": "36. The ranging of the line between two stations across raised ground is called .............",
     "options": [
       "direct ranging",
       "indirect ranging",
@@ -273,21 +468,8 @@
     "public_qn": "70024.250042"
   },
   {
-    "id": 54762,
-    "q": "22. If L is the distance between two supports from which a tape is suspended under a pull P. If W is the total weight of the tape the sag correction is .............",
-    "options": [
-      "L/12 (W/P)²",
-      "L/24 (W/P)²",
-      "L/36 (W/P)",
-      "L/24 (W/P)³"
-    ],
-    "correct": 1,
-    "explain": "The standard formula for sag correction when using the total weight W is $C_s = \frac{W^2 L}{24 P^2}$.",
-    "public_qn": "70024.250043"
-  },
-  {
     "id": 54790,
-    "q": "23. Distance between two stations A and B is 200 m whereas their difference in elevations is 2 m. hence horizontal distance between A and B is .............",
+    "q": "37. Distance between two stations A and B is 200 m whereas their difference in elevations is 2 m. hence horizontal distance between A and B is .............",
     "options": [
       "199 m",
       "199.9 m",
@@ -299,21 +481,8 @@
     "public_qn": "70024.250044"
   },
   {
-    "id": 54791,
-    "q": "24. Correct length of a 50 m tape, weighing 1.2 kg when a pull of 12 kg is applied at the ends and is freely suspended is .............",
-    "options": [
-      "49.98 m",
-      "49.96 m",
-      "50.02 m",
-      "50.04 m"
-    ],
-    "correct": 0,
-    "explain": "Using the sag correction formula $\frac{W^2 L}{24 P^2} = \frac{1.2^2 \times 50}{24 \times 12^2} = \frac{72}{3456} ≈ 0.02$m. Corrected length = $50 - 0.02 = 49.98$ m.",
-    "public_qn": "70024.250045"
-  },
-  {
     "id": 54803,
-    "q": "25. Long offsets are taken if the offset length exceeds .............",
+    "q": "38. Long offsets are taken if the offset length exceeds .............",
     "options": [
       "5 m",
       "10 m",
@@ -325,21 +494,8 @@
     "public_qn": "70024.250046"
   },
   {
-    "id": 54804,
-    "q": "26. The angle between two plane mirrors of the optical square is kept .............",
-    "options": [
-      "30°",
-      "45°",
-      "60°",
-      "90°"
-    ],
-    "correct": 1,
-    "explain": "To deflect a line of sight by 90° using reflection, the mirrors must be placed at exactly half that angle, which is 45°.",
-    "public_qn": "70024.250047"
-  },
-  {
     "id": 54832,
-    "q": "27. If a 30 m chain diverges through a perpendicular distance from its correct alignment, the error in length is .............",
+    "q": "39. If a 30 m chain diverges through a perpendicular distance from its correct alignment, the error in length is .............",
     "options": [
       "d²/60 m",
       "d²/30 m",

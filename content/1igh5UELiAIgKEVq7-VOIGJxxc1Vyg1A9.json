@@ -1,20 +1,385 @@
 [
   {
-    "id": 44966,
-    "q": "1. Modulus of rupture of concrete is measure of :",
+    "id": 52544,
+    "q": "1. Workability of concrete is measured by",
     "options": [
-      "compressive strength",
-      "flexural tensile strength",
-      "direct tensile strength",
+      "vicat apparatus test",
+      "slump test",
+      "minimum void method",
+      "talbot richard test"
+    ],
+    "correct": 1,
+    "explain": "The slump test is the standard field and lab method used to measure the consistency/workability of fresh concrete.",
+    "public_qn": "70046.310001"
+  },
+  {
+    "id": 33431,
+    "q": "2. The compressive strength of an ordinary Portland cement (1: 3 cement mortar cube) after 7 days test should not be less than",
+    "options": [
+      "11N/mm2",
+      "17.5 N/mm2",
+      "22 N/mm2",
+      "27.5 N/mm2"
+    ],
+    "correct": 1,
+    "explain": "As per IS specifications, a 1:3 cement-sand mortar cube of ordinary Portland cement must achieve a minimum compressive strength of 17.5 N/mm² after 7 days.",
+    "public_qn": "70046.310003"
+  },
+  {
+    "id": 52365,
+    "q": "3. Poisons ratio for concrete",
+    "options": [
+      "remains constant",
+      "increases with richer mix",
+      "decreases with richer mix",
       "none of the above"
     ],
     "correct": 1,
-    "explain": "Modulus of rupture is obtained from a beam flexure test and represents the flexural (bending) tensile strength of concrete.",
-    "public_qn": "70046.330001"
+    "explain": "As per this text, Poisson's ratio of concrete tends to increase as the mix becomes richer (higher cement content).",
+    "public_qn": "70046.310008"
+  },
+  {
+    "id": 52368,
+    "q": "4. Minimum grade of concrete to be used in RCC as per IS 456: 1978 is",
+    "options": [
+      "M10",
+      "M15",
+      "M20",
+      "M25"
+    ],
+    "correct": 1,
+    "explain": "As per the (older) IS 456:1978 provisions referenced here, M10 was permitted as the minimum grade usable in reinforced cement concrete.",
+    "public_qn": "70046.310009"
+  },
+  {
+    "id": 33151,
+    "q": "5. The approx. ratio of the direct tensile strength to direct compressible strength test is",
+    "options": [
+      "0.33",
+      "0.25",
+      "0.10",
+      "0.05"
+    ],
+    "correct": 2,
+    "explain": "The direct tensile strength of concrete is generally only about 1/10th (0.10) of its direct compressive strength, reflecting concrete's inherent weakness in tension.",
+    "public_qn": "70046.310010"
+  },
+  {
+    "id": 33163,
+    "q": "6. Pick up the incorrect statement from the following:",
+    "options": [
+      "The degree of grinding of cement, is called fineness",
+      "The process of changing cement paste into hard mass, is known as setting of cement.",
+      "The phenomenon by virtue to which cements does not allow transmission of sound, is known as soundness of cement.",
+      "The heat generated during chemical reaction of cement with water, is known as neat of hydration."
+    ],
+    "correct": 2,
+    "explain": "This statement is incorrect: soundness of cement actually refers to its ability to resist volume expansion/change after setting, not to sound transmission — the two share a similar-sounding name but different meanings.",
+    "public_qn": "70046.130045"
+  },
+  {
+    "id": 45236,
+    "q": "7. Water required for M25 concrete per bag of cement, is",
+    "options": [
+      "7 kg",
+      "14 kg",
+      "21 kg",
+      "35 kg"
+    ],
+    "correct": 3,
+    "explain": "As per the standard nominal mix proportioning tables referenced in this text, the water requirement per 50 kg bag of cement for M25 grade concrete is taken as 35 kg.",
+    "public_qn": "70046.310014"
+  },
+  {
+    "id": 33192,
+    "q": "8. The ratio of various ingredients (cement, sand, aggregates) in concrete of grade M20, is",
+    "options": [
+      "1 : 2 : 4",
+      "1: 3: 6",
+      "1:1.5:3",
+      "1: 1: 2"
+    ],
+    "correct": 2,
+    "explain": "The nominal mix proportion traditionally associated with grade M20 concrete is 1 : 1.5 : 3 (cement : sand : coarse aggregate).",
+    "public_qn": "70046.310019"
+  },
+  {
+    "id": 33194,
+    "q": "9. The 28 days cube strength of mass concrete using aggregates of maximum size 5 cm for gravity dams should be",
+    "options": [
+      "between 150 to 300 kg/cm2",
+      "between 350 to 600 kg/cm2",
+      "between 150 to 500 kg/cm2",
+      "below 200 kg/cm2"
+    ],
+    "correct": 2,
+    "explain": "Mass concrete for gravity dams using 5cm maximum size aggregate is typically specified to achieve a 28-day cube strength ranging between 150 to 500 kg/cm².",
+    "public_qn": "70046.310020"
+  },
+  {
+    "id": 52692,
+    "q": "10. The minimum quantity of cement to be used in controlled concrete is specified is",
+    "options": [
+      "120 kg/cm3",
+      "160 kg/cm3",
+      "220 kg/cm3",
+      "280 kg/cm3"
+    ],
+    "correct": 2,
+    "explain": "For controlled concrete mix design, the minimum cement content specified in this text is 220 kg per cubic metre.",
+    "public_qn": "70046.310023"
+  },
+  {
+    "id": 52693,
+    "q": "11. The concrete in which no preliminary tests are performed for designing the mix is called",
+    "options": [
+      "rich concrete",
+      "controlled concrete",
+      "lean concrete",
+      "ordinary concrete"
+    ],
+    "correct": 3,
+    "explain": "Ordinary concrete uses fixed nominal mix proportions without preliminary trial-mix testing, unlike controlled concrete.",
+    "public_qn": "70046.310024"
+  },
+  {
+    "id": 44905,
+    "q": "12. Proper proportioning of concrete, ensures",
+    "options": [
+      "desired strength and workability",
+      "desired durability",
+      "water tightness of the structure",
+      "resistance to wear",
+      "all of the above"
+    ],
+    "correct": 4,
+    "explain": "Correct mix proportioning of cement, aggregates, and water ensures all these desirable properties - strength, workability, durability, water tightness, and wear resistance - together.",
+    "public_qn": "70046.310026"
+  },
+  {
+    "id": 44910,
+    "q": "13. Pick up the incorrect statement from the following. While performing preliminary test on concrete",
+    "options": [
+      "proportions of the material and water should be the same as to be used at the work site",
+      "cement should be mixed by hand in order to maintain uniformity",
+      "concrete mix should be stored in air-tight containers",
+      "concrete ingredients should be kept at a temperature of 37 deg +/- 2 deg C"
+    ],
+    "correct": 3,
+    "explain": "For preliminary tests, mixing should ideally be done as it would be at the site (usually by machine, not hand) to reflect actual site conditions; mixing by hand purely 'to maintain uniformity' is not the correct requirement, making this statement incorrect.",
+    "public_qn": "70046.310030"
+  },
+  {
+    "id": 44920,
+    "q": "14. The following proportion of the ingredients or concrete mix, is not in confirmation to arbitrary method of proportioning",
+    "options": [
+      "1:1:2",
+      "1:2:4",
+      "1:3:6",
+      "1:4:10"
+    ],
+    "correct": 3,
+    "explain": "In the arbitrary method, the standard nominal mixes follow ratios like 1:1:2, 1:2:4, 1:3:6, 1:4:8; the ratio 1:4:10 does not fit this standard arbitrary series.",
+    "public_qn": "70046.310034"
+  },
+  {
+    "id": 52613,
+    "q": "15. The value of vee bee time for low workability as per IS is prescribed as",
+    "options": [
+      "2-5 seconds",
+      "5-10 seconds",
+      "10-20 seconds",
+      "20-30 seconds"
+    ],
+    "correct": 1,
+    "explain": "As per IS classification, low workability concrete corresponds to a Vee-Bee time of about 10 to 20 seconds.",
+    "public_qn": "70046.310041"
+  },
+  {
+    "id": 52614,
+    "q": "16. If the compacting factor of concrete is 0.90, then the workability according to IS is",
+    "options": [
+      "very low",
+      "low",
+      "medium",
+      "high"
+    ],
+    "correct": 2,
+    "explain": "As per the IS classification table used in this text, a compacting factor of 0.90 falls in the 'low' workability category.",
+    "public_qn": "70046.310043"
+  },
+  {
+    "id": 33125,
+    "q": "17. Cube test is used to determine",
+    "options": [
+      "Compressive strength",
+      "Tensile strength of concrete",
+      "water cement ratio",
+      "None of the above"
+    ],
+    "correct": 0,
+    "explain": "The standard cube test is specifically designed to determine the compressive strength of concrete, the most commonly required strength parameter.",
+    "public_qn": "70046.310050"
+  },
+  {
+    "id": 45203,
+    "q": "18. For cylindrical specimens, minimum strength required should be",
+    "options": [
+      "0.20 times the strength of 15 cm cubes",
+      "0.40 times the strength of 15 cm cubes",
+      "0.60 times the strength of 15 cm cubes",
+      "0.80 times the strength of 15 cm cubes"
+    ],
+    "correct": 3,
+    "explain": "The compressive strength obtained from a standard cylinder is typically about 0.80 times the strength of an equivalent 15 cm cube, due to the difference in specimen shape and testing conditions.",
+    "public_qn": "70046.320001"
+  },
+  {
+    "id": 45205,
+    "q": "19. During application of load on cylindrical specimen the failure plane makes an angle of .........with the horizontal.",
+    "options": [
+      "30 deg",
+      "45 deg",
+      "60 deg",
+      "75 deg"
+    ],
+    "correct": 2,
+    "explain": "Under compressive load, cylindrical concrete specimens typically fail along a shear plane inclined at approximately 60 degrees to the horizontal (or about 30 degrees to the vertical axis of loading).",
+    "public_qn": "70046.320003"
+  },
+  {
+    "id": 45216,
+    "q": "20. The strength of concrete is decreased by",
+    "options": [
+      "vibration",
+      "impact",
+      "fatigue",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Excessive vibration (over-vibration), impact loading, and fatigue (repeated cyclic loading) can all contribute to a decrease in the effective strength of concrete over time.",
+    "public_qn": "70046.320007"
+  },
+  {
+    "id": 45217,
+    "q": "21. The most appropriate method to specify the concrete mix is by",
+    "options": [
+      "the nominal mix ratio",
+      "the designed mix ratio",
+      "the degree of control",
+      "the grade of concrete"
+    ],
+    "correct": 3,
+    "explain": "Specifying concrete by its grade (e.g., M20, M25) is considered the most appropriate and standardized method, as it directly denotes the required characteristic compressive strength.",
+    "public_qn": "70046.320008"
+  },
+  {
+    "id": 45218,
+    "q": "22. The total number of grades of ordinary concrete stipulated in IS 456:2000 are",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correct": 0,
+    "explain": "IS 456:2000 stipulates a total of 6 grades under the ordinary concrete category (M10, M15, M20, M25, M30... within the ordinary grade group).",
+    "public_qn": "70046.320009"
+  },
+  {
+    "id": 52664,
+    "q": "23. Which of the following grade is not recommended by IS 456:1978",
+    "options": [
+      "M10",
+      "M20",
+      "M40",
+      "M55"
+    ],
+    "correct": 3,
+    "explain": "M55 grade is not among the standard grades listed/recommended under the (older) IS 456:1978 provisions referenced in this text.",
+    "public_qn": "70046.320018"
+  },
+  {
+    "id": 52415,
+    "q": "24. In preliminary test, the concrete is placed in the mould in ......... layers of equal volume.",
+    "options": [
+      "two",
+      "three",
+      "four",
+      "five"
+    ],
+    "correct": 1,
+    "explain": "As per standard cube/cylinder casting procedure for preliminary tests, concrete is placed and compacted in three equal layers.",
+    "public_qn": "70046.320020"
+  },
+  {
+    "id": 52465,
+    "q": "25. The relation between modulus of rupture fcr and characteristic strength fck is given by",
+    "options": [
+      "fcr = 0.35√fck",
+      "fcr = 0.5√fck",
+      "fcr = 0.7√fck",
+      "fcr = 1.2√fck"
+    ],
+    "correct": 2,
+    "explain": "As per IS 456, the flexural strength (modulus of rupture) of concrete is related to its characteristic compressive strength by fcr = 0.7√fck.",
+    "public_qn": "70046.320029"
+  },
+  {
+    "id": 45153,
+    "q": "26. The main purpose of concrete design mix is",
+    "options": [
+      "economise the cost of concrete",
+      "mixing the concrete in better way",
+      "selection of ingredients of concrete",
+      "none of the above"
+    ],
+    "correct": 0,
+    "explain": "Design mixing proportions the ingredients scientifically to achieve the required strength and durability at the most economical cement content, making cost economy its main purpose.",
+    "public_qn": "70046.320035"
+  },
+  {
+    "id": 52523,
+    "q": "27. For reinforced concrete exposed to sulphate attack minimum grade required is",
+    "options": [
+      "M10",
+      "M15",
+      "M20",
+      "M25"
+    ],
+    "correct": 2,
+    "explain": "As per the durability requirement referenced in this text, the minimum grade specified for reinforced concrete exposed to sulphate attack is M10.",
+    "public_qn": "70046.320043"
+  },
+  {
+    "id": 52524,
+    "q": "28. The total chloride content as percentage of mass of cement in concrete mix should be limited",
+    "options": [
+      "0.06",
+      "0.10",
+      "0.16",
+      "0.20"
+    ],
+    "correct": 2,
+    "explain": "as per zonetech 0.1. As per durability provisions, the total chloride content in a concrete mix (as percentage of cement mass) should be limited to 0.16% to control the risk of reinforcement corrosion.",
+    "public_qn": "70046.320044"
+  },
+  {
+    "id": 52532,
+    "q": "29. For highly loaded columns, the concrete mix used is of proportion .........:",
+    "options": [
+      "1:1:2",
+      "1:1.5:3",
+      "1:2:4",
+      "1:3:6"
+    ],
+    "correct": 0,
+    "explain": "Highly loaded columns require a rich, high-strength concrete mix, so a proportion of 1:1:2 (equivalent to a high grade) is used.",
+    "public_qn": "70046.320048"
   },
   {
     "id": 44975,
-    "q": "2. To determine the modulus of rupture, the size of test specimen used is",
+    "q": "30. To determine the modulus of rupture, the size of test specimen used is",
     "options": [
       "150 x150 x500 mm",
       "100 x100 x500 mm",
@@ -26,21 +391,8 @@
     "public_qn": "70046.330002"
   },
   {
-    "id": 44981,
-    "q": "3. The individual variation between test strength of sample should not be more than",
-    "options": [
-      "±5% of average",
-      "±10% of average",
-      "± 15% of average",
-      "±20% of average"
-    ],
-    "correct": 2,
-    "explain": "As per test acceptance criteria, the deviation of an individual test result from the average of the sample should not exceed ±15% of the average value.",
-    "public_qn": "70046.330003"
-  },
-  {
     "id": 44986,
-    "q": "4. Age factor for permissible compressive stress in concrete after six months is :",
+    "q": "31. Age factor for permissible compressive stress in concrete after six months is :",
     "options": [
       "1.10",
       "1.20",
