@@ -649,9 +649,6 @@ const DRIVE = {
       "4.9 TOTAL STATION": {
         "All": "1ipxIEvTPBRYGcP5vC3ckCwOB_T0jiT6J"
       },
-      "4.12 Mixed Questions": {
-        "part 1": "1fOvqeMvr-nRFYN9GffGkVVR-bT_nKvG3"
-      },
       "4.13 Original Questions": {
         "Dprasad.350-455": "1K1C4cyYliqsH84pwlxrBmux8HNUtv9Ra",
         "Dprasad.1-100": "1yXZHd56UGxIi5RGl4XA-600dDaq8PpDR",
