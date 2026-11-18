@@ -1,7 +1,20 @@
 [
   {
+    "id": 52123,
+    "q": "1. The curvature of the earth is taken into consideration if the limit of survey is:",
+    "options": [
+      "50 to 100km2",
+      "100 to 200 km2",
+      "200 to 260 km2",
+      "more than 260km2"
+    ],
+    "correct": 3,
+    "explain": "Surveys covering an area of more than 260 km2 are treated as geodetic surveys, where the curvature of the earth must be accounted for; below this the earth's surface is assumed to be a plane.",
+    "public_qn": "70024.110002"
+  },
+  {
     "id": 52124,
-    "q": "1. The difference in the lengths of an arc and its subtended chord on the earth surface for a distance of 18.2 km, is only",
+    "q": "2. The difference in the lengths of an arc and its subtended chord on the earth surface for a distance of 18.2 km, is only",
     "options": [
       "5 cm",
       "10 mm",
@@ -14,7 +27,7 @@
   },
   {
     "id": 52125,
-    "q": "2. Surveys which are carried out to depict mountains, rivers, water bodies, wooded areas and other cultural details, are known as",
+    "q": "3. Surveys which are carried out to depict mountains, rivers, water bodies, wooded areas and other cultural details, are known as",
     "options": [
       "cadastral surveys",
       "city surveys",
@@ -27,7 +40,7 @@
   },
   {
     "id": 52126,
-    "q": "3. Surveys which are carried out to provide a national grid of control for preparation of accurate maps of large areas, are known",
+    "q": "4. Surveys which are carried out to provide a national grid of control for preparation of accurate maps of large areas, are known",
     "options": [
       "plane surveys",
       "geodetic surveys",
@@ -40,7 +53,7 @@
   },
   {
     "id": 52127,
-    "q": "4. The main principle of surveying is to work",
+    "q": "5. The main principle of surveying is to work",
     "options": [
       "from part to the whole",
       "from whole to the part",
@@ -52,47 +65,58 @@
     "public_qn": "70024.110009"
   },
   {
-    "id": 41418,
-    "q": "5. While surveying a plot of land by plane tabling, the field observations",
+    "id": 52132,
+    "q": "6. The object of surveying is to be prepare",
     "options": [
-      "and plotting proceed simultaneously",
-      "and plotting do not proceed simultaneously",
-      "and recorded in field books to be plotted later",
-      "all of the above"
-    ],
-    "correct": 0,
-    "explain": "Plane tabling is unique among surveying methods in that field observation and plotting happen simultaneously on the table sheet in the field itself, eliminating the need for a separate field book.",
-    "public_qn": "70024.110019"
-  },
-  {
-    "id": 41455,
-    "q": "6. Pantagraph is used for",
-    "options": [
-      "measuring distance",
-      "measuring areas",
-      "enlarging or reducing plans",
-      "setting out right angles"
+      "drawing",
+      "cross section",
+      "map",
+      "none of above"
     ],
     "correct": 2,
-    "explain": "A pantograph is a mechanical linkage instrument used to copy, enlarge, or reduce plans and drawings to a different scale.",
-    "public_qn": "70024.110029"
+    "explain": "The fundamental purpose of any survey is to determine the relative positions of points so that a map or plan of the area can be prepared.",
+    "public_qn": "70024.110016"
   },
   {
-    "id": 41470,
-    "q": "7. The branch of surveying in which both horizontal and vertical positions of a point, are determined by making instrumental observations, is known",
+    "id": 46284,
+    "q": "7. Cadastral Map is a map having:",
     "options": [
-      "tacheometry",
-      "tachemetry",
-      "telemetry",
+      "small scale",
+      "medium scale",
+      "large scale",
       "all of the above"
     ],
-    "correct": 1,
-    "explain": "As per the book's answer key, this branch is designated 'tachemetry' (an alternate spelling of tacheometry), the surveying method that determines both horizontal and vertical positions instrumentally without chaining.",
-    "public_qn": "70024.110030"
+    "correct": 2,
+    "explain": "C) **large scale**: Cadastral maps show property boundaries, house numbers, and land ownership. To show these details accurately, a large scale (e.g., 1/500 to 1/2500) is required.",
+    "public_qn": "70024.110027"
+  },
+  {
+    "id": 54537,
+    "q": "8. The difference between the sum of the angles of a spherical triangle on the earth's surface and the angles of the corresponding plane triangle for every 195.5 km² of area is only ...............",
+    "options": [
+      "1 second",
+      "5 second",
+      "10 second",
+      "15 second"
+    ],
+    "correct": 0,
+    "explain": "This is the definition of spherical excess for a triangle on the Earth's surface: 1 second per 195.5 sq. km."
+  },
+  {
+    "id": 54541,
+    "q": "9. The working from whole to the part is done in surveying in order to ensure that ...............",
+    "options": [
+      "surveying work is completed more quickly",
+      "number of errors is minimum",
+      "plotting is done more quickly",
+      "errors and mistakes of one portion do not affected the remaining portion"
+    ],
+    "correct": 3,
+    "explain": "By establishing a primary control network first, any errors in detail surveying are confined and do not spread through the whole project."
   },
   {
     "id": 52258,
-    "q": "8. Geodetic survey is different from plane surveying because of",
+    "q": "10. Geodetic survey is different from plane surveying because of",
     "options": [
       "very large area is covered",
       "the curvature of the earth is considered",
@@ -104,8 +128,21 @@
     "public_qn": "70024.110033"
   },
   {
+    "id": 52259,
+    "q": "11. In case of geographical maps, the scale is usually",
+    "options": [
+      "1 cm = 10 cm to 100cm",
+      "1cm = 50 m to 100m",
+      "1 cm = 5km to 160 km",
+      "1cm = more than 200 km"
+    ],
+    "correct": 2,
+    "explain": "Geographical maps, which cover very large regions such as countries or continents, typically use small scales in the range of about 1 cm representing 5 km up to 160 km.",
+    "public_qn": "70024.110034"
+  },
+  {
     "id": 52260,
-    "q": "9. The survey done to fix the property lines, to calculate land area for transfer of land property from one owner to another, is known as",
+    "q": "12. The survey done to fix the property lines, to calculate land area for transfer of land property from one owner to another, is known as",
     "options": [
       "cadastral survey",
       "city survey",
@@ -117,34 +154,46 @@
     "public_qn": "70024.110035"
   },
   {
-    "id": 41556,
-    "q": "10. Geodetic surveying is different from plane surveying because of",
+    "id": 52261,
+    "q": "13. The representative fraction of the scale 1cm = 1 kilometer will be",
     "options": [
-      "the curvature of earth",
-      "the large difference of elevations between various points",
-      "coverage of very large area",
-      "undulations of the topography"
+      "1/10,000",
+      "1/100",
+      "1/10,00,00",
+      "1/1,00,00,000"
     ],
     "correct": 2,
-    "explain": "Geodetic surveying differs fundamentally from plane surveying because it covers very large areas where the curvature of the earth cannot be ignored, requiring spherical (geodetic) rather than plane computations.",
-    "public_qn": "70024.110038"
+    "explain": "1 cm = 1 km = 100,000 cm, so the representative fraction is 1/1,00,000 (i.e., 1/10,00,00 in the Indian numbering format given).",
+    "public_qn": "70024.110036"
   },
   {
-    "id": 41564,
-    "q": "11. When 1 cm on a map represents 10 m on the ground, the representative fraction of the scale is",
+    "id": 52263,
+    "q": "14. A discrepancy is the difference between",
     "options": [
-      "1/10",
-      "1/100",
-      "1/1000",
-      "1/10000"
+      "true value and error",
+      "measured value and actual value",
+      "two measured values of the same quantity",
+      "None of the above"
     ],
     "correct": 2,
-    "explain": "1 cm = 10 m = 1000 cm, so the representative fraction is 1:1000, i.e., 1/1000.",
-    "public_qn": "70024.110039"
+    "explain": "A discrepancy refers to the difference between two independently measured values of the same quantity (unlike an error, which is the difference between the measured value and the true value).",
+    "public_qn": "70024.110037"
+  },
+  {
+    "id": 54704,
+    "q": "15. Surveys which are carried out to depict mountains, rivers... are known as",
+    "options": [
+      "cadastral surveys",
+      "city surveys",
+      "topographical surveys",
+      "guide map surveys"
+    ],
+    "correct": 2,
+    "explain": "Topographical surveys are used to determine the natural features of a country (mountains, rivers, lakes) and artificial features (roads, canals)."
   },
   {
     "id": 46499,
-    "q": "12. Cross hairs in surveying telescope are fitted",
+    "q": "16. Cross hairs in surveying telescope are fitted",
     "options": [
       "in the objective glass",
       "at the centre of the telescope",
@@ -157,7 +206,7 @@
   },
   {
     "id": 52321,
-    "q": "13. The curvature of the earth is taken into consideration if the limit of survey is",
+    "q": "17. The curvature of the earth is taken into consideration if the limit of survey is",
     "options": [
       "50 to 100 km2",
       "100 to 200 km2",
@@ -169,8 +218,21 @@
     "public_qn": "70024.110043"
   },
   {
+    "id": 52323,
+    "q": "18. In order to determine the natural features such as valleys, rivers, lakes etc., the surveying preferred is",
+    "options": [
+      "city surveying",
+      "location surveying",
+      "cadastral surveying",
+      "topographical surveying"
+    ],
+    "correct": 3,
+    "explain": "Topographical surveying is specifically aimed at depicting natural features of the terrain, such as valleys, rivers, and lakes.",
+    "public_qn": "70024.110044"
+  },
+  {
     "id": 52324,
-    "q": "14. The surveying used to determine additional details such as boundaries of fields, is called",
+    "q": "19. The surveying used to determine additional details such as boundaries of fields, is called",
     "options": [
       "city surveying",
       "location surveying",
@@ -182,47 +244,34 @@
     "public_qn": "70024.110045"
   },
   {
-    "id": 41361,
-    "q": "15. Mistakes which may produce a very serious effect upon the final results arise due to",
+    "id": 52325,
+    "q": "20. The fundamental principle of surveying is to work from the",
     "options": [
-      "in attention",
-      "in experience",
-      "carelessness",
-      "all of these"
+      "whole to the part",
+      "part to the whole",
+      "lower level to higher level",
+      "higher level to lower level"
+    ],
+    "correct": 0,
+    "explain": "As established earlier, the fundamental principle of surveying is to proceed from the whole (a broad framework) down to the part (detailed measurements).",
+    "public_qn": "70024.110047"
+  },
+  {
+    "id": 52326,
+    "q": "21. The working from whole to the part is done in surveying in order to ensure that",
+    "options": [
+      "survey work is completed more quickly",
+      "number of errors is minimum",
+      "plotting is done more quickly",
+      "errors and mistakes of one portion do not affect the remaining portion"
     ],
     "correct": 3,
-    "explain": "Serious mistakes in survey work generally result from a combination of human factors - inattention, inexperience, and carelessness - so all of these are valid causes.",
-    "public_qn": "70024.110046"
-  },
-  {
-    "id": 41362,
-    "q": "16. The systematic errors which persist and have regular effects in the performance of a survey operations, are due to",
-    "options": [
-      "careless",
-      "faulty instrument",
-      "inattention",
-      "none of these"
-    ],
-    "correct": 1,
-    "explain": "Systematic errors, which follow a definite mathematical/physical law and persist consistently, typically arise from a faulty (mis-calibrated or maladjusted) instrument.",
-    "public_qn": "70024.110048"
-  },
-  {
-    "id": 41363,
-    "q": "17. The method of reversal",
-    "options": [
-      "is usually directed to examine whether a certain part is truly parallel or perpendicular to another",
-      "makes the erroneous relationship between parts evident",
-      "both 'a' and 'b'",
-      "neither 'a' nor 'b'"
-    ],
-    "correct": 2,
-    "explain": "The method of reversal serves both purposes - it examines whether parts of an instrument are truly parallel/perpendicular to each other, and in doing so makes any erroneous relationship between them evident.",
-    "public_qn": "70024.110050"
+    "explain": "Working from whole to part localizes errors, so that any small error made in one part of the survey does not propagate and magnify across the rest of the survey area.",
+    "public_qn": "70024.110049"
   },
   {
     "id": 52327,
-    "q": "18. When 1 cm on a map represents 10m on the ground, the representative fraction of the scale in",
+    "q": "22. When 1 cm on a map represents 10m on the ground, the representative fraction of the scale in",
     "options": [
       "1/10",
       "1/100",
@@ -234,34 +283,33 @@
     "public_qn": "70024.120001"
   },
   {
-    "id": 41364,
-    "q": "19. The apparent error on reversal is",
+    "id": 46415,
+    "q": "23. The types of survey used for Geodetic survey is",
     "options": [
-      "equal to the actual error",
-      "twice the actual error",
-      "thrice the actual error",
-      "none of these"
+      "fly levelling",
+      "precise leveling",
+      "profile levelling",
+      "none of the above"
     ],
     "correct": 1,
-    "explain": "When an instrumental error is examined by the method of reversal, the apparent (observed) error is exactly twice the actual error present in the instrument's adjustment.",
-    "public_qn": "70024.120002"
+    "explain": "Geodetic surveys cover large areas and require extreme accuracy to account for earth's curvature, necessitating precise leveling methods.",
+    "public_qn": "70024.120004"
   },
   {
-    "id": 41402,
-    "q": "20. The angle between two plane mirrors of the optical square is kept",
+    "id": 54872,
+    "q": "24. Geodetic surveying is different from plane surveying because of .............",
     "options": [
-      "30",
-      "45",
-      "60",
-      "90"
+      "the curvature of earth",
+      "the large difference of elevations between various points",
+      "coverage of very large area",
+      "undulations of the topography"
     ],
-    "correct": 1,
-    "explain": "The two plane mirrors of an optical square are set at exactly 45 degrees to each other to achieve the required 90-degree deflection of the sight line.",
-    "public_qn": "70024.120005"
+    "correct": 0,
+    "explain": "Geodetic surveying accounts for the Earth's curvature, whereas plane surveying treats the Earth's surface as a flat plane."
   },
   {
     "id": 52021,
-    "q": "21. The missing station of the ground survey can be found out with the help of",
+    "q": "25. The missing station of the ground survey can be found out with the help of",
     "options": [
       "Key plan",
       "reference sketch",
@@ -273,8 +321,21 @@
     "public_qn": "70024.120006"
   },
   {
+    "id": 52023,
+    "q": "26. In order to determine the natural features such as valley, rivers, lakes etc., the surveying prepared is",
+    "options": [
+      "City survey",
+      "Location survey",
+      "Cadastral survey",
+      "Topographical survey"
+    ],
+    "correct": 3,
+    "explain": "As in Q201, topographical surveying is used to determine and depict natural features such as valleys, rivers, and lakes.",
+    "public_qn": "70024.120007"
+  },
+  {
     "id": 52030,
-    "q": "22. Which of the following can fulfill the objective of the airport survey?",
+    "q": "27. Which of the following can fulfill the objective of the airport survey?",
     "options": [
       "Electric line map",
       "Characteristics of soil",
@@ -286,73 +347,129 @@
     "public_qn": "70024.120008"
   },
   {
-    "id": 41213,
-    "q": "23. Grid lines are parallel to",
+    "id": 54923,
+    "q": "28. Mistakes which may produce a very serious effect upon the final results arise due to .............",
     "options": [
-      "magnetic meridian of the central point of the grid",
-      "line representing the central true meridian of the grid",
-      "geographical equator",
+      "in attention",
+      "in experience",
+      "carelessness",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Unlike systematic errors, mistakes (blunders) are caused by human error such as misreading a tape or recording a value incorrectly."
+  },
+  {
+    "id": 54939,
+    "q": "29. The principle of working from whole to part is used in surveying because .............",
+    "options": [
+      "plotting becomes easy",
+      "survey work can be completed quickly",
+      "accumulation of errors is prevented",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "By establishing a primary control network first (the whole) and then filling in details (the part), local errors are contained and do not accumulate across the entire project."
+  },
+  {
+    "id": 46248,
+    "q": "30. Angular surveying in which both horizontal and vertical positions of a point are obtained by optical means is known as",
+    "options": [
+      "tacheometry",
+      "hydrography",
+      "topography",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "Tacheometry is the branch of surveying that uses a telescope with stadia hairs to determine distances and elevations without a tape.",
+    "public_qn": "70024.120014"
+  },
+  {
+    "id": 54988,
+    "q": "31. A plain scale is used to read",
+    "options": [
+      "one dimension",
+      "two dimensions",
+      "three dimensions",
+      "all of these"
+    ],
+    "correct": 1,
+    "explain": "A plain scale represents two units or a unit and its subdivision (e.g., meters and decimeters)."
+  },
+  {
+    "id": 54989,
+    "q": "32. A diagonal scale is used to read ............ dimensions.",
+    "options": [
+      "two",
+      "three",
+      "four",
+      "five"
+    ],
+    "correct": 1,
+    "explain": "Diagonal scales are used to represent three consecutive units, such as meters, decimeters, and centimeters."
+  },
+  {
+    "id": 55008,
+    "q": "33. Survey plotting can be done with an accuracy of",
+    "options": [
+      "0.25 mm",
+      "0.5 mm",
+      "1 mm",
+      "1 cm"
+    ],
+    "correct": 0,
+    "explain": "The limit of human vision and the precision of fine drafting pencils generally limits plotting accuracy on paper to approximately 0.25 mm."
+  },
+  {
+    "id": 54613,
+    "q": "34. Systematic errors are those errors .............",
+    "options": [
+      "which cannot be recognized",
+      "whose character is understood",
+      "whose effects are cumulative and can be eliminated",
+      "none of these"
+    ],
+    "correct": 2,
+    "explain": "Systematic errors follow a definite mathematical or physical law. Because their effects are cumulative, they can be calculated and eliminated through corrections."
+  },
+  {
+    "id": 54617,
+    "q": "35. The difference in the length of an arc and its subtended chord on the earth surface for a distance of 18.2 km, is only .............",
+    "options": [
+      "1 cm",
+      "5 cm",
+      "10 cm",
+      "100 cm"
+    ],
+    "correct": 2,
+    "explain": "For a distance of 18.2 km (roughly 11.5 miles), the difference between the arc length and the chord length due to earth's curvature is approximately 0.1 meter or 10cm. Note: Standard textbooks often cite 1cm for 18.2km, though mathematically it is closer to 10cm; however, following the provided answer key 'a' suggests the 1cm convention."
+  },
+  {
+    "id": 54618,
+    "q": "36. In geodetic surveys higher accuracy is achieved, if .............",
+    "options": [
+      "curvature of the earth surface is ignored",
+      "curvature of the earth surface is taken into account",
+      "angles between the curved lines are treated as plane angles",
       "none of these"
     ],
     "correct": 1,
-    "explain": "In a survey grid system, all grid lines running north-south are drawn parallel to the line representing the central true meridian of the grid zone.",
-    "public_qn": "70024.120009"
+    "explain": "Geodetic surveying accounts for the ellipsoidal shape of the earth, which is essential for accuracy over very large distances."
   },
   {
-    "id": 41214,
-    "q": "24. The sum of the interior angles of a geometrical figure laid on the surface of the earth differs from that of the corresponding plane figure only to the extent of one second for every",
+    "id": 54619,
+    "q": "37. Hydrographic surveys deal with the mapping of .............",
     "options": [
-      "100 sq. km of area",
-      "150 sq. km of area",
-      "200 sq. km of area",
-      "none of these"
+      "large water bodies",
+      "heavenly bodies",
+      "mountainous region",
+      "canal system"
     ],
     "correct": 0,
-    "explain": "Due to the earth's curvature, the spherical excess in the interior angles of a figure on the earth's surface amounts to about one second of arc for every 100 sq. km of area (in this text's convention).",
-    "public_qn": "70024.120010"
+    "explain": "Hydrographic surveying is used for mapping physical features of water bodies like oceans, lakes, and rivers, primarily for navigation and resource management."
   },
   {
-    "id": 41242,
-    "q": "25. The fundamental principle of surveying is to work from the",
-    "options": [
-      "whole to the part",
-      "part to the whole",
-      "lower level to higher level",
-      "higher level to lower that"
-    ],
-    "correct": 0,
-    "explain": "The fundamental principle of all surveying is to work from the whole to the part, establishing a rough, accurate framework first before adding progressively finer detail within it.",
-    "public_qn": "70024.120012"
-  },
-  {
-    "id": 41079,
-    "q": "26. The working from whole to the part is done in surveying in order to ensure that",
-    "options": [
-      "surveying work is completed more quickly",
-      "number of errors is minimum",
-      "plotting is done more quickly",
-      "errors and mistakes of one portion do not affected the remaining portion"
-    ],
-    "correct": 3,
-    "explain": "Working from whole to part localizes errors - if a mistake occurs in a minor detail survey, it does not affect the accuracy of the main framework or other parts of the survey.",
-    "public_qn": "70024.120013"
-  },
-  {
-    "id": 41152,
-    "q": "27. In the surveying telescopes, cross hairs are fitted in",
-    "options": [
-      "centre of the telescope",
-      "optical centre of the eye piece",
-      "front of the eye piece",
-      "nearer to the objective"
-    ],
-    "correct": 3,
-    "explain": "Cross hairs in a surveying telescope are mounted on the diaphragm, positioned within the tube nearer to the objective lens (rather than near the eyepiece).",
-    "public_qn": "70024.120016"
-  },
-  {
-    "id": 41258,
-    "q": "28. The instrument used to reproduce plans to a different scale is called",
+    "id": 54651,
+    "q": "38. The instrument used to reproduce plans to a different scale is called .............",
     "options": [
       "planimeter",
       "clinometer",
@@ -360,12 +477,11 @@
       "pantograph"
     ],
     "correct": 3,
-    "explain": "A pantograph is the mechanical instrument specifically designed to reproduce plans and drawings at a different (enlarged or reduced) scale.",
-    "public_qn": "70024.120027"
+    "explain": "A pantograph is a mechanical device used to copy a drawing or plan at an enlarged or reduced scale."
   },
   {
-    "id": 41259,
-    "q": "29. To reproduce the given map to a small scale, positions of pointer and pencil in a pantograph are",
+    "id": 54652,
+    "q": "39. To reproduce the given map to a small scale, positions of pointer and pencil in a pantograph are .............",
     "options": [
       "pointer is to the longer arm and pencil to the shorter arm",
       "pointer to the shorter arm and pencil to the longer arm",
@@ -373,20 +489,30 @@
       "both the pointer and pencil are to the two different long arms, pencil being fixed and pointer adjusted to the scale"
     ],
     "correct": 0,
-    "explain": "To reduce a map to a smaller scale using a pantograph, the pointer (tracing the original map) is set on the longer arm while the pencil (drawing the reduced copy) is on the shorter arm, giving a scaled-down reproduction.",
-    "public_qn": "70024.120028"
+    "explain": "For reduction (small scale), the pointer (tracing original) is on the outer/longer arm and the pencil (creating the copy) is on an intermediate/shorter arm."
   },
   {
-    "id": 41318,
-    "q": "30. The method of surveying used for determining the relative height of points on the surface of the earth is called",
+    "id": 54653,
+    "q": "40. An important role in using pantograph is .............",
     "options": [
-      "leveling",
-      "simple leveling",
-      "longitudinal leveling",
-      "differential leveling"
+      "pointer, pencil and weight should fall in a straight line",
+      "pointer should never be put on the short arm",
+      "the arm on to which the weight is attached should never move",
+      "pencil is always attached to the arm on which the scale is marked"
     ],
     "correct": 0,
-    "explain": "Leveling, in its general definition, is the branch of surveying specifically used to determine the relative heights (elevations) of points on the earth's surface.",
-    "public_qn": "70024.120032"
+    "explain": "For accurate proportional scaling, the fixed point (weight/anchor), the tracing pointer, and the pencil must be collinear (lie on a single straight line)."
+  },
+  {
+    "id": 54654,
+    "q": "41. The curvature of the earth's surface is taken into account only if the extent of survey is more than .............",
+    "options": [
+      "100 sq km",
+      "160 sq km",
+      "200 sq km",
+      "260 sq km"
+    ],
+    "correct": 3,
+    "explain": "Standard practice dictates that for areas larger than 260 sq km (or sometimes cited as 195.5 sq km in specific standards), the earth's curvature cannot be ignored (Geodetic survey)."
   }
 ]

@@ -1,228 +1,79 @@
 [
   {
-    "id": 41419,
-    "q": "1. The distance between steps for measuring downhill to obtain better accuracy",
+    "id": 54746,
+    "q": "1. In case of a direct vernier scale",
     "options": [
-      "decreases with decrease of slope",
-      "increases with increase of slope",
-      "decreases with increase of slope",
-      "decreases with decrease of weight of the chain"
+      "graduations increase in opposite direction",
+      "smallest division is longer than smallest division of the main scale",
+      "graduations increase in the same direction",
+      "none of these"
     ],
     "correct": 2,
-    "explain": "On steeper downhill slopes, shorter measuring steps must be taken to maintain accuracy in stepping/chaining, so the step distance decreases as slope increases.",
-    "public_qn": "70024.210012"
+    "explain": "In a direct vernier, the scale graduations increase in the same direction as the main scale, and $n$ vernier divisions equal $(n-1)$ main scale divisions."
   },
   {
-    "id": 52142,
-    "q": "2. A plain scale is used to read",
+    "id": 54747,
+    "q": "2. An 'are' is the unit of area of a square of side",
     "options": [
-      "one dimension",
-      "two dimension",
-      "three dimension",
+      "1 m",
+      "5 m",
+      "10 m",
+      "20 m"
+    ],
+    "correct": 2,
+    "explain": "One 'are' is a metric unit of area equal to 100 square meters, which is the area of a square with 10-meter sides."
+  },
+  {
+    "id": 54757,
+    "q": "3. If L is the measured length of a base line whose elevation is h above M.S.L. The necessary correction to reduce the base length to M.S.L. is",
+    "options": [
+      "L * h / R",
+      "L * (h / R)^2",
+      "L/2 * (h / R)^2",
+      "L * R / h"
+    ],
+    "correct": 0,
+    "explain": "The correction for elevation (to reduce to Mean Sea Level) is $C_h = Lh/R$, where R is the radius of the Earth."
+  },
+  {
+    "id": 54758,
+    "q": "4. Chain survey method is most suitable",
+    "options": [
+      "in fairly level and open area",
+      "for large scale plans required for industrial site",
+      "comparatively small area",
       "all of these"
     ],
-    "correct": 1,
-    "explain": "A plain scale has only primary and secondary divisions, allowing two dimensions (e.g., units and tenths, such as metres and decimetres) to be read directly.",
-    "public_qn": "70024.210022"
+    "correct": 3,
+    "explain": "Chain surveying is limited to small, open, and level areas where the area can be easily divided into a network of triangles."
   },
   {
-    "id": 52143,
-    "q": "3. Chain surveying is well adopted for",
+    "id": 54759,
+    "q": "5. The principle of chain surveying is to divided the area into a number of",
     "options": [
-      "small areas in open ground",
-      "small areas with crowded details",
-      "large areas with simple details",
-      "large areas with difficult details"
+      "triangles",
+      "squares",
+      "rectangles",
+      "circles"
     ],
     "correct": 0,
-    "explain": "Chain surveying works best for small, fairly open areas with simple details, since it depends only on linear measurements which are easiest to take without obstructions.",
-    "public_qn": "70024.210024"
+    "explain": "Triangulation is the fundamental principle of chain surveying; a triangle is the only simple plane figure that can be plotted uniquely by measuring its sides only."
   },
   {
-    "id": 41452,
-    "q": "4. The correction for sag is",
+    "id": 54760,
+    "q": "6. For locating the locations of the individual points according to situation we resort to",
     "options": [
-      "always additive",
-      "always subtractive",
-      "always zero",
-      "sometimes additive and sometimes subtractive"
-    ],
-    "correct": 1,
-    "explain": "Sag in a tape suspended between supports always causes the measured length to be longer than the true straight-line distance, so the sag correction is always subtractive.",
-    "public_qn": "70024.210049"
-  },
-  {
-    "id": 52173,
-    "q": "5. Cross-staff is used for",
-    "options": [
-      "setting out right angles",
-      "measuring contour gradient",
-      "taking levels",
-      "measuring distances"
-    ],
-    "correct": 0,
-    "explain": "A cross-staff is a simple optical instrument with two pairs of slits/mirrors set at right angles to each other, used for setting out perpendicular offsets (right angles) in chain surveying.",
-    "public_qn": "70024.220005"
-  },
-  {
-    "id": 41473,
-    "q": "6. A base line in a chain survey",
-    "options": [
-      "checks the accuracy of the framework",
-      "enables the survey or locate the interior details which are far away from the main chain lines",
-      "fixes up the directions of all other lines",
-      "all of the above"
+      "perpendicular offsets",
+      "oblique offsets",
+      "short offsets",
+      "all of these"
     ],
     "correct": 3,
-    "explain": "The base line is the principal, most accurately measured line of the chain survey framework - it fixes the directions of other lines, enables location of details, and checks the overall accuracy, so all listed functions apply.",
-    "public_qn": "70024.220024"
-  },
-  {
-    "id": 41480,
-    "q": "7. While measuring with a metallic tape of 30 m length pull should be applied",
-    "options": [
-      "1 kg",
-      "2 kg",
-      "3 kg",
-      "4 kg"
-    ],
-    "correct": 2,
-    "explain": "For a standard 30 m metallic tape, a pull of about 3 kg (the same as the standardizing pull) is typically applied during measurement to maintain accuracy.",
-    "public_qn": "70024.220034"
-  },
-  {
-    "id": 52206,
-    "q": "8. Which one of the following mistakes/errors may be cumulative positive or negative?",
-    "options": [
-      "bad ranging",
-      "bad straightening",
-      "erroneous length of chain",
-      "sag"
-    ],
-    "correct": 3,
-    "explain": "The error due to sag in a tape is always cumulative and in one fixed direction (negative, i.e., measured length is too long) for a given tension and support condition -- however per key, sag is identified as the answer among mistakes that can be cumulative positive or negative depending on set-up.",
-    "public_qn": "70024.220050"
-  },
-  {
-    "id": 41494,
-    "q": "9. For the Abney clinometer the semi-circular arc is graduated as",
-    "options": [
-      "0 to 180",
-      "0 to 90 to 0",
-      "90 to 0 to 90",
-      "0 to 140"
-    ],
-    "correct": 2,
-    "explain": "The Abney clinometer's graduated arc runs from 90 to 0 to 90 degrees, allowing angles of elevation and depression to be read on either side of the horizontal.",
-    "public_qn": "70024.230010"
-  },
-  {
-    "id": 52216,
-    "q": "10. When a chain encounters a river",
-    "options": [
-      "chaining is obstructed but ranging is free",
-      "ranging is obstructed but chaining is free",
-      "both ranging and chaining are obstructed",
-      "both ranging and chaining are free"
-    ],
-    "correct": 0,
-    "explain": "When a river lies between two chain stations, the chain cannot be physically laid across the water (chaining obstructed), but the line of sight across the river remains clear (ranging free).",
-    "public_qn": "70024.230022"
-  },
-  {
-    "id": 41502,
-    "q": "11. The horizontal glass in an optical square is",
-    "options": [
-      "wholly silvered",
-      "wholly un silvered",
-      "one-fourth silvered and half un silvered",
-      "half silvered and half un silvered"
-    ],
-    "correct": 1,
-    "explain": "In an optical square, the horizon glass is wholly unsilvered (fully transparent), allowing direct sighting of one object while the other object's image is seen via the silvered index glass reflected through it.",
-    "public_qn": "70024.230028"
-  },
-  {
-    "id": 41519,
-    "q": "12. An angles of 45 with a chain line may be set out with",
-    "options": [
-      "optical square",
-      "open cross staff",
-      "french cross staff",
-      "prismatic square"
-    ],
-    "correct": 2,
-    "explain": "The french cross-staff has additional slits set at 45 degrees (besides the 90-degree ones), specifically enabling 45-degree offsets to be set out.",
-    "public_qn": "70024.230042"
-  },
-  {
-    "id": 41523,
-    "q": "13. When a chain line encounters a river",
-    "options": [
-      "chaining is obstructed but ranging is free",
-      "ranging is obstructed but chaining is free",
-      "both ranging and chaining are obstructed",
-      "both ranging and chaining are free"
-    ],
-    "correct": 0,
-    "explain": "When a chain line crosses a river, physical chaining across the water is obstructed, but ranging (establishing the line of sight/direction) remains possible since both banks are typically visible.",
-    "public_qn": "70024.230046"
-  },
-  {
-    "id": 41525,
-    "q": "14. Indirect ranging is adopted when the two ends of chain line are",
-    "options": [
-      "mutually invisible",
-      "too distant",
-      "on a sloping ground",
-      "separated by a valley"
-    ],
-    "correct": 0,
-    "explain": "Indirect (random line) ranging is used specifically when the two end stations of the chain line cannot see each other directly, i.e., they are mutually invisible.",
-    "public_qn": "70024.230048"
-  },
-  {
-    "id": 41529,
-    "q": "15. Handles are connected to the link by",
-    "options": [
-      "flexible joint",
-      "rigid joint",
-      "ball and stocks joint",
-      "swivel joint"
-    ],
-    "correct": 3,
-    "explain": "The handles of a chain are connected to the end links via a swivel joint, which allows the chain to be turned without twisting or kinking the links.",
-    "public_qn": "70024.230049"
-  },
-  {
-    "id": 52268,
-    "q": "16. Negative errors are causes in chain, when its length is",
-    "options": [
-      "more than the standard length",
-      "less than the standard length",
-      "equal to the standard length",
-      "any of the above"
-    ],
-    "correct": 0,
-    "explain": "If the actual chain is longer than its nominal/standard length, every measured distance comes out shorter than the true distance, resulting in a negative error.",
-    "public_qn": "70024.240009"
-  },
-  {
-    "id": 52276,
-    "q": "17. A line which joins subsidiary stations on the main lines of a chain survey network and serves to facilitate taking offsets to objects located at great distances from the main survey lines as called",
-    "options": [
-      "chain line",
-      "check line",
-      "tie line",
-      "base line"
-    ],
-    "correct": 2,
-    "explain": "By definition, a tie line joins two subsidiary points on the main chain lines and is used to take offsets to distant detail points, keeping the offsets short.",
-    "public_qn": "70024.240017"
+    "explain": "Offsets (both perpendicular and oblique) are used to locate the positions of objects relative to the main survey lines."
   },
   {
     "id": 52328,
-    "q": "18. The method of measuring distance by pacing is chiefly used in",
+    "q": "7. The method of measuring distance by pacing is chiefly used in",
     "options": [
       "reconnaissance surveys",
       "preliminary surveys",
@@ -234,21 +85,203 @@
     "public_qn": "70024.240024"
   },
   {
-    "id": 41187,
-    "q": "19. When the length of chain used in measuring distance is longer than the standard length error in measured distance will be",
+    "id": 54838,
+    "q": "8. Cumulative error that occur in chaining are proportional to .............",
     "options": [
-      "positive error",
-      "negative error",
+      "L",
+      "√L",
+      "1/L",
+      "1/√L"
+    ],
+    "correct": 0,
+    "explain": "Cumulative errors (like incorrect tape length) increase directly with the length of the line (L), whereas compensating errors are proportional to √L."
+  },
+  {
+    "id": 52329,
+    "q": "9. Direct ranging is possible only when the end stations are",
+    "options": [
+      "close to each other",
+      "not more than 100 m apart",
+      "mutually intervisible",
+      "located at highest points in the sea"
+    ],
+    "correct": 2,
+    "explain": "Direct ranging (fixing intermediate points on a line by eye alone) is possible only when the two end stations of the line are mutually intervisible.",
+    "public_qn": "70024.240025"
+  },
+  {
+    "id": 52330,
+    "q": "10. The error in measured length due to incorrect holding of chain is",
+    "options": [
       "compensating error",
+      "cumulative error",
+      "instrumental error",
+      "negative error"
+    ],
+    "correct": 0,
+    "explain": "Incorrect holding of the chain (not exactly along the line) sometimes lengthens and sometimes shortens the measured length randomly, so it is classified as a compensating (accidental) error.",
+    "public_qn": "70024.240026"
+  },
+  {
+    "id": 54845,
+    "q": "11. If the chain line which runs along N-S direction is horizontal and the ground in E-W direction is sloping .............",
+    "options": [
+      "it is possible to set offsets correctly on east side",
+      "it is possible to set offsets correctly on east side",
+      "it is not possible to set offsets correctly on west side",
+      "it is possible to set offsets correctly on both sides"
+    ],
+    "correct": 3,
+    "explain": "Slope in the transverse direction (perpendicular to the chain line) does not prevent the setting of offsets, though horizontal distances must be measured correctly."
+  },
+  {
+    "id": 54846,
+    "q": "12. Perpendicularity of an offset may be judged by eye, if the length of the offset is .............",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 2,
+    "explain": "Generally, for offsets shorter than 15m, the perpendicular can be estimated by eye without significant loss of accuracy for standard scales."
+  },
+  {
+    "id": 52346,
+    "q": "13. The most accurate measurement of the length of a long survey lines is made by using?",
+    "options": [
+      "steel band",
+      "invar tape",
+      "electronic distance measuring equipment",
+      "Auto reduction tacheometer"
+    ],
+    "correct": 1,
+    "explain": "Electronic Distance Measuring (EDM) equipment provides the highest accuracy for measuring the length of long survey lines, superior to steel bands, invar tapes, or tacheometry.",
+    "public_qn": "70024.240027"
+  },
+  {
+    "id": 54873,
+    "q": "14. The error due to bad ranging is .............",
+    "options": [
+      "cumulative positive",
+      "cumulative negative",
+      "compensating",
+      "cumulative positive or negative"
+    ],
+    "correct": 0,
+    "explain": "Bad ranging always makes the measured line longer than the true length, resulting in a cumulative positive error."
+  },
+  {
+    "id": 54874,
+    "q": "15. Offsets are .............",
+    "options": [
+      "short measurements from chain line",
+      "ties or check lines which are perpendicular to chain line",
+      "sets of minor instruments in chain surveying",
+      "chain lines which go out of alignment"
+    ],
+    "correct": 0,
+    "explain": "Offsets are lateral measurements taken from the main chain line to locate the positions of nearby features."
+  },
+  {
+    "id": 54875,
+    "q": "16. The tension, at which the effects of pull and sag for a tape are neutralised, is known as .............",
+    "options": [
+      "initial tension",
+      "absolute tension",
+      "surface tension",
+      "normal tension"
+    ],
+    "correct": 3,
+    "explain": "Normal tension is the specific pull applied to a tape so that the increase in length due to pull equals the decrease in length due to sag."
+  },
+  {
+    "id": 54876,
+    "q": "17. A line joining the apex of a triangle to some fixed point on the opposite side is called a .............",
+    "options": [
+      "check line",
+      "tie line",
+      "base line",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "A check line (or proof line) is used to verify the accuracy of the framework by measuring from a known vertex to a point on the opposite side."
+  },
+  {
+    "id": 54878,
+    "q": "18. Distance between two neighboring brass rings is .............",
+    "options": [
+      "less than 20 cm",
+      "20 cm",
+      "1 m",
+      "5 m"
+    ],
+    "correct": 2,
+    "explain": "In a metric chain, brass rings are typically provided at every 1 meter interval for easy counting."
+  },
+  {
+    "id": 54880,
+    "q": "19. When 1 cm on a map represents 10 m on the ground, the representative fraction of the scale is .............",
+    "options": [
+      "1/10",
+      "1/100",
+      "1/1000",
+      "1/10000"
+    ],
+    "correct": 2,
+    "explain": "RF = Map Distance / Ground Distance = 1cm / 1000cm = 1/1000."
+  },
+  {
+    "id": 54881,
+    "q": "20. The representative fraction 1/2500 means that the scale is .............",
+    "options": [
+      "1 cm = 0.25 m",
+      "1 cm = 2.5 m",
+      "1 cm = 25 m",
+      "1 cm = 250 m"
+    ],
+    "correct": 2,
+    "explain": "1/2500 means 1 cm on the map = 2500 cm on the ground. 2500 cm = 25 meters."
+  },
+  {
+    "id": 54882,
+    "q": "21. The main object of running a tie line is .............",
+    "options": [
+      "to check accuracy of the work",
+      "to take details of nearby objects",
+      "to take offsets for detailed surveying",
       "none of these"
     ],
     "correct": 1,
-    "explain": "If the chain used is longer than standard, fewer chain lengths are needed to cover the actual distance, so the recorded (measured) distance comes out less than the true distance - a negative error.",
-    "public_qn": "70024.240030"
+    "explain": "Tie lines are primarily used to pick up internal details of the area that are far from the main chain lines."
+  },
+  {
+    "id": 54883,
+    "q": "22. The main difference between an optical square and prism square is .............",
+    "options": [
+      "difference in principal of working",
+      "that optical square is more accurate than prism square",
+      "that no adjustment is required in a prism square since the angle between the reflecting surfaces cannot be changed",
+      "all of these"
+    ],
+    "correct": 2,
+    "explain": "While both use the principle of double reflection, the prism square is fixed and requires no adjustment compared to the mirrors in an optical square."
+  },
+  {
+    "id": 54905,
+    "q": "23. The difference between the most probable value and its observed value is .............",
+    "options": [
+      "true error",
+      "weighted observation",
+      "conditional error",
+      "residual error"
+    ],
+    "correct": 3,
+    "explain": "Residual error is the difference between the most probable value (MPV) and the actual measurement."
   },
   {
     "id": 52019,
-    "q": "20. Correction for Sag is always",
+    "q": "24. Correction for Sag is always",
     "options": [
       "positive",
       "negative",
@@ -260,172 +293,316 @@
     "public_qn": "70024.240031"
   },
   {
-    "id": 41208,
-    "q": "21. Greater accuracy in linear measurements, is obtained by",
+    "id": 52020,
+    "q": "25. One mile equals to",
     "options": [
-      "tacheometry",
-      "an invar tape",
-      "direct taping",
-      "all of the above"
-    ],
-    "correct": 1,
-    "explain": "An invar tape, with its very low coefficient of thermal expansion, provides the greatest accuracy for precise linear (base line) measurements among common methods.",
-    "public_qn": "70024.240033"
-  },
-  {
-    "id": 41087,
-    "q": "22. The length of a link of Gunter's chain is",
-    "options": [
-      "20 cm",
-      "1 foot",
-      "0.66 feet",
-      "2.065 feet"
-    ],
-    "correct": 2,
-    "explain": "Gunter's chain is 66 feet long with 100 links, so each link measures 66/100 = 0.66 feet.",
-    "public_qn": "70024.240040"
-  },
-  {
-    "id": 41088,
-    "q": "23. Which of the following angles can be set out with the help of French cross staff?",
-    "options": [
-      "45 only",
-      "90 only",
-      "Either 45 or 90",
-      "Any angle"
-    ],
-    "correct": 2,
-    "explain": "A French cross-staff has slits arranged specifically to allow offsets at either 90 degrees or 45 degrees to be set out, but no other angle.",
-    "public_qn": "70024.240041"
-  },
-  {
-    "id": 41092,
-    "q": "24. The obstacle, which obstructs vision but not chaining is a",
-    "options": [
-      "river",
-      "pond",
-      "hill",
-      "all of these"
-    ],
-    "correct": 1,
-    "explain": "A pond (or similar flat obstruction) blocks the line of sight across it but does not physically prevent chaining around or through shallow parts, unlike a hill which obstructs both vision and chaining.",
-    "public_qn": "70024.240044"
-  },
-  {
-    "id": 41116,
-    "q": "25. If the smallest division of a vernier is longer than the smallest division of its primary scale, the vernier is known as",
-    "options": [
-      "direct vernier",
-      "double vernier",
-      "retrograde vernier",
-      "simple vernier"
-    ],
-    "correct": 2,
-    "explain": "A vernier whose smallest division is longer than the main scale's smallest division, and whose graduations increase in the opposite direction to the main scale, is called a retrograde vernier.",
-    "public_qn": "70024.250002"
-  },
-  {
-    "id": 41139,
-    "q": "26. Chain survey method is most suitable",
-    "options": [
-      "in fairly level and open area",
-      "for large scale plans required for industrial site",
-      "comparatively small area",
-      "all of these"
-    ],
-    "correct": 0,
-    "explain": "Chain surveying is most suitable specifically for fairly level and open ground with simple details, where straight-line measurement is straightforward.",
-    "public_qn": "70024.250008"
-  },
-  {
-    "id": 41147,
-    "q": "27. Cumulative error that occur in chaining are proportional to",
-    "options": [
-      "L",
-      "sqrt(L)",
-      "1/L",
-      "1/sqrt(L)"
-    ],
-    "correct": 1,
-    "explain": "Cumulative (systematic) errors in chaining accumulate in proportion to the square root of the total length measured (L), following the statistical law for such errors.",
-    "public_qn": "70024.250011"
-  },
-  {
-    "id": 41713,
-    "q": "28. When the measured length is less than the actual length, the error is known as",
-    "options": [
-      "positive error",
-      "negative error",
-      "compensating error",
-      "instrumental error"
-    ],
-    "correct": 0,
-    "explain": "When the recorded/measured length comes out less than the true actual length (meaning a correction must be added), this is termed a positive error.",
-    "public_qn": "70024.250022"
-  },
-  {
-    "id": 41247,
-    "q": "29. Chain surveying consists of the arrangement of framework of triangles because a triangle is the only simple plane figure which can be plotted uniquely if ... of the triangle are known",
-    "options": [
-      "three sides",
-      "three angles",
-      "one side and two angles",
-      "one angle and two sides"
-    ],
-    "correct": 0,
-    "explain": "A triangle can be plotted uniquely and independently if the lengths of all three sides are known, which is why chain surveying (using linear measurements only) relies on a framework of triangles.",
-    "public_qn": "70024.250025"
-  },
-  {
-    "id": 41249,
-    "q": "30. The ranging of the line between two stations across raised ground is called",
-    "options": [
-      "direct ranging",
-      "indirect ranging",
-      "random line ranging",
+      "60 Gunter's Chain",
+      "80 Gunter's Chain",
+      "100 Gunter's Chain",
       "none of these"
     ],
     "correct": 1,
-    "explain": "When ranging a line between two stations across raised (intervening) ground where they are not mutually visible from ground level, indirect ranging is used.",
-    "public_qn": "70024.250026"
+    "explain": "Since a Gunter's chain is 66 feet long and one mile is 5280 feet, one mile equals 5280/66 = 80 Gunter's chains.",
+    "public_qn": "70024.240032"
   },
   {
-    "id": 41303,
-    "q": "31. A tape of length l and weight W kg/m is suspended at its ends with a pull of p kg, the correction is",
+    "id": 54922,
+    "q": "26. The distances AC and BC are measured from two fixed points A and B whose distance AB is known. The point C is plotted by intersection. This method is generally adopted in .............",
     "options": [
-      "l^3W^2/24P^2",
-      "l^2W^3/24P^2",
-      "l^2W^2/24P^3",
-      "lW^2/24P"
+      "chain surveying",
+      "traverse method of surveying",
+      "triangulation",
+      "none of these"
+    ],
+    "correct": 0,
+    "explain": "Locating a point by measuring two linear distances from two known points is the fundamental principle of offset measurement in chain surveying."
+  },
+  {
+    "id": 54924,
+    "q": "27. The systematic errors which persist and have regular effects in the performance of a survey operations, are due to .............",
+    "options": [
+      "careless",
+      "faulty instrument",
+      "inattention",
+      "none of these"
     ],
     "correct": 1,
-    "explain": "For a tape of length l with weight per unit length W suspended under pull P, the sag correction formula (in this book's notation) is given as l^2W^3/24P^2.",
-    "public_qn": "70024.250030"
+    "explain": "Systematic errors (also called cumulative errors) follow a mathematical law and are often caused by faulty instrument adjustment (e.g., a tape that is too short)."
   },
   {
-    "id": 41304,
-    "q": "32. Accidental or compensating errors of length L are proportional to",
+    "id": 54925,
+    "q": "28. The method of reversal .............",
     "options": [
-      "L",
-      "sqrt(L)",
-      "3*sqrt(L)",
-      "1/sqrt(L)"
+      "is usually directed to examine whether a certain part is truly parallel or perpendicular to another",
+      "makes the erroneous relationship between parts evident",
+      "both 'a' and 'b'",
+      "neither 'a' nor 'b'"
+    ],
+    "correct": 2,
+    "explain": "Reversing the instrument (like face left/face right) doubles the instrumental error, making it clearly visible so it can be corrected or averaged out."
+  },
+  {
+    "id": 54926,
+    "q": "29. The apparent error on reversal is .............",
+    "options": [
+      "equal to the actual error",
+      "twice the actual error",
+      "thrice the actual error",
+      "none of these"
     ],
     "correct": 1,
-    "explain": "Accidental (compensating) errors accumulate in proportion to the square root of the total measured length L, following the statistical law of random errors.",
-    "public_qn": "70024.250031"
+    "explain": "When you reverse an instrument, the existing error is applied in the opposite direction, making the apparent gap between the two readings twice the actual error."
   },
   {
-    "id": 41305,
-    "q": "33. While measuring a chain line between two stations A and B intervened by a raised ground",
+    "id": 54940,
+    "q": "30. During chaining along a straight line, the leader of the party has 4 arrows in his hand while the follower has 6. Distance of the follower from the starting point is .............",
     "options": [
-      "vision gets obstructed",
-      "chaining gets obstructed",
-      "both vision and chaining get obstructed",
+      "4 chains",
+      "6 chains",
+      "120 m",
+      "180 m"
+    ],
+    "correct": 1,
+    "explain": "The number of arrows held by the follower indicates the number of full chain lengths completed from the starting point."
+  },
+  {
+    "id": 54941,
+    "q": "31. A metallic tape is made of .............",
+    "options": [
+      "steel",
+      "invar",
+      "linen",
+      "cloth and wires"
+    ],
+    "correct": 3,
+    "explain": "Metallic tapes are made of waterproof linen reinforced with fine brass or copper wires to prevent stretching."
+  },
+  {
+    "id": 54961,
+    "q": "32. A line joining some fixed points on the main survey lines, is called a .............",
+    "options": [
+      "check line",
+      "tie line",
+      "base line",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "A tie line joins fixed points on main lines to enable the location of interior details and to check the accuracy of the framework."
+  },
+  {
+    "id": 54962,
+    "q": "33. A base line in a chain survey .............",
+    "options": [
+      "checks the accuracy of the framework",
+      "enables the survey or locate the interior details which are far away from the main chain lines",
+      "fixes up the directions of all other lines",
       "all of the above"
     ],
     "correct": 2,
-    "explain": "A raised intervening ground obstructs both the line of sight between the two stations and the physical continuity of chaining across it, so both vision and chaining get obstructed.",
-    "public_qn": "70024.250032"
+    "explain": "The base line is the longest and most important line in a chain survey, providing the backbone for the entire framework and detail location."
+  },
+  {
+    "id": 54964,
+    "q": "34. Chain surveying is most suitable when .............",
+    "options": [
+      "area to be surveyed is small",
+      "ground is fairly level and open with simple details",
+      "plans are required on a large scale",
+      "all of the above"
+    ],
+    "correct": 3,
+    "explain": "Chain surveying is limited by its simplicity; it is best for small, flat, uncomplicated areas where high-precision angular work isn't required."
+  },
+  {
+    "id": 54966,
+    "q": "35. If L is the specified length of a tape, L1 its actual length and S the measured distance, then the true distance is given by the formula .............",
+    "options": [
+      "L1/L x S",
+      "L/L1 x S",
+      "L-L1/L x S",
+      "(L1/L)^2 x S"
+    ],
+    "correct": 0,
+    "explain": "True Distance = (Actual Length / Nominal Length) x Measured Distance. If the tape is longer than specified, the recorded distance is too short, and vice versa."
+  },
+  {
+    "id": 54967,
+    "q": "36. Metric chains are generally available in .............",
+    "options": [
+      "10 m and 20 m length",
+      "15 m and 20 m length",
+      "20 m and 30 m length",
+      "25 m and 100 m length"
+    ],
+    "correct": 2,
+    "explain": "Standard IS metric chains are manufactured in lengths of 5, 10, 20, and 30 meters. 20m and 30m are the most common in field work."
+  },
+  {
+    "id": 54969,
+    "q": "37. While measuring with a metallic tape of 30 m length pull should be applied .............",
+    "options": [
+      "1 kg",
+      "2 kg",
+      "3 kg",
+      "4 kg"
+    ],
+    "correct": 2,
+    "explain": "A standard pull of about 3 kg (or 30 Newtons) is usually recommended for metallic tapes to counteract sag and ensure accuracy."
+  },
+  {
+    "id": 54973,
+    "q": "38. A check line in a chain surveying .............",
+    "options": [
+      "checks the accuracy of the framework",
+      "enables the surveyor to locate the interior details which are far away from the main chain lines",
+      "fixed up the directions of all other lines",
+      "all of the above"
+    ],
+    "correct": 0,
+    "explain": "The sole purpose of a check line (proof line) is to verify the accuracy of the framework measurements during plotting."
+  },
+  {
+    "id": 54974,
+    "q": "39. A tie line in a chain surveying .............",
+    "options": [
+      "checks the accuracy of the framework",
+      "enables the surveyor to locate the interior details which are far away from the main chain lines",
+      "fixed up the directions of all other lines",
+      "all of the above"
+    ],
+    "correct": 1,
+    "explain": "Tie lines are secondary lines used to pick up interior details that are too far from the main survey lines to be accurately measured by offsets."
+  },
+  {
+    "id": 54975,
+    "q": "40. Then the position of a point is to be located accurately by a perpendicular offset, the direction of perpendicular is set out by means of .............",
+    "options": [
+      "theodolite",
+      "optical square",
+      "dumpy level",
+      "planimeter"
+    ],
+    "correct": 1,
+    "explain": "An optical square is a small, portable instrument used for setting out right angles to a line with higher precision than a cross-staff."
+  },
+  {
+    "id": 54976,
+    "q": "41. The accuracy in laying down the perpendicular offsets and in measuring them depends upon .............",
+    "options": [
+      "scale of plotting",
+      "length of offset",
+      "importance of the object",
+      "all of these"
+    ],
+    "correct": 3,
+    "explain": "Accuracy requirements vary based on how small the scale of the map is, how far the point is from the chain line, and how critical the object is to the survey."
+  },
+  {
+    "id": 54977,
+    "q": "42. The limiting length of the offset is ............. when its perpendicular direction is set out by an eye.",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 2,
+    "explain": "When setting offsets by eye (without an instrument), the maximum length is generally restricted to 15m to keep the error within permissible limits."
+  },
+  {
+    "id": 54978,
+    "q": "43. The instrument used for setting out an offset at a right angle, is called .............",
+    "options": [
+      "open cross-staff",
+      "french cross-staff",
+      "adjustable cross-staff",
+      "optical square"
+    ],
+    "correct": 0,
+    "explain": "While cross-staffs can do this, the optical square is the specific high-accuracy choice among these options for 90-degree offsets."
+  },
+  {
+    "id": 54979,
+    "q": "44. The adjustable cross-staff is used for setting out an offset .............",
+    "options": [
+      "at an angle of 45°",
+      "at an angle of 60°",
+      "at a right angle",
+      "at any angle"
+    ],
+    "correct": 3,
+    "explain": "An adjustable cross-staff consists of two cylinders that can be rotated relative to each other, allowing any angle to be set and observed."
+  },
+  {
+    "id": 54980,
+    "q": "45. For setting out an offset at an angle 45°, ............. cross-staff is used.",
+    "options": [
+      "open",
+      "french",
+      "adjustable",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "The French cross-staff is octagonal and has sights that allow angles of 45° and 90° to be set out."
+  },
+  {
+    "id": 54983,
+    "q": "46. For the Abney clinometer the semi-circular arc is graduated as",
+    "options": [
+      "0° to 180°",
+      "0° to 90° to 0°",
+      "90° to 0° to 90°",
+      "0° to 140°"
+    ],
+    "correct": 2,
+    "explain": "The Abney clinometer's arc is graduated from 0° at the center to 90° on either side to measure both angles of elevation and depression."
+  },
+  {
+    "id": 54984,
+    "q": "47. To use the Abney clinometer as Abney level the vernier should read",
+    "options": [
+      "0°",
+      "90°",
+      "0° or 180°",
+      "it is not possible to use clinometer as hand level"
+    ],
+    "correct": 0,
+    "explain": "When the vernier is set to 0°, the line of sight becomes horizontal, allowing the clinometer to function as a basic hand level."
+  },
+  {
+    "id": 54990,
+    "q": "48. A scale which has a common representative fraction, but read in different measures, is called a",
+    "options": [
+      "plain scale",
+      "diagonal scale",
+      "shrunk scale",
+      "comparative scale"
+    ],
+    "correct": 3,
+    "explain": "Comparative scales (or corresponding scales) have the same R.F. but graduate in different units, like miles and kilometers."
+  },
+  {
+    "id": 54991,
+    "q": "49. In a direct vernier, the smallest division of a vernier is ............ the smallest division of its primary scale.",
+    "options": [
+      "equal to",
+      "shorter than",
+      "longer than",
+      "none of these"
+    ],
+    "correct": 1,
+    "explain": "In a direct vernier, $(n-1)$ divisions of the main scale are divided into $n$ divisions on the vernier, making each vernier division slightly shorter than a main scale division."
+  },
+  {
+    "id": 54992,
+    "q": "50. Measurements taken with a wrong scale can be corrected by using the relation",
+    "options": [
+      "true length = (correct scale / wrong scale) × measured length",
+      "true length = (correct scale / wrong scale)² × measured length",
+      "true length = (correct scale / wrong scale)³ × measured length",
+      "none of these"
+    ],
+    "correct": 3,
+    "explain": "Linear correction is proportional to the ratio of the scales. For area, the ratio would be squared; for volume, cubed."
   }
 ]
