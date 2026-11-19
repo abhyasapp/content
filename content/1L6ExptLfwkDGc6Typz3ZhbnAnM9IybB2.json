@@ -1,332 +1,33 @@
 [
   {
-    "id": 54480,
-    "q": "1. When the curve is to be set out over a rough ground, the method used is ...............",
+    "id": 54827,
+    "q": "1. The polar equation for a lemniscate curve is .............",
     "options": [
-      "Rankine's method",
-      "two theodolite method",
-      "Tacheometric method",
-      "either 'b' or 'c'"
-    ],
-    "correct": 3,
-    "explain": "On rough ground where chaining is difficult, methods that use angles or optical distance measurement (two-theodolite or tacheometric) are preferred.",
-    "public_qn": "70024.1010002"
-  },
-  {
-    "id": 54481,
-    "q": "2. The theodolite method off setting out a curve involves ...............",
-    "options": [
-      "linear measurements only",
-      "angular measurements only",
-      "both linear and angular measurements",
-      "none of these"
+      "l = k √sin θ",
+      "l = k √sin 2θ",
+      "l = k √cos θ",
+      "l = k √cos 2θ"
     ],
     "correct": 1,
-    "explain": "Theodolite methods (like the two-theodolite method) primarily rely on angular observations to define points on the curve.",
-    "public_qn": "70024.1010003"
+    "explain": "The Bernoulli's Lemniscate is defined by the polar equation $r^2 = a^2 \\cos 2\\theta$ (or $l = k \\sqrt{\\cos 2\\theta}$ in this context).",
+    "public_qn": "70024.1020027"
   },
   {
-    "id": 54482,
-    "q": "3. A curve of varying radius is known as ...............",
+    "id": 54828,
+    "q": "2. A lemniscate curve between the tangents is transitional throughout, if the polar deflection angle of its apex is equal to .............",
     "options": [
-      "simple curve",
-      "compound curve",
-      "reverse curve",
-      "transition curve"
+      "φ/3",
+      "φ/4",
+      "φ/5",
+      "φ/6"
     ],
     "correct": 3,
-    "explain": "A transition curve is designed to have a radius that changes continuously (usually from infinity to a fixed radius) to provide a gradual change in centrifugal force.",
-    "public_qn": "70024.1010004"
-  },
-  {
-    "id": 54504,
-    "q": "4. In a reverse curve, the super elevation provided at the point of reverse curvature is ...............",
-    "options": [
-      "zero",
-      "minimum",
-      "maximum",
-      "dependent on the element of reverse curve"
-    ],
-    "correct": 0,
-    "explain": "At the point of reverse curvature, the direction of curvature changes; therefore, the super-elevation must pass through zero as it switches sides.",
-    "public_qn": "70024.1010007"
-  },
-  {
-    "id": 54510,
-    "q": "5. Different grades are joined together by ...............",
-    "options": [
-      "compound curve",
-      "transition curve",
-      "reverse curve",
-      "vertical curve"
-    ],
-    "correct": 3,
-    "explain": "A vertical curve is used to provide a smooth transition between two different gradients (grades) on a road or railway.",
-    "public_qn": "70024.1010008"
-  },
-  {
-    "id": 54732,
-    "q": "6. The properties of autogenous curve for automobiles are given by",
-    "options": [
-      "true spiral",
-      "cubic parabola",
-      "Bernoulli's lemniscate",
-      "clothoid spiral"
-    ],
-    "correct": 2,
-    "explain": "Bernoulli's lemniscate is considered the ideal transition curve for highways where the deflection angle is large, as it mimics the natural path of a vehicle's steering.",
-    "public_qn": "70024.1010015"
-  },
-  {
-    "id": 52320,
-    "q": "7. The spiral angle of a transition curve will be given by the equation",
-    "options": [
-      "L2/2R",
-      "L/2R",
-      "2R/L",
-      "l/2"
-    ],
-    "correct": 1,
-    "explain": "The spiral (deflection) angle of a transition curve at any point is given by the formula phi = L2/(2*R*Ls) which, at the end of a full transition curve of length L, reduces to the standard form L2/2R (for the total spiral length).",
-    "public_qn": "70024.1010014"
-  },
-  {
-    "id": 54884,
-    "q": "8. Rankine's deflection angle in minutes is obtained by multiplying the length of the chord by .............",
-    "options": [
-      "degree of the curve",
-      "square of the degree of the curve",
-      "inverse of the degree of the curve",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "Rankine's method relates the deflection angle directly to the chord length and the degree of the curve (or radius).",
-    "public_qn": "70024.1010030"
-  },
-  {
-    "id": 54886,
-    "q": "9. Shift of a curve, is .............",
-    "options": [
-      "L²/6R",
-      "L/24R",
-      "L²/24R",
-      "L/6R"
-    ],
-    "correct": 2,
-    "explain": "The shift (S) required for a transition curve is calculated using the formula S = L²/24R.",
-    "public_qn": "70024.1010034"
-  },
-  {
-    "id": 51995,
-    "q": "10. A reverse curve consists of",
-    "options": [
-      "a single curve of a circle connecting two straights",
-      "two arcs of different radii bending in the same direction",
-      "two arcs of equal radii bending in the same direction",
-      "two arcs of equal or different radii bending in the opposite directions"
-    ],
-    "correct": 3,
-    "explain": "A reverse curve is composed of two circular arcs (of equal or different radii) that curve in opposite directions, joined at a common tangent point.",
-    "public_qn": "70024.1010018"
-  },
-  {
-    "id": 51996,
-    "q": "11. When the centers of the arcs lie on the opposite sides of the common tangent at the junction of the two curves, it is known as a",
-    "options": [
-      "simple curve",
-      "vertical curve",
-      "compound curve",
-      "reverse curve"
-    ],
-    "correct": 3,
-    "explain": "This specific geometric arrangement, where the centres of curvature of the two joined arcs lie on opposite sides of their common tangent, defines a reverse curve.",
-    "public_qn": "70024.1010019"
-  },
-  {
-    "id": 52000,
-    "q": "12. The angle between the back tangent and forward tangent of a curve is known as",
-    "options": [
-      "deflection angle",
-      "central angle",
-      "angle of intersection",
-      "none of these"
-    ],
-    "correct": 2,
-    "explain": "The angle subtended at the centre of the curve between the back tangent and the forward tangent (or equivalently between the two radii to the tangent points) is called the central angle.",
-    "public_qn": "70024.1010023"
-  },
-  {
-    "id": 52001,
-    "q": "13. The angle by which the forward tangent deflects from the back tangent of a curve is called",
-    "options": [
-      "deflection angle",
-      "central angle",
-      "angle of intersection",
-      "none of these"
-    ],
-    "correct": 0,
-    "explain": "The deflection angle is, by definition, the angle by which the forward tangent direction deflects from the direction of the back tangent.",
-    "public_qn": "70024.1010024"
-  },
-  {
-    "id": 52003,
-    "q": "14. The length of peg interval for flat curves is",
-    "options": [
-      "15 m",
-      "20 m",
-      "25 m",
-      "30 m"
-    ],
-    "correct": 3,
-    "explain": "For flat (large radius) curves, pegs are usually set out at the full standard chord interval of 30 m, as used for the degree-of-curve definition.",
-    "public_qn": "70024.1010026"
-  },
-  {
-    "id": 52007,
-    "q": "15. Different grades are jointed together by",
-    "options": [
-      "transition curve",
-      "horizontal curve",
-      "vertical curve",
-      "compound curve"
-    ],
-    "correct": 2,
-    "explain": "Vertical curves are used to smoothly join two different longitudinal gradients (grades) on a road or railway alignment.",
-    "public_qn": "70024.1010029"
-  },
-  {
-    "id": 52009,
-    "q": "16. The angle of intersection of a curve is the angle between",
-    "options": [
-      "forward tangent and back tangent",
-      "forward tangent and long chord",
-      "both of above",
-      "none of above"
-    ],
-    "correct": 0,
-    "explain": "As stated in Q12, the angle of intersection of a curve is the angle between the (prolongation of) back tangent and the forward tangent.",
-    "public_qn": "70024.1010033"
-  },
-  {
-    "id": 54949,
-    "q": "17. Designation of a curve is made by .............",
-    "options": [
-      "angle subtended by a chord of any length",
-      "angle subtended by an arc of specified length",
-      "radius of the curve",
-      "curvature of the curve"
-    ],
-    "correct": 2,
-    "explain": "In engineering practice, a curve is primarily designated either by its Radius (R) or by its Degree of Curvature (D).",
-    "public_qn": "70024.1010038"
-  },
-  {
-    "id": 54986,
-    "q": "18. If D is the degree of the curve of radius R, the exact length of its specified chord, is",
-    "options": [
-      "radius of the curve × sine of half the degree",
-      "diameter of the curve × sine of half the degree",
-      "diameter of the curve × cosine of half the degree",
-      "diameter of the curve × tangent of half the degree"
-    ],
-    "correct": 1,
-    "explain": "Using trigonometry, the chord length $L = 2R sin(D/2)$. Since $2R$ is the diameter, the expression is diameter $\times sin(D/2)$.",
-    "public_qn": "70024.1010039"
-  },
-  {
-    "id": 55006,
-    "q": "19. The shape of vertical curve generally provided is",
-    "options": [
-      "circular",
-      "parabolic",
-      "spiral",
-      "elliptical"
-    ],
-    "correct": 1,
-    "explain": "Parabolic curves are preferred for vertical curves because they provide a constant rate of change of grade, leading to a smoother transition.",
-    "public_qn": "70024.1010040"
-  },
-  {
-    "id": 46121,
-    "q": "20. Overturning of vehicles on a curve can be avoided by using",
-    "options": [
-      "transition curve",
-      "vertical curve",
-      "compound curve",
-      "reverse curve"
-    ],
-    "correct": 0,
-    "explain": "0) A **transition curve** (spiral) gradually changes the radius from infinity to a fixed value, allowing the centrifugal force to build up slowly and providing space to apply super-elevation, which prevents overturning. 1) Vertical curves handle changes in slope (up/down), not lateral stability. 2) and 3) These are types of circular curves that still have an abrupt change in curvature at the tangent point, which is where overturning risk is highest.",
-    "public_qn": "70024.1020003"
-  },
-  {
-    "id": 54604,
-    "q": "21. When R is radius (m) and D is degree of curve, relation for 30 m chord is",
-    "options": [
-      "R = 1520/D",
-      "R = 1720/D",
-      "R = 4500/D",
-      "R = 5400/D"
-    ],
-    "correct": 1,
-    "explain": "For a 30m chord, $R = (30 \\times 180) / (\\pi \\times D) \\approx 1718.87 / D$. This is usually rounded to $1720/D$ in many textbooks.",
-    "public_qn": "70024.1020015"
-  },
-  {
-    "id": 54643,
-    "q": "22. In a lemniscate curve, the angle between the tangent at the end of the polar ray and the tangent at the commencement of the curve (i.e., straight) is ............. the angle between the polar ray and the straight .............",
-    "options": [
-      "equal to",
-      "double",
-      "three times",
-      "four times"
-    ],
-    "correct": 2,
-    "explain": "In a lemniscate curve, the polar deflection angle ($\\alpha$) is related to the total deflection angle ($\\delta$) such that $\\delta = 3\\alpha$.",
-    "public_qn": "70024.1020019"
-  },
-  {
-    "id": 54645,
-    "q": "23. A reverse curve consists of .............",
-    "options": [
-      "a single curve of a circle connecting two straights",
-      "two arcs of different radii bending in the same direction",
-      "two arcs of equal radii bending in the same direction",
-      "two arcs of equal or different radii bending in the opposite direction"
-    ],
-    "correct": 3,
-    "explain": "A reverse curve (S-curve) consists of two circular arcs with centers on opposite sides of a common tangent.",
-    "public_qn": "70024.1020020"
-  },
-  {
-    "id": 54763,
-    "q": "24. The angle by which the forward tangent deflects from the back tangent of a curve is known as .............",
-    "options": [
-      "deflection angle",
-      "central angle",
-      "angle of intersection",
-      "none of the above"
-    ],
-    "correct": 0,
-    "explain": "The deflection angle is the angle at which the new direction (forward tangent) deviates from the extension of the previous direction (back tangent).",
-    "public_qn": "70024.1020022"
-  },
-  {
-    "id": 54825,
-    "q": "25. The perpendicular offset from a tangent to the junction of transition curve and circular curve is equal to .............",
-    "options": [
-      "L/6R",
-      "L/24R",
-      "L²/6R",
-      "L²/24R"
-    ],
-    "correct": 2,
-    "explain": "This offset value is mathematically derived for a spiral transition curve to ensure a smooth change in curvature; it is often noted as $Y = L^2 / (24R)$.",
-    "public_qn": "70024.1020025"
+    "explain": "For a fully transitional lemniscate curve, the polar deflection angle at the end is exactly one-sixth of the total deflection angle $\\phi$.",
+    "public_qn": "70024.1020028"
   },
   {
     "id": 54829,
-    "q": "26. If the radius of a simple curve is 600 m, the maximum length of the chord for calculating offsets, is taken .............",
+    "q": "3. If the radius of a simple curve is 600 m, the maximum length of the chord for calculating offsets, is taken .............",
     "options": [
       "10 m",
       "15 m",
@@ -339,7 +40,7 @@
   },
   {
     "id": 54830,
-    "q": "27. A ideal vertical curve to join two gradients, is .............",
+    "q": "4. A ideal vertical curve to join two gradients, is .............",
     "options": [
       "circular",
       "parabolic",
@@ -349,5 +50,18 @@
     "correct": 1,
     "explain": "A simple parabola is used for vertical curves because it provides a constant rate of change of grade, ensuring smooth vehicle motion.",
     "public_qn": "70024.1020030"
+  },
+  {
+    "id": 54831,
+    "q": "5. A lemniscate curve will not be transitional throughout, if its deflection angle, is .............",
+    "options": [
+      "45°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correct": 0,
+    "explain": "The lemniscate loses its specific transition properties once the deflection angle reaches or exceeds $45°$.",
+    "public_qn": "70024.1020031"
   }
 ]
