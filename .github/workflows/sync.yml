@@ -2,8 +2,11 @@ name: Sync Drive to GitHub
 
 on:
   schedule:
-    - cron: '0 5 * * *'
-    - cron: '0 17 * * *'
+    # Content reaches the app only through this mirror (jsDelivr serves
+    # abhyasapp/content@main), so the pipeline's upload is invisible until
+    # this runs. Every 30 minutes keeps that lag short; the run is cheap when
+    # nothing changed (md5 compare, then no commit).
+    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       force_full:
